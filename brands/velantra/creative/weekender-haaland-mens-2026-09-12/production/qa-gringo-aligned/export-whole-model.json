@@ -1,0 +1,29 @@
+{
+  "review_id": "portrait_fashion_ad_103",
+  "review_verdict": "Needs Revision",
+  "errors": [
+    {
+      "timestamp_start": "00:07",
+      "timestamp_end": "00:47",
+      "description": "Observation: The product shown in lifestyle photos with models (e.g., at 00:07, 00:19, 00:30, 00:40) has a different design (two small flap pockets on the main flap) than the product shown in the studio shots and interior demonstration (e.g., at 00:12, 00:23, 00:34, 00:44), which has a single, solid top flap. Two different bags are being used interchangeably to represent a single product, which is a critical visual inconsistency.",
+      "severity": "Critical",
+      "category": "product_visual_error"
+    },
+    {
+      "timestamp_start": "00:00",
+      "timestamp_end": "00:02",
+      "description": "The opening line of narration, \"Nobody does it like Erling Haaland,\" is not captioned. The first on-screen text appears after this line is spoken.",
+      "severity": "Major",
+      "category": "caption_mismatch_or_omission"
+    },
+    {
+      "timestamp_start": "00:10",
+      "timestamp_end": "00:12",
+      "description": "The caption 'VELANTRA WEEKENDER.' is an incomplete summary of the corresponding narration, \"Take a look at the Velantra Weekender.\"",
+      "severity": "Moderate",
+      "category": "caption_mismatch_or_omission"
+    }
+  ],
+  "warnings": [],
+  "notes": "Review completed for the entire 47.7s video. No Media Offline frames, unintended black/green areas, frozen presenter, text over critical areas, repeated scenes, or malformed product motion were observed. The product features (handles, interior pocket) were confirmed to match the specifications in the shots where the primary studio bag was shown. The key issues are the use of two different bag models and incomplete captioning."
+}

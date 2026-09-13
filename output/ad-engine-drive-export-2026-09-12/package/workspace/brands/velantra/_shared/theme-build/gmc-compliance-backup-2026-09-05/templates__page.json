@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_content_XKPXJi": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_Uambix": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"velantra-about-section\">\n  <div class=\"velantra-about-wrapper\">\n    <h1 class=\"velantra-about-title\">About Velantra<\/h1>\n\n    <p class=\"velantra-about-text\">\n      Velantra exists for the professional woman who's done chasing trends and tired of bags that break their promises.\n    <\/p>\n\n    <p class=\"velantra-about-text\">\n      We create structured, heritage-quality handbags that do what accessible luxury was supposed to do all along: deliver on craftsmanship, stand the test of time, and project quiet confidence without screaming for attention.\n    <\/p>\n\n    <p class=\"velantra-about-text\">\n      Every Velantra bag is built on three principles: durability that justifies the investment, timeless design that transcends seasons, and understated elegance that elevates without effort. From our reinforced stitching to our premium heritage canvas and top-grain leather, we're obsessed with the details that make a bag hold its shape, develop character through patina, and become more valuable with every wear.\n    <\/p>\n\n    <p class=\"velantra-about-text\">\n      This is luxury that works as hard as you do. Built for the long term, not the landfill. Because the smartest investment is not the one that turns heads. It is the one that lasts.\n    <\/p>\n  <\/div>\n<\/div>\n\n<style>\n  .velantra-about-section {\n    width: 100%;\n    padding: 60px 0;\n  }\n\n  .velantra-about-wrapper {\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 0 20px;\n    text-align: left;\n  }\n\n  .velantra-about-title {\n    font-size: clamp(28px, 4vw, 42px);\n    font-weight: 600;\n    margin-bottom: 28px;\n  }\n\n  .velantra-about-text {\n    font-size: 1.05rem;\n    line-height: 1.6;\n    margin-bottom: 20px;\n  }\n<\/style>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_Uambix"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_content_XKPXJi"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "shot": "HC2",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "She settles her hands on her knees, lowers her eyes and releases a small tired breath, with the bathroom and remedies unchanged. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/HC2.png",
+  "reference_sha256": "ce374aed4df641c26922ba73e8eb0f588ca59f74b13a8eac623674253087ab3f",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chc0N0tnYXFubEg1X2p6N0lQdHNucDJRdxIXNDdLZ2FxbmxINV9qejdJUHRzbnAyUXc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/HC2.mp4",
+  "sha256": "eb64bee3521f161a2081f32db3555d36779294fca5537e08ae710c1b5e843067",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 59860,
+    "total_input_tokens": 1157,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 57
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58445,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 258,
+    "raw_prompt_token": 31265,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1850
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 531
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 258
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

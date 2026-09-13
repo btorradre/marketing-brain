@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 4,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "VEL-COL-076-macro-gold-disc.mp4",
+        "size": 2602378,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "VEL-COL-076-macro-gold-disc.mp4",
+        "uploadPath": "broll/library-2026-08/clips/VEL-COL-076-macro-gold-disc.mp4",
+        "durationInSeconds": 10.005,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": true,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 2,
+          "sampleRate": 48000,
+          "integratedLufs": -46.8
+        },
+        "sourceManifest": {
+          "audioChannels": 2,
+          "audioSampleRate": 48000,
+          "audioStartOffsetInSeconds": 0,
+          "audioStreamDurationInSeconds": 10.005,
+          "originalFilename": "VEL-COL-076-macro-gold-disc.mp4",
+          "videoStreamDurationInSeconds": 10
+        }
+      },
+      "result": {
+        "assetId": "3a3cba41-69c0-40b1-95e9-f2424a4fc92d",
+        "assetType": "video",
+        "filename": "VEL-COL-076-macro-gold-disc.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/3a3cba41-69c0-40b1-95e9-f2424a4fc92d/VEL-COL-076-macro-gold-disc.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/3a3cba41-69c0-40b1-95e9-f2424a4fc92d/VEL-COL-076-macro-gold-disc.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/3a3cba41-69c0-40b1-95e9-f2424a4fc92d/VEL-COL-076-macro-gold-disc.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/3a3cba41-69c0-40b1-95e9-f2424a4fc92d/VEL-COL-076-macro-gold-disc.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "broll/library-2026-08/clips/VEL-COL-076-macro-gold-disc.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "VEL-COL-081-macro-hand-on-handle.mp4",
+        "size": 2666658,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "VEL-COL-081-macro-hand-on-handle.mp4",
+        "uploadPath": "broll/library-2026-08/clips/VEL-COL-081-macro-hand-on-handle.mp4",
+        "durationInSeconds": 10.005,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": true,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 2,
+          "sampleRate": 48000,
+          "integratedLufs": -45.3
+        },
+        "sourceManifest": {
+          "audioChannels": 2,
+          "audioSampleRate": 48000,
+          "audioStartOffsetInSeconds": 0,
+          "audioStreamDurationInSeconds": 10.005,
+          "originalFilename": "VEL-COL-081-macro-hand-on-handle.mp4",
+          "videoStreamDurationInSeconds": 10
+        }
+      },
+      "result": {
+        "assetId": "f478930e-ad7e-47f7-8917-21d3ef146a5f",
+        "assetType": "video",
+        "filename": "VEL-COL-081-macro-hand-on-handle.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/f478930e-ad7e-47f7-8917-21d3ef146a5f/VEL-COL-081-macro-hand-on-handle.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/f478930e-ad7e-47f7-8917-21d3ef146a5f/VEL-COL-081-macro-hand-on-handle.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/f478930e-ad7e-47f7-8917-21d3ef146a5f/VEL-COL-081-macro-hand-on-handle.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/f478930e-ad7e-47f7-8917-21d3ef146a5f/VEL-COL-081-macro-hand-on-handle.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "broll/library-2026-08/clips/VEL-COL-081-macro-hand-on-handle.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "VEL-COL-083-macro-corner-base.mp4",
+        "size": 2604419,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "VEL-COL-083-macro-corner-base.mp4",
+        "uploadPath": "broll/library-2026-08/clips/VEL-COL-083-macro-corner-base.mp4",
+        "durationInSeconds": 10,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": false,
+        "transcriptionState": "no_audio",
+        "transcriptionSkipReason": "no_audio_track",
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "VEL-COL-083-macro-corner-base.mp4",
+          "videoStreamDurationInSeconds": 10
+        }
+      },
+      "result": {
+        "assetId": "e7cc6fc3-9849-448a-b272-21cc772c8bc6",
+        "assetType": "video",
+        "filename": "VEL-COL-083-macro-corner-base.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e7cc6fc3-9849-448a-b272-21cc772c8bc6/VEL-COL-083-macro-corner-base.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e7cc6fc3-9849-448a-b272-21cc772c8bc6/VEL-COL-083-macro-corner-base.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e7cc6fc3-9849-448a-b272-21cc772c8bc6/VEL-COL-083-macro-corner-base.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e7cc6fc3-9849-448a-b272-21cc772c8bc6/VEL-COL-083-macro-corner-base.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "broll/library-2026-08/clips/VEL-COL-083-macro-corner-base.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "VEL-COL-085-macro-side-gusset.mp4",
+        "size": 1495237,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "VEL-COL-085-macro-side-gusset.mp4",
+        "uploadPath": "broll/library-2026-08/clips/VEL-COL-085-macro-side-gusset.mp4",
+        "durationInSeconds": 10,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": false,
+        "transcriptionState": "no_audio",
+        "transcriptionSkipReason": "no_audio_track",
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "VEL-COL-085-macro-side-gusset.mp4",
+          "videoStreamDurationInSeconds": 10
+        }
+      },
+      "result": {
+        "assetId": "e2aa8f41-7fc3-4e0c-8a32-3614aa1d5fae",
+        "assetType": "video",
+        "filename": "VEL-COL-085-macro-side-gusset.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e2aa8f41-7fc3-4e0c-8a32-3614aa1d5fae/VEL-COL-085-macro-side-gusset.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e2aa8f41-7fc3-4e0c-8a32-3614aa1d5fae/VEL-COL-085-macro-side-gusset.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e2aa8f41-7fc3-4e0c-8a32-3614aa1d5fae/VEL-COL-085-macro-side-gusset.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/e2aa8f41-7fc3-4e0c-8a32-3614aa1d5fae/VEL-COL-085-macro-side-gusset.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "broll/library-2026-08/clips/VEL-COL-085-macro-side-gusset.mp4"
+    }
+  ]
+}

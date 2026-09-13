@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {},
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>A little sweetness for your everyday carry. The Velantra Cherry Charm clips onto a handle or zip pull and finishes a look with a playful, collectible wink.</p>",
+            "open": false
+          }
+        },
+        "tab_materials": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials & Care",
+            "content": "<p><strong>Material</strong><br>Handcrafted with smooth leather and precision detailing.</p><p><strong>Care</strong><br>Wipe clean with a soft, dry cloth. Keep away from prolonged moisture to preserve the finish.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_materials"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

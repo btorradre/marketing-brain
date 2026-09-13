@@ -1,0 +1,367 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vegetable-tanned leather all the way through, with a belted brass closure and a detachable shoulder strap. A large top handle bag that carries a real day.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        },
+        "assurance": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free U.S. shipping · 30-day returns and free exchanges · Two-year warranty<\/p>"
+          }
+        },
+        "perks": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"wknd-perks\">\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"\/><path d=\"M3 9h18M8 3v4M16 3v4\"\/><path d=\"M7.5 13.5h3M7.5 17h3M13.5 13.5h3M13.5 17h3\"\/><\/svg>\n    <span>Vegetable-tanned leather throughout<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 17h18M5 17V9a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8\"\/><path d=\"M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7\"\/><path d=\"M8 21h.01M16 21h.01\"\/><\/svg>\n    <span>Soft, slouchy leather<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><ellipse cx=\"12\" cy=\"12\" rx=\"4.5\" ry=\"6\"\/><path d=\"M12 9.5v3.5l1.8 1.2\"\/><\/svg>\n    <span>Detachable shoulder strap<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 9c2.5-2 5-3 8-3s5.5 1 8 3\"\/><path d=\"M4 9v7c2.5 2 5 3 8 3s5.5-1 8-3V9\"\/><path d=\"M4 13c2.5 2 5 3 8 3s5.5-1 8-3\"\/><\/svg>\n    <span>Aged brass, oval turn-lock closure<\/span>\n  <\/div>\n<\/div>\n<style>\n.wknd-perks{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;background:#faf8f4;border-radius:12px;padding:20px 22px;margin:14px 0 4px;}\n.wknd-perk{display:flex;align-items:center;gap:12px;font-size:14px;line-height:1.35;color:#1a1a1a;}\n.wknd-perk svg{width:30px;height:30px;flex:0 0 30px;}\n@media (max-width:480px){.wknd-perks{grid-template-columns:1fr 1fr;gap:12px 12px;padding:16px 16px;}.wknd-perk{font-size:13px;gap:9px;}.wknd-perk svg{width:26px;height:26px;flex-basis:26px;}}\n<\/style>"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p><strong>One size, 38 &times; 27 &times; 20 cm (approx. 15&quot; W &times; 10.5&quot; H &times; 8&quot; D).<\/strong> Width is measured across the top; the body tapers slightly to the base.<\/p><p><strong>Construction:<\/strong> vegetable-tanned leather on every panel, body, flap, handles, straps, corner caps and gussets. A single one-piece flap folds over the top and closes under two belted straps. At the centre a brass oval plate drops over a knurled brass post and twists shut. To each side a flat brass staple stands on the band, and each strap tip carries a slotted brass plate that hooks over it.<\/p><p><strong>Carry:<\/strong> two short rolled top handles with a 10 cm (4&quot;) drop, for the hand or the crook of the elbow, plus one detachable leather shoulder strap adjustable from 100 to 115 cm (39 to 45&quot;).<\/p><p><strong>Base:<\/strong> reinforced curved leather corners saddle-stitched at all four bottom corners, rolled piping around the seam, and brass feet.<\/p><p>No logo anywhere on the bag.<\/p>"
+          }
+        },
+        "tab_delivery": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery",
+            "content": "<p><strong>The Vivienne is a pre-order.<\/strong> Every colorway is made to order in the first run, cut and finished after you order it. Expected to ship October. Nothing on this page ships from stock.<\/p><p>Free shipping on orders over $75. Orders are processed in 1 to 2 business days and arrive within 7 to 10 business days after that.<\/p><p>Made in limited runs. When a run closes it can be weeks before that color returns.<\/p>"
+          }
+        },
+        "tab_care": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "<p><strong>Body, flap, handles and straps:<\/strong> vegetable-tanned leather.<br\/><strong>Hardware:<\/strong> aged brass.<\/p><p>Wipe with a dry cloth. Keep it out of standing water and direct sun. Vegetable-tanned leather darkens and softens with handling, and the creases that come with use are the material doing what it is supposed to do.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "assurance",
+        "perks",
+        "description",
+        "tab_details",
+        "tab_delivery",
+        "tab_care",
+        "reviews",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Delphine",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag, all designed to match.<\/p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "video_text": {
+      "type": "pdp-video-text",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "SEE IT IN MOTION",
+        "headline": "Soft, Not Stiff",
+        "body": "<p>It slumps when it is empty and settles into your arm when it is full. The short rolled handles sit easily in the hand, and the turn-lock and belted straps close it properly.<\/p>",
+        "cta_label": "Shop the Delphine",
+        "cta_url": "\/products\/velantra-delphine",
+        "media_position": "left",
+        "video_url": "",
+        "autoplay": true,
+        "show_controls": false,
+        "show_play_overlay": true,
+        "bg_color": "#ffffff"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we’ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "MATERIAL",
+            "headline": "Vegetable-tanned leather, no canvas",
+            "body": "<p>One hide, one finish, on every panel including the corner caps and the gussets.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "A closure that actually locks",
+            "body": "<p>A brass turn-lock at the centre, two flat brass staples, and belted straps that hook over them. It opens with a twist.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "EXCLUSIVE",
+            "headline": "Made to order in limited runs",
+            "body": "<p>Cut and finished after you order it. When a run closes it can be weeks before it opens again.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE CLOSURE",
+            "headline": "A turn-lock, not a magnet",
+            "body": "<p>A brass oval plate drops over a knurled post at the centre of the band and twists shut. The two belted straps hook over flat brass staples, one at each side.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE CARRY",
+            "headline": "Two ways to carry it",
+            "body": "<p>Short rolled top handles for the hand or the elbow, and a detachable leather shoulder strap when you want it off your arm.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE BASE",
+            "headline": "Reinforced corners and brass feet",
+            "body": "<p>Curved leather caps saddle-stitched at all four bottom corners, and brass feet so the leather never sits on the ground.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE LEATHER",
+            "headline": "It gets better the longer you carry it",
+            "body": "<p>Vegetable-tanned leather darkens and softens as it is handled. The creases are the point, not the wear.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE FEEL",
+            "headline": "Soft, not stiff",
+            "body": "<p>It slumps when it is empty and settles into your arm when it is full. This is a soft bag, not a rigid one.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image_position": "left",
+            "eyebrow": "WHAT YOU ARE PAYING FOR",
+            "headline": "The leather, not the logo",
+            "body": "<p>This is the Birkin-inspired shape everyone already knows, built in full vegetable-tanned leather with aged brass and saddle stitching. What we skip is the name on the front, and the markup that comes with it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story",
+            "image": "shopify:\/\/shop_images\/vivienne-editorial-hands.png"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered.",
+            "body": "<p>Two-year warranty on materials and construction from the day it is delivered. If the stitching comes undone, a handle separates or the lock fails, we replace it free. No repair fees and no shipping charges.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story",
+            "image": "shopify:\/\/shop_images\/vivienne-editorial-bench.png"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "video_text",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "editorial",
+    "recently_viewed"
+  ]
+}

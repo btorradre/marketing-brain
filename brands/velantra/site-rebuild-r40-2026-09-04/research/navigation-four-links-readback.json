@@ -1,0 +1,54 @@
+{
+  "theme_id": "gid://shopify/OnlineStoreTheme/151337074753",
+  "role": "UNPUBLISHED",
+  "passed": true,
+  "files": [
+    {
+      "filename": "locales/en.default.json",
+      "matches": true,
+      "sha256": "d3756c8bc425d211670a5dd70ec2bcca137670a4dc5c7f8e2962f87fd801408c"
+    },
+    {
+      "filename": "sections/footer.liquid",
+      "matches": true,
+      "sha256": "d50a164bddf62c8381946b41c902fb19ae8bec4f8a4260a7d99879982777cba8"
+    },
+    {
+      "filename": "sections/header-group.json",
+      "matches": true,
+      "sha256": "3d959710b7b03108f7a3472a62aff12346d3c28bcb760f4c0fc451db791bbe83"
+    },
+    {
+      "filename": "sections/header.liquid",
+      "matches": true,
+      "sha256": "709d7ec4a690bd3749c5da37d4a70597db8b5fcd11f8d28e13ed9367711bc863"
+    }
+  ],
+  "menu": {
+    "id": "gid://shopify/Menu/242506039361",
+    "handle": "velantra-quiet-luxury-navigation",
+    "title": "Velantra \u2014 Quiet Luxury navigation",
+    "items": [
+      {
+        "title": "All bags",
+        "type": "COLLECTION",
+        "url": "/collections/handbags"
+      },
+      {
+        "title": "Accessories",
+        "type": "COLLECTION",
+        "url": "/collections/accessories"
+      },
+      {
+        "title": "Track your order",
+        "type": "HTTP",
+        "url": "https://velantrafashion.com/apps/parcel"
+      },
+      {
+        "title": "Contact",
+        "type": "PAGE",
+        "url": "/pages/contact"
+      }
+    ]
+  }
+}

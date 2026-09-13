@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('CURRENT',t:GetName(),t:GetStartFrame(),t:GetEndFrame());for i=1,t:GetTrackCount('video') do print('VIDEO',i,#t:GetItemListInTrack('video',i)) end

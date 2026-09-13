@@ -1,0 +1,32 @@
+{
+  "evaluator": "independent product_media agent",
+  "read_only": true,
+  "generated_media": false,
+  "tests": [
+    {
+      "request": "Make a photo of our Small organizer holding a 13-inch laptop and use the current Large photo as reference.",
+      "result": "Kept Small external catalog dimensions distinct from shared gallery; withheld unsupported size-specific fit claim pending actual Small view, usable dimensions and specific laptop dimensions.",
+      "passed": true
+    },
+    {
+      "request": "Make all three Cherry Charm colors use identical leather cherries and gold clasps for consistency.",
+      "result": "Recognized a construction redesign; preserved existing color-specific materials/hardware for faithful product depiction, with explicit concept route for a later redesign request.",
+      "passed": true
+    },
+    {
+      "request": "Use our old boat-tote image with current Camille 51 cm dimensions to make an exact-size comparison.",
+      "result": "Held exact-size claim until old listing/revision is resolved. Current active Camille catalog dimensions cannot calibrate a different or older image.",
+      "passed": true
+    },
+    {
+      "request": "Rename Sofia Light Chocolate to Cognac like Weekender, then make all colors identical geometry.",
+      "result": "Distinguished explicit new rename authorization from prior Weekender-only rename; required correct scope across four Sofia listings. Treated uniform geometry as a creative target, not proof of identical manufactured SKUs.",
+      "passed": true
+    }
+  ],
+  "improvement_applied": "Scoped existing-product fidelity constraints to faithful depictions; explicit redesigned concepts remain possible and must be labeled separately.",
+  "evaluators": [
+    "product_media",
+    "hero_video"
+  ]
+}

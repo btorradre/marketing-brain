@@ -1,0 +1,100 @@
+{
+  "generated": "2026-07-25",
+  "product": {
+    "id": "gid://shopify/Product/7951316615233",
+    "title": "The Rosalie Bow Tote",
+    "handle": "velantra-bow-tote",
+    "status_at_audit": "ACTIVE",
+    "target_status": "DRAFT",
+    "variants": {
+      "gid://shopify/ProductVariant/44117386526785": { "title": "Sand",  "sku": "velantra-bow-tote-sand",  "inventory": -7 },
+      "gid://shopify/ProductVariant/44117386559553": { "title": "Denim", "sku": "velantra-bow-tote-denim", "inventory": -6 },
+      "gid://shopify/ProductVariant/44117386592321": { "title": "Pink",  "sku": "velantra-bow-tote-pink",  "inventory": -4 }
+    },
+    "reconciliation": "17 units across 16 orders == -17 total inventory. Order list provably complete."
+  },
+  "cohort_a": {
+    "description": "Bow-Tote-only orders. Full orderCancel with refund:true, restock:false, notifyCustomer:true, reason:OTHER.",
+    "refund_total": "1103.42",
+    "orders": [
+      { "order_id": "gid://shopify/Order/6733965819969", "name": "#30388", "email": "pnphenry@verizon.net",            "first_name": "Patrick",  "refund": "88.00",  "variants": ["Pink"],           "created": "2026-07-03" },
+      { "order_id": "gid://shopify/Order/6734237663297", "name": "#30392", "email": "jk26686@gmail.com",               "first_name": "Jonathan", "refund": "88.00",  "variants": ["Denim"],          "created": "2026-07-03" },
+      { "order_id": "gid://shopify/Order/6734251360321", "name": "#30393", "email": "aderube@verizon.net",             "first_name": "Adrienne", "refund": "88.00",  "variants": ["Pink"],           "created": "2026-07-03" },
+      { "order_id": "gid://shopify/Order/6734371225665", "name": "#30402", "email": "tmommaheck@comcast.net",          "first_name": "Tamera",   "refund": "181.50", "variants": ["Pink", "Denim"],  "created": "2026-07-03", "note": "2 units; 3 transactions incl. a separate SALE of 93.50" },
+      { "order_id": "gid://shopify/Order/6734576943169", "name": "#30415", "email": "kate.rader@gmail.com",            "first_name": "Kate",     "refund": "109.99", "variants": ["Pink"],           "created": "2026-07-03" },
+      { "order_id": "gid://shopify/Order/6738366496833", "name": "#30656", "email": "kdelay@optonline.net",            "first_name": "Kristine", "refund": "79.99",  "variants": ["Denim"],          "created": "2026-07-05" },
+      { "order_id": "gid://shopify/Order/6740198260801", "name": "#30695", "email": "jean.woodworthsorem@gmail.com",   "first_name": "Jean",     "refund": "76.99",  "variants": ["Sand"],           "created": "2026-07-06", "note": "WELCOME10 + 4.99 shipping" },
+      { "order_id": "gid://shopify/Order/6751276761153", "name": "#30852", "email": "wlshoob@gmail.com",               "first_name": "Wendy",    "refund": "76.99",  "variants": ["Denim"],          "created": "2026-07-12", "note": "WELCOME10 + 4.99 shipping" },
+      { "order_id": "gid://shopify/Order/6754491891777", "name": "#30934", "email": "jackali@Ameritech.net",           "first_name": "Daisy",    "refund": "76.99",  "variants": ["Sand"],           "created": "2026-07-14", "note": "WELCOME10 + 4.99 shipping" },
+      { "order_id": "gid://shopify/Order/6755148136513", "name": "#30950", "email": "cbarisano@verizon.net",           "first_name": "Colleen",  "refund": "76.99",  "variants": ["Sand"],           "created": "2026-07-14", "note": "WELCOME10 + 4.99 shipping" },
+      { "order_id": "gid://shopify/Order/6756965580865", "name": "#30990", "email": "Jansinger@mac.com",               "first_name": "Jan",      "refund": "79.99",  "variants": ["Sand"],           "created": "2026-07-16" },
+      { "order_id": "gid://shopify/Order/6765223477313", "name": "#31182", "email": "setonbitterly@yahoo.com",         "first_name": "Seton",    "refund": "79.99",  "variants": ["Sand"],           "created": "2026-07-20" }
+    ]
+  },
+  "cohort_b": {
+    "description": "Mixed orders. DO NOT CANCEL — other lines already fulfilled with SDH tracking. refundCreate against the Bow Tote line only, at Shopify's suggestedRefund amount, then close the remaining fulfillment-order line.",
+    "refund_total": "300.97",
+    "orders": [
+      {
+        "order_id": "gid://shopify/Order/6737234853953", "name": "#30611",
+        "email": "k_craighead@yahoo.com", "first_name": "Kim",
+        "order_total": "177.77",
+        "bow_line_item_id": "gid://shopify/LineItem/16179268485185",
+        "bow_variant": "Sand",
+        "sticker_price": "109.99",
+        "suggested_refund": "77.00",
+        "parent_transaction_id": "gid://shopify/OrderTransaction/8718726135873",
+        "fulfillment_order_id": "gid://shopify/FulfillmentOrder/7889639997505",
+        "other_lines": "3x Horse Charm, Straw Tote (Light Chocolate) — all fulfilled",
+        "note": "Refund is 77.00 not 109.99 — order-level discount allocated. Email must explain."
+      },
+      {
+        "order_id": "gid://shopify/Order/6742334931009", "name": "#30722",
+        "email": "cara@mantovanirealty.com", "first_name": "Cara",
+        "order_total": "199.99",
+        "bow_line_item_id": "gid://shopify/LineItem/16188626927681",
+        "bow_variant": "Denim",
+        "sticker_price": "79.99",
+        "suggested_refund": "71.99",
+        "parent_transaction_id": "gid://shopify/OrderTransaction/8727743037505",
+        "fulfillment_order_id": "gid://shopify/FulfillmentOrder/7894990520385",
+        "other_lines": "2x Boat Tote Navy — fulfilled",
+        "note": "Refund is 71.99 not 79.99 — discount allocated. Email must explain."
+      },
+      {
+        "order_id": "gid://shopify/Order/6749407346753", "name": "#30822",
+        "email": "ceciedwards@comcast.net", "first_name": "Cecilia",
+        "order_total": "319.97",
+        "bow_line_item_id": "gid://shopify/LineItem/16201259909185",
+        "bow_variant": "Denim",
+        "sticker_price": "79.99",
+        "suggested_refund": "79.99",
+        "parent_transaction_id": "gid://shopify/OrderTransaction/8739263086657",
+        "fulfillment_order_id": "gid://shopify/FulfillmentOrder/7902345756737",
+        "other_lines": "2x Straw Tote — fulfilled",
+        "note": "Full sticker refund; no discount allocation on this line."
+      },
+      {
+        "order_id": "gid://shopify/Order/6751399641153", "name": "#30857",
+        "email": "karendorsey@youngcraft.com", "first_name": "Karen",
+        "order_total": "197.97",
+        "bow_line_item_id": "gid://shopify/LineItem/16204942999617",
+        "bow_variant": "Sand",
+        "sticker_price": "79.99",
+        "suggested_refund": "71.99",
+        "parent_transaction_id": "gid://shopify/OrderTransaction/8742457933889",
+        "fulfillment_order_id": "gid://shopify/FulfillmentOrder/7904408600641",
+        "other_lines": "Bag Scarf, Boat Tote Keychain, Straw Tote — fulfilled",
+        "note": "Refund is 71.99 not 79.99 — discount allocated. Email must explain."
+      }
+    ]
+  },
+  "grand_total_refund": "1404.39",
+  "customers_affected": 16,
+  "units_cancelled": 17,
+  "preconditions": [
+    "Discount code MAKEITRIGHT20 created (20% sitewide, 30 days, one use per customer) — DOES NOT YET EXIST",
+    "E1-A and E1-B sent, then wait 45-60 min before Shopify writes",
+    "Meta/Google ads pointing at velantra-bow-tote paused"
+  ]
+}

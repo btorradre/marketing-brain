@@ -1,0 +1,361 @@
+<div class="vlt-aff">
+<style>
+  .vlt-aff { --ink:#1a1a1a; --paper:#ffffff; --cream:#f7f4ee; --sand:#e9e2d6; --rule:#d9d2c5; --blush:#f7bebe;
+    font-family:'Abel','Assistant',sans-serif; color:var(--ink); background:var(--paper);
+    font-size:17px; line-height:1.65; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+  .vlt-aff h1,.vlt-aff h2,.vlt-aff h3,.vlt-aff .vlt-serif {
+    font-family:'New York','Iowan Old Style','Apple Garamond',Baskerville,'Times New Roman',Times,serif;
+    font-weight:400; line-height:1.15; margin:0; }
+  .vlt-aff p { margin:0 0 1.1em; }
+  .vlt-aff a { color:inherit; }
+  .vlt-aff img { max-width:100%; display:block; }
+  .vlt-wrap { max-width:1080px; margin:0 auto; padding:0 24px; }
+  .vlt-narrow { max-width:760px; margin:0 auto; }
+  .vlt-eyebrow { font-size:12px; letter-spacing:.28em; text-transform:uppercase; margin-bottom:18px; opacity:.85; }
+  .vlt-rule { border:none; border-top:1px solid var(--rule); margin:0; }
+  .vlt-btn { display:inline-block; background:#000; color:#fff !important; text-decoration:none;
+    font-size:13px; letter-spacing:.22em; text-transform:uppercase; padding:17px 42px;
+    transition:opacity .2s ease; border:1px solid #000; }
+  .vlt-btn:hover { opacity:.82; }
+  .vlt-btn--ghost { background:transparent; color:#fff !important; border:1px solid rgba(255,255,255,.85); }
+  .vlt-btn--ghost:hover { background:rgba(255,255,255,.12); opacity:1; }
+
+  /* full-bleed breakout inside themed page container */
+  .vlt-bleed { width:100vw; margin-left:calc(50% - 50vw); }
+
+  /* HERO */
+  .vlt-hero { position:relative; min-height:78vh; display:flex; align-items:center; justify-content:center;
+    text-align:center; color:#fff; background:#5c6a72 url('https://velantrafashion.com/cdn/shop/files/hero-porch-hydrangea.jpg?v=1783009217&width=1920') center/cover no-repeat; }
+  .vlt-hero::after { content:''; position:absolute; inset:0; background:rgba(20,24,28,.42); }
+  .vlt-hero-inner { position:relative; z-index:1; padding:110px 24px; max-width:820px; }
+  .vlt-hero h1 { font-size:clamp(38px,5.6vw,64px); margin:0 0 22px; }
+  .vlt-hero p { font-size:19px; max-width:560px; margin:0 auto 34px; opacity:.95; }
+  .vlt-hero .vlt-eyebrow { opacity:.95; }
+
+  /* SECTIONS */
+  .vlt-sec { padding:96px 0; }
+  .vlt-sec--cream { background:var(--cream); }
+  .vlt-sec h2 { font-size:clamp(28px,3.6vw,42px); margin-bottom:20px; }
+  .vlt-center { text-align:center; }
+
+  /* VIDEO */
+  .vlt-video-frame { position:relative; padding-bottom:56.25%; height:0; background:#111; }
+  .vlt-video-frame iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .vlt-pullquote { font-size:clamp(20px,2.4vw,26px); font-style:italic; text-align:center;
+    max-width:640px; margin:48px auto 0; }
+  .vlt-pullquote cite { display:block; font-style:normal; font-size:12px; letter-spacing:.26em;
+    text-transform:uppercase; margin-top:18px; font-family:'Abel',sans-serif; }
+
+  /* STORY */
+  .vlt-story { display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:center; }
+  .vlt-story img { width:100%; height:100%; object-fit:cover; aspect-ratio:4/5; }
+  .vlt-story-copy p:first-of-type::first-letter { font-family:'New York','Iowan Old Style',Baskerville,serif;
+    font-size:3.2em; float:left; line-height:.85; padding-right:10px; padding-top:4px; }
+
+  /* MILESTONES */
+  .vlt-miles { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--rule); border:1px solid var(--rule); margin-top:56px; }
+  .vlt-mile { background:var(--paper); padding:36px 30px; }
+  .vlt-mile .vlt-serif { font-size:22px; margin-bottom:10px; display:block; }
+  .vlt-mile small { font-size:12px; letter-spacing:.24em; text-transform:uppercase; display:block; margin-bottom:14px; opacity:.6; }
+  .vlt-mile p { font-size:15.5px; margin:0; opacity:.85; }
+
+  /* OFFER */
+  .vlt-offer-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:56px; }
+  .vlt-offer { background:var(--paper); border:1px solid var(--rule); padding:44px 34px; text-align:center; }
+  .vlt-offer .vlt-big { font-family:'New York','Iowan Old Style',Baskerville,serif; font-size:44px; display:block; margin-bottom:6px; }
+  .vlt-offer h3 { font-size:20px; margin-bottom:14px; }
+  .vlt-offer p { font-size:15.5px; margin:0; opacity:.85; }
+  .vlt-offer-note { text-align:center; margin-top:34px; font-size:15px; opacity:.75; }
+
+  /* SWATCHES */
+  .vlt-swatches { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:16px; }
+  .vlt-swatch { width:26px; height:26px; border-radius:50%; border:1px solid rgba(0,0,0,.15); }
+
+  /* PRODUCTS */
+  .vlt-prods { display:grid; grid-template-columns:repeat(4,1fr); gap:28px; margin-top:56px; }
+  .vlt-prod { text-decoration:none; }
+  .vlt-prod .vlt-prod-img { background:var(--cream); aspect-ratio:4/5; overflow:hidden; margin-bottom:16px; }
+  .vlt-prod img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
+  .vlt-prod:hover img { transform:scale(1.04); }
+  .vlt-prod h3 { font-size:18px; margin-bottom:4px; }
+  .vlt-prod span { font-size:14px; opacity:.65; }
+
+  /* STEPS */
+  .vlt-steps { counter-reset:step; display:grid; grid-template-columns:repeat(4,1fr); gap:40px; margin-top:56px; }
+  .vlt-step { counter-increment:step; }
+  .vlt-step::before { content:counter(step,decimal-leading-zero); font-family:'New York','Iowan Old Style',Baskerville,serif;
+    font-size:40px; display:block; margin-bottom:14px; opacity:.35; }
+  .vlt-step h3 { font-size:19px; margin-bottom:10px; }
+  .vlt-step p { font-size:15.5px; margin:0; opacity:.85; }
+
+  /* LOOKING FOR */
+  .vlt-look { display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:center; }
+  .vlt-look img { width:100%; height:100%; object-fit:cover; aspect-ratio:4/5; }
+  .vlt-look ul { list-style:none; padding:0; margin:28px 0 0; }
+  .vlt-look li { padding:16px 0; border-bottom:1px solid var(--rule); font-size:16.5px; }
+  .vlt-look li:first-child { border-top:1px solid var(--rule); }
+
+  /* FAQ */
+  .vlt-faq details { border-bottom:1px solid var(--rule); }
+  .vlt-faq details:first-of-type { border-top:1px solid var(--rule); }
+  .vlt-faq summary { cursor:pointer; padding:22px 4px; font-family:'New York','Iowan Old Style',Baskerville,serif;
+    font-size:19px; list-style:none; display:flex; justify-content:space-between; align-items:center; }
+  .vlt-faq summary::-webkit-details-marker { display:none; }
+  .vlt-faq summary::after { content:'+'; font-size:24px; font-weight:300; opacity:.5; }
+  .vlt-faq details[open] summary::after { content:'\2212'; }
+  .vlt-faq .vlt-faq-a { padding:0 4px 24px; font-size:16px; opacity:.85; max-width:640px; }
+
+  /* FINAL CTA */
+  .vlt-final { position:relative; color:#fff; text-align:center;
+    background:#3c4a52 url('https://velantrafashion.com/cdn/shop/files/hero-dock-harbor.jpg?v=1783009783&width=1920') center/cover no-repeat; }
+  .vlt-final::after { content:''; position:absolute; inset:0; background:rgba(18,22,26,.55); }
+  .vlt-final-inner { position:relative; z-index:1; padding:120px 24px; max-width:720px; margin:0 auto; }
+  .vlt-final h2 { font-size:clamp(30px,4vw,48px); margin-bottom:20px; }
+  .vlt-final p { font-size:18px; opacity:.95; margin-bottom:36px; }
+  .vlt-final .vlt-ctas { display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
+  .vlt-final small { display:block; margin-top:28px; font-size:14px; opacity:.8; letter-spacing:.04em; }
+  .vlt-final small a { color:#fff; }
+
+  @media (max-width:860px) {
+    .vlt-sec { padding:64px 0; }
+    .vlt-story,.vlt-look { grid-template-columns:1fr; gap:36px; }
+    .vlt-miles { grid-template-columns:1fr; }
+    .vlt-offer-grid { grid-template-columns:1fr; }
+    .vlt-prods { grid-template-columns:repeat(2,1fr); gap:18px; }
+    .vlt-steps { grid-template-columns:1fr 1fr; gap:28px; }
+    .vlt-hero { min-height:64vh; }
+  }
+</style>
+
+<!-- ============ HERO ============ -->
+<section class="vlt-hero vlt-bleed">
+  <div class="vlt-hero-inner">
+    <div class="vlt-eyebrow">The Velantra Affiliate Program</div>
+    <h1>Carry the story with&nbsp;us.</h1>
+    <p>We're a small, family-run handbag house building a coastal community — one creator at a time. A free bag in the colorway of your choice, 15% of every sale you bring in, and a direct line to the founder.</p>
+    <a class="vlt-btn vlt-btn--ghost" href="#vlt-apply">Become an Affiliate</a>
+  </div>
+</section>
+
+<!-- ============ FOUNDER VIDEO ============ -->
+<section class="vlt-sec">
+  <div class="vlt-wrap vlt-narrow vlt-center">
+    <div class="vlt-eyebrow">A Note From Our Founder</div>
+    <h2>Before anything else — hello.</h2>
+    <p style="max-width:560px;margin:0 auto 44px;">Most brands hide behind a logo. We'd rather you know exactly who you're partnering with. Here's Brooks, our founder, on how Velantra started and what we're building together.</p>
+  </div>
+  <div class="vlt-wrap" style="max-width:880px;">
+    <div class="vlt-video-frame">
+      <iframe src="https://www.loom.com/embed/e9fd273598e54015844c1304a45edbf4?hideEmbedTopBar=true" allowfullscreen title="A note from Brooks, founder of Velantra"></iframe>
+    </div>
+    <blockquote class="vlt-pullquote">
+      &ldquo;Most founders don't put themselves in front of the camera. I'm doing it because I want you to know exactly who you're partnering with.&rdquo;
+      <cite>Brooks · Founder, Velantra</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ============ OUR STORY ============ -->
+<section class="vlt-sec vlt-sec--cream">
+  <div class="vlt-wrap">
+    <div class="vlt-story">
+      <img src="https://velantrafashion.com/cdn/shop/files/caramel-tote-scarf.jpg?v=1783009632&width=1200" alt="Velantra tote with silk bag scarf" loading="lazy">
+      <div class="vlt-story-copy">
+        <div class="vlt-eyebrow">Who We Are</div>
+        <h2 style="margin-bottom:28px;">A mother-and-son handbag house.</h2>
+        <p>Velantra started a year and a half ago with a simple idea between a son and his mom: professional women deserve structured, heritage-quality bags without the four-figure markup. She's still our ideal customer — and our toughest critic — to this day.</p>
+        <p>Our first bag sold out almost immediately. Then came the Boat Tote, our summer workhorse. Now the Straw Tote — hand-woven seagrass, made in limited batches — has become the bag strangers stop people on the street to ask about.</p>
+        <p>Along the way we carved out a niche we love: <em>coastal quiet luxury</em>. Every bag is designed in California, refined obsessively, and built to last decades, not seasons.</p>
+      </div>
+    </div>
+
+    <div class="vlt-miles">
+      <div class="vlt-mile">
+        <small>Chapter One</small>
+        <span class="vlt-serif">The First Bag</span>
+        <p>A structured everyday bag that hit straight out of the gate — and proved women wanted craftsmanship without the designer price tag.</p>
+      </div>
+      <div class="vlt-mile">
+        <small>Chapter Two</small>
+        <span class="vlt-serif">The Boat Tote</span>
+        <p>Our canvas-and-leather summer icon. Thirteen colorways later, it's the everyday entry point into the Velantra world.</p>
+      </div>
+      <div class="vlt-mile">
+        <small>Now</small>
+        <span class="vlt-serif">The Straw Tote</span>
+        <p>Hand-woven seagrass with a structured top-handle silhouette. Launched this June, made in limited batches — our best seller.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE OFFER ============ -->
+<section class="vlt-sec">
+  <div class="vlt-wrap">
+    <div class="vlt-center">
+      <div class="vlt-eyebrow">The Partnership</div>
+      <h2>What you get as a Velantra affiliate.</h2>
+      <p style="max-width:560px;margin:0 auto;">Simple, generous, and built to grow with you. No hoops, no fine print — just a real partnership with a brand that answers its own DMs.</p>
+    </div>
+    <div class="vlt-offer-grid">
+      <div class="vlt-offer">
+        <span class="vlt-big vlt-serif">01</span>
+        <h3>A free bag, your pick</h3>
+        <p>Choose any bag in any colorway — including all eight shades of the Straw Tote — and we'll send it to you, on us. It's yours to keep.</p>
+        <div class="vlt-swatches" aria-hidden="true">
+          <span class="vlt-swatch" style="background:#c1935f;" title="Caramel"></span>
+          <span class="vlt-swatch" style="background:#a8c8e0;" title="Sky Blue"></span>
+          <span class="vlt-swatch" style="background:#e8752a;" title="Lightning Orange"></span>
+          <span class="vlt-swatch" style="background:#8a6748;" title="Light Chocolate"></span>
+          <span class="vlt-swatch" style="background:#f2b8c6;" title="Lady Pink"></span>
+          <span class="vlt-swatch" style="background:#f1e9d8;" title="Cream"></span>
+          <span class="vlt-swatch" style="background:#f4d35e;" title="Sunny Yellow"></span>
+          <span class="vlt-swatch" style="background:#2b2b2b;" title="Caban Black"></span>
+        </div>
+      </div>
+      <div class="vlt-offer">
+        <span class="vlt-big vlt-serif">15%</span>
+        <h3>Of every sale you bring in</h3>
+        <p>You earn 15% commission on every order that comes through you — roughly $18 on our best-selling Straw Tote alone. And if your content performs, we're happy to negotiate up from there.</p>
+      </div>
+      <div class="vlt-offer">
+        <span class="vlt-big vlt-serif">&infin;</span>
+        <h3>A path to a retainer</h3>
+        <p>Our best-performing creators don't stay affiliates — they become paid brand partners on a monthly retainer. When your videos work, we invest in you.</p>
+      </div>
+    </div>
+    <p class="vlt-offer-note">Every affiliate gets a personal discount code and link, so every sale you drive is tracked — and paid.</p>
+  </div>
+</section>
+
+<!-- ============ THE BAGS ============ -->
+<section class="vlt-sec vlt-sec--cream">
+  <div class="vlt-wrap">
+    <div class="vlt-center">
+      <div class="vlt-eyebrow">What You'll Be Sharing</div>
+      <h2>Bags designed to be asked about.</h2>
+      <p style="max-width:560px;margin:0 auto;">No visible logos. No trend-chasing. Just structured silhouettes, considered materials, and the kind of craftsmanship that earns "where is that from?" on its own.</p>
+    </div>
+    <div class="vlt-prods">
+      <a class="vlt-prod" href="https://velantrafashion.com/products/the-sofia-woven-tote">
+        <div class="vlt-prod-img"><img src="https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front.png?v=1781612350&width=720" alt="Velantra Straw Tote" loading="lazy"></div>
+        <h3>The Straw Tote</h3>
+        <span>Hand-woven seagrass · $119.99</span>
+      </a>
+      <a class="vlt-prod" href="https://velantrafashion.com/products/velantra-boat-tote-2">
+        <div class="vlt-prod-img"><img src="https://cdn.shopify.com/s/files/1/0627/4092/2433/files/01_9646591c-8d25-4eb1-b49d-2e477a5534e9.jpg?v=1763010068&width=720" alt="Velantra Boat Tote" loading="lazy"></div>
+        <h3>The Boat Tote</h3>
+        <span>Canvas &amp; leather · $54.99</span>
+      </a>
+      <a class="vlt-prod" href="https://velantrafashion.com/products/velantra-meridian-tote">
+        <div class="vlt-prod-img"><img src="https://cdn.shopify.com/s/files/1/0627/4092/2433/files/brown_1.webp?v=1775756168&width=720" alt="Velantra Meridian Tote" loading="lazy"></div>
+        <h3>The Meridian Tote</h3>
+        <span>Grained leather work bag · $99.99</span>
+      </a>
+      <a class="vlt-prod" href="https://velantrafashion.com/products/velantra-bow-tote">
+        <div class="vlt-prod-img"><img src="https://cdn.shopify.com/s/files/1/0627/4092/2433/files/front.png?v=1783049689&width=720" alt="Velantra Bow Tote" loading="lazy"></div>
+        <h3>The Bow Tote</h3>
+        <span>The newest silhouette</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="vlt-sec">
+  <div class="vlt-wrap">
+    <div class="vlt-center">
+      <div class="vlt-eyebrow">How It Works</div>
+      <h2>From first DM to first payout.</h2>
+    </div>
+    <div class="vlt-steps">
+      <div class="vlt-step">
+        <h3>Reach out</h3>
+        <p>Reply to our DM on Instagram or send us an email. Tell us a little about you and your audience — a sentence or two is plenty.</p>
+      </div>
+      <div class="vlt-step">
+        <h3>Pick your bag</h3>
+        <p>Choose your bag and colorway. We ship it to you free, along with your personal affiliate code and link.</p>
+      </div>
+      <div class="vlt-step">
+        <h3>Create</h3>
+        <p>Share the bag your way — styling videos, unboxings, day-in-the-life. Authentic beats polished, every time.</p>
+      </div>
+      <div class="vlt-step">
+        <h3>Earn</h3>
+        <p>Collect 15% of every sale through your code or link. Perform well and we'll talk bigger — including a monthly retainer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHO WE'RE LOOKING FOR ============ -->
+<section class="vlt-sec vlt-sec--cream">
+  <div class="vlt-wrap">
+    <div class="vlt-look">
+      <div>
+        <div class="vlt-eyebrow">Who We're Looking For</div>
+        <h2>Ambassadors, not billboards.</h2>
+        <p style="margin-top:24px;">We're intentionally staying small while we grow this the right way. That means we'd rather have a handful of creators who genuinely love their Velantra than a thousand who post once and disappear. You might be a fit if:</p>
+        <ul>
+          <li>Your feed leans coastal, classic, or quiet luxury — think harbor towns, linen, hydrangeas, golden hour.</li>
+          <li>Your audience is primarily women in the US who care about quality over logos.</li>
+          <li>You'd actually carry the bag — to brunch, to the office, to the farmers market.</li>
+          <li>You want a real relationship with a brand, not a one-off gifting transaction.</li>
+        </ul>
+      </div>
+      <img src="https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor.png?v=1781612396&width=1200" alt="Velantra Straw Tote by the coast" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="vlt-sec">
+  <div class="vlt-wrap vlt-narrow">
+    <div class="vlt-center" style="margin-bottom:48px;">
+      <div class="vlt-eyebrow">Questions</div>
+      <h2>The details, plainly.</h2>
+    </div>
+    <div class="vlt-faq">
+      <details>
+        <summary>How do I actually get paid?</summary>
+        <div class="vlt-faq-a">You'll get a personal discount code and tracking link. Every order placed with either one is credited to you, and we pay out your 15% commission on a monthly basis. No minimum sales threshold to join.</div>
+      </details>
+      <details>
+        <summary>Is the bag really free? What's the catch?</summary>
+        <div class="vlt-faq-a">Really free, and there isn't one. You pick the bag and colorway, we ship it to you, and it's yours whether or not your first video takes off. We'd rather you create from a place of actually loving the product.</div>
+      </details>
+      <details>
+        <summary>How much content am I committing to?</summary>
+        <div class="vlt-faq-a">There's no rigid quota. We ask that you share the bag authentically within a few weeks of receiving it, and we'll work out a rhythm together from there. Creators who post consistently and perform well are the ones we bring onto retainers.</div>
+      </details>
+      <details>
+        <summary>Can the 15% go higher?</summary>
+        <div class="vlt-faq-a">Yes. 15% is the starting point, not the ceiling. If your content performs, we're open to negotiating a higher rate — and for our best creators, a full monthly retainer as an official Velantra brand partner.</div>
+      </details>
+      <details>
+        <summary>When will my bag ship?</summary>
+        <div class="vlt-faq-a">Most bags ship right away. The Straw Tote is hand-woven in limited batches, so certain colorways occasionally go into production queues — if yours is one of them, we'll tell you upfront and you can wait or pick another.</div>
+      </details>
+      <details>
+        <summary>Who do I talk to if I have questions?</summary>
+        <div class="vlt-faq-a">The founder. Email us or DM us on Instagram and Brooks will get back to you personally — usually same-day.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="vlt-final vlt-bleed" id="vlt-apply">
+  <div class="vlt-final-inner">
+    <div class="vlt-eyebrow">Join Us</div>
+    <h2>Let's build this together.</h2>
+    <p>Reply to our DM, or send us a note with your Instagram handle and the bag you'd choose. We respond to every message — personally, and quickly.</p>
+    <div class="vlt-ctas">
+      <a class="vlt-btn vlt-btn--ghost" href="mailto:customerservice@velantrafashion.com?subject=Velantra%20Affiliate%20Program">Email Us</a>
+      <a class="vlt-btn vlt-btn--ghost" href="https://velantrafashion.com/pages/contact">Contact Page</a>
+    </div>
+    <small>Velantra · Designed in California · Built to last decades, not seasons</small>
+  </div>
+</section>
+</div>

@@ -1,0 +1,457 @@
+{% liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign current_color = current_variant.option1
+  assign media_blocks = section.blocks | where: 'type', 'image'
+  assign review_blocks = section.blocks | where: 'type', 'review'
+  assign review_count = review_blocks.size
+  assign rating_sum = 0
+  for review in review_blocks
+    assign rating_sum = rating_sum | plus: review.settings.rating
+  endfor
+  if review_count > 0
+    assign rating_average = rating_sum | times: 1.0 | divided_by: review_count | round: 1
+  endif
+  assign is_preorder = false
+  if current_color == 'Black' and section.settings.black_preorder
+    assign is_preorder = true
+  endif
+  assign form_id = 'wk-product-form-' | append: section.id
+  assign main_image = ''
+  for media in media_blocks
+    if media.settings.color == current_color
+      assign main_image = media.settings.url
+      break
+    endif
+  endfor
+%}
+<section class="wk-product" data-wk-product data-audience="{{ section.settings.audience }}" data-product-id="{{ product.id }}" data-country="{{ localization.country.iso_code }}" data-dispatch="{{ section.settings.dispatch_days }}" data-transit-min="{{ section.settings.transit_min }}" data-transit-max="{{ section.settings.transit_max }}" data-black-preorder="{{ section.settings.black_preorder }}">
+<div class="wk-product-grid">
+<div class="wk-gallery-wrap">
+<div class="wk-gallery" data-wk-gallery aria-label="{{ 'wk_editorial.product_photos' | t }}">
+{% for media in media_blocks %}
+<button type="button" class="wk-gallery-item {% if media.settings.kind == 'hero' %}wk-gallery-hero{% endif %}" data-wk-image data-color="{{ media.settings.color | escape }}" data-caption="{{ media.settings.caption | escape }}" aria-label="{{ 'wk_editorial.enlarge' | t }}: {{ media.settings.caption | escape }}" {% unless media.settings.color == current_color %}hidden{% endunless %} {{ media.shopify_attributes }}>
+<img src="{{ media.settings.url }}" alt="{{ media.settings.caption | escape }}" width="1086" height="1448" {% if media.settings.url == main_image %}loading="eager" fetchpriority="high"{% else %}loading="lazy"{% endif %} style="object-position:50% {{ media.settings.focus_y }}%">
+<span class="wk-zoom-mark" aria-hidden="true">+</span>
+</button>
+{% endfor %}
+</div>
+<div class="wk-gallery-nav"><button type="button" data-wk-prev aria-label="{{ 'wk_editorial.previous_photo' | t }}">←</button><span data-wk-image-counter aria-live="polite">1 / 10</span><button type="button" data-wk-next aria-label="{{ 'wk_editorial.next_photo' | t }}">→</button></div>
+</div>
+<div class="wk-buy-column">
+<div class="wk-buy-box">
+<p class="wk-kicker">{{ section.settings.eyebrow | escape }}</p>
+<h1>{{ product.title | escape }}</h1>
+<a class="wk-review-link" href="#wk-reviews"><span class="wk-stars {% if review_count == 0 %}wk-stars-empty{% endif %}" aria-hidden="true">{% if review_count > 0 %}★★★★★{% else %}☆☆☆☆☆{% endif %}</span><span>{% if review_count > 0 %}{{ 'wk_editorial.review_count' | t: count: review_count }}{% else %}{{ 'wk_editorial.first_review' | t }}{% endif %}</span></a>
+<div class="wk-price-row" aria-live="polite"><span class="wk-price" data-wk-price>{{ current_variant.price | money_with_currency }}</span><s data-wk-compare {% unless current_variant.compare_at_price > current_variant.price %}hidden{% endunless %}>{{ current_variant.compare_at_price | money }}</s><span class="wk-offer-chip" data-wk-sale {% unless current_variant.compare_at_price > current_variant.price %}hidden{% endunless %}>{{ 'wk_editorial.sale' | t }}</span></div>
+<p class="wk-short-description">{{ section.settings.intro | escape }}</p>
+{% form 'product', product, id: form_id, class: 'wk-product-form' %}
+<input type="hidden" name="id" value="{{ current_variant.id }}" data-wk-variant-input>
+<input type="hidden" name="quantity" value="1">
+<fieldset class="wk-colors"><legend>{{ 'wk_editorial.color' | t }}: <span data-wk-color-name>{{ current_color | escape }}</span></legend>
+{% for variant in product.variants %}
+{% assign swatch_url = '' %}{% for media in media_blocks %}{% if media.settings.color == variant.option1 and media.settings.kind == 'packshot' %}{% assign swatch_url = media.settings.url %}{% break %}{% endif %}{% endfor %}
+<input class="wk-visually-hidden" type="radio" name="wk-color" id="wk-color-{{ variant.id }}" value="{{ variant.id }}" data-wk-color-radio {% if variant.id == current_variant.id %}checked{% endif %} {% unless variant.available %}disabled{% endunless %}>
+<label for="wk-color-{{ variant.id }}" title="{{ variant.option1 | escape }}"><img src="{{ swatch_url }}" alt="" width="72" height="72" loading="lazy"><span>{{ variant.option1 | escape }}</span></label>
+{% endfor %}
+</fieldset>
+<div class="wk-delivery"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><p><span data-wk-arrival>{{ 'wk_editorial.dispatch_fallback' | t: days: section.settings.dispatch_days }}</span><small data-wk-delivery-note>{{ 'wk_editorial.transit_note' | t: days: section.settings.dispatch_days, min: section.settings.transit_min, max: section.settings.transit_max }}</small></p></div>
+<button class="wk-button wk-add" type="submit" data-wk-add {% unless current_variant.available %}disabled{% endunless %}>{% unless current_variant.available %}{{ 'wk_editorial.sold_out' | t }}{% else %}{% if is_preorder %}{{ 'wk_editorial.preorder' | t }}{% else %}{{ 'wk_editorial.add_to_cart' | t }}{% endif %}{% endunless %}</button>
+<p class="wk-form-error" data-wk-product-error role="alert" hidden></p>
+{% endform %}
+<div class="wk-tags"><span data-wk-material>{% if current_color == 'Black' %}{{ 'wk_editorial.leather_exterior' | t }}{% else %}{{ 'wk_editorial.leather_canvas' | t }}{% endif %}</span><a href="/policies/refund-policy">{{ 'wk_editorial.return_tag' | t }}</a><a href="/policies/refund-policy">{{ 'wk_editorial.warranty_tag' | t }}</a><a href="/policies/shipping-policy">{{ 'wk_editorial.shipping_tag' | t }}</a></div>
+<div class="wk-accordions">
+<details><summary>{{ 'wk_editorial.details' | t }}<span aria-hidden="true">+</span></summary><div><p>{{ section.settings.details | escape }}</p><ul><li data-wk-detail-material>{% if current_color == 'Black' %}{{ 'wk_editorial.black_detail' | t }}{% else %}{{ 'wk_editorial.canvas_detail' | t }}{% endif %}</li><li>{{ 'wk_editorial.construction_detail' | t }}</li><li>{{ 'wk_editorial.interior_detail' | t }}</li></ul><p class="wk-fine-print">{{ 'wk_editorial.care_detail' | t }}</p></div></details>
+<details><summary>{{ 'wk_editorial.what_fits' | t }}<span aria-hidden="true">+</span></summary><div><p>{{ section.settings.fit_copy | escape }}</p><dl class="wk-dimensions"><div><dt>{{ 'wk_editorial.width' | t }}</dt><dd>18 in</dd></div><div><dt>{{ 'wk_editorial.height' | t }}</dt><dd>14.5 in</dd></div><div><dt>{{ 'wk_editorial.depth' | t }}</dt><dd>7 in</dd></div></dl><p class="wk-fine-print">{{ 'wk_editorial.size_note' | t }}</p></div></details>
+<details><summary>{{ 'wk_editorial.delivery_returns' | t }}<span aria-hidden="true">+</span></summary><div><p>{{ 'wk_editorial.transit_note' | t: days: section.settings.dispatch_days, min: section.settings.transit_min, max: section.settings.transit_max }}</p><p data-wk-preorder-detail {% unless is_preorder %}hidden{% endunless %}>{{ 'wk_editorial.black_preorder_detail' | t }}</p><p>{{ 'wk_editorial.returns_detail' | t }}</p><p>{{ 'wk_editorial.warranty_detail' | t }}</p><a href="/policies/shipping-policy">{{ 'wk_editorial.shipping_policy' | t }}</a> · <a href="/policies/refund-policy">{{ 'wk_editorial.returns_policy' | t }}</a></div></details>
+</div>
+<div class="wk-offer-panel"><h2>{{ section.settings.offer_heading | escape }}</h2><p data-wk-offer-body>{% if current_variant.compare_at_price > current_variant.price %}{% assign saving = current_variant.compare_at_price | minus: current_variant.price | money %}{{ 'wk_editorial.offer_body' | t: amount: saving }}{% else %}{{ 'wk_editorial.offer_regular' | t }}{% endif %}</p><p>{{ section.settings.offer_caption | escape }}</p></div>
+</div>
+</div>
+</div>
+<div class="wk-service-strip">
+<div><span aria-hidden="true">◇</span><h2>{{ 'wk_editorial.service_material' | t }}</h2><p>{{ 'wk_editorial.service_material_body' | t }}</p></div>
+<div><span aria-hidden="true">↶</span><h2>{{ 'wk_editorial.service_returns' | t }}</h2><p>{{ 'wk_editorial.service_returns_body' | t }}</p></div>
+<div><span aria-hidden="true">◈</span><h2>{{ 'wk_editorial.service_warranty' | t }}</h2><p>{{ 'wk_editorial.service_warranty_body' | t }}</p></div>
+<div><span aria-hidden="true">✉</span><h2>{{ 'wk_editorial.service_support' | t }}</h2><a href="mailto:customerservice@velantrafashion.com">{{ 'wk_editorial.service_support_body' | t }}</a></div>
+</div>
+<section class="wk-reviews" id="wk-reviews" aria-labelledby="wk-reviews-title">
+<div class="wk-reviews-heading"><div><p class="wk-kicker">{{ 'wk_editorial.review_kicker' | t }}</p><h2 id="wk-reviews-title">{{ 'wk_editorial.reviews_title' | t }}</h2></div><a class="wk-button wk-button-outline" href="#wk-review-form">{{ 'wk_editorial.write_review' | t }}</a></div>
+{% if review_count > 0 %}
+<div class="wk-rating-summary"><strong>{{ rating_average }}</strong><div><span class="wk-stars" aria-hidden="true">★★★★★</span><p>{{ 'wk_editorial.based_on_reviews' | t: count: review_count }}</p></div></div>
+<div class="wk-review-list">{% for review in review_blocks %}<article class="wk-review" {{ review.shopify_attributes }}><div><strong>{{ review.settings.author | escape }}</strong>{% if review.settings.verified %}<small>{{ 'wk_editorial.verified_buyer' | t }}</small>{% endif %}</div><div><span class="wk-stars" aria-label="{{ 'wk_editorial.rating_out_of' | t: rating: review.settings.rating }}">{% for star in (1..5) %}{% if star <= review.settings.rating %}★{% else %}☆{% endif %}{% endfor %}</span><h3>{{ review.settings.title | escape }}</h3><p>{{ review.settings.body | escape }}</p></div></article>{% endfor %}</div>
+{% else %}<div class="wk-review-invitation"><span class="wk-stars wk-stars-empty" aria-hidden="true">☆☆☆☆☆</span><h3>{{ 'wk_editorial.review_invitation_title' | t }}</h3><p>{{ 'wk_editorial.review_invitation_body' | t }}</p></div>{% endif %}
+<details class="wk-review-form-wrap" id="wk-review-form"><summary>{{ 'wk_editorial.write_review' | t }}<span aria-hidden="true">+</span></summary>
+{% form 'contact', id: 'wk-review-contact', class: 'wk-review-form' %}
+{% if form.posted_successfully? %}<p role="status">{{ 'wk_editorial.review_success' | t }}</p>{% endif %}{{ form.errors | default_errors }}
+<input type="hidden" name="contact[product]" value="{{ product.title | escape }} ({{ product.id }})">
+<input type="hidden" name="contact[request_type]" value="Product review">
+<label>{{ 'wk_editorial.your_name' | t }}<input name="contact[name]" autocomplete="name" required maxlength="100"></label><label>{{ 'wk_editorial.email' | t }}<input name="contact[email]" type="email" autocomplete="email" required></label>
+<label>{{ 'wk_editorial.your_rating' | t }}<select name="contact[rating]" required><option value="">{{ 'wk_editorial.choose_rating' | t }}</option>{% for rating in (1..5) %}<option value="{{ rating }}">{{ 'wk_editorial.rating_out_of' | t: rating: rating }}</option>{% endfor %}</select></label>
+<label>{{ 'wk_editorial.review_title' | t }}<input name="contact[review_title]" required maxlength="150"></label><label class="wk-form-wide">{{ 'wk_editorial.your_review' | t }}<textarea name="contact[body]" required rows="4" maxlength="3000"></textarea></label>
+<label class="wk-consent wk-form-wide"><input type="checkbox" name="contact[publication_consent]" value="yes" required><span>{{ 'wk_editorial.review_consent' | t }}</span></label><button type="submit" class="wk-button">{{ 'wk_editorial.submit_review' | t }}</button>
+{% endform %}</details>
+</section>
+{% assign recommendation_collection = section.settings.recommendation_collection %}
+{% if recommendation_collection != blank %}<section class="wk-recommendations" aria-labelledby="wk-recommendations-title"><div class="wk-section-heading"><p class="wk-kicker">{{ 'wk_editorial.recommendation_kicker' | t }}</p><h2 id="wk-recommendations-title">{{ 'wk_editorial.recommendations_title' | t }}</h2></div><div class="wk-recommendation-grid">{% assign recommendation_count = 0 %}{% for recommended in recommendation_collection.products limit: 8 %}{% unless recommended.id == product.id %}{% assign recommendation_count = recommendation_count | plus: 1 %}<a class="wk-recommendation-card" href="{{ recommended.url }}">{{ recommended.featured_image | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300,450,600', sizes: '(max-width: 700px) 45vw, 23vw' }}<h3>{{ recommended.title | escape }}</h3><p>{{ recommended.price | money_with_currency }}</p><span>{{ 'wk_editorial.discover' | t }} →</span></a>{% if recommendation_count == 4 %}{% break %}{% endif %}{% endunless %}{% endfor %}</div></section>{% endif %}
+<div class="wk-editorial-note"><p class="wk-kicker">{{ 'wk_editorial.signature' | t }}</p><h2>{{ section.settings.closing_heading | escape }}</h2><p>{{ section.settings.closing_body | escape }}</p></div>
+<div class="wk-sticky-buy" data-wk-sticky hidden><div><strong>{{ product.title | escape }}</strong><small><span data-wk-sticky-color>{{ current_color | escape }}</span> · <span data-wk-sticky-price>{{ current_variant.price | money }}</span></small></div><button class="wk-button" type="submit" form="{{ form_id }}" data-wk-sticky-add {% unless current_variant.available %}disabled{% endunless %}>{% if is_preorder %}{{ 'wk_editorial.preorder' | t }}{% else %}{{ 'wk_editorial.add_to_cart' | t }}{% endif %}</button></div>
+<dialog class="wk-lightbox" data-wk-lightbox aria-label="{{ 'wk_editorial.product_photos' | t }}"><button type="button" class="wk-dialog-close" data-wk-lightbox-close aria-label="{{ 'wk_editorial.close' | t }}">×</button><button type="button" class="wk-lightbox-prev" data-wk-lightbox-prev aria-label="{{ 'wk_editorial.previous_photo' | t }}">←</button><figure><img alt="" width="1086" height="1448" data-wk-lightbox-image><figcaption data-wk-lightbox-caption></figcaption></figure><button type="button" class="wk-lightbox-next" data-wk-lightbox-next aria-label="{{ 'wk_editorial.next_photo' | t }}">→</button></dialog>
+<dialog class="wk-cart" data-wk-cart aria-labelledby="wk-cart-title"><div class="wk-cart-top"><h2 id="wk-cart-title">{{ 'wk_editorial.your_bag' | t }}</h2><button type="button" data-wk-cart-close aria-label="{{ 'wk_editorial.close' | t }}">×</button></div><div data-wk-cart-items class="wk-cart-items"></div><p data-wk-cart-error role="alert" hidden></p><div class="wk-cart-bottom"><div><span>{{ 'wk_editorial.subtotal' | t }}</span><strong data-wk-cart-total></strong></div><p>{{ 'wk_editorial.cart_shipping_note' | t }}</p><form action="{{ routes.cart_url }}" method="post"><button class="wk-button" type="submit" name="checkout" data-wk-checkout>{{ 'wk_editorial.checkout' | t }}</button></form><button type="button" class="wk-text-button" data-wk-cart-close>{{ 'wk_editorial.continue_shopping' | t }}</button></div></dialog>
+<script type="application/json" data-wk-config>{"currency":{{ localization.country.currency.iso_code | default: shop.currency | json }},"locale":{{ request.locale.iso_code | json }},"root":{{ routes.root_url | json }},"variants":{{ product.variants | json }},"add":{{ 'wk_editorial.add_to_cart' | t | json }},"preorder":{{ 'wk_editorial.preorder' | t | json }},"soldOut":{{ 'wk_editorial.sold_out' | t | json }},"adding":{{ 'wk_editorial.adding' | t | json }},"empty":{{ 'wk_editorial.empty_cart' | t | json }},"quantity":{{ 'wk_editorial.quantity' | t | json }},"remove":{{ 'wk_editorial.remove' | t | json }},"error":{{ 'wk_editorial.cart_error' | t | json }},"canvas":{{ 'wk_editorial.leather_canvas' | t | json }},"leather":{{ 'wk_editorial.leather_exterior' | t | json }},"canvasDetail":{{ 'wk_editorial.canvas_detail' | t | json }},"leatherDetail":{{ 'wk_editorial.black_detail' | t | json }},"orderToday":{{ 'wk_editorial.order_today' | t | json }},"international":{{ 'wk_editorial.international_delivery' | t | json }},"saveTemplate":{{ 'wk_editorial.offer_body' | t: amount: '__AMOUNT__' | json }},"regularOffer":{{ 'wk_editorial.offer_regular' | t | json }}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":{{ product.title | json }},"url":{{ canonical_url | json }},"image":[{{ main_image | json }}],"brand":{"@type":"Brand","name":"Velantra"},"offers":{"@type":"Offer","priceCurrency":{{ shop.currency | json }},"price":{{ current_variant.price | divided_by: 100.0 | json }},"availability":"https://schema.org/{% if current_variant.available %}{% if is_preorder %}PreOrder{% else %}InStock{% endif %}{% else %}OutOfStock{% endif %}"}}</script>
+</section>
+
+
+
+
+
+{% stylesheet %}
+@font-face{font-family:'Montserrat';font-weight:600;font-style:normal;font-display:swap;src:url('https://cdn.shopify.com/s/files/1/0627/4092/2433/t/23/assets/wk-editorial-montserrat-600.ttf?v=1789321534') format('truetype')}
+@font-face{font-family:'Montserrat';font-weight:400;font-style:normal;font-display:swap;src:url('https://cdn.shopify.com/s/files/1/0627/4092/2433/t/23/assets/wk-editorial-montserrat-400.ttf?v=1789321535') format('truetype')}
+@font-face{font-family:'Montserrat';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.shopify.com/s/files/1/0627/4092/2433/t/23/assets/wk-editorial-montserrat-500.ttf?v=1789321537') format('truetype')}
+@font-face{font-family:'Cormorant Garamond';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.shopify.com/s/files/1/0627/4092/2433/t/23/assets/wk-editorial-cormorant-garamond-500.ttf?v=1789321538') format('truetype')}
+@font-face{font-family:'Cormorant Garamond';font-weight:600;font-style:normal;font-display:swap;src:url('https://cdn.shopify.com/s/files/1/0627/4092/2433/t/23/assets/wk-editorial-cormorant-garamond-600.ttf?v=1789321539') format('truetype')}
+*{box-sizing:border-box}body.wk-editorial{margin:0;background:#fff;color:#252525;font-family:Montserrat,Arial,sans-serif;font-size:13px;line-height:1.65}body.wk-editorial:has(dialog[open]){overflow:hidden}.wk-editorial [hidden]{display:none!important}.wk-editorial a{color:inherit;text-underline-offset:4px}.wk-editorial button,.wk-editorial input,.wk-editorial select,.wk-editorial textarea{font:inherit}.wk-editorial button{cursor:pointer}.wk-editorial button:disabled{opacity:.5;cursor:not-allowed}.wk-editorial button:focus-visible,.wk-editorial a:focus-visible,.wk-editorial input:focus-visible,.wk-editorial summary:focus-visible,.wk-editorial select:focus-visible,.wk-editorial textarea:focus-visible{outline:2px solid #142238;outline-offset:4px}.wk-editorial img{max-width:100%;display:block}.wk-editorial h1,.wk-editorial h2,.wk-editorial h3,.wk-editorial p{margin:0}.wk-editorial h2{font-weight:500;letter-spacing:.02em}.wk-editorial h3{font-size:14px;font-weight:500}.wk-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.wk-skip{position:fixed;left:12px;top:-100px;z-index:100;background:white;padding:12px}.wk-skip:focus{top:10px}.wk-announcement{text-align:center;background:#142238;color:#fff;letter-spacing:.06em;font-size:10px;padding:8px 15px}.wk-header{height:92px;max-width:1600px;margin:auto;padding:0 4%;display:flex;align-items:center;border-bottom:1px solid #e9e7e3;gap:50px}.wk-wordmark{font-family:'Cormorant Garamond',Georgia,serif;font-size:38px;letter-spacing:.12em;font-weight:500;text-decoration:none}.wk-desktop-nav{display:flex;gap:32px;font-size:11px;text-transform:uppercase;letter-spacing:.08em}.wk-desktop-nav a,.wk-mobile-nav a{text-decoration:none;padding:8px 0}.wk-desktop-nav a[aria-current],.wk-mobile-nav a[aria-current]{border-bottom:1px solid}.wk-cart-trigger{margin-left:auto;background:none;border:0;display:flex;align-items:center;gap:6px}.wk-mobile-nav{display:none}.wk-product{max-width:1600px;margin:auto;padding:35px 4% 0}.wk-product-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(330px,1fr);gap:48px;align-items:start}.wk-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.wk-gallery-item{position:relative;padding:0;border:0;background:#f6f5f2;aspect-ratio:3/4;overflow:hidden}.wk-gallery-item img{width:100%;height:100%;object-fit:cover}.wk-zoom-mark{position:absolute;bottom:12px;right:14px;font-size:22px;line-height:1;color:#272727;background:#ffffffc9;width:25px;height:25px;border-radius:50%}.wk-gallery-nav{display:flex;justify-content:center;align-items:center;gap:30px;margin-top:12px;font-size:11px}.wk-gallery-nav button{background:none;border:0;padding:8px 12px}.wk-buy-column{height:100%;min-width:0}.wk-buy-box{position:sticky;top:25px;max-width:475px;margin:0 auto}.wk-kicker{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#6d685f;margin-bottom:8px!important}.wk-buy-box h1{font-size:22px;line-height:1.35;letter-spacing:.025em;font-weight:500}.wk-review-link{display:flex;align-items:center;gap:12px;font-size:10px;margin:12px 0 15px}.wk-stars{letter-spacing:2px;color:#142238;font-size:16px;white-space:nowrap}.wk-stars-empty{color:#6c6861}.wk-price-row{display:flex;align-items:center;gap:12px;margin:0 0 15px}.wk-price{font-size:20px;font-weight:500}.wk-price-row s{color:#868078;font-size:14px}.wk-offer-chip{border:1px solid #142238;padding:2px 7px;font-size:9px;letter-spacing:.05em;text-transform:uppercase}.wk-short-description{color:#68625b;font-size:12px;line-height:1.7;margin-bottom:22px!important}.wk-colors{padding:0;margin:0 0 20px;border:0;display:flex;gap:9px;flex-wrap:wrap}.wk-colors legend{font-size:11px;padding:0;margin-bottom:10px;font-weight:500}.wk-colors legend span{font-weight:400}.wk-colors label{width:64px;border:1px solid #e6e2dc;cursor:pointer;padding:3px;position:relative;background:#faf9f6}.wk-colors label img{width:56px;height:58px;object-fit:contain}.wk-colors label span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.wk-colors input:checked+label{border-color:#142238;box-shadow:0 0 0 1px #142238}.wk-colors input:focus-visible+label{outline:2px solid #142238;outline-offset:4px}.wk-colors input:disabled+label{opacity:.4;cursor:not-allowed}.wk-delivery{display:flex;gap:9px;align-items:flex-start;margin-bottom:15px;font-size:11px}.wk-delivery svg{flex-shrink:0;margin-top:2px}.wk-delivery small{display:block;color:#77726b;font-size:9px;line-height:1.6;margin-top:3px}.wk-button{display:inline-flex;align-items:center;justify-content:center;background:#142238;color:white!important;border:1px solid #142238;text-decoration:none;padding:15px 22px;letter-spacing:.08em;font-size:11px;font-weight:500;text-align:center;min-height:49px}.wk-button:hover{background:#263a55}.wk-add{width:100%}.wk-form-error{color:#9c261f;margin:10px 0!important}.wk-tags{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:12px 0 23px}.wk-tags>*{font-size:9px;background:#f5f4f1;padding:8px 5px;text-align:center;text-decoration:none!important}.wk-accordions details{border-top:1px solid #dedbd5}.wk-accordions details:last-child{border-bottom:1px solid #dedbd5}.wk-editorial summary{cursor:pointer;list-style:none}.wk-editorial summary::-webkit-details-marker{display:none}.wk-accordions summary,.wk-review-form-wrap>summary{display:flex;justify-content:space-between;align-items:center;padding:16px 0;letter-spacing:.04em;font-size:11px;text-transform:uppercase}.wk-accordions summary span,.wk-review-form-wrap summary span{font-size:20px;line-height:1}.wk-accordions details[open] summary span,.wk-review-form-wrap[open]>summary span{transform:rotate(45deg)}.wk-accordions details>div{font-size:11px;padding-bottom:20px;color:#625d55;line-height:1.9}.wk-accordions p+p{margin-top:10px}.wk-accordions ul{padding-left:17px}.wk-fine-print{font-size:10px;color:#777269}.wk-dimensions{display:flex;gap:30px;margin:16px 0}.wk-dimensions dd{margin:0;color:#252525;font-size:16px}.wk-dimensions dt{font-size:9px;text-transform:uppercase;letter-spacing:.06em}.wk-offer-panel{background:#f4f1eb;padding:24px;margin-top:22px;border:1px solid #e8e2d7}.wk-offer-panel h2{font-size:15px;margin-bottom:8px}.wk-offer-panel p{font-size:11px;line-height:1.8}.wk-offer-panel p+p{margin-top:5px;color:#71695f}.wk-service-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;margin:60px -4.35% 0;padding:40px 4.35%;border-top:1px solid #e8e5df;border-bottom:1px solid #e8e5df;background:#faf9f6}.wk-service-strip div>span{font-size:27px;display:block;margin-bottom:7px}.wk-service-strip h2{font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:7px}.wk-service-strip p,.wk-service-strip a{font-size:10px;color:#716b63}.wk-reviews{padding:64px 0;scroll-margin-top:30px}.wk-reviews-heading{display:flex;align-items:center;justify-content:space-between;gap:20px}.wk-reviews-heading h2,.wk-section-heading h2{font-size:24px}.wk-button-outline{color:#142238!important;background:transparent}.wk-button-outline:hover{background:#f3f0eb}.wk-review-invitation{text-align:center;background:#faf9f7;padding:36px;margin:27px 0}.wk-review-invitation h3{font-size:17px;margin:10px 0}.wk-review-invitation p{font-size:12px;color:#726b62;max-width:550px;margin:auto}.wk-review-form-wrap{border-top:1px solid #dedbd5;border-bottom:1px solid #dedbd5;scroll-margin-top:30px}.wk-review-form{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:20px 0 30px;max-width:760px}.wk-review-form label{display:grid;gap:6px;font-size:11px}.wk-editorial input:not([type=checkbox]):not([type=radio]):not([type=hidden]),.wk-editorial select,.wk-editorial textarea{border:1px solid #cbc6bd;border-radius:0;background:white;padding:12px;color:#252525;min-width:0;width:100%}.wk-form-wide{grid-column:1/-1}.wk-editorial .wk-consent{display:flex;gap:9px;align-items:flex-start;font-size:10px;line-height:1.7}.wk-consent input{margin:3px 0 0;accent-color:#142238}.wk-rating-summary{display:flex;gap:20px;align-items:center;margin:35px 0}.wk-rating-summary strong{font-size:40px}.wk-review{display:grid;grid-template-columns:1fr 3fr;gap:30px;border-top:1px solid #dedbd5;padding:25px 0}.wk-review small{display:block;color:#68625b}.wk-review h3{margin:8px 0}.wk-recommendations{padding:30px 0 60px}.wk-section-heading{text-align:center;margin-bottom:30px}.wk-recommendation-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.wk-recommendation-card{text-decoration:none}.wk-recommendation-card img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;background:#f6f5f2}.wk-recommendation-card h3{font-size:12px;margin-top:15px}.wk-recommendation-card p{font-size:12px;margin-top:3px}.wk-recommendation-card span{font-size:10px;text-decoration:underline;display:inline-block;margin-top:9px}.wk-editorial-note{text-align:center;padding:65px 20px;background:#f2eee6;margin:0 -4.35%;color:#142238}.wk-editorial-note h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:40px;font-weight:500;margin:6px 0 12px}.wk-editorial-note>p:last-child{max-width:520px;margin:auto;font-size:12px}.wk-footer{background:#142238;color:#fff;padding:55px 4% 25px}.wk-footer-top{display:grid;grid-template-columns:1fr 1fr;gap:80px;max-width:1300px;margin:auto;padding-bottom:45px}.wk-footer .wk-kicker{color:#cfbf9d}.wk-footer h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:33px;margin:5px 0 12px}.wk-footer p{font-size:11px;color:#dededb;max-width:380px}.wk-newsletter>label{font-size:10px}.wk-newsletter>div{display:flex;margin:7px 0 12px}.wk-newsletter button{border:1px solid white;background:#fff;color:#142238;padding:10px 20px;font-size:10px;text-transform:uppercase}.wk-footer-bottom{border-top:1px solid #ffffff35;padding-top:30px;display:flex;align-items:center;gap:35px;max-width:1400px;margin:auto}.wk-footer-bottom .wk-wordmark{font-size:25px}.wk-footer-bottom nav{display:flex;flex-wrap:wrap;gap:20px;font-size:10px}.wk-footer-bottom small{margin-left:auto;font-size:9px}.wk-sticky-buy{display:none}.wk-editorial dialog{color:#252525;border:0;box-shadow:0 15px 80px #0004;padding:0}.wk-editorial dialog::backdrop{background:#0008}.wk-lightbox{max-width:95vw;width:1000px;height:94vh;background:#f4f2ed}.wk-lightbox figure{height:100%;margin:0;padding:35px 55px;display:flex;flex-direction:column;align-items:center;justify-content:center}.wk-lightbox figure img{width:100%;height:calc(100% - 35px);object-fit:contain}.wk-lightbox figcaption{font-size:11px;text-align:center;margin-top:12px}.wk-dialog-close{position:absolute;right:12px;top:8px;background:white;border:0;width:35px;height:35px;font-size:25px;z-index:1}.wk-lightbox-prev,.wk-lightbox-next{position:absolute;top:50%;background:white;border:0;padding:12px;font-size:22px}.wk-lightbox-prev{left:5px}.wk-lightbox-next{right:5px}.wk-cart{height:100dvh;max-height:100dvh;width:440px;max-width:100vw;margin:0 0 0 auto;background:white}.wk-cart[open]{display:flex;flex-direction:column}.wk-cart-top{display:flex;align-items:center;justify-content:space-between;padding:22px;border-bottom:1px solid #ddd}.wk-cart-top h2{font-size:19px}.wk-cart-top button{border:0;background:none;font-size:25px}.wk-cart-items{flex:1;overflow:auto;padding:22px}.wk-cart-item{display:grid;grid-template-columns:80px 1fr;gap:15px;margin-bottom:22px}.wk-cart-item img{width:80px;height:100px;object-fit:cover;background:#f6f4ef}.wk-cart-item h3{font-size:12px}.wk-cart-item p{font-size:11px;margin-top:4px}.wk-cart-item button{background:none;border:0;padding:5px 0;font-size:10px;text-decoration:underline}.wk-cart-bottom{border-top:1px solid #ddd;padding:22px}.wk-cart-bottom>div{display:flex;justify-content:space-between}.wk-cart-bottom p{font-size:10px;color:#726a62;margin:8px 0 20px}.wk-cart-bottom .wk-button{width:100%}.wk-text-button{border:0;background:none;padding:15px;width:100%;text-decoration:underline;font-size:11px}.wk-cart [role=alert]{padding:0 22px;color:#9c261f}
+@media(min-width:1800px){.wk-header{padding-left:0;padding-right:0}}
+@media(max-width:1050px){.wk-product-grid{gap:28px;grid-template-columns:minmax(0,1.25fr) minmax(300px,1fr)}.wk-header{gap:30px}.wk-desktop-nav{gap:22px}.wk-gallery{gap:5px}.wk-buy-box h1{font-size:20px}}
+@media(max-width:749px){.wk-announcement{font-size:8px;padding:6px 10px}.wk-header{height:57px;padding:0 18px}.wk-wordmark{font-size:29px}.wk-desktop-nav{display:none}.wk-mobile-nav{display:flex;justify-content:center;gap:32px;border-bottom:1px solid #e8e5df;font-size:9px;letter-spacing:.08em;text-transform:uppercase}.wk-mobile-nav a{padding:8px 0}.wk-product{padding:0 17px}.wk-product-grid{display:block}.wk-gallery-wrap{margin:0 -17px}.wk-gallery{display:flex;gap:0;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.wk-gallery::-webkit-scrollbar{display:none}.wk-gallery-item{flex:0 0 100%;aspect-ratio:1.15;scroll-snap-align:start}.wk-gallery-item img{object-fit:contain;background:#f4f2ee}.wk-gallery-hero img{object-fit:cover}.wk-gallery-nav{margin-top:0;gap:25px;height:32px;font-size:9px}.wk-gallery-nav button{padding:3px 10px}.wk-zoom-mark{bottom:12px;right:15px;font-size:18px}.wk-buy-box{position:static;max-width:none;padding-top:10px}.wk-buy-box>.wk-kicker{font-size:8px;margin-bottom:4px!important}.wk-buy-box h1{font-size:20px}.wk-review-link{margin:7px 0 9px;font-size:9px;gap:9px}.wk-stars{font-size:14px}.wk-price-row{margin-bottom:10px;gap:10px}.wk-price{font-size:19px}.wk-price-row s{font-size:12px}.wk-short-description{font-size:11px;line-height:1.65;margin-bottom:14px!important}.wk-colors{margin-bottom:13px;gap:9px}.wk-colors legend{font-size:10px;margin-bottom:8px}.wk-colors label{width:52px;padding:2px}.wk-colors label img{width:46px;height:43px}.wk-delivery{font-size:10px;margin-bottom:12px}.wk-delivery small{font-size:8px}.wk-button{font-size:10px;min-height:47px;padding:13px 17px}.wk-tags{margin-bottom:16px}.wk-tags>*{font-size:8px;padding:7px 4px}.wk-accordions summary{padding:15px 0}.wk-offer-panel{padding:20px}.wk-service-strip{grid-template-columns:1fr 1fr;padding:30px 20px;margin:35px -17px 0;gap:28px 15px}.wk-service-strip h2{font-size:9px}.wk-service-strip p,.wk-service-strip a{font-size:9px}.wk-reviews{padding:35px 0}.wk-reviews-heading{gap:12px}.wk-reviews-heading h2,.wk-section-heading h2{font-size:21px}.wk-reviews-heading .wk-button{padding:10px;min-height:40px;font-size:8px}.wk-review-invitation{padding:25px 18px;margin:23px 0}.wk-review-invitation h3{font-size:15px}.wk-review-invitation p{font-size:11px}.wk-review-form{grid-template-columns:1fr}.wk-review{grid-template-columns:1fr;gap:8px}.wk-recommendations{padding:20px 0 35px}.wk-recommendation-grid{grid-template-columns:repeat(2,1fr);gap:25px 12px}.wk-recommendation-card h3{font-size:11px;margin-top:10px}.wk-recommendation-card p{font-size:10px}.wk-editorial-note{padding:40px 20px;margin:0 -17px}.wk-editorial-note h2{font-size:32px}.wk-editorial-note>p:last-child{font-size:11px}.wk-footer{padding:35px 22px 100px}.wk-footer-top{grid-template-columns:1fr;gap:25px;padding-bottom:30px}.wk-footer-bottom{flex-wrap:wrap;gap:20px}.wk-footer-bottom nav{order:3;width:100%;gap:14px}.wk-footer-bottom small{font-size:8px}.wk-footer h2{font-size:30px}.wk-sticky-buy{position:fixed;bottom:0;left:0;right:0;z-index:15;background:#fff;box-shadow:0 -3px 20px #0001;padding:10px 14px max(10px,env(safe-area-inset-bottom));display:flex;justify-content:space-between;align-items:center;gap:12px}.wk-sticky-buy strong{font-size:10px;font-weight:500;display:block}.wk-sticky-buy small{font-size:9px}.wk-sticky-buy .wk-button{min-width:140px;min-height:42px;font-size:9px}.wk-lightbox{width:100vw;max-width:100vw;height:90dvh}.wk-lightbox figure{padding:40px 10px}.wk-lightbox-prev,.wk-lightbox-next{top:auto;bottom:8px;padding:8px 14px}.wk-lightbox figcaption{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.wk-editorial *{scroll-behavior:auto!important;transition:none!important}}
+
+@media(max-width:749px){.wk-buy-box{display:flex;flex-direction:column}.wk-buy-box>.wk-kicker{order:1}.wk-buy-box>h1{order:2}.wk-review-link{order:3}.wk-price-row{order:4}.wk-product-form{order:5}.wk-tags{order:6}.wk-short-description{order:7}.wk-accordions{order:8}.wk-offer-panel{order:9}}
+
+{% endstylesheet %}
+{% javascript %}
+(() => {
+  const init = () => {
+    const section = document.querySelector('[data-wk-product]');
+    if (!section || section.dataset.initialized) return;
+    section.dataset.initialized = 'true';
+    const q = selector => section.querySelector(selector);
+    const qa = selector => Array.from(section.querySelectorAll(selector));
+    const config = JSON.parse(q('[data-wk-config]').textContent);
+    const format = value => new Intl.NumberFormat(config.locale, {style:'currency',currency:config.currency}).format(value / 100);
+    const endpoint = name => config.root.replace(/\/$/, '') + '/' + name;
+    const gallery = q('[data-wk-gallery]');
+    const allImages = qa('[data-wk-image]');
+    let activeImages = [], photoIndex = 0, busy = false;
+    let variant = config.variants.find(v => String(v.id) === q('[data-wk-variant-input]').value) || config.variants[0];
+    const lightbox = q('[data-wk-lightbox]');
+    const cart = q('[data-wk-cart]');
+    const form = q('.wk-product-form');
+    const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const request = async (url, options={}) => {
+      const response = await (window.wkEditorialFetch || window.fetch.bind(window))(endpoint(url) + '?wk_editorial=1', {...options, headers:{'Accept':'application/json','Content-Type':'application/json',...options.headers}});
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.description || data.message || config.error);
+      return data;
+    };
+    const error = (node, message) => {node.textContent = message;node.hidden = !message;};
+    const updateCounter = () => {q('[data-wk-image-counter]').textContent = `${photoIndex + 1} / ${activeImages.length}`;};
+    const showPhoto = (index, zoom=false) => {
+      photoIndex = (index + activeImages.length) % activeImages.length;
+      const photo = activeImages[photoIndex];
+      if (!photo) return;
+      updateCounter();
+      if (zoom) {
+        const img = photo.querySelector('img');
+        q('[data-wk-lightbox-image]').src = img.src;
+        q('[data-wk-lightbox-image]').alt = img.alt;
+        q('[data-wk-lightbox-caption]').textContent = photo.dataset.caption;
+        if (!lightbox.open) lightbox.showModal();
+      } else if (matchMedia('(max-width:749px)').matches) {
+        gallery.scrollTo({left:photo.offsetLeft - activeImages[0].offsetLeft,behavior:reduced?'instant':'smooth'});
+      } else showPhoto(photoIndex, true);
+    };
+    const syncVariant = (writeUrl=true) => {
+      const black = variant.option1 === 'Black';
+      const preorder = black && section.dataset.blackPreorder === 'true';
+      q('[data-wk-variant-input]').value = variant.id;
+      q('[data-wk-color-name]').textContent = variant.option1;
+      q('[data-wk-sticky-color]').textContent = variant.option1;
+      q('[data-wk-price]').textContent = format(variant.price) + ' ' + config.currency;
+      q('[data-wk-sticky-price]').textContent = format(variant.price);
+      q('[data-wk-compare]').textContent = format(variant.compare_at_price || 0);
+      q('[data-wk-compare]').hidden = q('[data-wk-sale]').hidden = !(variant.compare_at_price > variant.price);
+      qa('[data-wk-add],[data-wk-sticky-add]').forEach(button => {
+        button.disabled = !variant.available || busy;
+        button.textContent = busy ? config.adding : !variant.available ? config.soldOut : preorder ? config.preorder : config.add;
+      });
+      q('[data-wk-material]').textContent = black ? config.leather : config.canvas;
+      q('[data-wk-detail-material]').textContent = black ? config.leatherDetail : config.canvasDetail;
+      q('[data-wk-preorder-detail]').hidden = !preorder;
+      q('[data-wk-offer-body]').textContent = variant.compare_at_price > variant.price ? config.saveTemplate.replace('__AMOUNT__',format(variant.compare_at_price-variant.price)) : config.regularOffer;
+      allImages.forEach(image => {image.hidden = image.dataset.color !== variant.option1;});
+      activeImages = allImages.filter(image => !image.hidden);
+      photoIndex = 0;gallery.scrollLeft = 0;updateCounter();
+      if (writeUrl) {const url = new URL(location.href);url.searchParams.set('variant',variant.id);history.replaceState({},'',url);}
+    };
+    syncVariant(false);
+    qa('[data-wk-color-radio]').forEach(radio => radio.addEventListener('change',() => {
+      const selected = config.variants.find(v=>String(v.id)===radio.value);
+      if (selected) {variant = selected;syncVariant();}
+    }));
+    allImages.forEach(item=>item.addEventListener('click',()=>showPhoto(activeImages.indexOf(item),true)));
+    q('[data-wk-prev]').addEventListener('click',()=>showPhoto(photoIndex-1));
+    q('[data-wk-next]').addEventListener('click',()=>showPhoto(photoIndex+1));
+    q('[data-wk-lightbox-prev]').addEventListener('click',()=>showPhoto(photoIndex-1,true));
+    q('[data-wk-lightbox-next]').addEventListener('click',()=>showPhoto(photoIndex+1,true));
+    q('[data-wk-lightbox-close]').addEventListener('click',()=>lightbox.close());
+    lightbox.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'){event.preventDefault();showPhoto(photoIndex-1,true);}if(event.key==='ArrowRight'){event.preventDefault();showPhoto(photoIndex+1,true);}});
+    gallery.addEventListener('scroll',()=>{if(matchMedia('(max-width:749px)').matches){photoIndex=Math.min(activeImages.length-1,Math.max(0,Math.round(gallery.scrollLeft/gallery.clientWidth)));updateCounter();}},{passive:true});
+    const businessDays = (date, days) => {const out = new Date(date);let left=days;while(left>0){out.setUTCDate(out.getUTCDate()+1);if(out.getUTCDay()!==0&&out.getUTCDay()!==6)left--;}return out;};
+    if(section.dataset.country==='US') {
+      const dateParts = new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+      const part = name=>dateParts.find(p=>p.type===name).value;
+      const dispatch = new Date(`${part('year')}-${part('month')}-${part('day')}T12:00:00Z`);
+      dispatch.setUTCDate(dispatch.getUTCDate()+Number(section.dataset.dispatch));
+      const dateFormat = new Intl.DateTimeFormat(config.locale,{month:'short',day:'numeric',timeZone:'UTC'});
+      const min = dateFormat.format(businessDays(dispatch,Number(section.dataset.transitMin)));
+      const max = dateFormat.format(businessDays(dispatch,Number(section.dataset.transitMax)));
+      q('[data-wk-arrival]').textContent = config.orderToday.replace('__MIN__',min).replace('__MAX__',max);
+    } else q('[data-wk-arrival]').textContent = config.international;
+    document.querySelectorAll('a[href="#wk-review-form"]').forEach(link=>link.addEventListener('click',()=>{q('#wk-review-form').open=true;}));
+    if(location.hash==='#wk-review-form'||location.hash==='#wk-review-contact')q('#wk-review-form').open=true;
+    new IntersectionObserver(entries=>{q('[data-wk-sticky]').hidden = entries[0].isIntersecting;},{threshold:0}).observe(q('[data-wk-add]'));
+    const element = (tag, className, text) => {const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node;};
+    const renderCart = data => {
+      const container = q('[data-wk-cart-items]');container.replaceChildren();
+      document.querySelectorAll('[data-wk-cart-count]').forEach(node=>{node.textContent=data.item_count;});
+      if(!data.items.length) container.append(element('p','',config.empty));
+      data.items.forEach(item=>{
+        const card=element('article','wk-cart-item');
+        const itemVariant=config.variants.find(v=>v.id===item.variant_id);
+        const matching=itemVariant ? allImages.find(i=>i.dataset.color===itemVariant.option1) : null;
+        const thumb=element('img');thumb.alt=item.product_title;thumb.src=matching?matching.querySelector('img').src:item.image;thumb.width=80;thumb.height=100;
+        const info=element('div');info.append(element('h3','',item.product_title),element('p','',`${item.variant_title || ''} · ${config.quantity} ${item.quantity}`),element('p','',format(item.final_line_price)));
+        const remove=element('button','',config.remove);remove.type='button';remove.addEventListener('click',async()=>{remove.disabled=true;try{renderCart(await request('cart/change.js',{method:'POST',body:JSON.stringify({id:item.key,quantity:0})}));}catch(e){error(q('[data-wk-cart-error]'),e.message);remove.disabled=false;}});info.append(remove);card.append(thumb,info);container.append(card);
+      });
+      q('[data-wk-cart-total]').textContent=format(data.total_price);
+      q('[data-wk-checkout]').disabled=!data.item_count;
+    };
+    const openCart = async () => {
+      error(q('[data-wk-cart-error]'),'');
+      try{renderCart(await request('cart.js'));if(!cart.open)cart.showModal();}catch(e){if(!cart.open)cart.showModal();error(q('[data-wk-cart-error]'),e.message);}
+    };
+    document.querySelectorAll('[data-wk-cart-open]').forEach(button=>button.addEventListener('click',openCart));
+    qa('[data-wk-cart-close]').forEach(button=>button.addEventListener('click',()=>cart.close()));
+    form.addEventListener('submit',async event=>{
+      event.preventDefault();if(busy||!variant.available)return;busy=true;
+      qa('[data-wk-add],[data-wk-sticky-add]').forEach(button=>{button.disabled=true;button.textContent=config.adding;});
+      error(q('[data-wk-product-error]'),'');
+      try{await request('cart/add.js',{method:'POST',body:JSON.stringify({items:[{id:variant.id,quantity:1}]})});await openCart();}catch(e){error(q('[data-wk-product-error]'),e.message);}finally{busy=false;qa('[data-wk-add],[data-wk-sticky-add]').forEach(button=>{button.disabled=!variant.available;button.textContent=!variant.available?config.soldOut:variant.option1==='Black'&&section.dataset.blackPreorder==='true'?config.preorder:config.add;});}
+    });
+    document.addEventListener('shopify:section:load',init,{once:true});
+  };
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
+
+{% endjavascript %}
+{% schema %}
+{
+  "name": "t:wk_editorial.schema_name",
+  "max_blocks": 50,
+  "settings": [
+    {
+      "type": "select",
+      "id": "audience",
+      "label": "t:wk_editorial.schema_audience",
+      "options": [
+        {
+          "value": "women",
+          "label": "t:wk_editorial.schema_women"
+        },
+        {
+          "value": "men",
+          "label": "t:wk_editorial.schema_men"
+        }
+      ],
+      "default": "women"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:wk_editorial.schema_eyebrow"
+    },
+    {
+      "type": "textarea",
+      "id": "intro",
+      "label": "t:wk_editorial.schema_intro"
+    },
+    {
+      "type": "textarea",
+      "id": "details",
+      "label": "t:wk_editorial.schema_details"
+    },
+    {
+      "type": "textarea",
+      "id": "fit_copy",
+      "label": "t:wk_editorial.schema_fit"
+    },
+    {
+      "type": "text",
+      "id": "offer_heading",
+      "label": "t:wk_editorial.schema_offer_heading"
+    },
+    {
+      "type": "textarea",
+      "id": "offer_caption",
+      "label": "t:wk_editorial.schema_offer_caption"
+    },
+    {
+      "type": "text",
+      "id": "closing_heading",
+      "label": "t:wk_editorial.schema_closing_heading"
+    },
+    {
+      "type": "textarea",
+      "id": "closing_body",
+      "label": "t:wk_editorial.schema_closing_body"
+    },
+    {
+      "type": "range",
+      "id": "dispatch_days",
+      "label": "t:wk_editorial.schema_dispatch",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "transit_min",
+      "label": "t:wk_editorial.schema_transit_min",
+      "min": 1,
+      "max": 30,
+      "step": 1,
+      "default": 7
+    },
+    {
+      "type": "range",
+      "id": "transit_max",
+      "label": "t:wk_editorial.schema_transit_max",
+      "min": 1,
+      "max": 30,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "checkbox",
+      "id": "black_preorder",
+      "label": "t:wk_editorial.schema_preorder",
+      "default": true
+    },
+    {
+      "type": "collection",
+      "id": "recommendation_collection",
+      "label": "t:wk_editorial.schema_recommendations"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "t:wk_editorial.schema_image",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "t:wk_editorial.schema_image_url"
+        },
+        {
+          "type": "select",
+          "id": "color",
+          "label": "t:wk_editorial.schema_color",
+          "options": [
+            {
+              "value": "Cognac",
+              "label": "Cognac"
+            },
+            {
+              "value": "Army Green",
+              "label": "Army Green"
+            },
+            {
+              "value": "Espresso",
+              "label": "Espresso"
+            },
+            {
+              "value": "Black",
+              "label": "Black"
+            }
+          ],
+          "default": "Cognac"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "label": "t:wk_editorial.schema_caption"
+        },
+        {
+          "type": "select",
+          "id": "kind",
+          "label": "t:wk_editorial.schema_kind",
+          "options": [
+            {
+              "value": "hero",
+              "label": "t:wk_editorial.schema_hero"
+            },
+            {
+              "value": "packshot",
+              "label": "t:wk_editorial.schema_packshot"
+            },
+            {
+              "value": "detail",
+              "label": "t:wk_editorial.schema_detail"
+            }
+          ],
+          "default": "detail"
+        },
+        {
+          "type": "range",
+          "id": "focus_y",
+          "label": "t:wk_editorial.schema_focus",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 50
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "name": "t:wk_editorial.schema_review",
+      "settings": [
+        {
+          "type": "text",
+          "id": "author",
+          "label": "t:wk_editorial.schema_author"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "t:wk_editorial.schema_rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:wk_editorial.schema_review_title"
+        },
+        {
+          "type": "textarea",
+          "id": "body",
+          "label": "t:wk_editorial.schema_review_body"
+        },
+        {
+          "type": "checkbox",
+          "id": "verified",
+          "label": "t:wk_editorial.schema_verified",
+          "default": false
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

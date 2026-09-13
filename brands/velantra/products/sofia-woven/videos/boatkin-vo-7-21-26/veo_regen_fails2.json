@@ -1,0 +1,13 @@
+{
+  "defaults": {
+    "model": "veo-3.1-generate-preview",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration_seconds": 6,
+    "negative_prompt": "dialogue, voices, narration, people talking, on-screen text, captions, watermark, logos, fast motion, camera shake, metal hardware, zippers, buckles, morphing, bag deforming, flap opening, flap lifting, straps dangling, texture change, weave disappearing, smooth surface, focus change, camera orbit"
+  },
+  "scenes": [
+    { "image": "keyframes/K08-beach-path.png", "output": "clips/K08.mp4", "prompt": "Nearly still cinemagraph, the camera is locked in place. The woman stands motionless on the dune path holding the bag, only the beach grass and the hem of her dress sway gently in the ocean breeze. The bag hangs completely still and rigid and keeps its exact woven straw texture, weave pattern and construction identical every frame of the clip. The leather flap stays ONE single seamless sheet folded all the way over, lying completely flat the entire clip: no gap, seam, or split ever opens anywhere in it, and its cut edge shapes never separate into pieces." },
+    { "image": "keyframes/K09-dock-post.png", "output": "clips/K09.mp4", "prompt": "Nearly still cinemagraph, the camera is locked in place with no orbit and no movement. The bag sits completely still and rigid on the dock post keeping its exact construction, proportions and colors identical every frame, only the water glitters and the moored boats bob very gently in the blurred background. The leather flap stays ONE single seamless sheet folded all the way over, lying completely flat the entire clip: no gap, seam, or split ever opens anywhere in it, its squared cut edge shapes never change shape or separate into pieces, and the two belt straps stay fixed flat in their exact X cross the entire clip." }
+  ]
+}

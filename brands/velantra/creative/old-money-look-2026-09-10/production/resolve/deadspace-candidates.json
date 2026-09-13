@@ -1,0 +1,415 @@
+{
+  "updated_at": "2026-09-11T18:41:17.226196+00:00",
+  "status": "machine candidates; listening and Resolve application pending",
+  "applied": false,
+  "detector": {
+    "noise_dbfs": -38,
+    "minimum_seconds": 0.3
+  },
+  "retained_edge_seconds": 0.1,
+  "instructions": [
+    "Review candidates and all shorter gaps by ear; protect words and breaths.",
+    "Cut identical source-time intervals from narration and corresponding avatars.",
+    "Ripple visuals and markers; preserve reveal timing and original speech speed.",
+    "Remove unused head/tail and blank frames; finish about 0.15s after final audible syllable.",
+    "Existing OTIO files are pre-trim bases; do not claim candidate cuts are applied."
+  ],
+  "hooks": {
+    "H1": {
+      "source": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/creative/old-money-look-2026-09-10/production/voice/H1/narration.mp3",
+      "fps": 30,
+      "applies_to_ads": [
+        "VEL-OM-H1-A1",
+        "VEL-OM-H1-A2",
+        "VEL-OM-H1-A3"
+      ],
+      "candidates": [
+        {
+          "quiet_start_seconds": 3.537324,
+          "quiet_end_seconds": 4.226349,
+          "proposed_remove_start_frame": 110,
+          "proposed_remove_end_frame_exclusive": 123,
+          "proposed_removed_seconds": 0.433333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 6.077211,
+          "quiet_end_seconds": 6.767891,
+          "proposed_remove_start_frame": 186,
+          "proposed_remove_end_frame_exclusive": 200,
+          "proposed_removed_seconds": 0.466667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 12.249002,
+          "quiet_end_seconds": 13.099683,
+          "proposed_remove_start_frame": 371,
+          "proposed_remove_end_frame_exclusive": 389,
+          "proposed_removed_seconds": 0.6,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 19.762698,
+          "quiet_end_seconds": 20.475102,
+          "proposed_remove_start_frame": 596,
+          "proposed_remove_end_frame_exclusive": 611,
+          "proposed_removed_seconds": 0.5,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 27.461156,
+          "quiet_end_seconds": 28.240136,
+          "proposed_remove_start_frame": 827,
+          "proposed_remove_end_frame_exclusive": 844,
+          "proposed_removed_seconds": 0.566667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 33.899161,
+          "quiet_end_seconds": 34.542744,
+          "proposed_remove_start_frame": 1020,
+          "proposed_remove_end_frame_exclusive": 1033,
+          "proposed_removed_seconds": 0.433333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 38.059297,
+          "quiet_end_seconds": 38.666236,
+          "proposed_remove_start_frame": 1145,
+          "proposed_remove_end_frame_exclusive": 1156,
+          "proposed_removed_seconds": 0.366667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 41.79907,
+          "quiet_end_seconds": 42.843696,
+          "proposed_remove_start_frame": 1257,
+          "proposed_remove_end_frame_exclusive": 1282,
+          "proposed_removed_seconds": 0.833333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 46.306644,
+          "quiet_end_seconds": 46.65898,
+          "proposed_remove_start_frame": 1393,
+          "proposed_remove_end_frame_exclusive": 1396,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 47.819864,
+          "quiet_end_seconds": 48.467256,
+          "proposed_remove_start_frame": 1438,
+          "proposed_remove_end_frame_exclusive": 1451,
+          "proposed_removed_seconds": 0.433333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 51.667664,
+          "quiet_end_seconds": 52.038662,
+          "proposed_remove_start_frame": 1554,
+          "proposed_remove_end_frame_exclusive": 1558,
+          "proposed_removed_seconds": 0.133333,
+          "listening_review": "pending",
+          "applied": false
+        }
+      ],
+      "potential_internal_reduction_seconds": 4.867
+    },
+    "H2": {
+      "source": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/creative/old-money-look-2026-09-10/production/voice/H2/narration.mp3",
+      "fps": 30,
+      "applies_to_ads": [
+        "VEL-OM-H2-A1",
+        "VEL-OM-H2-A2",
+        "VEL-OM-H2-A3"
+      ],
+      "candidates": [
+        {
+          "quiet_start_seconds": 2.80746,
+          "quiet_end_seconds": 3.111633,
+          "proposed_remove_start_frame": 88,
+          "proposed_remove_end_frame_exclusive": 90,
+          "proposed_removed_seconds": 0.066667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 4.42356,
+          "quiet_end_seconds": 5.010771,
+          "proposed_remove_start_frame": 136,
+          "proposed_remove_end_frame_exclusive": 147,
+          "proposed_removed_seconds": 0.366667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 6.930884,
+          "quiet_end_seconds": 7.265488,
+          "proposed_remove_start_frame": 211,
+          "proposed_remove_end_frame_exclusive": 214,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 9.540227,
+          "quiet_end_seconds": 9.86712,
+          "proposed_remove_start_frame": 290,
+          "proposed_remove_end_frame_exclusive": 293,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 12.952449,
+          "quiet_end_seconds": 13.68737,
+          "proposed_remove_start_frame": 392,
+          "proposed_remove_end_frame_exclusive": 407,
+          "proposed_removed_seconds": 0.5,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 15.901701,
+          "quiet_end_seconds": 16.282222,
+          "proposed_remove_start_frame": 481,
+          "proposed_remove_end_frame_exclusive": 485,
+          "proposed_removed_seconds": 0.133333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 20.901701,
+          "quiet_end_seconds": 21.235079,
+          "proposed_remove_start_frame": 631,
+          "proposed_remove_end_frame_exclusive": 634,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 23.571837,
+          "quiet_end_seconds": 23.948844,
+          "proposed_remove_start_frame": 711,
+          "proposed_remove_end_frame_exclusive": 715,
+          "proposed_removed_seconds": 0.133333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 24.748934,
+          "quiet_end_seconds": 25.07737,
+          "proposed_remove_start_frame": 746,
+          "proposed_remove_end_frame_exclusive": 749,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 28.860862,
+          "quiet_end_seconds": 29.436145,
+          "proposed_remove_start_frame": 869,
+          "proposed_remove_end_frame_exclusive": 880,
+          "proposed_removed_seconds": 0.366667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 31.779388,
+          "quiet_end_seconds": 32.174739,
+          "proposed_remove_start_frame": 957,
+          "proposed_remove_end_frame_exclusive": 962,
+          "proposed_removed_seconds": 0.166667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 35.6939,
+          "quiet_end_seconds": 36.265533,
+          "proposed_remove_start_frame": 1074,
+          "proposed_remove_end_frame_exclusive": 1084,
+          "proposed_removed_seconds": 0.333333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 39.888481,
+          "quiet_end_seconds": 40.363197,
+          "proposed_remove_start_frame": 1200,
+          "proposed_remove_end_frame_exclusive": 1207,
+          "proposed_removed_seconds": 0.233333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 43.62619,
+          "quiet_end_seconds": 44.295669,
+          "proposed_remove_start_frame": 1312,
+          "proposed_remove_end_frame_exclusive": 1325,
+          "proposed_removed_seconds": 0.433333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 48.103447,
+          "quiet_end_seconds": 48.470227,
+          "proposed_remove_start_frame": 1447,
+          "proposed_remove_end_frame_exclusive": 1451,
+          "proposed_removed_seconds": 0.133333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 49.672472,
+          "quiet_end_seconds": 50.127234,
+          "proposed_remove_start_frame": 1494,
+          "proposed_remove_end_frame_exclusive": 1500,
+          "proposed_removed_seconds": 0.2,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 53.608095,
+          "quiet_end_seconds": 54.057574,
+          "proposed_remove_start_frame": 1612,
+          "proposed_remove_end_frame_exclusive": 1618,
+          "proposed_removed_seconds": 0.2,
+          "listening_review": "pending",
+          "applied": false
+        }
+      ],
+      "potential_internal_reduction_seconds": 3.667
+    },
+    "H3": {
+      "source": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/creative/old-money-look-2026-09-10/production/voice/H3/narration.mp3",
+      "fps": 30,
+      "applies_to_ads": [
+        "VEL-OM-H3-A1",
+        "VEL-OM-H3-A2",
+        "VEL-OM-H3-A3"
+      ],
+      "candidates": [
+        {
+          "quiet_start_seconds": 2.171497,
+          "quiet_end_seconds": 2.693651,
+          "proposed_remove_start_frame": 69,
+          "proposed_remove_end_frame_exclusive": 77,
+          "proposed_removed_seconds": 0.266667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 4.42381,
+          "quiet_end_seconds": 4.950816,
+          "proposed_remove_start_frame": 136,
+          "proposed_remove_end_frame_exclusive": 145,
+          "proposed_removed_seconds": 0.3,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 10.272789,
+          "quiet_end_seconds": 10.610839,
+          "proposed_remove_start_frame": 312,
+          "proposed_remove_end_frame_exclusive": 315,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 11.849388,
+          "quiet_end_seconds": 12.25966,
+          "proposed_remove_start_frame": 359,
+          "proposed_remove_end_frame_exclusive": 364,
+          "proposed_removed_seconds": 0.166667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 14.479206,
+          "quiet_end_seconds": 14.81102,
+          "proposed_remove_start_frame": 438,
+          "proposed_remove_end_frame_exclusive": 441,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 19.183152,
+          "quiet_end_seconds": 19.571814,
+          "proposed_remove_start_frame": 579,
+          "proposed_remove_end_frame_exclusive": 584,
+          "proposed_removed_seconds": 0.166667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 26.579569,
+          "quiet_end_seconds": 26.976417,
+          "proposed_remove_start_frame": 801,
+          "proposed_remove_end_frame_exclusive": 806,
+          "proposed_removed_seconds": 0.166667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 33.057324,
+          "quiet_end_seconds": 33.525488,
+          "proposed_remove_start_frame": 995,
+          "proposed_remove_end_frame_exclusive": 1002,
+          "proposed_removed_seconds": 0.233333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 37.324739,
+          "quiet_end_seconds": 37.717415,
+          "proposed_remove_start_frame": 1123,
+          "proposed_remove_end_frame_exclusive": 1128,
+          "proposed_removed_seconds": 0.166667,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 41.032517,
+          "quiet_end_seconds": 41.499683,
+          "proposed_remove_start_frame": 1234,
+          "proposed_remove_end_frame_exclusive": 1241,
+          "proposed_removed_seconds": 0.233333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 46.615941,
+          "quiet_end_seconds": 47.166803,
+          "proposed_remove_start_frame": 1402,
+          "proposed_remove_end_frame_exclusive": 1412,
+          "proposed_removed_seconds": 0.333333,
+          "listening_review": "pending",
+          "applied": false
+        },
+        {
+          "quiet_start_seconds": 50.434671,
+          "quiet_end_seconds": 50.796735,
+          "proposed_remove_start_frame": 1517,
+          "proposed_remove_end_frame_exclusive": 1520,
+          "proposed_removed_seconds": 0.1,
+          "listening_review": "pending",
+          "applied": false
+        }
+      ],
+      "potential_internal_reduction_seconds": 2.333
+    }
+  }
+}

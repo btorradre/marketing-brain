@@ -1,0 +1,19 @@
+# podcast-DVHp-2FDHAJ — decisions
+
+## DECISION-2402fdc8aaed
+
+Creative revision: 1 · insufficient_evidence
+
+Observation: Live Meta upload title is Motilli-Podcast-Complete-Captions.mp4 (162.772s), ad 52622638771360. Meta-served visual samples and local captions establish Motilli around111.8s. September12 partial-day snapshot: $42.32,21 unique outbound clicks,21 LPV,zero campaign-attributed ATC; hold49.7% defined ThruPlays/3s, average watch18s. Early attention is stronger than UGC descriptively but not a conversion win. Retain as control hypothesis; no revised script approved. Evidence: brands/motilli/celery juice gummies/funnel/audits/2026-09-12/AUDIT.md
+
+Interpretation: The campaign is too small and attribution is incompletely reconciled to identify a unique causal bottleneck or retire a concept. Delayed mechanism/product bridge is a plausible creative weakness, not demonstrated post-click causation.
+
+Alternative: Sampling variation; curiosity clicks without purchase intent; product proof/offer friction; attribution/deduplication issues; automated browser conditions differ from real visitors.
+
+Next test: Reconcile first-party cart events and Meta Test Events, then isolate earlier mechanism-to-product bridge versus current creative; separately test offer/page changes.
+
+Fixed: No production changes authorized by this diagnosis-only request. Preserve current campaign/export as baseline and maintain exact source provenance.
+
+Changed: None executed; potential test variable is earlier educational payoff/product bridge, or separately a one-bottle versus three-bottle default.
+
+Source rows: 

@@ -1,0 +1,46 @@
+{
+ "product": "The Delphine (working name)",
+ "date": "2026-08-14",
+ "engine": "gpt_image_2 via Higgsfield MCP, quality high, 2k, 1:1",
+ "dimensions_cm": [
+  25,
+  20,
+  10
+ ],
+ "shots": [
+  "01-hero-front",
+  "02-three-quarter",
+  "03-in-hand-scale",
+  "04-open-interior"
+ ],
+ "colorways": {
+  "LC": "Light Chocolate",
+  "DC": "Dark Chocolate",
+  "AG": "Army Green"
+ },
+ "method": {
+  "LC": "authored from the Eleanor real-product stills with the small-scale block + mandatory detail corrections",
+  "DC": "single-variable i2i recolour of the LC pick (leather -> dark espresso, canvas unchanged)",
+  "AG": "single-variable i2i recolour of the LC pick (canvas -> deep olive, leather unchanged)"
+ },
+ "qa_rounds": [
+  {
+   "round": 1,
+   "failed": [
+    "straps absent, gold plates floating on canvas",
+    "phantom second turn post",
+    "flap side tabs missing oval slots",
+    "flap leather rendering as suede"
+   ],
+   "fix": "MANDATORY DETAIL CORRECTIONS block added"
+  },
+  {
+   "round": 2,
+   "failed": [
+    "AG hero flap drifted lighter/greyer than the handles",
+    "DC three-quarter flap finish inconsistent"
+   ],
+   "fix": "one-shade-one-finish clause added, both re-rolled"
+  }
+ ]
+}

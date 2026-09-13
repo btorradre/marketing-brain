@@ -1,0 +1,33 @@
+{
+  "scope": "Weekender color rename on both existing product IDs; no Shopify mutations performed by this audit",
+  "old_color_references_in_theme": [],
+  "gallery_behavior": "Variant option values and #color_ media alt tokens normalize to the same lowercase hyphenated name; no old-name constants",
+  "required_alt_tokens": [
+    "#color_cognac",
+    "#color_army-green",
+    "#color_espresso",
+    "#color_black"
+  ],
+  "studio_mapping": "Original image/media and variant IDs; unaffected by label-only renames",
+  "preorder": "Only Black is compared by name; its name is unchanged",
+  "code_changes_by_auditor": [],
+  "documentation_changes": [
+    "README.md",
+    "THEME-GUIDE.md",
+    "CATALOG-QA.md"
+  ],
+  "historical_source_snapshots_modified": false,
+  "initial_old_color_references": [
+    {
+      "file": "theme/templates/product.weekender.json",
+      "term": "Light Chocolate"
+    },
+    {
+      "file": "theme/templates/product.weekender.json",
+      "term": "Dark Chocolate"
+    }
+  ],
+  "resolution": "Root updated and pushed product.weekender.json Care copy. Native preview verified both listings with current labels and matching alt tags.",
+  "preview_qa": "research/weekender-color-preview-qa.json",
+  "live_qa": "research/weekender-color-live-qa.json"
+}

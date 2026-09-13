@@ -1,0 +1,73 @@
+{
+  "shot": "S22",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The separated fine fiber strands drift gently through clear liquid with a few moving water droplets; the strands remain dispersed and never clump into gel. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S22.png",
+  "reference_sha256": "6d92fc6f2b12db1dcee958e21544b25f9e7c3069c018b2ea8c07bae99dd39708",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chdsc09nYXVYakF0SF9xdHNQNDYyazhRdxIXbHNPZ2F1WGpBdEhfcXRzUDQ2Mms4UXc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S22.mp4",
+  "sha256": "a513a4431a534dda254bbb360ebb3e4830b128b09c87f2744c491e3e584a49ed",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60120,
+    "total_input_tokens": 1159,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 59
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58479,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 482,
+    "raw_prompt_token": 31357,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1852
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 565
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 482
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "S06c",
+  "kind": "video",
+  "model": "google/gemini-omni-flash-1-1",
+  "duration": 4,
+  "edit_duration": 0.933333,
+  "input": {
+    "prompt": "Create one continuous silent vertical shot starting exactly from the supplied keyframe. The hand raises the existing stool-softener bottle slightly out of the drawer. Preserve its label and blue cap; keep all fingers anatomically consistent. Restrained realistic motion. No new captions, watermarks, logos, speech, music, scene cuts, transition, zoom jump, morphing or before/after comparison. Preserve this scene composition throughout. Educational illustrations must not become simulated treatment evidence. Render a 4-second 9:16 1080p source clip for an existing ad edit.",
+    "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788977017346-9gjc7ejipnj.png",
+    "duration": "4",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p"
+  },
+  "job": {
+    "id": "job_1baab98099c2",
+    "engine": "kie",
+    "kind": "generate",
+    "model": "google/gemini-omni-flash-1-1",
+    "status": "success",
+    "external_task_id": "bb0982c12c37f92e78cc8454e0ef40c4",
+    "brand": "motilli",
+    "concept": "MOT-VID-013-visual-variety-r3",
+    "error": null,
+    "created_at": "2026-09-09T18:26:59.253230+00:00",
+    "updated_at": "2026-09-09T18:30:57.924220+00:00",
+    "input": {
+      "prompt": "Create one continuous silent vertical shot starting exactly from the supplied keyframe. The hand raises the existing stool-softener bottle slightly out of the drawer. Preserve its label and blue cap; keep all fingers anatomically consistent. Restrained realistic motion. No new captions, watermarks, logos, speech, music, scene cuts, transition, zoom jump, morphing or before/after comparison. Preserve this scene composition throughout. Educational illustrations must not become simulated treatment evidence. Render a 4-second 9:16 1080p source clip for an existing ad edit.",
+      "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788977017346-9gjc7ejipnj.png",
+      "duration": "4",
+      "aspect_ratio": "9:16",
+      "resolution": "1080p"
+    },
+    "output": {
+      "asset_ids": [
+        "asset_6ab299bb5d50"
+      ],
+      "credits_consumed": 63.0
+    }
+  },
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/edit/visual-variety-r3/motion/S06c.mp4",
+  "source_url": "https://tempfile.aiquickdraw.com/v/bb0982c12c37f92e78cc8454e0ef40c4_1788978538.mp4"
+}

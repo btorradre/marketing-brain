@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gut Health Blog | Why GLP-1 Constipation Gets Worse Every Week — and Why Nothing on the Shelf Fixes It</title>
+<meta name="description" content="A board-certified gastroenterologist explains the self-reinforcing loop behind GLP-1 constipation, why fiber, probiotics, and laxatives can't break it, and the two-part fix that rebuilds the signal your colon lost — without quitting the medication.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --masthead: #14302a;
+    --masthead-2: #1c4036;
+    --green-cta: #1c4036;
+    --green-cta-hover: #14302a;
+    --red-accent: #b23b2e;
+    --text-main: #121212;
+    --text-body: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --border: #e5e5e5;
+    --bg-page: #ffffff;
+    --bg-soft: #f7f7f5;
+    --bg-quote: #f4f6f4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; background: #fff !important; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-body);
+    background: #fff !important;
+    line-height: 1.7;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+
+  .disclosure-bar { background: var(--bg-soft); border-bottom: 1px solid var(--border); padding: 7px 0; text-align: center; }
+  .disclosure-bar .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; font-size: 11px; letter-spacing: 1.2px; font-weight: 600; text-transform: uppercase; color: #999; }
+
+  .masthead { background: #fff; border-bottom: 1px solid var(--border); padding: 16px 0 14px; }
+  .masthead .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .masthead .brand { font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: var(--masthead); letter-spacing: -0.5px; white-space: nowrap; line-height: 1.1; }
+  .masthead .tag { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1.1px; font-weight: 600; line-height: 1.4; text-align: right; }
+  .masthead .tag span { color: var(--masthead); }
+
+  .page {
+    max-width: 1100px; margin: 0 auto;
+    padding: 32px 20px 60px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 48px;
+    align-items: start;
+  }
+  .article { min-width: 0; max-width: 680px; }
+  .sidebar { position: sticky; top: 20px; }
+
+  .edit-tag { font-size: 11px; color: var(--masthead); text-transform: uppercase; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+  .edit-tag::after { content: ""; flex: 1; height: 1px; background: #d0d0d0; }
+
+  h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 34px; line-height: 1.22; font-weight: 700;
+    color: var(--text-main); letter-spacing: -0.4px; margin-bottom: 16px;
+  }
+  .dek { font-size: 18px; line-height: 1.6; color: #444; margin-bottom: 20px; font-weight: 400; }
+  .byline { display: flex; align-items: center; gap: 10px; padding: 14px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 30px; font-size: 13.5px; color: var(--text-muted); }
+  .byline strong { color: var(--text-main); font-weight: 600; }
+
+  .article p { margin-bottom: 22px; }
+  .article .beat { text-align: center; color: #bbb; letter-spacing: 6px; margin: 28px 0; font-size: 14px; }
+
+  h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 25px; line-height: 1.3; font-weight: 700;
+    color: var(--text-main); margin: 44px 0 18px;
+  }
+
+  .pullquote {
+    border-left: 3px solid var(--masthead);
+    background: var(--bg-quote);
+    padding: 22px 26px; margin: 30px 0;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 21px; line-height: 1.45; color: var(--text-main);
+  }
+  .pullquote .attr { display: block; margin-top: 10px; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--text-muted); font-style: normal; }
+
+  /* Loop diagram */
+  .loop {
+    border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft);
+    padding: 24px; margin: 30px 0;
+  }
+  .loop .loop-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; color: var(--masthead); margin-bottom: 18px; text-align: center; }
+  .loop ol { list-style: none; counter-reset: step; }
+  .loop li {
+    counter-increment: step; position: relative;
+    padding: 12px 0 12px 44px; font-size: 15.5px; line-height: 1.5;
+    border-bottom: 1px dashed #d8d8d4;
+  }
+  .loop li:last-child { border-bottom: none; }
+  .loop li::before {
+    content: counter(step); position: absolute; left: 0; top: 11px;
+    width: 28px; height: 28px; background: var(--masthead); color: #fff;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 13px; font-family: 'Inter', sans-serif;
+  }
+  .loop .loop-foot { margin-top: 16px; text-align: center; font-family: 'Source Serif 4', serif; font-size: 16px; color: var(--red-accent); font-weight: 600; }
+
+  .protocol-box {
+    border: 1.5px solid var(--masthead); border-radius: 6px;
+    padding: 24px 26px; margin: 30px 0; background: #fff;
+  }
+  .protocol-box .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; color: var(--masthead); margin-bottom: 10px; }
+  .protocol-box .big { font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; font-weight: 600; color: var(--text-main); line-height: 1.4; margin-bottom: 8px; }
+  .protocol-box .small { font-size: 14px; color: var(--text-muted); }
+
+  .twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 26px 0; }
+  .twocol .col { border: 1px solid var(--border); border-radius: 6px; padding: 18px 20px; }
+  .twocol .col h4 { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; font-weight: 700; }
+  .twocol .col.system-a h4 { color: var(--masthead); }
+  .twocol .col.system-b h4 { color: var(--red-accent); }
+  .twocol .col p { font-size: 14.5px; line-height: 1.55; margin: 0; color: #333; }
+
+  .checklist { margin: 26px 0; }
+  .checklist li {
+    list-style: none; padding: 14px 0 14px 34px; position: relative;
+    border-bottom: 1px solid var(--border); font-size: 17px; line-height: 1.55;
+  }
+  .checklist li::before { content: "—"; position: absolute; left: 4px; top: 13px; color: var(--masthead); font-weight: 700; }
+
+  .cta-block { margin: 34px 0; text-align: center; }
+  .cta-button {
+    display: inline-block; background: var(--green-cta); color: #fff !important;
+    font-weight: 700; font-size: 17px; padding: 17px 38px; border-radius: 6px;
+    text-decoration: none; letter-spacing: 0.2px;
+    transition: background 0.15s ease;
+  }
+  .cta-button:hover { background: var(--green-cta-hover); }
+  .cta-sub { margin-top: 10px; font-size: 13px; color: var(--text-muted); }
+
+  .product-figure { margin: 30px 0; }
+  .product-figure img { border-radius: 6px; border: 1px solid var(--border); }
+  .product-figure figcaption { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+
+  .faq { margin: 26px 0; }
+  .faq .q { font-weight: 700; color: var(--text-main); margin-bottom: 6px; font-size: 17px; }
+  .faq .a { margin-bottom: 24px; }
+
+  .signoff { font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; color: var(--text-main); margin-top: 8px; }
+
+  .offer-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+  .offer-card .card-head { background: var(--masthead); color: #fff; padding: 12px 18px; font-size: 12px; text-transform: uppercase; letter-spacing: 1.3px; font-weight: 700; }
+  .offer-card .card-body { padding: 18px; }
+  .offer-card img { border-radius: 4px; margin-bottom: 14px; }
+  .offer-card .name { font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; font-weight: 700; color: var(--text-main); margin-bottom: 6px; }
+  .offer-card .desc { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .offer-card ul { margin: 0 0 16px; }
+  .offer-card ul li { list-style: none; font-size: 13.5px; padding: 6px 0 6px 22px; position: relative; border-bottom: 1px solid #f0f0f0; }
+  .offer-card ul li::before { content: "✓"; position: absolute; left: 2px; color: var(--masthead); font-weight: 700; }
+  .offer-card .cta-button { display: block; text-align: center; font-size: 15px; padding: 14px 10px; }
+  .offer-card .guarantee { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 10px; }
+  .sidebar .side-quote { margin-top: 22px; font-family: 'Source Serif 4', Georgia, serif; font-size: 16px; color: #444; border-left: 3px solid var(--masthead); padding-left: 14px; line-height: 1.55; }
+  .sidebar .side-quote span { display: block; font-family: 'Inter', sans-serif; font-size: 12px; color: var(--text-muted); margin-top: 8px; }
+
+  .sticky-cta {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 50;
+    background: var(--masthead); padding: 10px 16px;
+    display: none; align-items: center; justify-content: space-between; gap: 12px;
+    transform: translateY(110%); transition: transform 0.25s ease;
+  }
+  .sticky-cta.visible { transform: translateY(0); }
+  .sticky-cta .txt { color: #fff; font-size: 13px; line-height: 1.35; font-weight: 600; }
+  .sticky-cta .txt small { display: block; font-weight: 400; opacity: 0.8; font-size: 11.5px; }
+  .sticky-cta a { background: #fff; color: var(--masthead); font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 5px; text-decoration: none; white-space: nowrap; }
+
+  .footer { border-top: 1px solid var(--border); background: var(--bg-soft); padding: 36px 0 90px; margin-top: 20px; }
+  .footer .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  .footer p { font-size: 12px; color: #999; line-height: 1.7; margin-bottom: 12px; }
+  .footer .links { font-size: 12.5px; color: #777; margin-bottom: 18px; }
+  .footer .links a { margin-right: 16px; text-decoration: none; }
+
+  @media (max-width: 900px) {
+    .page { grid-template-columns: 1fr; gap: 0; }
+    .sidebar { position: static; order: 2; margin-top: 30px; max-width: 480px; }
+    .article { max-width: 100%; }
+    h1 { font-size: 28px; }
+    .twocol { grid-template-columns: 1fr; }
+    .sticky-cta { display: flex; }
+  }
+</style>
+</head>
+<body>
+
+<div class="disclosure-bar"><div class="inner">Advertorial — This page contains an advertisement for Motilli</div></div>
+
+<header class="masthead">
+  <div class="inner">
+    <div class="brand">Gut Health Blog</div>
+    <div class="tag">Digestive health, reported<br><span>GLP-1 Series</span></div>
+  </div>
+</header>
+
+<div class="page">
+<article class="article">
+
+  <div class="edit-tag">Gastroenterology — GLP-1 Series</div>
+
+  <h1>If You're on a GLP-1 and the Constipation Keeps Getting Worse, You're Not Failing to Adjust. You're Stuck in a Loop.</h1>
+
+  <p class="dek">A board-certified gastroenterologist on why GLP-1 constipation tightens week after week, why the whole shelf of remedies can't touch it, and the two-part fix that rebuilds the signal your colon lost — without giving up the medication.</p>
+
+  <div class="byline">
+    <div><strong>By a board-certified gastroenterologist</strong> &nbsp;·&nbsp; As told to Gut Health Blog &nbsp;·&nbsp; Last updated July 2026</div>
+  </div>
+
+  <p>I want to talk to the woman who is on a GLP-1 medication that is working — the weight is coming off, the food noise is finally quiet — and who has slowly realized her gut has stopped working, and that nothing she does about it seems to matter.</p>
+
+  <p>You've probably tried most of the drawer. Miralax. Fiber. Magnesium. Prune juice. Stool softeners. You're likely drinking more water than anyone you know and walking every morning. And still the days between stack up — three, five, sometimes more — and the bloating by evening is so reliable you've started planning around it.</p>
+
+  <p>And somewhere in there, a thought has probably crept in: <em>maybe I should just stop the medication.</em></p>
+
+  <p>Before you do that, I need you to understand two things I explain to patients every week now. The first is why this is happening — and why it keeps getting worse instead of settling. The second is why you almost certainly do not have to choose between your gut and everything the medication has given you.</p>
+
+  <div class="beat">— — —</div>
+
+  <h2>First: you are not failing to adjust</h2>
+
+  <p>The phrase you've probably been told is "it takes time to adjust." That framing is the problem, because it tells you to wait — and waiting is the one thing that makes this particular problem worse.</p>
+
+  <p>What's happening in your colon isn't a settling-in period. It's a loop that tightens on its own. Let me walk you through the machinery, because once you see it, every failed remedy in your cabinet suddenly makes sense.</p>
+
+  <p>Your colon is a muscle. To move waste along, it has to contract — and to contract, it needs a signal telling it when to squeeze. That signal is a short-chain fatty acid called butyrate.</p>
+
+  <p>Here's the part almost no one is told: you don't make butyrate yourself. The bacteria living in your colon make it, by fermenting the fiber that reaches them. They produce the butyrate, the butyrate tells the muscle to contract, and things move. That system runs quietly your entire life and you never think about it.</p>
+
+  <div class="pullquote">
+    "A GLP-1 doesn't just slow your stomach. That slowdown reaches all the way to the colony of bacteria at the end of your gut — and it quietly starves them."
+    <span class="attr">— from the interview</span>
+  </div>
+
+  <p>A GLP-1 medication works by slowing digestion down. Slower transit, you feel full longer, you eat less. That's the mechanism, and it's a good one. But that same slowdown reaches all the way to your colon — and when everything slows, less material reaches those bacteria. Less food means fewer of them. Fewer of them means less butyrate. Less butyrate means a weaker signal. A weaker signal means an even slower colon.</p>
+
+  <p>And a slower colon means even less reaches the bacteria tomorrow.</p>
+
+  <div class="loop">
+    <div class="loop-title">The loop that tightens every week</div>
+    <ol>
+      <li>The medication slows transit — by design, to control appetite.</li>
+      <li>Less material reaches the bacteria at the end of your colon.</li>
+      <li>Starved of food, the colony thins. Fewer bacteria survive.</li>
+      <li>Fewer bacteria make less butyrate — the signal your colon runs on.</li>
+      <li>Less signal, weaker contractions, slower colon.</li>
+      <li>The slower colon delivers even less to the bacteria — back to step 2, tighter.</li>
+    </ol>
+    <div class="loop-foot">It feeds on itself. And the medication holds that first slowdown in place, so the loop can't break on its own.</div>
+  </div>
+
+  <p>This is why it got worse instead of better. You weren't failing to adjust. You were watching a colony of bacteria get quietly starved down, a little more every week — and the days stacking up on your calendar or in your head were just the scoreboard reporting it.</p>
+
+  <p>It's also why you can't track or wait your way out. There is no hidden variable — no food, no trick, no remedy still hiding in the margins — that flips this back. What broke is a bacterial community, and it has to be rebuilt.</p>
+
+  <h2>Second: this is not the same system as your weight loss</h2>
+
+  <p>This is the part I most need women to hear before they quit, because it's the part that changes the decision entirely.</p>
+
+  <p>The weight loss and the constipation are not the same problem. They are not even in the same system.</p>
+
+  <div class="twocol">
+    <div class="col system-a">
+      <h4>System 1 — Weight loss</h4>
+      <p>Your brain and appetite. The medication turns down hunger signals. This is the dial it's actually turning, and it's the reason the food noise went quiet and the weight came off.</p>
+    </div>
+    <div class="col system-b">
+      <h4>System 2 — Constipation</h4>
+      <p>Your colon and its bacteria. The slowed transit starves the butyrate-makers as a side effect — not as the medication's purpose. Different machinery entirely.</p>
+    </div>
+  </div>
+
+  <p>Once you see that these are two separate systems, the trade-off you've been agonizing over falls apart. You do not have to turn off the weight loss to fix the gut. You can rebuild the second system without touching the first. The women who quit — and I have met many of them, back in my office months later, heavier and grieving — quit over a side effect that was fixable, because no one told them the two things were never wired together.</p>
+
+  <h2>Why nothing on the shelf breaks the loop</h2>
+
+  <p>Once you understand that the real problem is a starved bacterial colony, every failed remedy explains itself.</p>
+
+  <p><strong>Fiber</strong> is the cruelest one, because it feels like the responsible choice. But fiber is simply food for those bacteria. If the colony has already been starved down, adding more food with almost no one left to eat it just piles up in a colon that isn't moving — and bloats you worse. That heaviness after your fiber gummies isn't in your head. It's mass with nowhere to go.</p>
+
+  <p><strong>Probiotics</strong> never get a fair chance. They drop fresh bacteria into a gut whose whole environment has been disrupted — and bacteria can't take hold in conditions that won't support them. You're sending in workers with nowhere to live.</p>
+
+  <p><strong>Laxatives, including Miralax,</strong> force one movement by overriding the system. They rebuild nothing underneath. The colony is just as starved the next morning, and the count starts climbing again. One mark on the scoreboard; nothing fixed.</p>
+
+  <p>None of them touch the thing that actually broke.</p>
+
+  <h2>What an actual fix has to do — two things, together</h2>
+
+  <p>If the problem is a starved colony that can no longer make the signal, then a real fix has exactly two jobs, and it has to do both at once.</p>
+
+  <p><strong>One: rebuild the environment.</strong> Calm the irritated lining and shift the conditions back toward the bacteria that make butyrate, so the right ones can actually come back and survive. You cannot grow a colony in a place that won't support it.</p>
+
+  <p><strong>Two: feed what grows back.</strong> Once the environment can hold them, give those specific butyrate-making bacteria the fuel to multiply and start producing the signal again — using the gentle, soluble kind of fiber that dissolves and feeds them, not the coarse bulk that packs mass into a colon that still isn't moving.</p>
+
+  <p>Rebuild the place. Then feed what grows there. Do only one, and it fails — which is exactly why the single-ingredient products in your cabinet failed. The fiber fed bacteria that weren't there. The probiotics added bacteria with no place to live. Nothing did both.</p>
+
+  <p>For the first job, the compound I point patients toward is <strong>apigenin</strong>, concentrated in celery juice. It calms the low-grade inflammation in the gut lining, shifts the balance back toward the butyrate-producers, and helps rebuild the colon wall itself. There's one detail that makes it almost purpose-built for this: apigenin barely absorbs into the bloodstream. For most compounds that would be a flaw. Here it's the entire point — because if it isn't carried off into your blood, it stays down in the colon, which is exactly where the work has to happen.</p>
+
+  <p>For the second job, a <strong>fine, soluble prebiotic fiber</strong> — the kind that dissolves and feeds the butyrate-makers specifically — so the colony comes back and starts signaling again, without the bulk that bloats.</p>
+
+  <h2>The one product I've found that does both</h2>
+
+  <p>I don't normally name brands. But the question I get asked next, every time, is "so what has both of those in it?" — and the honest answer is that almost nothing does. Most products have one half or the other. So I'll tell you the one I've seen women actually rebuild on.</p>
+
+  <p>It's called Motilli. It's a gummy that puts both halves in one place: concentrated celery juice, standardized so you get a real dose of apigenin instead of a trace, plus the soluble prebiotic fiber to feed the colony once it's back. It's third-party tested, with the lab results posted on the site.</p>
+
+  <figure class="product-figure">
+    <img src="images/motilli-product.jpeg" alt="Motilli Celery Juice Fiber Gummies — bottle of sixty">
+    <figcaption>Motilli: apigenin from concentrated celery juice to rebuild the environment, plus a soluble prebiotic fiber to feed the butyrate-making bacteria. Both halves, one gummy.</figcaption>
+  </figure>
+
+  <div class="protocol-box">
+    <div class="label">How it's taken</div>
+    <div class="big">Three gummies before bed, with a full glass of water.</div>
+    <div class="small">Sixty in a bottle. It is not a laxative — nothing is forced. It works by rebuilding the system underneath, which is why it's taken nightly and why the first days are quiet.</div>
+  </div>
+
+  <div class="cta-block">
+    <a class="cta-button" href="https://getmotilli.com/">Get Motilli — Buy 2, Get 1 Free &rarr;</a>
+    <div class="cta-sub">Free shipping · Third-party tested · 90-day money-back guarantee</div>
+  </div>
+
+  <h2>What to expect — honestly</h2>
+
+  <p>I tell every patient the same thing so they don't misjudge it: <strong>expect the first few days to be quiet.</strong> This is not a laxative and it is not supposed to do something dramatic overnight. It's rebuilding a colony that was starved down over months.</p>
+
+  <p>In the women I follow, the first real, normal movement — not the emptied-out, cramping kind a laxative forces, but a quiet ordinary one — tends to arrive somewhere around the end of the first week. From there the gaps between get shorter, the bloating comes down, and over a few weeks the pattern starts to look the way it did before the medication. The rebuild rewards consistency; it is not a one-bottle test.</p>
+
+  <p>And through all of it, the medication keeps doing its job. The weight keeps coming off. The food noise stays quiet. You're not trading anything away — you're repairing the one thing it broke on the way.</p>
+
+  <h2>Why the cheap version won't do it</h2>
+
+  <p>Every time I explain this, someone reasonably asks: can't I just get a probiotic and a tub of fiber from the grocery store and save money?</p>
+
+  <p>You can, and I've watched it not work, because it repeats the exact mistake. A standard probiotic drops bacteria into an environment that still can't hold them. Grocery-store bulk fiber adds mass to a system that isn't moving — the thing that bloated you in the first place. Neither one rebuilds the environment and feeds the colony at the same time, which is the whole requirement. The reason to use something built for this is not branding. It's that both jobs have to happen together, from one source, or you're back in the loop.</p>
+
+  <h2>Ask yourself these five questions</h2>
+
+  <p>This page isn't written for everyone. It's written for a specific woman. See if she's you:</p>
+
+  <ul class="checklist">
+    <li>Are you going days at a time between bowel movements, no matter what you take?</li>
+    <li>Are you so bloated by evening that you've started skipping meals?</li>
+    <li>Have you tried Miralax, fiber, magnesium, or prune juice — and watched them not work, or work once and quit?</li>
+    <li>Have you brought it to a doctor and been told to add fiber and wait?</li>
+    <li>Have you started quietly wondering whether you should just stop the medication?</li>
+  </ul>
+
+  <p>If even one of those is you, understand what it means underneath: this is not a stubborn case that needs a stronger laxative. It's the loop — a bacterial colony being starved down a little more every week. And it does not pause while you decide. Every week the transit stays slow, there are fewer of them, and the rebuild gets a little longer. The best time to start rebuilding is before you talk yourself into quitting the thing that finally worked.</p>
+
+  <div class="cta-block">
+    <a class="cta-button" href="https://getmotilli.com/">Start the Rebuild — Buy 2, Get 1 Free &rarr;</a>
+    <div class="cta-sub">Three before bed, with a full glass of water · 90-day money-back guarantee</div>
+  </div>
+
+  <h2>The guarantee, and why it's ninety days</h2>
+
+  <p>Motilli comes with a ninety-day money-back guarantee — no questions, and you don't have to send anything back. You email them inside ninety days and every dollar comes back.</p>
+
+  <p>The length of that window is the tell. A product selling a rebuild that takes weeks can't hide behind a thirty-day guarantee. Ninety days outlasts the timeline, which means the honest test — did my pattern actually change — has room to run before the refund window closes. If it doesn't change for you, you've lost nothing.</p>
+
+  <h2>Questions I get asked next</h2>
+
+  <div class="faq">
+    <div class="q">Can I take it alongside my medication?</div>
+    <div class="a">Yes — that's the entire point. It's a supplement, not a drug, and it doesn't touch the appetite system the medication works on. Bring it up with your own prescriber; hand them the mechanism — the slowed transit, the starved bacteria, the missing butyrate signal. It's a conversation most are glad to have once they see it laid out.</div>
+
+    <div class="q">Is this just another fiber product?</div>
+    <div class="a">No. A fiber product does one of the two jobs — it feeds. If the colony has been starved down, feeding alone bloats you. The apigenin half is what rebuilds the environment so there's something there to feed. Both halves, or it doesn't work.</div>
+
+    <div class="q">Should I stop the Miralax?</div>
+    <div class="a">That's a question for your doctor. What I'll say is that Miralax was managing a symptom, not the cause — the goal of a rebuild is to reach the point where there's no symptom left to manage.</div>
+
+    <div class="q">How fast will it work?</div>
+    <div class="a">Plan for the first few days to be quiet, a first normal movement around the end of the first week for many women, and a few weeks of consistency for the pattern to fill back in. The ninety-day guarantee exists precisely so the timeline never has to race the refund window.</div>
+  </div>
+
+  <div class="beat">— — —</div>
+
+  <p>If you take one thing from this: the constipation is not the price of the weight loss, and it is not something you have to outlast. It's a loop with a cause, and the cause is fixable without giving up a single thing the medication gave you.</p>
+
+  <p>You don't have to choose between your body and your gut. That choice was never real.</p>
+
+  <p class="signoff">— A board-certified gastroenterologist, as told to Gut Health Blog</p>
+
+  <div class="cta-block">
+    <a class="cta-button" href="https://getmotilli.com/">Get Motilli — Buy 2, Get 1 Free &rarr;</a>
+    <div class="cta-sub">Free shipping · 90-day money-back guarantee · Three before bed, with a full glass of water</div>
+  </div>
+
+</article>
+
+<aside class="sidebar">
+  <div class="offer-card">
+    <div class="card-head">The two-part rebuild</div>
+    <div class="card-body">
+      <img src="images/motilli-product.jpeg" alt="Motilli Celery Juice Fiber Gummies">
+      <div class="name">Motilli — Celery Juice Fiber Gummies</div>
+      <div class="desc">Apigenin from concentrated celery juice to rebuild the environment, plus a soluble prebiotic fiber to feed the butyrate-making bacteria. Both halves, one gummy.</div>
+      <ul>
+        <li>Rebuilds the environment + feeds the colony</li>
+        <li>Third-party tested — lab results posted</li>
+        <li>Three before bed, full glass of water</li>
+        <li>Buy 2, Get 1 Free · Free shipping</li>
+        <li>90-day money-back guarantee</li>
+      </ul>
+      <a class="cta-button" href="https://getmotilli.com/">Get Motilli &rarr;</a>
+      <div class="guarantee">Not a laxative. Expect the first few days to be quiet.</div>
+    </div>
+  </div>
+  <div class="side-quote">
+    "You do not have to turn off the weight loss to fix the gut. They were never the same system."
+    <span>— from the interview</span>
+  </div>
+</aside>
+</div>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="txt">Motilli — Buy 2, Get 1 Free<small>90-day money-back guarantee</small></div>
+  <a href="https://getmotilli.com/">Get it &rarr;</a>
+</div>
+
+<footer class="footer">
+  <div class="inner">
+    <div class="links">
+      <a href="https://getmotilli.com/pages/contact">Contact</a>
+      <a href="https://getmotilli.com/pages/track-order">Track Order</a>
+      <a href="https://getmotilli.com/policies/refund-policy">Returns Policy</a>
+      <a href="https://getmotilli.com/policies/privacy-policy">Privacy Policy</a>
+      <a href="https://getmotilli.com/policies/terms-of-service">Terms of Service</a>
+    </div>
+    <p>THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE. The account on this page reflects the professional opinion and general clinical experience of its author and is presented for illustrative and educational purposes. Individual results vary and are not guaranteed.</p>
+    <p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Nothing on this page is medical advice or a substitute for the guidance of your own physician. If you are experiencing severe abdominal pain, a sudden change in bowel habits, vomiting, or an inability to pass stool or gas, seek medical care immediately. Always consult your physician before beginning any supplement, especially while taking a prescription medication, including GLP-1 receptor agonists.</p>
+    <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound®, and Miralax® are registered trademarks of their respective owners. The owners of these trademarks are not affiliated with, and do not endorse, this product or this page.</p>
+    <p>© 2026 Gut Health Blog. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var bar = document.getElementById('stickyCta');
+    var shown = false;
+    window.addEventListener('scroll', function () {
+      var y = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+      if (y > 0.25 && !shown) { bar.classList.add('visible'); shown = true; }
+      if (y <= 0.25 && shown) { bar.classList.remove('visible'); shown = false; }
+    }, { passive: true });
+  })();
+</script>
+
+</body>
+</html>

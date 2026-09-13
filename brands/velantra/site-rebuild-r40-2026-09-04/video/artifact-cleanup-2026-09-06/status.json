@@ -1,0 +1,307 @@
+{
+  "updated_utc": "2026-09-06T16:23:16.465846+00:00",
+  "status": "superseded_by_authorized_hyperframes_cleanup",
+  "scope": "all seven handbag detail films; Vivienne homepage and both Weekender listings included",
+  "source_theme_id": 151364960321,
+  "source_theme_role": "MAIN",
+  "deployed_changes": false,
+  "families": [
+    {
+      "family": "vivienne",
+      "video_id": "gid://shopify/Video/30822907740225",
+      "filename": "velantra-vivienne-detail-film-2026-09-05.mp4",
+      "local_video": "video/detail-followup-2026-09-05/exports/v5/vivienne-detail-stage-3.mp4",
+      "sha256": "7b70e72c1a7cd3234f09a480b16429f042c9ebb6e2d4613010b39838c04f5e4f",
+      "duration_seconds": 21.666667,
+      "shots": 13,
+      "theme_video_setting": "shopify://files/videos/velantra-vivienne-detail-film-2026-09-05.mp4"
+    },
+    {
+      "family": "weekender",
+      "video_id": "gid://shopify/Video/30823032946753",
+      "filename": "velantra-weekender-detail-film-2026-09-05.mp4",
+      "local_video": "video/pdp-handbags-followup-2026-09-05/weekender/exports/v2/weekender-detail-stage-2.mp4",
+      "sha256": "b46b556021ea6fe70d2b59a4bd84efd955e900aee3c65d072caf54e078e5ca76",
+      "duration_seconds": 18.0,
+      "shots": 10,
+      "theme_video_setting": "shopify://files/videos/velantra-weekender-detail-film-2026-09-05.mp4"
+    },
+    {
+      "family": "meridian",
+      "video_id": "gid://shopify/Video/30823032979521",
+      "filename": "velantra-meridian-detail-film-2026-09-05.mp4",
+      "local_video": "video/pdp-handbags-followup-2026-09-05/meridian/exports/v3/meridian-detail-stage-2.mp4",
+      "sha256": "945eff5ac7412c2d88479bb3e531d2b195dbc733384086800e9f50a2cddcd934",
+      "duration_seconds": 18.0,
+      "shots": 10,
+      "theme_video_setting": "shopify://files/videos/velantra-meridian-detail-film-2026-09-05.mp4"
+    },
+    {
+      "family": "camille",
+      "video_id": "gid://shopify/Video/30823028031553",
+      "filename": "velantra-camille-detail-film-2026-09-05.mp4",
+      "local_video": "video/pdp-handbags-followup-2026-09-05/camille/exports/v2/camille-detail-stage-2.mp4",
+      "sha256": "f912fae939a76d455b86404e9eba797f07df9be7afdc88ad898002a99e006dff",
+      "duration_seconds": 18.0,
+      "shots": 10,
+      "theme_video_setting": "shopify://files/videos/velantra-camille-detail-film-2026-09-05.mp4"
+    },
+    {
+      "family": "delphine",
+      "video_id": "gid://shopify/Video/30823033012289",
+      "filename": "velantra-delphine-detail-film-2026-09-05.mp4",
+      "local_video": "video/pdp-handbags-followup-2026-09-05/delphine/exports/v2/delphine-detail-stage-2.mp4",
+      "sha256": "4fc6e61fdab0ae926bd22fa882a84a82c2939c649b14509c87d39d59f8819e15",
+      "duration_seconds": 18.0,
+      "shots": 10,
+      "theme_video_setting": "shopify://files/videos/velantra-delphine-detail-film-2026-09-05.mp4"
+    },
+    {
+      "family": "colette",
+      "video_id": "gid://shopify/Video/30823044808769",
+      "filename": "velantra-colette-detail-film-2026-09-05.mp4",
+      "local_video": "video/pdp-handbags-followup-2026-09-05/colette/exports/v4/colette-detail-stage-2.mp4",
+      "sha256": "794a8cbbe06e565043dd6140358d4604a40cf97c3d2fffbad63a52989206335c",
+      "duration_seconds": 18.0,
+      "shots": 10,
+      "theme_video_setting": "shopify://files/videos/velantra-colette-detail-film-2026-09-05.mp4"
+    },
+    {
+      "family": "juliette",
+      "video_id": "gid://shopify/Video/30823061028929",
+      "filename": "velantra-juliette-detail-film-2026-09-05.mp4",
+      "local_video": "video/pdp-handbags-followup-2026-09-05/juliette/exports/v2/juliette-detail-stage-1.mp4",
+      "sha256": "5326c5bd824e7d97cb2eae8e5ddfd5c5b5b0a2ac1dde4e5eca1f8df49e5dc1e2",
+      "duration_seconds": 9.0,
+      "shots": 5,
+      "theme_video_setting": "shopify://files/videos/velantra-juliette-detail-film-2026-09-05.mp4"
+    }
+  ],
+  "attempts": [
+    {
+      "family": "juliette",
+      "attempt": "v1",
+      "status": "error",
+      "model": "gemini-omni-1.1-flash",
+      "provider": "Google Gemini Interactions API",
+      "previous_interaction_id": "v1_ChZNNkNjYXJudkJKT29qckVQdl9MbktBEhZNNkNjYXJudkJKT29qckVQdl9MbktB",
+      "source_video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/exports/v2/juliette-detail-stage-1.mp4",
+      "source_sha256": "5326c5bd824e7d97cb2eae8e5ddfd5c5b5b0a2ac1dde4e5eca1f8df49e5dc1e2",
+      "expected_duration": 9.0,
+      "expected_shots": 5,
+      "prompt": "Remove the artificial squiggly lines, stray hairlike strands and etched worm-like marks from the bag surfaces throughout this existing film. Restore soft natural suede nap and leather trim with natural fine texture. Preserve real stitching, seams and panel edges. Keep everything else exactly the same, including all 5 shots, their original cut times, the full 9.0-second duration, camera motion, framing, lighting, colors, bag shape, handles and hardware. Do not blur the surfaces or smooth them into plastic.",
+      "created_utc": "2026-09-06T06:29:09.502036+00:00",
+      "processing": "Original provider bytes, decoded only. No local video editing.",
+      "physical_scale_verified": false,
+      "generation_config": {
+        "video_config": {
+          "task": "edit"
+        }
+      },
+      "error": "{\"message\": \"previous_interaction_id is not allowed when video task is set.\", \"code\": \"invalid_request\"}"
+    },
+    {
+      "family": "juliette",
+      "attempt": "v2",
+      "status": "rejected",
+      "model": "gemini-omni-1.1-flash",
+      "provider": "Google Gemini Interactions API",
+      "previous_interaction_id": "v1_ChZNNkNjYXJudkJKT29qckVQdl9MbktBEhZNNkNjYXJudkJKT29qckVQdl9MbktB",
+      "source_video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/exports/v2/juliette-detail-stage-1.mp4",
+      "source_sha256": "5326c5bd824e7d97cb2eae8e5ddfd5c5b5b0a2ac1dde4e5eca1f8df49e5dc1e2",
+      "expected_duration": 9.0,
+      "expected_shots": 5,
+      "prompt": "Remove the artificial squiggly lines, stray hairlike strands and etched worm-like marks from the bag surfaces throughout this existing film. Restore soft natural suede nap and leather trim with natural fine texture. Preserve real stitching, seams and panel edges. Keep everything else exactly the same, including all 5 shots, their original cut times, the full 9.0-second duration, camera motion, framing, lighting, colors, bag shape, handles and hardware. Do not blur the surfaces or smooth them into plastic.",
+      "created_utc": "2026-09-06T06:30:10.704642+00:00",
+      "processing": "Original provider bytes, decoded only. No local video editing.",
+      "physical_scale_verified": false,
+      "generation_config": {
+        "video_config": {
+          "task": "edit"
+        }
+      },
+      "source_mode": "inline_original_video",
+      "interaction_id": "v1_ChdkQWlkYXFIWElOZlZfdU1QMlktYy1BSRIXZEFpZGFxSFhJTmZWX3VNUDJZLWMtQUk",
+      "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/artifact-cleanup-2026-09-06/juliette/v2/juliette-detail-clean.mp4",
+      "bytes": 11509317,
+      "sha256": "f416f43184bc48fcc1ed38948b9ce52e586b1cf8546310cb32a3a4f28e64d46d",
+      "video_duration": 9.0,
+      "frames": 216,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": "24/1",
+      "usage": {
+        "total_tokens": 111126,
+        "total_input_tokens": 51946,
+        "input_tokens_by_modality": [
+          {
+            "modality": "video",
+            "tokens": 51840
+          },
+          {
+            "modality": "text",
+            "tokens": 106
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 58727,
+        "output_tokens_by_modality": [
+          {
+            "modality": "video",
+            "tokens": 57920
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 453,
+        "raw_prompt_token": 38744,
+        "model_invocation_token_counts": [
+          {
+            "prompt_tokens_details": [
+              {
+                "modality": "text",
+                "tokens": 1935
+              }
+            ],
+            "candidates_tokens_details": [
+              {
+                "modality": "text",
+                "tokens": 813
+              }
+            ],
+            "thoughts_tokens_details": [
+              {
+                "modality": "text",
+                "tokens": 453
+              }
+            ]
+          },
+          {},
+          {}
+        ]
+      },
+      "finished_utc": "2026-09-06T06:32:34.339537+00:00",
+      "rejection_reasons": [
+        "Last handle-only shot changed to the upper front panel",
+        "Cut timing drifted from the original sequence",
+        "Overdrawn squiggly leather texture remains in final shot"
+      ]
+    },
+    {
+      "family": "weekender",
+      "attempt": "v1",
+      "status": "rejected",
+      "model": "gemini-omni-1.1-flash",
+      "provider": "Google Gemini Interactions API",
+      "previous_interaction_id": "v1_ChZwSjZjYXVzY2xJZlV5US1GbzdIZ0N3EhdDYUtjYW9DT0hydVlfdU1QdHRIVDhROA",
+      "source_video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/weekender/exports/v2/weekender-detail-stage-2.mp4",
+      "source_sha256": "b46b556021ea6fe70d2b59a4bd84efd955e900aee3c65d072caf54e078e5ca76",
+      "expected_duration": 18.0,
+      "expected_shots": 10,
+      "prompt": "Remove the artificial squiggly lines, stray hairlike strands and etched worm-like marks from the bag surfaces throughout this existing film. Restore clean tightly woven olive canvas and softly grained brown leather with natural fine texture. Preserve real stitching, seams and panel edges. Keep everything else exactly the same, including all 10 shots, their original cut times, the full 18.0-second duration, camera motion, framing, lighting, colors, bag shape, handles and hardware. Do not blur the surfaces or smooth them into plastic.",
+      "created_utc": "2026-09-06T06:25:49.351750+00:00",
+      "processing": "Original provider bytes, decoded only. No local video editing.",
+      "physical_scale_verified": false,
+      "interaction_id": "v1_ChZwSjZjYXVzY2xJZlV5US1GbzdIZ0N3EhdkQWVkYXRtSkl0cVpfdU1QeHV1SnlBVQ",
+      "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/artifact-cleanup-2026-09-06/weekender/v1/weekender-detail-clean.mp4",
+      "bytes": 13387687,
+      "sha256": "3f6c265a96338788f3132c5b4e45da384be751e4fa9ecd3e2a604ab6fc0d5a84",
+      "video_duration": 9.0,
+      "frames": 216,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": "24/1",
+      "usage": {
+        "total_tokens": 122438,
+        "total_input_tokens": 62214,
+        "input_tokens_by_modality": [
+          {
+            "modality": "image",
+            "tokens": 8684
+          },
+          {
+            "modality": "text",
+            "tokens": 1690
+          },
+          {
+            "modality": "video",
+            "tokens": 51840
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 59366,
+        "output_tokens_by_modality": [
+          {
+            "modality": "video",
+            "tokens": 57920
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 858,
+        "raw_prompt_token": 56977,
+        "model_invocation_token_counts": [
+          {
+            "prompt_tokens_details": [
+              {
+                "modality": "text",
+                "tokens": 5477
+              },
+              {
+                "modality": "image",
+                "tokens": 8684
+              }
+            ],
+            "candidates_tokens_details": [
+              {
+                "modality": "text",
+                "tokens": 1452
+              }
+            ],
+            "thoughts_tokens_details": [
+              {
+                "modality": "text",
+                "tokens": 858
+              }
+            ]
+          },
+          {},
+          {}
+        ]
+      },
+      "finished_utc": "2026-09-06T06:27:53.506455+00:00",
+      "rejection_reasons": [
+        "Returned 9 seconds instead of the 18-second full film",
+        "Invented rear panel and handle roots in the final shot",
+        "Surface cleanup incomplete"
+      ]
+    },
+    {
+      "family": "weekender",
+      "attempt": "v2",
+      "status": "error",
+      "model": "gemini-omni-1.1-flash",
+      "provider": "Google Gemini Interactions API",
+      "previous_interaction_id": "v1_ChZwSjZjYXVzY2xJZlV5US1GbzdIZ0N3EhdDYUtjYW9DT0hydVlfdU1QdHRIVDhROA",
+      "source_video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/weekender/exports/v2/weekender-detail-stage-2.mp4",
+      "source_sha256": "b46b556021ea6fe70d2b59a4bd84efd955e900aee3c65d072caf54e078e5ca76",
+      "expected_duration": 18.0,
+      "expected_shots": 10,
+      "prompt": "Remove the artificial squiggly lines, stray hairlike strands and etched worm-like marks from the bag surfaces throughout this existing film. Restore clean tightly woven olive canvas and softly grained brown leather with natural fine texture. Preserve real stitching, seams and panel edges. Keep everything else exactly the same, including all 10 shots, their original cut times, the full 18.0-second duration, camera motion, framing, lighting, colors, bag shape, handles and hardware. Do not blur the surfaces or smooth them into plastic.",
+      "created_utc": "2026-09-06T06:29:09.229435+00:00",
+      "processing": "Original provider bytes, decoded only. No local video editing.",
+      "physical_scale_verified": false,
+      "generation_config": {
+        "video_config": {
+          "task": "edit"
+        }
+      },
+      "error": "{\"message\": \"previous_interaction_id is not allowed when video task is set.\", \"code\": \"invalid_request\"}"
+    }
+  ],
+  "next_required_input": null,
+  "original_provider_bytes_preserved": true,
+  "current_project": "../edit/surface-cleanup"
+}

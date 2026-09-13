@@ -1,0 +1,208 @@
+{
+  "id": "BDec00yAmCm1QbMEI",
+  "userId": "8WrdMPiL4Np2kg7FC",
+  "name": "tiktok-comments-scraper",
+  "username": "clockworks",
+  "description": "Extract TikTok comments. Just add a TikTok URL and get TikTok video and profile data: comments, URLs, numbers of shares, followers, hashtags, hearts, video, and music metadata. Export scraped data, run the scraper via API, schedule and monitor runs or integrate with other tools.",
+  "isPublic": true,
+  "createdAt": "2023-02-02T16:29:21.468Z",
+  "modifiedAt": "2026-09-11T15:58:50.475Z",
+  "taggedBuilds": {
+    "latest": {
+      "buildId": "NKUXsgXiINhvoa1p3",
+      "finishedAt": "2026-09-11T12:45:49.998Z",
+      "buildNumberInt": 462,
+      "buildNumber": "0.0.462"
+    }
+  },
+  "stats": {
+    "totalBuilds": 2343,
+    "totalRuns": 14463409,
+    "totalUsers": 42418,
+    "totalUsers7Days": 1652,
+    "totalUsers30Days": 4076,
+    "totalUsers90Days": 7828,
+    "lastRunStartedAt": "2026-09-11T20:27:34.870Z",
+    "publicActorRunStats30Days": {
+      "ABORTED": 725,
+      "FAILED": 7618,
+      "SUCCEEDED": 2391985,
+      "TIMED-OUT": 375,
+      "TOTAL": 2400703
+    },
+    "actorReviewCount": 99,
+    "actorReviewRating": 4.735427973973851,
+    "bookmarkCount": 402
+  },
+  "versions": [
+    {
+      "versionNumber": "0.0",
+      "sourceType": "GIT_REPO",
+      "buildTag": "latest"
+    },
+    {
+      "versionNumber": "0.2",
+      "sourceType": "GIT_REPO",
+      "buildTag": "debug"
+    },
+    {
+      "versionNumber": "0.99",
+      "sourceType": "GIT_REPO",
+      "buildTag": null
+    }
+  ],
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 604800,
+    "memoryMbytes": 4096
+  },
+  "exampleRunInput": {
+    "body": "{ \"helloWorld\": 123 }",
+    "contentType": "application/json; charset=utf-8"
+  },
+  "categories": [
+    "SOCIAL_MEDIA",
+    "VIDEOS"
+  ],
+  "isDeprecated": false,
+  "title": "TikTok Comments Scraper",
+  "pictureUrl": "https://apify-image-uploads-prod.s3.amazonaws.com/BDec00yAmCm1QbMEI/qh2zfKvd59T2AcbpN-TikTok_Comments_Scraper.png",
+  "seoTitle": "\ud83d\udcac TikTok Comments Scraper",
+  "seoDescription": "Get thousands of comments from TikTok videos fast and easy with TikTok Comments Scraper. Get comment text, username, timestamp, replies, likes.",
+  "pricingInfos": [
+    {
+      "pricingModel": "FLAT_PRICE_PER_MONTH",
+      "pricePerUnitUsd": 20,
+      "trialMinutes": 10080,
+      "createdAt": "2023-02-02T16:43:36.964Z",
+      "startedAt": "2023-02-02T16:43:36.964Z",
+      "apifyMarginPercentage": 0
+    },
+    {
+      "pricingModel": "PRICE_PER_DATASET_ITEM",
+      "pricePerUnitUsd": 0.001,
+      "reasonForChange": "",
+      "unitName": "comments",
+      "startedAt": "2024-08-06T00:00:00.000Z",
+      "createdAt": "2024-07-23T08:15:30.950Z",
+      "apifyMarginPercentage": 0.2,
+      "notifiedAboutFutureChangeAt": "2024-07-23T08:15:56.041Z",
+      "notifiedAboutChangeAt": "2024-08-06T00:09:19.372Z"
+    },
+    {
+      "pricingModel": "PRICE_PER_DATASET_ITEM",
+      "reasonForChange": "Introducing Apify Store discounts.",
+      "unitName": "comment",
+      "tieredPricing": {
+        "FREE": {
+          "tieredPricePerUnitUsd": 0.00125
+        },
+        "BRONZE": {
+          "tieredPricePerUnitUsd": 0.001
+        },
+        "SILVER": {
+          "tieredPricePerUnitUsd": 0.00075
+        },
+        "GOLD": {
+          "tieredPricePerUnitUsd": 0.0005
+        },
+        "PLATINUM": {
+          "tieredPricePerUnitUsd": 0.0003
+        },
+        "DIAMOND": {
+          "tieredPricePerUnitUsd": 0.00015
+        }
+      },
+      "createdAt": "2025-06-05T12:47:00.000Z",
+      "startedAt": "2025-06-05T12:47:00.000Z",
+      "notifiedAboutChangeAt": "2025-06-05T12:47:00.000Z",
+      "apifyMarginPercentage": 0.2,
+      "minimalMaxTotalChargeUsd": 0.5
+    },
+    {
+      "pricingModel": "PAY_PER_EVENT",
+      "createdAt": "2026-03-16T11:02:20.464Z",
+      "startedAt": "2026-03-16T11:02:20.464Z",
+      "apifyMarginPercentage": 0.2,
+      "isPriceChangeNotificationSuppressed": true,
+      "reasonForChange": "Migration from Pay Per Result to Pay Per Event with apify-default-dataset-item event",
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "apify-default-dataset-item": {
+            "eventTitle": "comment",
+            "eventDescription": "Single comment in the default dataset.",
+            "isPrimaryEvent": true,
+            "eventTieredPricingUsd": {
+              "FREE": {
+                "tieredEventPriceUsd": 0.00125
+              },
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.001
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.00075
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.0005
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.0003
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.00015
+              }
+            }
+          }
+        }
+      },
+      "forceContainsSignificantPriceChange": false
+    },
+    {
+      "minimalMaxTotalChargeUsd": null,
+      "pricingModel": "PAY_PER_EVENT",
+      "isPriceChangeNotificationSuppressed": true,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "comment",
+            "eventDescription": "Single comment in the default dataset.",
+            "isOneTimeEvent": false,
+            "eventTieredPricingUsd": {
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.001
+              },
+              "FREE": {
+                "tieredEventPriceUsd": 0.00125
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.00075
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.0005
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.0003
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.00015
+              }
+            },
+            "isPrimaryEvent": true
+          }
+        }
+      },
+      "createdAt": "2026-03-18T10:24:20.131Z",
+      "startedAt": "2026-03-18T10:24:20.131Z",
+      "apifyMarginPercentage": 0.2
+    }
+  ],
+  "notice": "NONE",
+  "isCritical": true,
+  "isGeneric": false,
+  "hasNoDataset": false,
+  "isSourceCodeHidden": true,
+  "standbyUrl": null,
+  "actorPermissionLevel": "LIMITED_PERMISSIONS",
+  "readmeSummary": "## TikTok Comments Scraper\n\nTikTok Comments Scraper extracts comments from TikTok videos and from videos belonging to specified TikTok usernames by web scraping TikTok pages, producing structured comment records that include comment text, commenter identifiers, timestamps, reaction counts (likes), reply counts and nested reply content, and identifiers linking each comment to its source video or user; the Actor supports bulk scraping of multiple posts, configurable limits for how many comments and replies to collect per post, pagination through comment threads, and emits error records for inputs that fail retrieval or return no data.\n\n## Use cases\n\n- Collect product reviews from TikTok comments for analysis and monitoring  \n- Perform sentiment analysis and social listening on comment text and reactions  \n- Research viral campaigns, trends, and audience engagement metrics  \n- Identify potentially unverified or misleading content discussed in comments  \n- Prepare or evaluate TikTok marketing campaigns using comment-level engagement data",
+  "deploymentKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+fyaddV8gCMYFkyug3BJ0fJr5woRdCASyDZ6WT5APcSCfSYW+jXZGcVOG5W2XoOjOdHkNnLmAzZFuEH+eA3naYlCRx/+iBlR5Z5cbywJ1g8rr4jO5OyFlifbg7DfL6k0GtPsrWS0TjC9vBibCjgmy60KV5pwa/6mr/9LpicCBFX1quonhNSgVJhRSzN/JxaH5yL2GLef4F19kK9i2qFszPIOEzev3SkiLAFgFpOOn5tX/kluDgTnS0frc+z4BmJtWRJvKGvgXHpswm2saULFFiZ8VU+aw4wLucvOuSrwWLQVkQCTucMG90wIgJxGjrRN960RnmIA7ZedLxDLK/An7 \n"
+}

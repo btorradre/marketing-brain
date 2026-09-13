@@ -1,0 +1,73 @@
+{
+  "shot": "S16",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A gentle physical camera drift links the stomach above and colon below in the same intact digestive illustration; only subtle tissue movement. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S16.png",
+  "reference_sha256": "b376ff2b86b57245244bfdb8e8168531237005ff114eb82d5c29ed911354db93",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdVYk9nYXJyZEdKbXN6N0lQNWU3QnlBcxIXVWJPZ2FycmRHSm1zejdJUDVlN0J5QXM",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S16.mp4",
+  "sha256": "9ddb164de9f4e26f8993ebdfe8bde0a7ebc1d4b31526500d0debf39b9c9e914e",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 60122,
+    "total_input_tokens": 1156,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 56
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58474,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 492,
+    "raw_prompt_token": 31346,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1849
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 560
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 492
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

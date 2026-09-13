@@ -1,0 +1,99 @@
+{
+  "id": "lQNFeWKrw5fhTb9R5",
+  "actId": "SbK00X0JYCPblD2wp",
+  "userId": "s8Vnd3fTfZNdO5yod",
+  "startedAt": "2026-09-11T20:32:28.097Z",
+  "finishedAt": "2026-09-11T20:36:38.407Z",
+  "status": "SUCCEEDED",
+  "statusMessage": "Crawled 253/254 pages, 0 failed requests, desired concurrency 34.",
+  "isStatusMessageTerminal": null,
+  "meta": {
+    "origin": "API",
+    "userAgent": "python-requests/2.34.2"
+  },
+  "stats": {
+    "inputBodyLen": 2258,
+    "migrationCount": 0,
+    "rebootCount": 0,
+    "restartCount": 0,
+    "durationMillis": 250077,
+    "resurrectCount": 0,
+    "runTimeSecs": 250.077,
+    "metamorph": 0,
+    "computeUnits": 0.06946583333333334,
+    "memAvgBytes": 135771285.141258,
+    "memMaxBytes": 145186816,
+    "memCurrentBytes": 0,
+    "cpuAvgUsage": 4.909544651215843,
+    "cpuMaxUsage": 90.10444444444444,
+    "cpuCurrentUsage": 0,
+    "netRxBytes": 8051292,
+    "netTxBytes": 4060069
+  },
+  "options": {
+    "build": "latest",
+    "timeoutSecs": 1800,
+    "memoryMbytes": 1024,
+    "maxTotalChargeUsd": 16,
+    "maxItems": null,
+    "isMaxTotalChargeUsdSetByUser": true,
+    "diskMbytes": 2048
+  },
+  "buildId": "hlrecb8JuZ1Ne7kaJ",
+  "exitCode": 0,
+  "defaultKeyValueStoreId": "[REDACTED_SECRET]",
+  "defaultDatasetId": "7SqlvG2RgE0Wydi26",
+  "defaultRequestQueueId": "dKj7GknaoowvhcQBy",
+  "storageIds": {
+    "keyValueStores": {
+      "default": "[REDACTED_SECRET]"
+    },
+    "datasets": {
+      "default": "7SqlvG2RgE0Wydi26"
+    },
+    "requestQueues": {
+      "default": "dKj7GknaoowvhcQBy"
+    }
+  },
+  "pricingInfo": {
+    "minimalMaxTotalChargeUsd": 0.0026,
+    "pricingModel": "PAY_PER_EVENT",
+    "isPriceChangeNotificationSuppressed": false,
+    "createdAt": "2026-07-14T11:34:19.881Z",
+    "startedAt": "2026-07-14T11:34:19.881Z",
+    "apifyMarginPercentage": 0.2,
+    "pricingPerEvent": {
+      "actorChargeEvents": {
+        "comment": {
+          "eventTitle": "Comment",
+          "eventDescription": "Each comment written to the dataset",
+          "isOneTimeEvent": false,
+          "isPrimaryEvent": true,
+          "eventPriceUsd": 0.0023
+        }
+      }
+    }
+  },
+  "chargedEventCounts": {
+    "comment": 1841
+  },
+  "platformUsageBillingModel": "DEVELOPER",
+  "accountedChargedEventCounts": {
+    "comment": 1841
+  },
+  "standby": null,
+  "generalAccess": "FOLLOW_USER_SETTING",
+  "buildNumber": "0.0.597",
+  "containerUrl": "https://hdyqoxl8tnnu.runs.apify.net",
+  "usageTotalUsd": 4.2343,
+  "consoleUrl": "https://console.apify.com/view/runs/lQNFeWKrw5fhTb9R5",
+  "eventUsage": {
+    "comment": {
+      "eventTitle": "Comment",
+      "eventTotalUsd": 4.2343
+    }
+  },
+  "output": {
+    "dataset": "https://api.apify.com/v2/datasets/7SqlvG2RgE0Wydi26/items"
+  }
+}

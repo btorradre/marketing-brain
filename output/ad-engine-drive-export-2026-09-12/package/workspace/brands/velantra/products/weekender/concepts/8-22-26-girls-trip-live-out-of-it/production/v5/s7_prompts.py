@@ -1,0 +1,130 @@
+# S7 re-roll (v5) — "it just sat open by the bed for three days"
+# Brooks 2026-08-24: the v4 S7 read as a canvas basket. No flap, no handles, no hardware,
+# and the Omni pass then invented a drooping front handle.
+# Fix per skill law: anchor i2i on the REAL open-bag stills and put the FLAP TAB language FIRST.
+
+PREAMBLE = (
+"Use the attached photographs ONLY as the reference for the bag's shape, proportions, materials, "
+"colours, stitching and hardware, and for the woman's face, hair and clothing. Do NOT copy their "
+"lighting, their backgrounds, their clean edges or any polished studio product-photo look. "
+"The picture you produce must not resemble a catalogue image. "
+)
+
+# THE FITTING THAT KEEPS FAILING, PINNED AT THE FRONT OF THE PROMPT.
+FLAP = (
+"THE FOLDED-BACK FLAP IS THE MOST IMPORTANT OBJECT IN THIS PICTURE AND IT MUST BE FULLY VISIBLE AND "
+"CORRECT. The bag's flap is ONE single piece of smooth cognac leather, folded all the way backward "
+"over the top rear edge of the bag, leaning back behind the open mouth so its INNER FACE is turned "
+"toward the camera. Its bottom edge is SCALLOPED into THREE separate hanging tabs, exactly as in the "
+"attached open-bag photographs: a wide CENTRE TAB carrying one small polished flat gold oval plate "
+"with an empty cross-shaped keyhole cutout punched through it, and to its left and right two rounded "
+"TABS each pierced by a keyhole-shaped handle cutout, a round hole with a short slot below it and "
+"stitched edges. Outboard of those three tabs, at the far left and far right of the flap, sits one "
+"narrow vertical strap slot punched through the leather on each side. Count them in the finished "
+"picture: three hanging tabs, one gold oval plate on the centre tab only, two keyhole handle cutouts, "
+"two narrow strap slots. The flap is never a plain featureless slab, never splits into pieces, never "
+"folds forward over the front of the bag, and never duplicates. "
+)
+
+IDENTITY = (
+"THE BAG: a structured two tone weekend bag, wider than tall, rich cognac brown leather upper section "
+"and two rolled cognac leather top handles over a cream ivory woven canvas body, cognac leather corner "
+"patches at the bottom, a small cognac leather key bell tied to a handle base, a small gold eyelet high "
+"on each side face, visible stitching, warm brass gold hardware, no logos anywhere on the bag. "
+)
+
+MECH = (
+"OPEN BAG CONSTRUCTION: the open bag keeps the exact same two tone split as the closed bag. The entire "
+"upper section of the bag body, across the front, the back and both sides, is smooth rich cognac brown "
+"leather, and everything below it is cream ivory woven canvas. Folding the flap back does NOT change "
+"this split. The two rolled cognac leather top handles are anchored directly into this wide leather "
+"upper band with sturdy teardrop stitched leather bases, never into the canvas, and BOTH handles are "
+"present and clearly visible: the front handle rises from the front leather band and the rear handle "
+"rises from the back band in front of the folded back flap. Every teardrop base has its handle rising "
+"out of it. A handle never stretches into a long slack loop, never reaches the bag's bottom edge, never "
+"flattens into a strip, never droops across the canvas and never multiplies, and no shoulder strap ever "
+"appears. Two flat vertical gold staples stand on the front leather band, each made of TWO PARALLEL "
+"FLAT GOLD BARS side by side, never one solid blade and never a buckle, and a single small knurled gold "
+"mushroom headed post stands at the front centre of that band. There is NO oval plate on the band: the "
+"one and only gold oval keyhole plate in the whole picture is the one on the folded back flap's centre "
+"tab. The two cognac leather belt straps hang straight DOWN close to the left and right SIDE edges with "
+"their flat gold end plates visible, never crossing the middle of the front, never diagonal, never "
+"reaching the bottom edge. The wide leather band on the front is plain smooth leather and is part of the "
+"bag body: no tab sections, no scalloped edges, no pocket shape, it is not a second flap. The mouth of "
+"the bag is a clean open oval at the top of the leather section, showing the smooth CARAMEL TAN LEATHER "
+"interior lining and the wide matching caramel leather slip pocket on the interior wall. The interior is "
+"never cream canvas. The bag has NO zipper anywhere, no zipper track, no teeth, no pull, and no embossed "
+"text or lettering anywhere on the bag. "
+)
+
+WOMAN = (
+"THE WOMAN: 43 years old, shoulder-length dark blonde hair with a little grey at the temples worn loose, "
+"an open oatmeal linen shirt over a plain white tee, dark indigo jeans, small gold hoop earrings, bare "
+"feet. Same woman, same hair and same outfit as the attached scene photograph. "
+)
+
+ROOM = (
+"THE ROOM: a real guest bedroom on the third morning of a trip. A low bed made up in rumpled white linen "
+"fills the right of the frame, warm morning light comes through half-closed plantation shutters on the "
+"left, a jute rug covers the floor, a phone charging cable trails across it. Lived-in, a little untidy. "
+)
+
+FOOTER = (
+"CRITICAL RENDERING INSTRUCTION. This is a real photograph casually taken on an iPhone 15 Pro by an "
+"ordinary person, handheld, in one second, with no lighting equipment, no tripod and no styling. It is "
+"NOT a 3D render, NOT CGI, NOT a product visualisation, NOT Blender or Octane or Unreal or Keyshot, NOT "
+"ray traced, NOT a commercial or catalogue product photograph, NOT an advertisement, NOT retouched, NOT "
+"airbrushed, NOT studio lit. If it looks polished or computer generated it is wrong. Photographic "
+"evidence that must be present: visible digital sensor noise and grain through the shadows and midtones, "
+"highlights slightly blown out where the light source hits, mild chromatic aberration on high contrast "
+"edges, faint JPEG compression artefacts, focus that is slightly imperfect so nothing is tack sharp, a "
+"trace of handheld motion blur, and framing that is a little crooked and off centre the way a real "
+"snapshot is. Real light only: one dominant available light source, mixed colour temperature across the "
+"frame, uneven exposure, and real shadows falling off naturally with visible ambient bounce. Real "
+"surfaces: the leather is creased, faintly scuffed, unevenly grained and dulled where it has been "
+"handled, never a uniform polished finish; the canvas shows individual woven fibres, slubs and small "
+"wrinkles; ordinary dust, lint and fingerprints are present. The setting is a real lived-in place with "
+"ordinary clutter, not a set. No on-screen text, lettering, signage or graphics anywhere. Vertical 9:16. "
+)
+
+BLOCKING = {
+"S7v5a":
+ "THE SHOT: taken from just behind and above her left shoulder, camera about chest height, looking down "
+ "past her at the bag on the jute rug beside the bed. The bag sits turned about thirty degrees toward the "
+ "camera so its whole front and its folded-back flap are both clearly in frame, the flap leaning back "
+ "toward the bed with its inner face and its three tabs facing the camera. She kneels on the rug in the "
+ "left foreground, seen from behind, and is lifting one folded striped shirt up out of the open mouth "
+ "with her right hand. Both rolled handles stand upright and clear of her arm. Packed clothes, a rolled "
+ "pair of jeans and a tan leather pouch fill the caramel interior. ",
+
+"S7v5b":
+ "THE SHOT: camera low, almost down on the jute rug, level with the bag, looking at it from its front "
+ "left. The bag stands in profile-three-quarter with the white bedding bright behind it, so the "
+ "folded-back flap reads clearly against the linen with its inner face, its three tabs and its gold oval "
+ "plate turned toward the camera. She kneels at the right of frame, only her torso, forearm and hair in "
+ "shot, one hand down inside the open mouth. Both rolled handles stand upright above the leather band. "
+ "The bag is half unpacked, a knit sweater and a rolled shirt still inside. ",
+
+"S7v5c":
+ "THE SHOT: camera on the far side of the bag looking back across it at her, the bag large in the "
+ "foreground on the jute rug. The folded-back flap fills the lower third of the frame with its INNER FACE "
+ "square to the camera, so its three hanging tabs, the small gold oval plate on the centre tab, the two "
+ "keyhole handle cutouts and the two narrow strap slots are all plainly readable. Beyond the flap the "
+ "open mouth shows the caramel leather lining and packed clothes, and beyond that she kneels in the "
+ "background reaching in with one hand, slightly out of focus. Both rolled handles stand upright. ",
+
+"S7v5d":
+ "THE SHOT: camera at about bed height a couple of steps back, so the whole bag and the whole woman are "
+ "in frame. The bag stands on the jute rug at the foot of the bed, three-quarter to camera, its flap "
+ "folded all the way back and leaning against the bed frame with its inner face, three tabs and gold oval "
+ "plate visible. She kneels beside it in profile, one hand inside the open mouth, the other resting on "
+ "the rug. Both rolled handles stand upright above the cognac band. Three days of clothes are packed "
+ "inside, a sweater folded on top. ",
+}
+
+def build(key):
+    return (PREAMBLE + FLAP + IDENTITY + MECH + WOMAN + ROOM + BLOCKING[key] + FOOTER)
+
+if __name__ == "__main__":
+    import json, sys
+    print(json.dumps({k: build(k) for k in BLOCKING}, indent=1))

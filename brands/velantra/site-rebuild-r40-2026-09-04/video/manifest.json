@@ -1,0 +1,74 @@
+{
+  "project": "Velantra Vivienne Direct Omni Hero",
+  "workflow": {
+    "video_generation": "Google Gemini Interactions API / gemini-omni-1.1-flash",
+    "image_production": "GPT Image 2",
+    "editing": "User internal video editor, only when needed",
+    "hyperframes_banned": true,
+    "hero_editing_performed": false,
+    "hero_request_duration": "3s",
+    "hero_video_duration_seconds": 3.0,
+    "container_note": "Omni includes an effectively silent AAC track with 8 ms encoder padding; video streams are exactly 72 frames at 24 fps. Original provider MP4s are preserved."
+  },
+  "source": {
+    "hero_keyframe": "assets/vivienne-studio-keyframe.png",
+    "hero_direct_outputs": "direct-omni/",
+    "macro_original": "../../products/vivienne/broll/final/O11.mp4"
+  },
+  "verification": {
+    "direct_receipts": [
+      "direct-omni/desktop-receipt.json",
+      "direct-omni/mobile-receipt.json"
+    ],
+    "visual_qa": "direct-omni/qa/",
+    "loop_note": "Native repeat; no edited seam or crossfade. The final pose differs from the first pose.",
+    "storefront_qa": "../research/direct-omni-storefront-qa.json"
+  },
+  "outputs": [
+    {
+      "file": "exports/vivienne-hero-desktop.mp4",
+      "width": 1280,
+      "height": 720,
+      "video_duration_seconds": 3.0,
+      "container_duration_seconds": 3.008,
+      "frames": 72,
+      "fps": "24/1",
+      "codec": "h264",
+      "audio_streams": 1,
+      "storefront_playback": "muted",
+      "bytes": 692809,
+      "sha256": "3a05d6ebbafdffc773fcde48342e9e0d95906c6029fd35c67259877f57dde463",
+      "provider_bytes_unchanged": true
+    },
+    {
+      "file": "exports/vivienne-hero-mobile.mp4",
+      "width": 720,
+      "height": 1280,
+      "video_duration_seconds": 3.0,
+      "container_duration_seconds": 3.008,
+      "frames": 72,
+      "fps": "24/1",
+      "codec": "h264",
+      "audio_streams": 1,
+      "storefront_playback": "muted",
+      "bytes": 863655,
+      "sha256": "51b75242c7761121e29a28cc2466ca8fba73fe3e4a94ff1677caeba7b7539405",
+      "provider_bytes_unchanged": true
+    },
+    {
+      "file": "exports/vivienne-macro.mp4",
+      "width": 720,
+      "height": 1280,
+      "video_duration_seconds": 10.0,
+      "container_duration_seconds": 10.0,
+      "frames": 240,
+      "fps": "24/1",
+      "codec": "h264",
+      "audio_streams": 0,
+      "storefront_playback": "muted",
+      "bytes": 3461875,
+      "sha256": "0aa792d377cc6132d5e67c441c242cbf8f285e074f648def4f3e800af19421a4",
+      "provider_bytes_unchanged": true
+    }
+  ]
+}

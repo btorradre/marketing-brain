@@ -1,0 +1,73 @@
+{
+  "shot": "S10",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The existing modest meal gently mixes within the stomach cutaway through slow natural tissue movement, without changing the cutaway geometry. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S10.png",
+  "reference_sha256": "5b8e3a7ddd46e5b89650e03927f3aa7fdd81fa63c0e2a38473f8ebeabc3cfa33",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdMTE9nYXZ6VkNlSHF6N0lQOWNPWDhRbxIXTExPZ2F2elZDZUhxejdJUDljT1g4UW8",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S10.mp4",
+  "sha256": "28584578e719097cdbafdd213c0acbd32f288de230744a4fa59bc5a242a2630e",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59824,
+    "total_input_tokens": 1156,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 56
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58403,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 265,
+    "raw_prompt_token": 31114,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1849
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 489
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 265
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

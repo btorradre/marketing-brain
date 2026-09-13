@@ -1,0 +1,113 @@
+{
+  "family": "juliette",
+  "path": "exports/juliette-surface-clean.mp4",
+  "frames": 216,
+  "fps": 24.0,
+  "duration": 9.0,
+  "sha256": "26a0887b789f3add487e37de40e582cd1a4c3e5d10c5338ecbfa4820f649f98a",
+  "bytes": 17899235,
+  "per_frame_mean_absolute_error": 2.0518694749276025,
+  "worst_frames": [
+    [
+      49,
+      2.493888888888889
+    ],
+    [
+      54,
+      2.4897325102880656
+    ],
+    [
+      53,
+      2.4880452674897118
+    ],
+    [
+      56,
+      2.4863683127572016
+    ],
+    [
+      57,
+      2.4859979423868315
+    ],
+    [
+      55,
+      2.485627572016461
+    ],
+    [
+      50,
+      2.482818930041152
+    ],
+    [
+      51,
+      2.482232510288066
+    ],
+    [
+      65,
+      2.482067901234568
+    ],
+    [
+      52,
+      2.47917695473251
+    ]
+  ],
+  "cut_boundaries": [
+    {
+      "frame": 0,
+      "mae": 2.088497942386831
+    },
+    {
+      "frame": 47,
+      "mae": 2.1136316872427985
+    },
+    {
+      "frame": 48,
+      "mae": 2.4734670781893002
+    },
+    {
+      "frame": 86,
+      "mae": 2.4324382716049384
+    },
+    {
+      "frame": 87,
+      "mae": 1.5546810699588478
+    },
+    {
+      "frame": 129,
+      "mae": 1.721471193415638
+    },
+    {
+      "frame": 130,
+      "mae": 2.101440329218107
+    },
+    {
+      "frame": 170,
+      "mae": 2.2055555555555557
+    },
+    {
+      "frame": 171,
+      "mae": 1.5089609053497943
+    },
+    {
+      "frame": 215,
+      "mae": 1.7744650205761316
+    }
+  ],
+  "samples": [
+    0,
+    23,
+    47,
+    48,
+    67,
+    86,
+    87,
+    108,
+    129,
+    130,
+    150,
+    170,
+    171,
+    193,
+    215
+  ],
+  "every_intended_frame_verified": true,
+  "visual_review": "Revised wide and handle moving frames and native-resolution surface crops reviewed; storefront playback verified on draft 151397859393. Fine material grain retained; not a pixel-perfect artifact-free certification."
+}

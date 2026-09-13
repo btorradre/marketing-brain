@@ -1,0 +1,152 @@
+{%- comment -%}
+  Gallery filter: hide every product gallery slide + thumbnail whose alt-text doesn't
+  match the currently selected color variant. Images with no alt stay visible as
+  general/lifestyle shots. Re-runs on every variant change. Refreshes Flickity.
+
+  Render via a custom block at the END of main.block_order.
+{%- endcomment -%}
+
+{%- if product.options.size > 0 -%}
+  {%- assign color_opt_idx = -1 -%}
+  {%- for opt in product.options -%}
+    {%- assign opt_l = opt | downcase -%}
+    {%- if opt_l contains 'color' or opt_l contains 'colour' -%}
+      {%- assign color_opt_idx = forloop.index0 -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if color_opt_idx >= 0 -%}
+    <script>
+      window.__pdpVariantColors = window.__pdpVariantColors || {};
+      {%- for v in product.variants -%}
+        window.__pdpVariantColors[{{ v.id }}] = {{ v.options[color_opt_idx] | json }};
+      {%- endfor -%}
+    </script>
+
+    <script>
+    (function(){
+      'use strict';
+      var bound = false;
+      var lastColor = null;
+
+      function norm(s){ return (s || '').toString().trim().toLowerCase(); }
+
+      function getSelectedColor(){
+        var checked = document.querySelector('input[type="radio"][data-color-name]:checked');
+        if (checked && checked.value) return checked.value;
+        var idInput = document.querySelector('form[action*="/cart/add"] input[name="id"]');
+        if (idInput && idInput.value && window.__pdpVariantColors) {
+          return window.__pdpVariantColors[parseInt(idInput.value, 10)] || null;
+        }
+        return null;
+      }
+
+      function shouldShow(altRaw, colorL){
+        var alt = norm(altRaw);
+        if (!alt) return true;                       // unlabeled = general shot, always show
+        if (alt === colorL) return true;             // exact match
+        if (alt.indexOf(colorL) !== -1) return true; // alt contains color (e.g. "Navy 1")
+        if (colorL.indexOf(alt) !== -1) return true; // color contains alt (rare)
+        return false;
+      }
+
+      function getFlickity(node){
+        if (!window.Flickity || !node) return null;
+        try { return window.Flickity.data(node); } catch(e) { return null; }
+      }
+
+      function filterGallery(){
+        var color = getSelectedColor();
+        if (!color || color === lastColor) {
+          if (!color) return;
+        }
+        lastColor = color;
+        var colorL = norm(color);
+
+        // ─── MAIN SLIDES ───────────────────────────────────────────────────
+        var slides = document.querySelectorAll('.product-main-slide');
+        var firstVisibleIdx = -1;
+        slides.forEach(function(slide, i){
+          var img = slide.querySelector('img');
+          var alt = img ? img.getAttribute('alt') : '';
+          var keep = shouldShow(alt, colorL);
+          if (keep) {
+            slide.style.display = '';
+            slide.removeAttribute('aria-hidden');
+            if (firstVisibleIdx === -1) firstVisibleIdx = i;
+          } else {
+            slide.style.display = 'none';
+            slide.setAttribute('aria-hidden', 'true');
+          }
+        });
+
+        // ─── THUMBNAILS ────────────────────────────────────────────────────
+        var thumbs = document.querySelectorAll('.product__thumb-item');
+        thumbs.forEach(function(t){
+          var img = t.querySelector('img');
+          var alt = img ? img.getAttribute('alt') : '';
+          t.style.display = shouldShow(alt, colorL) ? '' : 'none';
+        });
+
+        // ─── FLICKITY: re-init + jump to first visible ─────────────────────
+        // Impulse uses Flickity for both [data-product-images] main + [data-product-thumbs]
+        ['[data-product-images]', '[data-product-thumbs]'].forEach(function(sel){
+          document.querySelectorAll(sel).forEach(function(node){
+            var fk = getFlickity(node) || getFlickity(node.querySelector('.flickity-enabled')) || getFlickity(node.querySelector('.product__photos'));
+            if (fk) {
+              try {
+                fk.resize();
+                if (firstVisibleIdx >= 0 && sel.indexOf('images') !== -1) {
+                  fk.select(firstVisibleIdx, false, true);
+                }
+              } catch(e) {}
+            }
+          });
+        });
+
+        // Trigger a window resize event so other scripts (zoom, etc.) recompute
+        try { window.dispatchEvent(new Event('resize')); } catch(e) {}
+      }
+
+      function bind(){
+        if (bound) return;
+        bound = true;
+
+        // First pass — wait for Flickity to be ready
+        var attempts = 0;
+        var poll = setInterval(function(){
+          attempts++;
+          if (window.Flickity || attempts > 20) {
+            clearInterval(poll);
+            filterGallery();
+          }
+        }, 150);
+
+        // Re-run on any variant radio change
+        document.addEventListener('change', function(e){
+          if (e.target && e.target.matches && (e.target.matches('input[data-variant-input]') || e.target.matches('input[name^="options["]'))) {
+            setTimeout(filterGallery, 80);
+          }
+        });
+
+        // Re-run when hidden variant id changes (programmatic variant switches)
+        var formVariantInput = document.querySelector('form[action*="/cart/add"] input[name="id"]');
+        if (formVariantInput && window.MutationObserver) {
+          new MutationObserver(function(){ setTimeout(filterGallery, 80); })
+            .observe(formVariantInput, { attributes: true, attributeFilter: ['value'] });
+        }
+
+        // Re-run on Impulse's variant change event if dispatched
+        document.addEventListener('variantChange', function(){ setTimeout(filterGallery, 80); });
+        document.addEventListener('product:variant-change', function(){ setTimeout(filterGallery, 80); });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', bind);
+      } else {
+        bind();
+      }
+    })();
+    </script>
+  {%- endif -%}
+{%- endif -%}

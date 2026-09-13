@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 4,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "final.mp4",
+        "size": 7094816,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "final.mp4",
+        "uploadPath": "brands/velantra/videos/VEL-STRAWTOTE-POV-PACK-01/caramel/final.mp4",
+        "durationInSeconds": 8.057007,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": true,
+        "loudness": {
+          "channelCount": 2,
+          "sampleRate": 44100,
+          "integratedLufs": -24.6
+        },
+        "sourceManifest": {
+          "audioChannels": 2,
+          "audioSampleRate": 44100,
+          "audioStartOffsetInSeconds": 0,
+          "audioStreamDurationInSeconds": 8.057007,
+          "originalFilename": "final.mp4",
+          "videoStreamDurationInSeconds": 8.041667
+        }
+      },
+      "result": {
+        "assetId": "18163d0d-8b91-4ab8-ac96-f2f022f3217e",
+        "assetType": "video",
+        "filename": "final.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/18163d0d-8b91-4ab8-ac96-f2f022f3217e/final.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/18163d0d-8b91-4ab8-ac96-f2f022f3217e/final.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/18163d0d-8b91-4ab8-ac96-f2f022f3217e/final.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/18163d0d-8b91-4ab8-ac96-f2f022f3217e/final.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "brands/velantra/videos/VEL-STRAWTOTE-POV-PACK-01/caramel/final.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "K_cafe.mp4",
+        "size": 5552490,
+        "sourceType": "video",
+        "transcodeReason": "source bitrate exceeds efficient upload threshold",
+        "transcoded": true,
+        "uploadFilename": "K_cafe.mp4",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-K_cafe-transcode-54620-2.mp4",
+        "durationInSeconds": 8,
+        "height": 1920,
+        "width": 1080,
+        "hasAudioTrack": false,
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "K_cafe.mp4",
+          "videoStreamDurationInSeconds": 8
+        }
+      },
+      "result": {
+        "assetId": "0b1bf0c4-fb9c-4c1d-8b3c-d7f18eee5cf2",
+        "assetType": "video",
+        "filename": "K_cafe.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/0b1bf0c4-fb9c-4c1d-8b3c-d7f18eee5cf2/K_cafe.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/0b1bf0c4-fb9c-4c1d-8b3c-d7f18eee5cf2/K_cafe.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/0b1bf0c4-fb9c-4c1d-8b3c-d7f18eee5cf2/K_cafe.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/0b1bf0c4-fb9c-4c1d-8b3c-d7f18eee5cf2/K_cafe.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "brands/velantra/products/straw-birkin/assets/broll/K_cafe.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "D_leather_stitch.mp4",
+        "size": 8547495,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "D_leather_stitch.mp4",
+        "uploadPath": "brands/velantra/products/straw-birkin/assets/broll/D_leather_stitch.mp4",
+        "durationInSeconds": 8,
+        "height": 1920,
+        "width": 1080,
+        "hasAudioTrack": false,
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "D_leather_stitch.mp4",
+          "videoStreamDurationInSeconds": 8
+        }
+      },
+      "result": {
+        "assetId": "80e8c547-d71a-4618-9dc4-64f67c92fdf0",
+        "assetType": "video",
+        "filename": "D_leather_stitch.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/80e8c547-d71a-4618-9dc4-64f67c92fdf0/D_leather_stitch.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/80e8c547-d71a-4618-9dc4-64f67c92fdf0/D_leather_stitch.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/80e8c547-d71a-4618-9dc4-64f67c92fdf0/D_leather_stitch.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/80e8c547-d71a-4618-9dc4-64f67c92fdf0/D_leather_stitch.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "brands/velantra/products/straw-birkin/assets/broll/D_leather_stitch.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "F_motion_carry.mp4",
+        "size": 5582024,
+        "sourceType": "video",
+        "transcodeReason": "source bitrate exceeds efficient upload threshold",
+        "transcoded": true,
+        "uploadFilename": "F_motion_carry.mp4",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-F_motion_carry-transcode-54620-4.mp4",
+        "durationInSeconds": 8,
+        "height": 1920,
+        "width": 1080,
+        "hasAudioTrack": false,
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "F_motion_carry.mp4",
+          "videoStreamDurationInSeconds": 8
+        }
+      },
+      "result": {
+        "assetId": "fa0558a6-c95f-4c5b-9264-2d9a25deed4f",
+        "assetType": "video",
+        "filename": "F_motion_carry.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/fa0558a6-c95f-4c5b-9264-2d9a25deed4f/F_motion_carry.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/fa0558a6-c95f-4c5b-9264-2d9a25deed4f/F_motion_carry.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/fa0558a6-c95f-4c5b-9264-2d9a25deed4f/F_motion_carry.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/403a07c5-4343-4ee8-beff-dd5ea4ad9b1f/assets/video/fa0558a6-c95f-4c5b-9264-2d9a25deed4f/F_motion_carry.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "brands/velantra/products/straw-birkin/assets/broll/F_motion_carry.mp4"
+    }
+  ]
+}

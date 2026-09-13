@@ -1,0 +1,20 @@
+{
+  "shot": "S33",
+  "verdict": "minor_issue",
+  "observed_motion": "The subject adjusts the sleeve of her cardigan before shifting her posture; around the three-second mark, the tote bag abruptly switches from her left shoulder to her right shoulder.",
+  "issues": [
+    {
+      "time_s": 3.0,
+      "description": "The black tote bag unnaturally teleports from the viewer's right shoulder to the viewer's left shoulder between 2.75s and 3.25s.",
+      "severity": "moderate"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 2.5,
+  "confidence": 0.78,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S33-4fps.jpg"
+}

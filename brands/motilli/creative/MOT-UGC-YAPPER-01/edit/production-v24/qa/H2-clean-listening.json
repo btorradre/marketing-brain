@@ -1,0 +1,38 @@
+{
+  "usable": true,
+  "review_basis": "Whole-file PCM equality to retained source, independent before/after transcript comparison, no waveform silences >=0.35s and three targeted listening samples.",
+  "notes": "Long-input model claimed periodic 30-second dropouts; actual waveform and targeted samples at claimed intervals contradict these claims. Sample-boundary truncations are from QA extraction, not the full file.",
+  "targeted_samples": [
+    {
+      "usable": true,
+      "audible_silence_or_dropout_seconds": 0.0,
+      "clipped_words": [
+        "My"
+      ],
+      "issues": [
+        "The final word 'My' is truncated at the end of the clip."
+      ],
+      "pacing": "Natural and reflective, with appropriate pauses between phrases."
+    },
+    {
+      "usable": true,
+      "audible_silence_or_dropout_seconds": 0,
+      "clipped_words": [],
+      "issues": [],
+      "pacing": "The pacing is natural and consistent, with clear articulation and appropriate pauses between phrases."
+    },
+    {
+      "usable": true,
+      "audible_silence_or_dropout_seconds": 0,
+      "clipped_words": [
+        "mapping",
+        "drop"
+      ],
+      "issues": [
+        "The audio begins mid-word at 00:00, truncating the first syllable.",
+        "The audio ends abruptly at 00:11, cutting off the final word."
+      ],
+      "pacing": "The pacing is natural and conversational throughout the audible portion of the segment."
+    }
+  ]
+}

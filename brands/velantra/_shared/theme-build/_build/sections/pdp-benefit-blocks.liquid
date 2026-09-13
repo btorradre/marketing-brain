@@ -1,0 +1,140 @@
+{% comment %}
+  PDP — Benefit blocks (stacked short callouts, optional product link)
+{% endcomment %}
+
+<section
+  class="pdp-benefit-blocks pdp-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="pdp-benefit-blocks"
+  style="--pdp-bg: {{ section.settings.bg_color }};"
+>
+  <div class="pdp-benefit-blocks__inner">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="pdp-benefit-blocks__eyebrow">{{ section.settings.eyebrow }}</p>
+    {%- endif -%}
+    {%- if section.settings.heading != blank -%}
+      <h2 class="pdp-benefit-blocks__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    <div class="pdp-benefit-blocks__grid" data-layout="{{ section.settings.layout }}">
+      {%- for block in section.blocks -%}
+        <article class="pdp-benefit-blocks__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.eyebrow_small != blank -%}
+            <p class="pdp-benefit-blocks__item-eyebrow">{{ block.settings.eyebrow_small }}</p>
+          {%- endif -%}
+          <h3 class="pdp-benefit-blocks__item-title">{{ block.settings.headline }}</h3>
+          {%- if block.settings.body != blank -%}
+            <div class="pdp-benefit-blocks__item-body rte">{{ block.settings.body }}</div>
+          {%- endif -%}
+          {%- if block.settings.linked_product != blank -%}
+            {%- assign linked = all_products[block.settings.linked_product] -%}
+            {%- if linked != blank -%}
+              <a class="pdp-benefit-blocks__item-link" href="{{ linked.url }}">
+                {{ block.settings.link_label | default: 'Shop' }} {{ linked.title }} →
+              </a>
+            {%- endif -%}
+          {%- elsif block.settings.link_url != blank -%}
+            <a class="pdp-benefit-blocks__item-link" href="{{ block.settings.link_url }}">{{ block.settings.link_label | default: 'Learn more' }} →</a>
+          {%- endif -%}
+        </article>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<style>
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks {
+    background: var(--pdp-bg, #ffffff);
+    padding: clamp(48px, 6vw, 80px) clamp(20px, 4vw, 56px);
+    color: #1a1a1a;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__inner { max-width: 1080px; margin: 0 auto; }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__eyebrow {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    text-align: center; opacity: 0.6; margin: 0 0 12px;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__heading {
+    font-family: var(--font-stack-header, 'Cormorant', serif);
+    font-weight: 400; font-size: clamp(26px, 2.6vw, 36px);
+    text-align: center; margin: 0 0 clamp(32px, 4vw, 56px); letter-spacing: -0.01em;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__grid {
+    display: grid; gap: clamp(28px, 3vw, 40px);
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__grid[data-layout="stack"] { grid-template-columns: 1fr; max-width: 640px; margin: 0 auto; }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__grid[data-layout="grid-2"] { grid-template-columns: 1fr; }
+  @media (min-width: 768px) {
+    #shopify-section-{{ section.id }} .pdp-benefit-blocks__grid[data-layout="grid-2"] { grid-template-columns: 1fr 1fr; }
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__item {
+    border-top: 1px solid #e8e8e1; padding-top: 24px;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__item-eyebrow {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+    opacity: 0.55; margin: 0 0 8px;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__item-title {
+    font-family: var(--font-stack-header, 'Cormorant', serif);
+    font-weight: 500; font-size: clamp(20px, 2vw, 24px);
+    margin: 0 0 8px; letter-spacing: -0.005em;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__item-body {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 14px; line-height: 1.6; opacity: 0.88;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__item-link {
+    display: inline-block; margin-top: 14px;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 13px; letter-spacing: 0.04em;
+    color: #1a1a1a; text-decoration: underline; text-underline-offset: 4px;
+  }
+  #shopify-section-{{ section.id }} .pdp-benefit-blocks__item-link:hover { opacity: 0.7; }
+</style>
+
+{% schema %}
+{
+  "name": "PDP · Benefit Blocks",
+  "tag": "section",
+  "class": "shopify-section--pdp-benefit-blocks",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "BUILT-IN BENEFITS" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Made with intention" },
+    { "type": "select", "id": "layout", "label": "Layout", "default": "stack",
+      "options": [
+        { "value": "stack", "label": "Single column (stacked)" },
+        { "value": "grid-2", "label": "Two columns" }
+      ]
+    },
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#ffffff" }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "settings": [
+        { "type": "text", "id": "eyebrow_small", "label": "Eyebrow (optional)" },
+        { "type": "text", "id": "headline", "label": "Headline", "default": "Reinforced base" },
+        { "type": "richtext", "id": "body", "label": "Body", "default": "<p>Holds shape through years of daily use.</p>" },
+        { "type": "header", "content": "Optional link" },
+        { "type": "product", "id": "linked_product", "label": "Linked product (cross-sell)" },
+        { "type": "url", "id": "link_url", "label": "Link URL (fallback)" },
+        { "type": "text", "id": "link_label", "label": "Link label", "default": "Shop" }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "PDP · Benefit Blocks",
+      "blocks": [
+        { "type": "benefit" },
+        { "type": "benefit" },
+        { "type": "benefit" }
+      ]
+    }
+  ],
+  "disabled_on": { "groups": ["header", "footer", "aside"] }
+}
+{% endschema %}

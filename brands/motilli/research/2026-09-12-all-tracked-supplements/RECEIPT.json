@@ -1,0 +1,38 @@
+{
+  "completed_utc": "2026-09-13T01:37:42.109333+00:00",
+  "tracked_entries": 30,
+  "included_entries": 20,
+  "excluded_entries": 10,
+  "included_ad_query_rows": 229,
+  "included_distinct_ad_ids": 198,
+  "included_transcript_groups": 42,
+  "included_overview_queries": 20,
+  "included_ad_queries": 40,
+  "public_page_jobs": 79,
+  "public_page_followups": 4,
+  "limitations": [
+    "Selected sample per tracker, not all historical ads",
+    "No verified competitor profit, revenue, retention or spend",
+    "Public retrieval failures and sparse JavaScript responses preserved in page receipts",
+    "No comprehensive visual or frame-by-frame video audit",
+    "Motilli economics from saved private account exports, not newly reconciled orders",
+    "No live campaigns or storefront modified"
+  ],
+  "artifacts": [
+    "REPORT.md",
+    "comparison.csv",
+    "tracked-inventory.csv",
+    "calculations.json",
+    "selected-cases.json",
+    "case-notes.json",
+    "page-receipts.json"
+  ],
+  "pdf": {
+    "path": "output/pdf/motilli-tracked-supplement-diagnosis.pdf",
+    "pages": 15,
+    "hyperlinks": 50,
+    "all_20_tracker_names_present": true,
+    "text_bounds_checked": true,
+    "rendered_visual_review": "All pages reviewed in contact sheets; changed table and source pages checked individually. No observed clipping or missing glyphs."
+  }
+}

@@ -1,0 +1,10 @@
+[chatcut-upload] using bundled ffprobe 8.1
+[chatcut-upload] using bundled ffmpeg 8.1
+[chatcut-upload] starting import for 1 file(s)
+[chatcut-upload] [1/1] probing S6-charleston-arrival.mp4
+[chatcut-upload] [1/1] registering asset placeholder for S6-charleston-arrival.mp4
+[chatcut-upload] waiting for endpoint response: registerAssetPlaceholderRequest
+{
+  "ok": false,
+  "message": "Token endpoint returned HTTP 401. {\"statusCode\":401,\"message\":\"Invalid or expired media import token.\"}"
+}

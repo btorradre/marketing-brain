@@ -1,0 +1,25 @@
+{
+  "shot": "HC1",
+  "verdict": "minor_issue",
+  "observed_motion": "The woman stirs the liquid continuously throughout the entire shot rather than making a single stir and stopping. The bottles and background remain stable.",
+  "issues": [
+    {
+      "time_s": 0.5,
+      "description": "Mild optical distortion and turbulence around the spoon within the cloudy liquid.",
+      "severity": "low"
+    },
+    {
+      "time_s": 1.25,
+      "description": "Stirring motion continues persistently through the duration instead of coming to a stop.",
+      "severity": "medium"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 2.0,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HC1-4fps.jpg"
+}

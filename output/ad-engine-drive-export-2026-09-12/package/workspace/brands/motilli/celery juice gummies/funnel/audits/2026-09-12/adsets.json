@@ -1,0 +1,190 @@
+{
+  "data": [
+    {
+      "id": "52622639089360",
+      "name": "aivo",
+      "status": "ACTIVE",
+      "effective_status": "CAMPAIGN_PAUSED",
+      "optimization_goal": "OFFSITE_CONVERSIONS",
+      "billing_event": "IMPRESSIONS",
+      "promoted_object": {
+        "pixel_id": "1536431777433131",
+        "custom_event_type": "PURCHASE",
+        "smart_pse_enabled": false
+      },
+      "attribution_spec": [
+        {
+          "event_type": "CLICK_THROUGH",
+          "window_days": 7
+        },
+        {
+          "event_type": "VIEW_THROUGH",
+          "window_days": 1
+        },
+        {
+          "event_type": "ENGAGED_VIDEO_VIEW",
+          "window_days": 1
+        }
+      ],
+      "targeting": {
+        "age_max": 65,
+        "age_min": 18,
+        "age_range": [
+          18,
+          65
+        ],
+        "geo_locations": {
+          "countries": [
+            "US"
+          ],
+          "location_types": [
+            "frequently_in",
+            "home",
+            "recent"
+          ]
+        },
+        "brand_safety_content_filter_levels": [
+          "FACEBOOK_RELAXED",
+          "AN_RELAXED"
+        ],
+        "targeting_automation": {
+          "advantage_audience": 1,
+          "individual_setting": {
+            "age": 1,
+            "gender": 1
+          }
+        },
+        "user_age_unknown": true
+      },
+      "start_time": "2026-09-12T00:00:00-0400"
+    },
+    {
+      "id": "52622638771160",
+      "name": "podcast",
+      "status": "ACTIVE",
+      "effective_status": "CAMPAIGN_PAUSED",
+      "optimization_goal": "OFFSITE_CONVERSIONS",
+      "billing_event": "IMPRESSIONS",
+      "promoted_object": {
+        "pixel_id": "1536431777433131",
+        "custom_event_type": "PURCHASE",
+        "smart_pse_enabled": false
+      },
+      "attribution_spec": [
+        {
+          "event_type": "CLICK_THROUGH",
+          "window_days": 7
+        },
+        {
+          "event_type": "VIEW_THROUGH",
+          "window_days": 1
+        },
+        {
+          "event_type": "ENGAGED_VIDEO_VIEW",
+          "window_days": 1
+        }
+      ],
+      "targeting": {
+        "age_max": 65,
+        "age_min": 18,
+        "age_range": [
+          18,
+          65
+        ],
+        "geo_locations": {
+          "countries": [
+            "US"
+          ],
+          "location_types": [
+            "frequently_in",
+            "home",
+            "recent"
+          ]
+        },
+        "brand_safety_content_filter_levels": [
+          "FACEBOOK_RELAXED",
+          "AN_RELAXED"
+        ],
+        "targeting_automation": {
+          "advantage_audience": 1,
+          "individual_setting": {
+            "age": 1,
+            "gender": 1
+          }
+        },
+        "user_age_unknown": true
+      },
+      "start_time": "2026-09-12T00:00:00-0400"
+    },
+    {
+      "id": "52622637303760",
+      "name": "ai ugc vsl",
+      "status": "ACTIVE",
+      "effective_status": "CAMPAIGN_PAUSED",
+      "optimization_goal": "OFFSITE_CONVERSIONS",
+      "billing_event": "IMPRESSIONS",
+      "promoted_object": {
+        "pixel_id": "1536431777433131",
+        "custom_event_type": "PURCHASE",
+        "smart_pse_enabled": false
+      },
+      "attribution_spec": [
+        {
+          "event_type": "CLICK_THROUGH",
+          "window_days": 7
+        },
+        {
+          "event_type": "VIEW_THROUGH",
+          "window_days": 1
+        },
+        {
+          "event_type": "ENGAGED_VIDEO_VIEW",
+          "window_days": 1
+        }
+      ],
+      "targeting": {
+        "age_max": 65,
+        "age_min": 18,
+        "age_range": [
+          18,
+          65
+        ],
+        "geo_locations": {
+          "countries": [
+            "US"
+          ],
+          "location_types": [
+            "frequently_in",
+            "home",
+            "recent"
+          ]
+        },
+        "brand_safety_content_filter_levels": [
+          "FACEBOOK_RELAXED",
+          "AN_RELAXED"
+        ],
+        "targeting_automation": {
+          "advantage_audience": 1,
+          "individual_setting": {
+            "age": 1,
+            "gender": 1
+          }
+        },
+        "user_age_unknown": true
+      },
+      "start_time": "2026-09-12T00:00:00-0400"
+    }
+  ],
+  "paging": {
+    "has_next": false
+  },
+  "_audit": {
+    "retrieved_at": "2026-09-12T16:31:03.743568+00:00",
+    "endpoint": "52622637303560/adsets",
+    "params": {
+      "fields": "id,name,status,effective_status,optimization_goal,billing_event,promoted_object,attribution_spec,targeting,start_time,daily_budget",
+      "limit": 100
+    },
+    "http_status": 200
+  }
+}

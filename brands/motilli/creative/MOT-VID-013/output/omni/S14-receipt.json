@@ -1,0 +1,73 @@
+{
+  "shot": "S14",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "She takes a small breath and relaxes her shoulders, looking thoughtful in the same tight portrait. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S14-v2.png",
+  "reference_sha256": "7900f4bd99ba52892160f03b1a9aa8775e62812b58e1fb46be18e32bb017bbd4",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdVTE9nYXBMTkdNZjlxdHNQZ1pQbTZRdxIXVUxPZ2FwTE5HTWY5cXRzUGdaUG02UXc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S14.mp4",
+  "sha256": "085cc18e17bb7d77a9d54628903b713e5cf5bcf93ffc1e9f5d78abaefc1645d3",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59988,
+    "total_input_tokens": 1150,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 50
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58482,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 356,
+    "raw_prompt_token": 31309,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1843
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 569
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 356
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

@@ -1,0 +1,7 @@
+<section class="page-width section-space"><div class="editorial-text section-space"><h1>{{ 'general.collection' | t }}</h1></div>{% paginate collections by 24 %}<div class="blog-grid">{% for collection in collections %}<article><a href="{{ collection.url }}">{% if collection.featured_image %}{{ collection.featured_image | image_url: width: 900 | image_tag: loading: 'lazy' }}{% endif %}<h2>{{ collection.title | escape }}</h2><p class="micro">{{ collection.all_products_count }} {{ 'general.pieces' | t }}</p></a></article>{% endfor %}</div>{{ paginate | default_pagination }}{% endpaginate %}</section>
+{% schema %}
+{
+  "name": "Collections",
+  "settings": []
+}
+{% endschema %}

@@ -1,0 +1,29 @@
+Input #0, mp3, from 'brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v6/narration.mp3':
+  Metadata:
+    encoder         : Lavf60.16.101
+  Duration: 00:05:35.16, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 128 kb/s, start 0.025057
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, mono, s16, 3072 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+size=N/A time=00:00:47.80 bitrate=N/A speed=94.6x elapsed=0:00:00.50    size=N/A time=00:01:37.50 bitrate=N/A speed=96.5x elapsed=0:00:01.01    size=N/A time=00:02:26.40 bitrate=N/A speed=96.8x elapsed=0:00:01.51    size=N/A time=00:03:15.30 bitrate=N/A speed=96.8x elapsed=0:00:02.01    size=N/A time=00:04:04.10 bitrate=N/A speed=96.8x elapsed=0:00:02.52    size=N/A time=00:04:54.40 bitrate=N/A speed=97.2x elapsed=0:00:03.02    [Parsed_loudnorm_0 @ 0x9370189c0] 
+{
+	"input_i" : "-22.85",
+	"input_tp" : "-1.18",
+	"input_lra" : "4.10",
+	"input_thresh" : "-33.78",
+	"output_i" : "-15.45",
+	"output_tp" : "-1.00",
+	"output_lra" : "3.50",
+	"output_thresh" : "-26.32",
+	"normalization_type" : "dynamic",
+	"target_offset" : "1.45"
+}
+[out#0/null @ 0x937018240] video:0KiB audio:125684KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:05:35.20 bitrate=N/A speed=97.9x elapsed=0:00:03.42    

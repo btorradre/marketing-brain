@@ -1,0 +1,25 @@
+{
+  "shot": "S31",
+  "verdict": "revise",
+  "observed_motion": "The woman holds the tote handle while her lower hand shifts, flattens out, and slides across the tabletop, pushing the key fob as the metal keys disappear.",
+  "issues": [
+    {
+      "time_s": 1.75,
+      "description": "Hand opens and flattens instead of gently closing around the key ring.",
+      "severity": "moderate"
+    },
+    {
+      "time_s": 3.0,
+      "description": "Metal keys morph and vanish while the hand drags the key fob across the table.",
+      "severity": "moderate"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 1.25,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 20,
+  "native_duration_s": 5.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/revisions/qa/S31-4fps.jpg"
+}

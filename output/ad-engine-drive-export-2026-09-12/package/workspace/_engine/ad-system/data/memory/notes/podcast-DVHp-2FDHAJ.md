@@ -1,0 +1,26 @@
+---
+type: ad-system-notes
+tags: [ad-system, agent-memory]
+creative_id: "podcast-DVHp-2FDHAJ"
+brand: "motilli"
+---
+
+# Agent notes — podcast-DVHp-2FDHAJ
+
+Editable memory. Preserve source/date and distinguish observations, hypotheses and current user instructions. These notes do not approve assets or establish performance.
+
+[[_engine/ad-system/data/memory/creatives/podcast-DVHp-2FDHAJ|Current creative record]]
+
+## 2026-09-12T16:39:38+00:00 · observation
+
+Creative revision: 1
+
+Source: User request, Meta API and live storefront audit / 2026-09-12
+
+Observation / hypothesis, September 12, 2026. Source: user funnel-diagnosis request plus read-only Meta API and mobile storefront tests, 16:31–16:37 UTC.
+
+Live Meta upload title is Motilli-Podcast-Complete-Captions.mp4 (162.772s), ad 52622638771360. Meta-served visual samples and local captions establish Motilli around 111.8s. September 12 partial-day snapshot: $42.32, 21 unique outbound clicks, 21 LPV, zero campaign-attributed ATC; hold 49.7% defined ThruPlays/3s, average watch 18s. Early attention is stronger than UGC descriptively but not a conversion win. Retain as control hypothesis; no revised script approved.
+
+Campaign 52622637303560: $98.67,900 impressions,46 outbound clicks,44 LPV, zero campaign-reported ATC; partial-day and already paused. Cart test worked at $59.98 for 3 bottles. Pixel log had 3 ATC and 3 checkout events before our tests but origin/uniqueness/attribution unknown. No exact root cause or winner/loser established. Baseline captured before synthetic audit carts.
+
+Full evidence: [[brands/motilli/celery juice gummies/funnel/audits/2026-09-12/AUDIT]]. Exact immutable export/ad bindings remain unregistered; uploaded titles and sampled correspondence do not retroactively establish a reviewed database revision. No production changes made.

@@ -1,0 +1,128 @@
+{
+  "as_of": "2026-09-05",
+  "theme_id": 151337074753,
+  "status": "passed",
+  "scope": "Unpublished theme. Native checkout contact step only; no customer details, payment or order submission. Each private test cart cleared.",
+  "root_cause": "OneText SDK starts a bodyless POST /cart.js without a cart cookie. Before the fix, its late response could replace a newly populated cart cookie with a new empty cart. API and rendered cart then agree on the empty replacement.",
+  "fix": "Early same-origin Ajax Cart fetch queue installed before Shopify/app scripts. Requests retain native arguments and responses; serial ordering prevents cookie replacement from concurrent first-cart creation.",
+  "checks": [
+    {
+      "name": "pending_quantity_checkout_guard",
+      "disabled_during_request": true,
+      "total": "$299.98",
+      "passed": true,
+      "evidence": "checkout-fix-qa.before-cart-queue.json; root native browser verification"
+    },
+    {
+      "name": "native_checkout_drawer",
+      "shopify_checkout": true,
+      "contact_step_visible": true,
+      "cart_total": "$299.98",
+      "post_to_cart": true,
+      "passed": true,
+      "evidence": "checkout-fix-qa.before-cart-queue.json; root native browser verification"
+    },
+    {
+      "name": "native_checkout_cart_page",
+      "shopify_checkout": true,
+      "contact_step_visible": true,
+      "quantity": 2,
+      "cart_total": "$299.98",
+      "quantity_total_verified": true,
+      "passed": true,
+      "screenshot": "cart-persistence-after-queue-quantity-checkout.png",
+      "evidence": "cart-persistence-after-queue.json run 0"
+    },
+    {
+      "name": "fresh_session_cart_persistence",
+      "session_count": 6,
+      "passed": true,
+      "sessions": [
+        {
+          "session": 1,
+          "mode": "immediate",
+          "cart_page_lines": 1,
+          "api_item_count": 1,
+          "stable_cart_token": true,
+          "onetext_posts_observed": 2,
+          "onetext_preserved_cart_token": true,
+          "test_cart_cleared": true,
+          "passed": true
+        },
+        {
+          "session": 2,
+          "mode": "immediate",
+          "cart_page_lines": 1,
+          "api_item_count": 1,
+          "stable_cart_token": true,
+          "onetext_posts_observed": 2,
+          "onetext_preserved_cart_token": true,
+          "test_cart_cleared": true,
+          "passed": true
+        },
+        {
+          "session": 3,
+          "mode": "immediate",
+          "cart_page_lines": 1,
+          "api_item_count": 1,
+          "stable_cart_token": true,
+          "onetext_posts_observed": 2,
+          "onetext_preserved_cart_token": true,
+          "test_cart_cleared": true,
+          "passed": true
+        },
+        {
+          "session": 4,
+          "mode": "delay",
+          "cart_page_lines": 1,
+          "api_item_count": 1,
+          "stable_cart_token": true,
+          "onetext_posts_observed": 1,
+          "onetext_preserved_cart_token": true,
+          "test_cart_cleared": true,
+          "passed": true
+        },
+        {
+          "session": 5,
+          "mode": "delay",
+          "cart_page_lines": 1,
+          "api_item_count": 1,
+          "stable_cart_token": true,
+          "onetext_posts_observed": 2,
+          "onetext_preserved_cart_token": true,
+          "test_cart_cleared": true,
+          "passed": true
+        },
+        {
+          "session": 6,
+          "mode": "immediate",
+          "cart_page_lines": 1,
+          "api_item_count": 1,
+          "stable_cart_token": true,
+          "onetext_posts_observed": 2,
+          "onetext_preserved_cart_token": true,
+          "test_cart_cleared": true,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "queue_contract": {
+    "passed": true,
+    "checks": [
+      "Same-origin locale-prefixed Ajax cart writes serialize",
+      "Unrelated product requests bypass the queue",
+      "Rejected first request releases the queue",
+      "Original request options are preserved"
+    ],
+    "method": "Node VM with controlled fetch promises; no store mutation"
+  },
+  "errors": [],
+  "diagnostic_sources": [
+    "cart-persistence-diagnostic.json",
+    "cart-request-initiator.json",
+    "cart-persistence-after-queue.json",
+    "checkout-fix-qa.before-cart-queue.json"
+  ],
+  "limits": "Six fresh sessions demonstrate resolution of the reproduced race; this is not certification of unrelated third-party app behavior or a completed payment."
+}

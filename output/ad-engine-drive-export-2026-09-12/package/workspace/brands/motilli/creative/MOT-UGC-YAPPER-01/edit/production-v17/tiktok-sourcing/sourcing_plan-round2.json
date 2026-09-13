@@ -1,0 +1,23 @@
+{
+  "job": "motilli-v17-miralax",
+  "brand": "motilli",
+  "brand_context": "Existing unbranded Motilli VSL, mature woman recounting an attempted solution. User EXPLICITLY requests branded MiraLAX product here: MiraLAX is required, not a disallowed competitor. Close-up product/hands only, face never visible in selected segment. Printed physical MiraLAX packaging text is REQUIRED and allowed. No added on-screen captions/text/stickers/handles/watermarks in selected segment. Do not remove or alter actual package label. Original narration/captions remain in edit.",
+  "engine": "apify",
+  "slots": [
+    {
+      "slot_id": "B14",
+      "script_line": "So I went to the pharmacy and got MiraLAX.",
+      "emotion": "Everyday practical attempt; recognize specific named product.",
+      "action": "Close-up of an actual MiraLAX bottle with brand name readable and bottle occupying much of image, gently held, picked up, set down or camera moving close over it. Need continuous1.934seconds. Product or hands ONLY; no face. Printed label text allowed and important. No added subtitles, caption overlays, title text, stickers, watermarks or handles anywhere in best segment. No unrelated generic laxative; must be MiraLAX. No talking-head framing or comedy.",
+      "mode": "search",
+      "search_terms": [
+        "miralax bottle",
+        "miralax unboxing"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 3,
+      "max_duration_s": 180,
+      "duration_needs_s": 1.9333333333333333
+    }
+  ]
+}

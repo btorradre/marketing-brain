@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('FINAL_PRECHECK',p:GetName(),p:GetCurrentTimeline():GetName(),p:IsRenderingInProgress());for k,v in pairs(p:GetRenderJobStatus('79a3dc11-5d7e-40c4-8d64-f3f24eb4227d')) do print(k,v) end

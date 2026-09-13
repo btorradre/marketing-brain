@@ -1,0 +1,147 @@
+{
+  "id": "ga5XWDPQBTIdeFG77",
+  "actId": "xMc5Ga1oCONPmWJIa",
+  "userId": "s8Vnd3fTfZNdO5yod",
+  "startedAt": "2026-09-11T20:29:18.968Z",
+  "finishedAt": "2026-09-11T20:30:33.845Z",
+  "status": "SUCCEEDED",
+  "statusMessage": "Crawled 598/599 pages, 0 failed requests, desired concurrency 129.",
+  "isStatusMessageTerminal": null,
+  "meta": {
+    "origin": "API",
+    "userAgent": "python-requests/2.34.2"
+  },
+  "stats": {
+    "inputBodyLen": 7570,
+    "migrationCount": 0,
+    "rebootCount": 0,
+    "restartCount": 0,
+    "durationMillis": 74727,
+    "resurrectCount": 0,
+    "runTimeSecs": 74.727,
+    "metamorph": 0,
+    "computeUnits": 0.08303,
+    "memAvgBytes": 350170631.95319754,
+    "memMaxBytes": 417067008,
+    "memCurrentBytes": 0,
+    "cpuAvgUsage": 42.15639174282389,
+    "cpuMaxUsage": 130.44710659898476,
+    "cpuCurrentUsage": 0,
+    "netRxBytes": 121549217,
+    "netTxBytes": 109962987
+  },
+  "options": {
+    "build": "latest",
+    "timeoutSecs": 1800,
+    "memoryMbytes": 4096,
+    "maxTotalChargeUsd": 12,
+    "maxItems": null,
+    "isMaxTotalChargeUsdSetByUser": true,
+    "diskMbytes": 2048
+  },
+  "buildId": "vA0a0MYfb4WOyZuua",
+  "exitCode": 0,
+  "defaultKeyValueStoreId": "[REDACTED_SECRET]",
+  "defaultDatasetId": "14Av5iNK7YnyFoXIs",
+  "defaultRequestQueueId": "rgVDzdOiKsFZJp2mw",
+  "storageIds": {
+    "keyValueStores": {
+      "default": "[REDACTED_SECRET]"
+    },
+    "datasets": {
+      "default": "14Av5iNK7YnyFoXIs"
+    },
+    "requestQueues": {
+      "default": "rgVDzdOiKsFZJp2mw"
+    }
+  },
+  "pricingInfo": {
+    "minimalMaxTotalChargeUsd": 0.0073,
+    "pricingModel": "PAY_PER_EVENT",
+    "isPriceChangeNotificationSuppressed": true,
+    "createdAt": "2026-03-11T14:56:04.494Z",
+    "startedAt": "2026-03-11T14:56:04.494Z",
+    "apifyMarginPercentage": 0.2,
+    "pricingPerEvent": {
+      "actorChargeEvents": {
+        "reel": {
+          "eventTitle": "Reel",
+          "eventDescription": "Each reel written to the dataset.",
+          "isOneTimeEvent": false,
+          "isPrimaryEvent": true,
+          "eventPriceUsd": 0.0023
+        },
+        "actor-start": {
+          "eventTitle": "Actor start",
+          "eventDescription": "Flat charge for starting an Actor run.",
+          "isOneTimeEvent": true,
+          "eventPriceUsd": 0.001
+        },
+        "shares-count": {
+          "eventTitle": "Add-on: Shares count",
+          "eventDescription": "Extra cost per reel scraped with a shares count.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.006
+        },
+        "transcript": {
+          "eventTitle": "Add-on: Transcript",
+          "eventDescription": "Charged per started minute per reel.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.041
+        },
+        "video-download": {
+          "eventTitle": "Add-on: Video download",
+          "eventDescription": "Charged per started 1 MB downloaded per reel.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.015
+        }
+      }
+    }
+  },
+  "chargedEventCounts": {
+    "reel": 164,
+    "actor-start": 1,
+    "shares-count": 0,
+    "transcript": 199,
+    "video-download": 0
+  },
+  "platformUsageBillingModel": "DEVELOPER",
+  "accountedChargedEventCounts": {
+    "reel": 164,
+    "actor-start": 1,
+    "shares-count": 0,
+    "transcript": 199,
+    "video-download": 0
+  },
+  "standby": null,
+  "generalAccess": "FOLLOW_USER_SETTING",
+  "buildNumber": "0.0.568",
+  "containerUrl": "https://dvq8hbxrfevl.runs.apify.net",
+  "usageTotalUsd": 8.5372,
+  "consoleUrl": "https://console.apify.com/view/runs/ga5XWDPQBTIdeFG77",
+  "eventUsage": {
+    "reel": {
+      "eventTitle": "Reel",
+      "eventTotalUsd": 0.3772
+    },
+    "actor-start": {
+      "eventTitle": "Actor start",
+      "eventTotalUsd": 0.001
+    },
+    "shares-count": {
+      "eventTitle": "Add-on: Shares count",
+      "eventTotalUsd": 0
+    },
+    "transcript": {
+      "eventTitle": "Add-on: Transcript",
+      "eventTotalUsd": 8.159
+    },
+    "video-download": {
+      "eventTitle": "Add-on: Video download",
+      "eventTotalUsd": 0
+    }
+  },
+  "output": {
+    "dataset": "https://api.apify.com/v2/datasets/14Av5iNK7YnyFoXIs/items"
+  }
+}

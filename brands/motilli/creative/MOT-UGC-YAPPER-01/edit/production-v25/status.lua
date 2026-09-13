@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('V25_STATUS',p:GetName(),p:IsRenderingInProgress());for _,j in ipairs(p:GetRenderJobList()) do if string.find(j.OutputFilename or '', 'clean%-master%-resolve') then print(j.JobId,j.OutputFilename);dump(p:GetRenderJobStatus(j.JobId)) end end

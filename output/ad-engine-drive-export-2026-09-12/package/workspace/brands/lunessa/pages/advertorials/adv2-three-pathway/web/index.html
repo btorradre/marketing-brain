@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heart Health Insider | Why Statins Only Do 1 Of The 3 Jobs Genetic High Cholesterol Needs</title>
+<meta name="description" content="Statins block production. In familial hypercholesterolemia, production is one third of the problem. Here is what the other two thirds are, and why the side effects are not a coincidence.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Statins Were Only Ever Doing 1 Of The 3 Jobs Her Body Needed">
+<meta property="og:description" content="Production, clearance, oxidation. A statin reaches one of them. Here is what that costs you.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --masthead: #8a1a22;
+    --masthead-2: #a32530;
+    --update-bg: #fff6d8;
+    --update-border: #f0c000;
+    --green-cta: #2e9d4f;
+    --green-cta-hover: #258540;
+    --red-accent: #c0392b;
+    --text-main: #121212;
+    --text-body: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --border: #e5e5e5;
+    --bg-page: #ffffff;
+    --bg-soft: #f7f7f5;
+    --bg-quote: #faf2f2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; background: #fff !important; }
+  html, body.motilli-bare, body { background: #fff !important; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-body);
+    background: #fff !important;
+    line-height: 1.65;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+
+  /* Top promo bar */
+  .promo-bar { background: var(--masthead); color: #fff; padding: 10px 0; text-align: center; }
+  .promo-bar .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; font-size: 12px; letter-spacing: 1.3px; font-weight: 600; text-transform: uppercase; }
+
+  /* Masthead */
+  .masthead { background: #fff; border-bottom: 1px solid var(--border); padding: 14px 0 12px; }
+  .masthead .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .masthead .brand { font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: #8a1a22; letter-spacing: -0.5px; white-space: nowrap; line-height: 1.1; }
+  .masthead .tag { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1.1px; font-weight: 600; line-height: 1.4; text-align: right; }
+  .masthead .tag span { color: #8a1a22; }
+
+  /* Update notification */
+  .update-notice { background: var(--update-bg); border-top: 1px solid var(--update-border); border-bottom: 1px solid var(--update-border); padding: 14px 0; }
+  .update-notice .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; gap: 12px; align-items: flex-start; }
+  .update-notice .icon { flex-shrink: 0; width: 22px; height: 22px; background: #b8860b; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13px; }
+  .update-notice .text { font-size: 13.5px; color: #5a4500; line-height: 1.55; }
+  .update-notice .text strong { color: #3a2d00; font-weight: 700; }
+  .update-notice .time { font-size: 12px; color: #8a7400; margin-bottom: 4px; font-weight: 600; }
+
+  /* Layout */
+  .page {
+    max-width: 1100px; margin: 0 auto;
+    padding: 28px 20px 60px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 40px;
+    align-items: start;
+  }
+  .article { min-width: 0; }
+  .sidebar { position: sticky; top: 20px; }
+
+  /* Breadcrumb */
+  .breadcrumb { font-size: 12px; color: #777; margin-bottom: 16px; }
+  .breadcrumb a { color: #777; text-decoration: none; }
+  .breadcrumb .sep { margin: 0 6px; color: #bbb; }
+
+  /* Editorial tagline above headline */
+  .edit-tag { font-size: 11px; color: #8a1a22; text-transform: uppercase; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+  .edit-tag::after { content: ""; flex: 1; height: 1px; background: #d0d0d0; }
+
+  /* Headline */
+  h1.title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.18;
+    color: #111;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+  }
+  h1.title .red { color: var(--red-accent); }
+  h1.title em { font-style: italic; font-weight: 600; }
+
+  .subtitle {
+    font-size: 17px;
+    color: #2a2a2a;
+    line-height: 1.55;
+    margin-bottom: 18px;
+    border-left: 3px solid var(--red-accent);
+    padding-left: 14px;
+    font-weight: 400;
+  }
+  .subtitle strong { font-weight: 700; }
+
+  /* Star rating */
+  .star-row { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; font-size: 13px; color: #444; font-weight: 500; }
+  .stars { color: #f5a623; letter-spacing: 1px; font-size: 16px; }
+
+  /* Meta */
+  .meta-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 12px; color: #555; padding: 14px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 20px 0 22px; flex-wrap: wrap; }
+  .byline-mini { display: flex; align-items: center; gap: 10px; }
+  .byline-mini .avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, #e0c3c3, #8a1a22); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 14px; }
+  .byline-mini .info { font-size: 12.5px; line-height: 1.4; color: #2a2a2a; }
+  .byline-mini .info strong { font-weight: 700; color: #111; }
+  .byline-mini .info .verify { display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; background: #2e9d4f; color: #fff; border-radius: 50%; font-size: 9px; margin-left: 4px; vertical-align: middle; font-weight: 800; }
+  .meta-right { display: flex; gap: 14px; align-items: center; font-size: 12px; color: #666; }
+  .meta-right .item { display: flex; align-items: center; gap: 4px; }
+  .share-row { display: flex; align-items: center; gap: 8px; margin-bottom: 22px; }
+  .share-row .sh { width: 30px; height: 30px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; color: #fff; font-size: 13px; font-weight: 700; text-decoration: none; }
+  .sh.fb { background: #1877f2; } .sh.tw { background: #1da1f2; } .sh.pn { background: #e60023; } .sh.wa { background: #25d366; } .sh.em { background: #777; }
+
+  /* Article body */
+  .article p { font-size: 17px; color: #1a1a1a; line-height: 1.7; margin-bottom: 18px; }
+  .article p strong { font-weight: 700; }
+  .article p em { font-style: italic; }
+  .article h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #111;
+    margin: 44px 0 22px;
+    line-height: 1.25;
+    letter-spacing: -0.3px;
+  }
+  .article h2 .red { color: var(--red-accent); }
+  .article h3 { font-size: 19px; font-weight: 700; color: #111; margin: 28px 0 12px; }
+
+  /* Lists */
+  .article ul.plain { margin: 0 0 22px 22px; padding: 0; }
+  .article ul.plain li { font-size: 17px; line-height: 1.7; margin-bottom: 8px; list-style: disc; color: #1a1a1a; }
+  .article ul.x-list, .article ul.dot-list, .article ul.check { list-style: none; margin: 0 0 22px 0; padding: 0; }
+  .article ul.x-list li, .article ul.dot-list li, .article ul.check li { padding-left: 32px; position: relative; margin-bottom: 14px; font-size: 16.5px; line-height: 1.6; color: #1a1a1a; }
+  .article ul.x-list li::before { content: "✕"; position: absolute; left: 2px; top: 0; color: var(--red-accent); font-weight: 800; font-size: 16px; }
+  .article ul.dot-list li::before { content: "•"; position: absolute; left: 8px; top: -3px; color: var(--masthead); font-weight: 800; font-size: 22px; }
+  .article ul.check li::before { content: "✓"; position: absolute; left: 2px; top: 0; color: var(--green-cta); font-weight: 800; font-size: 16px; }
+  .article ul.x-list li strong, .article ul.check li strong, .article ul.dot-list li strong { font-weight: 700; }
+
+  /* Numbered list */
+  .article ol.steps { counter-reset: step; list-style: none; margin: 0 0 24px 0; padding: 0; }
+  .article ol.steps li {
+    padding-left: 44px; position: relative; margin-bottom: 16px;
+    font-size: 16.5px; line-height: 1.65; color: #1a1a1a;
+    counter-increment: step;
+  }
+  .article ol.steps li::before {
+    content: counter(step);
+    position: absolute; left: 0; top: 0;
+    width: 28px; height: 28px;
+    background: var(--masthead); color: #fff;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 13px;
+  }
+  .article ol.steps li strong { font-weight: 700; color: #111; }
+
+  /* Figures */
+  .article figure { margin: 22px 0 26px; }
+  .article figure img { width: 100%; border-radius: 6px; display: block; background: #f1f1ee; }
+  .article figcaption { font-size: 13px; color: #777; font-style: italic; margin-top: 10px; line-height: 1.5; text-align: center; }
+
+  /* Pull quote */
+  .pull-quote {
+    border-left: 4px solid var(--green-cta);
+    background: var(--bg-quote);
+    padding: 22px 24px;
+    margin: 28px 0;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.55;
+    color: #2a2a2a;
+  }
+  .pull-quote strong { font-style: normal; font-weight: 700; }
+
+  /* Patient testimonial card */
+  .pt-quote {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--masthead);
+    padding: 20px 24px;
+    margin: 22px 0;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .pt-quote .who { font-weight: 700; font-size: 14px; color: #8a1a22; margin-bottom: 8px; letter-spacing: 0.3px; }
+  .pt-quote p { font-size: 16px; margin-bottom: 0; color: #2a2a2a; }
+
+  /* AS SEEN ON */
+  .as-seen { text-align: center; margin: 28px 0; padding: 18px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .as-seen .label { font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #555; margin-bottom: 14px; }
+  .as-seen .logos { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; align-items: center; }
+  .as-seen .logo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; color: #777; letter-spacing: -0.5px; opacity: 0.7; }
+
+  /* Comparison table */
+  .compare-wrap { margin: 24px 0 30px; overflow-x: auto; }
+  table.compare { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 560px; }
+  table.compare th, table.compare td { padding: 14px 12px; text-align: center; border-bottom: 1px solid var(--border); }
+  table.compare thead th { background: #f5eaea; color: #111; font-weight: 700; font-size: 13px; border-bottom: 2px solid #d8a3a3; }
+  table.compare thead th.win { background: #e6f3e6; color: #8a1a22; }
+  table.compare tbody td { color: #333; }
+  table.compare tbody td.row-label { text-align: left; font-weight: 500; color: #1a1a1a; padding-left: 16px; }
+  table.compare tbody td.yes { color: var(--green-cta); font-weight: 800; font-size: 18px; }
+  table.compare tbody td.no { color: #bbb; font-size: 16px; }
+  table.compare tbody td.partial { color: #d68a00; font-size: 12px; font-weight: 600; }
+  table.compare tbody td.warn { color: var(--red-accent); font-size: 11px; font-weight: 600; }
+  table.compare tbody td.win-col { background: #f4faf4; }
+  table.compare tbody tr:hover { background: #fafaf7; }
+
+  /* CTA */
+  .cta-button {
+    display: block; width: 100%;
+    background: var(--green-cta); color: #fff !important; border: 0;
+    padding: 18px 24px; font-size: 17px; font-weight: 800;
+    letter-spacing: 0.6px; text-transform: uppercase;
+    text-align: center; text-decoration: none;
+    border-radius: 6px; margin: 24px 0 8px; cursor: pointer;
+    transition: background 0.18s ease;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.12);
+  }
+  .cta-button:hover { background: var(--green-cta-hover); }
+  .cta-sub { text-align: center; font-size: 13px; color: #777; margin-bottom: 26px; font-style: italic; }
+
+  /* Trust badges */
+  .trust-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 22px 0 14px; }
+  .trust-badge { text-align: center; padding: 12px 6px; border: 1px solid var(--border); border-radius: 6px; background: #fcfcf9; }
+  .trust-badge .ic { font-size: 22px; margin-bottom: 4px; }
+  .trust-badge .lbl { font-size: 11px; font-weight: 700; color: #2a2a2a; line-height: 1.3; text-transform: uppercase; letter-spacing: 0.4px; }
+
+  /* Guarantee inline */
+  .guarantee-banner {
+    background: #f4faf4;
+    border: 1px solid #cfe2cf;
+    border-left: 4px solid var(--green-cta);
+    padding: 18px 22px;
+    margin: 22px 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #234;
+  }
+  .guarantee-banner strong { color: #8a1a22; font-weight: 700; }
+
+  /* Signature */
+  .signature { margin: 30px 0 18px; font-size: 15px; line-height: 1.5; color: #2a2a2a; }
+  .signature .name { font-weight: 700; color: #111; }
+  .signature .title { font-size: 13px; color: #666; font-style: italic; }
+
+  /* Compliance */
+  .compliance { font-size: 11.5px; color: #888; line-height: 1.55; margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--border); }
+
+  /* ========== Sidebar ========== */
+  .sidebar .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 16px 16px;
+    margin-bottom: 18px;
+  }
+  .sidebar .card-label { text-align: center; font-size: 11px; letter-spacing: 1.5px; font-weight: 800; color: #555; text-transform: uppercase; margin-bottom: 14px; }
+  .sidebar .prod-img { position: relative; margin-bottom: 14px; }
+  .sidebar .prod-img img { width: 100%; border-radius: 6px; background: #f4f7ef; }
+  .sidebar .badge-disc { position: absolute; top: 6px; right: 6px; background: var(--red-accent); color: #fff; width: 64px; height: 64px; border-radius: 50%; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; line-height: 1.05; transform: rotate(-12deg); box-shadow: 0 2px 6px rgba(0,0,0,0.18); padding: 2px; }
+  .sidebar .badge-disc .big { font-size: 20px; }
+  .sidebar .side-cta {
+    display: block; background: var(--green-cta); color: #fff !important;
+    padding: 14px 14px; text-align: center; font-weight: 800;
+    font-size: 14px; text-decoration: none; border-radius: 5px;
+    margin-bottom: 8px;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    transition: background .15s ease;
+  }
+  .sidebar .side-cta:hover { background: var(--green-cta-hover); }
+  .sidebar .side-trust { font-size: 11.5px; color: #555; text-align: center; }
+  .sidebar .side-trust::before { content: "✓ "; color: var(--green-cta); font-weight: 800; }
+
+  .reviews-card .review-headline { text-align: center; font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; font-weight: 700; margin-bottom: 8px; color: #111; }
+  .reviews-card .stars-big { text-align: center; color: #f5a623; font-size: 20px; letter-spacing: 2px; margin-bottom: 4px; }
+  .reviews-card .rating-num { text-align: center; font-size: 14px; color: #2a2a2a; font-weight: 600; margin-bottom: 4px; }
+  .reviews-card .rating-count { text-align: center; font-size: 11.5px; color: #888; margin-bottom: 14px; }
+  .reviews-card .row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 12px; color: #444; }
+  .reviews-card .row .star { width: 38px; flex-shrink: 0; }
+  .reviews-card .row .bar { flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden; }
+  .reviews-card .row .bar .fill { height: 100%; background: #f5a623; }
+  .reviews-card .row .pct { width: 32px; text-align: right; font-size: 11px; color: #666; }
+
+  .reviews-card .feature-section { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
+  .reviews-card .feature-section .ftitle { font-size: 13px; font-weight: 700; color: #111; margin-bottom: 8px; }
+  .reviews-card .frow { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: #444; margin-bottom: 6px; }
+  .reviews-card .frow .lbl { flex: 1; }
+  .reviews-card .frow .stars-mini { color: #f5a623; letter-spacing: 1px; font-size: 12px; }
+  .reviews-card .frow .val { width: 32px; text-align: right; font-size: 12px; color: #444; font-weight: 600; }
+
+  /* Sticky CTA */
+  .sticky-cta {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: #14302a;
+    padding: 12px 16px;
+    z-index: 9999;
+    transform: translateY(110%);
+    transition: transform 0.32s cubic-bezier(.2,.7,.3,1);
+    box-shadow: 0 -6px 18px rgba(0,0,0,0.18);
+  }
+  .sticky-cta.visible { transform: translateY(0); }
+  .sticky-cta .wrap { max-width: 1000px; margin: 0 auto; display: flex; gap: 14px; align-items: center; }
+  .sticky-cta .line { flex: 1; color: #d4e3d8; font-size: 12.5px; line-height: 1.4; font-weight: 500; }
+  .sticky-cta .line strong { color: #fff; font-weight: 700; }
+  .sticky-cta a.sticky-btn {
+    background: #2e9d4f;
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 22px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #1f6b34;
+    transition: background .15s ease;
+    white-space: nowrap;
+  }
+  .sticky-cta a.sticky-btn:hover { background: #258540; }
+
+  /* Footer */
+  footer.site-foot { background: #0c1f1a; color: #b8c8c0; padding: 30px 0 26px; margin-top: 60px; }
+  footer.site-foot .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; font-size: 12.5px; line-height: 1.6; }
+  footer.site-foot .top { font-family: 'Source Serif 4', Georgia, serif; font-size: 20px; color: #fff; margin-bottom: 6px; font-weight: 700; }
+  footer.site-foot .links { margin: 10px 0; }
+  footer.site-foot .links a { color: #b8c8c0; text-decoration: none; margin-right: 16px; }
+  footer.site-foot .links a:hover { color: #fff; }
+  footer.site-foot .copy { color: #6a7a72; font-size: 11.5px; margin-top: 8px; }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .page { grid-template-columns: 1fr; gap: 30px; padding: 22px 18px 80px; }
+    .sidebar { position: static; order: 2; }
+    .article { order: 1; }
+    h1.title { font-size: 28px; }
+    .article h2 { font-size: 23px; margin: 36px 0 16px; }
+    .article p, .article ul.x-list li, .article ul.dot-list li, .article ul.check li, .article ol.steps li { font-size: 16px; }
+    .trust-row { grid-template-columns: repeat(2, 1fr); }
+    .as-seen .logos { gap: 18px; }
+    .as-seen .logo { font-size: 13px; }
+    .meta-row { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .sticky-cta .wrap { flex-direction: column; gap: 8px; }
+    .sticky-cta .line { font-size: 11.5px; text-align: center; }
+    .sticky-cta a.sticky-btn { width: 100%; }
+    .masthead .brand { font-size: 22px; }
+    .masthead .tag { font-size: 10px; letter-spacing: 0.9px; }
+  }
+  @media (max-width: 640px) {
+    .masthead { padding: 12px 0 10px; }
+    .masthead .inner { flex-direction: column; align-items: flex-start; gap: 4px; }
+    .masthead .tag { text-align: left; }
+  }
+  @media (max-width: 520px) {
+    .update-notice .text { font-size: 12.5px; }
+    .article h2 { font-size: 21px; }
+    h1.title { font-size: 25px; }
+    .masthead .brand { font-size: 20px; }
+    .masthead .tag { font-size: 9.5px; letter-spacing: 0.7px; }
+  }
+
+  body { padding-bottom: 64px; }
+  .kicker { background: #fbeaea; border-left: 4px solid var(--red-accent); padding: 14px 18px; margin: 16px 0 22px; font-size: 15.5px; color: #3a1a1a; font-style: italic; }
+  .kicker strong { font-style: normal; }
+  .article p.lede { font-size: 18px; }
+  .big-stat { text-align:center; background:#faf6f6; border:1px solid #eadada; border-radius:8px; padding:18px; margin:26px 0; }
+  .big-stat .n { font-family:'Source Serif 4',Georgia,serif; font-size:38px; font-weight:700; color:var(--red-accent); line-height:1; }
+  .big-stat .l { font-size:13px; letter-spacing:1.2px; text-transform:uppercase; color:#777; font-weight:700; margin-top:8px; }
+  .prob { border:1px solid var(--border); border-left:4px solid var(--masthead); border-radius:6px; padding:16px 18px; margin:14px 0; background:#fcfbfb; }
+  .prob .h { font-weight:800; font-size:16px; color:#111; margin-bottom:6px; }
+  .prob p { font-size:15.5px; margin-bottom:8px; }
+  .prob .verdict { font-size:13px; font-weight:700; letter-spacing:.3px; }
+  .prob .no { color:var(--red-accent); }
+  .prob .yes { color:var(--green-cta); }
+  .rev-block { margin: 30px 0 34px; }
+  .rev-block .rev-hd { text-align:center; margin-bottom:18px; }
+  .rev-block .rev-hd .lbl { font-size:11px; letter-spacing:1.6px; font-weight:800; color:var(--masthead); text-transform:uppercase; margin-bottom:6px; }
+  .rev-block .rev-hd .sub { font-size:13.5px; color:#777; font-style:italic; }
+  .rev-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
+  .rev-card { border:1px solid var(--border); border-radius:8px; padding:18px 18px 14px; background:#fcfbfa; display:flex; flex-direction:column; }
+  .rev-card .rc-top { display:flex; align-items:center; gap:10px; margin-bottom:10px; }
+  .rev-card .rc-av { width:38px; height:38px; border-radius:50%; object-fit:cover; flex-shrink:0; }
+  .rev-card .rc-id { font-size:12.5px; font-weight:700; color:#1a1a1a; line-height:1.3; }
+  .rev-card .rc-id span { display:block; font-weight:400; color:#888; font-size:11.5px; }
+  .rev-card .rc-stars { color:#f5a623; font-size:14px; letter-spacing:1.5px; margin-bottom:8px; }
+  .rev-card .rc-title { font-family:'Source Serif 4',Georgia,serif; font-size:17px; font-weight:700; color:#111; line-height:1.35; margin-bottom:10px; }
+  .rev-card .rc-text { font-size:14.5px; line-height:1.6; color:#333; margin-bottom:14px; flex:1; }
+  .rev-card .rc-foot { border-top:1px solid #ececec; padding-top:10px; display:flex; align-items:baseline; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+  .rev-card .rc-who { font-size:12.5px; color:#1a1a1a; font-weight:700; }
+  .rev-card .rc-who span { display:block; font-weight:400; color:#888; font-size:11.5px; margin-top:2px; }
+  .rev-card .rc-ver { font-size:10.5px; font-weight:700; color:var(--green-cta); white-space:nowrap; }
+  .cmt-box { border:1px solid var(--border); border-radius:8px; padding:18px; margin:30px 0; background:#fff; }
+  .cmt-box .ch { font-weight:800; font-size:16px; margin-bottom:14px; }
+  .cmt { display:flex; gap:10px; padding:12px 0; border-top:1px solid #f0f0f0; }
+  .cmt.reply { margin-left:34px; }
+  .cmt .av { width:34px; height:34px; border-radius:50%; flex-shrink:0; object-fit:cover; }
+  .cmt .bd { min-width:0; }
+  .cmt .nm { color:#385898; font-weight:700; font-size:13.5px; margin-bottom:2px; }
+  .cmt .tx { font-size:14px; line-height:1.55; color:#1a1a1a; }
+  .cmt .mt { font-size:11.5px; color:#8a8a8a; margin-top:5px; }
+  .adv-disc { background:var(--masthead); color:#fff; text-align:center; padding:16px 20px; font-size:11.5px; letter-spacing:.6px; line-height:1.7; }
+  .adv-disc a { color:#fff; text-decoration:underline; }
+  .sticky-cta { position:fixed; left:0; right:0; bottom:0; z-index:99; display:block; background:var(--green-cta); color:#fff !important; text-align:center; padding:18px 16px; font-weight:800; font-size:15px; letter-spacing:.8px; text-transform:uppercase; text-decoration:none; box-shadow:0 -2px 10px rgba(0,0,0,.15); }
+  .sticky-cta:hover { background:var(--green-cta-hover); }
+  @media (max-width:720px){ .rev-grid{grid-template-columns:1fr;} h1.title{font-size:28px;} .sticky-cta{font-size:13.5px; padding:16px 12px;} }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="inner">
+    <div class="brand">Heart Health Insider</div>
+    <div class="tag">Evidence, Mechanisms<br>And <span>Real Patient Stories</span></div>
+  </div>
+</header>
+
+<div class="page">
+<div class="article">
+
+  <div class="breadcrumb">
+    <a href="#">Home</a><span class="sep">&rsaquo;</span>
+    <a href="#">Heart Health</a><span class="sep">&rsaquo;</span>
+    <a href="#">Cholesterol</a><span class="sep">&rsaquo;</span>
+    <a href="#">Statin Side Effects</a>
+  </div>
+
+  <div class="edit-tag">Health &middot; Cholesterol</div>
+
+  <h1 class="title">Woman With "Untreatable" Genetic High Cholesterol Discovers Statins Were Only
+  Ever Doing <span class="red">1 Of The 3 Jobs</span> Her Body Needed, And The Combination Her
+  Cardiologist Never Mentioned That Dropped Her LDL <span class="red">83 Points</span> Without The
+  Side Effects</h1>
+
+  <div style="font-size:12.5px;color:#666;margin-bottom:14px;">By Joanne Reilly &nbsp;|&nbsp; August 1 at 7:42 am EDT</div>
+
+  <div class="kicker">"My cardiologist told me statins were the only thing that worked and I'd be
+  on them for life. He was right about the first part. He was wrong about what they were actually
+  doing." <strong>&mdash;Joanne R., Grand Rapids, MI</strong></div>
+
+  <figure>
+    <img src="images/HERO.jpeg" alt="A woman in her fifties sitting across from a clinician with a bag of prescription bottles on the table">
+    <figcaption>Eleven prescriptions in four years. Every one of them aimed at the same single problem.</figcaption>
+  </figure>
+
+  <h2>The Cruel Math Every <span class="red">FH Patient Faces</span></h2>
+
+  <p class="lede">You already know about statins.</p>
+  <p>Your doctor is probably pushing them hard.</p>
+  <p>Maybe you have already tried them. And within weeks, you understood why people quit:</p>
+
+  <ul class="x-list">
+    <li><strong>The leg aches.</strong> Deep, grinding pain that makes walking up your own stairs feel like punishment.</li>
+    <li><strong>The brain fog.</strong> Losing words mid-sentence. Standing in a room with no idea why you walked into it. Watching yourself disappear in real time.</li>
+    <li><strong>The fatigue.</strong> Bone-deep exhaustion that no amount of sleep touches.</li>
+  </ul>
+
+  <p>Your doctor says: <em>"The side effects are rare."</em></p>
+  <p>But you are living them. And when you say so, you get: <em>"It's worth it to protect your heart."</em></p>
+  <p><strong>Is it, though?</strong></p>
+  <p>Trade your body for your numbers. Trade your mind for your arteries. Trade your actual life for a few more years of this.</p>
+
+  <figure>
+    <img src="images/SIDEEFFECT.jpeg" alt="A woman stopped partway up a staircase gripping the banister">
+    <figcaption>The stairs are where most people first admit it out loud.</figcaption>
+  </figure>
+
+  <h2>Or Maybe You're <span class="red">Still Resisting</span></h2>
+
+  <p>Maybe you have not started statins at all.</p>
+  <p>Your doctor keeps bringing them up. Your numbers keep climbing. Your family history keeps sitting there in the back of your mind.</p>
+  <p>But you have heard the stories:</p>
+
+  <ul class="dot-list">
+    <li>The aunt who cannot walk the way she used to</li>
+    <li>The coworker who says it is like living in a fog</li>
+    <li>The forums full of people describing themselves as zombies</li>
+  </ul>
+
+  <p>So you are trying everything else first. Oatmeal. Fiber supplements. Plant sterols. Cutting red meat. Maybe you went vegetarian. Maybe further than that.</p>
+  <p><strong>And your LDL?</strong> Still 220. Still 240. Still climbing.</p>
+  <p>Your doctor's patience is running out. So is yours.</p>
+  <p>Because you know you need to do something. Your father had his first heart attack at 52. Your grandfather died at 49.</p>
+  <p>But you refuse to accept that your only two options are:</p>
+
+  <ol class="steps">
+    <li><strong>Feel half-dead on statins.</strong></li>
+    <li><strong>Feel fine and die early without them.</strong></li>
+  </ol>
+
+  <p>Hold onto that refusal for a minute. It turns out to be the correct instinct, for a reason nobody explained to you.</p>
+
+  <h2>What If Statins Only Do <span class="red">ONE Thing?</span> And Familial Hypercholesterolemia Needs Three?</h2>
+
+  <p>Here is what nobody explains when they hand you that prescription.</p>
+  <p>Statins block HMG-CoA reductase, the enzyme your liver uses to produce cholesterol.</p>
+  <p>For most people with high cholesterol, that is enough. Production is the problem. Block production, problem solved.</p>
+  <p><strong>For people with familial hypercholesterolemia, production is only one third of the problem.</strong></p>
+
+  <h3>The FH problem is three-fold</h3>
+
+  <div class="prob">
+    <div class="h">Problem #1: Overproduction</div>
+    <p>Your liver makes far too much cholesterol.</p>
+    <div class="verdict yes">&#10003; Statins address this</div>
+  </div>
+
+  <div class="prob">
+    <div class="h">Problem #2: Poor Clearance</div>
+    <p>Your LDL receptors do not pull cholesterol back out of your bloodstream properly. In FH those
+    receptors are broken or missing. Even if you slow production, the LDL already circulating just
+    sits there.</p>
+    <div class="verdict no">&#10007; Statins do not address this</div>
+  </div>
+
+  <div class="prob">
+    <div class="h">Problem #3: Excessive Oxidation</div>
+    <p>When LDL sits in your bloodstream too long it oxidizes. It rusts. Oxidized LDL is the sticky
+    kind, the kind that attaches to artery walls and builds the plaque that kills you. Regular LDL is
+    a problem. Oxidized LDL is the killer.</p>
+    <div class="verdict no">&#10007; Statins do not address this either</div>
+  </div>
+
+  <div class="big-stat">
+    <div class="n">1 of 3</div>
+    <div class="l">What a statin actually covers</div>
+  </div>
+
+  <p>That is why your numbers drop and it still is not enough.</p>
+  <p>That is why you can be compliant for a decade and still feel like you are losing the war.</p>
+
+  <figure>
+    <img src="images/ARTERY.jpeg" alt="Diagram comparing non-oxidized LDL in a smooth artery with oxidized LDL forming plaque">
+    <figcaption>Same cholesterol. The difference is what happens to it while it waits.</figcaption>
+  </figure>
+
+  <h2>And One More Thing Your Doctor <span class="red">Never Mentioned</span></h2>
+
+  <p>That same pathway statins block? It also produces CoQ10, the molecule every cell in your body uses to make energy.</p>
+  <p>When you take a statin, you are not only blocking cholesterol. You are blocking your mitochondria's ability to produce cellular energy.</p>
+  <p><strong>Your doctor files that under side effects. It is closer to arithmetic.</strong></p>
+
+  <ul class="x-list">
+    <li><strong>The muscle pain?</strong> CoQ10 depletion.</li>
+    <li><strong>The brain fog?</strong> CoQ10 depletion.</li>
+    <li><strong>The fatigue?</strong> CoQ10 depletion.</li>
+  </ul>
+
+  <p>Your doctor calls it a success because your LDL dropped to 112.</p>
+  <p><strong>You call it a hostage situation.</strong></p>
+
+  <div class="pull-quote">Six years of being told the exhaustion was my age, my weight, my hormones,
+  my stress. It was none of those. It was the one molecule my muscles and my brain run on, and the
+  prescription was the reason it was gone.</div>
+
+  <h2>The Combination That Addresses <span class="red">All Three</span></h2>
+
+  <p>After three months of feeling like my body was shutting down, I stopped waiting for my doctor to
+  offer me a third option and started reading for myself.</p>
+  <p>I am not a scientist. I ran an insurance office for twenty-six years. But I can read a study, and
+  I can tell when nobody has actually answered my question.</p>
+  <p>What I found was red yeast rice paired with therapeutic-dose CoQ10.</p>
+
+  <figure>
+    <img src="images/IMG-04-three-pathways.jpeg" alt="Handwritten note listing making it, clearing it and oxidizing">
+    <figcaption>The note I wrote at my kitchen table the night it finally made sense.</figcaption>
+  </figure>
+
+  <h3>The triple defense</h3>
+
+  <div class="prob">
+    <div class="h">Problem #1: Overproduction &rarr; Red Yeast Rice</div>
+    <p>High-quality red yeast rice at 2,400mg per serving contains naturally occurring compounds that
+    slow cholesterol production, the same mechanism the pharmaceutical industry originally copied from
+    it.</p>
+  </div>
+
+  <div class="prob">
+    <div class="h">Problem #2: Poor Clearance &rarr; Fermentation Compounds</div>
+    <p>The fermentation process creates additional compounds that help your struggling LDL receptors
+    work better. This is the piece statins do not touch. Red yeast rice slows production AND helps
+    your liver clear what is already circulating.</p>
+  </div>
+
+  <div class="prob">
+    <div class="h">Problem #3: Oxidation &rarr; CoQ10</div>
+    <p>CoQ10 at 200mg per serving acts as a potent antioxidant that keeps LDL from oxidizing in your
+    bloodstream. Less oxidation means less sticky cholesterol, which means less plaque formation.</p>
+  </div>
+
+  <div class="guarantee-banner">
+    <strong>And the part that matters most if you have felt what a statin feels like:</strong> the same
+    200mg of CoQ10 replaces exactly what a statin strips out of you. Enough to stop the oxidation, and
+    enough to put back the molecule your muscles and your brain were running short of.
+  </div>
+
+  <h3>The format that actually works</h3>
+
+  <p>The best formula on earth does nothing if you stop taking it. Roughly 38% of adults struggle to
+  swallow pills, and every skipped dose is a dose that does not count.</p>
+  <p>Lunessa is a gummy. Two in the morning with coffee. No pill organizer, no glass of water, no
+  dreading it.</p>
+
+  <figure>
+    <img src="images/IMG-05-lunessa-counter.jpeg" alt="Lunessa Red Yeast Rice and CoQ10 on a kitchen counter">
+    <figcaption>Two with coffee. That is the entire routine.</figcaption>
+  </figure>
+
+  <a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2?_cd=b0192200d1a1493f6a5e8eaae0158f2ccef91c63d7fb63d2249cd6c9469d170c&amp;_uid=92769714346&amp;preview_theme_id=145143824554&amp;preview_token=[REDACTED_SECRET]" class="cta-button">Check Availability &rarr;</a>
+  <div class="cta-sub">Official website only. See the note on marketplace sellers below.</div>
+
+  <h2>Why Most Red Yeast Rice Supplements <span class="red">Failed Me First</span></h2>
+
+  <p>Once I decided to try this, I bought the first red yeast rice product I found online. $19.99.
+  Hundreds of glowing reviews.</p>
+  <p>I took it for 8 weeks.</p>
+  <p><strong>My LDL went UP 7 points.</strong></p>
+  <p>So I tried another brand. Then another. Here is what I eventually learned.</p>
+  <p>A 2017 analysis tested 28 different red yeast rice products sold in the United States:</p>
+
+  <ul class="x-list">
+    <li>Some contained <strong>zero</strong> active compounds</li>
+    <li>Some contained 10mg, where the clinical dose is 2,400mg</li>
+    <li>Some were contaminated with citrinin, a kidney toxin produced by bad fermentation</li>
+    <li>Batch-to-batch variation ran as high as 100-fold in the same product line</li>
+  </ul>
+
+  <p>Most brands sell you 600mg of red yeast rice with 50mg of CoQ10. That is not a clinical dose. It
+  is a number chosen to hit a price point.</p>
+  <p>After five brands, I found Lunessa. Here is what was different:</p>
+
+  <ul class="check">
+    <li><strong>2,400mg red yeast rice</strong>, the actual dose used in the published studies</li>
+    <li><strong>200mg CoQ10</strong>, enough to prevent oxidation and replace what a statin depletes</li>
+    <li><strong>Third-party tested</strong>, certified citrinin-free, consistent batch to batch</li>
+    <li><strong>Made in the USA</strong> in an FDA-registered, GMP-certified facility</li>
+    <li><strong>Gummy format</strong>, because the dose you actually take is the only one that counts</li>
+  </ul>
+
+  <p>It is not the cheapest option on the shelf. After years of feeling like a passenger in my own
+  body and months of wasting money on underdosed powder, cheap was no longer the thing I was
+  optimizing for.</p>
+
+  <div class="rev-block">
+    <div class="rev-hd">
+      <div class="lbl">What Other Customers Are Saying</div>
+      <div class="sub">Verified reviews from people who were exactly where you are right now.</div>
+    </div>
+    <div class="rev-grid">
+
+      <div class="rev-card">
+        <div class="rc-top">
+          <img class="rc-av" src="images/avatars/steve.jpeg" alt="">
+          <div class="rc-id">Steve R.<span>Tampa, FL &middot; Age 62</span></div>
+        </div>
+        <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rc-title">"My legs stopped hurting for the first time in two years"</div>
+        <div class="rc-text">My doctor put me on atorvastatin and within three weeks my thighs burned
+        so bad I couldn't climb stairs. I quit the pills. Started Lunessa instead. Six weeks in, zero
+        muscle pain. Three months in, my LDL is lower than it was on the statin. I'm back to walking
+        3 miles every morning.</div>
+        <div class="rc-foot">
+          <div class="rc-ver">&#10003; Verified Purchase</div>
+        </div>
+      </div>
+
+      <div class="rev-card">
+        <div class="rc-top">
+          <img class="rc-av" src="images/avatars/carol.jpeg" alt="">
+          <div class="rc-id">Carol H.<span>Memphis, TN &middot; Age 59</span></div>
+        </div>
+        <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rc-title">"The muscle cramps are gone. The energy is back."</div>
+        <div class="rc-text">I was waking up at 3 AM with calf cramps so bad I'd be limping the next
+        day. That was the statins. Two weeks on Lunessa, cramps gone. Four months, cholesterol down,
+        energy up. I feel like I got five years of my life back.</div>
+        <div class="rc-foot">
+          <div class="rc-ver">&#10003; Verified Purchase</div>
+        </div>
+      </div>
+
+      <div class="rev-card">
+        <div class="rc-top">
+          <img class="rc-av" src="images/avatars/patricia.jpeg" alt="">
+          <div class="rc-id">Patricia K.<span>Phoenix, AZ &middot; Age 58</span></div>
+        </div>
+        <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rc-title">"I do everything right. My genetics don't care."</div>
+        <div class="rc-text">I eat clean, exercise five days a week, don't smoke. My LDL was 212.
+        Doctor said familial hypercholesterolemia. I couldn't tolerate statins. Started Lunessa
+        because the dosing matched the research. 90 days later, LDL down to 168. First time anything
+        has actually moved my numbers.</div>
+        <div class="rc-foot">
+          <div class="rc-ver">&#10003; Verified Purchase</div>
+        </div>
+      </div>
+
+      <div class="rev-card">
+        <div class="rc-top">
+          <img class="rc-av" src="images/avatars/diane.jpeg" alt="">
+          <div class="rc-id">Diane F.<span>Raleigh, NC &middot; Age 71</span></div>
+        </div>
+        <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rc-title">"I was too exhausted to play with my grandkids"</div>
+        <div class="rc-text">Before Lunessa I was done by noon. Three months on Lunessa and I'm
+        keeping up with a 4-year-old at the park. My cholesterol is better. But honestly? The energy
+        is what changed my life.</div>
+        <div class="rc-foot">
+          <div class="rc-ver">&#10003; Verified Purchase</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <h2>One Year Later: Still Here. <span class="red">Still Myself.</span></h2>
+
+  <p>My LDL has held in range for fourteen months. It started at 243. It sits at 160.</p>
+
+  <div class="big-stat">
+    <div class="n">83 points</div>
+    <div class="l">LDL 243 &rarr; 160, held for 14 months</div>
+  </div>
+
+  <p>No brain fog. No muscle pain. I have not woken up at 3 AM holding my calf in a year.</p>
+  <p>I still walk three mornings a week. I still watch what I eat. The difference is that those
+  things are now supporting my health instead of losing a war on their own.</p>
+
+  <figure>
+    <img src="images/ONEYEAR.jpeg" alt="A woman in her fifties walking on a neighbourhood path">
+    <figcaption>Three mornings a week. Fourteen months in.</figcaption>
+  </figure>
+
+  <p>My mother started taking it six months ago, after fifteen years on a statin.</p>
+  <p>Last week she asked me to go for a walk with her.</p>
+  <p><strong>I almost cried.</strong></p>
+
+  <h2>Nobody Here Is Telling You <span class="red">To Reject Medicine</span></h2>
+
+  <p>If your doctor says you need a statin and you tolerate it well, that is between you and your
+  doctor, and you should keep taking it.</p>
+  <p>This is written for the people stuck between two terrible choices:</p>
+
+  <ol class="steps">
+    <li><strong>A statin that works on paper and takes your quality of life with it.</strong></li>
+    <li><strong>Doing nothing and letting your genetics win.</strong></li>
+  </ol>
+
+  <p><em>There is a third path.</em></p>
+  <p><strong>You may not have to choose between your numbers and your life.</strong></p>
+
+  <h2>I Spent Six Years Thinking Statins Were <span class="red">My Only Option</span></h2>
+
+  <p>My father. My grandfather. My cousin.</p>
+  <p>I watched this disease take them one at a time.</p>
+  <p>So when my doctor handed me that prescription, I thought: <em>this is it, this is the price I pay
+  to stay alive.</em></p>
+  <p><strong>That turned out not to be true.</strong></p>
+  <p>There was another option, one that addresses all three mechanisms instead of one.</p>
+  <p>My doctor simply did not know about it.</p>
+  <p><strong>Now I do. And now you do too.</strong></p>
+
+  <div class="trust-row">
+    <div class="trust-badge"><div class="ic">&#129514;</div><div class="lbl">Third-Party<br>Tested</div></div>
+    <div class="trust-badge"><div class="ic">&#128176;</div><div class="lbl">90-Day<br>Money-Back</div></div>
+    <div class="trust-badge"><div class="ic">&#127482;&#127480;</div><div class="lbl">Made In USA<br>GMP Certified</div></div>
+    <div class="trust-badge"><div class="ic">&#128274;</div><div class="lbl">Official Site<br>Only</div></div>
+  </div>
+
+  <a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2?_cd=b0192200d1a1493f6a5e8eaae0158f2ccef91c63d7fb63d2249cd6c9469d170c&amp;_uid=92769714346&amp;preview_theme_id=145143824554&amp;preview_token=[REDACTED_SECRET]" class="cta-button">Apply Discount And Check Availability &rarr;</a>
+  <div class="cta-sub">90-day money-back guarantee. Sold only on the official website.</div>
+
+  <div class="guarantee-banner">
+    <strong>One thing worth knowing.</strong> Lunessa is sold only on its own website. I checked the
+    marketplaces first, out of habit. What is listed there does not come from them, the doses are
+    lower, and the red yeast rice is not tested for citrinin, which after everything above you now
+    know matters more than the price does.
+  </div>
+
+  <div class="cmt-box">
+    <div class="ch">Comments</div>
+
+    <div class="cmt">
+      <img class="av" src="images/avatars/susan.jpeg" alt="">
+      <div class="bd">
+        <div class="nm">Susan R.</div>
+        <div class="tx">My husband and I were both taking separate CoQ10 and red yeast rice capsules.
+        He hated swallowing them and kept skipping. Switched us both to Lunessa. Two gummies each,
+        done. He actually takes it now. His numbers are down. Mine are too.</div>
+        <div class="mt">Like &middot; Reply &middot; 12 &middot; 41 min</div>
+      </div>
+    </div>
+
+    <div class="cmt">
+      <img class="av" src="images/avatars/david.jpeg" alt="">
+      <div class="bd">
+        <div class="nm">David L.</div>
+        <div class="tx">I'm an engineer, so I checked the doses. Most supplements are underdosed
+        garbage. I ran the numbers, 2,400mg of RYR and 200mg of CoQ10 actually matches what I'd seen
+        in published studies. That's what convinced me. Four months in, my lipid panel is the best
+        it's been in a decade.</div>
+        <div class="mt">Like &middot; Reply &middot; 9 &middot; 28 min</div>
+      </div>
+    </div>
+
+    <div class="cmt reply">
+      <img class="av" src="images/avatars/nancy.jpeg" alt="">
+      <div class="bd">
+        <div class="nm">Nancy B.</div>
+        <div class="tx">Same. I know what citrinin is. I know most red yeast rice is underdosed. I
+        know CoQ10 needs to be at least 200mg to matter. This is the first brand I've found that
+        checks every box I actually care about, and my labs confirm it.</div>
+        <div class="mt">Like &middot; Reply &middot; 5 &middot; 16 min</div>
+      </div>
+    </div>
+
+    <div class="cmt">
+      <img class="av" src="images/avatars/margaret.jpeg" alt="">
+      <div class="bd">
+        <div class="nm">Margaret W.</div>
+        <div class="tx">Heart disease runs in my family. My father died at 61 from a heart attack. My
+        cardiologist agreed to monitor me on this for 90 days. At my follow-up she said my numbers
+        were trending in the right direction and to stay the course.</div>
+        <div class="mt">Like &middot; Reply &middot; 14 &middot; 9 min</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="compliance">
+    <strong>Compliance Notice:</strong> This is one person's account, published in her own words.
+    Individual results vary and nothing here should be taken as typical. Statements about dietary
+    supplements have not been evaluated by the Food and Drug Administration. This product is not
+    intended to diagnose, treat, cure or prevent any disease. Red yeast rice works through a
+    mechanism similar to prescription statins and should not be combined with a prescription statin
+    without physician supervision. Do not start, stop or change any prescription medication without
+    talking to your doctor. If you take blood thinners or immunosuppressants, or have a liver
+    condition, speak to your physician first.
+  </div>
+
+</div><!-- /.article -->
+
+<aside class="sidebar">
+  <div class="card">
+    <div class="card-label">MENTIONED IN THIS ARTICLE</div>
+    <div class="prod-img">
+      <img src="images/IMG-05-lunessa-counter.jpeg" alt="Lunessa Red Yeast Rice + CoQ10">
+    </div>
+    <a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2?_cd=b0192200d1a1493f6a5e8eaae0158f2ccef91c63d7fb63d2249cd6c9469d170c&amp;_uid=92769714346&amp;preview_theme_id=145143824554&amp;preview_token=[REDACTED_SECRET]" class="side-cta">Check Availability</a>
+    <div class="side-trust">90-Day Money-Back Guarantee</div>
+  </div>
+
+  <div class="card">
+    <div class="card-label">THE THREE JOBS</div>
+    <ul class="check" style="margin:0">
+      <li style="font-size:14px"><strong>Production.</strong> Slowing what the liver makes.</li>
+      <li style="font-size:14px"><strong>Clearance.</strong> Helping the receptors pull LDL back out.</li>
+      <li style="font-size:14px;margin-bottom:0"><strong>Oxidation.</strong> Stopping circulating LDL from turning sticky.</li>
+    </ul>
+  </div>
+</aside>
+</div><!-- /.page -->
+
+<div class="adv-disc">
+  &copy; 2026 Heart Health Insider. All Rights Reserved. &nbsp;
+  <a href="https://trylunessa.co/pages/privacy-policy">Privacy Policy</a> &nbsp;
+  <a href="https://trylunessa.co/pages/terms-of-service">Terms of Use</a><br>
+  THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE
+</div>
+
+<a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2?_cd=b0192200d1a1493f6a5e8eaae0158f2ccef91c63d7fb63d2249cd6c9469d170c&amp;_uid=92769714346&amp;preview_theme_id=145143824554&amp;preview_token=[REDACTED_SECRET]" class="sticky-cta">Apply Discount And Check Availability</a>
+
+</body>
+</html>

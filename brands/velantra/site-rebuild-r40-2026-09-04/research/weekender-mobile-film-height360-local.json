@@ -1,0 +1,31 @@
+{
+  "frames": [
+    "frame-00-0.000.jpg",
+    "frame-13-11.200.jpg",
+    "frame-19-16.500.jpg"
+  ],
+  "boxes": [
+    {
+      "w": 390,
+      "h": 360,
+      "ratio": "390 / 360"
+    },
+    {
+      "w": 390,
+      "h": 360,
+      "ratio": "390 / 360"
+    },
+    {
+      "w": 390,
+      "h": 360,
+      "ratio": "390 / 360"
+    }
+  ],
+  "source_window_at1080h": {
+    "left": 375,
+    "right": 1545,
+    "width": 1170
+  },
+  "expected_full_outline": "Visually confirmed all three sampled complete views retain outer side wings, both handles and base in the390x360 window.",
+  "decision": "pass; recommend mobile_height360"
+}

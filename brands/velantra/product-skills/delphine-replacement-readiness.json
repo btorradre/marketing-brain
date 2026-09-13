@@ -1,0 +1,392 @@
+{
+  "audit_date": "2026-09-04",
+  "auditor": "product_media independent source comparison",
+  "product_id": "gid://shopify/Product/8041821143105",
+  "handle": "velantra-delphine",
+  "decision": "candidate_set_only_not_fully_evidenced_for_15_position_replacement",
+  "summary": "August 30 improves known identity defects, but cannot faithfully replace all 15 current gallery positions without further review/correction. One position has no evidenced candidate, one has a clear lining-texture conflict, and the exterior/lifestyle candidates still need color-, angle- and scale-specific QA. Generated imagery and approval labels are not proof of the physical product.",
+  "scope": "Read-only source/code/image audit; only this report written. No generation, catalog changes or Shopify writes.",
+  "counts": {
+    "current_gallery": 15,
+    "august_30_final_files": 20,
+    "same_shot_category_candidates": 14,
+    "missing_candidate": 1,
+    "candidate_with_clear_material_conflict": 1,
+    "extra_hardware_or_crossbody_files": 6
+  },
+  "authority_order": [
+    "Actual same-color product photo/creator footage for visible features",
+    "Supplier dimension imagery, labeled as supplier-provided rather than physically measured",
+    "Later corrections in PRODUCT-TRUTH.md, checked against actual sources",
+    "Recorded approved masters as creative lineage",
+    "Derived gallery and R40 edits as candidates, never independent truth"
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "level": "replacement_gap",
+      "finding": "Army Green has no evidenced interior and the August 30 final set deliberately omits it. Current position 14 and its R40 derivative show a black lining that cannot establish the actual lining color.",
+      "evidence": [
+        "real-product/README.md: Open item",
+        "regen-2026-08-30/gen_gallery.py:14,111,153",
+        "R40 source/generated contact sheets, position 14"
+      ],
+      "required_resolution": "Use an actual Army Green interior reference before producing that view, or omit the unsupported interior position from a revised gallery."
+    },
+    {
+      "id": "F2",
+      "level": "observed_material_conflict",
+      "finding": "Dark Chocolate real-product/DC-05.png visibly shows olive woven fabric. August 30 final/DC-03-interior.png depicts suede-like nap, an enlarged framed pocket and a new teardrop metal zipper pull; the generation code explicitly requests olive suede. The current position 9/R40 black lining is also inconsistent with the olive source.",
+      "evidence": [
+        "real-product/DC-05.png",
+        "real-product/README.md",
+        "regen-2026-08-30/final/DC-03-interior.png",
+        "regen-2026-08-30/gen_gallery.py:111"
+      ],
+      "required_resolution": "Correct the interior using the actual DC reference, preserving its visible weave, pocket construction and only evidenced zipper details. Do not treat either existing generated interior as physical truth."
+    },
+    {
+      "id": "F3",
+      "level": "partial_source_support",
+      "finding": "The August 30 set addresses the documented concave base, larger low-hanging plates, taller handles, visible diagonal twill, leather side wings and darker Army Green canvas. These corrections are supported most directly by the supplier AG front and real AG creator footage. Their implementation in every generated angle and color is not established merely by the corrected prompt.",
+      "evidence": [
+        "PRODUCT-TRUTH.md:272-330",
+        "real-product/AG-01-front-1x1.png",
+        "ad-teardown-2026-08-30/sheet_AD1.jpg",
+        "regen-2026-08-30/QA_masters.jpg",
+        "regen-2026-08-30/QA_FINAL.jpg"
+      ],
+      "required_resolution": "Review each candidate against the same color and closest real angle, preserving the corrected design. Account for perspective before comparing leather/canvas ratios or handle height."
+    },
+    {
+      "id": "F4",
+      "level": "hardware_and_angle_uncertainty",
+      "finding": "The three final hardware macros are generated from crops of generated masters, not independent physical closeups. Source views differ in lighting, closure state and angle; they do not establish every screw, bar proportion, attachment and underside detail in the macros. AG-01 through AG-04 in real-product are explicitly LC recolors, so they cannot independently verify AG side or bottom construction.",
+      "evidence": [
+        "real-product/README.md",
+        "real-product/LC-01.png",
+        "real-product/DC-06-dimensions.png",
+        "regen-2026-08-30/gen_gallery.py:23-24,55-65",
+        "regen-2026-08-30/QA_hardware.jpg"
+      ],
+      "required_resolution": "Use matched physical detail references for exact hardware claims and unseen angles. Do not classify a rotated turnbar alone as drift, and do not homogenize color-specific details from a generic identity paragraph."
+    },
+    {
+      "id": "F5",
+      "level": "color_and_scale_uncertainty",
+      "finding": "DC approved/final exteriors read considerably darker than the reddish-brown supplier dimension view, with no color-calibration reference to decide how much is lighting. The recorded 25 W x 22 H x 14 D cm is supplier imagery, not an independent physical measurement. The generated models and poses do not provide a known-size anchor, so current true-to-scale alt text is not validated by these new lifestyle files.",
+      "evidence": [
+        "real-product/DC-06-dimensions.png",
+        "real-product/AG-01-front-1x1.png",
+        "regen-2026-08-30/QA_masters.jpg",
+        "regen-2026-08-30/QA_FINAL.jpg",
+        "brands/velantra/product-skills/catalog-full-2026-09-04.json"
+      ],
+      "required_resolution": "Keep supplier dimensions labeled by provenance; compare silhouette to matched real views. Validate lifestyle scale with a documented model/prop or measured product in scene before claiming exact scale. Use consistent neutral lighting for color assessment."
+    },
+    {
+      "id": "F6",
+      "level": "approval_scope",
+      "finding": "gen_gallery.py records approval of AG master-r1, LC master-r2 and DC master-r2 on August 30. Each approved master exactly matches its selected master and final 01-front file by SHA256. This establishes recorded master selection and derivation, not physical verification of every derived final. PRODUCT-TRUTH.md still says masters awaiting approval and is stale on that point; no separate raw owner approval message was located in this read-only audit.",
+      "evidence": [
+        "regen-2026-08-30/gen_gallery.py:2-8",
+        "PRODUCT-TRUTH.md:323-325",
+        "SHA256 checks in master_lineage"
+      ],
+      "required_resolution": "Retain the recorded creative approval while reviewing derivative fidelity against physical-source evidence."
+    },
+    {
+      "id": "F7",
+      "level": "brief_mismatch",
+      "finding": "The August 30 set uses warm off-white studio scenes plus loggia, room and model lifestyle backgrounds. It is not the requested uniform white studio gallery; interior shots also change from full opening views to tight lining crops. It contains 20 files: 14 matching the current shot categories, no AG interior, and six extra hardware/crossbody frames.",
+      "evidence": [
+        "regen-2026-08-30/QA_FINAL.jpg",
+        "regen-2026-08-30/gen_gallery.py:10-18,99-103,137-150"
+      ],
+      "required_resolution": "Treat these as source candidates for a reviewed gallery, not a drop-in one-to-one white-background replacement."
+    }
+  ],
+  "position_mapping": [
+    {
+      "position": 1,
+      "color": "LC",
+      "shot": "01-front",
+      "current_media_id": "gid://shopify/MediaImage/30597877071937",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/LC-01-front.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 2,
+      "color": "LC",
+      "shot": "06-onarm",
+      "current_media_id": "gid://shopify/MediaImage/30597877104705",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/LC-06-onarm.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 3,
+      "color": "LC",
+      "shot": "02-threequarter",
+      "current_media_id": "gid://shopify/MediaImage/30597877137473",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/LC-02-threequarter.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 4,
+      "color": "LC",
+      "shot": "03-interior",
+      "current_media_id": "gid://shopify/MediaImage/30597877170241",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/LC-03-interior.png",
+      "status": "candidate_black_fabric_supported_full_opening_unverified",
+      "findings": [
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 5,
+      "color": "LC",
+      "shot": "07-modelcarry",
+      "current_media_id": "gid://shopify/MediaImage/30597877235777",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/LC-07-modelcarry.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 6,
+      "color": "DC",
+      "shot": "01-front",
+      "current_media_id": "gid://shopify/MediaImage/30597877268545",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/DC-01-front.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 7,
+      "color": "DC",
+      "shot": "06-onarm",
+      "current_media_id": "gid://shopify/MediaImage/30597877301313",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/DC-06-onarm.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 8,
+      "color": "DC",
+      "shot": "02-threequarter",
+      "current_media_id": "gid://shopify/MediaImage/30597877334081",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/DC-02-threequarter.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 9,
+      "color": "DC",
+      "shot": "03-interior",
+      "current_media_id": "gid://shopify/MediaImage/30597877366849",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/DC-03-interior.png",
+      "status": "hold_observed_material_conflict",
+      "findings": [
+        "F2"
+      ]
+    },
+    {
+      "position": 10,
+      "color": "DC",
+      "shot": "07-modelcarry",
+      "current_media_id": "gid://shopify/MediaImage/30597877432385",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/DC-07-modelcarry.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 11,
+      "color": "AG",
+      "shot": "01-front",
+      "current_media_id": "gid://shopify/MediaImage/30597877465153",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/AG-01-front.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 12,
+      "color": "AG",
+      "shot": "06-onarm",
+      "current_media_id": "gid://shopify/MediaImage/30597877497921",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/AG-06-onarm.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 13,
+      "color": "AG",
+      "shot": "02-threequarter",
+      "current_media_id": "gid://shopify/MediaImage/30597877530689",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/AG-02-threequarter.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "position": 14,
+      "color": "AG",
+      "shot": "03-interior",
+      "current_media_id": "gid://shopify/MediaImage/30597877563457",
+      "candidate": null,
+      "status": "missing_evidenced_replacement",
+      "findings": [
+        "F1"
+      ]
+    },
+    {
+      "position": 15,
+      "color": "AG",
+      "shot": "07-modelcarry",
+      "current_media_id": "gid://shopify/MediaImage/30597877628993",
+      "candidate": "brands/velantra/products/delphine/regen-2026-08-30/final/AG-07-modelcarry.png",
+      "status": "candidate_requires_source_relative_review",
+      "findings": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    }
+  ],
+  "master_lineage": [
+    {
+      "color": "AG",
+      "recorded_approved_roll": 1,
+      "files": [
+        "brands/velantra/products/delphine/regen-2026-08-30/masters/AG-master-r1.png",
+        "brands/velantra/products/delphine/regen-2026-08-30/approved/AG-master.png",
+        "brands/velantra/products/delphine/regen-2026-08-30/final/AG-01-front.png"
+      ],
+      "identical_sha256": "9e56c32ebec64c10447d9b7212f7661f9805700068c10e73108b5620f8c933d4"
+    },
+    {
+      "color": "LC",
+      "recorded_approved_roll": 2,
+      "files": [
+        "brands/velantra/products/delphine/regen-2026-08-30/masters/LC-master-r2.png",
+        "brands/velantra/products/delphine/regen-2026-08-30/approved/LC-master.png",
+        "brands/velantra/products/delphine/regen-2026-08-30/final/LC-01-front.png"
+      ],
+      "identical_sha256": "076800e1a99dcb062d8338321ce6b5bb9d2d07ce9c38b162c8ee991452526c75"
+    },
+    {
+      "color": "DC",
+      "recorded_approved_roll": 2,
+      "files": [
+        "brands/velantra/products/delphine/regen-2026-08-30/masters/DC-master-r2.png",
+        "brands/velantra/products/delphine/regen-2026-08-30/approved/DC-master.png",
+        "brands/velantra/products/delphine/regen-2026-08-30/final/DC-01-front.png"
+      ],
+      "identical_sha256": "678aeac5b72443b73a42574f0bb760286121f91e5b92f864256b30415394437f"
+    }
+  ],
+  "sources": {
+    "catalog_snapshot": "brands/velantra/product-skills/catalog-full-2026-09-04.json",
+    "real_source_documentation": "brands/velantra/products/delphine/real-product/README.md",
+    "corrections": "brands/velantra/products/delphine/PRODUCT-TRUTH.md",
+    "generation_code_inspected_not_executed": [
+      "brands/velantra/products/delphine/regen-2026-08-30/gen_masters.py",
+      "brands/velantra/products/delphine/regen-2026-08-30/gen_gallery.py",
+      "brands/velantra/products/delphine/regen-2026-08-30/gen_fixes.py"
+    ]
+  },
+  "visually_reviewed_files": [
+    "brands/velantra/products/delphine/ad-teardown-2026-08-30/sheet_REAL_PHOTOS.jpg",
+    "brands/velantra/products/delphine/ad-teardown-2026-08-30/sheet_AD1.jpg",
+    "brands/velantra/products/delphine/regen-2026-08-30/QA_masters.jpg",
+    "brands/velantra/products/delphine/regen-2026-08-30/QA_FINAL.jpg",
+    "brands/velantra/products/delphine/regen-2026-08-30/QA_hardware.jpg",
+    "brands/velantra/products/delphine/real-product/AG-01-front-1x1.png",
+    "brands/velantra/products/delphine/real-product/LC-01.png",
+    "brands/velantra/products/delphine/real-product/DC-06-dimensions.png",
+    "brands/velantra/products/delphine/real-product/LC-05.png",
+    "brands/velantra/products/delphine/real-product/DC-05.png",
+    "brands/velantra/products/delphine/regen-2026-08-30/approved/AG-master.png",
+    "brands/velantra/products/delphine/regen-2026-08-30/final/LC-03-interior.png",
+    "brands/velantra/products/delphine/regen-2026-08-30/final/DC-03-interior.png",
+    "brands/velantra/site-rebuild-r40-2026-09-04/media/qa/source-velantra-delphine-1.jpg",
+    "brands/velantra/site-rebuild-r40-2026-09-04/media/qa/source-velantra-delphine-2.jpg",
+    "brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-delphine-1.jpg",
+    "brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-delphine-2.jpg"
+  ],
+  "notes": [
+    "All source references within findings are relative to brands/velantra/products/delphine unless fully prefixed.",
+    "Light Chocolate real and final interiors both show black fabric with a leather zipper pull; this supports that visible subset, not a newly reconstructed complete opening.",
+    "Real AG footage proves the detachable strap exists and is used crossbody. Matching construction for other colorways is not separately demonstrated by that AG clip.",
+    "Original and R40 galleries retain known older depiction problems; this report does not recommend treating them as verified fallback truth."
+  ]
+}

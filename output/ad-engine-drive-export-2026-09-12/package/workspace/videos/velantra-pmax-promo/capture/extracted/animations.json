@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "webAnimations": 2,
+    "cssDeclarations": 36,
+    "scrollTargets": 6,
+    "cdpAnimations": 5,
+    "canvases": 0
+  },
+  "namedAnimations": [
+    "fade-in",
+    "modal-close",
+    "omnisend-form-6a3645cf17c247e4823e4a09-loader-animation"
+  ],
+  "scrollTriggeredElements": 6,
+  "representativeAnimations": [
+    {
+      "type": "CSSAnimation",
+      "playState": "finished",
+      "animationName": "fade-in",
+      "targetSelector": "img.image-fit.promo-grid__bg-image.promo-grid__bg-image--advanced_gnzTTq",
+      "targetRect": {
+        "x": 250,
+        "y": 2866.484375,
+        "width": 700,
+        "height": 480,
+        "top": 2866.484375,
+        "right": 950,
+        "bottom": 3346.484375,
+        "left": 250
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.26, 0.54, 0.32, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.26, 0.54, 0.32, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear",
+        "direction": "normal"
+      }
+    },
+    {
+      "type": "CSSAnimation",
+      "playState": "finished",
+      "animationName": "fade-in",
+      "targetSelector": "img.image-fit.promo-grid__bg-image.promo-grid__bg-image--advanced_hCD3yy",
+      "targetRect": {
+        "x": 970,
+        "y": 2866.484375,
+        "width": 700,
+        "height": 480,
+        "top": 2866.484375,
+        "right": 1670,
+        "bottom": 3346.484375,
+        "left": 970
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.26, 0.54, 0.32, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.26, 0.54, 0.32, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear",
+        "direction": "normal"
+      }
+    }
+  ]
+}

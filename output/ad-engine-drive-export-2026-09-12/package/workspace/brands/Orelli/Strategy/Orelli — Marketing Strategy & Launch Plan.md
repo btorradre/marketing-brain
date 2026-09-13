@@ -1,0 +1,301 @@
+# Orelli — Marketing Strategy & Launch Plan
+
+*Master strategy + operating plan. Investor-facing. The single source of truth for Orelli marketing; creative execution detail in `Angle & Design Matrix.md` and `Swipe — Pill-Hack Stitch Concepts.md`. Earlier drafts live in `Archive/`.*
+
+**Product:** Adult-strength acetaminophen (500mg) soft chew. **Proposition:** *"It's just Tylenol. In a gummy."*
+**Model:** $29.99/bottle, one-time US DTC purchase + multi-bottle stock-up (no subscription).
+**Launch:** Dec 2026 / Jan 2027. **Go-to-market:** creator-led affiliate machine.
+
+---
+
+## 0. The Thesis (for investors)
+
+Orelli takes the single most trusted molecule in the medicine cabinet — acetaminophen, the active ingredient in Tylenol — and puts it in the one format tens of millions of adults can actually take: **a chewable gummy.** We are not inventing demand (pain relief is a daily, universal need) and we are not fighting a chemistry war (the molecule is already trusted). We are closing a **format gap the incumbents structurally refuse to close** — and we're doing it through a capital-efficient, performance-based creator army rather than paid media.
+
+The wedge: in the entire OTC pain category, **the only brand premium that survives consumer scrutiny is format** — coating, swallowability, taste, Liqui-Gels. Chemistry arguments lose; pill-experience arguments win. Orelli is a pure format play on a trusted molecule, aimed at a large, emotionally underserved population the category has ignored for decades: **adults who cannot swallow pills.**
+
+---
+
+## 1. The Market & The Wedge
+
+### 1.1 The category truth
+Across thousands of scraped consumer conversations (our proprietary VoC dataset, ~4,000 comments across Reddit/TikTok/YouTube/Instagram), one pattern dominates every brand-vs-generic debate: people concede the chemistry is identical and pay extra **only for the pill experience** — the candy coating, the Liqui-Gel, the swallowability. *"I like brand-name Advil for the candy coating"* (top comment, ~544 upvotes). The incumbents' own moat is format. Orelli attacks on exactly that axis — and takes it further than a coating ever could.
+
+### 1.2 The overlooked population
+**Up to 40% of US adults report difficulty swallowing pills** (Harris Interactive; Harvard Health). Among them is a large, emotionally intense core who *cannot* — and who currently:
+- Buy **children's chewables/liquids** at adult doses and do 3–6× dose math against a "for children only" box
+- Crush pills into applesauce; cut them in half; force them down with soda
+- **Skip doses entirely** and suffer through the pain
+
+This isn't a niche complaint — it's a shame-laden, evergreen, high-engagement topic ("how to swallow pills" has millions of views and comment sections that read like group therapy). The demand is loud, self-identifying, and unserved by an adult-branded product.
+
+### 1.3 Sizing — a 48-million-adult beachhead inside a $4B market
+
+| Layer | Size | Basis |
+|:--|--:|:--|
+| **TAM** — US adults | **260M** | US Census |
+| ▼ 40% pill-aversion filter | | Harris Interactive 2003; Harvard Health "up to 40%" |
+| **SAM** — adults who struggle to swallow pills | **104M** | |
+| ▼ 46% weekly-OTC frequency filter | | AHA 2023: ~50% of US adults take pain meds weekly (46% is the conservative cut) |
+| **Beachhead** — pill-averse weekly OTC users | **48M** | |
+| ▼ women 25–44, weekly OTC, pill-averse | | Census ~42M × 23% weekly acetaminophen (CHPA) × 30–40% difficulty |
+| **Launch beachhead** — Maya's cohort | **~3M women** | the wedge we actually execute against first |
+| Addressable near-term (10–15% at awareness) | 300K–450K | |
+
+Market value: **US acetaminophen ≈ $4.1B** (GM Insights, 2024) inside **≈ $13B North America OTC analgesics** — and per-angle sub-segment sizes within the 48M beachhead are in §3.2. We do not need the whole beachhead. **~5,000 customers in 6 months** proves unit economics.
+
+### 1.4 Why now
+- **TikTok confessional culture** is surfacing the shame publicly for the first time — the audience self-identifies on camera.
+- **Creator/affiliate infrastructure** (Katalys, Statusphere) is mature enough to run a performance army at low fixed cost.
+- **AI answer engines** now cite Reddit/Quora as source-of-truth — a brand-new, compounding organic channel (§5.6).
+- **Gummy-format normalization** — the entire gummy-vitamin industry proved adults prefer to chew. Pain relief simply never caught up.
+
+### 1.5 The competitive white space
+- **Zero branded adult gummy acetaminophen exists at the 500mg adult dose.** The only comparable — Walmart's Equate Soft Chews — is a private-label afterthought with chronic stock issues and poor reviews: proof the demand is real, proof no one has branded it.
+- **Tylenol structurally won't follow.** Its post-1982 "Safety First" positioning and its pill-SKU cash cow both fight a gummy; the incumbent's moat is our opening (§10).
+- **Adjacent formats don't solve it.** Dissolve packs and powders still make her *taste the medicine*; only a candy-format chew removes the experience she's avoiding.
+- **Format-premium brands are proven.** Julie sells the same molecule as $11 generics at $42–46 (3.8× premium) and reached 12–18K retail doors in under 2 years; creatine gummies took a 3× per-gram premium and *doubled* the category. Format, not chemistry, is where OTC premiums live — which is the thesis.
+
+---
+
+## 2. The Customer — "Maya"
+
+**Our beachhead is one woman: 25–38, who heavily struggles to swallow pills.** Build every decision for her.
+
+- Has struggled since childhood; thought she'd grow out of it; didn't. *("I'm 29 and still struggling 😭")*
+- Her body fights her — throat closes, heart races, she gags, sometimes vomits. *("My brain literally red-flags me as dying.")*
+- Runs a private, humiliating system: children's grape medicine, crushing into yogurt, or just suffering the headache.
+- Core belief: **"I'm the only adult who still can't do this."** The shame is the lock — and the key.
+- **Conversion trigger = being seen.** The moment a creator says *"wait, you can't swallow pills either?"*, she feels recognized for the first time. That recognition is the sale; the product is the relief that follows.
+
+**She is a high-repeat buyer** with undeniable efficacy (unlike supplements, there's no "is this even working?" churn) — the only thing that ever failed was the format, and we fixed it.
+
+**Sub-avatars inside the wedge (sequenced later, same machine):** pregnant/postpartum women (acetaminophen is the *only* OTC pain reliever considered safe in pregnancy — 62% of pregnant women use it — a medically captive audience with a swallowing-averse subset) and the "medically captive" chronic Tylenol user. Both are Phase-2 spears with smaller TAMs than the broad Maya wedge; neither dilutes the Maya-first creative machine at launch.
+
+---
+
+## 3. Positioning — The Big Idea & The Angle Architecture
+
+### 3.1 The proposition (the umbrella — NOT an angle)
+> **"It's just Tylenol. In a gummy."**
+
+This is the core proposition — real adult-dose pain relief you chew instead of swallow. It is not an angle; it is the one product truth every piece of creative resolves to. It is *motive-neutral*: it means something different to every bucket of buyers, which is exactly why it sits above the angles rather than beside them.
+
+### 3.2 The four angles (the buckets)
+An angle targets a specific group unified by one shared situation/emotion, and ladders them up to the proposition. (Full creative execution in `Angle & Design Matrix.md`.)
+
+| # | Angle | The situation in her mind | Emotional driver | Buyer bucket |
+|:--|:--|:--|:--|:--|
+| 1 | **Convenience** | Headache hits, no water — desk, car, flight, gym | Ease → relief from friction | Situational / broad |
+| 2 | **The Choking Fear** | Pill stuck at the back of the throat, won't go down | Fear → release | The phobic |
+| 3 | **The Adult Shame** | Secretly buying kids' grape medicine, mocked, hiding it | Shame → vindication/dignity | The ashamed |
+| 4 | **The Untreated Pain** | Suffers the pain / quits meds to avoid the pill | Defeat → resolution | The avoider |
+
+**Everything resolves to the same line.** Convenience is the broadest, lowest-threat door (great for scale and top-of-funnel); the other three are higher-intensity spears that convert the core avatar. Run them as *separate* creative lanes so the emotional register stays pure — never blend a shame hook into a convenience vignette.
+
+**Segment sizes behind each angle** — all four angles target the 48M beachhead; the three emotional spears carve conviction out of sub-segments, and Convenience covers the whole beachhead as the low-threat door. *(Angles are overlapping doors, not partitions — full sourcing in `Angle Segment Sizing — Sources & Math.md`.)*
+
+| Angle | Sub-avatar | Segment size | Sizing anchor |
+|:--|:--|--:|:--|
+| 1. Convenience | Every beachhead buyer, met situationally | **~48M — the full beachhead** | She doses weekly by definition, and the friction travels with her (desk, car, flight, gym); the only angle she can engage without confessing anything |
+| 2. Choking Fear | The phobic | **~20M** (15–27M) | 32% gag (Harris '03) → 57% of strugglers have actually choked on a pill (Radhakrishnan '21) |
+| 3. Adult Shame | The workaround-runner | **~17M** (8–25M) | 53–59% of strugglers crush/split/modify meds; <1 in 4 ever told a professional |
+| 4. Untreated Pain | The avoider | **~10M** (5–12M) | 14% delay + 8% skip + 4% quit meds over swallowing (Harris '03); 25.5% skipped (Dorman '19) |
+
+The proprietary VoC overlay (4,095 scraped comments) adds the creative weighting the census can't: among emotionally classifiable comments, **fear outruns shame ~2.6:1 by voice volume** — fear is the loudest, most viral lane; shame is the deepest (3 in 4 sufferers have never told a professional — they'll DM, not comment); untreated-pain avoiders barely speak at all (~10M silent, highest-intent buyers); and nobody *emotes* about waterless dosing, which is exactly why Convenience is the broad low-threat door rather than a confession lane. Launch weighting for original creative: **Fear > Shame > Untreated Pain** for hook volume, Convenience for reach.
+
+### 3.3 The emotional spine (every ad runs this arc)
+**Recognition** ("that's me") → **Relief** ("I'm not the only one") → **Revelation** ("wait, this exists??") → **Liberation** ("I'm finally free"). The hook's only job is Recognition in three seconds.
+
+### 3.4 Cross-cutting proof: taste
+The VoC's loudest product fear is taste (*"it dissolves and you taste all that nastiness"*). A real first-bite reaction is the universal objection-killer — it rides *every* angle. It is a proof beat, not an angle.
+
+---
+
+## 4. The Offer & Unit Economics
+
+### 4.1 No subscription — by design
+Pain relief is taken **reactively**, not on a schedule, so there is no honest way to time a recurring charge; forcing one fights the behavior and drives cancellations. Instead we engineer repeat purchase three ways:
+
+1. **Stock-up bundles (the AOV hero).** Buy 2–3, per-bottle price drops. Framed as *"never get caught without it"* — one for home, one for her bag, one for her desk. This mirrors the VoC's real behavior (the Excedrin "emergency bottle everywhere" pattern) — we're naming a habit she already has.
+2. **Replenishment reminders.** Opt-in reorder nudge when she runs low — trigger is *her* empty cabinet, not our billing cycle.
+3. **Customer → affiliate flywheel** (§5.5) — turns retention into acquisition.
+
+### 4.2 Unit economics *(confirmed COGS — PLD batch 1 @ 15,600 units)*
+
+Inputs: COGS **$9.50/bottle all-in** (path to ~$8.50 at 100K+ unit runs) · fulfillment + shipping **$7.00/order** · processing 3% · production run $148,200 (15,600-unit MOQ).
+
+| | Single | 2-bottle | 3-bottle stock-up |
+|:--|--:|--:|--:|
+| Price | $29.99 | $53.98 | $69.00 |
+| COGS | −$9.50 | −$19.00 | −$28.50 |
+| Fulfillment + processing | −$7.90 | −$8.62 | −$9.07 |
+| **Contribution (pre-commission)** | **$12.59 (42%)** | **$26.36 (49%)** | **$31.43 (46%)** |
+| After 15% affiliate commission | $8.09 (27%) | $18.26 (34%) | $21.08 (31%) |
+| After 20% (top tier) | $6.59 (22%) | $15.56 (29%) | $17.63 (26%) |
+
+**Blended (assumed 40/25/35 offer mix):** AOV ≈ $49.64 · ~1.95 bottles/order · contribution after commission ≈ **$15.18/order (~31%)** · blended commission ≈ **$7.45/order = the marginal CAC** (vs. $15–25 paid-social) — and direct/repeat/organic orders carry zero commission, lifting the blend further.
+
+The structural point stands, now with numbers: fixed per-order costs (fulfillment/processing) hit once — **bundles amortize them across 2–3 bottles**, nearly tripling per-order contribution vs. a single. The stock-up offer is the margin engine, not an upsell; LP and affiliate briefs push it as the default. If single-bottle reorder margin ever pinches, the documented lever is 15–20% acquisition / ~10% reorder commission.
+
+**LTV levers (no subscription):** stock-up AOV · reorder rate · customer→affiliate conversion · doctor/clinical trust reducing refunds. The economic goal: **use the first sale to acquire a repeat customer; the profit is in the back-end.**
+
+### 4.3 Why it's capital-efficient (the investor point)
+CAC is **performance-based and largely variable** — affiliates are paid only after a sale, seeded creators cost ~product only, and Reddit/Quora + content-repurposing are compounding *organic*. We are not renting paid traffic; we are building an owned, compounding distribution asset.
+
+**The CAC ladder (full model in `CAC Model — Full Combined.md`):** marginal CAC ≈ **$7.50–12** per affiliate order (commission + code discount, contractual and flat forever) · variable blended ≈ **$7.36**/customer (recovered inside the first order) · fully combined ≈ **~$27** in the launch window (all program costs in), falling to **~$15.50 by Month 12** and toward the **~$7.50 commission floor** at steady state. The shape is the pitch: paid-media brands launch cheap and get more expensive; this machine launches at ~$27 all-in and only travels downward — and because the play is purely affiliate (zero paid media, no Spark Ads/whitelisting), there is no ad-spend line that can quietly grow.
+
+---
+
+## 5. The Go-To-Market Machine
+
+Five coordinated plays on one shared attribution + comp backbone. Not five campaigns — **one machine with five intake valves and a compounding flywheel.**
+
+```
+Statusphere seeding ─▶ surfaces creators who post well + convert
+      │ graduate winners
+      ▼
+Katalys affiliate engine (80–100)  ◀── the core revenue driver
+      │ social proof + reach
+      ▼
+1M+ IG brand-equity (3–5)  ── credibility halo, lifts CVR everywhere
+Doctors (5–10)  ── sit on the LP, kill "is it real/safe" for all of it
+Reddit/Quora + AI-citation  ── compounding organic, near-zero cost
+      │ after 500+ happy customers
+      ▼
+Customer → Affiliate flywheel  ── Maya recruits the next Maya, zero CAC
+```
+
+### 5.1 The Affiliate Model — explained (Workstream A, the core engine)
+
+**Platform:** Katalys (performance partnerships — links, codes, commission logic, payouts).
+
+**How it works, step by step:**
+1. Each affiliate gets a **unique tracking link + branded discount code** (dual attribution: the link captures click-throughs, the code captures the "saw it Tuesday, bought Friday" delayed conversion that confessional content produces).
+2. **Commission: 15% standard, up to 20% for top-performing affiliates**, applied to every order — **including all future reorders by the customers they referred** (lifetime / customer-tied attribution). This is the no-subscription equivalent of recurring income: the creator earns every time *her* customer restocks, for life. *(If confirmed per-bottle margin is tight, split to 15–20% acquisition / ~10% reorder — a documented lever.)*
+3. **Payouts:** net-30 monthly via Katalys.
+4. **Performance tiering:** top 20% of affiliates auto-bump to the 20% rate plus periodic bonuses — rewarding *repeat* posting (repeat posts >> one-and-done).
+
+**Why 15–20% is the right rate (and enough):** the biggest OTC-brand affiliate winners don't chase the highest payout — they chase **Certainty: stability, high EPC (earnings per click), and support.** We hold commission below the influencer norm by competing on the things that actually make an affiliate money: a **high-converting landing page** (more $ per click than a higher % on a page that doesn't convert), **reliable on-time payouts**, and **real creator support**. On a $29.99 low-ticket product, over-paying commission is how you erode margin; winning on conversion + reliability is how you keep it.
+
+**Why it's efficient CAC:** an affiliate delivers both a customer *and* the content, paid only after the sale. Versus paid social CAC of ~$15–25, a ~$4.50–6 commission on a first order is cheap acquisition — and it comes with a compounding content library (see §5.7).
+
+**Recruiting funnel (target 80–100 active from ~300 outreach):** comment-mine viral "can't swallow pills" videos → DM creators + top "me too" commenters; hashtag scrape (#cantswallowpills, #pilltok); graduate Statusphere seeding winners; inbound signup link in every LP footer.
+
+**Vetting rubric (recruit 5+/10):** genuine struggle *(non-negotiable — Maya smells a script)*, confessional content history, audience match (60%+ female, 18–40, US), engagement over follower count, "me too" comment signal.
+
+### 5.2 Brand Equity — 1M+ IG (Workstream B, 3–5 creators)
+**Role:** credibility halo + reach, not last-click ROAS. When Maya sees a creator she trusts using Orelli, the whole brand becomes "real" and CVR lifts everywhere. **Comp:** flat fee ($5–15K/post) + 15% affiliate kicker + 90-day usage rights (we re-run the content on the LP + owned channels — half the value). Fire at launch, staggered over 2–3 weeks.
+
+### 5.3 Product Seeding — Statusphere (Workstream C)
+**Role:** always-on top-of-funnel that *feeds* the affiliate engine. Discover 300–400 nano/micro women who genuinely can't swallow pills → gift 150–200 units → collect UGC rights → **graduate anyone who posts well + converts to a full Katalys affiliate.** Statusphere (joinstatus.com) = discovery/gifting/content layer; Katalys = the money layer. A creator starts gifted in Statusphere and ends paid in Katalys.
+
+Why Statusphere specifically: its AI campaign manager runs creator discovery, vetting, outreach, and post management for us (no spreadsheet ops), every post comes **rights-ready** — licensed for use on our LP and owned channels — plus native TikTok Shop activation. That makes the §5.7 repurpose loop turnkey: a seeded winner's post gets re-featured across the LP and owned channels the same week, and the creator graduates into Katalys for commission. (We run zero paid media — no Spark Ads or whitelisting — so rights matter for owned distribution, not ad accounts.) One caveat to manage: Statusphere matches from its own creator network, so our "genuinely can't swallow pills" vetting bar (§5.1 rubric) is applied by *us* at the brief/approval layer — the campaign brief screens for real strugglers, not generic wellness posters.
+
+### 5.4 Doctors — Credibility (Workstream D, 5–10)
+**Role:** kill the two biggest non-format objections — *"is this real medicine / is it safe?"* — for every channel at once. They live on the **LP, FAQ, and ads as a trust layer**, not as affiliates. **2 anchor MDs** (PharmD / pain / OB-GYN / GI — bonus if they have a following) + 3–8 supporting for "medically reviewed by" volume. Comp: $1.5–3K honorarium or advisory/equity for anchors. Their strongest *true, compliant* line is our safety moat: *"a clear single-dose format helps prevent the accidental double-dosing that causes most acetaminophen harm"* (backed by our studies file — JAMA: format-based dose limits cut acute liver failure 16%; 45.6% of adults double-dip).
+
+### 5.5 Customer → Affiliate Flywheel (Workstream E, Day 60+)
+Once ~500+ delighted customers exist: Day-14 post-purchase invite to earn on every friend (one-click Katalys enroll), give-get referral as the low-friction on-ramp, capture IG handles at checkout to fast-track hidden creators, incentivize "first time taking adult medicine without gagging" UGC. **Maya's testimonial outconverts any creator's** — real customer, exact problem. Zero CAC on the recruiter; retention becomes acquisition.
+
+### 5.6 Reddit & Quora — the AI-citation channel (compounding organic)
+AI answer engines (ChatGPT, Perplexity, Gemini) now cite Reddit/Quora as source-of-truth, and **our entire demand pool already lives in Reddit "can't swallow pills" threads.** Play: find the right threads (our VoC already maps them) → post genuinely helpful answers to *"is there an adult chewable pain reliever?"* mentioning Orelli honestly → AI surfaces it for years. Near-zero cost, compounds indefinitely, and plays to exactly where our customer searches. (Compliance: disclose, stay helpful-not-spam, claims within label.)
+
+### 5.7 Create-once / Repurpose-everywhere (content ops)
+Each creator films one 60s video; we auto-repurpose (Repurpose.io-style) across TikTok/IG Reels/YouTube Shorts/Pinterest. One film × many platforms × 52 weeks = hundreds of assets from minimal production. Cheap distribution leverage for creators *and* our owned channels; the winners get re-featured on the LP + owned channels and their creators get pushed up the commission tier (organic proof → more organic reach — never paid amplification; the play is purely affiliate).
+
+---
+
+## 6. Content Strategy
+
+- **Format:** vertical, lo-fi, face-to-camera, shot in a real home. Polish reads as "ad"; confession reads as "true."
+- **Proven templates to brief the army:** *"[age] and this is how I swallow pills"* (grimace + jump-cuts), *"facing my fear,"* *"the pill hack nobody taught me"* (subverted → "or just chew this"), *"POV: you just found out…"*.
+- **The stitch concept:** stitch popular pill-*hack* videos, shake head "no," reveal Orelli (authority subversion — every hack is elaborate coping for a problem that shouldn't exist). Stitch the *hack/doctor* videos; use *confessional* videos as original-content templates (don't stitch your own avatar with a dismissive "no").
+- **Angle rotation:** one creator per angle to start (4 originals); read which *situation* pulls the strongest "that's me" comment volume; pour budget into the winning column.
+
+---
+
+## 7. Compliance (OTC drug — not a supplement)
+
+Two regimes, built into every brief:
+1. **FTC endorsement:** every paid/gifted/affiliate creator + doctor discloses (#ad / paid partner / affiliate). Gifted-for-free still requires disclosure.
+2. **OTC claims limits:** claims stay within the label — **relieves pain / reduces fever.** Prohibited: "cures," dosing advice beyond label, superiority-over-Tylenol (same molecule — the angle is *format*), pregnancy/condition claims. Provide an approved-language + never-say one-pager with every brief. A 10-minute review of any equity/doctor asset before it posts is cheap insurance.
+
+---
+
+## 8. Launch Timeline (T-0 = Dec 2026 / Jan 2027)
+
+**T-6→T-4 (Foundation, ~Oct 2026):** stand up Katalys + Statusphere; master creator tracker; briefs + compliance sheets; **begin doctor outreach (longest lead time)**; begin Statusphere discovery (300–400 prospects); start Reddit/Quora answer-seeding.
+**T-4→T-2 (Fill the pipeline):** launch Statusphere gifting (150–200 units); 300 affiliate DMs (comment-mine + hashtag); lock 2 anchor + 3–8 supporting doctors; sign 3–5 equity creators.
+**T-2→T-0 (Pre-launch ramp):** graduate first seeding winners → Katalys; finalize LP (doctor trust block + seeded UGC); brief all affiliates, **stagger the post calendar**; compliance-review equity/doctor assets.
+**T-0 (Launch):** fire 3–5 equity posts (staggered 2–3 weeks); 40–60 affiliates live → ramp to 80–100 over 2 weeks; repurpose best UGC across owned channels + the LP.
+**T+2→T+6 wks:** hit 80–100 active; tier the top 20%; cut non-posters; continuous seeding → graduation.
+**T+8→T+12 wks:** ~500+ customers → switch on Customer→Affiliate flywheel; scale winners; plan Phase-2 segment (the "medically captive" Tylenol user) *only after* the Maya engine is proven.
+
+> **Holiday note:** a Dec/Jan launch means recruiting through the holidays — start Katalys/Statusphere setup + doctor outreach by **early-mid October** so the pipeline fills before the seasonal slowdown.
+
+---
+
+## 9. KPIs & What Success Looks Like
+
+### 9.1 The bottom-up math (why 5K customers in 6 months is the right target)
+The revenue engine has physics, not hopes: **~90 active affiliates × ~2 posts/mo × ~8K median views × ~1.5% link CTR × ~3% LP CVR ≈ 650 orders/mo** at steady state — before code-based delayed conversions, equity-creator halo, seeded UGC, and Reddit/AI-citation organic. Ramping from ~40 affiliates at T-0 to 80–100 by T+4 weeks, the machine lands at **~4–5K customers in 6 months** — which independently validates the north star and defines the sensitivity levers (active count, post frequency, CVR) we manage weekly.
+
+### 9.2 Scoreboard
+- **Recruiting funnel (weekly):** outreach → reply% → accept% → posted% → active affiliates (ramp to 80–100 by T+4 wks).
+- **Per-affiliate:** clicks, code uses, orders, revenue, CVR, EPC, repeat-post count — cut dead weight, double down on the top 20%. **EPC is the #1 recruiting stat** — a rising EPC recruits the next hundred affiliates for us.
+- **North star:** customers (→5K/6mo), blended CAC, contribution margin, **AOV + reorder rate** (the LTV levers), and **% of new customers sourced from creators** (proves the thesis).
+- **Flywheel (Phase 2):** % of customers enrolled as affiliates; referral-driven order %.
+- **Organic moat:** Reddit/Quora answers live + AI-citation appearances.
+
+### 9.3 Hard targets (launch → T+12 wks)
+| Metric | Target | Why it matters |
+|:--|:--|:--|
+| LP conversion rate | **≥3%** | The EPC/Certainty promise to affiliates lives or dies here |
+| Bundle take rate | **≥55% of orders** | Bundles are the margin engine (§4.2) |
+| AOV | **≥$48** | Follows from bundle take at the 40/25/35 mix |
+| Active affiliates | 40–60 at T-0 → **80–100 by T+4 wks** | The machine's horsepower |
+| Reorder rate | **≥25% by Day 90** (cohort check at Day 60) | The LTV thesis — measured, not assumed |
+| Customers | **~5,000 by Month 6** | Proves unit economics; unlocks the flywheel |
+
+---
+
+## 10. The Moat — why this compounds and resists copying
+
+1. **The incumbents won't follow.** Tylenol/Advil won't put their molecule in a gummy and cannibalize their pill SKUs; the "adults don't buy liquid because manufacturers don't make it, and vice-versa" chicken-and-egg is one they've never solved. We own the format they won't touch.
+2. **Emotional brand ownership.** We become *the brand that sees* the pill-phobic adult. That identity can't be out-spent once claimed.
+3. **A compounding distribution asset**, not rented traffic: a creator army + Reddit/AI-citation + owned customer data + a customer→affiliate flywheel that all grow with each sale.
+4. **Proprietary VoC dataset** — the exact language, fears, and situations of the buyer, fueling ever-sharper creative.
+
+---
+
+## 11. Risks & The #1 Dependency
+
+**Taste is the make-or-break.** The entire strategy rides on masking 500mg of bitter acetaminophen in a genuinely pleasant chew. "Affiliate marketing doesn't fix a weak product — it just helps you fail faster": unleashing 80–100 creators on a chalky gummy accelerates the loss and burns creator goodwill. **Lock the taste truth on camera before scaling distribution** — if it's great, it becomes hero creative; if it isn't, fix it first. This is step one, above all else.
+
+**The taste gate (protocol — must pass before the seeding wave ships):**
+1. **Formulation rounds (PLD):** two free prototype rounds are included; additional rounds run $1,500/sample. Acceptance bar: no medicinal bitterness through a full 30-second chew, no chalky/gritty texture flags.
+2. **Blind panel:** 20–30 women from the avatar — including genuinely pill-phobic testers recruited straight from the VoC threads — taste Orelli against a leading kids' chewable and a gummy-vitamin control. Pass = **≥80% "would buy again"** and zero gag/texture red flags.
+3. **On-camera first bites:** 5–10 seeded creators film unscripted first reactions. The footage *is* the go/no-go: genuine surprise = launch hero creative; polite hedging = back to step 1.
+4. Only after a pass does the 150–200-unit Statusphere seeding wave ship. Every week spent here is cheaper than one creator posting "it's… fine."
+
+Secondary: efficacy perception (acetaminophen is the least-hyped molecule for pain — mitigate by owning the format/menstrual/headache lanes where it's accepted, and never fighting the chemistry war); price objection ($30/bottle vs. "the stupid tax" — mitigate via the format+dignity+safety story and bundle economics); compliance (managed per §7).
+
+---
+
+## 12. Milestones — What 6 Months of Execution Proves (the Series-A story)
+
+Hitting the §9.3 scoreboard produces four proofs no deck can fake:
+
+1. **CAC = commission, proven.** Marginal acquisition cost of ~$7.45/order against $15.18 contribution — a machine that funds its own growth, demonstrated on real cohorts rather than projected.
+2. **The reorder rate, measured.** By Day 90 we know whether the no-subscription LTV thesis holds (≥25% target) — converting the model's biggest assumption into data.
+3. **A distribution asset that compounds.** 80–100 active creators with rising EPC, a seeded graduation pipeline, hundreds of repurposed assets, and Reddit/AI-citation placements that keep converting at zero cost.
+4. **Category-creation evidence.** 5K customers at a 42–49% pre-commission contribution margin on a first SKU validates the format premium — and unlocks the roadmap (sleep, caffeine+APAP, guaifenesin, famotidine, and the crown-jewel ibuprofen: a $25B+ combined OTC portfolio with zero gummy competition).
+
+The comparables set the trajectory bar: Gruns went $25K → $600K/month in 3 months on gummy-format vitamins; Create hit $10M+ ARR in under 2 years on a 3×-premium creatine gummy; Julie reached 12–18K retail doors in ~2 years on a pure format-and-brand play over an $11 generic. Orelli's Month-6 proof pack is the seed-to-Series-A bridge: *the machine works, the customer reorders, the portfolio is next.*
+
+---
+
+## The Plan in One Paragraph
+
+Orelli puts the most trusted pain molecule in the one format tens of millions of adults can actually take — a gummy — for a woman 25–38 who has been quietly ashamed her whole life that she can't swallow a pill. Everything resolves to one proposition, *"It's just Tylenol, in a gummy,"* reached through four angles (convenience, choking fear, shame, untreated pain) that each speak to a different bucket. We go to market not with paid media but with a capital-efficient, performance-based creator machine — a Statusphere-seeded, Katalys-run affiliate army (15–20%, lifetime reorder) supported by a 1M+ credibility halo, a doctor trust layer, a Reddit/AI-citation organic channel, and ultimately a customer→affiliate flywheel where Maya recruits the next Maya. We win on the one axis incumbents can't copy — format — and compound a distribution asset that grows with every sale.

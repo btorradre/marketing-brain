@@ -1,0 +1,45 @@
+# V29 — Nuora presenter-VSL style match
+
+Revision scope: compare V28 finished ads with the saved Nuora library, then revise editing style. Preserve exact latest script, three hooks, Woman Over40 Natural narration at native120 percent, approved mature car presenter and prior square-overlay/no-packaging/no-guarantee-overlay constraints. No voice rewrite or new speech. Editor: native DaVinci Resolve. Preserve V28 and build isolated V29 timelines.
+
+## Reference selection and evidence
+
+Nuora is the library spelling; matches the user's “Nora”. Library index: `_engine/research/nuora-trendtrack-2026-09-07/TRANSCRIPT-INDEX.md`. Retrieved originals NU021 (failed-solution presenter269.44s), NU027 (multi-person/science montage212.82s), NU105 (short menopause montage68.88s). Full-runtime5-second overview samples inspected for all3; this is an overview, not every-frame review. Primary format benchmark is the project's original Alicia Darling Nuora car-presenter ad,175.53s; source plus existing71-shot consecutive-frame cut audit in `edit/reference-analysis/`. Supporting presenter benchmarkNU021. NU027/105 establish alternate formats, not a command to turn this approved presenter concept into a faceless montage.
+
+Observed: Alicia bold black captions on tight white rounded boxes, roughly54–60px font at720wide (81–90px at1080), few words per caption, roughly59% top-of-frame position. V28 uses52px at1080, up to8words and a70% top position: materially too small/low/wordy. Alicia source uses frequent full-frame human/science cuts and presenter returns plus smaller identification insets. V28 has14fullframe inserts covering34.9of204.7seconds(17.0%) and10insets, long uncovered story passages. Reference recorded71base shots,2smedian,46.2%fullframe B-roll. NU021 visibly allows longer presenter explanations but interrupts failed-solution, research and payoff beats with explicit demonstrations. Reference direct cuts observed; no reason to add decorative wipes/dissolves. Source-specific audio and transition follow-up inspection continues in parallel, with uncertainties recorded in comparison report.
+
+## Caption/layout revision
+
+84px Arial Bold approximation (exact reference font unverified), rounded white boxes, black type, about700px maximum line width,2lines maximum, normally3–5words per phrase, timed to existing verified speech. Top1120px (58.3%) on full-frame human/presenter footage. At user-mandated centered720-square insets, shift caption below inset to1370px to prevent overlap; this explicit layout constraint takes precedence over identical caption location. Standardized12px corner rounding,14px horizontal padding. Preserve exact words, including all3hooks. Small ingredient insets sit below standard captions; scale enough to identify details without hiding mouth. Group/research/cramping/scale/breakfast remain centered1:1. Readability at1080x1920 tested in final export.
+
+## Cut/pacing revision
+
+Use purpose-linked direct cuts, continuous unchanged speech. Add9distinct covering scenes at currently uncovered story/mechanism/product/payoff cues. Retain all24V28insert events except replace tiny gas diagram with a full-frame clearer scientific view. Extend existing B-roll only through its own continued spoken action, source handles and verified text-free interval; no fixed2-second recipe. Presenter holds remain at interpretations and questions. Same camera/presenter identity; new B-roll outfits and settings must differ from every existing insert. No reused shot counted as variety. Native authored push-in only if evidence supports it; default no arbitrary punch-ins.
+
+## New coverage, first frames and production
+
+Timing below provisional until mapped to final120-percent word alignment; source videos requested10s native9:16 GoogleOmni, then selected3–5s action intervals edited in Resolve. GPTImage2 first frames. Original provider output retained. These are generated illustrative scenes, not real customer footage or medical evidence. No audio from generated B-roll enters final mix.
+
+| ID | Exact entry cue / exit meaning | Selected action / outfit / composition | Provisional duration | Incoming / outgoing | Why this scene and edit here |
+|---|---|---|---|---|---|
+| N01 | “still leaving the dinner table early” | Same woman rises from chair while husband remains eating; sandstone blouse; wide family-room view | 3.2s | direct / presenter | Makes leaving early visible, distinct from existing close-up eating difficulty. |
+| N02 | “Everyone kept telling me how great I looked” | Same woman receives friendly greeting at doorway; burgundy blouse, polite strained smile; two-person side medium | 3.5s | direct / presenter | Shows the public/private mismatch before her explanation, without repeating a stomach close-up. |
+| N03 | “the moment it wore off I was right back where I started” | Same woman uncomfortable at a home desk, draws knees inward, hand rests abdomen; mustard knit; high three-quarter angle | 3.5s | direct / presenter | Gives the remedy-failure beat a new lived consequence instead of a long blank presenter hold. |
+| N04 | “One night I was up late scrolling” | Same woman in soft plum pajama top sitting in bedroom chair, lit by dim lamp, phone back toward camera; over-shoulder side | 3.0s | direct / existing group post | Connects a physical discovery action to the square post, as Nuora alternates human actions with documents. |
+| N05 | “But GLP-1s slow those contractions down” | Scientific cutaway of isolated smooth-muscle digestive segment; a contraction wave visibly slows; dark-blue clinical render | 3.0s | existing stomach / river | Changes anatomical scale for the mechanism step rather than repeating a torso. Illustration only. |
+| N06 | “food, waste, gas with nowhere to go” | Distinct wider schematic digestive lumen, food particles and gas bubbles accumulating behind slowly moving contents; dark-blue, no labels | 3.2s | river / presenter | Full-frame process makes the consequence readable; replaces the undersized static gas graphic. Illustration only. |
+| N07 | “I'd tried the celery juice thing back in 2019” | Same woman at sink tipping an unfinished green juice into drain, muted blue blouse, side close-up of hands/action and face | 3.5s | direct / presenter objection | Visualizes a previously abandoned attempt before the three-ingredient distinction. Different from celery identification inset. |
+| N08 | “all three in the same gummy” | Macro mature hands opening a small unbranded glass jar containing dark forest-green heart gummies; coral sleeve; counter, no water/oatmeal | 3.2s | direct / presenter | Reproduces the reference's tangible product-format identification without Motilli branding; distinct from breakfast routine. |
+| N09 | “I'm not mapping my day around when I might feel okay” | Same woman in dark teal linen top laughing with husband on patio, relaxed seated two-shot; daylight | 3.8s | cooking/presenter / closing address | Gives the regained-life claim a concrete social payoff, distinct from dinner or leaving-home footage. |
+
+Existing source manifest, ranges, crops and per-beat reasons: production-v28/H*/timeline-spec.json and production-v28/editing-plan.md. Keep each of those23body rows applicable, adding the above cue-linked events; regenerate executable per-hook maps before assembling. Hook remains immediate two-shot discomfort with approved source clips; no new product/guarantee overlay. Preserve latest spoken product/CTA.
+
+## Audio, delivery, QA
+
+Reuse verified V28 final voice audio at120percent without another speed operation; sync presenter retime as V28. No new music/SFX unless reference listening provides evidence and a suitable licensed equivalent is available. Inspect reference sound as part of audit, distinguish analysis from exact stem match. Deliver3native1080x1920/30fps MP4s, editable project/timelines, exact script and a comparison report naming retained rules, changes and explicit user-driven exceptions. Inspect captions at reading size, every new video action across its selected interval, direct cut boundaries, no missing/black frames, unchanged audio/caption words and final tail. Never label a uniform match to every170libraryad; compare the selected format-relevant references and cover each editing dimension explicitly.
+
+
+## Selected-take update
+N01 original did not leave the table and was rejected. Google Omni N01-r2 visibly walks away; select source2.3s onward. N08 selects1.8s onward around the actual lid lift. Exact cue durations are now in H*/timeline-spec.json; some short spoken cues use1.4–1.6s action excerpts, while research and the pressure consequence continue longer across the same action. All other new scenes inspected across their selected ranges for identity, action, distinct outfits and text. No generative B-roll audio is used.
+
+Final export review: fiber and three-ingredient graphics inherited different source coordinate scales and overlapped captions. Native Tilt corrected to-1140 and-1520 respectively, targeting a visible image center near1600px below captions. Re-export all three; verify actual final frames.

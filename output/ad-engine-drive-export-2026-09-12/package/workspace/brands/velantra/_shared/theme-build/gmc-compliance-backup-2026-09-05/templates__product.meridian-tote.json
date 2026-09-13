@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Sophisticated yet functional, the Meridian Tote carries your whole day &mdash; laptop, planner, and all &mdash; in a softly structured shape that never looks like it&rsquo;s working that hard.<\/p><p>Short top handles for the hand or the forearm, and a removable adjustable crossbody strap in the box for the days you need both hands.<\/p>"
+          }
+        },
+        "tab_delivery": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free. If something isn&rsquo;t right, reach out &mdash; we&rsquo;ll make it right.<\/p>"
+          }
+        },
+        "tab_care": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "<p><strong>Material<\/strong><br>Premium grained leather with polished metal accents and reinforced handles.<\/p><p><strong>Care<\/strong><br>Wipe clean with a soft, dry cloth and condition every 6&ndash;12 months with a neutral leather cream. Avoid prolonged exposure to water, heat, and direct sunlight.<\/p>"
+          }
+        },
+        "tab_dim": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Fit",
+            "content": "<p><strong>Width:<\/strong> 14.6&quot; &nbsp;|&nbsp; <strong>Height:<\/strong> 9.4&quot; &nbsp;|&nbsp; <strong>Depth:<\/strong> 5.9&quot;<br><strong>37 &times; 24 &times; 15 cm<\/strong><\/p><p><strong>Carry:<\/strong> short top handles for the hand or the forearm, plus a removable adjustable crossbody strap in the box.<\/p><p><strong>What it fits:<\/strong> a 15-inch laptop, a notebook or planner, a full wallet, a water bottle and a makeup bag. The side panels expand when you need the extra room, and one full-length zip pocket runs down the centre of the interior.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "tab_details",
+        "tab_dim",
+        "tab_delivery",
+        "tab_care",
+        "reviews"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "DESIGN",
+            "headline": "Built Around a 15-Inch Laptop",
+            "body": "<p>Every line traces back to the silhouette inside. Suede sleeve. Rigid back panel. Magnetic top.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "Drum-Dyed Full-Grain",
+            "body": "<p>Color that lives in the leather, not on top of it. Edges painted in eight coats, hand-sanded between each.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "LONGEVITY",
+            "headline": "Florentine Brass Hardware",
+            "body": "<p>Solid brass feet, recessed pulls, antiqued by hand. Won&rsquo;t tarnish. Won&rsquo;t snag.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Suede-lined throughout",
+            "body": "<p>Tonal microsuede &mdash; kinder to a laptop, holds the structure crisp.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "FOR THE DAY",
+            "headline": "Three pockets, sized for a life",
+            "body": "<p>One zip for the wallet, two open for the phone and passport. Magnetic top stays shut.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "AT THE BASE",
+            "headline": "Four solid brass feet",
+            "body": "<p>Keep the bag off the ground, off the train floor, off the bar.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "LAPTOP READY",
+            "headline": "15-inch sleeve, padded",
+            "body": "<p>Drops in flat against the rigid back panel. No friction.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "icon_bar",
+    "benefits",
+    "recently_viewed"
+  ]
+}

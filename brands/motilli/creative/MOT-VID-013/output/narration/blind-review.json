@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "candidate": "Candidate A",
+      "score": 9.5,
+      "brand_pronunciation": "Motilli pronounced correctly as [moh-TILL-ee].",
+      "medical_terms_pronunciation": "MiraLAX, GLP-1, apigenin, and chlorophyllin are all pronounced clearly and accurately.",
+      "bracketed_direction_spoken": false,
+      "timecoded_defects": [],
+      "critique": "Polished, warm, and natural delivery with consistent cadence and no audible stumbles or misreads. All technical and branded terms are articulated cleanly."
+    },
+    {
+      "candidate": "Candidate B",
+      "score": 9.5,
+      "brand_pronunciation": "Motilli pronounced accurately as [moh-TILL-ee].",
+      "medical_terms_pronunciation": "MiraLAX, GLP-1, apigenin, and chlorophyllin are pronounced accurately and naturally.",
+      "bracketed_direction_spoken": false,
+      "timecoded_defects": [],
+      "critique": "Smooth, engaging tone with slightly tighter pacing than A (122 seconds total), maintaining excellent diction and zero stumbles."
+    },
+    {
+      "candidate": "Candidate C",
+      "score": 6.0,
+      "brand_pronunciation": "Motilli pronounced correctly as [moh-TILL-ee].",
+      "medical_terms_pronunciation": "Apigenin, chlorophyllin, MiraLAX, and GLP-1 are pronounced correctly.",
+      "bracketed_direction_spoken": false,
+      "timecoded_defects": [
+        {
+          "timecode": "01:35 - 01:37",
+          "defect": "Verbal misread/stumble: speaks 'in two heart showdown' instead of 'two heart-shaped gummies'."
+        }
+      ],
+      "critique": "Strong tonal quality initially, but compromised by a significant line misread at 01:35 that alters the product description."
+    }
+  ],
+  "pacing_advice_1_25x": "A 1.25x digital speedup would compress the ~122–127 second takes down to approximately 98–101 seconds. While the current delivery is calm and relaxed enough to tolerate modest compression, a full 1.25x digital acceleration will sound slightly mechanical and noticeably rushed on multi-syllabic clinical terms like apigenin and chlorophyllin. A dedicated retake performed naturally at a ~180 wpm commercial pace is strongly recommended over a 25% post-production speed boost.",
+  "preferred_candidate": "Candidate B",
+  "rationale": "Candidate B delivers an error-free, natural performance with accurate pronunciation of all technical terms and the brand name. It is naturally the tightest take (122 seconds), putting it closest to the 95-second target while avoiding Candidate C's script error at 01:35."
+}

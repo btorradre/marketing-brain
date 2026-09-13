@@ -1,0 +1,115 @@
+{
+  "provider": "Google Gemini Interactions API",
+  "model": "gemini-omni-1.1-flash",
+  "created_utc": "2026-09-05T00:09:11.888299+00:00",
+  "variant": "mobile",
+  "reference": "assets/vivienne-studio-keyframe.png",
+  "reference_sha256": "342d540ce34de763f0156a3389868fb95efea44a6c538aec2bd13277121942db",
+  "requested_response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "3s",
+    "delivery": "inline"
+  },
+  "prompt": "Create an exactly THREE-SECOND (3.000 seconds) silent luxury fashion studio video from this approved reference photograph. One single continuous unbroken shot for the entire three seconds. Keep the same adult woman, gray suit, white blouse, black flat shoes, same exact chocolate Vivienne bag and same pale gray-white seamless studio with soft diffused neutral lighting. She stays on her marks, breathes softly and makes one barely perceptible natural weight shift, with tiny fabric movement and a gentle hand/bag sway of less than two centimetres. Her posture ends close to the starting pose, naturally, without any transition or dissolve. The camera remains completely locked. The whole bag stays clearly visible and front-facing. No zoom, pan, camera move, montage, scene cut, transition, graphic, caption or logo. Preserve the exact bag visible in the image: chocolate leather color and grain, body silhouette, braided top edge, corner reinforcement seams, rolled handles, brass vertical staples, horizontal center oval plate and single post, small key bell, and inward-angled cognac strap tails. No added or removed hardware; no shoulder strap, padlock, extra straps, changed closure or changed product proportions. Natural subject movement only; do not animate the photograph with a camera push. Completely silent: no dialogue, no music, no ambient sound, no sound effects. Output exactly three seconds, ending at 3.000s. Native portrait 9:16 at 720x1280. Compose the same woman from lower face to shoes in the portrait frame, keeping the entire bag and both shoes inside the frame. The person and bag keep their exact real-world proportions; fit them naturally in a vertical studio composition.",
+  "processing": "Provider bytes decoded from base64 and written unchanged; no editing or transcoding.",
+  "status": "approved_direct_provider_output",
+  "interaction_id": "v1_ChdxRjJiYXVQNkxNMlVfdU1QX0xtcW1BWRIXcUYyYmF1UDZMTTJVX3VNUF9MbXFtQVk",
+  "provider_status": "completed",
+  "output": "vivienne-hero-mobile-direct.mp4",
+  "bytes": 863655,
+  "sha256": "51b75242c7761121e29a28cc2466ca8fba73fe3e4a94ff1677caeba7b7539405",
+  "provider_mime_type": "video/mp4",
+  "actual_duration_seconds": 3.0,
+  "actual_dimensions": [
+    720,
+    1280
+  ],
+  "audio_streams": 1,
+  "exact_three_seconds": true,
+  "native_requested_dimensions": true,
+  "usage": {
+    "total_tokens": 60438,
+    "total_input_tokens": 1447,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 347
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58368,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 623,
+    "raw_prompt_token": 32730,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 2140
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 454
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 623
+          }
+        ]
+      }
+    ]
+  },
+  "finished_utc": "2026-09-05T00:09:40.301318+00:00",
+  "container_duration_seconds": 3.008,
+  "container_tail_seconds": 0.008,
+  "frame_count": 72,
+  "frame_rate": "24/1",
+  "poster": "vivienne-hero-mobile-direct.jpg",
+  "poster_sha256": "abf115b2666f622bd71ff945d38788759677c86a544b2ed65688265f4c5b55e5",
+  "audio_qa": {
+    "method": "ffmpeg volumedetect decoded to null sink; MP4 unchanged",
+    "mean_db": -90.3,
+    "peak_db": -84.3,
+    "assessment": "effectively silent provider AAC stream",
+    "audio_duration_seconds": 3.008
+  },
+  "visual_qa": {
+    "approved": true,
+    "inspected_seconds": [
+      0,
+      1,
+      2,
+      2.9583333333333335
+    ],
+    "checks": [
+      "correct native aspect ratio",
+      "full bag remains in frame",
+      "same model outfit and studio",
+      "bag hardware arrangement retained",
+      "no baked text or graphic",
+      "continuous natural subject motion"
+    ],
+    "notes": "Model brings trailing foot forward and settles into upright stance. Final pose differs from first pose, so native repeat has a visible restart; no seamless loop claimed. No frame edits, cuts, dissolves, cropping, rendering or transcoding applied."
+  }
+}

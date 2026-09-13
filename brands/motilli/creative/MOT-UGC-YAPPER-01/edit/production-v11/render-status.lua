@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('STATUS_PROJECT',p:GetName());if p:GetName()=='MOT-UGC-YAPPER-01 v7 V3 20260910' then local s=p:GetRenderJobStatus('ee9911a7-8111-4ebd-a26d-cbcf28a92f5e');for k,v in pairs(s) do print(k,v) end end

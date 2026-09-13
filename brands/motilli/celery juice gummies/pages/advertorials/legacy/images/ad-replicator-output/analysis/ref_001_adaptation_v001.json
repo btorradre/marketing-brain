@@ -1,0 +1,38 @@
+{
+  "analysis": {
+    "why_it_works": "This image leverages context-based marketing by showing products in their natural retail environment. It creates a sense of normalcy and accessibility - these aren't exotic solutions, they're everyday products available at your local pharmacy. The variety of options creates a paradox of choice that actually drives purchase decisions ('I need to pick one of these'). The clear category signage validates the product category as legitimate and established. The presence of other shoppers in the background adds social proof that people actively seek these solutions.",
+    "visual_elements": "Overhead aisle sign reading 'PAIN RELIEF & JOINT CARE' in bold black sans-serif font on white background. Multiple shelves with organized rows of pain relief products. Price tags visible on shelf edges showing prices like $2.99, $1.49. Various product packages in blue, yellow, orange, and red color schemes. Fluorescent pharmacy lighting creating bright, clinical atmosphere. Blurred customers shopping in background. White metal shelving with perforated backing.",
+    "composition": "Eye-level perspective shot down pharmacy aisle. Products arranged in horizontal rows on 3-4 visible shelves. Depth of field focuses on foreground products while background shoppers are slightly blurred. Standard retail shelf layout with category signage at top. Approximately 16:9 aspect ratio landscape orientation.",
+    "angle": "authority (clinical/pharmacy setting) combined with social proof (active shoppers) and category validation (established product section)",
+    "audience": "Adults 35-65 experiencing joint pain or chronic discomfort. Problem-aware individuals actively seeking OTC pain relief solutions. Middle-class consumers who shop at mainstream pharmacies. Health-conscious but prefer non-prescription options before seeing doctors.",
+    "product_presence": {
+      "has_product": true,
+      "type": "bottle",
+      "sentiment": "positive",
+      "description": "Multiple pain relief products including Joint Relief, Arthro-Ease, Heat Wraps, and Ibuprofen in various package sizes and formulations"
+    },
+    "text_content": "PAIN RELIEF & JOINT CARE, ARTHRO-EASE, JOINT RELIEF, HEAT WRAPS, IBUPROFEN, 30, $2.99, $1.49",
+    "style": "editorial",
+    "color_palette": [
+      "#FFFFFF (clean, clinical background)",
+      "#000000 (authoritative signage text)",
+      "#0052CC (trust, medical - Joint Relief packages)",
+      "#FFC107 (attention, energy - Arthro-Ease)",
+      "#FF5722 (warmth, relief - Heat Wraps)",
+      "#E0E0E0 (neutral shelving)"
+    ],
+    "mood": "clinical/authoritative"
+  },
+  "adaptation": {
+    "adaptation_strategy": "Preserve the exact pharmacy aisle composition, perspective, lighting, and retail environment while changing the category from pain relief to digestive health/constipation remedies. Keep the same shelf layout, price tags, depth of field with blurred shoppers, and clinical pharmacy atmosphere. Replace all pain relief products with generic constipation remedy boxes and bottles in similar packaging styles.",
+    "image_prompt": "Transform this pharmacy aisle image while keeping the EXACT same camera angle, perspective, composition, and lighting. Change the overhead aisle sign from 'PAIN RELIEF & JOINT CARE' to 'DIGESTIVE HEALTH & FIBER' in the same bold black sans-serif font on white background. Replace ALL products on the shelves with constipation and digestive remedy boxes. Include boxes clearly labeled: 'LAXATIVE' in navy blue packaging, 'FIBER SUPPLEMENT' in green packaging, 'STOOL SOFTENER' in purple packaging, 'DIGESTIVE AID' in orange packaging, 'MIRALAX' in purple and white packaging. Keep the same shelf arrangement with products in neat rows. Maintain the visible price tags on shelf edges showing prices like $3.99, $2.49. Keep the same fluorescent pharmacy lighting creating a bright, clinical atmosphere. Keep the blurred customers shopping in the background. Maintain the white metal shelving with perforated backing. DO NOT include any Motilli products, gummies, or branded items - only generic constipation remedies. Keep the same depth of field with foreground products in focus and background slightly blurred.",
+    "product_handling": {
+      "include_product_ref": false,
+      "reason": "This is a contextual image showing failed conventional solutions that GLP-1 patients try before discovering Motilli - no Motilli product should appear"
+    },
+    "text_replacements": {
+      "original": "PAIN RELIEF & JOINT CARE",
+      "adapted": "DIGESTIVE HEALTH & FIBER"
+    }
+  }
+}

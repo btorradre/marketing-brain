@@ -1,0 +1,73 @@
+{
+  "shot": "S37",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A tiny physical camera move and changing soft reflections bring life to the centered jar and exactly two heart gummies; keep the product fully visible and preserve every label letter. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S37.png",
+  "reference_sha256": "476de95b16b53e5221fde8c473122296c6d54f699e0ee779eeedd6896c5394aa",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "6s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chc1Yk9nYXZDY0JKMl9xdHNQbDlHa3FBOBIXNWJPZ2F2Q2NCSjJfcXRzUGw5R2txQTg",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S37.mp4",
+  "sha256": "d0201a650571235246629b56a8028c71a956f0a869535908af58b9082dc445f7",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 6.0,
+  "usage": {
+    "total_tokens": 60191,
+    "total_input_tokens": 1164,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 64
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58555,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 472,
+    "raw_prompt_token": 31662,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1857
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 641
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 472
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

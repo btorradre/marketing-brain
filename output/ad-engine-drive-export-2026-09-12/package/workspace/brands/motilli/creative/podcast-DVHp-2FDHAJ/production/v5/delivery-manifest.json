@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "main_export": "Motilli-Podcast-Final.mp4",
+  "duration_video_seconds": 197.23333333333332,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "editor": "DaVinci Resolve 21.1",
+  "timeline": "Motilli Podcast v5 Final 04",
+  "presenter_model": "HeyGen Avatar V",
+  "female_voice": "Woman Over 30",
+  "male_voice": "Authorized Parker Schley clone",
+  "broll": "Google Omni; native 720p sources scaled in 1080p edit",
+  "script_sha256": "6143dbd1fbffe8ac4600e2bd67aa71995b8a21f32d3c383932b3546000b386c0",
+  "captions": 104,
+  "audio_correlation": 0.9998455075003486,
+  "audio_lag_seconds": 0.0,
+  "full_decode_passed": true,
+  "visual_review": "61 cards and consecutive picture-boundary frames inspected; two short split-screen gaps corrected and rechecked.",
+  "independent_av_review": "No apparent speaker attribution or lip-sync problems in reduced-resolution audiovisual review; subtle artifacts may not be detectable.",
+  "transcript_review": "99.32% raw ASR token match. Differences: brand spelling, 90/ninety, and one gut/guts rendering; no missing line or speaker turn detected.",
+  "board_url": "http://localhost:8765/b/motilli-podcast-dvhp-storyboard",
+  "files": {
+    "podcast-captions.srt": {
+      "bytes": 6295,
+      "sha256": "d0611a3c6c63c72a30e50b08fa673cb3152426ae358ae7fbb9bf5c36310a2c21"
+    },
+    "Motilli-guest-AvatarV-Master.mp4": {
+      "bytes": 301859950,
+      "sha256": "0823871f33f9f161f0ce9d3823d4f69a88afe195df329650ac9f5f4dbe9b7b61"
+    },
+    "Motilli-Podcast-Final.drp": {
+      "bytes": 513919,
+      "sha256": "8774ab717f0a6df05e6a9c084a4b23aef2028de85c58e3bc8bc9d4c165a8db42"
+    },
+    "Motilli-Podcast-Final.drt": {
+      "bytes": 125495,
+      "sha256": "4690f6afbb460b2a2ad616c0d036430ad834becdee47258c5b2a35ffb005cb5f"
+    },
+    "Motilli-host-AvatarV-Master.mp4": {
+      "bytes": 52149054,
+      "sha256": "b0359ed3ab9d76cbb6ba02e04b874eb7e77d07f15486d37f213a1c7e6c9de4c3"
+    },
+    "Motilli-Podcast-Final.mp4": {
+      "bytes": 353267757,
+      "sha256": "a59e643e151869997b3b42119f3860c4f0ad22327f21ff1014566034d7d67035"
+    }
+  }
+}

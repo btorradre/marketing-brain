@@ -1,0 +1,27 @@
+local r=fu:GetResolve();
+local pm=r:GetProjectManager();
+local p=pm:GetCurrentProject();
+assert(not p:IsRenderingInProgress());
+local t=nil;
+for i=1,p:GetTimelineCount() do local q=p:GetTimelineByIndex(i);
+if q:GetName()=='v20 FINAL - 1.1x Michelle' then t=q end end;
+assert(t,'V20 timeline missing');
+assert(p:SetCurrentTimeline(t));
+assert(t:GetEndFrame()==8573);
+local v=t:GetItemListInTrack('video',1)[1];
+local a=t:GetItemListInTrack('audio',1)[1];
+assert(v:GetSpeed().Percentage==110 and a:GetSpeed().Percentage==110 and a:GetSpeed().PitchCorrection==true);
+t:SetTrackName('video',1,'V18 complete synchronized edit - 110 percent');
+t:SetTrackName('audio',1,'Michelle - 110 percent - pitch correction');
+assert(pm:SaveProject());
+assert(t:Export("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v20/deliverables/Motilli-Unbranded-VSL-v20-1.1x.drt",r.EXPORT_DRT));
+assert(pm:ExportProject(p:GetName(),"/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v20/deliverables/Motilli-Unbranded-VSL-v20-1.1x.drp"));
+p:SetCurrentRenderMode(1);
+p:SetRenderSettings({ExportVideo=true,ExportAudio=true});
+assert(p:SetCurrentRenderFormatAndCodec('mp4','H264'));
+assert(p:SetRenderSettings({TargetDir="/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v20/deliverables",CustomName='Motilli-Unbranded-VSL-v20-1.1x',SelectAllFrames=true,FormatWidth=1080,FormatHeight=1920,FrameRate=30,ExportVideo=true,ExportAudio=true,AudioCodec='aac',AudioSampleRate=48000,VideoQuality=16000,NetworkOptimization=true}));
+local job=p:AddRenderJob();
+assert(job);
+print('V20_RENDER_JOB',job);
+assert(pm:SaveProject());
+p:StartRendering(job)

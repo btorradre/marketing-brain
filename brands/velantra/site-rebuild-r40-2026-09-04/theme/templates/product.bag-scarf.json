@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>A soft silk-blend fabric gives the Bag Scarf its lightness and fluid drape. Color, print and a gentle sheen turn a simple knot into a considered finishing touch, whether wound around a handle or left with the tails falling loosely. Each pattern brings a different mood to the bag beside it. It is a small way to make a familiar piece feel personal again.</p>",
+        "fact_material": "Lightweight silk-blend fabric",
+        "fact_detail": "Soft drape",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true,
+        "hide_unassigned_media": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Lightweight printed scarf with softly finished edges. Tie around a bag handle or style as a hair or neck accessory.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Silk-blend fabric. Spot-clean gently or dry-clean; avoid wringing. Store flat or loosely rolled and keep out of prolonged sunlight.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

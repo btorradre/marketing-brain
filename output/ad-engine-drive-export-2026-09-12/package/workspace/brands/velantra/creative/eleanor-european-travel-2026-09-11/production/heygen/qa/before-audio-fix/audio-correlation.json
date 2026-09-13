@@ -1,0 +1,44 @@
+{
+  "native": {
+    "decoded_seconds": 79.296,
+    "checks": [
+      {
+        "start_seconds": 0,
+        "lag_seconds": 0.0,
+        "correlation": 0.9999474076812083
+      },
+      {
+        "start_seconds": 32,
+        "lag_seconds": 0.0,
+        "correlation": 0.9999372505874947
+      },
+      {
+        "start_seconds": 65,
+        "lag_seconds": 0.0,
+        "correlation": 0.999927641018924
+      }
+    ],
+    "pass": true
+  },
+  "final": {
+    "decoded_seconds": 81.321375,
+    "checks": [
+      {
+        "start_seconds": 0,
+        "lag_seconds": 0.05125,
+        "correlation": 0.948478195617176
+      },
+      {
+        "start_seconds": 32,
+        "lag_seconds": 0.05125,
+        "correlation": 0.9473828233085915
+      },
+      {
+        "start_seconds": 65,
+        "lag_seconds": 0.05125,
+        "correlation": 0.9424693383017808
+      }
+    ],
+    "pass": false
+  }
+}

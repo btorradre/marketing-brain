@@ -1,0 +1,40 @@
+{%- comment -%}
+  In-buy-column "Check In-Store Availability" — collapsible row matching Cuyana reference.
+  Cuyana shows just text + chevron, expands to body copy.
+{%- endcomment -%}
+
+<details class="pdp-row pdp-row--instore">
+  <summary class="pdp-row__summary">
+    <span>Check In-Store Availability</span>
+    <svg class="pdp-row__chev" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M4 6l4 4 4-4"/>
+    </svg>
+  </summary>
+  <div class="pdp-row__body">
+    <p>Velantra is direct-to-consumer. Every order ships from our New York atelier &mdash; typically delivered within 7 to 10 business days.</p>
+    <p><a href="/pages/contact">Contact us</a> for showroom appointments or trunk-show schedules.</p>
+  </div>
+</details>
+
+<style>
+  .pdp-row {
+    margin: 0;
+    border-top: 1px solid #e8e8e1;
+  }
+  .pdp-row__summary {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 0; cursor: pointer; list-style: none;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 15px; font-weight: 500; color: #1a1a1a;
+  }
+  .pdp-row__summary::-webkit-details-marker { display: none; }
+  .pdp-row__chev { transition: transform 200ms; opacity: 0.7; }
+  .pdp-row[open] .pdp-row__chev { transform: rotate(180deg); }
+  .pdp-row__body {
+    padding: 0 0 22px;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 14px; line-height: 1.6; color: #4a4a4a;
+  }
+  .pdp-row__body p { margin: 0 0 10px; }
+  .pdp-row__body a { color: #1a1a1a; text-decoration: underline; text-underline-offset: 3px; }
+</style>

@@ -1,0 +1,319 @@
+{%- comment -%}
+  ADVERTORIAL JSON RENDERER
+  ─────────────────────────
+  This section reads the page content as JSON and renders it into
+  a native editorial layout (Facebook-native card style).
+
+  USAGE:
+  1. Create a Shopify page with template "advertorial"
+  2. In the page content (code editor), paste your advertorial JSON
+     wrapped in: <div id="adv-json" style="display:none">...JSON...</div>
+  3. This template renders it automatically
+
+  The CSS + JS are self-contained in this section.
+{%- endcomment -%}
+
+<style>
+/* ── SUPPRESS SHOPIFY UI ── */
+header, nav, footer,
+#shopify-section-header,
+#shopify-section-announcement-bar,
+#shopify-section-footer,
+[id^="shopify-section-header"],
+[id^="shopify-section-footer"],
+[id^="shopify-section-announcement"],
+.site-header, .site-nav, .site-footer,
+.main-header, .page-header, .global-header,
+.sticky-header, .mobile-nav, .top-bar, .topbar,
+.announcement-bar, .announcement__bar,
+.cart-notification, .cart-notification-wrapper,
+.disclosure, .skip-to-content,
+#CartDrawer, #MobileMenu,
+#shopify-section-cart-notification,
+.predictive-search, #header-group,
+.newsletter, .footer,
+[id*="footer"], [id*="newsletter"] {
+  display: none !important;
+}
+body, html { padding-top: 0 !important; margin-top: 0 !important; }
+main, #MainContent, .main-content, #main-content, [role="main"] {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+.page__title, h1.page__title, .page-title { display: none !important; }
+
+/* ── EDITORIAL CARD STYLES ── */
+:root {
+  --fb-bg: #f0f2f5;
+  --fb-card: #ffffff;
+  --fb-blue: #1877f2;
+  --fb-blue-h: #166fe5;
+  --fb-text: #050505;
+  --fb-mid: #65676b;
+  --fb-div: #e4e6eb;
+  --fb-lite: #e7f3ff;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+html, body {
+  background: var(--fb-bg); color: var(--fb-text);
+  font-family: var(--font); font-size: 15px;
+  line-height: 1.4; -webkit-font-smoothing: antialiased;
+}
+.adv-page { max-width: 680px; margin: 0 auto; }
+.adv-article { background: var(--fb-card); margin-bottom: 8px; }
+
+/* Title Block */
+.adv-top { padding: 20px 16px 14px; border-bottom: 1px solid var(--fb-div); }
+.adv-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fb-mid); margin-bottom: 14px; }
+.adv-kicker { font-size: 15px; font-weight: 700; color: var(--fb-blue); line-height: 1.3; margin-bottom: 14px; }
+.adv-main-title { font-size: 26px; font-weight: 800; line-height: 1.2; color: var(--fb-text); margin-bottom: 14px; }
+.adv-sub-title { font-size: 19px; font-weight: 700; line-height: 1.3; color: var(--fb-text); margin-bottom: 12px; }
+.adv-sub-italic { font-size: 16px; font-style: italic; font-weight: 400; color: var(--fb-mid); line-height: 1.4; margin-bottom: 12px; }
+.adv-byline { font-size: 13px; color: var(--fb-mid); }
+.adv-byline strong { color: var(--fb-text); }
+
+/* Hero Image */
+.adv-hero { width: 100%; line-height: 0; }
+.adv-hero img { width: 100%; display: block; }
+
+/* Body Text */
+.adv-body { padding: 14px 16px; }
+.adv-body p { font-size: 17px; line-height: 1.65; color: var(--fb-text); margin-bottom: 16px; font-weight: 400; }
+.adv-body p:last-child { margin-bottom: 0; }
+.adv-body p strong { font-weight: 700; }
+.adv-body p em { font-style: italic; }
+.adv-body h2 { font-size: 21px; font-weight: 800; color: var(--fb-text); line-height: 1.2; margin: 26px 0 12px; }
+.adv-body h2:first-child { margin-top: 0; }
+.adv-body h3 { font-size: 18px; font-weight: 700; color: var(--fb-text); line-height: 1.3; margin: 20px 0 8px; }
+
+/* Pull Quote */
+.adv-pull { border-left: 3px solid var(--fb-blue); padding: 10px 14px; margin: 18px 16px; background: var(--fb-lite); border-radius: 0 6px 6px 0; }
+.adv-pull p { font-size: 16px !important; font-style: italic; color: var(--fb-text) !important; line-height: 1.55 !important; margin-bottom: 0 !important; }
+.adv-pull p + p { margin-top: 10px !important; }
+.adv-pull cite { display: block; font-size: 13px; color: var(--fb-mid); font-style: normal; font-weight: 600; margin-top: 8px; }
+
+/* Callout Box */
+.adv-callout { background: var(--fb-bg); border-radius: 8px; padding: 14px 16px; margin: 16px; border: 1px solid var(--fb-div); text-align: center; }
+.adv-callout p { font-size: 16px !important; font-weight: 700 !important; color: var(--fb-text) !important; margin: 0 !important; line-height: 1.4 !important; }
+
+/* Symptom / Checklist */
+.adv-sym-list { list-style: none; padding: 0; margin: 10px 16px 18px; }
+.adv-sym-list li { padding: 10px 0 10px 26px; position: relative; border-bottom: 1px solid var(--fb-div); font-size: 17px; line-height: 1.5; color: var(--fb-text); }
+.adv-sym-list li:last-child { border-bottom: none; }
+.adv-sym-list li::before { content: "\2713"; position: absolute; left: 0; top: 11px; color: var(--fb-blue); font-weight: 700; font-size: 14px; }
+
+/* Ingredient Section */
+.adv-ingredient { border-top: 1px solid var(--fb-div); padding: 16px; }
+.adv-ingredient:first-of-type { border-top: none; }
+.adv-ingredient h3 { margin-top: 0; font-size: 18px; font-weight: 700; color: var(--fb-text); line-height: 1.3; margin-bottom: 8px; }
+.adv-ingredient p { font-size: 17px; line-height: 1.65; color: var(--fb-text); margin-bottom: 0; }
+
+/* Testimonial */
+.adv-testi { background: var(--fb-bg); border-radius: 8px; padding: 14px; margin: 14px 16px; border: 1px solid var(--fb-div); }
+.adv-testi-top { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.adv-testi-av { width: 36px; height: 36px; border-radius: 50%; background: var(--fb-blue); color: #fff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.adv-testi-name { font-size: 14px; font-weight: 700; color: var(--fb-text); }
+.adv-testi-sub { font-size: 12px; color: var(--fb-mid); margin-top: 1px; }
+.adv-testi-text { font-size: 15px; color: var(--fb-text); line-height: 1.5; }
+.adv-testi-actions { display: flex; gap: 16px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--fb-div); font-size: 13px; font-weight: 600; color: var(--fb-mid); }
+.adv-testi-actions .like { color: var(--fb-blue); }
+
+/* Guarantee */
+.adv-guarantee { background: #1c1c1e; color: #fff; padding: 28px 16px; text-align: center; }
+.adv-guar-badge { width: 72px; height: 72px; background: var(--fb-blue); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 16px; }
+.adv-guar-badge .days { font-size: 24px; font-weight: 800; color: #fff; line-height: 1; }
+.adv-guar-badge .label { font-size: 10px; color: rgba(255,255,255,0.75); text-transform: uppercase; letter-spacing: 0.06em; }
+.adv-guarantee h2 { font-size: 18px; font-weight: 800; color: #fff; margin: 0 0 10px; line-height: 1.3; }
+.adv-guarantee p { font-size: 15px; color: rgba(255,255,255,0.8); line-height: 1.5; margin: 0; }
+
+/* CTA */
+.adv-cta-wrap { padding: 16px; background: var(--fb-card); }
+.adv-btn { display: block; width: 100%; background: #16a34a; color: #fff; text-decoration: none; font-family: var(--font); font-size: 17px; font-weight: 700; padding: 14px 24px; border-radius: 6px; text-align: center; transition: background 0.15s; }
+.adv-btn:hover { background: #15803d; }
+
+/* P.S. */
+.adv-ps { padding: 12px 16px; background: var(--fb-bg); font-size: 14px; color: var(--fb-mid); line-height: 1.55; border-top: 1px solid var(--fb-div); }
+.adv-ps strong { color: var(--fb-text); }
+
+/* Footer */
+.adv-foot { padding: 16px; font-size: 12px; color: var(--fb-mid); line-height: 1.6; background: var(--fb-card); border-top: 1px solid var(--fb-div); }
+.adv-foot p { margin-bottom: 5px; font-size: 12px; color: var(--fb-mid); }
+.adv-foot a { color: var(--fb-mid); text-decoration: underline; }
+</style>
+
+<!-- Render target -->
+<div class="adv-page">
+  <div id="adv-render" class="adv-article"></div>
+</div>
+
+<!-- The page content (JSON) is injected by Shopify's {{ page.content }} -->
+<div id="adv-source" style="display:none">
+  {{ page.content }}
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  // Parse JSON from page content
+  var sourceEl = document.getElementById('adv-source');
+  if (!sourceEl) return;
+
+  var raw = sourceEl.textContent.trim();
+  // Try to extract JSON from the content (might be wrapped in HTML tags)
+  var jsonMatch = raw.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) return;
+
+  var data;
+  try {
+    data = JSON.parse(jsonMatch[0]);
+  } catch(e) {
+    console.error('Advertorial JSON parse error:', e);
+    return;
+  }
+
+  var target = document.getElementById('adv-render');
+  if (!target) return;
+
+  var html = '';
+
+  // ── HEADER ──
+  if (data.header) {
+    var h = data.header;
+    html += '<div class="adv-top">';
+    if (h.advLabel) html += '<div class="adv-label">' + h.advLabel + '</div>';
+    if (h.kicker) html += '<div class="adv-kicker">' + h.kicker + '</div>';
+    if (h.mainTitle) html += '<div class="adv-main-title">' + h.mainTitle + '</div>';
+    if (h.subTitle) html += '<div class="adv-sub-title">' + h.subTitle + '</div>';
+    if (h.subItalic) html += '<div class="adv-sub-italic">' + h.subItalic + '</div>';
+    if (h.byline) {
+      html += '<div class="adv-byline">By <strong>' + h.byline.name + '</strong>';
+      if (h.byline.credential) html += ', ' + h.byline.credential;
+      if (h.byline.suffix) html += ' &middot; ' + h.byline.suffix;
+      html += '</div>';
+    }
+    html += '</div>';
+  }
+
+  // ── HERO IMAGE ──
+  if (data.heroImage && data.heroImage.src) {
+    html += '<div class="adv-hero"><img src="' + data.heroImage.src + '" alt="' + (data.heroImage.alt || '') + '" /></div>';
+  }
+
+  // ── SECTIONS ──
+  if (data.sections && Array.isArray(data.sections)) {
+    data.sections.forEach(function(sec) {
+      switch(sec.type) {
+
+        case 'body':
+          html += '<div class="adv-body">';
+          if (sec.paragraphs) {
+            sec.paragraphs.forEach(function(p) {
+              html += '<p>' + p + '</p>';
+            });
+          }
+          html += '</div>';
+          break;
+
+        case 'heading':
+          var tag = sec.level === 3 ? 'h3' : 'h2';
+          html += '<div class="adv-body"><' + tag + '>' + sec.text + '</' + tag + '></div>';
+          break;
+
+        case 'pullQuote':
+          html += '<div class="adv-pull">';
+          if (sec.paragraphs) {
+            sec.paragraphs.forEach(function(p) {
+              html += '<p>' + p + '</p>';
+            });
+          }
+          if (sec.cite) html += '<cite>&mdash; ' + sec.cite + '</cite>';
+          html += '</div>';
+          break;
+
+        case 'callout':
+          html += '<div class="adv-callout"><p>' + sec.text + '</p></div>';
+          break;
+
+        case 'symptomList':
+          html += '<ul class="adv-sym-list">';
+          if (sec.items) {
+            sec.items.forEach(function(item) {
+              html += '<li>' + item + '</li>';
+            });
+          }
+          html += '</ul>';
+          break;
+
+        case 'ingredient':
+          html += '<div class="adv-ingredient">';
+          if (sec.name) html += '<h3>' + sec.name + '</h3>';
+          if (sec.text) html += '<p>' + sec.text + '</p>';
+          html += '</div>';
+          break;
+
+        case 'testimonial':
+          html += '<div class="adv-testi">';
+          html += '<div class="adv-testi-top">';
+          html += '<div class="adv-testi-av">' + (sec.initial || sec.name.charAt(0)) + '</div>';
+          html += '<div><div class="adv-testi-name">' + sec.name + '</div>';
+          if (sec.sub) html += '<div class="adv-testi-sub">' + sec.sub + '</div>';
+          html += '</div></div>';
+          if (sec.text) html += '<div class="adv-testi-text">' + sec.text + '</div>';
+          html += '<div class="adv-testi-actions"><span class="like">&#128077; Like</span> <span>&#128172; Reply</span> <span>&#8599; Share</span></div>';
+          html += '</div>';
+          break;
+
+        case 'guarantee':
+          html += '<div class="adv-guarantee">';
+          html += '<div class="adv-guar-badge"><div class="days">' + (sec.days || 60) + '</div><div class="label">Day Guarantee</div></div>';
+          if (sec.title) html += '<h2>' + sec.title + '</h2>';
+          if (sec.text) html += '<p>' + sec.text + '</p>';
+          html += '</div>';
+          break;
+
+        case 'cta':
+          html += '<div class="adv-cta-wrap"><a class="adv-btn" href="' + (sec.url || '#') + '">' + (sec.text || 'CHECK AVAILABILITY') + '</a></div>';
+          break;
+
+        case 'ps':
+          html += '<div class="adv-ps"><p>' + sec.text + '</p></div>';
+          break;
+
+        case 'image':
+          html += '<div class="adv-hero"><img src="' + sec.src + '" alt="' + (sec.alt || '') + '" /></div>';
+          break;
+      }
+    });
+  }
+
+  // ── FOOTER ──
+  if (data.footer) {
+    var f = data.footer;
+    html += '<div class="adv-foot">';
+    if (f.disclaimer) html += '<p>' + f.disclaimer + '</p>';
+    if (f.copyright) {
+      html += '<p>' + f.copyright;
+      if (f.links) {
+        f.links.forEach(function(link, i) {
+          if (i > 0) html += ' &middot; ';
+          else html += ' ';
+          html += '<a href="' + link.url + '">' + link.text + '</a>';
+        });
+      }
+      html += '</p>';
+    }
+    html += '</div>';
+  }
+
+  target.innerHTML = html;
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Advertorial Renderer",
+  "tag": "section",
+  "class": "adv-renderer-section",
+  "settings": []
+}
+{% endschema %}

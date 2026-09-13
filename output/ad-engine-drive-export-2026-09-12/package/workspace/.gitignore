@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+*.key
+*credentials*.json
+gdrive_token.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Claude
+.claude/plans/

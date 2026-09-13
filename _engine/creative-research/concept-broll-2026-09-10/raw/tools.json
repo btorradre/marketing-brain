@@ -1,0 +1,4299 @@
+{
+  "jsonrpc": "2.0",
+  "id": "tools",
+  "result": {
+    "tools": [
+      {
+        "name": "lookup",
+        "description": "Resolve public TrendTrack entities by brand name, shop domain, Facebook page id, or Instagram handle. Results include routeable IDs in markdown and structuredContent, such as brandtracker_id, shop_id/domain, and facebook_page_id. Best results come from natural identifiers rather than SQL-like probes.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "q"
+          ],
+          "properties": {
+            "q": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 200,
+              "description": "Brand name, shop domain, Facebook page id, or Instagram handle to resolve. Use natural identifiers (not SQL fragments or punctuation-heavy probes)."
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "auto",
+                "brandtracker",
+                "advertiser",
+                "shop"
+              ],
+              "default": "auto",
+              "description": "Use auto for broad lookup, or narrow to brandtracker, advertiser, or shop."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10,
+              "default": 5
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "usage_get",
+        "description": "Read the canonical current workspace public API usage snapshot (billing period, included quota, and remaining credits).",
+        "inputSchema": {
+          "type": "object",
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "check_credits",
+        "description": "Check workspace credit balance and current-period usage (compatibility-stable helper; returns the same canonical usage snapshot fields as usage_get).",
+        "inputSchema": {
+          "type": "object",
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "scan_ad",
+        "description": "Deep-scan either one Meta/Facebook ad (ad_identifier) or the combined creative returned by search_ads (collation_id). Collation scans use the same Elasticsearch aggregate as search_ads and return an active-first preview of up to 20 related ad ids, total/active counts, and a truncation flag; reach analysis still uses every member internally. Returns a source-labeled opening hook when existing transcript data is available, copy framing, creative structure, landing page, reach signals, estimated spend when available, lifetime, media links, and a deterministic scaling verdict. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary.",
+        "inputSchema": {
+          "type": "object",
+          "oneOf": [
+            {
+              "required": [
+                "ad_identifier"
+              ]
+            },
+            {
+              "required": [
+                "collation_id"
+              ]
+            }
+          ],
+          "properties": {
+            "ad_identifier": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 500,
+              "description": "Meta Ad Library URL, TrendTrack ad URL, or public ad id to scan as one individual ad. Mutually exclusive with collation_id."
+            },
+            "collation_id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Creative collation id returned by search_ads. Scans the same combined Elasticsearch creative and returns an active-first preview of up to 20 related ad ids plus total counts. Mutually exclusive with ad_identifier."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "list_tracked_brands",
+        "description": "List tracked brands in the authenticated TrendTrack workspace using pagination. Returns compact rows with Brandtracker IDs for follow-up analysis.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "description": "Page number of tracked brands to return."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 25,
+              "default": 20,
+              "description": "Number of tracked brands per page (max 25)."
+            },
+            "folder_id": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Optional exact folder id filter."
+            },
+            "folder_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "minItems": 1,
+              "description": "Optional exact folder id filters."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "list_brandtracker_folders",
+        "description": "List brandtracker folders in the authenticated workspace. Returns compact folder rows with id, name, rank, and brandtrackerCount.",
+        "inputSchema": {
+          "type": "object",
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "add_to_brandtracker",
+        "description": "Add a tracked brand to the authenticated workspace. Provide exactly one of facebook_page_id, website_id, shop_id, or domain. API-key MCP callers are workspace-authorized like REST keys; OAuth callers need trendtrack:brandtrackers.write.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "facebook_page_id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128,
+              "description": "Meta/Facebook page id to track. Provide exactly one of facebook_page_id, website_id, shop_id, or domain."
+            },
+            "website_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Website/shop UUID to add as a shop-level tracked brand."
+            },
+            "shop_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Alias of website_id for shop-oriented MCP callers."
+            },
+            "domain": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 253,
+              "description": "Shop domain to resolve and track. Protocol, path, and leading www are normalized away."
+            },
+            "folder_id": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Optional initial brandtracker folder membership."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "delete_from_brandtracker",
+        "description": "Delete/deactivate a tracked brand workspace link identified by exactly one of brandtracker_id or workspace_link_id. Requires confirm: true and trendtrack:brandtrackers.write for OAuth callers.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "confirm"
+          ],
+          "properties": {
+            "brandtracker_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Public brandtracker id to delete. Provide exactly one of brandtracker_id or workspace_link_id."
+            },
+            "workspace_link_id": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Workspace link id to delete. Provide exactly one of brandtracker_id or workspace_link_id."
+            },
+            "confirm": {
+              "type": "boolean",
+              "const": true,
+              "description": "Required. Must be exactly true for destructive MCP mutations."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true
+        }
+      },
+      {
+        "name": "create_brandtracker_folder",
+        "description": "Create a brandtracker folder in the authenticated workspace.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "name"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "rename_brandtracker_folder",
+        "description": "Rename a brandtracker folder in the authenticated workspace.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "folder_id",
+            "name"
+          ],
+          "properties": {
+            "folder_id": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "delete_brandtracker_folder",
+        "description": "Delete a brandtracker folder. Requires confirm: true. Use action=move_to_default to keep trackers active, or delete_tracked_brands to deactivate affected workspace links.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "folder_id",
+            "action",
+            "confirm"
+          ],
+          "properties": {
+            "folder_id": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "action": {
+              "type": "string",
+              "enum": [
+                "move_to_default",
+                "delete_tracked_brands"
+              ],
+              "description": "move_to_default clears the folder on active trackers; delete_tracked_brands deactivates active workspace links."
+            },
+            "confirm": {
+              "type": "boolean",
+              "const": true,
+              "description": "Required. Must be exactly true for destructive MCP mutations."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true
+        }
+      },
+      {
+        "name": "move_tracked_brands",
+        "description": "Replace all folder memberships for tracked brands with one destination folder, or remove all memberships with folder_id=null. Provide exactly one of brandtracker_ids or workspace_link_ids.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "folder_id"
+          ],
+          "properties": {
+            "brandtracker_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 250,
+              "description": "Public brandtracker ids to move. Provide exactly one of brandtracker_ids or workspace_link_ids."
+            },
+            "workspace_link_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "minItems": 1,
+              "maxItems": 250,
+              "description": "Workspace link ids to move. Provide exactly one of brandtracker_ids or workspace_link_ids."
+            },
+            "folder_id": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Sole destination folder id, replacing all existing folder memberships; null removes all memberships and moves tracked brands to root."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "search_shops",
+        "description": "Search TrendTrack shops. Results are always restricted to shops visible in the TrendTrack trending shops feed (display_in_trending=true). Default match_mode=contains mirrors the app: broad shop/domain contains matching, ordered by live ads then traffic. Use match_mode=exact with a domain/URL for exact domain lookup. Supports pagination via page + limit. Markdown is compact and includes a best-effort Google Ads summary line; structuredContent preserves public API shop rows and includes liveness/googleAds/taxonomy/domain signals.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 200,
+              "description": "Optional shop discovery query. When omitted, search_shops returns filtered listings without text search. When provided, default matching uses contains, aligned with the TrendTrack app. For exact domain lookup, pass match_mode=\"exact\" with a domain or URL."
+            },
+            "match_mode": {
+              "type": "string",
+              "enum": [
+                "contains",
+                "exact"
+              ],
+              "default": "contains",
+              "description": "Matching mode. contains (default) uses broad shop/domain contains matching. exact requires a domain or URL and uses exact domain matching."
+            },
+            "creation_country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "pattern": "^[A-Za-z]{2}$",
+              "description": "Optional ISO 3166-1 alpha-2 shop creation-country filter (shops registered/headquartered in this country, matched against creationCountries / shop.profile.countryCode). Normalized to uppercase. Preferred explicit alias for creation country; backward-compatible with country. Distinct from visitor_country and from search_ads/search_advertisers.country (audience country, where the ad reaches viewers)."
+            },
+            "country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "pattern": "^[A-Za-z]{2}$",
+              "deprecated": true,
+              "description": "Deprecated alias for creation_country. Optional ISO 3166-1 alpha-2 shop creation-country filter, normalized to uppercase. If both country and creation_country are provided, they must match."
+            },
+            "creation_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "description": "Optional creation-country filter list (ISO 3166-1 alpha-2). Maps to Public API creationCountries. Values are normalized to uppercase and deduplicated. If combined with creation_country/country, the single-country alias must be included in this array."
+            },
+            "exclude_creation_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "description": "Optional creation-country exclusion list (ISO 3166-1 alpha-2). Maps to Public API excludeCreationCountries."
+            },
+            "creation_date_from": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Optional inclusive lower bound for shop creation date in YYYY-MM-DD format. Maps to the Public API createdAfter filter."
+            },
+            "creation_date_to": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Optional inclusive upper bound for shop creation date in YYYY-MM-DD format. Maps to the Public API createdBefore filter."
+            },
+            "min_active_ads": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional minimum active ads filter. Uses the Public API default adsTimePeriod (last24h)."
+            },
+            "max_active_ads": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional maximum active ads filter. Uses the Public API default adsTimePeriod (last24h)."
+            },
+            "min_monthly_visits": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional minimum monthly traffic/visits filter. Maps to Public API minMonthlyVisits."
+            },
+            "max_monthly_visits": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional maximum monthly traffic/visits filter. Maps to Public API maxMonthlyVisits."
+            },
+            "min_products_count": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional minimum indexed product count filter. Maps to Public API minProductsCount."
+            },
+            "max_products_count": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional maximum indexed product count filter. Maps to Public API maxProductsCount."
+            },
+            "ads_time_period": {
+              "type": "string",
+              "enum": [
+                "last24h",
+                "last7d",
+                "last30d"
+              ],
+              "default": "last24h",
+              "description": "Optional time window used by active ads filters and sorting. Maps to Public API adsTimePeriod."
+            },
+            "traffic_growth": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "last30d",
+                      "last90d",
+                      "last180d"
+                    ]
+                  },
+                  "comparison": {
+                    "type": "string",
+                    "enum": [
+                      "greater",
+                      "lower"
+                    ],
+                    "description": "greater means >= value; lower means <= value."
+                  },
+                  "value": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Growth threshold expressed as a percentage."
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ],
+                    "description": "Optional operator linking this rule to the next rule."
+                  }
+                },
+                "required": [
+                  "period",
+                  "comparison",
+                  "value"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Optional traffic growth rules. Period must be one of last30d, last90d, last180d. Maps to Public API trafficGrowth."
+            },
+            "ads_growth": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "last7d",
+                      "last30d",
+                      "last90d"
+                    ]
+                  },
+                  "comparison": {
+                    "type": "string",
+                    "enum": [
+                      "greater",
+                      "lower"
+                    ],
+                    "description": "greater means >= value; lower means <= value."
+                  },
+                  "value": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Growth threshold expressed as a percentage."
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ],
+                    "description": "Optional operator linking this rule to the next rule."
+                  }
+                },
+                "required": [
+                  "period",
+                  "comparison",
+                  "value"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Optional active ads growth rules. Period must be one of last7d, last30d, last90d. Maps to Public API adsGrowth."
+            },
+            "visitor_country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "pattern": "^[A-Za-z]{2}$",
+              "description": "Optional ISO 3166-1 alpha-2 visitor/audience country filter for traffic markets. Maps to Public API marketCountries and is distinct from country, which filters shop creation country."
+            },
+            "main_market_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "description": "Optional primary traffic-market country list. Maps to Public API mainMarketCountries, matching the app market=<country>=main semantics."
+            },
+            "market_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "description": "Optional traffic-market country list. Maps to Public API marketCountries, matching the app market=<country>=among semantics."
+            },
+            "exclude_market_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "description": "Optional traffic-market country exclusion list. Maps to Public API excludeMarketCountries, matching the app market=<country>=exclude semantics."
+            },
+            "niche_id": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Optional TrendTrack niche/category id. Maps to the Public API categoryIds filter."
+            },
+            "languages": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Optional default shop language filters. Values are normalized to lowercase. Maps to Public API languages / default_locale."
+            },
+            "currencies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z]{3}$"
+              },
+              "description": "Optional default shop currency filters using ISO 4217 codes. Values are normalized to uppercase. Maps to Public API currencies / default_currency."
+            },
+            "theme_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "description": "Optional canonical Shopify theme UUIDs. Use /v1/facets/themes or lookup_filter_ids type=themes to resolve names to ids. Maps to Public API themeIds."
+            },
+            "pixel_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "description": "Optional canonical pixel UUIDs to include. Use lookup_filter_ids type=pixels or /v1/facets/pixels to resolve names. Maps to Public API pixelIds."
+            },
+            "exclude_pixel_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "description": "Optional canonical pixel UUIDs to exclude. Maps to Public API excludePixelIds."
+            },
+            "shopify_app_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "description": "Optional canonical Shopify app UUIDs to include. Use /v1/facets/shopify-apps or lookup_filter_ids to resolve names to ids. Maps to Public API shopifyAppIds."
+            },
+            "exclude_shopify_app_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "description": "Optional canonical Shopify app UUIDs to exclude. Maps to Public API excludeShopifyAppIds."
+            },
+            "is_shopify_plus": {
+              "type": "boolean",
+              "description": "Optional Shopify Plus plan filter. true returns Shopify Plus shops; false returns non-Plus shops. Maps to Public API isShopifyPlus."
+            },
+            "min_trustpilot_rating": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional minimum Trustpilot rating filter. Maps to Public API minTrustpilotRating."
+            },
+            "max_trustpilot_rating": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional maximum Trustpilot rating filter. Maps to Public API maxTrustpilotRating."
+            },
+            "min_trustpilot_review_count": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional minimum Trustpilot review count filter. Maps to Public API minTrustpilotReviewCount."
+            },
+            "max_trustpilot_review_count": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional maximum Trustpilot review count filter. Maps to Public API maxTrustpilotReviewCount."
+            },
+            "has_tiktok": {
+              "type": "boolean",
+              "description": "Optional TikTok presence filter. true returns shops with indexed TikTok presence; false excludes them. Maps to Public API hasTikTok."
+            },
+            "min_tiktok_followers": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional minimum TikTok follower count filter. Maps to Public API minTikTokFollowers."
+            },
+            "max_tiktok_followers": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional maximum TikTok follower count filter. Maps to Public API maxTikTokFollowers."
+            },
+            "min_tiktok_active_ads": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional minimum active TikTok ads filter backed by the shop rollup index. Maps to Public API minTikTokActiveAds."
+            },
+            "max_tiktok_active_ads": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional maximum active TikTok ads filter backed by the shop rollup index. Maps to Public API maxTikTokActiveAds."
+            },
+            "min_tiktok_total_posts": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional minimum total TikTok posts/videos filter. Maps to Public API minTikTokTotalPosts."
+            },
+            "max_tiktok_total_posts": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Optional maximum total TikTok posts/videos filter. Maps to Public API maxTikTokTotalPosts."
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "relevance",
+                "monthlyVisits",
+                "activeAds",
+                "growth30d",
+                "productsCount",
+                "createdAt",
+                "tiktokFollowers",
+                "tiktokActiveAds",
+                "tiktokTotalPosts",
+                "tiktokAvgActiveAds7d",
+                "tiktokAvgActiveAds30d"
+              ],
+              "default": "activeAds",
+              "description": "Optional shop sort key. Mirrors the Public API / TrendTrack UI sortBy values for shops, including TikTok rollup sorts such as tiktokFollowers and tiktokActiveAds. Defaults to activeAds for MCP discovery parity with previous behavior."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc",
+              "description": "Optional sort order for sort_by. Mirrors the Public API / TrendTrack UI order values."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            },
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "description": "Pagination page number. The backend offset is computed as (page - 1) * limit."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "find_similar_shops",
+        "description": "Find competitors / concurrents / similar shops for a reference shop, brand name, domain, or shop UUID. Excludes the source shop and detectable same-brand / same eTLD+1 storefronts. Use when the user asks for competitors, concurrents, alternatives, brands like, shops like, similar stores, or \"trouve des concurrents à [shop]\". Defaults to monthlyVisits desc to match TrendTrack competitor discovery; use sort_by=relevance only for closest vector-similar shops. Returns compact markdown plus structuredContent, preserving full data[].shop nested fields including traffic.topCountries, advertising.topCountries, latestAds, and other country/ad distribution signals without exposing the unfiltered similar-shops response.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "shop"
+          ],
+          "properties": {
+            "shop": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Shop UUID, domain, shop name, or brand name to find competitors/similar shops for."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 10
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "monthlyVisits",
+                "relevance",
+                "activeAds",
+                "growth30d",
+                "productsCount",
+                "createdAt"
+              ],
+              "default": "monthlyVisits",
+              "description": "Sort competitors by monthlyVisits by default, matching the TrendTrack UI. Use relevance only when the user asks for closest/vector-similar shops. Legacy sortBy is still accepted by the parser for compatibility but is not exposed in the MCP schema."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "desc",
+                "asc"
+              ],
+              "default": "desc"
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "analyze_shop_emails",
+        "description": "Analyze a shop email strategy from the latest captured emails: sending frequency, recent subjects, dominant campaign category/promotion type, and average body length. Defaults to 25 emails, configurable up to 100; reserves 1 + max_emails credits.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "shop"
+          ],
+          "properties": {
+            "shop": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Shop UUID, domain, or shop name to analyze."
+            },
+            "max_emails": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 25,
+              "description": "Maximum number of latest emails to fetch and analyze. Billing reserves 1 resolver unit plus this value."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "analyze_tracked_brand",
+        "description": "Deep-analyze one tracked brand by exactly one of brandtracker_id or in-workspace tracked brand name. The brand field resolves only inside the authenticated workspace. Returns overview, media mix, country/age/gender ad reach distribution, top hooks, top landing pages, graceful section degradation warnings, and structuredContent fields including resolution, demography.data.countryDistribution, and creativeSwipeFile.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "brandtracker_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Tracked-brand id. Provide exactly one of brandtracker_id or brand."
+            },
+            "brand": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Tracked brand name to resolve inside the authenticated workspace."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "get_brandtracker_scaling_ads",
+        "description": "Return the Brand Tracker ScalingTab-style ads table for one tracked brand. Use it to inspect competitor ads with the biggest Ad Rank delta, best current rank, or rank movement buckets over 7d/14d/30d, with app-parity filters for status, dates, media type, days running, duplicates, languages, countries, CTA, landing pages, ad copy hashes, partner badges, low-impression hiding, and keywords. The tool resolves exactly one of brandtracker_id or in-workspace brand name, defaults to the primary tracked Facebook page, accepts facebook_page_id for an exact dashboard source or all_facebook_pages=true for the aggregate, and returns normalized ad summaries in structuredContent. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "brandtracker_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Tracked-brand id. Provide exactly one of brandtracker_id or brand."
+            },
+            "brand": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Tracked brand name to resolve inside the authenticated workspace. Provide exactly one of brandtracker_id or brand."
+            },
+            "facebook_page_id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 64,
+              "description": "Optional Facebook page id belonging to the tracked brand. Defaults to its primary Facebook page."
+            },
+            "all_facebook_pages": {
+              "type": "boolean",
+              "default": false,
+              "description": "Query every selected Facebook page on the tracked brand. Cannot be combined with facebook_page_id; page-local current-rank ties are expected."
+            },
+            "ad_rank_window": {
+              "type": "string",
+              "enum": [
+                "7d",
+                "14d",
+                "30d"
+              ],
+              "default": "7d",
+              "description": "Rank-delta window, matching ScalingTab adRankWindow."
+            },
+            "ad_rank_sort": {
+              "type": "string",
+              "enum": [
+                "rank_delta",
+                "current_rank"
+              ],
+              "default": "rank_delta",
+              "description": "ScalingTab rank sort. rank_delta returns the biggest positive movers; current_rank returns the best current ranks."
+            },
+            "max_current_rank": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Maximum current Ad Rank to include. Mirrors ScalingTab maxAdOrder/maxCurrentRank."
+            },
+            "min_rank_delta": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Minimum positive rank movement. Defaults to 1 for ad_rank_sort=rank_delta when growth_rank is omitted."
+            },
+            "growth_rank": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "rising",
+                  "falling",
+                  "stable"
+                ]
+              },
+              "minItems": 1,
+              "maxItems": 3,
+              "description": "Optional rank movement buckets. Uses the selected ad_rank_window."
+            },
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional free-text search inside the tracked brand ads."
+            },
+            "keywords": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  },
+                  "minItems": 1,
+                  "maxItems": 10
+                }
+              ],
+              "description": "Optional extra keywords. Multiple keywords combine according to keyword_mode."
+            },
+            "keyword_mode": {
+              "type": "string",
+              "enum": [
+                "any",
+                "all"
+              ],
+              "default": "any"
+            },
+            "search_in": {
+              "type": "string",
+              "enum": [
+                "ad_copy",
+                "brand",
+                "website",
+                "domain",
+                "url"
+              ],
+              "default": "ad_copy"
+            },
+            "media_type": {
+              "type": "string",
+              "enum": [
+                "image",
+                "video"
+              ]
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "active",
+                "inactive",
+                "all"
+              ],
+              "default": "active"
+            },
+            "created_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Ad first-seen lower bound in YYYY-MM-DD format."
+            },
+            "created_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Ad first-seen upper bound in YYYY-MM-DD format."
+            },
+            "min_days_running": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_days_running": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_duplicates": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_duplicates": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "ad_language": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 8,
+              "description": "Single ad creative language code, for example en or fr."
+            },
+            "ad_languages": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 8
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "ad_countries": {
+              "type": "object",
+              "properties": {
+                "include": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                },
+                "exclude": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                }
+              },
+              "additionalProperties": false,
+              "description": "Ad distribution/visitor country include/exclude filter using ISO alpha-2 codes."
+            },
+            "main_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Primary audience country filters using ISO alpha-2 codes, backed by Meta's EU/UK ad transparency reporting. US and other non-EU codes match nothing; use ad_countries for those markets."
+            },
+            "cta": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Meta call-to-action codes/labels to include."
+            },
+            "landing_pages": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Landing page URL/domain filters, matching ScalingTab landingPages."
+            },
+            "ad_copy_hashes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Ad copy hash filters, matching ScalingTab adCopyHashes."
+            },
+            "partners": {
+              "type": "boolean",
+              "description": "Whether to include only ads with/without partner badge."
+            },
+            "partner_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Partner badge ids to include."
+            },
+            "hide_low_impressions": {
+              "type": "boolean",
+              "description": "Exclude low reach/low impressions ads. Mirrors hideLowImpressions."
+            },
+            "max_ads_per_brand": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 15
+            },
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 20
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, include compact debug request/response metadata. Full raw backend payloads are never returned."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "get_brandtracker_transcripts",
+        "description": "Read grouped brandtracker video transcripts for one tracked brand. Only completed transcript rows with non-empty fullText of at least 100 characters are included. time_period filters the underlying ad start_date, not transcript processing date; if last7d returns no rows but the brand has recent ads, try last30d sorted by firstUsedAt desc. Returns readable previews plus full transcript text in structuredContent.data[].fullText and sample ad media links when available. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "brandtracker_id"
+          ],
+          "properties": {
+            "brandtracker_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Tracked-brand id backed by brandtracker.id. Legacy spyders.uuid values are accepted when migration metadata exists."
+            },
+            "time_period": {
+              "type": "string",
+              "enum": [
+                "live",
+                "last24h",
+                "last3d",
+                "last7d",
+                "last30d",
+                "last3m",
+                "last6m",
+                "last1y"
+              ],
+              "default": "last30d",
+              "description": "Relative ad start-date window to evaluate. last7d means ads whose ads.start_date is within the last 7 days; it does not mean transcripts created/processed in the last 7 days. Defaults to last30d. To find the newest available transcripts, use last30d with sort_by=firstUsedAt and order=desc."
+            },
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "description": "Pagination page number."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 20,
+              "description": "Number of grouped transcript rows to return (max 50)."
+            },
+            "eu_only": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, only EU-classified Facebook ads are included."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc",
+              "description": "Sort order for grouped transcript rows."
+            },
+            "snapshot_date": {
+              "description": "Snapshot anchor as YYYY-MM-DD or latest. When provided, snapshot filtering is used instead of the rolling time_period start-date window.",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "date",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "latest"
+                  ]
+                }
+              ]
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "usageCount",
+                "longestRunning",
+                "totalImpressions",
+                "firstUsedAt",
+                "lastUsedAt"
+              ],
+              "default": "usageCount",
+              "description": "Transcript sort field. Defaults to usageCount. Use firstUsedAt desc with a wider time_period such as last30d when looking for the newest completed transcripts."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "daily_radar",
+        "description": "Generate a fixed last-24h digest across up to 25 tracked brands prioritized by recent new ads. Optional focus: all, new_ads (alias ads), scaling, landing_pages, hooks, or partnerships. New/scaling ad sections include media links when available. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary. Emails are intentionally omitted in V2.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "focus": {
+              "type": "string",
+              "enum": [
+                "all",
+                "new_ads",
+                "ads",
+                "scaling",
+                "landing_pages",
+                "hooks",
+                "partnerships"
+              ],
+              "default": "all",
+              "description": "Optional section focus. Use new_ads (or legacy alias ads) for newly launched ads. Emails are not included in daily_radar V2 because no last-24h brandtracker email source is wired for this tool."
+            },
+            "folder_id": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Optional exact folder id scope for tracked brands included in radar."
+            },
+            "folder_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "minItems": 1,
+              "description": "Optional exact folder id scope for tracked brands included in radar."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "creative_inspiration_pack",
+        "description": "Build a compact V2 market/niche creative inspiration pack from active Meta ads searched by niche + LLM-generated keywords. Uses ad-level hook/copy snippets, landing pages, and ad examples with media links; it no longer accepts source.type niche/brandtracker. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "niche",
+            "keywords"
+          ],
+          "properties": {
+            "niche": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Market/niche label generated by the calling LLM, used as the main ad-copy query."
+            },
+            "keywords": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 10,
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "description": "Close, niche-specific ad-copy keywords generated by the calling LLM. Required; no backend niche resolver is used."
+            },
+            "trend_signal": {
+              "type": "string",
+              "enum": [
+                "reach_growth_1d",
+                "reach_growth_7d",
+                "reach_growth_30d",
+                "reach",
+                "longest_running",
+                "newest",
+                "relevance"
+              ],
+              "default": "reach_growth_7d",
+              "description": "Sort signal aligned with search_ads trend_signal."
+            },
+            "focus": {
+              "type": "string",
+              "enum": [
+                "hooks",
+                "landing_pages",
+                "ads",
+                "all"
+              ],
+              "default": "all",
+              "description": "Choose which markdown sections to render. V2 intentionally does not expose heuristic angle buckets."
+            },
+            "max_ads": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 10
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, includes capped debug details for the executed ads query. Raw ads are omitted by default."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "find_winning_products",
+        "description": "Find currently relevant winning products for a niche using required keywords and current shop/product traction signals. V2 excludes zombie shops, does not accept timeframe, and returns compact structuredContent without raw bundles.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "niche",
+            "keywords"
+          ],
+          "properties": {
+            "niche": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Product niche/category to search, combined with keywords for current traction discovery."
+            },
+            "keywords": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 10,
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 80
+              },
+              "description": "Required LLM-generated product keywords or phrases that keep discovery relevant."
+            },
+            "country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "pattern": "^[A-Za-z]{2}$",
+              "description": "Optional ISO 3166-1 alpha-2 shop-profile country filter, applied as a JS post-filter on shop.profile.countryCode (the shop's registered/HQ country). Distinct from search_ads/search_advertisers.country (audience country, where viewers see the ad). The response surfaces input.countryFilterKind='shopProfileCountry' to disambiguate."
+            },
+            "max_results": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 10
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "Include capped debug metadata; raw shop/product payloads are never returned."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "brief_competitor",
+        "description": "Return a compact competitor brief (V2) for a shop/domain/name with structuredContent.schemaVersion=\"v2\". Use the canonical competitor argument; legacy shop is accepted only as a deprecated compatibility alias and cannot be combined with competitor. The default payload includes resolved shop, snapshot, products, email strategy, creative ad scan summaries with media links, and country and ad distribution summaries without raw service dumps; set verbose=true for capped debug metadata. For competitor Ad Rank/scaling controls, use ad_rank_window, ad_rank_sort, max_current_rank, and min_rank_delta. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "competitor": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 253,
+              "description": "Canonical V2 input: shop UUID, domain, or shop name to brief. Prefer this field."
+            },
+            "shop": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 253,
+              "deprecated": true,
+              "description": "Deprecated compatibility alias for competitor. Use competitor instead; providing both competitor and shop is invalid."
+            },
+            "sections": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 3,
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "products",
+                  "emails",
+                  "ads"
+                ]
+              },
+              "default": [
+                "products",
+                "emails",
+                "ads"
+              ],
+              "description": "Optional sections to include. Snapshot context is always returned."
+            },
+            "max_products": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10,
+              "default": 5
+            },
+            "max_emails": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 25,
+              "default": 10
+            },
+            "max_ads": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 3,
+              "default": 3
+            },
+            "ad_rank_window": {
+              "type": "string",
+              "enum": [
+                "7d",
+                "14d",
+                "30d",
+                "last7d",
+                "last14d",
+                "last30d"
+              ],
+              "default": "last7d",
+              "description": "Competitor Ad Rank/scaling window for the ads section. Mirrors the competitor Ad Rank tab."
+            },
+            "ad_rank_sort": {
+              "type": "string",
+              "enum": [
+                "rank_delta",
+                "current_rank",
+                "rankDelta",
+                "currentRank"
+              ],
+              "default": "rankDelta",
+              "description": "Competitor ads rank sort. rankDelta finds movers; currentRank finds strongest current ad rank."
+            },
+            "max_current_rank": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Optional maximum current rank for competitor ads, equivalent to the competitor Ad Rank top-current-rank filter."
+            },
+            "min_rank_delta": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Optional minimum positive rank improvement for competitor rank movers."
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, includes capped debug metadata. Full raw service responses are never returned."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "search_ads",
+        "description": "Search Meta ads by copy, brand, website, domain, URL, and app-parity filters for status, dates, active duration, niches, media type, CTA, countries, languages, technologies, duplicates, rank, reach/impressions, spend, audience age/gender, page metrics, brandtracker, linked-shop traffic/products/origin/markets/apps/themes/pixels, and growth filters. Returned rows include the estimated spend when available. Results are creative-collation aggregates when collationId is present; pass that value as scan_ad.collation_id to scan the same combined creative rather than only its representative ad id. query is optional for discovery/top ads flows. When sort_by is omitted, the default trend_signal=reach_growth_7d injects reach_period=last7d and min_reach=1, including when status=all; use trend_signal=newest, reach, relevance, or a non-growth sort_by to retain ads without recent reach. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary. For prompts like “top ads leggings femme sur les 7 derniers jours”, use trend_signal=reach_growth_7d or sort_by=reachDelta7d: this sorts by 7-day reach scaling with positive reach_period=last7d + min_reach=1 and does not filter first-seen dates unless created_after/ads_time_period are explicitly supplied. For competitor ad-rank movers, use sort_by=rankDelta7d/14d/30d with order=desc and optionally min_rank_delta. structuredContent returns normalized ad summaries only (no raw backend payload). Use lookup_filter_ids for facet ids such as themes, pixels, Shopify apps, and categories. Use page + limit for pagination; limit defaults to 20. DCO is not exposed as a stable MCP filter. trend_signal=reach_growth_1d/7d/30d enforces positive scaling; trend_signal=longest_running applies a zero-reach guard to reduce seed-date artifacts.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional free-text query. You can omit it to discover top active Meta ads using filters/trend signals only."
+            },
+            "keywords": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  },
+                  "minItems": 1,
+                  "maxItems": 10
+                }
+              ],
+              "description": "Optional extra keywords. Multiple keywords combine according to keyword_mode."
+            },
+            "keyword_mode": {
+              "type": "string",
+              "enum": [
+                "any",
+                "all"
+              ],
+              "default": "any",
+              "description": "Whether any keyword or all keywords must match."
+            },
+            "search_in": {
+              "type": "string",
+              "enum": [
+                "ad_copy",
+                "brand",
+                "website",
+                "website_copy",
+                "domain",
+                "url",
+                "url_contains"
+              ],
+              "default": "ad_copy",
+              "description": "Where to search when query or keywords are provided. website_copy and url_contains are app-native aliases for website and url."
+            },
+            "category_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Niche/category facet numeric ids. Do not pass category names. First call lookup_filter_ids with type=categories, then pass the returned numeric id(s) here. Matched against ads/shop google_categories."
+            },
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "description": "Page number for MCP pagination. limit defaults to 20 and max pageable offset is 10000."
+            },
+            "country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "description": "Optional ISO 3166-1 alpha-2 audience-country filter. Normalized to uppercase. For supported primary-audience countries (EU/GB set), it filters on primary audience country (mainCountries). For other countries (for example US), it automatically filters targeted countries instead. Distinct from search_shops.country (shop creation country); meta.countryFilterKind indicates the applied country filter mode."
+            },
+            "ad_countries": {
+              "type": "object",
+              "properties": {
+                "include": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                },
+                "exclude": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                }
+              },
+              "additionalProperties": false,
+              "description": "Explicit ad distribution/visitor country include/exclude filter using ISO alpha-2 codes, for example {include:[\"US\",\"FR\"]} or {exclude:[\"AR\",\"IN\"]}. Use this for app \"pays\" when you need include/exclude control."
+            },
+            "main_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Primary audience country filter for ads, backed by Meta's EU/UK ad transparency reporting. Only EU/EEA, UK and French overseas codes exist in that data: US and other non-EU codes match nothing. Use ad_countries (or country) for those markets. This is narrower than ad_countries because it matches the main audience country only."
+            },
+            "min_traffic_growth_percent": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional minimum site traffic growth percentage. Maps to Public API trafficGrowth with operator gte."
+            },
+            "traffic_growth_period": {
+              "type": "string",
+              "enum": [
+                "last30d",
+                "last90d",
+                "last180d"
+              ],
+              "default": "last30d",
+              "description": "Traffic growth period used with min_traffic_growth_percent."
+            },
+            "traffic_growth": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "last30d",
+                      "last90d",
+                      "last180d"
+                    ]
+                  },
+                  "comparison": {
+                    "type": "string",
+                    "enum": [
+                      "greater",
+                      "lower"
+                    ],
+                    "description": "greater means >= value; lower means <= value."
+                  },
+                  "value": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Growth threshold expressed as a percentage."
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ],
+                    "description": "Optional link to the next rule. Default is and; or starts a new OR group."
+                  }
+                },
+                "required": [
+                  "period",
+                  "comparison",
+                  "value"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Shop traffic growth rules. period must be last30d, last90d, or last180d. Example: [{period:\"last30d\",comparison:\"greater\",value:20}]."
+            },
+            "ads_growth": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "last7d",
+                      "last30d",
+                      "last90d"
+                    ]
+                  },
+                  "comparison": {
+                    "type": "string",
+                    "enum": [
+                      "greater",
+                      "lower"
+                    ],
+                    "description": "greater means >= value; lower means <= value."
+                  },
+                  "value": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Growth threshold expressed as a percentage."
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ],
+                    "description": "Optional link to the next rule. Default is and; or starts a new OR group."
+                  }
+                },
+                "required": [
+                  "period",
+                  "comparison",
+                  "value"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Facebook page active-ads growth rules. period must be last7d, last30d, or last90d."
+            },
+            "page_reach_growth": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "last7d",
+                      "last14d",
+                      "last30d",
+                      "last60d",
+                      "last90d"
+                    ]
+                  },
+                  "comparison": {
+                    "type": "string",
+                    "enum": [
+                      "greater",
+                      "lower"
+                    ],
+                    "description": "greater means >= value; lower means <= value."
+                  },
+                  "value": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Growth threshold expressed as a percentage."
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ],
+                    "description": "Optional link to the next rule. Default is and; or starts a new OR group."
+                  }
+                },
+                "required": [
+                  "period",
+                  "comparison",
+                  "value"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Facebook page reach/impressions growth rules. period must be last7d, last14d, last30d, last60d, or last90d."
+            },
+            "ad_reach_growth": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "last7d",
+                      "last14d",
+                      "last30d",
+                      "last60d",
+                      "last90d"
+                    ]
+                  },
+                  "comparison": {
+                    "type": "string",
+                    "enum": [
+                      "greater",
+                      "lower"
+                    ],
+                    "description": "greater means >= value; lower means <= value."
+                  },
+                  "value": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Growth threshold expressed as a percentage."
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ],
+                    "description": "Optional link to the next rule. Default is and; or starts a new OR group."
+                  }
+                },
+                "required": [
+                  "period",
+                  "comparison",
+                  "value"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Individual ad reach/impressions growth rules. period must be last7d, last14d, last30d, last60d, or last90d."
+            },
+            "ad_language": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 8,
+              "description": "Single ad creative language code such as en or fr. Alias language is also accepted. Use ad_languages for multiple values. This is not the shop language filter."
+            },
+            "language": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 8,
+              "description": "Alias for ad_language. This filters ad creative language, not linked-shop language."
+            },
+            "ad_languages": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 8
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Ad creative language codes such as en or fr. Use this for the app ad-language filter. For linked-shop default language, use shop_languages instead."
+            },
+            "cta": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Meta call-to-action codes/labels to include, for example SHOP_NOW or LEARN_MORE. Use the app/API CTA code when known; if only a human label is known and it is ambiguous, omit this filter."
+            },
+            "currency": {
+              "type": "string",
+              "minLength": 3,
+              "maxLength": 3,
+              "description": "Single linked-shop default currency using ISO 4217, for example USD or EUR. Use currencies for multiple values."
+            },
+            "currencies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 3
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Linked-shop default currency filters using ISO 4217 codes, for example [\"USD\",\"EUR\"]. This is a shop filter, not an ad spend currency filter."
+            },
+            "shopify_app_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Canonical Shopify app UUIDs. Do not pass app names. First call lookup_filter_ids with type=shopify_apps, then pass the returned UUID(s)."
+            },
+            "exclude_shopify_app_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Canonical Shopify app UUIDs to exclude. Do not overlap with shopify_app_ids."
+            },
+            "pixel_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Pixel facet ids. Do not pass pixel names. First call lookup_filter_ids with type=pixels, then pass returned id(s). Example query: \"Facebook Pixel\" resolves to a UUID-like id."
+            },
+            "exclude_pixel_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Pixel facet ids to exclude. Do not overlap with pixel_ids."
+            },
+            "theme_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Indexed Shopify theme ids. Do not pass theme names. First call lookup_filter_ids with type=themes to resolve names like Shrine, then pass returned id(s)."
+            },
+            "media_type": {
+              "type": "string",
+              "enum": [
+                "image",
+                "video"
+              ],
+              "description": "Creative media type filter. Only image or video are supported right now. Do not use carousel or DCO; they are intentionally not exposed as stable MCP filters."
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "createdAt",
+                "longestRunning",
+                "relevance",
+                "relevanceScore",
+                "newest",
+                "mostDuplicates",
+                "reach",
+                "reachDelta1d",
+                "reachDelta7d",
+                "reachDelta30d",
+                "rankDelta7d",
+                "rankDelta14d",
+                "rankDelta30d",
+                "adOrder"
+              ],
+              "description": "Optional ad sort key. Mirrors the Public API / TrendTrack UI sortBy values. When provided, it takes precedence over the legacy trend_signal convenience parameter. sort_by=reachDelta7d means 7-day reach scaling; sort_by=rankDelta7d/14d/30d means ad-rank movers over that window. When min_reach, max_reach, and reach_period are omitted for reach delta sorting, it adds reach_period=last7d and min_reach=1 rather than filtering first-seen dates."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc",
+              "description": "Optional sort order for sort_by/trend_signal. Mirrors the Public API / TrendTrack UI order values."
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "active",
+                "inactive",
+                "all"
+              ],
+              "description": "Ad status filter. Prefer this over active_only for explicit inactive/all queries. active_only remains for backward compatibility."
+            },
+            "created_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Ad first-seen lower bound in YYYY-MM-DD format."
+            },
+            "created_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Ad first-seen upper bound in YYYY-MM-DD format."
+            },
+            "last_seen_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Ad last-seen lower bound in YYYY-MM-DD format."
+            },
+            "last_seen_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Ad last-seen upper bound in YYYY-MM-DD format."
+            },
+            "min_days_running": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum number of days the ad has been active/running."
+            },
+            "max_days_running": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum number of days the ad has been active/running."
+            },
+            "min_duplicates": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum duplicate/ad variation count."
+            },
+            "max_duplicates": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum duplicate/ad variation count."
+            },
+            "max_ad_order": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Maximum ad rank/order value from the app ad-rank filter. Lower values are stronger ranks."
+            },
+            "ad_rank_mode": {
+              "type": "string",
+              "enum": [
+                "percentile",
+                "rank"
+              ],
+              "description": "How max_ad_rank_value is interpreted."
+            },
+            "ad_rank_basis": {
+              "type": "string",
+              "enum": [
+                "current",
+                "alltime"
+              ],
+              "description": "Rank basis used by ad rank filters."
+            },
+            "max_ad_rank_value": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Maximum ad-rank value."
+            },
+            "growth_rank": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "last3d",
+                      "last7d",
+                      "last14d",
+                      "last30d"
+                    ]
+                  },
+                  "direction": {
+                    "type": "string",
+                    "enum": [
+                      "rising",
+                      "falling",
+                      "stable"
+                    ]
+                  },
+                  "min_change": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "unit": {
+                    "type": "string",
+                    "enum": [
+                      "percent",
+                      "absolute"
+                    ]
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ]
+                  }
+                },
+                "required": [
+                  "period",
+                  "direction"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Ad rank evolution filter. Backend applies direction and uses period to choose the rank-delta window when all rules use the same supported window. min_change/unit are accepted for compatibility; use min_rank_delta for an enforced absolute minimum rank improvement."
+            },
+            "rank_delta_window": {
+              "type": "string",
+              "enum": [
+                "7d",
+                "14d",
+                "30d"
+              ],
+              "description": "Rank-delta window used by growth_rank and min_rank_delta. Overrides the window inferred from growth_rank.period."
+            },
+            "min_rank_delta": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Minimum absolute rank improvement. Use with rank_delta_window or sort_by=rankDelta7d/14d/30d for competitor trending ads."
+            },
+            "min_description_length": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum ad copy description length."
+            },
+            "max_description_length": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum ad copy description length."
+            },
+            "min_video_duration": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum video duration in seconds."
+            },
+            "max_video_duration": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum video duration in seconds."
+            },
+            "min_reach": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum ad reach/impressions threshold. Use reach_period for total/last24h/last7d/last30d."
+            },
+            "max_reach": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum ad reach/impressions threshold. Use reach_period for total/last24h/last7d/last30d."
+            },
+            "reach_period": {
+              "type": "string",
+              "enum": [
+                "total",
+                "last24h",
+                "last7d",
+                "last30d"
+              ],
+              "description": "Metric period used by min_reach/max_reach. Reach is Meta API wording for impressions where available."
+            },
+            "min_age": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum audience age."
+            },
+            "max_age": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum audience age."
+            },
+            "sex": {
+              "type": "string",
+              "enum": [
+                "men",
+                "women",
+                "all"
+              ],
+              "description": "Audience gender filter. Exact accepted values are men, women, or all. Do not use female/male."
+            },
+            "spender": {
+              "type": "string",
+              "enum": [
+                "big-spender",
+                "rising-star",
+                "brandtracker"
+              ],
+              "description": "Facebook page segment filter. big-spender = high spend pages, rising-star = fast-growing pages, brandtracker = pages tracked in the workspace."
+            },
+            "partners": {
+              "type": "boolean",
+              "description": "When true, only return partnership ads/pages. Omit this field if partnership status should not be filtered."
+            },
+            "min_traffic": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum linked-shop monthly traffic."
+            },
+            "max_traffic": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum linked-shop monthly traffic."
+            },
+            "min_active_ads": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum active ads on the Facebook page."
+            },
+            "max_active_ads": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum active ads on the Facebook page."
+            },
+            "min_products": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum linked-shop product count."
+            },
+            "max_products": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum linked-shop product count."
+            },
+            "min_best_seller_price": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum best-seller product price."
+            },
+            "max_best_seller_price": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum best-seller product price."
+            },
+            "ads_time_period": {
+              "type": "string",
+              "enum": [
+                "last24h",
+                "last7d",
+                "last30d"
+              ],
+              "description": "Time period used by active-ads page filters and relative ad first-seen logic. Do not use this for “top/scaling ads over the last 7 days”; use sort_by=reachDelta7d or trend_signal=reach_growth_7d instead unless the user explicitly asks for first-seen date filtering."
+            },
+            "shop_created_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Linked-shop creation lower bound in YYYY-MM-DD format."
+            },
+            "shop_created_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Linked-shop creation upper bound in YYYY-MM-DD format."
+            },
+            "shop_creation_countries": {
+              "type": "object",
+              "properties": {
+                "include": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                },
+                "exclude": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                }
+              },
+              "additionalProperties": false,
+              "description": "Linked-shop origin/creation country include/exclude filter using ISO alpha-2 codes. Use this for app \"origine shop\", not for ad audience countries."
+            },
+            "market": {
+              "type": "object",
+              "properties": {
+                "main": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                },
+                "among": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                },
+                "exclude": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2,
+                    "pattern": "^[A-Za-z]{2}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20
+                }
+              },
+              "additionalProperties": false,
+              "description": "Linked-shop visitor/market country filter using ISO alpha-2 codes. main = primary visitor market, among = country appears among visitor markets, exclude = excluded visitor country. Use this for app \"pays visiteurs\"."
+            },
+            "shop_languages": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Linked-shop default language codes such as en or fr. Use this for app shop language. For ad creative language, use ad_languages instead."
+            },
+            "shopify_plus": {
+              "type": "string",
+              "enum": [
+                "plus",
+                "non-plus",
+                "all"
+              ],
+              "description": "Linked-shop Shopify plan filter. Exact accepted values are plus, non-plus, or all. Do not pass true/false."
+            },
+            "min_trustpilot_score": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_trustpilot_score": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_trustpilot_reviews": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_trustpilot_reviews": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_spend": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum estimated ad spend. Uses cpm when provided, otherwise public API default CPM."
+            },
+            "max_spend": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum estimated ad spend. Uses cpm when provided, otherwise public API default CPM."
+            },
+            "cpm": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "CPM used for estimated spend filters."
+            },
+            "spend_period": {
+              "type": "string",
+              "enum": [
+                "total",
+                "last24h",
+                "last7d",
+                "last30d"
+              ],
+              "description": "Metric period used by min_spend/max_spend."
+            },
+            "min_spend_per_page": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_spend_per_page": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "spend_per_page_period": {
+              "type": "string",
+              "enum": [
+                "total",
+                "last24h",
+                "last7d",
+                "last30d"
+              ],
+              "description": "Metric period used by page spend filters."
+            },
+            "min_facebook_likes": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_facebook_likes": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_instagram_followers": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_instagram_followers": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_reach_per_page": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Minimum Facebook page reach/impressions."
+            },
+            "max_reach_per_page": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Maximum Facebook page reach/impressions."
+            },
+            "reach_per_page_period": {
+              "type": "string",
+              "enum": [
+                "total",
+                "last24h",
+                "last7d",
+                "last30d"
+              ],
+              "description": "Metric period used by page reach filters."
+            },
+            "technologies": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Technology slugs only, for example shopify, woocommerce, wordpress, prestashop, clickfunnels, gempages, pagefly, zipify-pages. If using lookup_filter_ids type=technologies, pass the returned slug, never the UUID id."
+            },
+            "tracked_pages": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Specific tracked Facebook page ids/handles when known."
+            },
+            "max_ads_per_brand": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 15,
+              "description": "Cap ads returned per brand/page, useful for varied discovery results."
+            },
+            "trend_signal": {
+              "type": "string",
+              "enum": [
+                "reach_growth_1d",
+                "reach_growth_7d",
+                "reach_growth_30d",
+                "reach",
+                "longest_running",
+                "newest",
+                "relevance"
+              ],
+              "default": "reach_growth_7d",
+              "description": "Ranking signal for returned Meta ads. trend_signal=reach_growth_7d answers “top/scaling ads over the last 7 days” by sorting by reachDelta7d with order=desc and enforcing positive 7-day scaling via reach_period=last7d + min_reach=1; it does not add ads_time_period, created_after, or first-seen date filters unless supplied. reach_growth_1d/30d apply the same positive-scaling pattern for their windows."
+            },
+            "active_only": {
+              "type": "boolean",
+              "default": true,
+              "description": "When true, only return currently active ads."
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, include compact debug request/response metadata. Full raw backend payloads are never returned."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 20
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "search_tiktok_library",
+        "description": "Search TikTok ads and organic creatives by brand/shop/caption/domain/handle/hashtag/music, item type, status, media, country/language, performance thresholds, and trend signals. Returns compact markdown plus compact structuredContent by default, including media links when available; pass verbose=true for detailed Public API DTO rows, raw request metadata, and field guide. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary. One returned TikTok item costs one ad-entitled credit.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional free-text query for TikTok creative discovery. Combine with search_in/search_area to target caption, profile, hashtag, music, or all indexed text."
+            },
+            "keywords": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  },
+                  "minItems": 1,
+                  "maxItems": 10
+                }
+              ],
+              "description": "Optional extra keywords. query + keywords are combined according to keyword_mode."
+            },
+            "keyword_mode": {
+              "type": "string",
+              "enum": [
+                "any",
+                "all"
+              ],
+              "default": "any",
+              "description": "Whether any keyword or all keywords must match."
+            },
+            "search_in": {
+              "type": "string",
+              "enum": [
+                "all",
+                "caption",
+                "profile",
+                "hashtag",
+                "music"
+              ],
+              "default": "all",
+              "description": "Alias for search_area. Controls which indexed TikTok fields text search targets."
+            },
+            "search_area": {
+              "type": "string",
+              "enum": [
+                "all",
+                "caption",
+                "profile",
+                "hashtag",
+                "music"
+              ],
+              "default": "all",
+              "description": "Explicit text search area. Equivalent to search_in."
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "all",
+                "ad",
+                "organic"
+              ],
+              "default": "all",
+              "description": "TikTok item type. ad maps to status.is_ad=true; organic maps to false."
+            },
+            "item_type": {
+              "type": "string",
+              "enum": [
+                "all",
+                "ad",
+                "organic"
+              ],
+              "description": "Alias for type."
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "all",
+                "active",
+                "inactive"
+              ],
+              "default": "all",
+              "description": "Freshness-derived TikTok item status."
+            },
+            "media_type": {
+              "type": "string",
+              "enum": [
+                "image",
+                "video",
+                "carousel"
+              ]
+            },
+            "media_types": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "image",
+                  "video",
+                  "carousel"
+                ]
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "language": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 20
+            },
+            "languages": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "pattern": "^[A-Za-z]{2}$",
+              "description": "Linked-shop country filter when indexed, normalized to uppercase."
+            },
+            "countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "hashtags": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "tiktok_page_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tiktok_page_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "website_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "domain": {
+              "type": "string",
+              "minLength": 3,
+              "description": "Linked shop domain or URL. Normalized before querying the public TikTok index."
+            },
+            "handle": {
+              "type": "string",
+              "minLength": 1,
+              "description": "TikTok profile handle, with or without @."
+            },
+            "has_shop_linked": {
+              "type": "string",
+              "enum": [
+                "yes",
+                "no"
+              ],
+              "description": "Require or exclude TikTok items linked to a TrendTrack shop."
+            },
+            "published_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "published_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "updated_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "updated_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "min_days_running": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_days_running": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_views": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_views": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_likes": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_shares": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_engagement_rate": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "max_engagement_rate": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "min_followers": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_profile_views": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "is_pinned": {
+              "type": "boolean"
+            },
+            "trend_signal": {
+              "type": "string",
+              "enum": [
+                "newest",
+                "updated_at",
+                "views",
+                "likes",
+                "comments",
+                "shares",
+                "saves",
+                "engagement_rate",
+                "days_running",
+                "followers",
+                "relevance"
+              ],
+              "default": "newest",
+              "description": "Convenience ranking signal used when sort_by is omitted."
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "relevance",
+                "newest",
+                "updated_at",
+                "updatedAt",
+                "views",
+                "likes",
+                "comments",
+                "shares",
+                "saves",
+                "engagement_rate",
+                "engagementRate",
+                "days_running",
+                "daysRunning",
+                "followers"
+              ],
+              "description": "Public TikTok sort key. snake_case aliases are accepted for MCP ergonomics."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc"
+            },
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, include detailed Public API DTO rows plus raw request and field guide debug metadata. Defaults to false for compact LLM-friendly results."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "search_google_ads_library",
+        "description": "Search the Google Ads library by advertiser/shop/text, audience country, status, platform, reach, dates, shop attributes, canonical technology facets, and traffic growth. Audience-country inputs map to ad targeting.main_country, not shop creation country. Google reach fields are EU/UK-reported reach, not global impressions. Returns compact markdown plus compact structuredContent by default, including media links when available and advertiserSummaries with aggregate active-ad, reach, platform, format, and EU/UK country rollups inferred from returned website IDs. For brand/channel comparisons, use advertiserSummaries instead of extrapolating from the returned ad page. Pass verbose=true for detailed Google Ads DTO rows, raw request metadata, and field guide. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary. One returned Google ad costs one ad-entitled credit.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional free-text query for Google Ads discovery. Searches indexed ad text and advertiser names."
+            },
+            "keywords": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  },
+                  "minItems": 1,
+                  "maxItems": 10
+                }
+              ],
+              "description": "Optional extra keywords. query and keywords are combined as AND search terms."
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "active",
+                "inactive"
+              ]
+            },
+            "published_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "published_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "first_seen_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "first_seen_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "last_seen_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "last_seen_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "min_days_running": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_days_running": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "platform": {
+              "type": "string",
+              "enum": [
+                "Search",
+                "Shopping",
+                "Maps",
+                "Youtube",
+                "Other"
+              ]
+            },
+            "platforms": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "Search",
+                  "Shopping",
+                  "Maps",
+                  "Youtube",
+                  "Other"
+                ]
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "audience_country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "pattern": "^[A-Za-z]{2}$",
+              "description": "Google Ads audience country. Maps to targeting.main_country, not shop creation/profile country."
+            },
+            "audience_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Google Ads audience countries. Maps to targeting.main_country, not shop creation/profile countries."
+            },
+            "exclude_audience_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Exclude Google Ads audience countries from targeting.main_country. Must not overlap audience_country/audience_countries."
+            },
+            "format": {
+              "type": "string",
+              "enum": [
+                "static_image",
+                "html5_iframe",
+                "responsive_display"
+              ]
+            },
+            "formats": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "static_image",
+                  "html5_iframe",
+                  "responsive_display"
+                ]
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "website_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "website_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "eu_only": {
+              "type": "boolean",
+              "description": "Keep only Google ads with EU/UK-reported reach (metrics.reach > 0)."
+            },
+            "min_reach": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_reach": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_advertiser_reach": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_advertiser_reach": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_traffic": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_traffic": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_products": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_products": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_best_seller_price": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Minimum pipeline-normalized best-seller price in USD."
+            },
+            "max_best_seller_price": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Maximum pipeline-normalized best-seller price in USD."
+            },
+            "shop_creation_after": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "shop_creation_before": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "shop_creation_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "exclude_shop_creation_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "market_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "exclude_market_countries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "pattern": "^[A-Za-z]{2}$"
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "niche_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "languages": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "currencies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 20
+            },
+            "shopify_plus": {
+              "type": "string",
+              "enum": [
+                "plus",
+                "non-plus"
+              ]
+            },
+            "min_trustpilot_score": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "max_trustpilot_score": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "min_trustpilot_reviews": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max_trustpilot_reviews": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "pixels": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Canonical pixel UUIDs to include."
+            },
+            "exclude_pixels": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Canonical pixel UUIDs to exclude."
+            },
+            "shopify_apps": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Canonical Shopify app UUIDs to include."
+            },
+            "exclude_shopify_apps": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Canonical Shopify app UUIDs to exclude."
+            },
+            "themes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Canonical Shopify theme UUIDs to include."
+            },
+            "traffic_growth": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 20,
+              "items": {
+                "type": "object",
+                "required": [
+                  "period",
+                  "value",
+                  "direction"
+                ],
+                "properties": {
+                  "period": {
+                    "type": "string",
+                    "enum": [
+                      "1m",
+                      "3m",
+                      "6m"
+                    ]
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "direction": {
+                    "type": "string",
+                    "enum": [
+                      "greater",
+                      "lower"
+                    ]
+                  },
+                  "operator": {
+                    "type": "string",
+                    "enum": [
+                      "AND",
+                      "OR",
+                      "and",
+                      "or"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "description": "Traffic growth percentages. Each optional operator connects that rule to the following rule; the final operator is ignored."
+            },
+            "snapshot_date": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "hide_non_eu_uk_ads": {
+              "type": "boolean",
+              "default": false
+            },
+            "hide_low_reach_ads": {
+              "type": "boolean",
+              "default": false,
+              "description": "Hide ads whose Google EU/UK-reported reach is below 1,000."
+            },
+            "hide_low_impression_ads": {
+              "type": "boolean",
+              "default": false,
+              "description": "Legacy alias for hide_low_reach_ads. This filters Google EU/UK-reported reach, not impressions."
+            },
+            "hide_saved_ads": {
+              "type": "boolean",
+              "default": false,
+              "description": "Hide saved Google ads. Requires delegated-user credentials; full-access system/API-key credentials without a delegated user are rejected."
+            },
+            "workspace_id": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Optional assertion only. Must equal the workspace resolved from the API token/OAuth context."
+            },
+            "max_ads_per_brand": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 50,
+              "default": 0
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "newest",
+                "reach",
+                "impressions",
+                "longest-running",
+                "longest_running"
+              ],
+              "default": "newest",
+              "description": "Use reach to sort by Google EU/UK-reported reach. impressions is a legacy alias for reach. longest_running maps to backend 'longest-running'."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc"
+            },
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, include detailed Google Ads DTO rows plus raw request and field guide debug metadata. Defaults to false for compact LLM-friendly results."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "search_advertisers",
+        "description": "Search Meta/Facebook advertisers by brand/page name, domain, URL, ad copy, website copy, country, Google category facet ids, active ads, reach, and launch signals. Recent ad previews include media links when available. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary. Markdown is compact; structuredContent returns compact advertiser summaries. Use verbose=true for compact debug metadata only; detail-only countryDistribution is documented in the field guide without fan-out hydration.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional advertiser discovery query. Use general market/niche terms, brand/page names, domains, or URLs. Omit it to discover advertisers using filters only."
+            },
+            "keywords": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  },
+                  "minItems": 1,
+                  "maxItems": 10
+                }
+              ],
+              "description": "Optional extra keywords to combine with query."
+            },
+            "search_in": {
+              "type": "string",
+              "enum": [
+                "auto",
+                "brand",
+                "domain",
+                "ad_copy",
+                "website_copy",
+                "url"
+              ],
+              "default": "auto",
+              "description": "Where to search advertiser discovery terms. auto routes URLs to url, domains to domain, and general market/niche phrases to brand. URL scope normalizes full URLs to hostname (scheme/path/query ignored, leading www removed)."
+            },
+            "category_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "minItems": 1,
+              "maxItems": 20,
+              "description": "Optional Google category facet ids matched through linked websites' google_categories."
+            },
+            "country": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2,
+              "description": "Optional ISO 3166-1 alpha-2 audience-country filter (matches the advertiser's primary audience country / mainCountries — i.e., where the advertiser's ads reach viewers, not where the brand is headquartered). Normalized to uppercase. Distinct from search_shops.country (shop creation country); the response surfaces meta.countryFilterKind='audienceCountry' to disambiguate."
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "relevance",
+                "newest",
+                "activeAds",
+                "newAds",
+                "euAdsShare",
+                "reach",
+                "reach14d",
+                "followers",
+                "active_ads",
+                "growth",
+                "ads_launched"
+              ],
+              "default": "relevance",
+              "description": "How to rank Meta/Facebook advertisers. Supports Public API / TrendTrack UI sortBy values plus legacy aliases active_ads, ads_launched, and growth. growth uses a fixed backend 14-day reach growth ranking and does not accept timeframe."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc",
+              "description": "Optional sort order for sort_by. Ignored by the backend when sort_by=relevance."
+            },
+            "timeframe": {
+              "type": "string",
+              "enum": [
+                "7d",
+                "30d",
+                "90d"
+              ],
+              "default": "30d",
+              "description": "Window used for reach and ads-launched signals where applicable. Not accepted with sort_by=growth."
+            },
+            "verbose": {
+              "type": "boolean",
+              "default": false,
+              "description": "When true, include compact debug request/response metadata. Full raw backend payloads are never returned."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 10
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "search_emails",
+        "description": "Search marketing emails by query, shop, timeframe, and intent, returning compact subject, shop, and classification summaries.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional email subject/body query. Omit it to browse by shop, timeframe, or intent."
+            },
+            "shop": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional shop id, domain, or name to scope the email search."
+            },
+            "timeframe": {
+              "type": "string",
+              "enum": [
+                "7d",
+                "30d",
+                "90d",
+                "this_month",
+                "last_month"
+              ],
+              "default": "30d",
+              "description": "Sent-date window for the search."
+            },
+            "intent": {
+              "type": "string",
+              "enum": [
+                "best",
+                "promo",
+                "welcome",
+                "abandoned_cart",
+                "newsletter",
+                "all"
+              ],
+              "default": "all",
+              "description": "Optional marketing intent filter. best ranks by recent indexed metadata, not engagement metrics."
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "newest",
+                "oldest",
+                "relevance",
+                "monthlyVisits",
+                "bodyLength",
+                "shopEmailFrequency",
+                "event",
+                "promotionType"
+              ],
+              "description": "Optional email sort key. Mirrors the Public API / TrendTrack UI sortBy values. When omitted, MCP keeps its existing intent/query-aware default."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc",
+              "description": "Optional sort order for sort_by. Mirrors the Public API / TrendTrack UI order values."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 10
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "get_email_html",
+        "description": "Fetch the raw captured HTML for one email id. Use search_emails first, then get_email_html; by default the full HTML is included directly in the visible response text for MCP tool chaining and also returned in structuredContent.html.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "email_id"
+          ],
+          "properties": {
+            "email_id": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9007199254740991,
+              "description": "Stable public email identifier. Use search_emails first to find an email id."
+            },
+            "include_html": {
+              "type": "boolean",
+              "default": true,
+              "description": "When true, include the raw HTML directly in the visible tool response text so the assistant can copy/export it into another MCP tool. Defaults to true. Set false for metadata-only responses; the full HTML is still returned in structuredContent.html."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "list_favorites",
+        "description": "List workspace or delegated-user personal favorite ads, shops, or emails, with optional folder filtering, folder discovery, and page-based pagination. When the user requests an exhaustive export or analysis, request every page through pagination.totalPages. For type=ads, returned rows include media links when available. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite item type to list. shops means website/shop favorites."
+            },
+            "mode": {
+              "type": "string",
+              "enum": [
+                "items",
+                "folders"
+              ],
+              "default": "items",
+              "description": "Return saved items by default, or list the available favorite folders for the selected type."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "folder": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Optional public folder id to filter saved items. Use mode=folders first if you need folder ids."
+            },
+            "page": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "description": "Result page. Continue through totalPages when the user requests an exhaustive export or analysis."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 25,
+              "default": 10
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "create_favorite_folder",
+        "description": "Create a favorite folder for ads, shops, or emails. Shop folders are flat; parent_id is rejected for shops.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "name"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120
+            },
+            "parent_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Public destination folder id, or null/root."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "update_favorite_folder",
+        "description": "Rename or move a favorite folder. Provide at least one of name or parent_id; both may be provided together. Shop parent moves are unsupported and rejected clearly.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "folder_id"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "folder_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Public favorite folder id for the selected type."
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120
+            },
+            "parent_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Public destination folder id, or null/root."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "set_favorite_folder_visibility",
+        "description": "Set a favorite folder visibility to private or organization using the canonical Public API visibility semantics.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "folder_id",
+            "visibility"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "folder_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Public favorite folder id for the selected type."
+            },
+            "visibility": {
+              "type": "string",
+              "enum": [
+                "private",
+                "organization"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "delete_favorite_folder",
+        "description": "Delete a favorite folder with explicit contained item handling. Requires confirm: true.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "folder_id",
+            "mode",
+            "confirm"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "folder_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Public favorite folder id for the selected type."
+            },
+            "mode": {
+              "type": "string",
+              "enum": [
+                "delete_items",
+                "move_items_to_root",
+                "move_items_to_folder"
+              ]
+            },
+            "target_folder_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Public destination folder id, or null/root."
+            },
+            "confirm": {
+              "type": "boolean",
+              "const": true,
+              "description": "Required. Must be exactly true for destructive MCP mutations."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true
+        }
+      },
+      {
+        "name": "reorder_favorite_folders",
+        "description": "Reorder favorite ad or email folders. Shop folder reorder is unsupported and rejected clearly.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "folders"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "folders": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 200,
+              "items": {
+                "type": "object",
+                "required": [
+                  "id",
+                  "order"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "order": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 100000
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "add_favorite_item",
+        "description": "Add a favorite ad, shop, or email item to a scope/folder.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "item_id"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "item_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 255
+                },
+                {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              ],
+              "description": "Underlying item id: adId for ads, websiteId/shop id for shops, or email id for emails."
+            },
+            "folder_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Public destination folder id, or null/root."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "move_favorite_item",
+        "description": "Move a saved favorite row by list_favorites saved id into a folder or root.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "favorite_id",
+            "folder_id"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "favorite_id": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              ],
+              "description": "Saved favorite row id from list_favorites: numeric for ads, UUID for shops/emails."
+            },
+            "folder_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Public destination folder id, or null/root."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "remove_favorite_item",
+        "description": "Remove a favorite item by exactly one of favorite_id or item_id. favorite_id is the saved row id; item_id is the underlying resource id. Requires confirm: true.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "confirm"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "shops",
+                "emails"
+              ],
+              "description": "Favorite family. shops means website/shop favorites."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "favorite_id": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              ],
+              "description": "Saved favorite row id from list_favorites: numeric for ads, UUID for shops/emails."
+            },
+            "item_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 255
+                },
+                {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              ],
+              "description": "Underlying item id: adId for ads, websiteId/shop id for shops, or email id for emails."
+            },
+            "folder_id": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Public destination folder id, or null/root."
+            },
+            "confirm": {
+              "type": "boolean",
+              "const": true,
+              "description": "Required. Must be exactly true for destructive MCP mutations."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true
+        }
+      },
+      {
+        "name": "create_ad_share_link",
+        "description": "Create or return the existing public share link for a raw ad. OAuth callers need trendtrack:favorites.write.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "ad_id"
+          ],
+          "properties": {
+            "ad_id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 255
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "create_favorite_folder_share_link",
+        "description": "Create or return the existing public share link for a favorite ad folder. Shops/emails shares are unsupported.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type",
+            "folder_id"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "ads"
+              ],
+              "description": "Only favorite ad folders are shareable in this API version."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "workspace",
+                "personal"
+              ],
+              "default": "workspace",
+              "description": "Favorites scope. personal requires a delegated-user credential."
+            },
+            "folder_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Public favorite folder id for the selected type."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "analyze_brand_changes",
+        "description": "Analyze recent changes for a tracked brand: new and scaling ads, hooks, messaging, landing pages, and testing signals with partial-section warnings. New/scaling/top ad rows include media links when available. If you mention or list returned ads in the final answer, include each ad media link in the same row or bullet: use Media URL when present, otherwise Thumbnail URL. Do not omit ad media links unless the user explicitly asks for a text-only summary.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "brandtracker_id": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Optional tracked-brand id. If omitted, provide brand to resolve by tracked brand name."
+            },
+            "brand": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "description": "Optional tracked brand name to resolve when brandtracker_id is not provided."
+            },
+            "period": {
+              "type": "string",
+              "enum": [
+                "7d",
+                "30d",
+                "90d"
+              ],
+              "default": "30d",
+              "description": "Recent period to compare for brand activity changes."
+            },
+            "focus": {
+              "type": "string",
+              "enum": [
+                "ads",
+                "hooks",
+                "landing_pages",
+                "messaging",
+                "testing",
+                "all"
+              ],
+              "default": "all",
+              "description": "Limit the analysis to a specific change category."
+            },
+            "snapshot_date": {
+              "type": "string",
+              "default": "latest",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "latest"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "format": "date",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                }
+              ],
+              "description": "Snapshot anchor to use consistently where supported. Use latest for the latest ready snapshot, or provide YYYY-MM-DD on or before today (future dates are rejected)."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      },
+      {
+        "name": "lookup_filter_ids",
+        "description": "Lookup filter ids for MCP/Public API filters, or aggregate landing-page URLs. query is mandatory for categories, shopify_apps, pixels, technologies, and themes. Use those lookups before search_shops/search_ads category_ids/theme_ids/shopify_app_ids/pixel_ids. For technologies, use the returned slug. landing_pages forbids query and instead requires exactly one scope_tracked_pages or scope_domain; it returns normalized landing-page URLs with usage and active-ad counts, not ids.",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "type"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "categories",
+                "shopify_apps",
+                "pixels",
+                "technologies",
+                "themes",
+                "landing_pages"
+              ],
+              "description": "Filter family to search. For every type except landing_pages, query is mandatory. landing_pages returns normalized landing-page URLs with usage counts, not ids."
+            },
+            "query": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 200,
+              "description": "Mandatory for categories, shopify_apps, pixels, technologies, and themes; do not omit it for those types. Forbidden for landing_pages."
+            },
+            "scope_tracked_pages": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 128
+              },
+              "minItems": 1,
+              "maxItems": 100,
+              "description": "Available only for landing_pages. Provide exactly one of scope_tracked_pages or scope_domain."
+            },
+            "scope_domain": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 253,
+              "description": "Available only for landing_pages. Provide exactly one of scope_domain or scope_tracked_pages."
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "all",
+                "active",
+                "inactive"
+              ],
+              "default": "all",
+              "description": "Available only for landing_pages."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Maximum 25 for historical filter lookups and 100 for landing_pages."
+            }
+          },
+          "additionalProperties": false
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        }
+      }
+    ]
+  }
+}

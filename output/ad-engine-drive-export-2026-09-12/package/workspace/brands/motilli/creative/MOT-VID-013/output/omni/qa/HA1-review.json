@@ -1,0 +1,25 @@
+{
+  "shot": "HA1",
+  "verdict": "minor_issue",
+  "observed_motion": "The woman looks down at the shelf, raises her gaze slightly to scan, and places her hand flat against the cabinet door edge before looking down again with a tired expression. The cabinet door remains largely stationary rather than swinging farther open.",
+  "issues": [
+    {
+      "time_s": 1.5,
+      "description": "Cabinet door position remains static rather than noticeably easing farther open as intended.",
+      "severity": "minor"
+    },
+    {
+      "time_s": 1.75,
+      "description": "Slight sliding and unnatural repositioning of fingers as the hand moves up the door surface.",
+      "severity": "minor"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 3.75,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HA1-4fps.jpg"
+}

@@ -1,0 +1,90 @@
+{
+  "family": "weekender",
+  "attempt": "v1",
+  "status": "rejected",
+  "model": "gemini-omni-1.1-flash",
+  "provider": "Google Gemini Interactions API",
+  "previous_interaction_id": "v1_ChZwSjZjYXVzY2xJZlV5US1GbzdIZ0N3EhdDYUtjYW9DT0hydVlfdU1QdHRIVDhROA",
+  "source_video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/weekender/exports/v2/weekender-detail-stage-2.mp4",
+  "source_sha256": "b46b556021ea6fe70d2b59a4bd84efd955e900aee3c65d072caf54e078e5ca76",
+  "expected_duration": 18.0,
+  "expected_shots": 10,
+  "prompt": "Remove the artificial squiggly lines, stray hairlike strands and etched worm-like marks from the bag surfaces throughout this existing film. Restore clean tightly woven olive canvas and softly grained brown leather with natural fine texture. Preserve real stitching, seams and panel edges. Keep everything else exactly the same, including all 10 shots, their original cut times, the full 18.0-second duration, camera motion, framing, lighting, colors, bag shape, handles and hardware. Do not blur the surfaces or smooth them into plastic.",
+  "created_utc": "2026-09-06T06:25:49.351750+00:00",
+  "processing": "Original provider bytes, decoded only. No local video editing.",
+  "physical_scale_verified": false,
+  "interaction_id": "v1_ChZwSjZjYXVzY2xJZlV5US1GbzdIZ0N3EhdkQWVkYXRtSkl0cVpfdU1QeHV1SnlBVQ",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/artifact-cleanup-2026-09-06/weekender/v1/weekender-detail-clean.mp4",
+  "bytes": 13387687,
+  "sha256": "3f6c265a96338788f3132c5b4e45da384be751e4fa9ecd3e2a604ab6fc0d5a84",
+  "video_duration": 9.0,
+  "frames": 216,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": "24/1",
+  "usage": {
+    "total_tokens": 122438,
+    "total_input_tokens": 62214,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 8684
+      },
+      {
+        "modality": "text",
+        "tokens": 1690
+      },
+      {
+        "modality": "video",
+        "tokens": 51840
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 59366,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 858,
+    "raw_prompt_token": 56977,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 5477
+          },
+          {
+            "modality": "image",
+            "tokens": 8684
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1452
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 858
+          }
+        ]
+      },
+      {},
+      {}
+    ]
+  },
+  "finished_utc": "2026-09-06T06:27:53.506455+00:00",
+  "rejection_reasons": [
+    "Returned 9 seconds instead of the 18-second full film",
+    "Invented rear panel and handle roots in the final shot",
+    "Surface cleanup incomplete"
+  ]
+}

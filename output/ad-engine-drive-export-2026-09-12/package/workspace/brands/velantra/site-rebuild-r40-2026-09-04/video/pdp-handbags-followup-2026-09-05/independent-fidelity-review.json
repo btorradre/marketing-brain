@@ -1,0 +1,111 @@
+{
+  "reviewer": "commerce_theme",
+  "metric_scale": "Not certified; review is source-relative appearance and construction only.",
+  "reviews": [
+    {
+      "family": "weekender",
+      "candidate": "references/studio-first-frame.png initial",
+      "decision": "reject",
+      "reason": "Three distinct handle arches versus two on the actual Army Green front source.",
+      "sources_viewed": [
+        "brands/velantra/products/weekender/product-references/real-product-2026-08-08/AG-still-closed-front.jpg",
+        "weekender/references/studio-first-frame.png"
+      ]
+    },
+    {
+      "family": "meridian",
+      "candidate": "references/studio-first-frame.png",
+      "decision": "accept source-relative identity",
+      "reason": "Preserves flat short handles, silver plate and slotted belt ends, open top, folded gusset and small source-visible feet.",
+      "sources_viewed": [
+        "brands/velantra/products/margot/product-references/meridian/brown 1.webp",
+        "meridian/references/studio-first-frame.png"
+      ]
+    },
+    {
+      "family": "weekender",
+      "candidate": "qa/v1-stage-1/contact.jpg",
+      "decision": "accept sampled stage",
+      "reason": "Two handles, actual horizontal oval, contoured flap, Army Green canvas and source corner trim. Macro subjects do not introduce new roots or fittings.",
+      "sources_viewed": [
+        "weekender/qa/v1-stage-1/contact.jpg"
+      ]
+    },
+    {
+      "family": "weekender",
+      "candidate": "qa/v1-final/contact.jpg and frame-11-9.500.jpg",
+      "decision": "hold 9.5\u201310.7-second shot; regenerate",
+      "reason": "Broad uninterrupted rounded hanging flap and added side clip do not match the contoured front. The physical dark-sample rear has a sewn band with handle roots and strap anchors, not this flap; do not relabel the inferred shot as a supported rear view.",
+      "sources_viewed": [
+        "weekender/qa/v1-final/contact.jpg",
+        "weekender/qa/v1-final/frame-11-9.500.jpg",
+        "brands/velantra/products/weekender/product-references/real-product-2026-08-08/XX-DARK-still-back.jpg"
+      ]
+    },
+    {
+      "family": "weekender",
+      "candidate": "qa/v2-final",
+      "decision": "accept sampled construction; mobile framing limitation",
+      "sources_viewed": [
+        "weekender/qa/v2-final/contact.jpg",
+        "weekender/qa/v2-final/frame-00-0.000.jpg",
+        "weekender/qa/v2-final/frame-13-11.200.jpg",
+        "weekender/qa/v2-final/mobile-crop-contact.jpg",
+        "weekender/qa/v2-final/desktop-crop-contact.jpg"
+      ],
+      "findings": [
+        "Rejected plain-flap shot is replaced with a handle-only macro.",
+        "Two handle contours remain in the more upright later pose; rear contour is visible on both sides.",
+        "Horizontal oval plate, contoured front, green canvas and corner trims remain."
+      ],
+      "crop_note": "Later full fronts slightly exceed the centered390/420mobile window at outer side wings; approximately16pxleft and a few pixelsright at390px. Handles, main front and base remain visible."
+    },
+    {
+      "family": "meridian",
+      "candidate": "qa/v3-final",
+      "decision": "accept sampled construction",
+      "sources_viewed": [
+        "meridian/qa/v3-final/contact.jpg",
+        "meridian/qa/v3-final/frame-13-11.200.jpg",
+        "meridian/qa/v3-final/frame-19-16.500.jpg",
+        "meridian/qa/v3-final/mobile-crop-contact.jpg"
+      ],
+      "findings": [
+        "Material-only root hallucination is omitted.",
+        "Whole portraits preserve flat handles, open top, silver fittings and folded sides.",
+        "Both slotted tips remain loose below the center plate in a shallower downward V; at full resolution they are not horizontally fastened or merged.",
+        "Mobile crop retains the sampled whole silhouette."
+      ]
+    },
+    {
+      "family": "camille",
+      "candidate": "qa/v2-final",
+      "decision": "accept sampled source-relative construction",
+      "sources_viewed": [
+        "camille/qa/v2-final/contact.jpg",
+        "brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/01-36425574940737.jpg"
+      ],
+      "findings": [
+        "Cream woven body and folded top remain intact.",
+        "Navy flat handles with cream underside, two front strips, narrow belt and small gold fittings match the selected source.",
+        "Small base feet visible in the film already appear in the exact selected catalog source; they were not inferred from a generic product claim.",
+        "Material, handle, front-strip and corner macros remain in supported front/side regions."
+      ]
+    },
+    {
+      "family": "delphine",
+      "candidate": "qa/v2-final",
+      "decision": "accept sampled construction with transient visual artifact noted",
+      "sources_viewed": [
+        "delphine/qa/v2-final/contact.jpg",
+        "brands/velantra/products/delphine/regen-2026-08-30/approved/LC-master.png"
+      ],
+      "findings": [
+        "Corrected source diagonal twill, concave base, curved leather corners and low hanging slotted plates remain visible.",
+        "Handle crowns/shafts and corner macros avoid invented interiors or a rear assembly.",
+        "Whole views retain the source vertical oval, key bell and warm leather placement."
+      ],
+      "limitation": "The sampled frame near5.3s shows transient handle-texture distortion. The producing agent reports it is exactly one41.667ms frame at5.333s before the clean5.375s cut; no persistent construction change is visible in the remaining contact-sheet samples."
+    }
+  ]
+}

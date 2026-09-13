@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {},
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Bring order to your favorite tote. The Velantra Bag Organizer drops straight into Speedy, Neverfull, Bogg and more &mdash; removable dividers and multiple pockets keep everything findable, then lift out in one piece when you switch bags.</p>",
+            "open": false
+          }
+        },
+        "tab_materials": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials & Care",
+            "content": "<p><strong>Material</strong><br>Premium structured felt with removable dividers.</p><p><strong>Care</strong><br>Spot clean with a damp cloth and air dry. Remove the dividers to reshape or store flat.</p>",
+            "open": false
+          }
+        },
+        "tab_dimensions": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Dimensions",
+            "content": "<p><strong>Size</strong><br>11.4&quot; L &times; 5.5&quot; W &times; 7.1&quot; H (29 &times; 14 &times; 18 cm). Also available in multiple sizes &mdash; see the size selector.</p><p>Removable dividers &middot; multiple interior pockets &middot; lightweight, portable design.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_materials",
+        "tab_dimensions"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

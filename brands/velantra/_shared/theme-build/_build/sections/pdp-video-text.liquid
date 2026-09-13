@@ -1,0 +1,171 @@
+{% comment %}
+  PDP — Video (or image) + Text 50/50 split.
+  Cuyana "See It In Motion" pattern. Supports image OR video on one side, copy + CTA on the other.
+{% endcomment %}
+
+<section
+  class="pdp-vt pdp-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="pdp-video-text"
+  style="--pdp-bg: {{ section.settings.bg_color }};"
+>
+  <div class="pdp-vt__inner" data-position="{{ section.settings.media_position }}">
+    <div class="pdp-vt__media">
+      {%- if section.settings.video_url != blank -%}
+        <video
+          class="pdp-vt__video"
+          src="{{ section.settings.video_url }}"
+          {% if section.settings.autoplay %}autoplay muted loop playsinline{% endif %}
+          {% if section.settings.show_controls %}controls{% endif %}
+          {% if section.settings.poster != blank %}poster="{{ section.settings.poster | image_url: width: 1600 }}"{% endif %}
+          preload="metadata"
+        ></video>
+        {%- if section.settings.show_play_overlay -%}
+          <button type="button" class="pdp-vt__play" data-pdp-vt-toggle aria-label="Play/pause">
+            <svg class="pdp-vt__play-icon" viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <rect x="8" y="6" width="6" height="20"/><rect x="18" y="6" width="6" height="20"/>
+            </svg>
+          </button>
+        {%- endif -%}
+      {%- elsif section.settings.shopify_video != blank -%}
+        {{ section.settings.shopify_video | video_tag: image_size: '1600x', autoplay: section.settings.autoplay, loop: section.settings.autoplay, muted: true, controls: section.settings.show_controls, class: 'pdp-vt__video' }}
+      {%- elsif section.settings.image != blank -%}
+        {{ section.settings.image | image_url: width: 1600 | image_tag:
+          loading: 'lazy',
+          widths: '480, 720, 960, 1200, 1600',
+          sizes: '(min-width: 768px) 50vw, 100vw',
+          alt: section.settings.headline,
+          class: 'pdp-vt__img' }}
+      {%- endif -%}
+    </div>
+
+    <div class="pdp-vt__text">
+      <div class="pdp-vt__text-inner">
+        {%- if section.settings.eyebrow != blank -%}
+          <p class="pdp-vt__eyebrow">{{ section.settings.eyebrow }}</p>
+        {%- endif -%}
+        {%- if section.settings.headline != blank -%}
+          <h2 class="pdp-vt__headline">{{ section.settings.headline }}</h2>
+        {%- endif -%}
+        {%- if section.settings.body != blank -%}
+          <div class="pdp-vt__body rte">{{ section.settings.body }}</div>
+        {%- endif -%}
+        {%- if section.settings.cta_url != blank and section.settings.cta_label != blank -%}
+          <a class="pdp-vt__cta" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  #shopify-section-{{ section.id }} .pdp-vt {
+    background: var(--pdp-bg, #ffffff);
+    padding: clamp(48px, 6vw, 80px) 0;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__inner {
+    max-width: 1440px; margin: 0 auto;
+    display: grid; gap: 0;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+  @media (min-width: 768px) {
+    #shopify-section-{{ section.id }} .pdp-vt__inner { grid-template-columns: 1fr 1fr; }
+    #shopify-section-{{ section.id }} .pdp-vt__inner[data-position="right"] .pdp-vt__media { order: 2; }
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__media {
+    position: relative; background: #f5f3ee; overflow: hidden;
+    aspect-ratio: 4/5;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__img,
+  #shopify-section-{{ section.id }} .pdp-vt__video {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__play {
+    position: absolute; bottom: 16px; right: 16px;
+    width: 44px; height: 44px; border-radius: 50%;
+    background: rgba(255,255,255,0.9); border: 0;
+    display: inline-flex; align-items: center; justify-content: center;
+    cursor: pointer; color: #1a1a1a; transition: background 200ms;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__play:hover { background: #ffffff; }
+  #shopify-section-{{ section.id }} .pdp-vt__text {
+    display: flex; align-items: center; justify-content: center;
+    padding: clamp(32px, 5vw, 64px) clamp(20px, 4vw, 56px);
+    background: var(--pdp-bg, #ffffff);
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__text-inner { max-width: 480px; }
+  #shopify-section-{{ section.id }} .pdp-vt__eyebrow {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: #6a6a6a; margin: 0 0 16px;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__headline {
+    font-family: var(--font-stack-header, 'Cormorant', serif);
+    font-weight: 400; font-size: clamp(28px, 3.4vw, 44px);
+    line-height: 1.15; letter-spacing: -0.015em; margin: 0 0 20px; color: #1a1a1a;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__body {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 15px; line-height: 1.65; color: #2a2a2a;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__body p { margin: 0 0 14px; }
+  #shopify-section-{{ section.id }} .pdp-vt__body p:last-child { margin-bottom: 0; }
+  #shopify-section-{{ section.id }} .pdp-vt__cta {
+    display: inline-block; margin-top: 24px;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: #1a1a1a; text-decoration: underline; text-underline-offset: 6px;
+  }
+  #shopify-section-{{ section.id }} .pdp-vt__cta:hover { opacity: 0.7; }
+</style>
+
+<script>
+(function(){
+  var root = document.querySelector('#shopify-section-{{ section.id }}');
+  if (!root) return;
+  var toggle = root.querySelector('[data-pdp-vt-toggle]');
+  var video = root.querySelector('video');
+  if (!toggle || !video) return;
+  toggle.addEventListener('click', function(){
+    if (video.paused) { video.play(); toggle.innerHTML = '<svg class="pdp-vt__play-icon" viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true"><rect x="8" y="6" width="6" height="20"/><rect x="18" y="6" width="6" height="20"/></svg>'; }
+    else { video.pause(); toggle.innerHTML = '<svg class="pdp-vt__play-icon" viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true"><polygon points="10,6 26,16 10,26"/></svg>'; }
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "PDP · Video + Text",
+  "tag": "section",
+  "class": "shopify-section--pdp-video-text",
+  "settings": [
+    { "type": "header", "content": "Copy" },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "SEE IT IN MOTION" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Every Detail, Considered" },
+    { "type": "richtext", "id": "body", "label": "Body" },
+    { "type": "text", "id": "cta_label", "label": "CTA label", "default": "Shop the Boat Tote" },
+    { "type": "url", "id": "cta_url", "label": "CTA URL" },
+    { "type": "header", "content": "Media" },
+    { "type": "select", "id": "media_position", "label": "Media position (desktop)", "default": "left",
+      "options": [
+        { "value": "left", "label": "Media left" },
+        { "value": "right", "label": "Media right" }
+      ]
+    },
+    { "type": "image_picker", "id": "image", "label": "Image (fallback)" },
+    { "type": "url", "id": "video_url", "label": "External video URL (MP4)" },
+    { "type": "video", "id": "shopify_video", "label": "Shopify video (alternative)" },
+    { "type": "image_picker", "id": "poster", "label": "Video poster image (optional)" },
+    { "type": "checkbox", "id": "autoplay", "label": "Autoplay video (muted, loop)", "default": true },
+    { "type": "checkbox", "id": "show_controls", "label": "Show native video controls", "default": false },
+    { "type": "checkbox", "id": "show_play_overlay", "label": "Show play/pause overlay button", "default": true },
+    { "type": "header", "content": "Styling" },
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#ffffff" }
+  ],
+  "presets": [
+    { "name": "PDP · Video + Text" }
+  ],
+  "disabled_on": { "groups": ["header", "footer", "aside"] }
+}
+{% endschema %}

@@ -1,0 +1,73 @@
+{
+  "shot": "S33",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "She gently adjusts the sleeve of her beige cardigan and settles the existing black tote on her shoulder; her clothing and body size remain unchanged. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S33.png",
+  "reference_sha256": "86f0dbcc15567c63bc2ba84ab8367c6ce563f600dc6d53fff1e2d93efcbc695f",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chd3TE9nYXRxNExNX2p6N0lQNG9qZjJRNBIXd0xPZ2F0cTRMTV9qejdJUDRvamYyUTQ",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S33.mp4",
+  "sha256": "fceace3ef0f69aec1aa71ac3e33ca0f54ac0f37b925226ce6afd3abddfc9b3b4",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59703,
+    "total_input_tokens": 1159,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 59
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58361,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 183,
+    "raw_prompt_token": 31006,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1852
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 447
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 183
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

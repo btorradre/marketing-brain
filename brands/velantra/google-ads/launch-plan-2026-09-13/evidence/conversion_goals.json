@@ -1,0 +1,47 @@
+{
+  "queried_at": "2026-09-13T18:56:51.821720+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT customer_conversion_goal.category, customer_conversion_goal.origin, customer_conversion_goal.biddable FROM customer_conversion_goal",
+  "results": [
+    {
+      "customerConversionGoal": {
+        "resourceName": "customers/9348603597/customerConversionGoals/DEFAULT~WEBSITE",
+        "category": "DEFAULT",
+        "origin": "WEBSITE",
+        "biddable": true
+      }
+    },
+    {
+      "customerConversionGoal": {
+        "resourceName": "customers/9348603597/customerConversionGoals/PURCHASE~WEBSITE",
+        "category": "PURCHASE",
+        "origin": "WEBSITE",
+        "biddable": true
+      }
+    },
+    {
+      "customerConversionGoal": {
+        "resourceName": "customers/9348603597/customerConversionGoals/PAGE_VIEW~WEBSITE",
+        "category": "PAGE_VIEW",
+        "origin": "WEBSITE",
+        "biddable": true
+      }
+    },
+    {
+      "customerConversionGoal": {
+        "resourceName": "customers/9348603597/customerConversionGoals/ADD_TO_CART~WEBSITE",
+        "category": "ADD_TO_CART",
+        "origin": "WEBSITE",
+        "biddable": true
+      }
+    },
+    {
+      "customerConversionGoal": {
+        "resourceName": "customers/9348603597/customerConversionGoals/BEGIN_CHECKOUT~WEBSITE",
+        "category": "BEGIN_CHECKOUT",
+        "origin": "WEBSITE",
+        "biddable": true
+      }
+    }
+  ]
+}

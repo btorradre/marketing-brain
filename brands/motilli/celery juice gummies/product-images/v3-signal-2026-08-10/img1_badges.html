@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:2048px;height:2048px;overflow:hidden}
+  body{font-family:'Poppins',-apple-system,'Avenir Next',Helvetica,sans-serif;
+       background:#FCF8EC;position:relative;}
+  .left{position:absolute;left:0;top:0;width:1400px;height:2048px;}
+  .left img{width:100%;height:100%;display:block;object-fit:cover}
+
+  /* badge geometry measured off the original: x 1411..1936, runs 203-700 / 740-1239 / 1279-1774 */
+  .badge{position:absolute;left:1411px;width:525px;
+         background:#F4F5E3;border:3px solid #DDE6C6;border-radius:44px;
+         display:flex;flex-direction:column;align-items:center;justify-content:center;
+         text-align:center;padding:34px 30px;}
+  .b1{top:203px;height:497px}
+  .b2{top:740px;height:499px}
+  .b3{top:1279px;height:495px}
+  .badge svg{display:block;margin-bottom:34px}
+  .badge p{font-size:52px;font-weight:600;line-height:1.2;color:#123A1B;letter-spacing:-.6px}
+</style></head>
+<body>
+  <div class="left"><img src="img1_left.png"></div>
+
+  <div class="badge b1">
+    <svg width="180" height="150" viewBox="0 0 120 100" fill="none" stroke="#1E5A2A" stroke-width="4.2"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24 14c0 10-12 10-12 20s12 10 12 20-10 10-10 18"/>
+      <path d="M44 14c0 10-12 10-12 20s12 10 12 20-10 10-10 18"/>
+      <path d="M24 14h20"/><path d="M14 72h20"/>
+      <path d="M86 30l17 7v16c0 12-8 20-17 24-9-4-17-12-17-24V37z"/>
+      <path d="M79 52l6 6 12-13"/>
+    </svg>
+    <p>Naturally<br>Reset Your Gut</p>
+  </div>
+
+  <div class="badge b2">
+    <svg width="180" height="150" viewBox="0 0 120 100" fill="none" stroke="#1E5A2A" stroke-width="4.2"
+         stroke-linecap="round" stroke-linejoin="round">
+      <rect x="34" y="26" width="54" height="30" rx="8" transform="rotate(-38 61 41)"/>
+      <path d="M78 20l14 14" />
+      <path d="M86 12l16 16"/>
+      <path d="M40 56L22 74"/>
+      <path d="M18 78l-6 10 10-6z" fill="#1E5A2A"/>
+      <path d="M52 34l14 14"/>
+    </svg>
+    <p>Made for<br>GLP-1 Side Effects</p>
+  </div>
+
+  <div class="badge b3">
+    <svg width="180" height="150" viewBox="0 0 120 100" fill="none" stroke="#1E5A2A" stroke-width="4.2"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 62c14 0 14-24 28-24s14 24 28 24 14-24 28-24"/>
+      <path d="M96 30l10 8-10 8"/>
+      <path d="M12 82h84"/>
+    </svg>
+    <p>Works On<br>the Signal</p>
+  </div>
+</body></html>

@@ -1,0 +1,20 @@
+{
+  "shot": "S09",
+  "verdict": "minor_issue",
+  "observed_motion": "Camera slightly pans upward focusing on the stomach, which illuminates brightly around 1.75s, dims by 3.0s, and pulses with a secondary glow around 4.0s.",
+  "issues": [
+    {
+      "time_s": 3.75,
+      "description": "Secondary brightening pulse occurs instead of a single highlight.",
+      "severity": "low"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 3.25,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 20,
+  "native_duration_s": 5.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S09-4fps.jpg"
+}

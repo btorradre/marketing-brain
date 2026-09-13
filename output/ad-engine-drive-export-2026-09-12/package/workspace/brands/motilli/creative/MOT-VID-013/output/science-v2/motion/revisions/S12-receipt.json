@@ -1,0 +1,73 @@
+{
+  "shot": "S12",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "Slow camera push toward the existing stomach cutaway. The meal remains resting inside the stomach with every visible plant strand lying flat in its original place. Only a faint natural stomach-wall contraction and liquid surface shimmer. Keep every solid food piece and fiber strand fixed in size and position; no rising strands, sprouting, swelling, floating fibers or new material. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S12.png",
+  "reference_sha256": "75b60abcfd04440cebb7abaad21b10291b5d37ac238a8d646f867489ae23f610",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdCTVNnYXFPaUxiN1V6N0lQczd2THNBRRIXQk1TZ2FxT2lMYjdVejdJUHM3dkxzQUU",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/revisions/S12.mp4",
+  "sha256": "40d0009c33e446cfb2fe6718b49672e9313b0c372e142303eb9080787e472b10",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60274,
+    "total_input_tokens": 1202,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 102
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58474,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 598,
+    "raw_prompt_token": 31603,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1895
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 561
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 598
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

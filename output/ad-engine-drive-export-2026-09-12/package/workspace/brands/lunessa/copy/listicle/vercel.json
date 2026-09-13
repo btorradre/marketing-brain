@@ -1,0 +1,56 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "l2.hearthealthblog.org"
+        }
+      ],
+      "destination": "/menopause/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "l3.hearthealthblog.org"
+        }
+      ],
+      "destination": "/genetic/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/11-reasons",
+      "destination": "/7-reasons-genetic",
+      "permanent": false
+    },
+    {
+      "source": "/11-reasons/",
+      "destination": "/7-reasons-genetic",
+      "permanent": false
+    },
+    {
+      "source": "/11-reasons-genetic",
+      "destination": "/7-reasons-genetic",
+      "permanent": false
+    },
+    {
+      "source": "/11-reasons-genetic/",
+      "destination": "/7-reasons-genetic",
+      "permanent": false
+    },
+    {
+      "source": "/11-reasons-menopause",
+      "destination": "/7-reasons-menopause",
+      "permanent": false
+    },
+    {
+      "source": "/11-reasons-menopause/",
+      "destination": "/7-reasons-menopause",
+      "permanent": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "shot": "S18",
+  "verdict": "minor_issue",
+  "observed_motion": "The camera executes a subtle downward reframe during the first second, after which the frame remains nearly static with gentle ambient pulsation on the existing highlights.",
+  "issues": [
+    {
+      "time_s": 1.25,
+      "description": "Downward camera drift largely halts, resulting in an almost static hold rather than continuous downward progression.",
+      "severity": "mild"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 3.75,
+  "confidence": 0.74,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S18-4fps.jpg"
+}

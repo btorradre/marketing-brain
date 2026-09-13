@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "campaign_id": "52622637303560",
+      "campaign_name": "mot vids 2",
+      "spend": "98.67",
+      "impressions": "900",
+      "actions": [
+        {
+          "action_type": "link_click",
+          "value": "46"
+        },
+        {
+          "action_type": "offsite_content_view_add_20_s_calls",
+          "value": "44"
+        },
+        {
+          "action_type": "landing_page_view",
+          "value": "44"
+        },
+        {
+          "action_type": "omni_landing_page_view",
+          "value": "44"
+        },
+        {
+          "action_type": "post_engagement",
+          "value": "449"
+        },
+        {
+          "action_type": "page_engagement",
+          "value": "449"
+        },
+        {
+          "action_type": "onsite_web_view_content",
+          "value": "44"
+        },
+        {
+          "action_type": "onsite_web_app_view_content",
+          "value": "44"
+        },
+        {
+          "action_type": "view_content",
+          "value": "44"
+        },
+        {
+          "action_type": "offsite_content_view_add_meta_leads",
+          "value": "44"
+        },
+        {
+          "action_type": "video_view",
+          "value": "403"
+        },
+        {
+          "action_type": "omni_view_content",
+          "value": "44"
+        },
+        {
+          "action_type": "offsite_conversion.fb_pixel_view_content",
+          "value": "44"
+        }
+      ],
+      "date_start": "2026-09-12",
+      "date_stop": "2026-09-12"
+    }
+  ],
+  "paging": {
+    "has_next": false
+  },
+  "_audit": {
+    "retrieved_at": "2026-09-12T16:35:35.066772+00:00",
+    "endpoint": "act_1752609235887283/insights",
+    "params": {
+      "time_range": "{\"since\": \"2026-09-12\", \"until\": \"2026-09-12\"}",
+      "use_unified_attribution_setting": "true",
+      "limit": 100,
+      "fields": "campaign_id,campaign_name,spend,impressions,actions",
+      "level": "campaign"
+    },
+    "http_status": 200
+  }
+}

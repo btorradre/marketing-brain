@@ -1,0 +1,23 @@
+{
+  "job": "motilli-v13-fiber-foods",
+  "brand": "motilli",
+  "brand_context": "Existing unbranded VSL for mature women over50 on GLP-1 medications. This slot shows real fiber-rich whole foods only, no presenter face or supplements. Food-only or hands-only footage; face NEVER visible in selected segment. Exact existing narration unchanged. No baked-in text, captions, labels, logos, TikTok watermarks or user handles anywhere in selected segment.",
+  "engine": "apify",
+  "slots": [
+    {
+      "slot_id": "B10",
+      "script_line": "My doctor's advice was to add more fiber.",
+      "emotion": "Practical everyday healthy eating; clear visual example of fiber-rich foods.",
+      "action": "Close-up food fills the frame: beans, chickpeas, lentils, oats, berries, seeds or a mixed bean/whole-grain salad being poured, stirred, tossed or served. Need a continuous2.2second shot with NO on-screen text or watermark at any point. Food or hands ONLY; no face. No supplement powders, packaging, recipes written on screen, talking heads or meat-dominated dishes.",
+      "mode": "search",
+      "search_terms": [
+        "chickpea salad",
+        "lentil salad"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 3,
+      "max_duration_s": 180,
+      "duration_needs_s": 2.2
+    }
+  ]
+}

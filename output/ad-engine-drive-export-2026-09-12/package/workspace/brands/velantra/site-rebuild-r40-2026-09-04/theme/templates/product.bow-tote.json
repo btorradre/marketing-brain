@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "ROSALIE",
+        "description_override": "<p>Ivory canvas gives the Rosalie its crisp, gently structured shape. A woven ribbon passes through warm gold-tone grommets and ties into a generous bow, letting color become the focal point of the design. Flat canvas handles and a defined base keep the little tote composed, while floral lining adds a softer detail inside. From the ribbon’s drape to the rounded corners, the Rosalie brings a light, personal touch to everyday dressing.</p>",
+        "fact_material": "Ivory canvas with woven ribbon",
+        "fact_detail": "Hand-tied bow",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Mini tote with flat canvas handles, an open top, woven ribbon bow and floral fabric lining. Sand, Denim and Pink refer to the ribbon and lining treatment; the canvas body remains ivory.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Ivory canvas, woven ribbon and floral fabric lining with gold-tone fittings. Spot-clean gently with a barely damp cloth and air-dry. Store without crushing the ribbon.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "detailfilm": {
+      "type": "detail-film",
+      "disabled": true,
+      "settings": {
+        "description": "A detail film of the Rosalie",
+        "vertical_position": 65
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "THE RHYTHM OF MAKING",
+        "text": "<p>A closer look at the Rosalie.</p>"
+      }
+    },
+    "value": {
+      "type": "value-breakdown",
+      "disabled": true,
+      "settings": {
+        "default_asset": "",
+        "image_description": "The Rosalie",
+        "image_fit": "contain",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "table_caption": "The Rosalie: visible design details",
+        "product_heading": "The Rosalie",
+        "detail_heading": "Detail",
+        "purpose_heading": "The purpose"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "detailfilm",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

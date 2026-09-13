@@ -1,0 +1,59 @@
+{
+  "_comment": "The single input to every script. Copy, fill, delete the _comment keys.",
+
+  "brand": "velantra",
+  "source_url": "https://competitor.com/products/the-thing",
+
+  "handle": "velantra-harbor-tote",
+  "slug": "harbor-tote",
+  "template_suffix": "harbor-tote",
+  "title": "The Harbor Tote",
+  "short_name": "Harbor",
+  "vendor": "Velantra",
+  "product_type": "Bag",
+  "price": "149.99",
+  "tags": ["handbags", "leather", "tote"],
+  "seo": {"title": "The Harbor Tote", "description": "Full-grain leather tote, structured, 13-inch laptop."},
+
+  "_comment_colorways": "ONLY colorways we are actually manufacturing. hex guides the recolour prompt. Per-colorway price and sku are optional overrides.",
+  "colorways": [
+    {"name": "Camel", "hex": "#c19a6b", "sku": "VEL-HARBOR-CAMEL"},
+    {"name": "Black", "hex": "#1a1a1a"},
+    {"name": "Olive", "hex": "#5b5d3a"}
+  ],
+
+  "_comment_angles": "Gallery slots per colorway, in gallery order. First one becomes the variant featured image. Files land at product-images/colors/<Colorway>/<angle>.png",
+  "angle_order": ["front", "interior", "lifestyle", "detail"],
+
+  "_comment_description": "description_html is the buy-box description. A pre-order notice goes at the TOP of it, scoped to the colorway, with a supplier-confirmed ship month.",
+  "blurb": "Full-grain leather over woven canvas. Structured enough to stand on its own.",
+  "description_html": "<p>Full-grain leather over woven canvas. Structured enough to stand on its own, sized for the commute.</p>",
+
+  "pdp": {
+    "blurb": "Full-grain leather over woven canvas. Structured enough to stand on its own, sized for the commute.",
+    "assurance": "Free U.S. shipping · 30-day returns and free exchanges · Two-year warranty",
+    "tabs": {
+      "Details": "<p><strong>One size, approx. 13\" W x 10\" H x 6\" D.</strong> Holds a 13-inch laptop, a folder and a water bottle.</p>",
+      "Delivery": "<p>Free shipping on orders over $75. Ships and arrives within 7 to 10 business days.</p>",
+      "Care": "<p><strong>Body:</strong> woven canvas.<br/><strong>Trim:</strong> full-grain leather.<br/><strong>Hardware:</strong> gold-tone.</p>"
+    },
+    "icon_bar": [
+      {"eyebrow": "MATERIAL", "headline": "Full-grain leather and woven canvas", "body": "Structured on the shelf, soft in the hand."},
+      {"eyebrow": "CRAFT", "headline": "Hardware that works", "body": "A real turn-lock, reinforced corners, visible stitching."},
+      {"eyebrow": "EXCLUSIVE", "headline": "Made in limited runs", "body": "When a color sells out it can be weeks before it returns."}
+    ],
+    "benefits": [
+      {"eyebrow": "INSIDE", "headline": "Fits a 13-inch laptop", "body": "Flat against the back panel."}
+    ],
+    "editorial": [
+      {"eyebrow": "WHAT YOU ARE PAYING FOR", "headline": "The leather, not the logo", "body": "The same construction as bags at four times the price. What we skip is the name on the front.", "position": "left"}
+    ],
+    "feature_captions": [
+      "Full-grain leather trim, burnished edges",
+      "Heavyweight woven canvas body",
+      "Gold-tone turn-lock closure",
+      "Reinforced leather corners"
+    ],
+    "sections_enabled": {"benefits": true, "warranty": false, "customize": false, "video_text": false}
+  }
+}

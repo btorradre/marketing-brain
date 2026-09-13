@@ -1,0 +1,13 @@
+from pathlib import Path
+import json
+O=Path(__file__).resolve().parent
+rows=json.loads((O/'qa/shared-body-envelope-sync.json').read_text());assert max(abs(x['delta']) for x in rows)<.01 and min(x['corr'] for x in rows)>.98
+with (O/'editing-plan.md').open('a') as f:f.write('\n\n### Shared freshly generated body performance\nUse the fresh full H2 HeyGen performance for the identical body in H1 and H3; generate their exact openings separately. Native frame boundaries: H1 hook 246 frames, H2 body begins frame 396, H3 hook 458 frames. Audio envelope checks at five distributed body points show timing residuals under 10 ms and correlation above .98. H3 frame rounding leaves under one frame of mismatch. This is deliberate reuse of the continuous presenter, not repeated B-roll. All B-roll/captions remain individually aligned to each exact final voice.\n')
+pre="""local r=fu:GetResolve();local pm=r:GetProjectManager();local p=pm:GetCurrentProject();assert(not p:IsRenderingInProgress());if p:GetName()~='MOT-UGC-YAPPER-01 v7 V3 20260910' then assert(pm:SaveProject());p=pm:LoadProject('MOT-UGC-YAPPER-01 v7 V3 20260910');assert(p) end;local mp=p:GetMediaPool();local ids={}
+"""
+code=pre
+for h,n in [('H1',246),('H3',458)]:
+ code+=f'''do local base=nil;local t=nil;local name='v27 {h} hook for HeyGen';for i=1,p:GetTimelineCount() do local q=p:GetTimelineByIndex(i);if q:GetName()=='v27 {h} Woman Over 40 - FINAL 110 percent' then base=q end;if q:GetName()==name then t=q end end;assert(base);if not t then t=mp:CreateEmptyTimeline(name);assert(t);assert(p:SetCurrentTimeline(t));t:SetStartTimecode('00:00:00:00');local c=mp:AppendToTimeline({{{{mediaPoolItem=base:GetMediaPoolItem(),startFrame=0,endFrame={n},recordFrame=0,trackIndex=1,mediaType=2}}}})[1];assert(c) end;assert(p:SetCurrentTimeline(t));assert(t:GetEndFrame()=={n});p:SetCurrentRenderMode(1);assert(p:SetRenderSettings({{ExportVideo=false,ExportAudio=true}}));assert(p:SetCurrentRenderFormatAndCodec('mov','H264'));assert(p:SetRenderSettings({{TargetDir={json.dumps(str(O))},CustomName='{h}-hook110-master',SelectAllFrames=true,ExportVideo=false,ExportAudio=true,AudioCodec='lpcm',AudioBitDepth=24,AudioSampleRate=48000}}));local id=p:AddRenderJob();assert(id);table.insert(ids,id);print('HOOK_JOB','{h}',id) end\n'''
+code+="assert(pm:SaveProject());assert(p:StartRendering(ids));print('HOOK_EXPORTS_STARTED')"
+(O/'export-hooks.lua').write_text(code)
+(O/'assemble-and-hooks.lua').write_text('local ok,e=pcall(function()\n'+''.join('dofile('+json.dumps(str(O/p))+')\n' for p in ['assemble-H2-r2.lua','assemble-H3-r2.lua','export-hooks.lua'])+"end);print('ASSEMBLE_HOOKS_RESULT',ok,e)")

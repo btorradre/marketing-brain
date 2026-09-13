@@ -1,0 +1,46 @@
+{
+  "status": "voice_generation_complete",
+  "model": "eleven_v3",
+  "preset": "Natural",
+  "stability": 0.5,
+  "similarity_boost": 0.75,
+  "speed": 1.2,
+  "voice": "Michelle - Full and Reassuring",
+  "profile_age": 50,
+  "current_phase": "Voice generation only",
+  "script_change": "New user script, H1/H2/H3 alternatives each with shared body; spoken Motilli intro and breakfast routine included.",
+  "video_updated": false,
+  "latest_completed_video_version": 21,
+  "cutroom_current_video_version": 22,
+  "cutroom_note": "Prior V22 pending toilet-insert storyboard; not retimed to this new script. No new storyboard delivered this voice-only turn.",
+  "selected_audio": {
+    "H1": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v23/deliverables/Motilli-V23-H1-Eleven-v3-Natural-1.2x.mp3",
+      "duration_seconds": 244.32,
+      "bytes": 3910052,
+      "sha256": "ea5bc9ea671911ae92aaa1af439ab34286724cd61fb4bddad0e37635124505b4",
+      "full_decode_passed": true,
+      "listening_review": "passed",
+      "request_id": "YOZ8okHrBYQEzNphWEoI"
+    },
+    "H2": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v23/deliverables/Motilli-V23-H2-Eleven-v3-Natural-1.2x.mp3",
+      "duration_seconds": 254.72,
+      "bytes": 4076399,
+      "sha256": "5eea46f4c795387ebb5851bd1ae9898d4cda70fafc3497111524f8dd5952bce2",
+      "full_decode_passed": true,
+      "listening_review": "passed",
+      "request_id": "MeOMgbZEoxldJaQckFMS"
+    },
+    "H3": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v23/deliverables/Motilli-V23-H3-Eleven-v3-Natural-1.2x.mp3",
+      "duration_seconds": 243.36,
+      "bytes": 3895005,
+      "sha256": "2df0ea958b5b39ecefcd863bd30d269328ac0d804e9c65e59fec114ef2630cb5",
+      "full_decode_passed": true,
+      "listening_review": "passed",
+      "request_id": "FaPN6r9BNI2aymmG5oG4"
+    }
+  },
+  "qa_notes": "All selected takes passed listening review. No decoded samples at or above 0.999 amplitude, padding 0.05\u20130.20 s, largest detected interword pause 1.0 s (H2 punctuation pause). Scribe minor spelling/contraction differences retained in QA records. H1 take one replaced after failed tone review."
+}

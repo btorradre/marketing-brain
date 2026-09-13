@@ -1,0 +1,3461 @@
+<!-- CHUNK 006 | source: brands/Orelli/Research/ICP Research/master_voc_database.csv | lines 1-3458
+     Cite anything you pull from here as brands/Orelli/Research/ICP Research/master_voc_database.csv#L<line>. -->
+
+platform,comment,author,engagement,source
+YouTube,The worse part is when you are trying to swallow and keep drinking water and it just stays there in your mouth. Then after a few seconds it starts to dissolve and you taste all that nastiness of the pill and have to spit it out.,@Lancevance02,20000,The Best Way To Swallow Pills
+YouTube,Who else has their parents yelling at them to swallow a stinking pill,@lucidvia,15000,The Best Way To Swallow Pills
+YouTube,MY THROAT IS JUST NOT HAVING IT,@alisaahhz,2400,The Best Way To Swallow Pills
+YouTube,These comments are making me feel better about not being able to swallow pills,@char388,2000,The Best Way To Swallow Pills
+YouTube,People who swallow pills without water got me shook,@Ines-vc3rt,5700,The Best Way To Swallow Pills
+YouTube,I personally think every medication should be available in liquid form. \nThe tiniest tablet is scary to me.,@ZzzZzz-lk4il,7500,The Best Way To Swallow Pills
+YouTube,"Bro I always act confident when I’m about to swallow a pill, but once the pill is in my mouth my heart starts beating like crazy 😭😭😂",@maraxoxo1672,8300,The Best Way To Swallow Pills
+YouTube,Who’s else parents is yelling at you to swallow a pill but you can’t do it ?,@brizzygaming9927,630,The Best Way To Swallow Pills
+YouTube,I really can't do this. I'm terrified of choking. I end up only swallowing the water.,@viiperbiite,6300,The Best Way To Swallow Pills
+YouTube,It’s so weird. I can accidentally swallow chewing gum but can’t swallow a tiny pill,@ndos4436,3200,The Best Way To Swallow Pills
+YouTube,"Therapist: So what's your biggest fear?\nMe: Swallowing a pill!\nTherapist: Ok, moving on.",@reychellearomin5117,1600,The Best Way To Swallow Pills
+YouTube,good to know that i'm not the only one fears this.,@sxgittxrivs_wxrrior,50,The Best Way To Swallow Pills
+YouTube,Me: I going to take a pill\n\nBrain: IT WILL GO IN THE WRONG TUBE DONT YOU DARE \n\nme : but I'm going to be sick without it\n\nBrain : I RATHER DIE,@gracemay7841,3500,The Best Way To Swallow Pills
+YouTube,My dad keeps screaming at me to swallow the pill and it doesn't help at all 😭,@icu1743,700,The Best Way To Swallow Pills
+YouTube,Steps (if you want to do it):\n1. Cry for about 15 minutes\n2. Get shouted by a bunch of people (like your parents)\n3. Try to swallow a pill and get shouted louder\n4. Think your about to die then boom,@DadtheGamer01IGamingandMore,4200,The Best Way To Swallow Pills
+YouTube,I’d rather deal with the most disgusting liquid than swallow a large pill 😂 this video helped me out a lot today- thank you!!,@jescudi_,151,The Best Way To Swallow Pills
+YouTube,"It's sad because when I eat, I can swallow down food like its fuckin nothin, but when it comes to a small pill my throat always closes up. It's soooooo frustrating",@fredlamproom7800,3300,The Best Way To Swallow Pills
+YouTube,id rather just get a shot than swallow a capsule LOL,@like7oranges,765,The Best Way To Swallow Pills
+YouTube,Who else got their mom yelling for not swallowing a pill? Because I did 😭😭,@fruity_cereal,3200,The Best Way To Swallow Pills
+YouTube,"Don't worry. It's extremely normal to not be able to swallow pills.\n\nYour brain and body automatically will stop such objects from going down the gullet because your body's natural reaction is to chew to prevent choking. So if you think you're weird for being unable to swallow one then don't worry, cause it's normal.\n\nFor some people they can start doing it rather easily and for others it requires practice. Start with small foods, like a sprinkle, and then slowly work your way up in size like m&ms or Mike & Ikes. (Or whatever candies you think can work best).\n\nMy grandma literally screamed at me as a child for being unable to swallow a pill and shoved it down my throat. Needless to say I couldn't and refused to take pills up to this point. I'm 24 and I swallowed a pill using honey, like for the first time ever. If you're an adult and need a child to swallow a pill then do not pressure them otherwise you'll end up with an adult who can't swallow medication.",@whoahanant,125,The Best Way To Swallow Pills
+YouTube,🖐🏾💀 she ignored u,@Angel-sp9ct,14,The Best Way To Swallow Pills
+YouTube,Lol,@tesiasmith6108,1,The Best Way To Swallow Pills
+YouTube,Are you supposed to open the pill?,@ayeshachoudhry9877,0,The Best Way To Swallow Pills
+YouTube,I swear my brother does it,@simona6674,135,The Best Way To Swallow Pills
+YouTube,CLEAN WATER think of biting into a Big Mac with no tomato extra pickles from the McDonald’s around the corner you take a huge bite chew a couple times then ur already swallowing then bam,@futuristicwealthh,32,The Best Way To Swallow Pills
+YouTube,CLEAN WATER a pill compared to food is tiny af,@futuristicwealthh,22,The Best Way To Swallow Pills
+YouTube,CLEAN WATER my mother does it the trick is to gather enough saliva apparently..,@wingardiumryan1581,2,The Best Way To Swallow Pills
+YouTube,I be using a whole water bottle and i still cant sallow a pill the sizw of a m&m,@jasminen6212,121,The Best Way To Swallow Pills
+YouTube, @jasminen6212  omg SAME!! I literally just drank 24oz of water and pill still isn't swallowed but im to full to try again!!! 😂😂😂,@cassieamaya9744,1,The Best Way To Swallow Pills
+YouTube, @jasminen6212  SAME!!!,@DGLeo482,0,The Best Way To Swallow Pills
+YouTube,Inés Mounjid it’s just like a piece of food,@futuristicwealthh,40,The Best Way To Swallow Pills
+YouTube,"I do, it’s not hard for me",@chloesgrass4143,14,The Best Way To Swallow Pills
+YouTube,i do it lol it's ez,@ImGeo_o,2,The Best Way To Swallow Pills
+YouTube,bitter af,@wizarddreams8324,566,The Best Way To Swallow Pills
+YouTube,yes exactly but the bottle method actually  worked thank god 🙏,@salamaemad4098,138,The Best Way To Swallow Pills
+YouTube, @salamaemad4098  alhamdulilah,@Goner_Requiem,0,The Best Way To Swallow Pills
+YouTube," @salamaemad4098  if it doesn’t work for me, I’m just gonna cry",@Mr-Soza,0,The Best Way To Swallow Pills
+YouTube,That just happend to me today😂,@alysonfeickert3683,96,The Best Way To Swallow Pills
+YouTube,Alyson Feickert SAME except I didn't spit it out 😂😂😂,@CocoTaveras8975,0,The Best Way To Swallow Pills
+YouTube,"me when I take my iron supplements, it legit tastes like blood it's so nasty",@cello23whatever,91,The Best Way To Swallow Pills
+YouTube, @cello23whatever  I spat out my iron supplements so many times. They have the worst taste.,@DGLeo482,1,The Best Way To Swallow Pills
+YouTube, @cello23whatever  OMG EXACTLY,@threedollaya8860,0,The Best Way To Swallow Pills
+YouTube, @cello23whatever  OMG that’s the problem am an 15 and I am severely anemic I understand what you mean the iron pills dissolves and taste like metal smells like it as well also blood I can’t swallow it and I have to return to the doctor next month if I have not improved the doctor threatened he will send me to a specialist I am now I am dissolving it in my yogurt that taste sweet to mask the horrible taste I hope it works I don’t wanna go to the specialist since I have a fear of doctors badly,@jadewu111,0,The Best Way To Swallow Pills
+YouTube,I SWEAR THIS IS SO ACCURATE,@ruxandraruxi,27,The Best Way To Swallow Pills
+YouTube,😭😂😂😂😂😂,@melaninbeautyluvvs2778,25,The Best Way To Swallow Pills
+YouTube,Same,@faithhawkins1173,17,The Best Way To Swallow Pills
+YouTube,"My pills are expensive so my mom is like \don't you dare throw away that pill! \""""",@dweina1735,13,The Best Way To Swallow Pills
+YouTube,This was me last night,@faithhawkins1173,12,The Best Way To Swallow Pills
+YouTube,This is me legit i sit there for like 5 minutes mentally preparing myself,@Kellietruj,11,The Best Way To Swallow Pills
+YouTube, @Kellietruj  same bro,@mayursinghgamerz,2,The Best Way To Swallow Pills
+YouTube," @Kellietruj  me for about 1 hour and so on, I just try to bite it to small chunks and swallow every those small parts and I have no problem",@highqualityseungkwan9412,0,The Best Way To Swallow Pills
+YouTube,Why? WE KNOW ITS NOT DAMN TRUE !,@lonelyhelp1608,8,The Best Way To Swallow Pills
+YouTube, @lonelyhelp1608  is it . I really dont know. Can u help me with clarification,@raja7145,0,The Best Way To Swallow Pills
+YouTube,same except my mom 😖,@laurenjuliannegillam,14,The Best Way To Swallow Pills
+YouTube,icu OMG SAME :( my mom tries to help (politely) but it wont work for me...,@jae9224,10,The Best Way To Swallow Pills
+YouTube,icu FUCKING SAMMMMMEEEEE. UGH HE JUST DID THAT LMAO,@Kikilabela,9,The Best Way To Swallow Pills
+YouTube,"icu Exactly for me, but it's my mom, if it was my dad..oh boy I'd be grounded forever for not swallowing a pill.",@youreretired9889,4,The Best Way To Swallow Pills
+YouTube,icu same!,@imagoofygoober6707,2,The Best Way To Swallow Pills
+YouTube,Same,@eseagrowtopia8675,1,The Best Way To Swallow Pills
+YouTube,i know right,@stephaniegreene9085,1,The Best Way To Swallow Pills
+YouTube,icu Same😢,@grizzly3692,1,The Best Way To Swallow Pills
+YouTube,icu IKR😭😭😭,@peachywenda,0,The Best Way To Swallow Pills
+YouTube,Same its annoying 😩,@soniaperez4102,0,The Best Way To Swallow Pills
+YouTube,Åce The Åłien same here the thing just starts to dissolve and I just spit it out any tips?,@mateolopez3454,78,The Best Way To Swallow Pills
+YouTube,I honestly thought it was just me with this legit fear,@jessicacalaci7380,61,The Best Way To Swallow Pills
+YouTube,Åce The Åłien same it’s like a weird phobia!! 😄,@caroline7210,52,The Best Way To Swallow Pills
+YouTube,Åce The Åłien ME RN,@kar4n762,48,The Best Way To Swallow Pills
+YouTube,Same,@makeylarivera790,156,The Best Way To Swallow Pills
+YouTube,Im trying to swallow a ibuprofen 400mg and its fuccing huge skencjj IN nd,@spearcasta,27,The Best Way To Swallow Pills
+YouTube,The pill does down. but then I choke and have to regurgitate it back up.,@crand20033,21,The Best Way To Swallow Pills
+YouTube,"Dont worry, you will not choke by drinking a pill because a pill is much more smaller than your troath and, if for some reason, the pill stuck on your troath, drink some water so pill will eventualy slip out your troat. A pill is very slippery when water gets into contact with it so there is no way you are gonna choke. Trust me Im just 12 years old and I can swallow an anti biotic tablet and my daily vitamin is a capsul. Also when you put the pill in your mouth, make sure to drink a lot of water and while swallowing, tilt your head up so the pill can easily be swallowed. Sorry if my english is  bad because im from the Philippines but I can speak proper english, mostly in essays, but I tend to make words shorter in the internet because it saves time like instead of saying \Your\"" I simply just type \""ur\"" sorry if this is not common in your country.""",@originalusername8108,56,The Best Way To Swallow Pills
+YouTube,OriginalUsername yes however a pill can still “go down the wrong pipe” and that’s what I’m scared of,@BriannaMoore.,1,The Best Way To Swallow Pills
+YouTube,OriginalUsername smart-,@aikowirl,0,The Best Way To Swallow Pills
+YouTube,me rn lmao,@evaaa11111,4,The Best Way To Swallow Pills
+YouTube,my brain cell is saying to not swallow something whole,@CrystalKyryn,1,The Best Way To Swallow Pills
+YouTube,Me hohoho,@yaniebernaldez650,0,The Best Way To Swallow Pills
+YouTube,me,@ginahonda5914,0,The Best Way To Swallow Pills
+YouTube,Me,@SyndeebloxYT,0,The Best Way To Swallow Pills
+YouTube,Me,@daniella4095,0,The Best Way To Swallow Pills
+YouTube,😭,@yannuluv,0,The Best Way To Swallow Pills
+YouTube,Even my doctor tells me off,@puppersissage8640,0,The Best Way To Swallow Pills
+YouTube,Me,@EgMan.,0,The Best Way To Swallow Pills
+YouTube,Me,@Kincses-k1k,0,The Best Way To Swallow Pills
+YouTube,I feel You bro,@gatikgarg4007,58,The Best Way To Swallow Pills
+YouTube,same and the point my mom is yelling at me to swallow it with water,@loveckey,45,The Best Way To Swallow Pills
+YouTube,Bro same why does my heart start beating fast at that point ughh,@DGLeo482,33,The Best Way To Swallow Pills
+YouTube,Same bro,@nidasiddiqui663,32,The Best Way To Swallow Pills
+YouTube,SAME WTF SJWKOW,@bts_jins_wifeu5300,184,The Best Way To Swallow Pills
+YouTube,LMAO,@jorgeochoa4038,126,The Best Way To Swallow Pills
+YouTube,Help,@ely7973,61,The Best Way To Swallow Pills
+YouTube,ME TOOOO,@lulusubaie6476,6,The Best Way To Swallow Pills
+YouTube,next week I need to drink pills 3x a day rn I just want to stop the time 😢,@shadowhero5732,5,The Best Way To Swallow Pills
+YouTube,@Brian Crumb frrr,@jonahgonz818,4,The Best Way To Swallow Pills
+YouTube,"People who prefer liquid form, UNITE",@miguel_machado,62,The Best Way To Swallow Pills
+YouTube, @miguel_machado  YES✊,@rin6775,8,The Best Way To Swallow Pills
+YouTube,"I totally understand that train of thought, but unfortunately some types of medication need to dissolve more slowly inside your stomach for them to be effective, liquid medication would pretty much be instant dissolution",@eireyouok101,290,The Best Way To Swallow Pills
+YouTube, @eireyouok101  if that's the case then they can fill that liquid or in dry form in the capsule cause capsules are more smooth to swallow and don't dissolve that fast\nAtleast in mouth,@DownShifted,2,The Best Way To Swallow Pills
+YouTube, @eireyouok101  i thought we swallow it because it tastes bad- welp. . .u learn something new everyday 🤔,@everythiingmusiic,0,The Best Way To Swallow Pills
+YouTube,Zzz \nI am almost 50 and still can't take one little tiny pills... I agree ❗ medication should have been in liquid form....hell yeah,@Yhgdsts765,39,The Best Way To Swallow Pills
+YouTube,I always bite my medications to turn it to smaller chunks and then swallow it,@miamidawggg4239,30,The Best Way To Swallow Pills
+YouTube, @miamidawggg4239  That would be a disaster for me,@gatikgarg4007,2,The Best Way To Swallow Pills
+YouTube,True,@parnex6167,110,The Best Way To Swallow Pills
+YouTube,Same,@skibidi6976,67,The Best Way To Swallow Pills
+YouTube,thanks this was really helpful.i do this a lot,@707noorie,105,The Best Way To Swallow Pills
+YouTube,yep right 😂,@aniiimet,34,The Best Way To Swallow Pills
+YouTube,DadtheGamer01 That’s what happened to me .-.,@mariahgarcia7207,21,The Best Way To Swallow Pills
+YouTube,wtf how did this work??,@melvynduxbury9950,16,The Best Way To Swallow Pills
+YouTube,🤣🤣omg! Tysm for ur cmnt coz after reading this i finally laughed as m sick frm last 3 days nd m nt able to swallow tablets nd thing happend todays morning my father scolded me alot n i was jst crying,@darshanravaldz6731,14,The Best Way To Swallow Pills
+YouTube,then pretend to swallow it whilst in tears,@sikeboi2683,13,The Best Way To Swallow Pills
+YouTube,True I do this and now I have to take a tablet and I am using this technique,@athriyam6881,7,The Best Way To Swallow Pills
+YouTube,LMAO ITS MEEE,@spearcasta,5,The Best Way To Swallow Pills
+YouTube,Happens to me every time,@tamzinmartin5233,5,The Best Way To Swallow Pills
+YouTube,"My dad keeps telling me\ it's not that hard kid!!\""""",@ddbsiblings7265,4,The Best Way To Swallow Pills
+YouTube,Like 7 Oranges right saaaammmeeee,@lj-yy7iw,41,The Best Way To Swallow Pills
+YouTube,Like 7 Oranges same,@milo1685,1,The Best Way To Swallow Pills
+YouTube,R4c00n G4m3z Well not for me because I'm scared of needles,@janineala3225,1,The Best Way To Swallow Pills
+YouTube,same,@wafflewarrior1583,0,The Best Way To Swallow Pills
+YouTube,Wait what,@magiccookies420,0,The Best Way To Swallow Pills
+YouTube,Like 7 Oranges I hate them both equally,@idkdemos1031,0,The Best Way To Swallow Pills
+YouTube,Lol same,@Ivyrose333,0,The Best Way To Swallow Pills
+YouTube,[clears throat] i think you mean tablet (me lol),@janus9148,0,The Best Way To Swallow Pills
+YouTube,EXACTLYYY,@asteri73,0,The Best Way To Swallow Pills
+YouTube,Samme,@aldrinkyle5402,0,The Best Way To Swallow Pills
+YouTube,Omg same my dad is always saying how i swallow huge pieces of food but i can't swallow a little pill,@notusinganymore7477,194,The Best Way To Swallow Pills
+YouTube,"same, then only pill i can swallow without any issue is the smartie shaped advil, the bigger liguid gel pills or tablets i just cant do it, i have to half chew on it before i can swallow it, they just need to make the damn pills smaller. the feeling of the huge pill going down your throat and feeling like it gets stuck hurts too. thank goodness i dont need to take pills everyday.",@tinalevesque5772,30,The Best Way To Swallow Pills
+YouTube,King Size I don't and have ever had the feeling of choking on a pill. My throat closes whenever I try to swallow one. I literally had a pill at the bottom of my throat and it wouldn't even go through my throat.,@baconofwar6619,25,The Best Way To Swallow Pills
+YouTube,I've got seriously bad tooth pains as i have an infection under on tooths and i can't swallow meds for shit so no sleep for me :L,@LinuxUsersonly,16,The Best Way To Swallow Pills
+YouTube,I'm about to have someone Force me to take the pills. That's how bad I'm dealing with this fear.,@aleseaaurora8533,14,The Best Way To Swallow Pills
+YouTube,Same,@williamduenas5319,7,The Best Way To Swallow Pills
+YouTube,fred lamproom its probably because our body is used to chewing the food and then swallowing,@cruzel1061,7,The Best Way To Swallow Pills
+YouTube,fred lamproom SAME,@RavensaraMusic,3,The Best Way To Swallow Pills
+YouTube,Your profile picture is perfect for your comment 😂,@dab3stbb,3,The Best Way To Swallow Pills
+YouTube,I feel ur pain,@aleseaaurora8533,2,The Best Way To Swallow Pills
+YouTube,same i'm scared i'll choke but probably will die if i don't take my pills what do i do?,@abigailwilson2429,67,The Best Way To Swallow Pills
+YouTube, @abigailwilson2429  sameeee,@Jewel.oscoo1,0,The Best Way To Swallow Pills
+YouTube,​ @abigailwilson2429  I have same fear I jsut can't my brain is stoping me I'm crying and not knowing what to do please anyone help,@9xfw,0,The Best Way To Swallow Pills
+YouTube,Same :(,@jessicacalaci7380,28,The Best Way To Swallow Pills
+YouTube,My mom was about to hit me with a belt but I luckily somehow swallowed it,@CrisXD_503,18,The Best Way To Swallow Pills
+YouTube,Me. Mine just texted me: “I’m coming upstairs to go to bed. You better be done taking your pills” 😭,@belle369,8,The Best Way To Swallow Pills
+YouTube,Holly Nunnaphat this literally happened today 😞,@audreypierce8002,7,The Best Way To Swallow Pills
+YouTube, @audreypierce8002  same,@elizack_8189,0,The Best Way To Swallow Pills
+YouTube,"«Just swallow it, damn!» 😭✋🏻",@gnf5584,3,The Best Way To Swallow Pills
+YouTube,I got whooped by my dad and in the end I ended up just chewing it cuz I couldn’t do it,@rollingnoyaa,3,The Best Way To Swallow Pills
+YouTube,ME I NEED HELP I CANT DO IT,@victoriaaa7276,632,The Best Way To Swallow Pills
+YouTube,"Victoriaaa I neeed help ,,,, I also can’t do it ! My mom is like, eat the capsules Which are like 2 inches!!",@xainab7774,3,The Best Way To Swallow Pills
+YouTube,Victoriaaa me to,@muddyluck2463,0,The Best Way To Swallow Pills
+YouTube, @victoriaaa7276  same,@youleavemeuptight1301,0,The Best Way To Swallow Pills
+YouTube,Pineapple Town it’s happening to me now 😭,@justmewiny3360,128,The Best Way To Swallow Pills
+YouTube, @justmewiny3360  same,@vanessanissan2564,13,The Best Way To Swallow Pills
+YouTube, @justmewiny3360  me too I am sick,@Hansungie3,0,The Best Way To Swallow Pills
+YouTube,OML LEGIT MY MOMS LIKE I WAS I KNEW HOW TO SWALLOW THEN SINCE I WAS TEN. Like bruh... I JUST CANT. (I have to take three a day) (painful),@Min9yu.k,94,The Best Way To Swallow Pills
+YouTube,"MilkN’Honey me too! Same as u ! It’s been 2 days and I still can’t comfort myself to take a huge pill! I asked my mom if I could cut in half then eat, she said you cannot cut capsules! I am 12 (almost 13) she says she ate pills since she was 9, she says I am being a baby... help someone..please..",@xainab7774,4,The Best Way To Swallow Pills
+YouTube,MilkN’Honey I had to take 2 1/2 huge pills for my chicken pox and I had to chew it bc u can’t sallow and it was nasty nasty,@potato6416,0,The Best Way To Swallow Pills
+YouTube,😏,@py1983,24,The Best Way To Swallow Pills
+YouTube,alisaahhz ur right,@queenahyana3281,12,The Best Way To Swallow Pills
+YouTube,"Mine neither so I bought a different medicine and it comes in little, tiny pills instead or large gel caps. Sudafed instead of Dayquil.",@crand20033,12,The Best Way To Swallow Pills
+YouTube,My throat was like hell nah,@rin6775,6,The Best Way To Swallow Pills
+YouTube,"My throat is too small, it can't swallow the pill in lmfaooo",@ying5798,6,The Best Way To Swallow Pills
+YouTube,I CANT SWALLOW IT ITS NOT GOING DOWN MATE,@jems3732,3,The Best Way To Swallow Pills
+YouTube, @jems3732  YEAH SAME I JUST EAT ITT,@rin6775,7,The Best Way To Swallow Pills
+YouTube,"Hey earlier I too wasn't able to swallow a capsule of any size you say\nI saw several videos but none helped \nI was frustrated and decided to just do anything but take it\nIt was 21st Jan ,2021. 9:23pm.  and I swallowed my first capsule\nI was so damn happy\nWhat I did-\nJust put the capsule on your tongue of course\nTake a glass of water just keep taking water in slowly \nSlowly just take the capsule as far as you can \nAs you are taking water continuously (slowly) it will help to take it far \nAt a instant it will go to the end\nAs water is still coming the capsule gradually gets down\nIt really worked!!!\nU may try it\nDo tell me if it works\nHave a nice day ahead!!",@abhai2603,2,The Best Way To Swallow Pills
+YouTube,SAMEE,@eli04lb,1,The Best Way To Swallow Pills
+YouTube,SAME,@amaramayy,0,The Best Way To Swallow Pills
+YouTube,Why are we so much alike? LMAO THATS ME 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂,@9timesboom,2,The Best Way To Swallow Pills
+YouTube,"SAMEE, I don’t understand why my mum yells at me like that’s going to help me.",@atqraxiia8610,2,The Best Way To Swallow Pills
+YouTube,Holly Nunnaphat same :(,@angxllla,1,The Best Way To Swallow Pills
+YouTube,every damn time,@Eliling,1,The Best Way To Swallow Pills
+YouTube,Same here,@itz_ako9366,1,The Best Way To Swallow Pills
+YouTube,Lel me to but not really yelling,@explits6231,1,The Best Way To Swallow Pills
+YouTube,Not mom but dad,@DownShifted,1,The Best Way To Swallow Pills
+YouTube,Same,@drewgooden3157,1,The Best Way To Swallow Pills
+YouTube,Yep,@yougotit470,1,The Best Way To Swallow Pills
+YouTube,Same!!!,@ranshysfax2880,1,The Best Way To Swallow Pills
+YouTube,Same,@AlexaBellaMuerte,0,The Best Way To Swallow Pills
+YouTube,Like 7 Oranges shit same,@fatgayugly313,0,The Best Way To Swallow Pills
+YouTube,IIDX_MINUS shots are nothing all you feel is a little burning\\Hard sting,@RcnGmz,13,The Best Way To Swallow Pills
+YouTube,Mr.Clorox Bleach non of these techniques worked for me,@mustybullet2118,2,The Best Way To Swallow Pills
+YouTube,"A common solution is not to tilt your head back, this closes up your throat making it hard to swallow.",@koiffe,2,The Best Way To Swallow Pills
+YouTube,"fred lamproom I have that same problem now, but when I was younger I could swallow pills without anything to drink.",@kelseycox1721,1,The Best Way To Swallow Pills
+YouTube,"This is the truest statement of all time. My mouth can be completely full of food and I can swallow all of it at once no problem. But when a tiny pill decides to enter my mouth, all of that is gone",@CcSnipess,1,The Best Way To Swallow Pills
+YouTube,hey would it work as the same way as just swallowing the pill.,@kushpatel7518,0,The Best Way To Swallow Pills
+YouTube,same,@clintsrandomchannel5301,0,The Best Way To Swallow Pills
+YouTube,fred lamproom ikr,@tharshananjegatheeswaran568,0,The Best Way To Swallow Pills
+YouTube,fred lamproom same,@Srhluxury,0,The Best Way To Swallow Pills
+YouTube,fred lamproom same,@mustybullet2118,0,The Best Way To Swallow Pills
+YouTube,fred lamproom same,@LiquidDivinium,0,The Best Way To Swallow Pills
+YouTube,The threatened to hit me😔😔,@carlanunez6207,53,The Best Way To Swallow Pills
+YouTube, @carlanunez6207  hey that's me but with the belt,@812woker5,1,The Best Way To Swallow Pills
+YouTube,​ @carlanunez6207  same,@ThatOnePersonVisted,0,The Best Way To Swallow Pills
+YouTube,ME,@fairydust2584,42,The Best Way To Swallow Pills
+YouTube,OMG MEEE,@adriannapolizzi5287,39,The Best Way To Swallow Pills
+YouTube,My mom says I’m the only one !!!,@hannahburdette4089,35,The Best Way To Swallow Pills
+YouTube, @hannahburdette4089  same,@pawanpreetkaur10e72,0,The Best Way To Swallow Pills
+YouTube,"Me, my mom is taking me take a HUGE pill Rn and I can’t 😭😂",@keirapalumbo6067,28,The Best Way To Swallow Pills
+YouTube,“It’s mind over mater” they say I can’t do it,@Midnight_Brambles,25,The Best Way To Swallow Pills
+YouTube, @Midnight_Brambles  that's exactly what my parents sayy,@pickles7168,0,The Best Way To Swallow Pills
+YouTube,i have crohns disease and i have to take pills every morning and night 😔 the pills are the size of a BATTERY. makes me scared af,@Raiinsoup,25,The Best Way To Swallow Pills
+YouTube,OhSnappy Get well soon! I have to take 3 huge pills size of a CAR! Yours is much smaller then mine.... i am 12 and it is my first time,@xainab7774,3,The Best Way To Swallow Pills
+YouTube,THANK GOD THERE ARE OTHERS,@the_jellybug,24,The Best Way To Swallow Pills
+YouTube, @the_jellybug  yeah LOL,@violett9271,0,The Best Way To Swallow Pills
+YouTube,Me,@notstrxfe2035,20,The Best Way To Swallow Pills
+YouTube,OMG me I can’t do it like how,@ariannnalarin2959,20,The Best Way To Swallow Pills
+YouTube,"Hey earlier I too wasn't able to swallow a capsule of any size you say\nI saw several videos but none helped \nI was frustrated and decided to just do anything but take it\nIt was 21st Jan ,2021. 9:23pm.  and I swallowed my first capsule\nI was so damn happy\nWhat I did-\nJust put the capsule on your tongue of course\nTake a glass of water just keep taking water in slowly \nSlowly just take the capsule as far as you can \nAs you are taking water continuously (slowly) it will help to take it far \nAt a instant it will go to the end\nAs water is still coming the capsule gradually gets down\nIt really worked!!!\nU may try it\nDo tell me if it works\nHave a nice day ahead!!",@abhai2603,2,The Best Way To Swallow Pills
+YouTube,I no right my mother brother just wacks it in,@peanut8993,1,The Best Way To Swallow Pills
+YouTube,I do it,@christianyt5398,1,The Best Way To Swallow Pills
+YouTube,I can understand if its a capsule but a tablet? No way,@asgoodasyou,1,The Best Way To Swallow Pills
+YouTube,Thats why our grandparents should be respected lmao,@charisma5618,1,The Best Way To Swallow Pills
+YouTube,I swear my brother even drink 3 in with no water,@lilynicoleannie5179,1,The Best Way To Swallow Pills
+YouTube,That was my ex boyfriend it scared the hell out of me,@bubblesawesome3284,1,The Best Way To Swallow Pills
+YouTube,My mom can swallow a pill without water,@Stumpy72,1,The Best Way To Swallow Pills
+YouTube,My mother,@Musicfeinn,1,The Best Way To Swallow Pills
+YouTube,dat meh oof,@mikayladavv,0,The Best Way To Swallow Pills
+YouTube,I chewed a pill before 🤢,@Angel-sp9ct,11,The Best Way To Swallow Pills
+YouTube, @Angel-sp9ct  BRUH same I just eat it sometimes and I be like👁️👄👁️👌 delicious but inside...IN DYING OF SALTINESS,@rin6775,12,The Best Way To Swallow Pills
+YouTube,God same...,@nwiwvbdshiabqvs7006,43,The Best Way To Swallow Pills
+YouTube,I agree,@lexithomas9346,3,The Best Way To Swallow Pills
+YouTube,"Hey earlier I too wasn't able to swallow a capsule of any size you say\nI saw several videos but none helped \nI was frustrated and decided to just do anything but take it\nIt was 21st Jan ,2021. 9:23pm.  and I swallowed my first capsule\nI was so damn happy\nWhat I did-\nJust put the capsule on your tongue of course\nTake a glass of water just keep taking water in slowly \nSlowly just take the capsule as far as you can \nAs you are taking water continuously (slowly) it will help to take it far \nAt a instant it will go to the end\nAs water is still coming the capsule gradually gets down\nIt really worked!!!\nU may try it\nDo tell me if it works\nHave a nice day ahead!!",@abhai2603,3,The Best Way To Swallow Pills
+YouTube,"If I was somehow able to dictate it, all medicine would be available in gummy form",@BH-lu5rz,3,The Best Way To Swallow Pills
+YouTube,The tiny pills for me are easy to swallow but the big ones no a nightmare…,@SilentCrimsonOx,3,The Best Way To Swallow Pills
+YouTube,Hell no most liquid is flavored which I hate id rather just swallow a pill 💊,@DeadpoolX20,42,The Best Way To Swallow Pills
+YouTube, @DeadpoolX20  but you can get rid of the flavour by drinking lot of water after that. But the feeling of pill stuck in your throat is the worst,@DGLeo482,4,The Best Way To Swallow Pills
+YouTube,DeadpoolX20 lmao you gotta swallow it fast my mama said 😭,@Angel-sp9ct,3,The Best Way To Swallow Pills
+YouTube, @DeadpoolX20  that's you but some people NEED liquid. It is not a matter of choice for them. OP didn't say liquid should replace them. They just said it should be available.,@bluenomadbruh,0,The Best Way To Swallow Pills
+YouTube,And liquid is better than tablets,@nx1100,2,The Best Way To Swallow Pills
+YouTube, @nx1100  yeah,@rin6775,0,The Best Way To Swallow Pills
+YouTube,Inside the tablet is legit powder! Idk why they can’t just sell the powder and give people the measurements,@myaharie2977,2,The Best Way To Swallow Pills
+YouTube," @myaharie2977  because that powder needs to be released inside the body at a controlled rate, some tablets are designed to only release in the intestine as opposed to the stomach",@eireyouok101,3,The Best Way To Swallow Pills
+YouTube,I don't know why people don't understand...I just can't swallow pills and that's not because I don't want to... I just CAN'T,@richasinha3192,2,The Best Way To Swallow Pills
+YouTube,"I can swallow boba, gummy bears, and ice cubes whole. But not pills?!?!",@nox_tv7,236,The Best Way To Swallow Pills
+YouTube, @nox_tv7  SAMEE,@puppersissage8640,0,The Best Way To Swallow Pills
+YouTube,I actually struggle with swallowing chewing gum but then I just do it. With a pill it's like 10x harder,@Someone-or8tp,46,The Best Way To Swallow Pills
+YouTube," @Someone-or8tp  You know you are not supposed to swallow chewing gum, right?",@yankis.,65,The Best Way To Swallow Pills
+YouTube,It's because you don't pay attention while swallowing a chewing gum but you will always pay attention while swallowing a pill,@hariszia2949,13,The Best Way To Swallow Pills
+YouTube,It’s like a physiological thing I can swallow other things but not a pill it’s the worst,@belle369,7,The Best Way To Swallow Pills
+YouTube,I think it's because chewing gum is soft.,@haruo785,6,The Best Way To Swallow Pills
+YouTube,"I think that is because pills for me is like swallowing a brick. Gum on the other hand, My brain considers food. It also helps that gum unlike pills, are not a solid. Pills are solid blocks and cannot twist or be morphed. They can't appear soft, which scares me. Food, you can move and sculpt and it appears soft, and I am more comfortable with food because I feel I am less likely to choke.",@muffinette6207,6,The Best Way To Swallow Pills
+YouTube,I love swallowing gum but can’t swallow a capsule or pill🙄,@mereditheshun,5,The Best Way To Swallow Pills
+YouTube, @mereditheshun  same 🤣,@wergittep,0,The Best Way To Swallow Pills
+YouTube,It’s horrible. I just faced this and came here for help😭,@IqraKhan-xp9el,11,The Best Way To Swallow Pills
+YouTube,Ask for capsule instead of gel and let it dissolve while you drink the water.,@nickolascrousillat4265,10,The Best Way To Swallow Pills
+YouTube, @nickolascrousillat4265  I have no problem with swallowing capsules but I already bought the gelscaps.  And you cannot chew it or let it dissolve before you swallow it because the medicine is time released and that needs to happen in the stomach.,@crand20033,12,The Best Way To Swallow Pills
+YouTube,Me too and then it melts in my mouth and makes me vomit 🙂💔,@okay9876,7,The Best Way To Swallow Pills
+YouTube, @okay9876  literally,@tonk2002,1,The Best Way To Swallow Pills
+YouTube,ffs same,@haerinsx,5,The Best Way To Swallow Pills
+YouTube,FINALLY SOMEONE UNDERSTANDS MY PAINN,@catherinezhang892,4,The Best Way To Swallow Pills
+YouTube,Same:(,@allie-kun3531,3,The Best Way To Swallow Pills
+YouTube,ME TOO! Choking is my biggest fear!,@kimmikaotic,3,The Best Way To Swallow Pills
+YouTube,I’m scared if my throat is to small,@toruhagakure7389,3,The Best Way To Swallow Pills
+YouTube,When there’s a pill in the water I can’t even swallow the water,@avaakins5271,3,The Best Way To Swallow Pills
+YouTube,Same,@habui7477,2,The Best Way To Swallow Pills
+YouTube,Rigth,@melisaandrea4157,271,The Best Way To Swallow Pills
+YouTube, @melisaandrea4157  rigth,@yeatmcchicken8502,0,The Best Way To Swallow Pills
+YouTube,True that,@mishad.1539,211,The Best Way To Swallow Pills
+YouTube,You deserve a like.,@r0hano,50,The Best Way To Swallow Pills
+YouTube,GUYS FOR YOUR HEALTH'S SAKE YOU HAVE TO SWALLOW IT ASAP IF IT STARTS BREAKING DOWN IT CAN DAMAGE SOMETHING IN YOUR BODY (idk the english word both of my parents said this and they are doctors) but it's limakalvot in finnish,@notusinganymore7477,37,The Best Way To Swallow Pills
+YouTube,I know I tried taking one today and I couldnt swallow it so I spit it out,@WestopherCrouton,136,The Best Way To Swallow Pills
+YouTube, @WestopherCrouton  me too,@danielfuller340,0,The Best Way To Swallow Pills
+YouTube,This comment just perfectly described what just happened 2 seconds ago ;w;,@Iistener,26,The Best Way To Swallow Pills
+YouTube,I would 100% rather dissolving it in water or something and having that bitterness over trying to swallow it whole. I can swallow it if I bite it into quarters or thirds though.,@wolfferoni,18,The Best Way To Swallow Pills
+YouTube,That what always happened to me before I watched this vide,@caitlinkauffman3220,14,The Best Way To Swallow Pills
+YouTube, @caitlinkauffman3220  true,@baric.brun1,0,The Best Way To Swallow Pills
+YouTube,yep :(,@romyhutchins6204,11,The Best Way To Swallow Pills
+YouTube,Lance Vance I'm 14 years old and I just can't take pills they just keep satnding on my tongue,@alexpalm1556,9,The Best Way To Swallow Pills
+YouTube,Exercises to help with swallowing problems: https://youtu.be/mPxXZWjIFnc\nFor great throat-related care products https://www.FauquierENT.net/store_throat.htm,@fauquierent,23,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I feel like a total failure lol I can swallow multiple pasta pieces all at once but I can't swallow a freaking pill fml,@donatotusi9140,2600,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Who else cried  their eyes out cuz they failed swallowing a pill ? :D,@thewholefamily7725,169,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I'm so glad more people like me exist 😭 it's so tiring to have people make fun of you for not being able to swallow medicines.,@drashtishukla9499,490,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Dont you just hate it when you're trying to swallow a pill and it melts in your mouth 😭,@CupOfRamenNoodles,1100,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,All this did was make me more paranoid that I’m going to choke,@sp.8646,76,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I would just swollow the whole pudding and leave the pill,@mesabhetxkinarandomgames6024,236,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,It’s like my tongue is like “no we are not swallowing this don’t care”,@contralul,185,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,guys...\ni still can't swallow the damn pill,@kingdomnguyen8455,542,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I remember those moments where my mom would be mad cus I couldn’t swallow pills lmao,@potatoyoutube9225,568,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Appreciate the girl for swallowing dozens of pills for us 👏✌️,@Shantanu_Sharmaa,163,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I'm ashamed that I'm already 19 and my younger brother can do this effortlessly. I'm literally scared of swallowing medicines and injections 😭,@ahnyudaeng9571,831,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I’m literally in my kitchen having a full on mental breakdown because I have to swallow 2 tablets 3 times a day and this is my first time.. I’m shaking really bad and idk what to do,@Caroline-fj1qh,796,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"when I saw treatment I thought he was gonna be like \we'll prescribe a pill for that\""""",@GhostySweep,110,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,i can swallow full sized candy while im here at my bathroom crying cause I cant swallow this circular ass pill,@imgayfordojacat2034,118,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,OMG I HAVE SUCH A HARD TIME SWALLOWING PILLS SO I TRIED THE LEAN FORWARD METHOD AND OMGGGG ITS WORKS!,@ellawalsh7045,767,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I'm just here at the kitchen crying cause I can't swallow this dang pill,@doodle4914,54,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Who’s watching this while having a god dam tablet in your throat...,@kobee4490,96,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,My body physically starts shaking when I’m nervous so this + plus trying to swallow a pill = would probably end up in a disaster 😅,@sydturated792,55,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,yea fr I be gagging and then when I finally swallow it - I feel it for a min in my throat 💀,@jsud20,153,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,so we all looked up “how to swallow pills” huh?,@cecilianadiaz6295,4600,Tips for Swallowing Pills
+YouTube,Somehow I like separate the pill from the liquid when I try to swallow. I’m literally 20 so I should be able to do this 🤦🏻‍♀️,@savvyg571,3000,Tips for Swallowing Pills
+YouTube,im 14 and i feel like if i swallow tha pill its finna be like stuck in my throat,@mars13k26,1800,Tips for Swallowing Pills
+YouTube,"I hate that parents get so upset when their kids can't swallow pills. Like, what's screaming/taking their phone away going to do? Help them out, don't punish them cause they're scared.",@jackiejolie2748,1800,Tips for Swallowing Pills
+YouTube,God I'm glad there is people here I can relate to my whole family can take a pill normally but I can't :/,@tiniecub,347,Tips for Swallowing Pills
+YouTube,I'm 17 and cannot swallow pills so I'm here searching for tutorials damn,@lapetitemingie,180,Tips for Swallowing Pills
+YouTube,She did that so fast 😭 I’m 24 and I can’t,@kimberlyann9203,314,Tips for Swallowing Pills
+YouTube,my tongue just wont let me swallow anything XD\nas you said its a natural reaction for your tongue to prevent solid unchewed objects from going down your throat!,@RaptorJesus.,1100,Tips for Swallowing Pills
+YouTube,"I’m just sitting here, crying because a child can swallow a pill, and i’m 13 and i still struggle. The first and only time i’ve been able to swallow a pill was on an airplane and i was crying there too, and  struggling for 2 hours to finally get it down. Since then i haven’t been able to swallow a pill and right now i have to, but i just can’t at the moment\n\nedit: guys thank you sooo much for the replies like seriously, and guys i belive in you. You guys actually made me more comfortable with my inability to swallow a pill so yeah, thank you❤️ promise one day i’ll do it :)\n\naaand also, i’ll definitely update this comment when i finally made it\n\nGUYS!!! I DID IT AAH July/8/2021\n\nokay so i did even more digging and here are the stuff that worked for me: \n• crunch your toes when you swallow the pill to loosen up your gag-reflexes\n\n• hold your thumb tight between your fingers on your left hand to loosen up your gag-reflexes\n\n• hold the water and the pill in your mouth and watch a video, read something, and when you forget that you had the pill in your mouth or feel like you only have water in there go ahead and swallow, you won’t even feel it go down.",@bogihegyi3110,1500,Tips for Swallowing Pills
+YouTube,"my parents keep forcing me when i cant do it , ended up getting whooped .",@fydianputra4554,736,Tips for Swallowing Pills
+YouTube,This little girl has more courage than i ever will have. 💀,@blakesley.brooke,11,Tips for Swallowing Pills
+YouTube,At least we all can cry at the kitchen table while our mom and dad yell to swallow the dang pill.,@Emmacp788,133,Tips for Swallowing Pills
+YouTube,Who else is holding a pill in their hand?,@michikomichiko6714,198,Tips for Swallowing Pills
+YouTube,I'm crying here I don't know why I can't do it,@GalactixFX,44,Tips for Swallowing Pills
+YouTube,"Bro it’s embarrassing I’m 13 and I can’t swallow them. This kid can swallow them like no problem. \nI did it a few times before, but I literally get so full with all the water. I miss my baby liquid medicine 😔😟",@yuvikaasmr3236,373,Tips for Swallowing Pills
+YouTube,"The first time I swallowed my pill I was in tears because my mom was yelling at me, screaming at how old i am and I cant swallow a pill. I was 13 and it was my first time 😭",@BipBopBlehh,301,Tips for Swallowing Pills
+YouTube,"Bro I am literally so scared of swallowing pills because I think I'll choke. Everytime I drink the water after,  I end up spitting the water and not swallowing the pill. My parents were really mad.",@sahanaprabhu8025,647,Tips for Swallowing Pills
+YouTube,"the comments section is like group therapy I feel so validated as an 18 year old that still can't swallow pills. it helped calm me down a bit, I'm about to swallow my pill, wish me luck :)",@Mona-uj7zx,86,Tips for Swallowing Pills
+YouTube,"I’m traumatized from swallowing my pills. I went outside to eat and I was suppose to take my pill, so I did but it went horribly wrong and it dissolved in my mouth I spat it out and tried another one and almost didn’t swallow it. I still remember the taste... and then every time I get a pill out I instantly start to have a panic attack",@LeeKoGiV,654,Tips for Swallowing Pills
+YouTube,This actually helps me. I have anxiety and I get worried that I will choke so even though im 14 I can’t swallow pills. I watched this video as I drained a liquid claritin. Im having my mom buy some of these items so I can work my way up to the size of an ibuprofen. Thank you! And if anyone else is struggling you got this! It’s not easy and can be scary but work on it and things will get easier,@averiegabehart2642,446,Tips for Swallowing Pills
+YouTube,that’s what i did last night and this morning 🤪,@tayia5911,1,The Best Way To Swallow Pills
+YouTube,4 go on youtube and search how to swallow a tablet,@marambabilli5075,1,The Best Way To Swallow Pills
+YouTube,This is so me. I had a panic attack last night because of swallowing a pill.,@meeganb4604,1,The Best Way To Swallow Pills
+YouTube,I usually smash the tablet into powder form.,@caitcatcaths,1,The Best Way To Swallow Pills
+YouTube,Pērrÿ Dä Pârrøt • I just open the capsule (if it has one) and pour all the little things in and take it with ice cream.,@adri1513,1,The Best Way To Swallow Pills
+YouTube," @iluvkpoplol3059  welcome ,happy to help.you\nI don't know how to measure 😂\nBut I did it by a ruler(scale) \nI think 1-2cm",@abhai2603,1,The Best Way To Swallow Pills
+YouTube, @iluvkpoplol3059  ohhh!,@abhai2603,1,The Best Way To Swallow Pills
+YouTube,15 minutes? I apparently have to spend 90 minutes every day patiently waiting on my teen to freak herself out while holding a tiny pill in her hand...,@singingway,1,The Best Way To Swallow Pills
+YouTube,DadtheGamer01 omg literally me rn,@leahgalvan4765,0,The Best Way To Swallow Pills
+YouTube,1100's like,@zelzmiy,0,The Best Way To Swallow Pills
+YouTube,I do this method Everytime I take a pill💀,@lexithomas9346,0,The Best Way To Swallow Pills
+YouTube,Same I just broke smth and I'm being yelled at my mom,@pochama3,1,The Best Way To Swallow Pills
+YouTube,Wow same,@AleenaAamena,1,The Best Way To Swallow Pills
+YouTube,Same :(,@sahenaparveenshaik7704,1,The Best Way To Swallow Pills
+YouTube,"GUYS, I HAVE THE SOLUTION. I had trouble like you, but what you need to do is to put the pill way inside your mouth, not on top of your tongue and then put a lil bit of water in your mouth and then swallow them whilst drinking water",@NoniDarkPhantom,1,The Best Way To Swallow Pills
+YouTube,same :(\n\n\n\nthank goodness those were just probiotics,@quiisse,1,The Best Way To Swallow Pills
+YouTube,Me,@eclipsepusheen7116,0,The Best Way To Swallow Pills
+YouTube,Samee :(((,@floverchoi1207,0,The Best Way To Swallow Pills
+YouTube,Me the other day,@Kainaishani0296,0,The Best Way To Swallow Pills
+YouTube,same!!!,@ginahonda5914,0,The Best Way To Swallow Pills
+YouTube,Me 😭,@efflorescentcrystal,0,The Best Way To Swallow Pills
+YouTube,fred lamproom OMG SO TRUUUU,@speedyyy2002,0,The Best Way To Swallow Pills
+YouTube,fred lamproom i know,@elchivoronaldorma7785,0,The Best Way To Swallow Pills
+YouTube,Not using Anymore Same!,@rraiff,0,The Best Way To Swallow Pills
+YouTube,fred lamproom ikr,@theprettieststar.13,0,The Best Way To Swallow Pills
+YouTube,Same,@b3whytho982,0,The Best Way To Swallow Pills
+YouTube,same :(,@silicon179,0,The Best Way To Swallow Pills
+YouTube,fred lamproom SAME,@emilyplaysroblox3308,0,The Best Way To Swallow Pills
+YouTube,I gulp down food not a little pill,@charlesgiraffe8138,0,The Best Way To Swallow Pills
+YouTube,I've even had food stuck half in my mouth half in my throat and it was no big deal even though I could've choked,@naritruwireve1381,0,The Best Way To Swallow Pills
+YouTube,Same😂,@freklz,0,The Best Way To Swallow Pills
+YouTube,Zzz Zzz exactly,@reynalovely7762,1,The Best Way To Swallow Pills
+YouTube,Yes its true why pills when we have liquid,@Vanshikyadav0,1,The Best Way To Swallow Pills
+YouTube,Orr make them dissolvable,@puppersissage8640,1,The Best Way To Swallow Pills
+YouTube,i had to change my medicine from liquid to pill becuase the liquid is disgusting. it tastes HORRIBLE AND I ALWAYS WANT TO THROW UP,@teabook11,1,The Best Way To Swallow Pills
+YouTube,because the liquid versions are less effective,@mattiguess8094,1,The Best Way To Swallow Pills
+YouTube,"i disagree i’d say chewable instead, i have different types of anxiety meds prescribed from the many different attempts at getting it in my body and i’m really trying now because the next option is shock therapy on my brain or a feeding tube, tried my liquid version earlier and almost puked even with the amount of koolaid i tried it with 😭",@pickles7168,1,The Best Way To Swallow Pills
+YouTube,Same,@lilianasanchez1060,0,The Best Way To Swallow Pills
+YouTube,I can relate,@youleavemeuptight1301,0,The Best Way To Swallow Pills
+YouTube,EXACTLY YES,@vilsa6576,0,The Best Way To Swallow Pills
+YouTube,Zzz Zzz man that’s what I been saying,@CALILIFE8251,0,The Best Way To Swallow Pills
+YouTube,YESSS,@emeliabilton2994,4,The Best Way To Swallow Pills
+YouTube,Lmao same,@uzamakishiela1666,4,The Best Way To Swallow Pills
+YouTube, @iluvkpoplol3059   literally happened to me this week omg,@Yelsel,3,The Best Way To Swallow Pills
+YouTube,Same 😭,@iamdissapointed6810,2,The Best Way To Swallow Pills
+YouTube,The fear literally made me feel better after not wanting to swallow a pill💀,@1bobux559,2,The Best Way To Swallow Pills
+YouTube,Same... seriously trying to take a pill rn and it's a nightmare,@rebeccaroberts3173,2,The Best Way To Swallow Pills
+YouTube,Same. I just keep thinking about choking the pill and dying.,@Epic_Itzme,2,The Best Way To Swallow Pills
+YouTube,Facts Ik once I do it once I won’t have as big of a problem doing it again😂,@brayden3614,20,The Best Way To Swallow Pills
+YouTube, @brayden3614  It's the opposite for me. I would try it out once without problems but then I'd start getting nervous for my next attempts which ultimately makes me worse at swallowing pills. I'm here in this video now because just looking at my vitamins makes me wanna gag. (also- I gag while swallowing pills),@dahliamolina6295,6,The Best Way To Swallow Pills
+YouTube, @brayden3614  SAME OMG— pls help:'),@keki1929,1,The Best Way To Swallow Pills
+YouTube, Gabriel Villamor  SAME,@ginahonda5914,1,The Best Way To Swallow Pills
+YouTube, @iluvkpoplol3059  same omg,@ginahonda5914,1,The Best Way To Swallow Pills
+YouTube,Some people can swallow a whole hot dog and i cant swallow a tic tac,@donalddel,827,The Best Way To Swallow Pills
+YouTube,I'll try this out. I think I can't swallow it because my brain tells me that the tiny pill is going to somehow choke me and I'll die.........anyone else?,@Account-zv1wu,3500,The Best Way To Swallow Pills
+YouTube,My mom just yelled at me because I can’t swallow a tiny pill. She says. But it’s huge for me. Anyone else?,@jairorojas3065,1100,The Best Way To Swallow Pills
+YouTube,"I struggle when swallowing a pill because a fear of choking, not only that everytime I try to swallow it with water and literally just stays on my tongue but this method helped me thank you!",@Alleb8,28,The Best Way To Swallow Pills
+YouTube,I try swallowing but it always remains in my tongue so pissed off,@succas4eva199,527,The Best Way To Swallow Pills
+YouTube,I hate my brain dude,@anakinskywalker7223,695,The Best Way To Swallow Pills
+YouTube,i've been sitting with a pill in my hand for 2 hours moving all around the house i just can't freaking do it,@emmastephens2026,357,The Best Way To Swallow Pills
+YouTube,"I almost died when I was a teen from some candy ball, was without oxygen for around 5 minutes so I got trouble with it too. My tip would be: do not hesitate when swallowing and kinda think of the pill as food. Most pills are smaller than what you swallow in terms of food so think about that when you feel nervous about it.",@dotexe4981,68,The Best Way To Swallow Pills
+YouTube,I just love how we all dont know how to swallow a pill😂😂this is sad,@alanwalton4543,245,The Best Way To Swallow Pills
+YouTube,I feel glad I’m not the only one who can’t swallow pills. ✊🏻😞,@rei8592,945,The Best Way To Swallow Pills
+YouTube,It took my 6 hours to swallow 1 pill,@morganbaker8514,495,The Best Way To Swallow Pills
+YouTube,And this is when I start wondering if getting rid of acne is really that important,@rhea5642,39,The Best Way To Swallow Pills
+YouTube,my mom yelled at me for taking forever to swallow it I started to cry and still didn't end up swallowing it,@ashleehernandez8033,1100,The Best Way To Swallow Pills
+YouTube,"Just 2 days ago I was able to swallow pills without any hesitation, but now, it's freakin impossible. I DON'T KNOW WHAT HAPPENED",@naritruwireve1381,1900,The Best Way To Swallow Pills
+YouTube,"My mom was yelling at me a couple minutes ago because I couldn't swallow a tiny ass pill, it was really small, but I couldn't swallow it and she got really mad at me",@kpopruinedmylife1153,3000,The Best Way To Swallow Pills
+YouTube,"thank you for the 'lean forward' technique. ive been struggling to swallow pills, especially the big ones, my whole life. now i can finally take the medications that i need to feel better :)",@shapi541,7,The Best Way To Swallow Pills
+YouTube,I swallow candies\nBarely chew my food\n\nAnd yettttttt i cant swallow pills,@Kkaeyu05,640,The Best Way To Swallow Pills
+YouTube,when i am trying to take a tablet i almost drink a bottle full of water...but still the tablet remains in my tongue;(\n\n,@chaitrasukesh9686,280,The Best Way To Swallow Pills
+YouTube,OMG I SWALLOWED THE PILL- TODAY MARKS THE DAY I SWALLOWED MY FIRST PILL  6-11-19,@mr.2gr33dy7,693,The Best Way To Swallow Pills
+YouTube,"for those still struggling, i found out that taking pieces of bread and molding those pieces into like the size of a tablet/pill and then practicing by swallowing those helped me a lot !\nafter you have successfully swallowed the pieces of bread, you can move onto the actual tablets/pills.",@user-xc6kz1rk3t,121,The Best Way To Swallow Pills
+YouTube,Pineapple Town i just got my wisdom teeth pulled and she’s yelling “stop acting like a 2 year old”,@azariah553,19,The Best Way To Swallow Pills
+YouTube,Pineapple Town I’m scared to swallow pills because I think I’ll choke ...🤔🙄 it’s iratating,@caroline7210,17,The Best Way To Swallow Pills
+YouTube,Me lol!!,@xdarkskal,15,The Best Way To Swallow Pills
+YouTube,"I literally hate it when my parents say \just swallow it\"" like I would if I could KaRen""",@luciaangelique3127,8,The Best Way To Swallow Pills
+YouTube,"Yea right now, for influenza A, the pill is shape like a tic-tac",@joshbuilds,7,The Best Way To Swallow Pills
+YouTube,I just had! They left for work and im watching this before school Now!,@nisseproductions7052,6,The Best Way To Swallow Pills
+YouTube,Pineapple Town mee,@ashawrii._,6,The Best Way To Swallow Pills
+YouTube,"Literally me, i srsly don't know what's happening to me",@hose3262,6,The Best Way To Swallow Pills
+YouTube,I sometimes vomit after taking it,@omarrmalas,6,The Best Way To Swallow Pills
+YouTube,Pineapple Town  me! This is my first time taking pills I’m 12....My mom bought capsules t! That big! She said now you are old enough to swallow pills!,@xainab7774,6,The Best Way To Swallow Pills
+YouTube,Ikr,@daniella4095,14,The Best Way To Swallow Pills
+YouTube,same,@CrateChasm,9,The Best Way To Swallow Pills
+YouTube,Same,@kathleenmorrison1207,7,The Best Way To Swallow Pills
+YouTube,SAMEEEE,@kejsihoxha4079,7,The Best Way To Swallow Pills
+YouTube,Same here 😌,@sanikakamble8163,3,The Best Way To Swallow Pills
+YouTube,Same here 😌,@sanikakamble8163,3,The Best Way To Swallow Pills
+YouTube,The level of accuracy Is beyond the describable,@saya_pakupaku,1,The Best Way To Swallow Pills
+YouTube,Yes!!!🎉,@roxiixor,1,The Best Way To Swallow Pills
+YouTube,same,@ihvnz,1,The Best Way To Swallow Pills
+YouTube,same,@ayanathebest,1,The Best Way To Swallow Pills
+YouTube,IM IN THE SAME SITUATION RN,@hollymorris229,2,The Best Way To Swallow Pills
+YouTube,Omfg same here thts y i came here,@jennifercorona9291,42,The Best Way To Swallow Pills
+YouTube,"Just use a thick fluid like rosehip soup or any other kind of cream, it absorbs the pill and you don't even feel it coming down your throat",@depathic,39,The Best Way To Swallow Pills
+YouTube,"Hannah Liu I'm right there with you. Even worse since I suffer from eosinophilic esophagitis, so my esophagus is way narrower than the usual. It's hell for me to be a 24 years old nurse who can't swallow a pill.",@DarkClown06,21,The Best Way To Swallow Pills
+YouTube,I have the same problem,@amalart8087,11,The Best Way To Swallow Pills
+YouTube,AMAL ART  ik😭😂,@hortenciadelcampo8044,0,The Best Way To Swallow Pills
+YouTube,"I choked once on a peanut M&M. After that, I have this same mentality. I have been crushing my tablets...",@mishizii3980,8,The Best Way To Swallow Pills
+YouTube,I cant swallow the pills because my brain tells me it's a solid not a liquid,@mfsiner,6,The Best Way To Swallow Pills
+YouTube,Hannah Liu  i thought i was the only one i literally think i will die because of a round thing almost a size of an ant i hate it and i am 10 years old. when i fail taking the pill that night i dream about choking and it scares me to death. hannah how old are you,@lexieburgoyne3022,5,The Best Way To Swallow Pills
+YouTube,I know right exaclty,@kimoralee9581,4,The Best Way To Swallow Pills
+YouTube,I know thats my same story,@OfficialLive248,3,The Best Way To Swallow Pills
+YouTube,I'm also glad that there were also still some armys like me who couldn't swallow tablets 😭,@highqualityseungkwan9412,16,The Best Way To Swallow Pills
+YouTube, @highqualityseungkwan9412  i- JKLDSLK ITS OKAY WE CAN SUFFER TOGETHER,@rei8592,7,The Best Way To Swallow Pills
+YouTube, @highqualityseungkwan9412  trying to swallow capsules is a pure pain,@Goner_Requiem,0,The Best Way To Swallow Pills
+YouTube,Here another army that can't swallow the fracking  pill 😔😔😔💔💔💔,@sherinmostafa-pc4rz,4,The Best Way To Swallow Pills
+YouTube,WE CAN GET THROUGH THIS TOGETHER,@ginahonda5914,3,The Best Way To Swallow Pills
+YouTube,Me😔,@legendbhaiyazeher9963,2,The Best Way To Swallow Pills
+YouTube,Can you do it now? 😟,@jhealeneterrencio7981,1,The Best Way To Swallow Pills
+YouTube, @jhealeneterrencio7981  unfortunately no. i still cant,@rei8592,1,The Best Way To Swallow Pills
+YouTube,"Same ,I thought I was only the person who couldn't swallow pills",@batoolmd4821,0,The Best Way To Swallow Pills
+YouTube,Same I thought I was the only one,@Limmy.09,0,The Best Way To Swallow Pills
+YouTube,i can swallow paper WITHOUT WATER! but not a pill with water!,@kalina9271,3,The Best Way To Swallow Pills
+YouTube, @kalina9271  ...... u eat paper????? w h a t,@Kkaeyu05,44,The Best Way To Swallow Pills
+YouTube,Just roleplay,@itzrosii419,0,The Best Way To Swallow Pills
+YouTube,I choke everyday,@undeserving_of_wifi,0,The Best Way To Swallow Pills
+YouTube,so relieved i'm not alone in this. i think it's a mental issue rather than a physical one. quite worried about it... :(,@katbadiu2382,79,The Best Way To Swallow Pills
+YouTube, @katbadiu2382  yeah. Probably. I thought I'd overcome the task of taking pills. When I need too I can take them. Recently I was given some antibiotics to take for five days and I have difficulty doing so.,@k.5425,3,The Best Way To Swallow Pills
+YouTube,Juicy Pear me too:(,@Mars-kt1kz,51,The Best Way To Swallow Pills
+YouTube,Mars _ yeah me too,@dynastyforever6713,0,The Best Way To Swallow Pills
+YouTube,"That sucks my dude, I always saw people swallow pills and they made it look so easy but it’s impossible for me",@brandankizi4774,13,The Best Way To Swallow Pills
+YouTube,Juicy Pear that was me a couple years ago haha I had an illness and had to take very small pills everyday for a while and it was si easy but now I just cant.,@elizabethmurray2392,12,The Best Way To Swallow Pills
+YouTube,I was able to swallow pills with no problem but now I some how think the pill is a killer that is going to choke me. WTF!,@dragonnoodle5830,12,The Best Way To Swallow Pills
+YouTube, @dragonnoodle5830  oof,@Onxide,0,The Best Way To Swallow Pills
+YouTube,Noodle Dragon same,@okayokay4014,0,The Best Way To Swallow Pills
+YouTube,I swallowed my first pill last night but i dont know how to do it again,@personuslarvae,99,The Best Way To Swallow Pills
+YouTube,[VE] Orange Juice omg that’s really worrying me I have a toe infection and I’m meant to do it for the 2nd time after rn tomorrow morning lol,@wingardiumryan1581,2,The Best Way To Swallow Pills
+YouTube,[VE] Orange Juice sameeeee I took a pill like 2 month ago and now I forgot how to fkn take itttt,@amrfadel1756,1,The Best Way To Swallow Pills
+YouTube,"Lucky you. Ive been sitting here for 2 hours trying to take it, practicing with tictacs, getting yelled at, and crying and shaking uncontrollably. At least you got to though (no sarcasm)",@mike_zoni,33,The Best Way To Swallow Pills
+YouTube,Nice bro let’s gooooooooo,@amillennial6274,12,The Best Way To Swallow Pills
+YouTube,Congrats 😔❤️😭,@Angel-sp9ct,4,The Best Way To Swallow Pills
+YouTube,Same today marks mine (I’m 10 ) 8-8-2020,@wingardiumryan1581,2,The Best Way To Swallow Pills
+YouTube,The pill i swallowed was of a jelly like texture so it kind of accidently went in and that was probably he first and last time i swallowed a pill coz i am not able to do it again...it keeps floating and i have to dissolve it in water and eat that nasty liquid i feel sorry for myself😭,@eeewww8569,1,The Best Way To Swallow Pills
+YouTube,Congrats - I’m over here not able to swallow a single one,@ZinkZoodles,1,The Best Way To Swallow Pills
+YouTube,I can take small size tablets .my only problem are the big tablets especially capsule  tablets . Which we can't divide that into half,@nagarajabharathi,1,The Best Way To Swallow Pills
+YouTube,Me too,@brendothe1,4,The Best Way To Swallow Pills
+YouTube,Five years later...did you end up doing it?,@seventeen_eclipses,3,The Best Way To Swallow Pills
+YouTube, @seventeen_eclipses  nope still got them,@emmastephens2026,4,The Best Way To Swallow Pills
+YouTube,lmfao same,@Icvely,1,The Best Way To Swallow Pills
+YouTube,Dang.,@seventeen_eclipses,0,The Best Way To Swallow Pills
+YouTube,Seven years later... did you finally did it?,@Snorlax-Relaxing,0,The Best Way To Swallow Pills
+YouTube,Same,@sandrasuvorovaite6155,1,The Best Way To Swallow Pills
+YouTube,same here lol It's like my tongue keeps pushing it towards the front of my mouth instead of back.,@Lancevance02,12,The Best Way To Swallow Pills
+YouTube,omg samee😂,@alliahmariecebrano7166,3,The Best Way To Swallow Pills
+YouTube,And then I just lay on my bed refusing to move cause  I was that full,@lova2377,1,The Best Way To Swallow Pills
+YouTube,Of water,@lova2377,1,The Best Way To Swallow Pills
+YouTube,Me too😂,@BraylaAkenzTV,0,The Best Way To Swallow Pills
+YouTube,Same😂😂,@meraniakana9743,0,The Best Way To Swallow Pills
+YouTube,"same. i just took a tablet. I cant do capsules. last time i did one of them, the water made the whole capsule collapse inwards. I hate non chewables.\nIve found my own way to eat them, without water. Place at the end of your throat as far back as possible, tilt head back and push it down with the back of the tongue. still a pain to do but only way i can do it.",@Ballissle,13,The Best Way To Swallow Pills
+YouTube,Really?,@rev3luv3,7,The Best Way To Swallow Pills
+YouTube,I hope you didn't spend 6 hours just trying to swallow a pill.,@crand20033,7,The Best Way To Swallow Pills
+YouTube,I highly doubt that,@quagmire4469,1,The Best Way To Swallow Pills
+YouTube,MOrgAn BAkEr at least you did it. 3 years later i still cant,@ironia9825,5,The Best Way To Swallow Pills
+YouTube,Same,@Aj1Only,3,The Best Way To Swallow Pills
+YouTube,Wow. I thought 2 hours was a long time,@meeganb4604,3,The Best Way To Swallow Pills
+YouTube,It takes me a container of pills to sallow 1 pill🙂,@muhammadkayal4994,2,The Best Way To Swallow Pills
+YouTube,"MOrgAn BAkEr I neeed help, I cant swallow pills",@zarar5075,1,The Best Way To Swallow Pills
+YouTube,I know what you mean ... But you did it and im proud!,@itsmariarobles,1,The Best Way To Swallow Pills
+YouTube,Ashlee Hernandez me rn,@stitchfruit3538,19,The Best Way To Swallow Pills
+YouTube,same but now I can do it but it still take time to swallow about 1 or 2 mins. Before when I swallowed I'll throw up after.,@angelanguyen3372,13,The Best Way To Swallow Pills
+YouTube,Ashlee Hernandez me rn,@Sonia-sw9eq,7,The Best Way To Swallow Pills
+YouTube,Me too 😭,@mushyushie1831,6,The Best Way To Swallow Pills
+YouTube,i end up chewing the freaking shit lol,@allyferdiana7501,3,The Best Way To Swallow Pills
+YouTube,Ashlee Hernandez LMAO me too man 😂😂,@krig6withnoattachments364,2,The Best Way To Swallow Pills
+YouTube,Same😂,@sxeven7979,2,The Best Way To Swallow Pills
+YouTube,Me af,@sofearichielgbtq9430,2,The Best Way To Swallow Pills
+YouTube,Ashlee Hernandez same,@maddyalford883,1,The Best Way To Swallow Pills
+YouTube,Ashlee Hernandez same thing just happened the me the tears have dried,@qotiba3283,1,The Best Way To Swallow Pills
+YouTube,I ended up throwing out one of my pills,@brendothe1,6,The Best Way To Swallow Pills
+YouTube,Wannabe_PS4 Gamer I almost did😭,@savandtay6818,0,The Best Way To Swallow Pills
+YouTube,OMG YE it’s stuck in the wrong tube rn I’m going insane already wtf. I ate some food and drink plenty of water but all I get is bloated stomach THE DAMN PILL WONT GO DOWN IM SO STRESS,@Lil_Stanker,6,The Best Way To Swallow Pills
+YouTube,I wont go in the wrong tube but it can stuck on your throat like what happened to me many times so i crush the pills instead. It's scary..,@mjjackie777,3,The Best Way To Swallow Pills
+YouTube,Relatable,@yuu227,2,The Best Way To Swallow Pills
+YouTube,Ok now I’m more scared if it goes down somewhere else,@toruhagakure7389,2,The Best Way To Swallow Pills
+YouTube,Toru Hagakure ayy anime characters unite,@Kellietruj,0,The Best Way To Swallow Pills
+YouTube,Lol lol,@joannefaith1243,1,The Best Way To Swallow Pills
+YouTube,So true,@Nullreign,1,The Best Way To Swallow Pills
+YouTube,Grace May ikrrrrr,@wheelchairjimmys,1,The Best Way To Swallow Pills
+YouTube,SAME so relatable I hate choking on them,@joten625,1,The Best Way To Swallow Pills
+YouTube,You guys should try just eating the pill like me-,@rin6775,1,The Best Way To Swallow Pills
+YouTube, @rin6775  what about the plastic casing?,@vothbetilia4862,1,The Best Way To Swallow Pills
+YouTube,I already have empty pills at home but nothing seems to help I just cant especially bc i need to swallow pill big as toe nail and i cant i put it in water but now it's so disgusting I don't know what to do if I don't drink this I can get pneumonia and I'm crying I don't wanna be at hospital as my sister was for same reason,@9xfw,1,The Best Way To Swallow Pills
+YouTube, @9xfw how are u now,@IcyEdits2911,0,The Best Way To Swallow Pills
+YouTube,Trying this out 🙏,@tostitos1020,0,The Best Way To Swallow Pills
+YouTube,Jessy Chavez that used to happen to me to I would cry cause it's something I can't control,@HizJohnnyShinning,133,The Best Way To Swallow Pills
+YouTube,Clara  Solomon sooo true,@harbinderjagdev1883,0,The Best Way To Swallow Pills
+YouTube,OMG MY MOM SCREAMS AT ME CUZ I CANT SWALLOW THE SERIOUSLY LITTLEST PILL WE HAVE,@wolfhound519,114,The Best Way To Swallow Pills
+YouTube,Wolf Hound once I had a pill less than a centimeter long and probably just a couple millimeters wide,@Ivyrose333,0,The Best Way To Swallow Pills
+YouTube,it's annoying cause it happens to me to,@stephaniegreene9085,154,The Best Way To Swallow Pills
+YouTube,it's annoying cause it happens to me to,@stephaniegreene9085,44,The Best Way To Swallow Pills
+YouTube,Jessy Chavez omg thats whats happening to me! I for some reason refuse to take pills because its just really hard for me and my dad kept yelling at me and it didnt help when my mom showed me how. :(,@jae9224,33,The Best Way To Swallow Pills
+YouTube,Jessy Chavez omg me too mom always get mad at me because I can't swallow the pil after that I keep searching how to swallow capsule easily,@lunarenchie9455,30,The Best Way To Swallow Pills
+YouTube,"Jessy Chavez just now my mom was yelling at me cause I can't swallow pills, I'd rather suffer than have to swallow one",@dweina1735,17,The Best Way To Swallow Pills
+YouTube,Queen bee awww ik I just crush all my pills now I'm so embarrassed to tell my doctor I can't swallow pills 😔😔,@SummerYelloww,10,The Best Way To Swallow Pills
+YouTube,"ill tell you what happened, shit happened.",@David-jz1ie,11,The Best Way To Swallow Pills
+YouTube,Juicy Pear OMG ME TOO XD THATS WHY I WATCHED THIS VIDEO,@applejuice6844,6,The Best Way To Swallow Pills
+YouTube,Juicy Pear here’s my suggestion (don’t worry I had the EXACT same frustrating experience as what you described). \n\n1. Wait for yourself to calm down for at least 15 minutes before attempting to swallow the pill again. \n2. You should be able to swallow it now!,@hudsonshi154,4,The Best Way To Swallow Pills
+YouTube,Same and im just 13,@belgie1356,3,The Best Way To Swallow Pills
+YouTube,SAME,@emv352,1,The Best Way To Swallow Pills
+YouTube,Same it happens to me all the time,@lamarsaprodigy2173,1,The Best Way To Swallow Pills
+YouTube,Me too. I wonder why,@k.5425,1,The Best Way To Swallow Pills
+YouTube,Juicy Pear I swear that was me when I had just got my wisdom teeth pulled! now its like I never even swallowed a pill before,@chetasiaaleasia1121,1,The Best Way To Swallow Pills
+YouTube,Juicy Pear sameeeeeeee. It all just stopped😤😭,@kamjackson11,1,The Best Way To Swallow Pills
+YouTube,"wtf thats what happened to me, and my parents didnt believe me.",@tamanggeu,1,The Best Way To Swallow Pills
+YouTube,Max Roca yeah i gag until i throw up,@lexieburgoyne3022,3,The Best Way To Swallow Pills
+YouTube,Try putting the water than the pill and just go for it,@SimsFourLife,3,The Best Way To Swallow Pills
+YouTube,+The Greene Family i had to take mine for 5 days each morning,@misssassymsp8476,3,The Best Way To Swallow Pills
+YouTube,same here,@kartickkarmakar5459,3,The Best Way To Swallow Pills
+YouTube,Same dude I'm trying to swallow a capsule rn and I had to search this up lmao,@lsrsallyyy7827,3,The Best Way To Swallow Pills
+YouTube,You are so not alone my dad is like rlly kid,@Dash3105,2,The Best Way To Swallow Pills
+YouTube,Lexie Burgoyne I embed the pill in a spoonful of mashed potatoes.,@AccidentalLyrics,2,The Best Way To Swallow Pills
+YouTube,Same.. Just that i throw up,@dreamz9379,2,The Best Way To Swallow Pills
+YouTube,try it with a tick tack or mint first cause it tricks your brain the second time when you actually use a real one,@hannahbruns9789,2,The Best Way To Swallow Pills
+YouTube,Hannah Liu OMG I THOUGHT I WAS THE ONLY ONE,@DreadDoll,2,The Best Way To Swallow Pills
+YouTube,Me...,@moodman6426,5,The Best Way To Swallow Pills
+YouTube,Oh yea,@trollyguy3288,5,The Best Way To Swallow Pills
+YouTube,We had an entire argument about it /:,@milk8477,5,The Best Way To Swallow Pills
+YouTube,Same ;-;,@pinkyrandomness,4,The Best Way To Swallow Pills
+YouTube,Me rn,@purplecloud8097,4,The Best Way To Swallow Pills
+YouTube,Pineapple Town me,@HoldHandsHerron,4,The Best Way To Swallow Pills
+YouTube,thkou me I have to take a pill twice a day for 10 days !!,@caroline7210,4,The Best Way To Swallow Pills
+YouTube,"Me, and I started crying because of how bad they were screaming at me. My dad was about to recording me and that didn’t help at all :/",@isabellaarredondo15,4,The Best Way To Swallow Pills
+YouTube, @isabellaarredondo15  sorry about that buddy 😔🙏,@chrisxo3,4,The Best Way To Swallow Pills
+YouTube,Me,@dead8413,3,The Best Way To Swallow Pills
+YouTube,Pineapple Town me,@naniacacamaster8436,3,The Best Way To Swallow Pills
+YouTube,May 12th 2020,@phantomjosh2148,1,The Best Way To Swallow Pills
+YouTube,OMG congratulations I literally have to swollow a pull tommorow and I'm sooooo scared 🥺🥺,@_mycar_7600,0,The Best Way To Swallow Pills
+YouTube,"Lena Telenkova it’ll be okay, I had to take my first pill the other day, and just stopped the prescription penicillin! What helped me is I said (aloud) ‘So, I take the pill out, I get the water, I put the pill in my mouth, and I drink the water whilst the pill goes down first.’ Then I did those steps and I tried to get the pill to go down first, then the water. This way the pill gets washed down by the water. I’d also recommend drinking a lot of water after to help it not get stuck in your throat! I hope this helped! (By the way I’m 11 so idk if this will actually help but nvm)",@wingardiumryan1581,4,The Best Way To Swallow Pills
+YouTube,Congrats,@yw6282,0,The Best Way To Swallow Pills
+YouTube,ME TOO I ALMOST DIED BUT THE SECOND ONE WORKED (It was just a skittle but I’m still counting it as a win bc I could swallow half of a Tic Tac lol),@lexiland9431,0,The Best Way To Swallow Pills
+YouTube,You swallowed a pill on my birthday. There's hundreds of pills that I've probably swallowed in 17 years but I just can't sometimes. It's too hard dude 😪,@extra_terrestrial006,0,The Best Way To Swallow Pills
+YouTube,IM SO PROUD OF U . I HAVENT SWALLOWED ONE UET IK SCARED,@idek634,0,The Best Way To Swallow Pills
+YouTube,Howwwwww? 😭 I was day dreaming I'll tell my mom and everyone I have accomplished my mission I ate a pill for the first time but even after after many many efforts and instructions and motivation I just couldn't I'm crying whyyyy couldn't I do it😢 I really needed a medicine if I don't eat it I have to bare my pain but sadly I couldn't 😫,@astonishingaisha4045,0,The Best Way To Swallow Pills
+YouTube,"dude...its not the pain that stop us from taking them,is the idea of chocking whit them",@kappakappa4507,265,The Best Way To Swallow Pills
+YouTube,"His wife needs to do the demonstration. If you're already good at swallowing pills, any strategy will work 😆",@MissMinaOh,1300,The Best Way To Swallow Pills
+YouTube,I’m 30 and can’t swallow a pill...,@dmc19911,19,Tips for Swallowing Pills
+YouTube,I'm a 16 yo boy who never learned how to swallow lol,@peep_04,18,Tips for Swallowing Pills
+YouTube," @peep_04  good luck mate, i belive in each and one of you!!!!",@bogihegyi3110,6,Tips for Swallowing Pills
+YouTube,I rarely swallow them its really hard,@s4yorii586,17,Tips for Swallowing Pills
+YouTube, @s4yorii586  same,@AleenaAamena,0,Tips for Swallowing Pills
+YouTube,same :(,@lingupingu,14,Tips for Swallowing Pills
+YouTube,same lol,@jarrah.madison,11,Tips for Swallowing Pills
+YouTube,im 16 and scared to swallow a pill,@sillygirlhail,10,Tips for Swallowing Pills
+YouTube,ugh i am crying too i cant swallow it because i choke or throw up 😭,@beadoodlie,8,Tips for Swallowing Pills
+YouTube,"I’m 21, trust me I understand the struggle",@clovebooksdiva,8,Tips for Swallowing Pills
+YouTube,Me too..I can’t swallow a pill.I can’t even swallow a tiny one!😢,@pandapanda1567,159,Tips for Swallowing Pills
+YouTube," @pandapanda1567  same,im scared if im chocked 😵",@rohayamuhamad9847,6,Tips for Swallowing Pills
+YouTube,"that moment you're 18, can't swallow pills, and find a comment section that you can relate to 😔💖",@UniversalStatic,125,Tips for Swallowing Pills
+YouTube,Me to 22 and still can't do it . Here because I'm freaking out about taking my medicine 😭,@victoriarose4678,193,Tips for Swallowing Pills
+YouTube,"I'm 42. Couldn't get past the \sprinkles\"" step. My brain just won't let me.""",@necrojoe,22,Tips for Swallowing Pills
+YouTube,Im now 24 and still can't i've tried😭😭,@yuichansdaily4962,16,Tips for Swallowing Pills
+YouTube," @yuichansdaily4962  What you do now? Please Tell me, i don't swallow pills",@suvajitkolay272,0,Tips for Swallowing Pills
+YouTube,SAMEEE,@ineedalobotomyy,71,Tips for Swallowing Pills
+YouTube,I couldn’t swallow pills for a lonnnng time then one time I had to take some prescribed pills and I was a pro. Now I’m back to not being able to take pills lol,@AnaG0326,15,Tips for Swallowing Pills
+YouTube, @AnaG0326  😂😂😂,@rukaiyanishfan8912,2,Tips for Swallowing Pills
+YouTube,Im 29 and still can't do it.,@carlimacdonald3269,24,Tips for Swallowing Pills
+YouTube, @carlimacdonald3269  i like your last name love❤,@tajaunellison10r57,0,Tips for Swallowing Pills
+YouTube,Fr 😭 and I'm 26,@davida99,3,Tips for Swallowing Pills
+YouTube,Also 24 and I can't do it lmfao,@whoahanant,3,Tips for Swallowing Pills
+YouTube,"Same, 24 and I can’t 😣",@LilTris,2,Tips for Swallowing Pills
+YouTube,I am 22 still can't do it,@stylishpawankumar8205,1,Tips for Swallowing Pills
+YouTube,I'm 41 and still can't. No matter what I do my tongue finds a way to prevent it from going down. It wants to push it to the roof of my mouth.,@ThomasDailey,1,Tips for Swallowing Pills
+YouTube,don’t worry my uncle is around or older then you and can’t do it as well! ur not alone,@Mxnal.,0,Tips for Swallowing Pills
+YouTube,My brother can swallow 5+ pills at the same time while im here struggling with my flu pills the size of a mini m&m 😔,@afmr9037,3,Tips for Swallowing Pills
+YouTube,Same,@daniella4095,1,Tips for Swallowing Pills
+YouTube,Same,@ferr9974,0,Tips for Swallowing Pills
+YouTube,Same,@jhonycarpio201,0,Tips for Swallowing Pills
+YouTube,Yea my cousin is 12 and he can take them without problems,@efpetrou,0,Tips for Swallowing Pills
+YouTube,"Can agreee,\nThough my mom said that she used to do the same but now she ain't like that anymore\nPluss I used to do it before, and also whenever in school I felt feverish,  I used to go to the clinic and take tablets there and that time I was around like 13 something😭, but here I'm in my 19 again lol",@shazmeentandel.-.,0,Tips for Swallowing Pills
+YouTube,"My tongue just keeps it at the top of my mouth it’s so dumb,",@cerebrxll6064,95,Tips for Swallowing Pills
+YouTube,I think its because our habit is chewing and swallowing it unlike other people who just swallows food without chewing,@josephineadornado1206,84,Tips for Swallowing Pills
+YouTube,It's impossible for me to do it,@Imightcomeback2,25,Tips for Swallowing Pills
+YouTube, @Imightcomeback2  same,@macbookmax3668,0,Tips for Swallowing Pills
+YouTube,I also can't swallow a pill but I just look up while swallowing to avoid any irrational thoughts and with water it just slide down I drink 2 to 3 glass of water for 4 pills,@sunshineinwinter4022,20,Tips for Swallowing Pills
+YouTube, @sunshineinwinter4022  i need to treat myself like a dog XD\ni put the pill in a little slice of banana and chew the banana a little and then swallow it :P\nmy tongue is like \sure thats soft," i'll let it pass!\""""",@RaptorJesus.,37
+YouTube,I have the same issue!,@optiklopzzz,10,Tips for Swallowing Pills
+YouTube,@UCt1Dzxewy2zwNmS9LlP U GAVE ME A IDEA I CAN PUT IT IN A BANANA AND EAT IT,@NotShouko,6,Tips for Swallowing Pills
+YouTube," @NotShouko  it works! just don't chew the banana too much, just enough to trick your tongue XD",@RaptorJesus.,14,Tips for Swallowing Pills
+YouTube,Ik it's so annoying,@chieko2560,2,Tips for Swallowing Pills
+YouTube,Me and it started to melt 😭,@lilux7593,39,Tips for Swallowing Pills
+YouTube, @lilux7593  I feel you mate,@lilfoxie2516,5,Tips for Swallowing Pills
+YouTube,I did but guess what! ITS IN TH GARABAGE NOW,@jenettsprouse4178,15,Tips for Swallowing Pills
+YouTube,"I actually cried when she said \It's okay\"" to the child not being able to swallow it. My parents never said that.""",@Janette_AJ,8,Tips for Swallowing Pills
+YouTube,I KNOW RIGHT!!,@kr1shna.07,3,Tips for Swallowing Pills
+YouTube,the way this is an universal experience 😭,@kumiiz,1,Tips for Swallowing Pills
+YouTube,Facts,@glitchwashe3e504,0,Tips for Swallowing Pills
+YouTube,i got my phone taken😭😭,@conspiracieswithjess7185,52,Tips for Swallowing Pills
+YouTube, @conspiracieswithjess7185  same i got my phone taking away and grounded,@lovelyflames4397,11,Tips for Swallowing Pills
+YouTube, @conspiracieswithjess7185  OMG SAME,@vrentoe6076,0,Tips for Swallowing Pills
+YouTube,i literally got whooped for hours because of a silly little omega fish oil capsule i wasn't able to swallow LMAO my mom gave up eventually though,@cypidez,29,Tips for Swallowing Pills
+YouTube, @cypidez  damnn. that’s gonna give u trauma and make you hate taking meds in the future,@lalas2707,21,Tips for Swallowing Pills
+YouTube, @cypidez  i have to swallow this to 😫,@davida99,0,Tips for Swallowing Pills
+YouTube,Same 😭,@sophiafermin64,16,Tips for Swallowing Pills
+YouTube,I threw up,@Babbieeli,13,Tips for Swallowing Pills
+YouTube," @Babbieeli  I once got a pill from my doc because of my swollen eye I tried to swallow it Infront of the hospital I puked so much, still tried and tried many down the road were looking at me.. eventually I got another medicine which was liquid I hate the taste but I love it since I won't be swallowing that pill.",@nanamnangsel6098,0,Tips for Swallowing Pills
+YouTube,Same,@heisenberg6103,12,Tips for Swallowing Pills
+YouTube,Yep  my us problem am an 15 and severely anemic the iron pills dissolves and taste like metal smells like it as well also blood I can’t swallow it and I have to return to the doctor next month if I have not improved the doctor threatened he will send me to a specialist I am now I am dissolving it in my yogurt that taste sweet to mask the horrible taste I hope it works I don’t wanna go to the specialist since I have a fear of doctors badly,@jadewu111,139,Tips for Swallowing Pills
+YouTube," @jadewu111  ayoo sameeee, thats exactly why im here... same story",@udontknowme7417,37,Tips for Swallowing Pills
+YouTube," @jadewu111  I’m 15 and anemic and underweight, but mine just advised me to eat a lot more. Eat eggs and lentils, if you make the lentils cook them until they’re almost creamy, don’t let them remain crunchy. Also, a tip for taking pills, chew a banana and place it on it and swallow, or when you eat rice don’t fully chew it. That’ll train your brain to swallow foods that aren’t fully chewed.",@_JustJoe,1,Tips for Swallowing Pills
+YouTube," @jadewu111  gosh, same here.. I dont want to go to some Doctor",@Belovedmeii,0,Tips for Swallowing Pills
+YouTube,Damn bro I tried to swallow one and it went half way down then that shit came right back up😂,@Vudu888,15,Tips for Swallowing Pills
+YouTube,"Yes, I fear that the pill could get stuck in my throat then I'm gonna die😟",@khalenchloe5611,10,Tips for Swallowing Pills
+YouTube, @khalenchloe5611  same 😭,@divinenwodo1027,0,Tips for Swallowing Pills
+YouTube,Fr,@jb_esco,8,Tips for Swallowing Pills
+YouTube,Yeah I Have A Headache I Tried Swallowing The Pill To Make It Stop It Spit It Out Cuz It Tasted Disgusting,@cmk4610,5,Tips for Swallowing Pills
+YouTube, @cmk4610  we the same,@rongta6654,0,Tips for Swallowing Pills
+YouTube,"Oh, and I never swallowed the pill. We dissolved it in water, and after years, I still cant swallow pills, despite my moms screaming",@BipBopBlehh,26,Tips for Swallowing Pills
+YouTube,My dad screams at me cause I cant do it. What’s that supposed to achieve???? Ik all it did for me is give me a phobia of swallowing pills. One time my mom even told me know I’ll die cause I cant swallow pills. Great way to brighten up the mood and make me want to swallow it.,@UrMom-jh8xr,16,Tips for Swallowing Pills
+YouTube,same💀💀,@celinechwan,3,Tips for Swallowing Pills
+YouTube,No disrespect. But I’m sorry she’s terrible for yelling at you because you couldn’t accomplish something. You don’t yell at someone if they can’t do something. Gotta have patience or try to find another way that’s easier for them. That just makes everything harder for them & it’s really rude. Also she needed patience.,@jamilahmcpherson8661,2,Tips for Swallowing Pills
+YouTube," @jamilahmcpherson8661  \nI guess I sort of understand her tho, im probably the only person in my family who finds it really difficult to swallow pills while my mom and the others she knows finds it incredibly easy, she can even swallow a whole pill without water! And beacuse of that majority, part of me thinks that maybe she thinks im just pretending I cant swallow pills, but even if so, I just wish she would still be more understanding because im NOT pretending, and if I could take my meds and get rid of my sickness as fast as I could, I would. No one wants me to get better more than I do.",@BipBopBlehh,3,Tips for Swallowing Pills
+YouTube,Same I’m struggling rn and my moms yelling at me even tho I have never taken a pill before. I keep saying that I’m trying but she just keeps yelling saying to do it and getting mad at me fire not being able to do smth I’ve never done before,@Luu684,1,Tips for Swallowing Pills
+YouTube,Same,@Moonlight-kt3lw,0,Tips for Swallowing Pills
+YouTube,Yeaa,@lemislayss,0,Tips for Swallowing Pills
+YouTube,Same,@JasperDagger,0,Tips for Swallowing Pills
+YouTube,"similar scenario with me lol but i was probably like 7, just figured out how to not long before.. was struggling and she screamed at me, i was crying so hard i threw up onto my huge stuffed dog 💔",@st4rryblossom,0,Tips for Swallowing Pills
+YouTube,Same I was getting yelled at T_T,@Gaminggamer828,43,Tips for Swallowing Pills
+YouTube,glad i’m not the only one,@haidynjaymes,12,Tips for Swallowing Pills
+YouTube,i finally found my people😭,@alliyahghailevalencia7329,12,Tips for Swallowing Pills
+YouTube,same here. my mom yelled at me because she got my dermatologist prescription and i can’t swallow them. the water will go down but the pill just doesn’t 😀,@haileeswartz668,10,Tips for Swallowing Pills
+YouTube,PLS I TRIED SWALLOWING A PILL TODAY AND I ENDED UP CHOKING ON IT FELT LIKE I WAS ABOUT TO THROW UP-,@No-he4qr,9,Tips for Swallowing Pills
+YouTube, @No-he4qr  I hate hate hate that feeling. I am sorry for you.,@sahanaprabhu8025,13,Tips for Swallowing Pills
+YouTube,"This will for sure help, Cut the pill up and then put all the stuff inside of it that kinda looks like salt in water. then drink the water",@TacticalIdiotChronicles,7,Tips for Swallowing Pills
+YouTube,Same situation rn,@kikikalathiasart9510,6,Tips for Swallowing Pills
+YouTube,Yeah it is real,@angelarna9743,5,Tips for Swallowing Pills
+YouTube,plz i’m 20 i got yelled at all the time before and now i have to take pills 2 times a day :( i still can’t swallow pills,@anabibi8178,5,Tips for Swallowing Pills
+YouTube,"I need to take capsules every day three times, and I’m really struggling especially because they float. They keep bursting in my mouth because I take too long so I spit them out. :)",@Joannah346,6,Tips for Swallowing Pills
+YouTube,Same,@s4yorii586,5,Tips for Swallowing Pills
+YouTube,I'm 18 and still can't take it 👍,@bttattis6222,5,Tips for Swallowing Pills
+YouTube,"Brooo same, 14 year old, sitting on her room crying with a pill in her hand 😃",@gnf5584,5,Tips for Swallowing Pills
+YouTube, @gnf5584  omg another dsmp fandom member!!!😭<3333,@bogihegyi3110,1,Tips for Swallowing Pills
+YouTube, @gnf5584  me too. Literally right now.,@goldenroses010,1,Tips for Swallowing Pills
+YouTube,"Its alright we all gonna go by this moments\nUntil now iam 15yrs old and i cant still swallow pills that i need to crush them and mix with 3drops of water, it taste really bad but i have no choice, iam totally glad iam not the only one at my age who cant swallow pills",@tomato-j7n,5,Tips for Swallowing Pills
+YouTube,"@Josefin Eva Halef i’m glad i’m not alone, good luck😤✨",@bogihegyi3110,4,Tips for Swallowing Pills
+YouTube,I am 21 and i cant swallow them 🤒,@usamarasheed4349,4,Tips for Swallowing Pills
+YouTube,I’m 23 and can’t do it lol,@CT-97,4,Tips for Swallowing Pills
+YouTube,I just learned to swallow a pill today :D my proudest achievement! I’m 13 too ;-;,@BrooketheWild,4,Tips for Swallowing Pills
+YouTube,I’m 27 still cant swallow pills. Just tried today with a capsule.,@xSevenDevilsx,4,Tips for Swallowing Pills
+YouTube,"Yeah my parents beat me so bad because I couldn't swallow it. I was trying so hard. But I guess I can't really complain because it worked, I tried hard to swallow it for so long because I didn't want to be hit anymore until it finnaly worked. And now I dont have a problem swallowing them.",@A_youtube_channel_,21,Tips for Swallowing Pills
+YouTube," @A_youtube_channel_  Bro that sounds like abuse, you should probably call the cops",@jackiejolie2748,6,Tips for Swallowing Pills
+YouTube,My parents were literally gonna push it down my throat and MAKE me swallow it. I was scared af and crying. (13 btw),@duckyduck6563,8,Tips for Swallowing Pills
+YouTube, @duckyduck6563  same my mom was gonna throw it inside my mouth :/,@user-pm2li9fc8o,0,Tips for Swallowing Pills
+YouTube,Exactly 😭,@chimchimmy1094,6,Tips for Swallowing Pills
+YouTube,Yea same,@techgamingxd2312,30,Tips for Swallowing Pills
+YouTube,"Isn't is weird.  We can swallow food, but can't swallow meds.",@judybrown1810,4,Tips for Swallowing Pills
+YouTube,​ @judybrown1810  u can chew food but not pills,@9xfw,1,Tips for Swallowing Pills
+YouTube,"Same , I’m literally 12 and I can’t swallow it , my parents just say put it on ur tongue and take a sip of water and swallow it , but the f*****g pill doesn’t go down , do u have some tips for me , I’m gonna lose everything I have and I can’t swallow it",@Ronaldo.7crs,3,Tips for Swallowing Pills
+YouTube," @Ronaldo.7crs  Sorry I've got no tips, cause I wasn't able to do it. I have the same problem as you and I'm 17. Ask your parents if they can ask  a pharmacist if you can put your pills into some kind of food.",@jackiejolie2748,0,Tips for Swallowing Pills
+YouTube,i don't use any foods but it's still on the tip of my throat and i hate it m father yelled at me for being dumb at not swallowing the pills good..,@Rare569NA,2,Tips for Swallowing Pills
+YouTube,Mine which gets stuck at the front of my teeth when i swallow water.,@souju_13,1,Tips for Swallowing Pills
+YouTube,Mines is  disgusting  it a favor  I don't like and I'm trying  not to take it,@kori3570,0,Tips for Swallowing Pills
+YouTube,I sometimes chew some bread then swallow the pill with the chews bread and it helps,@kiranerys7073,0,Tips for Swallowing Pills
+YouTube,The pill is a liquid. So drink,@ravenwda007,0,Tips for Swallowing Pills
+YouTube,"One tip is puff up your cheeks with the liquid ur swallowing it with inside ur mouth and then swallow, and if it’s a medication that can be crushed then crush it and put it in a spoon of honey or smth but make sure it can be crushed by asking ur doctor or smth cus if it’s a medicine ur not supposed to crush and you do then you run the risk of overdosing because all the medication is absorbed at once",@zzz3407,0,Tips for Swallowing Pills
+YouTube,ur not alone tho,@ReTalked,124,Tips for Swallowing Pills
+YouTube,Fr though I get so paranoid 😃,@ellierose8849,66,Tips for Swallowing Pills
+YouTube,"Your not alone I'm 12 and I'm still struggling, my parents keep on complaining 😅!",@franciscamenguito8191,58,Tips for Swallowing Pills
+YouTube, @franciscamenguito8191  same 😅,@valeriadiaz6272,0,Tips for Swallowing Pills
+YouTube, @franciscamenguito8191 same and I'm also 12,@vellutogaming8695,0,Tips for Swallowing Pills
+YouTube, @franciscamenguito8191  Fr. My parents always complain but it’s not my fault :/,@lizziegamerwolf,0,Tips for Swallowing Pills
+YouTube,Fr,@shaziasuleman8995,34,Tips for Swallowing Pills
+YouTube, @shaziasuleman8995  what?,@ReTalked,5,Tips for Swallowing Pills
+YouTube, @jpwidit15  same for the first time wasn't able to do it and the second time I did it but the third time um... I wasn't able to do it again😂,@franciscamenguito8191,25,Tips for Swallowing Pills
+YouTube,Google even said its possible to choke on one soo.. theres that,@caitlynsimmer2569,14,Tips for Swallowing Pills
+YouTube,Same im so wimpy :(,@ellierose8849,3,Tips for Swallowing Pills
+YouTube,"Yo Im older than you and yes I struggle too. Its not that I cant doe, I can its just that I needed other methods you know? This goes for you too, like so many people do that and pills are made to be swallowed down etc. You know a sneaky method that I do is put the pill inside of food like a small piece of bread or in yogurt (Someone else does that) and my brain thinks its just food and I swallow it  e a s i l y. Another method is to put the pill in your mouth and the water, dont even think about the pill!, Look down and look up fast (ok dont break your neck, dont do it aggressively) and swallow at the same time.",@toughdawg,3,Tips for Swallowing Pills
+YouTube,i was like this 24 hours ago and im 15. i figured out that swallowing it with a carbonated drink helps tremendously bc you cant feel the pill when i goes down.,@ashlynhaigler6020,3,Tips for Swallowing Pills
+YouTube,I am 13 also and I am crying to not eat a tablet and my father is convincing me to eat it😭😭😭😭,@gamingqueen5064,3,Tips for Swallowing Pills
+YouTube,Bruh I am 18 and still struggling,@goofy3421,3,Tips for Swallowing Pills
+YouTube,same and im so proud of you,@yarlinthais,3,Tips for Swallowing Pills
+YouTube,Same I need to break it into pieces and I stil cant swallow it.,@kanak4400,3,Tips for Swallowing Pills
+YouTube,Same :((,@soob1n,2,Tips for Swallowing Pills
+YouTube,Same:),@sameerabhati7067,2,Tips for Swallowing Pills
+YouTube,sameeee,@lovelyflames4397,2,Tips for Swallowing Pills
+YouTube,I searched how to swallow pills without getting disgusted,@justiceangel5539,5,Tips for Swallowing Pills
+YouTube,"AT THE AGE OF FREAKING 19,YES.",@mariakantzou,4,Tips for Swallowing Pills
+YouTube, @mariakantzou  lmaooo me asf rn at the age of 20,@oscarbirruete5290,0,Tips for Swallowing Pills
+YouTube,I always get scared to swallow them fearing I’ll choke on them😭I started taking pills recently so I haven’t really got the hang of swallowing them yet😓,@mentallydatingkokichiouma9226,4,Tips for Swallowing Pills
+YouTube,Yup.I had to start taking D3 and I’m too scared to swallow it-,@RosyALong,3,Tips for Swallowing Pills
+YouTube,I know how to swallow pills but them big ones be making me mad,@ineedcooch,3,Tips for Swallowing Pills
+YouTube,MY CRAMPS ARE SO BAD 😕,@yumix2418,3,Tips for Swallowing Pills
+YouTube,Don't expose me like that,@exceptionallyriso,2,Tips for Swallowing Pills
+YouTube,"Yes I can't swallow a tiny miniature pill with water. I need to bite it, drink water and swallow with that bitter taste 😭",@moshi23moshi,2,Tips for Swallowing Pills
+YouTube,Yup,@mithra9900,1,Tips for Swallowing Pills
+YouTube,Yep,@LeeKoGiV,1,Tips for Swallowing Pills
+YouTube,I know right like my parents do it,@kr1shna.07,2,Tips for Swallowing Pills
+YouTube,Best cough meds is wonderful. Pearls. Little gel pull that is good.,@judybrown1810,2,Tips for Swallowing Pills
+YouTube,Some people shouldn’t be parents..sorry not sorry,@Okk681,2,Tips for Swallowing Pills
+YouTube,Yeah I had to take a pill yesterday but I can’t and my dad hit me across the head threw water at me and whenever like I can’t he just yells at me I couldn’t do it he said I need to try again today bu to don’t wanna,@ivanalvarado4872,2,Tips for Swallowing Pills
+YouTube,Same instead of supporting me they threat me and i just said well you could have just supported me so its done and my mum said dont talk like that cuz thats rude so i said im just telling you so its done like WHAA???,@antoniojrdepano6206,2,Tips for Swallowing Pills
+YouTube,yeah my parents scream at me for not being able to do it,@able_.e,2,Tips for Swallowing Pills
+YouTube,My mom just now got mad at me because i wasn’t able to swallow a pill and she keeps forcing me but i can’t i will try my hardest but i’m praying that i can learn how to swallow a pill,@Loulia12361,2,Tips for Swallowing Pills
+YouTube,That's what my mom didi,@lightpin638,1,Tips for Swallowing Pills
+YouTube,I’m 16 and learning how to swallow a pill Ngl it’s hard,@mandxza,1,Tips for Swallowing Pills
+YouTube," @mandxza  I'm 70 and have had problems swallowing  until recently.    I have learned how to take them,put  meds in mouth and hold your head back and it works.   Use to break them up.  I get excited when I swallow the meds.  Lol",@judybrown1810,6,Tips for Swallowing Pills
+YouTube,I did crush them and put in pudding.  Then tried swallow with head back and did fine.,@judybrown1810,1,Tips for Swallowing Pills
+YouTube,I literally watching this video holding my pill I think I will start crying now bcoz I am scared to even put it inside my mouth 🥲🥲🥲,@iamyourgrandfather440,96,Tips for Swallowing Pills
+YouTube,i swallowed a pill once and now i can’t seem to do it again,@brii304,144,Tips for Swallowing Pills
+YouTube,I’m 24 and still can’t swallow pills. It’s a mental thing for me,@jessicamaco-rodriguez454,11,Tips for Swallowing Pills
+YouTube,I'm really happy to see that I'm not the only one finding it difficult to swallow a fucking pill!!! 😭😭,@letsstudy4454,136,Tips for Swallowing Pills
+YouTube,I’m 15 and i feel embarrassed that I’m scared and can’t swallow a pill but I’m glad that I’m not alone after all,@Fuutas-bride,41,Tips for Swallowing Pills
+YouTube,me a 17yr old that is now watching a child take pills like a champ….😢 I still can’t,@gabriellablazen3058,6,Tips for Swallowing Pills
+YouTube,"Hey everyone! \nI know you're all scared, doubting yourself, thinking that you won't be able to do it but trust me you just will be. I believe in all of you. I respect your efforts that inspite of being so freaked out you all still want to do it. I feel you cause I have gone through the same. \nGUYS JUST KEEP TRYING AND YOU WILL SUCCEED AND IT WON'T CHOKE!!! \nMy method: put the pill at back of your throat and take a gulp of water and most importantly ALLOW the pill to get down the throat. Keep the fear aside and nothing's hard.",@bharatghaywat7644,82,Tips for Swallowing Pills
+YouTube,can my parents stop pressuring me 💀,@miraonduty,46,Tips for Swallowing Pills
+YouTube,"I was ten when my parents made take my first pill. it was a traumatic experience. we were in a rush and the pill was small but it  still made me gag and I was crying. my parents kept yelling at me just to swallow it but I couldn’t. parents, don’t yell at your kids when they can’t take a pill. It’s hard guys 😭",@edenwinkler,15,Tips for Swallowing Pills
+YouTube,"Oml thank you so much, I feel like shit rn and I’m trying to take a ibuprofen",@user-wt4ht6sy7l,7,Tips for Swallowing Pills
+YouTube,"This kid is my role model because I am 23 and cannot swallow a fricking pill. I am disgusted, horrified and at the same time amused at myself for being unable to do this simple thing WTF ?!$&@())!!!",@Tyler-pt5ej,90,Tips for Swallowing Pills
+YouTube,I am not a child but I take pills and I learned from you. May God bless you,@denys911perez,1,Tips for Swallowing Pills
+YouTube,I have to the these big pills so what I do is I watch her do it then I do it. She's so adorable and she really helps me. Thank you so much Maddie💓💗💖❤👍,@sophiamikia9114,3,Tips for Swallowing Pills
+YouTube,"Thank you so much for posting this process. My son was struggling so much with swallowing pills, and this is the trick that worked! So appreciate the help!",@mamamica1000,1,Tips for Swallowing Pills
+YouTube,"Thank you for this video! This video helped my 9-year-old daughter swallow her allergy pill. She had some issues swallowing at first. I wish we would have watched this video, to begin with.",@lauratastic42,15,Tips for Swallowing Pills
+YouTube,Wow. I love how this isn’t about parents struggling to get kids to swallow rather than a bunch of teens/adults trying to figure this out together. This gives me confidence for the world.,@A-spooky-ghost13,0,Tips for Swallowing Pills
+YouTube,This makes me feel worse about me not being able to swallow a pill.,@dregsspromise1377,50,Tips for Swallowing Pills
+YouTube,"I am always acting tough before taking the pill but when it's sitting in my mouth, I start panicking. Lol 😭😂",@AST-m4y,32,Tips for Swallowing Pills
+YouTube,I be scared to swallow a pill bc i think ima choke ;-;,@unb3kn0wnst,131,Tips for Swallowing Pills
+YouTube,It’s my first time staying in the hospital and I have been taking pills so when they said it was time to take pills I was scared and they put this on! And it worked and now I’m better out but remind yall it’s ok you will get better! I’m under 10! I’m learning so this video helped!,@claireeeeeeeeeeeeeeeeeee,1,Tips for Swallowing Pills
+YouTube,"Same. I once had tried to drink a pill, and by just merely looking at it, an anxiety attack triggered",@bonakid863,28,Tips for Swallowing Pills
+YouTube,"the taste is nothing, I almost choked on a paracetamol when I was young, and since that day I just can't swallow pills, cuz I'm afraid of it happening again.",@gregwaffle568,14,Tips for Swallowing Pills
+YouTube,Same same,@Belovedmeii,9,Tips for Swallowing Pills
+YouTube,"Same, i also got traumatized when i was young",@Ceo-Of-Shadouge,8,Tips for Swallowing Pills
+YouTube,Same I literally can’t I always feel like it’s going to go down the wrong pipe and then I’ll stop breathing and it just scares me,@offline123,5,Tips for Swallowing Pills
+YouTube,That’s exactly me !!,@Nya.Reynolds,4,Tips for Swallowing Pills
+YouTube,Same:')) or sometimes i cry while having a panic attack,@kat.sweetpotet6542,4,Tips for Swallowing Pills
+YouTube,"OMG THE SAME EXACT THING HAPPENED TO ME. i’m anemic and have to take iron pills but ever since the time i almost choked and the pill dissolved, i literally cannot swallow any pills :((",@mariasaucedo5230,4,Tips for Swallowing Pills
+YouTube," @mariasaucedo5230  THIS IS ME RIGHT NOW, my heart literally starts beating faster than sonic when i look at it 😭 WHY ARE VITAMINS SO BIG",@currymunccherr,1,Tips for Swallowing Pills
+YouTube, @mariasaucedo5230  I recommend you Floradix iron supplements. They are quite tasty and may even be able to help a bit. (Its a liquid),@handofthehigh,0,Tips for Swallowing Pills
+YouTube,Me every time I try swallowing a pill( try as in a still do),@abdulazizlari8885,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Me yesterday,@shreebanerjee1765,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"I cried leading up to testing suck method, I knew it was gonna get stuck and it DID",@CrimsonTideGuy,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Me 😭😭😭,@riddhi_padwal-7k,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,But great video nonetheless!!,@contralul,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @contralul   yo ils the samw,@pigo2132,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Yeah you need new parents,@Violet-wj1iu,10,Tips for Swallowing Pills
+YouTube,Same my dad pushes it down 😭😭,@alexagalcer2245,8,Tips for Swallowing Pills
+YouTube,"Same bruh, my dad just yelled at me cause i couldn’t swallow a pill. And I’m 12",@benjaminracklin8138,7,Tips for Swallowing Pills
+YouTube,Same,@callmemetisuwu4837,5,Tips for Swallowing Pills
+YouTube,Bruh ...,@toughdawg,3,Tips for Swallowing Pills
+YouTube,Same,@aaronr5308,2,Tips for Swallowing Pills
+YouTube,Same bro my dad was pressuring tf out of me,@lIlIllIlI-,2,Tips for Swallowing Pills
+YouTube,I'm 29 and special needs and I still can't swallow damn pills and can't even swallow damn capsules either. I'm scared of choking on a pill and a capsule.,@carlimacdonald3269,2,Tips for Swallowing Pills
+YouTube,Sameee,@jairel9275,1,Tips for Swallowing Pills
+YouTube,same bestay,@ayesh4h,1,Tips for Swallowing Pills
+YouTube,"mom's mad at me rn,,",@hahatdog5404,61,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I spit water all over the floor so I guess it’s justified,@cerebrxll6064,51,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,my mom yells at me everytime because i can’t swallow pills,@firefly_3005,21,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,SAME AND THEN I WOULD CRY and she would be like “Libby it’s just a dam pill just swallow it”,@libs1843,11,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,bro this shit happening to me rn,@m33lissaa,4,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Remember?? That's happening to me RIGHT NOW HELP :((((I GOT COLD:((,@palgun_k,3,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,hahahahaha :D same,@deliciousnar,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Haha same here 🤣,@ange_gia,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Fr,@fatboykeish,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,She got mad at me yesterday 🥲,@hongniii,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"put it in a spoonful of yogurt, MAKE SURE THE PILL IS FULLY COVERD!!!",@abboyaboya,40,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @abboyaboya  TYSM,@XeN303,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"Me either, every time i try, i chocked.",@ryanorigenes6470,13,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Me either,@drakotv3090,10,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,change your mindset I think,@ivywang416,10,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Same wth is wrong with me,@goutamsardar8364,10,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I had to crush my pill and swallow the pill dust cuz I couldn’t eat the dang pill,@inkfernado9114,7,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @inkfernado9114  me too!! Just like with capsules! 😌,@angelofnerdz676,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,SAME I HAD TO BREAK IT INTO PIECES AND STILL WASNT ABLE TO DO IT. AND NOW ITS IN THE TRASH 😭,@kanak4400,7,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Me too😬,@almashp419,4,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,FRRR😭😭😭,@vam.c7,16,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Yes😭,@lmnc113,11,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Fr😂 exactly my thoughts immediately he started explaining that method,@Pagesofmylittlemind,8,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,exactlyyyy i wanted to try that so i chewed up my food and then put the pill and swallow it and when i did i thought i did it but the pill was still on my tongue😭,@MistyR,5,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,EXACTLYYYYYY,@sparshthakker6776,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I Chew pudding,@ToniToniChopaaa,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Me too​ @ToniToniChopaaa ,@katyarivera1475,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I have tried that method with apple sauce many times and I just can't get the pill down.,@SkylarBane,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,😂😂😂😂,@jamisonthompson6352,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,This i have been trying to get enough will to swallow the pill with pudding i tested with a knockoff m&m brand first half the size of a normal pill i ate 1/4 of the entire pudding and wasn’t able to swallow the chocolate.,@Teiuri,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I chocked once😭,@sanstainz,4,Tips for Swallowing Pills
+YouTube,Noo nooo dont worry u cant choke the only think that can choke u is the water if u dont know how to drink,@efpetrou,3,Tips for Swallowing Pills
+YouTube, @efpetrou  bruh just look at the second comment above yours,@woolsword8200,0,Tips for Swallowing Pills
+YouTube,"I'm glad you all can relate to this, because I still have serious trouble swallowing a pill!!!",@sahanaprabhu8025,3,Tips for Swallowing Pills
+YouTube,same omg but because of the pressure of my parents I swallow it,@mentallydatingkokichiouma9226,3,Tips for Swallowing Pills
+YouTube,"every time I try to swallow a pill, I vomit it out instantly",@Pain-allity,3,Tips for Swallowing Pills
+YouTube,"Me too, they think I can do it naturally like them",@jznh7718,2,Tips for Swallowing Pills
+YouTube,Makes sense,@memelord9463,2,Tips for Swallowing Pills
+YouTube,"Same, for me it was my sister",@maharbensyafritaher4863,1,Tips for Swallowing Pills
+YouTube,LOLLLL,@yenuliw,1,Tips for Swallowing Pills
+YouTube,I'm an adult and I have this problem.  Don't feel bad.  We all have to get over certain things at times in our lives.  You'll get it eventually.,@Justme77400,0,Tips for Swallowing Pills
+YouTube,and it tastes disgusting,@leahamb,205,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"Yup, no person should have to know what Tylenol taste like",@J.M.25gBe,74,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube," @J.M.25gBe  I chew Tylenol every time tastes bad every time, I’ve chewed it over 20 times never gets better",@jazminyz,7,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @J.M.25gBe  FR💀😭,@libs1843,5,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @J.M.25gBe I swear they make the liquid gels just to get at us because they taste like battery acid,@econoverse3209,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Fkn awful,@shutdahellup69420,48,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I tried to swallow a pill and it took me an hour so my dad got mad and took a spoon full of peanut butter and put the pill in the peanut butter and made me put the spoon full of peanut butter in my mouth a wash it down with water,@technogaming3601,21,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I just chewed it and swallowed fast,@subnormalbark2683,7,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"I hated it so much but after thiis method i think that taste will not come again\n\nif this hasn't worked for you, I tried something before watching this video and it worked. I had a problem, my head wouldn't accept that something big would be swallowed by the water in my stomach, my brain thought it's not possible and the pill melted every time in my mouth. So I tried something very good, I showed my brain how it's going to happen and told my brain it's possible, after showing my brain I tried again and I swear it worked. I was so happy. If anyone still has Stryggels with them, try this method and it will work inshallah😊.",@moonma0436,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @moonma0436  brb taking brain out rq,@ihvnz,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"I’m 19 and can’t do it, how’d it go for you?",@Melissa-rb6ct,4,Tips for Swallowing Pills
+YouTube,I'm 17 and I'm struggling 😭,@nabilanazifi2821,2,Tips for Swallowing Pills
+YouTube,There are literally millions of people like you and me that suffer from not being able to swallow pills and tablets. Bullies are everywhere. Ignore them. I'm learning a lot with those techniques and practice is key I guess. Don't worry and keep trying. That's what we should do.,@hbobenicio,4,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"im 22 and still cant, but lots of meds come in liquids if you ask ur doctor / some can be crushed luckily",@goodamy1,4,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Ikr,@fall.mp4,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Fr😭,@shazmeentandel.-.,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"I just had a Paracetamol pill get stuck in my throat (still stuck, by the way), and I threw a tantrum. I chugged an insane amount of water, followed by eating a tomato. I even threw up twice after palpating my throat for the pill, and pieces of the tomato came out of my nose (ouch). I was just trying to get some pain relief so I could sleep peacefully.🥲👊",@golly123123,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Tell me seriously bro when we watch any these types of videos we get very confident but when we doing it in real still getting nervous even after watching so many videos. But I don't understand in 2019 I swallow pills for one week. But today I'm swallowing but feels very scary can somebody tell me what's reason behind this?,@indiangamingfactshistory4642,10,Tips for Swallowing Pills
+YouTube,Same,@Taylor-qt1vc,1,Tips for Swallowing Pills
+YouTube,Same,@Gaminggamer828,1,Tips for Swallowing Pills
+YouTube,Even I'm 17 and i cant 😭,@thevanquisher5971,0,Tips for Swallowing Pills
+YouTube,GIRL SAME,@mangoes_are_manya,0,Tips for Swallowing Pills
+YouTube,"Same, But this should help.\nThis will for sure help, Cut the pill up and then put all the stuff inside of it that kinda looks like salt in water. then drink the water",@TacticalIdiotChronicles,0,Tips for Swallowing Pills
+YouTube,"Same, I’m 14 as well and still can’t drink pills. I got an anxiety attack when I tried to swallow a pill. The mere fear of the pill getting stuck in my throat or choking always gets to me when a pill is near me",@bonakid863,15,Tips for Swallowing Pills
+YouTube,I’m really scared of them because one time I feel like I almost died XD,@lunafox9994,10,Tips for Swallowing Pills
+YouTube,I’m 26 and I still have that feeling it’s scary for real,@violetwinston4264,10,Tips for Swallowing Pills
+YouTube,Istg im scared of it going into my lungs or smt. If I feel it turning sideways im done bc how tf u gon get it out,@dejan2298,1,Tips for Swallowing Pills
+YouTube,So true,@Elle_Acid,1,Tips for Swallowing Pills
+YouTube,same i have a doctors appointment tomorrow for ADHD and anti depression medications and i know my mom is going to try and make me swallow a pill😭💀,@that-weird-one2912,0,Tips for Swallowing Pills
+YouTube,Yes my anxiety keeps me from swallowing pills,@Saveeyrose,0,Tips for Swallowing Pills
+YouTube,I can’t even swallow a small sprinkle whole,@sjsjsjsnsnsn8546,0,Tips for Swallowing Pills
+YouTube,It's a process I'm 19 and still struggle taking my adhd meds,@Risccii,0,Tips for Swallowing Pills
+YouTube,I’m 17 on this mf tryna find out how to do it😂,@wocslim1920,0,Tips for Swallowing Pills
+YouTube,"25 here and just looked up this video. I can do small pills (only since a year ago), but not those huge vitamin ones.\nShe's literally taking a pill swallowing class, don't think we've had that when I was younger, so I wouldn't compare myself to her :DD\nFollow what they're doing and you should get there slowly. There are also some other tips with tilting your head down and swallowing like that.\nProbably didn't learn too much from this video, except that practice is everything, but it was very wholesome :DDD",@MadiHun,9,Tips for Swallowing Pills
+YouTube, @MadiHun  Someone in a previous comment made mention of their separating the pill from the liquid - which just makes everything so difficult. I had to take some pills and I realized just focusing on swallowing everything helps a lot. Don’t focus on the tablet/pill.,@Tyler-pt5ej,4,Tips for Swallowing Pills
+YouTube,i’m 20 and can’t do it:( i just cant,@babygirldean,0,Tips for Swallowing Pills
+YouTube,Im living  t is rn,@pigo2132,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Same lol,@A-fb6mb,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,My parents say there’s no one out there who can’t swallow and They say I’m the only human and idiot who doesn’t know how to swallow a pill 😭😭,@lilfoxie2516,9,Tips for Swallowing Pills
+YouTube, @lilfoxie2516  same :(,@Amanda.Porciuncula,2,Tips for Swallowing Pills
+YouTube, @lilfoxie2516  same 😭,@able_.e,0,Tips for Swallowing Pills
+YouTube,honestly it's better than choking on it 100 times,@pupcloud.9412,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"This is my tips as I previously cant swallow capsule: \nTake in the capsule, drink some water lean your forward (bow)  and the capsule will float at the top of the water. Next you swallor it. To avoid gag reflex, in your left hand, clinch fist with your thums under the other 4 fingers. \n\nNOTE: This is only for CAPSULE",@schnappi6866,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,bro lucky I want it to melt in my mouth so it will be easier to swallow,@SarnaiViola,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Tastes like crap man,@udunnomeson,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,when its those anitbiotic ones that are huge.... and they taste so bitter and disgusting it makes you gag ugh,@stellamariss3335,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,🤣🤣🤣,@crazyhouse581,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Its disgusting,@footballupdates7370,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,😂😂😂😂😂😂😂😂 glad i’m not the only one..,@ihvnz,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Omg so true,@miuser_07,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,:-( I feel you,@snowangel9863,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,idk how still.\nPop bottle and lean forward makes me gag and puke them out and I can't gulp water much less soft foods like pudding.,@Coffee4Tired-me,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @Coffee4Tired-me  break the pill into small pieces it helps me give it a try.,@kanak4400,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Me 🥺 my hubby gonna feed the tablet... I'm just telling him pls do it bussiness I will do my best,@yamin_c92,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,same,@shrek3578,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Same,@xxcherryx5251,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,try to melt it in a spoon and put a little water it worked,@kei1097,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Same.,@enakshisethi,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"Me too, I just give up and bite it until it's good enough to swallow.",@angelofnerdz676,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Uss broo🫂,@shazmeentandel.-.,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,us moment bro,@itslunq17_,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,😂😂😂😂😂😭😭😭😭,@ron7507,2,Tips for Swallowing Pills
+YouTube,Same here bro,@abi_shark6558,0,Tips for Swallowing Pills
+YouTube,SAME EVERYTIME I SWALLOW A PILL I USED TO THROW UP THE SOME OF THE WATER,@kaci._.sogoatedd,0,Tips for Swallowing Pills
+YouTube,For real Im not always thinking I could choke I'm like positive I could drink a pill but somehow I CAN'T!? my mother is really mad my brother is also mad although my dad is at his work (24/7) so ..,@cosmo-v9q,0,Tips for Swallowing Pills
+YouTube,I always unconsciously hold the pill with my tongue,@llemonlimee,2,Tips for Swallowing Pills
+YouTube, @llemonlimee  yeah,@wildyit,0,Tips for Swallowing Pills
+YouTube,I am thinking about trying this trick. Do you have any suggestion on what I should do and not do? I am very scared.,@esong_123,0,Tips for Swallowing Pills
+YouTube, @esong_123  Well just don't panic too much and ease down yourself I know it's easy to say than done but still try it. \nAnd always believe you'll be able to do it and the pill won't choke. I believe in you and wishing abt ur wellbeing 💛,@bharatghaywat7644,3,Tips for Swallowing Pills
+YouTube,Same i'll cry for hours because it just doesn't get down:(,@alicemiller8491,2,Tips for Swallowing Pills
+YouTube,"I completely relate to that. I’m almost 14 and am unable to swallow pills too, I have a bad cold and my parents want me to swallow a pill to help but I can’t. I was born with congenital hypothyroidism so I think that might be part of it, but it’s so damn frustrating to see a literal child who’s probably like 8 years younger than me doing it with hardly any struggle.",@casper.8872,2,Tips for Swallowing Pills
+YouTube,Omg same I’m 13 and all my life I’ve been drinking liquid medicine and always scared to swallow a pill :(,@Ilovefoodlol_,2,Tips for Swallowing Pills
+YouTube,"This will for sure help, Cut the pill up and then put all the stuff inside of it that kinda looks like salt in water. then drink the water",@TacticalIdiotChronicles,2,Tips for Swallowing Pills
+YouTube,congrats!:) i hope one day i’ll learn how to do it too,@uhcynthia6170,2,Tips for Swallowing Pills
+YouTube,"Thanks! I'll pass that info to my son, hes 12 and needing to take some pills and hasn't been able to",@pave9764,2,Tips for Swallowing Pills
+YouTube, @pave9764  you’re more than welcome! :),@bogihegyi3110,3,Tips for Swallowing Pills
+YouTube,bruh im 23,@AbrahamG.99,2,Tips for Swallowing Pills
+YouTube,OMG TYTYTY FOR LEAVING THAT LITTLE TIP AT THE END IT WORKKKEDDD <333 !!!!!,@Ihertells,2,Tips for Swallowing Pills
+YouTube,Saaaame,@superlimeapple,1,Tips for Swallowing Pills
+YouTube,Same..,@kchmchl8956,1,Tips for Swallowing Pills
+YouTube,Lol...i've had a pill dissolve in my mouth...i had spit it out...and the taste ain't going...that was this morning and that's why i'm here cause i have to take another one by noon.,@omination3022,1,Tips for Swallowing Pills
+YouTube,Same same. Honestly,@archivingarch,0,Tips for Swallowing Pills
+YouTube,"Same man. The mere thought of the memories of me trying to swallow the pill and mom screaming at me about a month ago absolutely horrifies me,I can't think about it,I think it's PTSD",@speggiman,0,Tips for Swallowing Pills
+YouTube,Same,@Flowers-mh3ry,0,Tips for Swallowing Pills
+YouTube,"Same 😭😭😭, I thought I'm the only one",@markdavidangangan1111,0,Tips for Swallowing Pills
+YouTube,try choking on the first pill you ever took then never being able to take one again due to fear of dying ://,@lycheemyusic,0,Tips for Swallowing Pills
+YouTube,I’m 19 and I almost choked on something when I was younger so swallowing pills is a no go but since 2021 is hopefully gonna be my year I might as well start small,@raptorb4107,18,Tips for Swallowing Pills
+YouTube,"I remember when I was young and trying to swallow a pill, it just wouldn't go down my throat, I wasn't scared, my body just wouldn't let me lol. So I used to pretend I swallowed them and trow them away, rapped in tissue's so my parents wouldn't find out.",@ezer_lee1126,14,Tips for Swallowing Pills
+YouTube,"Thank the Lord for helping me find a good tip, if anyone is still struggling to swallow a pill you can try tilting your head a bit (towards your chest) and then swallowing the pill. It reeeally helped me take my melatonin, hope this helps :]",@boopnsnoop,3,Tips for Swallowing Pills
+YouTube,"This will for sure help, Cut the pill up and then put all the stuff inside of it that kinda looks like salt in water. then drink the water",@TacticalIdiotChronicles,2,Tips for Swallowing Pills
+YouTube,here i am as a 16 year old having my first anxiety attack from trying to take a pill bc of braces pain at 3 am. i’m genuinely terrified bc what if i choke and no one is awake to help me,@allymarch7132,18,Tips for Swallowing Pills
+YouTube,I'm 55 years old and embarrassed to admit that I cannot swallow pills which is why I'm watching this video.,@kimdean1079,6,Tips for Swallowing Pills
+YouTube,"I cant swallow pills, I have iron pills if I keep them in my mouth for too long I get a instant taste of blood and end up throwing up.. But the training with candy thing is a really good idea. I think I will first try with those so I wont ruin my taste.\n\nEdit: I swallowed my pills! I had to cut it into pieces tho bc I can’t do it full..",@nav8433,39,Tips for Swallowing Pills
+YouTube,"im a teenager and have a really really hard time taking pills, this helped a lot. Thank you :))",@TotallyNotNP,0,Tips for Swallowing Pills
+YouTube,Thank You So Much For the Tips!!! I finally get to visit my idol juice world!!,@kamerontoland6517,5,Tips for Swallowing Pills
+YouTube,"I feel so safe in this comment section, I relate to everyone here",@agamdubovi2770,1,Tips for Swallowing Pills
+YouTube,I'm 21 and I recently tested positive for covid and taking pills have been a nightmare for me. I hate taking pills but have to as its necessary,@techh9171,18,Tips for Swallowing Pills
+YouTube,i found that swallowing some kind of gummy or jelly is a great way to remind yourself its possible :) YOU GOT THIS!!,@raelenegan8483,0,Tips for Swallowing Pills
+YouTube,I was worried to swallow pills when I was younger but ever since I have gotten really sick it’s gotten easier.,@user-jd6cd1gg2y,14,Tips for Swallowing Pills
+YouTube,😭 I’ve been crushing up my pills and putting them in my drinks. For some reason I can’t swallow a pill at all! No matter how hard I try the pill won’t go down.\n  \n  Edit: Ok after I wrote this I swallowed my pills FINALLY,@Kira-gq8hq,95,Tips for Swallowing Pills
+YouTube,"I just pray to god , swallow water and put the tablet in and look up immediately in case of pills ( down for capsules).  Sometimes i may cry because of the fear to take meds",@Raman_Kumar_09,3,Tips for Swallowing Pills
+YouTube,"As a 10 year girl and can’t swallow pills is stressing me out, every time I try to swallow my pills, it just suck in my mouth not moving even I tried so hard, but my parent decided to yelled at me and forcing me to swallow it, thinks that I’m not trying when I am in my best, making me scared that one day I will die from cant swallowing pills, I understand that, I also know that I really need to know how, but can they just stop kept saying that, it’s just making me worse, watching this video is making me feel better, and seeing comments that I’m not alone is so better.",@Lunaaa942,2,Tips for Swallowing Pills
+YouTube,"Yes, I searched for this tutorial, and don't be sad for can't take a pill. If you can't swallow it, just eat it with some bread or other food. And remember there are many of us that old, yet can't swallow pills. You're not the only one, hope this cm could help you",@knowledgeofscience1659,17,Tips for Swallowing Pills
+YouTube,i was so good at swallowing pills until one day i thought i could swallow it without water and now my confidence is down :D,@sarahnaded,10,Tips for Swallowing Pills
+YouTube,"I just did it! Even though swallowing a pill is not a big deal for most of the people I feel like I achieved something for the first time in my whole life lool I tried lots of methods to swallow that little annoying pill💀 Folding my tongue, putting the pill behind and then drinking water worked for me!",@TIME-fe6ne,18,Tips for Swallowing Pills
+YouTube,I can feel my gag reflexes from a mile away as I'm watching  this ( I was told to try to swallow a skittle by my doctor before but can't do that),@rosette3002,0,Tips for Swallowing Pills
+YouTube,I made the mistake of biting into an Advil pill,@andre_here,1,Tips for Swallowing Pills
+YouTube,i have to swallow this bland ass pill that’s big asf,@j4nyu,1,Tips for Swallowing Pills
+YouTube,I have no trauma I just...well the moment the pill goes near my throat it's like: NOOE NOT HAPPENING today miss,@Jiminieforever,1,Tips for Swallowing Pills
+YouTube,I hate to admit it but yea 😭,@lemislayss,1,Tips for Swallowing Pills
+YouTube,Yes I don't wanna choke,@jonathanruiz6061,1,Tips for Swallowing Pills
+YouTube, @jonathanruiz6061  😭🤣🤣,@divinenwodo1027,0,Tips for Swallowing Pills
+YouTube,yep im 9 years old they make me take it im thinking of running away whta do you think\n⬇,@creami_vidz,1,Tips for Swallowing Pills
+YouTube,"35 and still trying. My tongue always humps up at the back of my mouth. The water can go down, but the pill just stays on my tongue. Very frustrating.",@wintergray1221,1,Tips for Swallowing Pills
+YouTube, @wintergray1221 same i think my brain is broken,@qwerty-g9x3p,1,Tips for Swallowing Pills
+YouTube,Phobia of pills are getting to me real hard,@kitticondos,1,Tips for Swallowing Pills
+YouTube,Yep I have gag reflex… and I’m scared as a 11 year old.,@marrzzd,1,Tips for Swallowing Pills
+YouTube,I looked up swallowing pills lol,@Moustache_Mysteries,1,Tips for Swallowing Pills
+YouTube,Same. They were probably placebo though or vitamins,@brandonplays702,7,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,overdoze or just vitamins,@tsugikuniyoriichi9896,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,All those pills got her stuck now lol,@chiefjake1262,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,It was M&M’s,@mulletcity,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Same my biggest fear is choking o-o,@marlinremigio257,7,Tips for Swallowing Pills
+YouTube,same so the best thing to do is break it in half take the first part then the 2,@shainakotian8192,1,Tips for Swallowing Pills
+YouTube,"I choked on a pill 2 times and almost vomited. I just can't swallow pills even the little ones, so I just throw them and pretend like I took it.",@meghalidutta1086,1,Tips for Swallowing Pills
+YouTube, @meghalidutta1086  ME RN,@crazypegz6835,0,Tips for Swallowing Pills
+YouTube,Same that’s why I learned to swallow a pill late,@BrooketheWild,0,Tips for Swallowing Pills
+YouTube,Omg me too,@Bea-pb3sn,0,Tips for Swallowing Pills
+YouTube,that's one of the main reasons why people have trouble swallowing pills,@bandaqueenlove9134,0,Tips for Swallowing Pills
+YouTube,Same :(,@valeriadiaz6272,0,Tips for Swallowing Pills
+YouTube,Same..,@user-k5t1z,0,Tips for Swallowing Pills
+YouTube,And that happen to me everytime but I drink continue drinking water  but I'm scared,@gyusluvsstxt,0,Tips for Swallowing Pills
+YouTube,Same I have an ear infection and have to take tablets for 10 days (3 every 8 hours) and I never had a problem with pill but last night I took one and got stuck then I spitted it out and today I just couldn’t take them,@Saleh-ux5od,56,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube," @Saleh-ux5od  I feel you! I always puke them back up, today I wasted 5 of them just because I couldn’t swallow it - I’m about to take my last pill (just swallowed one and it wasn’t bad at all so now I’m really happy but i have a feeling the next ones gonna be bad) but good luck, we’re in this together stranger",@Caroline-fj1qh,58,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @Saleh-ux5od  I had a gum infection and I have to take one per 8 hours it’s awful 😞,@aisteimsaite541,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,i have to take 3 tablets three times a day and i think the most recent one i took got stuck 🤡,@user-uc9gv5zz5h,12,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"Hey, you should try just thinking about drinking the water and not swallowing the pill, or try eating stuff right before you take the pills. Some people recommend eating soft stuff like bread or bananas with the pill in it so you won’t have global sensation (the feeling where you’re scared to swallow when you know you can swallow)",@user4230xjyZ,6,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @user4230xjyZ  i finished from the medicine thankfully took liquid instead of pills but i tried to take it with bread the only thing i can think of is the pill unfortunately,@Saleh-ux5od,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @user4230xjyZ  thank you I appreciate it💕,@Caroline-fj1qh,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"There's a video tips for swalloing pills, its kinda for kids but there's no shame in trying it. I know anxiety over pills sucks (sometimes I dont take any to convince myself I'm not sick xd)",@ايمانيات-قرانية,5,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Guys when I swallow the pill goes down roughly and it hits somthing in my throat lol 😅😅,@GerrardJoseph1,3,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"hey, Idk if you already resolved this but I'll tell you how I trained myself: put some water in your mouth (like a little bubble-sip, not too much) + the pill, and then you wait. Slowly try to relax the back of your throat, as you let some liquid go at the back. Close your eyes, concentrate, do whatever makes u calm and focused (I usually close my eyes while being in a quiet place); this allowes u not to panic and to gain more conscious control on your throat. Imagine you are \expanding\"" the back of you mouth", tilt your head a little back if that helps. At some point," you should \""feel\"" / have the intuition that \""everything\"" (water+pill) is \""back enough\"" that if you \""close your throat\""/swallow", it will for sure go down. So
+YouTube,bruh i’m 27 and can’t been swallow paracetamol!!! i’ve been given amoxicillin fs. my brother literally 18 and can do it without any trouble lmaoooo,@mizzcrazygal,60,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,NVM i managed to swallow my amoxicillin. my dad helped me lmao he had to hold my hand and keep telling me i can do it jsddoijd HAHAHA,@mizzcrazygal,10,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I'm 36 and still can not swallow,@thesweetwawa,29,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I also can't swallow pills but I'm fine with injections lol I'd rather receive injections than have to swallow pills,@GABRIELLAFISCALE3254,13,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"If this hasn't worked for you, I tried something before watching this video and it worked. I had a problem, my head wouldn't accept that something big would be swallowed by the water in my stomach, my brain thought it's not possible. So I tried something very good, I showed my brain how it's going to happen and told my brain it's possible, after showing my brain I tried again and I swear it worked. I was so happy. If anyone still has Stryggels with them, try this method and it will work inshallah😊.",@moonma0436,10,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I cant swallow HALF A TINY PILL!,@bronzefanpage8256,3,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"This is my tips as I previously cant swallow capsule: \nTake in the capsule, drink some water lean your forward (bow)  and the capsule will float at the top of the water. Next you swallor it. To avoid gag reflex, in your left hand, clinch fist with your thums under the other 4 fingers. \n\nNOTE: This is only for CAPSULE",@schnappi6866,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"I also had a fear of swallowing pills until i was 14 (im not sure) the very reason of being afraid to swallow pills was it's taste and hardness which won't let you swallow it and makes you puke. so start with a capsule or something like medicol since it's soft and almost taste nothing , after putting it into your mouth, drink water and swallow it immediately. drink ur water until u completely swallow it. if u get used to it, try the tablet and do the same thing but don't let it stay in your mouth for a bit long if u don't want to taste it's terrible taste or else. ur throat will refuse to swallow it.",@joemar7121,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Same I am also 19years old,@ahmednaveed744,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"I’m 42 and struggle. My 13 yr old has a great time picking on me about it all. He has no problems & even goes so far as swallowing pills with no liquid hahah It’s all in good fun though cause our relationship is great and healthy. My parents were the exact opposite and shamed me for not being able to learn, making it nearly impossible for me. \nWhat I hear you doing is comparing yourself to others. Try to stop this habit early in life. So what if your brother can swallow pills? Be excited and happy for him. That’s one of his strong points, while being one of your weaknesses. Now name several things you do better or more efficiently than your brother. Recognize that, be proud, then practice not shaming him for his shortcomings. Everyone has diff strengths and weaknesses. \n\nI taught myself by using mini M&M’s, then regular M&Ms, then skittles, then Mike & Ikes on and on. This is exactly how I taught my son. We started this and DID NOT RUSH IT. It literally took him a year and a half to swallow a mini M&M. I smiled and laughed along with him rather than shame him or cause anxiety. The first time he swallowed a mini M&M it was like magic. His self confidence hit new highs and he was swallowing Mike & Ikes within the week. \n\nYou can do this. Be patient, forgiving of your temporary failures, and don’t compare yourself to others even if your family/friends have taught you to think that way 😁 Good Luck! Sry I turned this into an essay hahah\n\nPs: Try taking pills with soda! The carbonation helped confuse my brain enough to calm down my body’s response “smooth water, giant lump to swallow” 😆",@butwhytho4858,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Tf this is the same problem of mine omg what should i do i can't 😭,@samiakhatoon8849,6,Tips for Swallowing Pills
+YouTube,or it’s gonna go down the wrong hole😭,@iihxney_rosesiiyt6264,6,Tips for Swallowing Pills
+YouTube,I’m literally traumatized because something got stuck in my throat and I started to choked now it’s really hard for me to even try to take a pill,@nataliediazt1538,6,Tips for Swallowing Pills
+YouTube,"Relatable in 14 and have to swallow medium sized pill , it’s the ones that have the liquid inside them so I can’t crush it in half or anything 😭 I rarely take pills and whenever I do I make them smoll but now I can’t-",@pm.yesixx,4,Tips for Swallowing Pills
+YouTube, @pm.yesixx  what did you end up doing??,@ariel2_234,0,Tips for Swallowing Pills
+YouTube,my brain wants me to chew the pill so it can recognize it as something i should swallow,@linkshu1798,4,Tips for Swallowing Pills
+YouTube,@Zharia Simmons ik that  i just ask what as like why u saying it,@ReTalked,3,Tips for Swallowing Pills
+YouTube,Ikr,@abieeel,3,Tips for Swallowing Pills
+YouTube,Yeah because once it got stuck in my throat and now I am too scared to swallow one,@belle369,3,Tips for Swallowing Pills
+YouTube,Idk why whenever I put it in my mouth and try to take water I just fkin spit it 🤮😰it’s scary,@harsh.visuals1067,3,Tips for Swallowing Pills
+YouTube,Fr💔,@ysabellebali,2,Tips for Swallowing Pills
+YouTube,Don't💀,@OmerMD,7,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,😭🖐️-,@obeseseal123,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,me neither,@pouriadkh3545,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,"This will for sure help, Cut the pill up and then put all the stuff inside of it that kinda looks like salt in water. then drink the water",@TacticalIdiotChronicles,1,Tips for Swallowing Pills
+YouTube,they take my phone away,@yarlinthais,1,Tips for Swallowing Pills
+YouTube,literally me,@madileigh7397,0,Tips for Swallowing Pills
+YouTube,Same I can't swallow the tablet,@irenecosvlog8982,0,Tips for Swallowing Pills
+YouTube,same 😭,@kr1shna.07,0,Tips for Swallowing Pills
+YouTube,They don't understand it is not natural to swallow a solid object without chewing first,@lemonhead2205,0,Tips for Swallowing Pills
+YouTube,My doctor literally told me you’re thirteen you need to know how to take pills ✋🏽☠️,@1iopenwhenimsleeping986,5,Tips for Swallowing Pills
+YouTube,Same 😭😭😭,@lilfoxie2516,0,Tips for Swallowing Pills
+YouTube,im 9 and this is the same problem i have,@YourFriendlyBirb,2,Tips for Swallowing Pills
+YouTube,They are designed so they can’t get stuck but if they did just get some more water and have a lot,@kokoflash0719,2,Tips for Swallowing Pills
+YouTube,You are NOT Alone here. There are lots of kids and adults still think that LOL,@nul1f13d8,2,Tips for Swallowing Pills
+YouTube,Frrrr,@itsaxil7577,1,Tips for Swallowing Pills
+YouTube,I can't do it and I'm 11!!!!,@hwlik_arik,1,Tips for Swallowing Pills
+YouTube, @hwlik_arik  same😭,@khalenchloe5611,0,Tips for Swallowing Pills
+YouTube,Omg same I am so scared,@madisonrivera7027,1,Tips for Swallowing Pills
+YouTube,I always gag it out and it hurts everytime ;-;,@exceptionallyriso,1,Tips for Swallowing Pills
+YouTube,You definitely ain't alone at all. Lol 😂,@AST-m4y,1,Tips for Swallowing Pills
+YouTube,"Bro same, I thought it would choke me to death, I still do",@khalenchloe5611,1,Tips for Swallowing Pills
+YouTube,Yeah I feel like I’m gonna choke,@pinexpple-roadto3050,1,Tips for Swallowing Pills
+YouTube,Bro I use to take take them by disolving them in water it was much hell,@huklo6331,0,Tips for Swallowing Pills
+YouTube,@MAMATHI JAYA SRI SIVARAJ I thought same,@huklo6331,0,Tips for Swallowing Pills
+YouTube,@MAMATHI JAYA SRI SIVARAJ  it's worst drink ever I drink,@huklo6331,0,Tips for Swallowing Pills
+YouTube,@MAMATHI JAYA SRI SIVARAJ I had one it's ded so I deleted but I talk in other server,@huklo6331,0,Tips for Swallowing Pills
+YouTube,Here link,@huklo6331,0,Tips for Swallowing Pills
+YouTube,your awesome!,@zeperad,1,Tips for Swallowing Pills
+YouTube,Bro I just swallowed a Phill and I know it’s not stuck in my throat but I don’t know why it felt like it was stuck for a second,@Ramansinghsikh,0,Tips for Swallowing Pills
+YouTube,Yo why Benadryl gotta be so dam big tho???,@libs1843,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @libs1843  you mean the pink pill? That’s small compared to most pills like Tylenol,@jazminyz,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,I stg I wanna cry. I been dealing with an illness for 2 years and the meds that are supposed to help I gotta take 2 months and you can chew or crush 😭,@angelcormier7028,2,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube, @angelcormier7028  oh no,@libs1843,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Can’t. And I still can’t get it down after trying all this,@angelcormier7028,0,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,😭same funny how things work,@raisinrai,1,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+YouTube,Same I’m just scared to swallow it,@princessjewelsmckenzie333,8,Tips for Swallowing Pills
+YouTube, @princessjewelsmckenzie333  same,@ihatepeacocks3503,3,Tips for Swallowing Pills
+YouTube,Same,@ilovemoney22,4,Tips for Swallowing Pills
+YouTube,try juice instead of water idk that helped me try sitting down/standing and figure out which one works better,@pearlslast,3,Tips for Swallowing Pills
+YouTube," @pearlslast  just be careful! Idk about all medicines, but the antihistamine I take for my allergies CAN’T be taken with juice; it reduces its effectiveness",@YukikosArt,0,Tips for Swallowing Pills
+YouTube,I still use the crushing tactic,@Skollyboy,2,Tips for Swallowing Pills
+YouTube,Be careful as not all pills are designed to be crushed.,@mo2live,2,Tips for Swallowing Pills
+YouTube, @mo2live  Yes!! Timed release medications should NEVER be crushed or cut.  Very dangerous!,@Justme77400,0,Tips for Swallowing Pills
+YouTube,OMG that’s the problem am an 15 and I am severely anemic I understand what you mean the iron pills dissolves and taste like metal smells like it as well also blood I can’t swallow it and I have to return to the doctor next month if I have not improved the doctor threatened he will send me to a specialist I am now I am dissolving it in my yogurt that taste sweet to mask the horrible taste I hope it works I don’t wanna go to the specialist since I have a fear of doctors badly,@jadewu111,3,Tips for Swallowing Pills
+YouTube, @jadewu111  the dissolving in yogurt sounds good,@zeperad,0,Tips for Swallowing Pills
+YouTube,I just got iron pills and my African mom was yelling at me for not swallowing it,@allofbl3ss,1,Tips for Swallowing Pills
+YouTube,i have same problem :// i have confirmed anemia for several months and I haven't swallowed a pill 🤨,@aisxhite7592,0,Tips for Swallowing Pills
+YouTube,"im not sure if this is an option for you but you can try to ask your doctor if there are other forms of the medicine that you can take, mine sometimes lets me choose between capsules and liquids,powders, etc",@danabbanana,0,Tips for Swallowing Pills
+YouTube,^ its such a weird sensation but holy cow this had been bugging me for nearly a week,@nickdeandaguitar,45,Pill Swallowing Difficulty: Cause and Treatments (Pill Dysphagia)
+TikTok,I’ve problem in swallowing please someone help me,foodattack_,1,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,I do this lol,allio099,0,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,Honestly!! Tired milk. Tried different bottles. I cannot for the life of me sort this. Thanks for advice! ❤️,user7776324449698,0,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,"thank you for sharing this, been having difficulty with capsules, needed to try 3 times, too much water sometimes, it breaks open",user5005679932248,1,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,😁,seipati.mohoje,0,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,"She you tilt your head back, you close off your esophagus. Impoosible to tilt your head back and swallow. Best actually to hold your head straight forward to swallow. Head to check closing the trachea and it’s why people say to swallow this way and it works. But I can’t swallow with chin to chest very well. Hold head straight is best. I’m an RN and taught many young ppl to swallow pills",teresaann1971,0,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,"I have EOE & jackhammer esophagus, this advice is helpful. Thank you.",pickles007,0,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,"The worst medicine I have ever had is Utrogestan, they are round balls (not big), always get stuck, however I do it 😠 I don't have problems with other pills",nice_but_knotty,0,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,what about living on your own and choking. please. thank you,simonking576,0,https://www.tiktok.com/@doctorsooj/video/7506575323450871073
+TikTok,"I can swallow large bites of food , but pills always get stuck!",laketowngirl5,41,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,i gag no matter what i always try to take medicine in liquid form,karenm7917,21,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,"I learned when I was 24, I thought I was ok until recently. I’m 29 and now I’m struggling to swallow pills again, it’s so frustrating 😭",izzisla,4,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,i’ve told people to look down to swallow instead of looking up,joanwalldan60,1,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,Omg Im 45 years old and I just did this with my neck down and it worked!,lilatiktoks,0,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,Great tip I will try 🤩,dianeknauss,1,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,i can't stand the taste they leave on my tounge 😅,bdizzle171,0,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,meanwhile me just taking my meds without water first cuz I have fear of em going back into my water bottle,delivas_santoro,5,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,♥️♥️♥️,tbro1124,0,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,Dr house taught me how to take pills at a young abe,josh_el_tigre,1,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,Hey! Thanks!!!!!! What a relief!!!!,laketowngirl5,0,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,"We speech paths call this swallow a modified valsalva maneuver. Remember pills sink, capsules float. Don’t tuck with capsules😉",knitfingers,3,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,😎,dailynouri,1,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,"this ❤️until you try metformin,soma,clindamycin,potassium cl",jenn__dgaf,0,https://www.tiktok.com/@philsmypharmacist/video/7495528352330042670
+TikTok,Anyone else put water in first and then the pill? 😂,kanebutler11,769,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Still didn’t help me. Nothing helps 😭 Think I’m too scared of choking,familycomesfirst44,273,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"This works with capsules, not pills",railroadwifey513,472,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Nope because my body will find a way to get it stuck every time lol,miinionx,210,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"capsules float so head down, pills sink so head back.",jtwinkles_26,180,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I am so glad I came to the comment section to find out that I’m not the only adult that cannot swallow pills.,spielbaby,70,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I feel like everytime I swallow a pill my throat closes. I can't swallow anything bigger than an ibuprofen and even that gets stuck sometimes,taylmarieee94,60,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I swallow two of those at a time 😭 are ppl just afraid of choking?? I genuinely don't understand the fear,orchidpearl4,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Yet no matter what I still feel them going down and start choking 😂,plxnetpov,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,does it work if you have a fear of swallowing pills 😳,dana_maude,8,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I’ve always done this with capsules I assumed it was common sense lol,tyeatesxox,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Only works with capsules. Pills gotta put your head back lol,binzer8854,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Water, pill and then head down to swallow",kimmeding1,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,if you tilt your head back it works the same way,amarillo.1984,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This is a hack? This is how I've always done it 😅,hmc19281657,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Yeah, I figured that out few weeks ago. I wasn't able to swallow a big pill, this trick helps",melissaenmiley,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Yeah no. Capsules float briefly so yes this method will work. If it is a pill or tablet look up because they sink,killiana31,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Not always the safest way.....,klparrinello,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,What happens if we gag as soon as we feel any pill in our mouth?,mynamehere1980,4,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,that's what I do,danielletermine4,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It didn’t work for my son AT ALL! He’s 11 and we’ve been trying to swallow Ticktacs for over a week now.,4_deep_2019,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It worked lol Ty,stanleylol,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Always drink some water 1st, so the pill rests in the water & not on stomach lining. Save your stomach!!! 🥰",celleden18,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,just take a sip tilt ur head back and drop the pill in and then swollow...thats the ONLY way I can take them. I've never understood why ppl put a dry pillow their tongue then take a sip...,goodmotherwit,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This only works with capsules for me,juliedembowski,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"It only works if it is a capsule. if it's a tablet, put it to the back and swallow",nancy.guay07,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"This only works for capsules, not tablets ✌️",sionainn87,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,only works for capsules as they float to the back,renatarichards473,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,just puting it in my mouth scares me allready,qkill57,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Nah I just toss a big handful back and hope for the best,heatcoffeeaz,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,“Member I js told you!!😒” 😭😭,tharealjaydeemo,607,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,That damn walk off got me crying 🤣🤣😭😭,_igobygrove,307,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,The walk off 💀💀😭😭😭,gingerlocssss,306,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,She not wrong 😭,trayceeteaa,182,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,chitown_89_,119,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I’m 30 & still can’t swallow pills 😭,sharine__b,27,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Thought i was the only one,nattinascat,38,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,U ain’t the only one bro 🤣🤣🤣🤣,saquanbanks,93,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,nachomechanic,11,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I can’t do it I still struggle on it,rodstaytrue,39,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Your last name Herron gang?,rahherron_,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣🤣 Aye I can’t either bro 🤣🤣🤣🤣,therealrudeboybigfoe,7,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,drickaaspineli,7,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,My childhood I’m 31 and just got comfortable,kg504tv,50,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,_blaximus_,9,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,macksetemup08,54,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,joevillegas31,9,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,BEST VIDEO EVER!! 😂😂😂❤️,scmimi64,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,shawnghee90,4,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Me w my man 🤣🤣🤣,therealtay.p,2,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,im wit you gang you not alone,sosa.hellboy,4,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Bruh this happened to me months ago,turbxt,3,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Chill fam I feel targeted 😒😂,solocashh8100,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Come on Gang she got a point 😂,michaelayoade,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,me to gang 😂,mr_lifestyle28,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,yolo2timez62,2,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Literally the conversation yesterday 🙄,kaygotti3,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I can’t do it neither 😂,matthew20022020,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Me neither and I’m 39 😭😭😭😭😭,simplelife1.11.11,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Dawg I’m sick I feel attacked 😂😂.. I just learned how to take one at a time a few years ago,mchx3l,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,She right 😭😭😭,imoniiknight,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,My old coworker 😭😭,keaunamcclinton1,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭😭😭Still struggling,tycageofficial,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I can’t either at 30 😂😂😂😂,beautiful_miisha,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,"😆 for me is liquids, I can't",mss_soulsnatcher,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I'm too comfortable here 😅,ninelives193,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂 i just learned brother don’t worry,jamontstuckey,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I’m 18 and I can’t swallow pills,l0wkeyriverrr,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,maxcal4418,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,sadieslove03,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂,fabiantucker1,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😹😹😹😹,blamgod2,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂,920nardo,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣,rarivari,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤭😂😂😂😂,katkombac,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭😭😭😭😭😭😭,longlivetheking_4thelove,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,user1559435861481,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🎁🎁🎁,user1559435861481,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂,thisnewjernee,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣,na3scupwraps,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣💀,midwest_global,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,"that's true for capsules, not tablets",momma_jazz72,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,this works I do this all the time...I can now do 4 pills at once,jankell26,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Yes, otherwise it sticks with tongue",paarmix,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Me literally taking my pills without water 🤣,danaoreo1234,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I use applesauce to help swallowing pills,alisonburress,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,most pills don't float,lewthrasher79,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Not for me! I can’t swallow anything even the smallest tablet. I’ll die if I ever need life saving tablets!,mrobertson27,24,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,IF the pill floats...,teachmesomething789,8,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,does not work for me unfortenatly. 😪,ing.van.der.harst,21,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"I always take a drink, hold it in my mouth, chuck the tablets in, take another drink and swallow works every time",mandyblue53,22,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Not all pills float! Be careful guys!!!,juliagulia889,7,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I've been doing it wrong for so long. I put my head back.,kikibonz,43,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,it doens't work for my i puke it out,staysafe098,2,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I can't grasp people that put the pill in first 😕,missltj4,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Doesn't work for me at all 😏,shelleyshelley1313,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I tried it like 50 times and it didn't work but when I do my head back it works,summer_abrielle13,2,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,only works with capsules,shazy.53111,2,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"It’s a capsule, not a pill",capjioni,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"Works only with capsules, not for example paracetamol.",user890834568,5,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Capsules not pill capsules will float to the back of your throat pills will drop to the front of your teeth,montecollins6,5,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"if i do not have food at the same time, they stick in my neck until they dissolve... horror",antraxxslingshots,2,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Duh!!! But most pulls are heavy like Tylenol,rose.smith6855,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Maybe just for the capsules but the non capsules sink so it doesn’t work for all of them.,n8ive12u,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,nope a gulp of a fizzy drink will do it,breed996,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Depends on the pill,walkthewalkwithdogs,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Didn’t work for me 😳,jackie_2507,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,For capsules,allimcd,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"Not all, just capsules",thebooktowers,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I’m choking just thinking about that,kendallst19,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,only works with capsules,melissa730720,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"I throw all the pills in my mouth, drink water, gag, and then swallow during the gag stage 🤣",pawsandplace,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I get so scared 😭😭😭,genisyspollypocke,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Works for me,ciaranolan32,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Amazing!!! Thank you so much 👏 I can’t believe I need to get 40 years first until knowing about that 😂😂😂,bodybliss_by_nadine,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"i’m gonna try this, if it doesn’t work. i’m suing you guys 😭",lisa.dayss,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,no no no,rooholmi86,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I've been doing this already,nikkole5390,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I’m terrible at taking tablets 😂,paula20221984,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Doesn’t work for me,alicemai28,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Smoothies also work great!,lrh2996,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Done it like this forever lol,bieeivv,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,nope not for me,one_odd_parrot,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"Doing this for years, It's called LOGIC",mandyroelvink,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I still crush mine!,thisgirlsadventures,17,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,my friends does this but takes the gulp of water first as they hate the taste of pills,yaz36578,10,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I have to have them back of my mouth and chug water the hard method,sage.marie.calloway,9,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,only works with capsules. any solid pill put head back. at least works this way for me,ramsfour,9,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,only if it's a capsule,musicalmedicinex,9,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,No thank you. Tried it and almost died!!,sarabenavidez1975,7,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"it didn't work for me, I tried it, I have to put my head back to swallow a pill",notyour_average_karen,7,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,am I the only one who can do it without water,fyplink,4,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Nope blijft op mijn tong plakken,rayray3421,4,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Some pills are sinkers and some are floaters though. You need to know if you should tilt you head down or up.,1985jem,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,CAPSULES ONLY! 🤦‍♀️🤦‍♀️🤦‍♀️🤦‍♀️,everooroo,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I have to trick my brain by chewing food first then throwing the pill in right before I swallow,tiffany_maestas,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,That’s only with capsules,adapt_overcome_always,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It works to a point. I sometimes feel the capsules actually get stuck in my throat.,jbug9099,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Sip of water, pill, drink of water",regina.phalange94,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,yes it's called the chin tuck technique. it prevents it from being aspirated,itsjustkristen,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"capsules float, head forward. pills sink, head back. I take 8 meds a day. works every time.",cherryblossomskz,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"This is for those light weight gel type pills, yes?",stacey.l.pagan,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This only works with capsules.,jamied327,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"I get a mouth full of water, shove the pill in and gulp it down",kristenlashbrook,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I put my head back for pills and my head forward for capsules.,eldeerose97,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Me!,omshanti4u,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"Bruh, the casual walk off😂😂😂",tateblackdiamond,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,"Me , I can’t do it 😂😂",casper_cash__,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Same!! I’m 44 and it’s the worst! 🤣🤣🤣,juscallme_chevelle,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Need my water and a snack,ccurlyrraj,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,The walk off 😂😂😂,loveskbr,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,"Listen, hear us out 😅🤣😂",shayjohnson937,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I'm 54 and can't let a eye drop hit my open eyes,michael.knight104,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Lmao love her already! 😂😂🤣,jazzie562,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Aye bra don’t judge me 😂,someshitiuse_,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,i love her😂,maarrieebeezzyyy,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,[Sticker] ,heyjoey96,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,chriscrackndc,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Then there’s mine swallowing without water 😳,thatgirlshariahh,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Not to much on me 😩,_biggbawdykeyys,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Why she walk off like dat😭😭😭,jahlilh6,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Real love,thereal444_,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Man chill on my relative 😂😂😂,teardaclubuptommy,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,,odessaeris16,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Yooo😩,meektheoneofone,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I’m 25 and still struggle with it,jaytisdale707,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,You ain’t the only one bro,joaquin.bialkowski,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I take this personal,feeling_spacey26,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,nope not me. I gotta take a little bit of food with it.,jpb1265,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,also closes your airway.,art_by_antonia,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I learned with mini m&ms to get comfortable with the idea. Can do multiple at a time now,bluevolley6,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Can’t swallow no matter what I try! Soon as pill goes in my mouth I’m gagging 😳 gagged watching this 😂,emma000099988877,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I take a gulp of water then toss a small handful in and swallow. 😂😂,rubysparklelips,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Depends on the pill…cause mine don’t float 😬,beccalynn0124,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Take a drink first lean your head back and put all tablets in then swallow! Works every time,thomasmdonald1,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I don't understand people having trouble swallowing pills.,panamom69,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I do this every night but still have to take 1 pill at a time sometimes they still get stuck,rondaweishuhn,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Only capsules will float. It does work.,tj.bou14,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"That only works with capsules not normal tablets, I always get capsules for this reason",lisajanedimambro,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I hate swallowing pills,stephanielc89,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I fear it would come out my nose,hauntedvinyls,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This works really great 👍,saralouise53,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I’m 38 and still struggle to take a pill 🤗,samsmith0303,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It took me till 18,king__marrr,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,"That’s the only way I can take pills, if I have to. I’ve resorted to gummy vitamins and supplements.",maryrosekaup,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Yes! I saw this method a few months ago and have been doing it this way ever since. Sooo much easier!,jam7470,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Cecilie Schwartz28 🥰,schwartzjeannie,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Jade Cracknell,sarahmckay246,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Dan,wendywoo717,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Pete Jones,kaci8487,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Kate Cairns,weekmg,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@AxelPaxel🔥🔥🔥 Det får du testa!,andy_king_75,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Cole @Lia🍃 @Emz,yvonnecook91,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Michela Teunissen iets voor jou om te proberen,anna_de_liefste,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@sascha.1997,mariskaaaaakuss,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Femke,hannavannimwegen,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@🏳️‍🌈 Tiffany 🏳️‍🌈,chantal.1996,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Stanley | סטנלי,jenmcl79,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Dr.Nobody,ju5tsam,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Amy💋,lynz60,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Marissa Van Pluuren @RNA-NUTRITION @Miranda Scholten @jannieverhoef,user9553171549104,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@jolly,lindseybellmiller,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@💗💗,charlenuz,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Sheryl-Louise 🤍,leannecusack7,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@lottie.15x,ashleb87,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@mandy,xo.saz.ox,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,😳😳😳,jeaniecurrie,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@WOOSUNG,raetgw,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,It works every time 👍🏻,wandalou1,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I have been taking so many meds since childhood. I take all of them at once. Ain’t nobody got time to take one pill at a time.,hawkeyphan,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,then there's me who can take 10 at once,glendagayle,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"only if its a capsule, not a pill 👍",kaysterbomber,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Before I did a parasite cleanse I couldn't swallow pills. Now no problem and that fact just freaks me out!,iskwewkapimotihtpisimohk,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Seriously this is well known,pondmills,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Actually the chin tuck helps open the throat, tilting your head back closes it. This is the technique used in people with dysphasia",nursemoe1982,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This is for capsules. Non capsule pills don’t float so you lean your head back in stead,megan_kristinaa,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I normally tilt my head back,aj032009,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It works !!!,cyberaquarius,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It still doesn't work for me 🥴,michellymfurtado,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I needed this way back when….All the fights I had with my mother because I couldn’t take a pill,kar_injk,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I drink something carbonated. The bubbles help.,bbmom566,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,head back for tablets. head forward for capsules,cdog3030,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I bite the pillow and then drink the water and ill swallow it,addii04_,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,i have problem to swallow food..,joppenpuhh83,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I just chop mine up dissolve in water stir and drink lmao,jdemonz,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Depends if it’s a cap or tablet.,jayhiggins09,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"my granparents did this,in the 80s this is nothing new.",cleverx2023,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,it inly works with capsules as there light but it does work 😏,flashstewart,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Am I the only one that can't swallow if my head is down like that?,pantherstormrexxar,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Einfach nicht aus dem Strohhalm trinken, sondern einen ordentlichen Schluck",haekeluschi,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,it doesn't work on all pills. my stomach protector pills seem to float and then go a bit up the nasal passage and then get stuck making me gag and almost blackout. switched to a different type of pill,archerysleuth,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I take that gulp of water and then add pill and then more and more water,treasuresbytif,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"thanks, I have chocked several times and been assisted due to that. Is there a specific cause or is it individual?",brad03.03,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Natalie Drumgoon 😂,josiee1992,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@miamccourt🍒,michellemc.86,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Kerri,suziesewell,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Jemma Wills,keenie71,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,🤣🤣🤣🤣🤣🤣,_bignayy101,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,@Akhira 👀🤣,_bigdrako_,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,sincerely_kenya,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,the.grizz0,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂,miikoloco444,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣🤣,diagiopotter,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂,dtnozz,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,336tonyhaggins,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,@Sky Baby,devdev.88,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,katricenicolee,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣,golden_child_sb,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣,justbigrealty,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣,cuddyconvos,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,kingjay74gdn6,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂,marques5280,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭😭😭,jason1984731,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,didn't work with mine,eileen.hodson,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I’ve always done this!,yellowshrew,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"I fill my mouth with water , put the pill in then have a big drink to force it down",mrsminteh,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Tried it and worked for the most part but still had issues. Give me liquids! 😂,monrob24,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I take about 12 together I don’t know what the issue is 🤷🏻‍♀️,christinecoulson4,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Is there people that struggle swallowing pills? 🥺 I thought it was just me 😭😩😅,arelyyy.a32,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I always told my elderly clients to do it that way.,jacqui_204,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,yeah...I just put mine in applesauce.,allyb86,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I cant even swallow just water that way😅,jadeloohuislol,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,yup I have done it. it works,luna_bi83,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Take a sip of water, drop the pill in and swallow.",deava_,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Put it in your mouth, take a big gulp of water and toss your head backwards while swallowing hard. 👍",kokana2424,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,✨sparkling water ✨ dors wonders🥰,mlle.charp,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Good idea but not all pills float.,ladyjane2722,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,my mom would take pills with applesauce,sarafina228,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"This has been life changing for me. Until I tried this, I could not swallow big pills especially. It works",thatgirlkjr,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,😂😂😂😂😂😂😂😂,tnbrewandfoodguy,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂,yvanamonet,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂,ricanlexx_,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭😭,mrs.smiith2019,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭😭,tiktokniquee15,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,kimpdabest,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂,sdott081,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,lyrikdadon,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,tydolla1984,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂,kingheflo,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,gadget215,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🔥🔥🔥,agsoslimey,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭,markdj2001,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,thurm726,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,kmdearing,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂,vinn2245,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,hb3wavy,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣,t_rob_officialpage,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,jmoney8951,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Like this comment before it goes viral,jommelnotjamal2.0,2,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,@phoebs:) we don’t relate but ts 😭😭,poohdini120,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Because I feel like I’m gone die if I take em 🤦🏼‍♂️🤷🏼‍♂️,guapchaser909,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,It’s okay I’m a girl and can’t swallow pills….im about to turn 20🙂,miraclelysimz,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,shhh I can’t swallow em either 🤣,binoliftsss,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,💊,the_don1_68,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,my throat won’t allow nothing solid to enter. i’m sorry,lml_will33,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,I like her 😂😂😂,big_jay1217,1,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Mane ts so funny😂😂😂,mac_rara,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,Dawg I just know she be on yo ass 😭😭,myke2211,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😳😳😳,rshaitre,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@wiktor,ellie_c59,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@maisiekirkham691,sophie.constable74,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Tess🌸🍄🤩🌷🫶🏻🐚,vickyhamers,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Sanne van Dam iets voor jouw,theovantiktok,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Kate,nicola_eyre,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Glennson1880,vanessakeee_1880,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@koda 🐻,aleeeeexh,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@itsluuk,summersun101010,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@GeoAviation2010,thelauradavis,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@N,sprankeltje81,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@xoxemxo,crazy_ness92,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@davidoshea1,tanyaoc83,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@kayleigheds,lucybellerby05,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Gracie haywood :)),clairelouisehaywood,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@bethhollxnd,lisa.johnson.xx,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Lauren Simpson,julieclark56,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@NicoleWorkman,bgwcll65,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@carley,rubiedaisy,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@harold @Harildd,crazypetmum46,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"If it’s a capsule, but any other one won’t",timmytime22356745,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I need to try this I cannot swallow pills,vane55a_82,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,yes this helps!!! confirmed,darthpops,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I found my people!! I thought I was the only one 😭😭😭,jupiter_rose7,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Capsule = down as it rises. Tablet = back as it sinks. Anything with a b (tablet) = back.,vaunemmah,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,As an RN I’ve worked with so many SLP’s who teach this,stowntorr,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,problem is if you have anxiety there is not way to do this.🥲,chikitapr28,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"i can’t swallo i feel im hoing chock , si i bite them😂",zorayadesigns,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,i do it without water,owen___leo__11,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I always take pills no water,patrickcharles831,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Head down for capsules (coz they float), head back for tablets (coz they sink)",socksoff0,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I'm 58 & still have to cut up really big antibiotics,sheilaquirkbrocco,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,for me i put my head up,popovic32,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,😂😂😂,ericaadkins3,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂,lovin_nette,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭😭🤣🤣🤣,maxx2524,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😹😹😹😹,prettygirlashay,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂,sinceremorton7,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣,runereacts,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂😂😂😂😂,moneymanpootie,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,shaunbab3,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂😂,snappleapple21,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣,dth3don6,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣,kayluv8,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,206_trace,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,baldheadtingz0,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🔥🔥🔥,king_savage_x,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂,dashawndennis8,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣,nubeeaiyoki_,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣,natejohnson292,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,ew_vegetables,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,kueen4448,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣🤣,thedude3320,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,tonewhite804,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,dthascorpio,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😭😭😭,ebsb319,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂😂,user081907660,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂😂😂,iam_a.million,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂,goethemessenger,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂😂,shoppingbagtayy,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,topshottazay98,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣,kingisacc,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,🤣🤣,504skiipp,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,😂😂😂,gocrazyque0,0,https://www.tiktok.com/@herrondon/video/7588429513747434765
+TikTok,@Carlysspam,hhgffzzlm12,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@suby,rwss2325,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,😳😳😳,catlady3826,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,😳😳😳,rachelkyrki,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Lindsay Marshall ヅ,misssmeggymoo.x,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,No thanks I'll carry on crushing mine,doctordaanish,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@𝐞𝐥ᡣ𐭩 ྀིྀ xx,cwaterton,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"head down for capsules (they float),\nhead back for solid pills (they sink)",just.call.me.little,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,not me gagging when it touches my tongue 😂 crushed pills forever it seems,catcatfatcat,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I start gagging the second the pill hits my tongue 🥺,magic_miles_with_orinda,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,i try that,ninaboyle816,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Why whenever i swallow a big pill like paink*llers (they are actually bigger than the ones i take for stomach acid) it feels like it's stuck in a throat?,baksuz130,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,It doesn’t work for me. I use soda instead,elliestoilkova,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I take 18 pills every morning. All at once and a zup of water.,rolar321,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Doesn’t for certain medications,usersarahstowe,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Iv always found if you drink something fizzy it really helps it go down,deb1073,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"I take a swig of water then put the pills in, I’ve been taking them for 17 years",hollatme91,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"don't work, I'll somehow still choke",hardcore_beauty,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I discovered this a while ago and it does work,bobbyperry3_16,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I swollow all mine at the some time (12)🫣,misslelle,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,xtc is the worst. after that nothing is difficult.,vhs.streetlife,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,only with the plastic capsules 👌,daniellen91x,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I have my trusty pill cutter works a charm,ruthkirk6,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Mileaha 💞 you may try thsi,rhonamccarton,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Hayley. 💗,www.tiktok.comteddy15,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@_Faiz1910_,s0phssssssss,1,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@margoo_momof4,dario_frankie,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Raise your hand up when about to swallow,dexter7277,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Does work. Done it this morning 👍🏻,julesfinlay,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"doesn't work for my daughter, she chucked up all over the kitchen 🤢",lees_2020,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,just put pil in your mouth enough water to make it swim and than swallow. works all the time.,marcusdantonius,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,In movies they always put head back and with no water haha,ninna.ba,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,It actually works I have always crushed tablets or ones that dissolve in water and I am 59 at last I can swallow them,lizmacmann,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"I take a sip of water, tilt my head up towards the ceiling and I drop the pills and they go right down my throat so I don’t feel them 😅😅",nikki44413,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@christianeddeborn,atf910428,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,This has totally changed my life with swallowing capsules. Doesn’t faze me at all now and swallow them easily now 😊,user149393138193,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@𝓚𝔂𝓵3,cherrycake43,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Apple juice..💯👌🏻,woutieklapkaboutie,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,You swallow bigger mouthfuls of food 😵,stevo69_69,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"I put water in my mouth, tilt my head back and drop the pill into the water and swallow, don't even feel multiple pills going down",teddygirl_2024,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"Ah, thank you for this hack! 💊",kath84eliz,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@bellagiggles18 @Airanna,shellywm8,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@🏀Max🏐✝️,hydejess,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Jess,sylviawolf13,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Foxy Roxy,houstontash1111,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,😂😂😂,sommar75,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,😳😳😳,susanallenjaring,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Cris Ann Soto,thehustlewithkeyva,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@ana…pac1,tim_coh,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,❤❤❤,toni17boyleheights,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@-⚽️YOLO⚽️-,username..8521,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Kayson🥱 @Bridget,suesim789,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Karolanne J’ai pensé à toi ahahahah 😅🙌🏻,isabellec1414,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Spencer Nolan,lynneakortzmansta,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Samantha !!!!!,brewster114,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@LBABY333,squeaktjcj1,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@James S A,sonia____85,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Craig,rchelmox,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@Stephanie Suzanne,ainsb1973,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@chloe,sophcoff,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Helped me,phoenix_fire_rose,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,How am I just learning this now 😳,sprvnnnn,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"I don’t swallow pills whole, I’ve gotta bite them as it’s easier",josh.stewart__,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Only with capsules,amanda_akcrochetgifts,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I can't even put a capsule in my mouth without gagging. so wouldn't get this far 😂,justanothereverydaymum,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I always do water first tried this way never went down,spidergirl1974,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I can swallow 10 off this things without a problem 😅😅😅😅,su291985,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I taught my grand daughters this,judystoddard572,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It does work,samt_202147,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,make it swim in the water and swallow. thats it,mrizzie64,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@KT86,tggreeves,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I’ve been wondering about this! Good info,cptjaci,52,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,Always look for a 3rd party tested I say on your supplements. You do not know what they put in these supplements. Scan your products before you buy. 👍,coraline.cora,22,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"if these gummies aren't going to make me forget for a few hours, I'm not interested",njhaz,11,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,I understand that putting questions in video descriptions improves engagement but I would appreciate if PBS put the conclusions in the video descriptions as well.,ianlefcourte,6,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,i love her! great content,offfglide,3,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,The FDA doesn’t check any vitamin which is wild,lunatized,2,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"I had noticed the uptick in gummies in supplements section, the storage was definitely something I hadn’t considered before.",dxanato,1,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,easier on the stomach,user2216094427825,4,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,i despise gummies. cannot handle the texture and flavors are yuck for me. the fact that adult vitamins are almost always gumny or horse pills is enraging to me,thexploress,4,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"no surprise seeing @Shyla, RD, LDN provide clear and exceptional health education",literallyjustcorn,14,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"@Shyla, RD, LDN🥰🥰🥰",themsnation,7,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"@Shyla, RD, LDN omg I saw your repost and wasn’t expecting you to be the interviewee!!! I love your page.",sommerletterco,1,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,💯💯💯,tvoss07,1,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"Thanks for making me live up to My standard life and I was able to clear outstanding debts. Your good work as made you popular and everyone is talking about you. Honestly, thank @Charles Wayluck",randy.harper75,1,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"It’s never too late to start making beneficial results. I’m so happy it turned out positively, I’m glad about my encounter with Mr @Charles Wayluck nobody has ever been this better than",randy.harper75,1,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,💜💜💜💜💜💜💜💜,uniqueposh7,1,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,🥰🥰🥰,adamleegaz,1,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,🙏🙏🙏,martinbefr,0,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,😳😳,bobby22711,0,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,🥰🥰🥰,lakita1987,0,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,😁😁😁,jessenial,0,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"thats why i only drink my vitamins, @vitaminwater",incoherentslob,2,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,Pill vitamins make me ill. I’ve been told it’s fillers they use for them. Never had a problem with gummies,kit_kat86945,6,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"I worked in this industry. you piss out a very high percentage of any vitamin taken in powder form(tablets/capsules). choose water based/soluble supplements. even if you get small quantities of a certain ingredient, at least you won't piss it all out.",isaisaucedo0,7,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"Your quality exceeded my expectations, and your attention was remarkable. Thank you for your dedication to delivering exceptional results and your ability to find innovative @Charles Wayluck",randy.harper75,0,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,"I want to express my deepest gratitude for making it unequivocally clear that anyone, regardless of their circumstances, can achieve greatness. Your words have been so profound. @Charles Wayluck",randy.harper75,0,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,yummy drugs,that_warthunderguytiktok,3,https://www.tiktok.com/@pbsnews/video/7490302463229332782
+TikTok,@Stacey Bruton,chloebowdich,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,"@seppgeurts123 , voor je paracetamol",maximusnld,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Has anyone tried this? 💖,chloeclarke616,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I'm so used to taking my medication now i can swallow 6 pills in one go lol.,lauraw1990,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Only works for capsules 💊 as they float.,katiepemberton5,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,ALWAYS use this method,didipeach21,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,How do these people manage food 🙄,julierogers691,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@AlanaRainey✌️,kellywelly1,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,Put in mouth hold left hand up in air take drink water swallow the arm opens up your oesophagus,peacenl0ve1,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I'm gonna have to try this next time I take some tablets because the amount of times i've choked is nuts,jay.91201,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@♡TILLY♡,clarabellsquirkyclaws,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,it does work,ans.polmans,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@Nashaya Nejdlek Jien🤣,galeanicole,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,@strawbeccy 🍓🧿🎵🎸,joannabanana234,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,one of my meds is powdery and starts to dissolve really quick if i dont get it down and has a nasty taste. so this doesnt work,lemonhazedank420,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,i cant put my head down 😳 fused neck😂,nanettekeepsherheadup,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,capsules float 💊 pills sink head back for pills head down for capsules,vinny_rules...8,0,https://www.tiktok.com/@doctorsood/video/7440102514306878762
+TikTok,I tell myself my food is bigger than a pill and never choked throw is back and drink water its over 😂,schwifty90,68,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,try cutting it in half that why I do if there too big 🥰,emma_cess,39,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Anxiety pill that causes more anxiety 😂,flamehaireddude,70,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"i always already put water in my mouth, then put the pill in carfully, then throw my head back fast en wait until i dont feel the pill -",kate_143_00,37,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,bro dont take pills for anxiety it will just make it worse when you quit with it.,barmudaboy,8,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"You can buy a pill splitter in the chemist. You might find it easier to take with a spoonful of yogurt, icecream or chocolate pudding",e.i.l.i.s..g,15,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,My anxiety around swallowing pills is more side effects related. For big pills I place it in my mouth and fill my mouth up with water and swallow fast,jenanderson921,13,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I’m the EXACT same way but with almost any sized pill!!!,peacewarrior4497,17,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Didn’t ever chew or break them in half! Check with pharmacy first bc come pills have a enteric coat that are ment for slow release 😁,chersweets,7,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,U can crush it up pour into a pop or water and take it like a liquid with water on the side ofc,nessa.dinardo,3,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I was told by a nurse to tilt my head forward to take pill not backwards it works for me 🤷‍♀️,hellbunny20,7,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,My mom can pop like 4 at once. I don't understand 😭,solarstarninja,3,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,i kinda stopped taking my meds bc of the anxiety of swallowing pills. i feel it in my throat and idk if i’m doing something wrong,itzlaaurr,4,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I swear you are my long lost brother…we have all the same issues. 🤦🏼‍♀️☺️,karidavis78,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I always buy chewing ones or if it’s possible in powder or liquid/oil form 😂,evie.fosher,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I used to be like that. Still am depending on the size. I always crushed it with 2 spoons and put the crumbs in my mouth and drank water,tessaisking,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I have the exact same size I normally cut it half then half again,kellyuk126,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,You’ll be ok 😂 Just use a lot of water.,charismas7,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,cover it in a bit of cheese or in a half cocktail sausage and swallow 🤣 food seems easier to swallow or have a yogurt with it,catnipdragon,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I chew mine,dukestar90,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I am the same! I got a pill scruncher and try to take it with a bite of food. 💊 😳,believeinmiraclesandlove,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Ask for liquor form,joinfinity6,3,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I get this with pills too,murraykayley90,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I had to take a potassium pill and they are that big too it was impossible and the nurse made me chew then I freaked out that it dissolved too quickly,sierraluv_,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I take a finger put way at the back of my throat quickly drink water so in one big drink it goes down I trouble taking tablets of any kind to,ttrouble_tongues,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I know its not the same but whenever I migraines I take childrens liquid ibuprofen and it works great. In some pharmacys they may have -,myinternetisbetter,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,See if you can crush it up in applesauce. May not taste the best but if you need to take it you need to take it.,itsjyrbme,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I got propranolol and their small they help my pounding heart I'm so glad their small ❤️,urbanbutterfly.xo,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,OMG YES 🥹 I literally told the dr no for that,officialangelelham,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,cut it in half one or to times,idamor2008,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Are those anxiety pills,ourdestinyfor,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Drink it with oj or a thinker drink like almond milk,joshcmartin,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I think i just found my soulmate,eleskyele,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"i have anxuety on my eberyday eating \( pills frim childhood""",le.li.le.li,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Omg I feel heard,thatsturkz,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,With smaller pills I put the pill on the back of my tounge and take a bite of a banana it’s slippery and helps sometimes,kyrah611,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,you swallow bits of food that are bigger because you aren't thinking about it. my chemo was 8 of those size at once.,lisarussell05,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,what's the best anti depressants for anxiety?,lilihoza,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,When I am sick I can never take pills I put it in my mouth but can’t swallow so I just don’t do it,park3r.3vans,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,when I first tried I was scared but when I kept doing it my anxiety gone away,tzg691,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I try splitting them in half, but I still worry that I might choke. However the allergy pills I take are less than half the size of those",arl0_ee,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I always always ask for a liquid version and get denied because “insurance wouldn’t approve” wtf! Why do I pay into it then?!,hiiiiiiiiii1111112345,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I'm a 29 year old and still struggling 😭😭,its_samer09,4308,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"48 here, i crush, chew or liquid.",busybusinessmom,1162,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,33 years old and still struggle every time. I’ve got a horrible gag reflex and my brain really struggles to let me swallow pills 😩,scattering_sunshine,402,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"SLP here. I start teaching with Nerds, then Tic Tacs, and then graduate to a Cheerio. I agree with teaching it in a stress free situation because otherwise the tongue works against them.",jennd875,388,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Not me at 35 yo needing to take my pills in applesauce to swallow them. 🤦🏼‍♀️,mrs_beckifer_rn,385,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"We did sprinkles, it worked great",jeffellis15,289,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,i’m a grown ahh man searching this up,.tonymac,25,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Im 32 and i still cant swallow a pill 😭😭,sellymoon29,28,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"lol 50 still dont , gagging if try everytime",rmpbklyn,47,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I loved to swallow little cubes of jello whole so my mom put the pill in a cube of jello and down the hatch! Lol,cakefight86,146,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,60..still can't,traciebean,50,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Am I the only one that doesn’t even need water to swallow a pill,slumped.off.tha.p3rc0c3t,24,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,The 3 gulps worked i have a bad headache and i needed an advil but i didn’t know how to take pills tysm😭,sabrinailoveyou_s.c,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My parents used jello, swallow the jello whole and then then add the pill to the jello and repeat",pickledrain13,81,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I’ve never been able to swallow a pill, older adult here",maranthas,47,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,it was not a fun activity. and it was definitely stressful. but he learned it. 😭,presyncope.princess,31,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"TIP: skittles and M&Ms make very tiny candies now that are the perfect pill size to practice with! With the M&Ms it’ll melt if anything happens. And they have fun, picking the color to try.",oldthalmoracct,154,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I wish companies would just make liquid versions of the meds. As an AuDHDer, swallowing pills are still difficult at 35. my kids can't swallow pills w/o vomiting/choking. we've tried every tip.",ahlome08,36,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I have been a peds nurse for 35 years. I never heard \Pill taking a ride down the waterslide\"" LOVE LOVE LOVE THIS! Such a great guided imagery support for kids. Thanks Doc!""",pedsrn68,114,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I still struggle with pills and I am mid 40's. Not swallowing will be the death of me. 😅😂,historynut1837,16,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught my son by putting it on a spoon of applesauce for a long time (he takes daily meds) and then eventually he could just do it without!,jacquelinepaigeeeee,13,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,“Sometimes it takes a little bit longer” [ blinks in 40-something] 🫣,fraumarienkafer,12,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I was a teenager before I learned. Lol. I remember the torture. 😂😂😂,hmurpschzl7,7,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I take 6 pills a day and still have to do it on muscle memory because if I think too much I gag 😂 get those habits in early!,ayy_its_me,6,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I didn’t learn until I was 50 and some are still too big 😂,luisadalo,5,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I need to learn this bc I have the worst time swallowing large pills. My parents didn’t do a great job helping with this,enfermerasana61,5,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I learned very young to swallow a pill because liquid meds made me puke. Now my son's a teen but I've heard that autistic kids can struggle with taking pills.,lasirena2255,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,The way I do it for me and I showed my son how to do it recently was we have water already in our mouth and then add the pill in and then swallow it that way our brains don't know that there's a pill,wiggajaz,4,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I saw a tip in a magazine to use a straw when drinking, I had the kids take 4 big gulps. the straw helps woosh that pill right down with no effort, doesn't get stuck! my kids have been taking pills",kouklana,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son is 13 & cannot swallow a pill at all.,cameronsmom11,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I drink some water then stick the pill in and tilt my head back so the pill is already at the back of my throat and I just pretend I'm taking a huge,amiejeauxbuc,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"BOBA STRAW!!!!!!! Thats how i taught my kids, pinch the straw about and inch down from the top.l, load the pill, when ur ready unpinch and just start",twonethree,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,if you put it in a ziploc bag and crush it up into a million tiny pieces you can put it in yogurt or ice cream or something,ashleyvennero,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,First of all it is wrong to chew it And only the pill with a line in the middle can you split it in half i was like you so Whatever the size of the-,lo.lo331,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,i can only do small pills. i took metroperol for my palpation’s and it was a small pill so it made it easier,nottabtab,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,There are some magnesium capsules that are much smaller.. u could try getting those...,elite_allure,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I have to use cottage cheese to take my pills 😅,bghost_abbotthannah,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I keep swallowing bc I know it’ll go down w the water and I have positive thoughts: “It’ll go down, just keep drinking. You won’t choke, just do it”",einavihs,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I do at least three big sips of just plain water then add the pill in the next big sip of water,briannamccall1,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I had this, but weirdly I take the opposite approach. I have to take 2 so I take them at the same time. One feels like an awkward size",hairibeast,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I’m with you, my kids make fun of me 😂",mrskrisses,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,A lot of times the anxiety of taking the pill comes from the dey touch of the pill on your tongue. Try a good amount of water then the pill,holli_bells,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I put water first, then pill, and try to think of it as food. I still struggle though. I take four pills a day!",edenantheia,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,yesss omg finally someone that relates to me! I hate cutting them because then the corner are sharp!!,izamar0521,2,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,ask if you can crush it in apple sauce or Something. they sometimes do that with kids ;),sarrahmusic,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,put it on paper and smash it. then put on your mouth. I'm exactly like that before,danealla_malik,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,have u tried crushing it up and putting it in apple sauce,urbanbutterfly.xo,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Same,cherylejames,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"My nan used to sell me to hide the pill in food & then simply chew it. Or you can crush the pill with a tablespoon to form a powder, then mix w/ water",_dont.care.lol_,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,put it in yogurt and it helps,alyssaruth91,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I chew it too 🥺 sometimes I find sparking water helps!,boludainuk,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I just couldn’t do it,nocontentmami,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Crush it with the back of a spoon and then put the powder in your mouth and take a big sip of water,naomibrindle,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Meeeee meeee So meeeee,diana_08094,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,What kind of magnesium is it? There are powder and gummy alternatives depending on the type of magnesium. I can help with this!,nerdqueen83,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Use milk it’s thicker so it helps it go down!,frostyalexx,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Yes this is me too I go through rage then start crying cause how am I supposed to get better without swallowing it,xylkiie,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I break it in half,angieblueeyes,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,swallow with fizzy drink,shingr1991,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,You could crush it up and put it in a drink. Sometimes the pills with the sugar coating are easier to swallow.,caramellattexxxx,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I have a mouth full of water then throw the pill in and immediately swallow,joshman15906,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,What kind of pills are they ? I got the same problem with my heartbeat and it’s so exhausting..,__chxvy,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Cut it in half,whitewolfbonnie_76,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,my mind needs cleansing,alyquinn6000,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,mine is small,cha123_51chantelle,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Am I the only one who can do it easily,tangerine18020,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,A little longer … I’m 23,estefcny,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"STOP SAYING TO MAKE IT FUN. THE PROBLEM ISN’T THAT ITS BORING, THE PROBLEM IS MY BODY PHYSICALLY SWALLOWS ANYTHING BUT THE PILL",greendoge69,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,i just can’t do it,itsskenzx,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I'm not a child anymore but thanks 🥲,laaaaauu15,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I would practice with tic tacs lol,1vickey.mouse,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My child did this before 2. Just put the pill back of tongue, then tell them to drink. He's now 6 and\nand can do it without drink 😅",tualovdahl,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,The child in question is me… (I’m 30 and can’t take pills),kayemcee77,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,thank you I needed this ! my mother taught by shoving them down my throat (lol 😅) so I struggle to this day and had no idea how to teach my kid until now,debutdowner,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m 16 and I still don’t,barrel_horse_bay_thebest,2,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Bro I just spawned in and I can like swollow like any pill,modyxxx100,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"The first time I ever tried to swallow a pill I was 6 years old and in the ER. I needed antibiotics, but they didn’t have them in the liquid. It was a nightmare.",emmymten,2,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I'm 40 and still need to drop it all the way to the back of my throat lol,rachoc21,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I literally just taught myself a 2 weeks ago… I’m 29 😂 I bought dissolvable Vitamin D pills to practice. I always had a fear they would get stuck. Swallow with water, before it dissolves 🤌🏼",lordtriggered,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Y'all my pills taste like hand sanitizer when my mom left I spit it out it taste so bad😭,ihopeitsnowsforever,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Bro I just spend all Night trying now I can do it,irvin6.7,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My kids HATED liquid medicine. At 2.5 I told them the \pill\"" wanted to go down the waterslide"," put it on their tongue towards the back but not too far. 3 tries and they had it.""",diggyandbunnybuns,4
+TikTok,I taught myself as a teen how to swallow pills using tic tacs. I’m 50 and still struggle w anything bigger than a tic tac 😂,bcmaguire,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My 13 year old son with arfid still can’t do it. He struggles so hard even though we are working on it.,ehicks3,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught my kids using a “ pill cup”. It had slots at the lip where you could place pills. Worked really well.,tonyatucciclark,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Have you tried the looking down method while swallowing the pill?,medina_gin,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,im 24 and i crush my pills and put them in a shake,modrnbsbll,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Great tips!!,jasonkleemd,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,i crush my pills and put them with ice cream bc i can’t swallow pills🤷‍♀️,ali.edits.ss,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,everyone here is talkingabout anxiety pills i cant take my Arvs one week now it chokea me before i even swallow then i spit it out 😭😭😭,aqwirenzo1,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I’m on 10 milligrams of anxiety meds makes so sleepy,horsebackrider35,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Spilt it in half or into smaller pieces,marleyraine_08,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Just a reminder to always check with your doctor before cutting/crushing any pills. There are certain pills that can only be taken whole due to-,holli_bells,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"tiktacs are great, and then Mike n ikes!",bannd4noreason,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My tip is if you don’t have to take it on an empty stomach, plan to take the pill just after a snack. I find my throat is more relaxed.",ziggetyzee,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Mine started with Tik taks haha.,bluedolphin8082,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Jesus loves youu veryyy muchhh and May God continue to bless youuu..!💕💕🫶🏾🫶🏾✝️✝️❤️❤️🫀🫀🙏🏾🙏🏾🤲🏾🤲🏾,heartzzfor_morgannn,4,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I find it easier to already have a small sip of liquid in my mouth before adding in the pills.,karathebooknerd,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son was 9 when he started swallowing pills. He never wanted to taste liquid antibiotics ever again lol,sandradee1042,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I couldn’t do it until I was like 15😅 mainly because I was just scared to, idk why lol",anxioussoprano,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I think you should definitely ask your doctor - some pills can be disolved or broken down without ruining its effect and some others can’t!,broo0o,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Break it into like six pieces and take those one by one. Use a flavored or carbonated drink,nessa.dinardo,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I have a pill crusher I bought at the chemist 😳,wishwinkle,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,drink juice first and whilst the flavour is there take the pill and swallow it as quickly as you can,tallulahalice_,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"If it’s not extended release, you could crush it in a bad with the back of a spoon and take it with pudding",nurseredbeard,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,yes i have to chew everything!! my family cringes. The pills taste bad but hey lol😅😅😂,janizzle_94,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,definitely a pill splitter and if it was me my anxiety would be then worrying about having side effects,justmejenn45,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,it took me 30 years 🥰😁,maritamariana8,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I sometimes swallow pills without water lol,oliver87756,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I get everything in child form. They can liquify it for you😂 with flavors,_cryingintheclubb,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,My husband is the same way. I used to think he’s silly but it’s not. He chew most pills. Absolutely no gel capsules.,stephanieblake97,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I can never swallow pills or tablets and that’s is hugeee 😳😳,belginyildirim3,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I put mine inside fruit like a grape or strawberry, wait for it dissolve a little bit and then either chew or swallow that :)",meandpatch_,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Ever since I was younger, I always put water in my mouth first then threw the pill in and swallowed really quick lmao",ren.exe1,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,DO NOT chew or break pills if it states not to. It can be dangerous.,beachlvr__,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"The only way I can swallow pills is get a mouthful of food, chew it up completely, shove the pill in the middle of it and swallow!",kimberleybornschein,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Mine isn’t swallowing pills, it’s a fear of side affects so I refuse to take pills bc of it … it’s a serious issue in my life that I can’t get over",sunnshinebabie,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I just cut into 4ths or just chop it up good and put it into like PB, ice cream or applesauce. Pills need to be chased or eaten with sweet to counter.",solarstarninja,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,This is me with my vitamins! I never take them because of this.,sweet_thannng,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,same 🥲🥲,efi.gillz,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I have a fear of taking just my anxiety meds. I stare at them everyday knowing I need to take them but I just can't.,ashleymm38,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I have the same problem,mrcatusjack11,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Or I crush it in a cup and add bit of water and drink it,dukestar90,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I accidentally learned how to take a pill as a child by myself - I started swallowing the seed part of a cooked green bean whole and it eventually came in handy. I was too curious as a kid 😅,merelywords,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I used candy eyeball sprinkles. My son thought it was soooo funny and learned in days!,alilovesturtles,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m 16 and still can’t..,calvin99166,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m 37 and I still struggle….,k.at.hr.yn,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I was 12 when I learned how to swallow a pill!,anungodliestnerd,2,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught myself by swallowing macaroni in school😅 Went from crushed pills on a spoon of yogurt to taking a handful without issues😅,robindarling,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Thank you. Just sent to a friend. We were just talking about this yesterday.,judlovestocraft,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,lemme show this video to my husband lol. I remember when I had to learn lol.,chel.le8,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I still struggle 😂😂😂,mamalifeof2,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Tictacs!!! Best thing ever!,whatislife0023,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,my son is almost 20 and can't,amandadaniel33,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"When I went to teach my kids, I showed them the mittful (7) I have to take every night (including a giant magnesium) I do all at once and they were like 😳, and then downed a tic tac no problem 😂",tiamatfire,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My child that was speech delayed/slp until 9 and had a bad tongue thrust had no issues and just did it when he was handed his first pill at urgent care. Meanwhile I’m 36 and choking on Claritin daily,bandgazebo,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,It’s stuck,aileenforeva,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I chew food then place the pill in my mouth before I swallow it 🤷🏻‍♀️,thefithuntress,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I only learned to swallow pills at 21 when I had to take birth control. it's still a struggle sometimes. this is great advice.,delilah.orchid,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught my kid using ginger ale. The bubbles hid the feeling of the pill,jesterca15,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,we're laughing so hard bc at the beginning we said oh good we can teach our 20yr old. the ride down the water slide is where I lost it. totally going to try this with him,ashkey0o0,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Me at 40 still not knowing how to,yanla025,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I had a very hard time with this and didn’t learn until 7th or 8the grade. I finally got it using a 20 oz soda bottle. Something about that opened up my throat differently. Plus fizz.,mcarisg,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,we did this method with my 7yr old twins. they could never swallow anything bigger than a nerds candy. we were finally successful at getting them to swallow pills with applesauce,me_kat_mcg,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,this is great!,j9peoples,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Can you teach us how to teach a child to blow their nose? This has been my greatest struggle. 🙏,killeryorkies,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I swallow pill naturally because as a child I always accidently swallow chocolate or candy without chewing 😭😭😭,.adozencupcakes,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Tic taks was how I learned,graciouslygrace14,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,well I'll do get some Mike and ikes or some Tic tacs right and tell them to swallow them and not chew them and when they actually go to take pills they would know how to swallow them from the Tic tacs in the Mike and ikes,bird.b.birdle,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"me, 34, trying to learn now.",fur_mama_,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m 39 and still gag😂 my gag reflex is so bad,samantharae341,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Im 18 and I can’t bro💀,humbertomoons,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,4??? Oh,sweetnsour1312,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My 3 yo was prescribed a pill that I wouldn’t be able to swallow easily…🫩🫩🫩,cornbabi_szilvas,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My 8 yr old learned with tictacs and ice. My 14 yr old isn't having it at all ☹️,patiesguzman,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son learned at 4 years old because he hated liquid medicine,corporateburnout,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Thatk YOU I finally did it,its._michaelb,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Do you have any tips on swallowing capsules? They always float to the top and can be hard to get down without choking on them.,hotmomma1000,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I have a 16yr old that still can’t swallow a pill,amizwinger,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I spell complicated words in my head while swallowing pills so I don’t overthink it,brisketnmama,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Glad to see I’m not the only adult that struggles 😂with,user30360632,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Hahaha I was an adult!!,fullhousemom,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,my mom let me learn by trying to swallow benadryl😅,becks319,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Me, an adult who didn’t learn this until 25",brisketnmama,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son is afraid. He said it’s gonna block his trachea. 😭,foreverjmj,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Do you have a tip for capsules? I can do pills but capsules are too hard,maybe.l8er,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,SEnding this to my 18 year old college student 😂😭,jrallis,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Need your help,katant8,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Where was this last week 🤣🤣🤣 she got it though,mdeedzb,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I never learned until I was 23 because it was so traumatic getting pills forced down my throat growing up. Wish I had this information back then.,alexaplaylfb,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,We do apple sauce. I throw it in there and he eats the apple sauce. Ha! He knows it’s in there but he says it goes down so easy,clynnl13,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I'm 58 and I still struggle 🤣,living_breathing100,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son is 31 and still can not swallow a pill! 🤦🏽‍♀️🤷🏽‍♀️Now what???,djhunt33,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"As a kid, my parents had to crush it and put it in applesauce. Still can't do it as an adult, so I just shove it down like a dog. 😳😂😂",musicblaster6,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,my grandma is 90yrs old- she has never ever been able to swallow pills!\nI learned in my teens!,tranquilitylynaa,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I put it on either side of my mouth between my cheek and my teeth and then take a sip of water, I can't stand the taste of pills on my tongue",you_areworthy,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Munch a biscuit and swallow all together,sarahthecrazy1,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Break it and then when you swallow it with water, tip your head back and then swallow",fionapod83,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I ALWAYS put a large amount of water in my mouth first and then put the pills in and swallow normally. When I started doing this I’ve been able to -,rudiis_,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Its weird how i have the same anxious tendency but just think about it we Swallow bigger food items daily. It wont get stuck. Just feels like it,thefeministvocalist,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I sip water, place pill towards the back of my tongue, take a big sip, tilt my head down so the pill becomes loose, and then tilt my head back and",25something,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"With larger pills I usually put some toast in my mouth or a biscuit, mush it about and then put the pill in and swallow. You can’t feel the pill!😁",bethm404,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I get so anxious swallowing pills i almost forget to swallow I put water in my mouth first then pill, swallow, more water x",nicoleh148,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Bread saved me! Eat some bread put the pill in your mouth and swallow the bread but without smashing the pill. Try it!,vasodaniilidou,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I have to take medication capsules everyday. I panic or choke if i try swallow whole. I have to take with a hot drink so it melts. Sort of helps,dawnharper7,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,me with every pill ever.. and liquid medicine is just too nasty 🥲,qxkiimwaii,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Trivk is to tilt your head back and swallow the water that way it goes right down,emilygallo25,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I found that swallowing tablets with something like a smoothie helps because it’s so dense and thick the pill kind of just sinks into the smoothie but,_millie_044,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I’m the same, I have to just crush it up and put it in a glass of water or juice, plus taking crushed tablets helps it work faster anyways !",lemyha.aa,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Crush it n eat it in applesauce,astark1991,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Have you tried propanolol instead? I’ve never seen tablets that big,delusions43,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,right I feel same way they too big,hildamonterrosa1,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I can’t swallow pills, so I break them in half & chew them. 🤮",mgl.1961,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,i crush it to powder and i mix it in a tbs of applesauce and swallow spoonful,sweet_angel_cupcakes,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,there’s also magnesium oil! it absorbs faster in your blood,renskepostmax,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,can someone experience the same i feel dizzy when standing and dizzy everytime?,colorful_prophase,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Same!!!! It’s awful, I’ve been putting capsules in apple sauce or drinks lol for years",bloomingafterdarkness,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Try to bite them or cut them in half?,dailydoseof_gta,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Put on worktop , put thumbs on ends and push down . It breaks in half along the line",____cherrypie____,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Okay, go to drink the water like regular, take a big swig and gulp and swallow the water and pill simultaneously. Forget that the pill is there.",nikjlove,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Is there a powder form? Or can you crush it and swallow it in a teaspoon with sugar . I do that,whiskeymumma77,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,glad im not the only one... i crush it😂,charlettebenny,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"ye, In taking pills at the moment, but I've only taken 1. when I was younger I would hide so I wouldn't have to take them",grace_girard6,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Cut it into smaller pieces,karirose12344,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I do the same,beast_ms,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Put them in water to dissolve,ti8533,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Grind the tablet and mix it with juice,herblover8118,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,omg I thought it was just me but it’s my anxiety towards pills,gee._xx,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I take liquid medication as a 21 year old adult and for what i cant get liquid i get pills i can crush and eat with applesauce,saiseilei,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"I have same problem..I east a piece of cheese with some water and swallow pill with the cheese ,workes for me",vickeymoore1,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Crush it between two spoons and then fill the spoon with water. Have a drink that tastes something with you tho bc the after taste is nasty😅,henrietteg95,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Break it in half and then swallow the two pieces separately 🙂,aydinbahtiyar,0,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Huh. I'd have sworn my parents went with just screaming at me,brenklikescake,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,we used mini skittles. my kiddo was like 5 or 6. he got it on the first shot.,dollybiscuits,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Also, practice with a candy that is a little bigger than the pill.",mslilimarlene,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"my parents would just make me chew the pill if i didn’t swallow it, we tried m&ms and i couldn’t even do that lmao. i remeber sitting on the couch with my danimal crying about having to chew it",pinkie.lovers20,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Me, 32 and still can’t swallow anything bigger than ibuprofen",briellissss,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Nerds were a great start for us. Then various sizes of Mike n Ike portions, since he didn’t like the tropical tictaks 😅",oh_hey_its_monica,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Oldest son just turned 16, born with Arthrogryposis Multiplex Congenita. Full use of arms, but joint contractures in his c-spine prevent his head from tilting back (also recessed jaw)",haifeverinthehouse,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My daughter is 21 and still can’t,d.michele_1970,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m on sertraline and can never swallow them 😭 been on them for around 10 years now and still struggling 😭,jakesmemes,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"as you're swallowing, tilt your head forward. it opens up your throat so that it's easier to swallow",shoshi_2021,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,Yes this is hard can you follow me please,queen_jessamy,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I’m 39 and cannot swallow tablets,fecassar,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,I take big pills with pudding,h_leiann,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,cut it into as many peices as you can,natce.s,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Definitely crush it and dissolve it in a shot of water, then shot it and it’ll be disgusting but follow up with water 😂",darciekm,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,crush it bit of water then drink or fizzy drinks help take a tablet I'm totally with u on this one I even snap my allergy med in half and they r smal,littlev39,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,"Big big gulps of water, think of it like food",thatswhats.up,1,https://www.tiktok.com/@anxiety_fitness/video/7116547102875946246
+TikTok,😍😍😍,blacknuts30,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,🥰🥰🥰,malvar562,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,🥰,lilisand0160,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😌😌😌,simply_samantha00,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,👍👍👍,gam3rmaster710,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😁😁😁,kathyhernandez67,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😂😂😂,godlovingmomma,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😂😂😂,eli15131,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😂😂😂,latishachadwick,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😁😁😁,btxre,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😁😁😁,morerickdancartii,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,💘💘💘,user9263348811302,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,🙏🙏🙏,bigmoneydarich,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,🤗🤗🤗,dfhgdhj444,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,😂😂😂,warden_of_my_life,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,🥰🥰🥰,warden_of_my_life,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,🥰🥰🥰,oxwunwishxo,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,🥰🥰🥰,stevenaguilar63,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,👌👌👌,baires0106,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,15 trying to take ibuprofen pill form cus i ran out of chewys💔,forgetmennots,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Our pediatrician had me teach my kids with M&Ms.,irishkack,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught myself with mini m&ms in my bedroom when I was in middle school 😂,horrible.glitter,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I really have a hard time taking my girth control 😔,sam_lanzaretta,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,how do i put a pill under my tongue like i can’t lift my tongue 😭😭,v.ictoriaa05,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Good stuff. I have Cerebral Palsy. so in my case, I was a teen and it was mainly because Nyquil in liquid form is truly vile. Started with Advil.",sassysas873,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,i taught my 9 year old with tiktacs she did it a few times and then was able to swallow a pill,thebookwormnurse,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I learned how to swallow a pill at 6 years old my first pill was Advil, I was so scared and nervous at first, now I take pills everyday for chronic pain and anxiety lol.",sleepingbeauty9069,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Bananas! Chew the banana until you are ready to swallow, add pill, swallow. Did it with 3 kids... all could take pills no problem.",thexkaluv,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"Prednisone tastes, disgusting, even in liquid form. If your kid is asthmatic or has reactive airways, this is 100% worth the time and effort.",zinczonk,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Anyone else put water in first and then the pill? 😂,kanebutler11,768,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"This works with capsules, not pills",railroadwifey513,473,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Still didn’t help me. Nothing helps 😭 Think I’m too scared of choking,familycomesfirst44,273,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"capsules float so head down, pills sink so head back.",jtwinkles_26,180,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Nope because my body will find a way to get it stuck every time lol,miinionx,210,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I am so glad I came to the comment section to find out that I’m not the only adult that cannot swallow pills.,spielbaby,70,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I feel like everytime I swallow a pill my throat closes. I can't swallow anything bigger than an ibuprofen and even that gets stuck sometimes,taylmarieee94,60,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Only works with capsules. Pills gotta put your head back lol,binzer8854,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I’ve always done this with capsules I assumed it was common sense lol,tyeatesxox,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This is a hack? This is how I've always done it 😅,hmc19281657,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Water, pill and then head down to swallow",kimmeding1,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Yet no matter what I still feel them going down and start choking 😂,plxnetpov,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I swallow two of those at a time 😭 are ppl just afraid of choking?? I genuinely don't understand the fear,orchidpearl4,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Yeah no. Capsules float briefly so yes this method will work. If it is a pill or tablet look up because they sink,killiana31,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Yeah, I figured that out few weeks ago. I wasn't able to swallow a big pill, this trick helps",melissaenmiley,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,does it work if you have a fear of swallowing pills 😳,dana_maude,8,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Not always the safest way.....,klparrinello,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,if you tilt your head back it works the same way,amarillo.1984,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,What happens if we gag as soon as we feel any pill in our mouth?,mynamehere1980,4,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,that's what I do,danielletermine4,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It didn’t work for my son AT ALL! He’s 11 and we’ve been trying to swallow Ticktacs for over a week now.,4_deep_2019,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It worked lol Ty,stanleylol,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Always drink some water 1st, so the pill rests in the water & not on stomach lining. Save your stomach!!! 🥰",celleden18,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,just take a sip tilt ur head back and drop the pill in and then swollow...thats the ONLY way I can take them. I've never understood why ppl put a dry pillow their tongue then take a sip...,goodmotherwit,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This only works with capsules for me,juliedembowski,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"It only works if it is a capsule. if it's a tablet, put it to the back and swallow",nancy.guay07,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"This only works for capsules, not tablets ✌️",sionainn87,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,only works for capsules as they float to the back,renatarichards473,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,just puting it in my mouth scares me allready,qkill57,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Nah I just toss a big handful back and hope for the best,heatcoffeeaz,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,only if it's a capsule,musicalmedicinex,9,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I tired this this morning and didn’t work,emmaclaire32,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I still crush mine!,thisgirlsadventures,17,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"I’ve just been given tablets that are huge, I have no idea how they expect me to swallow it 😢",emz4882,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"I get a mouth full of water, shove the pill in and gulp it down",kristenlashbrook,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Im hardcore I'll throw a handful of 8 + pills in at once and swallow them down. Not got time to faff about 🤣,tr3teetok,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,doesn't work for me. ive tried everything,krissyamaral,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,YES this works. It ducks that it took me til like 2 yrs ago to learn this 😅,ohnoshedint,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,No thank you. Tried it and almost died!!,sarabenavidez1975,7,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"This is for those light weight gel type pills, yes?",stacey.l.pagan,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,thankyou miss ypu🥰,lisakendall945,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,What if the pill goes sideways,saradepeche,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Nope blijft op mijn tong plakken,rayray3421,4,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,A speech therapist told me this was the best way! Works 🥰,fifi._._._,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Sip of water, pill, drink of water",regina.phalange94,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It works every time 👍🏻,wandalou1,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I'm a 29 year old and still struggling 😭😭,its_samer09,4193,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"48 here, i crush, chew or liquid.",busybusinessmom,1139,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son is 13 & cannot swallow a pill at all.,cameronsmom11,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I’ve never been able to swallow a pill, older adult here",maranthas,44,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Am I the only one that doesn’t even need water to swallow a pill,slumped.off.tha.p3rc0c3t,24,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I learned very young to swallow a pill because liquid meds made me puke. Now my son's a teen but I've heard that autistic kids can struggle with taking pills.,lasirena2255,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My parents used jello, swallow the jello whole and then then add the pill to the jello and repeat",pickledrain13,78,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I couldn’t do it until I was like 15😅 mainly because I was just scared to, idk why lol",anxioussoprano,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"SLP here. I start teaching with Nerds, then Tic Tacs, and then graduate to a Cheerio. I agree with teaching it in a stress free situation because otherwise the tongue works against them.",jennd875,379,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I used candy eyeball sprinkles. My son thought it was soooo funny and learned in days!,alilovesturtles,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"lol 50 still dont , gagging if try everytime",rmpbklyn,47,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m 37 and I still struggle….,k.at.hr.yn,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I find it easier to already have a small sip of liquid in my mouth before adding in the pills.,karathebooknerd,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"We did sprinkles, it worked great",jeffellis15,288,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I wish companies would just make liquid versions of the meds. As an AuDHDer, swallowing pills are still difficult at 35. my kids can't swallow pills w/o vomiting/choking. we've tried every tip.",ahlome08,35,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,The way I do it for me and I showed my son how to do it recently was we have water already in our mouth and then add the pill in and then swallow it that way our brains don't know that there's a pill,wiggajaz,4,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught my son by putting it on a spoon of applesauce for a long time (he takes daily meds) and then eventually he could just do it without!,jacquelinepaigeeeee,12,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Not me at 35 yo needing to take my pills in applesauce to swallow them. 🤦🏼‍♀️,mrs_beckifer_rn,381,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"When I went to teach my kids, I showed them the mittful (7) I have to take every night (including a giant magnesium) I do all at once and they were like 😳, and then downed a tic tac no problem 😂",tiamatfire,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Mine started with Tik taks haha.,bluedolphin8082,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,33 years old and still struggle every time. I’ve got a horrible gag reflex and my brain really struggles to let me swallow pills 😩,scattering_sunshine,382,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My child that was speech delayed/slp until 9 and had a bad tongue thrust had no issues and just did it when he was handed his first pill at urgent care. Meanwhile I’m 36 and choking on Claritin daily,bandgazebo,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son was 9 when he started swallowing pills. He never wanted to taste liquid antibiotics ever again lol,sandradee1042,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I loved to swallow little cubes of jello whole so my mom put the pill in a cube of jello and down the hatch! Lol,cakefight86,144,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My tip is if you don’t have to take it on an empty stomach, plan to take the pill just after a snack. I find my throat is more relaxed.",ziggetyzee,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,“Sometimes it takes a little bit longer” [ blinks in 40-something] 🫣,fraumarienkafer,12,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"TIP: skittles and M&Ms make very tiny candies now that are the perfect pill size to practice with! With the M&Ms it’ll melt if anything happens. And they have fun, picking the color to try.",oldthalmoracct,153,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My 3 yo was prescribed a pill that I wouldn’t be able to swallow easily…🫩🫩🫩,cornbabi_szilvas,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,i’m a grown ahh man searching this up,.tonymac,25,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Yep that’s me,justo198989,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,only works with capsules. any solid pill put head back. at least works this way for me,ramsfour,9,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,this works I do this all the time...I can now do 4 pills at once,jankell26,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"it didn't work for me, I tried it, I have to put my head back to swallow a pill",notyour_average_karen,7,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,That’s only with capsules,adapt_overcome_always,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I put my head back for pills and my head forward for capsules.,eldeerose97,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I take a gulp of water then toss a small handful in and swallow. 😂😂,rubysparklelips,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It works to a point. I sometimes feel the capsules actually get stuck in my throat.,jbug9099,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"capsules float, head forward. pills sink, head back. I take 8 meds a day. works every time.",cherryblossomskz,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I do this every night but still have to take 1 pill at a time sometimes they still get stuck,rondaweishuhn,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I learned with mini m&ms to get comfortable with the idea. Can do multiple at a time now,bluevolley6,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Some pills are sinkers and some are floaters though. You need to know if you should tilt you head down or up.,1985jem,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,CAPSULES ONLY! 🤦‍♀️🤦‍♀️🤦‍♀️🤦‍♀️,everooroo,3,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Only capsules will float. It does work.,tj.bou14,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,then there's me who can take 10 at once,glendagayle,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Yes, otherwise it sticks with tongue",paarmix,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I taught my autistic son this trick and it has been a life changer lol.,elizabethannxo,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I have been taking so many meds since childhood. I take all of them at once. Ain’t nobody got time to take one pill at a time.,hawkeyphan,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Great tips!!,jasonkleemd,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,my son is almost 20 and can't,amandadaniel33,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,It’s stuck,aileenforeva,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"If it’s a capsule, but any other one won’t",timmytime22356745,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I’m 16 and still can’t..,calvin99166,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I have been a peds nurse for 35 years. I never heard \Pill taking a ride down the waterslide\"" LOVE LOVE LOVE THIS! Such a great guided imagery support for kids. Thanks Doc!""",pedsrn68,113,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Am I the only one who can do it easily,tangerine18020,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,The 3 gulps worked i have a bad headache and i needed an advil but i didn’t know how to take pills tysm😭,sabrinailoveyou_s.c,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,A little longer … I’m 23,estefcny,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Im 32 and i still cant swallow a pill 😭😭,sellymoon29,27,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I still struggle with pills and I am mid 40's. Not swallowing will be the death of me. 😅😂,historynut1837,16,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,i just can’t do it,itsskenzx,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,The child in question is me… (I’m 30 and can’t take pills),kayemcee77,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"STOP SAYING TO MAKE IT FUN. THE PROBLEM ISN’T THAT ITS BORING, THE PROBLEM IS MY BODY PHYSICALLY SWALLOWS ANYTHING BUT THE PILL",greendoge69,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,it was not a fun activity. and it was definitely stressful. but he learned it. 😭,presyncope.princess,30,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My child did this before 2. Just put the pill back of tongue, then tell them to drink. He's now 6 and\nand can do it without drink 😅",tualovdahl,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Do you have a tip for capsules? I can do pills but capsules are too hard,maybe.l8er,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I'm not a child anymore but thanks 🥲,laaaaauu15,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,thank you I needed this ! my mother taught by shoving them down my throat (lol 😅) so I struggle to this day and had no idea how to teach my kid until now,debutdowner,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,60..still can't,traciebean,49,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m 16 and I still don’t,barrel_horse_bay_thebest,2,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I was a teenager before I learned. Lol. I remember the torture. 😂😂😂,hmurpschzl7,6,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I didn’t learn until I was 50 and some are still too big 😂,luisadalo,5,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Bro I just spawned in and I can like swollow like any pill,modyxxx100,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I'm 40 and still need to drop it all the way to the back of my throat lol,rachoc21,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Bro I just spend all Night trying now I can do it,irvin6.7,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"My kids HATED liquid medicine. At 2.5 I told them the \pill\"" wanted to go down the waterslide"," put it on their tongue towards the back but not too far. 3 tries and they had it.""",diggyandbunnybuns,4
+TikTok,I taught myself as a teen how to swallow pills using tic tacs. I’m 50 and still struggle w anything bigger than a tic tac 😂,bcmaguire,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I have a 16yr old that still can’t swallow a pill,amizwinger,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught my kids using a “ pill cup”. It had slots at the lip where you could place pills. Worked really well.,tonyatucciclark,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,it took me 30 years 🥰😁,maritamariana8,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Jesus loves youu veryyy muchhh and May God continue to bless youuu..!💕💕🫶🏾🫶🏾✝️✝️❤️❤️🫀🫀🙏🏾🙏🏾🤲🏾🤲🏾,heartzzfor_morgannn,4,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"The first time I ever tried to swallow a pill I was 6 years old and in the ER. I needed antibiotics, but they didn’t have them in the liquid. It was a nightmare.",emmymten,2,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I literally just taught myself a 2 weeks ago… I’m 29 😂 I bought dissolvable Vitamin D pills to practice. I always had a fear they would get stuck. Swallow with water, before it dissolves 🤌🏼",lordtriggered,3,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I would practice with tic tacs lol,1vickey.mouse,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I was 12 when I learned how to swallow a pill!,anungodliestnerd,2,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught myself by swallowing macaroni in school😅 Went from crushed pills on a spoon of yogurt to taking a handful without issues😅,robindarling,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Thank you. Just sent to a friend. We were just talking about this yesterday.,judlovestocraft,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,lemme show this video to my husband lol. I remember when I had to learn lol.,chel.le8,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I still struggle 😂😂😂,mamalifeof2,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Tictacs!!! Best thing ever!,whatislife0023,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I take 6 pills a day and still have to do it on muscle memory because if I think too much I gag 😂 get those habits in early!,ayy_its_me,6,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I need to learn this bc I have the worst time swallowing large pills. My parents didn’t do a great job helping with this,enfermerasana61,5,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"I saw a tip in a magazine to use a straw when drinking, I had the kids take 4 big gulps. the straw helps woosh that pill right down with no effort, doesn't get stuck! my kids have been taking pills",kouklana,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I needed this way back when….All the fights I had with my mother because I couldn’t take a pill,kar_injk,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,This is for capsules. Non capsule pills don’t float so you lean your head back in stead,megan_kristinaa,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It still doesn't work for me 🥴,michellymfurtado,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I use applesauce to help swallowing pills,alisonburress,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"that's true for capsules, not tablets",momma_jazz72,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,most pills don't float,lewthrasher79,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Seriously this is well known,pondmills,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,It works !!!,cyberaquarius,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Me literally taking my pills without water 🤣,danaoreo1234,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Actually the chin tuck helps open the throat, tilting your head back closes it. This is the technique used in people with dysphasia",nursemoe1982,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I normally tilt my head back,aj032009,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Before I did a parasite cleanse I couldn't swallow pills. Now no problem and that fact just freaks me out!,iskwewkapimotihtpisimohk,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"only if its a capsule, not a pill 👍",kaysterbomber,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Head down for capsules (coz they float), head back for tablets (coz they sink)",socksoff0,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Depends if it’s a cap or tablet.,jayhiggins09,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I'm 58 & still have to cut up really big antibiotics,sheilaquirkbrocco,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Am I the only one that can't swallow if my head is down like that?,pantherstormrexxar,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,i have problem to swallow food..,joppenpuhh83,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I bite the pillow and then drink the water and ill swallow it,addii04_,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"my granparents did this,in the 80s this is nothing new.",cleverx2023,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I just chop mine up dissolve in water stir and drink lmao,jdemonz,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I drink something carbonated. The bubbles help.,bbmom566,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,head back for tablets. head forward for capsules,cdog3030,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,for me i put my head up,popovic32,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,Capsule = down as it rises. Tablet = back as it sinks. Anything with a b (tablet) = back.,vaunemmah,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,I accidentally learned how to take a pill as a child by myself - I started swallowing the seed part of a cooked green bean whole and it eventually came in handy. I was too curious as a kid 😅,merelywords,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I only learned to swallow pills at 21 when I had to take birth control. it's still a struggle sometimes. this is great advice.,delilah.orchid,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I taught my kid using ginger ale. The bubbles hid the feeling of the pill,jesterca15,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,we're laughing so hard bc at the beginning we said oh good we can teach our 20yr old. the ride down the water slide is where I lost it. totally going to try this with him,ashkey0o0,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Me at 40 still not knowing how to,yanla025,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I had a very hard time with this and didn’t learn until 7th or 8the grade. I finally got it using a 20 oz soda bottle. Something about that opened up my throat differently. Plus fizz.,mcarisg,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,we did this method with my 7yr old twins. they could never swallow anything bigger than a nerds candy. we were finally successful at getting them to swallow pills with applesauce,me_kat_mcg,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,this is great!,j9peoples,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"tiktacs are great, and then Mike n ikes!",bannd4noreason,1,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Can you teach us how to teach a child to blow their nose? This has been my greatest struggle. 🙏,killeryorkies,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,im 24 and i crush my pills and put them in a shake,modrnbsbll,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I swallow pill naturally because as a child I always accidently swallow chocolate or candy without chewing 😭😭😭,.adozencupcakes,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Y'all my pills taste like hand sanitizer when my mom left I spit it out it taste so bad😭,ihopeitsnowsforever,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My 13 year old son with arfid still can’t do it. He struggles so hard even though we are working on it.,ehicks3,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Tic taks was how I learned,graciouslygrace14,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,well I'll do get some Mike and ikes or some Tic tacs right and tell them to swallow them and not chew them and when they actually go to take pills they would know how to swallow them from the Tic tacs in the Mike and ikes,bird.b.birdle,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"me, 34, trying to learn now.",fur_mama_,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I’m 39 and still gag😂 my gag reflex is so bad,samantharae341,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Have you tried the looking down method while swallowing the pill?,medina_gin,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Im 18 and I can’t bro💀,humbertomoons,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,4??? Oh,sweetnsour1312,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Hahaha I was an adult!!,fullhousemom,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,4?! 😬🙈,cmbz_1615,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I never learned until I was 23 because it was so traumatic getting pills forced down my throat growing up. Wish I had this information back then.,alexaplaylfb,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Thatk YOU I finally did it,its._michaelb,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,We do apple sauce. I throw it in there and he eats the apple sauce. Ha! He knows it’s in there but he says it goes down so easy,clynnl13,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I'm 58 and I still struggle 🤣,living_breathing100,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I chew food then place the pill in my mouth before I swallow it 🤷🏻‍♀️,thefithuntress,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,Glad to see I’m not the only adult that struggles 😂with,user30360632,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son is 31 and still can not swallow a pill! 🤦🏽‍♀️🤷🏽‍♀️Now what???,djhunt33,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,My son is afraid. He said it’s gonna block his trachea. 😭,foreverjmj,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,"As a kid, my parents had to crush it and put it in applesauce. Still can't do it as an adult, so I just shove it down like a dog. 😳😂😂",musicblaster6,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,my grandma is 90yrs old- she has never ever been able to swallow pills!\nI learned in my teens!,tranquilitylynaa,0,https://www.tiktok.com/@rubin_allergy/video/7449442596595780910
+TikTok,I found my people!! I thought I was the only one 😭😭😭,jupiter_rose7,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,"Ah, thank you for this hack! 💊",kath84eliz,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,it inly works with capsules as there light but it does work 😏,flashstewart,0,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@bellagiggles18 @Airanna,shellywm8,2,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+TikTok,@🏀Max🏐✝️,hydejess,1,https://www.tiktok.com/@doctorsood/video/7333996397470993710
+Reddit,"Now I’m getting a flashback to the time I asked a French pharmacist if they had a specific over-the-counter yeast infection medication in stock, only for him to loudly announce to the entire store that “Mademoiselle needs a cream for her VAGINA MUSHROOMS (champignons vaginaux)!”",amauberge,6604,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm French, and some pharmacists need to mind their own business. One time i need the morning pill, and the pharmacist (a woman) tell VERY LOUD that morning is not a contraception. I said it was because the condom broke like 2 min before and I go this pharmacie every month for my pill, she know me wtf",Une_myrtille_sauvage,152,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I once said that I wished insurance would cover birth control pills, to be told by the apothecary: In your age, you will soon be married and with child, so it's not going to be an issue for longer.\n\n\nWell. That taught me that this apothecary makes too many assumptions.",DesperateButNotDead,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm pregnant. It's very early so I don't want other people to know. \n\nI went to the local pharmacy to get supplements and other things related I need. The woman behind the counter loudly asked: is that for a pregnancy? Congratulations!!\n\nOf course I knew half the other clients...,Mogura-De-Gifdu,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I have eosinophilic esophagitis. Food and pills can get stuck in my throat very easily. When I say stuck, I mean even water won't go down. I've gone to the ER before due to meat being stuck in my throat (nearly everything else will eventually dissolve enough to pass down, albeit painfully).\n\nAsk me how many health professionals and random people have shamed me. It's infuriating and humiliating.",missshrimptoast,1342,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I have a phobia around pills and I know your pain - was very ill at a walk in clinic and the nurse wanted to give me a pill. I explained to her, but said I’d try. She gave me a laughably small ‘cup’ of water and expected me to do it in front of her. The look on her face told me she didn’t believe me and thought I was creating drama. \n\nShe did however soften a bit when the finger monitor left on must have clearly shown the jump in my heart rate as my anxiety went through the roof!\n\nPeople seemed to go into ‘you’re just being a child!’ Mode when they hear you struggle to take pills. It’s demeaning.",SherlockScones3,97,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Next time someone says you’re acting like a child because you can’t swallow pills (which is bullshit btw, plenty of kids swallow pills just fine, plenty of adults can’t) tell them that their shocking lack of empathy is similar to a 4 year olds, so I guess everyone’s a child here",foundinwonderland,68,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Hey, fellow EOE. I've seldom gotten pills stuck in my cringe-ass throat, but I REALLY don't like it when they sit there and dissolve where I can taste them.",MrHappyHam,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,My son has this. He had surgery to get steak out of his throat and that’s how he was diagnosed. Its nice to see someone else had the same experiences as him ,yavanna12,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,OOhhhh...I'd love to have a word with those professionals. I'm a speech pathologist who works with dysphagia and tell people to take liquid formula or crush meds all the damn time!,DancingChip,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yes same here - I have the opposite issue that my 6 years old totally refused any syrup antibiotics medication since she was 2 years old.  It was trauma for me to feed her medicine (yes, I have tried EVERYTHING, nothing worked)\n\nNow doctor just prescribed it in capsule form (in appropriate dosage) and we just open the capsule and sprinkle the powder on smoothies or yogurt, as the taste finally not as strong as the syrup one.\n\nEverytime the pharmacist would ask us you sure it is for a child?  We said yes and they said “ok” and that’s it.",TheC9,502,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Oh...breaking open a capsule and sprinkling the powder in like yogurt is genius! I will have to ask the doctor if this is possible next time she needs a medication. \n\nGetting my 6 year old to take medications is like trying to fight a drunken ferret and reason with, well, a drunken ferret. It doesn't end well for any of us. No amount of pleading, bribing, peer pressuring, scolding, etc., has worked very well. Basically either we physically traumatize her or mentally traumatize her.",NittyKitty3239,328,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think the main reason they don't like doing this is because with certain meds they need to be digested at certain parts of the digestive tract and the capsule helps with that. The medication can also burn the esophagus or hurt the digestive tract without the protective coating. Plus, depending of if it's live yogurt, the yoghurt could affect the meds.\n\nThere are many reasons why they would be reluctant or not be able to use this method depending on the meds. I'm not saying your situation doesn't warrant it, I'm just saying there's a reason they don't do it for everyone straight away. Obviously, still worth asking though.",Queen-Roblin,277,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Pharmacist here. While absorption is a portion of that decision making process, a lot of times we use liquid meds for kids (especially antibiotics) is because the dosing is more flexible. Once you are an adult, you can generally take one of maybe three different strengths that are made for adults. However, with kids, you dose based on their weight. So you could give 3 mL to a newborn, but 6 mL to a twelve-month old, or even 20 mL to a six year old. \n\nThis is easier for everyone involved because we can stock a single strength of the bottle and use that for anyone who needs it, up to the point that you weigh enough to get an adult does.\n\nEdit: made a clarification",Sombra422,241,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I am not your doctor and this is not medical advice, and is only for information and discussion. \n\nIt depends on the medication, really.  OTC meds are generally safe, so if you’re like 98 lbs, an adult dose should be fine. Any lower than that, and I would suggest using the children’s recommended dose. For prescription meds, your doctor will be factoring in your weight in the dosing instructions. If you have concerns, call your doctor and they can give you recommendations for dosing common medications.",Short-Step-5394,64,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"No. I just arbitrarily picked 50 kg for easy math while I was typing. There is also more involved in it as well (like organs being fully developed as an adult that aren’t as a kid). As a rule of thumb, if a medication requires weight based dosing in adults (there are a lot that do in the hospital), it isn’t OTC.",Sombra422,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Here in Europe, where I am, 40 kg (88 lb) is what I usually see as the cut-off. Lots of drugs will be \""indicated for use in adults and adolescents age 12+ years and weighing 40+ kg\"". The next \""age bracket\"" I most commonly see is age 2–12, at which point they give dosing instructions by body weight.\n\n(I work in healthcare comms, so I type the phrase \""indicated for use in...\"" approximately 135785278 times a day) \n\nAlso, as with most things in medicine you've got to consider the benefit/risk ratio. Not titrating a dose perfectly per kilo of body weight is probably not a huge deal if you're a bit below the adult dose weight, and definitely not compared to the benefit of treatment (depending on the drug of course). On the other hand, something like donating blood is all risk no benefit, so it makes sense they're quite strict on weight limits.",gprfourbr,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I got lucky in some ways. I could get out at 17 with pretty good trust that my siblings would be OK. Admittedly both with some blackmail. (There was physical abuse towards me and even corporal punishment would have been illegal in my country and it went past it). I also was never barred from contacting them. I also managed to build a relationship with my parents with very strict boundaries. Not because I was told to do so but because I wanted them in my life. It did take a couple of years of low contact/no contact and a lot of therapy (in which my mother participated in some sessions from my initiative). I also got effective psychotherapy and medication. I do have CPTSD as a result.\n\nThe most heartbreaking part of my story and OOP's story is how hard it is to get proper help when you are in it. I told so many people, many mandatory reporters. No one did anything about it. She was there trying to manage a situation no one could manage at 17 (and many years before). She told. And no help was forthcoming until things got really, really bad. \nI understand why we need to be careful when taking kids from their parents. I also understand how having some contact with your birth family is usually beneficial. But IMO societies I am familiar with end up erring more on the side of keeping families together than keeping children safe. I also think we need better legislation around emotional abuse. It is as bad as physical abuse. While I got out and managed to climb to functional (in most things) human along the way I met many who could not. It is about luck. When childhood fucks you up it fundamentally changes who you are. Building a healthy person out of those fragments is not simple. We need to do more to stop it from happening (and a better system to help when it has). The widespreadness of child abuse makes it clear it is in many ways societal problem. It also feeds itself. The circle of abuse needs to be broken better.",haqiqa,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Well, to these people, perception is everything. How they're perceived is paramount. Hence the chewing out from the family for airing out internal dirt",nopejake101,24,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"And acute liver failure doesn't come out of nowhere, so I'm guessing the little sister took something, either pills or liquid, in her failed suicide attempt.",localherofan,66,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"When my sister was little our mum tried giving her meds in strawberry yogurt, and the powder reacted with the yogurt, curdled, and tasted awful. So it just made taking the medicine even worse.",kayloulee,57,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My mom put it on top of my froot loops. I was like 6 and I have never eaten froot loops again. In my experience, the taste of anything in a capsule is way stronger than the liquid medicine.",CaptainMalForever,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yeah, my dad used to open up capsules and mix the contents with a teaspoon of jam if he had no other option - he never could swallow big pills/capsules. But he always checked with the doctor first, about whether it came in liquid form/small pills and whether if capsules were the only option, it was safe to take the medication without the capsule.",Normal-Height-8577,45,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My mom hid it in applesauce when I was little, but I ended up learning to swallow pills by having them tucked inside macaroni noodles in Mac and cheese.",notthedefaultname,62,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That feels almost exactly like pill pockets for pets!,clauclauclaudia,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"No, but it's definately the same logic. Around the same time, we did give our golden retriever her pills by wrapping them in American cheese slices and pressing the edges together. (If it has an open edge she'd spit it out and I think it was pre pill pockets)",notthedefaultname,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I saw an episode of Supernanny (I know, I know) where a child was having a similar problem, except they had to take meds every day. You've probably tried everything, but just in case - the solution for them was to explain to the child what the meds were for, what would happen if they didn't take them (as in the physical results to the body of not taking medicine), and then asking the kid if they'd prefer liquid or swallowing a tablet. If I remember right, I think the child refused once, the parent explained again that they would get very sick without them, and then offered the choice of how to take them again. Staying calm and laying out the situation seemed to help.\n\nI hope your kid evolves out of the drunken ferret phase very soon!",thirdonebetween,86,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I recommend checking with your doctor AND pharmacist before doing this. It’s a great strategy, but some medications can’t be opened/crushed and dairy can interact with the effectiveness of some drugs. You could also try jam or puréed fruit!",thelady_remade,28,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Oh I would check first! She just doesn't handle medications well and we've only had liquids and tablets. If there's any way to get a powder mixed into any sort of food or milk, it would be the easiest way to get her to take anything. I wish she ate applesauce or jam. Best I could try is in a peanut butter sandwich. She's got ARFID and her list of safe foods that's she'll eat is very small.",NittyKitty3239,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I double checked with my pharmacist the last time I had to give my 10 year old twins antibiotics that were only available in tablet form if I could crush them and mix them with chocolate custard. One kid could sort of swallow the tablet but complained of the bitterness since they were on halved, the other flat out couldn’t do it, after half an hour of trying one night I went to the pharmacist the next morning to ask. Yep, crush the tablets and mix it in, both downed the rest of the prescription with no concerns.",Aesient,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That's how I get my devious dog to take her pills. I empty the powder from the capsule or break up the tablet and mix it with a couple spoonfuls of plain Greek yogurt and she medicates herself in two seconds flat.,BurgerThyme,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My mom used to have my sister hold her nose while taking it, and had a small piece of candy ready for after to get the taste out of her mouth. I just switched to swallowing pills instead as soon as I could",emliz417,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I wish this had been a known thing when I was a chronically ill toddler/kid! I vomited up a lot of medicines (to this day CANNOT use most liquid medicines bc they are the only thing in the world that makes me near-instantly involuntarily chuck *everywhere*) so when I'd get a fever that needed reducing or need medicines not to get thrown up I'd either end up in hospital with an IV or, what they taught my parents to do, hold me down while I got a suppository. Even for those who have never boofed *anything* I'm sure I don't need to explain why getting stuff up there when you're tense and upset is not particularly pleasant lol",Full_Time_Mad_Bastrd,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was the same as your kid. Give me a syrup or liquid medicine and I would IMMEDIATELY projectile vomit it back up in protest. (I did the same with anything I didn’t want to eat.) Pretty sure I had the same horrific banana tasting medicine as the OOP too, OR they use that banana flavour for a lot of kids stuff.",bubbleteabob,27,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"We had to do exactly that for my 15-year-old. She'll pick out pills, and won't even take the chicken-flavored chewables.\n\n\nDid I mention she's a dog?",itstheballroomblitz,80,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I have the opposite problem with my 11 year old. So willing to take pills that if you accidentally drop one she’d happily try and eat it.\n\nShe’s a cat though.,sayitwithtriffids,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This is how i convince my dogs to take medicine. drop it, bend and snap legally blonde style. they gulp it down and i laugh",hexedvexeed,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Ohhh if only they made chicken flavored chewables for humans!,ecosynchronous,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Oh yeah, thanks, forgot about codeine replying to that other commenter. Nowhere near as nasty as some synthetic opioids like tramadol and tilidin, but bitter af. Speaking of painkillers, ibuprofen, while not per se that bitter, has this weird gagworthy scent and taste. I hate it so much, and those pills are gigantic, too.",RosebushRaven,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My 17-year old takes pills and shots like a champ.  Liquid, though, is a whole other thing.  She fights like a demon if I come at her with liquid.\n\nShe's a cat, though.",deagh,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I had a dog like that. Getting her to take her monthly heartworm preventative was a real pain in the butt, because they're a relatively large chewable. I would have to break it up and hide it in thick globs of cream cheese for her to even consider it, but half the time she'd just eat the cheese around the medicine. The other two dogs would just eat the chewables, no need for messing around with extra stuff.",BKLD12,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My chihuahua lived to be nearly 22 and was in great shape for that age but he still had to take some meds the last few years there.  He was super smart and I think he deliberately spit his pills out in order to get more ham or cheese. \n\nHis vet and I are friends and she was the one that dog sat for me when I went out of town once.  He tried pulling that stunt on her, so she had his medicine compounded into a liquid. 😂",maddomesticscientist,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I had a dog that could manage to spit pills out of peanut butter.  Giving her anything was traumatic. \n\n\nCurrent dog required pain pills after surgery. I made a point of saying \""here's your pill\"" every time and he seems to associate feeling better with pills. Now he needs allergy pills so I'll tell him to come get a pill and he does. I still have to open his mouth and get it in, which he hates, but he always comes over.  10 years of easy pilling.",ThistleDewToo,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I had so many pharmacists question my vitamin D prescription, because for many people, over the counter should be much cheaper. But my insurance at the time would cover that prescription so they were free for me and wouldn't cover over the counter options.\n\nI got the whole range of filling without questions, a polite suggestion, extremely rude, all the way to them *throwing away my prescription without even talking to me* because they didn't think they should have to fill it when over the counter was available. (The last one led to lots of confusion until some supervisors found out what happened).",notthedefaultname,69,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Right? Like a simple \""the syrup does make it harder to get the correct dosage, I just want to check you are aware there is a pill version that may be more convenient\"". ",Bunny36,23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yup. I usually ask \""you want liquid, not tablets right?\"",  get a nod from a customer. Check the price/insurance. Some liquids get expensive af. And we are all good to go.",Hunnilisa,29,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"If the pharmacist thinks something is off with the prescription, they can call the doctor. Which, yeah, means phone tag and delays and also makes things worse for the person trying to just get a medication, but it’s not like the person chose that prescription without a doctor agreeing enough to send it to the pharmacy.",TyrconnellFL,115,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm a pharmacist in Finland. If I am sure the doctor made a mistake in their prescription, I can go in and edit it (it's all online.) Usually prefer to call the doctor, but in some cases, e.g. patient had had this medicine forever, I just verbally confirmed with them that nothing should be changed, and the change is like 24mg instead of 42mg (without a note as to why change) - I'll just revert it.\n\nDoctors make mistake all the time, it just happens. Fat finger a drop down menu of drugs when talking to the patient...",EntForgotHisPassword,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Eh, depends on what. I found it odd a pharmacist confirmed a longer dose with me odd but for something like form of medicine asking the patient seems way simpler.",hannahranga,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The only querying I've ever got was from the new guy at the pharmacy looking slightly surprised at why a 30-something guy had menopause pills and ovulation injections prescribed.\n\n\nBut then he seems to have been the only one putting any thought into it because nobody inquired whether I wanted to update the \""mr\"" to a \""ms\"" 😁",TheActualAWdeV,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My cousin's pharmacist caught a mistake that the doctor made and avoided giving him heart medicine. He was 7 at the time.\n\nActually it wasn't a mistake as such. The doctor's handwriting was bad, and when his assistant typed up the prescription she misread it. Completely avoidable.",SindragosaM,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"For sure - I can just imagine a polite question... \""just confirming; you want the liquid and not the pills, yes?\"" \n\nThen when the patient nods or says yes (they want the liquid), you go and fill the prescription as written and then tell the patient to have a nice day.",omg_pwnies,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,They can did you want pill or liquid as directed. \n\nAnd that's where it ends. \n\nUnless your dr is overdosing or giving contradiction meds. A chemist cannot tell anyone they have to have a pill over the liquid. They don't,HyenaStraight8737,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Exactly, like a quick \""hey this prescription is for liquid instead of pills, is that what you wanted?\"" Is fine.",Zeekayo,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"there are just people that view kindness as weakness and so go out of their way to be cruel when given the chance. They don't want to seem weak (in their worldview) and since most people will chose to just walk away and not engage with the asshole, they think they are \""winning\"".",DilithiumCrystalMeth,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was unable to swallow pills after oral chemotherapy. \n\nEven a Panadol wasn't an option. I honestly don't know why, I don't. It was just how it was for me. \n\nIf anyone did anything like this, I'd have hit the roof. \n\nThe only time a chemist has the right to question a drs order is if they have a legitimate concern the orders will harm, overdose or negatively interact with other medications. As it actually is their job to know this better than a dr. \n\nI come from medical trauma I overcome. I don't want to think about the trauma others may have regarding pills, as my own situation was enough. It was. Others have it worse then I did and in ways unlike me, they may not be able to work through and there's NOTHING wrong with it, when the same amount can be given, it just takes a few more minutes to make the medicine vs give you the pills. \n\nI hope they got their license removed. She got mad cos she had to spend a bit of time doing the exact job she was fucking paid to do. Create a compound and viable substance along the guidelines of the prescribing Dr and her own clinical expertise in making liquid suspension solutions vs handing out pills.",HyenaStraight8737,44,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"She didn't even have to do that. Per the update, the liquid was in stock. She flat out lied to OOP.",clauclauclaudia,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's actually written in pharmacology text books to double check with the provider if a form of medication requires 3x the standard dose or more specifically to help prevent overdosing the patient and other medication errors. It does not say to harass or berate the patient, just to double check.",Pixiepup,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Right? There are also *physical* health reasons that someone might need to take liquid medications instead of pills, so it's bizarre that the pharmacy employee was being so snide about it. She's really never encountered a patient with a swallowing disorder that prevented them from taking solid meds? Crushed or liquid meds (as able) are one of *the* most common adaptations I have to recommend for my patients as a swallowing therapist.","""[deleted]""",13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"a pharmacist should never just give whats prescribed. it is their job to screen prescribed things for errors.\n\nthere are some medicine that cant be taken together so if you have multiple prescriptions from different doctors or different moments for example,a pharmacist is there to catch that.\n\nluckily nowadays, much gets caught by autonated systems already.\n\nbut also weird doses etc need to be double checked by pharmacists. they have an important role in being s last check for accuracy on medicine.",Brokkenpiloot,54,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Okay, yes, but we're not talking about them screening what the prescription is in terms of dosage or potential reactions with other medications. We're talking about the form the prescription came in. Though I guess genuine question, does taking something in a different form have the potential to introduce issues as well?",Gwynasyn,52,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Shit, without the trauma, you can have entirely legit medical reasons for having weird prescriptions for otherwise normal conditions. \n\na few years ago I needed to switch to a syrup version of one of my meds due to having trouble swallowing. Pharmacist asked me far more politely without the mocking about it, and everyone got through it with minimal  awkwardness. The only thing he asked me after switching back to the pill version was if my condition got better... It did!",ParanoidMaron,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My youngest has a massive gag reflex, and it took *years* of occasionally trying before he could get a pill down. In the mean time, lots of liquid medicine, most of it sticky and a pain to deal with.\n\nLuckily, we didn't get any judgemental asshole pharmacy techs. \n\nBonus: Great Pyrenees look very silly with a bottle of liquid medicine stuck to their fur because they nosed it off the counter onto themselves. The same Great Pyr also once needed a shower to get a slice of American cheese unstuck, because my son dropped it on him.\n\nGreat Pyrs are silly.",bug-hunter,1159,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I still can’t swallow pills at 24 years old. Was able to do it a few times as a kid when I needed to take some sort of med for 2 weeks and after the first week I failed one pill and gagged and haven’t been able to since.\n\nHighly recommend crushing pills with the back of a spoon and mixing with Gatorade. I’ve tried doing it with apple sauce, but it just sticks to your mouth and you get the nasty taste. Put the crushed pill in a cup, add half the Gatorade, stir and drink. Keep stirring when needed, add more Gatorade if needed, drink the Gatorade by itself from the bottle if needed. \n\nJust a tip for anyone else in the same boat as me, make sure the medication is fine to be crushed up. Most are, some aren’t. Also obviously asking your doctor if there’s a liquid form is easier, but some things aren’t made that way or have very minor effects compared to pill version and may not help you like they could someone else. Doesn’t hurt to switch it up and try new things (obviously with things that aren’t OTC, otherwise ask your doctor).",luckyapples11,251,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"At the hospital, folks who couldn't swallow pills were given a cup of pudding. Put the pills one at a time on a spoon, scoop pudding, swallow it as normal.",changingchannelz,157,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I feel like this is basically how I swallow pills but with a drink instead of pudding. I put the pill on my tongue, take a big gulp of the drink, and the pill goes with it and I rarely even notice it. For the longest time I thought this was how everyone did it until I saw my girlfriend take her meds and she kind of lubes up with a swallow of a drink, then puts in the pill and swallows that, then takes another sip of drink. Now I’m curious, which one of us does it the more normal way?",onrocketfalls,39,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I do it your girlfriends way because one time I ended up losing a vital pill in a 1l water bottle from drinking AFTER the pill was in my mouth. \n\nHalf a mouthful of liquid, tip head back, open mouth just enough for pill to fall in and bobs yer uncle",ThronesOfAnarchy,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"To counter the other comment, I think both yours and your girlfriend's method is equally normal. I'll give my own method for swallowing specifically capsules, which is to take a mouthful of water and tip my head back, drop the capsules in, lean my head forward so they float up and swallow. It may sound weird but it's the most foolproof way to swallow capsules, with the pill swallowing method of trying to wash it down with liquid I've had capsules melt in my throat multiple times and it's horrible.",SecretNoOneKnows,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Your gf is WILD. She makes it harder on herself. You put your pill/s in your mouth and use a swig of drink to swallow it—the liquid keeps it from being caught in your throat on the way down. You can, of course, wet your throat with a drink beforehand as well (I do if my throat is dry).",changingchannelz,27,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I literally learned how to hold liquid in my open mouth so I could never have a pill in an empty mouth. I can't fathom doing it her way.,ForsakenPercentage53,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That’s how I eased myself into swallowing pills! I would swallow a big gulp of pudding (so as not to feel the pill) and got used to the motion enough to start swallowing tiny pills with water instead. I’m only up to medium pills though, giant things like DayQuil capsules still escape me.",mercurialpolyglot,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I used to really struggle swallowing pills, no particular reason just a sensitive back of the throat \n\nThen I had a failed tooth extraction that left me in agonising pain\n\nSuddenly downing painkillers every 2 hours was a breeze! There was no way I was not swallowing those tablets!\n\nExtremely fizzy drink is my trick, like a freshly opened can, the tablet sort of floats in the fizz and the fizz distracts your throat and makes it go down easy",Tattycakes,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I also had a hard time swallowing pills until I was 25. I found out that you can't dissolve Tylenol and it is nasty tasting. I would dissolve aspirin under my tongue when I needs something for a headache. \n\nI started slowly swallowing small pills such as the small Sudafed pills and birth control pills before I could work my way up to normal size and slightly larger pills. I still can't swallow very large multivitamin pills.,PDK112,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I used to have issues and I had luck tucking a pill inside a Mac and cheese noodle. For some reason my brain was chill with swelling intact pasta when it wasn't ok with pills.,notthedefaultname,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I really appreciate your suggestion, as I am now suddenly in possession of an 18 year old and she struggles with pill swallowing. She’s doing okay with applesauce, pudding, or yogurt, and we’re switching what she can (fiber gummies instead of capsules and birth control implant instead of pill) but if that fails at any point, this is good to know.",Goda6511,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm sorry you had to tell her why, but good for you for standing your ground. It's insane to me that a pharmacist (or maybe just clerk, depending on the place) would be that mean spirited - it doesn't affect her job to give you what your PRESCRIPTION said, as if she knows better than you or your doctor \n\nHopefully the medicine isn't for an emergency, and that you'll be able to get it soon!",Summery_Captain,3997,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Ah I mean \""angine\"", it's throat ache, heavy lungs because they are full of mucus, running nose, migraines and the head feeling heavy, but the medicine in question is more about healing the lungs.\nIt can either heal on its own or become worse like pneumonia.\nGoogle translate misled me!",StatisticallyMe2,35,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Given that I've been into r/ChronicPain and personally seen them talking about how frequently they've been refused their PRESCRIBED pain medication after handing over their PRESCRIPTION at Walgreens and a good few other pharmacies, maybe it's not just French pharmacists who mess with people's prescriptions.",JacLaw,16,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"It’s amazing how snarky and rude pharmacy workers are to pain patients.  They really act like anyone who needs those meds is a drug addict who just can’t suck it up.  It’s disgusting.     \n\nI had one tech who was in pharmacy school at cvs lecture me about being addicted because of how long I have been on my meds while in the drive through with my husband driving; she refused to dispense the medication I have been on for years.  I had a severe spinal trauma that punctured my spinal cord  and crushed multiple vertebrae;  caused partial paralysis and intractable pain. I have had had multiple reconstructive surgeries as well as device implants for pain management.  It is a degenerative condition and my opiate dosage had at that time been stable for years with no need to increase (with the exception for surgeries and trying different medications) with adjustments to support medications (It has only recently increased due to further degeneration).  It took a lot of phone calls but I finally got a complaint through, and  not only was she let go from her job, she lost her certification and  it was even passed on and she  was dismissed from pharmacy school for practicing medicine.  This was after the lawsuits cvs had.  Sadly those didn’t change the attitude towards pain patients.",Apprehensive_Run_539,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Op could have had a condition where she physically can't swallow a pill. Or she could have like 3 sick kids, all with the same thing.",Ketzer_Jefe,160,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Look into getting a commercial grade pill crusher, it makes everything easier.",Noladixon,23,r/traumatizeThemBack - cant swallow pills adult
+Reddit,CVS (in the states) sells a pill crusher that's smooth as butter. The grip on it gives great leverage and makes it really easy to crush even large pills.\n\n[CVS Pill Crusher ](https://www.cvs.com/shop/cvs-health-deluxe-pill-crusher-prodid-869091),vidya2345,18,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Don't crush pills unless you verify it's okay. Many medications are now timed for release or in the case of certain opioids rendered inert when crushed. \n\nYou can end out with ulcers and/or a huge bolus of medication that ruins your digestive system or organs.,"""[deleted]""",34,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Also, it’s fine for a pharmacist to verify the prescription with the patient if the way it’s been written is outside of the standard prescribing protocols for that medication. It’s part of their job to ensure that the doctor didn’t mess something up when they wrote it. But once the patient confirms that the prescription is correct that should be the end of it. After that, if there are still serious concerns regarding dosage or drug interactions, then that conversation should be with the prescribing doctor, not the patient.",merianya,96,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"\""You know it's for babies? you can have higher dosage in pills\""\n\n\""I know, I need to triple the dose, it's easier for me to take the medicine that way.\""\n\n\""ok\""\n\nWould have been a completely acceptable conversation. But everything that was said after OP answer was clearly unprofessional.",Argorian17,60,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I was going to say, as a pharmacist shouldn’t she be used to people who have issues swallowing pills for a variety of reasons? Why would that be a question she’d even ask someone? Suggest a pill crusher and that pills may be an easier format of the medication. If they decline say okay and to have a nice day.",Nells313,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Though to be clear: Sometimes the doctor's *intent* is incorrect too, because they're not experts on the medication itself. They might've missed an interaction with another drug like you said, or given the wrong dose for the indication, or failed to account for high/low metabolism or liver/kidney failure.... Or even just prescribed it in a way that it won't be taken up (lipophilic drugs on an empty stomach, for example). Knowing all that isn't their (doctors') job. That's why there's always a pharmacist to check their work. \n\nAlso to prevent intentional poisonings.",JadedElk,16,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I've had the pharmacy phone the doctor's office to clarify before. I'm in Germany and the system is similar to France. They might have confirmed with me about syrup Vs pills. However they are always very friendly and helpful here. ,VirtualMatter2,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Or an allergy to a binder used in the pill.,CaeruleumBleu,25,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Thyroid enlargement, trigeminal neuralgia, MS, Parkinsons, esophageal strictures, postoperative pain, nausea/strong gag reflex … that’s a SHORT list of things that might make a liquid medication preferable to a tablet. \n\nThe doctor wrote the Rx that way for a reason, dumb nutz.",perseidot,47,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"For real. I struggled with swallowing pills for probably the first 30 years of my life. No idea why, my throat would just close up when I tried. I've finally started to get better at it lately, but even now sometimes I end up having to spit a pill out and try again. It's infuriating but man, don't people like that think that I would get over it if I could? Like trust me, no one is enjoying this!",ScroochDown,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Good for you, she was amazingly rude.\n\nIf you have to take a pill sometime, put it in a spoonful of jelly. I've been doing this since I started taking calcium pills, which are enormous, and it goes down very smoothly.",freerangelibrarian,918,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I second this, I'm better at swallowing pills than I used to be, but when I have trouble I like to put them in something like this or spoonful of yogurt which is easier for me to slide down.",Kot-Blue,300,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Tiny pieces with yogurt works for me, I just tend to chew it, most pills don't taste good LOL",StatisticallyMe2,415,r/traumatizeThemBack - cant swallow pills adult
+Reddit,A spoonful of applesauce is a good alternative to swallow with a pill in it. Hopefully you can just avoid jerks who judge you for taking liquid medicine,Diligent-Variation51,172,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"When liquids or smaller, \""easy\"" pills weren't an option, I trained myself to swallow big pills by burying them in spoonfuls of Mac n cheese.\n\nI'd make a little cup of that microwave easy Mac and have myself some lunch, and the gooey, slippery cheese sauce helps noodle and pill alike slide right down without any chewing at all.",wallyTHEgecko,44,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Hmmmm if you break the pill up it may not be as effective. Many pills are coated so they release slowly as you digest them.,Super_Reading2048,72,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I think the biggest problem would be with depot medications which are designed to only release the medication little by little. If you crush them you get the full dose immediately, which can be dangerous, and you won't get the effect later during the day.",PainterOfTheHorizon,47,r/traumatizeThemBack - cant swallow pills adult
+Reddit,My point was more she should tell her dr that she crushes her pills; so the dr can adjust her medication if need be.,Super_Reading2048,21,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Doc probably knows and if she's like me, she double checks with the pharmacist when she picks pills up. My ADHD meds are chewable, my anxiety meds are liquid, and anything else I get we figure out what I can do to get them down without swallowing. Some I break up, some are a powdered capsule and the pharmacist says I can dump it in applesauce (the covid meds were great for this).",Awesomest_Possumest,18,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Depends on the pill and what it's for, from what I understand. \n\nAs a nurse once explained to me, some pills are designed *not* to break down until deeper in the gut to tread certain conditions/diseases, especially if that's what the pill is targeting, and cutting /grinding up the pill can make it less effective as it does not reach the target area.\n\nIf I'm incorrect, please feel free to let me know the correct information or where to find more info on it",Path_Fyndar,27,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I have trouble swallowing pills for who knows what reason. I have found it easiest to chew something with rough texture, like some full corn bread, and take the pill with mouth full of the mush and swallowing them together. If the texture is too smooth and thin the pill will get stuck to my throat. I just wanted to share my tip in case you end up with depot pills at some point that can't be crushed.",PainterOfTheHorizon,29,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Redi whip, the stuff in the spray can, helps so much. A little squirt, drop the pill, swallow. Reward squirt. The oil coats your tongue so you don’t get the nasty taste in your mouth. \n\nI have a family full of people who gag on medicine, it seems to work the best out of all the tricks. \n\nGood for you OP for standing up for yourself. Hopefully she learned a lesson and it won’t happen again. I’m so glad you’re still here.",littlescreechyowl,18,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Try and find something with a strong flavor (that won’t interfere with the meds) to chase it with.\n\nOccasionally I don’t realize how much pain I’m in so I’ll chew an otc tylenol or aspirin to help it hit faster, and then swallow the second pill so it hits normally. \n\nI also have some kind of reaction to hydrocodone where if I swallow them whole it makes me extremely nauseous. Chew them? I’m fine. Tastes nasty AF though.",shouldbepracticing85,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"For me it was a bite if an apple chew and put the pill before swallowing so it's still whole but don't feel it at all. With yoghurt it never felt right cause the texture wasn't right but chewed up apple is expected to have chunks, had been warned to nit break up pills cause they can either nit work right or just release all at once so it's a giant punch to the system rather than doing what it should",TurtleKwitty,5,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Breaking the pill up or dissolving it and drinking it changes the rate at which your body absorbs the drug. For your own health and safety, I'd encourage you to keep slowly trying to get over swallowing them whole. I'm sorry about your trauma and hope things are better.",The_Oooga_Booga,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"My fifteen year old can't swallow pills. My new plan is to make jello jigglers, cut them into small as needed squares and push the pill in that - should slide down easily 🤞. (we have used mini M&Ms for practice  in the past since they are so small and if she has trouble swallowing it just eventually melts and doesn't taste nasty).",Naive_Pea4475,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Pls make sure the medications are okay to chew. Most are SWALLOW WHOLE / DO NOT CRUSH. Depends on the type though; extended release, slow release, delayed release.",DihDisDooJusDihDis,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I'm sure you've tried a bunch of things, but just in case this one works for you, my go to is peanut butter. It tricks my brain into thing I've \""chewed\"" it, so therefore it's safe to swallow. And it's thick enough to really coat the feeling of the pill itself.",kimuracarter,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Applesauce works too! If you get one of the cups, put the pill (whole or in pieces) in it and eat it like normal. That's always helped me, ever since I was a kid.\nGood luck with your medication and good job pushing back at that pharmacist/cashier! She absolutely should not have been asking such condescending questions. I'm sorry you had to deal with that and I hope your next trip to the pharmacy is less stressful!!",kunstscifem,28,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Applesauce that comes in pouches can make it easier to swallow pills. Put the pill in the spout, and then take a swig, pill, and all. When your mouth is cupped around the spout (a fat straw works, too), it naturally positions your tongue in a curved chute shape so that the pill is less likely to veer off into your cheek area.\n\nThis video is also helpful for alternative methods for swallowing pills.\n\nhttps://youtu.be/Zxqs7flHJQc\n\nI hope OP got her meds from a more understanding pharmacy and that she reports that clueless employee.",stoicsticks,33,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"You did an extraordinary job!! That cannot be understated, truly — I sincerely appreciate you putting this together, though my heart just breaks for OOP. Excuse me while I go cry in a pillow.",AnFnDumbKAREN,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I can tell you that it's rare for a parent to be prosecuted in any way for physically abusing their child. My dad gave my sister a black eye and the cop gave him a citation for like $50 and dismissed it as \""typical teenage girl drama.\"" This stuff happens every single day. He once beat and choked me in front of half a dozen other parents, and not a single fucking one of them made a peep.",RedneckDebutante,125,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Dont forget in the first post step mom and dad are married and then it gets clarified that they’re “only engaged for now” too lol,Much-Improvement-613,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"At 34 I have a terrible gag reflex but found using a straw or water bottle for the water when I take it helps 80% if the time. Sounds like your youngest has it worse than me, but hopefully it can help.",Ginger_Anarchy,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Man. I had an issue at a pharmacy, except it wasn’t the pharmacy assistant’s fault…it was with another customer.  I lost my ever loving shit. \n\nThey were super busy and overwhelmed. I got up to the counter and they were just finishing my script, but asked if they could help the people behind me. So I stepped off to the side. It was a couple in their early 50’s (?). The poor assistant was trying to help them, the phone was ringing off the hook, and at the same time the pharmacist handed her MY prescription assuming I was still at the counter. \n\nShe obviously thought it was the couple’s she was helping, not mine. So she set it on the counter in front of them and had to pause to answer the phone. As they were standing there, the dude grabbed the prescription and (I was maybe 10 feet off to their side) said “This isn’t ours!  It says *(my full fucking name)* on it!”.  He turned to his wife and said, “Do you know what this medication is?! ITS METHAMPHETAMINE. *METH*. Doctors actually prescribe people SPEED?!? And this pharmacy actually fills it for them?!? What the hell?!”  \n\nThe thing was, they weren’t quiet. Everyone in line behind them could easily have heard it, as I did from 10 feet away. And no. It wasn’t fucking meth. It was Adderall aka Amphetamine/I-Amphetamine Salts. \n\nThey continued to talk between themselves about how irresponsible it is that a doctor would prescribe this and Yada yada, a bunch of bullshit.  Now I am non confrontational to a fault. But oh man. This really chapped my ass. As out of character as it was, I couldn’t seem to stop myself. \n\nI stepped closer to them and said: “Excuse me, is that YOUR prescription?”  Them: “Uh…no…?”  Me: “Then stop talking about it.  Loudly. Once you saw that it wasn’t yours, that should have been the end of it. It is NOT appropriate to openly discuss and criticize someone else’s medication or the appropriateness of it. So DON’T DO IT.  By the way, you’re wrong. It’s not meth anyways.”\n\nBy that point the assistant was off the phone and heard the back half of my spiel. I just stepped back to my waiting spot and allowed her to finish ringing them up. They obviously walked away so as to avoid me. Which was fine. When I went up to the counter the woman was very apologetic.\n\nI told her no big deal. Accidents happen. My issue wasn’t with her unintentionally showing them my script. It was a mix up. My issue was that they weren’t behaving like a couple of adults who should have had a least a tiny bit of common sense between the two of them, and that they were being rude as hell - and loud. All at the same damn time. \n\nI felt bad for her because she was obviously bracing herself for me to be upset.  I mean, it was her fault technically, but shit happens. Any idiot could see they were all scrambling to get stuff done. That couple though. Hot damn. I just couldn’t believe the 1. Audacity, 2. Lack of situational awareness, and 3. Lack of reading comprehension.  \n\nLike do I care if people know what medicine I take?  No. But it’s a controlled substance that gets abused, so I don’t exactly want that being yelled from the roof tops. Especially as I, a woman, am about to walk alone to my car in the evening with it in my purse. AND I don’t prefer to have a bunch of random people thinking I’m doing meth (especially because I’m a vet tech in the same small city I was in), nor do I want them to think that CVS has meth just chillin behind the counter.  It’s not a good look. For me, or CVS.",CatmoCatmo,386,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"People don't realize that ADHD basically makes stimulants non-recreational.  Like, you don't get the \""fun\"" parts of it, you don't get high.  If I took meth it would just ensure I unloaded the dishwasher and organized my closet faster than usual.  It wouldn't be euphoric or enjoyable. \n\nI got diagnosed with ADHD in college and I experimented with my prescription once or twice to see if it actually made a difference - I crushed one of my Focalin tablets and snorted it to see if I'd actually feel any kind of pleasant sensation.  All it did was make the normal drug effects kick in a little faster and make me have weird opaque yellow mucus when I blew my nose for the next day.\n\nI have pretty \""bad\"" ADHD and I take the max dose of Adderall my insurance will pay for, about 3x as much as most of the other people I know take for their ADHD.  And stimulants genuinely don't do anything for me besides make me able to sit down and focus on work for a couple hours.  The only time I ever felt \""jittery\"" was when I drank 12 cups of coffee over a span of maybe 5 hours while finishing up my undergraduate thesis the night before it was due.  I would have to drink 2 venti coffees every morning just to have a chance of staying awake in my 8 am classes.  Stimulants just don't work on our brains the same way.",Carbonatite,53,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"A pharmacist here 🙋‍♀️\n\nFor what it's worth, I once had a lady come in with an expired prescription for an ADHD medication for her mid-20s son (her attitude made me suspect they didn't bother even attempting to fill the prescription within the 30 days the prescription was valid).\n\nI told her they'd need a new prescription but I could take her number and call when we got some packages of the medication delivered (it's in shortage, it's notoriously difficult to come by; with some doses we get 1/2 packages every 6 months), but to look into other pharmacies too, since we already have a waiting list and I can't guarantee anything. And she got mad AT OTHER PATIENTS, saying they were probably using it instead of amphetamine.\n\nSomehow her phone number ended up at the veeeeeery end of the waiting list 🤷‍♀️\n\nNobody will insult my patients. Especially if I can smell the waft of hypocrisy in the air.\n\nI'm so sorry you had that nasty experience 😔",medu_nefer,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"There are MANY cancers that fuck with the throat and make eating or any kind of swallowing difficult.\nSome cancer patients can only do a liquid diet or eat baby food cause it’s easier, or protein shakes.\nRidiculous that this pharmacist hasn’t been exposed to cancers/diseases/experiences that make swallowing difficult. That should’ve been covered in schooling. Pharmacists have a college, you could report them for being rude. Maybe it would get them to take an empathy course or one where you don’t comment on medical crap. You just give out the proper information",lucygoosey38,187,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I’ve been to France twice and got sick while there both times. The second time, I and my parents (they’re awesome and we have a good relationship so they brought me, their 30+ year old son, with them lol) caught COVID. Since I’m the young one, I went to the pharmacy to get the meds. I had learned about how pharmacies work differently on my first trip when I got sick. It’s about as different from a CVS or Walgreens as you can get but the woman at the counter who helped me was so patient with my shitty French (her English was rough but better than my French) and so helpful (gave me meds plus an assortment of vitamins she thought we’d need) and basically I’m just telling this story to say my experiences with French people have been really nice. My goal is to go back again, either with my parents or just with my girlfriend, and get through a whole visit to France without getting sick..",onrocketfalls,94,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"So many reasons why a person may not be able to take pills. What if they had scar tissue, throat cancer, paralyzed esophagus, etc? \n\nThat lady wasn't just nosy and judgemental, she was ableist while working in a pharmacy. That was not the job for her.",Silaquix,85,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Kinda curious - do other countries not offer pills in powder form? Like when people get their medication, they can just ask the pharmacist to grind them into powder here where I live. It's kinda necessary because a lot of the pills are too large for children to swallow and don't come in liquid form.\n\nOn that note...why do they make some of those pills so freaking large?! My multi-vitamins are like, 2cm long each and while I *can* swallow it, it always make me feel like I'm on the verge of choking on it while swallowing. They also make it thick enough that I'd have to chop it with a knife or smash it with a hammer if I wanted it smaller. So inconvenient.\n\n\n\nEdit: Thanks for all the responses about the different types of oral medication that would prevent the pills from being able to be portioned/crushed into powder form! Very informative and interesting to know.",Kadaaju,118,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Can depend on the medication—some pills/capsules are formulated to be taken whole, especially if it’s a controlled/extended release medication, so grinding/cutting/crushing is not recommended.  As ever, doctors and pharmacists may work to find a different dosage/schedule/route of administration for a medication that works best for the patient, but not all pills can be crushed and some really shouldn’t if they’re made to work a certain way.\n\nBut also pill-cutters and crushers can be bought to use at home, and the crushed fragments mixed with applesauce or something or swallowed with water.  (Careful with things like yogurt as calcium can affect absorption of some medications and vitamins.)",CharlotteLucasOP,138,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I see, interesting. I've watched the pharmacists work; they'd measure out the pills, grind them, weigh them, then evenly divide them into portions onto those plastic/paper thingies (I have no idea what to call them) before sealing them into individual packets for the patient to take. So I kinda figured that was the norm.",Kadaaju,18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Are US pharmacists still measuring out the pills on the prescription at the pharmacy?\n\nWhere I live all medications come in sealed boxes/bottles clearly labeled and with a leaflet containing ingredients, instructions, warnings of side-effects and drug interactions, as well as what to do if you miss a dose or overdose. Although a few times I've gotten like 30 out a 100 pack if they don't have the 30-pack in stock, but then the pills are blisterpacked.",Eldhannas,28,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yes, at least where I am, they give you the exact number of pills required per the prescription, in one of those little orange bottles. You never see the original packaging (if there is one) and there is no leaflet. The name of the patient and the prescribed dosage are printed on a label they stick to the bottle.",pimpampoumz,23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Pills here in the UK are all blister packed , as a suicide prevention measure. So many suicides are so impulsive that the little bit of time and repeated deliberate action to take a whole bunch of pills out of a blister pack is surprisingly often enough to allow people to reconsider.\n\nIf you need a different amount of pills than comes in the original cardboard box the pharmacy will repackage them in a plain cardboard box, cutting sections of blister pack as necessary (occasionally you get a whole box of randomly sized offcuts if the pharmacy has a buildup of them)",Ech1n0idea,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Effectively yes, it's not exactly a blister pack, but most pharmacies offer a service where they will pre-package all your medication into a tray with individual spots for each time you need to take your prescriptions - so all your \""Friday am\"" medications, for example, are in the same spot for you to take together \n\nThere's some eligibility requirements for the service (don't know what, I've never needed it), as I imagine it's a bunch of extra work for the pharmacist/dispenser.",Ech1n0idea,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I work in healthcare supporting patients on multiple meds, we get ours in plastic packs on a “roll” with the patient name/date/meds/dose printed on the plastic, and we just tear that date and time off the roll and rip open the pack for the pills.",CharlotteLucasOP,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I don't live in the states, so I have no idea! 🫠 All pill-related knowledge I have of the US are what I've seen in various media and what comes to mind when I think of United States medication are those orange bottles with labels on them.\n\nHere it kinda depends. Sometimes you get them all sealed in their original blister packets, placed in another packet with the instructions and side-effects etc. printed on them.\n\nSometimes you get them each in a single packet with all the other pills you need to take in one sitting thoughtfully portioned out by the pharmacist but often annoyingly doesn't come with labels so you have a hard time figuring out which pill is which until you figure it out by individually googling each pill's appearance.",Kadaaju,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Tacking onto this, very pharmacy store I've been to usually has cheap pill splitters or grinders available as well, frequently right next to the pharmacy counter.",Nyxelestia,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"At least one of my medications can cause serious stomach problems if it’s crushed up, the pills have a coating on them that doesn’t dissolve until it’s moved past the stomach. Thankfully they’re tiny!",snootnoots,36,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This was in France.\n\nIn the EU pills are in in blister packs or other sealed packaging. The pharmacists do not open any packaging coming from the manufacturer. \n\nThey may make some medicinal stuff in the pharmacies (like rash cremes for example), and there are some powders for headaches made on-site etc.  But these are pretty rare.  Most people want to buy the manufactured & sealed stuff from the big name Pharma companies, because they usually have a longer expiration time.",Witch-for-hire,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Adding to what others have said, more and more pharmacies in the US specifically are no longer offering compounding (which is when a pharmacist makes a custom medication, e.g. grinding up a tablet to make it into a liquid). There are more and more regulations surrounding compounding (USP 795), so especially a lot of corporate chains that have dedicated people looking at compliance would rather just no longer compound. As an example, having carpeted floors is no longer allowed since carpets are pretty nasty, but many pharmacies have carpets and it'd be really expensive and logistically difficult for a big national chain to redo the flooring for all their locations.",symphonypathetique,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My new iron pill, specifically recommended for pregnant people, is also massive (~2 cm). Another side effect of pregnancy? *Ridiculously sensitive gag reflex*. 🙃",benjai0,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Iron pills are huge! My friend just had some. \n\nI occasionally get given those size pills for two of my medications, and hoooooo boy it’s a fucker. They like to change up the size shape and colour of all my medications on any given month. These days I pray for no horse pills and no capsules. Both are hell for me to swallow apparently",thebearofwisdom,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Not all medications can be a powder.  Some are extended release so they have a special coating that dissolves slowly.  This way, you get an even amount all day.  Most medications kids get can be made a liquid.  Many medications adults get cannot.  Also, some medications handle being in liquid better than others.  Some medications cannot be in powder or pill form, the liquid is part of what makes them work (lactulose is a good example).  Ask your pharmacist before cutting, crushing, breaking, or dissolving any medication.  You don’t want to overdose.  Also, congrats on being healthy enough that you aren’t familiar with the different forms medications take!  I really hope that’s why and not limited healthcare.",Licsw,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I know! Those goddamn horse pills, and so many of them aren’t even coated or anything to make it easier. \n\nI’ve always had difficulty swallowing pills and at this point I’m okay at it, as long as I’m using a thicker liquid (milk, OJ, protein shake, etc). I wish at least they would vary the size of pills, I’d rather take two small ones instead of one horse pill.","""[deleted]""",21,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My method is to tilt my head up while my mouth is full of liquid, wait for the pills to sink to the back of my throat, then do a big gulp so that it goes down quickly. I do the opposite for the pills that float by tilting my head forwards, wait for the pills to float to the back of my throat, then swallow. It's saved me a lot of gagging over the years.\n\nBut yes, for the love of all that's holy and unholy, make smaller pills please.",Kadaaju,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yeah, I learned the sink/float trick (contingent on the type of pill) but it still just is so tiring and aggravating to have to fight my gag reflex all the time. And then people are like, “You just have to do it MORE so you get used to it!” Fuck off. I’ve been taking 10 pills a day for about 20 years, this is as good as it gets. Thank God that more things are available in gummy form these days.","""[deleted]""",15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I've never seen/heard about preground pill options. Although that may be because pill cutters and pill grinders are all over in the vicinity of pharmacy counters. \n\nVery useful for powdering medication for cats. Mine knew how to eat pill-stuffed treats without actually eating the pill, so we had to change tactics.",Brandywjn,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,It's usually more expensive to manufacture it multiple ways from what I can tell- I also can't swallow pills (over sensitive gag reflex means I choke immediately or it simply never goes down even with 4 full cups of water)\n\n\nWhen the doctors here offer you alts (if you mention it) they also try to guilt you into just managing with the solid medicine by dangling that say the suspension liquid form is £200 a bottle for the NHS Vs like £15 for pills..BC most don't believe you genuinely can't swallow them. \n\n\n(Surprise surprise when the meds end up less effective BC you're having to crush and mix it with yoghurt or something simply to consume it...)\n\n\nSorry about your multivitamins though that sounds super awful. I wonder if they'd be smaller as individual vitamin pills?,riflow,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I just wonder why they can't make them small to begin with, and then have people take two if one isn't enough to cram everything in it. 😔\n\nAnd some manufacturers DO make them smaller...I've noticed that the Japanese tend to make smaller vitamins and simply have the consumers take more than one. It's the ones I have that were made by American manufacturers that are huge.\n\n>Sorry about your multivitamins though that sounds super awful. I wonder if they'd be smaller as individual vitamin pills?\n\nDepends, I guess? Zinc is smaller, but C is still huge and pretty much the same size as the multi. Which, why??? 😭",Kadaaju,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This aversion to swallowing pills is not just trauma. Your body remembers what you ate shortly before becoming nauseated. It is someting that many mammals share. I once got sick after eating ham. The illness was unrelated but it was years before I could eat ham again.,WorldWeary1771,160,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I’m still off rice from the last time I threw it up. I was sneezing rice for two days - it was awful. And I have one prescription that is always done in liquid for me - erythromycin. I take it for gastroparesis and it’s a tiny dose for six weeks. For whatever reason, only the liquid works for it. Magic!",sparklestarshine,52,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My 87 year old dad was diagnosed with oesophageal cancer in December, and he was prescribed liquid paracetamol as he couldn’t swallow pills due to obstruction. It turned out to be the same stuff we give my six year old, just in a different bottle. I’d have ripped a pharmacist a new one for any judgement on that.",sayitwithtriffids,41,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,ironically i’m a pharmacist who can’t swallow pills 💀,jentleschreave,53,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I also can't swallow pills and I cheer this story. It's hard to get the point across to some people and having to share that with a jerkass stranger...\n\nI'm glad these days I have doctors who will work around my gagging issue and get me chewables.,jenfullmoon,55,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My Nan who had dementia couldn’t swallow pills (she struggled before mind you) and the damn hoops I had to go thru to get her, her meds that weren’t like damn horse pills was too damn high!",lizziemoo,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I do a lot with people with swallowing problems. \n\nDiscussions I have include:  \n- can you swallow tablets  \n- if you need liquid do you need a certain level of thickness of liquid  \n- is cost an issue  \n- long term or short term treatment \n\n\nSometimes it’s better to give tablets and have them crushed and mixed with something else. Sometimes the only liquid available means the patient needs to swallow a LARGE amount and this can become cost prohibitive.,CatLadyNoCats,21,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Some people just simply can't swallow pills. Would she rather they try and choke?,piemakerdeadwaker,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My husband was preparing to get a vasectomy and had a prescription for some medicine to take before the appointment. The lady behind the counter filling the prescription was young, clearly new, and in her attempt to make small talk with my husband she asked him what kind of surgery he was having. My husband just stared at her for a minute and said bluntly, \"" vasectomy.\""  She went white and got super awkward. Hopefully she learned her lesson about asking too many questions.",fitsofhappyness,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm a retired pharmacy technician. I've handled prescriptions for liquids for an adult who couldn't (or wouldn't) take pills, as well as children, cats and dogs. I told one co-worker not to give someone else the 10mg Prozac pills but to dispense the same strength capsules to her patient, because I special ordered the pills for a cat. Our pharmacist moved heaven and earth to get two liquids for a Downs Syndrome patient who couldn't manage pills and needed the meds right away.\n\nBeing rude, judgmental AND downright nosy just doesn't work in a business where we have to NOT tell an estranged parent that their daughter is on birth control and definitely not divulge who is getting Viagra.",Flimsy-Wolverine-663,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"After I had my son, nurse had to get orders for me to get medication IVd into me because I have a phobia of taking medication.",punkboxershorts,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My 64 year old mum hates taking pills and would rather be in pain than swallow a pill, my 34 year old best friend struggles with pills as well. They don't have any traumatic reason, some people just struggle or hate them. \n\nIt is not her place to decide she doesn't get what her doctor prescribed because she's a judgy arse.",lynng,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I actually have a funny story about exactly this.\n\n\n\n>Me: Sorry sir, we will have to order this for you.\n\n>Patient: Oh, that’s too bad. Why?\n\n>Pharmacist: We don’t have (medication) in liquid form, do you need it that way? We have tablets.\n\n>Patient, thoughtfully: I don’t know, actually, why don’t you switch it to that so I don’t have to come back.\n\n>Patient’s wife: You don’t have a throat, dear. \n\n>Patient: Oh yeah! (To pharmacist) They did say something about that after the surgery. I’ll come back tomorrow.\n\n\nI miss that pharmacy…lots of lovely old couples who had been coming to my pharmacist for years. I will never forget some of the conversations.",Egrizzzzz,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,My husband doesn’t chew pastas like macaroni and he would put pills in those.,LimitlessMegan,26,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I'm so glad he has a solution but not chewing pasta is wild lol,didntreallyneedthis,18,r/traumatizeThemBack - cant swallow pills adult
+Reddit,This sounds more like how I make my cat swallow pills lol,Gifted_GardenSnail,5,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"My mother used to crush pills and mix them into a big spoonful of creamed honey, if they’re bitter (or you just like honey) it helps a lot",snootnoots,7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,That does work great for most pills. Unfortunately some pills specifically state not to crush them up.,jenyj89,8,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Little vanilla ice cream works well for the extended release pills if you have to take them! I use it for my peeps at work when they can’t take their pills,Away_Perception_9083,7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I've used peanut butter in the past too to swallow really large pills. The stickiness stops it from sliding off the pill before you can swallow.,Gullible_Leader3182,7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I have a mental block/overwhelming fear of swallowing without chewing. I've tried all the tricks, doesnt matter how tiny it is or how slippery, I cannot allow myself to swallow something whole. I'm completely aware of how absurd it is, yet there is a deep part of my mind that is like \""You can't swallow that, you'll choke and die!\"" and as much as I try not to believe it, it wins every time.  \n  \nI have a hard time swallowing food pretty often like if I haven't chewed thoroughly or Im eating too fast, and choked on many many things as a child including an ER trip involving a penny lodged in my esophagus.  \n  \nI think to this day, I have never successfully swalled a whole pill. I've convinced myself if I REALLY had to, I could do it, but Im losing faith in that.",Kryhavok,34,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Strength to you! You can't help how you feel about pills, don't be disappointed in yourself! I hope it gets better for you <3",StatisticallyMe2,15,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Yup! I do this with a spoon of chocolate pudding, I was sick as a kid a lot and hated swallowing multiple pills so the nurses taught my mom she can give me two or three at a time in a pudding cup",Brilliant_Dark_2686,18,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Also a spoonful of yogurt works too! Used to do it all the time for big pills,chima_a,15,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I always stick my pills in my chewed up, ready to swallow bite of dense food, like scrambled eggs as opposed to fruit. I’m less likely to feel it in there as I swallow.","""[deleted]""",12,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Yes same! I basically eat some food. The thicker the better. Ans right before my body wants to naturally swallow the food I can put the pill in my mouth. Chew a few more seconds of the food and naturally swallow the food and pill down. Sometimes it can be a bit hard with extra large pills. The food will go but my body / tongue will stop the pill and I just need to add more / thicker food to trick it.,xyzalwish,6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I am awful with pills. This is a great idea,"""[deleted]""",6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Thank you! I'm going to try this. I don't have an issue with pills, but the bigger ones are tough. I haven't been consistent with taking calcium supplements since those pills are so dang big, but I'm trying to get better about these kinds of things because yay I'm getting old lol",nakedwithoutmyhoodie,8,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I prefer greek yogurt myself. Thick enough to swallow it all and to hide the pill from myself lol.,Gone213,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I’ve recently discovered swallowing a pill with sparkling water works really well! Idk if the bubbles help keep the pill floating in the water when it goes down my throat so it doesn’t touch my throat, or that the bubbles disguise the fact there’s a pill there, but it’s truly changed my ability to take vitamins and medication!",theandramada,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"She was very rude and deserved the embarrassment she got. Hopefully, her colleagues also gave her a talking to and used this as an example of what not to do. She had no business being judgy. For all she knew, you could’ve had a digestive/medical issue with swallowing and it would still be none of her business. \n\nI’ve had to do a similar thing when me & kid both had strep throat a few years back. We lined up the liquid meds like shots & had juice ready before taking them. Mine was chalky and unflavored.  Yuck! I’ve since learned how to swallow pills (now) but for most of my life, I did liquid, chewable or went without. \nShe had no right to shame you, and repeatedly, no less! You never know someone else’s circumstances. Hopefully she learned that day.",njangel94,282,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Try pinching your nose closed while chugging liquid medicine and immediately drinking juice before releasing your nose. Having your nose closed reduces sense of taste,Diligent-Variation51,22,r/traumatizeThemBack - cant swallow pills adult
+Reddit,My SO can’t swallow pills either. He does that same thing & asks for liquid when he can.,ChaoticKare,103,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I also have eosinophilic esophagitis. \n\nI got steak stuck in my throat once and had to drive myself to a hospital. Turns out my choking issue wasn't due to chewing food or swallowing pills correctly. The diameter of my throat was the size of a toddler and I have eosinophilic esophagitis.\n\nMy biggest fear is taking pills so I always ask for liquid if the pills are fairly large.,Kitten_Factory,8,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"For sure she didn't expect that, but come on, it's a pharmacy, it's full of people with deseases and body issues, if you can't be nice to a random woman coming for angina medicine, you shoudln't work in that field!",StatisticallyMe2,301,r/traumatizeThemBack - cant swallow pills adult
+Reddit,For all she knew you had dysphagia and *need* liquids/easy to swallow! 🤦🏻‍♀️,CaraAsha,142,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"There are so many reasons why a person might need the liquid version!\n\nMy digestive system doesn't work properly, and most tablets have absolutely zero effect on me. If I take the same medication in a liquid form, it does work. So I *can* swallow tablets, but they usually won't do anything. I usually have to crush them and mix them with water, which tastes gross. If there's a liquid version available I always go for that. \n\nI also have severe lactose intolerance; lactose is often used as a binding agent in tablets or a filler in capsules. Sometimes the only way to get lactose free medication is the liquid version.",BlueFireCat,37,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I work in a pharmacy as a tech. That was incredibly rude. The only time we ever ask about preference between liquid and pills is when something is out of stock, and we think the patient needs the med today. And we ask politely without judging.",Puzzled_Velocirapt0r,153,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Had she said nicely \""listen, we can give you pills today, or syrup in 2 days, is it urgent?\"" And it would have been fine!",StatisticallyMe2,128,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Do people ever get the wrong type of med prescribed  (like a liquid version of Drug A instead of a pill form of Drug A) and get mad because you're just following the prescription orders, when the doctor was the one who wrote down the wrong meds? Just curious",Path_Fyndar,12,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I'm an intern in a pharmacy and yes, yes we do. But typically, at least with the patients at my pharmacy and with the way we explain it (we're just messengers -- your doc sent in pills but you want liquid, we're doing as we're told by them) then they redirect their anger to the docs lol. Sometimes we get push back (\""can't you just change it to the liquid??\"") but for the most part they reach back out to the docs for the proper drug form!",seaqueeen14,13,r/traumatizeThemBack - cant swallow pills adult
+Reddit,What do you do about extended release pills or pills that clearly state do not crush?,notevenapro,5,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I have no problem swallowing food.  Some pills just glue themselves to my throat, and I'm starting to develop GERD.  Why?  What's the GD difference?!  I don't know, but it's beyond annoying that I have these issues...  Pet pill pockets are starting to look more and more attractive to me!",Minflick,48,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Probably stress, I feel my throat closing when I take that pill in my hand. But I chew a lot my food too. Sorry you have the same issue :/",StatisticallyMe2,24,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"If you are in France (as I suspect from your mistake with angine/angina), they cannot substitute the form of prescription, only the brand from brand to generic, but syrup is syrup and cannot replaced by pill. It maybe the same drug it is not the same form of it and if your doctor pu my a prescription for it, they have to dispense in the same form. Your GP can also write explicitly on the prescription to not replace a brand by a generic, but few are not doing that nowadays. \n\nGood luck, they definitely are not meant for that job if they start to argue like that for a prescription.\n\nEdit: also 2 days to get that bottle is odd when pharmacy in France can order stuff to get delivered on the same day (they generally have 2 delivery per day from the warehouse that sell them the drugs, so at worst depends on when you get there you should get it on the next day. And I doubt strep throat medication is so unusual that they need to come from further away. Even child one.",i-am-madeleine,6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I had to get liquid antibiotics once (oral thrush and throat so bad I literally couldn’t swallow anything but liquid) and the LOOK the pharmacist gave me when he saw the prescription. He was like ummm. I couldn’t talk so I had to write a note to him and he was like “is caramel flavour ok?” And gave me 2 freaking bottles of the stuff. Anybody needing liquid forms has my sympathy after only having to get them the once. Have to drink such a high amount to get correct dose!,Nova_Queen_Tigeress,31,r/traumatizeThemBack - cant swallow pills adult
+Reddit,oh man i wish caramel had been an option when i was a kid. maybe then i wouldn’t have an aversion to anything orange flavored. *shudders* (i literally gag just from smelling anything orange flavored. only exception is when it smells/tastes exactly like real fresh oranges.),IamtheImpala,7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I have the same problem for the same reason, I ***will*** gag them back up. Most people just assume I have a sensitive gag reflex and don’t press it, I have no clue what that pharmacists damage was but your response was perfect. 100% she’s going to think twice before wanting to make judgements against patients again.",Brilliant_Dark_2686,58,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I have a sensitive gag reflex too, but gods I could have gone through the day without her comment!",StatisticallyMe2,29,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"What the heck?! Why is it her business?  I have MS and get throat spasms, which can make swallowing anything, particularly something firm like a pill, impossible.  Like choke and die impossible. Luckily for me not always, but not something I can control at all, and certainly isn’t ‘ childish’!   If the doctor wrote it as a liquid, her job is to FILL the Rx the way it was written. Not have an opinion about it!",gamerartistmama,27,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I get so stressed after my try, that the next time I took a pill, I choked on it. My mother did sort of Hamlish maneuver on me so I vomited it back. If I can avoid that, I do.",StatisticallyMe2,11,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I'm so sorry you had to go through that.  I can somewhat relate.  I don't have an issue swallowing pills EXCEPT for the occasional and completely random intolerance to a pill.  Its presents with projectile vomiting within 5-10 minutes of taking one.  The doctor's think I have some sort of unidentified allergy to a binder which is not in every pill.  So it's Russian Roulette for me if I can tolerate a pill or not.  Super fun.  10/10 would not recommend.  I'd much rather have a liquid, powder, or an injectable over a pill.",waybackwatching,20,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"it should have been, “this is typically for children, i just want to confirm this is what you need and not a computer error!” \nwhen you say yes, the liquid is bettter, i would say \n“i’m glad that accommodation can be made! that’s good to know.” \n\nbeing nice costs nothing.",Pure-Budget-2647,19,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Lots of reasons someone can't take pills that woman needs to learn to STFU. Good on you for shutting her down. You're awesome, OP, never forget it",DragonKat_90,15,r/traumatizeThemBack - cant swallow pills adult
+Reddit,A pharmacist should know that there are conditions where a person physically cannot swallow a pill.,moontiara16,17,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I actually used to be worried about this as a teenager. I was depressed/actively suicidal, but had a sensitive gag reflex which I thought was the only thing saving me. I took kids medicine (chewables, gummies, syrups) for as long as possible and, when I finally went to therapy and was recommended antidepressants, I was terrified that finally learning how to take pills would give me a new way to end things. Took my therapist another 4 months to ease that panic.\n\nThat pharmacist was way out of line and I hope she was gone when you drove past cuz someone gave her a serious talking to",Warriorette12,9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"That’s awesome! My best friend is the same way, he can only take pills in liquid form as well. When he was very little he had to take a pill and it got stuck in his throat. He couldn’t breathe and couldn’t get it out and in the end it severely bruised his esophagus. Now if he tries to take one his body physically can’t it’s like a trauma response. \n\nThat’s a shame that pharmacist made those comments to you. They should definitely know better, if I were you I would leave a review or something.",ging_95,9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"My husband choked on something as a child and is physically/emotionally unable to swallow anything besides small pills.  Our regular doctors know and prescribe liquids when possible.  He has also crushed pills, opened capsules, or used a pill splitter.  I haven’t said anything about it in over 40 years.",Inevitable-Divide933,6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"The Long Term Care Home used pills in pudding for my Mother. Plus, it's  a good excuse to have a spoonful of pudding a few times a day.",BusSouthern1462,6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I'm so sorry she was an arrogant twat, I hope you got your meds quickly and without the attitude!\n\nI know a cheap mortar and pestle can powder pills and make them easy to mix in yogurts, applesauce, or if you're wanting to absolutely kill the taste, a bit of cake icing!",ShadowFuzz-4v9,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Canadian here. We have to document why we dispense things like this, because some insurances will audit. Doctors will get audited for what they write, and pharmacies will get audited for dispensing; that said, it is not right what that pharmacist did. Adults take liquid formulations all the time. There is nothing wrong with that. Any healthcare professional worth their weight knows this.",OmfgTim,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I’m so sorry that the pharmacist treated you that way. I’m a doctor…and I can’t swallow pills either lol. I have anxiety that I will choke on them even though most adults can technically swallow up to the size of a small egg. I have a pretty bad gag reflex too and vomit every time I try to swallow pills. Honestly it’s something that I should probably work on (since in my case it’s more of a “mental block” and I could probably do some exercises to overcome the gag reflex). But I don’t take a lot pills, so it hasn’t been much of an issue",greenchiles787,5,r/traumatizeThemBack - cant swallow pills adult
+Reddit,My brother David can’t swallow pills either without water. Kudos to you for standing up for your rights! ,WolverineEven2410,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Even people who have no problem swallowing pills should take them with water, otherwise they don’t get all the way to your stomach before they start dissolving and a lot of medications can actually seriously damage your oesophagus.",snootnoots,9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,are you saying that you gag on any pill? sorry.,"""[deleted]""",3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"She deserved the embarrassment! I hope she learned.  I've had trouble taking Municex (those things are HUGE) and I put it in yogurt or once when for fun (I was 11ish), I dropped Tylenol in a bottle of water to see what would happen...try that. I've done it in yogurt with my mom too.  You might be old enough to take pills, but there may be other reasons you need liquid..what if you had a feeding tube?",caitlinmmaguire01,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I hope it doesn’t happen to you, but just in case:\nI was the manager at the pharmacy review department of a health insurance company. There are a lot of liquid medications that are dosed for children, and since you would take a larger amount than a child, the insurance may have a ‘quantity allowance’ block on. \nIn that case, your doctor would need to request the higher amount to be covered. \nThe pharmacy can sometimes get a 1time override for this, but generally you might need a prior authorization. \n\nSounds like the pharmacy tech who belittled you was not a very nice person. Being that ignorant to a customer’s health history is unconscionable, and not the mindset a health care worker should have. As a former pharmacy employee, I apologize for you.",sara11jayne,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Don't feel the need to apologies. They're a lot of people who should switch jobs in the medical field.\nAs an adult, I need 3 bottles of that medicine, and to make sure I drink the most of each. Honestly just a little \""I'm not sure insurance will pay for 3 bottle, just so you know\"" I would have thanked her and told her it's OK.",StatisticallyMe2,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"#Do not comment on the original posts\n\nPlease read our [**sub rules**](https://www.reddit.com/r/BestofRedditorUpdates/wiki/subrules). Rule-breaking may result in a ban without notice.\n\nIf there is an issue with this post (flair, formatting, quality), reply to this comment or your comment may be removed in general discussion.\n\n**CHECK FLAIR** For concluded-only updates, use the [CONCLUDED](https://www.reddit.com/r/BestofRedditorUpdates/search?sort=new&restrict_sr=on&q=flair%3ACONCLUDED) flair.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/BestofRedditorUpdates) if you have any questions or concerns.*",AutoModerator,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Price check on Vagiclean, aisle five. I repeat: price check on Vagiclean, aisle five. That’s Vagiclean. We’ve got a customer down here with a full-on fallopian fungus.",Gills_L,1157,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There's a loaf in the oven and I'm pretty sure it's sourdough.,sonicscrewery,797,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Ah so this is what r/angryupvote was made for,jerkbitchimpala,192,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Awful, well done.",QuiteAlmostNotABot,150,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Just in case you don't know, it's a quote from Me, Myself and Irene. ",Uncivil_,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"*Deep inhale*\n\n\""Better put a rush on it.\",putin_my_ass,121,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,A bit too much cheese on the taco.,anewfaceinthecrowd,52,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"JOE, I NEED A PRICE CHECK ON SOME CONDOMS! THESE THREE LADIES HERE WANT A COUPLE OF BOXES OF THE KING GEORGE PROPHYLACTICS.\n\nTHE LAMBSKINS OR THE ULTRA-SENSITIVE?\n\nTWO OF THEM HAVE THE LAMBSKINS, AND THE BLONDE HAS THE ULTRA-SENSITIVE...IN BLACK",SplatDragon00,86,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That episode is hilarious. I’m watching golden girls in the background right now actually.,FlamingoLogical6410,31,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,When my cousin was a teenager she worked at a drug store MANY YEARS AGO and a male customer asked her where the prophylactics were. Her boss was a couple of aisles over and she yelled Boss! Where are the prophylactics? Customer walked away quickly and when she found out what they were she almost died of embarrassment.,CremeComfortable7915,18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Oh noo bless their hearts xD,SplatDragon00,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I pictured Golden Girls too.\nThe look on Roses face is priceless haha\n\nAnd can’t think of this scene without \nCondoms Rose! Condoms! Condoms! Condoms!\n\nCalm down lady, did you just get out of Prison?\n\nhttps://m.youtube.com/watch?v=BpNS8jYniLY",LissaMasterOfCoin,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm so glad I'm not the only one who immediately thought of that.,MalBishop,20,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This is far less embarrassing, but I was walking around Paris once and decided to stop somewhere for a pen for my journal.  \n\nI stopped at the closest pharmacy, figuring it might be like American pharmacies that sell things like pens, then realized I couldn't remember the word for \""pen\"" in French.\n\nSo I started \""Je cherche un... un... pen?\"" with uncertainty.  Her eyebrows scrunched together.  She was clearly confused.  \n\nThen she responded in broken English \""YOU'RE LOOKING FOR SOMETHING FOR YOUR PENIS????\""\n\nWe finally got it sorted out and she pointed me to a nearby \""store that sells many things,\"" which fortunately sold pens.",ghost_orchid,300,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm not french but I want to believe the proper etiquette would have been for you to wiggle your eyebrows seductively when she asked that question.,GreasedUpTiger,62,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Oh lord, that's awful!",LucyAriaRose,1741,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,It was truly humiliating —  but at least it gave me the idea for the greatest feminist punk band name of all time.,amauberge,2092,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ok you're totally right, that would be a *fantastic* band name lol",LucyAriaRose,821,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I read champignon vaginaux in the song scheme of the pont d'avignon children's song.\n\n\nchampignons vaginaux,\n\n ils sont danse, ils sont danse.\n\nChampignons vaginaux, \n\nIls sont danser tous en ronde",iordseyton,356,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"... Dang, no wonder yeast infections are so itchy, if those vagina mushrooms are dancing around to those thrush birds' song...\n\n\nWhich I think has to feature as part of the animated psychedelic music video for the lead single off The Vagina Mushrooms' inaugural album.",Useful_Language2040,145,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thrush birds, or THRUSH birds? /ba dum tss",WildFlemima,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"> Champignons vaginaux,\n> Ils sont danser tous en ronde\n\nnow that's prime flair material",MuadLib,40,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,ADD can be a blessing or a curse.  I choose the former.,iordseyton,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Are you me?,MuadLib,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Reminds me of that scene in Amélie where the agorophobic neighbor is helping the kid make fun of the mean grocer's name.,karifur,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I really want to steal that name it’s so good.,Material-Variety7084,78,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I don't know how feminist they were, but there was a punk band called Vaginal Croutons in Cali in the early 90s.",Audiovore,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,">Mademoiselle needs a cream for her VAGINA MUSHROOMS\n\nI am sorry OP but this has me howling and I need this as a flair. Mods, I beg you 😭",Princess_Thranduil,356,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Agreed, MODS PLS.",NonConformistFlmingo,65,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"big agree, pls pls pls",QUEERVEE,21,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I read it in the thickest french accent I could manage, I'm crying","""[deleted]""",7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,doesn't this sub have DIY flairs?,OneRoseDark,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Don’t apologize. It would be a great honor for me, my vagina, and my mushrooms.",amauberge,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That's terrible, I'm so sorry. And I'm really sorry I laughed like a loon. If I get another yeast infection, I'm gonna call it vagina mushrooms.",Creepy_Addict,96,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,oh absolutely not. i would be on his side of that counter before he could say merde,helpquija,361,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Okay I am very sorry for you because my main medical concern in France was a potential pregnancy (negative, old win but a win) and I suppose culturally, they're keeping that one as hush-hush as they can. Later I realized it was adverse affects from the cocaine. I hadn't done cocaine before that.",natfutsock,222,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,smart public safe imminent fall act ad hoc mysterious quiet grandfather\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*,icyflowers,241,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",136,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Congestion charge for you!,clauclauclaudia,31,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I lived in Paris for some time. I enjoyed it but I have been boiled in many pots and a bit insane. I also don't have any shame and little need for privacy.,haqiqa,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"On a French class trip to Bordeaux, our teacher slipped up and asked for 'pain grille avec preservatif'  instead of confiture at a Cafe. \n\nThe waiter brought her out a piece of toast- with a condom on it.",iordseyton,112,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The same joke/slip works in German,Anthrodiva,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Hmmmmmm.\n\nI’ve been saying that Austrians are everything people say French people are (but aren’t actually). I lived in Austria for years, but had a lovely time in Paris and Avignon after bracing myself for a worse experience.\n\nBut, the one time I mixed up cake and kitchen when trying to order dessert in German (küche vs kuche), the very nice waiter looked at me for a beat or two and said “Est ist rauß” (we’re out). Very kind! \n\nThen again, I think he was an immigrant!\n\nAn actual condom… incomprehensible.",fauviste,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Client is king, after all.",QuiteAlmostNotABot,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"There’s actually a fun French joke about that. It goes something like:\n\n\nForeign tourist: [makes an outlandish request]\n\nFrench server: Sorry, that’s not possible.\n\nTourist: Haven’t you ever heard that the customer is king?\n\nServer: Ah, monsieur, but here we cut the heads off all our kings!\n\n\n…Seriously, vagina mushrooms aside, I loved living in France.",amauberge,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Mine was hands down the most kind person I met in Paris and I'm still as grateful as a 19 year old recovering from cocaine, pantomiming a pregnancy scare could be. I think the only word I said in French was \""please\",natfutsock,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Also, it literally is a contraceptive.\n\nLike she can say what she wants about the foolishness of relying on it as a primary form of birth control, but it very much does act against (contra) conception.",BrowsOfSteel,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Holy shit... Just... Why would you do that to someone?! Wtf?,MaxMouseOCX,55,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I know it’s terrible and embarrassing for you and so on but the mental image of someone sprouting a bunch of button mushrooms in their pants is hilarious,Worried-Penalty8744,45,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ugh. In college I had a UTI, and at the infirmary they gave me a prescription. I took the Rx to the infirmary's pharmacy. I was young and dumb and had no idea what was written on the Rx. The dude behind the counter said in a REALLY loud voice for everyone (it was crowded) to hear \""DO YOU WANT THE CREAM OR THE SUPPOSITORIES?\"" Uh, excuse me? I asked. \""FOR YOUR YEAST INFECTION. THE CREAM WORKS BETTER BECAUSE IT GETS IN THE CRACKS AND CREVICES.\"" Completely mortified, I tried to explain I didn't have a yeast infection. He told me apparently I was diagnosed with one and handed me a box of the cream. I wound up calling my doctor back home and he phoned antibiotics in at a local drug store. This was also the time they left me jacked open in a speculum (why did they give me a pelvic for aUTI ?!) for 35 minutes (there was a clock on the wall in front of me). But that is off topic and a subject for another day.",TinklemeCrinkle,35,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That's so interesting, because all the dictionaries I've checked say it's usually called candidose (candidiasis) or mycose (fungal infection) or possibly muguet (although that seems to refer more commonly to an oral infection), but in German the word for mushroom is also the general term for fungus, so the word for \""yeast infection\"" always reads to me as \""vaginal mushroom.\",bananalouise,32,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"In Russian a fungal infection is called грибок, a little mushroom.  \nAlso champignon is portobello/button mushroom.",funguyshroom,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I’m not sure if it’s the standard medical term — Linguee suggests it as an alternate phrase.\n\nHilariously, I wound up at a doctor in Berlin a few months later because my yeast infection came back… and at that point, I was prepared enough that the German phrase didn’t startle me.",amauberge,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That was straight from Me, Myself and Irene",paulinaiml,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Please tell me you managed to punch him or at least scratch his car.,Dis1sM1ne,64,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm sorry but I'm chuckling at the thought of OP stalking the pharmacist just so they could figure out which one was their car,Jose_Canseco_Jr,44,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My husband and I sometimes call yeast infections vagina mushrooms, but in private. Other times we joke about songbirds nesting in awkward places...\n\n\nWhich would give a Hella different meaning to tweeting",Useful_Language2040,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This gives me a flashback to a month ago when I went to pick up a prescription for Adderall and the pharmacist very loudly announced \""we don't have methamphetamine salts in stock\"" so that everybody within the same area (this was at Publix and the pharmacy is right by all the check out lanes) could hear. ",emmny,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I also had serious trouble buying thrush cream in France as I’d google translated the name for the flower 😂\n\nEssentially just saying I had Lily of the valley over and over 🙃,Agreeable-Common3051,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Migraine is good for that too. Something you can't see, which is horrifyingly debilitating for genuine sufferers, but which people often use as a synonym for headache.  \nSooo many medical people will treat you like a malingerer or a drug seeker",stumpy_the_wombat,489,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I just got fired for essentially making my manager upset that I had to go to urgent care for a migraine at an inconvenient time🫠,IzzyJensen913,233,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That’s so sad. I’ve had to call off work twice because of severe migraines where I could barely make it to my bed safely, and my boss and coworkers are always empathetic and worry over me until I’m back. I hate calling off but when my eyes have spots and I can’t speak and my arm goes numb, I’m not exactly road safe lol",lightlysaltedclams,133,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Until recently, a sizable portion of doctors didn’t even think migraines were real!\n\n“Rich woman’s disease.”\n\nPupil constriction, vomiting, and common symptoms wasn’t enough proof.\n\nNow we can see them as they happen on an MRI.\n\n“Oops, we told people to fuck off for decades.”",ReapingKing,86,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That’s crazy. Also it would be so cool to see my migraines under MRI, I didn’t know they could do that. I’ve had people think I was exaggerating my pain, or that it’s not possible for me to still be feeling after effects even after the actual migraine has finished. My last bad migraine I was out of it for an entire week, I was a walking zombie lol. Shit sucks",lightlysaltedclams,18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Fortunately I grew out of them, but I’m still scared of triggers like bright light, bad diet, lack of sleep…\n\nAlso fortunately (kinda), mine were FAR more nauseous than painful. I just needed the ER to occasionally give me a hip shot of Imatrex, so at least they didn’t think I was a drug seeker.  No way I wanted opiates! Can’t imagine how sick that would’ve made me.\n\n1st time it happened I showed up at the ER unable to communicate, just word salad. They diagnosed me with an acute sinus infection and gave me extra-strength Ibuprofen. Wow thanks, I puked it up.\n\n2nd time I went back, another doctor glanced at me and said “You’re having a migraine.”\n\nAcute classical with aura. Even less common than other forms among men. Not easy getting a rare diagnosis when the doctor doesn’t even believe such a condition exists.",ReapingKing,18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Are you serious? That's grounds for a lawsuit,please tell me you met a lawyer.",Dis1sM1ne,37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Happened last Friday, currently trying to be nice and talk to hr first, lawyer after if needed. Worried they put some bs in my folder despite basically telling me the reason was “I didn’t follow protocol by not telling anyone I left” but my supervisor was told twice, she was just upset about it. HR didn’t even know she’d left the building when I finally was able to leave so I couldn’t tell her that second (after I told her I needed to). Definitely what I needed right now from my dream job, doing great haha\n\nEdit: forgot to mention the second person I could’ve told was **doing cpr at the time** so I figured messaging her was a better option than interrupting that but guess not lol",IzzyJensen913,49,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,NEVER talk to HR first! their loyalty is to the company and they will throw you under the bus. lawyer FIRST,spacyoddity,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I totally agree, problem being I just want my job back as it was basically my dream job :/",IzzyJensen913,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was told by my *neurologist* i could stop in the ER for a specific shot for my migraines. I had one so bad I was puking from the pain; I was having auras. The whole nine yards. I was practically writhing around in pain. Of course, I went to the ER. They made me wait several hours. They offered one of their “super” ibouprofen. I said I just wanted the shot my neurologist told me I could have. Look at my medical records. \n\nI was in that ER literally all night. Almost 12 whole ass hours. It got to be like 1 or 2 AM and they told me that all the neurologists were in bed. They weren’t at 4pm when I first got here!!! I was then faced with a very tired doctor with a very large needle saying, “You can get a lumbar puncture or nothing at all.” \n\nNever went to the ER for a migraine ever again.",Dohi014,64,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ten hours, with what was finally diagnosed as a cracked vertebrae. Because people with back pain are always just drug seeking.",Flimsy-Wolverine-663,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I hate that, even ignoring the pain and constant vomiting, having to explain to someone why I can't even see well enough to read/type anything while I have one isn't a great feeling.",PsychoEliteNZ,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Even if you think it's weird, it's so easy to just... Give them what they're prescribed and what they asked for. It requires literally no effort. But some people just want to sprint head first into the FAFO wall for the shits and giggles, I guess.",Gwynasyn,3969,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Like it's absolutely a pharmacists role to query an odd or unusual script but like politely cos they're often legitimate ,hannahranga,1377,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Silly question- an adult dose is supposed to be for over 110 lbs?  I'm an adult who, um, isn't there yet.  Is that something I should be concerned about?  I didn't realize weight was that important until I tried to donate blood and they were like, \""we'd have to turn around and put it right back into you\"".",Chuffy18,47,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I wouldn't expect (or take!) medical advice from Reddit.  General discussion, and things to add to my \""ask questions, learn\"" list.  Thank you for responding!  \n   My concern is about OTC meds, specifically things containing Acetaminophen.  I quite enjoy having a liver lol. Also things like antibiotics from a Minute Clinic.  I don't know that they always ask my weight.  I'm not particularly skinny, just petite.  My weight is proportional to my height.  So sitting down it could be assumed I am taller/weight more than I do.",Chuffy18,26,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Checking weight is a part of taking vital signs, which should be done at every visit. If they aren’t weighing you each visit, they might be asking if you’ve had any significant changes in your weight and base it on previous measurements. People, especially women, can be touchy about getting weighed, and there’s a trend about people pushing back on providers for asking about it. I understand why, but people also need to realize there’s a reason that your health care team needs that info. (Not saying this applies to you specifically, just a general you!)\n\nThat said, the OTC dose of acetaminophen and ibuprofen for adults is generally safe for anything over 95 lbs (43kg).  Antibiotics like amoxicillin are dosed the same for anyone over 90 lbs (40kg). If you’re below that, definitely talk to your doctor and mention it.",Short-Step-5394,22,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,From this https://www.shropshiretelfordandwrekinccg.nhs.uk/wp-content/uploads/oral-paracetamol-prescribing-guideline-oct-2018.pdf\n\nI’d definitely say it’s worth asking your primary care doctor.,HuggyMonster69,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you!  I was hoping OTC wasn't going to require a calculator,Chuffy18,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,No problem! No silly questions here!,Sombra422,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thank you so much for your reply!  I do think I am appx the size of a 12 year old lol \n\nJust a side note- donating blood regularly can lower the PFA's in your body.  I wanted to do it because I have had family require blood and die on transplant lists, but the PFA's (and potentially microplastics) was a happy bonus :)",Chuffy18,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The progression from the first post to the most recent one is insane…I already thought that he was a POS useless father early on, but turning out to be a pedophilic creep? I hope he rots. Those school officers were useless too, letting her father take her even though he was clearly aggressive and physically trying to remove her.",wizeowlintp,838,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,and that she was saying she was refusing to go with him!! and they let him force her into the vehicle anyway!,fishebake,443,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,In some states parents pretty much own their children until they are 18. Getting a school officer to do anything other than arrest kids for pissing then off is a huge ask. This is also the school that let bullying get so bad her sister has a brain injury. They were probably thinking more about lawsuits than a child well-being - which is what got them in this brain injury situation in the first place.\n\nSchools do not care about students they care about not getting sued.,Amelora,175,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,She says she had bruising on her wrists *and head*. I think she left out a detail (or I missed it). What did he do to get her into the car??\n\nIt sounds like their nightmare is almost over. I truly hope so.,starkindled,64,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I caught that too, and scrolled back to see if I had glossed over something. She mentioned telling the cops about the \""manhandling\"" and that's about the only thing I can think of that would cover the wrist and head bruises.","""[deleted]""",19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"When they found bruises on the younger sister who was home alone & couldn't move. That was when I had alarms going off in my head, but she said he threw something at her abdomen, which is how the bruise formed. Which had me go \""phew at least it wasn't what I originally panicked about.\"" It's sad that I had hopes it was only physical abuse, & then to find out yep, their dad was indeed a creep is gutting. I hope those two girls have nothing but success & love moving forward. They didn't deserve all that abuse, but I'm glad they're safe with their maternal grandparents now.",Prudent-Investment-9,283,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I wonder if part of younger sis' suicidal ideation is from her father's abuses.,thefinalgoat,194,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Sadly, I think you may be right. This is horrific too many adults failed these kids. 😟",Prudent-Investment-9,94,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"wasn't it 'he threw something at her while she was asleep'?  how would she know what happened if she was asleep? I'm guessing that's just a story she was told, and I hope she gets the help she needs to heal.  and that dad rots in a cell til he dies.",DodGamnBunofaSitch,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Honestly I suspect several of the times she was readmitted it was because of the father's abuse, not because of falls. I can't even imagine repeatedly sending this kid back with her at BEST neglectful, at worst physically and sexually abusive, father while she has such a severe concussion. How did everyone at the school and the hospital fail her so consistently??? It's fucking heartbreaking and infuriating.",runicrhymes,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Right? Halfway through, I was thinking, \""Wow, this dad went from bad parent to monster right quick\"", then came the revelation of the abuse material on his phone. If nothing else, there's no way child protection will let the kids go back to his care now. Godspeed to their therapists.",PlasticStranger210,194,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Not to mention CPS needs to demolish that school.,Railroader17,39,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I mean, I agree, but CPS would have no power over the school system. At least, that's the case in the state I live in.",PlasticStranger210,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was really close to someone whose family was really similar to OOP's. Things always escalate, and then calm down. It really messes with your ability to perceive danger.",Familiar_Living_5815,43,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"god, i remembered this one recently because i was still really worried about that girl. Every adult and almost every authority figures have repediately failed these sisters, the only one who cares about them is their maternal granddad and he couldnt do anything for so long because their dad is such a hateful man, and it escalated so far that a 13 year old kid might have semi permanent brain damage? sometimes i really hope posts on here are all fake when the alternative is knowing these two girls are real and suffered all that. paternal grandparents can go to hell, enabling emotionally abusive the pair of them.",openEndedJoke,2822,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This one feels extremely real in every aspect. It's terrifying.,Kat-a-strophy,861,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yep. It's chaotic, confused and without any of the textual bells and whistles we see in the (suspected) fakes.\n\nThis one I'm willing to believe. And my heart cries for those two girls.\n\nWhat's worse, the more oop learns (and shares) about her father, the more I start wondering if there ever even were a drunk driver or if something far more sinister happened to their mom.",JemimaAslana,616,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,">It's chaotic, confused and without any of the textual bells and whistles we see in the (suspected) fakes.\n\nAnd it sounds like a teenage girl trying to tell us what's going on. Like she doesn't understand a lot of the legal \""adult\"" stuff but she's trying to explain as much as she could.",Treehorn8,422,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That’s what sold it to me. It genuinely sounds like a frightened and confused kid. There’s no exaggeration for shock value or buzz words an adult would use to generate interest. It just sounds like a kid who’s scared.,SleepyxDormouse,146,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"These poor kids. I will never understand how people can do these horrible things to their own children. \n\nI hope little sis comes out of this ok. OP sounds like she’s on a good path with the BA/MD. \n\nMay these girls’ futures be filled with kittens, rainbows, unlimited chips & salsa, and flying unicorns.",ChuckEweFarley,47,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I come from an abusive home. It is extremely relatable to my own experience in many aspects. That also makes it really hard to read.,haqiqa,144,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm so sorry. I hope you're doing well now.,JemimaAslana,47,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I am. I was more commenting on the fact that it feels really real for me too.,haqiqa,29,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That's good. Glad to hear it.,JemimaAslana,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Hearing that you have overcome that is a relief. You should never have had to go through it. Breaks my heart that it seems to happen to so many.,Artistic_Frosting693,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think that the rules about keeping families together are there for a reason, but that that means we need more support for kids while we are seeing if this a situation where families should be kept together.\n\nImagine if after being told about their home life, it wasn't one police, but several visits from a social worker per week while they were trying to figure out if the accusations were accurate or a \""problem child\"" being difficult.  \n\nImagine if because of the accusations, social workers came by several times a week to make sure the kid with a TBI wasn't being left alone.\n\nWe need to fund the system, and we need to balance the rights and needs of kids with those of the parents.   Would it suck to be a decent parent and have CPS up in your business?  Yes.  Does it suck more that a child was left alone with a TBI and suffered more damage?  Yes.\n\nI was a kid that didn't push for CPS involvement because I knew how sucky the system could be.  I also watched kids want to live with a relative but that relative couldn't afford to take them in, relatives didn't get the foster care money if they fostered, and they were placed with a foster parent who received funding that should gone to the relative who actually cared about the kid.   I have seen that system change, and there are states where kinship placement does get the foster funding.  \n\nWe need to rework the system.",tikierapokemon,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Shit. I never even thought of that.,thefinalgoat,75,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I kind of wish I didn't either. It's an odd situation my brain created, where a drunk driving fatality is the preferable version of events.",JemimaAslana,58,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yeah, this one everything about it feels real. And agreed absolutely terrifying that the only people these kids have in their corner is a grandpa that dad has done his best to keep away from the kids. \n\nMy heart breaks for them. Thankfully maternal grandpa seems to have his head on straight and is following a good path to help the girls.",Ambitious-Hornet9673,99,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Grosser still is the presence of cp and unexplainable bruises,mayurigod1,582,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Worse still is the implication. I hope that the CP charge gets out and OP's paternal family is forever disgraced,nopejake101,339,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Come now, you don't *actually* think the kind of church they belong to would disapprove, do you?",JemimaAslana,224,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Oh they might, but only so far as to blame OP/OP's sister/whatever child for causing their dad to stray or some bullcrap like that.",concaveUsurper,127,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yup, he was in a high stress situation and she was being a temptress. Never mind that she's a brain damaged 13 year old, it is never ever the man's fault.\n\nThese people are the same people that told a grieving child that it's good her mom died because the guy who hit her now had a chance to go to heaven.\n\nAs soon as a read they were taking her to a faith councillor I knew everything was going to be spun to be her fault. These poor kids.",Amelora,49,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"They would *when it gets out.* If it was just known within the church community they'd cover it up and try to \""counsel\"" the person. If it becomes news *outside* the church community they will absolutely condemn him with everything they have. It's entirely about saving face. Whether or not they care about the crime is one thing, but they will absolutely care that he got caught.",adventuresinnonsense,102,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"But not the grandparents, of course.",PenguinZombie321,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,It's an excuse to get deeper hooks into him. \n\nIt's stories like this which remind me why I fucking hate organized religion.,Visual_Fly_9638,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Right? What did he throw at her at night to cause those bruises? And what was he doing in her room in the dark? God that poor child.,DogsNCoffeeAddict,47,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That's assuming she felt safe enough to tell the truth...I don't particularly trust bruises on the neck like that. Tends to indicate someone was held down.,Coffeezilla,53,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Christ the thought of that breaks my heart.,superdooperdutch,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Then the mention that Nicole isn't Christain. Sounds like a church cult and the OOP and sister may have a chance at a normal life with maternal grandfather.,SnooWords4839,22,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Bullies pick on the kids they think they can get away with hurting.\n\nThey often target the kids being abused at home.,tikierapokemon,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's all gross, not so sure it makes sense to compare the trauma of child sexual abuse and permanent brain damage.",PolygonMan,23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Less a comparison and more so just saying that her situation is worse than initial comment implied. Id say cp and neglect is more gross of a person than someone just neglected,mayurigod1,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The systems broken its always been broken just now these kids have a platform that they can reach out and ask for help and advice from strangers who give more of a shit what happens to them then almost any adult in their lives. \n\nWhich has its own dangers because kids are naive and reaching into the void you might find yourself a worse predator then you’re already dealing with.,SkrogedScourge,239,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"All of this sucks, but I wasn't expecting anything from her family anymore and then the part with her sperm-donor dragging her out through the school and security doing fuck-all.... Damn. People failed her so hard.",IncrediblePlatypus,54,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I kept thinking, \""Wouldn't her grandpa have talked to the school about her living situation?\"" The fact that the school released her into her father's \""care\"" made my jaw drop.",Schneetmacher,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This feels so real to me and my heart breaks for these sisters. Everyone has failed them except for  their maternal grandparents, and even they could only do so much until much recently. \n\nThe dad is a piece of work. I hope he rots in prison.",Treehorn8,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I hope Nicole is proud of the prize she got.,StructureKey2739,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,and people ask me why I am not religious like I'm the crazy one.,Test-Tackles,45,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,FR 😳,throwawaygremlins,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was asked that a lot growing up but slowly, though out the years, people have asked that less and less.  \n\n\nprobably because stories like the OOPs are finally being told...I despise that people have to suffer for others to realize that religion != good.",Ok_Procedure_5853,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There is no bigger hate than Christian love.\n\nThey are all the same when they become this radicalized.,BosiPaolo,94,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm Christian and I agree with you an infinity per cent.,StructureKey2739,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I hope paternal grandpa and grandma are proud of their kiddie porn loving son.  Also, sonny boy's solo trips sound like woman chasing or, God Forbid, trolling for kids.",StructureKey2739,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm a 6'4\"" dude. I didn't have a happy home, and I was physically threatened/intimidated when I was maybe 11-13, but by the time I was in high school my parents weren't about to *drag me out of school bodily after the school decided this was okay while I'm screaming*.",PropagandaPagoda,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ugh, this reminds me of my family. Years of *every* responsible adult doing nothing and hushing the \""problem child\"" when they say anything, an incident that everyone finally *had* to take seriously, and suddenly the whole chaotic mess that was being swept under the rug for years is too goddamn blatant to hide anymore. I hope OOP won't be blamed for \""causing\"" this, but this type of family often acts as if sounding the alarm is the same thing as starting the fire.",sistertotherain9,2336,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm so sorry your family was anything like this. I hope you are in a better situation now.,LucyAriaRose,683,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm grown and doing fine. Hope OOP and her sister get to say the same someday.,sistertotherain9,320,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That sounds like the best revenge. I am glad you are doing well.,Artistic_Frosting693,49,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Triumphant and tenacious ^^^,LadyK8TheGr8,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was the \""problem child\"" too. This was really hard to read and I hope OOP only has a better and better life from here on out.",foundfirstlostlater,202,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I got to be the problem child when I sought help and the \""never does anything wrong\"" child when my mother wanted to brag.\n\nThe whiplash and the way everyone could sustain two opposite views of me at the same damn time still amazes me to this day.\n\nI didn't seek help outside the family because I had been taught that CPS was the devil, and the kids I knew that CPS had taken away from their parents had shitty lives that weren't much better than their parents, and in some cases, worse.\n\nI wish I had.  I had a relative that wanted to take me in, and while I would have had to endure some time in a shitty foster home while the situation was sorted out, I should have knocked over the house of cards that kept CPS away from our home.\n\nWhen you are in the situation, you often don't think it can get better.  Every obstacle seems bigger and more of a dead stop.\n\nI hope OOP and her sister come out of this okay.\n\nI got away, I got better and I don't talk to my abusers anymore.",tikierapokemon,97,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,CPS came to our house and laughed with my parents. Couldn't even trust them to protect us.,foundfirstlostlater,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I have heard that story more than once.\n\nI have heard the story of CPS being involved and it being bad for everyone involved but the parents.\n\nI have also had friends for whom CPS was a fucking godsend and their foster home was like heaven after the hell that was their homelife.\n\nI have also had a friend who had CPS involved in their lives and their parents got classes and support and it helped immensely.\n\nI want those last two stories to be the normal.,tikierapokemon,40,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I am so sorry you ever went through anything like that. I hope you are doing well now and know that you were SO NOT the problem. Breaks my heart that this happens to so many people.,Artistic_Frosting693,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thank you, I am! Moved across the country and got married and finally went no contact. It's been great and my kids will have so much better. Yay therapy!",foundfirstlostlater,21,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This makes me so happy to hear! Many happy years to come for you!,Artistic_Frosting693,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"> I hope OOP won't be blamed for \""causing\"" this\n\nThe parental side of the family already has, repeatedly, at every step of escalation.",Visual_Fly_9638,37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Man, same here. I’m still going through it and trying to save my siblings. I got out but CPS in my state sucks ass and couldn’t give two shits. You’d think them coming over more than 10 times in 2 years alongside police arrests on my egg and sperm donors for drugs they would actually do something. I’m just glad that OP actually was able to get someone to listen to her in this situation. It’s not my exact situation, but it was tough reading through it especially when it got to the father and CP as that was all too close to home.",Lyaeth,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"They already blamed her for stressing out Nicole, so they will probably blame her for killing the baby too. Poor OOP and her sister.",notthedefaultname,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ug, I too know the feeling. Grew up Mormon and was told to NEVER speak to others about what happens in my house and to always put on a smiling face when I go out in public. Just disgusting.",gooberdaisy,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Dear School Administrators:\n\nIf a teenage girl who has been seeing the school counselor regularly has her father come pick her up and her reaction is to start screaming and trying to run away saying she lives with her grandparents and the father is being physically abusive attempting to drag her, *that might be a sign to call CPS and the police and let them sort it out instead of handing her over to an obvious abuser*.",Abstruse,571,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The school is a pretty big villain in this too. I'm not surprised, my experience in high school of going to the staff was so bad that I stopped trusting them entirely. OOP's school is full of shit people who I'm sure think they're heroes.",Visual_Fly_9638,192,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Same. Anytime I reported the harassment and bullying I suffered, they figured out some way to make it my fault and punish me for it. So I just gave up altogether. On just about anything. Went from a straight-A student to barely passing because I felt no need to try.",Abstruse,58,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,not a single teacher or administrator has helped them and have only made things worse.  Also a week suspension for possibly permanently disabling the sister is the biggest bullshit and that kid needs to be charged with something,shuzumi,23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The only good thing in this is that it gave her the opportunity to get her sister and set the cops on the trash ass,TheBadBedPotato,82,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This shit happened to my friend, except she was in college. She later heard to school realized they needed to update their protocols after her father went berserk in the administration offices.",Familiar_Living_5815,57,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ah yes, he might have hurt and adult and that's not ok.",Amelora,29,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Fucking ripped her out of an exam so she could babysit her invalid sister while he fucks off to who knows where. What a piece of shit.,Dekklin,35,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The thing is I don’t think the police would help! In my school the security officers were cops, which I assume if OOP is in the US, would also be the case",PrincessDionysus,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This reminds me so much of a case I handled years ago when I first started working for CPS. It was such a freaking Justice Rush pinning the piece of scum father and bitch of a stepmother to the wall. I've worked for CPS for fifteen years, and last year, I attended the youngest kids uni graduation. I bawled my eyes out. I hope OOP gets that opportunity to flourish and grow into her own, the same with her sister.",Quizzy1313,852,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"\""I bawled my eyes out.\""\n\n\nI get it, and I'm tearing up even as a stranger on the internet. I work at a university and some of our students go through so much during their time with us. Seeing them graduate is really moving.",AshamedDragonfly4453,231,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Honestly it was such an honour to get an invite to go to their graduation. I was on cloud nine all day when I got that call from their grandma. By that point I hadn't been the caseworker for about three years but I'm always getting messages and emails from the kids with life updates and I hit it off with the family pretty well. It was that one case for me that made me want to go in a million percent. I mean all cases do but this one just hit home different and I don't know why.,Quizzy1313,75,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That's so lovely! What you did for them must mean such a lot to them, and how wonderful that you have an on-going connection so you still know how they're doing. I'm so happy for you and for them, internet stranger :)",AshamedDragonfly4453,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The part about the school officers absolutely infuriated me. I hope they get fired but something tells me they’ll do nothing about putting a child in danger bc they’re too useless to do their jobs.,Carolinahunny,183,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"School officers are usually actual cops so, unfortunately, I'm not surprised they suck at their jobs.",zaforocks,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,They're usually only in it for access to teenage girls.,"""[deleted]""",3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"If the dad legally has custody, he’s allowed to take her. They shouldn’t have allowed him to manhandle her, but they can’t legally stop him from taking her home. I worked in schools for a long time and custody issues are a big deal. The grandfather would never be allowed to intervene without custodial paperwork from the court system. Like, the school can’t even call him. Why those officers didn’t at least escort her and her dad to car to make sure she wasn’t beaten in the parking lot or escort them home to make sure he took her where he did he was going is beyond me, but there wasn’t much else for them to do than to report it up the chain.",kaytay3000,66,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,At least one of them likely goes to dad's church.,IrradiantFuzzy,41,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's infuriating enough that I find it unbelievable.  Schools are fucking touchy about this stuff, I cannot believe that they would allow an adult to physically drag a student out of school in the middle of the day.  I can't even get into the front doors of my kid's school and I know the security guards.",MissionCreeper,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,My mom dragged me out by my hair in school and nothing was done about it and this is while my mom was under a no contact order by the court and the school knew that. Some schools do not care,KittyEevee5609,58,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,especially how they treated the sister's bully they are just not good enough people to work at a school,shuzumi,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,If it’s Texas I’m sure it’s true.  Any state that wants to bring back corporal punishment or still have it on their laws. This would be ok.,Jac918,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This one took a realllllly long time to put together. Reddit kept flipping out on me about word count. Not to mention it's a tough read all around.\n\nI think I got everything in the tldrs, but let me know if there's any clarification needed, or check the original BORUs. (If there is something that needs updating, I'll get to it in the morning since I'm off to bed!)\n\nI sincerely hope the best for OOP.",LucyAriaRose,1151,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Those poor kids!  How crappy that big sis is trying so hard to do what is best for herself and her sister and *her own family* keep pushing her back down.  I'm glad she was able to move in with her maternal GParents, and even happier that her sister has finally been removed from the house as well.  Hope her TBI does not have a bad prognosis long term.\n\nThank you for pulling the post together 🙏",recorkESC,354,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I really want to know when OOP's birthday is, when she is turning 18 so her POS sperm donor can't legally do anything to her anymore.",desolate_cat,98,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"#Do not comment on the original posts\n\nPlease read our [**sub rules**](https://www.reddit.com/r/BestofRedditorUpdates/wiki/subrules). Rule-breaking may result in a ban without notice.\n\nIf there is an issue with this post (flair, formatting, quality), reply to this comment or your comment may be removed in general discussion.\n\n**CHECK FLAIR** For concluded-only updates, use the [CONCLUDED](https://www.reddit.com/r/BestofRedditorUpdates/search?sort=new&restrict_sr=on&q=flair%3ACONCLUDED) flair.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/BestofRedditorUpdates) if you have any questions or concerns.*",AutoModerator,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Just when you think this can't get more horrifying there's a new update and it does.,Wild_Butterscotch977,3351,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was expecting a death, but I thought it would be the younger sister. Although I'm still worried for her - it seems the paternal grandparents only wanted custody so they could control the narrative and save face with the church.",Refflet,1688,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I had expected that the younger sister or Nicole's baby would pass, but not the maternal grandfather. And I actually yelled out loud when I saw they gave the paternal grandparents custody. The grandmother is part of the reason that OP's sister fell again in the first place! I really want to know what that judge was thinking and why the judge wasn't making OP's father pay those medical bills.\n\nIt was so frustrating to see all of the people that failed OP and her sister. There are so many people that I have met along the way that have truly helped kids like this and gotten them out out of similar situations, but no one in this story was willing to help. The moat unfortunate fact in all of this is that I don't think that OP's sister is doing very well, and the next update we get is that she has passed away.",Icy_Cardiologist8444,843,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"> I really want to know what that judge was thinking and why the judge wasn't making OP's father pay those medical bills.\n\nProbably just the financials. Also, I imagine they didn't fully articulate the level of neglect by the paternal grandparents, or that they have been consistently in line with a now convicted paedophile, in part because the maternal grandfater didn't have enough money for good legal representation.\n\n>The moat unfortunate fact in all of this is that I don't think that OP's sister is doing very well, and the next update we get is that she has passed away.\n\nYeah, that's my worry also. OOP has managed to more or less get out of the situation, and will age out before long. But throughout her younger sister has been suffering through consistent neglect from the father's side, and that will only continue now.",Refflet,390,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,">OOP has managed to more or less get out of the situation, and will age out before long. \n\nUnfortunately, it doesn't sound like she's been given any of the resources she needs to start out successfully as a young adult. The ONE adult relative who seemed to genuinely care about her is gone. So when she turns 18 and the rest have no legal responsibility for her, where will she live? She surely doesn't have enough savings to be able to afford a place to live. \n\nIn theory she could get financial aid for college and live in a dorm, but that will leave her with a lot of debt and nothing that helps her build toward having her own place afterwards. And given how awful her last year has been, with so much worry about her younger sister and so much disruption, I doubt she's been focused on her grades/education.",AuntJ2583,84,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"She somehow got into a bs/md program in the midst of all this, so she’s got the next 10 years of her life spoken for, and after that she’ll be able to afford her loans. \n\nThe one good thing about programs like that is that they put you on a narrow path and don’t give you much room to fuck it up. If she can keep up with the coursework, the school will do a lot to help keep the rest of her life in line. (Source: med student)",tovarishchi,32,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There’s a sliver of hope that she would be the recipient of grandpas estate. Apparently there was a farm to be sold…,RandomNick42,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That's so disgusting. Why didn't the grandmother just stay in the house with both the sister and Nicole if the father wasnt home. What the fuck. They're wilfully negligent and have forced that poor girl into suicidal tendencies. On top of all that as you said, they harboured TWO paedophiles. Fucking gross.",green_dragon527,47,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Just the one paedophile, actually.\n\nI think anyway, my assumption is the father was using Nicole's phone.",Refflet,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm going to assume both until it's confirmed otherwise. Might also factor into why OOPs dad was so happy to have her, she shared in his sickness.",green_dragon527,22,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I don't really know either, I just wanted to make a Hot Fuzz reference.",Refflet,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm sure they prayed for her, that's more than enough.\n\n/s if it wasn't obvious",Solipsisticurge,71,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Besides the financial part, little sister also managed a suicide attempt while under maternal grandpa's care, which is going to hurt the courts opinion of his ability to care for her",WiggityWatchinNews,36,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Maternal grandfather passed away.,Expert_Slip7543,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Paternal grandparents were granted custody before he died,WiggityWatchinNews,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,(That was the 5/25 update.),Expert_Slip7543,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"OOP is not out of this situation. The survivor's guilt, if it doesn't kill her, will be crippling.",SCVerde,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I really don't know who else could take these kids other than the state. Since there is a (crappy) relative that wants them, the state will do what it takes to save money. \n\nLife has failed these kids, and that mother. As a mother I couldn't fathom the thought of my kids being treated like this should I pass",moa711,131,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There's also been a huge overcorrection by the US courts from the days where they used to literally steal kids to now keep kids with biological relatives. Seemingly at the cost of these kids' well being.,Great_Error_9602,45,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"....if you're the wrong religion or the wrong color, they damn still try and steal your kids.",PhoenixSheriden1,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I’m like 95% sure this is why paternal grandparents were given custody in the first place. Because “they are good, God fearing people”.",RandomNick42,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The state was happy to leave my sister's niece with her paternal grandpa's ex-girlfriend (lied about relationship status). She left the 12-13 year old niece with her 16-17 year old daughter unsupervised 90% of the time to fend for themselves. She got $10-15 to feed herself for the entire week. The only place close enough for her to walk to buy food was a gas station. Niece was in this position because her mom (my sister's SIL) picked her new sex offender baby daddy (who couldn't legally live with niece) over her. My sister and BIL were not really considered to take her because they were in another state. \n\nEventually, paternal grandma stepped up. Got custody and moved her away. Niece has CPTSD, extreme anxiety around food/resources, abandonment, and attachment problems. She's the same age as my son. It's tragic.",SCVerde,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,They’re not going to believe her or get her proper medical treatment. I’m terrified for her.,realfuckingoriginal,74,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I expected the sister would be pregnant by the father,Queen_of_Catlandia,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I worry that the father was interfering with the sister -he threw something at her abdomen while she was sleeping.,"""[deleted]""",8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Well damn, I didn't see that, but at the same time I can see why you were concerned.",Refflet,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"When OOP said sister internalized things and then she kept getting injured at home and was withdrawn, it popped in my head. The CP didn’t help any",Queen_of_Catlandia,18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I am worried sick for the younger sister.,Pleasant_Most7622,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I’ve never wanted to hold a child and protect them in the way I do OOP. ,BendingCollegeGrad,84,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I was waiting for this comment, me too, if I knew where this kid was, I'd tear the fucking planet apart to protect her, the real tragedy is the system, they have failed this girl.",SingularityGrey,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Well said. \n\nNone of the adults in OOP’s life deserve the kind of love she offers. ,BendingCollegeGrad,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"4/28: Sister is partially blind in left eye, not speaking, risk to herself, had acute liver failure. Paternal grandparents get custody\n\n6/7: “He told me that he met with my sister, and she was healthy and doing well.”\n\nI am so sick with worry for sister. You don’t go through all that for months and come out healthy and doing well just over a month later. And eye issues are so often a sign of something major. (Partial blindness in my left eye was my first sign of multiple sclerosis, but in sister’s case I doubt a steroid regiment is all that‘s needed).\n\nJust, fuck.\n\n(Also, may anyone who believes someone was meant to die to bring the drunk driver who killed them closer to god burn forever in the hell I don’t believe in. That church is the epitome of the issues of much of Christianity.)",TheKittenPatrol,950,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"When I was younger, I lost the only friend I had.  The closest I got to therapy, until my issues became a \""problem\"" was... basically the junk about it being part of god's plan.",tinysydneh,229,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Telling someone it was gods plan to take a loved one is a statement that lacks empathy. If they want to bring people closer to their god, then stop making him (her -the god/ess) responsible for taking all their happiness away. \n\nI know most people don't know what to say to someone when there's tragic loss. Maybe we start teaching practical subjects in school, like how to be tactful in an awkward situation. Maybe just teaching critical thinking skills so they understand the consequences of their actions.",alycat242,76,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The partial blindness I’m sure is a result of the multiple head injuries,LoisLaneEl,69,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,100% It helps show how traumatic those injuries were.,TheKittenPatrol,41,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Really sounds like acetaminophen poisoning to me. I hate to say it, but I'd bet on the sister dying before the end of the year, acute liver failure needs a transplant, and disabled, brain damaged, and suicidal are all factors that push you down the waiting list. \""Quality-adjusted life years\"" is the guiding principle. Adding insult to injury, if it happens, nothing bad would happen to the paternal grandparents even though it's primarily their fault (I'll leave a little fault for the bully who beat her unconscious, but things were going to shit before that).",Torvaun,50,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yuuuuuup. Besides the physical ramifications of that, I can’t imagine being back with the abusive side of the family is good for her already fragile mental health.",TheKittenPatrol,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm so afraid for both of them.,localherofan,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,A large number of Tylenol will shut down your liver. Ibuprofen in large quantities will shut down your kidneys.,Old-Mention9632,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Her father and everyone on his side of the family are the scummiest of scums.,tacwombat,1347,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Special dishonourable mention to that awful school counsellor who told OOP's father about what OOP told them early on. In my eyes, that's where all this escalated unnecessarily.\n\nLike, yeah the CP bullshit would still have come to light, the sister may or may not have been subjected to the TBI, grandpa probably would have died when his time came, but it wouldn't have been this bad of a shitshow if that idiot had just done what they were supposed to do and maintain confidentiality.",your_average_plebian,873,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This is surprisingly common amongst school counsellors. Two separate friends of mine got beaten within an inch of their life after two different counsellors at the same high school pulled this move within the span of a year. \n\nReally, really disappointing work.",crashbandicoochy,492,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I don't know how it works elsewhere, but in the UK if you're a mandated reporter the law says that if a child makes a disclosure of any kind of abuse it MUST be reported to the appropriate authorities, and unless that child is in immediate physical danger the reporter has to notify the parents or guardians. There's a bit of leeway on informing the family, but not much.\n\n\nAt one point, the British government were considering making it a criminal offence for mandated reporters to NOT to inform the authorities and the family about ANY concerns about a child- not just disclosures of abuse, but anything that might possibly potentially maybe be a sign of possible potential abuse. ","""[deleted]""",88,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I’m a teacher in Illinois and all school personnel are mandated reporters.,The_milk_was_spoiled,24,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"School counselors are mandated reporters in almost every state (it may be all of them, but I'm not certain). Under the two different states where I have been a mandated reporter, it's been made explicitly clear that failure to report suspected abuse or neglect is a crime, punishable by anything from suspension of a professional license or clearance to work with kids to actual jail time, at least in theory.\n\nThe fact that this counselor reported suspected abuse to the perpetrator is so unspeakably awful. OP has enough in their life to deal with right now, but in an ideal world she should raise hell with the school and the state entities responsible for investigating safeguarding failures.",bog_witch,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's definitely not the only place in the world with laws like that, and in other places where there aren't laws there will often be conduct guidelines put in place outside of the counselor's control, so in a lot of contexts it really isn't all on them.\n\nI recognize that it's a pretty difficult thing to find a proper way to handle, as informing the authorities and not informing the authorities both provide different risks to the safety of the child. Oftentimes, it's the authorities themselves mishandling the actual outreach if I had to pin it on one thing. Really does feel like there are systemic failures all over the chain.",crashbandicoochy,37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"So if the parents are the abusers, they must be notified the child is finally reporting them to someone?",arittenberry,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Unfortunately, yes. UNLESS the mandated reporter can provide evidence that doing so puts the child at greater risk. \n\n\nIn the UK we're much more concerned about parent's rights than protecting children, sadly. ","""[deleted]""",11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thanks for the response. Seems like a very tricky and complicated process,arittenberry,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"5th Grade Me not realizing the weight behind what im announcing: Hey everyone we might be moving cause my Dad almost killed my Mom last night!\n\n*Get sent to school counselor and talk about my terrible home life*\n\n*They call my Mom who denies it, cycle repeats*",jadegives2rides,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Mandatory reporting laws usually force teachers and counsellors to report any instances of child abuse/neglect. My wife was a school psychologist and tried to avoid counselling work as much as possible strictly because she had no control over how abuse is handled after it’s been reported. The administration would sometimes reach out to families in ways that will actually make the situation worse.,rushadee,33,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There is no hate like Christian love.,Frozefoots,315,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This is like a window into the worst parts of society; stuff that we still haven't managed to clean up. I don't think of myself as being naive, but I don't understand how all of this can happen, and still nothing be done for these poor kids.",mlem_scheme,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This was a good comment.,Ch1pp,28,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Religion 😵‍💫,Apprehensive-Fee5732,49,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"They honestly all sound like my partner's family, which she fled to live with me, the system failed her also, every fucker in her family turned a blind eye and refused to believe her father was abusive and was grooming her, she got out of there before he did anything, but she lived in fear since she was 12 years old, I told her that if her family ever show up where we live, I'd show them no mercy.",SingularityGrey,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,>> My grandpa has unexpectedly passed away\n\nWhen I tell you my heart *dropped*,wheniwasolder,3339,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I gasped and said \""oh god\"" out loud.\n\nAnd then I wanted to step into my phone and find this child and help her because my god has the world failed her 💔",joeyandanimals,337,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"And her poor sister. She’s already got brain damage, now she may not make it out of her childhood alive. ",realfuckingoriginal,219,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Even worse, the paternal grandparents are likely poisoning her mind against her sister. There's a reason the sisters are no longer talking as much. You can just see them spinning the story such that the reason dad is in jail, and the reason their family is in shambles and under scrutiny from the authorities is all the OOP's fault...",WeAreGray,188,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Oh I assumed they just… didn’t let her have the phone. Because she’s basically disabled and mute by this point with all the head injuries. I hope she’s not dumb enough to believe them after everything but people never cease to amaze.,realfuckingoriginal,95,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"When the relative visited after her maternal grandfathers' death, he said she was doing well. I took that to mean she was able to have a conversation with him. Which would mean she could also have a conversation with her sister if she wanted...\n\nI guess I've dealt with too many people like her paternal grandparents and my view has become skewed. They're now the Bucket family to me. Their only concern is keeping up appearances.",WeAreGray,39,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,You are assuming the relative even saw OOP's sister.  For all OOP knows the relative was TOLD the sister was fine and never saw her at all.\n\nMy bet is OOP will never be allowed to see nor talk to her sister and when sister kills herself OOP will never be told and neither will the rest of the family.  Sister will be in permanent incommunicado or placed in a mental health facility.,Notmykl,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I believe the younger sister was being sexually abused. It is too much of a coincidence that both the father and Nicole had CP on their phones, the younger sister was so heavily neglected and that the paternal relatives were so desperate to get her back, like they wanted to shut her up and now she doesn't talk anymore. I believe she refused to say anything because they told her that it was all her fault and talking about it would ruin the family. Things like child molestation often runs in families and the grandfather might have been abusing her and other young girls in the family. Everything about this worries me.","""[deleted]""",30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"And so did I.\nI want to cry, for real. How can someone be so cruel with his own child? The grandparents, for fuck sake they’re just horrible, I don’t even have enough bad adjectives to describe them. \n\nI really hope everything might have a happy ending, it’s not fucking possible that someone so young is facing something so nefarious like that. My heart completely dropped dude.",Heisenbergwayne,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm confused, did the maternal grandma pass away as well? OOP mentioned that her grandfather was not able to be buried next to her grandmother.",MordaxTenebrae,521,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The maternal grandpa was the one who died. No one consulted her on the funeral arrangements or what they did with his body and ashes so she has no idea of anything other than he’s not buried next to his wife. The paternal grandparents are both alive and have the sister. She hasn’t seen or heard from the sister and is being shuffled around relatives. Father is in jail and unknown about father’s girlfriend and baby.,dontbothermeokay10,530,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Is the father in jail? In this post it just says he was sentenced, but not how much for. \n\nWhat happened to Nicole and the baby? What was the verdict about CP on Nicole's phone - was that also the father?",Refflet,108,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",48,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"There was also CP found on Nicole's phone. I'm wondering what happened about that, but I expect the father knew her PIN and had access.\n\nI see no reference to what he was sentenced to, so I'm not sure if he's in jail. He almost certainly is, but I'd like to know how long for and other details.",Refflet,65,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,She stated that Nicole was booked and that's where that story branch ended.,Divacai,27,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Ashes can be buried so there is a possibility he’s buried there and she just doesn’t know.,Tarledsa,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,She had been dead before all this,ShipsAGoing,646,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"She was gone long before this whole mess started, I think?",tinysydneh,85,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That was the paternal grandmother. I think it would've helped to give them fake names. I had trouble following which grandparent was which sometimes too.,puppylust,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm assuming maternal grandma was long passed away. OOP never mentions her in any of the posts.,bruhhrrito,124,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"There was one mention in the middle about father contacting a maternal grandma to tell them he was going to be out of town, but considering the rest of the post, that was probably just a typo.",sherlockham,129,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think she accidentally typed grandma instead of grandpa once, I was confused too.",SVINTGATSBY,39,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yes, the maternal grandma was never in this story, so she must've long before.",JadieJang,32,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I’m also confused. She mentioned maternal grandma a few times throughout the posts but never said anything about her dying. I would think that would have made it into an update??,holliday_doc_1995,22,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"What? There is only one mention of a maternal grandma that is an obvious typo for paternal. Otherwise there is no mention of her and a very consistent \""maternal grandpa only\"" theme from the start.",Ffnorde,67,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think you've misread. I could only find one instance of \""maternal grandma\"", and it looks to be a typo, given the context of that line.",AshamedDragonfly4453,36,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I found two but the second one may have been a comment that OOP responded to, so not OOP’s words.",holliday_doc_1995,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yeah. I went \""oh God no\"". These kids have not been dealt a good hand since their mothers death. Their mother must be spinning in her grave at this point. I know if my husband did this,  I would haunt his ass, both while he is alive and then once dead. He should never get peace.",moa711,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I've had a lot of \""holy shit\"" and \""oh my god\""s come out of my mouth on this sub, but this is the first time my jaw has ever physically *dropped*. I'm fucking horrified for OP and I sincerely, desperately hope that a.) things really work out for her and her sister from here on or b.) this is a really good fake post because oh my god I don't want to believe this could actually happen to anyone (even though I know it can, and has, and will),",sk3lt3r,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Yeah I stopped breathing.,Krellous,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I had to do quite a bit of finagling to get this under 40K characters. Let me know if any of the TLDRs don't make sense or if you feel like context is missing!,LucyAriaRose,1125,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think you did a great job. I didn’t read any of the prior BORU’s, so I don’t know if you missed anything per se, but I do know that (since I had no prior knowledge of what happened) everything you included gave me all the information I needed to make sense of this complicated disaster.\n\nThank you for making it clear. And a double thank you for including how much time passed between posts. Even in shorter posts, including the amount of time between the original post and the updates, helps a TON. I spend half the time when I’m reading BORUs, scrolling back and forth to reread the dates so I can figure out the timeline. So I appreciate it!",CatmoCatmo,467,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"YES! I have commented previously how much I appreciate the added info on timing/dates. \n\n\nu/LucyAriaRose has the most enjoyable and readable posts just for that alone. (But I definitely also appreciate the work others do in compiling and feeding my BORU addiction, lol).\n\n\nPrevious comment by me:\n\n\n\nCan I just say how much I appreciate you not just giving the date of the new post/update, but including how long from original post and previous update?\n\nIt's so annoying having to scroll back on mobile just to get an idea of the timeline, or just not bothering and hoping I'll figure it out. \n\nIt really is a much more enjoyable reading experience. Thank you for including it!",Fine_Ad511,184,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Awww thank you again! I'm glad it's helpful. It's super helpful for me as well when creating these!,LucyAriaRose,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Lmao I read the post you are responding to, thinking huh am I having dejavu? Did lucyariarose get complimented exactly the same twice?",powerkickass,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm so glad the time labels are helpful! And that the TLDR's mostly made sense.,LucyAriaRose,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,So OOPs father AND Nicole had CP on their phone? What the FUCK. That baby was doomed from the start my god,Major_Wager75,197,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"i'm glad it was nicole with the CP on her phone, just bc i thought the \""her\"" was oop's sister and was really confused...",NoReport9291,54,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",35,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I've heard that people doing chemotherapy, set themselves up to eat something they don't particularly like, but don't mind, during it, because eating that thing becomes so associated with feeling like shit from chemo. Then afterwards they haven't ruined a favourite food with the association.",kayloulee,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That's such a cute idea!,Formergr,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Are you a labrador retriever by any chance?,GreasedUpTiger,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",36,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",24,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Drunken ferret... Thanks for the laugh 😆,"""[deleted]""",8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Drunken ferret 🤣🤣 I used to have a ferret (he didn’t drink), but I can just picture what that would be like 😂",Katerina_VonCat,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I love that you felt you had to specify that your ferret wasn’t a drinker 😂 and now I’m picturing a seedy underworld of alcoholic ferrets, where your ferret is the lone Sober Ferret and he must be the one to rescue the world of ferrets, weasels, and minks from destruction",ReluctantViking,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,At the hospital we give it in applesauce or pudding!,AlternateUsername12,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My uncle had a dog once that would literally eat anything you put in front  of his mouth. One time he ate some mushroom in the forest, got high as fuck, and they took him to the vet. Vet was all ”well, he’ll need to eat this thing that’s make him throw up the mushrooms, but we often have a hard time getting dogs to eat it…” My uncle just took the thing, held it in front of the dog and the dog just gobbled it up like it was nothing. The vet was so surprised, lol\n\nAfter that, though, the dog stopped *eating* everything you held in front of him (unless he knew it what it was). Instead he’d take it in his mouth and then immediately spit it out XD",Rega_lazar,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That's a dog who has Learned.,clauclauclaudia,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"At the very least they could have more neutrally flavored meds! I've had some pretty safe, non-addictive meds taste fucking *awful,* like I would legit sometimes puke from the sheer bitterness. The controlled substances? Absolutely fine. No problems at all.\n\nMake it make sense.",SparklyYakDust,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,like the second pharmacist did.,notsam57,495,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Second pharmacist nailed it.\n\nEducate and inquire. Don't scold.,Isolated_Hippo,43,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,My grandmother is a retired pharmaceutical chemist. Her retiree benefits for many years included free prescriptions from her company’s drugs. And it was one of the largest pharmaceutical conglomerates in the world.\n\nShe often had to correct pharmacists who helpfully substituted generics because it’s cheaper for almost all patients. But it was only free for her if it was an XYZ brand drug.,Nadamir,50,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That's note helpful for anyone, they shouldn't give generic without being asked, there are different chemical makeups in generic vs brand and you should check with the patient if generic is ok. There are absolutely people who react poorly to generic but fine with brand-name. \n\n\nSource: I work at a doctor's office and have to right NO SUBS on quite a few Rx because the pharmacy will swap them to generic without it written down like half the time.",Formal_Fortune5389,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That's such an important point that I don't think most people even know about! My friend had issues on some sort of antidepressant, where it sometimes worked and sometimes had bad side effects. They figured out it was inconsistently having it filled as generic vs name brand.",notthedefaultname,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The laws around generic substitutions are variable, but it's actually legally mandated in a number of places unless the doctor writes for no substitutions. Between that and what insurance companies will pay for, it's really important for a provider to explicitly document if they want the patient on a specific brand.",thejacketmoves,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"If it was something I wasn’t used to seeing, like a gallon of amoxil or what not, I would absolutely ask as a sanity check because I have had scripts come through that doctors have wrote that were crazy. That said if it was fully expected by the patient and was within therapeutic range, it’s not my job to judge. If it works for you, it works for me!",MelonOfFury,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Maybe in US. But where I live and apparently in France the pharmacist can make independent calls. That’s what they are trained to do.,Live_Angle4621,42,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This isn't true in many places in the world. There, pharmacists are trained and allowed to edit prescriptions within a certain margin.",Askefyr,32,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I often think of the phrase “kindness costs nothing.” It really does cost *nothing*. All the woman had to do was her job, but she went out of her way to be an ass *and* do her job poorly enough to get fired. Hopefully she learned something.",VOZ1,131,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"A wise friend and I once talked about this. I was upset because sure our coworker went out of his way to be cruel and nasty and rude any chance he got. I was saying “kindness doesn’t cost a thing, why does he choose to go through all that effort to be horrible?” She looked at me and said “kindness doesn’t count YOU anything, because it’s your default position. HIS default position is cruelty, and it costs him more effort to be nice than it does for him to be cruel” I felt like my brain melted, cos wtf. I didn’t even think of that before, I find it naturally easy to be kind and compassionate, he finds it naturally easy to be a monster. \n\n\nNow in reality, you get back what you give with kindness. So it doesn’t cost you anything because you got it back usually with interest. Kindness breeds care and love between people, that’s a valuable asset. It doesn’t suck out all the energy and leave everyone wanting. But some people do not get that. Because it physically pains them to be kind.",thebearofwisdom,95,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This broke my brain too. I just cant seem to understand it. Why is cruelty the point with so many people? The way your friend put it is indeed wise, and helps me understand it a bit more. Thank you for sharing.",weedisfortherich,41,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I honestly believe at this point my friend was a guiding angel who appeared when I needed her. She’s a fantastic human being, and I’d never met someone who felt so comforting and calm around me. She actually left the country because of the same guy harassing her after Brexit. BUT she did get herself a nice little farm with goats and veg in Lithuania, so I know she’s happier in the long run. I just miss her a lot. \n\n\nIt’s so weird to me that people choose nastiness and cruelty over kindness. Because although I’ve been showed a lot of cruelty in my life, it made me never want to make anyone feel that way. Some people go the other way, and maybe haven’t been shown kindness or love. I hated that man, he was a vile human being for everything he said and did. But I also now think about him with pity. He goes home to no one, not even a pet, he had a wife and kids, but doesn’t anymore. No one will mourn him because he’s a complete asshole. And that’s sad for him, it must be miserable to not have anyone. \n\n\nCruelty makes them happy. There’s something amiss in their thinking, and it makes them enjoy it. Love makes us happy, so we can’t fathom being the other way. They don’t understand us because they can’t fathom doing nice things for nothing.",thebearofwisdom,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,> why is cruelty the point with so many people?\n\n\nHurt people hurt people,drakmordis,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It scratches an itch. They have this urge, and they don't know why, to \""control\"" the situation. They give in to the urge to be mean and it feels powerful. Forbidden even. So they do it again, and again, until it's hardwired into their brain. \n\nPersonally I get the same feeling of power and control by being nice.",jellybeansean3648,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm a physician, and I absolutely appreciate the work of my pharmacist colleagues. But sometimes you get these weirdos on a power trip about something stupid. I just explain to my patients that maybe that pharmacy is not a good fit and ask them if they'd like for me to send the rx to another pharmacy. There are several pharmacists I've worked with who are excellent and know me well, but I always go by what works best for my patients.\n\n\nIt's never gotten to the level in the OP, but it can still be detrimental to my patients.",AvecBier,44,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"There is a breed of Nasty Parisian who lives to shame others. You don't run into them every day, but when you do, they are hellbent on ruining it.\nOnce I was carrying groceries home while  visibly pregnant, and someone slowed their car down next to me to yell \""you trying to give birth on the sidewalk!?\""\n\nSuper helpful 😑",user37463928,61,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I sincerely don't understand judgemental people.\n\nWell, not judgemental about stupid things that has NO EFFECT on their life.",DamnitGravity,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I deal with the public a lot. A lot of them do things I think are weird or any other number of opinions. I remind myself I don't know their stories, and accommodate them as much as policy allows.\n\nI'm being paid to help, not tell them how ineffective they're being.",41flavorsandthensome,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,A pharmacist caught the fact that my mom's doctor prescribed something that can cause seizures. To my mother who has epilepsy. The doctor should have known better. They are absolutely supposed to check these things and not just blindly fill prescriptions.,Arctic_Puppet,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,She sounds like a lot of redditors. So much snootiness for people who are harmlessly different from them.,ayuxx,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Yogurt works also,justattodayyesterday,55,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Except when it doesn't because dairy interactions.,clauclauclaudia,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Okay I thought the same thing, thank you for the harmless roast material to use against her in the future",onrocketfalls,21,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I used to do it with applesauce. I really couldn’t do it until one day in my 30s I suddenly could.,alohell,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,You tempt with no pay off! Must see this oh Great Pyrenees! Puppy taxes and all…,Zombiewings2015,31,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[Puppy tax](https://imgur.com/a/mz9WlEt),bug-hunter,62,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you for the puppy taxes. I recently lost mine last month and I have found I appreciate a good looking dog while I’m grieving. You have a dapper looking dog.,Zombiewings2015,18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,He looked significantly less dapper with a giant square of American cheese stuck into his fur. He's a lovable goof though.\n\nLess lovable when he ate half a block of my pepper jack cheese.,bug-hunter,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Did he get a compensation cheese slice to replace the one that was mis-delivered into his fur? ;)\n\nEdit: Also please tell him he has excellent belly spots, 10/10.",North-Pea-4926,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I had a very rude pharmacist at walgreens while i was in a lot of pain and when she was done I asked, so this 800 number at the bottom of the receipt is for leaving reviews right? And this is your name and cashier number, right?? The look was worth the pain",yogaprincess77,2355,r/traumatizeThemBack - cant swallow pills adult
+Reddit,That's some devious strategy.   I need to try that myself next time I have a complete asshole to deal with.  Google reviews can be deadly to the wicked.,grungegoth,934,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Went to Starbucks and the line was long so I figured I should sign up for points because why not I’m there a lot. Signed up, got to the window, and the cashier asked for the payment. I showed her my QR code and simultaneously handed her my card (I didn’t know you could add payment to the QR code but I tend to not do that for security reasons). She takes my card and runs it without even looking at the phone. Didn’t think much of it. When she hands me back my card and coffee I ask if she could scan. VERY rudely she tells me that I should’ve done that FIRST and she cannot register it. I was kind of stunned. I asked if she could add it with a receipt but she didn’t even give me a receipt. I was taken so aback by her rudeness I just stumbled my words trying to ask for a receipt. She rolled her eyes and was like I’m just gonna get my manager. \n\nDude shows up, opens the window, and pushes a receipt out the window at me. Doesn’t speak or tell me if I COULD add rewards or not. So I decided to sit there until he looked at me. It was New Years, line all the way around the building (I signed up in the same line). Car behind me beeped their horn politely and the manager finally looked up to see me still sitting there. I asked him his name and the girls name. He stumbled not expecting that and started apologizing profusely. I just said look man I have nowhere to be and you got a line of people. I can sit here all day. He gave me their names and I took off because the people behind me didn’t deserve it. \n\nNext day I went and the same girl refused to serve me at the window and another manager came to me and apologized for her behavior and gave me a free coffee (didn’t even ask but was sitting with my app ready to go!). Now whenever I go I do not see that girl at all",drill_hands_420,725,r/traumatizeThemBack - cant swallow pills adult
+Reddit,That's an insane hill to die on for the cashier. I'd rather apologize for the previous incident rather than hold up the rest of the store to play staff musical chairs every time a specific customer comes through the line.,HeiressGoddess,338,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Misery loves company and I’m sure she was very lonely.,bryanthebryan,24,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Dang. I went to Starbucks once and the girl behind the counter was someone I went to HS with, was on my track team. She'd always been friendly then but I really didn't know her, just aquaintances. I waited at the counter and no one else was in line, but she refused to serve me. Wouldn't turn around, kept cleaning and pointedly ignoring me. No other employees were there, just her. I repeatedly tried to get her attention, \""excuse me\"", \""hello\"" \""I'm ready\"" and she would kind of look at me and go back to ignoring me. I had the impression she thought I was like trying to be her friend and stalk her or something so she was ignoring me, as opposed to get my order in but also that was such a crazy thing to assume I didn't know what to do? For context I am also female and barely knew this girl. After waiting almost 10 minutes I left and left a really angry review on their website explaining the incident and got two free starbucks drinks.",PensionTemporary200,119,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"ohhhhhh, the way I would have made a full on drama club lights camera action SCENE if that happened to me.",Pajama-Nerd-9293,36,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Please tell me you've told this story before. If not, I'm getting *mad* deja vu. \n\nIt would have been months ago, if not longer?","""[deleted]""",68,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"They said it was New Years, so I’m guessing this just happened?",Humble-Violinist6910,24,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Unless it was a different year,skyhoop,19,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Unfortunately, this sort of thing happens quite frequently so you probably have heard similar stories.",thevelveteenbeagle,11,r/traumatizeThemBack - cant swallow pills adult
+Reddit,That is such childish behavior from the cashier. I wouldn’t be surprised if she was forced to go to a different location or was fired,megster_walsh,27,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I got an abusive racist “reassigned” to a position where she doesn’t interact with any clients whatsoever by leaving a Google review. It legitimately works, *especially* if there’s other reviews saying roughly the same thing about the same person. \n\nIt was totally worth it and I don’t regret it for a second.",VampireGirl99,100,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I had a newbie at Walgreens try to discredit vaccines while I was asking for one. I reported them as well.,snailhistory,73,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Yes! 👍🤌✨️🫶✨️,Lumpy_Marsupial_1559,17,r/traumatizeThemBack - cant swallow pills adult
+Reddit,“Discredit” as in telling you vaccines are ~ b A d ~?,Shirayuki-hime,9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Yeppppp. That they were useless and no point in getting one. I gently argued, I'd rather some coverage than none- it's not like we have affordable healthcare. \n\nI haven't had the flu or covid in four years with masking and vaccines. ✌️",snailhistory,9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Oh I'm absolutely saving this idea- might call while still in front of them and ask them to confirm their name and info while on the phone too :),anatomy-slut,60,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Ooh, I LIKE you!",Lumpy_Marsupial_1559,13,r/traumatizeThemBack - cant swallow pills adult
+Reddit,That's the way to do it!,No_Thought_7776,56,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"FYI, it goes straight back to the store you complained about to handle. I would suggest looking up the local district managers office and talking to them, to actually get anything fixed/ changed/ done about a situation.",Lady1nR3d421,21,r/traumatizeThemBack - cant swallow pills adult
+Reddit,My guess is that OP is French and pharmacists there have more power to amend prescriptions compared to the US. That extra bit of power often comes with an added attitude (on top of the baseline French attitude 😉)\nGood on OP for standing her ground!,Terrible_Carpet_3696,477,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"You're right, I'm French! :)\n\nPharmacy school is hard, and some pharmacists don't feel like they get enough consideration from clients/Sécurité Sociale, so some don't want to be nice to you. But there's a difference between not nice and what happened today.",StatisticallyMe2,472,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Was she a pharmacist though, or a clerk (préparatrice)? A pharmacist might have a role to play double checking the prescription makes sense for you given their long training and responsibility (not like what happened, of course), a clerk less so.","""[deleted]""",117,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Honestly, no idea. She was behind the counter at the pharmacy, I didn't check for a name tag with her title. She could have asked me, or called the doctor since her phone number was on it tho.",StatisticallyMe2,136,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"It’s not just the pharmacists, a French renal doctor at the dialysis unit told me very archly “you should be taking off at least 2 litres every session! You should tell your doctor you should be taking off at least 2 litres every session!” This was after telling her I saw my consultant the previous week, he told me to take off 0.8 litres per session.\n\nIf she had bothered to ask or even check my notes I could have told her I still pass urine, I drink very little (I should be drinking more, it’s a daily struggle), and I lose a lot of fluid from my stoma. If I take 2 litres off I’ll crash! Would have been an interesting holiday if I did lol.",jinglepupskye,102,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"\""Oh, wow, when did you replace my physician? You've reviewed my chart and medical history already?\","""[deleted]""",75,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Two liters for you!  \n\nTwo liters for you! \n\nTwo liters for everyone!  \n\nMaybe that's a little too textbook?,ResponseBeeAble,20,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"J'espère qu'elle s'est bien fait réprimander par ses supérieurs, non mais franchement. Le scandale que je lui aurais tapée !!",EbenosPhos,24,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Vu tous les clients et les collègues qui ont entendu la conversation, ça va être difficile à mettre sous le tapis LOL\n\nJ'aurais pu, et probablement du le faire. Mais tout ce que je voulais c'était prendre les médocs et me casser!",StatisticallyMe2,25,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"C'est sûr, quand on est en souffrance, on a moins de répondant. Quoi qu'il en soit, je vous souhaite de guérir vite !",EbenosPhos,11,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I have to ask, since you're French, do you mean \""angine\"" comme \""mal de gorge?\"" Parce que aux États-Unis, le mot \""angina\"" n'est utilisé que pour les douleurs thoraciques pendant une crise cardiaque. Quelques américains s'inquiète pour vous, je pense.\n\n(Pardonnez mon français; je n'ai pas pratiqué depuis longtemps.)",DidSomebodySayCats,16,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I hope you feel better soon!\n\nIt's a weird word. I thought it was a false cognate because I've never heard it used in English that way, but when I checked the English dictionary does actually have both definitions. So you were technically correct! Maybe they use it that way in the UK?",DidSomebodySayCats,13,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Thanks, I don't know either,  I make an edit to be clearer!",StatisticallyMe2,9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,The best kind of correct.,Connect_Hat4321,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Are you in France, Belgium, or Canada?",hamster004,8,r/traumatizeThemBack - cant swallow pills adult
+Reddit,France ;),StatisticallyMe2,7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Ah, yes, the famous baseline French attitude. 👨🏻‍🎨",emmaunderfoot,30,r/traumatizeThemBack - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",34,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Imagine a French Canadian person with BPD. I’m not friends with them anymore…,thecurvynerd,14,r/traumatizeThemBack - cant swallow pills adult
+Reddit,But how could you tell?,zzctdi,15,r/traumatizeThemBack - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",24,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I've had experiences with French dudes on vacation. They were total and complete assholes. But even then, the most rude I've ever encountered were a Chinese couple when I was in line for a tour bus. They just cut right in line and wouldn't budge.","""[deleted]""",10,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I've experienced pain management both in France and the US. While the bedside manners were far better in the US, I'd say that French doctors and pharmacists care waaay more about my overall health and well-being.",Terrible_Carpet_3696,11,r/traumatizeThemBack - cant swallow pills adult
+Reddit,This and also pharmacists in the US won’t give gender affirming meds out if they don’t want to. I see it alot in trans subs.,Sledgeplay,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",57,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"People who have \""strange\"" prescriptions.... Usually have a good reason for it, that pharmacist that day learned to stfu. ",VeryAmaze,141,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Seriously!  \""This is the version usually prescribed to children, is that correct?\""  \""Yes, and my doctor adjusted the doseage accordingly since I'm an adult, but did mean to prescribe this version\"".  Done!",theatermouse,53,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I hope so.,Ketzer_Jefe,9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Okay, but this is actually the best comment I've seen here. I worked as a pharm tech for the better part of a decade. \n\n\nPrescriptions are almost always the same. Day in and day out. When something like this crosses your counter it stands out, a lot. \n\n\nI know I was trained up by an abnormally compassionate pharmacist, but ffs it costs you nothing to shut the hell up and be decent.",MsMarkarth,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I didn't know that was a thing, but I'm not surprised.",Ketzer_Jefe,12,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"It really isn't common, but there are REASONS why doctors sometimes have to RX the brand name or the generic specifically.\n\nI forget which med it was, but one of my grandpas had to have a specific generic because he would have negative reactions to the brand name and the other generic and it is a nightmare convincing a pharmacy to stock a specific generic.",CaeruleumBleu,16,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Yes! I can’t switch manufactures for my main meds due to a binder one uses but the other does not! I have reactions to the one binder.,SakuraKitsune4,5,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Exactly,Ketzer_Jefe,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,“It ain’t gonna slide down easy if it ain’t cheesy!”,Occomni,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I think she already explained about that in the beginning part. Hence the prescription written for her by the dr. asked for syrup-based meds.,No-Significance6121,29,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Melt some chocolate on your tongue afterwards. Really great at getting rid of bitter flavors from meds. A pharmacist recommended this to me, works wonders!",RandomCommenter432,11,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I can agree on that with you 🥲🥲,Accomplished_Ask1020,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I used to work with a stroke patient, she used applesauce.",ShinaSchatten,18,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Thanks for the tip, I'll try next time! \\^\\^",StatisticallyMe2,79,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I love that you have perfected your technique.,Noladixon,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Ty for the link. I might try the different positions.,LGonthego,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Pudding or applesauce works, too. \n\nAnd gives you a good excuse to have some pudding :)",wdjm,14,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Or Dad used her devices,Alternative_Year_340,38,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Or Nicole is the one who got him into it?\n\n\nOr they're just 2 shitty, disgusting people who found each other and \""enjoyed\"" the \""same material.\"" \n\n\nI feel nasty just writing that. \n\n\nAnd fuck I hope whatever gender that baby is either way, gets taken far, far away as soon as it's born and that they weren't planning to use it for anything fucking awful. :/  \n\n\nLot of options though that don't include it being fake. This entire jumbled mess rang way too true to me and a ton of other people. The world is a fucked up place.",Bri-KachuDodson,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Or of course it could have been how they met... I'm just imagining them meeting on a form or something...,TyFell,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I just think with the overwhelming amount of things going on it's getting less believable. Step mum isn't just pregnant,  she's having a gender reveal while sister is in the hospital and the baby has a heart condition and now there's child porn on her phone?. Dad isn't just neglectful, he's had trouble with alcohol  but that disappears,  then he leaves sister on own, kicks op out, demands her back, abuses her at school,  threatens not to call cps, gets arrested. Also, child porn. Sister is super shy. Wont tell cps the truth, but also has a fight with bully, gets concussion, not once but twice, is neglected,  is found unconscious,  checked in on by a 3rd party happy to leave a concust underaged girl, whose passed out before,  alone at home. No one feeds her. She's not allowed therapy. Not seeing faith therapist is a punishment. She's brought to grandparents and forced back again. Now can't walk and needs months of pt. This is before we even get to op and I know I'm leaving things out.",NinjaHidingintheOpen,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,You did a wonderful job. Thank you for the thorough trigger warnings and mood spoilers and doing the maths on the dates for us.,Fiber_Prize2336,57,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I've been following this from the first post and you really did a great job summarizing it all. Ty so much for all of that and I LOVE your flair ♥,Zoerae87,23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you! And lol I love my flair too- one of my favorite posts I found,LucyAriaRose,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yes, the TLDRs were good, thank you!\n\nIf there's any more, could you maybe add clarifiers? I wasn't sure at first which grandpa died, and I think she posted once about her maternal grandma, and since she is dead, that was either paternal grandma, or maternal grandpa? \n\nBut hey, thanks again for all your work, including putting time stamps etc!",Ploppeldiplopp,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Just added a clarification! Thanks!,LucyAriaRose,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,It was very concise and understandable :),Erzsabet,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think you did a great job! I still feel like I need a timeline or chart of everyone involved though. Especially the part about selling part of the farm (or whatever it was) had be confused. Because I think she said paternal grandparent, but also talked about \""us\"" trying to sell it @.@",gezeitenspinne,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I honestly had a bad feeling about everything being carried by a grandparent. Wasn't surprised he died and everything went to shit once more. Honestly none of this was surprising but I still wished better for OOP and her sister. I hope her sister's head trauma isn't affecting her ability to communicate and she gets checked out for it to be certain. Either way she deserves a better life and a better father and I hope Nicole is in a hole somewhere not reproducing.,SlitThroatCutCreator,383,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm just hoping the relatives will pick up the mantle, even if it's for the sake a girl they've never met before. Still don't see why they'd separate the sisters in the aftermath though if they were sending them to family. \n\nWith the record of abuse and child porn on the paternal side, not to mention the anecdotal evidence of the paternal side closing ranks to protect their son and throwing the older sibling out of the family for the crime of protecting the younger one, I can't see how, in good conscience, any CPS or judge would approve of this custody arrangement. I mean geez the case for parental neglect started 7 years ago when a neighbor had to run them to the emergency room, and they're old enough they should have a say in their own custody.",Catch-a-RIIIDE,94,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The paternal grandparents petitioned for custody under the guise of being better able to afford it. I assumed the paternal side also was able to hire a better lawyer, which would help their argument over custody. The judge probably was swayed with that false front. (E.g. Oh grandparents with expensive lawyer, & ability to afford all these court costs can definitely afford her medical bills.) And CPS is so blocked up & busy, they want kids to be kept within their families if possible. Which sadly most likely lead to both the judge & CPS allowing the paternal side custody without thinking further on the issues at hand. \n\nThe parternal side probably isn't even getting the younger sibling the care she needs. As that goes against \""God's plan,\"" or whatever bs they wanna spout to control the narrative that they're a good family. They just don't want their public image to be ruined any further, which is why they took her in. That little girl is indeed the lichpin in this whole thing. I fear she actually has dealt with way more horrific traumas than what OOP knows. And because the adults surrounding the younger sibling aren't safe people. She isn't forthcoming with any further information or truths regarding her abuse, for fear that she'll get any worse treatment. And it's sad asf, she needs medical treatment & both those kids deserve to be safe & loved not whatever this madness is.",Prudent-Investment-9,42,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yeah, that's if they stop at neglect. CP that the family was covering up? I hope to God that the paternal grandparents pr relatives don't go beyond neglect.",Dis1sM1ne,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think OOP is already 18? She mentioned on her March update that she only had 2 months to go until high school is done, and its June now so she has already graduated. She would be starting college in the fall so I don't think anyone needs to fight for her custody. Its not the same with her sister though. That poor girl, she might not survive this.",desolate_cat,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,These poor girls. My heart is breaking for them and my head hurts because I am so very angry at the people in their lives who let them down.,DivineMiss3,306,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thank you VERY MUCH, OP, for the giant text about the trigger warning. That was extremely necessary.",FrankSonata,164,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"You're welcome! When the content is incredibly distressing, I always try to add an extra note at the top to check them. I'd rather people be spoiled than triggered by something.",LucyAriaRose,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,When I first read this it was a horrifying read..... and then I read these updates... it didn't get better.\n\nIf the sister had acute liver poisoning... my first thought was paracetamol/acetaminophen toxicity and she tried to kill herself by taking a lot of an OTC pain reliever.\n\nI hope OOP gets proper counselling.,KitchenDismal9258,148,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I wanna throw up. Jfc I’ll be thinking about OOP for a long time,wheniwasolder,498,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I feel so bad for her.,Any_Quality4534,106,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Fucking christ....,"""[deleted]""",211,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yeah, not the update you probably want a Happy Cake Day on, but here we are. \n\nHappy Cake Day!",jennetTSW,46,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Side note - Happy Cake Day,QuietlyFierce,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Honestly I am half expecting an update that her sister has died. Those poor kids with such a shitty father and his family being just as shitty. To lose the one real support she had is heart wrenching.,Bookaholicforever,93,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,">Fr I didn't think he can get any scummier than he is, but today through my lawyer, I found out that this pos just got charged with possession of child p. \n\nJust when you think someone couldn't be any more of the asshole.",knittedjedi,473,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Things just get worse and worse.,"""[deleted]""",100,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Every single possible parental figure has failed these kids. Parents, grandparents, the school system. Just burn it all. Ashes.",ScottMou,179,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"And the ONLY one who didn't fucking died. Fuck.\n\nI kept waiting to post this one, hoping there would be a happier update. But nothing.",LucyAriaRose,200,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I was wondering why everybody in the father’s family has such weird and screwed up priorities. Then OOP mentioned church counseling and it all made sense.,MomentSpiritual9197,79,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,School employees and (especially) counselors who tattle to the parents on children trying to report abuse are accomplices to the abuse and make it more likely the kid will be abused repeatedly through their life.\n\nThey should be fired and whatever licensure they have revoked.,ishfery,108,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I agree!!! I trusted my school counselor and she called my parents. She outed me and ruined my home life. I moved out as soon as I graduated. She constantly tried to follow up with me in the hallways, she became a huge source of anxiety. I had totally erased her from my memory until this comment..",nun_the_wiser,51,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"\""Oh hey, let's take this kid who is being abused (or at best having severe issues that they've reached out for help over) and give them additional issues with [betrayal trauma](https://pubmed.ncbi.nlm.nih.gov/23417879/) so that they'll never feel safe reaching out for help again\""\n\nI definitely learned my lesson and can't imagine ever being honest with any information that could backfire and cause problems for me.",ishfery,37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Yes! Very relatable. I especially struggle with honesty towards figures of authority because of her.,nun_the_wiser,18,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Fun fact about mandatory reporting- it some states failing to report is at most a fine, which is just grand. It’s clearly not something taken seriously",Commitedtousername,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Mandatory reporting is also absolutely not to the parents.,ishfery,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ok. As someone who once tried to commit suicide, I am afraid oop's sister will try to do that. Isolation is one of the signs. I hope we get more positive updates.",ILikeYourBasement,117,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Her dad and step mom’s neglect caused the second concussion.  \n\nConcussions can cause all sorts of bad symptoms.  Including personality changes and suicidal ideation.  \n\nCombine that with the physical abuse she suffered from her dad, the neglect, the loss of OOp, the bullying and the loss of vision? \n\nI hope dad and step mom suffer in jail as much as OOP and sis suffer.  ",StrangledInMoonlight,113,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"\""Her dad and step mom’s neglect caused the second concussion.\""\n\n\nDon't forget the paternal grandmother, who was meant to be checking up on her, and now has primacy custody. Grim.",AshamedDragonfly4453,50,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,All those adults deserve to burn in hell. ,StrangledInMoonlight,38,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,His dad won't. The system protects the abuser.,ILikeYourBasement,39,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Her dad will suffer in jail if the other inmates learn why he's there. \n\n\nNOBODY likes people who abuse children, and if you're already in jail why not pull out a shiv?","""-Sharon-Stoned-""",26,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,He'll be in the protected area they out monsters like him in. He will not have any problems unfortunately. \n\nSource: my abuser has been living just fine in prison since 1992.,Honestlynina,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Pedophiles run together in prison, protect each other, and trade tips. They have their own gangs. The idea that prison violence functions as righteous justice against the worst of our society is just incorrect. The worst people are commiting the prison violence not facing it. You'll get more shit in prison for being a thief because nobody wants their shit stolen than you would for being a rapist, pedophile, or abuser.",elizabreathe,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,And yet…prison fights still happen. ,StrangledInMoonlight,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"How many abuser do you know actually see prison light? Especially those who have a \""good\"" reputation in the community.",ILikeYourBasement,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Did you read the post?\n\n>I found out that this pos just got charged with possession of child p. Apparently, they searched his phone regarding a situation involving my sister when they came across the graphic pictures\n\n>They found CP on her phone and computer too, and she's been booked.\n\n>**He has been sentenced already.**\n\nHe was arrested for CSAM and sentenced. ",StrangledInMoonlight,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"And then suddenly seeming kinda okay and having energy often is a big huge neon \""I have immediate plans\"" sign","""-Sharon-Stoned-""",37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"what an absolute nightmare, this might be ones of the worst, if not the worst post Ive read on this sub, virtually every adult failed these kids",CummingInTheNile,61,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"a part of me just want to kill the parents and the grandparents in cold blooded, like beat them to pulp, I just wamt them to suffer, how can someone be like this, have they no shame",Own-Speed5748,26,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Jesus, I hope this isn’t real. What a brutal ending for the grandpa. He must have been so damn stressed, I hate the dad and his sick family.\n\nWhy are the worst people in the world always the “religious” ones?",Smoke__Frog,42,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,It's so *strange* how their god did not lead them to doing the right thing. Almost as if...,InASexyWay,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This is a horrible story, but I'm having a hard time believing a lot of what happened. I can understand some bad things like the school ignoring the bully, but when the person put someone in the hospital, the school didn't immediately expel the bully? Okay, okay, I can sort of maybe buy that.\n\nNow the father comes along and is physically assaulting the OOP while dragging her out of the school and the OOP is screaming bloody murder. Everyone is fine with it. Okay, I guess everyone in the school actually hates children. Did no one call the cops?\n\nNow, the father is physically abusing the OOP's sister. Okay, the guy is physically abusive I guess, and is taking out his aggression on her. Now the father has CP on his phone? And he was sentenced after only a few months. The justice system moves very fast in that neck of the woods. Maybe he pled guilty I guess.\n\nOh, yeah, the stepmom is having complications with the baby due to an irregular heartbeat, that is some unusually bad luck. Oh, she had to go to the hospital with bleeding. Oh, now the grandpa is dead too. How unfortunate.\n\nI know that bad things like this could happen, but this feels like bad luck porn.\n\nIf it's real, I hope the person gets the help they need to get over this.",bleah1000,259,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,">Oh, yeah, the stepmom is having complications with the baby due to an irregular heartbeat, that is some unusually bad luck. Oh, she had to go to the hospital with bleeding. Oh, now the grandpa is dead too. How unfortunate.\n\nDon't forget they also found CP on her phone!",gezeitenspinne,72,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Omg I can't believe how far I had to scroll to find this. \n\nAlso don't forget that Op is updating us on every little thing but then somehow skips over some important things like telling us the sister had to be in the hospital for an extended amount of time and three updates on how it keeps getting extended with an update about how the dad is currently being investigating by cps, then suddenly the sister is at home and apparently has been there for a while and op needs to be kidnapped to take care of her?",AnimalLover38,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,">Okay, I guess everyone in the school actually hates children. Did no one call the cops?\n\nThe cop was right there and was totally okay with it, which is horribly realistic because 40% admitted!",rosemwelch,35,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The CPS stuff doesn't really add up either, which I mentioned in a comment. I was a foster kid and a foster parent, so I'm pretty familiar with how it works.","""[deleted]""",108,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,It’s not so much “bad luck porn” as it is the host of calamity that accompanies parental neglect and abuse. I used to be a therapist and saw a lot of teenagers. With each trauma came a risk of another goddamn trauma. It’s like how autoimmune disorders like to travel in packs — oh and abuse and trauma raise the risk of those significantly. ,producerofconfusion,51,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yes, but it requires a lot of bad things happening to everyone around her too. Sure the parental abuse and other things could happen, but the school and everyone in the school being morons starts feeling unlikely. This could happen, it just feels a little unlikely. Now the stepmother is having problems and has to be hospitalized, now the grandpa dies. Added on to everything else is what makes this suspicious. And the whole courts moving so quickly is also unlikely.\n\nAnd remember, the bully just happens to take this time to hurt the sister enough to send her to the hospital. Again, this could happen, but it requires a lot of bad things happening within a few months. Even the sister getting in a fight is likely, but going into the hospital, then she keeps getting worse, but now a few months later (after multiple seizures and concussions and having trouble moving around) she is seemingly fine. Maybe the sister is not okay, but it sounds like the OOP has had direct contact. So if things were wrong, I would expect the OOP to have written about it, since they write about everything.\n\nAgain, this could all be true, but there are a lot of things happening in a very compressed time frame.",bleah1000,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I honestly thought that's where it was going. I truly thought OOP was going to find out the paternal family did something to him.,LilOrchidJenny,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",47,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Some of us are Fox Mulder, and then there's Dana Scully over here.",tedivertire,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Yeah this is just trauma porn at this point. It escalated to a ridiculous degree.,DogsAreMyDawgs,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I was once tied to a tree and beaten with a poorly shaven willow branch in full view of the neighbors. \n\nThe cops came and my mom told them I stole and they just left.,Grimwohl,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Don’t forget that there is a maternal grandma mentioned in the earlier updates but then she is dead in the final one. “He couldn’t even be buried next to grandma”. Why didn’t OOP mention it when grandma died?,holliday_doc_1995,32,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I only saw one mention, and it was pretty clearly (from context) a typo for \""paternal grandma\"".",AshamedDragonfly4453,38,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Can I just add I’m surprised she was allowed to keep her phone/laptop to keep us all updated through this,procrastinating_b,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Another suspiciously tight legal timeline...,beatissima,70,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Only if there were a trial. If dad pleaded, then it works perfectly, and most people do plead.",rosemwelch,26,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I agree, but I am surprised a DA would make a plea offer on a CP case without quite a bit more investigation. Could also be that OOP doesn’t quite have the details right on the allegation.",tinyahjumma,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,>Could also be that OOP doesn’t quite have the details right\n\nI feel like it's this 98% of the time when people talk about the US court system.,rosemwelch,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"True that. I’m a lawyer in the criminal system, and often when I posit an opinion on this site, people tell I don’t know what I’m talking about. Everyone is an expert on what *should* happen.",tinyahjumma,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I try to think about it like a layperson. Like, was it technically a sentencing hearing or was it just some kind of court event after which the sentence was heard by other people?",rosemwelch,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,If they live in a rural area it's possible. I am in an extremely rural area and court dates are usually done very quickly.,FailAltruistic3162,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Everyone failed those poor child, fucking hell\n\nAnd the only who didn't just fucking died? Poor kids",regularyman,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"idk, either this family has been cursed or someone has angst bingo card they are trying to fill.",bubblesthehorse,28,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I still have twins and heart attack on the front lawn on my card.,chicago_scott,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"*but if you could, please refrain from sharing or sending my post on other platforms.* \n\nYeah, good luck with that.",xerelox,51,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Those poor, poor girls. They've been failed by so many of the adults in their lives, and the ones who seemingly did well by them have died.\n\nNow that the custody battle is dropped I hope they both end up with maternal relatives who will do right by them like the maternal grandpa, RIP.",Starchaser38,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Unfortunately, it's grim. The paternal grand parents have custody of her. You know the same ones that neglected her in the first place and also saw no problem that their son was a pedo. I'm really hoping the sister manages to get out before anything tragic happens.",Dis1sM1ne,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This man's dead wife would be horrified  to learn what has been happening to her children. How do you stop loving your children for a piece of ass. I don't get it.,"""[deleted]""",13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",151,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Also the part where her maternal grandfather lives 2 hours away, but she was staying with him and didn’t switch schools because she only had 2 months left? So she commuted 4 hours everyday to school?!",PracticalCoconut,85,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"If I were OOP,  I would take a four-hour commute over living with the paternal grandparents, and she did.\n\n\nPlus, staying at the same school gave her contact with her sister.",AshamedDragonfly4453,36,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I did a commute like that from 16-18. It isn't comfortable but can be done, especially if you're smart about using breaks and free periods to work rather than hang out.",Haunting-blade,79,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I did that for my freshman year of hs. My dad refused to let me do it for the rest of high school, probably for the best.",Honestlynina,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I did this when I was in high school shuffling from relative to relative. Longest commute walked my way to the subway until the buses started running then took the bus to the metro, then took another bus and then walked more. It SUCKED. \n\nShortest was at a halfway house where it took about an hour and a half. \n\nOne relative lived in a bad area of town and the walk to the metro walking past prostitutes and drug dealers was scary initially but oddly every one that encountered me was nice and made sure I was left alone besides a hello how's it going. I'd sleep on the train cause I was lucky enough that my stops were both at the end of the line. \n\nThe problem with switching schools in my case and I imagine here too is you actually need parental permission.",Dragonpixie45,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Not to mention she's no longer in the district. So unless she was still using her father's address, she wouldn't be allowed to go to school there anymore.\n\n\nSource: my parents wanted my sibling and I to go to the high school in the next town over (which was literally only 12 minutes away from our house, but we technically lived in Town B so not a part of that school district).\n\n\nMy grandparents lived in that district and they actually had to get legal paperwork drawn up making my sibling and I their wards or something (the legalities were never fully explained to me) so that we could go there.",LilOrchidJenny,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,It might depend on the district and state? I was able to go to the school I went to for high school before we moved 15 minutes away by getting a special assignment. That was in 2001.,ColeDelRio,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,These poor girls. I just want to give op a hug and my spare room.,quantizedd,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,...Jesus christ,"""[deleted]""",15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I should not have read this before bed…those poor kids ,Remarkable_Table_279,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I hope someone has checked into social security benefits. The kids should have received them after their mother passed.,00Lisa00,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Everyone has failed these two girls, and when maternal grandpa was helping them, he passed away, indeed it has a bleak mood spoiler. I hope at least now OOP is 18 years old and maybe can get a good job and someday get custody of jer sister. Good on the father and Nicole to be in jail, is the only \""happy\"" ending for these two monsters.",MadamnedMary,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I'm not a religious man but this would really be a case example of karma hitting one in their next life. The amount of bad luck this person has is just insane.,"""[deleted]""",6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Maybe reddit should hold a huge celebration when she turns 18, or when the pos finally gets what he deserves",AmyrlinEgwene,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Hopefully the CP on his phone ensures he never has the chance to be around her or her sister again. The one thing you do not want to be in prison for is harming children. Even in prison there is a hierarchy, and child predators and rapists are on the bottom of that hierarchy. And the things the other prisoners will do to a chomo are gloriously horrific and deserved. They generally won't even kill them outright. They make them suffer.",ThePrinceVultan,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Tldrs felt very clear and thorough. Also, I appreciate that between trigger warnings and mood spoilers I always know what to expect and can prepare myself for your posts. Hope you’re doing okay and take care of yourself after putting this all together, it was such a tough read just like this and you went through and filtered ALLLL of it for us.",TheKittenPatrol,164,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you 💜 I definitely was in a mood last night after posting it. I have to remind myself that there is still good in the world.,LucyAriaRose,44,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thanks for gathering this one together. [Have](https://i.pinimg.com/originals/89/d4/63/89d4633710a62cf4a62c637f385cfb51.gif) [some](https://www.icegif.com/wp-content/uploads/2022/06/icegif-701.gif) [doggo](https://cloudinary-assets.dostuffmedia.com/res/dostuff-media/image/upload/page-image-3732-706a1412-7593-4d15-ab59-1e2118e30dc7/1440186716.gif) [brain](https://gifdb.com/images/high/puppy-retriever-sleepyhead-1bqjdij4683kal01.gif) [bleach](https://www.icegif.com/wp-content/uploads/2022/06/icegif-710.gif), [friend](https://i.chzbgr.com/full/7482495232/hD383160B/cute-gif-of-a-bucket-full-of-puppies). 💜",ilex-opaca,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,15/10 doggo brain bleach. Thanks for spending time to put several in there! They made me smile.,LucyAriaRose,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,You’re a gem,naplover64,98,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,💜💜💜💜💜,LucyAriaRose,76,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thank you for all your work. I remember the first post, but I didn't realize there were updates. Appreciate all the work you put it.",Born_Ad8420,48,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you 💜,LucyAriaRose,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thanks for this. Each update took a year off my life,Angel_Eirene,39,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thank you do much for putting it together. I remember the earlier BORUs, and it's a relief to see OOP may be getting out at last, even if things have got significantly more horrible along the way.\n\n\nEvery single adult except the maternal grandfather is an absolute POS. Just infuriating.",AshamedDragonfly4453,33,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you so much for noting on each major update the timeline changes from OG post. Made parsing the timeline so much more straightforward.,crutlefish,22,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Glad it was helpful. With so many updates I always struggle to figure out how whether to give timing from the last post or from the first post. So I try to do a mix.,LucyAriaRose,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Chiming in that I also really appreciate the time markers! It's one of those \""I didn't realize how helpful this is until it was already there\"" things and now I wish everyone who posted included them","""[deleted]""",4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,💜💜💜💜💜💜💜,LucyAriaRose,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Thank you for providing all the updates! I read some of the BoRUs at the time, didn't know it had escalated this far - I so much hope that the girls will be okay, and the father will be locked up and not get access to his newest daughter at all. And I hope the lawyer will look into the financials - if OOP and sis got any inheritance or college fund from their mother, I'm betting dad & Nicole will have stolen the money.",Corfiz74,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I think you did a great job.,Glittering_Win_9677,52,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you!,LucyAriaRose,38,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I knew this one was bad, having followed the saga from the first update, but my stomach plummeted when I saw the CP warning.  Bless you for that.  I would not have loved being surprised with it.\n\nThese children are being so failed and I just want to scoop them up and put them somewhere safe so they can thrive.  They deserve so much better than this.",princesscatling,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I’m so glad you used tldrs instead of breaking the post up. I’ve read this before but without some of the new updates so that made it a lot easier to catch back up. Thanks for taking the time.,Ceecee_soup,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"You're welcome. I really hate breaking up posts so I try to fit it all in one, but that takes quite a bit of extra time. (Especially when reddit hates me lol.) So thank you for saying that!",LucyAriaRose,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you for the effort!,Myrandall,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'm probably going to regret this, but where is your flair from?",Autofish,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's from a comment I made on a post about a \""frothy\"" Smash player.\n\nSearch this subreddit for \""Smash\"" and it should be the top result.",Myrandall,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you for taking the time to put this all together. You did a really nice job.\n\nMy heart breaks for OOP and her sister. I hope they never have to be around the sperm donor they once called father.,Jokester_316,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,You did a great job.,sawdust-arrangement,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"[3/19 update:](https://www.reddit.com/user/SwanAltruistic2129/comments/1b6sr2r/comment/kvo5es1/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\n\n>Reddit is being weird and not allowing me to save my edited post, so I'll continue mini updates in this comment:\r  \n\r  \n3/19 Update: My sister is recovering well, and she will be starting PT soon! I also committed to a bs/md program yesterday. Nicole and the baby are ok, but police are looking into Nicole for something, but idk for what.",Schneetmacher,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Thank you! i'll see if i can add it to the post or if the character limit strikes again...\n\nEdit- had to take out part of a comment but I was able to include it!,LucyAriaRose,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I would like to believe this is fake, but I also have a friend who works for DCFS, so…\n\nThis is such a devastating read. These kids are being failed by almost every adult in their lives. I hope their dad lives for a very long time in prison, and that it’s true that even hardened criminals don’t like people who harm children.\n\nAs for Nicole… I can’t help but feel this is the universe trying to keep a third child out of harm’s way.",41flavorsandthensome,454,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This is all too common in the Bible belt to the extent I didn't question it.,Coffeezilla,185,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I don't even live in America, and I usually take reddit posts with a pinch of salt, but this one felt real.",Murky_Translator2295,104,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Especially when there were rounds and rounds of Authority Intervention and *nothing* happened. That lends creedence to me.,"""[deleted]""",115,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yep, and sadly that makes it even harder.  Even individuals who are found guilty of raping their kids get off light.  David Richards was found guilty of none felonies including rape and incest, with damning evidence including seminal fluid on the kids headboard.  Prosecution wanted the statutory max (72 years) but the judge gave him only 12 because he was a pastor and had done good for the community.\n\nOriginal story\nhttps://www.knoxnews.com/story/news/crime/2019/05/09/former-pastor-nets-12-year-prison-term-rape-adopted-daughter-david-lynn-richards/1143006001/\n\nUpdate on attempted appeal\nhttps://www.knoxnews.com/story/news/crime/2022/10/26/former-lenoir-city-pastor-loses-bid-to-overturn-rape-conviction/69586048007/",IvanNemoy,81,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,UGH,thefinalgoat,29,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"DO THEY NOT UNDERSTAND THAT'S WORSE!!!!\n\nPeople trusted this guy. He should get MORE time for the breach of trust, not less time.\n\nIf anyone needs me I will be screaming in the corner ripping out my hair.",Amelora,26,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I hope that judge was kicked out of office the next election.,FunnyAnchor123,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,After hearing that Nicole went to the hospital bleeding I'm curious if OOP's bio donor turned his anger on her.,Visual_Fly_9638,22,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yeah, that was my thought, too.  He doesn't want another daughter.",Sidhejester,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Maternal Grandpa is the only person that hasn't actively hurt them kids.  Everyone else can rot. The school sitting on their hands as he physically assaulted her on school grounds really wound me up as well.  The fuck is wrong with them?,nustedbut,128,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Considering the history they had of not respecting the child's confidentiality and basically making things worse every step of the way, I'm not terribly surprised.",Visual_Fly_9638,37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,placid library society squalid sloppy boast tie spectacular sable chunky\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev)*,"""[deleted]""",23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"God, no wonder sis was suicidal. And now she has a TBIl too. I hope dad and the bully both end up incarcerated, although I know the bully it won't. It'll be a rap over the knuckles, \""tut tut, girls will be girls, hormones etc,\"" and back to the classroom they go.",EducationalTangelo6,254,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I wouldn't count out expulsion yet, but we really have no follow up on her and it's entirely possible that for something this serious she did or will eventually end up in cuffs. There's still hope on that front.",G1Gestalt,80,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The TBI is the original concussion, as well as the second one. The sister should never have been left alone by anyone after being released from hospital after the original fight with the bully. That goes against all wisdom regarding concussions and tbi, because seizures and headaches need to be followed up on.","""[deleted]""",75,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I know people like OOP's dad and his parents exist.  I just can't fathom how they can live with themselves.,Glittering_Win_9677,118,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Religion. They’re pre-forgiven by their deity of choice, so they never have to actually think about the damage they do.",Unusual-Sympathy-205,64,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,But that is not how it works. they have to be Actually Sorry for what they did not just pretend they are sorry. \n\nalthough maybe that is how OOP´s dad thinks that is how it works.,Spinel-Universe,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That’s the way it’s supposed to work. But in the current US version of Christianity, too many people believe that just the belief is enough for them to be forgiven. Their belief means they can do anything and god will forgive them because they are faithful. So they head out into the world and treat people like garbage because they’re in the clear with God.",Unusual-Sympathy-205,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The ones I know/have known have no religion and do not attend church. .,Glittering_Win_9677,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Denial, deep denial, and delusion",TheBadBedPotato,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"They don´t care. i have a uncle although he hasn't made the crimes oop dad did, he doesn't care about the multiply child he has abandoned, his first son got a tumor in the heart and you would think he feels guilty for abandoning him... he simply couldn't care less.",Spinel-Universe,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"They are in the echo chamber of their church, where the father is the Authority and even vaguely questioning the Authority is a sin, so the daughter is a dirty, dirty sinner who just needs to do what her father tells her and all will be well because the father is granted that Authority by God, so what he wants is God's will.\n\n(In my family my mother was the Authority because my parents were separated and my father wasn't a Christian, but I have lived this.)",tikierapokemon,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Maybe some people but not all or even most in my experience.,Glittering_Win_9677,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Here I am on my shift in brain injury rehab having a conniption over this kid being left alone with a concussion. Of course they found her on the floor. They are very very lucky she didn't die. \n\nIf she was having suicidal thoughts before this, she *really* needs to be monitored now. TBI increases the risk significantly.",shadowlev,98,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This went from bad to awful to Jesus fucking Christ can this children suffer any more? Can someone send me links to cute cats with dogs pictures? I need to be happy again.,CaribbeanMango_,100,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Orange cat being a [orange cat](https://www.reddit.com/r/OneOrangeBraincell/s/9vdqQAuHhy)\n\n[puppy rush](https://www.reddit.com/r/awwwtf/s/aoFYFE6Rtd),Avacynarchangel,70,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That right there is why I love cats. Thank you for that. I think everyone here can both use it and appreciate it.,Turuial,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Bless you 😭💖,CaribbeanMango_,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,r/eyebleach,djseifer,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's weird, I was getting major pedo-y creep vibes from the dad the whole story, and then \\*boom\\* CP. Why am I not surprised",Equal_Set6206,253,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Ikr. Like why is the dude refusing maternal grandpa help or giving him custody when has no interest in being a father? Tbh the pos may have abused the little sister.,Luffytheeternalking,111,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"OOPs sister's neck and abdominal bruises had me thinking exactly that. It's not often I feel sick reading BORU threads, but this is definitely one time.","""[deleted]""",80,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I don't want to think the worst, but given what was on his phone I hope it was just physical abuse OOP's sister endured...",ravendusk,35,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"If he did abuse her, no wonder he refused to let OOP return and forbid her from interacting with her sister.",Luffytheeternalking,23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I honestly had my heart racing reading it. The bruising made me feel sick. That poor child, she’s been shoved down and stuffed down into being a silent victim. Too afraid to speak or do anything. I feel so bad for her",thebearofwisdom,23,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I will *never* understand people (Nicole) who stick with men like the Father,  why would you *want*  to be with someone who consistently **fails** their children at every term? She was there when he would yell at them, neglect them, threaten them? When he refused counseling and would treat them like grown adults he's resentful of.  And why would she think he'll suddenly be a better father to *their* children? Like for fucks sake girl, trips and spoiling presents doth not a good partner make.","""[deleted]""",52,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Because she doesn't care. It's not her kids so 🤷‍♀️, but wait until the father pulls this shit with HER kid, then it will be all mama bear and poor me. \n\nNicole and the father and the Paternal Grandparents are fucking trash and I hope they all burn in hell and before they get there, I hope everything that is bad could possibly happen to them. They are fucking disgusting.",LadyEncredible,64,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Because the Leopards Eating Faces party would *never* eat *their* faces! They're the *right* people!,PepperVL,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My guess is that Nicole was chosen for her passivity. She also sounds young and not terribly bright. Chances are she also came from a chaotic background, was love-bombed by dad, and pinned her hopes on that POS to 'save' her. Then she was trapped by a debilitating pregnancy. Certainly not an excuse for standing by while the girls were abused, but I could muster up some compassion for her if those are the circumstances.",Snowdrop-19,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"She's 34, not 24. ",subluxate,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"ah, I missed the age.",Snowdrop-19,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Because OOP was right from the beginning: Nicole is trash. She just found a man as trashy as her.,Arashirk,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Jesus Christ this is horrifying. Someone needs to get OOP and her sis out of there and frankly nuke the site from orbit. Dad, Nicole, her paternal grandparents, the school, the cops, probably the state's legislators too since I suspect this is some backwoods small town in a red state that probably thinks sending kids back to abusive parents is better than letting trans people exist or something.\n\nThe fact that even now the cops haven't really done anything is just so deeply infuriating. Fuck all of these people.",boringhistoryfan,146,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The cops arrested the dad. The school security are the ones that should get nuked. The cops were actually helpful.,Muted_Category1100,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,That whole side of her family is crazy. I'm glad she's finally getting help. I feel so bad for her sister. I hope they did press charges on the bully.,jaquie1026,31,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I... am just at a loss of words.\n\nI didn't expect a Boru to get ***this*** bad. I feel so insanely sorry for everyone involved (except the dad of course),"""[deleted]""",37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Another shining example of EVERY adult in these kids' lives failing them, out of their own arrogance and need to save face. Thank heavens the grandfather stepped in and stepped up.",ember428,33,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Hyper religious and found with cp, color me surprised. May everyone in that family rot for the rest of their lives. Hopefully the sisters get through this with the actual grandparents who care for them.",Adventurous-Bee-1517,31,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,he'll be the pastor in no time,shuzumi,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Jesus, this is so fucking bleak. I can't even be happy they got the sister out, because both OOP and her sister will need decades of therapy for this one and sister may never be the same person. *And* there's potentially another baby involved.",racingskater,20,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"So, now with the Dad having to be much worse than just being abusive, he's now an abusive \\*word that starts with P\\*. I wonder, are the family still gonna defend him or will they change gears and throw him under the bus. Either way, ugh, I hope OOP can stay away from that family.",MakanLagiDud3,40,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"With the comment about him 'throwing something at her while she was sleeping', and the bruising on the nape of her neck....\n\nI feel sick. I think we've got a pretty good guess where that one came from.",shadow_dreamer,63,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,What are the odds that the family knows about this and may have even partook in it themselves?,Luffytheeternalking,25,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Double UGH, that makes it worse if true. As said before, OOP is better off without these bunch of effups and not be near them when the rest of the fallout hits them. You can be sure that if they end up being found out as well, they'll definitely blame OOP for this.",MakanLagiDud3,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Based on what OOP mentioned about the people in the town and the church, they are religious nuts and we know what they are capable of. \n\nYeah hope OOP and her sister get away from this rotten garbage lot.",Luffytheeternalking,20,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Jesus fucking H Christ. This might be one of the worst I’ve read. Really hoping OOP and her sister are okay, and that the sub-human dogshit can scrapings of a father gets his comeuppance.\n\nI hope Nicole’s baby is okay and delivered safely. I hope the baby is then removed from the scum of a mother before she’s dragged through all manner of well deserved hell for her part in this vile saga.","""[deleted]""",69,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's not certain, but if she really was bleeding heavily, the chances for the fetus are not good.",G1Gestalt,50,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"And considering the father got busted for csa, and the (step)mother helped him abuse two girls for years… maybe it’s for the best.",LuementalQueen,71,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Honestly why would Nicole think that he would treat her kid well, when he does that to his own kids??? I don't see the logic here. Like as a normal human being, a person would be terrified. What makes her kid any better tbh. And she goes an enables it to. Like wtf?!",FieldAware3370,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Nah. A swift death for Nicole’s baby would be far less suffering than being brought into the world in the care of her and her pedophile husband.,"""[deleted]""",2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Except the maternal grandpa every other adult in this story is trying their hardest to be the biggest garbage. Dad came out first it seems. What a disgusting pos!!! Nicole should have realized how this dude would make a horrible partner and father but she had to learn that the hard way.,Luffytheeternalking,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The OOP also said that Nicole is standing by him even after the CP was found, and she even has a lawyer friend defending him for a reduced price. 🤮",Violet0825,15,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Wellp there goes the last shred of sympathy I had for Nicole. I felt bad for her difficult pregnancy & bleeding out, but to know the creep who knocked you up has CP. And *STILL* defend him is wild, they deserve each other. But it seems the universe is trying to help that baby avoid what OOP & her sis have gone through. That poor baby doesn't deserve to be put through any of those clowns foolishness.",Prudent-Investment-9,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,worry important disarm coherent languid fretful quack panicky badge pot\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev)*,"""[deleted]""",5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Jesus *fucking Christ* how desperate are you to find a partner you stand by a man with fucking CP *on his phone*? **Seriously?** Ugh my blood pressure, I need to step away from this BORU.","""[deleted]""",12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Eww. What a horrible scum of a couple!!!\n\nMatch made in hell! \n\nWonder how OOP's mom missed that the man she married was a huge rotten turd,Luffytheeternalking,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Jesus. Just… oh my god I hope these girls will be fine. I hope their dad and everyone on his side rots.,pinkkabuterimon,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I'd be popping off about how much everyone in that school has failed them and naming names. Counselor has not only been useless, but repeated made things worse. School resource officers let OOP be dragged away, literally kicking and screaming, by an abuser. Like all they had to do was call OOP's grandpa. And then of course how no one stepped in with the bully. I know OOP doesn't want to talk about it, but man when people came up to to ask me about the situation, I'd use it as the perfect opportunity to pop off about what a failure all the school adults are. \n\nEven if nothing comes of it, I'd be pushing a lawsuit on the school just to make them all shit their pants",porkypandas,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"As disgusting as it is, them finding cp on the dad's phone is probably one of the best things to happen. Now there's absolutely no way they'll be given back to the dad.",Tignya,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Sad to see no cheese or bottles stuck to them!,the_procrastinata,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Is that a /r/blep? 😍😛,Navi1101,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"He almost has a permablep. He bleps when he is sleeping, he bleps when he's awake. He bleps when he's been bad or good, so blep for goodness' sake.",bug-hunter,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Am a vet tech. Can confirm. They are very silly. And the hot spots. My god. They get *THE WORST* hot spots. Pyrenees and Newfies. Ugh. I spent two hours once shaving a Pyrenees entire neck due to a massive hot spot and cleaning up the mess it made. \n\nI’m pretty sure I smelled just like he did by the end of it.  It was not the finest moment for either of us. He did look like a majestic lion when we were all said and done.  A white lion with a bright red and oozy neck, but he still looked majestic AF.",CatmoCatmo,31,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ugh, some people. I've been in that situation - I've had a super-busy pharmacy assistant hand me something meant for someone else. You know what I did? Glanced at it to check I had the right meds, realised it wasn't mine, and set it back on the counter so that when she came back, I could let her know it wasn't mine. I don't think I even registered what meds they were once the \""that's not my name\"" part hit, because it wasn't my business so I wasn't about to keep reading.",rebootfromstart,104,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The funny thing is that they *do* prescribe actual methamphetamine occasionally (not sure about ADHD, I believe it's just for narcolepsy but don't quote me), the drug name is Desoxyn.\n\nI take Adderall too and people like the ones you described are very frustrating.  Like, even if I *wanted* to take stimulants for fun, the only thing that would happen is that all my laundry would get done, I'd clean out my freezer, and then get a good night's sleep.  Our brains make it so that those drugs aren't fun, they just help us function the way a neurotypical person does.  Like...I tried to quit drinking coffee a few years ago to help my insomnia, and my insomnia got worse.  My doctor told me to start drinking coffee again and explained how stimulants basically have the opposite effect on people with ADHD.  We don't do it to get high, we do it to be able to focus during that early morning Teams call with a client in another time zone.\n\nThe physiological response is the same, but the neurochemical response isn't.  So now I have my morning latte and 30 mg of Adderall XR, and I'll sit quietly and calmly at my desk working on spreadsheets with a resting heart rate of 115, lol.",Carbonatite,56,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"So… in the US, meth is actually a legal drug controlled at the same level as Adderall. It’s a rare drug for ADHD but does exist as a drug called Desoxyn.\n\nAnd it is totally something doctors prescribe, albeit rarely.\n\nSo it’s very possible CVS does have meth behind the counter!\n\nCocaine is also a Schedule 2 drug like meth and Adderall. Heroin and cannabis are Schedule 1.",Nadamir,69,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,A friend of mine tried recreational Adderall in college and discovered she had undiagnosed ADHD.,cunninglinguist32557,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Never occurred to me that even meth and coffee wouldn't be effective.,MrHappyHam,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I mean I've never taken meth so I can't personally attest to it, lol.  But basically you get the physiological effects of stimulants without the mental effects.  It turns most people's brains into \""happy fun time\"", but it turns our brains into \""average adult attention span\"".",Carbonatite,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I also have ADHD and I start every day by having some breakfast, taking my Adderall and sipping some coffee/Red Bull and then taking an hour to hour and a half long nap. Most people think this is insane because how could I possibly sleep after taking Adderall and/or drinking caffeine, but it gives it time to kick in so when I wake up and start working, I’m clear-headed and focused. \n\nI’ve been working since I was 15 (working in an office environment since 18) and nothing I have *ever* tried in an effort to be more productive has been this effective.",sayhellotojenn,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,r/byebyejob,PatPeez,170,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,r/aurevoirjob,CarlosFer2201,79,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,She most likely pissed off a number of customers with her judgy comments. OOP's case had been the last straw.,tacwombat,34,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,As someone on multiple prescriptions I would HATE this. Can they blister pack more than one kind of med together?,emliz417,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That is very interesting to know! Thank you.\n\nI've never seen a pharmacy with carpeted floors, but then again I live in a country with hot, humid climate so having carpets anywhere is a rarity unless the business in question is going for some kind of posh, high-luxury vibe. 😅",Kadaaju,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I remember when I was like 11 my mom made this delicious rice casserole, I’m pretty sure I ate almost half the pan. I woke up later that night and projectile vomited every last bit down the carpeted stairs, and for years after just the thought of that casserole made me feel sick. But somehow despite throwing up pizza at least twice I can still eat it just fine lol",lightlysaltedclams,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I still can't eat grapes after I ate a whole bunch as a toddler and immediately threw them all back up. I don't even remember it I was that young, but the thought of eating even a single grape still makes me feel sick.",geek_of_nature,14,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I still can’t eat the soft crackers that were the only thing I could stomach when I had gastro as a child, and it’s been about 20 years since then.",catbert359,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Cheddar cheese, and really most forms of melted cheese, are this for me. Went to an early showing of a movie, they served sandwiches as part of the ticket, got sick that night and still can picture the texture of the melted cheese on the sandwich and start getting queasy to this day when I close my eyes. \n\nNot even just food too, sometimes I get motion sickness from video games and I physically can't go back to play a game if my body got it too bad from certain ones. The Witness and Portal are the two worst offenders so I think it has something to do with first person puzzle games and how I look around the maps.",Ginger_Anarchy,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Yes, this! Sensory memory can be so strong and so \""involved\"" for the body - it's not just a mental memory, your body remembers too. You'll feel the same tastes, nausea, pain, chills - all over again just from a memory! I unfortunately had a similar experience to OOP and it's taken me years and years for the sensory memory to fade. It's been almost a decade now and yet I can still feel a bit of it from writing this (though thankfully much much less strong than it was in the past).",bluebird2449,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I cannot stand 7-Up, since it was what I was given whenever I vomited as a child. Yuck 🤮 even 40 years later!",Captain-Cougmerica,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This is the worst. I had a period years ago where I was nauseous nearly every day for months (random health stuff) and I went from a person who used being able to eat everything as a personality trait to a very picky eater,casseroled,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"its been several years since i got food poisoning from eating some red beans, rice, and sausage while camping. i still havent really tried to eat it again because of how strong the association is",milkapplecup,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"> not just trauma \n\nPhysical response to anticipation of physical harm, based on experience, **is** trauma.",fauviste,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Soooo common. Not really the “same”, but almost every person who partied in college has some alcohol they cannot drink without immediately being nauseated from drinking too much as a 20 year old. \n\nI’m a bartender, and the amount of times I’ve heard “I can’t drink tequila/bourbon because I vomited so much at a frat party” amounts to daily over a decade.",witkh,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Huh, I was just thinking about it in times of trauma but you're totally right that it would probably work that way for OOP too. I got food poisoning and ate pancakes shortly before it kicked in. My dad was a POS and forced me to eat pancakes for years so I no longer have the physical food aversion but my brain absolutely remembers every time I see a pancake.",mischievouslyacat,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,What's ironic about that? You were hired because you won't tamper with stock if you end up getting the munchies.,MrHappyHam,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's so much nicer than the muzzle, too.",Farwaters,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There are two wolves inside of you,estee_lauderhosen,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Well I hope being fired actually teaches her something, but we all know how likely that is.",PictureNegative12,35,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This is how to lose your job in seconds.,"""[deleted]""",24,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"eh, the pharmacy lady didn't apparently lose her job in seconds. It was probably the sixth or something.",TootsNYC,19,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Well, this is really more difficult in France to lose your job like that. The employer need to justify that, and the employee can attack his employer if the reason isn't good enough. So, we can be sure that it wasn't her first mistake.",Nuiari,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Re: banana flavoring. Artificial banana flavour is based on a (now extinct I think) variety of banana.,Spatulor,68,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"it’s not quite extinct, you can still grow/buy the gros michel in some places, but the fungus (i think) that killed the monoculture made it not commercially viable anymore.",Leavesofsilver,50,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I came to the comments to share this as well 😅,xgwishyx,9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Its what bananas used to be like before the mass blight back in 1960! I actually came through to comments to share. The main strain of banana back when thye were super doing pharmacy alterations was striken by Panama disease around 1919 and went nearly extinct. Due to the completely homogenous way that bananas grow and have been \""cloned\"" (more like incested), it means that about 80% of the banana population could be wiped out instantly.\n\nIf you think of brussel sprouts when we were young (if you were young in the 90s and earlier) compard to toaday, the taste is totally different, but that is because bitter was intentionally taken away.\n\nFood flavorings do not adjust with the times, which leads to a lot of weird hiccups like banana not tasting like banana.",Cookingfor5,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My mom died from an opioid overdose (not her fault she was on vacation in the Colorado mountains and her dosage doubled due to altitude), and since then, I've never taken anything that I haven't confirmed 100% with my doctor. I won't even take Tylenol if my doctor says no!",missakieva,21,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Before I had a chronic illness and became BFFs with my pharmacist (wish I was joking), I was lectured by a pharmacist in a small country town because I asked for an antihistamine while pregnant with one of my daughters. \nHe told me that my child would die from SIDS and refused to sell me a pregnancy safe one that my OB had said I could have because I needed to keep my severe allergies & asthma under control. \n\nStrangely enough the pharmacy closed down not long after...",Sea-Midnight4762,21,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",9,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"You're a good man.  Could I rent you?  Not for prescription issues per se, just sometimes it would be nice to have a large man as back up when people are being dicks.",Trick-Statistician10,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Fun fact:  the reason banana flavoring tastes like it was invented by someone who had never eaten a banana is because it was based on a different cultivar of banana, which went commercially extinct in the 1960s.\n\nhttps://www.americastestkitchen.com/articles/3952-the-reason-artificial-banana-flavor-tastes-nothing-like-real-bananas",justferfunsies,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,How hard is it to mind your business and keep it pushin'?,MisterKruger,30,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Ahhh, la France. We are really something, aren't we? I am not surprised at all, sometimes here pharmacy agents can be very rude.",didine13com,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"In the US, I cannot tell you how many times I've had this issue with pharmacy techs (assistants). They question the prescription, refuse to fill it, make snarky remarks to other employees about me, etc. Pharmacists, on the other hand, have simply filled the script and treated me with kindness.",Runns_withScissors,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Some people go into certain professions in order to have power over others. Sounds like La Pure Préparatrice is one of those,Accomplished_Yam590,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I believed it until the part where the pharmacist was fired.,CautiousRice,41,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,No me reading the first sentence as: turns out I have vagina,vixissitude,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Yeah that does cause problems unfortunately.,snootnoots,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Mary Poppins approved method!\n\n\nThis is actually a great idea I can now share with someone else who has the same issue, thanks!",RelativeMundane9045,6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,My son uses chocolate pudding works well for him.,BklynOR,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Thanks, yeah I hope it'll remind everyone to be kind to customers/patients !\n\nGood luck for you!",StatisticallyMe2,97,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Unless you're a super-taster who can \""smell\"" with their tongue.\n\nSauce; me. 'just hold your nose!' ok well now I'm *tasting* the smell and that's far worse.","""[deleted]""",10,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Strenght to him, it's not easy to have to deal with that!",StatisticallyMe2,61,r/traumatizeThemBack - cant swallow pills adult
+Reddit,He gets weird looks occasionally but he stands his ground. Having to explain why you need something different to someone at the pharmacy sucks. Especially if it deals with trauma. I’m so sorry you had to deal with such rudeness. I hope your next pharmacy was more understanding.,ChaoticKare,56,r/traumatizeThemBack - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",33,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I hope she learned to not judge because the world is full of trauma mines just WAITING to explode in her face,ArrowDel,346,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Same.  Gastroparesis + dysautonomia means I don't process or respond to meds normally.  Not fun to deal with at all.,CaraAsha,12,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"she didn't, she just learned to keep her opinions to herself in the future. :(",__fujoshi,32,r/traumatizeThemBack - cant swallow pills adult
+Reddit,>the world is full of trauma mines just WAITING to explode in her face\n\nAnd the pharmacy world more so,arfelo1,7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Exactly! There is no need to add anything to it.,Puzzled_Velocirapt0r,45,r/traumatizeThemBack - cant swallow pills adult
+Reddit,yeah that happens. drs make mistakes all the time with prescriptions. Half the pharmacists job is fixing their mistakes it seems,MyLife-is-a-diceRoll,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Ex-pharmacy staff here. It’s not her place to judge or question. If the dispensing pharmacist has a question, they can confirm the prescription with the doctor who wrote it. Very unprofessional. Please make a complaint to her supervisor.",Ambitious_Ad1734,89,r/traumatizeThemBack - cant swallow pills adult
+Reddit,My doctor looked up the precise medecine to write it down for me so I can have it. I probably will go back to complain.,StatisticallyMe2,57,r/traumatizeThemBack - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",36,r/traumatizeThemBack - cant swallow pills adult
+Reddit,State board of pharmacy if they are in the US. Doesn't matter if they are a tech or a pharmacist. I can definitely see a tech doing this over a pharmacist.,its-a-saw-dude,6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,100% complain\n\nThat’s how she needs to learn her lesson,crentony,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Good grief, talk about rude and uncalled for. I'm sorry  you had to bring up something painful in your past (I did the same thing in high school), but since you did, I will say it totally served her right that you said what you did. Maybe she got fired.",HelloKitty110174,41,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I made peace with that past, thankfully, but what if it wasn't the case? That was super insensitive of her!",StatisticallyMe2,20,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Yes, it could have triggered a full-blown mental health crisis. Very rude and insensitive.",HelloKitty110174,13,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Outch. This one tastes like banana, it says. But it's more like someone never tasted banana but was asked to synthetise the taste anyway. :/",StatisticallyMe2,23,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"My favorite is when it says it's grape, but what it really is is grape-inspired benzine with a sidecar of acetone.","""[deleted]""",7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Understandably so 😬,Brilliant_Dark_2686,16,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Good on you for standing up for yourself!\n\n(and I'm glad you're still with us.),That_Ol_Cat,27,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Thanks, thankfully it was a wake up call for me to seek professionnal help, now I deal much better with the issue! <3",StatisticallyMe2,16,r/traumatizeThemBack - cant swallow pills adult
+Reddit,So sorry you have that issue! It totally sucks! I hope you win your Russian Roulette more often than not!,StatisticallyMe2,7,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Thanks ! <3,StatisticallyMe2,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Some thoughts which probably will only apply in you're in the US.  1. If this was a chain pharmacy, call corporate and report her arse. 2. I believe that what she did was a HIPPA violation given that she pretty much provided a lot of unnecessary information about the meds and requiring you to explain the need for that form. 3. If she was either a pharmacy tech OR a pharmacist, report her to the licensing board of whatever state in which you're located.\n\n(Used to think that pharmacists kept their opinions to themselves, but have seen time and again some who refuse to give Plan B to women.)\n\nI'm so sorry that you had to go through that but hopefully she'll have her license revoked.",OptimalShake8984,13,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Not in the US, but thanks! I hope she gets some kind of punishment for it, now I imagine if it happened to an old person who wouldn't defend themself?!",StatisticallyMe2,10,r/traumatizeThemBack - cant swallow pills adult
+Reddit,She probably got fired for that. What she did was a big no no in pharmacy,Cautious-Block-1671,10,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Just another voice agreeing that th pharmacist was WILDLY unprofessional. \n\nif the MD wrote the rx a certain way, there was a damn good reason.  \n\ngood on you for pushing back. keep it up!!","""[deleted]""",8,r/traumatizeThemBack - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",9,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Strenght for you and your husband! As far as I know, no, the insurance won't have a problem.",StatisticallyMe2,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Thank you for the reminder for the next time I'm at my pharmacy, to reiterate to the awesome team there just how much I appreciate them.",Competitive-Metal773,5,r/traumatizeThemBack - cant swallow pills adult
+Reddit,You should follow up and talk to the manager of the pharmacy. Have the snotface fired.\n\nIt's not up to the pharmacist to make social judgement or derogatory comments.,TomatoFeta,6,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Ugh, that sucks. I had a similar experience at a sports rehab facility. I mentioned on my paperwork that I get migraines. Then I had to miss a visit because of that. The receptionist told me I should try to sleep better and I won't get migraines. Like, what?? So you know me?",Degofreak,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I would also report her to her boss,Guilty-Company-9755,4,r/traumatizeThemBack - cant swallow pills adult
+Reddit,That’s why I take mine with juice. ,WolverineEven2410,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I hope that at least her superior reprimands her for that comment, she works in a pharmacy and those types of comments are very out of place.",Moniquecrj,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Do you have a local compounding pharmacy? They can make you suspensions.,VioletSachet,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,Your response was gold. Glad you are still here with us <3,EllieBlueexo,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"Glad you're still with us. You have a knack as a storyteller with a bit of a evil twist, I love it. Carry on!",q0ik,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,"I’m so, so sorry this happened to you, what a tw@t as the Brits would say. \nI have severe PTSD and am going through cancer treatments right now. I don’t know how you feel but I can empathize. My messages are always open if you need to vent. Lots of live to you.",JawnStreetLine,3,r/traumatizeThemBack - cant swallow pills adult
+Reddit,I hope OOP’s dad goes to jail for the CP and abuse stuff. Don’t they frown on shit being done to kids? I hope he gets his.,DarDarBinks89,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This who post has been so depressing to read and really makes you questions family courts/judges principles of reunification of the family unit.,Secret_Double_9239,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,What in the name of jehovahs witnesses ,lieutenantbunbun,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",24,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I feel so bad for OPP, I hope that they can find peace and their sister gets the help she needs.",SnooWords4839,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Goddamn.\n\nI think OP will be ok but I worry like hell for her sister.  That whole family that's still living (OOP, her sister, and the baby aside) can rot in hell. I hope OOP doesn't give them a minute of her time or a single nickel of her money moving forward so they can reap what they sowed.",GremlinAtWork,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Last time I read, they were both safely at their grandfather's. Why did I read this... About all of the adults around them failed them. Those poor girls.","""[deleted]""",5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"That a roller-coaster ride of feelings, I hope it gets better for oop and sister","""[deleted]""",5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",55,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",65,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The quote about her mother and the drunk driver reminded me of a similar thing some devout Catholics I know said near me once. It was during family gathering, I was so shaken I just left and refuse to talk to that part (thankfully unrelated by blood) of the family.",Thomas-Lore,32,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"No way children are physically abused and neglected? Like, really? This is every day trauma, unfortunately.",rosemwelch,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The accumulation of all those events, the fairytale like black & white characters. (okay we read the perspective of one person)\n\nBut it feels like: every week we add something more to the plot. We have only one helping character here, grandpa. We have OOP and sis as victims and we have the father the bad step-mother and all others as pure evil. \n\nWe have a constructed Shakespearean drama plot. It really feels like an analysis of Macbeth:  \nAct 1-3: Accumulation: Bullying of sis, physical attack of father.  \nAct 4: Then we have the retarding moment: grandpa helps us and it's going to be fine, CPS is doing something, father is going to court.  \nAct 5: The death of grandpa. Now the evil can take over control and he drama fully unfolds. At this stage Shakespeare killed all his characters. I can imagine 3 possible outcomes for our play:\n\nOOP is going to turn 18 soon, so:\n\na) CPS steps in, sis is recovering in asylum, they cut ties asap.\n\nb) Sis commits suicide, OOP cuts ties with everything.\n\nc) Evil step mum has a still bitth, dad goes ballistic and kills everyone of the play (approved by shakespeare)",Kichererbsenanfall,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Just because something can and does happen in real life, doesn't make every story about it true.",throwaway4578753356,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Goddamn, this just keeps getting more and more tragic with every update.",Majestic_Jazz_Hands,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"this made me sad as a kid with kinda the same past, maternal grandpa was the only one there for them and now he passed away. I wish op and her sister all the best cause the future will be hard and they wont get lost.",CatFatherz,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The school staff are completely fucking useless. All of them.,balmafula,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Those poor girls.  My God.,Feisty_Irish,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"My feeling is the paternal grandparents are turning her little sister against her. I can hear them now \""OOP is the reason your dad has child p on his phone. She tempted him, that's why he's an absent shitty father\"" etcetc",Noldir81,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Fuck. This is awful.,venttress_sd,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Honestly I truly truly hope this is a woeful Wendy penning a tall tall tale of misery because I don't want to believe what is happening to these poor young women. \n\nI have so many emotions towards everyone that has failed them and want to spare them this awful hand. If OP ever reads the comments I hope she knows that there is a whole corner of the world rooting for her and her happiness. She's stronger than I will ever be. The same to her younger sister.,Ascribbleintime,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",37,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,No it's not good. Nothing good at all.,BellPuzzleheaded8046,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The fk I read!!!,"""[deleted]""",3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,What a shitshow.\n\nI hope Op turns 18 soon and can get primary custody of the sister. But we'll see. At least dad is gone and can't physically harm them anymore,blueevey,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I have never cried at a post here before. But here we are. Those poor girls.,messofamania,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I found this difficult to read. But what I really noticed is in the beginning, OP’s writing really sounds like a scared child. And towards the end, it’s like somebody completely different is narrating. It could be because of everything OP’s been through and or because they forgot they were supposed to be writing from a younger persons point of view. But I’m having trouble.",SummerStar62,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"> they forgot they were supposed to be riding from a younger persons point of view.\n\nThis. This person lost me when they had to write an entire front office and school security team just letting her get physically dragged out of school. Never, ever would happen like that. It's tragi-porn",Naganosupreme,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Someone tell me how maternal grandma is mentioned throughout the posts but then is suddenly also deceased in the last update?,holliday_doc_1995,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Paternal grandma is checking up on the sister. Maternal grandma was dead the whole time.,Majestic-Constant714,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Where? I've just done a ctrl+f search on \""maternal\"", and as far as I can see, there's only one instance of \""maternal grandma\"", which from context is pretty clearly a typo for \""paternal grandma\"".",AshamedDragonfly4453,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I checked, but the only grandmother mentioned is the paternal grandmother. Not the maternal one.",LucyAriaRose,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"In the latest update,  their maternal grandpa passed away.  I feel so much for these babies.",Revolutionary_Age567,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,What the hell did I just read,standapokeman,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Through and through heartbreaking. I can't imagine how OOP will carry on with her life and what will become of lil sis. It's an impossible situation. My sympathies are with them.,Fun-Bat-7209,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Which update starts the \""new\"" update?",optimisticpsychic,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"It's starred, but technically the March 9 update",LucyAriaRose,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Just oop and her sister they keep getting beat down I was honestly expecting to be to worse after the grandpa death like now we have to stay with them since no other family. I really hope they get a big lottery win at least then there expenses would be sorted and they could focus on healing more without that worry,mopeyunicyle,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I wish there was something we can do? 😞,kristycocopop,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,My heart hurts for OOP and her sister. Both have been failed not just by the judge who granted the paternal grandparents custody but also by most adults in their lives except for the maternal grandfather.,Beers4All,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,America is failing its children.,Top_Airport6285,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"God damn.. if it's real this deserves a movie, wtf is wrong with people nowadays","""[deleted]""",2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,God I hope the sisters are doin ok.,Common_Street8758,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Is that a TWO-line trigger warning? Hold on, let me get some popcorn.",__PUMPKINLOAF,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There is no hate like Christian love. \n\nWhat a horribly bleak sequence of events and updates… I can’t help but wonder if foul play was involved in grandpa’s sudden passing. 💔,Frozefoots,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Oh my god. There are no words. Her father will rot in hell.,Responsible_Match875,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"this is a hell of a bad rollercoaster. i hope OOP makes it to 18 soon enough to save their sister and like get the two of them on state medical, ger assistance and all that helpful stuff. \n\n( updateme , i wanna know OOP amd sister both make it out of this shitshow alive)",LunarScarlett2410,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[deleted],"""[deleted]""",1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"The dad was, and then a bit after that Nicole also was.",rayogata,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"OP: it’s only a year, I don’t need to get to emancipation.\n\nLess than year later… well then….",Tinpot_creos,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I think she is 18 on her last update, she talked about finishing high school.",desolate_cat,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Updateme,shortchubbymomma,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,updateme,heluvrin,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Updateme!,Ok-Cat-4057,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"See, if there really was a divine plan, then I wouldn't want to believe in a God that puts a young lass and her now partially blind sister through so much pain, only to rob them of the one person who cared for them.\n\nNow, maybe there's a God, but clearly we've been left to our own devices. Religious beliefs aside, my heart breaks for the two sisters. I hope they'll heal, and experience amazing lives, because this ordeal entitles them to it all.\n\nHell, I've been through shit, and I still would rather experience it all again than go through what these two did.\n\nI'm especially worried about the younger sister. I'm no psychiatrist, but suicidal ideation, attempts (if I'm not mistaken), withdrawal... She's traumatized for sure, and she just might end her own life in order to stop the pain. And with dad having CP, she just might have experienced so much worse...\n\nOOP might just follow suit if she loses her sister to suicide, and their stories have been dark enough already.",Tuatha_Deohne,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Updateme!,Due_Opinion_4268,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,/updateme,lilith_amelie,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,No wonder the father was shitty as hell. He fell not far from the shitty tree.,Professional_Many907,1,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"You would think so, but we've all seen stories where that exact thing happens.",IrradiantFuzzy,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"OOP, do you believe in karma? I do. And I believe she's already there for your POS sperm donor. Lady Karma will then pay Nicole and your paternal grandparents a visit next. Rooting for you, your sis and maternal grandparents!!",KlutzyBlueberry9281,16,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,judicious gold unique tap caption middle narrow correct cautious ask\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev)*,"""[deleted]""",7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Almost broke my fucking hand with how hard I was clutching my fist in anger with each update. At least now, the POS dad is in jail. And Nicole? As harsh as it sounds, I don’t give a monkey's left nipple about her losing the baby. She’s just as guilty as the dad over their treatment of OOP and the sister.",HygorBohmHubner,17,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Holy fuck. This poor child.,Ill_Perspective_3943,28,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I missed most of the updates so I’m glad both of them are now with their maternal grandfather,Aesient,12,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,There was a time where the OOP would have been locked up somewhere and called hysteric and maybe even had a lobotomy done.  I am glad we're past that.  Unfortunately we still have a very very long way to go.  I am very sad that it took neglect after severe head trauma to one of the children to get them out of that situation.,resharp2,13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I remember reading the first couple of posts, and although i am glad that they got away from that house, the way there was so terrible. That little girl might have lifelong problems from her head injury and subsequent lack of care, and I can’t help but think it could have been stopped if they’d let her leave with her sister when it was asked. She might never have gotten into a fight. \n\nReading about how she was panicking all the time and freaking out, it reminded me a bit of how little sister reacted to me trying to tell her that her dad didn’t like me. It was shattering her world view, where if she ignored the bad, she had a family. The reality of it was it was broken, and her father broke it. I remember the moment I tried, really gently, and her eyes getting so wide.. how she went rigid and started yelling immediately. \n\nShe had the same reaction to me trying to avoid the subject of our mother, when we were adults. Only it wasn’t fear that time, it was anger at me shifting her rigid world view again. She built a world around her and believes it wholeheartedly. Because if she didn’t, she’d have to admit that her constant parent was the problem. She can’t. She’s not ready still. \n\nMy sister was “lucky” though, her dad had different feelings about her as his bio kid, he treated people blood related better than everyone else. I thank my lucky stars that the abuse apparently never got to the level of what he did to me and my mother. \nBut tbh, for me? I don’t KNOW that, in my heart. Cos she wouldn’t tell me anyway. She feels she has to protect her father even if he’s at fault. I just wish I knew for sure she was okay back then. I wish I had the certainty of knowing what her life was like after I escaped. I just hope that one day she can be completely honest with me, knowing that all I’ll do is hold her if she needs it. Never judge her for any of it.",thebearofwisdom,11,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Damn this is a roller coaster,No-Animal4921,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Good lord this post made me angry, REAL angry. What a disgusting excuse of a father, the paternal grandparents aren't much better either. My heart aches for these poor kids who have had to deal with such a monstrous family, it makes me sick",Zentroze,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I hate that it took this long for their dad’s horrible behavior to be outed and authorities involved before the girls could get out and get help. \n\nUnfortunately it sounds a lot like my childhood and living situation. The girls were brainwashed into believing that if their dad got in trouble with the law, it would hurt the girls worse. The poor kids.",ActStunning3285,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I knew the dad belonged on r/iamatotalpieceofshit when he couldn't be bothered to look after his injured children but had the audacity to call the police on people that would. And then throw CP on top of that? I hope OOP and his sister get far away from them and that the sperm donor rots in hell.\n\nETA: and the wife is just as shitty for sitting by and letting it happen and trying to take attention from the kids (who in the hell plans a gender reveal and tries to have it while their step kid is in the hospital???). Also for posting bail for her pedo husband.,theycallmemomo,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Wow, that was horrible. That poor teenager, having to look out for herself and her sister because her dad is a massive pos. I hope he rots.",MelJay0204,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I remember reading this up until she was trapped with her paternal grandparents and wasn't allowed to do anything. all things considered, glad things are taking a turn for the better",Aerion_AcenHeim,8,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I sure hope people reading this realize why the newer generations only want to see the system burnt down, WHEN THIS IS THE BS THAT HAPPENS! NO CARE, NO JUSTICE, NO COMPASSION! \n\nWhat type of idiotic school let's a screaming girl go away with her \""father\"" before checking up with the authorities? What type of school DOES NOT REPORT AN ASSAULT. What type of legal system let's the bully walk free and the victim bed ridden? What type of system allows the dad to keep his daughter imprisoned and to tie down the ONLY SOUL that wants to help. \n\nIk, emotions are flaring, the system works great at time but sometimes I wish there were less laws so you can beat the bully and the father to a bloody pulp.",FyreBoi99,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I hope she miscarries. Not out of malice, but because that poor child will be in hell with how the parents act.\n\nI hope dad goes to prison and the guards tell all the inmates why. And that *is* out of malice.","""[deleted]""",13,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Without the grandpa this would end up really bad for her sister, I don't think she would be alive",twopont0,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Imagine being maternal grandpa and feeling so useless for so long. \n\nGlad that ended as well as it could,Perjunkie,7,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I hate the world and people like ops father, I hope he suffers every little second of his miserable life,",Smart_cannoli,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"idk if i sound horrible, but i hope the baby leaves this toxic hell hole, and is born into a good home instead, the step-mom seems sus too","""[deleted]""",6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"God my heart goes out to OOP. I dealt with extreme emotional and mental abuse at their age, as well as bullying, and I know how awful it feels to reach out and have every single adult fail you..these two girls should NOT have only gotten help at this point. It's so sad how our system is set up to only act after something terrible happens.\n\nI blame the counselor most of all, because they did nothing useful in this situation when it's their literal job. When I read about her being dragged away, the school is so lucky that the dad wasn't feeling in a murderous mood! \n\nTo everyone who thinks this sounds too insane and ridiculous, these situations escalate because no one believes the small stuff. I envy people who cannot even fathom life being like this, but that just means that people with the privilege not to know this NEED to step up. \n\nThis did not have to escalate this much for something to be done.",thesaltyjellyfish,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I know Nicole might be a victim but if her kid doesn't survive, it would be for the best.",curiousbarbosa,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Reddit is being weird and not allowing me to save my edited post, so I'll continue mini updates in this comment:\n\n3/19 Update: My sister is recovering well, and she will be starting PT soon! I also committed to a bs/md program yesterday. Nicole and the baby are ok, but police are looking into Nicole for something, but idk for what.\n\n(From OOP)..\n\nBased on this mini\nUpdate, seems Nicole is also in trouble for some sh*t too",armoredalchemist611,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Oh I didn’t know the updates after January. I am glad that they are both safe now.,grumpy__g,10,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,These poor kids. Thank goodness they're out and away from the ~~father's~~ sperm donor's side of the family and the POS is finally in jail.,tacwombat,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"This is awful. I'm so glad things are looking up and this absolutely vile subhuman scum is going to prison. But he deserves so so so so much worse. Like, biblical levels of retribution. Lile dick caught in his zipper every day for the rest of his life and having fire ants up his bum would not be enough for what that creature deserves.\n\n\n\n\nNicole? Nicole got exactly what she deserved from a partner. Almost as psycho as the man she chose - what kind of soulless monster refuses to let the kids speak to their dad?",buttercupcake23,6,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,My heart is continuously broken for how badly children are failed.,Sleepy-Forest13,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Every adult in this story except the maternal grandparents and maybe the counselor need to be locked up for life and unalived. Yikes how so many people can fuck up so badly.,MemoSupremo666,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Every adult besides the paternal grandfather have failed these two young girls spectacularly.,Rancesj1988,5,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Oh my gawd...this went from terrifying to horrifying and then just straight up horror story shit. I really hope they lock this man up. He's abusive, and a child molester by the sound of it and needs to be convicted. Not even just convicted but also put on a list.\n\nNo wonder he kept trying to threaten the OOP not to say or tell people anything. Because he KNEW that this shit would eventually be found put and decided intimidation would help keep it under wraps. What a fucking ass. And a weak coward who preys on children.\n\n100% this man would cower to anyone his own size and age and get his ass beat down so he targets kids...disgusting...\n\nI really hope there is some hope at the end of this harrowing ordeal for OOP and their sister",SegaNeptune28,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,This has to be the worst story I've ever read here.....,Proud-Accident3069,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,When she mentioned her father was conveniently gone on business a lot during Nicole's pregnancy I thought it would come out he had a side piece he was cheating on her with. A few sentences later the update about her dad was just SO much worse than that. And of course it shocks me zero that her religious grandparents and their church are all about appearances and in no way actually about helping people who need it.,thraashman,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I remember this one. I remember at one point, after the faith based therapist from the church was helping her, the grandparents took away her access of seeing them as a punishment. \n\nI wonder what exactly made the dad flip his switch like that… Unless there was a lot going on that she didn’t see while her mom was alive because she was a kid.",LeroyJacksonian,4,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,God this is such a tough read. I have so much respect for her for actually getting them out of this situation when seemingly absolutely nobody wanted to help them.,"""[deleted]""",3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"OP has a stickied comment on their profile with a small update from 22/3, Nicole was arrested on the same charges as the father.",Zekaito,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Added to the bottom of this post! They're not enough for a full new update but I'll keep my eye on it. \n\nPoor OOP.,LucyAriaRose,2,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,[removed],"""[deleted]""",3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I hope karma hits the dad and nicole hard. There are people in this world who should not be parents. ,ShellfishCrew,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I remember the first 2-3 posts of this thread. I didn’t realize it escalated this badly so quickly. Those poor girls. And yes, I’m worried about the baby too, because it’s clear OOPs father is in no position to take care of any child. It’s obvious the sperm donor took out his aggression of OOP on the younger sister. She needs a full medical examination. I have a very bad feeling about this, and I’m hoping I’m wrong.",aquavenatus,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Those poor girls! I hope for their sakes that their father and his family lose access to OOP and her sister indefinitely. Nicole seems to be getting her karma for encouraging her boyfriend to abandon and abuse his daughters. She’s most likely going to lose her baby, given the bleeding and heart defect. And her boyfriend is likely going to be on the SOR for the contents of his phone, so if she doesn’t miscarry/have a stillbirth he will be forced out of their life due to his offender status.",MamaKit92,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,The best thing that can happen for that unborn child is to not make it to life.,moa711,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I hope op and their sister are allowed to stay with their grandparents.,Secret_Double_9239,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I know this is the internet but What the fuck, this just pissed me off so much, I’m seething. How many fucking adults and no one can have the guts to do the right shit. Makes me wonder if it’s a small town. \n\nI’m glad OOP and her sister are living staying with her maternal grandparents because goddamn, her sperm donor, his parents, and Nicole need to be sent to hell on a bullet train. Send the punisher.",ivh016,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I almost never cry over Reddit. \n\nI'm crying now.,fractal_frog,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,Abuser parents never believe in therapy.,CaptainBaoBao,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,I bet they live in Texas.,Jac918,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I question why nicole still stayed with the dad despite him being a POS and that hes an absent dad. Heck hes not even there when she has her appointments and everything. Is this an accidental pregnancy or something? And she has no other fallback? Plus i feel like the bleeding is a bad sign. Could be a miscarriage. So if thats the case, hope she leaves him but i dont have sympathy for her too since shes a sh*t to OP and her sister. Btw will the dad be in jail for life for child p***",armoredalchemist611,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"Not that the dad seems to have money, but could a child sue their parents for causing them harm? The neglect leading to severe injury and then the physical assualt, surely the sister will suffer for a very long time and should be compensated for decreased life quality?\n\nI vaguely recall court cases like that happening. The dad should be forced to pay a huge sum from each pay check until the sister is able to lead a normal life.\n\nI'm not even suprised by the pedo stuff. He hits his sick/disabled kid and then leaves her alone and kidnaps his other kid, so why not throw in another vile crime?\n\nI hope he loses custody of all three kids.",CindySvensson,3,r/BestofRedditorUpdates - cant swallow pills adult
+Reddit,"I remember reading the first two original posts, but I wasn't aware of the further updates. All I can say now is holy shite.",wisegirl_93,3,r/BestofRedditorUpdates - cant swallow pills adult
+Instagram,I've heard about this and started doing it. Put the pills on your mouth lean slightly forward and fill your mouth with water. The pull you head up and swallow. Pills go right down no problem.,debthig.lundy,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,bro me to,vibecheck2545,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,I absolutely HATE swallowing pills. Makes me gag 😡,irishgirle,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,This is the oldest  trick in the book.  Elementary School  science class has failed a generation. Sir Newton would be dumbfounded,bmcguire1125,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,Get a pill crusher.  It’s a game changer.,pmlahart,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,@webgirlmorgan ❤️❤️❤️❤️,armydan64,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,@kendrahand33,mwhand3,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,My 10 year old nephew leans his head forward to take pills 😳,1soniaf,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,This is why I chew whatever I’m eating and then place it on top and then swallow,katiedeterding,1,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,I’m 57 and still have a hard time.,kmas_s,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,I have a hard time too. I was recently in the hospital and they had me just take the pills with a spoonful of applesauce and swallow. Worked like a charm.,jeanerweener,4,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,Also drink water first so your throat is wet and they slide down easier.,carolynmoots,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,"My kids have struggled for years. My son finally figured it out but my daughter, who is 22, still can’t.  I’ll see if this helps her",sharijillhiker4life,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,Leaning your head back does not close your airway🤦🏻‍♀️,melisahr9878,3,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,"I'm just a millionaire with a kind heart. Today, I want to make someone's life easier.",mina.x47,0,https://www.instagram.com/reel/DR4queGjo0e/
+Instagram,My teenager has al always struggled I showed her this and it worked 🙌🏽🙌🏽🙌🏽🙌🏽😃 She is excited!,fridakahlofan11,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"@melissanathoo I try that, but my mouth resist my will to swallow😂",magalieofficial,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Some tablets sink. Just lean your head back instead of forward.,ashley.oakley.adventures,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I just found out about this because of covid and all the ramifications of covid I had like 13 pills to take I can't stand popping pills and my nurse taught me that trick it works thankfully I have no more pills to take,staceynelson53,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@emmamcgrath_,lydiasteph,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I drink some water first then place the pill all the way towards the back of my throat then take a big gulp of water and I’m done,uneek84,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Sent this to my daughter, hoping she’ll try it. Pill taking has been an issue for her. I can swallow a dozen pills/vitamins/supplements with a swig of water but she hasn’t inherited my amazing ability! 🤣",suescherdel,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Speech therapist here 🙋🏻‍♀️ doing a chin tuck while swallowing increases pharyngeal pressure by decreasing the space between the base of tongue and posterior pharyngeal wall. The increased pressure helps move the bolus or pill through the pharyngeal area. Also decreases risk of aspiration! 😊,melissa__kathryn,5,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Unless you have an immune response that tightens your esophagus,hollyhardiewilliams,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I’m going to try this I hate taking pills,pieces_of_me_left,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Usually capsules float not pills, that's why you need only a zip when trying to swallow a capsule",eugeniakyriakaki,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Wow!! I’ll have to try with a Tylenol first before I try those bullets….thank you Nadia will definitely try that! 🤗,lisapascale08,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Thank you for posting this, I have had trouble with this since age 9 and I am 51 and still struggle with it",mandd8390,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Chin tuck coming in clutch 👊,tylrr.cornell,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@lorispitzer,andee_pandee,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@daviesyboy,anwen.d13,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@eliformusic_15,jennyonly4nails,1,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Me in a nutshell,atiny.passionyoungfever,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Or the person who put the water in their mouth before the tablet,liamlfcfr,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@rebecca_oconr black hill,allygoughh,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,"This is my older sister, I learned at like age 9 how to take tablets",beans732881,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,I am people,byarianna888,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,My mom 😭😭😭,unkowaysy,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Don't give that pill a BJ boy😂,lauren_andreab37,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@poppysteelx 😂,joannesteel137,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@ann4bel_ros3_w  this is a video of you 🩷🩷,zo3_may_w,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Meee never can 😂😂😂😂,cjleeds26,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,The struggle is real 😂,danrhodes2026,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,I thought I was the only one 😭😭😭,evagoodmanxx,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Used to be me,grady_armstrongg,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Works like a charm!,d_modella,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,It only works with capsules- because there is air in them. It does not work with solid pills.  Those you need to look up to swallow.,mgangelo22,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Can we stop misusing the term hack.,mrsc.61,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,This is so true,scoobydrew51,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,nope,arayah_mariah,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,I'm less there chalky tablets 🤢🤢,penny6894,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"I take several pills at once, capsules and non capsules. Doing this technique works with both types. I used to get pills stuck drinking normally or leaning my head back. This way all the pills float down easily. I am glad I learned this.",jlbc2411_clifford_and_friends,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,I’m a gagger…yes!…CAPSULES LIKE THIS\nTablets in the back of the mouth !,sandybrown77769,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,It really does work!!!!!,caron.shelley,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,I don’t know how but it really works,anna.marie.38,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,@cass_tart,coolmamanc,1,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"I literally do the opposite.  Pill on your tongue, drink of water, look to the ceiling and swallow.  It slides right down.",pittseygirl,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"If you can swallow a pice of steak , you CAN SWALLOW,  a pill. .",slvrbell2,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,That only works for capsules it doesn't work for solid pills. It works for capsules because they float to the top of the water level. For hard pills they sinks you have to hold your head back. Which is why you should never take hard pills and capsules at the same time. Common sense not so common,audra_wells,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,@mr_cant_smile @isyrafirwannn @ismertz,is_loves,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Why would this work better? 💁‍♀️,karmazing_73,0,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,I have no problem 👌,zachhhhhd,0,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,I will not swallow in this position. I can't do it.,raniyuna2021,1,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,I struggled. I can’t swallow capsule tilted back to fourth. I need to cut my pills in smaller pieces or crush it and it’s sad because I want to swallow fish oil in the capsules so bad,myfavouriteboo,1,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,This is BS. Throw your head back so the pills hit the back of your throat and it triggers the swallowing,ciacciodonna,0,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,"Yes, but no matter how much you or speech therapy tells them to do this the patient will do the opposite",sunlutang100,1,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,Even those big stupid potassium pills they kept giving me in the hospital? Serious question lol that was literally the hardest pill I ever had to swallow in my life 😂,hunny.chile_,0,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,Thank you,2jruther,0,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,,syl__038,1,https://www.instagram.com/reel/DPZTbw4DVqN/
+Instagram,It's super hard for me. I thought it was weird for me not to be able to swallow pills.,dcnativegirl_78,1,https://www.instagram.com/p/DVoL7dzjnHu/
+Instagram,THISSSSSSS,whiskey_pibble,2,https://www.instagram.com/p/DVoL7dzjnHu/
+Instagram,@eagillvt @chloe_wagdalt @mariabraiuca @rhiannon__leigh @jacsalzano @samiivogel @sam_fetterman @practical.vsnry @blmckinn @morg_henn,hjrspice,1,https://www.instagram.com/p/DVoL7dzjnHu/
+Instagram,👏👏👏 Although a relatively small population- there are also pediatric medical issues that require medications that are typically taken by adults.  Parents must figure out ways to help their children take them and to teach pill swallowing. I am an SLP with adult dysphagia experience and learned a lot from child life specialists on how to manage oral medications for my son. It made me reflect that our field and pharmacy need to really think about this issue more.,jsantacroce4,2,https://www.instagram.com/p/DVoL7dzjnHu/
+Instagram,If u have chronic oropharx disphagia like me be careful 🙃✌️,alstondsouza97,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Whatever- take your pills with a spoonful of applesauce! Works every time!,shell7796,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Thank you!,fevi_abelidas_guegue,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I'd like her to try with metronidazole tablets,cilla_blue_black,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,It works 👏👏👏,musicchick48,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Or turn your head to the side when you swallow,sugarcakebycourtney,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,💚💚,puppetsbuddies,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Pills are different than capsules. Not that I can't swallow either, but you cannot expect pills to always float.  The capsules have air... hence floating",ampeck8,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,It’s why I also take floaters and sinkers (medicine!) separately.,cutestuffbynat,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Tales of an Educated Debutant,kaybuff01,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,This is not true with all pills but it will work with the type of pill that she showed in the video.,jessicaa_lovely,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I tried this but my throat closes. Sometimes I can’t even swallow water. My throat closes and I have to wait for my brain to say it’s okay. What I do is I take food most of the time cheese. I chew it then place the pill in and swallow. My throat believes the foods all chewed and so it goes down nicely. I’ve been doing this for over 20 years. I take multiple pills every night.,nialljhismyhero,5,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@lola__allison 😮,bubleeone,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"At 6 yrs old I had to swallow a pill. I gagged, repeatedly. My M. D. dad got me between his knees, lifted up my chin, and jammed it down. Good times. Kinda worked though...I had no problems swallowing pills again.",grantbarber6,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,This is how speech therapists teach people to swallow pills.,sandykitzhaber,9,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@lin.johansson8 tryyyyyyy this way,jenr069,1,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"This actually works. Unfortunately, I have a lot of medications i have to take. My throat is sore from taking my meds.",asbrooks1234,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Thank you.  It works 99% of the time.,choltorf5,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,This works GREAT for capsule type pills. This hack won’t work with Pills that don’t float (compressed powders),lindanewgent,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Just use a sports bottle and suck the water,renieg17,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"Hirap sa gamot pero pag titi, walang ka arte arte 😁",kuyakenley,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Capsules only,jodykillian,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,It really works,annamariajohansson100,1,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Only if it's a capsule pill 💊 😕 that has a tiny air pocket in it .. standard pressed molded pills will not work guys ... no need to thank me 👏💁🏼‍♂️😉👍🏻,philipevans372,1,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,It works.,mariabergamaschiwatherston,1,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"It only works for capsules. For tablets, you have to look up because they sink",surfer_pfox,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,I’ve had a hard time swallowing pills since I was very young. So much so my mother gave up and had my oldest sister give it to me. When I couldn’t do it she slapped me in the face. Now that’s a core memory.,skenney302,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,This worked 50/50 for me. Now I place my big pills in a teaspoon of yogurt and swallow with ease!,carlahanak,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Best advice ever!!,foreverlovinmydogs,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,I’ve been doing that with patients at the bedside for years.,meredithoc1023,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Has to be capsules,breckhawk,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,I started doing this it works,breckhawk,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,It does work! Only i don't have to put my head down quite as far.,cherylx2323,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,My mom made me practice with tic-tacs when l was 5!,turntwoinlv,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,How is that a hack?,nancydann19,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Only works with capsules. You do the opposite and lean backwards with tablets.,samersaadwahib,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,This is kind of a Duh! You have pills that float and pills that sink and you adjust your head accordingly. How do people not know this?,ladybuglovesbooks,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Yup it’s the best way!,dolux1,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,It only works for capsules because they float,freedyp73,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,kakak @najlahuda_  try👆🏻,ros_ibrahim0,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Works❤️,nan.gord,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"That is a capsule, not a pill.",jore_ob,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Only works on capsules,mccubbins_443,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,It doesn't work for me,willeke_wielink,1,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,"I swallow over 12 pills every morning all at once and can do it either way. It’s a mind game. Think about the amount of food on your fork when eating, most pills taken, are a fraction of that size!  If you think about it that way, it helps. 😎",markalbright570,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,,darryl_roastedmarshmallow,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,😂😂,jordz949,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Is his name Shelby 🤣,elizabethbastion,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,😭😭😭,madelieneshanae,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,😂😂,fiona_marolt,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,,izak_moles,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,used to be me lowk,petroviic._v,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@galwaybenjamin,luke_galway,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@escobarmadalynn “my throat closes” head ass🤣🤣,abby_big_booty_queen,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,😂😂,zemmyyow,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,this is me,aviya_walker,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,"@charlotte.hicksnyg, @charrhicks me 😂😂😂",rosiehicks.x,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,🙋🏼‍♀️it’s me hi! 😂,el_corbin,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Literally have to make myself gag then very rapidly swallow it after lol. It’s a whole process,juli.spamzzzz,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,,joedawsonsafc53,2,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Tablets sink- head back  capsules float- head down,darlinwend,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Can confirm.. tried this and it goes back so much easier!,thevaughnspawns,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Capsules,pauliejaygee,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,I tried it.  It works. I was shocked.,bluedoryjeep,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,Bome funkcionira 😍,miocevicdinka,0,https://www.instagram.com/reel/DQKhSWwDW41/
+Instagram,@kevincampbellfitness  the head fling 😂😂,natalieroska,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Its me 😢,chatarina89,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@shannonxxox_,eleanorgracewood,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Me,jj82775,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@nathlloyd91,rhiannonllx,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@sada83 @freya_pickrill,jjbaker_123,1,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,😂😂😂,thettserviceguy,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@seanmoralee93 😭,katmoralee_x,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@gracehoneyman84 😂,contourme.aesthetics,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@scarlettrose208 😭🤣,sophiesmithhx,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,This is me with round paracetamol 😂,higgsfieldkia,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,"Yeh, alright, goin this overboard about it is just weird",a_pink_slime,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,what’s wrong with them 😂,mummomo87,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Me,lea_neoo,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,It’s the chalky disc shaped ones 💀💀💀,baxterequineservices,7,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,I was doing that but leaning my head to the left and that worked too,alexisthedivaglover,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,this soooo works!!❤️❤️,becca_ree_lex,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Only works with capsules!! Been doing this a long time. Haha,terigcfp,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,My son tried it didn’t work😢,insane4now2003,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,🥰🥰🥰,its_traceyp,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I tried this! It works! ....it feels weird...but it works!,b00ktoktalk,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Doesn’t sound like “simple chemistry”, wouldn’t it be more like physics? But either way, I’m glad it works.",callmejulieg,9,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@jmccorks,gypsyrose_teddybear,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I tried and I can’t.😂😂 I see others do it tho. 🥰,heidiboxer3,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,My autistic niece had a hard time swallowing pills and she figured out to put the pill in the straw and drink. No problem swallowing pills ever again!,beckystait,3,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@blobygabe,novisjosh,2,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,@holliemaebrookes,cheekycrouchy,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,😂😂,amyboyce1,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Bro my tablet dissolved on my tongue for 0.2 seconds and my brain immediately said yuppp this is the end 💀😭,callmeeishaani,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,Hashtag relatable on another level 😊😊😊😊🫪,xchloe_humphreysx,0,https://www.instagram.com/reel/DS7i-4ViJEC/
+Instagram,What’s the verdict? There are no captions on the video!,aaaprylleee,1,https://www.instagram.com/reel/DIJl3C1MVu4/
+Instagram,"My doctor recommended gummy vitamins for me because the pill form gave me severe nausea. I was skeptical, but it completely rid me of the nausea. (Sharing this as my experience, not medical advice - always talk to your doctor about your own health)",butmostlywinnie,0,https://www.instagram.com/reel/DIJl3C1MVu4/
+Instagram,This is great info! 👏👏👏,ibs.dietitian,1,https://www.instagram.com/reel/DIJl3C1MVu4/
+Instagram,Lol. They are tasty,chacoman01,1,https://www.instagram.com/reel/DIJl3C1MVu4/
+Instagram,Sizzurp,binibinibinibb,1,https://www.instagram.com/reel/DIJl3C1MVu4/
+Instagram,Just took a heyfever tab and choked for like 20 minutes unable to get it up or down i get why they make em so big but fecking a warning or choking hazard sticker needs to be added to fecking big,darthmaul1997,0,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,Did this today...bloody amazing,hazeldenny2,1,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,"I don’t hide it in cheese! I do meditation and pray and flip my head back while clenching the counter and choking. I mean, MAYBE your way seems nice.",greeblehaus,0,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,"It's legit! MSN, RN here, lol it's called chin tuck swallowing.  But funny enough, being a terrible pill swallower, I have never done it 🤦🏼‍♀️ Time to follow the advice I give my patients 😂",samanthaj0583,1,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,okay this better work ma’am😂,allisen.sanders,1,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,What😳😳 I have the WORST trouble with pills. Vitamin supplements are always a no-go bc they’re always huge. *insert obvious jokes*,missy_randall,1,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,This is what I tell my patients to do when they have difficulty swallowing.,shanna__renee,1,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,"Discovered that trick a few months ago when trying to teach my youngest how to take meds. Now I do it, too!",nannersp,2,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,That’s what speech therapists teach people who have difficulty swallowing or are at risk for choking in the hospital too!!,simply.kelly82,2,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,Heard about this about a month ago and it’s been life changing! Also totally giggled at the wink. 😂😂😂 @thebrittanygibbons,amandajparedes,1,https://www.instagram.com/reel/DOj76V7gSfj/
+Instagram,بازم بافیلتری  بابا پیر شدی,abas68721,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,😍👏,tannaz_mommy,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,ایران هم هست وچندقیمت؟,zoro_asgariyan,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🔥🔥,mojgan_mehrgan,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,عزیزم اتش درسینه من روشن میکنی بازدورمیکنی خودرا,onlalaamirqsab,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️❤️,tahereh.sayad22,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🔥🔥🔥,ab.olfazl19980,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🔥🔥🔥,ab.olfazl19980,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,ایرونی عزیزم که اینجا حضور داری استارداست رو هم ببین ❤️,stardustreasures,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,وی,ehsan_aghdaie,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🔥🔥🔥🔥🔥,ab.olfazl19980,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,میشه خواهش کنم بفرمایید شما ه رنگ موتون چیه  آخه خیلی خوشرنگه,zhila_n53,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Life changing - this works! I've been struggling with large vit c pills and tried this and yup - game changer! Thanks for sharing!,madisonian27,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"But it is not a pill but a hard capsule, so it floats...",vootka.photography,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I take mine with soda lol. Is it healthy no. But it does work,brianadicesare,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Why have I been swallowing pills the hard way so long?!?!,revmollyvetter,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,It only works with capsules,realjohnmicco,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,It works,nickjill,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"No, it’s too slow, the pill is on your tongue for too long and the pill touching the inside of my mouth is the issue. I have to take water and not swallow then throw the pill in the mouth water and swallow",tommsko123,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,The misuse of “gulp” bothered me more than it should have. 😂,lionel_richies_love_child,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Question is wtf was the pill?,ritafancy_,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Or don’t be a child and just swallow the pill with some water!! Try swallowing 6 vitamin pills at once and get back to me 🤦🏼‍♂️🤡,tigers84,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I’ve always done that,neillhurford1,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"Yes it works, I use it all the time",kinanmakhoul,1,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Yep,murray.emer,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Have coca cola then you mouth dont feel the pill,flowerlandinsects,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,@rebcox1118 @katelin.teaches,c.d.cox200,2,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,@awesomeaminos when can we expect restock for adults?,skaney1967,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,😍😍😍,len_gazer28,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,“Acting”,pmk76,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,❤️👏,mezoyah,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,Aye let’s go 🔥🔥,powellmrpowell,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,👏👏👏,dhimitraq_x,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,😊😊😊😊,elisabetesilva1986,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,Damn nice legs,christianhogue,1,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,🔥🔥😍,mahdi_golpayegani1992,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,idol🔥😍❤️,iszkimeshifuofficial,0,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,He’s a runna he’s a track star 😂😂,tommiecrossholmes,2,https://www.instagram.com/reel/DNYjkKive4d/
+Instagram,My daughter tried this and the  pill got stuck in her airway 🥺 next thing am pumping her chest as I call the ambulance lucky for us they got there in time to save her .,martha_kaliisa,6,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Only for floating pills,braggkings,1,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,How about ginormous vitamins?? I hate those!,carolyg,1,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,With my luck I'll choke to death..😮,medrano665,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,I will try it,elmslinda,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Or just be an adult and swallow it like a normal adult human,jeffnehme,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Only for capsules. Tilt your head back for pills.,ainsleyroyals,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Depends on the type of pill,cali4nya_sunshyne,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Only works with capsules because they float,getout423doors,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Saw it a couple months ago- life changing 😂,melmunsch,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,@narcisse.sp,leilasamadi,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,I eat chill first to make a silaliva and eat it,ss_senior_44,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,I don't get it.  It worked the same as my head up,danaoverbwy,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,floater vs sinker,santacaras,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"It only works with capsules, and I actually learned that, believe it or not, from The Enquirer newspaper back in the 1980s 🤣😂🤣😂🤣😂",mare_unfiltered,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,My teenager has al always struggled I showed her this and it worked 🙌🏽🙌🏽🙌🏽🙌🏽😃 She is excited!,fridakahlofan11,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"@melissanathoo I try that, but my mouth resist my will to swallow😂",magalieofficial,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Some tablets sink. Just lean your head back instead of forward.,ashley.oakley.adventures,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I just found out about this because of covid and all the ramifications of covid I had like 13 pills to take I can't stand popping pills and my nurse taught me that trick it works thankfully I have no more pills to take,staceynelson53,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@emmamcgrath_,lydiasteph,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I drink some water first then place the pill all the way towards the back of my throat then take a big gulp of water and I’m done,uneek84,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Sent this to my daughter, hoping she’ll try it. Pill taking has been an issue for her. I can swallow a dozen pills/vitamins/supplements with a swig of water but she hasn’t inherited my amazing ability! 🤣",suescherdel,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Speech therapist here 🙋🏻‍♀️ doing a chin tuck while swallowing increases pharyngeal pressure by decreasing the space between the base of tongue and posterior pharyngeal wall. The increased pressure helps move the bolus or pill through the pharyngeal area. Also decreases risk of aspiration! 😊,melissa__kathryn,5,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Unless you have an immune response that tightens your esophagus,hollyhardiewilliams,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I’m going to try this I hate taking pills,pieces_of_me_left,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Usually capsules float not pills, that's why you need only a zip when trying to swallow a capsule",eugeniakyriakaki,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Wow!! I’ll have to try with a Tylenol first before I try those bullets….thank you Nadia will definitely try that! 🤗,lisapascale08,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Thank you for posting this, I have had trouble with this since age 9 and I am 51 and still struggle with it",mandd8390,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Chin tuck coming in clutch 👊,tylrr.cornell,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@lorispitzer,andee_pandee,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Oh gosh soooooo trying this !!!!!!!!,julietugwellart,0,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Nice,ankies2026,0,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,You learn something new every 😎🖤,smoothbeauty.diy,0,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Werk sooos n bom 🤩 thanking you elke liewe keer wat ek pille moet drink 🙏🏼😅,lumari_pienaar,0,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,jy is mooi sonder die vals ooghare,rouxanereta,0,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,"Just pop the pill in smooth yogurt, spoon oit end swallow. My Dutch brother-in-law showed me that trick. Trust me. U will never use water again!",afri.cat,0,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Stunning ❤️❤️,herman.herbst,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,"Ek gaan die soo probeer. Ek kan nie n pil sluk nie!! kapsule no problem. Sooo wait for it…ek koop gewone turbovite capsules, maak dit oop, gooi die poeiertjies uit, crush die gewone pil en sit dit in die turbovite se capsule, ek voel soos n druglord soms 😂😂😂😂",najieswieg,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Stunning❤️❤️,calvinzitzke,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Ek het hierdie nodig gehad!! 😅😂 Elke oggend se worry!,rezetiana,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Love!,janadia_jacobs,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️,darrenkelly_007,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Ahh ek doen dit ook!!!!! Sal nooit hulle kan meng nie! 👏👏,miiaa.weiss,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,"Hoor hier, jou baadjie is reguit uit die hemel!",renettehuman_imageconsulting,3,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Dankie Leands! Ek sukkel met dit! Will give it a go!,oleacita,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Gummies,_theamitgupta,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Pink,turkidon22,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,khushi__tomar_77,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,wywh.hh,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,ikishan_48,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,aadivasi_boy_0555,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,official_shah_ji_vlog,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,gangwar_shab_9214,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,sankhathares,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Pp,amol1477_,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,mitra_.302,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,itz_vishal_rj_11,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,justt.bikku,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Pp,sanjusaxxena,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,dhakad__boy_0001,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,👏نم,faezeh_oghbatalab,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,ج,faezeh_oghbatalab,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️,milad.huf,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🙌🙌,esi13582290,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,😂😂😂😂,persian_ir021,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🔥🔥🔥🔥,faustosrlie_fashion2423,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️❤️,korrooosh7,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,😍,hoda_mozafari,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Need or #2815 stone way de Houston Texas ##send or the best one 😃,maj_janami,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️❤️❤️,mammahmodi9,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,زيبا 🌹🧿,about_dr_kalhor,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,سلام من مهناز چوخ گوزل سین,mahnaz.akhariyan,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,@bartarbiz پیج 🇨🇳🈺🈶,r.foroghi,5,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Does it work on multiple pills?,kristofferhenningsson,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Because bending your head forward actually open your airway not tilting it back.,slb_433,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Only works with capsules and not tablets!,nimrede7359,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Only if it's a capsule. Solid pills don't float.,lordraphaelbouchier,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,🙌,bar.anders,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I thought this was common knowledge?? Did this by nature from the first time I can remember swallowing a pill,bjorn_calisthenics,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,It works with capsules but not small tablets,tabathawabatha,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I'm 62.  I pound 17 pills at once every morning.,usmc111081,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I figured this technique totally my own.. 😂,dubiemusic,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I learned that 40 years ago,neosoulone63,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Es cierto. 👏,bimar947,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,OMG it works I just took a Tylenol and I hate taking pills 💊 WOW!,zendajah,1,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Only for capsules that float,snap.dave777,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Your neck isn’t kinked,chrissmith1786,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"It only works with capsules, because capsules float in water, meaning it floats up and goes straight down your throat",marquisdee8055,1,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,If u have chronic oropharx disphagia like me be careful 🙃✌️,alstondsouza97,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Whatever- take your pills with a spoonful of applesauce! Works every time!,shell7796,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Thank you!,fevi_abelidas_guegue,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I'd like her to try with metronidazole tablets,cilla_blue_black,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,It works 👏👏👏,musicchick48,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Or turn your head to the side when you swallow,sugarcakebycourtney,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,💚💚,puppetsbuddies,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Pills are different than capsules. Not that I can't swallow either, but you cannot expect pills to always float.  The capsules have air... hence floating",ampeck8,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,It’s why I also take floaters and sinkers (medicine!) separately.,cutestuffbynat,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Tales of an Educated Debutant,kaybuff01,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,This is not true with all pills but it will work with the type of pill that she showed in the video.,jessicaa_lovely,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I tried this but my throat closes. Sometimes I can’t even swallow water. My throat closes and I have to wait for my brain to say it’s okay. What I do is I take food most of the time cheese. I chew it then place the pill in and swallow. My throat believes the foods all chewed and so it goes down nicely. I’ve been doing this for over 20 years. I take multiple pills every night.,nialljhismyhero,5,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@lola__allison 😮,bubleeone,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"At 6 yrs old I had to swallow a pill. I gagged, repeatedly. My M. D. dad got me between his knees, lifted up my chin, and jammed it down. Good times. Kinda worked though...I had no problems swallowing pills again.",grantbarber6,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,This is how speech therapists teach people to swallow pills.,sandykitzhaber,9,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Wat vertel jy my nou 😮❤️,iammelissadevries,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Hahaha love die hack!👏❤️,leandi_w_visser,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,As jy 30 slaan is dit pille en vitamins 😂... gaan try dankie L,eunice_van_straaten,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,"Ek doen óók hierdie en dis AMAZING! Daar sit nou nie meer pille in my keel vas nie 🙌🏻😅 so dit werk regtig, julle!",kairalee14,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,I need to try this! Dankie @leandiedurandt,kaylenestoffberg,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,"My seun van 14 \drink\"" nou nog pille met jogurt. Elke dag 'n struggle! Dankie"," gaan die probeer.""",smooksfooddiary,3
+Instagram,🙌🙌,sume_nudo_hair_lab,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Insannneeeee DANKIE,localtruthstudio,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,❤️🙌❤️🙌❤️,beaulahribeiro,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,😍😍😍,myburghben,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,We struggle to swallow. Full stop.,geek_housebaker,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,🔥❤️😍,nudohairlab_theclub,1,https://www.instagram.com/reel/DZJlhPeoSC1/
+Instagram,Gummies,shweta_island,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,thatdelhidivas,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,This is really perfect,cri_cket_lover601,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,daksh_gurjar002,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,raj_saksena_l_143,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,thesigmaboy399,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,boy__star__001_,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,🤩 Thank you,piryansu__x23,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Share the link,_kartik_gaur20_,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,royal_shivam_jha_dau_gadora_,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,manish_sundesha08,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,rp__rp__007,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,sura24230,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,miss_nehu.1432,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,nishad__nawab__sunil,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,"When you put your head down, you open the esophagus...easy swallow.",dwteditor2,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,when i look down the water comes out my nose 😩I just dry swollow drink water after lol 😅,i_am_sammilee,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"It is a plasticy floaty pill, head down and swallow. If it’s a dense hard pill, head back and swallow.",green.donutz,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Only works with capsules,zoozieireland,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,This is for capsules only folks.,jesssayuluv,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,No this used to work for me but today it didn’t 😢,scubajo42,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Madicine+boba 😂,fatighulami,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,What’s the difference in doing it the normal way?,cbj524,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Yup,lisadap3,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"This never worked for me, they always get stuck.",walkunleashed,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Better then throwing your head back@,99jitters,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,👏👏👏,lloyds_homecare_services_,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,It does really work,webbiedoods,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,This is as old as the day I was born,bettinush,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,It works for capsules not pills. Capsules float so tilting your head down puts them at the back of your throat and easier to swallow,shorty_k_61,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,@zarko_johnson,maryjflorida_,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,😂😂😂😂😂😂,themattmarr,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Only if it’s capsule,tiffkb79,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,This is a life saver for me I always had a hard time swallowing any pills.,bueyms4001,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"It does for capsules now if you’re trying to wall a solid peel, you put it on your tongue take your water or whatever and you throw your head back… I’m not a scientist. I’m just a mother, but I do happen to know that the capsule when you put your head down it floats to the back of your throat and I think that’s what helps it go down because if you throw your head back with a capsule, let’s go and go. It’s like it swims toward the front of your mouth. That’s just my redneck interpretation for y’all….",deborah.jay.92,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Yes,sherley.velasquez.1,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,,ramsesll73,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Just have a pool of water in your mouth and throw the pill in your mouth then swallow. You won’t taste the nasty lill that way.,raul_teee,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Not for reg pills only capsules,nadinarocks,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I’ve had to do this for about 30 years because of a bone that sticks into my Adam’s apple and it works every time. I don’t feel any pain and I don’t suffer with swallowing. It’s a good thing a nurse told me this it makes it so much easier,rickivey83,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Yes the pill rises to the top of the water and it’s the first thing that goes down,pebbles4sure,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I much prefer the fling my head back manoeuvre 😂,chantrelle79,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Not all pills created equal,g123ddy,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"With the palm full of horse medications I need to take, doesn't work. I wish I only took one pill. 😂",vulgarism,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,I was doing that but leaning my head to the left and that worked too,alexisthedivaglover,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,this soooo works!!❤️❤️,becca_ree_lex,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,Only works with capsules!! Been doing this a long time. Haha,terigcfp,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,My son tried it didn’t work😢,insane4now2003,0,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,🥰🥰🥰,its_traceyp,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I tried this! It works! ....it feels weird...but it works!,b00ktoktalk,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,"Doesn’t sound like “simple chemistry”, wouldn’t it be more like physics? But either way, I’m glad it works.",callmejulieg,9,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,@jmccorks,gypsyrose_teddybear,1,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,I tried and I can’t.😂😂 I see others do it tho. 🥰,heidiboxer3,2,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,My autistic niece had a hard time swallowing pills and she figured out to put the pill in the straw and drink. No problem swallowing pills ever again!,beckystait,3,https://www.instagram.com/reel/CsJpiWFJuxR/
+Instagram,😎 यह स्वाभाविक लग रहा है 👍🏼,man___u__u,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,क्या रचनात्मकता,farfdrrr,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,क्या रचनात्मकता,miska_rani_143,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,आपका स्टाइल बहुत ही लवली है।,temup99,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,बहुत ही शानदार है,abhishek__thakur_0016,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,yarrr_heyyyy__,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Gummies,angel_alina_93,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,बहुत ही शानदार है,azaad__sonu,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,gummies,parjapati__rahul_verma0034,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,rohit.rwttt_,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,gummies,freefire788497,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,gummies,abb99643,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,gummies,jennifer_c_1_2,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,abhishek__2u,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,i_love_scorpio_5572,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,"Nurses swear by this, but it didn’t work for me",edithkeeler10,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"Nope, that’s not the trick. For a capsule that works but for a pill you need to tilt your head backward.  The reason why is a capsule will float so putting your head down will force it to the back of your throat where swallowing is very easy.  If it’s a pill that pill will sink towards your teeth and will be more difficult to swallow.  So if you tilt your head back, the pill will then go towards the back of your throat and making it easier for swallowing.  They should use the correct terminology to make this make sense.",sanderellapic,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Nice try. I don't need to learn how to take pills,pentatonickc,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Thank god no more floaters!,harrkkari,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"My wife could learn something new here, she dont take pills though",texfire,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,It's not always down ... if the pill floats you want your head down but it it sinks you want your head up just whatever would make it closer to your throat,hiltleah,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,I learned that in the hospital.  I must have taken a thousand pills in one month. 😢,beacon_jpf,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Of course.... head back neck restricted.... o mggggg,lalalandlondonuk,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"I have done this same method if I have hiccups, without the medicine.",allyz28215,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,,1sunrise__1sunset,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Wtf damn near choke to death! ☠️,g.dina.y3,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Not sure why they are so excited with “it works!!”. It also worked the normal way,elias_vogel98,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"Looks like a capsule. My grandma taught me if I’m taking a capsule, lean forward so the capsule floats to the back of my throat. If it’s a solid pill, lean your head back so the pill is closer to your throat.",dr_chaz_hollywood,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"I cannot put the pill in my mouth first. Water, THEN pill",dapperdumont,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Takin all my vitamins this way for now on 😩😩😩,im_jess_the_best,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,Fake,willeke_wielink,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,"Works for casuals and tablets, I take 2 caps and 7.5 tabs every morning, 1 swallow!",richard.fillmore,0,https://www.instagram.com/reel/DRs3JXKj99M/
+Instagram,زیبای من😍,fal_life_live,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Eshggi,mandana.fakharmanesh,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Amazing 😍😍,leson_bonflo,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,قهرمانانه در زمین مثل ستاره های آسمون می درخشی قشنگم,mahdimirzaee0915,0,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,😍,francescaciprianiofficial,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🤍🤍🤍,nilmah_i,4,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️❤️,nilmah_i,5,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,👏👏👏,psychologist.elahinia.elham,4,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️,bahaarr.bh,4,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,👌,keratinbyghazaleh,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,از پشت هم قشنگی  ای زیباترین,hoseinreza2,4,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,👏👏👏👏🔥🔥🔥,madammedic,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Especially the horse-size one!,me2will,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"New trick for the wife at night. 💦🍆 , just like you saw on the video. Open your mouth lower your head and swallow.",simbath3k1ng,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Solid tabs tilt head back.  Floating capsule tilt head forward,sahargrove,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Capsule. Not the solid ones,ayung_2026,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,I just try it and it works 👍👍👍👍,james_aquino3,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,"\Put your head DAAAOWN\""""",spectre911s,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,No maam…hat just sounds like I’m going to get choked even more. I will just take forever to swallow a pill for $200 Alex😂😂😂😂,kimpossiblepettway,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,It’s because it’s a capsule.,faskas,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Only for capsules trust me lol,harry.davis8755,0,https://www.instagram.com/reel/DC91uYMJoWz/
+Instagram,Link,samta_ash_officai_q,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,myjaankhan28,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,indian_follwer_143,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,c_r_i_c_k_e_t_virus,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,Link,_group_brahmastra_,0,https://www.instagram.com/reel/DNs3jzp0ioz/
+Instagram,❤️❤️❤️❤️❤️,bahare.salehnia.f,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️,jgfffdcnjn,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,مادر دختری بی روحین.تو دل برو نیستین,darya.mahmodi56432,12,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Perfeita 😍,jcfoxripp,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Barbie 😍,jcfoxripp,4,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,چی توعمل نیست عملی ازنوک پات تافرق سرت عمله🤮🤣🤮🤣🤣🤣🤣,mostafa131327,3,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Donde es Tu Consulta😘,saber.8399,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,🔥🔥,anastasiabarashkova,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,اینا همه کارشون با فتوشاپ.اینکار شونم دروغه😂,iamrazi_2509,2,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,❤️❤️❤️❤️❤️❤️❤️❤️,avay_homeyra,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,"Hello, good gold, whenever I send you a message, you don't answer me, at least take a couple of minutes to listen to me",elyas8759,2,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Like,elyas8759,1,https://www.instagram.com/reel/C-F8zYsvKmj/
+Instagram,Nice,elyas8759,1,https://www.instagram.com/reel/C-F8zYsvKmj/

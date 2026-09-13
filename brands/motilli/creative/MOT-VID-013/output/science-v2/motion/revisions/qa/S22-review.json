@@ -1,0 +1,20 @@
+{
+  "shot": "S22",
+  "verdict": "revise",
+  "observed_motion": "The generated video is virtually static throughout the duration. Bubbles remain stationary rather than drifting upward, and the translucent strands show no perceptible left-to-right drift.",
+  "issues": [
+    {
+      "time_s": 0.0,
+      "description": "Intended bubble rising and strand drifting motion is missing; scene remains mostly frozen.",
+      "severity": "major"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 0.0,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/revisions/qa/S22-4fps.jpg"
+}

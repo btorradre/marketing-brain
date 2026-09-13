@@ -1,0 +1,87 @@
+{
+  "jsonrpc": "2.0",
+  "id": "arctic-goddess-transcripts",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brandtracker transcripts (3 shown of 208)\n\nBrandtracker ID: a2d8eca8-96e6-4903-8cbb-437ed7689c9d\nFilters: time_period=last6m, sort_by=usageCount, order=desc, eu_only=false, page=1, limit=3\n\n## Results\n\n1. Transcript\n\nCome on, get ready for the sun. Come on, get ready for the first day of your love. The story's only just begun.\n\n   - Usage: 9 ads\n   - Total impressions: 0\n   - Longest running: 23 days\n   - First/last used: 2026-05-28 → 2026-07-15\n   - Sample ad: facebook_4454133314869702 | Media URL: https://medias.trendtrack.io/facebook/video/a24b2007a09e81bdc72fdf99df0ac2d19651798697dceb275317e2415b385e4c.mp4\n\n2. Transcript\n\nCause I'm just a girl, I'd rather not be Cause they won't let me drive late at night Oh, I'm just a girl, if I'm some kind of freak\n\n   - Usage: 5 ads\n   - Total impressions: 0\n   - Longest running: 16 days\n   - First/last used: 2026-05-09 → 2026-05-24\n   - Sample ad: facebook_1294270938869942 | Media URL: https://medias.trendtrack.io/facebook/video/bf268edbc8473b09569eb4d5b943ee153715bc608258bfeb2aab41f4183dee63.mp4\n\n3. Transcript\n\nI love my kids, but I'm tired of being just a mom. I'm still the same girl I was at 25. I stopped accepting tired as my new normal and started targeting my hormonal baseline with arctic minerals. It turns out I didn't lose my spark. I was just depleted. Now the brain fog is gone and the energy I had in my youth is finally back. That girl is still in there and she's thriving.\n\n   - Usage: 4 ads\n   - Total impressions: 0\n   - Longest running: 16 days\n   - First/last used: 2026-05-15 → 2026-05-18\n   - Sample ad: facebook_1011164318152036 | Media URL: https://medias.trendtrack.io/facebook/video/b6a869b45148e802a8e4292b6d9758ed6df8e6c7229e0ef0002690f9625cdb33.mp4\n\nFull transcript text is also available at `structuredContent.data[].fullText`.\n\n---\nCredits used: 5 | Remaining: 7031 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "678f8a22-77d4-4e76-bc69-297f61e12650",
+      "brandtrackerId": "a2d8eca8-96e6-4903-8cbb-437ed7689c9d",
+      "query": {
+        "brandtracker_id": "a2d8eca8-96e6-4903-8cbb-437ed7689c9d",
+        "time_period": "last6m",
+        "page": 1,
+        "limit": 3,
+        "eu_only": false,
+        "order": "desc",
+        "sort_by": "usageCount"
+      },
+      "data": [
+        {
+          "fullText": "Come on, get ready for the sun. Come on, get ready for the first day of your love. The story's only just begun.",
+          "usageCount": 9,
+          "longestRunning": 23,
+          "totalImpressions": 0,
+          "firstUsedAt": "2026-05-28T07:00:00.000Z",
+          "lastUsedAt": "2026-07-15T07:00:00.000Z",
+          "sampleAd": {
+            "adId": "facebook_4454133314869702",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/a24b2007a09e81bdc72fdf99df0ac2d19651798697dceb275317e2415b385e4c.mp4",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/242d22a0fd748acd7eb1f37a29a4165382e7307dc856e3e050fcc971a837fb26.jpg"
+          }
+        },
+        {
+          "fullText": "Cause I'm just a girl, I'd rather not be Cause they won't let me drive late at night Oh, I'm just a girl, if I'm some kind of freak",
+          "usageCount": 5,
+          "longestRunning": 16,
+          "totalImpressions": 0,
+          "firstUsedAt": "2026-05-09T07:00:00.000Z",
+          "lastUsedAt": "2026-05-24T07:00:00.000Z",
+          "sampleAd": {
+            "adId": "facebook_1294270938869942",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/bf268edbc8473b09569eb4d5b943ee153715bc608258bfeb2aab41f4183dee63.mp4",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/c73351e460813f6dc68d6d565080828364f3e7b8758d31876d33101d9989b40e.jpg"
+          }
+        },
+        {
+          "fullText": "I love my kids, but I'm tired of being just a mom. I'm still the same girl I was at 25. I stopped accepting tired as my new normal and started targeting my hormonal baseline with arctic minerals. It turns out I didn't lose my spark. I was just depleted. Now the brain fog is gone and the energy I had in my youth is finally back. That girl is still in there and she's thriving.",
+          "usageCount": 4,
+          "longestRunning": 16,
+          "totalImpressions": 0,
+          "firstUsedAt": "2026-05-15T07:00:00.000Z",
+          "lastUsedAt": "2026-05-18T07:00:00.000Z",
+          "sampleAd": {
+            "adId": "facebook_1011164318152036",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/b6a869b45148e802a8e4292b6d9758ed6df8e6c7229e0ef0002690f9625cdb33.mp4",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/bf0d92b32fb1f3fbe94ebf0f3dc5b9e82693d34b8a2d77fda0309b5342f8fa9f.jpg"
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 3,
+        "total": 208,
+        "totalPages": 70
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 3,
+        "effectiveUnits": 3,
+        "actualUnits": 3,
+        "costUnits": 5,
+        "recurringUnits": 5,
+        "topupUnits": 0,
+        "creditsRemaining": 7031,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

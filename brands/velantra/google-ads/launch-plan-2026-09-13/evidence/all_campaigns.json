@@ -1,0 +1,19 @@
+{
+  "query": "SELECT campaign.id, campaign.name, campaign.status, campaign.advertising_channel_type, campaign.shopping_setting.merchant_id, campaign.shopping_setting.feed_label FROM campaign",
+  "http_status": 200,
+  "response": {
+    "results": [
+      {
+        "campaign": {
+          "resourceName": "customers/9348603597/campaigns/24222469438",
+          "status": "REMOVED",
+          "advertisingChannelType": "PERFORMANCE_MAX",
+          "name": "Campaign #1",
+          "id": "24222469438"
+        }
+      }
+    ],
+    "fieldMask": "campaign.id,campaign.name,campaign.status,campaign.advertisingChannelType,campaign.shoppingSetting.merchantId,campaign.shoppingSetting.feedLabel",
+    "queryResourceConsumption": "130"
+  }
+}

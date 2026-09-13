@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "base_currency": "USD",
+  "_readme": [
+    "Edit this file to change the margin model. run_nightly.py reads it every run.",
+    "monthly_fixed_costs are AMORTIZED to a daily rate (month total / days in that month)",
+    "and subtracted below CM3 to produce Net. They never touch CM1/CM2/CM3.",
+    "Values seeded from finances/finalized statements/PL_Monthly_2026-01_to_2026-07.xlsx",
+    "using the mean of Apr/May/Jun 2026 (the last three complete months)."
+  ],
+
+  "brands": {
+    "Velantra": {
+      "domain": "uzdgxy-sb.myshopify.com",
+      "triplewhale_shop_id": "uzdgxy-sb.myshopify.com",
+      "enabled": true,
+      "shipping_cost_per_order_usd": null,
+      "_shipping_note": "UNSET. Triple Whale reports 0 shipping cost and Shopify carries 0g weights store-wide, so per-order shipping cannot be derived. Set a flat per-order estimate from the Ecomflow rate card. While null, CM2 excludes shipping and the dashboard flags it."
+    },
+    "Motilli": {
+      "domain": "1kmiic-2s.myshopify.com",
+      "triplewhale_shop_id": null,
+      "enabled": false,
+      "shipping_cost_per_order_usd": null,
+      "_note": "Not connected to this Triple Whale account (Access Denied). Enable once TW access exists, or it runs Shopify-only with no ad spend."
+    },
+    "Lunessa": {
+      "domain": "cr5n4f-ck.myshopify.com",
+      "triplewhale_shop_id": null,
+      "enabled": false,
+      "shipping_cost_per_order_usd": null
+    },
+    "Solorna": {
+      "domain": "zzp3eq-0d.myshopify.com",
+      "triplewhale_shop_id": null,
+      "enabled": false,
+      "shipping_cost_per_order_usd": null
+    }
+  },
+
+  "monthly_fixed_costs": {
+    "_comment": "Shared across all brands unless 'brand' is set on the line. Allocated per the allocation block below.",
+    "lines": [
+      {"name": "Software / apps / SaaS", "monthly_usd": 6886.43, "brand": null},
+      {"name": "Agency / contractors", "monthly_usd": 1847.75, "brand": null},
+      {"name": "Payroll / salaries", "monthly_usd": 0.0, "brand": null,
+       "_note": "P&L shows $0 payroll Jan-Jul 2026. Set this when you start running salaries."},
+      {"name": "Legal / accounting", "monthly_usd": 116.0, "brand": null},
+      {"name": "Merchant / bank fees", "monthly_usd": 149.89, "brand": null},
+      {"name": "Office / misc", "monthly_usd": 1340.69, "brand": null},
+      {"name": "Other operating", "monthly_usd": 4866.88, "brand": null}
+    ]
+  },
+
+  "allocation": {
+    "method": "revenue_share",
+    "_methods": "revenue_share = split shared fixed costs across enabled brands by their share of net revenue that day. fixed = use explicit_share below.",
+    "explicit_share": {"Velantra": 1.0}
+  },
+
+  "cogs": {
+    "source": "shopify",
+    "_source_options": "shopify = per-order unit cost scraped from Shopify (authoritative). triplewhale = TW cost_of_goods.",
+    "fallback_margin_pct": null,
+    "_fallback_note": "If a line item has no unit cost on its variant, COGS for that line is counted as 0 and the unit is recorded in cogs_coverage so the dashboard can show how much revenue is uncosted. Set a 0-1 fraction to impute instead."
+  },
+
+  "chargebacks": {
+    "include": true,
+    "_note": "Pulled from Shopify Payments disputes. Lost disputes are booked as a CM2 cost on the day they are lost. Material historically: $12.5K in Jan 2026."
+  },
+
+  "payment_fees": {
+    "source": "triplewhale",
+    "_note": "TW payment_gateway_costs had 99.7% coverage on Velantra. Falls back to rate_pct + flat per order if TW is unavailable.",
+    "rate_pct": 0.029,
+    "flat_per_order_usd": 0.30
+  }
+}

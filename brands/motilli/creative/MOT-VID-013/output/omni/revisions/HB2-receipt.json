@@ -1,0 +1,73 @@
+{
+  "shot": "HB2",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "Locked camera on the exact connected digestive illustration, with only barely perceptible tissue motion; the amber colon outline stays fixed in place and every organ and bone retains its original geometry. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/HB2.png",
+  "reference_sha256": "f0821354de248a5c844202c34464dc7f816b53650e9a8c124b228b1145b8c909",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdHclNnYXZtRUZPNmQ2ZGtQb3JTMzZRNBIXR3JTZ2F2bUVGTzZkNmRrUG9yUzM2UTQ",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/revisions/HB2.mp4",
+  "sha256": "f9ed5f103e8b8e5edf30eb8a180e7b235fecf88b9fac9a0174ec4784e74753b9",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 59789,
+    "total_input_tokens": 1166,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 66
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58425,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 198,
+    "raw_prompt_token": 31265,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1859
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 511
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 198
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

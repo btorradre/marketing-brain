@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "edit_style",
+  "version": "1.0.0",
+  "artifact_kind": "render",
+  "calibration_status": "provisional",
+  "pass_threshold": 8,
+  "scale": {
+    "min": 0,
+    "max": 10,
+    "meaning": "0-2 unusable/unrelated; 3-4 major style failures; 5-6 recognizable but materially wrong; 7 close but revision required; 8 faithful and production-acceptable; 9 excellent detailed match; 10 exceptional, no observable mismatch"
+  },
+  "grader": {
+    "provider": "openai",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "high",
+    "independent": true
+  },
+  "perception": {
+    "provider": "gemini",
+    "model": "gemini-3.8-flash"
+  },
+  "criteria": [
+    {
+      "id": "reference_rhythm",
+      "weight": 25,
+      "minimum_score": 8,
+      "required_evidence": [
+        "reference",
+        "render",
+        "edit_plan",
+        "timeline"
+      ],
+      "description": "Match reference cut density, shot-duration pattern, acceleration, holds, hook rhythm and section energy. Judge style against the actual reference even if the plan drifted.",
+      "critical_failure_conditions": [
+        "Wrong or uninspected reference/render; fabricated evidence; missing required segment; plan substitution hides a style mismatch."
+      ],
+      "anchors": {
+        "0": "Absent, unusable or unrelated to the reference and plan.",
+        "4": "Repeated major discrepancies; substantial re-edit needed.",
+        "6": "Recognizable approach but material timing, execution or style defects.",
+        "7": "Close to target but visible discrepancies still require correction.",
+        "8": "Matches reference style and plan; no material discrepancies.",
+        "9": "Precise, coherent match with only negligible differences.",
+        "10": "Exceptional match in every observed detail; must cite specific evidence."
+      }
+    },
+    {
+      "id": "transitions_motion",
+      "weight": 20,
+      "minimum_score": 8,
+      "required_evidence": [
+        "reference",
+        "render",
+        "edit_plan",
+        "timeline"
+      ],
+      "description": "Match reference transition vocabulary, cut motivation, transition duration/direction and animation entry, hold, exit and easing. Distinguish camera/subject motion from added effects.",
+      "critical_failure_conditions": [
+        "Wrong or uninspected reference/render; fabricated evidence; missing required segment; plan substitution hides a style mismatch."
+      ],
+      "anchors": {
+        "0": "Absent, unusable or unrelated to the reference and plan.",
+        "4": "Repeated major discrepancies; substantial re-edit needed.",
+        "6": "Recognizable approach but material timing, execution or style defects.",
+        "7": "Close to target but visible discrepancies still require correction.",
+        "8": "Matches reference style and plan; no material discrepancies.",
+        "9": "Precise, coherent match with only negligible differences.",
+        "10": "Exceptional match in every observed detail; must cite specific evidence."
+      }
+    },
+    {
+      "id": "plan_execution",
+      "weight": 30,
+      "minimum_score": 8,
+      "required_evidence": [
+        "reference",
+        "render",
+        "edit_plan",
+        "timeline"
+      ],
+      "description": "Compare the rendered result AND executed timeline to the pinned edit plan: selected takes, source trims, order, timeline placement, speed, motion keys, audio and per-clip QA. A matching timeline alone does not prove matching pixels.",
+      "critical_failure_conditions": [
+        "Wrong or uninspected reference/render; fabricated evidence; missing required segment; plan substitution hides a style mismatch."
+      ],
+      "anchors": {
+        "0": "Absent, unusable or unrelated to the reference and plan.",
+        "4": "Repeated major discrepancies; substantial re-edit needed.",
+        "6": "Recognizable approach but material timing, execution or style defects.",
+        "7": "Close to target but visible discrepancies still require correction.",
+        "8": "Matches reference style and plan; no material discrepancies.",
+        "9": "Precise, coherent match with only negligible differences.",
+        "10": "Exceptional match in every observed detail; must cite specific evidence."
+      }
+    },
+    {
+      "id": "graphics_composition",
+      "weight": 15,
+      "minimum_score": 7,
+      "required_evidence": [
+        "reference",
+        "render",
+        "edit_plan",
+        "timeline"
+      ],
+      "description": "Compare reference framing, reframing, crop, scale, typography, hierarchy and overlay motion; allow only documented product/brand substitutions, not arbitrary style changes.",
+      "critical_failure_conditions": [
+        "Wrong or uninspected reference/render; fabricated evidence; missing required segment; plan substitution hides a style mismatch."
+      ],
+      "anchors": {
+        "0": "Absent, unusable or unrelated to the reference and plan.",
+        "4": "Repeated major discrepancies; substantial re-edit needed.",
+        "6": "Recognizable approach but material timing, execution or style defects.",
+        "7": "Close to target but visible discrepancies still require correction.",
+        "8": "Matches reference style and plan; no material discrepancies.",
+        "9": "Precise, coherent match with only negligible differences.",
+        "10": "Exceptional match in every observed detail; must cite specific evidence."
+      }
+    },
+    {
+      "id": "audio_visual_sync",
+      "weight": 5,
+      "minimum_score": 7,
+      "required_evidence": [
+        "reference",
+        "render",
+        "edit_plan",
+        "timeline"
+      ],
+      "description": "Compare reference rhythm and planned audio cues with actual render music/speech/SFX synchronization, full words and mix. Deliberate silence must be verified in both media inputs.",
+      "critical_failure_conditions": [
+        "Wrong or uninspected reference/render; fabricated evidence; missing required segment; plan substitution hides a style mismatch."
+      ],
+      "anchors": {
+        "0": "Absent, unusable or unrelated to the reference and plan.",
+        "4": "Repeated major discrepancies; substantial re-edit needed.",
+        "6": "Recognizable approach but material timing, execution or style defects.",
+        "7": "Close to target but visible discrepancies still require correction.",
+        "8": "Matches reference style and plan; no material discrepancies.",
+        "9": "Precise, coherent match with only negligible differences.",
+        "10": "Exceptional match in every observed detail; must cite specific evidence."
+      }
+    },
+    {
+      "id": "finish_integrity",
+      "weight": 5,
+      "minimum_score": 7,
+      "required_evidence": [
+        "reference",
+        "render",
+        "edit_plan",
+        "timeline"
+      ],
+      "description": "Inspect complete render for flash/black frames, artifacts, clipped text/actions, discontinuities, correct format and ending hold. Wrong product, invented features or misleading visual/audio demonstration is critical.",
+      "critical_failure_conditions": [
+        "Wrong or uninspected reference/render; fabricated evidence; missing required segment; plan substitution hides a style mismatch."
+      ],
+      "anchors": {
+        "0": "Absent, unusable or unrelated to the reference and plan.",
+        "4": "Repeated major discrepancies; substantial re-edit needed.",
+        "6": "Recognizable approach but material timing, execution or style defects.",
+        "7": "Close to target but visible discrepancies still require correction.",
+        "8": "Matches reference style and plan; no material discrepancies.",
+        "9": "Precise, coherent match with only negligible differences.",
+        "10": "Exceptional match in every observed detail; must cite specific evidence."
+      }
+    }
+  ],
+  "score_max": 10
+}

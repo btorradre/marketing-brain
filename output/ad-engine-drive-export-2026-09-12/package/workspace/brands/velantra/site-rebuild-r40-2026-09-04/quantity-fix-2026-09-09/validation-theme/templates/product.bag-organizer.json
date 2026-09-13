@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>A calmer beginning to a busy day. The Bag Organizer gives the small things a place of their own, from the keys you need first to the essentials you like close by. Its soft, structured felt brings order to a favorite tote without changing what you love about it.<\/p>",
+        "fact_material": "Structured felt",
+        "fact_detail": "Thick matte felt, stitched edges and distinct pocket divisions create a tidy interior with a soft touch.",
+        "preorder_lead_time": "10 days before dispatch",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": false,
+        "fact_carry": "10 days before dispatch",
+        "lead_time": "10 days before dispatch"
+      },
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>An open-top felt insert with slip pockets and a central zipped divider. Choose Small, Medium or Large using the size selector, and compare those dimensions with your bag’s interior before ordering.<\/p>",
+            "open": false
+          }
+        },
+        "tab_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>Empty the organizer, spot-clean with a damp cloth and let it air-dry completely. Reshape gently before returning it to your bag.<\/p>",
+            "open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Shipping & delivery",
+            "content": "<p>Please allow 10 days from your order to dispatch. Delivery time is additional and varies by destination. You will receive tracking details when your order ships. See our <a href=\"\/policies\/shipping-policy\">shipping policy<\/a> for delivery information.<\/p>",
+            "open": false
+          }
+        },
+        "tab_returns": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Returns are accepted within 30 days of delivery for unused items in their original packaging with tags attached. To arrange a return, contact <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com<\/a>. See our <a href=\"\/policies\/refund-policy\">return policy<\/a> for full conditions.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_care",
+        "tab_shipping",
+        "tab_returns"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "match": false,
+  "confidence": 100,
+  "best_segment": null,
+  "entry_EV": 1,
+  "peak_EV": 2,
+  "rawness": 3,
+  "action_match": "partial",
+  "text_status": "text present",
+  "visible_evidence": "The video contains a persistent text overlay ('currently having those period cramps...') from start to finish, which violates the requirement for an interval with no source captions or text. Furthermore, the subject is primarily clutching her face and leaning back rather than being 'folded forward tightly bracing or clutching her abdomen' as required.",
+  "flags": [
+    "text_overlay_present",
+    "action_mismatch"
+  ],
+  "why": "The video fails the primary requirement of having no source captions or text within the selected interval, as the text overlay is present throughout the entire duration. Additionally, the specific physical posture of folding forward and clutching the abdomen is not clearly demonstrated; the subject is mostly touching her face and leaning back."
+}

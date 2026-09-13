@@ -1,0 +1,106 @@
+{
+  "duration_seconds": 254.72,
+  "peak_dbfs": -0.30182725191116333,
+  "samples_above_0999": 0,
+  "asr_differences": [
+    {
+      "op": "replace",
+      "expected": [
+        "ten"
+      ],
+      "heard": [
+        "10"
+      ]
+    },
+    {
+      "op": "delete",
+      "expected": [
+        "d"
+      ],
+      "heard": []
+    },
+    {
+      "op": "replace",
+      "expected": [
+        "motilly"
+      ],
+      "heard": [
+        "motili"
+      ]
+    }
+  ],
+  "gaps_over_08s": [
+    {
+      "after": "shit.",
+      "before": "Let",
+      "start": 10.26,
+      "end": 11.26,
+      "duration": 1.0
+    },
+    {
+      "after": "it.",
+      "before": "My",
+      "start": 41.88,
+      "end": 42.72,
+      "duration": 0.8399999999999963
+    },
+    {
+      "after": "everything.",
+      "before": "I",
+      "start": 49.91,
+      "end": 50.76,
+      "duration": 0.8500000000000014
+    },
+    {
+      "after": "wrong.",
+      "before": "I",
+      "start": 63.6,
+      "end": 64.58,
+      "duration": 0.9799999999999969
+    },
+    {
+      "after": "day.",
+      "before": "It",
+      "start": 111.7,
+      "end": 112.52,
+      "duration": 0.8199999999999932
+    },
+    {
+      "after": "together.",
+      "before": "First",
+      "start": 143.73,
+      "end": 144.68,
+      "duration": 0.950000000000017
+    },
+    {
+      "after": "pressure.",
+      "before": "Third",
+      "start": 158.97,
+      "end": 159.92,
+      "duration": 0.9499999999999886
+    },
+    {
+      "after": "worse.",
+      "before": "She",
+      "start": 173.28,
+      "end": 174.14,
+      "duration": 0.8599999999999852
+    },
+    {
+      "after": "meals.",
+      "before": "I",
+      "start": 189.24,
+      "end": 190.06,
+      "duration": 0.8199999999999932
+    },
+    {
+      "after": "okay.",
+      "before": "So",
+      "start": 238.8,
+      "end": 239.66,
+      "duration": 0.8599999999999852
+    }
+  ],
+  "start_padding_seconds": 0.1,
+  "end_padding_seconds": 0.05000000000001137
+}

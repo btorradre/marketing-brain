@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>A little mischief for an everyday bag. The Cherry Charm brings a playful fruit silhouette and a touch of shine to the handle you reach for most. It is a small, personal flourish that makes even the simplest outfit feel more like yours.<\/p>",
+        "fact_material": "Decorative cherry charm",
+        "fact_detail": "Rounded cherry forms and a shaped leaf give the charm its recognizable outline, with a finish specific to each colorway.",
+        "preorder_lead_time": "10 days before dispatch",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": false,
+        "fact_carry": "10 days before dispatch",
+        "lead_time": "10 days before dispatch"
+      },
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>A paired-cherry bag charm with a leaf detail and attachment hardware. Shape, surface and hardware finish vary by colorway; the selected photographs show the version you are choosing.<\/p>",
+            "open": false
+          }
+        },
+        "tab_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>Wipe with a soft, dry cloth and avoid soaking, perfume and abrasive cleaners.<\/p>",
+            "open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Shipping & delivery",
+            "content": "<p>Please allow 10 days from your order to dispatch. Delivery time is additional and varies by destination. You will receive tracking details when your order ships. See our <a href=\"\/policies\/shipping-policy\">shipping policy<\/a> for delivery information.<\/p>",
+            "open": false
+          }
+        },
+        "tab_returns": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Returns are accepted within 30 days of delivery for unused items in their original packaging with tags attached. To arrange a return, contact <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com<\/a>. See our <a href=\"\/policies\/refund-policy\">return policy<\/a> for full conditions.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_care",
+        "tab_shipping",
+        "tab_returns"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

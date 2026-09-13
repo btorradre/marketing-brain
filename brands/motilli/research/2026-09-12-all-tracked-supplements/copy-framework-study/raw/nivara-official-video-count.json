@@ -1,0 +1,203 @@
+{
+  "jsonrpc": "2.0",
+  "id": "nivara-official-video-count",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — Nivara Official\n\nWindow: 7d | Sort: current_rank | Results: 1\n\nAssistant instruction: when you show returned ads to the user, include the Media URL for each ad, or the Thumbnail URL fallback if Media URL is unavailable.\n\n### 1. Nivara\n- Ad id: facebook_1550977996201673\n- Rank: current 253 | delta 36 | improvement 9620%\n- Status: active | Media: video | Days running: 3\n- Reach: 0 | Duplicates: 1\n- First seen: 2026-09-08 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/video/29ee112b7a89a1a79c299526f87f45c87f2d7423d11c352f2f87d23506662fe5.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/e9dd087dd4fc51c999374d6eebb232117f9a887092ff633bb0d2590b89d1ecd8.jpg\n- Landing page: https://try.nivara-shop.com/listicle\n- Copy: For over four thousand years, iron was the remedy for the pale, exhausted woman. Then the modern supplement industry buried the way it actually worked. Ancient healers treated wor…\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":1,\"platforms\":[\"facebook\"],\"status\":\"active\",\"trackedPages\":[\"864723516732910\",\"1067197166481393\",\"1077362385455451\",\"1140931432426386\",\"1006338442556957\",\"906145529257083\",\"739775232562747\",\"895794656943797\",\"876895255513257\"],\"rankDeltaWindow\":\"7d\",\"mediaType\":\"video\"}\n\n---\nCredits used: 2 | Remaining: 6380 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "702e280e-4ce6-407b-be42-8ff02dc4ee53",
+      "data": [
+        {
+          "id": "facebook_1550977996201673",
+          "collationId": "1494786032373979",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-09-09T02:33:54.195Z",
+          "firstSeenAt": "2026-09-08T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 3,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/e9dd087dd4fc51c999374d6eebb232117f9a887092ff633bb0d2590b89d1ecd8.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/29ee112b7a89a1a79c299526f87f45c87f2d7423d11c352f2f87d23506662fe5.mp4"
+          },
+          "advertiser": {
+            "id": "739775232562747",
+            "name": "Nivara",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/739775232562747.jpg",
+            "facebookPageId": "739775232562747",
+            "liveAdsCount": 263,
+            "reach30d": 158906,
+            "totalReach": 505154,
+            "countriesCount": 1,
+            "facebookLikes": 2453,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "For over four thousand years, iron was the remedy for the pale, exhausted woman.\n\nThen the modern supplement industry buried the way it actually worked.\n\nAncient healers treated worn-down women with iron tonics, because they knew iron only works when your body can absorb and store it.\n\nBut once supplements went mass-market, the industry chose the cheapest iron there is, ferrous sulfate, harsh and barely absorbable.\n\nTo cut costs, they dropped the gentle forms and the cofactors that make iron work.\n\nThat is why the iron in your cabinet wrecks your stomach and barely moves your levels.\n\nFerraVital brings back the version that works, using ferrous bisglycinate that absorbs four times better, plus the vitamin C, B6, B12, folate, and copper that move it into storage.\n\nFerritin is your stored iron, the reserve your hair, energy, and focus run on, so refilling it lifts the exhaustion, brain fog, and shedding.\n\nOver 100,000 women have made the switch.\n\nRight now it is buy two, get one free with a 90-day guarantee.\n\nTap below and rebuild your ferritin the way it was meant to be.",
+            "transcript": null,
+            "callToAction": "LEARN MORE",
+            "landingPageUrl": "https://try.nivara-shop.com/listicle",
+            "landingPageDomain": "try.nivara-shop.com",
+            "ctaDescription": "Iron Healed Tired Women for 4,000 Years. Then It Was Buried.",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 253,
+            "currentRank": 253,
+            "rankDelta": 36,
+            "improvementPct": 96.2
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 1,
+        "total": 140,
+        "totalPages": 140,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "f63943a7-2978-4ece-90b2-386f0c561c89",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "f63943a7-2978-4ece-90b2-386f0c561c89",
+          "resolvedBrandName": "Nivara Official",
+          "facebookPageId": "864723516732910",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "864723516732910",
+            "1067197166481393",
+            "1077362385455451",
+            "1140931432426386",
+            "1006338442556957",
+            "906145529257083",
+            "739775232562747",
+            "895794656943797",
+            "876895255513257"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 1,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active",
+          "trackedPages": [
+            "864723516732910",
+            "1067197166481393",
+            "1077362385455451",
+            "1140931432426386",
+            "1006338442556957",
+            "906145529257083",
+            "739775232562747",
+            "895794656943797",
+            "876895255513257"
+          ],
+          "rankDeltaWindow": "7d",
+          "mediaType": "video"
+        },
+        "requestedLimit": 1,
+        "effectiveLimit": 1,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 1,
+        "effectiveUnits": 1,
+        "actualUnits": 1,
+        "costUnits": 2,
+        "recurringUnits": 2,
+        "topupUnits": 0,
+        "creditsRemaining": 6380,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "scripts": [
+    "https://cdn.shopify.com/extensions/01a059f8-dc26-74a1-b47e-791783891a96/upcart-2-407/assets/upcart-bundle.js"
+  ],
+  "upcartKeys": [
+    "upcartSettings",
+    "upcartPreloadedCart",
+    "upcartMoneyFormat",
+    "upcartStorefrontPublicAccessToken",
+    "upcartClientLocalizationCountry",
+    "upcartMyShopifyDomain",
+    "upcart",
+    "upcartOnAddToCart",
+    "upcartOnCartLoaded",
+    "upcartOnCartUpdated",
+    "upcartOnCartOpened",
+    "upcartOnCartClosed",
+    "upcartOnItemRemoved",
+    "upcartOnCheckout",
+    "upcartOnAddUpsell",
+    "upcartOnRenderUpsell",
+    "__upcartInitialized",
+    "upcartRegisterAddToCart",
+    "upcartRefreshCart",
+    "upcartShouldAddToCartContinue",
+    "upcartShouldSkipAddToCart",
+    "upcartCheckoutListeners",
+    "upcartOpenCart",
+    "upcartCloseCart",
+    "upcartModifyListOfUpsells",
+    "upcartModifyCart",
+    "upcartAddSubscriptionProperties",
+    "upcartSelectUpsellItemSellingPlan",
+    "upcartStickyButtonOnClick",
+    "upcartGetCart",
+    "upcartGetRewards",
+    "upcartFormatMoney",
+    "upcartRegisterMetafields",
+    "upcartSubscribeUpsellsAddedToCart",
+    "upcartSubscribeUpsellsRendered",
+    "upcartSubscribeNotesTextChanged",
+    "upcartSubscribeRewardsMilestonesCompletedChanged",
+    "upcartSubscribeAddedToCart",
+    "upcartSubscribeCartLoaded",
+    "upcartSubscribeCartUpdated",
+    "upcartSubscribeCartOpened",
+    "upcartSubscribeCartClosed",
+    "upcartSubscribeItemRemoved",
+    "upcartSubscribeCheckoutClicked",
+    "upcartDebugEvents",
+    "showUpcartErrorToast",
+    "upcartDocumentOrShadowRoot"
+  ],
+  "upcartElements": [
+    {
+      "tag": "LINK",
+      "id": "upcart-stylesheet",
+      "classes": ""
+    },
+    {
+      "tag": "DIV",
+      "id": "upCart",
+      "classes": ""
+    },
+    {
+      "tag": "DIV",
+      "id": "upCartStickyButton",
+      "classes": ""
+    }
+  ],
+  "embedBlocks": {
+    "name": "Velantra \u2014 R40 / Vivienne Craftsmanship",
+    "id": 151364960321,
+    "schema_name": "Velantra Quiet Luxury",
+    "schema_version": "1.0.0",
+    "theme_store_id": null,
+    "role": "unpublished",
+    "handle": "null",
+    "style": {
+      "id": null,
+      "handle": null
+    }
+  },
+  "requests": [
+    "https://cdn.shopify.com/extensions/01a059f8-dc26-74a1-b47e-791783891a96/upcart-2-407/assets/upcart-stylesheet.css",
+    "https://cdn.shopify.com/extensions/01a059f8-dc26-74a1-b47e-791783891a96/upcart-2-407/assets/upcart-bundle.js",
+    "https://velantrafashion.com/cart.js?upcart=1"
+  ]
+}

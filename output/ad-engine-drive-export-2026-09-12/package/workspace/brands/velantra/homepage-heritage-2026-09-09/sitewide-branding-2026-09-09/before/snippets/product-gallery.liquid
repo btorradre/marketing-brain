@@ -1,0 +1,73 @@
+{% doc %}
+Renders the selected color gallery and accessible full-screen images.
+@param {product} product - Product whose media is shown
+@param {string} section_id - Unique parent section ID
+@param {boolean} [hide_unassigned_media] - Exclude unassigned media from products with color options
+{% enddoc %}
+{%- liquid
+  assign selected_variant = product.selected_or_first_available_variant
+  assign selected_color = ''
+  assign color_index = 0
+  for option in product.options_with_values
+    assign option_name = option.name | downcase
+    if option_name == 'color' or option_name == 'colour'
+      assign color_index = option.position | minus: 1
+      assign selected_color = selected_variant.options[color_index] | handleize
+    endif
+  endfor
+-%}
+<div class="product-gallery" data-gallery data-color-only="{{ hide_unassigned_media | default: false }}">
+  <div class="product-gallery__viewport" data-gallery-viewport tabindex="0" aria-label="{{ 'commerce.gallery.label' | t | escape }}">
+    {%- for media in product.media -%}
+      {%- liquid
+        assign item_color = ''
+        for variant in product.variants
+          if variant.featured_media.id == media.id
+            assign item_color = variant.options[color_index] | handleize
+            break
+          endif
+        endfor
+        if media.alt contains '#color_'
+          assign item_color = media.alt | split: '#color_' | last | split: ' ' | first | handleize
+        endif
+        if hide_unassigned_media and selected_color != blank and item_color == blank
+          continue
+        endif
+        assign is_visible = true
+        if selected_color != blank and item_color != blank and item_color != selected_color
+          assign is_visible = false
+        endif
+        assign clean_alt = media.alt | split: '#color_' | first | strip | default: product.title
+        assign media_loading = 'lazy'
+        if media.id == selected_variant.featured_media.id or forloop.first
+          assign media_loading = 'eager'
+        endif
+      -%}
+      <div class="product-gallery__item" data-media-id="{{ media.id }}" data-color="{{ item_color }}" {% if media.id == selected_variant.featured_media.id %}data-first-visible style="order:-1"{% elsif selected_variant.featured_media == blank and forloop.first %}data-first-visible{% endif %} {% unless is_visible %}hidden{% endunless %}>
+        {%- case media.media_type -%}
+          {%- when 'image' -%}
+            {%- capture studio_url -%}{%- render 'studio-image-url', image: media.preview_image, product: product, media_id: media.id -%}{%- endcapture -%}
+            {%- assign studio_url = studio_url | strip -%}
+            <a class="product-gallery__zoom" href="{% if studio_url != blank %}{{ studio_url }}{% else %}{{ media | image_url: width: 2400 }}{% endif %}" data-zoom-image aria-label="{{ 'commerce.gallery.zoom' | t: name: clean_alt | escape }}">
+              {%- if studio_url != blank -%}<img src="{{ studio_url }}" alt="{{ clean_alt | escape }}" width="1200" height="1500" loading="{{ media_loading }}">
+              {%- else -%}{{ media.preview_image | image_url: width: 1800 | image_tag: loading: media_loading, widths: '600,900,1200,1500,1800', sizes: '(min-width: 900px) 50vw, 100vw', alt: clean_alt }}{%- endif -%}
+              <span class="product-gallery__zoom-label">{{ 'commerce.gallery.enlarge' | t }} <span aria-hidden="true">+</span></span>
+            </a>
+          {%- when 'video' -%}{{ media | video_tag: controls: true, preload: 'metadata', image_size: '1200x', class: 'product-gallery__video' }}
+          {%- when 'external_video' -%}{{ media | external_video_tag: loading: 'lazy', class: 'product-gallery__video' }}
+          {%- when 'model' -%}{{ media | model_viewer_tag: image_size: '1200x', reveal: 'interaction', toggleable: true }}
+        {%- endcase -%}
+      </div>
+    {%- else -%}<div class="product-gallery__item">{{ 'product-1' | placeholder_svg_tag }}</div>
+    {%- endfor -%}
+  </div>
+  <div class="product-gallery__controls" data-gallery-controls hidden>
+    <button type="button" data-gallery-prev aria-label="{{ 'commerce.gallery.previous' | t | escape }}">←</button>
+    <span data-gallery-count aria-live="polite"></span>
+    <button type="button" data-gallery-next aria-label="{{ 'commerce.gallery.next' | t | escape }}">→</button>
+  </div>
+  <dialog class="product-lightbox" id="ProductLightbox-{{ section_id }}" data-product-lightbox aria-label="{{ 'commerce.gallery.label' | t | escape }}">
+    <button class="product-lightbox__close" type="button" data-lightbox-close aria-label="{{ 'commerce.gallery.close' | t | escape }}">×</button>
+    <img data-lightbox-image alt="" width="1800" height="2250">
+  </dialog>
+</div>

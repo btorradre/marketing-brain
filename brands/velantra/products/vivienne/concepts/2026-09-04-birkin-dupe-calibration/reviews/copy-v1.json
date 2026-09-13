@@ -1,0 +1,123 @@
+{
+  "rubric_id": "copy",
+  "rubric_version": "0.1.0",
+  "artifact_hash": "df4f6b7b193dc786652a6828fb2d948889d0506b4bba12992ee9d28093710ab5",
+  "reviewer_id": "vivienne-independent-copy",
+  "packet_hash": "bf8c3a685b6f603f04fb4aff29dd73845db018cee4612ba7f7fa942157b90332",
+  "criteria": {
+    "claim_truth": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "No fabricated ownership, comparison equivalence, urgency or offer. Price and pre-order qualification match the ledger. Keep the adjective soft explicitly attached to appearance, or simplify to the slouchy shape: the master proves visual design, not tactile softness. Replace No big logo with No logo across the front for a precise visible claim. Do not add vegetable-tanned or durability claims to strengthen the pitch.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v1.md",
+          "locator": "Spoken script and Claims and source limitations",
+          "observation": "The script names Vivienne, gives $149.99, qualifies shipping as expected October and makes no use-history claim. The soft, slouchy shape phrase remains an appearance claim but soft can also imply touch."
+        },
+        {
+          "kind": "product_truth",
+          "path": "evidence/product-truth-evidence.json",
+          "locator": "claims[price, fulfillment, texture_structure]; sources[master]",
+          "observation": "Price and expected shipping are live-verified. Texture/structure is a visual design specification; no physical softness test is documented."
+        }
+      ]
+    },
+    "customer_voice": {
+      "score": 2,
+      "critical_failure": false,
+      "feedback": "The value and no-logo themes fit the category evidence, but Take a look at the Vivienne plus a three-attribute list reads as a product announcement. Give the shopper a recognizable preference before the reveal, for example Love that Birkin shape? or If you like the Birkin shape but want a price you can justify. Use one such thought, not a string of research quotations. Keep category evidence labeled as category evidence; this is not validated Vivienne customer language.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v1.md",
+          "locator": "Spoken script, sentences 1\u20135",
+          "observation": "The script uses price discovery, an invitation to look, an attribute fragment and a second price statement. It has relevant themes but little distinctive peer-language development."
+        },
+        {
+          "kind": "customer_voice",
+          "path": "evidence/customer-voice-evidence.json",
+          "locator": "voice_evidence[voc-value, voc-vibe, voc-no-logo]; evidence_tier",
+          "observation": "Sourced category discussion supports reasonably priced discreet designs and the desired vibe/function. The ledger expressly has no authenticated Vivienne purchaser sample."
+        }
+      ]
+    },
+    "spoken_naturalness": {
+      "score": 2,
+      "critical_failure": false,
+      "feedback": "Text read-through only; I did not hear audio or perform an acoustic timing check. The fragment That soft, slouchy shape, braided trim, and gold-tone closure feels like a missing verb, and the full spoken price repeats the opening without developing it. Try Look at the braided trim and that gold-tone closure. Choose either the approximate opening price or the exact spoken price; retain the exact figure on screen. Change with shipping expected in October to expected to ship in October. Confirm a timed voice read after revision.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v1.md",
+          "locator": "Spoken script, complete paragraph; Format",
+          "observation": "The 49-word paragraph is assigned approximately 24\u201327 seconds. Syntax inspection finds an attribute-only sentence and consecutive factual offer sentences; actual vocal delivery and cadence have not been observed."
+        }
+      ]
+    },
+    "avatar_fit": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The text addresses the supplied shopper hypothesis through recognizable design, attainable price and no-logo styling, without demographics or shame. Make the preference-to-product transition more explicit, then show one detail that earns the style judgment. This score is for fit to the supplied category-informed brief, not measured resonance among Vivienne customers.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v1.md",
+          "locator": "Target and Spoken script",
+          "observation": "The target is labeled a hypothesis; the copy pairs Birkin-inspired styling with under-$150 framing and no big logo."
+        },
+        {
+          "kind": "avatar_brief",
+          "path": "avatar-brief.json",
+          "locator": "description; voice; exclude_assumptions",
+          "observation": "The brief calls for bag awareness, understated styling and a justifiable price; it excludes fictional demographics and ownership."
+        },
+        {
+          "kind": "customer_voice",
+          "path": "evidence/customer-voice-evidence.json",
+          "locator": "working_avatar and calibration_limitations",
+          "observation": "The evidence describes a testable shopper hypothesis and explicitly separates it from measured customer segmentation."
+        }
+      ]
+    },
+    "hook_argument": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The find/reveal/price/action sequence coheres and the hook has an accurate price payoff. Make one product detail earn the styling promise instead of listing three equally weighted features. Keep the replacement of personal endorsement with purchase conditions; do not restore a testimonial to mimic the reference. This evaluates the supplied reference analysis, not an independent viewing of the source reel.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v1.md",
+          "locator": "Spoken script, hook through CTA",
+          "observation": "The opening promises Birkin-inspired styling below $150; the reveal names Vivienne, gives visible details, verifies the exact price and ends with an action."
+        },
+        {
+          "kind": "reference",
+          "path": "reference-analysis.md",
+          "locator": "Persuasive sequence and Adaptation",
+          "observation": "The documented sequence is luxury reference/attainable-price hook, reveal, product/price, endorsement and CTA. The adaptation expressly replaces unsupported endorsement with pre-order information."
+        }
+      ]
+    },
+    "cta_offer": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "One action and accurate purchase conditions. Smooth the spoken transition to It is a pre-order, expected to ship in October. Tap to see the colors. Preserve the on-screen condition throughout the offer and CTA, and recheck the live offer on publication day. Avoid another price repetition or unsupported color scarcity.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v1.md",
+          "locator": "Spoken script final three sentences; Screen text",
+          "observation": "Price, pre-order and expected October shipping are disclosed; tap to see colors is the only action. Screen instructions carry the condition through the CTA."
+        },
+        {
+          "kind": "product_truth",
+          "path": "evidence/product-truth-evidence.json",
+          "locator": "sources[pdp].observations; claims[price, fulfillment]",
+          "observation": "The ledger records $149.99, four colorways and pre-order expected October, with publication-day recheck required."
+        }
+      ]
+    }
+  }
+}

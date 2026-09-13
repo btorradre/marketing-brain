@@ -1,0 +1,16 @@
+{
+  "match": false,
+  "confidence": 100,
+  "best_segment": null,
+  "entry_EV": 1,
+  "peak_EV": 1,
+  "rawness": 1,
+  "action_match": "wrong",
+  "text_status": "text present",
+  "visible_evidence": "The video features a male character (Walter White) rather than an adult woman. Additionally, large text overlays are present throughout the entire duration of the clip, which violates the requirement for a clean interval.",
+  "flags": [
+    "wrong_subject_gender",
+    "persistent_text_overlay"
+  ],
+  "why": "The video fails on multiple grounds: the subject is male, not female, and there is no interval free of text overlays as required by the brief."
+}

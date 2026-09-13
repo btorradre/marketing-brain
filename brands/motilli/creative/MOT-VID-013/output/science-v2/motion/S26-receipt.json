@@ -1,0 +1,73 @@
+{
+  "shot": "S26",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The gas bubbles move gently from the upper stomach into the connected lower esophagus; the outside mint remains still, and no ingredient enters the organ. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S26.png",
+  "reference_sha256": "72eae1e0ea46ad1af21487078c6e8deb3b768f6edb8a971466df74865b277282",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdtTU9nYXYybEhZREJ6N0lQLThTcDBRZxIXbU1PZ2F2MmxIWURCejdJUC04U3AwUWc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S26.mp4",
+  "sha256": "83b1236878dc431d2fe4e23a6164ec9c92684de23a31937187800e9148ee103d",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59859,
+    "total_input_tokens": 1160,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 60
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58491,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 208,
+    "raw_prompt_token": 31402,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1853
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 578
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 208
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('V18_STATE',p:GetName(),p:IsRenderingInProgress());for i=1,p:GetTimelineCount() do local t=p:GetTimelineByIndex(i);print('TL',t:GetName(),t:GetEndFrame(),#t:GetItemListInTrack('audio',1)) end

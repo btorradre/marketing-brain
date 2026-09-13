@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,subprocess,httpx,base64,concurrent.futures
+O=Path(__file__).resolve().parent;ROOT=O.parents[5];key=next(l.split('=',1)[1].strip().strip('"').strip("'") for l in (ROOT/'.env').read_text().splitlines() if l.startswith('GEMINI_API_KEY='))
+def work(pair):
+ h,needle=pair;j=json.loads((O/f'{h}-alignment.json').read_text())['alignment'];txt=''.join(j['characters']);i=txt.lower().index(needle.lower());t=max(0,j['character_start_times_seconds'][i]-2);end=min(len(txt)-1,i+len(needle)+100);duration=min(22,j['character_end_times_seconds'][end]-t);f=O/f'qa/{h}-listen-{i}.mp3'
+ subprocess.run(['ffmpeg','-v','error','-y','-ss',str(t),'-i',str(O/f'deliverables/Motilli-V25-{h}-Woman-Over-40-Natural-1.2x-source.mp3'),'-t',str(duration),str(f)],check=True)
+ prompt='Transcribe the actual speech you hear, verbatim. Then report any garbled, distorted or unintelligible words, unusual robotic sound, with times relative to this audio. Do not invent gaps. JSON transcript, issues, delivery.'
+ r=httpx.post('https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent',headers={'x-goog-api-key':key},json={'contents':[{'parts':[{'inline_data':{'mime_type':'audio/mpeg','data':base64.b64encode(f.read_bytes()).decode()}},{'text':prompt}]}],'generationConfig':{'temperature':.1,'responseMimeType':'application/json'}},timeout=180);r.raise_for_status();z=''.join(t.get('text','') for a in r.json()['candidates'] for t in a['content']['parts']);(O/f'qa/{h}-listen-{i}.json').write_text(z);print(h,needle,t,z,flush=True)
+with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:list(ex.map(work,[('H1','actually fixed'),('H1','mapping my day'),('H1',"I'll drop"),('H2','money back'),('H3','my gut with'),('H3',"pressure is"),('H3','mapping my day')]))

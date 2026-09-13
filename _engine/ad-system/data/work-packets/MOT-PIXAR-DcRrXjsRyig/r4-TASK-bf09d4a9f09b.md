@@ -1,0 +1,565 @@
+# MOT-PIXAR-DcRrXjsRyig — storyboard
+Creative revision: 4
+Brand / product: motilli / Motilli Celery Juice Gummies
+
+Use the existing Cut Room skill and board_builder.py. Deliver the correct brand board with actual first asset set, reference lane and per-card rationale; verify the saved board/URL. Never mark a text-only board as finished unless explicitly requested.
+
+## Current requirements
+Read workspace AGENTS.md and the exact linked specialist instructions. User authorization persists; this packet creates no extra approval gate. GPT Image 2 / Google Omni / DaVinci Resolve. No HyperFrames or Remotion. No campaign launches or creator messages without explicit authorization.
+
+- /Users/brooksorradre2/Documents/marketing brain/.claude/skills/broll-storytelling/SKILL.md
+- /Users/brooksorradre2/Documents/marketing brain/.claude/skills/cutroom/SKILL.md
+- /Users/brooksorradre2/Documents/marketing brain/.claude/skills/broll-animated-ads/SKILL.md
+
+## Shared Obsidian memory
+/Users/brooksorradre2/Documents/marketing brain/_engine/ad-system/data/memory/creatives/MOT-PIXAR-DcRrXjsRyig.md
+Read current memory and notes before execution; this packet is a snapshot. Notes are context, not approval.
+Agent notes: /Users/brooksorradre2/Documents/marketing brain/_engine/ad-system/data/memory/notes/MOT-PIXAR-DcRrXjsRyig.md
+---
+type: ad-system-notes
+tags: [ad-system, agent-memory]
+creative_id: "MOT-PIXAR-DcRrXjsRyig"
+brand: "motilli"
+---
+
+# Agent notes — MOT-PIXAR-DcRrXjsRyig
+
+Editable memory. Preserve source/date and distinguish observations, hypotheses and current user instructions. These notes do not approve assets or establish performance.
+
+[[_engine/ad-system/data/memory/creatives/MOT-PIXAR-DcRrXjsRyig|Current creative record]]
+
+
+## Context and unresolved decisions
+User selected concept 1, accepted script draft 1, then requested storyboard on September 11, 2026. Fictional animated characters; no measured performance. Storyboard generation is authorized; no video or voice generation in this phase.
+
+## Strategy
+{"awareness": "Problem aware", "belief_to_change": "I should hide difficulties because I am grateful for progress.", "buyer_situation": "Older woman experiencing digestive discomfort while taking a GLP-1 medication and concealing it from her partner.", "changed": "Script expanded into 20 explicit camera setups and generated first frames.", "difference": "Original anniversary story; reference editing grammar without museum premise or body ridicule.", "fixed": "Exact approved dialogue; late product reveal; mature couple; repeated earrings and unfinished speech.", "format": "animated", "hypothesis": "A relationship mystery and empathetic reveal may hold attention and make asking for help feel acceptable.", "promise": "A simple daily routine choice presented within a story about asking for support.", "proof": "Fictional narrative; product format only, not a testimonial or treatment proof.", "treatment": "Original Pixar-style cinematic 3D domestic short with mature couple and warm-to-cool-to-warm emotional lighting."}
+
+## Exact current narration
+TOM: Thirty-two years, and you still—
+LINDA: Tom. I’m sorry. I can’t do this.
+
+TOM: I hadn’t even started the speech.
+
+TOM: Linda? Have I done something?
+
+LINDA: No.
+TOM: Then why do you keep leaving?
+
+LINDA: Because I’m bloated all the time. I can barely go to the bathroom. Since I started the shot, every dinner feels like a gamble.
+
+TOM: Why didn’t you tell me?
+
+LINDA: I wanted you to look at me in this dress. Not picture me stuck in here.
+
+TOM: I thought you didn’t want our evenings anymore.
+
+LINDA: I wanted to lose the weight. I didn’t want to lose our evenings.
+TOM: Then let’s stop pretending you’re fine.
+
+LINDA: I finally called. My medication can slow how fast food leaves my stomach. Bloating and constipation can be side effects.
+
+TOM: And you thought you just had to live with it?
+LINDA: I thought I wasn’t supposed to complain.
+
+TOM: You can be happy about your progress and still ask for help.
+
+TOM: What’s that?
+LINDA: Motilli. Celery juice gummies. I wanted something simple to add to my daily routine.
+
+TOM: Gummies?
+LINDA: You know how I feel about swallowing pills.
+
+TOM: Linda?
+
+LINDA: I’m turning the music up.
+TOM: I still have a speech.
+
+LINDA: You can tell me while we dance.
+
+VOICEOVER: A little care for your everyday. Meet Motilli.
+
+## Evidence
+[
+  {
+    "date": "2026-09-11",
+    "id": "E-SCRIPT",
+    "kind": "observation",
+    "source_path": "brands/motilli/creative/MOT-PIXAR-DcRrXjsRyig/script/ANNIVERSARY-SCRIPT-v1.md",
+    "text": "Selected fictional anniversary narrative and exact approved dialogue.",
+    "verified": true
+  },
+  {
+    "date": "2026-09-11",
+    "id": "E-LIMITS",
+    "kind": "counterevidence",
+    "source_path": "brands/motilli/creative/MOT-PIXAR-DcRrXjsRyig/script/EVIDENCE-NOTES-v1.md",
+    "text": "Product and medication evidence limits retained from script phase; no new efficacy claims authorized.",
+    "verified": true
+  }
+]
+
+## Scene decisions
+{
+  "action": "Low table-level wide: Linda pushes back her chair, startled and distressed, one hand at her abdomen. Tom lunges to catch her tipping glass; candle and anniversary dinner in foreground.",
+  "asset_id": "IMG-01",
+  "beat": "01",
+  "cut_cue": "Catch the glass and cut on her departure.",
+  "duration": 9,
+  "end": 9,
+  "id": "S01",
+  "line": "TOM: Thirty-two years, and you still—\nLINDA: Tom. I’m sorry. I can’t do this.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 0,
+  "story_function": "Shock and curiosity",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Catch the glass and cut on her departure.",
+  "viewer_response": "Shock and curiosity",
+  "why_here": "Start with a charged interruption. Open the apparent relationship crisis before revealing the physical problem.",
+  "why_line": "Shock and curiosity; her interruption opens the relationship mystery."
+}
+{
+  "action": "Medium Tom behind the abandoned place setting; Linda disappears into the hallway in deep background. His raised toast slowly drops.",
+  "asset_id": "IMG-02",
+  "beat": "02",
+  "cut_cue": "Hold after speech, bridge footsteps into hallway.",
+  "duration": 5,
+  "end": 14,
+  "id": "S02",
+  "line": "TOM: I hadn’t even started the speech.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 9,
+  "story_function": "Tender wounded humor",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Hold after speech, bridge footsteps into hallway.",
+  "viewer_response": "Tender wounded humor",
+  "why_here": "A small, wounded joke establishes his personality and keeps the opening from feeling melodramatic.",
+  "why_line": "Tender wounded humor; the empty chair makes the cost visible."
+}
+{
+  "action": "Profile medium of Tom stopped beside the closed bathroom door, hand hovering before a knock.",
+  "asset_id": "IMG-03",
+  "beat": "03",
+  "cut_cue": "Cut across the closed door after his question.",
+  "duration": 6,
+  "end": 20,
+  "id": "S03",
+  "line": "TOM: Linda? Have I done something?",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 14,
+  "story_function": "Uncertainty",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Cut across the closed door after his question.",
+  "viewer_response": "Uncertainty",
+  "why_here": "Voice the viewer’s question and establish that this has happened before.",
+  "why_line": "Uncertainty; he voices the viewer’s question at the physical barrier."
+}
+{
+  "action": "Bathroom medium: Linda in her anniversary dress sits fully clothed on the closed toilet lid, clutching a tissue, looking toward the door.",
+  "asset_id": "IMG-04",
+  "beat": "03",
+  "cut_cue": "Her No is on camera; his next question continues off screen. Hold then cut closer.",
+  "duration": 5,
+  "end": 25,
+  "id": "S04",
+  "line": "LINDA: No.\nTOM: Then why do you keep leaving?",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 20,
+  "story_function": "Private embarrassment",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Her No is on camera; his next question continues off screen. Hold then cut closer.",
+  "viewer_response": "Private embarrassment",
+  "why_here": "Voice the viewer’s question and establish that this has happened before.",
+  "why_line": "Private embarrassment; show the person hidden behind the apparent rejection."
+}
+{
+  "action": "Intimate seated Linda close-up, one tissue just below her wet eye, shoulders tense; cool bathroom shadows.",
+  "asset_id": "IMG-05",
+  "beat": "04",
+  "cut_cue": "Slow restrained push during admission; cut on Tom’s question.",
+  "duration": 13,
+  "end": 38,
+  "id": "S05",
+  "line": "LINDA: Because I’m bloated all the time. I can barely go to the bathroom. Since I started the shot, every dinner feels like a gamble.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 25,
+  "story_function": "Recognition and empathy",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Slow restrained push during admission; cut on Tom’s question.",
+  "viewer_response": "Recognition and empathy",
+  "why_here": "Pay off the opening mystery with a private fact. Her dress carries the conflict between the evening she wanted and the evening she is having.",
+  "why_line": "Recognition and empathy; stay with the difficult admission without comic symptom imagery."
+}
+{
+  "action": "Tight Tom reaction by door, brows relaxing, his hand falls away from the door.",
+  "asset_id": "IMG-06",
+  "beat": "04",
+  "cut_cue": "Direct cut on the question to mirror reflection.",
+  "duration": 4,
+  "end": 42,
+  "id": "S06",
+  "line": "TOM: Why didn’t you tell me?",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 38,
+  "story_function": "Reinterpretation",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Direct cut on the question to mirror reflection.",
+  "viewer_response": "Reinterpretation",
+  "why_here": "Pay off the opening mystery with a private fact. Her dress carries the conflict between the evening she wanted and the evening she is having.",
+  "why_line": "Reinterpretation; concern replaces his belief that she is rejecting him."
+}
+{
+  "action": "Over Linda’s shoulder into an oval bathroom mirror; her gold teardrop earring catches the warm vanity light as she touches it.",
+  "asset_id": "IMG-07",
+  "beat": "05",
+  "cut_cue": "Hold reflection through her line; cut to Tom for his admission.",
+  "duration": 8,
+  "end": 50,
+  "id": "S07",
+  "line": "LINDA: I wanted you to look at me in this dress. Not picture me stuck in here.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 42,
+  "story_function": "Tenderness",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Hold reflection through her line; cut to Tom for his admission.",
+  "viewer_response": "Tenderness",
+  "why_here": "Explain the secrecy and show the personal cost. The earrings establish that she remembered and cared.",
+  "why_line": "Tenderness; the carefully chosen earring reveals how much this evening mattered."
+}
+{
+  "action": "Hallway medium front angle of Tom, lower gaze, thumb rubbing wedding ring, bathroom door at frame edge.",
+  "asset_id": "IMG-08",
+  "beat": "05",
+  "cut_cue": "Door latch sound motivates the next cut.",
+  "duration": 4,
+  "end": 54,
+  "id": "S08",
+  "line": "TOM: I thought you didn’t want our evenings anymore.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 50,
+  "story_function": "Mutual vulnerability",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Door latch sound motivates the next cut.",
+  "viewer_response": "Mutual vulnerability",
+  "why_here": "Explain the secrecy and show the personal cost. The earrings establish that she remembered and cared.",
+  "why_line": "Mutual vulnerability; give his mistaken interpretation its own reaction space."
+}
+{
+  "action": "Doorway two-shot: Linda opens the door and faces Tom; he steps closer gently, both now sharing the frame.",
+  "asset_id": "IMG-09",
+  "beat": "06",
+  "cut_cue": "Hold their shared frame; 0.5s dissolve to daylight, counted within transition budget.",
+  "duration": 12,
+  "end": 66,
+  "id": "S09",
+  "line": "LINDA: I wanted to lose the weight. I didn’t want to lose our evenings.\nTOM: Then let’s stop pretending you’re fine.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 54,
+  "story_function": "Reconnection",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Hold their shared frame; 0.5s dissolve to daylight, counted within transition budget.",
+  "viewer_response": "Reconnection",
+  "why_here": "State the desired identity and emotional objective before any product. His response changes the next action from concealment to support.",
+  "why_line": "Reconnection; remove the literal barrier before the key belief change."
+}
+{
+  "action": "Morning kitchen wide: Linda in a sage cardigan lowers her phone after a call at the sunlit window and turns toward Tom seated at the oak table.",
+  "asset_id": "IMG-10",
+  "beat": "07",
+  "cut_cue": "Silent establishing action; direct cut when she joins him.",
+  "duration": 4,
+  "end": 70,
+  "id": "S10",
+  "line": "[Silent action / music; no spoken words]",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 66,
+  "story_function": "Agency",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Silent establishing action; direct cut when she joins him.",
+  "viewer_response": "Agency",
+  "why_here": "Introduce a supported explanation and undo the assumption that symptoms must be hidden. The prescriber is not shown endorsing a supplement.",
+  "why_line": "Agency; establish that she sought professional help before discussing a personal routine."
+}
+{
+  "action": "Linda medium across breakfast table, phone face down beside her, explaining calmly with an open hand.",
+  "asset_id": "IMG-11",
+  "beat": "07",
+  "cut_cue": "Direct cut to shared frame on Tom’s reply.",
+  "duration": 9,
+  "end": 79,
+  "id": "S11",
+  "line": "LINDA: I finally called. My medication can slow how fast food leaves my stomach. Bloating and constipation can be side effects.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 70,
+  "story_function": "Understanding",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Direct cut to shared frame on Tom’s reply.",
+  "viewer_response": "Understanding",
+  "why_here": "Introduce a supported explanation and undo the assumption that symptoms must be hidden. The prescriber is not shown endorsing a supplement.",
+  "why_line": "Understanding; her face carries the explanation, with no supplement or invented medical diagram."
+}
+{
+  "action": "Side two-shot at breakfast: Tom leans in listening while Linda looks down at her folded hands.",
+  "asset_id": "IMG-12",
+  "beat": "07",
+  "cut_cue": "Pause after her last word; cut closer to supportive gesture.",
+  "duration": 5,
+  "end": 84,
+  "id": "S12",
+  "line": "TOM: And you thought you just had to live with it?\nLINDA: I thought I wasn’t supposed to complain.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 79,
+  "story_function": "Permission to speak",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Pause after her last word; cut closer to supportive gesture.",
+  "viewer_response": "Permission to speak",
+  "why_here": "Introduce a supported explanation and undo the assumption that symptoms must be hidden. The prescriber is not shown endorsing a supplement.",
+  "why_line": "Permission to speak; exchange exposes the belief that she should not complain."
+}
+{
+  "action": "Low close two-shot with coffee in foreground: Tom slides her mug toward her as he sits beside her, Linda looks up.",
+  "asset_id": "IMG-13",
+  "beat": "08",
+  "cut_cue": "Hold shared frame, then 0.4s dissolve signaling a later routine.",
+  "duration": 6,
+  "end": 90,
+  "id": "S13",
+  "line": "TOM: You can be happy about your progress and still ask for help.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 84,
+  "story_function": "Reassurance",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Hold shared frame, then 0.4s dissolve signaling a later routine.",
+  "viewer_response": "Reassurance",
+  "why_here": "Resolve the belief that gratitude for progress means accepting every difficulty silently.",
+  "why_line": "Reassurance; a small familiar action makes support believable."
+}
+{
+  "action": "Product-led close view of Linda’s hand setting the exact Motilli jar beside a clear water glass on the kitchen counter, her torso behind it.",
+  "asset_id": "IMG-14",
+  "beat": "09",
+  "cut_cue": "Bottle settles exactly on Motilli; cut back to Linda for the joke.",
+  "duration": 8,
+  "end": 98,
+  "id": "S14",
+  "line": "TOM: What’s that?\nLINDA: Motilli. Celery juice gummies. I wanted something simple to add to my daily routine.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 90,
+  "story_function": "Practical curiosity",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Bottle settles exactly on Motilli; cut back to Linda for the joke.",
+  "viewer_response": "Practical curiosity",
+  "why_here": "Make product choice hers. Introduce the concrete format and its practical appeal without claiming it reverses medication effects.",
+  "why_line": "Practical curiosity; name the format and let her choose it for her routine."
+}
+{
+  "action": "Medium Linda at counter giving Tom an affectionate wry smile, one raised eyebrow; jar remains softly visible in the foreground.",
+  "asset_id": "IMG-15",
+  "beat": "09",
+  "cut_cue": "Hold smile; 0.5s dissolve to a clearly later candlelit evening.",
+  "duration": 6,
+  "end": 104,
+  "id": "S15",
+  "line": "TOM: Gummies?\nLINDA: You know how I feel about swallowing pills.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 98,
+  "story_function": "Personality and ease",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Hold smile; 0.5s dissolve to a clearly later candlelit evening.",
+  "viewer_response": "Personality and ease",
+  "why_here": "Make product choice hers. Introduce the concrete format and its practical appeal without claiming it reverses medication effects.",
+  "why_line": "Personality and ease; the gummy preference is hers, without an efficacy promise."
+}
+{
+  "action": "Later candlelit dinner from a different reverse angle: Linda rises, Tom briefly freezes with concern; same teal dress and gold earrings.",
+  "asset_id": "IMG-16",
+  "beat": "10",
+  "cut_cue": "Cut on her reassuring turn toward music.",
+  "duration": 4,
+  "end": 108,
+  "id": "S16",
+  "line": "TOM: Linda?",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 104,
+  "story_function": "Brief suspense",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Cut on her reassuring turn toward music.",
+  "viewer_response": "Brief suspense",
+  "why_here": "Repeat the opening action with a new meaning. Close the relationship loop through communication and connection, not a claim that a gummy produced immediate relief.",
+  "why_line": "Brief suspense; revive the opening question as a deliberate callback."
+}
+{
+  "action": "Linda by a small wooden tabletop radio, turning its volume knob and looking back warmly toward Tom in the room.",
+  "asset_id": "IMG-17",
+  "beat": "10",
+  "cut_cue": "Music comes up; Tom’s speech line off screen bridges into her invitation.",
+  "duration": 4,
+  "end": 112,
+  "id": "S17",
+  "line": "LINDA: I’m turning the music up.\nTOM: I still have a speech.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 108,
+  "story_function": "Relief and playful reversal",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Music comes up; Tom’s speech line off screen bridges into her invitation.",
+  "viewer_response": "Relief and playful reversal",
+  "why_here": "Repeat the opening action with a new meaning. Close the relationship loop through communication and connection, not a claim that a gummy produced immediate relief.",
+  "why_line": "Relief and playful reversal; show the true reason for standing up."
+}
+{
+  "action": "Close view of Linda reaching her open hand toward Tom, his hand starting to meet hers, smiling faces softly in background.",
+  "asset_id": "IMG-18",
+  "beat": "10",
+  "cut_cue": "Cut on their hands meeting into the first dance step.",
+  "duration": 3,
+  "end": 115,
+  "id": "S18",
+  "line": "LINDA: You can tell me while we dance.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 112,
+  "story_function": "Invitation",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Cut on their hands meeting into the first dance step.",
+  "viewer_response": "Invitation",
+  "why_here": "Repeat the opening action with a new meaning. Close the relationship loop through communication and connection, not a claim that a gummy produced immediate relief.",
+  "why_line": "Invitation; the hand closes the emotional distance created by the first scene."
+}
+{
+  "action": "Kitchen full-body two-shot of the couple beginning an awkward gentle dance, candlelit dining table visible through the doorway.",
+  "asset_id": "IMG-19",
+  "beat": "11",
+  "cut_cue": "Silent dance and music for 3s; clean cut to pack for full VO.",
+  "duration": 3,
+  "end": 118,
+  "id": "S19",
+  "line": "[Silent action / music; no spoken words]",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 115,
+  "story_function": "Warm payoff",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "Silent dance and music for 3s; clean cut to pack for full VO.",
+  "viewer_response": "Warm payoff",
+  "why_here": "Leave the viewer with the relationship payoff and a clear brand invitation.",
+  "why_line": "Warm payoff; the evening and relationship return to the center of the story."
+}
+{
+  "action": "Standalone exact Motilli jar hero on warm cream surface with soft sage background. Clean large end-card typography: Motilli Celery Juice Gummies and getmotilli.com.",
+  "asset_id": "IMG-20",
+  "beat": "11",
+  "cut_cue": "End hold minimum 3s; extend if performed VO needs it.",
+  "duration": 3,
+  "end": 121,
+  "id": "S20",
+  "line": "VOICEOVER: A little care for your everyday. Meet Motilli.",
+  "medium": "animated 3D",
+  "placement": "full-frame",
+  "source_route": "GPT Image 2; new inspected first-frame image; Google Omni motion in later authorized production.",
+  "start": 118,
+  "story_function": "Brand recognition and clear next step",
+  "style_fit": "Expressive adult character acting in one continuous, softly lit 3D domestic world.",
+  "transition_in": "Direct cut unless previous shot specifies dissolve; first frame action for S01.",
+  "transition_out": "End hold minimum 3s; extend if performed VO needs it.",
+  "viewer_response": "Brand recognition and clear next step",
+  "why_here": "Leave the viewer with the relationship payoff and a clear brand invitation.",
+  "why_line": "Brand recognition and clear next step; let the pack and URL remain readable."
+}
+
+## Existing artifacts
+[
+  {
+    "id": "SCRIPT-V1",
+    "path": "brands/motilli/creative/MOT-PIXAR-DcRrXjsRyig/script/ANNIVERSARY-SCRIPT-v1.md",
+    "role": "script",
+    "status": "selected"
+  },
+  {
+    "id": "EDIT-PLAN-V2",
+    "path": "brands/motilli/creative/MOT-PIXAR-DcRrXjsRyig/edit/editing-plan.md",
+    "role": "editing-plan",
+    "status": "selected"
+  },
+  {
+    "id": "SELECTED-STILLS-V1",
+    "path": "brands/motilli/creative/MOT-PIXAR-DcRrXjsRyig/storyboard/selected-assets.json",
+    "role": "status",
+    "status": "verified"
+  }
+]
+Editing plan: brands/motilli/creative/MOT-PIXAR-DcRrXjsRyig/edit/editing-plan.md
+Cut Room: [Not verified]
+
+## Readiness issues
+{
+  "scope": "production",
+  "revision": 4,
+  "verdict": "FLAG",
+  "checks": [
+    {
+      "verdict": "FLAG",
+      "field": "beats.medium",
+      "reason": "A fully animated concept contains another medium.",
+      "fix": "Confirm the intentional hybrid treatment or generate matching animation."
+    }
+  ],
+  "created": "2026-09-12T03:51:31+00:00"
+}
+
+## Receipt to save
+Record exact outputs, beat IDs, original/provider source, local files, inspection evidence and unresolved gaps. For external jobs retain the real provider/process handle and last verified state; a stale status file does not prove a live job. Resume a confirmed handle before considering a retry. Save changes with the expected creative revision so another session cannot overwrite newer work.

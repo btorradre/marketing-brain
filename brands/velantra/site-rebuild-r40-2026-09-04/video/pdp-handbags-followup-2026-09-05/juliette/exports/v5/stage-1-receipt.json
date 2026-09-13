@@ -1,0 +1,111 @@
+{
+  "family": "juliette",
+  "color": "Camel",
+  "stage": 1,
+  "attempt": "v2",
+  "provider": "Google Gemini Interactions API",
+  "model": "gemini-omni-1.1-flash",
+  "created_utc": "2026-09-05T23:05:13.275540+00:00",
+  "prompt": "[# Sources <FIRST_FRAME>@Image1] [# References <IMAGE_REF_0>@Image2 <IMAGE_REF_1>@Image3 <IMAGE_REF_2>@Image4] Use Image1 as the literal opening frame. Exactly the Camel Juliette current approved front. Soft golden-sand matte suede body, dark cool gray-brown leather upper collar, two short rolled handles, open top with gently rippled upper rim, one decorative horizontal dark strap with exactly three visible leather keeper tabs and two flat brass bars, center dome rivet, two thin loose front tails, dark leather lower corner caps with one visible brass stud each. Preserve soft slump and actual small interruptions of collar lower edge. No functional flap, zipper, fourth leather keeper, fringes, long strap, extra hardware or invented lining. Image1 is the accepted studio frame and Image2 is its source identity authority. Image3 is the source-checked BODY MATERIAL close-up; copy its exact texture and color for body macros. Image4 is the source-checked LOWER CORNER/EDGE detail; copy that exact visible corner and construction for the corner close-up, changing only background/tabletop to match the studio. Keep the same unchanged product in every shot, photographic and text-free on a neutral gray tabletop against charcoal black. Subtle slow physical camera motion and carefully controlled focus, richly resolved surfaces. Completely silent: no music, speech, effects or ambient sound. Clean instantaneous hard cuts between the listed shots, no dissolves or transition zooms. The bag is stationary in its exact source state. No hands, operations, new parts, hidden interiors, rear views, ornaments or props. Whole-bag views must retain ALL handles, side edges and base corners inside the central46% of frame width and central76% of height, centered. Use only a tiny axial pullback or stationary camera for complete views so no edge drifts into the narrow mobile crop. Macro subjects stay central; use only their specified existing source-visible surface, no invented stitches or hardware. Never show a detached key bell or other accessory. Generate the opening9seconds of an18-second film, five shots:\n[0-2s] Complete bag portrait exactly like Image1, with generous surrounding negative space. Begin a barely perceptible axial camera pullback, preserving exact source geometry.\n[2-3.75s] Hard cut to a close-up directly matching Image3, showing only warm golden-sand matte suede front body, visible nap direction and a natural soft crease, never smooth leather. Subtle lateral camera glide, no metal, straps or trim entering this pure-body crop.\n[3.75-5.5s] Hard cut to a macro of middle crown of the source short rolled dark cool-gray-brown leather handle with the second handle softly behind it. Slow restrained camera parallax and shallow focus; no new handle, hardware, or attachments.\n[5.5-7.25s] Hard cut to a macro directly matching the exact visible lower corner/edge in Image4, including lower-left dark leather corner cap with exactly its ONE existing brass stud and the adjoining Camel suede, matching Image4 literally. Trace this same visible corner with a tiny physical camera move. No angle beyond the source-visible front surface.\n[7.25-9s] Hard cut to a close-up of only the MIDDLE SHAFT of one short rolled dark cool-gray-brown leather handle against charcoal. Frame only the narrow rounded handle shaft and its actual longitudinal seam; all handle bases, bag body, collar, straps, hardware and metal remain entirely OUTSIDE this tight crop. Gentle sideways movement reveals the existing texture. This final shot will continue briefly in the next native extension.\nExactly five distinct shots and four hard cuts. This is a continuous photographic film with subtle motion within each shot, not a still-image slideshow.",
+  "status": "approved",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "16:9",
+    "resolution": "1080p",
+    "duration": "9s",
+    "delivery": "inline"
+  },
+  "references": [
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/references/studio-first-frame.png",
+      "sha256": "15420e5227ac4aacecfbadc09fed2d857211bcc448606b8c26b46b450dd9fd48"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/product-images/colors/Camel/front.png",
+      "sha256": "5fe9067dc065947842df61eecf5a32f3097879be3ff4d5deeaccfee74f57dc37"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/pdp-handbags-followup-2026-09-05/final/juliette-craft-material.png",
+      "sha256": "70537bb144582fb4fdfd304e2ee758d7de94b76ff3b3d579fd1b0d6820366827"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/pdp-handbags-followup-2026-09-05/final/juliette-craft-finishing.png",
+      "sha256": "ffa2d919f1cfc98693551122daf44a91d623f6570ddf3c4d0ca258e48d47e21c"
+    }
+  ],
+  "physical_scale": "unverified",
+  "processing": "Decoded original provider base64 bytes only. No local assembly/editing/transcode/trim.",
+  "interaction_id": "v1_ChZNNkNjYXJudkJKT29qckVQdl9MbktBEhZNNkNjYXJudkJKT29qckVQdl9MbktB",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/exports/v5/juliette-detail-stage-1.mp4",
+  "bytes": 7650637,
+  "sha256": "5326c5bd824e7d97cb2eae8e5ddfd5c5b5b0a2ac1dde4e5eca1f8df49e5dc1e2",
+  "video_duration": 9.0,
+  "container_duration": 9.002,
+  "frames": 216,
+  "fps": "24/1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "usage": {
+    "total_tokens": 64447,
+    "total_input_tokens": 5139,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 4342
+      },
+      {
+        "modality": "text",
+        "tokens": 797
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58753,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 555,
+    "raw_prompt_token": 40609,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 2622
+          },
+          {
+            "modality": "image",
+            "tokens": 4342
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 839
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 555
+          }
+        ]
+      },
+      {},
+      {}
+    ]
+  },
+  "finished_utc": "2026-09-05T23:07:01.013235+00:00",
+  "visual_qa": {
+    "verdict": "pass",
+    "contact": "juliette/qa/v2-stage1/contact.jpg",
+    "shots": 5,
+    "notes": "Current source shape, three keepers/two bars, suede, cornercap and handles retained. Unsafe collar shot replaced by observed handle close-up; no erased front components."
+  },
+  "reuse_note": "Original approved native stage1 interaction reused unchanged for v5 extension; no stage1 resubmission."
+}

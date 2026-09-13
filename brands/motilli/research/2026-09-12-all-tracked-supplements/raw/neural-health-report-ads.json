@@ -1,0 +1,493 @@
+{
+  "jsonrpc": "2.0",
+  "id": "neural-health-report-ads",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — Neural Health Report\n\nWindow: 7d | Sort: current_rank | Results: 6\n\nAssistant instruction: when you show returned ads to the user, include the Media URL for each ad, or the Thumbnail URL fallback if Media URL is unavailable.\n\n### 1. Neural Health Report\n- Ad id: facebook_903578512753912\n- Rank: current n/a | delta n/a | improvement unknown\n- Status: inactive | Media: image | Days running: 8\n- Reach: n/a | Duplicates: n/a\n- First seen: 2026-06-10 | Last seen: 2026-06-10\n- Media URL: https://medias.trendtrack.io/facebook/image/d48e1f431e9d57706d1fd4ee44b758c79186651aa21181ab09f87de8c2034cb4.jpg\n- Landing page: https://www.sanlava.com/pages/metabolic-switch\n- Copy: Blood sugar spikes in your arteries are called heart attacks. Blood sugar spikes in your kidneys are called dialysis. Blood sugar spikes in your eyes are called blindness. Blood s…\n\n### 2. Neural Health Report\n- Ad id: facebook_1335838825396780\n- Rank: current n/a | delta n/a | improvement unknown\n- Status: inactive | Media: image | Days running: 1\n- Reach: 1 | Duplicates: 2\n- First seen: 2026-07-16 | Last seen: 2026-07-17\n- Media URL: https://medias.trendtrack.io/facebook/image/d341dfbe091158699dae6f19d8b764d763b4a1b6d2ebd099652623b1c7e876c7.webp\n- Landing page: https://sakureva.com/pages/japanese-heel-secret\n- Copy: I was obsessed with hot yoga... until my feet became a major issue! Everyone went barefoot, but I wore grippy socks to hide my embarrassing feet. The real problem? Wet socks on th…\n\n### 3. Neural Health Report\n- Ad id: facebook_1736804374187173\n- Rank: current n/a | delta n/a | improvement unknown\n- Status: inactive | Media: video | Days running: 0\n- Reach: 0 | Duplicates: 1\n- First seen: 2026-07-16 | Last seen: 2026-07-16\n- Media URL: https://medias.trendtrack.io/facebook/video/f6ff0e5a54e881f0738722490f0d909a082248b99be877d8c22f5acbaa3f4220.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/0d2765987b471d6153938c69782f54ab353d3deab00b911ba30c8f9fa8a48e44.jpg\n- Landing page: https://sakureva.com/pages/japanese-heel-secret\n- Copy: I see so many women blame themselves when their heels crack again three days after a pedicure. Thinking \"I must not be moisturizing enough. I'm just letting myself go.\" I'm about…\n\n### 4. Neural Health Report\n- Ad id: facebook_1499479694900651\n- Rank: current n/a | delta n/a | improvement unknown\n- Status: inactive | Media: video | Days running: 32\n- Reach: 0 | Duplicates: 1\n- First seen: 2026-05-11 | Last seen: 2026-06-12\n- Media URL: https://medias.trendtrack.io/facebook/video/656de7a5fd249040b1ffbad39d2f792df70d815f5d4a4422b258540ce570967c.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/82086575fd7f07a9797ebc71b832f2c565d7981802660ba681aadc6163b31c0c.jpg\n- Landing page: https://www.sanlava.com/pages/metabolic-switch\n- Copy: If you’re constantly running on empty, snapping at loved ones, or feeling “off” in your own skin… it’s not your fault. Blood sugar swings after 40 drain your energy, trigger cravi…\n\n### 5. Neural Health Report\n- Ad id: facebook_2159578534589675\n- Rank: current n/a | delta n/a | improvement unknown\n- Status: inactive | Media: video | Days running: 2\n- Reach: n/a | Duplicates: n/a\n- First seen: 2026-07-30 | Last seen: 2026-08-01\n- Media URL: https://medias.trendtrack.io/facebook/video/f0cefee3514ee4d404dceadb5ef102f38e305d436c6fa982c95c3874f0c2186c.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/f30567201516f91e92878f9945bd9df9393aa69d9b116e5c0b621fbb32124f2d.jpg\n- Landing page: https://sakureva.com/pages/japanese-heel-secret\n- Copy: I see so many women blame themselves when their heels crack again three days after a pedicure. Thinking \"I must not be moisturizing enough. I'm just letting myself go.\" I'm about…\n\n### 6. Neural Health Report\n- Ad id: facebook_1439658907988367\n- Rank: current n/a | delta n/a | improvement unknown\n- Status: inactive | Media: video | Days running: 0\n- Reach: n/a | Duplicates: n/a\n- First seen: 2026-08-02 | Last seen: 2026-08-02\n- Media URL: https://medias.trendtrack.io/facebook/video/0a0cb9d285d0f570639de62592a49dbfe23fdabc2227eada91c6ae0cb0668f40.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/29a902927f12e325984baa44a6459546806564ce6ddcc9c964ca8e49dd2781a8.jpg\n- Landing page: https://sakureva.com/pages/dermatologist-reveals\n- Copy: I see so many women blame themselves when their heels crack again three days after a pedicure. Thinking \"I must not be moisturizing enough. I'm just letting myself go.\" I'm about…\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":6,\"platforms\":[\"facebook\"],\"status\":\"all\",\"trackedPages\":[\"856847537508620\"],\"rankDeltaWindow\":\"7d\"}\n\n---\nCredits used: 9 | Remaining: 6794 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "2ae1eb90-4388-4d24-8bb6-bfb4a7dc00fe",
+      "data": [
+        {
+          "id": "facebook_903578512753912",
+          "platform": "facebook",
+          "status": "inactive",
+          "createdAt": "2026-06-12T00:40:45.531Z",
+          "firstSeenAt": "2026-06-10T07:00:00.000Z",
+          "lastSeenAt": "2026-06-10T07:00:00.000Z",
+          "daysRunning": 8,
+          "media": {
+            "type": "image",
+            "thumbnailUrl": null,
+            "mediaUrl": "https://medias.trendtrack.io/facebook/image/d48e1f431e9d57706d1fd4ee44b758c79186651aa21181ab09f87de8c2034cb4.jpg"
+          },
+          "advertiser": {
+            "id": "856847537508620",
+            "name": "Neural Health Report",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/856847537508620.jpg",
+            "facebookPageId": "856847537508620",
+            "liveAdsCount": 0,
+            "reach30d": 8,
+            "totalReach": 1325,
+            "countriesCount": null,
+            "facebookLikes": 20,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "Blood sugar spikes in your arteries are called heart attacks.\n\nBlood sugar spikes in your kidneys are called dialysis.\n\nBlood sugar spikes in your eyes are called blindness.\n\nBlood sugar spikes in your nerves are called numb hands and feet that never wake back up.\n\nBlood sugar spikes in your brain are called memory loss and dementia.\n\nBlood sugar spikes in your legs are called amputations.\n\nBlood sugar spikes in your heart muscle are called heart failure.\n\nBut most women over the age of 40 tragically ignore these signals until one day they realize it's too late.\n\nAs you age, your cells stop responding to insulin the way they used to. Not just in your blood, but in every organ. Your stomach acid drops, your hormones shift, and the sugar that's supposed to fuel your cells starts piling up in your bloodstream instead.\n\nYour blood is supposed to deliver clean fuel to every part of your body.\n\nBut when blood sugar spikes after every meal, it damages the inside lining of your arteries. Once that lining is torn, plaque starts sticking to it. Year after year, those tiny tears become the wall that closes off the blood flow to your heart.\n\nTo fully reverse what blood sugar is doing to your arteries, you need two critical things:\n\nThe compounds to flatten the spikes before they damage your artery walls\nThe ability to wake your cells back up so they respond to insulin again\n\nMost people don't even realize it's a nutrient and absorption deficiency that's letting their blood sugar quietly destroy their heart from the inside.\n\nMaybe you've told your doctors about these symptoms, but they will never tell you that your belly fat, your 3pm crashes, and your skin tags are actually warning signs that your arteries are getting damaged every single day, because keeping you on metformin and statins makes them billions of dollars.\n\nBut there's a natural healer I've been recommending for years to the women who come to me at 40, 50 years old who are exhausted, terrified of ending up like their mom, and frustrated that nothing has worked.\n\nAnd three weeks later, they always come back in tears thanking me because they feel like a new person.\n\nTheir faces have changed, their energy is back, they're much happier, they look much better, and their blood sugar numbers are dropping for the first time in years.\n\nThis ancient remedy is called Berberine.\n\nAnd every time I mention it, I get the look.\n\nWide eyes.\n\nRaised eyebrows.\n\nThat \"You mean that yellow root TikTok keeps talking about?\" face.\n\nAnd honestly? I get it.\n\nIt sounds too simple.\n\nBut I've taken it myself, every day for over 10 years.\n\nAnd I recommend it to nearly every patient I see who's dealing with belly fat, blood sugar spikes, high cholesterol, and the early warning signs of heart trouble.\n\nWhy?\n\nBecause Berberine works on the same metabolic switch in your cells that exercise and fasting activate, called AMPK. When that switch is flipped back on, your cells finally start pulling sugar out of your blood the way they used to in your twenties.\n\nIt flattens the spikes that damage your arteries, lowers cholesterol, lowers blood pressure, and helps your body burn the belly fat that's been the visible warning sign of insulin resistance all along.\n\nJust one dose of this natural healer every morning could help you:\n\n✨ Flatten blood sugar spikes that damage your artery walls every meal\n✨ Lower cholesterol naturally without statins or muscle pain\n✨ Drop your blood pressure into healthy range\n✨ Quiet the food cravings that have been controlling your life\n✨ Burn the stubborn belly fat that's been the warning sign all along\n✨ Sleep deeply through the night without the 3am wake-ups\n✨ Wake up clear-headed instead of foggy\n✨ Protect your heart before you become another statistic\n\nIt's safe.\n\nIt's powerful.\n\nAnd when done right, it works.\n\nNo prescriptions. No statins. No injections. Just real support for your blood sugar and your heart.\n\nBut before you go buy any Berberine, there's one thing you need to know.\n\nMost Berberine supplements? Not helpful.\n\nToo weak.\n\nToo low-quality.\n\nFilled with cheap fillers and barely any active compound that don't belong in your body.\n\nAnd here's the worst part. Even when you do find real Berberine, your body can barely absorb it. Studies show that 95% of regular Berberine passes straight through you and ends up in the toilet. So you can take it for months and barely move the needle on your blood sugar or your arteries.\n\nI tried dozens.\n\nAnd I saw my patients wasting money on brands that didn't deliver.\n\nTo make sure you're getting pure Berberine that actually flattens the spikes and protects your arteries, it must be paired with black pepper extract for absorption, gentle herbs for your stomach, and Ceylon cinnamon for steady blood sugar between meals. And it must be third-party lab tested in certified U.S. labs.\n\nThe only brand I know that meets that standard is a small company called Sanlava.\n\nSadly, other brands sell cheap raw Berberine that barely absorbs and tears up your stomach, just to increase profits.\n\nSanlava's Berberine 7-in-1 contains:\n\n✨ 600mg of clinical-strength pure Berberine, the dose used in studies\n✨ BioPerine black pepper extract for 2000% better absorption so it actually reaches your bloodstream\n✨ Ginger and turmeric so it's gentle on your gut and you don't get the cramping that makes most women quit\n✨ Ceylon cinnamon to keep your blood sugar steady between meals\n✨ Made in the USA with rigorous quality standards\n✨ 3rd party lab tested for purity and potency\n✨ No fillers, no artificial junk, just essential compounds your body needs to flatten spikes, lower cholesterol, and protect your heart\n\nI take it every morning.\n\nAnd now… so do my patients.\n\nIt's become a daily ritual.\n\nWater. Capsules. Relief. Repeat.\n\nIf you read the thousands of reviews, you'll see why everyone with belly fat, blood sugar spikes, and a family history of heart disease buys only from this brand.\n\nThis little bottle changed their health and it could change yours too.\n\n90-day money-back guarantee, because I'm confident it will work for you like it has for thousands of my patients.\n\nMost people buy it at regular price, but right now they're doing a special promotion where you can get significant savings for a limited time.\n\nThe only problem is that they're a small company and they're getting popular, so they can't keep up with the demand.\n\nSo I want to apologize because if you click the link below, you might see that they're sold out.\n\nMy patients have waited for months before they found them again, but I suggest you click the button so you can see for yourself if they have anything left.\n\nSo if you want a natural way to flatten your blood sugar spikes, lower your cholesterol, protect your heart, and finally feel like yourself again, I'd run and grab some before they're gone again.\n\n👉 https://www.sanlava.com/pages/metabolic-switch",
+            "transcript": null,
+            "callToAction": "LEARN MORE",
+            "landingPageUrl": "https://www.sanlava.com/pages/metabolic-switch",
+            "landingPageDomain": "sanlava.com",
+            "ctaDescription": "Read my story so this doesn't happen to you.",
+            "ctaLinkDescription": "10 Reasons Why This \"Metabolic Switch\" Breakthrough Is Changing How Women Over 45 Take Back Control of Their Blood Sugar, Cravings & Energy"
+          },
+          "metrics": {
+            "reach": null,
+            "aggregatedReach": null,
+            "estimatedSpend": null,
+            "duplicates": null,
+            "reachDelta1d": null,
+            "reachDelta7d": null,
+            "reachDelta30d": null
+          },
+          "audience": {
+            "targetedCountries": null,
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": null,
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_1335838825396780",
+          "collationId": "1043732351341702",
+          "platform": "facebook",
+          "status": "inactive",
+          "createdAt": "2026-07-16T11:31:36.684Z",
+          "firstSeenAt": "2026-07-16T07:00:00.000Z",
+          "lastSeenAt": "2026-07-17T07:00:00.000Z",
+          "daysRunning": 1,
+          "media": {
+            "type": "image",
+            "thumbnailUrl": null,
+            "mediaUrl": "https://medias.trendtrack.io/facebook/image/d341dfbe091158699dae6f19d8b764d763b4a1b6d2ebd099652623b1c7e876c7.webp"
+          },
+          "advertiser": {
+            "id": "856847537508620",
+            "name": "Neural Health Report",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/856847537508620.jpg",
+            "facebookPageId": "856847537508620",
+            "liveAdsCount": 0,
+            "reach30d": 8,
+            "totalReach": 1325,
+            "countriesCount": 5,
+            "facebookLikes": 20,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "I was obsessed with hot yoga... until my feet became a major issue! \nEveryone went barefoot, but I wore grippy socks to hide my embarrassing feet. \nThe real problem? Wet socks on the mat = disgusting feeling!\nBut then I discovered Sakureva: 0% water, Urea & sakura extract.\nIn just ONE WEEK, my feet transformed - smooth, soft and pink! 💅\nNow I'm back in class, no more hiding! 👉 Get your Sakureva now: $44 BOGO + 30-day money-back guarantee!",
+            "transcript": null,
+            "callToAction": "LEARN MORE",
+            "landingPageUrl": "https://sakureva.com/pages/japanese-heel-secret",
+            "landingPageDomain": "sakureva.com",
+            "ctaDescription": "Your Cracked Heels Are Hardened Skin",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 1,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 2,
+            "reachDelta1d": null,
+            "reachDelta7d": null,
+            "reachDelta30d": null
+          },
+          "audience": {
+            "targetedCountries": [
+              "CA",
+              "US",
+              "AU",
+              "NZ",
+              "GB"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": null,
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_1736804374187173",
+          "collationId": "1019657410791517",
+          "platform": "facebook",
+          "status": "inactive",
+          "createdAt": "2026-07-16T11:31:36.684Z",
+          "firstSeenAt": "2026-07-16T07:00:00.000Z",
+          "lastSeenAt": "2026-07-16T07:00:00.000Z",
+          "daysRunning": 0,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/0d2765987b471d6153938c69782f54ab353d3deab00b911ba30c8f9fa8a48e44.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/f6ff0e5a54e881f0738722490f0d909a082248b99be877d8c22f5acbaa3f4220.mp4"
+          },
+          "advertiser": {
+            "id": "856847537508620",
+            "name": "Neural Health Report",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/856847537508620.jpg",
+            "facebookPageId": "856847537508620",
+            "liveAdsCount": 0,
+            "reach30d": 8,
+            "totalReach": 1325,
+            "countriesCount": null,
+            "facebookLikes": 20,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "I see so many women blame themselves when their heels crack again three days after a pedicure.\n\nThinking \"I must not be moisturizing enough. I'm just letting myself go.\"\n\nI'm about to tell you something that's going to annoy you AND give you your feet back at the same time.\n\nThe skin on your heels is not like the skin anywhere else on your body.\n\nIt's the thickest skin you have. It carries you all day. And as it matures, it loses the oils and water it used to hold on its own.\n\nSo when it dries out, it doesn't just get flaky. It hardens. It splits. And once a crack forms, the edges thicken and pull apart a little more every day.\n\nThink of it like dry ground in summer — the more it dries, the deeper the cracks open.\n\nThis is why it feels like it never ends. The harder and drier the skin gets, the worse the cracking, and the worse the cracking, the harder the skin grows over it.\n\nSo why am I telling you this?\n\nBecause while you've been blaming yourself, you've been missing the real problem.\n\nThe cream you've been faithfully using every single night is probably doing almost nothing for those heels.\n\nLet me tell you what happened with my mother, because her story is going to open your eyes.\n\nTHE STORY NOBODY TALKS ABOUT\n\nFor years, my mother hid her feet.\n\nNo sandals. No open-back shoes. Socks to bed even in summer. She'd tuck her feet under a blanket if someone came over.\n\nShe wasn't lazy about it — the opposite. Petroleum jelly every night. Foot masks. A pumice stone in the shower. The expensive pedicure once a month.\n\nAnd every time, within an hour or two, her heels went right back to looking like they'd been \"fighting for their life.\" Her words.\n\nSo she did what everyone told her to do next. She scraped. A foot file, then one of those metal \"cheese grater\" things. The skin would come off and feel smooth for an hour or two…\n\n…then harden right back up, rougher than before.\n\nShe told me once, quietly, \"I've tried everything. Most of it works for about a week.\"\n\nBut something didn't add up.\n\nWhy would her feet get *harder* the more she scraped them? Why would the cream wash away by morning when she'd used half the tub?\n\nTHE THING NOBODY EXPLAINS\n\nHere's what finally made sense of it.\n\nTwo things were quietly working against her the whole time.\n\nThe first: almost every cream she'd used was mostly water. It feels soothing going on, but water evaporates. By the time she woke up, the moisture was gone and the skin was thirsty again. As one woman put it perfectly online — petroleum jelly \"is a barrier, not a moisturizer.\" It sits on top. It never reaches the hard, dry layer underneath where the cracks actually live.\n\nThe second: the scraping. Filing and peeling only removes the surface. And the skin's answer to being scraped raw is to grow *back thicker* to protect itself. So the very thing she was doing to fix it was teaching her feet to harden faster.\n\nShe wasn't failing. She'd just been handed the wrong tools her whole life — watery creams that evaporate, and scrapers that make it worse.\n\nAnd here's the part that quietly hurt the most: none of it was ever made for *her* skin. The beauty industry spends everything on young faces. Mature heels? Forgotten.\n\nSO WHAT ACTUALLY REACHES THE SKIN\n\nAfter watching her struggle, I went looking for what was different.\n\nNot a cream that sits on the surface. Something that goes *into* the hardened skin.\n\nThat's where I learned about a small Japanese idea that's older than any drugstore aisle: restore the skin, don't strip it. Renewal, not removal.\n\nIt comes down to a balm built on three honest things:\n\nIt's waterless. Nothing to evaporate by morning. Instead of a watery lotion that's gone in two hours, it's a rich, solid balm that stays and keeps working — the opposite of everything that failed her.\n\nIt softens the hard skin instead of scraping it. Pharmacy-grade urea is the ingredient women online beg each other to find — because it actually softens and breaks down stubborn, hardened heel skin from within, so you're not fighting it with a blade.\n\nAnd it's built around Sakura. This is the part that makes it feel different. Hand-picked Japanese cherry blossom, the flower that stands for renewal — for honoring time, not hiding from it. As your skin's warmth melts the balm, the Sakura essence releases and sinks in. Shea butter seals it. Vitamin E and aloe calm and nourish the skin that's been raw and tired for years.\n\nIt's not a quick scrape that lasts an hour. It's a nightly ritual that gives the skin back what age took from it.\n\nMY MOTHER, NOW\n\nI asked her to stop the scraping completely.\n\nEvery night before bed, one glide of the balm across each heel. That's it. No bags over her feet. No five tubes of Vaseline. No ruined socks.\n\nThe first week, the tightness eased. Within a few weeks the rough edges stopped catching on her sheets — that little snag that used to wake her up.\n\nAnd one evening this past summer, she texted me a photo.\n\nShe was wearing sandals.\n\nShe hadn't worn open shoes in over a decade. She said, \"They finally feel like *my* feet again.\"\n\nThat's the thing no cream advertises. It was never really about the skin. It was about her not having to think about her feet anymore.\n\n## WHAT MAKES SAKUREVA DIFFERENT\n\nAfter everything she'd wasted money on, here's what actually mattered:\n\n✅ 100% Waterless Formula — nothing evaporates; it keeps working instead of vanishing by morning\n\n✅ Pharmacy-Grade Urea — softens the hardened skin women everywhere ask for, instead of scraping it raw\n\n✅ Sakura Extract — hand-picked Japanese cherry blossom, the heart of a ritual built on renewal\n\n✅ Shea Butter — melts in and seals deep, lasting hydration into the heel\n\n✅ Vitamin E + Aloe Vera — nourish and calm tired, irritated, mature skin\n\n✅ Mess-Free Stick — one swipe, no greasy tubs, no plastic bags, no wrecked sheets\n\n✅ Made for Mature Skin — built for the woman the beauty industry forgot\n\nNo watery filler. No scraping. No starting over every single week.\n\nWhen she was buying random creams, files, masks and monthly pedicures? It added up to far more than she'd ever admit — month after month, with nothing to show by morning.\n\nThe balm costs less than one of those pedicures. And one swipe a night is the whole routine.\n\nTHE HONEST TRUTH ABOUT WAITING\n\nHere's what happens if nothing changes.\n\nYou keep the nightly cream that's gone by sunrise. The heels stay rough, then catch on the sheets, then split. The cracks get a little deeper each winter.\n\nEventually they don't just look bad — they hurt to walk on. And the sandals stay in the back of the closet for another summer. And another.\n\nNot because you didn't try. You tried harder than anyone. You were just never given anything built to reach the skin that needed it.\n\nYou can't undo the years. But you *can* stop the cycle tonight — and start giving that skin back what it lost.\n\nWHAT TO DO NOW\n\nStop scraping your heels — it only teaches them to harden faster.\n\nPut down the watery creams that are gone by morning.\n\nTry the Sakura Heel Balm: one glide across each heel before bed. That's the whole ritual.\n\nGive it a few weeks. If your heels don't feel softer, smoother, and more like your own again — you're covered by the money-back guarantee, so you risk nothing.\n\nBut if you're like my mother, you'll feel the tightness ease in the first week, the rough edges stop catching by week three, and somewhere down the line you'll reach for the sandals you put away years ago.\n\nThis is a small brand that makes its balm in careful batches, so it does sell out.\n\nDon't wait for another winter of deeper cracks. Don't wait for another summer with your feet hidden.\n\nGive them back to yourself tonight.\n\n👉 https://sakureva.com/pages/japanese-heel-secret\n\nP.S. — If you've ever scraped your heels smooth and watched them harden right back up within days, you already know surface fixes don't last. The skin doesn't need to be stripped. It needs to be restored. That's the whole idea behind the Sakura ritual — and it's why one quiet swipe a night does what years of files and watery creams never could. The link is above.",
+            "transcript": "{\"language\": \"en\", \"segments\": [{\"end\": 4.76, \"text\": \"I almost didn't believe this myself until I saw my own heels after a week.\", \"start\": 0.0}, {\"end\": 9.5, \"text\": \"I'd had cracked heels for so long, I just assumed that's how they'd always be.\", \"start\": 4.92}, {\"end\": 11.84, \"text\": \"Especially in sandals, it was so obvious.\", \"start\": 9.78}, {\"end\": 19.42, \"text\": \"I used Sacareva on my heels, swiped on for 30 seconds every night, and within a week, my heels were smooth.\", \"start\": 11.84}, {\"end\": 23.96, \"text\": \"This is before Sacareva. This is after seven days of Sacareva.\", \"start\": 19.82}, {\"end\": 28.12, \"text\": \"It's not perfect, but it's a lot better than my old feet.\", \"start\": 24.2}, {\"end\": 36.5, \"text\": \"It's $44. Last two months, they have a buy one, get one right now, and you can try it almost free because they have a 30-day money-back guarantee.\", \"start\": 28.12}], \"language_probability\": 1.0}",
+            "callToAction": "SEE DETAILS",
+            "landingPageUrl": "https://sakureva.com/pages/japanese-heel-secret",
+            "landingPageDomain": "sakureva.com",
+            "ctaDescription": "Your Cracked Heels Are Hardened Skin",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": null,
+            "reachDelta7d": null,
+            "reachDelta30d": null
+          },
+          "audience": {
+            "targetedCountries": null,
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": null,
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_1499479694900651",
+          "collationId": "1447982127071443",
+          "platform": "facebook",
+          "status": "inactive",
+          "createdAt": "2026-05-20T02:11:22.612Z",
+          "firstSeenAt": "2026-05-11T07:00:00.000Z",
+          "lastSeenAt": "2026-06-12T07:00:00.000Z",
+          "daysRunning": 32,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/82086575fd7f07a9797ebc71b832f2c565d7981802660ba681aadc6163b31c0c.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/656de7a5fd249040b1ffbad39d2f792df70d815f5d4a4422b258540ce570967c.mp4"
+          },
+          "advertiser": {
+            "id": "856847537508620",
+            "name": "Neural Health Report",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/856847537508620.jpg",
+            "facebookPageId": "856847537508620",
+            "liveAdsCount": 0,
+            "reach30d": 8,
+            "totalReach": 1325,
+            "countriesCount": null,
+            "facebookLikes": 20,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "If you’re constantly running on empty, snapping at loved ones, or feeling “off” in your own skin… it’s not your fault.\n\nBlood sugar swings after 40 drain your energy, trigger cravings, and lock stubborn fat around your belly.\n\nBut this natural, science-backed formula works with your body – not against it.\n\n✅ Reduces fatigue & brain fog – feel clear and energized again\n\n✅ Supports weight loss & steady energy – without crash diets\n\n✅ Helps restore blood sugar balance – so you feel in control again\n\nBacked by science. Loved by thousands of women.\n\n👉 More information: https://www.sanlava.com/pages/metabolic-switch",
+            "transcript": null,
+            "callToAction": "LEARN MORE",
+            "landingPageUrl": "https://www.sanlava.com/pages/metabolic-switch",
+            "landingPageDomain": "sanlava.com",
+            "ctaDescription": "Stop the Afternoon Energy Crash",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": null,
+            "reachDelta7d": null,
+            "reachDelta30d": null
+          },
+          "audience": {
+            "targetedCountries": null,
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": null,
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_2159578534589675",
+          "platform": "facebook",
+          "status": "inactive",
+          "createdAt": "2026-07-30T15:23:37.373Z",
+          "firstSeenAt": "2026-07-30T07:00:00.000Z",
+          "lastSeenAt": "2026-08-01T07:00:00.000Z",
+          "daysRunning": 2,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/f30567201516f91e92878f9945bd9df9393aa69d9b116e5c0b621fbb32124f2d.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/f0cefee3514ee4d404dceadb5ef102f38e305d436c6fa982c95c3874f0c2186c.mp4"
+          },
+          "advertiser": {
+            "id": "856847537508620",
+            "name": "Neural Health Report",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/856847537508620.jpg",
+            "facebookPageId": "856847537508620",
+            "liveAdsCount": 0,
+            "reach30d": 8,
+            "totalReach": 1325,
+            "countriesCount": 4,
+            "facebookLikes": 20,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "I see so many women blame themselves when their heels crack again three days after a pedicure.\n\nThinking \"I must not be moisturizing enough. I'm just letting myself go.\"\n\nI'm about to tell you something that's going to annoy you AND give you your feet back at the same time.\n\nThe skin on your heels is not like the skin anywhere else on your body.\n\nIt's the thickest skin you have. It carries you all day. And as it matures, it loses the oils and water it used to hold on its own.\n\nSo when it dries out, it doesn't just get flaky. It hardens. It splits. And once a crack forms, the edges thicken and pull apart a little more every day.\n\nThink of it like dry ground in summer — the more it dries, the deeper the cracks open.\n\nThis is why it feels like it never ends. The harder and drier the skin gets, the worse the cracking, and the worse the cracking, the harder the skin grows over it.\n\nSo why am I telling you this?\n\nBecause while you've been blaming yourself, you've been missing the real problem.\n\nThe cream you've been faithfully using every single night is probably doing almost nothing for those heels.\n\nLet me tell you what happened with my mother, because her story is going to open your eyes.\n\nTHE STORY NOBODY TALKS ABOUT\n\nFor years, my mother hid her feet.\n\nNo sandals. No open-back shoes. Socks to bed even in summer. She'd tuck her feet under a blanket if someone came over.\n\nShe wasn't lazy about it — the opposite. Petroleum jelly every night. Foot masks. A pumice stone in the shower. The expensive pedicure once a month.\n\nAnd every time, within an hour or two, her heels went right back to looking like they'd been \"fighting for their life.\" Her words.\n\nSo she did what everyone told her to do next. She scraped. A foot file, then one of those metal \"cheese grater\" things. The skin would come off and feel smooth for an hour or two…\n\n…then harden right back up, rougher than before.\n\nShe told me once, quietly, \"I've tried everything. Most of it works for about a week.\"\n\nBut something didn't add up.\n\nWhy would her feet get *harder* the more she scraped them? Why would the cream wash away by morning when she'd used half the tub?\n\nTHE THING NOBODY EXPLAINS\n\nHere's what finally made sense of it.\n\nTwo things were quietly working against her the whole time.\n\nThe first: almost every cream she'd used was mostly water. It feels soothing going on, but water evaporates. By the time she woke up, the moisture was gone and the skin was thirsty again. As one woman put it perfectly online — petroleum jelly \"is a barrier, not a moisturizer.\" It sits on top. It never reaches the hard, dry layer underneath where the cracks actually live.\n\nThe second: the scraping. Filing and peeling only removes the surface. And the skin's answer to being scraped raw is to grow *back thicker* to protect itself. So the very thing she was doing to fix it was teaching her feet to harden faster.\n\nShe wasn't failing. She'd just been handed the wrong tools her whole life — watery creams that evaporate, and scrapers that make it worse.\n\nAnd here's the part that quietly hurt the most: none of it was ever made for *her* skin. The beauty industry spends everything on young faces. Mature heels? Forgotten.\n\nSO WHAT ACTUALLY REACHES THE SKIN\n\nAfter watching her struggle, I went looking for what was different.\n\nNot a cream that sits on the surface. Something that goes *into* the hardened skin.\n\nThat's where I learned about a small Japanese idea that's older than any drugstore aisle: restore the skin, don't strip it. Renewal, not removal.\n\nIt comes down to a balm built on three honest things:\n\nIt's waterless. Nothing to evaporate by morning. Instead of a watery lotion that's gone in two hours, it's a rich, solid balm that stays and keeps working — the opposite of everything that failed her.\n\nIt softens the hard skin instead of scraping it. Pharmacy-grade urea is the ingredient women online beg each other to find — because it actually softens and breaks down stubborn, hardened heel skin from within, so you're not fighting it with a blade.\n\nAnd it's built around Sakura. This is the part that makes it feel different. Hand-picked Japanese cherry blossom, the flower that stands for renewal — for honoring time, not hiding from it. As your skin's warmth melts the balm, the Sakura essence releases and sinks in. Shea butter seals it. Vitamin E and aloe calm and nourish the skin that's been raw and tired for years.\n\nIt's not a quick scrape that lasts an hour. It's a nightly ritual that gives the skin back what age took from it.\n\nMY MOTHER, NOW\n\nI asked her to stop the scraping completely.\n\nEvery night before bed, one glide of the balm across each heel. That's it. No bags over her feet. No five tubes of Vaseline. No ruined socks.\n\nThe first week, the tightness eased. Within a few weeks the rough edges stopped catching on her sheets — that little snag that used to wake her up.\n\nAnd one evening this past summer, she texted me a photo.\n\nShe was wearing sandals.\n\nShe hadn't worn open shoes in over a decade. She said, \"They finally feel like *my* feet again.\"\n\nThat's the thing no cream advertises. It was never really about the skin. It was about her not having to think about her feet anymore.\n\nWHAT MAKES SAKUREVA DIFFERENT\n\nAfter everything she'd wasted money on, here's what actually mattered:\n\n✅ 100% Waterless Formula — nothing evaporates; it keeps working instead of vanishing by morning\n\n✅ Pharmacy-Grade Urea — softens the hardened skin women everywhere ask for, instead of scraping it raw\n\n✅ Sakura Extract — hand-picked Japanese cherry blossom, the heart of a ritual built on renewal\n\n✅ Shea Butter — melts in and seals deep, lasting hydration into the heel\n\n✅ Vitamin E + Aloe Vera — nourish and calm tired, irritated, mature skin\n\n✅ Mess-Free Stick — one swipe, no greasy tubs, no plastic bags, no wrecked sheets\n\n✅ Made for Mature Skin — built for the woman the beauty industry forgot\n\nNo watery filler. No scraping. No starting over every single week.\n\nWhen she was buying random creams, files, masks and monthly pedicures? It added up to far more than she'd ever admit — month after month, with nothing to show by morning.\n\nThe balm costs less than one of those pedicures. And one swipe a night is the whole routine.\n\nTHE HONEST TRUTH ABOUT WAITING\n\nHere's what happens if nothing changes.\n\nYou keep the nightly cream that's gone by sunrise. The heels stay rough, then catch on the sheets, then split. The cracks get a little deeper each winter.\n\nEventually they don't just look bad — they hurt to walk on. And the sandals stay in the back of the closet for another summer. And another.\n\nNot because you didn't try. You tried harder than anyone. You were just never given anything built to reach the skin that needed it.\n\nYou can't undo the years. But you *can* stop the cycle tonight — and start giving that skin back what it lost.\n\nWHAT TO DO NOW\n\nStop scraping your heels — it only teaches them to harden faster.\n\nPut down the watery creams that are gone by morning.\n\nTry the Sakura Heel Balm: one glide across each heel before bed. That's the whole ritual.\n\nGive it a few weeks. If your heels don't feel softer, smoother, and more like your own again — you're covered by the money-back guarantee, so you risk nothing.\n\nBut if you're like my mother, you'll feel the tightness ease in the first week, the rough edges stop catching by week three, and somewhere down the line you'll reach for the sandals you put away years ago.\n\nThis is a small brand that makes its balm in careful batches, so it does sell out.\n\nDon't wait for another winter of deeper cracks. Don't wait for another summer with your feet hidden.\n\nGive them back to yourself tonight.\n\n👉 https://sakureva.com/pages/japanese-heel-secret\n\nP.S. — If you've ever scraped your heels smooth and watched them harden right back up within days, you already know surface fixes don't last. The skin doesn't need to be stripped. It needs to be restored. That's the whole idea behind the Sakura ritual — and it's why one quiet swipe a night does what years of files and watery creams never could. The link is above.",
+            "transcript": null,
+            "callToAction": "SEE DETAILS",
+            "landingPageUrl": "https://sakureva.com/pages/japanese-heel-secret",
+            "landingPageDomain": "sakureva.com",
+            "ctaDescription": "Your Cracked Heels Are Hardened Skin",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": null,
+            "aggregatedReach": null,
+            "estimatedSpend": null,
+            "duplicates": null,
+            "reachDelta1d": null,
+            "reachDelta7d": null,
+            "reachDelta30d": null
+          },
+          "audience": {
+            "targetedCountries": [
+              "CA",
+              "US",
+              "AU",
+              "NZ"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": null,
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_1439658907988367",
+          "platform": "facebook",
+          "status": "inactive",
+          "createdAt": "2026-08-02T13:17:31.577Z",
+          "firstSeenAt": "2026-08-02T07:00:00.000Z",
+          "lastSeenAt": "2026-08-02T07:00:00.000Z",
+          "daysRunning": 0,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/29a902927f12e325984baa44a6459546806564ce6ddcc9c964ca8e49dd2781a8.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/0a0cb9d285d0f570639de62592a49dbfe23fdabc2227eada91c6ae0cb0668f40.mp4"
+          },
+          "advertiser": {
+            "id": "856847537508620",
+            "name": "Neural Health Report",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/856847537508620.jpg",
+            "facebookPageId": "856847537508620",
+            "liveAdsCount": 0,
+            "reach30d": 8,
+            "totalReach": 1325,
+            "countriesCount": 5,
+            "facebookLikes": 20,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "I see so many women blame themselves when their heels crack again three days after a pedicure.\n\nThinking \"I must not be moisturizing enough. I'm just letting myself go.\"\n\nI'm about to tell you something that's going to annoy you AND give you your feet back at the same time.\n\nThe skin on your heels is not like the skin anywhere else on your body.\n\nIt's the thickest skin you have. It carries you all day. And as it matures, it loses the oils and water it used to hold on its own.\n\nSo when it dries out, it doesn't just get flaky. It hardens. It splits. And once a crack forms, the edges thicken and pull apart a little more every day.\n\nThink of it like dry ground in summer — the more it dries, the deeper the cracks open.\n\nThis is why it feels like it never ends. The harder and drier the skin gets, the worse the cracking, and the worse the cracking, the harder the skin grows over it.\n\nSo why am I telling you this?\n\nBecause while you've been blaming yourself, you've been missing the real problem.\n\nThe cream you've been faithfully using every single night is probably doing almost nothing for those heels.\n\nLet me tell you what happened with my mother, because her story is going to open your eyes.\n\nTHE STORY NOBODY TALKS ABOUT\n\nFor years, my mother hid her feet.\n\nNo sandals. No open-back shoes. Socks to bed even in summer. She'd tuck her feet under a blanket if someone came over.\n\nShe wasn't lazy about it — the opposite. Petroleum jelly every night. Foot masks. A pumice stone in the shower. The expensive pedicure once a month.\n\nAnd every time, within an hour or two, her heels went right back to looking like they'd been \"fighting for their life.\" Her words.\n\nSo she did what everyone told her to do next. She scraped. A foot file, then one of those metal \"cheese grater\" things. The skin would come off and feel smooth for an hour or two…\n\n…then harden right back up, rougher than before.\n\nShe told me once, quietly, \"I've tried everything. Most of it works for about a week.\"\n\nBut something didn't add up.\n\nWhy would her feet get *harder* the more she scraped them? Why would the cream wash away by morning when she'd used half the tub?\n\nTHE THING NOBODY EXPLAINS\n\nHere's what finally made sense of it.\n\nTwo things were quietly working against her the whole time.\n\nThe first: almost every cream she'd used was mostly water. It feels soothing going on, but water evaporates. By the time she woke up, the moisture was gone and the skin was thirsty again. As one woman put it perfectly online — petroleum jelly \"is a barrier, not a moisturizer.\" It sits on top. It never reaches the hard, dry layer underneath where the cracks actually live.\n\nThe second: the scraping. Filing and peeling only removes the surface. And the skin's answer to being scraped raw is to grow *back thicker* to protect itself. So the very thing she was doing to fix it was teaching her feet to harden faster.\n\nShe wasn't failing. She'd just been handed the wrong tools her whole life — watery creams that evaporate, and scrapers that make it worse.\n\nAnd here's the part that quietly hurt the most: none of it was ever made for *her* skin. The beauty industry spends everything on young faces. Mature heels? Forgotten.\n\nSO WHAT ACTUALLY REACHES THE SKIN\n\nAfter watching her struggle, I went looking for what was different.\n\nNot a cream that sits on the surface. Something that goes *into* the hardened skin.\n\nThat's where I learned about a small Japanese idea that's older than any drugstore aisle: restore the skin, don't strip it. Renewal, not removal.\n\nIt comes down to a balm built on three honest things:\n\nIt's waterless. Nothing to evaporate by morning. Instead of a watery lotion that's gone in two hours, it's a rich, solid balm that stays and keeps working — the opposite of everything that failed her.\n\nIt softens the hard skin instead of scraping it. Pharmacy-grade urea is the ingredient women online beg each other to find — because it actually softens and breaks down stubborn, hardened heel skin from within, so you're not fighting it with a blade.\n\nAnd it's built around Sakura. This is the part that makes it feel different. Hand-picked Japanese cherry blossom, the flower that stands for renewal — for honoring time, not hiding from it. As your skin's warmth melts the balm, the Sakura essence releases and sinks in. Shea butter seals it. Vitamin E and aloe calm and nourish the skin that's been raw and tired for years.\n\nIt's not a quick scrape that lasts an hour. It's a nightly ritual that gives the skin back what age took from it.\n\nMY MOTHER, NOW\n\nI asked her to stop the scraping completely.\n\nEvery night before bed, one glide of the balm across each heel. That's it. No bags over her feet. No five tubes of Vaseline. No ruined socks.\n\nThe first week, the tightness eased. Within a few weeks the rough edges stopped catching on her sheets — that little snag that used to wake her up.\n\nAnd one evening this past summer, she texted me a photo.\n\nShe was wearing sandals.\n\nShe hadn't worn open shoes in over a decade. She said, \"They finally feel like *my* feet again.\"\n\nThat's the thing no cream advertises. It was never really about the skin. It was about her not having to think about her feet anymore.\n\nWHAT MAKES SAKUREVA DIFFERENT\n\nAfter everything she'd wasted money on, here's what actually mattered:\n\n✅ 100% Waterless Formula — nothing evaporates; it keeps working instead of vanishing by morning\n\n✅ Pharmacy-Grade Urea — softens the hardened skin women everywhere ask for, instead of scraping it raw\n\n✅ Sakura Extract — hand-picked Japanese cherry blossom, the heart of a ritual built on renewal\n\n✅ Shea Butter — melts in and seals deep, lasting hydration into the heel\n\n✅ Vitamin E + Aloe Vera — nourish and calm tired, irritated, mature skin\n\n✅ Mess-Free Stick — one swipe, no greasy tubs, no plastic bags, no wrecked sheets\n\n✅ Made for Mature Skin — built for the woman the beauty industry forgot\n\nNo watery filler. No scraping. No starting over every single week.\n\nWhen she was buying random creams, files, masks and monthly pedicures? It added up to far more than she'd ever admit — month after month, with nothing to show by morning.\n\nThe balm costs less than one of those pedicures. And one swipe a night is the whole routine.\n\nTHE HONEST TRUTH ABOUT WAITING\n\nHere's what happens if nothing changes.\n\nYou keep the nightly cream that's gone by sunrise. The heels stay rough, then catch on the sheets, then split. The cracks get a little deeper each winter.\n\nEventually they don't just look bad — they hurt to walk on. And the sandals stay in the back of the closet for another summer. And another.\n\nNot because you didn't try. You tried harder than anyone. You were just never given anything built to reach the skin that needed it.\n\nYou can't undo the years. But you *can* stop the cycle tonight — and start giving that skin back what it lost.\n\nWHAT TO DO NOW\n\nStop scraping your heels — it only teaches them to harden faster.\n\nPut down the watery creams that are gone by morning.\n\nTry the Sakura Heel Balm: one glide across each heel before bed. That's the whole ritual.\n\nGive it a few weeks. If your heels don't feel softer, smoother, and more like your own again — you're covered by the money-back guarantee, so you risk nothing.\n\nBut if you're like my mother, you'll feel the tightness ease in the first week, the rough edges stop catching by week three, and somewhere down the line you'll reach for the sandals you put away years ago.\n\nThis is a small brand that makes its balm in careful batches, so it does sell out.\n\nDon't wait for another winter of deeper cracks. Don't wait for another summer with your feet hidden.\n\nGive them back to yourself tonight.\n\n👉 https://sakureva.com/pages/japanese-heel-secret\n\nP.S. — If you've ever scraped your heels smooth and watched them harden right back up within days, you already know surface fixes don't last. The skin doesn't need to be stripped. It needs to be restored. That's the whole idea behind the Sakura ritual — and it's why one quiet swipe a night does what years of files and watery creams never could. The link is above.",
+            "transcript": "{\"language\": \"en\", \"segments\": [{\"end\": 3.1, \"text\": \"I honestly didn't think anything would work on my heels,\", \"start\": 0.0}, {\"end\": 5.46, \"text\": \"so seeing the results shocked me.\", \"start\": 3.1}, {\"end\": 7.78, \"text\": \"I'd had cracked heels for so long,\", \"start\": 5.46}, {\"end\": 10.28, \"text\": \"I just assumed that's how they'd always be,\", \"start\": 7.78}, {\"end\": 12.540000000000001, \"text\": \"especially in sandals, it was so obvious.\", \"start\": 10.28}, {\"end\": 14.82, \"text\": \"I used Sacareva on my heels,\", \"start\": 12.540000000000001}, {\"end\": 17.42, \"text\": \"swiped on for 30 seconds every night,\", \"start\": 14.82}, {\"end\": 20.3, \"text\": \"and within a week, my heels were smooth.\", \"start\": 17.42}, {\"end\": 22.18, \"text\": \"This is before Sacareva.\", \"start\": 20.3}, {\"end\": 24.72, \"text\": \"This is after seven days of Sacareva.\", \"start\": 22.18}, {\"end\": 28.86, \"text\": \"It's not perfect, but it's a lot better than my old feet.\", \"start\": 24.72}, {\"end\": 30.419999999999998, \"text\": \"It's $44.\", \"start\": 28.86}, {\"end\": 33.44, \"text\": \"Last two months, they have a buy one, get one right now,\", \"start\": 30.419999999999998}, {\"end\": 35.04, \"text\": \"and you can try it almost free\", \"start\": 33.44}, {\"end\": 37.54, \"text\": \"because they have a 30-day money-back guarantee.\", \"start\": 35.04}], \"language_probability\": 1.0}",
+            "callToAction": "SEE DETAILS",
+            "landingPageUrl": "https://sakureva.com/pages/dermatologist-reveals",
+            "landingPageDomain": "sakureva.com",
+            "ctaDescription": "Your Cracked Heels Are Hardened Skin",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": null,
+            "aggregatedReach": null,
+            "estimatedSpend": null,
+            "duplicates": null,
+            "reachDelta1d": null,
+            "reachDelta7d": null,
+            "reachDelta30d": null
+          },
+          "audience": {
+            "targetedCountries": [
+              "CA",
+              "US",
+              "AU",
+              "NZ",
+              "GB"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": null,
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": false,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 6,
+        "total": 202,
+        "totalPages": 34,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "3ef86095-deda-4f00-8a66-616bc5a5cc8c",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "3ef86095-deda-4f00-8a66-616bc5a5cc8c",
+          "resolvedBrandName": "Neural Health Report",
+          "facebookPageId": "856847537508620",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "856847537508620"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 6,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "all",
+          "trackedPages": [
+            "856847537508620"
+          ],
+          "rankDeltaWindow": "7d"
+        },
+        "requestedLimit": 6,
+        "effectiveLimit": 6,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 6,
+        "effectiveUnits": 6,
+        "actualUnits": 6,
+        "costUnits": 9,
+        "recurringUnits": 9,
+        "topupUnits": 0,
+        "creditsRemaining": 6794,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,7 @@
+local ok,e=pcall(function()
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();assert(not p:IsRenderingInProgress() and p:GetName()=='MOT-UGC-YAPPER-01 v7 V3 20260910');local t=nil;for i=1,p:GetTimelineCount() do local q=p:GetTimelineByIndex(i);if q:GetName()=='v27 H2 REBUILD r2 - awaiting HeyGen' then t=q end end;assert(t);assert(p:SetCurrentTimeline(t));
+assert(t:SetCurrentTimecode("00:00:51:16"));assert(p:ExportCurrentFrameAsStill("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/qa/native-B05-miralax-closeup.png"));print("B05-miralax-closeup");
+assert(t:SetCurrentTimecode("00:02:00:16"));assert(p:ExportCurrentFrameAsStill("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/qa/native-B11-group-post.png"));print("B11-group-post");
+assert(t:SetCurrentTimecode("00:02:12:24"));assert(p:ExportCurrentFrameAsStill("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/qa/native-B12-apigenin-research.png"));print("B12-apigenin-research");
+assert(t:SetCurrentTimecode("00:03:13:29"));assert(p:ExportCurrentFrameAsStill("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/qa/native-B19-routine.png"));print("B19-routine");
+end);print('QA_FRAMES',ok,e)

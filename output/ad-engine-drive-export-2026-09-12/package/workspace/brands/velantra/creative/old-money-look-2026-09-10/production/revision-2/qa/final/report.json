@@ -1,0 +1,1298 @@
+{
+  "VEL-OM-H1-A1-R2": {
+    "frames": 1539,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H1",
+        "frames": 110,
+        "max_change_mae": 2.2350451946258545,
+        "source_mae": 7.445728778839111
+      },
+      {
+        "beat": "C01",
+        "frames": 69,
+        "max_change_mae": 1.4619883298873901,
+        "source_mae": 5.874649524688721
+      },
+      {
+        "beat": "C02",
+        "frames": 40,
+        "max_change_mae": 1.0306205749511719,
+        "source_mae": 7.239004611968994
+      },
+      {
+        "beat": "C03",
+        "frames": 99,
+        "max_change_mae": 1.0290976762771606,
+        "source_mae": 9.108019828796387
+      },
+      {
+        "beat": "C04",
+        "frames": 98,
+        "max_change_mae": 0.7225978970527649,
+        "source_mae": 7.307301998138428
+      },
+      {
+        "beat": "C05",
+        "frames": 124,
+        "max_change_mae": 0.6236598491668701,
+        "source_mae": 7.500339984893799
+      },
+      {
+        "beat": "C06",
+        "frames": 68,
+        "max_change_mae": 0.4802783727645874,
+        "source_mae": 3.9382057189941406
+      },
+      {
+        "beat": "C07",
+        "frames": 109,
+        "max_change_mae": 0.6896219253540039,
+        "source_mae": 6.51650333404541
+      },
+      {
+        "beat": "C08",
+        "frames": 72,
+        "max_change_mae": 0.38570094108581543,
+        "source_mae": 3.335277557373047
+      },
+      {
+        "beat": "C10",
+        "frames": 109,
+        "max_change_mae": 1.5988821983337402,
+        "source_mae": 5.115390300750732
+      },
+      {
+        "beat": "C11",
+        "frames": 160,
+        "max_change_mae": 1.1455541849136353,
+        "source_mae": 7.4286112785339355
+      },
+      {
+        "beat": "C12",
+        "frames": 115,
+        "max_change_mae": 0.7692038416862488,
+        "source_mae": 7.906067371368408
+      },
+      {
+        "beat": "C13",
+        "frames": 71,
+        "max_change_mae": 0.631756603717804,
+        "source_mae": 8.251720428466797
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -9.552583694458008,
+    "bytes": 74271924,
+    "sha256": "a5126354b7594f514596867ae4a2e7d3f1976409022935090095da3ed07f79df",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 248,
+        "max_source_frame_mae": 0.7281006335282652,
+        "mean_source_frame_mae": 0.5406814866560816,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 47,
+        "max_source_frame_mae": 1.2184200373619234,
+        "mean_source_frame_mae": 0.7822186104544261,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H1-A2-R2": {
+    "frames": 1539,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H1",
+        "frames": 110,
+        "max_change_mae": 2.2350451946258545,
+        "source_mae": 7.445728778839111
+      },
+      {
+        "beat": "C01",
+        "frames": 69,
+        "max_change_mae": 1.3107842206954956,
+        "source_mae": 5.871715545654297
+      },
+      {
+        "beat": "C02",
+        "frames": 40,
+        "max_change_mae": 1.0306205749511719,
+        "source_mae": 7.239004611968994
+      },
+      {
+        "beat": "C03",
+        "frames": 99,
+        "max_change_mae": 1.0290976762771606,
+        "source_mae": 9.108019828796387
+      },
+      {
+        "beat": "C04",
+        "frames": 98,
+        "max_change_mae": 0.7225978970527649,
+        "source_mae": 7.307301998138428
+      },
+      {
+        "beat": "C05",
+        "frames": 124,
+        "max_change_mae": 0.6236598491668701,
+        "source_mae": 7.500339984893799
+      },
+      {
+        "beat": "C06",
+        "frames": 68,
+        "max_change_mae": 0.4802783727645874,
+        "source_mae": 3.9382057189941406
+      },
+      {
+        "beat": "C07",
+        "frames": 109,
+        "max_change_mae": 0.6896219253540039,
+        "source_mae": 6.51650333404541
+      },
+      {
+        "beat": "C08",
+        "frames": 72,
+        "max_change_mae": 0.38570094108581543,
+        "source_mae": 3.335277557373047
+      },
+      {
+        "beat": "C10",
+        "frames": 109,
+        "max_change_mae": 1.5988821983337402,
+        "source_mae": 5.115390300750732
+      },
+      {
+        "beat": "C11",
+        "frames": 160,
+        "max_change_mae": 1.1455541849136353,
+        "source_mae": 7.4286112785339355
+      },
+      {
+        "beat": "C12",
+        "frames": 115,
+        "max_change_mae": 0.7692038416862488,
+        "source_mae": 7.906067371368408
+      },
+      {
+        "beat": "C13",
+        "frames": 71,
+        "max_change_mae": 0.631756603717804,
+        "source_mae": 8.251720428466797
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -9.552583694458008,
+    "bytes": 74262383,
+    "sha256": "bfb4dcb938bbcdeabeed7ae9cd91db43c9a505f952befe0d3065b02e84aa7b3f",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 248,
+        "max_source_frame_mae": 0.8777869152046783,
+        "mean_source_frame_mae": 0.6081812803270872,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 47,
+        "max_source_frame_mae": 1.2184200373619234,
+        "mean_source_frame_mae": 0.7822186104544261,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H1-A3-R2": {
+    "frames": 1539,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H1",
+        "frames": 110,
+        "max_change_mae": 2.782092571258545,
+        "source_mae": 7.430403232574463
+      },
+      {
+        "beat": "C01",
+        "frames": 69,
+        "max_change_mae": 1.7703663110733032,
+        "source_mae": 5.820662975311279
+      },
+      {
+        "beat": "C02",
+        "frames": 40,
+        "max_change_mae": 1.3796498775482178,
+        "source_mae": 7.190220832824707
+      },
+      {
+        "beat": "C03",
+        "frames": 99,
+        "max_change_mae": 1.392873764038086,
+        "source_mae": 9.092775344848633
+      },
+      {
+        "beat": "C04",
+        "frames": 98,
+        "max_change_mae": 1.1110552549362183,
+        "source_mae": 7.259193420410156
+      },
+      {
+        "beat": "C05",
+        "frames": 124,
+        "max_change_mae": 1.317017912864685,
+        "source_mae": 7.455079555511475
+      },
+      {
+        "beat": "C06",
+        "frames": 68,
+        "max_change_mae": 0.8059971928596497,
+        "source_mae": 3.904158592224121
+      },
+      {
+        "beat": "C07",
+        "frames": 109,
+        "max_change_mae": 1.4418097734451294,
+        "source_mae": 6.474678993225098
+      },
+      {
+        "beat": "C08",
+        "frames": 72,
+        "max_change_mae": 0.8174494504928589,
+        "source_mae": 3.323774576187134
+      },
+      {
+        "beat": "C10",
+        "frames": 109,
+        "max_change_mae": 2.2801382541656494,
+        "source_mae": 5.10587739944458
+      },
+      {
+        "beat": "C11",
+        "frames": 160,
+        "max_change_mae": 1.485750675201416,
+        "source_mae": 7.412559986114502
+      },
+      {
+        "beat": "C12",
+        "frames": 115,
+        "max_change_mae": 1.3555372953414917,
+        "source_mae": 7.861527442932129
+      },
+      {
+        "beat": "C13",
+        "frames": 71,
+        "max_change_mae": 1.3957064151763916,
+        "source_mae": 8.186317443847656
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -9.552583694458008,
+    "bytes": 40187806,
+    "sha256": "ebc03b6d433645c3bff844aaedf45e717de57395fe05f7d6dd11937cb78944a2",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 248,
+        "max_source_frame_mae": 1.0996233349577649,
+        "mean_source_frame_mae": 0.6886633434598295,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 47,
+        "max_source_frame_mae": 1.9912686809616633,
+        "mean_source_frame_mae": 1.4059003800132719,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H2-A1-R2": {
+    "frames": 1644,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H2",
+        "frames": 139,
+        "max_change_mae": 2.696723699569702,
+        "source_mae": 6.519214153289795
+      },
+      {
+        "beat": "C01",
+        "frames": 73,
+        "max_change_mae": 1.7978649139404297,
+        "source_mae": 5.834876537322998
+      },
+      {
+        "beat": "C02",
+        "frames": 48,
+        "max_change_mae": 1.4375,
+        "source_mae": 7.221044540405273
+      },
+      {
+        "beat": "C03",
+        "frames": 102,
+        "max_change_mae": 1.4430687427520752,
+        "source_mae": 9.087775230407715
+      },
+      {
+        "beat": "C04",
+        "frames": 119,
+        "max_change_mae": 1.0972222089767456,
+        "source_mae": 7.259193420410156
+      },
+      {
+        "beat": "C05",
+        "frames": 121,
+        "max_change_mae": 1.4081586599349976,
+        "source_mae": 7.455962657928467
+      },
+      {
+        "beat": "C06",
+        "frames": 78,
+        "max_change_mae": 0.8148351311683655,
+        "source_mae": 3.917940855026245
+      },
+      {
+        "beat": "C07",
+        "frames": 119,
+        "max_change_mae": 1.2090693712234497,
+        "source_mae": 6.470415115356445
+      },
+      {
+        "beat": "C08",
+        "frames": 70,
+        "max_change_mae": 0.6707683801651001,
+        "source_mae": 3.3227744102478027
+      },
+      {
+        "beat": "C10",
+        "frames": 108,
+        "max_change_mae": 2.2656655311584473,
+        "source_mae": 5.10587739944458
+      },
+      {
+        "beat": "C11",
+        "frames": 172,
+        "max_change_mae": 1.475186824798584,
+        "source_mae": 7.4165754318237305
+      },
+      {
+        "beat": "C12",
+        "frames": 120,
+        "max_change_mae": 1.354628562927246,
+        "source_mae": 7.8606390953063965
+      },
+      {
+        "beat": "C13",
+        "frames": 73,
+        "max_change_mae": 1.4284640550613403,
+        "source_mae": 8.191530227661133
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 0.9999998807907104,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -8.17552661895752,
+    "bytes": 42581044,
+    "sha256": "268d5b12f11a62d7c4f66d57f6fd7846305227ac67c6f4afefb81ba7e091350d",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 250,
+        "max_source_frame_mae": 0.9886340562053282,
+        "mean_source_frame_mae": 0.6662754832683561,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 52,
+        "max_source_frame_mae": 2.012934535412606,
+        "mean_source_frame_mae": 1.4392819934897785,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H2-A2-R2": {
+    "frames": 1644,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H2",
+        "frames": 139,
+        "max_change_mae": 2.696723699569702,
+        "source_mae": 6.519214153289795
+      },
+      {
+        "beat": "C01",
+        "frames": 73,
+        "max_change_mae": 1.7856918573379517,
+        "source_mae": 5.841445446014404
+      },
+      {
+        "beat": "C02",
+        "frames": 48,
+        "max_change_mae": 1.4381954669952393,
+        "source_mae": 7.2216386795043945
+      },
+      {
+        "beat": "C03",
+        "frames": 102,
+        "max_change_mae": 1.4464343786239624,
+        "source_mae": 9.091363906860352
+      },
+      {
+        "beat": "C04",
+        "frames": 119,
+        "max_change_mae": 1.1057555675506592,
+        "source_mae": 7.2569899559021
+      },
+      {
+        "beat": "C05",
+        "frames": 121,
+        "max_change_mae": 1.383721113204956,
+        "source_mae": 7.438307285308838
+      },
+      {
+        "beat": "C06",
+        "frames": 78,
+        "max_change_mae": 0.8024234771728516,
+        "source_mae": 3.91615891456604
+      },
+      {
+        "beat": "C07",
+        "frames": 119,
+        "max_change_mae": 1.210079550743103,
+        "source_mae": 6.4727959632873535
+      },
+      {
+        "beat": "C08",
+        "frames": 70,
+        "max_change_mae": 0.6727430820465088,
+        "source_mae": 3.3226120471954346
+      },
+      {
+        "beat": "C10",
+        "frames": 108,
+        "max_change_mae": 2.4451093673706055,
+        "source_mae": 5.089962959289551
+      },
+      {
+        "beat": "C11",
+        "frames": 172,
+        "max_change_mae": 1.4870654344558716,
+        "source_mae": 7.419875144958496
+      },
+      {
+        "beat": "C12",
+        "frames": 120,
+        "max_change_mae": 1.3538721799850464,
+        "source_mae": 7.862654209136963
+      },
+      {
+        "beat": "C13",
+        "frames": 73,
+        "max_change_mae": 1.4187530279159546,
+        "source_mae": 8.19524097442627
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 0.9999998807907104,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -8.17552661895752,
+    "bytes": 42588313,
+    "sha256": "19521466270c4d946bd0f098a0c51296a281a63d26b78902dfb5c54efe9afe69",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 250,
+        "max_source_frame_mae": 1.2895752111760883,
+        "mean_source_frame_mae": 0.8444409722222221,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 52,
+        "max_source_frame_mae": 2.003106725146199,
+        "mean_source_frame_mae": 1.511867428431299,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H2-A3-R2": {
+    "frames": 1644,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H2",
+        "frames": 139,
+        "max_change_mae": 2.696723699569702,
+        "source_mae": 6.519214153289795
+      },
+      {
+        "beat": "C01",
+        "frames": 73,
+        "max_change_mae": 1.7619954347610474,
+        "source_mae": 5.835851192474365
+      },
+      {
+        "beat": "C02",
+        "frames": 48,
+        "max_change_mae": 1.38776695728302,
+        "source_mae": 7.207038879394531
+      },
+      {
+        "beat": "C03",
+        "frames": 102,
+        "max_change_mae": 1.3925691843032837,
+        "source_mae": 9.0901460647583
+      },
+      {
+        "beat": "C04",
+        "frames": 119,
+        "max_change_mae": 1.1052581071853638,
+        "source_mae": 7.250482082366943
+      },
+      {
+        "beat": "C05",
+        "frames": 121,
+        "max_change_mae": 1.050641655921936,
+        "source_mae": 7.444698333740234
+      },
+      {
+        "beat": "C06",
+        "frames": 78,
+        "max_change_mae": 0.81497722864151,
+        "source_mae": 3.9225857257843018
+      },
+      {
+        "beat": "C07",
+        "frames": 119,
+        "max_change_mae": 1.2086530923843384,
+        "source_mae": 6.472318649291992
+      },
+      {
+        "beat": "C08",
+        "frames": 70,
+        "max_change_mae": 0.749959409236908,
+        "source_mae": 3.322723865509033
+      },
+      {
+        "beat": "C10",
+        "frames": 108,
+        "max_change_mae": 2.27559494972229,
+        "source_mae": 5.107461452484131
+      },
+      {
+        "beat": "C11",
+        "frames": 172,
+        "max_change_mae": 1.3535778522491455,
+        "source_mae": 7.42036247253418
+      },
+      {
+        "beat": "C12",
+        "frames": 120,
+        "max_change_mae": 1.352658987045288,
+        "source_mae": 7.859847068786621
+      },
+      {
+        "beat": "C13",
+        "frames": 73,
+        "max_change_mae": 1.4191439151763916,
+        "source_mae": 8.195338249206543
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 0.9999998807907104,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -8.17552661895752,
+    "bytes": 42574988,
+    "sha256": "9256913ee30b41bf975fa258d13b86a7ebccb8b5e113bebd817354ace8ec26c1",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 250,
+        "max_source_frame_mae": 1.0019543940870694,
+        "mean_source_frame_mae": 0.7958340643274854,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 52,
+        "max_source_frame_mae": 2.0401082277452893,
+        "mean_source_frame_mae": 1.4310177961151096,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H3-A1-R2": {
+    "frames": 1551,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H3",
+        "frames": 137,
+        "max_change_mae": 2.8613648414611816,
+        "source_mae": 7.044935703277588
+      },
+      {
+        "beat": "C01",
+        "frames": 74,
+        "max_change_mae": 1.5492151975631714,
+        "source_mae": 5.8418869972229
+      },
+      {
+        "beat": "C02",
+        "frames": 44,
+        "max_change_mae": 1.467049479484558,
+        "source_mae": 7.21869421005249
+      },
+      {
+        "beat": "C03",
+        "frames": 99,
+        "max_change_mae": 1.393340826034546,
+        "source_mae": 9.092775344848633
+      },
+      {
+        "beat": "C04",
+        "frames": 102,
+        "max_change_mae": 1.429093599319458,
+        "source_mae": 7.2617058753967285
+      },
+      {
+        "beat": "C05",
+        "frames": 115,
+        "max_change_mae": 1.2210344076156616,
+        "source_mae": 7.429134368896484
+      },
+      {
+        "beat": "C06",
+        "frames": 77,
+        "max_change_mae": 1.0675865411758423,
+        "source_mae": 3.9116663932800293
+      },
+      {
+        "beat": "C07",
+        "frames": 114,
+        "max_change_mae": 1.2120187282562256,
+        "source_mae": 6.479552268981934
+      },
+      {
+        "beat": "C08",
+        "frames": 71,
+        "max_change_mae": 0.7511269450187683,
+        "source_mae": 3.3134543895721436
+      },
+      {
+        "beat": "C10",
+        "frames": 108,
+        "max_change_mae": 2.125944137573242,
+        "source_mae": 5.110151767730713
+      },
+      {
+        "beat": "C11",
+        "frames": 164,
+        "max_change_mae": 1.475313663482666,
+        "source_mae": 7.426393032073975
+      },
+      {
+        "beat": "C12",
+        "frames": 108,
+        "max_change_mae": 1.3544458150863647,
+        "source_mae": 7.863430976867676
+      },
+      {
+        "beat": "C13",
+        "frames": 74,
+        "max_change_mae": 1.270061731338501,
+        "source_mae": 8.191505432128906
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.000000238418579,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -8.523460388183594,
+    "bytes": 40191716,
+    "sha256": "e17384435474d003d15f7bb55f728afe2d946e55831fa63874e2e587a83155db",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 213,
+        "max_source_frame_mae": 1.0496568388564003,
+        "mean_source_frame_mae": 0.7711939685546679,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 51,
+        "max_source_frame_mae": 2.052088409681611,
+        "mean_source_frame_mae": 1.4314363517499271,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H3-A2-R2": {
+    "frames": 1551,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H3",
+        "frames": 137,
+        "max_change_mae": 2.8613648414611816,
+        "source_mae": 7.044935703277588
+      },
+      {
+        "beat": "C01",
+        "frames": 74,
+        "max_change_mae": 1.7320094108581543,
+        "source_mae": 5.843602657318115
+      },
+      {
+        "beat": "C02",
+        "frames": 44,
+        "max_change_mae": 1.364172101020813,
+        "source_mae": 7.2107343673706055
+      },
+      {
+        "beat": "C03",
+        "frames": 99,
+        "max_change_mae": 1.397924780845642,
+        "source_mae": 9.091511726379395
+      },
+      {
+        "beat": "C04",
+        "frames": 102,
+        "max_change_mae": 1.1117253303527832,
+        "source_mae": 7.260899066925049
+      },
+      {
+        "beat": "C05",
+        "frames": 115,
+        "max_change_mae": 1.313205599784851,
+        "source_mae": 7.455079555511475
+      },
+      {
+        "beat": "C06",
+        "frames": 77,
+        "max_change_mae": 0.8051849603652954,
+        "source_mae": 3.904158592224121
+      },
+      {
+        "beat": "C07",
+        "frames": 114,
+        "max_change_mae": 1.2114603519439697,
+        "source_mae": 6.475877285003662
+      },
+      {
+        "beat": "C08",
+        "frames": 71,
+        "max_change_mae": 0.793108344078064,
+        "source_mae": 3.309941530227661
+      },
+      {
+        "beat": "C10",
+        "frames": 108,
+        "max_change_mae": 2.278716802597046,
+        "source_mae": 5.096100330352783
+      },
+      {
+        "beat": "C11",
+        "frames": 164,
+        "max_change_mae": 1.4775676727294922,
+        "source_mae": 7.424875259399414
+      },
+      {
+        "beat": "C12",
+        "frames": 108,
+        "max_change_mae": 1.3532072305679321,
+        "source_mae": 7.856146335601807
+      },
+      {
+        "beat": "C13",
+        "frames": 74,
+        "max_change_mae": 1.2649396657943726,
+        "source_mae": 8.193936347961426
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.000000238418579,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -8.523460388183594,
+    "bytes": 40389364,
+    "sha256": "3caa216350dc6e0204d4439be37172b4a0b2274680b7ddc7a392153987f6bcc4",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 213,
+        "max_source_frame_mae": 1.2035717186484731,
+        "mean_source_frame_mae": 0.937013218715586,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 51,
+        "max_source_frame_mae": 2.0133914067576346,
+        "mean_source_frame_mae": 1.5158019754360483,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  },
+  "VEL-OM-H3-A3-R2": {
+    "frames": 1551,
+    "fps": 30.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "black_frames": [],
+    "still_hold_checks": [
+      {
+        "beat": "H3",
+        "frames": 137,
+        "max_change_mae": 2.8613648414611816,
+        "source_mae": 7.044935703277588
+      },
+      {
+        "beat": "C01",
+        "frames": 74,
+        "max_change_mae": 1.6654483079910278,
+        "source_mae": 5.8418869972229
+      },
+      {
+        "beat": "C02",
+        "frames": 44,
+        "max_change_mae": 1.467049479484558,
+        "source_mae": 7.21869421005249
+      },
+      {
+        "beat": "C03",
+        "frames": 99,
+        "max_change_mae": 1.393340826034546,
+        "source_mae": 9.092775344848633
+      },
+      {
+        "beat": "C04",
+        "frames": 102,
+        "max_change_mae": 1.429093599319458,
+        "source_mae": 7.2617058753967285
+      },
+      {
+        "beat": "C05",
+        "frames": 115,
+        "max_change_mae": 1.3798580169677734,
+        "source_mae": 7.429134368896484
+      },
+      {
+        "beat": "C06",
+        "frames": 77,
+        "max_change_mae": 1.0675865411758423,
+        "source_mae": 3.9116663932800293
+      },
+      {
+        "beat": "C07",
+        "frames": 114,
+        "max_change_mae": 1.2120187282562256,
+        "source_mae": 6.479552268981934
+      },
+      {
+        "beat": "C08",
+        "frames": 71,
+        "max_change_mae": 0.7511269450187683,
+        "source_mae": 3.3134543895721436
+      },
+      {
+        "beat": "C10",
+        "frames": 108,
+        "max_change_mae": 2.1305179595947266,
+        "source_mae": 5.1108269691467285
+      },
+      {
+        "beat": "C11",
+        "frames": 164,
+        "max_change_mae": 1.475313663482666,
+        "source_mae": 7.426393032073975
+      },
+      {
+        "beat": "C12",
+        "frames": 108,
+        "max_change_mae": 1.3544458150863647,
+        "source_mae": 7.863430976867676
+      },
+      {
+        "beat": "C13",
+        "frames": 74,
+        "max_change_mae": 1.270061731338501,
+        "source_mae": 8.191505432128906
+      }
+    ],
+    "audio_vs_approved_V1": [
+      {
+        "seconds": 1,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 10,
+        "correlation": 1.0,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 20,
+        "correlation": 1.000000238418579,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 30,
+        "correlation": 0.9999999403953552,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 40,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      },
+      {
+        "seconds": 47,
+        "correlation": 1.0000001192092896,
+        "offset_seconds": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -8.523460388183594,
+    "bytes": 40195337,
+    "sha256": "1ca82e81df8d795ad1d1b47ba456b86c2ab663ba3afabc3ee08a073518d17e3d",
+    "machine_checked_every_frame": true,
+    "visual_inspection": "All cut boundary pairs, each scene midpoint, opening and final frames viewed on decoded contact sheets. Every selected still reviewed separately. H1 A1/A2/A3 presenter bridges viewed consecutively. C09 native source all 96 frames and H1 A1/A2 selected output intervals viewed consecutively. Other motion intervals source-matched on every decoded output frame; not represented as exhaustive manual full-resolution viewing.",
+    "cut_boundary_pairs_visually_inspected": true,
+    "motion_source_comparison": [
+      {
+        "beat": "bridge",
+        "all_output_frames_compared": 213,
+        "max_source_frame_mae": 1.186312134502924,
+        "mean_source_frame_mae": 0.8339064602037174,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      },
+      {
+        "beat": "C09",
+        "all_output_frames_compared": 51,
+        "max_source_frame_mae": 2.052088409681611,
+        "mean_source_frame_mae": 1.4314363517499271,
+        "method": "192x342 decoded RGB comparison; nearest adjacent native frame allowed for 24-to-30fps playback cadence."
+      }
+    ],
+    "status": "PASS"
+  }
+}

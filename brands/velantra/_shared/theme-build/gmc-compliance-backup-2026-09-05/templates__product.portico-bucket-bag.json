@@ -1,0 +1,215 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A drawstring bucket bag in soft pebbled leather. Roomy enough for everyday, refined enough for evening.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p>An everyday bucket bag with room to spare. The Portico carries soft and slouchy by day, then cinches neat for evening &mdash; an easy one-and-done for the woman on the move.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_materials": {
+          "type": "tab",
+          "settings": {
+            "title": "Materials &amp; Care",
+            "content": "<p><strong>Material<\/strong><br>Premium leather with hand-finished hardware.<\/p><p><strong>Care<\/strong><br>Wipe clean with a soft, dry cloth and condition every 6&ndash;12 months with a neutral leather cream. Keep away from prolonged moisture.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free. If something isn&rsquo;t right, reach out &mdash; we&rsquo;ll make it right.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_warranty": {
+          "type": "tab",
+          "settings": {
+            "title": "Two Year Warranty",
+            "content": "<p>Every Velantra bag is covered for two years against defects in materials and construction. If anything goes wrong in normal use, we&rsquo;ll repair or replace it.<\/p><p>After two years, we continue to offer repair service for the cost of materials. Designed to last decades, not seasons.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "reviews",
+        "tab_details",
+        "tab_materials",
+        "tab_ship",
+        "tab_warranty"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "DESIGN",
+            "headline": "Soft, Sculptural, Cinched",
+            "body": "<p>A pebbled leather body that slouches in your hand and holds its line when set down. A drawstring you can work one-handed.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "Drum-Tumbled, Not Pressed",
+            "body": "<p>Most pebbled leather is embossed. Ours is tumbled for hours until the grain emerges from the hide itself. No two bags pebble the same.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "LONGEVITY",
+            "headline": "Lined in Microsuede",
+            "body": "<p>A lining that won&rsquo;t shed, won&rsquo;t snag, won&rsquo;t bleed. Pulled out, brushed off, back to new.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "AT THE TOP",
+            "headline": "One-handed drawstring",
+            "body": "<p>Suede pull, brass-tipped, threaded through hand-set eyelets. Cinches with a tug.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE POUCH",
+            "headline": "Detachable zip clutch",
+            "body": "<p>Clips inside on a leather lanyard. Pull it out, use it as a clutch on its own.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "ON THE SHOULDER",
+            "headline": "Adjustable strap",
+            "body": "<p>Crossbody one notch, shoulder the next. Brass-set rivets &mdash; never glue.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "icon_bar",
+    "benefits",
+    "recently_viewed"
+  ]
+}

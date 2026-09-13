@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-09-11T19:25:18.287427+00:00",
+  "selected_voice_takes": 3,
+  "alternate_voice_takes_retained": 1,
+  "voice_name": "Woman Over 40",
+  "model": "eleven_v3",
+  "preset": "Creative",
+  "native_omni_hooks": 3,
+  "native_heygen_avatars": 9,
+  "offline_otio_assemblies": 9,
+  "resolve_import_verified": true,
+  "final_exports": 9,
+  "blocker": null,
+  "remaining": [],
+  "deadspace_removal": {
+    "required": true,
+    "scope": "all nine ads",
+    "candidates": "resolve/deadspace-candidates.json",
+    "candidate_intervals": 40,
+    "applied_in_resolve": true,
+    "listening_review": "machine review plus waveform and source-frame correspondence; see adjudication",
+    "old_end_hold_superseded": true,
+    "actual_cuts_by_hook": {
+      "H1": 9,
+      "H2": 8,
+      "H3": 13
+    }
+  },
+  "resolve_connection": "verified in-app Lua",
+  "resolve_project": "VEL_Eleanor_OldMoney_9Ads_2026-09-11",
+  "native_composites": 9,
+  "render_jobs_queued": 9,
+  "delivery": "exports/",
+  "project_export": "exports/Eleanor-OldMoney-9Ads.drp",
+  "qa": "qa/final/review-adjudication.json",
+  "cutroom_url": "https://cutroom-three.vercel.app/b/eleanor-old-money-nine-ad-storyboard"
+}

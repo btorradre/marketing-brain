@@ -1,0 +1,128 @@
+{
+  "name": "The Juliette Suede Tote",
+  "slug": "juliette",
+  "brand_slug": "velantra",
+  "category": "tote bag",
+  "positioning": "The oversized everyday carryall. Soft where the rest of the line is",
+  "price": "$199.00",
+  "identity_block": "A very large, COMPLETELY UNSTRUCTURED tote that sags under its own weight, roughly as tall as it is wide, with a broad flat rectangular front face that creases; the lower two thirds are matte GOLDEN SAND suede, slouching, with soft rounded bottom corners; the upper third is a tall soft panel of DARK COOL GREY-BROWN leather (dark taupe, almost charcoal-brown, never warm chocolate) wrapping the whole top edge front and back, its top edge rolling and folding outward under its own weight, and its BOTTOM EDGE A PERFECTLY STRAIGHT HORIZONTAL SEAM across the suede; applied on the front of that panel is exactly ONE horizontal leather strap running the full width with shallow pointed ends, passing through exactly FOUR narrow flat vertical leather keeper tabs, TWO of which carry a small flat antique brass bar, plus exactly ONE domed antique brass rivet at the centre of the strap; two slim rolled tubular leather handles of short hand-carry drop are threaded through narrow vertical slots cut in the panel and hang loosely; two thin leather pull straps hang free from beneath the strap down the front suede near the centre, each ending in a cut point; four leather corner caps wrap the base corners, each with exactly one small antique brass stud; there are NO studs, snaps or metal anywhere on the side panels or the middle of the suede; the top is COMPLETELY OPEN with no flap, zip, turnlock or clasp; and there are no logos, stamps, plaques or lettering anywhere on the bag.",
+  "mechanism_block": "The top of the bag is COMPLETELY OPEN. There is no flap, no zip, no turnlock, no magnet and no clasp of any kind. The leather collar band wraps the top edge and stays open, folding slightly outward under its own weight, showing the mouth of the bag. The belt strap and the two slotted tabs across the front of the collar are decorative only and never fasten to anything.",
+  "extra_blocks": [
+    {
+      "name": "scale anchor",
+      "text": "It is a very large bag. Carried in one hand at the side it hangs from mid-thigh to below the knee, and it is as wide as the carrier's torso. Their hand spans only a fraction of the width of the collar.",
+      "when": "paste into every prompt containing a person"
+    },
+    {
+      "name": "photoreal",
+      "text": "The attached reference supplies GEOMETRY AND MATERIALS ONLY. Do not inherit its lighting, its background, its clean edges or its polished product-photo look. Shot on a phone in available light: visible sensor noise, imperfect focus, slight handheld tilt, real shadows, creased and lightly scuffed leather, visible fibres in the weave, dust and fingerprints. NOT a 3D render, NOT CGI, NOT a product visualisation, no Blender, Octane, Unreal or Keyshot look, no ray tracing, no catalogue retouching.",
+      "when": "paste into every prompt"
+    }
+  ],
+  "colorways": [
+    {
+      "name": "Camel",
+      "description": ""
+    },
+    {
+      "name": "Stone",
+      "description": ""
+    },
+    {
+      "name": "Chocolate",
+      "description": ""
+    },
+    {
+      "name": "Black",
+      "description": ""
+    }
+  ],
+  "dimensions": {
+    "width_in": 18.5,
+    "height_in": 18.5,
+    "depth_in": 8.0,
+    "raw": "18.5\" W x 18.5\" H x 8\" D"
+  },
+  "materials": [
+    "leather",
+    "suede",
+    "brass"
+  ],
+  "banned_terms": [
+    {
+      "term": "notch",
+      "reason": "**Never write \"notch\", \"notched\", \"points\" or \"pointed border\" about the leather panel's",
+      "scope": "any"
+    },
+    {
+      "term": "notched",
+      "reason": "**Never write \"notch\", \"notched\", \"points\" or \"pointed border\" about the leather panel's",
+      "scope": "any"
+    },
+    {
+      "term": "points",
+      "reason": "**Never write \"notch\", \"notched\", \"points\" or \"pointed border\" about the leather panel's",
+      "scope": "any"
+    },
+    {
+      "term": "pointed border",
+      "reason": "**Never write \"notch\", \"notched\", \"points\" or \"pointed border\" about the leather panel's",
+      "scope": "any"
+    }
+  ],
+  "required_phrases": [],
+  "claims": [],
+  "engine_notes": [],
+  "reference_assets": [
+    {
+      "role": "master_seed",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/juliette/product-references/",
+      "note": "canonical i2i seeds",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/juliette/product-images/colors/",
+      "note": "per-colorway angle set (live gallery)",
+      "colorway": null
+    }
+  ],
+  "qa_checklist": [
+    "Antique brass dome rivet | 1 | centre of the horizontal strap",
+    "Antique brass flat bar keepers | 2 | on two of the four keeper tabs",
+    "Vertical leather keeper tabs | 4 | evenly spaced across the strap",
+    "Horizontal leather strap | 1 | full width, shallow pointed ends",
+    "Rolled leather handles | 2 | threaded through slots in the panel, short drop",
+    "Loose leather pull straps | 2 | hanging from under the strap over the front suede",
+    "Corner caps | 4 | base corners, 1 brass stud each",
+    "Side snaps | 0 | THIS BAG HAS NONE. v1 invented them."
+  ],
+  "version": 1,
+  "extracted_from": {
+    "path": "/Users/brooksorradre2/.claude/skills/velantra-juliette/SKILL.md",
+    "sha256": "4bde968f9702462a65aada5d9a4a4463919720a2335e8e85de99f9e290a27b4d",
+    "extracted_at": "2026-09-03T00:05:43+00:00",
+    "extractor": "scripts/extract_product_truth.py"
+  },
+  "extraction": {
+    "confidence": {
+      "category": "low",
+      "name": "high",
+      "identity_block": "high",
+      "mechanism_block": "high",
+      "extra_blocks": "high",
+      "colorways": "medium",
+      "dimensions": "medium",
+      "materials": "low",
+      "banned_terms": "medium",
+      "required_phrases": "none",
+      "claims": "none",
+      "engine_notes": "none",
+      "reference_assets": "medium",
+      "qa_checklist": "medium"
+    },
+    "notes": []
+  }
+}

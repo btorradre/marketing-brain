@@ -1,0 +1,616 @@
+<style>
+  header, .header, .site-header, #header,
+  [id*="shopify-section-header"], [class*="site-header"],
+  .announcement-bar, .header-wrapper, .header__wrapper { display: none !important; }
+  footer, .footer, .site-footer, #footer,
+  [id*="shopify-section-footer"], [class*="site-footer"],
+  .footer-wrapper, .footer__wrapper { display: none !important; }
+  .page-title, .page__title, .page__heading,
+  .page-header, .page-header__title,
+  [class*="page-title"], [class*="page__header"],
+  #MainContent > h1:first-child,
+  .main-content > h1:first-child { display: none !important; }
+  body { padding-top: 0 !important; margin-top: 0 !important; }
+  main, #MainContent, .main-content { padding-top: 0 !important; margin-top: 0 !important; }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+  .motilli-adv *, .motilli-adv *::before, .motilli-adv *::after { box-sizing: border-box; }
+  .motilli-adv {
+    max-width: 760px;
+    margin: 0 auto;
+    background: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #1a1a1a;
+    padding-bottom: 60px;
+  }
+  .motilli-adv .adv-top-bar {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    padding: 14px 20px;
+  }
+  .motilli-adv .adv-top-bar img {
+    height: 44px;
+    width: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .motilli-adv .adv-meta {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #777;
+  }
+  .motilli-adv .adv-meta span { color: #94C218; }
+  .motilli-adv .adv-content { padding: 0 36px; }
+  .motilli-adv .adv-pre {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #94C218;
+    margin: 32px 0 10px;
+  }
+  .motilli-adv h1 {
+    font-size: clamp(26px, 4vw, 38px);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    color: #111;
+    margin-bottom: 18px;
+  }
+  .motilli-adv .adv-subtitle {
+    font-size: 16px;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+  .motilli-adv .adv-byline {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .motilli-adv .adv-byline img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .motilli-adv .adv-byline strong { color: #222; }
+  .motilli-adv .adv-full-img {
+    width: calc(100% + 72px);
+    margin-left: -36px;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 32px;
+  }
+  .motilli-adv .adv-full-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .motilli-adv .adv-product-img {
+    text-align: center;
+    margin: 28px 0;
+  }
+  .motilli-adv .adv-product-img img {
+    max-width: 380px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .motilli-adv .adv-portrait-img {
+    text-align: center;
+    margin: 28px 0;
+  }
+  .motilli-adv .adv-portrait-img img {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .motilli-adv .adv-callout {
+    background: #f0f7e0;
+    border-left: 4px solid #94C218;
+    border-radius: 6px;
+    padding: 24px 28px;
+    margin: 28px 0;
+  }
+  .motilli-adv .adv-callout p {
+    font-size: 17px;
+    font-style: italic;
+    color: #2a2a2a;
+    line-height: 1.75;
+    margin-bottom: 12px;
+  }
+  .motilli-adv .adv-callout p:last-child { margin-bottom: 0; }
+  .motilli-adv .adv-callout .adv-attr {
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #555;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-top: 14px;
+  }
+  .motilli-adv .adv-callout-center {
+    background: #fff8e1;
+    border: 2px solid #f5c842;
+    border-radius: 8px;
+    padding: 22px 28px;
+    margin: 28px 0;
+    text-align: center;
+  }
+  .motilli-adv .adv-callout-center p {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.65;
+  }
+  .motilli-adv .adv-callout-center .adv-attr {
+    font-size: 13px;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+  }
+  .motilli-adv h2 {
+    font-size: clamp(20px, 3vw, 26px);
+    font-weight: 800;
+    color: #111;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+    margin: 40px 0 16px;
+  }
+  .motilli-adv h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #222;
+    margin: 28px 0 10px;
+  }
+  .motilli-adv p {
+    margin-bottom: 18px;
+    color: #1a1a1a;
+  }
+  .motilli-adv p strong { color: #111; }
+  .motilli-adv .adv-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 28px 0;
+  }
+  .motilli-adv .adv-flow-box {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px 20px;
+  }
+  .motilli-adv .adv-flow-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #94C218;
+    margin-bottom: 4px;
+  }
+  .motilli-adv .adv-flow-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 6px;
+  }
+  .motilli-adv .adv-flow-desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  .motilli-adv .adv-flow-arrow {
+    text-align: center;
+    font-size: 22px;
+    color: #94C218;
+    padding: 4px 0;
+    line-height: 1;
+  }
+  .motilli-adv .adv-ing-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 0;
+  }
+  .motilli-adv .adv-ing-card {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    background: #f9fdf2;
+    border: 1px solid #d4e8a0;
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .motilli-adv .adv-ing-icon {
+    font-size: 28px;
+    flex-shrink: 0;
+    line-height: 1;
+    margin-top: 2px;
+  }
+  .motilli-adv .adv-ing-body h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 4px;
+  }
+  .motilli-adv .adv-ing-body .adv-compound {
+    font-size: 12px;
+    font-weight: 600;
+    color: #94C218;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
+  }
+  .motilli-adv .adv-ing-body p {
+    font-size: 14px;
+    color: #444;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .motilli-adv .adv-testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 28px 0;
+  }
+  .motilli-adv .adv-tcard {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 20px 22px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  .motilli-adv .adv-thead {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .motilli-adv .adv-tavatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #94C218;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .motilli-adv .adv-tname {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+  }
+  .motilli-adv .adv-tdrug {
+    font-size: 12px;
+    color: #888;
+  }
+  .motilli-adv .adv-stars {
+    color: #f5a623;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .motilli-adv .adv-tcard p {
+    font-size: 15px;
+    color: #333;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.65;
+  }
+  .motilli-adv .adv-guarantee {
+    background: #f0f7e0;
+    border: 2px solid #94C218;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 36px 0;
+    text-align: center;
+  }
+  .motilli-adv .adv-guarantee .adv-badge {
+    display: inline-block;
+    background: #94C218;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+  }
+  .motilli-adv .adv-guarantee h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #111;
+    margin: 0 0 12px;
+  }
+  .motilli-adv .adv-guarantee p {
+    font-size: 15px;
+    color: #444;
+    margin: 0;
+    line-height: 1.7;
+  }
+  .motilli-adv .adv-cta-wrap {
+    margin: 32px 0;
+    text-align: center;
+  }
+  .motilli-adv .adv-cta-btn {
+    display: block;
+    width: 100%;
+    background: #7DA614;
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: 2px dashed rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: background 0.2s;
+    line-height: 1.3;
+  }
+  .motilli-adv .adv-cta-btn:hover { background: #94C218; }
+  .motilli-adv .adv-cta-sub {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    opacity: 0.85;
+    margin-top: 4px;
+  }
+  .motilli-adv .adv-signoff {
+    margin: 32px 0 24px;
+    font-size: 16px;
+    color: #333;
+  }
+  .motilli-adv .adv-ps {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 24px 0;
+    font-size: 15px;
+    color: #444;
+    line-height: 1.7;
+  }
+  .motilli-adv .adv-disclaimer {
+    font-size: 11px;
+    color: #aaa;
+    line-height: 1.6;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .motilli-adv hr.adv-divider {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 36px 0;
+  }
+  @media (max-width: 600px) {
+    .motilli-adv .adv-content { padding: 0 20px; }
+    .motilli-adv .adv-full-img { width: calc(100% + 40px); margin-left: -20px; }
+    .motilli-adv h1 { font-size: 24px; }
+    .motilli-adv h2 { font-size: 20px; }
+    .motilli-adv .adv-callout { padding: 18px 20px; }
+    .motilli-adv .adv-cta-btn { font-size: 14px; padding: 18px 16px; }
+    .motilli-adv .adv-ing-card { flex-direction: column; gap: 10px; }
+  }
+</style>
+
+<div class="motilli-adv">
+  <div class="adv-top-bar">
+    <img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-motilli_logo.png?v=1778437439" alt="Motilli">
+    <div class="adv-meta">Special Advertorial  ·  <span>By Claire Davies, Health Editor</span>  ·  May 2026</div>
+  </div>
+  <div class="adv-content">
+    <span class="adv-pre">GLP-1 Digestive Health</span>
+    <h1>Gastroenterologist Quietly Admits: The “Just Take Miralax” Advice for GLP-1 Constipation Is Failing — and Most Doctors Know It</h1>
+    <p class="adv-subtitle">Dr. Lena Park Reveals: A New Natural Formula That May Help Women on Wegovy, Ozempic and Mounjaro Finally Pass Stool, Stop Sulfur Burps, and End the Cement-Stomach Bloating — Without Going Off Their Medication, Without Linzess, and Without Another Useless Fiber Recommendation</p>
+    <p class="adv-subtitle"><em>WITHOUT cramping, urgency, leaking, or any of the side effects that made you give up on laxatives in the first place</em></p>
+    <div class="adv-byline">
+      <img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-author_avatar.png?v=1778437437" alt="Claire Davies">
+      <div>
+<strong>By Claire Davies, Health Editor</strong><br><span>Advertorial  ·  May 2026</span>
+</div>
+    </div>
+    <div class="adv-full-img"><img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-hero.png?v=1778437408" alt="Dr. Lena Park and a woman experiencing GLP-1 digestive symptoms"></div>
+    <div class="adv-callout">
+      <p>“Do you know what’s actually happening in your body when you can’t go on a GLP-1?</p>
+      <p>(And it has almost nothing to do with how much fiber you eat, how much water you drink, or whether you’ve ‘tried Miralax yet’)</p>
+      <p>Most gastroenterologists know exactly what’s going on. They just don’t have a tool in their prescription pad to fix it. So they hand you a laxative aimed at the wrong organ and book you for a follow-up in six weeks.</p>
+      <p>I’ve spent fifteen years watching this happen. I’m done staying quiet about it. Because too many women are being told the suffering is the price of the weight loss when it’s actually a specific, addressable mechanical problem that nobody is bothering to explain.”</p>
+      <div class="adv-attr">— Dr. Lena Park, Gastroenterologist</div>
+    </div>
+    <h2>Why Most Gastroenterologists Won’t Tell You What’s Actually Happening Inside Your Stomach</h2>
+    <p>Dr. Lena Park is a board-certified gastroenterologist. She’s spent the last six years specializing in GLP-1-related digestive complications — the population most clinicians dismiss with a one-size-fits-all “drink more water, eat more fiber, or just try miralax” recommendation.</p>
+    <p>In a recent interview, she explained why the standard advice fails for women on Wegovy, Ozempic, and Mounjaro and why a small group of researchers has been quietly developing a natural formula that works on the actual root cause.</p>
+    <p>Here’s what she told us:</p>
+    <div class="adv-callout">
+      <p>“The problem is that the entire medical playbook for constipation was written before GLP-1 medications existed. Every product in your medicine cabinet — Miralax, Dulcolax, fiber gummies, Smooth Move tea — is designed to act on the colon.”</p>
+      <p>“But GLP-1 medications don’t slow the colon. They slow the stomach.”</p>
+      <p>“The stomach loses its rhythm. Food sits there for hours. Sometimes days. It ferments. That’s where the sulfur burps come from. By the time anything reaches the colon — if it reaches at all — it’s already a brick. The colon isn’t the problem. The colon is empty.”</p>
+    </div>
+    <p>What’s more…</p>
+    <p>“Every laxative you’ve tried targets the colon, six feet downstream from where the actual problem is. They cannot work. The mechanics make it impossible.”</p>
+    <p>But that’s not all…</p>
+    <p>She also explained why the doctors prescribing these medications rarely mention this.</p>
+    <p>“GLP-1s were approved as appetite suppressants. The slowed gastric motility is listed as a side effect — but it’s a peripheral effect of the drug working systemically, not the mechanism that drives weight loss. Most prescribing physicians focus on the appetite mechanism because that’s what the patient came in for. The stomach effect gets a one-line warning and a Miralax recommendation.”</p>
+    <p>Dr. Park recently helped review a new natural formula developed specifically for GLP-1-related digestive symptoms — one that works on the stomach instead of the colon, addressing the actual mechanical issue the medication creates.</p>
+    <p>So you can stop tracking your bowel movements in a spreadsheet. Stop wearing baggy clothes by 2 PM. Stop dreading dinner with your husband.</p>
+    <hr class="adv-divider">
+    <h2>Dr. Park Tells It As It Is:</h2>
+    <div class="adv-full-img"><img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-story_moment.png?v=1778437412" alt="The wrong-organ problem illustrated"></div>
+    <div class="adv-callout">
+      <p>“For years, women on these medications have been quietly told to either tolerate the digestive symptoms or lower their dose.”</p>
+      <p>“And lowering the dose isn’t an option for most of them. They’ve finally found something that silences the food noise. They’re losing weight for the first time in twenty years. They’re not going off the medication. So they suffer in silence.”</p>
+    </div>
+    <p>The reason why?</p>
+    <p>“Because the system is set up to address the appetite side, not the gastric side. Until something works on the actual mechanical problem, you’re just cycling through laxatives that target an organ that isn’t the issue.”</p>
+    <div class="adv-callout-center">
+      <p>“A patient who tolerates the side effects in silence is a successful case.”</p>
+      <div class="adv-attr">— Dr. Lena Park</div>
+    </div>
+    <hr class="adv-divider">
+    <h2>The Mechanism Almost Every GLP-1 Constipation Treatment Has Missed</h2>
+    <div class="adv-full-img"><img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-mechanism.png?v=1778437416" alt="Three-part mechanism: stalled stomach, sulfur gas, congested colon"></div>
+    <p>The slowed gastric motility caused by GLP-1 medications creates three downstream problems simultaneously — and almost every product on the market addresses only one of them, usually the wrong one.</p>
+    <div class="adv-flow">
+      <div class="adv-flow-box">
+        <div class="adv-flow-label">Problem 1</div>
+        <div class="adv-flow-title">The Stomach Has Stopped Moving Food Through</div>
+        <div class="adv-flow-desc">Standard laxatives don’t touch this. They work in the colon.</div>
+      </div>
+      <div class="adv-flow-arrow">↓</div>
+      <div class="adv-flow-box">
+        <div class="adv-flow-label">Problem 2</div>
+        <div class="adv-flow-title">Food Sitting in a Stalled Stomach Ferments</div>
+        <div class="adv-flow-desc">Bacteria produce hydrogen sulfide gas — the same compound that gives rotten eggs their smell. This is where the sulfur burps come from. No fiber supplement, probiotic, or laxative addresses this.</div>
+      </div>
+      <div class="adv-flow-arrow">↓</div>
+      <div class="adv-flow-box">
+        <div class="adv-flow-label">Problem 3</div>
+        <div class="adv-flow-title">Weeks of Stalled Motility Creates Downstream Congestion</div>
+        <div class="adv-flow-desc">Adding bulk fiber to a backed-up system makes it worse. It’s like packing more cars onto a highway where the on-ramp is closed.</div>
+      </div>
+    </div>
+    <p>A formula that actually addresses GLP-1 constipation has to do all three things at once:</p>
+    <div class="adv-callout">
+      <p><strong>Wake the stomach back up</strong> — restore gastric motility without overriding the medication</p>
+      <p><strong>Neutralize the sulfur gas</strong> — disarm the molecule, not mask the smell</p>
+      <p><strong>Soften the downstream backup</strong> — without adding bulk to a jammed system</p>
+    </div>
+    <p>Until recently, no single product on the market combined all three.</p>
+    <hr class="adv-divider">
+    <h2>How Dr. Park Found a Formula That Actually Targets All Three Problems</h2>
+    <div class="adv-portrait-img"><img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-discovery.png?v=1778437422" alt="Woman discovering Motilli"></div>
+    <p>Dr. Park spent months reviewing supplement formulas designed for GLP-1 users. Most were repackaged general digestive supplements with new labels. Bulk fiber blends. Generic probiotic capsules. Ginger-based motility products with nothing for the gas.</p>
+    <p>Then she came across a small wellness company that had built a gummy specifically for women on GLP-1 medications, formulated around the three-part problem her clinical experience kept confirming.</p>
+    <p>The product is called <strong>Motilli.</strong></p>
+    <p>She ordered a bottle to evaluate the formulation herself. What she found:</p>
+    <div class="adv-product-img"><img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-product.png?v=1778437427" alt="Motilli GLP-1 digestive support gummies"></div>
+    <div class="adv-ing-grid">
+      <div class="adv-ing-card">
+        <div class="adv-ing-icon">🌿</div>
+        <div class="adv-ing-body">
+          <div class="adv-compound">Active Compound: Apigenin</div>
+          <h4>Celery Juice Extract</h4>
+          <p>Studies in motility research suggest it gently supports the vagus nerve — the nerve that signals the stomach to contract and move food through. It doesn’t override the GLP-1 medication. It restores the signal the medication has muted.</p>
+        </div>
+      </div>
+      <div class="adv-ing-card">
+        <div class="adv-ing-icon">🌿</div>
+        <div class="adv-ing-body">
+          <div class="adv-compound">Active Compound: Sodium Copper Chlorophyllin</div>
+          <h4>Chlorophyll Complex</h4>
+          <p>A stable, concentrated form of chlorophyll that binds directly to hydrogen sulfide molecules and neutralizes them before they rise as gas. Doesn’t perfume the breath. Disarms the molecule responsible for the smell.</p>
+        </div>
+      </div>
+      <div class="adv-ing-card">
+        <div class="adv-ing-icon">🌿</div>
+        <div class="adv-ing-body">
+          <div class="adv-compound">Low-Bulk Soluble Prebiotic Fiber</div>
+          <h4>Prebiotic Fiber (Gel-Forming)</h4>
+          <p>Not the bulk fiber every gastroenterologist absent-mindedly recommends. This is gel-forming, low-volume. It draws moisture into the lower intestine and softens the downstream backup without adding bulk to a system that’s already congested.</p>
+        </div>
+      </div>
+    </div>
+    <p>Three ingredients. Three different problems. All addressed at once. In gummy form, two per day.</p>
+    <hr class="adv-divider">
+    <h2>Real Women on GLP-1s Are Already Reporting What the Standard Advice Failed to Deliver</h2>
+    <div class="adv-testimonials">
+      <div class="adv-tcard">
+        <div class="adv-thead">
+          <div class="adv-tavatar">K</div>
+          <div>
+<div class="adv-tname">Karen M.</div>
+<div class="adv-tdrug">Wegovy, 5 months in, hadn’t gone in 11 days</div>
+</div>
+        </div>
+        <div class="adv-stars">★★★★★</div>
+        <p>“I’d been taking Miralax every day for three months. My doctor offered to lower my dose. I started Motilli and went on my own by day ten. The sulfur burps stopped by week three. I’m still on Wegovy. Still losing weight. I’m just not paying the tax anymore.”</p>
+      </div>
+      <div class="adv-tcard">
+        <div class="adv-thead">
+          <div class="adv-tavatar" style="background:#5a9e3a;">D</div>
+          <div>
+<div class="adv-tname">Diane R.</div>
+<div class="adv-tdrug">Mounjaro, sulfur burps gone in two weeks</div>
+</div>
+        </div>
+        <div class="adv-stars">★★★★★</div>
+        <p>“My husband had started saying something at dinner every night. I was mortified. Two weeks on Motilli and that conversation just stopped happening. He didn’t even notice — that’s how I knew it actually worked.”</p>
+      </div>
+      <div class="adv-tcard">
+        <div class="adv-thead">
+          <div class="adv-tavatar" style="background:#3a7e9e;">P</div>
+          <div>
+<div class="adv-tname">Patricia L.</div>
+<div class="adv-tdrug">Ozempic, hiding her stomach by 2 PM every day</div>
+</div>
+        </div>
+        <div class="adv-stars">★★★★★</div>
+        <p>“I’d lost 24 pounds and bought clothes I couldn’t even wear because the bloating made me look six months pregnant by lunchtime. The bloating started easing in the first ten days. I’m finally wearing the clothes I bought.”</p>
+      </div>
+    </div>
+    <hr class="adv-divider">
+    <h2>A 90-Day “Finally Going or Your Money Back” Guarantee</h2>
+    <div class="adv-guarantee">
+      <div class="adv-badge">90-Day Money Back Guarantee</div>
+      <h3>Zero Risk. Full 90 Days.</h3>
+      <p>If your bowel movements don’t normalize, if the sulfur burps don’t ease, if the bloating doesn’t reduce — send it back. No arguments. You have three full months to find out whether the wrong-organ explanation is the missing piece you’ve been searching for.</p>
+      <p style="margin-top:12px;">That’s enough time to give the formula a real evaluation. Not a week. Not a “see how you feel” trial. A full ninety days where the only risk is that it works.</p>
+    </div>
+    <hr class="adv-divider">
+    <h2>Where Can You Get Motilli?</h2>
+    <p>If you’re ready to stop being told to drink more water, eat more fiber, and try Miralax that you’ve already been taking for months…</p>
+    <p>And you’re done choosing between the medication that’s finally working and a digestive system that feels like it’s shutting down…</p>
+    <p>(As thousands of women on GLP-1s have already discovered)…</p>
+    <p><strong>Here’s What to Do Next</strong></p>
+    <p>Click the button below to check availability for Motilli at the current introductory pricing. You’ll be taken to the secure Motilli website where you can select your package.</p>
+    <p>I’d recommend starting with at least a 60-day supply so your stomach has enough time to fully recalibrate — and so you’re well within the 90-day guarantee window.</p>
+    <p>Because at this point, the only risk is finding out it works and wishing you’d ordered it sooner.</p>
+    <div class="adv-full-img"><img src="https://cdn.shopify.com/s/files/1/0680/9527/9147/t/2/assets/adv-product_cta.png?v=1778437432" alt="Motilli — check availability"></div>
+    <div class="adv-cta-wrap">
+      <a href="https://www.getmotilli.com" class="adv-cta-btn">
+        CHECK AVAILABILITY →
+        <span class="adv-cta-sub">Secure checkout  ·  90-day money back guarantee  ·  Free shipping over $45</span>
+      </a>
+    </div>
+    <div class="adv-signoff"><p>With hope,<br><strong>Claire</strong></p></div>
+    <div class="adv-ps">
+      <p><strong>P.S.</strong> If you’ve read this far, you know your situation better than the doctor who spent nine minutes with you and recommended a laxative you’d already been taking. The wrong-organ explanation isn’t fringe. Most gastroenterologists know it. They just don’t have anything in their prescription pad that targets the stomach instead of the colon. Motilli is the first formula built specifically for that gap. If you know another woman on a GLP-1 who’s been dismissed, told it’s “just a side effect,” or quietly considering lowering her dose because she can’t take the digestive symptoms anymore — send her this. This is far more common, and far more addressable, than her doctor has bothered to explain.</p>
+    </div>
+    <div class="adv-cta-wrap">
+      <a href="https://www.getmotilli.com" class="adv-cta-btn">
+        CHECK AVAILABILITY →
+        <span class="adv-cta-sub">Secure checkout  ·  90-day money back guarantee  ·  Free shipping over $45</span>
+      </a>
+    </div>
+    <div class="adv-disclaimer">
+      <p>ADVERTORIAL DISCLOSURE: This is a paid advertorial. The information presented is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Statements about Motilli have not been evaluated by the Food and Drug Administration. Always consult your physician before starting any supplement, especially if you are taking prescription medications. Motilli is a dietary supplement, not a medication. “Dr. Lena Park” is a composite character created for illustrative purposes. The testimonials presented are representative of customer experiences and individual results will vary.</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+{
+  "shot": "S29",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A gentle physical camera drift reveals depth between the translucent torso shell and connected digestive organs; neutral medical view with subtle tissue motion. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S29.png",
+  "reference_sha256": "dec155793cb4c8abcc87169a528271c0dbf1bb43c4deb96b64edaea3a14849df",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChZsY09nYXRxOUphM1V6N0lQNktQSFVREhZsY09nYXRxOUphM1V6N0lQNktQSFVR",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S29.mp4",
+  "sha256": "c91bb1c3613eb7516f4a05bf69b1957a9d41ab1458e09035188bac34d8a92b00",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60188,
+    "total_input_tokens": 1157,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 57
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58434,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 597,
+    "raw_prompt_token": 31213,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1850
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 521
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 597
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

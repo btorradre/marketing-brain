@@ -1,0 +1,340 @@
+{
+  "jsonrpc": "2.0",
+  "id": "scan-1654383312323364",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Creative Collation Scan: 28 Day GLP-1 Muscle Reset Challenge\n\n> ⚠️ Reach history returned no numeric reach points, so trajectory is shown as unknown.\n\n## Scan scope\n\nCreative collation: 1398419328830936\nRepresentative ad: facebook_1654383312323364\nActive ads: 3 / 18\nMember ad IDs: facebook_1723670818929210, facebook_1789930895370359, facebook_2503643573465435, facebook_2040187209937183, facebook_1550504062903436, facebook_1552513052868558, facebook_3325143144352241, facebook_939207042573574, facebook_1373340504916969, facebook_1582259206691811, facebook_2051800928758325, facebook_1375558004665558, facebook_3030713503928303, facebook_911836485327036, facebook_1069358686025601, facebook_1565136642077004, facebook_1654383312323364, facebook_1731066434760457\n\n## 1. Hook / opening creative text\n\n> Do you actually know how much water and fiber you need on GLP-1? Most people don't — and that's why the side effects hit: constipation, muscle loss, low energy.\n\nSource: Primary ad text lead fallback; not visual/OCR extraction.\nPattern: unclassified.\nPattern reason: No supported hook-pattern heuristic matched the hook text.\n\n## 2. Copy framing\n\nDo you actually know how much water and fiber you need on GLP-1? Most people don't — and that's why the side effects hit: constipation, muscle loss, low energy.\nRevio helps you stay ahead of them:\n💧 Hit your water + protein targets every day\n🥦 Track fiber so digestion stays on track\n😖 Log side effects + map them to each dose\n📉 Protect muscle as the weight comes off\n📲 Reminders so nothing slips\nYour first months set the tone. Make them count. 👉\n\nTrack Shots, Food, Sleep & Side Effects in One Place\n\n## 3. Creative structure\n\nFormat: **video**\nCTA: **DOWNLOAD** — Protein, water, and fiber on your Apple Watch.\nMedia URL: https://medias.trendtrack.io/facebook/video/160a76c48b04749fd3e3d4fabf7e660be6900f735d5a556e2a536fe5aa91c7c1.mp4\nThumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/a271d8f18fed7edea77eae5feab4e0a974b00e19b96f3b857158823203172fd4.jpg\n\n## 4. Landing page\n\nhttp://reviofit.com/revio/wth1_k?utm_source=facebook&utm_medium=nprd&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_term={{ad.name}} _(domain: reviofit.com)_\n\n## 5. Performance signals\n\nReach: 0\nEstimated spend: €0\nAdvertiser reach (30d): 0\nLaunched: 2026-08-07\nStill live: Yes (31 days running)\nRank trajectory: unknown\n\n## 6. Verdict\n\nInconclusive — missing performance history.\n\n---\nCredits used: 3 | Remaining: 8444 | Source: recurring\nBreakdown: ad_detail:1(success), reach_history:1(success)"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "1cb41c7f-8d46-4734-ab3a-0b0691d05e44",
+      "scope": "collation",
+      "adId": "facebook_1654383312323364",
+      "collationId": "1398419328830936",
+      "representativeAdId": "facebook_1654383312323364",
+      "memberAdIds": [
+        "facebook_1723670818929210",
+        "facebook_1789930895370359",
+        "facebook_2503643573465435",
+        "facebook_2040187209937183",
+        "facebook_1550504062903436",
+        "facebook_1552513052868558",
+        "facebook_3325143144352241",
+        "facebook_939207042573574",
+        "facebook_1373340504916969",
+        "facebook_1582259206691811",
+        "facebook_2051800928758325",
+        "facebook_1375558004665558",
+        "facebook_3030713503928303",
+        "facebook_911836485327036",
+        "facebook_1069358686025601",
+        "facebook_1565136642077004",
+        "facebook_1654383312323364",
+        "facebook_1731066434760457"
+      ],
+      "activeAdIds": [
+        "facebook_1723670818929210",
+        "facebook_1789930895370359",
+        "facebook_2503643573465435"
+      ],
+      "memberAdsCount": 18,
+      "activeAdsCount": 3,
+      "memberAdIdsTruncated": false,
+      "warnings": [
+        "Reach history returned no numeric reach points, so trajectory is shown as unknown."
+      ],
+      "analysis": {
+        "hook": {
+          "text": "Do you actually know how much water and fiber you need on GLP-1? Most people don't — and that's why the side effects hit: constipation, muscle loss, low energy.",
+          "source": "body_fallback",
+          "sourceDescription": "Primary ad text lead fallback; not visual/OCR extraction.",
+          "isFallback": true
+        },
+        "hookPattern": "unclassified",
+        "hookPatternReason": "No supported hook-pattern heuristic matched the hook text.",
+        "trajectory": "unknown",
+        "verdict": "Inconclusive — missing performance history."
+      },
+      "data": {
+        "id": "facebook_1654383312323364",
+        "collationId": "1398419328830936",
+        "platform": "facebook",
+        "status": "active",
+        "createdAt": "2026-08-18T20:16:36.621Z",
+        "firstSeenAt": "2026-08-07T07:00:00.000Z",
+        "lastSeenAt": null,
+        "daysRunning": 31,
+        "media": {
+          "type": "video",
+          "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/a271d8f18fed7edea77eae5feab4e0a974b00e19b96f3b857158823203172fd4.jpg",
+          "mediaUrl": "https://medias.trendtrack.io/facebook/video/160a76c48b04749fd3e3d4fabf7e660be6900f735d5a556e2a536fe5aa91c7c1.mp4"
+        },
+        "advertiser": {
+          "id": "1187036691157072",
+          "name": "28 Day GLP-1 Muscle Reset Challenge",
+          "logoUrl": "https://medias.trendtrack.io/facebook/profile_picture/1187036691157072.jpg",
+          "facebookPageId": "1187036691157072",
+          "liveAdsCount": 50,
+          "reach30d": 0,
+          "totalReach": 172601,
+          "countriesCount": null,
+          "facebookLikes": 153,
+          "instagramFollowers": null
+        },
+        "content": {
+          "title": null,
+          "body": "Do you actually know how much water and fiber you need on GLP-1? Most people don't — and that's why the side effects hit: constipation, muscle loss, low energy.\nRevio helps you stay ahead of them:\n💧 Hit your water + protein targets every day\n🥦 Track fiber so digestion stays on track\n😖 Log side effects + map them to each dose\n📉 Protect muscle as the weight comes off\n📲 Reminders so nothing slips\nYour first months set the tone. Make them count. 👉",
+          "transcript": null,
+          "callToAction": "DOWNLOAD",
+          "landingPageUrl": "http://reviofit.com/revio/wth1_k?utm_source=facebook&utm_medium=nprd&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_term={{ad.name}}",
+          "landingPageDomain": "reviofit.com",
+          "ctaDescription": "Track Shots, Food, Sleep & Side Effects in One Place",
+          "ctaLinkDescription": "Protein, water, and fiber on your Apple Watch."
+        },
+        "metrics": {
+          "reach": 0,
+          "aggregatedReach": null,
+          "estimatedSpend": 0,
+          "duplicates": 17,
+          "reachDelta1d": 0,
+          "reachDelta7d": 0,
+          "reachDelta30d": 0
+        },
+        "audience": {
+          "targetedCountries": null,
+          "mainCountry": null,
+          "gender": null,
+          "ageMin": null,
+          "ageMax": null
+        },
+        "rank": {
+          "positionInPage": 1,
+          "currentRank": 1,
+          "rankDelta": null,
+          "improvementPct": 2
+        },
+        "flags": {
+          "isEuAd": null,
+          "isLowReach": false,
+          "isMediaChanged": true,
+          "hasPartnerBadge": false
+        },
+        "transcript": null,
+        "creativeAnalysis": {
+          "hook": {
+            "text": "Do you actually know how much water and fiber you need on GLP-1? Most people don't — and that's why the side effects hit: constipation, muscle loss, low energy.",
+            "source": "body_fallback",
+            "sourceDescription": "Primary ad text lead fallback; not visual/OCR extraction.",
+            "isFallback": true
+          }
+        },
+        "links": {
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?view_all_page_id=1187036691157072&id=1654383312323364",
+          "landingPageUrl": "http://reviofit.com/revio/wth1_k?utm_source=facebook&utm_medium=nprd&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_term={{ad.name}}"
+        },
+        "shops": [
+          {
+            "shopId": "2c335d44-7ce7-4d78-86bd-cd69b9d9d738",
+            "domain": "glulife.app",
+            "name": null,
+            "isPrimary": true,
+            "traffic": 15392,
+            "categories": null
+          }
+        ],
+        "pageAnalytics": {
+          "impressionsHistory": [
+            {
+              "date": "2026-08-21",
+              "totalImpressions": 142984
+            },
+            {
+              "date": "2026-08-22",
+              "totalImpressions": 144062
+            },
+            {
+              "date": "2026-08-23",
+              "totalImpressions": 145979
+            },
+            {
+              "date": "2026-08-24",
+              "totalImpressions": 149437
+            },
+            {
+              "date": "2026-08-25",
+              "totalImpressions": 151938
+            },
+            {
+              "date": "2026-08-26",
+              "totalImpressions": 153149
+            },
+            {
+              "date": "2026-08-27",
+              "totalImpressions": 156163
+            },
+            {
+              "date": "2026-08-28",
+              "totalImpressions": 157000
+            },
+            {
+              "date": "2026-08-29",
+              "totalImpressions": 158523
+            },
+            {
+              "date": "2026-08-30",
+              "totalImpressions": 160351
+            },
+            {
+              "date": "2026-08-31",
+              "totalImpressions": 166925
+            },
+            {
+              "date": "2026-09-01",
+              "totalImpressions": 167315
+            },
+            {
+              "date": "2026-09-02",
+              "totalImpressions": 167577
+            },
+            {
+              "date": "2026-09-03",
+              "totalImpressions": 169635
+            },
+            {
+              "date": "2026-09-04",
+              "totalImpressions": 171273
+            },
+            {
+              "date": "2026-09-05",
+              "totalImpressions": 173236
+            },
+            {
+              "date": "2026-09-06",
+              "totalImpressions": 175211
+            },
+            {
+              "date": "2026-09-07",
+              "totalImpressions": 176789
+            },
+            {
+              "date": "2026-09-08",
+              "totalImpressions": 177960
+            }
+          ],
+          "facebookLikesHistory": [
+            {
+              "date": "2026-08-21",
+              "value": 129
+            },
+            {
+              "date": "2026-08-22",
+              "value": 130
+            },
+            {
+              "date": "2026-08-23",
+              "value": 131
+            },
+            {
+              "date": "2026-08-24",
+              "value": 131
+            },
+            {
+              "date": "2026-08-25",
+              "value": 131
+            },
+            {
+              "date": "2026-08-26",
+              "value": 131
+            },
+            {
+              "date": "2026-08-27",
+              "value": 133
+            },
+            {
+              "date": "2026-08-28",
+              "value": 136
+            },
+            {
+              "date": "2026-08-29",
+              "value": 138
+            },
+            {
+              "date": "2026-08-30",
+              "value": 141
+            },
+            {
+              "date": "2026-08-31",
+              "value": 143
+            },
+            {
+              "date": "2026-09-01",
+              "value": 143
+            },
+            {
+              "date": "2026-09-02",
+              "value": 145
+            },
+            {
+              "date": "2026-09-03",
+              "value": 147
+            },
+            {
+              "date": "2026-09-04",
+              "value": 149
+            },
+            {
+              "date": "2026-09-05",
+              "value": 150
+            },
+            {
+              "date": "2026-09-06",
+              "value": 151
+            },
+            {
+              "date": "2026-09-07",
+              "value": 153
+            },
+            {
+              "date": "2026-09-08",
+              "value": 153
+            }
+          ],
+          "instagramFollowersHistory": null
+        }
+      },
+      "reachHistory": [],
+      "credits": {
+        "requestedUnits": 2,
+        "effectiveUnits": 2,
+        "actualUnits": 2,
+        "costUnits": 3,
+        "recurringUnits": 3,
+        "topupUnits": 0,
+        "creditsRemaining": 8444,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null,
+        "breakdown": [
+          {
+            "key": "ad_detail",
+            "endpointKey": "public_api.ads.detail.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "reach_history",
+            "endpointKey": "public_api.ads.reach_history.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          }
+        ]
+      }
+    },
+    "isError": false
+  }
+}

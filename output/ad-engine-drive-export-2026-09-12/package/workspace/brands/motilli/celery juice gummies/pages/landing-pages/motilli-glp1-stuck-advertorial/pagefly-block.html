@@ -1,0 +1,567 @@
+<style>
+/* PageFly hardening - keep theme base typography from bleeding in */
+.adv-root, .adv-root *{box-sizing:border-box;}
+.adv-root p,.adv-root h1,.adv-root h2,.adv-root h3,.adv-root h4,.adv-root a,.adv-root span,.adv-root div,.adv-root li,.adv-root td,.adv-root th,.adv-root b,.adv-root strong,.adv-root em,.adv-root button{font-family:inherit;letter-spacing:normal;}
+.adv-root h1,.adv-root h2,.adv-root h3,.adv-root h4{color:inherit;}
+.adv-root p,.adv-root li,.adv-root td,.adv-root th{color:inherit;line-height:inherit;}
+:root {
+    --green:#94C218;
+    --green-dark:#6f9410;
+    --ink:#1f2a37;
+    --muted:#64748b;
+    --bg:#f6f8f1;
+    --line:#e4e9ef;
+    --mint:#eef6dd;
+    --amber:#f5a623;
+    --red:#c0392b;
+  }
+.adv-root * {box-sizing:border-box;}
+.adv-root {overflow-x:hidden;max-width:100%;}
+.adv-root {
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;line-height:1.6;
+  }
+.adv-root .cmp-wrap {overflow-x:auto;-webkit-overflow-scrolling:touch;margin:18px 0;}
+.adv-root .cmp-wrap .cmp {margin:0;min-width:520px;}
+.adv-root .container {max-width:760px;margin:0 auto;padding:0 18px;}
+.adv-root a {color:var(--green-dark);}
+.adv-root h1 {font-size:30px;line-height:1.22;font-weight:800;margin:0 0 12px;}
+.adv-root h2 {font-size:24px;line-height:1.25;font-weight:800;margin:40px 0 14px;}
+.adv-root h3 {font-size:19px;font-weight:800;margin:0 0 8px;}
+.adv-root p {margin:0 0 15px;}
+.adv-root strong {color:#0f1722;}
+.adv-root em {color:var(--muted);}
+.adv-root .topbar {background:var(--green);color:#fff;text-align:center;padding:13px 10px;
+    font-weight:800;letter-spacing:.4px;font-size:15px;}
+.adv-root .hero {padding:30px 0 6px;text-align:center;}
+.adv-root .subhead {font-size:18px;color:#39434f;line-height:1.5;margin:0 0 18px;}
+.adv-root .author {display:flex;align-items:center;gap:12px;justify-content:center;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    padding:14px 0;margin:18px 0 10px;font-size:14px;color:var(--muted);text-align:left;}
+.adv-root .author .ava {width:46px;height:46px;border-radius:50%;background:var(--mint);object-fit:cover;
+    display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--green-dark);flex-shrink:0;}
+.adv-root .author b {color:var(--ink);}
+.adv-root .verified {color:var(--green-dark);font-weight:700;}
+.adv-root .imgrec {border:1px dashed #b7c0cb;background:#fbfdf7;border-radius:10px;
+    padding:20px 18px;margin:14px 0 6px;text-align:center;}
+.adv-root .imgrec .tag {display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.6px;
+    text-transform:uppercase;color:var(--green-dark);background:var(--mint);
+    padding:3px 9px;border-radius:20px;margin-bottom:9px;}
+.adv-root .imgrec .desc {font-size:13.5px;color:#41505f;line-height:1.5;max-width:560px;margin:0 auto;}
+.adv-root figure.adv {margin:14px 0 6px;}
+.adv-root figure.adv img {width:100%;border-radius:10px;display:block;}
+.adv-root .caption {font-size:13px;font-style:italic;color:var(--muted);text-align:center;margin:6px 0 20px;}
+.adv-root .quals {background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0;}
+.adv-root .quals p {margin:0 0 12px;padding-left:22px;position:relative;font-size:16px;}
+.adv-root .quals p:last-child {margin-bottom:0;}
+.adv-root .quals p:before {content:"\2192";position:absolute;left:0;color:var(--green-dark);font-weight:800;}
+.adv-root .statbox {background:var(--green);color:#fff;border-radius:14px;padding:26px 22px;
+    margin:24px 0;text-align:center;}
+.adv-root .statbox .big {font-size:54px;font-weight:900;color:#fff;line-height:1;}
+.adv-root .statbox p {margin:10px 0 0;font-size:15px;color:#f4f8e8;}
+.adv-root .statbox .src {font-size:11.5px;color:rgba(255,255,255,.78);margin-top:8px;}
+.adv-root .receipt {background:#fff;border:1px solid var(--line);border-radius:14px;
+    padding:8px 0;margin:18px 0;overflow:hidden;}
+.adv-root .receipt .rrow {display:flex;justify-content:space-between;align-items:center;
+    padding:13px 20px;border-bottom:1px solid #f0f3f7;font-size:15.5px;}
+.adv-root .receipt .rrow:last-child {border-bottom:none;}
+.adv-root .receipt .x {color:var(--red);font-weight:800;}
+.adv-root .receipt .ck {color:var(--green-dark);font-weight:800;}
+.adv-root .receipt .total {font-weight:800;background:#faf3f2;}
+.adv-root .receipt .win {font-weight:800;background:var(--mint);}
+.adv-root .receipt .price {font-variant-numeric:tabular-nums;}
+.adv-root .step {background:#fff;border:1px solid var(--line);border-left:5px solid var(--green);
+    border-radius:10px;padding:16px 18px;margin:14px 0;}
+.adv-root .step .lbl {font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;
+    color:var(--green-dark);margin-bottom:4px;}
+.adv-root .grid {display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0;}
+.adv-root .ing {background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;}
+.adv-root .ing .ico {font-size:24px;}
+.adv-root .ing .nm {font-weight:800;margin:6px 0 1px;font-size:16px;}
+.adv-root .ing .dose {font-size:12.5px;color:var(--green-dark);font-weight:700;margin-bottom:7px;}
+.adv-root .ing .dsc {font-size:13.5px;color:#46535f;line-height:1.5;}
+.adv-root .pcard {background:#fff;border:2px solid var(--green);border-radius:16px;
+    padding:22px;text-align:center;margin:26px 0;box-shadow:0 6px 24px rgba(111,148,16,.10);}
+.adv-root .pcard .pimg {width:100%;max-width:300px;border-radius:10px;margin:0 auto 14px;display:block;}
+.adv-root .pcard .stars {color:var(--amber);font-size:18px;letter-spacing:2px;}
+.adv-root .pcard .rev {font-size:13px;color:var(--muted);margin:3px 0 10px;}
+.adv-root .pcard .price {font-size:30px;font-weight:900;}
+.adv-root .pcard .price small {font-size:15px;color:var(--muted);font-weight:600;}
+.adv-root .pcard .offer {display:inline-block;background:var(--mint);color:var(--green-dark);
+    font-weight:800;font-size:13px;padding:5px 12px;border-radius:20px;margin:8px 0 4px;}
+.adv-root .guar {font-size:13.5px;color:var(--muted);margin-top:10px;}
+.adv-root .cta {display:block;width:100%;background:var(--green);color:#fff;text-align:center;
+    font-weight:800;font-size:18px;padding:17px;border-radius:10px;text-decoration:none;
+    margin:14px 0 4px;letter-spacing:.3px;}
+.adv-root .cta:hover {background:var(--green-dark);}
+.adv-root .tl {border-left:3px solid var(--green);margin:18px 0 18px 8px;padding-left:20px;}
+.adv-root .tl .ev {margin-bottom:20px;position:relative;}
+.adv-root .tl .ev:before {content:"";position:absolute;left:-27px;top:4px;width:12px;height:12px;
+    border-radius:50%;background:var(--green);border:3px solid #fff;box-shadow:0 0 0 1px var(--green);}
+.adv-root .tl .when {font-weight:800;font-size:14px;color:var(--green-dark);text-transform:uppercase;letter-spacing:.4px;}
+.adv-root .tl .what {margin-top:3px;}
+.adv-root .tcard {background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0;}
+.adv-root .tcard .top {display:flex;align-items:center;gap:11px;margin-bottom:8px;}
+.adv-root .tcard .ava {width:42px;height:42px;border-radius:50%;background:#e3ebd4;color:var(--green-dark);
+    font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.adv-root .tcard .who {font-size:13.5px;line-height:1.3;}
+.adv-root .tcard .who b {display:block;color:var(--ink);}
+.adv-root .tcard .who span {color:var(--muted);font-size:12.5px;}
+.adv-root .tcard .stars {color:var(--amber);font-size:14px;letter-spacing:1px;margin-bottom:6px;}
+.adv-root .tcard p {font-size:14.5px;color:#42505d;margin:0;}
+.adv-root .tcard .disc {font-size:11.5px;color:#9aa6b3;font-style:italic;margin-top:8px;}
+.adv-root .cmp {width:100%;border-collapse:collapse;margin:18px 0;font-size:13.5px;background:#fff;
+    border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+.adv-root .cmp th, .adv-root .cmp td {padding:11px 8px;text-align:center;border-bottom:1px solid #eef2f6;}
+.adv-root .cmp th {background:var(--green);color:#fff;font-size:12px;font-weight:700;}
+.adv-root .cmp th:first-child, .adv-root .cmp td:first-child {text-align:left;font-weight:600;color:#37424f;}
+.adv-root .cmp .col-us {background:var(--mint);font-weight:800;}
+.adv-root .cmp .yes {color:var(--green-dark);font-weight:800;}
+.adv-root .cmp .no {color:#c9ced4;font-weight:800;}
+.adv-root .cmp .mid {color:var(--amber);font-weight:800;}
+.adv-root .gbox {background:var(--mint);border:1px solid #d6e7a8;border-radius:14px;
+    padding:20px;text-align:center;margin:22px 0;}
+.adv-root .gbox .ic {font-size:30px;}
+.adv-root .gbox h3 {margin:6px 0 6px;}
+.adv-root .gbox p {font-size:14.5px;color:#3f4a3a;margin:0;}
+.adv-root .fb {background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0;}
+.adv-root .fb .top {display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+.adv-root .fb .ava {width:36px;height:36px;border-radius:50%;background:var(--green);color:#fff;
+    font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px;}
+.adv-root .fb b {font-size:14.5px;}
+.adv-root .fb p {font-size:14px;color:#3c4753;margin:4px 0 8px;}
+.adv-root .fb .meta {font-size:12px;color:var(--muted);}
+.adv-root .fb .react {font-size:12.5px;color:var(--muted);margin-top:5px;}
+.adv-root .dq {background:var(--green);color:#fff;border-radius:16px;padding:28px 24px;text-align:center;margin:26px 0;}
+.adv-root .dq h2 {color:#fff;margin-top:0;}
+.adv-root .dq p {color:#f4f8e8;font-size:15.5px;}
+.adv-root .dq .cta {margin-top:16px;background:#fff;color:var(--green-dark);}
+.adv-root .dq .cta:hover {background:#f1f6e2;}
+.adv-root .footer {background:var(--green);color:#f4f8e8;font-size:12px;line-height:1.7;padding:30px 0;margin-top:30px;}
+.adv-root .footer .container {text-align:center;}
+.adv-root .footer .legal {margin-top:10px;}
+.adv-root .rb {background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0;}
+.adv-root .rb .bar {display:flex;align-items:center;gap:8px;font-size:13px;margin-bottom:5px;color:var(--muted);}
+.adv-root .rb .track {flex:1;height:8px;background:#eef2f6;border-radius:6px;overflow:hidden;}
+.adv-root .rb .fill {height:100%;background:var(--green);}
+.adv-root .rb .subscores {display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:12px;
+    border-top:1px solid var(--line);padding-top:12px;font-size:13px;}
+.adv-root .rb .subscores b {color:var(--green-dark);}
+.adv-root .scta {position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#16330f;
+    box-shadow:0 -6px 24px rgba(0,0,0,.18);transform:translateY(110%);
+    transition:transform .28s ease;}
+.adv-root .scta.show {transform:translateY(0);}
+.adv-root .scta .inner {max-width:760px;margin:0 auto;padding:10px 16px;display:flex;
+    align-items:center;gap:14px;}
+.adv-root .scta img {width:48px;height:48px;border-radius:8px;object-fit:cover;flex-shrink:0;
+    background:#fff;}
+.adv-root .scta .info {flex:1;min-width:0;color:#f6f8f1;line-height:1.25;}
+.adv-root .scta .nm {font-weight:800;font-size:15px;white-space:nowrap;overflow:hidden;
+    text-overflow:ellipsis;}
+.adv-root .scta .sub {font-size:13px;color:#c9d6b6;margin-top:2px;}
+.adv-root .scta a.btn {flex-shrink:0;background:var(--green);color:#fff;text-decoration:none;
+    font-weight:800;font-size:16px;padding:13px 22px;border-radius:10px;
+    white-space:nowrap;letter-spacing:.2px;}
+.adv-root .scta a.btn:hover {background:var(--green-dark);}
+@media(max-width:560px) {.adv-root h1 {font-size:25px;}
+.adv-root .grid {grid-template-columns:1fr;}
+.adv-root .cmp {font-size:11.5px;}
+.adv-root .cmp th, .adv-root .cmp td {padding:8px 4px;}
+.adv-root .scta .inner {padding:9px 12px;gap:10px;}
+.adv-root .scta img {width:42px;height:42px;}
+.adv-root .scta .nm {font-size:14px;}
+.adv-root .scta .sub {font-size:12px;}
+.adv-root .scta a.btn {font-size:15px;padding:12px 16px;}}
+</style>
+<div class="adv-root">
+
+  <div class="topbar">GLP-1 Wellness Insider</div>
+
+  <div class="container">
+
+    <div class="hero">
+      <h1>Stuck on Your GLP-1? Bloated, Burping, and Going Days Without?</h1>
+      <p class="subhead">No more "cement stomach." No more sulfur burps that clear a room. No more sitting there waiting for something &#8212; anything &#8212; to happen. These celery juice gummies are helping <strong>10,000+ women</strong> on GLP-1 medications get their normal mornings back &#8212; here's exactly how it works.*</p>
+    </div>
+
+    <div class="author">
+      <img class="ava" src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/linda_k.png?v=1780370170" alt="Linda K.">
+      <div>
+        <b>Linda K.</b> &#8212; On Mounjaro&#174; for 11 months &#183; Lost 34 lbs<br>
+        GLP-1 Wellness Insider &#183; Updated April 2026 &#183; <span class="verified">&#10003; Verified GLP-1 User</span>
+      </div>
+    </div>
+
+    <div class="quals">
+      <p>If you've been on Ozempic&#174;, Wegovy&#174;, Mounjaro&#174;, Zepbound&#174;, or Rybelsus&#174; and your stomach feels like wet cement after every meal, you're bloated, and you haven't gone in days&#8230;</p>
+      <p>If you've already tried the obvious things &#8212; Miralax, fiber, stool softeners &#8212; and they either did nothing or made the bloating worse&#8230;</p>
+      <p>If you've started to wonder whether you'll have to quit the medication just to feel normal again&#8230;</p>
+    </div>
+
+    <p>I was you. I tried fiber. I tried laxatives. I tried stool softeners. Nothing worked. Some of them actually made the bloating worse. I was ready to quit Mounjaro&#174; and throw away thirty-four pounds of progress.</p>
+
+    <p>Then a friend showed me something that changed everything. It was designed specifically for people on GLP-1 medications &#8212; not a normal gut. A slow GLP-1 gut. Let me show you why it works when everything else doesn't.*</p>
+
+    <div class="statbox">
+      <div class="big">50%</div>
+      <p>of people quit their GLP-1 medication because of side effects like these. Motilli is built to help you stay in the other half &#8212; without giving up the weight loss.*</p>
+      <div class="src">Source: published GLP-1 discontinuation data, 2025</div>
+    </div>
+
+    <h2>The $150 Problem Nobody Adds Up</h2>
+
+    <p>Before I found what actually helped, I spent months buying things that were never going to work. Here's my actual receipt:</p>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/problem_receipt.png?v=1780351970" alt="Receipt showing the cabinet most GLP-1 patients buy &#8212; fiber gummies $12, Miralax $25, stool softener $18, mag citrate $9, prescription $90 &#8212; total wasted $154, all marked with a red X, versus Motilli at $29.99/mo aimed at the right organ.">
+    </figure>
+
+    <p>I was already paying over $900 a month for my Mounjaro. Thirty dollars to actually feel comfortable living in the body it was giving me &#8212; that math took me way too long to find.*</p>
+
+    <h2>Here's What Your Doctor Never Explained</h2>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/gut_hero.png?v=1780351972" alt="Your stomach basically stops moving &#8212; your GLP-1 slows your stomach by 50% or more, so food sits, ferments, and hardens.">
+    </figure>
+    <div class="caption">Your stomach basically stops moving &#8212; your GLP-1 slows your stomach by 50% or more, so food sits, ferments, and hardens.</div>
+
+    <p>Here's what nobody tells you when you start these medications: GLP-1s don't just quiet your appetite. They slow your stomach &#8212; the very top of your digestive system &#8212; by 50% or more. That's how they work. But it also means food stops moving when it should, sits where it shouldn't, and the problems start at the top, not in the colon.</p>
+
+    <p>I spent three weeks pouring things into my colon. Laxatives, fiber, stool softeners. None of it touched what was happening.</p>
+
+    <p><strong>Stimulant laxatives</strong> force your colon to contract. But the medication is already suppressing those contractions &#8212; so you're fighting your own prescription. Cramping, urgency, or nothing at all. And the colon was never the problem.</p>
+
+    <p><strong>Fiber supplements</strong> add bulk to push things along. Bulk needs movement to work &#8212; and my stomach had barely any. Adding bulk to a jammed system just made the bloating worse. Every woman I've talked to in the GLP-1 groups says the same thing about fiber.</p>
+
+    <p><strong>Miralax</strong> pulls water into the colon. But nothing was stuck in my colon &#8212; it was stuck in a stomach that wouldn't empty. Aimed at the wrong organ entirely, did nothing for the sulfur burps, and I kept needing more for less.*</p>
+
+    <p><strong>And the sulfur burps?</strong> Nothing in the laxative aisle even tries. That rotten-egg smell is hydrogen sulfide gas &#8212; food fermenting in a stomach that stopped moving. No laxative touches the gas, because no laxative works on the stomach.*</p>
+
+    <p>The fix isn't more force on the wrong end. It's doing three specific things at the same time, on the organ that's actually slowed.*</p>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/what_works.png?v=1780351975" alt="What doesn't work versus what does: fiber, stimulant laxatives, Miralax, and stool softeners all miss &#8212; while apigenin, copper chlorophyllin, low-bulk soluble fiber, and folate + B6 are built for a slowed GLP-1 stomach.">
+    </figure>
+
+    <h2>One More Thing &#8212; And This Was My Biggest Question</h2>
+
+    <p>Before I go further: when I first read that something could restore my stomach's movement, my first thought was that it would cancel my weight loss.</p>
+
+    <p>It won't. And I want to explain why, because it almost stopped me from trying this.</p>
+
+    <p>Your medication does two separate things to your stomach. One part controls how fast food empties out &#8212; that's the slowdown that makes you feel full faster. That's the appetite suppression. That's the weight loss. Your medication does that on purpose, and you want to keep it.</p>
+
+    <p>The other part is the natural muscle movement that should still be carrying food through the stomach &#8212; that movement also stalls on the medication, and that's where the backup comes from. That's what Motilli restores.</p>
+
+    <p>Two different jobs. Two different parts of the stomach. Motilli only touches the second one. My appetite suppression never changed. I'm still losing weight. I just stopped paying the tax for it every single day.*</p>
+
+    <h2>The Three-Part Formula That Works On The Stomach*</h2>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/motilli_jar.png?v=1780349344" alt="Motilli celery juice fiber gummies &#8212; the three-part daily formula for a slowed GLP-1 stomach.">
+    </figure>
+
+    <p>When I went looking for something that did all three &#8212; at the doses that actually matter &#8212; I couldn't find it on the supplement shelf. What's out there is mostly a general gut gummy with a new label. The one formula built specifically for a slowed GLP-1 stomach is <strong>Motilli</strong>. Here's what each part does, and why all three have to work together:*</p>
+
+    <div class="step">
+      <div class="lbl">Part 1 &#8212; Motility</div>
+      <strong>Apigenin, from cold-pressed celery juice concentrate.</strong> It supports the stomach's natural muscle movement &#8212; the exact signal the medication quieted. It doesn't override the medication. It restores the carrying movement without touching the fullness control.*
+    </div>
+    <div class="step">
+      <div class="lbl">Part 2 &#8212; Gas neutralization</div>
+      <strong>Sodium copper chlorophyllin.</strong> It binds directly to hydrogen sulfide &#8212; the specific molecule behind the rotten-egg burps &#8212; and disarms it before it rises. It doesn't mask the smell. It neutralizes what makes it.*
+    </div>
+    <div class="step">
+      <div class="lbl">Part 3 &#8212; Downstream flow</div>
+      <strong>Low-bulk soluble prebiotic fiber.</strong> The opposite of the bulking fiber that made me feel worse. It softens and draws in moisture <em>without</em> adding bulk to a system that's already jammed &#8212; so things clear once the stomach starts moving again.*
+    </div>
+
+    <p><strong>Why all three, and not just one?</strong> Restore movement but leave the sulfur gas, and the gas keeps distending the stomach and slowing it back down. Neutralize the gas but never restore movement, and food keeps sitting and making more. Soften downstream but leave the stomach stalled, and nothing new arrives to move. Each one alone is a door with two locks still shut. That's why the single-ingredient products I tried first did a little, then stopped.*</p>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/mechanism_split.png?v=1780349341" alt="Two-panel diagram: every laxative aims at the colon/exit, while Motilli works at the stomach with three actions &#8212; motility, sulfur, soften.">
+    </figure>
+    <div class="caption">The whole cabinet aims at the exit. Motilli works where the slowdown actually starts.</div>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/benefit_card.png?v=1780351977" alt="Three benefits: gentle daily regularity from apigenin, an end to sulfur burps from chlorophyll, and restored energy and clarity from methylated folate + B6.">
+    </figure>
+
+    <h2>What's Inside Motilli &#8212; And Why Each One Matters*</h2>
+
+    <div class="grid">
+      <div class="ing">
+        <div class="ico">&#127793;</div>
+        <div class="nm">Celery Juice Concentrate</div>
+        <div class="dose">Standardized for Apigenin</div>
+        <div class="dsc">Supports the stomach's natural muscle movement your medication quieted, so food moves through instead of sitting and fermenting.*</div>
+      </div>
+      <div class="ing">
+        <div class="ico">&#128994;</div>
+        <div class="nm">Sodium Copper Chlorophyllin</div>
+        <div class="dose">Concentrated form</div>
+        <div class="dsc">Binds hydrogen sulfide &#8212; the gas behind egg burps &#8212; and neutralizes it at the source instead of covering the smell.*</div>
+      </div>
+      <div class="ing">
+        <div class="ico">&#128167;</div>
+        <div class="nm">Low-Bulk Soluble Fiber</div>
+        <div class="dose">Prebiotic, gel-forming</div>
+        <div class="dsc">Softens and lubricates without adding bulk to a backed-up system. The opposite of the fiber that makes bloating worse.*</div>
+      </div>
+      <div class="ing">
+        <div class="ico">&#9889;</div>
+        <div class="nm">Folate (5-MTHF) + B6</div>
+        <div class="dose">Methylated, bioavailable</div>
+        <div class="dsc">When you eat less, you absorb less. These are in the active forms your body can actually use &#8212; not the cheap forms it can't.*</div>
+      </div>
+      <div class="ing">
+        <div class="ico">&#128737;&#65039;</div>
+        <div class="nm">Vitamins A, C &amp; K</div>
+        <div class="dose">Daily support</div>
+        <div class="dsc">The nutrients that quietly run low on a reduced-calorie GLP-1 diet, built into the same two gummies.*</div>
+      </div>
+      <div class="ing">
+        <div class="ico">&#127811;</div>
+        <div class="nm">No Stimulants. No Bulk.</div>
+        <div class="dose">No forcing</div>
+        <div class="dsc">Nothing that forces a contraction your medication is suppressing. It works with the slowed system, not against it &#8212; so no cramping.*</div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <img class="pimg" src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/motilli_jar.png?v=1780349344" alt="Motilli &#8212; Celery Juice Fiber Gummies jar">
+      <h3>Motilli &#8212; Celery Juice Fiber Gummies</h3>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="rev">4.7 out of 5 &#183; 2,107 reviews</div>
+      <div class="price">$29.99<small> /mo</small></div>
+      <div class="offer">&#9733; Buy 2, Get 1 FREE &#8212; limited time</div>
+      <a class="cta" href="https://getmotilli.com/products/motilli-3-bottle-90day-reset">Start Feeling Normal Again &#8594;</a>
+      <div class="guar">&#128155; 90-Day Money-Back Guarantee</div>
+    </div>
+
+    <h2>What Happened to Me &#8212; Week by Week</h2>
+
+    <p>I was skeptical. I'd already tried everything. But the mechanism made sense in a way that nothing else had. So I ordered a jar. Two gummies after dinner. And here's what happened:*</p>
+
+    <div class="tl">
+      <div class="ev">
+        <div class="when">Day 1</div>
+        <div class="what">Two gummies after dinner. No cramping. No urgency. Just went to bed normally.*</div>
+      </div>
+      <div class="ev">
+        <div class="when">Days 3&#8211;5</div>
+        <div class="what">The burps went first. I ate the onion rings at dinner on day four because my husband ordered them and I thought, fine, I'll deal with it later. I didn't have to.*</div>
+      </div>
+      <div class="ev">
+        <div class="when">Week 1&#8211;2</div>
+        <div class="what">The cement started lifting. I went on my own &#8212; no Miralax, no pushing, just normal. I actually sat there for a second not believing it was happening.*</div>
+      </div>
+      <div class="ev">
+        <div class="when">Week 3&#8211;4</div>
+        <div class="what">I stopped planning my day around the bathroom. My daughter's birthday dinner, I stayed for the whole thing. Didn't think about it once until the drive home, when I realized I hadn't thought about it.*</div>
+      </div>
+      <div class="ev">
+        <div class="when">Month 2+</div>
+        <div class="what">Normal most mornings. Still on my Mounjaro. Still losing weight. My sister started asking what changed because she said I just looked different &#8212; more relaxed, she said. She's on Ozempic. I sent her a jar.*</div>
+      </div>
+    </div>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/relief_family.png?v=1780349349" alt="A woman in her late 50s relaxed and mid-laugh at an outdoor family table.">
+    </figure>
+    <div class="caption">The marker isn't a lab number. It's the afternoon you stay for the whole thing.</div>
+
+    <h2>Why I Started Writing About This At All</h2>
+
+    <div class="author" style="border:none;padding:0;margin:6px 0 14px;">
+      <img class="ava" src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/linda_k.png?v=1780370170" alt="Linda K.">
+      <div><b>Linda K.</b> &#8212; On Mounjaro&#174; 11 months &#183; GLP-1 Wellness Insider</div>
+    </div>
+
+    <p>I've been in the GLP-1 support groups for almost a year. I watch the same conversation happen every single week &#8212; someone posts that they're ready to quit their medication because the constipation is unbearable, everyone recommends Miralax and fiber, it doesn't work, they ask what else there is. Nobody mentions that the whole category of solutions is aimed at the wrong organ.</p>
+
+    <p>I'm not a doctor. I'm a retired high school principal from Ohio who spent three nights reading PubMed at midnight because I wasn't willing to give up thirty-four pounds. When I found the stomach-versus-colon explanation, everything I'd tried made sense for the first time &#8212; it wasn't that I'd been unlucky, it was that every product I'd tried was built for a different body.</p>
+
+    <p>If I'd understood this in month one, I would have saved four months and about $150. That's why I write about it now.*</p>
+
+    <a class="cta" href="https://getmotilli.com/products/motilli-3-bottle-90day-reset">Get Gentle Relief Now &#8594;</a>
+    <p style="text-align:center;font-size:13.5px;color:var(--muted);">90-Day Money-Back Guarantee &#183; Made in USA</p>
+
+    <h2>What Women Are Telling Me</h2>
+
+    <div class="tcard">
+      <div class="top">
+        <div class="ava">C</div>
+        <div class="who"><b>Carol R., 59</b><span>On Wegovy&#174; for 7 months</span></div>
+      </div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p>"I'd tried everything &#8212; Miralax every single day, mag citrate, three kinds of fiber. I was so sure this was just another gummy I almost didn't order. Week one my husband noticed the burps were gone before I did. By week five I'd stopped the Miralax completely, which I hadn't managed in a year. Still on my Wegovy, still losing. I just don't dread eating anymore."</p>
+      <div class="disc">*Results may vary. Individual experience.</div>
+    </div>
+
+    <div class="tcard">
+      <div class="top">
+        <div class="ava">J</div>
+        <div class="who"><b>Janet M., 63</b><span>On Mounjaro&#174; for 10 months</span></div>
+      </div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p>"The part that got me was being able to delete the note on my phone where I tracked the last time I'd gone &#8212; that's how bad Mounjaro made it. I'm on my second jar and I deleted it last week. Didn't even notice until my daughter asked how I was doing. The buy-two-get-one meant I could send the spare to my sister, who's on Ozempic and right where I was a year ago."</p>
+      <div class="disc">*Results may vary. Individual experience.</div>
+    </div>
+
+    <div class="tcard">
+      <div class="top">
+        <div class="ava">S</div>
+        <div class="who"><b>Sue D., 61</b><span>On Ozempic&#174; for 13 months</span></div>
+      </div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p>"I'm a retired nurse, so I've seen every supplement scam there is. What sold me was that it didn't pretend to be a cure-all &#8212; it does three specific things and that's it. Sulfur burps gone in about a week. The bloating took longer, maybe three weeks. By two months I sat through my granddaughter's whole recital &#8212; the year before I'd left halfway through. Worth every penny."</p>
+      <div class="disc">*Results may vary. Individual experience.</div>
+    </div>
+
+    <div class="tcard">
+      <div class="top">
+        <div class="ava">D</div>
+        <div class="who"><b>Donna K., 56</b><span>On Zepbound&#174; for 5 months</span></div>
+      </div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p>"Eight days without going. Fiber made it worse, Miralax barely touched it. I wanted to understand why this would be different, and the stomach-not-colon thing finally made sense. No cramps, no emergency &#8212; it just gently started working by the end of the first week. I'm staying on my medication now. I wasn't going to before."</p>
+      <div class="disc">*Results may vary. Individual experience.</div>
+    </div>
+
+    <h2>Motilli vs. Everything Else You've Tried</h2>
+
+    <div class="cmp-wrap">
+    <table class="cmp">
+      <tr>
+        <th>&nbsp;</th><th class="col-us">Motilli</th><th>Miralax</th><th>Fiber</th><th>Stimulant Laxatives</th><th>Mag Citrate</th><th>Doing Nothing</th>
+      </tr>
+      <tr><td>Works on the stomach, not the colon</td><td class="col-us yes">&#10003;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td></tr>
+      <tr><td>Neutralizes sulfur gas at the source</td><td class="col-us yes">&#10003;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td></tr>
+      <tr><td>Restores motility without forcing</td><td class="col-us yes">&#10003;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td></tr>
+      <tr><td>Soluble fiber that won't bulk a jammed gut</td><td class="col-us yes">&#10003;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td></tr>
+      <tr><td>No cramping or urgency</td><td class="col-us yes">&#10003;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td></tr>
+      <tr><td>Built specifically for GLP-1 slowdown</td><td class="col-us yes">&#10003;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td></tr>
+      <tr><td>90-Day Money-Back Guarantee</td><td class="col-us yes">&#10003;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td><td class="no">&#10007;</td></tr>
+    </table>
+    </div>
+
+    <figure class="adv">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/dont_quit.png?v=1780351981" alt="Don't quit your GLP-1 over one side effect &#8212; fix it. Motilli with a 90-day money-back guarantee.">
+    </figure>
+
+    <div class="dq">
+      <h2>Don't Quit Your Medication Over This.</h2>
+      <p>Your medication is doing its job. Your stomach just needs the right support to catch up.* People who quit early lose far less of the weight than those who stay. You shouldn't have to choose between losing the weight and feeling human &#8212; and with Motilli, you don't.*</p>
+      <a class="cta" href="https://getmotilli.com/products/motilli-3-bottle-90day-reset">Start Feeling Normal Again &#8594;</a>
+    </div>
+
+    <div class="gbox">
+      <div class="ic">&#128155;</div>
+      <h3>90-Day Money-Back Guarantee</h3>
+      <p>Try Motilli for a full 90 days. The longer your stomach has been slowed, the longer it takes to restore its natural muscle movement &#8212; so use every day of it. If your digestion hasn't come back, you get every cent back. No questions.*</p>
+    </div>
+
+    <h2>&#128172; What Women Are Saying</h2>
+
+    <div class="fb">
+      <div class="top"><div class="ava">P</div><div><b>Patricia W.</b></div></div>
+      <p>Four days without going on Wegovy&#174;, stomach like concrete. Tried this after seeing it in a GLP-1 support group. By the end of the first week I was going on my own &#8212; no cramping, no running to the bathroom, just relief. I genuinely wish someone had told me about this months ago.*</p>
+      <div class="meta">Like &#183; Reply &#183; 3h</div>
+      <div class="react">&#128077; 847 &#10084;&#65039; 312 &#128522; 156</div>
+    </div>
+
+    <div class="fb">
+      <div class="top"><div class="ava">M</div><div><b>Margaret T.</b></div></div>
+      <p>The egg burps were ruining my life on Ozempic&#174;. Antacids, ginger tea, everything. This is the first thing that went after the actual gas instead of covering it. Within a week they were basically gone. The bloating took a little longer but it went too.*</p>
+      <div class="meta">Like &#183; Reply &#183; 5h</div>
+      <div class="react">&#128077; 623 &#10084;&#65039; 201 &#128522; 89</div>
+    </div>
+
+    <div class="fb">
+      <div class="top"><div class="ava">D</div><div><b>Deborah K.</b></div></div>
+      <p>What sold me was that it works on the stomach, not the colon. I'd been pouring Miralax into the wrong end of the problem for a year. Two gummies after dinner. Took about a week and a half, then things just&#8230; started working. Still on my Mounjaro&#174;.*</p>
+      <div class="meta">Like &#183; Reply &#183; 8h</div>
+      <div class="react">&#128077; 445 &#10084;&#65039; 178 &#128522; 67</div>
+    </div>
+
+    <div class="fb">
+      <div class="top"><div class="ava">R</div><div><b>Rebecca S.</b></div></div>
+      <p>I was about to quit Zepbound&#174; because the constipation was unbearable. Fiber, laxatives, prescription &#8212; nothing, or worse. Skeptical but desperate. Gentle, no cramps, and by the second week I was regular for the first time in months. I'm not quitting my medication anymore.*</p>
+      <div class="meta">Like &#183; Reply &#183; 12h</div>
+      <div class="react">&#128077; 1.2k &#10084;&#65039; 445 &#128522; 203</div>
+    </div>
+
+    <div class="pcard">
+      <img class="pimg" src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/motilli_jar.png?v=1780349344" alt="Motilli &#8212; Celery Juice Fiber Gummies jar">
+      <h3>Motilli &#8212; Celery Juice Fiber Gummies</h3>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="rev">4.7 out of 5 &#183; 2,107 reviews</div>
+      <div class="price">$29.99<small> /mo</small></div>
+      <div class="offer">&#9733; Buy 2, Get 1 FREE &#8212; limited time</div>
+      <a class="cta" href="https://getmotilli.com/products/motilli-3-bottle-90day-reset">Get Gentle Relief Now &#8594;</a>
+      <div class="guar">&#128155; 90-Day Money-Back Guarantee &#183; Made in USA</div>
+
+      <div class="rb" style="margin-top:18px;border:none;">
+        <div class="bar"><span>5&#9733;</span><div class="track"><div class="fill" style="width:81%"></div></div><span>81%</span></div>
+        <div class="bar"><span>4&#9733;</span><div class="track"><div class="fill" style="width:12%"></div></div><span>12%</span></div>
+        <div class="bar"><span>3&#9733;</span><div class="track"><div class="fill" style="width:4%"></div></div><span>4%</span></div>
+        <div class="bar"><span>2&#9733;</span><div class="track"><div class="fill" style="width:2%"></div></div><span>2%</span></div>
+        <div class="bar"><span>1&#9733;</span><div class="track"><div class="fill" style="width:1%"></div></div><span>1%</span></div>
+        <div class="subscores">
+          <span>Regularity <b>4.8&#9733;</b></span>
+          <span>Sulfur Burps <b>4.7&#9733;</b></span>
+          <span>Ingredient Quality <b>4.8&#9733;</b></span>
+          <span>Value <b>4.6&#9733;</b></span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+      <div class="legal">
+        Ozempic&#174; and Wegovy&#174; are registered trademarks of Novo Nordisk A/S. Mounjaro&#174;, Zepbound&#174;, and Rybelsus&#174; are trademarks of their respective owners. Motilli is not affiliated with, endorsed by, or sponsored by Novo Nordisk or Eli Lilly.
+      </div>
+      <div class="legal">
+        Results may vary. Individual experiences. The testimonials on this page reflect the personal experiences of individual customers and are not intended to represent typical results.
+      </div>
+      <div class="legal">&#169; 2026 Motilli. All Rights Reserved. &#183; Privacy Policy &#183; Terms of Use</div>
+      <div class="legal" style="text-transform:uppercase;letter-spacing:.4px;margin-top:8px;">This is an advertisement and not an actual news article, blog, or consumer protection update.</div>
+    </div>
+  </div>
+
+  <div class="scta" id="scta">
+    <div class="inner">
+      <img src="https://cdn.shopify.com/s/files/1/0975/3201/9055/files/motilli_jar.png?v=1780349344" alt="Motilli">
+      <div class="info">
+        <div class="nm">Motilli &#8212; Celery Juice Fiber Gummies</div>
+        <div class="sub">$29.99 &#183; 90-Day Guarantee</div>
+      </div>
+      <a class="btn" href="https://getmotilli.com/products/motilli-3-bottle-90day-reset">&#10003; Get Relief &#8594;</a>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var bar = document.getElementById('scta');
+      var reveal = document.querySelector('.step') || document.querySelector('.pcard');
+      var lastCard = document.querySelectorAll('.pcard');
+      lastCard = lastCard[lastCard.length-1] || null;
+      function onScroll(){
+        var revealY = reveal ? reveal.getBoundingClientRect().top : 600;
+        var pastReveal = revealY < window.innerHeight * 0.5;
+        var atFooter = lastCard && lastCard.getBoundingClientRect().top < window.innerHeight;
+        if(pastReveal && !atFooter){ bar.classList.add('show'); }
+        else{ bar.classList.remove('show'); }
+      }
+      window.addEventListener('scroll', onScroll, {passive:true});
+      window.addEventListener('resize', onScroll, {passive:true});
+      onScroll();
+    })();
+  </script>
+
+</div>

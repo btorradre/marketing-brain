@@ -1,0 +1,5 @@
+local ad={[ [=[name]=] ]=[=[VEL-OM-H1-A1-R2]=],[ [=[original_id]=] ]=[=[VEL-OM-H1-A1]=],[ [=[hook_id]=] ]=[=[H1]=],[ [=[duration_frames]=] ]=1539,[ [=[otio]=] ]=[=[/Users/brooksorradre2/Documents/marketing brain/brands/velantra/creative/old-money-look-2026-09-10/production/revision-2/resolve/VEL-OM-H1-A1-R2.otio]=],[ [=[visual_clips]=] ]=15,[ [=[audio_clips]=] ]=11}
+local pm=r:GetProjectManager() local p=pm:GetCurrentProject() assert(p:GetName()=="VEL_Eleanor_OldMoney_RawPhone_R2_2026-09-11") if p:IsRenderingInProgress() then p:StopRendering() end
+local old=p:GetCurrentTimeline() assert(old:GetName()==ad.name) assert(old:SetName(ad.name.."-IMPORT-CHECK-TWO"))
+local t=p:GetMediaPool():ImportTimelineFromFile(ad.otio,{timelineName=ad.name}) assert(t) p:SetCurrentTimeline(t) assert(pm:SaveProject()) local m=t:GetItemListInTrack("video",1)[1]:GetMediaPoolItem()
+return {name=t:GetName(),source=m:GetClipProperty("File Path"),type=m:GetClipProperty("Type"),duration=m:GetClipProperty("Duration")}

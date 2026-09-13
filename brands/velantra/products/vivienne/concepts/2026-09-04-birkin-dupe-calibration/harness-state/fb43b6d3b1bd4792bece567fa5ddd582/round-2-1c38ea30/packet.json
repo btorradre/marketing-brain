@@ -1,0 +1,178 @@
+{
+  "number": 2,
+  "stage": "script",
+  "creator_id": "root-creative-author",
+  "artifacts": {
+    "script": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/fb43b6d3b1bd4792bece567fa5ddd582/round-2-1c38ea30/db0c28b6679fd99ce55fd7546dd18198d95ed50a62a0ce693e4c3f481c36d545.md",
+      "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/script-v2.md",
+      "packet_path": "script-v2.md",
+      "sha256": "db0c28b6679fd99ce55fd7546dd18198d95ed50a62a0ce693e4c3f481c36d545"
+    }
+  },
+  "context": {
+    "product_truth": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/fb43b6d3b1bd4792bece567fa5ddd582/round-2-1c38ea30/acc65bc39f62aec1a96323e0f793cd72fe90aaa729c2729dd142af38b01f244b.json",
+      "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/evidence/product-truth-evidence.json",
+      "packet_path": "evidence/product-truth-evidence.json",
+      "sha256": "acc65bc39f62aec1a96323e0f793cd72fe90aaa729c2729dd142af38b01f244b"
+    },
+    "customer_voice": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/fb43b6d3b1bd4792bece567fa5ddd582/round-2-1c38ea30/8db6251942c2d95be8d8ce4a07787fc01014e176c912c21c77d57fc6d07af5a6.json",
+      "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/evidence/customer-voice-evidence.json",
+      "packet_path": "evidence/customer-voice-evidence.json",
+      "sha256": "8db6251942c2d95be8d8ce4a07787fc01014e176c912c21c77d57fc6d07af5a6"
+    },
+    "avatar_brief": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/fb43b6d3b1bd4792bece567fa5ddd582/round-2-1c38ea30/4b863be4922ad1f329453150a6ca5ffc8ba544f20d40145c28254b9d7dcc5670.json",
+      "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/avatar-brief.json",
+      "packet_path": "avatar-brief.json",
+      "sha256": "4b863be4922ad1f329453150a6ca5ffc8ba544f20d40145c28254b9d7dcc5670"
+    },
+    "reference": {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/fb43b6d3b1bd4792bece567fa5ddd582/round-2-1c38ea30/1aedb85842673ec336dd1b171d177b786de29d7c9a4904dd70f26580d52dfb6f.md",
+      "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/reference-analysis.md",
+      "packet_path": "reference-analysis.md",
+      "sha256": "1aedb85842673ec336dd1b171d177b786de29d7c9a4904dd70f26580d52dfb6f"
+    }
+  },
+  "reviews": {},
+  "results": {},
+  "rubrics": {
+    "copy": {
+      "schema_version": 1,
+      "id": "copy",
+      "version": "0.1.0",
+      "calibration_status": "provisional",
+      "artifact_kind": "script",
+      "pass_threshold": 90,
+      "scale": {
+        "min": 0,
+        "max": 4,
+        "meaning": "0 absent/unacceptable; 1 major failures; 2 meaningful revision; 3 acceptable; 4 exemplary"
+      },
+      "criteria": [
+        {
+          "id": "claim_truth",
+          "weight": 20,
+          "minimum_score": 3,
+          "required_evidence": [
+            "artifact",
+            "product_truth"
+          ],
+          "description": "Every product, comparison, price, scarcity and first-person experience claim has support.",
+          "critical_failure_conditions": [
+            "Fabricated ownership/testimonial, unverified feature or material, false equivalence to a named luxury product, or invented offer."
+          ],
+          "anchors": {
+            "0": "Unsupported or contradicted claim.",
+            "1": "Claims changed without locating factual support.",
+            "2": "Mostly supported; qualifications or scope remain ambiguous.",
+            "3": "Every claim supported and qualified; no invented first-person experience.",
+            "4": "Claim-to-source ledger is complete; persuasive specificity preserves every source limitation."
+          }
+        },
+        {
+          "id": "customer_voice",
+          "weight": 20,
+          "minimum_score": 3,
+          "required_evidence": [
+            "artifact",
+            "customer_voice"
+          ],
+          "description": "Use documented customer phrasing, objections and language patterns; reference-ad language is not customer evidence.",
+          "critical_failure_conditions": [
+            "Presenting invented customer quotations as genuine."
+          ],
+          "anchors": {
+            "0": "No customer-language evidence or language contradicts it.",
+            "1": "Generic ad language dominates.",
+            "2": "Some authentic phrases; obvious jargon or pasted quotes.",
+            "3": "Customer phrasing and objections sound native in a fresh script.",
+            "4": "Distinctive voice remains natural across hook, proof and CTA; every borrowed phrase has provenance."
+          }
+        },
+        {
+          "id": "spoken_naturalness",
+          "weight": 20,
+          "minimum_score": 3,
+          "required_evidence": [
+            "artifact"
+          ],
+          "description": "Read the complete script aloud; assess breath groups, transitions, conversational rhythm and awkward phrasing.",
+          "critical_failure_conditions": [],
+          "anchors": {
+            "0": "Unusable when spoken.",
+            "1": "Repeated written prose, unnatural hype or broken transitions.",
+            "2": "Understandable with several stilted lines.",
+            "3": "Natural on read-through; concise speech with credible emotional progression.",
+            "4": "Effortless speech, varied rhythm, specific language and no line requiring performance to disguise awkward wording."
+          }
+        },
+        {
+          "id": "avatar_fit",
+          "weight": 15,
+          "minimum_score": 3,
+          "required_evidence": [
+            "artifact",
+            "avatar_brief",
+            "customer_voice"
+          ],
+          "description": "Match the intended customer's situation, objection and desired outcome; demographic stereotypes are not evidence.",
+          "critical_failure_conditions": [],
+          "anchors": {
+            "0": "Wrong audience or incompatible purchase context.",
+            "1": "Assumes motivations without support.",
+            "2": "Relevant audience with generic pain or outcome.",
+            "3": "Specific situation and objections fit the supplied avatar evidence.",
+            "4": "Precise emotional and practical relevance without stereotyping or unsupported assumptions."
+          }
+        },
+        {
+          "id": "hook_argument",
+          "weight": 15,
+          "minimum_score": 3,
+          "required_evidence": [
+            "artifact",
+            "reference"
+          ],
+          "description": "Adapt the reference's persuasive structure to verified product truth; deliver the hook's promised payoff.",
+          "critical_failure_conditions": [
+            "Bait claim that the product or script cannot support."
+          ],
+          "anchors": {
+            "0": "No coherent hook or payoff.",
+            "1": "Hook and argument conflict.",
+            "2": "Clear angle but generic proof or weak payoff.",
+            "3": "Specific hook, logical proof and earned payoff preserve relevant reference mechanics.",
+            "4": "Compelling sequence with each beat earning the next and every promise resolved."
+          }
+        },
+        {
+          "id": "cta_offer",
+          "weight": 10,
+          "minimum_score": 3,
+          "required_evidence": [
+            "artifact",
+            "product_truth"
+          ],
+          "description": "Use one clear, proportionate action and the actual verified offer; omit offers absent from source.",
+          "critical_failure_conditions": [
+            "Invented urgency, discount, guarantee or price."
+          ],
+          "anchors": {
+            "0": "False or incoherent offer.",
+            "1": "Conflicting actions or unsupported urgency.",
+            "2": "Understandable CTA but weak transition.",
+            "3": "Clear action, accurate offer and natural transition.",
+            "4": "Efficient CTA follows the audience's resolved objection without introducing friction."
+          }
+        }
+      ]
+    }
+  },
+  "rubric_hashes": {
+    "copy": "7c838d0bbdde611bf662537abeaa1000640b74cef22c4eebf6af9e7c246e719c"
+  },
+  "packet_hash": "323db5cf1b94158c6b99bcd0d01cd1c4672f4c955f512bfc9cb5801044305328"
+}

@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local pm=r:GetProjectManager();local p=pm:GetCurrentProject();if p then assert(not p:IsRenderingInProgress(),'Other render active');assert(pm:SaveProject());print('PRESERVED_PROJECT',p:GetName()) end;local target=pm:LoadProject('MOT-UGC-YAPPER-01 v6 20260909');assert(target);print('LOADED_PROJECT',target:GetName(),target:GetTimelineCount())

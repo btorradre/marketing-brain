@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "Portico",
+        "description_override": "<p>The Portico takes its character from a compact bucket shape and a richly grained surface. A gently flared opening sits above a rounded base, while two flat handles keep the outline simple. The vertical front strap, hanging gold-tone padlock and separate key cover form the finishing details. With its sculpted proportions and understated hardware, it brings a considered point of interest to an everyday look.</p>",
+        "fact_material": "Grained finish",
+        "fact_detail": "Compact bucket silhouette",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Compact bucket shape with two flat handles, a flared opening and rounded base. Vertical front strap, hanging padlock and separate key cover.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Grained surface with gold-tone fittings. Wipe gently with a soft, dry cloth. Avoid soaking and abrasive cleaners. Store lightly filled, away from heat and sunlight.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "The Rhythm Of Making",
+        "text": "<p>A closer look at the Portico.</p>"
+      }
+    },
+    "value": {
+      "type": "value-breakdown",
+      "disabled": true,
+      "settings": {
+        "default_asset": "",
+        "image_description": "The Portico",
+        "image_fit": "contain",
+        "heading": "Luxury, Without The Logo",
+        "table_caption": "The Portico: visible design details",
+        "product_heading": "The Portico",
+        "detail_heading": "Detail",
+        "purpose_heading": "The purpose"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

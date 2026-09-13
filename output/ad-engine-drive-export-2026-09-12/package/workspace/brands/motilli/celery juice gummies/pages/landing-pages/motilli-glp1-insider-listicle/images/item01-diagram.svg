@@ -1,0 +1,54 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Digestive diagram: GLP-1 constipation starts at the stomach (on-ramp), not the colon (off-ramp)">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#95c219" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#95c219" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="718" height="438" rx="14" fill="#f6faea" stroke="#e3ecc8"/>
+
+  <!-- ── LEFT: anatomy ── -->
+  <!-- glow behind stomach -->
+  <ellipse cx="205" cy="150" rx="120" ry="100" fill="url(#glow)"/>
+
+  <!-- colon: inverted-U frame (off-ramp, de-emphasised grey) -->
+  <path d="M140 372 L140 232 Q140 218 154 218 L356 218 Q370 218 370 232 L370 372"
+        fill="none" stroke="#cfcabd" stroke-width="20" stroke-linecap="round"/>
+  <!-- small intestine coils inside the frame -->
+  <path d="M255 250 q34 0 34 22 t-34 22 t-34 22 t34 22 t34 18"
+        fill="none" stroke="#d8d3c6" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- esophagus stub -->
+  <path d="M214 66 L210 100" stroke="#7ea30f" stroke-width="9" stroke-linecap="round"/>
+  <!-- stomach (on-ramp, highlighted brand green) -->
+  <path d="M214 92 C176 96 150 120 150 152 C150 182 180 196 212 191
+           C240 187 252 170 254 151 C256 131 251 110 237 100
+           C230 95 222 92 214 92 Z"
+        fill="#95c219" stroke="#6f9112" stroke-width="3"/>
+  <!-- pylorus tube from stomach down into intestine -->
+  <path d="M210 188 C206 206 222 222 252 248" fill="none" stroke="#aacb4a" stroke-width="10" stroke-linecap="round"/>
+  <!-- "stall" pulse on the stomach -->
+  <circle cx="244" cy="138" r="9" fill="#fff" stroke="#6f9112" stroke-width="2.5"/>
+  <text x="244" y="142" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#5c7a0c" text-anchor="middle">!</text>
+
+  <!-- ── RIGHT: labels ── -->
+  <text x="430" y="58" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#5c7a0c">WHERE IT ACTUALLY STARTS</text>
+
+  <!-- row 1: stomach / on-ramp -->
+  <circle cx="438" cy="104" r="8" fill="#95c219"/>
+  <text x="456" y="100" font-family="Merriweather,Georgia,serif" font-size="20" font-weight="900" fill="#1a1714">STOMACH</text>
+  <text x="456" y="100" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#5c7a0c" dx="118" dy="0">THE ON-RAMP</text>
+  <text x="456" y="126" font-family="Inter,Arial,sans-serif" font-size="14.5" fill="#4a4540">GLP-1 slows it down. Food stalls</text>
+  <text x="456" y="146" font-family="Inter,Arial,sans-serif" font-size="14.5" fill="#4a4540">here for hours — sometimes days.</text>
+
+  <!-- row 2: colon / off-ramp -->
+  <circle cx="438" cy="212" r="8" fill="#c4bfb2"/>
+  <text x="456" y="208" font-family="Merriweather,Georgia,serif" font-size="20" font-weight="900" fill="#8d877a">COLON</text>
+  <text x="456" y="208" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#a7a193" dx="92" dy="0">THE OFF-RAMP</text>
+  <text x="456" y="234" font-family="Inter,Arial,sans-serif" font-size="14.5" fill="#7a7068">Where fiber, Miralax &amp; probiotics</text>
+  <text x="456" y="254" font-family="Inter,Arial,sans-serif" font-size="14.5" fill="#7a7068">work — but it's already empty.</text>
+
+  <!-- bottom bar -->
+  <rect x="40" y="392" width="640" height="34" rx="17" fill="#95c219"/>
+  <text x="360" y="414" font-family="Inter,Arial,sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle">Motilli works upstream — at the stomach, where the problem begins.</text>
+</svg>

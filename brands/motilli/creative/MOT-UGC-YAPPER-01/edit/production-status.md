@@ -1,0 +1,7 @@
+# V14 source ready — native export pending
+
+Cooking replacement prepared and inspected: same mature woman, cream sweater and sage apron, stirring vegetables in skillet at stove. GPT Image2selected frame and Google Omni10secondoriginal retained. Source1–4seconds selected for B42frames7256–7346(241.866667–244.866667s).90frame1080×1920/30fpssilent selected clip: deliverables/Cooking-Replacement-3s.mp4. Minor generative texture/utensil shimmer documented in QA; action, identity and outfit usable.
+
+Pending B10TikTok fiber-food insert preserved in combined v14plan,47.5–49.7s. Exact narration/captions unchanged. Cut Room B42and source card now show actual cooking image; B10source retained. Cloud board exact match and selected asset verified;36local selected imagesHTTP200. No reference/narration edits.
+
+Mac unlocked briefly; Resolve readback confirmed v14 FINAL - cooking and fiber foods timeline exists. Mac locked again before clip-verification/exportcommands returned evidence. No v14adMP4/DRP/DRTexists. V12remains latest completed ad. After unlock run resume-and-export-v14.lua through resolve_lua.py: it checks actual target paths, repairs only missing/wrong B10/B42clips without duplication, asserts24covering/229caption/16presenter/audio and8327frames, then exports in same command. Run qa_revision.py after native render, inspect both windows and finalize status/board. Do not claim full ad complete from prepared source clip.

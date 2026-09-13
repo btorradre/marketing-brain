@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('V11_AUDIT',p:GetName(),t:GetName(),t:GetEndFrame(),#t:GetItemListInTrack('video',2));for _,c in ipairs(t:GetItemListInTrack('video',2)) do print(c:GetStart(),c:GetEnd(),c:GetName(),c:GetMediaPoolItem():GetClipProperty('File Path')) end

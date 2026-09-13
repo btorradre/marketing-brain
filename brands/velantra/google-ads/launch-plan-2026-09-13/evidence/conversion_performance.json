@@ -1,0 +1,20 @@
+{
+  "queried_at": "2026-09-13T18:56:52.255521+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT segments.conversion_action_name, segments.conversion_action_category, metrics.all_conversions, metrics.all_conversions_value FROM customer WHERE segments.date BETWEEN '2026-08-14' AND '2026-09-12'",
+  "results": [
+    {
+      "customer": {
+        "resourceName": "customers/9348603597"
+      },
+      "metrics": {
+        "allConversionsValue": 3,
+        "allConversions": 3
+      },
+      "segments": {
+        "conversionActionCategory": "PAGE_VIEW",
+        "conversionActionName": "Google Shopping App Page View"
+      }
+    }
+  ]
+}

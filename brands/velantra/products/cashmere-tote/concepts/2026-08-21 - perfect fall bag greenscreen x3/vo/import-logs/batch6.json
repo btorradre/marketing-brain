@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 1,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "audio",
+        "contentType": "audio/ogg",
+        "filename": "VO-hookC-claire.ogg",
+        "size": 586748,
+        "sourceType": "audio",
+        "transcodeReason": "audio assets follow the frontend Ogg/Opus upload path",
+        "transcoded": true,
+        "uploadFilename": "VO-hookC-claire.ogg",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-VO-hookC-claire-audio-24006-1.ogg",
+        "durationInSeconds": 30,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 1,
+          "sampleRate": 48000,
+          "integratedLufs": -17.1
+        },
+        "sourceManifest": {
+          "audioStartOffsetInSeconds": 0.025057,
+          "audioStreamDurationInSeconds": 30,
+          "channels": 1,
+          "originalFilename": "VO-hookC-claire.mp3",
+          "sampleRate": 44100
+        }
+      },
+      "result": {
+        "assetId": "c0e0d4cb-e1cd-4940-a893-d8b24856c383",
+        "assetType": "audio",
+        "filename": "VO-hookC-claire.ogg",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/c0e0d4cb-e1cd-4940-a893-d8b24856c383/VO-hookC-claire.ogg",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/c0e0d4cb-e1cd-4940-a893-d8b24856c383/VO-hookC-claire.ogg",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/c0e0d4cb-e1cd-4940-a893-d8b24856c383/VO-hookC-claire.ogg",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/c0e0d4cb-e1cd-4940-a893-d8b24856c383/VO-hookC-claire.ogg",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/vo/VO-hookC-claire.mp3"
+    }
+  ]
+}

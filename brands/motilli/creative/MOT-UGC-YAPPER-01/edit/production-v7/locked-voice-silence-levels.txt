@@ -1,0 +1,64 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v7/narration-locked-resolve.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    creation_time   : 2026-09-10T06:11:19.000000Z
+    encoder         : Blackmagic Design DaVinci Resolve
+    timecode        : 00:00:00:00
+  Duration: 00:04:37.57, start: 0.000000, bitrate: 2304 kb/s
+  Stream #0:0[0x1]: Audio: pcm_s24le (lpcm / 0x6D63706C), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s (default)
+    Metadata:
+      creation_time   : 2026-09-10T06:11:19.000000Z
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+      timecode        : 00:00:00:00
+  Stream #0:1[0x2](eng): Data: none (tmcd / 0x64636D74) (default)
+    Metadata:
+      creation_time   : 2026-09-10T06:11:19.000000Z
+      handler_name    : TimeCodeHandler
+      timecode        : 00:00:00:00
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    timecode        : 00:00:00:00
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+      creation_time   : 2026-09-10T06:11:19.000000Z
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+      timecode        : 00:00:00:00
+size=N/A time=00:00:25.10 bitrate=N/A speed=49.7x elapsed=0:00:00.50    
+size=N/A time=00:00:51.00 bitrate=N/A speed=50.5x elapsed=0:00:01.01    
+size=N/A time=00:01:17.10 bitrate=N/A speed=50.9x elapsed=0:00:01.51    
+size=N/A time=00:01:43.30 bitrate=N/A speed=51.1x elapsed=0:00:02.02    
+size=N/A time=00:02:09.30 bitrate=N/A speed=51.2x elapsed=0:00:02.52    
+size=N/A time=00:02:35.30 bitrate=N/A speed=51.3x elapsed=0:00:03.03    
+size=N/A time=00:03:01.40 bitrate=N/A speed=51.3x elapsed=0:00:03.53    
+size=N/A time=00:03:27.50 bitrate=N/A speed=51.4x elapsed=0:00:04.04    
+size=N/A time=00:03:53.60 bitrate=N/A speed=51.4x elapsed=0:00:04.54    
+[Parsed_silencedetect_0 @ 0xae9018b40] silence_start: 253.003833
+[Parsed_silencedetect_0 @ 0xae9018b40] silence_end: 253.362833 | silence_duration: 0.359
+size=N/A time=00:04:19.50 bitrate=N/A speed=51.4x elapsed=0:00:05.05    
+[Parsed_loudnorm_1 @ 0xae9018c00] 
+{
+	"input_i" : "-14.00",
+	"input_tp" : "-2.00",
+	"input_lra" : "1.70",
+	"input_thresh" : "-24.06",
+	"output_i" : "-14.06",
+	"output_tp" : "-2.00",
+	"output_lra" : "1.70",
+	"output_thresh" : "-24.12",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.06"
+}
+[out#0/null @ 0xae9018240] video:0KiB audio:208175KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:04:37.60 bitrate=N/A speed=51.7x elapsed=0:00:05.37    

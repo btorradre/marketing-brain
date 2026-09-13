@@ -1,0 +1,73 @@
+{
+  "shot": "S34",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "She taps once on the existing phone and pauses, viewed over her beige-cardigan shoulder; keep the phone display softly out of focus. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S34-v2.png",
+  "reference_sha256": "1ce1a17b07484996feff4017ebb983e0b18606eb40b4851253279a03565b92ff",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chd3Yk9nYXAzdUY5V0d6N0lQN1pqVThROBIXd2JPZ2FwM3VGOVdHejdJUDdaalU4UTg",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S34.mp4",
+  "sha256": "c1a2a106801bbd053e82eaaf5319fa41d8aca3d4b0f5e4ce568229740944b4a2",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 60061,
+    "total_input_tokens": 1160,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 60
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58543,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 358,
+    "raw_prompt_token": 31571,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1853
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 629
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 358
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

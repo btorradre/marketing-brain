@@ -1,0 +1,73 @@
+{
+  "shot": "S36",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A gentle lateral physical camera move passes the stationary capped medication pen and plain carton; preserve their exact shapes and the out-of-focus planner. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S36.png",
+  "reference_sha256": "8e2a3ad8acdc242c15023200a2675e4185e7b65136d55340b583a0b2971eabc1",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdsY09nYXNlSUk5dlV6N0lQd2J2VmtRTRIXbGNPZ2FzZUlJOXZVejdJUHdidlZrUU0",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S36.mp4",
+  "sha256": "c0b97bf301899a89d6bc7c328ca05f16925470fd4b6bd7754e67b737edbee13f",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60052,
+    "total_input_tokens": 1161,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 61
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58528,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 363,
+    "raw_prompt_token": 31504,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1854
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 614
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 363
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

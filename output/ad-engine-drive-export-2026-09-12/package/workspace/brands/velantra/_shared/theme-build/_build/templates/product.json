@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "image_position": "left",
+        "image_size": "large",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_height": "fixed",
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      },
+      "blocks": {
+        "blurb": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-short-blurb' %}"
+          }
+        },
+        "variants": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true,
+            "variant_labels": true
+          }
+        },
+        "price": { "type": "price", "settings": {} },
+        "buy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "trust": {
+          "type": "custom",
+          "settings": { "code": "{% render 'pdp-trust-strip' %}" }
+        },
+        "hint": {
+          "type": "custom",
+          "settings": { "code": "{% render 'pdp-send-hint' %}" }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "settings": { "code": "{% render 'pdp-inline-accessories' %}" }
+        },
+        "tab_dim": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Care",
+            "content": "<p><strong>Material</strong><br>Full-grain leather, canvas, and hand-set hardware.</p><p><strong>Care</strong><br>Wipe clean with a soft dry cloth. Condition leather every 6&ndash;12 months.</p>"
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p><strong>Shipping</strong><br>Free standard shipping on orders over $100. Ships within 1&ndash;2 business days.</p><p><strong>Returns</strong><br>30-day returns on unused items. Personalized items are final sale.</p>"
+          }
+        },
+        "in_store": {
+          "type": "custom",
+          "settings": { "code": "{% render 'pdp-in-store' %}" }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "variants",
+        "price",
+        "buy",
+        "trust",
+        "hint",
+        "inline_acc",
+        "tab_dim",
+        "tab_ship",
+        "in_store"
+      ]
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra piece is built to last. If anything fails in normal use, we'll repair or replace it.</p>",
+        "link_url": "/pages/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "settings": {
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      },
+      "blocks": {
+        "p1": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "DESIGN",
+            "headline": "Considered, Versatile",
+            "body": "<p>Designed for daily use, made to wear in beautifully over decades.</p>"
+          }
+        },
+        "p2": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "QUALITY",
+            "headline": "Full-Grain Leather",
+            "body": "<p>Drum-dyed for color that lives in the leather, finished by hand.</p>"
+          }
+        },
+        "p3": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "SUSTAINABILITY",
+            "headline": "LWG-Certified",
+            "body": "<p>Tanned at LWG-rated tanneries. Designed for repair, not replacement.</p>"
+          }
+        }
+      },
+      "block_order": ["p1", "p2", "p3"]
+    },
+    "style_with": {
+      "type": "pdp-style-with",
+      "settings": {
+        "heading": "Style With",
+        "bg_color": "#ffffff"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "warranty",
+    "icon_bar",
+    "style_with",
+    "recently_viewed"
+  ]
+}

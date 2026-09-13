@@ -1,0 +1,73 @@
+{
+  "shot": "S06",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The camera slides slowly sideways across the four existing remedy containers, keeping each package rigid and its lettering unchanged. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S06.png",
+  "reference_sha256": "3d1942d48c1a4d35656ce1455dbb7c7eb6a564d2f656c2114fc48e00eb25e8cd",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdCN09nYXNIRk9hU2Q2ZGtQOE1YODJBRRIXQjdPZ2FzSEZPYVNkNmRrUDhNWDgyQUU",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S06.mp4",
+  "sha256": "b4725293acd36d3690781fb7d48c1701c9b7605bc97a84c53f79f392abe6603e",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 60060,
+    "total_input_tokens": 1153,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 53
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58536,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 371,
+    "raw_prompt_token": 31508,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1846
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 622
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 371
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

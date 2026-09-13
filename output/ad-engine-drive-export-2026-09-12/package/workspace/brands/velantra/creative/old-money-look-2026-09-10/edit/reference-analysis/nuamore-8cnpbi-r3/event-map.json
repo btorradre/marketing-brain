@@ -1,0 +1,113 @@
+[
+  {
+    "track": "base",
+    "in": 0,
+    "out": 172,
+    "description": "Phone skincare application under patio; lotion dispensing then face application",
+    "why_inferred": "Start immediately on visible action; presenter gives the hook while the image illustrates the desired style.",
+    "incoming": "first frame",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 172,
+    "out": 345,
+    "description": "Same skincare setup resets to hands/palm; direct jump cut",
+    "why_inferred": "Continues the long native clip without changing editorial layout.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 345,
+    "out": 413,
+    "description": "Held outdoor tan dress photo; palm trees",
+    "why_inferred": "Broadens from casual action to a styled outfit as the narration moves into appeal/benefits.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 413,
+    "out": 491,
+    "description": "Held outdoor camisole-and-jeans portrait",
+    "why_inferred": "Second aspirational example supplies a distinct silhouette.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 491,
+    "out": 533,
+    "description": "Storefront product gallery: isolated gold watch",
+    "why_inferred": "Offer section shows what can be bought.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 533,
+    "out": 567,
+    "description": "Gallery switches to watch worn with white knit top",
+    "why_inferred": "Shows styling on a wearer.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 567,
+    "out": 602,
+    "description": "Gallery switches to front wrist/watch close-up",
+    "why_inferred": "Closer view makes the product readable.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 602,
+    "out": 629,
+    "description": "Gallery switches to wet wrist angled close-up",
+    "why_inferred": "Illustrates water-resistance language; this claim is not transferred to Eleanor.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 629,
+    "out": 659,
+    "description": "Gallery switches to wet wrist front close-up",
+    "why_inferred": "Continues gallery demonstration during urgency line.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "base",
+    "in": 659,
+    "out": 738,
+    "description": "Gallery switches to diagonal product photo, then scrolls to buy area",
+    "why_inferred": "Connects CTA to an actual shopping action.",
+    "incoming": "hard cut",
+    "boundary_verified": true
+  },
+  {
+    "track": "presenter",
+    "in": 0,
+    "out": 738,
+    "description": "Continuous background-removed female presenter, anchored lower-left, visible from frame zero through final frame; never full-screen. Roughly left half width and bottom 43% height; body clipped naturally at screen bottom.",
+    "status": "observed all source frames"
+  },
+  {
+    "track": "captions",
+    "in": 0,
+    "out": 738,
+    "description": "Small sentence-case white sans-serif phrase captions, thin dark outline, center aligned near y=0.88; one to three lines. Immediate text replacements independent of base cuts.",
+    "status": "observed"
+  },
+  {
+    "track": "screen_motion",
+    "in": 680,
+    "out": 738,
+    "description": "Store page scrolls upward to expose product name, price, variants and add-to-cart; presenter stays stationary. Start approximate within 680\u2013684, continuous through end.",
+    "status": "observed range; exact motion-onset frame not assigned"
+  }
+]

@@ -1,0 +1,153 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "New York";
+      src: url("assets/fonts/NewYork.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Abel";
+      src: url("assets/fonts/Abel-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      color: #1a1a1a;
+    }
+    #f03-the-getaway-ground {
+      position: absolute;
+      inset: 0;
+      background: #f6f1eb;
+    }
+    #f03-the-getaway-header {
+      position: absolute;
+      left: 0;
+      top: 66px;
+      width: 100%;
+      text-align: center;
+      z-index: 5;
+    }
+    #f03-the-getaway-label {
+      font-family: "Abel", sans-serif;
+      font-size: 21px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #444444;
+      margin-bottom: 10px;
+    }
+    #f03-the-getaway-title {
+      font-family: "New York", serif;
+      font-size: 78px;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+    #f03-the-getaway-stage {
+      position: absolute;
+      left: 98px;
+      top: 224px;
+      width: 1724px;
+      height: 570px;
+      perspective: 1800px;
+      transform-style: preserve-3d;
+      display: flex;
+      gap: 72px;
+      z-index: 2;
+    }
+    .f03-the-getaway-card {
+      position: relative;
+      width: 826px;
+      height: 570px;
+      overflow: hidden;
+      border: 2px solid #e0dfdf;
+      transform-style: preserve-3d;
+      will-change: transform;
+      background: #f8f6f2;
+    }
+    .f03-the-getaway-card img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    #f03-the-getaway-travel img {
+      object-position: 52% 50%;
+    }
+    #f03-the-getaway-capacity img {
+      object-position: 50% 50%;
+    }
+    #f03-the-getaway-copy-band {
+      position: absolute;
+      left: 390px;
+      top: 708px;
+      width: 1140px;
+      height: 154px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      background: #f6f1eb;
+      border-top: 2px solid #e0dfdf;
+      border-bottom: 2px solid #e0dfdf;
+      z-index: 7;
+      font-family: "New York", serif;
+      font-size: 53px;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+    #f03-the-getaway-copy-2 {
+      font-family: "Abel", sans-serif;
+      font-size: 35px;
+      letter-spacing: 0.02em;
+      color: #444444;
+    }
+    #f03-the-getaway-seam {
+      width: 54px;
+      height: 2px;
+      background: #343434;
+    }
+  </style>
+  <div data-hf-id="hf-6cpk" id="root" data-composition-id="03-the-getaway" data-start="0" data-duration="3.35" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-kh19" id="f03-the-getaway-ground" class="clip" data-start="0" data-duration="3.35" data-track-index="0"></div>
+    <div data-hf-id="hf-uw3c" id="f03-the-getaway-content" class="clip" data-start="0" data-duration="3.35" data-track-index="1">
+      <div data-hf-id="hf-i0rx" id="f03-the-getaway-header">
+        <div data-hf-id="hf-q5ko" id="f03-the-getaway-label" data-layout-allow-overflow="">The weekender</div>
+        <div data-hf-id="hf-73ns" id="f03-the-getaway-title" data-layout-allow-overflow="">The Eleanor</div>
+      </div>
+      <div data-hf-id="hf-ztqw" id="f03-the-getaway-stage">
+        <div data-hf-id="hf-6rfo" id="f03-the-getaway-travel" class="f03-the-getaway-card">
+          <img data-hf-id="hf-j3da" src="assets/landscape-02-eleanor-travel-1200x628.jpg" alt="Eleanor weekender in a refined travel setting">
+        </div>
+        <div data-hf-id="hf-vlzw" id="f03-the-getaway-capacity" class="f03-the-getaway-card">
+          <img data-hf-id="hf-fkko" src="assets/square-02-eleanor-capacity-1200x1200.jpg" alt="Eleanor weekender packed for a three-day trip">
+        </div>
+      </div>
+      <div data-hf-id="hf-ybor" id="f03-the-getaway-copy-band">
+        <span data-hf-id="hf-dte3" id="f03-the-getaway-copy-1">Three days away</span>
+        <span data-hf-id="hf-zj7z" id="f03-the-getaway-seam"></span>
+        <span data-hf-id="hf-whl8" id="f03-the-getaway-copy-2">in one unchecked bag.</span>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script>
+    window.__timelines = window.__timelines || {};
+    const tl = gsap.timeline({ paused: true });
+    gsap.set(["#f03-the-getaway-copy-band", "#f03-the-getaway-copy-1", "#f03-the-getaway-seam", "#f03-the-getaway-copy-2"], { autoAlpha: 0 });
+    tl.fromTo("#f03-the-getaway-header", { autoAlpha: 0, y: -22 }, { autoAlpha: 1, y: 0, duration: 0.42, ease: "power3.out" }, 0);
+    tl.fromTo("#f03-the-getaway-travel", { x: -360, rotateY: 21, scale: 0.88, autoAlpha: 0 }, { x: 0, rotateY: 12, scale: 1, autoAlpha: 1, duration: 0.9, ease: "power3.out" }, 0.6);
+    tl.fromTo("#f03-the-getaway-capacity", { x: 360, rotateY: -21, scale: 0.88, autoAlpha: 0 }, { x: 0, rotateY: -12, scale: 1, autoAlpha: 1, duration: 0.9, ease: "power3.out" }, 0.76);
+    tl.fromTo("#f03-the-getaway-copy-band", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.2, ease: "none" }, 1.7);
+    tl.fromTo("#f03-the-getaway-copy-1", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.34, ease: "power3.out" }, 1.72);
+    tl.fromTo("#f03-the-getaway-seam", { autoAlpha: 0, scaleX: 0, transformOrigin: "left center" }, { autoAlpha: 1, scaleX: 1, duration: 0.3, ease: "power3.out" }, 1.98);
+    tl.fromTo("#f03-the-getaway-copy-2", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.34, ease: "power3.out" }, 2.04);
+    window.__timelines["03-the-getaway"] = tl;
+  </script>
+</template>

@@ -1,0 +1,177 @@
+{
+  "flow_id": "v9fitIcgXq2wpUuyCuvG",
+  "flow_created": false,
+  "url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG",
+  "flow_url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG",
+  "session_id": "LJoCcrfb1Yu4i4Qq0T8L",
+  "generations": [
+    {
+      "id": "6ogSFcX9Xp9dTTuJQ89b",
+      "status": "failed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "She casually adjusts her trench cuff, looks up and takes one small arriving step toward the hotel, keeping the bag visible by its top handles. One candid handheld iPhone shot, subtle camera sway, ordi",
+      "error_message": "Model did not complete the video generation.",
+      "created_at_unix_ms": 1789231174557,
+      "price": {
+        "credits": 9157.798342541437,
+        "price_cents": 151.1036726519337,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "cPKAvAM2oLxXBVw0Pltz",
+      "status": "completed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "She shifts her weight casually against the cafe window and gives a small relaxed smile toward her friend, with a very slight natural bag sway. Preserve this exact woman, outfit and Cognac Eleanor silh",
+      "duration_secs": 5.013,
+      "width": 1080,
+      "height": 1920,
+      "created_at_unix_ms": 1789231174557,
+      "price": {
+        "credits": 4612.798342541437,
+        "price_cents": 76.1111726519337,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "QKfpF4nvskHXGLACbVGs",
+      "status": "completed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "Seated naturally, she glances toward the station entrance, gently grips the bag handles and lifts the bag only a few centimeters before resting it beside her again. Keep the distinct woman, checked ja",
+      "duration_secs": 10.005,
+      "width": 1080,
+      "height": 1920,
+      "created_at_unix_ms": 1789231174557,
+      "price": {
+        "credits": 9157.798342541437,
+        "price_cents": 151.1036726519337,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "QeRMujMs5EFlxAPxveqQ",
+      "status": "completed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "The woman gently adjusts her cream scarf with her free hand, then turns slightly toward the train doorway while holding the bag by its short handles. Preserve her exact identity, outfit and Cognac Ele",
+      "duration_secs": 6.016,
+      "width": 1080,
+      "height": 1920,
+      "created_at_unix_ms": 1789231174556,
+      "price": {
+        "credits": 5521.798342541437,
+        "price_cents": 91.1096726519337,
+        "cost_fiat_currency": "usd"
+      }
+    }
+  ],
+  "all_completed": false,
+  "has_failures": true,
+  "session_ids": [
+    "LJoCcrfb1Yu4i4Qq0T8L",
+    "u9zmNcBRzYBHF40DXwO3",
+    "vKmpBXhCzs8bp1rp8Cjv",
+    "CcYcFb4QxUTeEKYTHEDv"
+  ],
+  "media": [
+    {
+      "generation_id": "cPKAvAM2oLxXBVw0Pltz",
+      "kind": "video",
+      "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/u9zmNcBRzYBHF40DXwO3/cPKAvAM2oLxXBVw0Pltz/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164054Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "aspect_ratio": 0.5625,
+      "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=cPKAvAM2oLxXBVw0Pltz",
+      "prompt": "She shifts her weight casually against the cafe window and gives a small relaxed smile toward her friend, with a very slight natural bag sway. Preserve this exact woman, outfit and Cognac Eleanor silhouette, canvas/leather boundaries, horizontal gold hardware and handles; candid phone footage in ordinary daylight, minimal camera movement, one continuous shot, no dialogue, no captions or music.",
+      "duration_secs": 5.01,
+      "master_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/u9zmNcBRzYBHF40DXwO3/cPKAvAM2oLxXBVw0Pltz/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164054Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "poster_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/u9zmNcBRzYBHF40DXwO3/cPKAvAM2oLxXBVw0Pltz/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164054Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "model_id": "gemini-omni-1.1-flash",
+      "settings": [
+        {
+          "label": "Aspect ratio",
+          "value": "9:16"
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p"
+        },
+        {
+          "label": "Duration",
+          "value": "5"
+        }
+      ],
+      "references": [
+        {
+          "kind": "image",
+          "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/content_asset/1KullwLj6E92Yda0on6f/thumbnail.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164109Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]"
+        }
+      ]
+    },
+    {
+      "generation_id": "QKfpF4nvskHXGLACbVGs",
+      "kind": "video",
+      "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/vKmpBXhCzs8bp1rp8Cjv/QKfpF4nvskHXGLACbVGs/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164117Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "aspect_ratio": 0.5625,
+      "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=QKfpF4nvskHXGLACbVGs",
+      "prompt": "Seated naturally, she glances toward the station entrance, gently grips the bag handles and lifts the bag only a few centimeters before resting it beside her again. Keep the distinct woman, checked jacket, relaxed trousers and sneakers, exact bag construction and hardware; one candid phone shot, overcast light, no dialogue, no captions, no music.",
+      "duration_secs": 10.01,
+      "master_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/vKmpBXhCzs8bp1rp8Cjv/QKfpF4nvskHXGLACbVGs/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164117Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "poster_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/vKmpBXhCzs8bp1rp8Cjv/QKfpF4nvskHXGLACbVGs/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164117Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "model_id": "gemini-omni-1.1-flash",
+      "settings": [
+        {
+          "label": "Aspect ratio",
+          "value": "9:16"
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p"
+        },
+        {
+          "label": "Duration",
+          "value": "10"
+        }
+      ],
+      "references": [
+        {
+          "kind": "image",
+          "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/content_asset/neZygCEiVkkxEEk5e6Ri/thumbnail.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164307Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]"
+        }
+      ]
+    },
+    {
+      "generation_id": "QeRMujMs5EFlxAPxveqQ",
+      "kind": "video",
+      "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/CcYcFb4QxUTeEKYTHEDv/QeRMujMs5EFlxAPxveqQ/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164048Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "aspect_ratio": 0.5625,
+      "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=QeRMujMs5EFlxAPxveqQ",
+      "prompt": "The woman gently adjusts her cream scarf with her free hand, then turns slightly toward the train doorway while holding the bag by its short handles. Preserve her exact identity, outfit and Cognac Eleanor construction, hardware and scale relationship; one informal phone-video shot, natural light, no dialogue, no captions or music.",
+      "duration_secs": 6.02,
+      "master_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/CcYcFb4QxUTeEKYTHEDv/QeRMujMs5EFlxAPxveqQ/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164048Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "poster_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/CcYcFb4QxUTeEKYTHEDv/QeRMujMs5EFlxAPxveqQ/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164048Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "model_id": "gemini-omni-1.1-flash",
+      "settings": [
+        {
+          "label": "Aspect ratio",
+          "value": "9:16"
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p"
+        },
+        {
+          "label": "Duration",
+          "value": "6"
+        }
+      ],
+      "references": [
+        {
+          "kind": "image",
+          "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/content_asset/fC28mkJRzeX2l245l3Al/thumbnail.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260912T164109Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]"
+        }
+      ]
+    }
+  ]
+}

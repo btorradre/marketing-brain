@@ -1,0 +1,1651 @@
+{
+  "jsonrpc": "2.0",
+  "id": "avaroot-overview",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand tracker analysis — avaRoot\n\n## Overview\n\n- Date range: 2025-05-30 → 2026-05-30\n- Granularity: daily\n- Ads launched over period: 1,337\n\n## Media mix\n\n- Active ads: 0\n- Image: 0 (0%)\n- Video: 0 (0%)\n- DCO: 0 (0%)\n- Other: 0 (0%)\n\n## Demography / ad reach distribution\n\nRaw structuredContent paths:\n- Countries: `structuredContent.demography.data.countryDistribution`\n- Age: `structuredContent.demography.data.ageDistribution`\n- Gender: `structuredContent.demography.data.genderDistribution`\n\n### Countries by ad reach\n\n1. GB — 830 reach\n\n### Age ranges\n\n- 65+ — 435 reach\n- 55-64 — 155 reach\n- 45-54 — 102 reach\n- 35-44 — 88 reach\n- 25-34 — 42 reach\n\n### Gender\n\n- female — 790 reach\n- male — 28 reach\n- unknown — 12 reach\n\n## Top hooks\n\n_No hook signal recorded._\n\n## Top landing pages\n\n1. https://avaroot.com/products/cranberry-uti-formula — impressions 0, longest run 1d\n2. http://avaroot.com/ — impressions 0, longest run 1d\n\n## Creative swipe file\n\n### Hooks to steal\n\n_No hook signal available._\n\n### Landing pages to study\n\n1. https://avaroot.com/products/cranberry-uti-formula — Generated 0 impressions with a longest run of 1 days.\n2. http://avaroot.com/ — Generated 0 impressions with a longest run of 1 days.\n\n### Format signals\n\n_No format signal available._\n\n---\nCredits used: 9 | Remaining: 6748 | Source: recurring\nBreakdown: brandtracker_access_check:1(success), overview:1(success), media_mix:1(success), demography:1(success), hooks:1(success), landing_pages:1(success)"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "2fcc9c59-28f7-4615-a744-bdbfa968c8f5",
+      "brandtrackerId": "f1578708-7955-4337-9c9d-87b8d3525580",
+      "input": {
+        "brandtrackerId": "f1578708-7955-4337-9c9d-87b8d3525580",
+        "brand": null
+      },
+      "resolution": {
+        "source": "brandtracker_id",
+        "resolvedBrandtrackerId": "f1578708-7955-4337-9c9d-87b8d3525580",
+        "resolvedBrandName": "avaRoot",
+        "facebookPageId": "842860088914048",
+        "matchedCount": null
+      },
+      "brandLookup": null,
+      "overview": {
+        "data": {
+          "graph": {
+            "granularity": "daily",
+            "dateRange": {
+              "startDate": "2025-05-30",
+              "endDate": "2026-05-30"
+            },
+            "adsLaunched": [
+              {
+                "date": "2026-03-21",
+                "count": 2
+              },
+              {
+                "date": "2026-03-22",
+                "count": 17
+              },
+              {
+                "date": "2026-03-23",
+                "count": 24
+              },
+              {
+                "date": "2026-03-24",
+                "count": 19
+              },
+              {
+                "date": "2026-03-25",
+                "count": 6
+              },
+              {
+                "date": "2026-03-26",
+                "count": 67
+              },
+              {
+                "date": "2026-03-27",
+                "count": 12
+              },
+              {
+                "date": "2026-03-28",
+                "count": 5
+              },
+              {
+                "date": "2026-03-29",
+                "count": 35
+              },
+              {
+                "date": "2026-03-30",
+                "count": 32
+              },
+              {
+                "date": "2026-03-31",
+                "count": 3
+              },
+              {
+                "date": "2026-04-01",
+                "count": 0
+              },
+              {
+                "date": "2026-04-02",
+                "count": 64
+              },
+              {
+                "date": "2026-04-03",
+                "count": 29
+              },
+              {
+                "date": "2026-04-04",
+                "count": 2
+              },
+              {
+                "date": "2026-04-05",
+                "count": 44
+              },
+              {
+                "date": "2026-04-06",
+                "count": 63
+              },
+              {
+                "date": "2026-04-07",
+                "count": 52
+              },
+              {
+                "date": "2026-04-08",
+                "count": 36
+              },
+              {
+                "date": "2026-04-09",
+                "count": 3
+              },
+              {
+                "date": "2026-04-10",
+                "count": 0
+              },
+              {
+                "date": "2026-04-11",
+                "count": 0
+              },
+              {
+                "date": "2026-04-12",
+                "count": 8
+              },
+              {
+                "date": "2026-04-13",
+                "count": 0
+              },
+              {
+                "date": "2026-04-14",
+                "count": 0
+              },
+              {
+                "date": "2026-04-15",
+                "count": 0
+              },
+              {
+                "date": "2026-04-16",
+                "count": 0
+              },
+              {
+                "date": "2026-04-17",
+                "count": 18
+              },
+              {
+                "date": "2026-04-18",
+                "count": 18
+              },
+              {
+                "date": "2026-04-19",
+                "count": 15
+              },
+              {
+                "date": "2026-04-20",
+                "count": 90
+              },
+              {
+                "date": "2026-04-21",
+                "count": 67
+              },
+              {
+                "date": "2026-04-22",
+                "count": 9
+              },
+              {
+                "date": "2026-04-23",
+                "count": 37
+              },
+              {
+                "date": "2026-04-24",
+                "count": 0
+              },
+              {
+                "date": "2026-04-25",
+                "count": 1
+              },
+              {
+                "date": "2026-04-26",
+                "count": 8
+              },
+              {
+                "date": "2026-04-27",
+                "count": 0
+              },
+              {
+                "date": "2026-04-28",
+                "count": 1
+              },
+              {
+                "date": "2026-04-29",
+                "count": 19
+              },
+              {
+                "date": "2026-04-30",
+                "count": 35
+              },
+              {
+                "date": "2026-05-01",
+                "count": 5
+              },
+              {
+                "date": "2026-05-02",
+                "count": 45
+              },
+              {
+                "date": "2026-05-03",
+                "count": 7
+              },
+              {
+                "date": "2026-05-04",
+                "count": 52
+              },
+              {
+                "date": "2026-05-05",
+                "count": 3
+              },
+              {
+                "date": "2026-05-06",
+                "count": 32
+              },
+              {
+                "date": "2026-05-07",
+                "count": 0
+              },
+              {
+                "date": "2026-05-08",
+                "count": 0
+              },
+              {
+                "date": "2026-05-09",
+                "count": 0
+              },
+              {
+                "date": "2026-05-10",
+                "count": 18
+              },
+              {
+                "date": "2026-05-11",
+                "count": 1
+              },
+              {
+                "date": "2026-05-12",
+                "count": 8
+              },
+              {
+                "date": "2026-05-13",
+                "count": 68
+              },
+              {
+                "date": "2026-05-14",
+                "count": 2
+              },
+              {
+                "date": "2026-05-15",
+                "count": 1
+              },
+              {
+                "date": "2026-05-16",
+                "count": 0
+              },
+              {
+                "date": "2026-05-17",
+                "count": 0
+              },
+              {
+                "date": "2026-05-18",
+                "count": 5
+              },
+              {
+                "date": "2026-05-19",
+                "count": 1
+              },
+              {
+                "date": "2026-05-20",
+                "count": 42
+              },
+              {
+                "date": "2026-05-21",
+                "count": 24
+              },
+              {
+                "date": "2026-05-22",
+                "count": 14
+              },
+              {
+                "date": "2026-05-23",
+                "count": 0
+              },
+              {
+                "date": "2026-05-24",
+                "count": 0
+              },
+              {
+                "date": "2026-05-25",
+                "count": 78
+              },
+              {
+                "date": "2026-05-26",
+                "count": 16
+              },
+              {
+                "date": "2026-05-27",
+                "count": 4
+              },
+              {
+                "date": "2026-05-28",
+                "count": 3
+              },
+              {
+                "date": "2026-05-29",
+                "count": 51
+              },
+              {
+                "date": "2026-05-30",
+                "count": 16
+              }
+            ],
+            "liveAds": [
+              {
+                "date": "2026-03-21",
+                "count": 170
+              },
+              {
+                "date": "2026-03-22",
+                "count": 166
+              },
+              {
+                "date": "2026-03-23",
+                "count": 166
+              },
+              {
+                "date": "2026-03-24",
+                "count": 184
+              },
+              {
+                "date": "2026-03-25",
+                "count": 201
+              },
+              {
+                "date": "2026-03-26",
+                "count": 193
+              },
+              {
+                "date": "2026-03-27",
+                "count": 213
+              },
+              {
+                "date": "2026-03-28",
+                "count": 199
+              },
+              {
+                "date": "2026-03-29",
+                "count": 135
+              },
+              {
+                "date": "2026-03-30",
+                "count": 156
+              },
+              {
+                "date": "2026-03-31",
+                "count": 128
+              },
+              {
+                "date": "2026-04-01",
+                "count": 97
+              },
+              {
+                "date": "2026-04-02",
+                "count": 74
+              },
+              {
+                "date": "2026-04-03",
+                "count": 136
+              },
+              {
+                "date": "2026-04-04",
+                "count": 129
+              },
+              {
+                "date": "2026-04-05",
+                "count": 128
+              },
+              {
+                "date": "2026-04-06",
+                "count": 105
+              },
+              {
+                "date": "2026-04-07",
+                "count": 162
+              },
+              {
+                "date": "2026-04-08",
+                "count": 180
+              },
+              {
+                "date": "2026-04-09",
+                "count": 206
+              },
+              {
+                "date": "2026-04-10",
+                "count": 208
+              },
+              {
+                "date": "2026-04-11",
+                "count": 203
+              },
+              {
+                "date": "2026-04-12",
+                "count": 164
+              },
+              {
+                "date": "2026-04-13",
+                "count": 128
+              },
+              {
+                "date": "2026-04-14",
+                "count": 126
+              },
+              {
+                "date": "2026-04-15",
+                "count": 125
+              },
+              {
+                "date": "2026-04-16",
+                "count": 120
+              },
+              {
+                "date": "2026-04-17",
+                "count": 116
+              },
+              {
+                "date": "2026-04-18",
+                "count": 117
+              },
+              {
+                "date": "2026-04-19",
+                "count": 124
+              },
+              {
+                "date": "2026-04-20",
+                "count": 144
+              },
+              {
+                "date": "2026-04-21",
+                "count": 208
+              },
+              {
+                "date": "2026-04-22",
+                "count": 279
+              },
+              {
+                "date": "2026-04-23",
+                "count": 222
+              },
+              {
+                "date": "2026-04-24",
+                "count": 195
+              },
+              {
+                "date": "2026-04-25",
+                "count": 173
+              },
+              {
+                "date": "2026-04-26",
+                "count": 167
+              },
+              {
+                "date": "2026-04-27",
+                "count": 167
+              },
+              {
+                "date": "2026-04-28",
+                "count": 173
+              },
+              {
+                "date": "2026-04-29",
+                "count": 137
+              },
+              {
+                "date": "2026-04-30",
+                "count": 155
+              },
+              {
+                "date": "2026-05-01",
+                "count": 181
+              },
+              {
+                "date": "2026-05-02",
+                "count": 185
+              },
+              {
+                "date": "2026-05-03",
+                "count": 189
+              },
+              {
+                "date": "2026-05-04",
+                "count": 211
+              },
+              {
+                "date": "2026-05-05",
+                "count": 217
+              },
+              {
+                "date": "2026-05-06",
+                "count": 179
+              },
+              {
+                "date": "2026-05-07",
+                "count": 143
+              },
+              {
+                "date": "2026-05-08",
+                "count": 129
+              },
+              {
+                "date": "2026-05-09",
+                "count": 111
+              },
+              {
+                "date": "2026-05-10",
+                "count": 97
+              },
+              {
+                "date": "2026-05-11",
+                "count": 100
+              },
+              {
+                "date": "2026-05-12",
+                "count": 105
+              },
+              {
+                "date": "2026-05-13",
+                "count": 127
+              },
+              {
+                "date": "2026-05-14",
+                "count": 149
+              },
+              {
+                "date": "2026-05-15",
+                "count": 182
+              },
+              {
+                "date": "2026-05-16",
+                "count": 109
+              },
+              {
+                "date": "2026-05-17",
+                "count": 99
+              },
+              {
+                "date": "2026-05-18",
+                "count": 98
+              },
+              {
+                "date": "2026-05-19",
+                "count": 102
+              },
+              {
+                "date": "2026-05-20",
+                "count": 106
+              },
+              {
+                "date": "2026-05-21",
+                "count": 96
+              },
+              {
+                "date": "2026-05-22",
+                "count": 129
+              },
+              {
+                "date": "2026-05-23",
+                "count": 136
+              },
+              {
+                "date": "2026-05-24",
+                "count": 113
+              },
+              {
+                "date": "2026-05-25",
+                "count": 99
+              },
+              {
+                "date": "2026-05-26",
+                "count": 119
+              },
+              {
+                "date": "2026-05-27",
+                "count": 179
+              },
+              {
+                "date": "2026-05-28",
+                "count": 107
+              },
+              {
+                "date": "2026-05-29",
+                "count": 79
+              },
+              {
+                "date": "2026-05-30",
+                "count": 97
+              }
+            ],
+            "euImpressionsSpend": [
+              {
+                "date": "2026-03-21",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-22",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-23",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-24",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-25",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-26",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-27",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-28",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-29",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-30",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-03-31",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-01",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-02",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-03",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-04",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-05",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-06",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-07",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-08",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-09",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-10",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-11",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-12",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-13",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-14",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-15",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-16",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-17",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-18",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-19",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-20",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-21",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-04-22",
+                "impressions": 20,
+                "cumulativeImpressions": 20,
+                "estimatedSpend": 0.18
+              },
+              {
+                "date": "2026-04-23",
+                "impressions": 167,
+                "cumulativeImpressions": 187,
+                "estimatedSpend": 1.5
+              },
+              {
+                "date": "2026-04-24",
+                "impressions": 184,
+                "cumulativeImpressions": 371,
+                "estimatedSpend": 1.66
+              },
+              {
+                "date": "2026-04-25",
+                "impressions": 184,
+                "cumulativeImpressions": 555,
+                "estimatedSpend": 1.66
+              },
+              {
+                "date": "2026-04-26",
+                "impressions": 184,
+                "cumulativeImpressions": 739,
+                "estimatedSpend": 1.66
+              },
+              {
+                "date": "2026-04-27",
+                "impressions": 184,
+                "cumulativeImpressions": 923,
+                "estimatedSpend": 1.66
+              },
+              {
+                "date": "2026-04-28",
+                "impressions": 184,
+                "cumulativeImpressions": 1107,
+                "estimatedSpend": 1.66
+              },
+              {
+                "date": "2026-04-29",
+                "impressions": 164,
+                "cumulativeImpressions": 1271,
+                "estimatedSpend": 1.48
+              },
+              {
+                "date": "2026-04-30",
+                "impressions": 16,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0.14
+              },
+              {
+                "date": "2026-05-01",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-02",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-03",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-04",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-05",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-06",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-07",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-08",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-09",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-10",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-11",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-12",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-13",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-14",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-15",
+                "impressions": 0,
+                "cumulativeImpressions": 1287,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-16",
+                "impressions": 11,
+                "cumulativeImpressions": 1298,
+                "estimatedSpend": 0.1
+              },
+              {
+                "date": "2026-05-17",
+                "impressions": 84,
+                "cumulativeImpressions": 1382,
+                "estimatedSpend": 0.76
+              },
+              {
+                "date": "2026-05-18",
+                "impressions": 110,
+                "cumulativeImpressions": 1492,
+                "estimatedSpend": 0.99
+              },
+              {
+                "date": "2026-05-19",
+                "impressions": 120,
+                "cumulativeImpressions": 1612,
+                "estimatedSpend": 1.08
+              },
+              {
+                "date": "2026-05-20",
+                "impressions": 120,
+                "cumulativeImpressions": 1732,
+                "estimatedSpend": 1.08
+              },
+              {
+                "date": "2026-05-21",
+                "impressions": 120,
+                "cumulativeImpressions": 1852,
+                "estimatedSpend": 1.08
+              },
+              {
+                "date": "2026-05-22",
+                "impressions": 120,
+                "cumulativeImpressions": 1972,
+                "estimatedSpend": 1.08
+              },
+              {
+                "date": "2026-05-23",
+                "impressions": 108,
+                "cumulativeImpressions": 2080,
+                "estimatedSpend": 0.97
+              },
+              {
+                "date": "2026-05-24",
+                "impressions": 36,
+                "cumulativeImpressions": 2116,
+                "estimatedSpend": 0.32
+              },
+              {
+                "date": "2026-05-25",
+                "impressions": 10,
+                "cumulativeImpressions": 2126,
+                "estimatedSpend": 0.09
+              },
+              {
+                "date": "2026-05-26",
+                "impressions": 0,
+                "cumulativeImpressions": 2126,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-27",
+                "impressions": 0,
+                "cumulativeImpressions": 2126,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-28",
+                "impressions": 0,
+                "cumulativeImpressions": 2126,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-29",
+                "impressions": 0,
+                "cumulativeImpressions": 2126,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-05-30",
+                "impressions": 0,
+                "cumulativeImpressions": 2126,
+                "estimatedSpend": 0
+              }
+            ],
+            "cpm": 9
+          },
+          "mediaMix": {
+            "activeAds": 114,
+            "formatCount": {
+              "image": 112,
+              "video": 2,
+              "dco": 0,
+              "other": 0
+            }
+          },
+          "topLandingPages": {
+            "data": [
+              {
+                "landingPage": "https://avaroot.com/",
+                "usageCount": 43,
+                "longestRunning": 122,
+                "totalImpressions": 0,
+                "technologies": [
+                  {
+                    "id": "04504d0b-df46-4f62-98b6-d4d9e14a2282",
+                    "name": "Shopify",
+                    "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/Shopify.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011815Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                  },
+                  {
+                    "id": "49634b6b-8340-4d5a-9574-fe1aaa7641fd",
+                    "name": "WordPress",
+                    "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/WordPress.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011815Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                  }
+                ],
+                "screenshots": {
+                  "desktop": "https://medias.trendtrack.io/cta/580425539/28052026/full.jpg",
+                  "mobile": "https://medias.trendtrack.io/cta/580425539/28052026/mobile.jpg",
+                  "head": "https://medias.trendtrack.io/cta/580425539/28052026/head.jpg"
+                }
+              },
+              {
+                "landingPage": "https://avaroot.com/products/urinary-kidney-defense-formula-cc",
+                "usageCount": 34,
+                "longestRunning": 18,
+                "totalImpressions": 0,
+                "technologies": [
+                  {
+                    "id": "04504d0b-df46-4f62-98b6-d4d9e14a2282",
+                    "name": "Shopify",
+                    "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/Shopify.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011815Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                  },
+                  {
+                    "id": "832c8f2e-0215-4d11-8f88-a68697281320",
+                    "name": "GemPages",
+                    "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/GemPages.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011815Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                  }
+                ],
+                "screenshots": {
+                  "desktop": "https://medias.trendtrack.io/cta/817718015/23062026/full.jpg",
+                  "mobile": "https://medias.trendtrack.io/cta/817718015/23062026/mobile.jpg",
+                  "head": "https://medias.trendtrack.io/cta/817718015/23062026/head.jpg"
+                }
+              },
+              {
+                "landingPage": "https://avaroot.com/products/cranberry-uti-formula",
+                "usageCount": 21,
+                "longestRunning": 14,
+                "totalImpressions": 0,
+                "technologies": [
+                  {
+                    "id": "04504d0b-df46-4f62-98b6-d4d9e14a2282",
+                    "name": "Shopify",
+                    "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/Shopify.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011815Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                  }
+                ],
+                "screenshots": {
+                  "desktop": "https://medias.trendtrack.io/cta/664559454/28052026/full.jpg",
+                  "mobile": "https://medias.trendtrack.io/cta/664559454/28052026/mobile.jpg",
+                  "head": "https://medias.trendtrack.io/cta/664559454/28052026/head.jpg"
+                }
+              }
+            ],
+            "pagination": {
+              "page": 1,
+              "limit": 5,
+              "total": 3,
+              "totalPages": 1
+            }
+          },
+          "topAds": {
+            "data": [],
+            "pagination": {
+              "page": 1,
+              "limit": 5,
+              "total": 0,
+              "totalPages": 0
+            }
+          },
+          "adsPreview": {
+            "data": [
+              {
+                "id": "facebook_1294066809604687",
+                "platform": "facebook",
+                "status": "inactive",
+                "createdAt": "2026-06-01T00:21:52.123Z",
+                "firstSeenAt": "2026-05-30T07:00:00.000Z",
+                "lastSeenAt": "2026-06-10T07:00:00.000Z",
+                "daysRunning": 11,
+                "media": {
+                  "type": "image",
+                  "thumbnailUrl": null,
+                  "mediaUrl": "https://medias.trendtrack.io/facebook/image/7c14f7ed2b456e20a3cb24554efe7c4d3ffb35e0dbcac27e5f13478ebeda519f.jpg"
+                },
+                "advertiser": {
+                  "id": "842860088914048",
+                  "name": "Dr. Erica Bennett - Urogynecology Specialist",
+                  "logoUrl": "https://medias.trendtrack.io/profile_picture/842860088914048.jpg",
+                  "facebookPageId": "842860088914048",
+                  "liveAdsCount": 0,
+                  "reach30d": 0,
+                  "totalReach": 2122,
+                  "countriesCount": null,
+                  "facebookLikes": 537,
+                  "instagramFollowers": null
+                },
+                "content": {
+                  "title": null,
+                  "body": "It was the 8th time I'd gone to pee that day.\n\nAnd it wasn't even 2pm yet.\n\nI sat there on the toilet, leaning forward, waiting…\n\nAnd out came a few miserable drops.\n\nThat burning, stinging feeling shot through me — like peeing through broken glass — and then it just… stopped.\n\nBut the worst part wasn't the burning.\n\nIt was that the second I stood up, I already felt like I had to go again.\n\nThat horrible, heavy, half-full feeling that never went away. Like my bladder was a cup someone refused to let me empty.\n\nI pulled up my pants, washed my hands, and stared at myself in the mirror.\n\nAnd I started to cry.\n\nNot because of the pain.\n\nBecause I was so tired.\n\nTired of planning my entire life around bathrooms.\n\nI knew where every clean restroom was within a 10-mile radius of my house. I sat in the aisle seat at the movies. I turned down road trips. I'd stopped drinking water after 6pm just so I might get through one night without waking up 3 or 4 times.\n\nAnd I still woke up. Every. Single. Night.\n\nI'd lie there at 3am, on the toilet again, few drops again, that burning again — and I'd think to myself, \"What is wrong with me?\"\n\nIt was wrecking me mentally.\n\nI was anxious all the time. I couldn't focus at work because half my brain was always doing the math — \"When did I last go? How long until I need to go again? Where's the bathroom in this building?\"\n\nI felt disgusting. I felt broken. I felt like a 34-year-old woman trapped in a body that had decided to betray her.\n\nAnd the thing that made me feel insane was that I'd \"treated\" this a dozen times.\n\nCranberry juice. Gallons of water. Three separate rounds of antibiotics over the past year. Every time, it would calm down for a week or two…\n\nAnd then it came roaring right back.\n\nThe burning. The urgency. The drops. The half-full feeling.\n\nI'd convinced myself this was just my \"normal\" now. That some women just have weak bladders. That I'd have to live like this forever.\n\nUntil one afternoon, after running to the bathroom for the 11th time, I sat in my car in the pharmacy parking lot and I just… broke down.\n\nAnd right there, crying in my front seat, I booked an appointment with a doctor. A real one. Not another telehealth script for antibiotics. I wanted answers.\n\nThree days later I was sitting in Dr. Okafor's office.\n\nShe was an older woman with kind eyes and reading glasses pushed up on her head.\n\nI told her everything. The frequency. The few drops. The burning. The half-full feeling that never left. The 3am wake-ups. The way it was eating my mind alive.\n\nShe nodded the whole time, like she'd heard this exact story a thousand times before.\n\nThen she pulled my labs up on her screen and turned to me.\n\n\"I want to show you something,\" she said.\n\nShe had run a urine culture before I came in.\n\n\"Your urine culture came back showing a massive bacterial overgrowth. Your bladder lining is inflamed. What you have isn't a one-time UTI. You've been living with a recurring urinary tract infection that keeps coming back — and keeps getting worse.\"\n\n\"But I've taken antibiotics,\" I said. \"Three times. It always comes back.\"\n\n\"That's exactly the problem,\" she said. \"And it's not your fault. Almost nobody — including most doctors — treats this the right way.\"\n\n\"Look, every single week I see women come through here in their 30s, 40s, and 50s with exactly what you have. Constant urgency. Burning. That feeling of never fully emptying. And almost every one of them started the same way — a UTI they tried to ignore, or thought they'd already beaten with antibiotics.\"\n\n\"And the reason these UTIs keep coming back has nothing to do with hygiene or whether you drink enough water.\"\n\n\"It's about what's happening inside the urinary tract at the bacterial level.\"\n\nShe pulled out a pen and started drawing on a notepad.\n\n\"Here's what most women don't understand,\" she said.\n\n\"Your urinary tract has a lining — think of it like the walls of a hallway. In a healthy woman, that lining is smooth and protected by good bacteria.\"\n\n\"But when harmful bacteria — mainly E. coli — get into the urinary tract, they don't just float around in your pee. They attach themselves to the walls of the lining. They latch on like velcro.\"\n\n\"And once they're attached, no amount of water, grocery-store cranberry juice, or even antibiotics can fully remove them.\"\n\n\"That's why you feel like you constantly have to go,\" she continued. \"Those bacteria are gripping your bladder wall, irritating it, inflaming it. So your bladder screams 'FULL' even when there's barely anything in it. That's the half-full feeling. That's the urgency. That's the burning when only a few drops come out.\"\n\nI felt my stomach drop.\n\n\"So the infection never actually left?\"\n\n\"Exactly,\" Dr. Okafor said. \"You kill the surface bacteria with antibiotics, but the ones embedded in the lining survive. They hide. They wait. And then they multiply again. Every time it comes back, it digs in a little deeper.\"\n\n\"And here's what scares me,\" she said, leaning in. \"From the bladder, this can spread up to your kidneys. Once it reaches the kidneys and gets into your bloodstream, it's called urosepsis — and that can be fatal. I see women rushed into the ER at 3am with it every week. You are closer to that than you think.\"\n\nI went cold.\n\nThen Dr. Okafor explained that when a woman has recurring UTIs like mine, there are actually TWO problems happening at the same time — and most doctors only ever address one of them.\n\nThe first problem is bacterial adhesion.\n\nShe explained that the E. coli bacteria that cause UTIs have tiny hair-like structures called fimbriae.\n\nThey use these fimbriae to physically grip onto the urinary tract wall.\n\n\"Think of it like burrs sticking to fabric,\" she said. \"You can shake the fabric all you want, but unless you have something that stops the burrs from sticking in the first place, they'll keep latching back on.\"\n\n\"You need something that coats the urinary tract wall so the bacteria can't attach.\"\n\n\"And the most effective natural compound for that is a highly concentrated cranberry extract — not cranberry juice, not cranberry pills from the drugstore — but a therapeutic-grade 50:1 cranberry extract that's concentrated enough to actually block bacterial adhesion.\"\n\n\"Okay,\" I said. \"So I just need cranberry supplements? I can grab those at CVS on the way home.\"\n\nDr. Okafor shook her head immediately.\n\n\"No. Please don't do that. If you only fix the adhesion problem without fixing what's happening INSIDE the tract, the bacteria will just find another way in. You'll be right back in that bathroom, counting the drops.\"\n\nMy face must have fallen, because she tapped the notepad gently.\n\n\"Cranberry blocks the bacteria from sticking. Yes. But that's only the first line of defense.\"\n\n\"The SECOND problem is that your urinary microbiome is destroyed.\"\n\n\"My what?\" I asked.\n\n\"Your urinary microbiome. It's the ecosystem of beneficial bacteria that's supposed to live inside your urinary and vaginal tract. These good bacteria are your body's natural security system.\"\n\n\"When the microbiome is healthy, it produces acids that keep the pH low enough to kill harmful bacteria on contact. It crowds out the bad bacteria so they can't take hold.\"\n\n\"But after rounds of antibiotics, stress, hormonal changes… that microbiome gets wiped out. And antibiotics are the worst offender — they kill the bad bacteria AND the good bacteria. That's why you felt better for a week and then it came back stronger.\"\n\n\"Once that microbiome is gone, your urinary tract is basically an open door. No security. No defense. The bad bacteria walk right back in.\"\n\n\"So you need to rebuild your microbiome,\" she said. \"And that requires two things working together.\"\n\n\"First, you need specific probiotic strains — not just any probiotic off the shelf — but strains clinically shown to actually colonize the urinary and vaginal tract. Strains like Lactobacillus crispatus, Lactobacillus rhamnosus, and Lactobacillus acidophilus.\"\n\n\"These are the 'good soldiers' that rebuild your defense system.\"\n\n\"But here's the part everyone misses,\" she continued.\n\n\"You can swallow all the probiotics in the world, but if you don't FEED them, they die.\"\n\n\"Probiotics are living organisms. They need fuel to survive and multiply once they're inside you. That fuel is called prebiotics — specifically a prebiotic fiber blend that nourishes those exact strains so they can take root and grow.\"\n\n\"Without prebiotics, probiotics are like soldiers dropped into a desert with no food or water. They won't survive long enough to do their job.\"\n\n\"So,\" she counted off on her fingers:\n\n\"Concentrated cranberry extract blocks the bacteria from sticking to the walls — that stops the irritation, the urgency, and the burning.\"\n\n\"Targeted probiotics rebuild your urinary microbiome and restore your natural defenses.\"\n\n\"Prebiotic fiber feeds those probiotics so they survive and multiply.\"\n\n\"And a spore-forming probiotic like Bacillus coagulans acts as the anchor — it survives stomach acid and makes sure the other strains actually reach where they need to go.\"\n\n\"You need all four working together. Miss one, and the whole system breaks down — and you end up right back where you are now.\"\n\nAt this point all I could think was, \"Great. Now I have to go hunt down four different things and figure out how to take them all.\"\n\nBut then she gave me some good news.\n\nShe said there's a company that put all of these ingredients into one daily gummy — built specifically to rebuild a woman's urinary defenses and stop recurring UTIs at the root.\n\n\"I personally take it, and I recommend it to my patients.\"\n\nShe told me it's a completely natural blend of 50:1 cranberry extract, a prebiotic fiber blend, and a full-spectrum probiotic complex with Lactobacillus crispatus, Lactobacillus rhamnosus, Lactobacillus acidophilus, Bacillus coagulans, and more.\n\nThen she wrote the name on a piece of paper and handed it to me.\n\nIt was called \"Avaroot Cranberry Blend Gummies.\"\n\n\"It's the only one I've found that combines a therapeutic-dose cranberry extract with the right prebiotic fibers AND the exact probiotic strains that target the urinary microbiome — all in one formula.\"\n\n\"It's not sold in stores,\" she warned. \"You have to order it online.\"\n\n\"But I'm telling you — for women dealing with recurring UTIs, this is a godsend. It's better than another round of antibiotics that just destroys your microbiome even further.\"\n\n\"Because I could write you another antibiotic script to knock out this current infection. But unless you rebuild your urinary defenses from the inside out, it will come back. And next time it could reach your kidneys.\"\n\nThat was all I needed to hear.\n\nI drove straight home and ordered a bundle of Avaroot Cranberry Blend Gummies that same night.\n\nI wasn't taking any chances. Not after a year of living in bathrooms.\n\nThe gummies arrived just a few days later, with instructions to take two per day.\n\nHere's exactly what happened over my first four weeks:\n\n✅ Week 1: I started taking two gummies after breakfast. First thing I noticed — they actually taste good. Like a real cranberry treat, no chalky vitamin aftertaste. I was still running to the bathroom constantly, but I stuck with it religiously.\n\n✅ Week 2: The burning started to fade. For the first time in months, I peed and it didn't feel like broken glass. I also wasn't bolting to the bathroom every 30 minutes anymore. I actually sat through a full meeting without doing the bathroom math in my head.\n\n✅ Week 3: This was the week it hit me. The half-full feeling — that awful sensation that I could never empty — was GONE. No burning. No urgency. And I slept through the entire night without getting up to pee. I literally cried again, but this time because I'd forgotten what it felt like to just feel normal.\n\n✅ Week 4: I went back to Dr. Okafor for a follow-up. She ran the labs. My urine culture came back completely clean — no bacterial overgrowth, no signs of infection. My bladder inflammation was gone. She looked at the results, then looked at me and smiled. \"This,\" she said, \"is exactly what's supposed to happen.\"\n\nWhy am I telling you all of this?\n\nBecause if you're reading this and you're the woman counting the drops… the woman who knows where every bathroom is… the woman lying awake at 3am with that burning, half-full feeling and wondering what's wrong with her…\n\nThere is nothing wrong with you.\n\nYou've just been treating the surface and never the root.\n\nMost women over 30 don't realize that recurring UTIs aren't just an \"annoyance.\" That constant urgency and that half-full feeling are warning signs that bacteria are dug into your bladder wall — and slowly climbing toward your kidneys.\n\nAnd the women who do know they have a problem are usually just popping cranberry pills from the drugstore — fighting the bacteria with one hand tied behind their back, because they're missing the probiotics and prebiotics that rebuild the microbiome.\n\nIf you want to stop recurring UTIs at the root — stop the burning, stop the urgency, stop that miserable half-full feeling, and protect your kidneys — you need concentrated cranberry extract, targeted probiotics, and prebiotic fiber working together.\n\nAnd as far as I've found, Avaroot Cranberry Blend Gummies are the best way to get all of them in the right combination.\n\nNow here's the thing. Normally, a bag of Avaroot costs around $59.99.\n\nAnd honestly? After the year I had, it would've been worth double that just to feel normal again.\n\nBut I have some good news.\n\nI reached out to the team at Avaroot and told them my story. They were so moved that they wanted to help get this into the hands of more women.\n\nSo right now, they've set up a special link where you can get a supply of Avaroot for just $29.99.\n\nThat's a massive 50% discount.\n\nBUT — it gets better.\n\nThey know that usually, if you have this, the women in your family have dealt with it too — your sister, your mom, your best friend.\n\nSo for a limited time, they're doing a Buy 2 Get 1 FREE offer.\n\nThat means you can get gummies for yourself, your sister, and your mother for next to nothing.\n\nThey're practically giving it away, because they know once you feel what it's like to go a full day — and a full night — without the burning and the urgency… you'll want to be a customer for life.\n\nSo if you'd like to try it:\n\nClick here to check if it's still available => https://avaroot.com\n\nI know they sell out fast, so do yourself a favor and grab the 50% discount + Buy 2 Get 1 Free deal before it's gone.\n\nAnd the best part? They offer a 60-day money-back guarantee.\n\nThat means you can try Avaroot Cranberry Blend Gummies for 60 days — see if the burning stops, see if the urgency goes away, see if that half-full feeling finally disappears, see if you can sleep through one whole night — and if you don't feel a difference, they'll refund every penny.\n\nSo don't wait until the burning turns into a 3am kidney scare.\n\nDon't spend another year counting drops and mapping out bathrooms.\n\nWe have to take care of our own health — because another bottle of antibiotics isn't going to fix the root cause.\n\nClick the link below to check if Avaroot still has the Cranberry Blend Gummies in stock.\n\n👉 https://avaroot.com\n\nIf they're in stock, grab a bundle.\n\nYou'll be glad you did.",
+                  "transcript": null,
+                  "callToAction": "SEE DETAILS",
+                  "landingPageUrl": "https://avaroot.com/",
+                  "landingPageDomain": "avaroot.com",
+                  "ctaDescription": "Clear It Out Before It Sets In",
+                  "ctaLinkDescription": "Stop Bacteria From Sticking Where It Doesn’t Belong"
+                },
+                "metrics": {
+                  "reach": 0,
+                  "aggregatedReach": 0,
+                  "estimatedSpend": 0,
+                  "duplicates": 1,
+                  "reachDelta1d": null,
+                  "reachDelta7d": null,
+                  "reachDelta30d": null
+                },
+                "audience": {
+                  "targetedCountries": null,
+                  "mainCountry": null,
+                  "gender": null,
+                  "ageMin": null,
+                  "ageMax": null
+                },
+                "rank": null,
+                "flags": {
+                  "isEuAd": null,
+                  "isLowReach": true,
+                  "isMediaChanged": true,
+                  "hasPartnerBadge": false
+                }
+              },
+              {
+                "id": "facebook_1415028564004830",
+                "platform": "facebook",
+                "status": "inactive",
+                "createdAt": "2026-06-01T00:21:52.123Z",
+                "firstSeenAt": "2026-05-30T07:00:00.000Z",
+                "lastSeenAt": "2026-05-30T07:00:00.000Z",
+                "daysRunning": 0,
+                "media": {
+                  "type": "video",
+                  "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/d1f9e3ef9914b73aaddbd17ebba74bfa5aa9ad0497c23574212587b1c0b5ddf2.jpg",
+                  "mediaUrl": "https://medias.trendtrack.io/facebook/video/e78969c605d89781289f19ede1c18427d9dd6acbb6ba412a6bd2cf1a6164afb9.mp4"
+                },
+                "advertiser": {
+                  "id": "842860088914048",
+                  "name": "Dr. Erica Bennett - Urogynecology Specialist",
+                  "logoUrl": "https://medias.trendtrack.io/profile_picture/842860088914048.jpg",
+                  "facebookPageId": "842860088914048",
+                  "liveAdsCount": 0,
+                  "reach30d": 0,
+                  "totalReach": 2122,
+                  "countriesCount": null,
+                  "facebookLikes": 537,
+                  "instagramFollowers": null
+                },
+                "content": {
+                  "title": null,
+                  "body": "If you get a UTI every 2–3 months no matter how much water you drink, antibiotics you take, or random supplements you try — or how carefully you wipe — and your doctor keeps saying “you have a small bladder,” “better hygiene,” or “it’s just menopause, there’s nothing we can do”…\n\nI’m about to tell you exactly what they’re hiding from you and why they’ll NEVER tell you the truth.\n\nAnd by the end of this, you’re gonna be pissed.\n\nBecause there are three things happening right now:\n\nOne — your body is screaming at you that your bladder defenses are compromised, not just “prone to infections.”\n\nTwo — the medical system is gaslighting you into thinking recurrent UTIs after menopause are just something you have to live with.\n\nAnd three — there’s a multi-billion-dollar antibiotic and cranberry industry that profits every single day you stay trapped in this cycle.\n\nSo let me tell you what happened with my sister-in-law, because her story is gonna open your eyes to how messed up this really is.\n\nFor YEARS — and I mean like three straight years — she was constantly getting UTIs.\n\nNot like “oh I got one UTI” sick. I’m talking one every 6–8 weeks like clockwork. Burning. Urgency. That horrible feeling like you have to pee but nothing comes out.\n\nAnd here’s what made it worse: she couldn’t travel.\n\nShe’s 56. She had to cancel trips. Missed family events. Wouldn’t go anywhere more than 20 minutes from home because she was terrified of getting a UTI without access to her doctor.\n\nShe carried antibiotics everywhere. Knew every urgent care within driving distance.\n\nThe anxiety was brutal. That constant fear: “When is the next one coming?”\n\nAnd the worst part?\n\nShe stopped being intimate with her husband.\n\nBecause seggs would trigger a UTI. Every. Single. Time.\n\nSo she just… stopped.\n\nAnd that destroyed part of their relationship.\n\nShe felt broken. Defective. Like her body had betrayed her.\n\nSo obviously, she goes to doctors, right?\n\nMultiple doctors. A urologist. Thousands of dollars in tests.\n\nAnd every single one of them told her the same thing:\n\n“It’s menopause.”\n“Your estrogen is low.”\n“Drink more water.”\n“Better hygiene.”\n“Pee after seggs.”\n“Try cranberry pills.”\n\nThat was it.\n\nBasically: “You’re post-menopausal. This is your life now. Take antibiotics when it happens.”\n\nBut here’s where it gets infuriating.\n\nShe was doing EVERYTHING they told her to do.\n\nDrinking water nonstop. Taking cranberry pills every day. Doing all the “right things.”\n\nAnd she still got UTIs every 6–8 weeks.\n\nOne year she had seven.\n\nSeven rounds of antibiotics. Seven yeast infections afterward. Seven times her life shut down.\n\nEventually they put her on daily prophylactic antibiotics.\n\nAnd yes — they worked.\n\nWhile she was on them, no UTIs.\n\nBut her gut was destroyed. Constant bloating. Digestive issues.\n\nAnd her doctor told her:\n\n“You’ll need to stay on these forever.”\n\nForever.\n\nDaily antibiotics just to avoid UTIs.\n\nAt this point, I’m furious.\n\nBecause I’m watching someone do everything “right” — supplements, advice, prescriptions — and she’s getting worse, not better.\n\nSo I started asking questions nobody wants you to ask:\n\nWhy do antibiotics clear infections but never stop them from coming back?\n\nWhy does cranberry work for some women and seem useless for others?\n\nAnd why does nobody talk about what actually makes your bladder vulnerable in the first place?\n\nSo I went down a rabbit hole. A deep one.\n\nAnd here’s what I found:\n\nYour bladder isn’t just a bag that holds urine.\n\nIt has a protective surface that helps bacteria slide off instead of sticking.\n\nWhen estrogen drops after menopause — and after repeated infections — that protection weakens.\n\nNow bacteria stick more aggressively.\n\nYou take antibiotics. The infection clears.\n\nBut nothing about your defenses is restored.\n\nWorse — antibiotics wipe out the protective bacteria that normally keep E. coli in check.\n\nSo after antibiotics, your defenses are even lower than before.\n\nThat’s why the cycle keeps repeating.\n\nAnd here’s the part that matters:\n\nCranberry doesn’t fail because your bladder is “too damaged.”\n\nCranberry fails because most women are taking under-dosed cranberry with zero microbiome support.\n\nCranberry works by preventing E. coli from sticking to your bladder wall.\n\nAnd that matters even more after menopause — because when bladder defenses are weakened, bacteria stick faster and harder.\n\nBut if adhesion pressure only drops a little, and the protective bacteria are still gone, infections rebound.\n\nFast.\n\nSo cranberry seems to work for some women and not others.\n\nIt’s not the ingredient.\n\nIt’s the dose and the missing support system.\n\nAntibiotics clear infections but don’t rebuild defenses.\n\nDrinking water flushes bacteria but doesn’t stop them from sticking again.\n\nIt’s like mopping water from a leaking pipe instead of fixing the pipe.\n\nSo here’s what’s actually happening:\n\nYou’re spending $1,400–2,000 a year on antibiotics, cranberry pills, D-Mannose, urgent care visits, and probiotics.\n\nBut none of them are designed to work together.\n\nYour bladder needs adhesion pressure reduced and protective bacteria rebuilt.\n\nAnd that’s exactly what my sister-in-law’s urologist finally explained.\n\nShe took one look at her history — seven UTIs in one year, daily antibiotics, seggs-triggered infections — and said:\n\n“If you don’t reduce bacterial adhesion and rebuild the protective bacteria antibiotics destroy, you’ll be on antibiotics forever.”\n\nFor the first time in three years, someone explained why cranberry and antibiotics weren’t working.\n\nThe doctor put her on a protocol that included three things:\n\nA high-strength cranberry extract — not sprinkle-dose pills — to actually reduce E. coli adhesion.\n\nTargeted probiotic strains like Lactobacillus rhamnosus — to rebuild the protective bacteria antibiotics wipe out.\n\nAnd a prebiotic base — to keep those bacteria alive long-term instead of disappearing after a few weeks.\n\nAnd here’s why this combination is different from everything she’d tried before:\n\nCranberry reduces adhesion pressure.\nProbiotics suppress regrowth.\nPrebiotics make the protection last.\n\nIt’s not just prevention.\n\nIt’s defense restoration.\n\nShe started taking it daily.\n\nTwo avaRoot gummies every morning.\n\nWeek 3: No UTI.\nWeek 8: Still no UTI.\nMonth 3: She traveled again.\nMonth 5: Seggs without fear.\nMonth 8: Still infection-free.\n\nAfter years of infections.\n\nShe’s off daily antibiotics.\nShe’s not living in fear.\nShe has her life back.\n\nSo now I’m thinking: okay — this works.\n\nBut why is it so hard to find cranberry that’s actually concentrated, paired with the right probiotic strains, and gentle on an already irritated bladder?\n\nThat’s when I found avaRoot.\n\nInside every gummy:\n\nCranberry Extract (50:1)\nPrebiotic Fiber Blend\nLactobacillus rhamnosus\nBacillus coagulans\n\nNo harsh acids.\nNo irritation.\nNo sugar-loaded syrups.\n\nJust daily bladder defense support.\n\nAnd here’s what you need to understand:\n\nIf you’re getting UTIs every 2–3 months and cranberry “doesn’t work,” you don’t have a bacteria problem.\n\nYou have a defense problem.\n\nAnd rebuilding that defense is exactly what avaRoot is designed to support.\n\nI put the link below.\n\nTry it consistently for 8–12 weeks.\n\nSee how your body responds.\n\nBecause the medical system isn’t going to tell you this.\n\nBut recurring UTIs after menopause are not something you just have to live with.\n\nYou can fix it.\n\n👉 avaroot.com/products/urinary-kidney-defense-formula-cc",
+                  "transcript": null,
+                  "callToAction": "LEARN MORE",
+                  "landingPageUrl": "https://avaroot.com/products/urinary-kidney-defense-formula-cc",
+                  "landingPageDomain": "avaroot.com",
+                  "ctaDescription": "Clear It Out Before It Sets In",
+                  "ctaLinkDescription": "Stop Bacteria From Sticking Where It Doesn’t Belong"
+                },
+                "metrics": {
+                  "reach": 0,
+                  "aggregatedReach": 0,
+                  "estimatedSpend": 0,
+                  "duplicates": 1,
+                  "reachDelta1d": null,
+                  "reachDelta7d": null,
+                  "reachDelta30d": null
+                },
+                "audience": {
+                  "targetedCountries": null,
+                  "mainCountry": null,
+                  "gender": null,
+                  "ageMin": null,
+                  "ageMax": null
+                },
+                "rank": null,
+                "flags": {
+                  "isEuAd": null,
+                  "isLowReach": false,
+                  "isMediaChanged": true,
+                  "hasPartnerBadge": false
+                }
+              },
+              {
+                "id": "facebook_1467187597987715",
+                "platform": "facebook",
+                "status": "inactive",
+                "createdAt": "2026-06-01T00:21:52.123Z",
+                "firstSeenAt": "2026-05-30T07:00:00.000Z",
+                "lastSeenAt": "2026-06-29T07:00:00.000Z",
+                "daysRunning": 30,
+                "media": {
+                  "type": "image",
+                  "thumbnailUrl": null,
+                  "mediaUrl": "https://medias.trendtrack.io/facebook/image/05c3d1c5303c107112d101b9cd57e058d4ce017e852a82e4031a81a72214d29a.jpg"
+                },
+                "advertiser": {
+                  "id": "842860088914048",
+                  "name": "Dr. Erica Bennett - Urogynecology Specialist",
+                  "logoUrl": "https://medias.trendtrack.io/profile_picture/842860088914048.jpg",
+                  "facebookPageId": "842860088914048",
+                  "liveAdsCount": 0,
+                  "reach30d": 0,
+                  "totalReach": 2122,
+                  "countriesCount": null,
+                  "facebookLikes": 537,
+                  "instagramFollowers": null
+                },
+                "content": {
+                  "title": null,
+                  "body": "It was the 8th time I'd gone to pee that day.\n\nAnd it wasn't even 2pm yet.\n\nI sat there on the toilet, leaning forward, waiting…\n\nAnd out came a few miserable drops.\n\nThat burning, stinging feeling shot through me — like peeing through broken glass — and then it just… stopped.\n\nBut the worst part wasn't the burning.\n\nIt was that the second I stood up, I already felt like I had to go again.\n\nThat horrible, heavy, half-full feeling that never went away. Like my bladder was a cup someone refused to let me empty.\n\nI pulled up my pants, washed my hands, and stared at myself in the mirror.\n\nAnd I started to cry.\n\nNot because of the pain.\n\nBecause I was so tired.\n\nTired of planning my entire life around bathrooms.\n\nI knew where every clean restroom was within a 10-mile radius of my house. I sat in the aisle seat at the movies. I turned down road trips. I'd stopped drinking water after 6pm just so I might get through one night without waking up 3 or 4 times.\n\nAnd I still woke up. Every. Single. Night.\n\nI'd lie there at 3am, on the toilet again, few drops again, that burning again — and I'd think to myself, \"What is wrong with me?\"\n\nIt was wrecking me mentally.\n\nI was anxious all the time. I couldn't focus at work because half my brain was always doing the math — \"When did I last go? How long until I need to go again? Where's the bathroom in this building?\"\n\nI felt disgusting. I felt broken. I felt like a 34-year-old woman trapped in a body that had decided to betray her.\n\nAnd the thing that made me feel insane was that I'd \"treated\" this a dozen times.\n\nCranberry juice. Gallons of water. Three separate rounds of antibiotics over the past year. Every time, it would calm down for a week or two…\n\nAnd then it came roaring right back.\n\nThe burning. The urgency. The drops. The half-full feeling.\n\nI'd convinced myself this was just my \"normal\" now. That some women just have weak bladders. That I'd have to live like this forever.\n\nUntil one afternoon, after running to the bathroom for the 11th time, I sat in my car in the pharmacy parking lot and I just… broke down.\n\nAnd right there, crying in my front seat, I booked an appointment with a doctor. A real one. Not another telehealth script for antibiotics. I wanted answers.\n\nThree days later I was sitting in Dr. Okafor's office.\n\nShe was an older woman with kind eyes and reading glasses pushed up on her head.\n\nI told her everything. The frequency. The few drops. The burning. The half-full feeling that never left. The 3am wake-ups. The way it was eating my mind alive.\n\nShe nodded the whole time, like she'd heard this exact story a thousand times before.\n\nThen she pulled my labs up on her screen and turned to me.\n\n\"I want to show you something,\" she said.\n\nShe had run a urine culture before I came in.\n\n\"Your urine culture came back showing a massive bacterial overgrowth. Your bladder lining is inflamed. What you have isn't a one-time UTI. You've been living with a recurring urinary tract infection that keeps coming back — and keeps getting worse.\"\n\n\"But I've taken antibiotics,\" I said. \"Three times. It always comes back.\"\n\n\"That's exactly the problem,\" she said. \"And it's not your fault. Almost nobody — including most doctors — treats this the right way.\"\n\n\"Look, every single week I see women come through here in their 30s, 40s, and 50s with exactly what you have. Constant urgency. Burning. That feeling of never fully emptying. And almost every one of them started the same way — a UTI they tried to ignore, or thought they'd already beaten with antibiotics.\"\n\n\"And the reason these UTIs keep coming back has nothing to do with hygiene or whether you drink enough water.\"\n\n\"It's about what's happening inside the urinary tract at the bacterial level.\"\n\nShe pulled out a pen and started drawing on a notepad.\n\n\"Here's what most women don't understand,\" she said.\n\n\"Your urinary tract has a lining — think of it like the walls of a hallway. In a healthy woman, that lining is smooth and protected by good bacteria.\"\n\n\"But when harmful bacteria — mainly E. coli — get into the urinary tract, they don't just float around in your pee. They attach themselves to the walls of the lining. They latch on like velcro.\"\n\n\"And once they're attached, no amount of water, grocery-store cranberry juice, or even antibiotics can fully remove them.\"\n\n\"That's why you feel like you constantly have to go,\" she continued. \"Those bacteria are gripping your bladder wall, irritating it, inflaming it. So your bladder screams 'FULL' even when there's barely anything in it. That's the half-full feeling. That's the urgency. That's the burning when only a few drops come out.\"\n\nI felt my stomach drop.\n\n\"So the infection never actually left?\"\n\n\"Exactly,\" Dr. Okafor said. \"You kill the surface bacteria with antibiotics, but the ones embedded in the lining survive. They hide. They wait. And then they multiply again. Every time it comes back, it digs in a little deeper.\"\n\n\"And here's what scares me,\" she said, leaning in. \"From the bladder, this can spread up to your kidneys. Once it reaches the kidneys and gets into your bloodstream, it's called urosepsis — and that can be fatal. I see women rushed into the ER at 3am with it every week. You are closer to that than you think.\"\n\nI went cold.\n\nThen Dr. Okafor explained that when a woman has recurring UTIs like mine, there are actually TWO problems happening at the same time — and most doctors only ever address one of them.\n\nThe first problem is bacterial adhesion.\n\nShe explained that the E. coli bacteria that cause UTIs have tiny hair-like structures called fimbriae.\n\nThey use these fimbriae to physically grip onto the urinary tract wall.\n\n\"Think of it like burrs sticking to fabric,\" she said. \"You can shake the fabric all you want, but unless you have something that stops the burrs from sticking in the first place, they'll keep latching back on.\"\n\n\"You need something that coats the urinary tract wall so the bacteria can't attach.\"\n\n\"And the most effective natural compound for that is a highly concentrated cranberry extract — not cranberry juice, not cranberry pills from the drugstore — but a therapeutic-grade 50:1 cranberry extract that's concentrated enough to actually block bacterial adhesion.\"\n\n\"Okay,\" I said. \"So I just need cranberry supplements? I can grab those at CVS on the way home.\"\n\nDr. Okafor shook her head immediately.\n\n\"No. Please don't do that. If you only fix the adhesion problem without fixing what's happening INSIDE the tract, the bacteria will just find another way in. You'll be right back in that bathroom, counting the drops.\"\n\nMy face must have fallen, because she tapped the notepad gently.\n\n\"Cranberry blocks the bacteria from sticking. Yes. But that's only the first line of defense.\"\n\n\"The SECOND problem is that your urinary microbiome is destroyed.\"\n\n\"My what?\" I asked.\n\n\"Your urinary microbiome. It's the ecosystem of beneficial bacteria that's supposed to live inside your urinary and vaginal tract. These good bacteria are your body's natural security system.\"\n\n\"When the microbiome is healthy, it produces acids that keep the pH low enough to kill harmful bacteria on contact. It crowds out the bad bacteria so they can't take hold.\"\n\n\"But after rounds of antibiotics, stress, hormonal changes… that microbiome gets wiped out. And antibiotics are the worst offender — they kill the bad bacteria AND the good bacteria. That's why you felt better for a week and then it came back stronger.\"\n\n\"Once that microbiome is gone, your urinary tract is basically an open door. No security. No defense. The bad bacteria walk right back in.\"\n\n\"So you need to rebuild your microbiome,\" she said. \"And that requires two things working together.\"\n\n\"First, you need specific probiotic strains — not just any probiotic off the shelf — but strains clinically shown to actually colonize the urinary and vaginal tract. Strains like Lactobacillus crispatus, Lactobacillus rhamnosus, and Lactobacillus acidophilus.\"\n\n\"These are the 'good soldiers' that rebuild your defense system.\"\n\n\"But here's the part everyone misses,\" she continued.\n\n\"You can swallow all the probiotics in the world, but if you don't FEED them, they die.\"\n\n\"Probiotics are living organisms. They need fuel to survive and multiply once they're inside you. That fuel is called prebiotics — specifically a prebiotic fiber blend that nourishes those exact strains so they can take root and grow.\"\n\n\"Without prebiotics, probiotics are like soldiers dropped into a desert with no food or water. They won't survive long enough to do their job.\"\n\n\"So,\" she counted off on her fingers:\n\n\"Concentrated cranberry extract blocks the bacteria from sticking to the walls — that stops the irritation, the urgency, and the burning.\"\n\n\"Targeted probiotics rebuild your urinary microbiome and restore your natural defenses.\"\n\n\"Prebiotic fiber feeds those probiotics so they survive and multiply.\"\n\n\"And a spore-forming probiotic like Bacillus coagulans acts as the anchor — it survives stomach acid and makes sure the other strains actually reach where they need to go.\"\n\n\"You need all four working together. Miss one, and the whole system breaks down — and you end up right back where you are now.\"\n\nAt this point all I could think was, \"Great. Now I have to go hunt down four different things and figure out how to take them all.\"\n\nBut then she gave me some good news.\n\nShe said there's a company that put all of these ingredients into one daily gummy — built specifically to rebuild a woman's urinary defenses and stop recurring UTIs at the root.\n\n\"I personally take it, and I recommend it to my patients.\"\n\nShe told me it's a completely natural blend of 50:1 cranberry extract, a prebiotic fiber blend, and a full-spectrum probiotic complex with Lactobacillus crispatus, Lactobacillus rhamnosus, Lactobacillus acidophilus, Bacillus coagulans, and more.\n\nThen she wrote the name on a piece of paper and handed it to me.\n\nIt was called \"Avaroot Cranberry Blend Gummies.\"\n\n\"It's the only one I've found that combines a therapeutic-dose cranberry extract with the right prebiotic fibers AND the exact probiotic strains that target the urinary microbiome — all in one formula.\"\n\n\"It's not sold in stores,\" she warned. \"You have to order it online.\"\n\n\"But I'm telling you — for women dealing with recurring UTIs, this is a godsend. It's better than another round of antibiotics that just destroys your microbiome even further.\"\n\n\"Because I could write you another antibiotic script to knock out this current infection. But unless you rebuild your urinary defenses from the inside out, it will come back. And next time it could reach your kidneys.\"\n\nThat was all I needed to hear.\n\nI drove straight home and ordered a bundle of Avaroot Cranberry Blend Gummies that same night.\n\nI wasn't taking any chances. Not after a year of living in bathrooms.\n\nThe gummies arrived just a few days later, with instructions to take two per day.\n\nHere's exactly what happened over my first four weeks:\n\n✅ Week 1: I started taking two gummies after breakfast. First thing I noticed — they actually taste good. Like a real cranberry treat, no chalky vitamin aftertaste. I was still running to the bathroom constantly, but I stuck with it religiously.\n\n✅ Week 2: The burning started to fade. For the first time in months, I peed and it didn't feel like broken glass. I also wasn't bolting to the bathroom every 30 minutes anymore. I actually sat through a full meeting without doing the bathroom math in my head.\n\n✅ Week 3: This was the week it hit me. The half-full feeling — that awful sensation that I could never empty — was GONE. No burning. No urgency. And I slept through the entire night without getting up to pee. I literally cried again, but this time because I'd forgotten what it felt like to just feel normal.\n\n✅ Week 4: I went back to Dr. Okafor for a follow-up. She ran the labs. My urine culture came back completely clean — no bacterial overgrowth, no signs of infection. My bladder inflammation was gone. She looked at the results, then looked at me and smiled. \"This,\" she said, \"is exactly what's supposed to happen.\"\n\nWhy am I telling you all of this?\n\nBecause if you're reading this and you're the woman counting the drops… the woman who knows where every bathroom is… the woman lying awake at 3am with that burning, half-full feeling and wondering what's wrong with her…\n\nThere is nothing wrong with you.\n\nYou've just been treating the surface and never the root.\n\nMost women over 30 don't realize that recurring UTIs aren't just an \"annoyance.\" That constant urgency and that half-full feeling are warning signs that bacteria are dug into your bladder wall — and slowly climbing toward your kidneys.\n\nAnd the women who do know they have a problem are usually just popping cranberry pills from the drugstore — fighting the bacteria with one hand tied behind their back, because they're missing the probiotics and prebiotics that rebuild the microbiome.\n\nIf you want to stop recurring UTIs at the root — stop the burning, stop the urgency, stop that miserable half-full feeling, and protect your kidneys — you need concentrated cranberry extract, targeted probiotics, and prebiotic fiber working together.\n\nAnd as far as I've found, Avaroot Cranberry Blend Gummies are the best way to get all of them in the right combination.\n\nNow here's the thing. Normally, a bag of Avaroot costs around $59.99.\n\nAnd honestly? After the year I had, it would've been worth double that just to feel normal again.\n\nBut I have some good news.\n\nI reached out to the team at Avaroot and told them my story. They were so moved that they wanted to help get this into the hands of more women.\n\nSo right now, they've set up a special link where you can get a supply of Avaroot for just $29.99.\n\nThat's a massive 50% discount.\n\nBUT — it gets better.\n\nThey know that usually, if you have this, the women in your family have dealt with it too — your sister, your mom, your best friend.\n\nSo for a limited time, they're doing a Buy 2 Get 1 FREE offer.\n\nThat means you can get gummies for yourself, your sister, and your mother for next to nothing.\n\nThey're practically giving it away, because they know once you feel what it's like to go a full day — and a full night — without the burning and the urgency… you'll want to be a customer for life.\n\nSo if you'd like to try it:\n\nClick here to check if it's still available => https://avaroot.com\n\nI know they sell out fast, so do yourself a favor and grab the 50% discount + Buy 2 Get 1 Free deal before it's gone.\n\nAnd the best part? They offer a 60-day money-back guarantee.\n\nThat means you can try Avaroot Cranberry Blend Gummies for 60 days — see if the burning stops, see if the urgency goes away, see if that half-full feeling finally disappears, see if you can sleep through one whole night — and if you don't feel a difference, they'll refund every penny.\n\nSo don't wait until the burning turns into a 3am kidney scare.\n\nDon't spend another year counting drops and mapping out bathrooms.\n\nWe have to take care of our own health — because another bottle of antibiotics isn't going to fix the root cause.\n\nClick the link below to check if Avaroot still has the Cranberry Blend Gummies in stock.\n\nhttps://avaroot.com/products/urinary-kidney-defense-formula-cc\n\nIf they're in stock, grab a bundle.\n\nYou'll be glad you did.",
+                  "transcript": null,
+                  "callToAction": "SEE DETAILS",
+                  "landingPageUrl": "https://avaroot.com/products/urinary-kidney-defense-formula-cc",
+                  "landingPageDomain": "avaroot.com",
+                  "ctaDescription": "Clear It Out Before It Sets In",
+                  "ctaLinkDescription": "Stop Bacteria From Sticking Where It Doesn’t Belong"
+                },
+                "metrics": {
+                  "reach": 0,
+                  "aggregatedReach": 0,
+                  "estimatedSpend": 0,
+                  "duplicates": 1,
+                  "reachDelta1d": null,
+                  "reachDelta7d": null,
+                  "reachDelta30d": null
+                },
+                "audience": {
+                  "targetedCountries": null,
+                  "mainCountry": null,
+                  "gender": null,
+                  "ageMin": null,
+                  "ageMax": null
+                },
+                "rank": null,
+                "flags": {
+                  "isEuAd": null,
+                  "isLowReach": true,
+                  "isMediaChanged": true,
+                  "hasPartnerBadge": false
+                }
+              },
+              {
+                "id": "facebook_1499593121653464",
+                "platform": "facebook",
+                "status": "inactive",
+                "createdAt": "2026-06-01T00:21:52.123Z",
+                "firstSeenAt": "2026-05-30T07:00:00.000Z",
+                "lastSeenAt": "2026-06-16T07:00:00.000Z",
+                "daysRunning": 17,
+                "media": {
+                  "type": "image",
+                  "thumbnailUrl": null,
+                  "mediaUrl": "https://medias.trendtrack.io/facebook/image/05c3d1c5303c107112d101b9cd57e058d4ce017e852a82e4031a81a72214d29a.jpg"
+                },
+                "advertiser": {
+                  "id": "842860088914048",
+                  "name": "Dr. Erica Bennett - Urogynecology Specialist",
+                  "logoUrl": "https://medias.trendtrack.io/profile_picture/842860088914048.jpg",
+                  "facebookPageId": "842860088914048",
+                  "liveAdsCount": 0,
+                  "reach30d": 0,
+                  "totalReach": 2122,
+                  "countriesCount": null,
+                  "facebookLikes": 537,
+                  "instagramFollowers": null
+                },
+                "content": {
+                  "title": null,
+                  "body": "It was the 8th time I'd gone to pee that day.\n\nAnd it wasn't even 2pm yet.\n\nI sat there on the toilet, leaning forward, waiting…\n\nAnd out came a few miserable drops.\n\nThat burning, stinging feeling shot through me — like peeing through broken glass — and then it just… stopped.\n\nBut the worst part wasn't the burning.\n\nIt was that the second I stood up, I already felt like I had to go again.\n\nThat horrible, heavy, half-full feeling that never went away. Like my bladder was a cup someone refused to let me empty.\n\nI pulled up my pants, washed my hands, and stared at myself in the mirror.\n\nAnd I started to cry.\n\nNot because of the pain.\n\nBecause I was so tired.\n\nTired of planning my entire life around bathrooms.\n\nI knew where every clean restroom was within a 10-mile radius of my house. I sat in the aisle seat at the movies. I turned down road trips. I'd stopped drinking water after 6pm just so I might get through one night without waking up 3 or 4 times.\n\nAnd I still woke up. Every. Single. Night.\n\nI'd lie there at 3am, on the toilet again, few drops again, that burning again — and I'd think to myself, \"What is wrong with me?\"\n\nIt was wrecking me mentally.\n\nI was anxious all the time. I couldn't focus at work because half my brain was always doing the math — \"When did I last go? How long until I need to go again? Where's the bathroom in this building?\"\n\nI felt disgusting. I felt broken. I felt like a 34-year-old woman trapped in a body that had decided to betray her.\n\nAnd the thing that made me feel insane was that I'd \"treated\" this a dozen times.\n\nCranberry juice. Gallons of water. Three separate rounds of antibiotics over the past year. Every time, it would calm down for a week or two…\n\nAnd then it came roaring right back.\n\nThe burning. The urgency. The drops. The half-full feeling.\n\nI'd convinced myself this was just my \"normal\" now. That some women just have weak bladders. That I'd have to live like this forever.\n\nUntil one afternoon, after running to the bathroom for the 11th time, I sat in my car in the pharmacy parking lot and I just… broke down.\n\nAnd right there, crying in my front seat, I booked an appointment with a doctor. A real one. Not another telehealth script for antibiotics. I wanted answers.\n\nThree days later I was sitting in Dr. Okafor's office.\n\nShe was an older woman with kind eyes and reading glasses pushed up on her head.\n\nI told her everything. The frequency. The few drops. The burning. The half-full feeling that never left. The 3am wake-ups. The way it was eating my mind alive.\n\nShe nodded the whole time, like she'd heard this exact story a thousand times before.\n\nThen she pulled my labs up on her screen and turned to me.\n\n\"I want to show you something,\" she said.\n\nShe had run a urine culture before I came in.\n\n\"Your urine culture came back showing a massive bacterial overgrowth. Your bladder lining is inflamed. What you have isn't a one-time UTI. You've been living with a recurring urinary tract infection that keeps coming back — and keeps getting worse.\"\n\n\"But I've taken antibiotics,\" I said. \"Three times. It always comes back.\"\n\n\"That's exactly the problem,\" she said. \"And it's not your fault. Almost nobody — including most doctors — treats this the right way.\"\n\n\"Look, every single week I see women come through here in their 30s, 40s, and 50s with exactly what you have. Constant urgency. Burning. That feeling of never fully emptying. And almost every one of them started the same way — a UTI they tried to ignore, or thought they'd already beaten with antibiotics.\"\n\n\"And the reason these UTIs keep coming back has nothing to do with hygiene or whether you drink enough water.\"\n\n\"It's about what's happening inside the urinary tract at the bacterial level.\"\n\nShe pulled out a pen and started drawing on a notepad.\n\n\"Here's what most women don't understand,\" she said.\n\n\"Your urinary tract has a lining — think of it like the walls of a hallway. In a healthy woman, that lining is smooth and protected by good bacteria.\"\n\n\"But when harmful bacteria — mainly E. coli — get into the urinary tract, they don't just float around in your pee. They attach themselves to the walls of the lining. They latch on like velcro.\"\n\n\"And once they're attached, no amount of water, grocery-store cranberry juice, or even antibiotics can fully remove them.\"\n\n\"That's why you feel like you constantly have to go,\" she continued. \"Those bacteria are gripping your bladder wall, irritating it, inflaming it. So your bladder screams 'FULL' even when there's barely anything in it. That's the half-full feeling. That's the urgency. That's the burning when only a few drops come out.\"\n\nI felt my stomach drop.\n\n\"So the infection never actually left?\"\n\n\"Exactly,\" Dr. Okafor said. \"You kill the surface bacteria with antibiotics, but the ones embedded in the lining survive. They hide. They wait. And then they multiply again. Every time it comes back, it digs in a little deeper.\"\n\n\"And here's what scares me,\" she said, leaning in. \"From the bladder, this can spread up to your kidneys. Once it reaches the kidneys and gets into your bloodstream, it's called urosepsis — and that can be fatal. I see women rushed into the ER at 3am with it every week. You are closer to that than you think.\"\n\nI went cold.\n\nThen Dr. Okafor explained that when a woman has recurring UTIs like mine, there are actually TWO problems happening at the same time — and most doctors only ever address one of them.\n\nThe first problem is bacterial adhesion.\n\nShe explained that the E. coli bacteria that cause UTIs have tiny hair-like structures called fimbriae.\n\nThey use these fimbriae to physically grip onto the urinary tract wall.\n\n\"Think of it like burrs sticking to fabric,\" she said. \"You can shake the fabric all you want, but unless you have something that stops the burrs from sticking in the first place, they'll keep latching back on.\"\n\n\"You need something that coats the urinary tract wall so the bacteria can't attach.\"\n\n\"And the most effective natural compound for that is a highly concentrated cranberry extract — not cranberry juice, not cranberry pills from the drugstore — but a therapeutic-grade 50:1 cranberry extract that's concentrated enough to actually block bacterial adhesion.\"\n\n\"Okay,\" I said. \"So I just need cranberry supplements? I can grab those at CVS on the way home.\"\n\nDr. Okafor shook her head immediately.\n\n\"No. Please don't do that. If you only fix the adhesion problem without fixing what's happening INSIDE the tract, the bacteria will just find another way in. You'll be right back in that bathroom, counting the drops.\"\n\nMy face must have fallen, because she tapped the notepad gently.\n\n\"Cranberry blocks the bacteria from sticking. Yes. But that's only the first line of defense.\"\n\n\"The SECOND problem is that your urinary microbiome is destroyed.\"\n\n\"My what?\" I asked.\n\n\"Your urinary microbiome. It's the ecosystem of beneficial bacteria that's supposed to live inside your urinary and vaginal tract. These good bacteria are your body's natural security system.\"\n\n\"When the microbiome is healthy, it produces acids that keep the pH low enough to kill harmful bacteria on contact. It crowds out the bad bacteria so they can't take hold.\"\n\n\"But after rounds of antibiotics, stress, hormonal changes… that microbiome gets wiped out. And antibiotics are the worst offender — they kill the bad bacteria AND the good bacteria. That's why you felt better for a week and then it came back stronger.\"\n\n\"Once that microbiome is gone, your urinary tract is basically an open door. No security. No defense. The bad bacteria walk right back in.\"\n\n\"So you need to rebuild your microbiome,\" she said. \"And that requires two things working together.\"\n\n\"First, you need specific probiotic strains — not just any probiotic off the shelf — but strains clinically shown to actually colonize the urinary and vaginal tract. Strains like Lactobacillus crispatus, Lactobacillus rhamnosus, and Lactobacillus acidophilus.\"\n\n\"These are the 'good soldiers' that rebuild your defense system.\"\n\n\"But here's the part everyone misses,\" she continued.\n\n\"You can swallow all the probiotics in the world, but if you don't FEED them, they die.\"\n\n\"Probiotics are living organisms. They need fuel to survive and multiply once they're inside you. That fuel is called prebiotics — specifically a prebiotic fiber blend that nourishes those exact strains so they can take root and grow.\"\n\n\"Without prebiotics, probiotics are like soldiers dropped into a desert with no food or water. They won't survive long enough to do their job.\"\n\n\"So,\" she counted off on her fingers:\n\n\"Concentrated cranberry extract blocks the bacteria from sticking to the walls — that stops the irritation, the urgency, and the burning.\"\n\n\"Targeted probiotics rebuild your urinary microbiome and restore your natural defenses.\"\n\n\"Prebiotic fiber feeds those probiotics so they survive and multiply.\"\n\n\"And a spore-forming probiotic like Bacillus coagulans acts as the anchor — it survives stomach acid and makes sure the other strains actually reach where they need to go.\"\n\n\"You need all four working together. Miss one, and the whole system breaks down — and you end up right back where you are now.\"\n\nAt this point all I could think was, \"Great. Now I have to go hunt down four different things and figure out how to take them all.\"\n\nBut then she gave me some good news.\n\nShe said there's a company that put all of these ingredients into one daily gummy — built specifically to rebuild a woman's urinary defenses and stop recurring UTIs at the root.\n\n\"I personally take it, and I recommend it to my patients.\"\n\nShe told me it's a completely natural blend of 50:1 cranberry extract, a prebiotic fiber blend, and a full-spectrum probiotic complex with Lactobacillus crispatus, Lactobacillus rhamnosus, Lactobacillus acidophilus, Bacillus coagulans, and more.\n\nThen she wrote the name on a piece of paper and handed it to me.\n\nIt was called \"Avaroot Cranberry Blend Gummies.\"\n\n\"It's the only one I've found that combines a therapeutic-dose cranberry extract with the right prebiotic fibers AND the exact probiotic strains that target the urinary microbiome — all in one formula.\"\n\n\"It's not sold in stores,\" she warned. \"You have to order it online.\"\n\n\"But I'm telling you — for women dealing with recurring UTIs, this is a godsend. It's better than another round of antibiotics that just destroys your microbiome even further.\"\n\n\"Because I could write you another antibiotic script to knock out this current infection. But unless you rebuild your urinary defenses from the inside out, it will come back. And next time it could reach your kidneys.\"\n\nThat was all I needed to hear.\n\nI drove straight home and ordered a bundle of Avaroot Cranberry Blend Gummies that same night.\n\nI wasn't taking any chances. Not after a year of living in bathrooms.\n\nThe gummies arrived just a few days later, with instructions to take two per day.\n\nHere's exactly what happened over my first four weeks:\n\n✅ Week 1: I started taking two gummies after breakfast. First thing I noticed — they actually taste good. Like a real cranberry treat, no chalky vitamin aftertaste. I was still running to the bathroom constantly, but I stuck with it religiously.\n\n✅ Week 2: The burning started to fade. For the first time in months, I peed and it didn't feel like broken glass. I also wasn't bolting to the bathroom every 30 minutes anymore. I actually sat through a full meeting without doing the bathroom math in my head.\n\n✅ Week 3: This was the week it hit me. The half-full feeling — that awful sensation that I could never empty — was GONE. No burning. No urgency. And I slept through the entire night without getting up to pee. I literally cried again, but this time because I'd forgotten what it felt like to just feel normal.\n\n✅ Week 4: I went back to Dr. Okafor for a follow-up. She ran the labs. My urine culture came back completely clean — no bacterial overgrowth, no signs of infection. My bladder inflammation was gone. She looked at the results, then looked at me and smiled. \"This,\" she said, \"is exactly what's supposed to happen.\"\n\nWhy am I telling you all of this?\n\nBecause if you're reading this and you're the woman counting the drops… the woman who knows where every bathroom is… the woman lying awake at 3am with that burning, half-full feeling and wondering what's wrong with her…\n\nThere is nothing wrong with you.\n\nYou've just been treating the surface and never the root.\n\nMost women over 30 don't realize that recurring UTIs aren't just an \"annoyance.\" That constant urgency and that half-full feeling are warning signs that bacteria are dug into your bladder wall — and slowly climbing toward your kidneys.\n\nAnd the women who do know they have a problem are usually just popping cranberry pills from the drugstore — fighting the bacteria with one hand tied behind their back, because they're missing the probiotics and prebiotics that rebuild the microbiome.\n\nIf you want to stop recurring UTIs at the root — stop the burning, stop the urgency, stop that miserable half-full feeling, and protect your kidneys — you need concentrated cranberry extract, targeted probiotics, and prebiotic fiber working together.\n\nAnd as far as I've found, Avaroot Cranberry Blend Gummies are the best way to get all of them in the right combination.\n\nNow here's the thing. Normally, a bag of Avaroot costs around $59.99.\n\nAnd honestly? After the year I had, it would've been worth double that just to feel normal again.\n\nBut I have some good news.\n\nI reached out to the team at Avaroot and told them my story. They were so moved that they wanted to help get this into the hands of more women.\n\nSo right now, they've set up a special link where you can get a supply of Avaroot for just $29.99.\n\nThat's a massive 50% discount.\n\nBUT — it gets better.\n\nThey know that usually, if you have this, the women in your family have dealt with it too — your sister, your mom, your best friend.\n\nSo for a limited time, they're doing a Buy 2 Get 1 FREE offer.\n\nThat means you can get gummies for yourself, your sister, and your mother for next to nothing.\n\nThey're practically giving it away, because they know once you feel what it's like to go a full day — and a full night — without the burning and the urgency… you'll want to be a customer for life.\n\nSo if you'd like to try it:\n\nClick here to check if it's still available => https://avaroot.com\n\nI know they sell out fast, so do yourself a favor and grab the 50% discount + Buy 2 Get 1 Free deal before it's gone.\n\nAnd the best part? They offer a 60-day money-back guarantee.\n\nThat means you can try Avaroot Cranberry Blend Gummies for 60 days — see if the burning stops, see if the urgency goes away, see if that half-full feeling finally disappears, see if you can sleep through one whole night — and if you don't feel a difference, they'll refund every penny.\n\nSo don't wait until the burning turns into a 3am kidney scare.\n\nDon't spend another year counting drops and mapping out bathrooms.\n\nWe have to take care of our own health — because another bottle of antibiotics isn't going to fix the root cause.\n\nClick the link below to check if Avaroot still has the Cranberry Blend Gummies in stock.\n\n👉 https://avaroot.com\n\nIf they're in stock, grab a bundle.\n\nYou'll be glad you did.",
+                  "transcript": null,
+                  "callToAction": "SEE DETAILS",
+                  "landingPageUrl": "https://avaroot.com/",
+                  "landingPageDomain": "avaroot.com",
+                  "ctaDescription": "Clear It Out Before It Sets In",
+                  "ctaLinkDescription": "Stop Bacteria From Sticking Where It Doesn’t Belong"
+                },
+                "metrics": {
+                  "reach": 0,
+                  "aggregatedReach": 0,
+                  "estimatedSpend": 0,
+                  "duplicates": 1,
+                  "reachDelta1d": null,
+                  "reachDelta7d": null,
+                  "reachDelta30d": null
+                },
+                "audience": {
+                  "targetedCountries": null,
+                  "mainCountry": null,
+                  "gender": null,
+                  "ageMin": null,
+                  "ageMax": null
+                },
+                "rank": null,
+                "flags": {
+                  "isEuAd": null,
+                  "isLowReach": true,
+                  "isMediaChanged": true,
+                  "hasPartnerBadge": false
+                }
+              },
+              {
+                "id": "facebook_1565076115228915",
+                "platform": "facebook",
+                "status": "inactive",
+                "createdAt": "2026-06-01T00:21:52.123Z",
+                "firstSeenAt": "2026-05-30T07:00:00.000Z",
+                "lastSeenAt": "2026-05-30T07:00:00.000Z",
+                "daysRunning": 0,
+                "media": {
+                  "type": "image",
+                  "thumbnailUrl": null,
+                  "mediaUrl": "https://medias.trendtrack.io/facebook/image/dadc14bf8c79faf415ed20755434b39d366462de2f3aa59dc2b0ae14b851a149.jpg"
+                },
+                "advertiser": {
+                  "id": "842860088914048",
+                  "name": "Dr. Erica Bennett - Urogynecology Specialist",
+                  "logoUrl": "https://medias.trendtrack.io/profile_picture/842860088914048.jpg",
+                  "facebookPageId": "842860088914048",
+                  "liveAdsCount": 0,
+                  "reach30d": 0,
+                  "totalReach": 2122,
+                  "countriesCount": null,
+                  "facebookLikes": 537,
+                  "instagramFollowers": null
+                },
+                "content": {
+                  "title": null,
+                  "body": "The antibiotic prescription is the last thing to change.\n\nBy the time your doctor is writing your sixth one in eleven months, the bacteria have been colonizing your urinary tract for years.\n\nYour doctor sees the positive culture and reaches for a prescription.\n\nA urinary microbiome specialist sees the years of structural failure underneath it.\n\nAnd the antibiotic your doctor wants to prescribe kills the current infection without touching the damage.\n\nMy urine culture came back positive again.\n\nMy doctor didn't hesitate.\n\n\"We need to treat this one aggressively. I'm writing you a ten-day course of Macrobid.\"\n\nSeven minutes.\n\nThat's how long the appointment lasted.\n\nShe checked the culture, said the bacteria count was high, wrote the script, and told me to come back if symptoms didn't clear in 72 hours.\n\nI drove to the pharmacy.\n\nHanded over the prescription.\n\nThe pharmacist — a woman about my age, someone I'd never actually spoken to before — pulled it up on her screen.\n\nStarted typing.\n\nThen stopped.\n\nShe looked at my chart.\n\nThen at me.\n\n\"Ms. Harmon — I want to make sure I have this right.\"\n\nShe turned the screen slightly toward me.\n\n\"This is your sixth antibiotic prescription for a UTI in eleven months.\"\n\nI said yes.\n\nShe was quiet for a moment.\n\n\"Has any of your doctors ever talked to you about why this keeps happening?\"\n\nShe kept her voice low.\n\nProfessional but careful.\n\n\"Because filling this is fine. I'll fill it right now. But I've been filling these for you for almost a year, and nobody has asked that question, and honestly — I think someone should.\"\n\nI stared at her.\n\nEight seconds of silence in a busy pharmacy.\n\n\"There's a functional medicine doctor two blocks from here,\" she said.\n\n\"Dr. Chen.\"\n\n\"She specializes in recurring UTI cases. Before you fill number seven — please just make one appointment.\"\n\nShe handed me the bag.\n\nI drove home.\n\nAnd I thought about my mother.\n\nMy mother had recurring UTIs for twenty years.\n\nStarting in her early 50s.\n\nJust like me.\n\nHer doctors called her \"prone to infections.\"\n\nSaid some women just were.\n\nTreated every single one with antibiotics as it came.\n\nMonitored her.\n\nTold her to manage it.\n\nShe managed it for twenty years.\n\nShe accepted the burning, the urgency, the constant low-grade pressure as just her life now.\n\nShe stopped traveling in her 60s.\n\nStopped making plans she couldn't exit.\n\nBecame careful.\n\nSmall.\n\nCautious.\n\nDied at 71.\n\nA UTI that climbed to her kidneys while she was \"managing it.\"\n\nReached her bloodstream before anyone realized how serious it had become.\n\nUrosepsis.\n\nShe was on antibiotics when it happened.\n\nTwenty years of managed infections.\n\nTwenty years of prescriptions.\n\nAnd it didn't save her.\n\nI was 43 when she died.\n\nNow I was 54, standing in my kitchen holding prescription number six, and I could feel the trajectory with a clarity that made my chest tight.\n\nI called Dr. Chen the next morning.\n\nShe spent 45 minutes with me.\n\nNot seven.\n\nForty-five.\n\nShe didn't look at my urine culture first.\n\nShe looked at my antibiotic history.\n\nAll eleven months of it.\n\nEvery prescription.\n\nEvery bacteria strain.\n\nEvery interval between infections.\n\nWhen she looked up, she wasn't reaching for a prescription pad.\n\n\"Ms. Harmon, your urine culture tells me one thing — there's an active infection right now.\"\n\n\"But this history tells me something your culture can't.\"\n\nShe turned her screen toward me.\n\n\"Every time you take an antibiotic, the infection clears.\"\n\n\"Then comes back. Sooner each time. Look at the intervals.\"\n\nShe pointed.\n\nShe was right.\n\nFirst infection to second: nine weeks.\n\nSecond to third: six weeks.\n\nThird to fourth: four weeks.\n\nFifth to sixth: nineteen days.\n\n\"The infections are accelerating.\"\n\n\"You're not getting better between them.\"\n\n\"You're getting worse.\"\n\n\"The antibiotic is working.\"\n\n\"But something underneath it is failing faster than the antibiotic can manage.\"\n\nShe paused.\n\n\"Your doctor is reacting to your urine culture.\"\n\n\"I'm looking at what's been happening inside your urinary tract for the past eleven months.\"\n\n\"Those are two different things.\"\n\nI felt my mother's face, very close.\n\n\"So the antibiotic—\"\n\n\"Kills the current bacteria. Yes.\"\n\n\"It doesn't fix why they keep coming back.\"\n\n\"And every course of antibiotics is making the underlying problem worse.\"\n\nShe turned the screen again.\n\n\"Here's what's actually happening.\"\n\nShe explained it like this.\n\nYour urinary tract is not supposed to be a place bacteria can survive.\n\nIn a healthy woman, it has two layers of active defense.\n\nThe first is the GAG layer — the glycosaminoglycan lining of your bladder wall.\n\nSmooth, intact, coated.\n\nBacteria arrive and find nothing to grip.\n\nThey pass through.\n\nNo infection establishes.\n\nThe second is your urinary microbiome.\n\nBeneficial bacteria — primarily Lactobacillus strains — that colonize your urogenital tract and produce acids that make the environment hostile to E. coli.\n\nThey physically compete with pathogens for space and win.\n\nTogether, these two systems mean that E. coli entering your urinary tract has almost no chance of establishing an infection.\n\nBut here's what most doctors never address.\n\nE. coli doesn't just arrive from outside your body.\n\nThere is a second door.\n\nYour gut.\n\nE. coli lives naturally in your intestines.\n\nIn a healthy gut, the intestinal lining is sealed — a tight barrier that keeps gut bacteria contained in the digestive tract where they belong.\n\nBut after years of antibiotic courses, processed food, chronic stress, and hormonal decline — that lining develops microscopic gaps.\n\nIntestinal permeability.\n\nLeaky gut.\n\nAnd when those gaps open, E. coli doesn't stay in your intestines.\n\nIt slips through.\n\nEnters the bloodstream.\n\nMigrates to the nearest hospitable tissue.\n\nWhich is your urinary tract.\n\nSo there are two failures happening simultaneously:\n\nFailure One — your gut is leaking E. coli directly into your bloodstream and delivering it to your bladder.\n\nFailure Two — your bladder's two defense systems have been stripped by the very antibiotics treating the infections, leaving exposed tissue that E. coli can grip and colonize.\n\n\"Your antibiotic kills the bacteria in your bladder,\" Dr. Chen said.\n\n\"But it makes your gut lining worse with every course.\"\n\n\"Which means more E. coli escaping into your bloodstream.\"\n\n\"And it destroys your urinary microbiome — which means less defense when those bacteria arrive.\"\n\nShe looked at me directly.\n\n\"Every prescription your doctors have written has been treating the symptom while accelerating the cause.\"\n\nI felt sick.\n\n\"That's what happened to my mother.\"\n\nShe was quiet for a moment.\n\n\"It's what happens to most women who cycle through this for years.\"\n\n\"The medication manages the infection.\"\n\n\"It doesn't close the door.\"\n\n\"And the door gets wider every time.\"\n\nMy mother managed her infections for twenty years.\n\nHer door got wider every time.\n\nShe died on the medication.\n\n\"So what do I do?\" I asked.\n\n\"Is the antibiotic the only option?\"\n\nDr. Chen said I had two paths.\n\nPath one: Keep filling the prescriptions.\n\nEach one clears the current infection.\n\nEach one further destroys the gut lining and urinary microbiome.\n\nThe interval between infections shortens.\n\nThe bacteria strains become more resistant.\n\nEventually an infection climbs to the kidneys before the antibiotic can catch it.\n\n\"That's what your trend line shows,\" she said.\n\n\"Nineteen days between your last two infections.\"\n\n\"How long do you think before you're in urgent care?\"\n\nPath two: Close both doors at the same time.\n\nSeal the gut lining so E. coli stops escaping into the bloodstream.\n\nRebuild the urinary microbiome so the bladder has its defense system back.\n\nAnd coat the bladder wall with therapeutic-dose cranberry extract so bacteria that do arrive cannot grip the tissue.\n\n\"You have to do all three simultaneously,\" she said.\n\n\"Address one without the others and the bacteria find the door that's still open.\"\n\nThat's why every partial solution I'd ever tried had failed.\n\nCranberry juice — the concentration is approximately 50 times below what's needed to actually prevent bacterial adhesion.\n\nThe math doesn't work.\n\nD-mannose — addresses adhesion only.\n\nDoes nothing for the leaky gut source or the destroyed microbiome.\n\nProbiotics from the drugstore — generic gut strains.\n\nThey don't colonize urogenital tissue.\n\nThey never reach the place that needs them.\n\n\"You need a formula built around all three mechanisms,\" she said.\n\n\"And until recently, nothing on the market addressed all of them together.\"\n\nShe wrote a name on a piece of paper.\n\nAvaroot Cranberry Blend Gummies.\n\nWhen I got home I looked up everything.\n\nI am not someone who buys things without understanding them.\n\nHere's what the formula actually does and why each component is non-negotiable:\n\n50:1 Concentrated Cranberry Extract — delivers proanthocyanidins at the only concentration clinically shown to prevent E. coli fimbriae from adhering to bladder wall tissue.\n\nA 2020 peer-reviewed review confirmed PAC concentration below this threshold produces no measurable reduction in bacterial adhesion.\n\nThe cranberry juice my mother drank every morning for twenty years?\n\nThe PAC concentration is 50 times too low.\n\nStandard drugstore cranberry capsules are the same.\n\nThis is the real dose.\n\nThe one that actually coats the bladder wall.\n\nLactobacillus crispatus — the dominant strain in a healthy urogenital microbiome.\n\nClinically demonstrated to recolonize urogenital tissue after antibiotic disruption, produce lactic acid that drops local pH below E. coli's survival threshold, and physically displace uropathogenic bacteria from bladder tissue.\n\nNot a gut probiotic accidentally repurposed.\n\nA urinary tract probiotic going exactly where the problem is.\n\nLactobacillus rhamnosus — peer-reviewed research shows this strain directly competes with E. coli for adhesion sites on urogenital tissue and wins — permanently reducing bacterial colonization without creating resistance.\n\nPrebiotic Fiber Blend — probiotics are living organisms that die without fuel.\n\nWithout a prebiotic feeding them on arrival, they never establish in the urogenital tract.\n\nThis is the exact reason standalone probiotic supplements produce no sustained urinary results — the organisms starve in the gut before they reach the tissue that needs them.\n\nBacillus coagulans — a spore-forming strain that survives stomach acid completely intact and acts as the delivery anchor — ensuring the other probiotic strains arrive viable at urogenital tissue instead of being neutralized in digestion.\n\nFive components.\n\nThree mechanisms.\n\nOne system.\n\nMiss any piece — the bacteria find the door that's still open.\n\nThat's why partial solutions produced partial results for eleven months.\n\nI did not throw away the antibiotic prescription.\n\nI filled it.\n\nTook the full ten days.\n\nCleared the active infection first.\n\nThen I started Avaroot.\n\nAnd I started tracking.\n\nOn my phone I had eleven months of red dots.\n\nEvery UTI marked on a calendar.\n\nI kept the calendar open.\n\nI wanted to watch the pattern break in real time.\n\nHere's what happened:\n\nWeek two — the constant low-grade pressure I'd been carrying so long I'd stopped noticing it began to ease.\n\nI flagged it but didn't trust it yet.\n\nI'd felt \"better between infections\" before.\n\nWeek three — sleeping through the night.\n\nNot waking up to check if the burning had started.\n\nI realized I'd been doing that almost every night for months without consciously registering it as abnormal.\n\nWeek four — I drove to visit my sister.\n\nThree hours each way.\n\nI didn't plan the bathroom stops before I left.\n\nI noticed I hadn't planned them twenty minutes into the drive.\n\nWeek six — no red dot.\n\nThe interval where my last infection would have started came and went.\n\nNothing.\n\nWeek eight — still nothing.\n\nI was at seven weeks infection-free.\n\nThe longest gap in eleven months.\n\nWeek ten — I brought my phone calendar to my follow-up with Dr. Chen.\n\nEleven months of red dots.\n\nThen eight weeks of white space.\n\nShe looked at the calendar for a long moment.\n\nThen she ran a urine culture.\n\nClean.\n\nNo bacterial overgrowth.\n\nNo infection markers.\n\nUrinary microbiome reading as restored.\n\nShe looked at the results, then at me.\n\n\"This is what closing both doors looks like.\"\n\nThat was four months ago.\n\nMy last UTI was the one I treated before starting Avaroot.\n\nFour months.\n\nNo infections.\n\nNo antibiotics.\n\nNo yeast infections from the antibiotics.\n\nNo gut destruction from the yeast infection treatments.\n\nMy calendar is white.\n\nLast month I booked a trip.\n\nFour days.\n\nOut of state.\n\nA trip I'd been putting off for two years because I couldn't trust my body far from home.\n\nI didn't think about my bladder once on the flight.\n\nI didn't think about it once the entire trip.\n\nI took a photo at the hotel, first morning.\n\nSent it to my daughter.\n\nShe wrote back:\n\n\"You look like yourself again.\"\n\nShe was right.\n\nMy mother was on rotating antibiotics for twenty years.\n\nManaged infections.\n\nHer door got wider every year.\n\nShe died from a UTI that reached her kidneys while she was managing it.\n\nNobody ever explained to her that the antibiotic was treating the infection while making the source worse.\n\nNobody ever told her about the leaky gut connection.\n\nNobody ever addressed both failures at the same time.\n\nShe took the prescriptions she was given and accepted the life that came with them.\n\nI watched her do it.\n\nAnd I almost did it too.\n\nIf you're reading this, you're where I was.\n\nYour UTIs keep coming back no matter how careful you are.\n\nYour doctor hands you another prescription.\n\nMaybe you've been on four this year.\n\nMaybe six.\n\nMaybe you've stopped counting because counting makes it real.\n\nHere's what nobody told me until a pharmacist paused and a functional medicine doctor sat with me for 45 minutes:\n\nThe antibiotic isn't the problem.\n\nBut it isn't the solution either.\n\nIt clears the current infection while destroying the gut lining that's supposed to keep E. coli contained — and wiping out the urinary microbiome that's supposed to stop bacteria from establishing when they arrive.\n\nEvery prescription manages the infection.\n\nEvery prescription makes the source worse.\n\nYour mother proved where that path leads.\n\nMine did too.\n\nAvaroot addresses what the prescription never touches.\n\nThe leaky gut door.\n\nThe undefended bladder wall.\n\nThe destroyed microbiome.\n\nAll three, simultaneously, in one daily formula that takes two minutes to take.\n\nBut the dose matters.\n\nMost cranberry supplements are standard powder at 1/50th of the therapeutic concentration.\n\nMost probiotics are gut strains that never reach urogenital tissue.\n\nMost formulas address one failure and leave the other door wide open.\n\nAvaroot is built around the actual mechanism.\n\nThe full 50:1 cranberry extract.\n\nThe specific urogenital Lactobacillus strains.\n\nThe prebiotic to feed them.\n\nThe spore-forming anchor to deliver them.\n\nTrack the calendar.\n\nMark the red dots.\n\nWatch them stop.\n\nBring the white space to your doctor.\n\nNumbers don't argue.\n\nAvaroot Cranberry Blend Gummies.\n\n60-day money-back guarantee.\n\nTwo gummies a day.\n\nFour to eight weeks to feel the shift.\n\nEight to twelve weeks for the calendar to confirm it.\n\nDon't keep filling the prescription that widens the door.\n\nMy mother filled it for twenty years.\n\nDon't follow her path.\n\n👉 https://avaroot.com/products/urinary-kidney-defense-formula-cc",
+                  "transcript": null,
+                  "callToAction": "LEARN MORE",
+                  "landingPageUrl": "https://avaroot.com/products/urinary-kidney-defense-formula-cc",
+                  "landingPageDomain": "avaroot.com",
+                  "ctaDescription": "Clear It Out Before It Sets In",
+                  "ctaLinkDescription": "Stop Bacteria From Sticking Where It Doesn’t Belong"
+                },
+                "metrics": {
+                  "reach": 0,
+                  "aggregatedReach": 0,
+                  "estimatedSpend": 0,
+                  "duplicates": 1,
+                  "reachDelta1d": null,
+                  "reachDelta7d": null,
+                  "reachDelta30d": null
+                },
+                "audience": {
+                  "targetedCountries": null,
+                  "mainCountry": null,
+                  "gender": null,
+                  "ageMin": null,
+                  "ageMax": null
+                },
+                "rank": null,
+                "flags": {
+                  "isEuAd": null,
+                  "isLowReach": true,
+                  "isMediaChanged": true,
+                  "hasPartnerBadge": false
+                }
+              }
+            ],
+            "pagination": {
+              "page": 1,
+              "limit": 5,
+              "total": 133,
+              "totalPages": 27
+            }
+          }
+        },
+        "meta": {
+          "requestedSnapshotDate": null,
+          "resolvedSnapshotDate": "2026-05-30",
+          "dataFreshnessLagDays": 106
+        }
+      },
+      "mediaMix": {
+        "data": {
+          "activeAds": 0,
+          "formatCount": {
+            "image": 0,
+            "video": 0,
+            "dco": 0,
+            "other": 0
+          }
+        },
+        "meta": {
+          "requestedSnapshotDate": null,
+          "resolvedSnapshotDate": null,
+          "dataFreshnessLagDays": null
+        }
+      },
+      "demography": {
+        "data": {
+          "hasData": true,
+          "countryDistribution": [
+            {
+              "countryCode": "GB",
+              "reach": 830
+            }
+          ],
+          "ageDistribution": [
+            {
+              "ageRange": "65+",
+              "reach": 435
+            },
+            {
+              "ageRange": "55-64",
+              "reach": 155
+            },
+            {
+              "ageRange": "45-54",
+              "reach": 102
+            },
+            {
+              "ageRange": "35-44",
+              "reach": 88
+            },
+            {
+              "ageRange": "25-34",
+              "reach": 42
+            },
+            {
+              "ageRange": "18-24",
+              "reach": 8
+            }
+          ],
+          "genderDistribution": [
+            {
+              "gender": "female",
+              "reach": 790
+            },
+            {
+              "gender": "male",
+              "reach": 28
+            },
+            {
+              "gender": "unknown",
+              "reach": 12
+            }
+          ]
+        }
+      },
+      "hooks": {
+        "data": [],
+        "pagination": {
+          "page": 1,
+          "limit": 5,
+          "total": 0,
+          "totalPages": 0
+        }
+      },
+      "landingPages": {
+        "data": [
+          {
+            "landingPage": "https://avaroot.com/products/cranberry-uti-formula",
+            "usageCount": 109,
+            "longestRunning": 1,
+            "totalImpressions": 0,
+            "technologies": [
+              {
+                "id": "04504d0b-df46-4f62-98b6-d4d9e14a2282",
+                "name": "Shopify",
+                "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/Shopify.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011816Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+              }
+            ],
+            "screenshots": {
+              "desktop": "https://medias.trendtrack.io/cta/664559454/28052026/full.jpg",
+              "mobile": "https://medias.trendtrack.io/cta/664559454/28052026/mobile.jpg",
+              "head": "https://medias.trendtrack.io/cta/664559454/28052026/head.jpg"
+            }
+          },
+          {
+            "landingPage": "http://avaroot.com/",
+            "usageCount": 5,
+            "longestRunning": 1,
+            "totalImpressions": 0,
+            "technologies": [],
+            "screenshots": {
+              "desktop": "https://medias.trendtrack.io/cta/925016325/18082026/full.jpg",
+              "mobile": "https://medias.trendtrack.io/cta/925016325/18082026/mobile.jpg",
+              "head": "https://medias.trendtrack.io/cta/925016325/18082026/head.jpg"
+            }
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 5,
+          "total": 2,
+          "totalPages": 1
+        }
+      },
+      "creativeSwipeFile": {
+        "hooksToSteal": [],
+        "landingPagesToStudy": [
+          {
+            "url": "https://avaroot.com/products/cranberry-uti-formula",
+            "reason": "Generated 0 impressions with a longest run of 1 days.",
+            "totalImpressions": 0,
+            "longestRunning": 1
+          },
+          {
+            "url": "http://avaroot.com/",
+            "reason": "Generated 0 impressions with a longest run of 1 days.",
+            "totalImpressions": 0,
+            "longestRunning": 1
+          }
+        ],
+        "formatSignals": null
+      },
+      "warnings": [],
+      "fieldGuide": {
+        "demography": [
+          {
+            "path": "structuredContent.demography.data.countryDistribution",
+            "meaning": "Country-level EU Meta ad reach distribution for the tracked brand."
+          },
+          {
+            "path": "structuredContent.demography.data.ageDistribution",
+            "meaning": "Age-range EU Meta ad reach distribution for the tracked brand."
+          },
+          {
+            "path": "structuredContent.demography.data.genderDistribution",
+            "meaning": "Gender EU Meta ad reach distribution for the tracked brand."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 6,
+        "effectiveUnits": 6,
+        "actualUnits": 6,
+        "costUnits": 9,
+        "recurringUnits": 9,
+        "topupUnits": 0,
+        "creditsRemaining": 6748,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null,
+        "breakdown": [
+          {
+            "key": "brandtracker_access_check",
+            "endpointKey": "public_api.brandtrackers.detail.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "overview",
+            "endpointKey": "public_api.brandtrackers.overview.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "media_mix",
+            "endpointKey": "public_api.brandtrackers.media_mix.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "demography",
+            "endpointKey": "public_api.brandtrackers.demography.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "hooks",
+            "endpointKey": "public_api.brandtrackers.hooks.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "landing_pages",
+            "endpointKey": "public_api.brandtrackers.landing_pages.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          }
+        ]
+      }
+    },
+    "isError": false
+  }
+}

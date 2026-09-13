@@ -1,0 +1,199 @@
+{
+  "completed_at_utc": "2026-09-04T23:52:59.903213+00:00",
+  "status": "complete",
+  "deployment": {
+    "theme_id": "gid://shopify/OnlineStoreTheme/151337074753",
+    "numeric_id": 151337074753,
+    "name": "Velantra \u2014 Quiet Luxury / R40",
+    "role": "UNPUBLISHED",
+    "preview_url": "https://velantrafashion.com/?preview_theme_id=151337074753",
+    "live_theme_id_unchanged": 150684762177,
+    "editor_url": "https://admin.shopify.com/store/uzdgxy-sb/themes/151337074753/editor"
+  },
+  "verified_theme_roles": {
+    "draft": {
+      "id": "gid://shopify/OnlineStoreTheme/151337074753",
+      "name": "Velantra \u2014 Quiet Luxury / R40",
+      "role": "UNPUBLISHED",
+      "processing": false,
+      "processingFailed": false
+    },
+    "live": {
+      "id": "gid://shopify/OnlineStoreTheme/150684762177",
+      "name": "Impulse LUXE REBUILD 2026-08-16",
+      "role": "MAIN"
+    }
+  },
+  "catalog": {
+    "products": 13,
+    "variants": 68,
+    "source_gallery_positions": 185,
+    "generated_reviewed_uploaded_images": 152
+  },
+  "theme_validation": {
+    "passed": true,
+    "liquid_and_json_files": 64,
+    "report": "research/validation-final.txt",
+    "latest_card_files_also_validated_by_commerce_agent_revision": 6
+  },
+  "native_and_delivery_checks": {
+    "home-preview-qa.json": {
+      "passed": true
+    },
+    "commerce-preview-qa.json": {
+      "passed": true
+    },
+    "commerce-final-catalog-smoke.json": {
+      "passed": true
+    },
+    "commerce-card-visual-qa.json": {
+      "passed": true
+    },
+    "commerce-drawer-studio-qa.json": {
+      "passed": true
+    },
+    "final-home-media-qa.json": {
+      "passed": true
+    },
+    "cdn-content-verification.json": {
+      "passed": true
+    },
+    "remote-code-comparison.json": {
+      "passed": true
+    },
+    "direct-omni-storefront-qa.json": {
+      "passed": true
+    }
+  },
+  "packages": {
+    "velantra-quiet-luxury-theme.zip": {
+      "bytes": 25708885,
+      "sha256": "e997c8c4f6c2f655669078d2758a4f7dd868ab9cbc72a2f7d233275feb303a1d"
+    },
+    "velantra-white-studio-images.zip": {
+      "bytes": 19304205,
+      "sha256": "f3f097c26e9100738dd4ca06ea75edb5a52be01aa2988cf0984017728133737d"
+    }
+  },
+  "limitations": [
+    "Juliette has four preexisting zero-priced variants; this theme displays contact-for-availability and disables purchase.",
+    "Existing accessory and Black Eleanor source inconsistencies were preserved and documented in CATALOG-QA.md."
+  ],
+  "published": false,
+  "orders_placed": 0,
+  "catalog_updates": {
+    "weekender_colors": {
+      "Light Chocolate": "Cognac",
+      "Dark Chocolate": "Espresso",
+      "Army Green": "Army Green",
+      "Black": "Black"
+    },
+    "handles": [
+      "velantra-weekender",
+      "the-eleanor-weekender"
+    ],
+    "variant_ids_and_prices_preserved": true,
+    "media_ids_preserved": true,
+    "media_alt_labels_updated": 32,
+    "dedicated_weekender_color_metaobjects": true,
+    "updated_at_utc": "2026-09-04T23:59:44.788606+00:00",
+    "storefront_checks": {
+      "passed": true,
+      "reports": [
+        "research/weekender-color-preview-qa.json",
+        "research/weekender-color-live-qa.json"
+      ],
+      "live_theme_note": "Two generic Failed to fetch errors were observed; all eight live color selections and variant updates passed."
+    }
+  },
+  "media_workflow_correction": {
+    "updated_at_utc": "2026-09-05T00:19:33.692144+00:00",
+    "video_generation": "Google Omni",
+    "image_production": "GPT Image 2",
+    "editing": "User internal video editor only when needed",
+    "hyperframes_banned": true,
+    "active_hyperframes_runtime_removed": true,
+    "hero_duration_seconds": 3,
+    "desktop_and_mobile_outputs_direct": true,
+    "video_edits_performed": false,
+    "cdn_matches_provider_bytes": true,
+    "manifest": "video/manifest.json",
+    "storefront_qa": "research/direct-omni-storefront-qa.json"
+  },
+  "product_fidelity_followup": {
+    "product_skill_count": 16,
+    "physical_scale_verification_complete": false,
+    "evidence_register": "../product-skills/measurement-register.json",
+    "note": "Theme implementation checks remain historical verification of storefront behavior. Product-reference accuracy and metric scale need the separate product-skill audit; prior source-relative image approval does not establish physical measurements."
+  },
+  "storefront_fixes_2026_09_05": {
+    "completed_at_utc": "2026-09-05T16:16:39.431445+00:00",
+    "status": "complete",
+    "published": false,
+    "changed_theme_files": 15,
+    "remote_files_match_local": true,
+    "featured_models": [
+      "Vivienne Chocolate",
+      "Weekender Black",
+      "Meridian Brown"
+    ],
+    "repeated_wide_image_hidden": true,
+    "compare_at_prices": "Native variant values enabled across PDPs, product cards, mobile purchase bar and model collection; 13 products and 68 variants checked",
+    "all_bags_destination": "/collections/handbags",
+    "pdp_media": "Horizontal desktop/mobile gallery with arrows, keyboard, touch swipe, counts and zoom",
+    "checkout": "Native Shopify checkout; ordered cart requests prevent late OneText initialization from replacing a populated cart; editor checkout opens outside iframe",
+    "orders_placed": 0,
+    "validation": "All changed Liquid and JSON files passed Shopify validation",
+    "reports": [
+      "research/checkout-fix-qa.json",
+      "research/compare-at-preview-qa.json",
+      "research/featured-models-qa.json",
+      "research/pdp-horizontal-gallery-native/report.json",
+      "research/handbags-navigation-qa.json",
+      "research/theme-fixes-readback-2026-09-05.json",
+      "research/cart-queue-contract-qa.json"
+    ]
+  },
+  "navigation_followup_2026_09_05": {
+    "completed_at_utc": "2026-09-05T16:30:47.653217+00:00",
+    "status": "complete",
+    "published": false,
+    "menu": {
+      "id": "gid://shopify/Menu/242506039361",
+      "handle": "velantra-quiet-luxury-navigation",
+      "title": "Velantra \u2014 Quiet Luxury navigation",
+      "items": [
+        {
+          "title": "All bags",
+          "type": "COLLECTION",
+          "url": "/collections/handbags"
+        },
+        {
+          "title": "Accessories",
+          "type": "COLLECTION",
+          "url": "/collections/accessories"
+        },
+        {
+          "title": "Track your order",
+          "type": "HTTP",
+          "url": "https://velantrafashion.com/apps/parcel"
+        },
+        {
+          "title": "Contact",
+          "type": "PAGE",
+          "url": "/pages/contact"
+        }
+      ]
+    },
+    "desktop_and_mobile_destinations_verified": true,
+    "bag_specific_navigation_removed": true,
+    "accessories_collection_reused": true,
+    "changed_theme_files": 4,
+    "remote_files_match_local": true,
+    "reports": [
+      "research/navigation-four-links-readback.json",
+      "research/navigation-four-links-qa.json",
+      "research/navigation-destination-qa.json"
+    ]
+  }
+}

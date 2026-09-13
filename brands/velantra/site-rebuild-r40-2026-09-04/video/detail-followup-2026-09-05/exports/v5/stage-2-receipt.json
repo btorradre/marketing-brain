@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-09-05T22:06:10.664147+00:00",
+  "provider": "Google Gemini Interactions API",
+  "model": "gemini-omni-1.1-flash",
+  "stage": 2,
+  "attempt": "v5",
+  "status": "completed_pending_visual_qa",
+  "prompt": "Extend the previously generated Vivienne film by exactly 9 additional seconds, retaining the preceding film and continuing the same product, lighting and studio. This is an additional segment from overall film time 9s to 18s. The timestamps below refer to the NEW additional segment. Create a polished silent luxury handbag detail film featuring exactly the Chocolate Vivienne handbag shown in the three reference images. Image 1 is the precise opening belt-detail reference; Image 2 establishes the charcoal-black studio background, neutral light-gray tabletop and soft directional studio lighting; Image 3 is the owner-approved construction and surface-detail master. Use these images as exact identity references. Preserve that same product in every shot: dark chocolate soft grainy leather body, warmer smooth cognac trim and corner caps, braided upper edge, two upright rolled handles on riveted bases, one left-handle key bell, horizontal oval brass center plate with two rivets and its central post, two parallel vertical flat brass side bars, and inward-falling cognac belt tails with slotted brass ends. The upper panel stays in exactly the visible reference state throughout. The scene is text-free and hand-free, with no operating the closure or revealing hidden surfaces. Keep the film photographic, refined and quiet, with subtle real camera parallax, controlled focus breathing, warm brass highlights and richly resolved leather grain. Every change of shot below is a clean instantaneous hard cut, never a dissolve or a continuous zoom connecting two shots. The bag itself rests naturally and retains identical construction. Each macro shows only the specified visible surface, at believable scale, with its actual local features preserved. Full-bag views include both handle crowns and all bottom corners inside the central 58 percent of frame width and central 80 percent of frame height. Keep each macro's key detail inside the central 60 percent of width and 80 percent of height, so the same film remains readable when cropped to a near-square mobile frame. Wide 16:9. Completely silent audio: no music, speech, ambient sound or effects.\n[0-0.417s] Briefly continue the existing attached-braid macro from the previous ending, preserving the same crop and gentle motion.\n[0.417-1.750s] Hard cut to the lower front right leather corner cap and its curved seam, softly lit on the gray tabletop. Slow sideways camera movement shows the visible reinforcement and supple leather fold above it.\n[1.750-3.000s] Hard cut to a tight macro of the soft undulating dark Chocolate FRONT BODY fold immediately below the key bell in Image2. Frame only the supple body leather and its naturally curved fold, copying that surface from the source. A gentle gliding highlight reveals the natural crease and soft shape. Keep all straps, belt edges, stitches, seams, trim and metal entirely outside the crop. This is a body-fold view, with no added surface features.\n[3.000-4.292s] Hard cut to a complete front view of the bag on the table, including both upright handles. Very slow lateral camera drift. Generous center-safe framing.\n[4.292-5.583s] Hard cut to the LOWER LEFT FRONT CORNER CAP of the bag as visible at the bottom-left of Image2. A very tight crop shows only its warm smooth cognac reinforcement, the existing curved seam, the dark leather body immediately above, and the gray tabletop below. Preserve that actual left corner shape and actual source seam. A small lateral camera drift reveals the contrasting textures. The key bell, cords, handles, upper band and all hardware are entirely outside this lower-corner crop.\n[5.583-7.458s] Hard cut to an extreme close-up of only the dark chocolate body's natural leather grain and soft crease. A soft raking highlight and small focus shift reveal the pores. Pure leather texture, without hardware or text.\n[7.458-9.000s] Hard cut to a lower-body front-right three-quarter view matching Image2, showing the soft body folds, right gusset and corner cap together. The upper band, handles and all metal fittings remain outside this lower-body crop. Slow restrained camera drift. This last shot will briefly continue into the final part.\nThe new segment adds six hard cuts at the stated times. Preserve a restrained photographic rhythm; finish this segment at exactly 9 additional seconds.",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "16:9",
+    "resolution": "1080p",
+    "duration": "9s",
+    "delivery": "inline"
+  },
+  "references": [
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/detail-followup-2026-09-05/references/vivienne-belt-opening.png",
+      "sha256": "eac43b0c53230ae1bd825cf1be5109395aeb91553eb20e7bd053c9dc05cebba6"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/detail-followup-2026-09-05/references/vivienne-charcoal-studio.png",
+      "sha256": "5219eabac68200aa4b9c95f16d1a601a930c2cba3a5cba74dc0935af120b15b2"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png",
+      "sha256": "2dcbee2ac61a72b87df14e1f8afb179ff070dc00005b25854987d8d03e33f325"
+    }
+  ],
+  "processing": "Decoded provider base64 bytes to MP4 unchanged. No editing, trimming, assembly, crop-render or transcoding.",
+  "previous_interaction_id": "v1_ChdzbzZjYXZuSEdMbWRfdU1QNE9yLW9BWRIXc282Y2F2bkhHTG1kX3VNUDRPci1vQVk",
+  "interaction_id": "v1_ChdzbzZjYXZuSEdMbWRfdU1QNE9yLW9BWRIXVnBLY2FyMzZCS21XLThZUHV2bWo2UWs",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/detail-followup-2026-09-05/exports/v5/vivienne-detail-stage-2.mp4",
+  "bytes": 24526837,
+  "sha256": "e3b043b2bbf13be46eabcaee36726d1dea9ab16d4dc360a4f7c7bf435ce3d51a",
+  "video_duration": 18.0,
+  "container_duration": 18.005,
+  "frames": 432,
+  "fps": "24/1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "audio_streams": 1,
+  "usage": {
+    "total_tokens": 119097,
+    "total_input_tokens": 59281,
+    "input_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 50880
+      },
+      {
+        "modality": "text",
+        "tokens": 1823
+      },
+      {
+        "modality": "image",
+        "tokens": 6578
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58840,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 976,
+    "raw_prompt_token": 51254,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 4710
+          },
+          {
+            "modality": "image",
+            "tokens": 6578
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 926
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 976
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "finished_utc": "2026-09-05T22:08:36.322804+00:00"
+}

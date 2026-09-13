@@ -1,0 +1,16 @@
+{
+  "match": false,
+  "confidence": 100,
+  "best_segment": null,
+  "entry_EV": 1,
+  "peak_EV": 1,
+  "rawness": 1,
+  "action_match": "wrong",
+  "text_status": "text present",
+  "visible_evidence": "The subject is shown sitting on a bed and then standing in a bathroom, but is never shown seated on a toilet. Additionally, large text captions are present throughout the entire duration of the video.",
+  "flags": [
+    "text_present",
+    "action_mismatch"
+  ],
+  "why": "The video fails on multiple criteria: the subject is never shown seated on a toilet, and there is no segment of the required length (or any length) that is free of source text captions."
+}

@@ -1,0 +1,47 @@
+{
+  "jsonrpc": "2.0",
+  "id": 34,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brandtracker transcripts (0 shown of 0)\n\nBrandtracker ID: f2f10b46-43a7-47dc-8fdd-31df364bbdbd\nFilters: time_period=last6m, sort_by=usageCount, order=desc, eu_only=false, page=1, limit=6\n\nNo grouped transcripts found for this brandtracker and filter set.\n\n---\nCredits used: 0 | Remaining: 9706"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "13321c27-3a39-4da7-b887-b297fca0dbc9",
+      "brandtrackerId": "f2f10b46-43a7-47dc-8fdd-31df364bbdbd",
+      "query": {
+        "brandtracker_id": "f2f10b46-43a7-47dc-8fdd-31df364bbdbd",
+        "time_period": "last6m",
+        "page": 1,
+        "limit": 6,
+        "eu_only": false,
+        "order": "desc",
+        "sort_by": "usageCount"
+      },
+      "data": [],
+      "pagination": {
+        "page": 1,
+        "limit": 6,
+        "total": 0,
+        "totalPages": 0
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 6,
+        "effectiveUnits": 6,
+        "actualUnits": 0,
+        "costUnits": 0,
+        "recurringUnits": 0,
+        "topupUnits": 0,
+        "creditsRemaining": 9706,
+        "creditsSourceHeader": null,
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

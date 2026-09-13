@@ -1,0 +1,47 @@
+<section class="rvres">
+  <div class="rvres-panel">
+    <div class="rvres-grid">
+      <div class="rvres-left">
+        <h2 class="rvres-h2">Results Reported by Those Who Tried Renavita</h2>
+        <p class="rvres-sub">We surveyed daily users to learn how Renavita fit into their mornings.*</p>
+        <div class="rvres-stats">
+          <div><div class="rvres-num">83%</div><div class="rvres-lab">Reported steadier daily energy*</div><div class="rvres-desc">A calmer, more even afternoon as part of their routine.</div></div>
+          <div><div class="rvres-num">92%</div><div class="rvres-lab">Said it was gentler than capsules*</div><div class="rvres-desc">Easy enough to chew every single morning.</div></div>
+          <div><div class="rvres-num">74%</div><div class="rvres-lab">Preferred it over swallowing pills*</div><div class="rvres-desc">No more choking down a handful of horse-pills.</div></div>
+        </div>
+        <img class="rvres-bottles" src="{{ 'three-bottles-t.png' | asset_url }}" alt="Renavita bottles">
+      </div>
+      <div class="rvres-right">
+        <img class="rvres-photo" src="{{ 'results-gummies.png' | asset_url }}" alt="Happy Renavita customer">
+        <div class="rvres-guar">
+          <svg class="rvres-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 3v6c0 5-3.4 8.6-8 11-4.6-2.4-8-6-8-11V5l8-3z"/><path d="M9.5 12.5l1.8 1.8 3.5-3.6"/></svg>
+          <div class="rvres-guar-big">90 Day</div>
+          <div class="rvres-guar-sub">Renavita Money Back Guarantee</div>
+          <p class="rvres-guar-p">If you're not satisfied with your experience within 90 days of delivery, return it within 90 days for a full refund.</p>
+          <div class="rvres-guar-checks"><span>✓ 100% Money-Back Guarantee</span><span>✓ No Questions Asked</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.rvres{width:100vw;position:relative;left:50%;transform:translateX(-50%);background:radial-gradient(120% 130% at 78% 22%,__BRAND_DARK__,__DARK__ 72%);padding:8px 22px;}
+.rvres-panel{max-width:1180px;margin:0 auto;padding:48px 0;}
+.rvres-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start;}
+.rvres-h2{font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:30px;font-weight:800;color:__PAPER__ !important;margin:0 0 8px;}
+.rvres-sub{font-size:15px;color:rgba(243,230,208,.8) !important;margin:0 0 28px;}
+.rvres-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.rvres-num{font-family:'Iowan Old Style',Georgia,serif;font-size:42px;font-weight:800;color:__GOLD_LT__ !important;line-height:1;margin-bottom:6px;}
+.rvres-lab{font-size:15px;font-weight:800;color:__PAPER__ !important;line-height:1.2;margin-bottom:8px;}
+.rvres-desc{font-size:13px;color:rgba(243,230,208,.72) !important;line-height:1.45;}
+.rvres-bottles{display:block;width:78%;max-width:420px;margin:18px 0 0 -10px;filter:drop-shadow(0 16px 26px rgba(0,0,0,.4));}
+.rvres-photo{width:100%;border-radius:14px;display:block;margin-bottom:26px;box-shadow:0 14px 30px rgba(0,0,0,.3);}
+.rvres-shield{width:42px;height:42px;color:__GOLD_LT__ !important;margin-bottom:10px;}
+.rvres-guar-big{font-family:'Iowan Old Style',Georgia,serif;font-size:34px;font-weight:800;color:__GOLD_LT__ !important;line-height:1;}
+.rvres-guar-sub{font-size:19px;font-weight:800;color:__PAPER__ !important;margin:2px 0 10px;}
+.rvres-guar-p{font-size:14.5px;color:rgba(243,230,208,.8) !important;line-height:1.5;margin:0 0 16px;}
+.rvres-guar-checks{display:flex;flex-wrap:wrap;gap:8px 22px;}
+.rvres-guar-checks span{font-size:14px;font-weight:700;color:__PAPER__ !important;}
+@media(max-width:820px){.rvres-panel{padding:30px 22px;}.rvres-grid{grid-template-columns:1fr;gap:26px;}.rvres-h2{font-size:25px;}.rvres-stats{gap:16px;}.rvres-num{font-size:34px;}.rvres-bottles{width:70%;margin-bottom:0;}.rvres-right{order:-1;}}
+</style>
+{% schema %}{"name":"RV Results","settings":[],"presets":[{"name":"RV Results"}]}{% endschema %}

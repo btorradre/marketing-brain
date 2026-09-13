@@ -1,0 +1,238 @@
+{
+  "as_of": "2026-09-05",
+  "source": "Shopify Admin read-only",
+  "menus": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Menu/204150997057",
+        "title": "Main menu",
+        "handle": "main-menu",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/491248123969",
+            "title": "Handbags",
+            "type": "COLLECTION",
+            "url": "/collections/handbags",
+            "resourceId": "gid://shopify/Collection/294984253505",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/521903112257",
+            "title": "Accessories",
+            "type": "COLLECTION",
+            "url": "/collections/accessories",
+            "resourceId": "gid://shopify/Collection/294984319041",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/521134080065",
+            "title": "Track Your Order",
+            "type": "HTTP",
+            "url": "https://velantrafashion.com/apps/parcel",
+            "resourceId": null,
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/484288135233",
+            "title": "Contact",
+            "type": "PAGE",
+            "url": "/pages/contact",
+            "resourceId": "gid://shopify/Page/96252100673",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530576932929",
+            "title": "FAQs",
+            "type": "PAGE",
+            "url": "/pages/faqs",
+            "resourceId": "gid://shopify/Page/108851691585",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530576310337",
+            "title": "About Us",
+            "type": "PAGE",
+            "url": "/pages/about-us-1",
+            "resourceId": "gid://shopify/Page/108851363905",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Menu/204151029825",
+        "title": "Footer menu",
+        "handle": "footer",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/530577752129",
+            "title": "About Us",
+            "type": "PAGE",
+            "url": "/pages/about-us-1",
+            "resourceId": "gid://shopify/Page/108851363905",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530577784897",
+            "title": "Contact",
+            "type": "PAGE",
+            "url": "/pages/contact",
+            "resourceId": "gid://shopify/Page/96252100673",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530578505793",
+            "title": "FAQs",
+            "type": "PAGE",
+            "url": "/pages/faqs",
+            "resourceId": "gid://shopify/Page/108851691585",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530577817665",
+            "title": "Track Your Order",
+            "type": "HTTP",
+            "url": "https://velantrafashion.com/apps/parcel",
+            "resourceId": null,
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/570429046849",
+            "title": "Return & Refund Policy",
+            "type": "SHOP_POLICY",
+            "url": "/policies/refund-policy",
+            "resourceId": "gid://shopify/ShopPolicy/28328034369",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/570429079617",
+            "title": "Shipping Policy",
+            "type": "SHOP_POLICY",
+            "url": "/policies/shipping-policy",
+            "resourceId": "gid://shopify/ShopPolicy/28328099905",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/570429112385",
+            "title": "Privacy Policy",
+            "type": "SHOP_POLICY",
+            "url": "/policies/privacy-policy",
+            "resourceId": "gid://shopify/ShopPolicy/28303294529",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/570429145153",
+            "title": "Terms of Service",
+            "type": "SHOP_POLICY",
+            "url": "/policies/terms-of-service",
+            "resourceId": "gid://shopify/ShopPolicy/28328067137",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/484288266305",
+            "title": "Your Privacy Choices",
+            "type": "PAGE",
+            "url": "/pages/data-sharing-opt-out",
+            "resourceId": "gid://shopify/Page/96252133441",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Menu/204151062593",
+        "title": "Customer account main menu",
+        "handle": "customer-account-main-menu",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/484288233537",
+            "title": "Orders",
+            "type": "CUSTOMER_ACCOUNT_PAGE",
+            "url": "https://shopify.com/62740922433/account/orders",
+            "resourceId": "gid://shopify/CustomerAccountPage/55015964737",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/544652427329",
+            "title": "Profile",
+            "type": "CUSTOMER_ACCOUNT_PAGE",
+            "url": "https://shopify.com/62740922433/account/profile",
+            "resourceId": "gid://shopify/CustomerAccountPage/55015997505",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Menu/223300812865",
+        "title": "Policies",
+        "handle": "policies",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/530578276417",
+            "title": "Your Privacy Choices",
+            "type": "PAGE",
+            "url": "/pages/data-sharing-opt-out",
+            "resourceId": "gid://shopify/Page/96252133441",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530577850433",
+            "title": "Contact Information",
+            "type": "SHOP_POLICY",
+            "url": "/policies/contact-information",
+            "resourceId": "gid://shopify/ShopPolicy/34582954049",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530577883201",
+            "title": "Privacy Policy",
+            "type": "SHOP_POLICY",
+            "url": "/policies/privacy-policy",
+            "resourceId": "gid://shopify/ShopPolicy/28303294529",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530577915969",
+            "title": "Refund Policy",
+            "type": "SHOP_POLICY",
+            "url": "/policies/refund-policy",
+            "resourceId": "gid://shopify/ShopPolicy/28328034369",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530577948737",
+            "title": "Shipping Policy",
+            "type": "SHOP_POLICY",
+            "url": "/policies/shipping-policy",
+            "resourceId": "gid://shopify/ShopPolicy/28328099905",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530578178113",
+            "title": "Terms of Service",
+            "type": "SHOP_POLICY",
+            "url": "/policies/terms-of-service",
+            "resourceId": "gid://shopify/ShopPolicy/28328067137",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/530578243649",
+            "title": "Payment Policy",
+            "type": "PAGE",
+            "url": "/pages/payment-policy",
+            "resourceId": "gid://shopify/Page/108851855425",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Menu/239722233921",
+        "title": "SOCIAL",
+        "handle": "social",
+        "items": []
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoyMzk3MjIyMzM5MjEsImxhc3RfdmFsdWUiOjIzOTcyMjIzMzkyMX0="
+    }
+  }
+}

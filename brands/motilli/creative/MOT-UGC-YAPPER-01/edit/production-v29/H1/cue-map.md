@@ -1,0 +1,35 @@
+# V29 H1 final executed cue map
+| Shot | In | Out | Source in | Transition |
+|---|---:|---:|---:|---|
+| HOOK-toilet-hook | 0.000 | 2.833 | 0.000 | direct cut |
+| HOOK-couch-hook | 2.833 | 4.200 | 0.000 | direct cut |
+| B01-cramping | 10.933 | 13.500 | 0.000 | direct cut |
+| B01-unfinished-dinner | 13.500 | 16.133 | 1.000 | direct cut |
+| B02-loose-jeans | 16.133 | 17.767 | 1.000 | direct cut |
+| N01 | 17.767 | 19.300 | 2.300 | direct cut |
+| N02 | 19.300 | 22.533 | 0.400 | direct cut |
+| B03-bathroom-scale | 26.300 | 28.467 | 0.000 | direct cut |
+| B04-fiber-stirring | 30.733 | 33.200 | 1.000 | direct cut |
+| B04-tiktok-fiber-foods | 33.200 | 35.233 | 35.000 | direct cut |
+| B04-morning-heavy | 38.200 | 41.200 | 1.000 | direct cut |
+| B05-miralax-closeup | 41.867 | 43.467 | 0.000 | direct cut |
+| N03 | 53.133 | 55.967 | 0.500 | direct cut |
+| B07-research | 57.300 | 64.900 | 1.000 | direct cut |
+| B08-stomach | 71.733 | 75.467 | 1.000 | direct cut |
+| N05 | 75.467 | 78.167 | 0.600 | direct cut |
+| B08-river | 78.167 | 81.733 | 1.000 | direct cut |
+| N06 | 81.733 | 87.367 | 0.500 | direct cut |
+| N04 | 102.600 | 104.000 | 0.600 | direct cut |
+| B11-group-post | 104.000 | 107.733 | 0.000 | direct cut |
+| B12-celery | 112.733 | 115.300 | 0.000 | direct cut |
+| B12-apigenin-research | 115.367 | 119.100 | 0.000 | direct cut |
+| B13-chlorophyllin | 119.100 | 121.867 | 0.000 | direct cut |
+| B14-fiber | 124.633 | 127.400 | 0.000 | direct cut |
+| N07 | 151.500 | 154.867 | 0.300 | direct cut |
+| B17-ingredients | 157.533 | 159.733 | 0.000 | direct cut |
+| N08 | 163.000 | 166.000 | 1.800 | direct cut |
+| B19-routine | 172.267 | 174.367 | 0.000 | direct cut |
+| B20-dinner | 178.267 | 181.300 | 6.000 | direct cut |
+| B20-leaving | 182.933 | 185.033 | 1.000 | direct cut |
+| B21-cooking | 186.567 | 188.833 | 1.000 | direct cut |
+| N09 | 188.833 | 192.033 | 0.300 | direct cut |

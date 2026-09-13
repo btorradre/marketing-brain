@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gut Health Blog | What I Put on My Wife's Bedside Table the Day She Came Home From the Hospital</title>
+<meta name="description" content="A husband's follow-up to the letter about his wife's GLP-1 colon rupture: the exact rebuild protocol her surgeon gave them, what to expect in the first three weeks, and where to get it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --masthead: #14302a;
+    --masthead-2: #1c4036;
+    --green-cta: #1c4036;
+    --green-cta-hover: #14302a;
+    --text-main: #121212;
+    --text-body: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --border: #e5e5e5;
+    --bg-page: #ffffff;
+    --bg-soft: #f7f7f5;
+    --bg-quote: #f4f6f4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; background: #fff !important; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-body);
+    background: #fff !important;
+    line-height: 1.7;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+
+  /* Top disclosure bar */
+  .disclosure-bar { background: var(--bg-soft); border-bottom: 1px solid var(--border); padding: 7px 0; text-align: center; }
+  .disclosure-bar .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; font-size: 11px; letter-spacing: 1.2px; font-weight: 600; text-transform: uppercase; color: #999; }
+
+  /* Masthead */
+  .masthead { background: #fff; border-bottom: 1px solid var(--border); padding: 16px 0 14px; }
+  .masthead .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .masthead .brand { font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: var(--masthead); letter-spacing: -0.5px; white-space: nowrap; line-height: 1.1; }
+  .masthead .tag { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1.1px; font-weight: 600; line-height: 1.4; text-align: right; }
+  .masthead .tag span { color: var(--masthead); }
+
+  /* Layout */
+  .page {
+    max-width: 1100px; margin: 0 auto;
+    padding: 32px 20px 60px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 48px;
+    align-items: start;
+  }
+  .article { min-width: 0; max-width: 680px; }
+  .sidebar { position: sticky; top: 20px; }
+
+  /* Editorial tag */
+  .edit-tag { font-size: 11px; color: var(--masthead); text-transform: uppercase; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+  .edit-tag::after { content: ""; flex: 1; height: 1px; background: #d0d0d0; }
+
+  h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 34px; line-height: 1.22; font-weight: 700;
+    color: var(--text-main); letter-spacing: -0.4px; margin-bottom: 16px;
+  }
+  .dek { font-size: 18px; line-height: 1.6; color: #444; margin-bottom: 20px; font-weight: 400; }
+  .byline { display: flex; align-items: center; gap: 10px; padding: 14px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 30px; font-size: 13.5px; color: var(--text-muted); }
+  .byline strong { color: var(--text-main); font-weight: 600; }
+
+  .article p { margin-bottom: 22px; }
+  .article .beat { text-align: center; color: #bbb; letter-spacing: 6px; margin: 28px 0; font-size: 14px; }
+
+  h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 25px; line-height: 1.3; font-weight: 700;
+    color: var(--text-main); margin: 44px 0 18px;
+  }
+
+  .pullquote {
+    border-left: 3px solid var(--masthead);
+    background: var(--bg-quote);
+    padding: 22px 26px; margin: 30px 0;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 21px; line-height: 1.45; color: var(--text-main);
+  }
+  .pullquote .attr { display: block; margin-top: 10px; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--text-muted); font-style: normal; }
+
+  .protocol-box {
+    border: 1.5px solid var(--masthead); border-radius: 6px;
+    padding: 24px 26px; margin: 30px 0; background: #fff;
+  }
+  .protocol-box .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; color: var(--masthead); margin-bottom: 10px; }
+  .protocol-box .big { font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; font-weight: 600; color: var(--text-main); line-height: 1.4; margin-bottom: 8px; }
+  .protocol-box .small { font-size: 14px; color: var(--text-muted); }
+
+  .checklist { margin: 26px 0; }
+  .checklist li {
+    list-style: none; padding: 14px 0 14px 34px; position: relative;
+    border-bottom: 1px solid var(--border); font-size: 17px; line-height: 1.55;
+  }
+  .checklist li::before {
+    content: "—"; position: absolute; left: 4px; top: 13px; color: var(--masthead); font-weight: 700;
+  }
+
+  .cta-block { margin: 34px 0; text-align: center; }
+  .cta-button {
+    display: inline-block; background: var(--green-cta); color: #fff !important;
+    font-weight: 700; font-size: 17px; padding: 17px 38px; border-radius: 6px;
+    text-decoration: none; letter-spacing: 0.2px;
+    transition: background 0.15s ease;
+  }
+  .cta-button:hover { background: var(--green-cta-hover); }
+  .cta-sub { margin-top: 10px; font-size: 13px; color: var(--text-muted); }
+
+  .product-figure { margin: 30px 0; }
+  .product-figure img { border-radius: 6px; border: 1px solid var(--border); }
+  .product-figure figcaption { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+
+  .faq { margin: 26px 0; }
+  .faq .q { font-weight: 700; color: var(--text-main); margin-bottom: 6px; font-size: 17px; }
+  .faq .a { margin-bottom: 24px; }
+
+  .reader-letter {
+    background: var(--bg-soft); border-radius: 6px; padding: 22px 24px; margin-bottom: 18px;
+    font-size: 16px; line-height: 1.65;
+  }
+  .reader-letter .who { font-size: 13px; color: var(--text-muted); margin-top: 10px; font-weight: 600; }
+  .reader-note { font-size: 12.5px; color: #999; margin-top: 6px; }
+
+  .signoff { font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; color: var(--text-main); margin-top: 8px; }
+
+  /* Sidebar offer card */
+  .offer-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+  .offer-card .card-head { background: var(--masthead); color: #fff; padding: 12px 18px; font-size: 12px; text-transform: uppercase; letter-spacing: 1.3px; font-weight: 700; }
+  .offer-card .card-body { padding: 18px; }
+  .offer-card img { border-radius: 4px; margin-bottom: 14px; }
+  .offer-card .name { font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; font-weight: 700; color: var(--text-main); margin-bottom: 6px; }
+  .offer-card .desc { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .offer-card ul { margin: 0 0 16px; }
+  .offer-card ul li { list-style: none; font-size: 13.5px; padding: 6px 0 6px 22px; position: relative; border-bottom: 1px solid #f0f0f0; }
+  .offer-card ul li::before { content: "✓"; position: absolute; left: 2px; color: var(--masthead); font-weight: 700; }
+  .offer-card .cta-button { display: block; text-align: center; font-size: 15px; padding: 14px 10px; }
+  .offer-card .guarantee { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 10px; }
+  .sidebar .side-quote { margin-top: 22px; font-family: 'Source Serif 4', Georgia, serif; font-size: 16px; color: #444; border-left: 3px solid var(--masthead); padding-left: 14px; line-height: 1.55; }
+  .sidebar .side-quote span { display: block; font-family: 'Inter', sans-serif; font-size: 12px; color: var(--text-muted); margin-top: 8px; }
+
+  /* Mobile sticky CTA */
+  .sticky-cta {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 50;
+    background: var(--masthead); padding: 10px 16px;
+    display: none; align-items: center; justify-content: space-between; gap: 12px;
+    transform: translateY(110%); transition: transform 0.25s ease;
+  }
+  .sticky-cta.visible { transform: translateY(0); }
+  .sticky-cta .txt { color: #fff; font-size: 13px; line-height: 1.35; font-weight: 600; }
+  .sticky-cta .txt small { display: block; font-weight: 400; opacity: 0.8; font-size: 11.5px; }
+  .sticky-cta a { background: #fff; color: var(--masthead); font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 5px; text-decoration: none; white-space: nowrap; }
+
+  /* Footer */
+  .footer { border-top: 1px solid var(--border); background: var(--bg-soft); padding: 36px 0 90px; margin-top: 20px; }
+  .footer .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  .footer p { font-size: 12px; color: #999; line-height: 1.7; margin-bottom: 12px; }
+  .footer .links { font-size: 12.5px; color: #777; margin-bottom: 18px; }
+  .footer .links a { margin-right: 16px; text-decoration: none; }
+
+  @media (max-width: 900px) {
+    .page { grid-template-columns: 1fr; gap: 0; }
+    .sidebar { position: static; order: 2; margin-top: 30px; max-width: 480px; }
+    .article { max-width: 100%; }
+    h1 { font-size: 28px; }
+    .sticky-cta { display: flex; }
+  }
+</style>
+</head>
+<body>
+
+<div class="disclosure-bar"><div class="inner">Advertorial — This page contains an advertisement for Motilli</div></div>
+
+<header class="masthead">
+  <div class="inner">
+    <div class="brand">Gut Health Blog</div>
+    <div class="tag">Reader stories &amp; gut health reporting<br><span>GLP-1 Series</span></div>
+  </div>
+</header>
+
+<div class="page">
+<article class="article">
+
+  <div class="edit-tag">A Reader's Story — Follow-Up</div>
+
+  <h1>What I Put on My Wife's Bedside Table the Day She Came Home From the Hospital</h1>
+
+  <p class="dek">I wrote about what happened to Ellen. This page is for the three questions I keep being asked: what exactly did the surgeon tell us to do, is it safe alongside the medication, and where do we get it.</p>
+
+  <div class="byline">
+    <div><strong>By Paul — Ellen's husband</strong> &nbsp;·&nbsp; Last updated July 2026</div>
+  </div>
+
+  <p>If you are here, you probably just finished reading what happened to my wife.</p>
+
+  <p>Some of you read every word. Some of you skimmed to the end and clicked because one line on that list of symptoms was yours.</p>
+
+  <p>Either way, I will keep this page shorter than the letter. You did not come here for another story. You came here because you are on a GLP-1 medication, something in your gut has been quietly changing, and you want to know exactly what we were told and exactly what we did.</p>
+
+  <p>That is all this page is.</p>
+
+  <p>I am not a doctor, and nothing here replaces yours. Ellen made every medical decision with two of them. What I can give you is the protocol we followed, word for word, and where to find the bottle that was waiting on her bedside table the day she came home.</p>
+
+  <div class="beat">— — —</div>
+
+  <h2>What the surgeon told us was happening</h2>
+
+  <p>For anyone who skimmed, here is the explanation Dr. Adeyemi gave me in his office on day four, compressed as far as I can compress it.</p>
+
+  <p>Your colon is a muscle. To move waste, it has to contract. To contract, it needs a signal — a short-chain fatty acid called butyrate, made by bacteria that live in your colon and ferment the fiber you eat.</p>
+
+  <p>GLP-1 medications slow your entire digestive transit. That is part of how they work, and it is part of why they work. But that slow transit changes what actually reaches those bacteria. The food they ferment stops getting down to them.</p>
+
+  <div class="pullquote">
+    "They starve them."
+    <span class="attr">— What he said when I asked what the medication does to those bacteria. He said it quietly, like he was angry.</span>
+  </div>
+
+  <p>By month two or month three — his words — those bacterial populations are already at a fraction of what they were in many users. When the bacteria crash, the butyrate crashes with them. The colon stops getting the instruction to move. Waste builds. Pressure builds.</p>
+
+  <p>In my wife's case, at week ten, the pressure found a weak spot in the wall of her colon on a Saturday night, halfway through a plate of roast chicken.</p>
+
+  <p>Nothing about this announces itself. That is the part I need you to hear. For ten weeks, the only warning we got was a slowdown we wrote off as a side effect she would adjust to.</p>
+
+  <h2>Why nothing in the cabinet was fixing it</h2>
+
+  <p>Once you understand the mechanism, you understand why the usual answers were not working — and were never going to.</p>
+
+  <p><strong>Miralax</strong> pulls water into the colon so that today is easier. It does nothing for the bacteria. Tomorrow there are fewer of them than there were today. It is, as I wrote in the letter, a band-aid on the wrong wound.</p>
+
+  <p><strong>Bulk fiber</strong> — the coarse, thick kind in most fiber products — packs more mass into a colon that has lost its signal to move. That is not help. That is load. It is part of what made Ellen worse.</p>
+
+  <p><strong>Probiotics</strong> send new bacteria down into a colon where the food supply has collapsed. They starve the same way the original ones did.</p>
+
+  <p>And <strong>quitting the medication</strong> — which is where some women land, out of fear — was never on the table for Ellen. Her medication was doing exactly what it was supposed to do. Her A1C. Her weight. The food noise. The medication was not the failure. The starvation underneath it was the thing nobody was watching.</p>
+
+  <h2>The two things he said mattered</h2>
+
+  <p>When I asked Dr. Adeyemi what to do, he did not give me a brand first. He gave me two requirements.</p>
+
+  <p><strong>First: apigenin.</strong> A compound concentrated in celery juice. It does two jobs at once — it helps the right bacteria grow back, and it calms the inflamed lining of the colon while they do. And because it barely absorbs into the bloodstream, it stays down in the colon, where the work actually has to happen, instead of being carried off.</p>
+
+  <p><strong>Second: a low, gentle dose of soluble fiber.</strong> Not bulk fiber. A soluble fiber that dissolves and feeds the bacteria you are trying to bring back, so they survive and multiply.</p>
+
+  <div class="pullquote">
+    "You rebuild them, then you feed them."
+    <span class="attr">— Dr. Adeyemi, day four, surgical wing</span>
+  </div>
+
+  <p>Then he said the sentence that saved me two weeks of comparison shopping: most products on the market have one of those two. Some have neither — they are just a laxative, or a tub of bulk fiber.</p>
+
+  <h2>The bottle he named</h2>
+
+  <p>The one he named — the one he said the post-op GLP-1 patients in his hospital were actually using — is called Motilli.</p>
+
+  <figure class="product-figure">
+    <img src="images/motilli-product.jpeg" alt="Motilli Celery Juice Fiber Gummies — bottle of sixty">
+    <figcaption>The bottle: sixty gummies. Apigenin from celery juice, plus a low-dose soluble fiber.</figcaption>
+  </figure>
+
+  <p>I want to be plain about what it is and what it is not.</p>
+
+  <p>It is a gummy. A bottle holds sixty. It contains the apigenin, from celery juice, and the low-dose soluble fiber — both requirements, in one bottle. It is not a laxative. Nothing about it forces anything. Which also means nothing dramatic happens on night one — and I will get to that.</p>
+
+  <div class="protocol-box">
+    <div class="label">The protocol, exactly as he gave it to us</div>
+    <div class="big">Three gummies, before bed, with a full glass of water. Every night.</div>
+    <div class="small">That is the whole protocol. Nothing to time around your injection day. Nothing to mix or measure.</div>
+  </div>
+
+  <p>The day Ellen came home from the hospital, the bottle was on her bedside table. She took the first three that night, and she has taken three every night since.</p>
+
+  <h2>What to expect — and what not to</h2>
+
+  <p>The company would probably write this section differently. But you came to this page from my letter, and I told you I would not embellish.</p>
+
+  <p><strong>Expect nothing for about three weeks.</strong></p>
+
+  <p>That is not a defect. The decline was silent, and the rebuild is silent too. Bacteria that starved over months do not grow back over a weekend. Dr. Adeyemi told us three weeks before we should expect to feel anything at all, and he was right almost to the day.</p>
+
+  <p>I can only give you Ellen's timeline, and I will be honest that hers is not a normal case — she was recovering from surgery while the rebuild happened. Around week four, she said her abdomen felt "less hard." By week eight, she was sleeping through the night, her bloodwork was clean, and the imaging of her lower colon looked better than her surgical team expected. Dr. Adeyemi's nurse told us: "Whatever you are doing, keep doing it."</p>
+
+  <p>Your starting point, God willing, is nothing like hers. But the rule he gave us holds either way: judge nothing before three weeks. Quiet first. Then movement.</p>
+
+  <h2>The math on the bottles</h2>
+
+  <p>Here is the one piece of arithmetic that matters.</p>
+
+  <p>A bottle is sixty gummies. Three a night is twenty days. The three-week mark — the earliest point Dr. Adeyemi told us to expect anything — arrives after your first bottle is already empty.</p>
+
+  <p>So a single bottle is not really a test of anything. If you are going to do this, do it the way it was prescribed to us: as a rebuild, measured in months, not as a thing you try for a week.</p>
+
+  <p>The company sells it one way that makes sense for that. Buy two bottles and they add a third free, with free shipping. Three bottles is sixty days — long enough to be well past wondering.</p>
+
+  <p>I have no countdown clock for you and no claim about how many bottles are left in a warehouse. As far as I know, it is their standing offer. The only urgency on this page is the list further down — the one from the end of my letter.</p>
+
+  <div class="cta-block">
+    <a class="cta-button" href="https://getmotilli.com/">Get Motilli — Buy 2, Get 1 Free &rarr;</a>
+    <div class="cta-sub">Free shipping · Three bottles is a sixty-day rebuild</div>
+  </div>
+
+  <h2>The guarantee</h2>
+
+  <p>Ninety days, money back.</p>
+
+  <p>In the letter I said: if it does not do for you what it did for my wife, you send the bottle back and you have lost nothing. Since writing that, I have learned it is even simpler — they do not require you to send anything back. You email them inside ninety days and every dollar comes back.</p>
+
+  <p>The ninety days matters for a reason. A company selling a three-week rebuild cannot hide behind a thirty-day window. The guarantee outlasts the timeline. That is the right order.</p>
+
+  <h2>Ask yourself the same five questions</h2>
+
+  <p>If you are on a GLP-1 medication, this is the list from the end of my letter. Read it slowly.</p>
+
+  <ul class="checklist">
+    <li>A constipation pattern that has been getting slowly worse over weeks or months.</li>
+    <li>A vague heaviness in your lower abdomen that you are writing off as bloating.</li>
+    <li>A slow change in how often you go that you have stopped paying close attention to.</li>
+    <li>A sense that the Miralax is not really working anymore — but you keep buying it anyway.</li>
+    <li>A bigger Miralax box than you used to buy.</li>
+  </ul>
+
+  <p>If even one of those is you, understand what it means underneath: the bacteria are not waiting to see how your month goes. Every week the transit stays slow, there are fewer of them. The rebuild only gets longer from here.</p>
+
+  <div class="cta-block">
+    <a class="cta-button" href="https://getmotilli.com/">Start the Rebuild — Buy 2, Get 1 Free &rarr;</a>
+    <div class="cta-sub">Three before bed, with a full glass of water · 90-day money-back guarantee</div>
+  </div>
+
+  <h2>Questions I keep being asked</h2>
+
+  <div class="faq">
+    <div class="q">Can I take it alongside my medication?</div>
+    <div class="a">Ellen does — she is back on her GLP-1 medication, taking Motilli every night, with her primary care doctor's full knowledge and Dr. Adeyemi's protocol on file. It is not a drug and it does not touch what the medication is doing. But do what we did: tell your doctor. Bring them the mechanism — the bacteria, the butyrate, the signal. I wish someone had brought it to us.</div>
+
+    <div class="q">Is this a laxative?</div>
+    <div class="a">No. A laxative forces an exit and changes nothing underneath. This is the opposite kind of thing — slow, quiet, aimed at the bacteria that make the signal your colon has stopped receiving. If you want something dramatic by morning, this is not that, and I will not pretend otherwise.</div>
+
+    <div class="q">When will I feel something?</div>
+    <div class="a">Plan on three weeks of nothing. That is what we were told and that is what happened. The guarantee runs ninety days precisely so the timeline never has to race the refund window.</div>
+
+    <div class="q">Should I stop the Miralax?</div>
+    <div class="a">That is a doctor question, not a husband question. What I can tell you is what the surgeon told us: Miralax was managing the symptom, not the cause, and the goal of the rebuild is to reach the point where there is no symptom left to manage.</div>
+  </div>
+
+  <h2>From readers of the letter</h2>
+
+  <div class="reader-letter">
+    "I read your letter with my hand on my lower left side, which I suppose was your point. I had gone from every day to every four or five days across about four months and had been telling myself it was the shot settling in. Week three on the gummies, nothing, and I nearly emailed for the refund. Week four, my mornings started coming back. I am writing this in week seven. Thank you for writing it down."
+    <div class="who">— Donna, 56 · on a GLP-1 for 7 months</div>
+  </div>
+
+  <div class="reader-letter">
+    "The detail that got me was the bigger Miralax box. I was on my second of the big ones. I took the letter to my doctor, who read it and said the mechanism was sound and there was no reason not to try. It has been six weeks. The box is still in the cabinet. I have not opened it since week four."
+    <div class="who">— Marie, 49 · on a GLP-1 for 5 months</div>
+  </div>
+
+  <div class="reader-letter">
+    "I did not have pain, just the heaviness you described, and I had honestly stopped counting the days between. That sentence about the slow quiet slowdown is the one I could not shake. Three weeks of nothing, like you said. Then, slowly, not nothing. My husband read the letter after me and ordered the bottles before I had finished deciding."
+    <div class="who">— Susan, 61 · on a GLP-1 for 11 months</div>
+  </div>
+
+  <p class="reader-note">Reader responses are representative of messages received and are shared for illustrative purposes. Results vary.</p>
+
+  <div class="beat">— — —</div>
+
+  <h2>The bedside table</h2>
+
+  <p>I will end where the letter ended, because nothing about it has changed.</p>
+
+  <p>We almost did not get her back. Seventeen days in a hospital. A stoma bag for three months. A second surgery, and a long recovery on the other side of it.</p>
+
+  <p>The bottle that was waiting on her bedside table cost less than what I paid the hospital parking garage over those seventeen days.</p>
+
+  <p>If the list above has even one line that is yours — do not wait until someone has to write a letter like mine about you.</p>
+
+  <p class="signoff">Please.<br><br>— Paul</p>
+
+  <div class="cta-block">
+    <a class="cta-button" href="https://getmotilli.com/">Get Motilli — Buy 2, Get 1 Free &rarr;</a>
+    <div class="cta-sub">Free shipping · 90-day money-back guarantee · Three before bed, with a full glass of water</div>
+  </div>
+
+</article>
+
+<aside class="sidebar">
+  <div class="offer-card">
+    <div class="card-head">What we ordered</div>
+    <div class="card-body">
+      <img src="images/motilli-product.jpeg" alt="Motilli Celery Juice Fiber Gummies">
+      <div class="name">Motilli — Celery Juice Fiber Gummies</div>
+      <div class="desc">Apigenin from celery juice plus a low-dose soluble fiber. Rebuild the bacteria, then feed them.</div>
+      <ul>
+        <li>Three before bed, with a full glass of water</li>
+        <li>Buy 2, Get 1 Free — a 60-day rebuild</li>
+        <li>Free shipping</li>
+        <li>90-day money-back guarantee</li>
+      </ul>
+      <a class="cta-button" href="https://getmotilli.com/">Get Motilli &rarr;</a>
+      <div class="guarantee">Not a laxative. Expect nothing for about three weeks.</div>
+    </div>
+  </div>
+  <div class="side-quote">
+    "You rebuild them, then you feed them."
+    <span>— the surgeon's protocol, day four</span>
+  </div>
+</aside>
+</div>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="txt">Motilli — Buy 2, Get 1 Free<small>90-day money-back guarantee</small></div>
+  <a href="https://getmotilli.com/">Get it &rarr;</a>
+</div>
+
+<footer class="footer">
+  <div class="inner">
+    <div class="links">
+      <a href="https://getmotilli.com/pages/contact">Contact</a>
+      <a href="https://getmotilli.com/pages/track-order">Track Order</a>
+      <a href="https://getmotilli.com/policies/refund-policy">Returns Policy</a>
+      <a href="https://getmotilli.com/policies/privacy-policy">Privacy Policy</a>
+      <a href="https://getmotilli.com/policies/terms-of-service">Terms of Service</a>
+    </div>
+    <p>THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE. The story depicted on this site and the person depicted in the story are representative of results some people have achieved and are shared for illustrative purposes only. Results may vary and are not guaranteed. This page is intended for informational purposes and reflects the personal experience and opinions of its author; it is not medical advice.</p>
+    <p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. If you are experiencing abdominal pain, a sudden change in bowel habits, or any acute symptom, seek medical care immediately. Always consult your physician before beginning any supplement, especially if you are taking prescription medication, including GLP-1 receptor agonists.</p>
+    <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound®, and Miralax® are registered trademarks of their respective owners. The owners of these trademarks are not affiliated with, and do not endorse, this product or this page.</p>
+    <p>© 2026 Gut Health Blog. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var bar = document.getElementById('stickyCta');
+    var shown = false;
+    window.addEventListener('scroll', function () {
+      var y = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+      if (y > 0.25 && !shown) { bar.classList.add('visible'); shown = true; }
+      if (y <= 0.25 && shown) { bar.classList.remove('visible'); shown = false; }
+    }, { passive: true });
+  })();
+</script>
+
+</body>
+</html>

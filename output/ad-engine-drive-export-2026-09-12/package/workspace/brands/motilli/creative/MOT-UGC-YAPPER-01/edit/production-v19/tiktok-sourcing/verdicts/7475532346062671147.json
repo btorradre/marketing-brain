@@ -1,0 +1,16 @@
+{
+  "match": false,
+  "confidence": 100,
+  "best_segment": null,
+  "entry_EV": 1,
+  "peak_EV": 1,
+  "rawness": 1,
+  "action_match": "partial",
+  "text_status": "text present",
+  "visible_evidence": "00:00-00:06 text overlay present throughout; 00:03-00:05 abdominal clutching action is too brief (approx 1.9s) and contains text.",
+  "flags": [
+    "text_present",
+    "insufficient_duration"
+  ],
+  "why": "The video fails on two primary requirements: first, the specific action of leaning forward and clutching the abdomen only lasts for approximately 1.9 seconds (from 00:03.3 to 00:05.2), which is shorter than the required 2.566667 seconds. Second, there is a persistent text overlay ('POV: you're on your period...') that remains on screen for the entire duration of the video, violating the 'no source captions, text' requirement."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "v1_ChdVU0dpYW8ta0hNdWN6N0lQdk83YXlBZxIXVVNHaWFvLWtITXVjejdJUHZPN2F5QWc",
+  "status": "completed",
+  "usage": {
+    "total_tokens": 60387,
+    "total_input_tokens": 1236,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 136
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58853,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 298,
+    "raw_prompt_token": 33053,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1903
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 939
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 298
+          }
+        ]
+      }
+    ]
+  },
+  "bytes": 2410981
+}

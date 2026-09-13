@@ -1,0 +1,60 @@
+{
+  "id": "v1_Chc1TDJrYXJYY0otYUp6N0lQeGVYYmlRMBIXNUwya2FyWGNKLWFKejdJUHhlWGJpUTA",
+  "asset": "motilli-product",
+  "beat": "PRODUCT-INTRO",
+  "prompt": "Animate this exact supplied product image as one continuous 10-second vertical 9:16 video. Preserve the actual Motilli bottle, its lime green label, exact white motilli logo, all label typography and graphics, clear tall cylindrical bottle and closed broad white lid without any change. Keep the front label facing the camera and entirely in the upper half of the image at all times. A mature woman wearing the same coral sweater holds the bottle over the same kitchen counter, with only a very subtle natural settling of her hands, then holds it steady. No opening, rotation, squeezing, label changes, cuts, zoom, camera travel, speech, music or additional text. Keep product typography perfectly stable and sharp. One gentle realistic handheld product demonstration, minimal motion.",
+  "source": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/assets/images-v31/motilli-product.png",
+  "status": "completed",
+  "usage": {
+    "total_tokens": 60728,
+    "total_input_tokens": 1256,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 156
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 59044,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 428,
+    "raw_prompt_token": 33734,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1923
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1130
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 428
+          }
+        ]
+      }
+    ]
+  },
+  "bytes": 2434301
+}

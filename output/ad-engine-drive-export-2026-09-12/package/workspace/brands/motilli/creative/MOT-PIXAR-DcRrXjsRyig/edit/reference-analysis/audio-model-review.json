@@ -1,0 +1,38 @@
+{
+  "model": "models/gemini-2.5-flash",
+  "method": "secondary model direct audio analysis; not primary agent listening",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "- **00:00 - 00:05:** A gentle, slightly melancholic piano melody begins, establishing a calm, reflective mood.\n- **00:05 - 00:08:** A child's voice asks a question, followed by a pause.\n- **00:08 - 00:10:** The child's voice continues, with a slight pause before the last word.\n- **00:10 - 00:11:** An adult female voice responds, maintaining a calm, informative tone.\n- **00:12 - 00:14:** The child's voice expresses concern, followed by a question.\n- **00:15 - 00:15:** The adult female voice gives a short, affirmative answer.\n- **00:16 - 00:17:** The child's voice asks another question.\n- **00:18 - 00:18:** The adult female voice gives a short, direct answer.\n- **00:20 - 00:21:** The child's voice asks a question, followed by a pause.\n- **00:22 - 00:23:** The child's voice giggles, then speaks with a playful tone.\n- **00:24 - 00:25:** The child's voice continues, with a slight pause before the last word.\n- **00:25 - 00:26:** The child's voice exclaims loudly, with a burst of energy.\n- **00:26 - 00:27:** The child's voice laughs.\n- **00:27 - 00:28:** The adult female voice intervenes, with a firm but calm tone.\n- **00:28 - 00:29:** The adult female voice continues, with a slight pause before the last word.\n- **00:29 - 00:30:** The piano melody continues, maintaining its gentle character.\n- **00:30 - 00:33:** The adult female voice introduces new information, maintaining a calm, informative tone.\n- **00:33 - 00:34:** The adult female voice asks a question.\n- **00:34 - 00:35:** The child's voice exclaims, with a burst of energy.\n- **00:35 - 00:36:** The child's voice continues, with a slight pause before the last word.\n- **00:36 - 00:37:** Another child's voice interjects, with a playful tone.\n- **00:37 - 00:38:** The second child's voice continues, with a slight pause before the last word.\n- **00:38 - 00:39:** The first child's voice responds, with a slightly dismissive tone.\n- **00:39 - 00:40:** The first child's voice pauses, then asks a question.\n- **00:40 - 00:41:** The first child's voice continues, with a slight pause before the last word.\n- **00:41 - 00:42:** The adult female voice gives a short, direct answer.\n- **00:42 - 00:45:** The adult female voice provides more information, maintaining a calm, informative tone.\n- **00:45 - 00:46:** The child's voice asks a question.\n- **00:46 - 00:48:** The adult female voice responds, with a slightly mysterious tone.\n- **00:48 - 00:49:** The child's voice expresses admiration, with a slight pause before the last word.\n- **00:50 - 00:52:** The child's voice continues, with a slight pause before the last word.\n- **00:52 - 00:53:** The second child's voice asks a question.\n- **00:53 - 00:54:** The first child's voice responds, with a strong, affirmative tone.\n- **00:54 - 00:56:** The first child's voice continues, with a burst of energy.\n- **00:56 - 00:57:** The first child's voice expresses a desire, with a slight pause before the last word.\n- **00:58 - 00:58:** The second child's voice agrees.\n- **00:58 - 00:59:** The first child's voice agrees, with a strong, affirmative tone.\n- **00:59 - 01:00:** A sound effect of a whoosh or transition occurs, followed by a brief pause in the music.\n- **01:01 - 01:02:** The child's voice asks a question.\n- **01:02 - 01:04:** The adult female voice responds, providing information.\n- **01:05 - 01:06:** The child's voice asks a question.\n- **01:07 - 01:07:** The adult female voice gives a short, direct answer.\n- **01:08 - 01:09:** The child's voice asks a question.\n- **01:10 - 01:11:** The adult female voice responds, with a slightly mysterious tone.\n- **01:11 - 01:17:** The adult female voice provides detailed information, maintaining a calm, informative tone.\n- **01:18 - 01:19:** The child's voice expresses surprise, with a slight pause before the last word.\n- **01:20 - 01:20:** The adult female voice gives a short, affirmative answer.\n- **01:21 - 01:21:** The child's voice asks a question.\n- **01:22 - 01:22:** The adult female voice gives a short, affirmative answer.\n- **01:24 - 01:25:** The child's voice makes a comment, with a slight pause before the last word.\n- **01:26 - 01:26:** The second child's voice interjects, with a playful tone.\n- **01:27 - 01:27:** The second child's voice laughs.\n- **01:28 - 01:29:** The adult female voice intervenes, with a firm but calm tone.\n- **01:29 - 01:29:** The adult female voice continues, with a slight pause before the last word."
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 2962,
+      "candidatesTokenCount": 1573,
+      "totalTokenCount": 4535,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 84
+        },
+        {
+          "modality": "AUDIO",
+          "tokenCount": 2878
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "t3WkavzsKqXn8QHl5tDhCQ"
+  }
+}

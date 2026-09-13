@@ -1,0 +1,74 @@
+{
+  "campaigns": [
+    {
+      "name": "Summer Sale 2026 - Traffic",
+      "objective": "OUTCOME_TRAFFIC",
+      "status": "PAUSED",
+      "special_ad_categories": [],
+      "ad_sets": [
+        {
+          "name": "US Women 25-45 - Interest Targeting",
+          "daily_budget": 2000,
+          "billing_event": "IMPRESSIONS",
+          "optimization_goal": "LINK_CLICKS",
+          "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+          "status": "PAUSED",
+          "targeting": {
+            "geo_locations": { "countries": ["US"] },
+            "age_min": 25,
+            "age_max": 45,
+            "genders": [2]
+          },
+          "ads": [
+            {
+              "name": "Summer Sale - Hero Image A",
+              "page_id": "YOUR_PAGE_ID",
+              "link": "https://yoursite.com/summer-sale",
+              "message": "Our biggest summer sale is here! Up to 50% off everything.",
+              "headline": "Summer Sale - Up to 50% Off",
+              "description": "Shop now and save big on your favorites.",
+              "image_path": "/path/to/hero-image-a.jpg",
+              "call_to_action_type": "SHOP_NOW",
+              "status": "PAUSED"
+            },
+            {
+              "name": "Summer Sale - Hero Image B",
+              "page_id": "YOUR_PAGE_ID",
+              "link": "https://yoursite.com/summer-sale",
+              "message": "Don't miss out! Summer deals end soon.",
+              "headline": "Limited Time Summer Deals",
+              "description": "Free shipping on orders over $50.",
+              "image_path": "/path/to/hero-image-b.jpg",
+              "call_to_action_type": "SHOP_NOW",
+              "status": "PAUSED"
+            }
+          ]
+        },
+        {
+          "name": "US Broad 18-65 - Open Targeting",
+          "daily_budget": 1000,
+          "billing_event": "IMPRESSIONS",
+          "optimization_goal": "LINK_CLICKS",
+          "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+          "status": "PAUSED",
+          "targeting": {
+            "geo_locations": { "countries": ["US"] },
+            "age_min": 18,
+            "age_max": 65
+          },
+          "ads": [
+            {
+              "name": "Summer Sale - Broad Ad",
+              "page_id": "YOUR_PAGE_ID",
+              "link": "https://yoursite.com/summer-sale",
+              "message": "Summer savings are here. Shop the sale now.",
+              "headline": "Summer Sale Now Live",
+              "call_to_action_type": "LEARN_MORE",
+              "status": "PAUSED"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

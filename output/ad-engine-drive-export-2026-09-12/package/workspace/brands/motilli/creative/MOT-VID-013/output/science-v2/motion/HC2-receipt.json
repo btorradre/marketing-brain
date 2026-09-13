@@ -1,0 +1,73 @@
+{
+  "shot": "HC2",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The colon wall moves very slowly around the existing formed contents; maintain the same geometry and open passage throughout. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/HC2.png",
+  "reference_sha256": "6453d30bcf2b80ec21f5f9f62d6dd1225d568c08f4716c9b8b95b0f47f1089b7",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdTOE9nYXFlVUM5T0R6N0lQaGNUaTBRRRIXUzhPZ2FxZVVDOU9EejdJUGhjVGkwUUU",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/HC2.mp4",
+  "sha256": "c531aa0faa9f1d47d8e66d885269424684e48c231e36c3e7e8c23047b77ed6b4",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 60046,
+    "total_input_tokens": 1153,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 53
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58463,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 430,
+    "raw_prompt_token": 31295,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1846
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 549
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 430
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

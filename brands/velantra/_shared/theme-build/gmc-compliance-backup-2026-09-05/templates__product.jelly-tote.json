@@ -1,0 +1,343 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A structured top-handle tote in matte, translucent jelly. Lightweight, wipe-clean, and impossible to ignore — in fifteen candy-bright shades.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Designed for the woman who treats a Tuesday like an event, the Jelly Tote takes a classic top-handle silhouette and remakes it in matte, translucent jelly. A scalloped front flap, a polished silver turn-lock, and tall top handles that sit easily in the hand or on the shoulder give it real structure — while the candy-bright finish keeps it light, playful, and impossible to miss. It's roomy enough for everything a day asks for and moves from beach club to brunch without missing a beat. Best of all, the jelly wipes clean and shrugs off the weather, so it keeps its shine season after season. Available in fifteen shades — collect your favorite, or every one.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_materials": {
+          "type": "tab",
+          "settings": {
+            "title": "Materials & Care",
+            "content": "<p><strong>Body:<\/strong> Matte, translucent jelly PVC.<br\/><strong>Hardware:<\/strong> Polished silver turn-lock with padlock and key.<br\/><strong>Handles:<\/strong> Tall top handles in matching jelly.<br\/><strong>Closure:<\/strong> Scalloped front flap with belt strap.<\/p><p><strong>Care:<\/strong> Wipe clean with a soft, damp cloth — no special products needed. Weather-friendly and water-resistant; simply dry after a rainy day. Store out of prolonged direct heat to keep the jelly's shine.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_dimensions": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Fit",
+            "content": "<p><strong>Width:<\/strong> 35 cm (13.8&quot;) &nbsp;|&nbsp; <strong>Height:<\/strong> 27 cm (10.6&quot;) &nbsp;|&nbsp; <strong>Depth:<\/strong> 15 cm (5.9&quot;) &nbsp;|&nbsp; <strong>Handle Drop:<\/strong> 23 cm (9&quot;)<\/p><p><strong>What it fits:<\/strong> a tablet, full-size wallet, sunglasses, a water bottle, and your daily essentials — with the tall handles clearing the shoulder.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_warranty": {
+          "type": "tab",
+          "settings": {
+            "title": "Two Year Warranty",
+            "content": "<p>Every Velantra bag is covered for two years against defects in materials and construction. If anything goes wrong in normal use, we&rsquo;ll repair or replace it.<\/p><p>After two years, we continue to offer repair service for the cost of materials. Designed to last decades, not seasons.<\/p>",
+            "page": ""
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "reviews",
+        "tab_details",
+        "tab_materials",
+        "tab_dimensions",
+        "tab_ship",
+        "tab_warranty",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Jelly Tote",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag — all designed to match.<\/p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we’ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "MATERIAL",
+            "headline": "Matte Translucent Jelly",
+            "body": "<p>A soft, matte jelly finish that catches the light. Lightweight, wipe-clean, and weather-friendly.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "DETAIL",
+            "headline": "Silver Turn-Lock & Key",
+            "body": "<p>A polished silver turn-lock, padlock, and key fob finish the scalloped front flap — structure meets play.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "THE RANGE",
+            "headline": "Fifteen Candy Shades",
+            "body": "<p>From Milk to Watermelon to Grape. Collect your favorite — or every one.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Roomy everyday interior",
+            "body": "<p>Fits a tablet, wallet, and the rest of your essentials.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE HANDLES",
+            "headline": "Tall top handles",
+            "body": "<p>Sit easily in the hand or slip onto the shoulder.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE FINISH",
+            "headline": "Wipe-clean jelly",
+            "body": "<p>Weather-friendly and water-resistant. Keeps its shine.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE LOCK",
+            "headline": "Silver turn-lock",
+            "body": "<p>Padlock and key fob included — for the love of detail.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jelly-tote-watermelon.png",
+            "image_position": "left",
+            "eyebrow": "MADE TO BE COLLECTED",
+            "headline": "A Classic Shape, Dipped in Candy",
+            "body": "<p>We took a structured top-handle silhouette and remade it in matte, translucent jelly — then dropped it in fifteen candy-bright shades. The scalloped flap and polished silver turn-lock keep it grown-up; the colors keep it fun. It's the bag people stop you to ask about.<\/p><p>Lightweight, wipe-clean, and weather-friendly, it's built for real summers and everything after. Pick the one that's most you — or start collecting.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered. Lifetime in our shop.",
+            "body": "<p>Two-year warranty on materials and stitching. After that, we repair anything for the cost of materials. Send it back. Get it back better than you sent it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "editorial",
+    "recently_viewed"
+  ]
+}

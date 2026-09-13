@@ -1,0 +1,248 @@
+{
+  "data": {
+    "deliveryProfiles": {
+      "nodes": [
+        {
+          "id": "gid://shopify/DeliveryProfile/131530424687",
+          "name": "General profile",
+          "default": true,
+          "profileLocationGroups": [
+            {
+              "locationGroupZones": {
+                "nodes": [
+                  {
+                    "zone": {
+                      "name": "Domestic",
+                      "countries": [
+                        {
+                          "code": {
+                            "countryCode": "US"
+                          }
+                        }
+                      ]
+                    },
+                    "methodDefinitions": {
+                      "nodes": [
+                        {
+                          "name": "Standard",
+                          "active": true,
+                          "methodConditions": [],
+                          "rateProvider": {
+                            "price": {
+                              "amount": "4.99",
+                              "currencyCode": "USD"
+                            }
+                          }
+                        },
+                        {
+                          "name": "Standard",
+                          "active": true,
+                          "methodConditions": [
+                            {
+                              "field": "TOTAL_PRICE",
+                              "operator": "GREATER_THAN_OR_EQUAL_TO",
+                              "conditionCriteria": {
+                                "amount": "45.0",
+                                "currencyCode": "USD"
+                              }
+                            }
+                          ],
+                          "rateProvider": {
+                            "price": {
+                              "amount": "0.0",
+                              "currencyCode": "USD"
+                            }
+                          }
+                        },
+                        {
+                          "name": "Express",
+                          "active": true,
+                          "methodConditions": [],
+                          "rateProvider": {
+                            "price": {
+                              "amount": "6.99",
+                              "currencyCode": "USD"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "zone": {
+                      "name": "International",
+                      "countries": [
+                        {
+                          "code": {
+                            "countryCode": "AE"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "AT"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "AU"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "BE"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "CA"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "CH"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "CZ"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "DE"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "DK"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "ES"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "FI"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "FR"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "GB"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "HK"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "IE"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "IL"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "IT"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "JP"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "KR"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "MY"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "NL"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "NO"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "NZ"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "PL"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "PT"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "SE"
+                          }
+                        },
+                        {
+                          "code": {
+                            "countryCode": "SG"
+                          }
+                        }
+                      ]
+                    },
+                    "methodDefinitions": {
+                      "nodes": [
+                        {
+                          "name": "usps",
+                          "active": true,
+                          "methodConditions": [],
+                          "rateProvider": {}
+                        },
+                        {
+                          "name": "dhl_express",
+                          "active": true,
+                          "methodConditions": [],
+                          "rateProvider": {}
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 922,
+      "actualQueryCost": 5,
+      "throttleStatus": {
+        "maximumAvailable": 4000.0,
+        "currentlyAvailable": 3995,
+        "restoreRate": 200.0
+      }
+    }
+  }
+}

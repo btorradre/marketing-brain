@@ -1,0 +1,73 @@
+{
+  "shot": "S23",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The existing water droplets drift slightly beside the stool in the colon cutaway, without changing the stool size or shape; keep the illustrative anatomy intact. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S23.png",
+  "reference_sha256": "01da9a7d3f9c6937efc4700fea8df405faf5c580ca9e51ec110930809ead81f5",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdkN09nYW9PcEc0ZlZ6N0lQNmJuRy1RRRIXZDdPZ2FvT3BHNGZWejdJUDZibkctUUU",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S23.mp4",
+  "sha256": "65c93eacd01385eb51801f0a329b245bc2c93110c97a5acf9458227cde646a5f",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60161,
+    "total_input_tokens": 1161,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 61
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58465,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 535,
+    "raw_prompt_token": 31330,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1854
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 551
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 535
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

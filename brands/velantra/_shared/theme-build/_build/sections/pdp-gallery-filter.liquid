@@ -1,0 +1,222 @@
+{%- comment -%}
+  PDP — Gallery Lock (AJAX section swap, no page reload).
+  Click any color → compute target variant → fetch ONLY the product section
+  with that variant via Shopify Section Rendering API → swap [data-product-images]
+  in place → re-init Flickity → update URL + form's variant id. ~200ms swap.
+{%- endcomment -%}
+
+{%- if product and product.options.size > 0 -%}
+  <script id="pdp-variants-data-{{ section.id }}">
+    window.__pdpProductUrl = {{ product.url | json }};
+    window.__pdpProductOptions = {{ product.options | json }};
+    window.__pdpVariants = [
+      {%- for v in product.variants -%}
+        { id: {{ v.id }}, options: {{ v.options | json }}, available: {{ v.available }} }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ];
+  </script>
+
+  <script>
+  (function(){
+    'use strict';
+    if (window.__pdpGalleryLockInit) return;
+    window.__pdpGalleryLockInit = true;
+
+    var debug = false;
+    try { debug = /pdpdebug/.test(location.search); } catch(e) {}
+    function log(){ if (debug && console) console.log.apply(console, ['[pdp-lock]'].concat([].slice.call(arguments))); }
+
+    var swapping = false;
+    var currentVariantId = null;
+
+    function findVariantId(selectedOptions){
+      if (!window.__pdpVariants) return null;
+      for (var j = 0; j < window.__pdpVariants.length; j++) {
+        var v = window.__pdpVariants[j];
+        var allMatch = true;
+        for (var i = 0; i < v.options.length; i++) {
+          if (v.options[i] !== selectedOptions[i]) { allMatch = false; break; }
+        }
+        if (allMatch) return v.id;
+      }
+      return null;
+    }
+
+    function readSelectedOptions(){
+      var opts = window.__pdpProductOptions || [];
+      var selected = [];
+      for (var i = 0; i < opts.length; i++) {
+        var name = opts[i];
+        var checked =
+          document.querySelector('input[type="radio"][name="' + name + '"]:checked') ||
+          document.querySelector('input[type="radio"][name="options[' + name + ']"]:checked');
+        if (checked) selected.push(checked.value);
+        else {
+          var dd = document.querySelector('select[name="' + name + '"], select[name="options[' + name + ']"]');
+          selected.push(dd ? dd.value : null);
+        }
+      }
+      return selected;
+    }
+
+    function getSectionId(){
+      var sec = document.querySelector('[id^="shopify-section-template--"][id$="__main"]')
+             || document.querySelector('[id^="shopify-section-template--"][id*="_main"]')
+             || document.querySelector('[id^="shopify-section-template"]');
+      return sec ? sec.id.replace(/^shopify-section-/, '') : null;
+    }
+
+    function destroyFlickity(node){
+      if (!window.Flickity || !node) return;
+      try {
+        var fk = window.Flickity.data(node);
+        if (fk) { fk.destroy(); log('destroyed flickity on', node); }
+      } catch(e) { log('destroy err', e); }
+    }
+
+    function initFlickityOn(scope){
+      if (!window.Flickity || !scope) return;
+      var main = scope.querySelector('.product-slideshow');
+      var thumbs = scope.querySelector('[data-product-thumbs]');
+      try {
+        if (main && !window.Flickity.data(main)) {
+          new window.Flickity(main, {
+            cellSelector: '.product-main-slide',
+            pageDots: true,
+            prevNextButtons: false,
+            wrapAround: true,
+            adaptiveHeight: true,
+            imagesLoaded: true,
+            dragThreshold: 8
+          });
+        }
+        if (thumbs && !window.Flickity.data(thumbs)) {
+          new window.Flickity(thumbs, {
+            cellSelector: '.product__thumb-item',
+            pageDots: false,
+            prevNextButtons: false,
+            cellAlign: 'left',
+            contain: true
+          });
+        }
+      } catch(e) { log('init err', e); }
+    }
+
+    function swapGallery(variantId){
+      if (swapping || !variantId || variantId === currentVariantId) return;
+      var sectionId = getSectionId();
+      if (!sectionId) { log('no section id, falling back to reload'); window.location.search = '?variant=' + variantId; return; }
+
+      swapping = true;
+      var prevVariantId = currentVariantId;
+      currentVariantId = variantId;
+
+      var fetchUrl = window.__pdpProductUrl + '?variant=' + variantId + '&section_id=' + sectionId;
+      log('fetching', fetchUrl);
+
+      var oldGallery = document.querySelector('[data-product-images]');
+      if (oldGallery) {
+        // Subtle loading state so user sees activity
+        oldGallery.style.opacity = '0.5';
+        oldGallery.style.transition = 'opacity 120ms ease';
+      }
+
+      fetch(fetchUrl, { credentials: 'same-origin', headers: { 'Accept': 'text/html' } })
+        .then(function(r){ return r.text(); })
+        .then(function(html){
+          var doc = new DOMParser().parseFromString(html, 'text/html');
+          var newGallery = doc.querySelector('[data-product-images]');
+          var existing = document.querySelector('[data-product-images]');
+          if (!newGallery || !existing) { log('missing gallery node'); swapping = false; if (existing) existing.style.opacity = ''; return; }
+
+          // Destroy Flickity on old gallery before removing
+          destroyFlickity(existing.querySelector('.product-slideshow'));
+          destroyFlickity(existing.querySelector('[data-product-thumbs]'));
+
+          // Swap in place
+          existing.parentNode.replaceChild(newGallery, existing);
+
+          // Re-init Flickity on the freshly inserted DOM
+          setTimeout(function(){ initFlickityOn(newGallery); }, 30);
+
+          // Update URL without reload
+          try {
+            var stateUrl = window.__pdpProductUrl + '?variant=' + variantId;
+            history.replaceState({}, '', stateUrl);
+          } catch(e) {}
+
+          // Update the form's hidden variant id so ATC posts correctly
+          var idInput = document.querySelector('form[action*="/cart/add"] input[name="id"]');
+          if (idInput) idInput.value = variantId;
+
+          log('swap complete', prevVariantId, '→', variantId);
+        })
+        .catch(function(e){
+          log('fetch err', e);
+          var existing = document.querySelector('[data-product-images]');
+          if (existing) existing.style.opacity = '';
+        })
+        .finally(function(){
+          setTimeout(function(){ swapping = false; }, 100);
+        });
+    }
+
+    function handleVariantChange(){
+      var sel = readSelectedOptions();
+      if (!sel || sel.indexOf(null) !== -1) return;
+      var vid = findVariantId(sel);
+      if (vid) swapGallery(vid);
+    }
+
+    function bind(){
+      currentVariantId = (function(){
+        var el = document.querySelector('form[action*="/cart/add"] input[name="id"]');
+        return el && el.value ? parseInt(el.value, 10) : null;
+      })();
+      log('initial variant', currentVariantId, 'sectionId', getSectionId());
+
+      document.addEventListener('change', function(e){
+        var t = e.target;
+        if (!t || !t.matches) return;
+        var isVariantInput =
+          t.matches('input[type="radio"][data-variant-input]') ||
+          t.matches('input[type="radio"][name^="options["]') ||
+          t.matches('select[name^="options["]') ||
+          (t.matches('input[type="radio"]') && t.closest('.variant-wrapper, .pdp-variant-wrapper, .variant-input-wrap'));
+        if (isVariantInput) {
+          log('variant change', t.name, '=', t.value);
+          setTimeout(handleVariantChange, 0);
+        }
+      }, true);
+
+      // Direct click on labels — manually check radio if needed
+      document.addEventListener('click', function(e){
+        var label = e.target.closest('label[for^="ProductSelect-"]');
+        if (!label) return;
+        var forId = label.getAttribute('for');
+        var input = forId ? document.getElementById(forId) : null;
+        if (input && !input.checked) {
+          input.checked = true;
+          setTimeout(handleVariantChange, 30);
+        }
+      }, true);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', bind);
+    } else {
+      bind();
+    }
+  })();
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "PDP · Gallery Lock",
+  "tag": "section",
+  "settings": [],
+  "presets": [{ "name": "PDP · Gallery Lock" }],
+  "disabled_on": { "groups": ["header", "footer", "aside"] }
+}
+{% endschema %}

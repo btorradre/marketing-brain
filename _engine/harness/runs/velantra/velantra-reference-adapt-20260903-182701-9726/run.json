@@ -1,0 +1,85 @@
+{
+  "id": "velantra-reference-adapt-20260903-182701-9726",
+  "workflow": "reference-adapt",
+  "brand": "velantra",
+  "product": "weekender",
+  "inputs": {
+    "source": "TrendTrack Nobl Weekender creator review, facebook ad 942626465165968, 167 days running",
+    "ref": "https://medias.trendtrack.io/facebook/video/44e3c64e44b396d499e060fbdc7cfa607899557237ae8895012556eda81f5c68.mp4"
+  },
+  "flags": {
+    "generate": false,
+    "animate": false
+  },
+  "policy": {
+    "allowed_tools": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Bash",
+      "Skill",
+      "WebFetch",
+      "mcp__dr-os__dr_pipeline_guide",
+      "mcp__dr-os__dr_load_brand",
+      "mcp__dr-os__dr_list_playbooks",
+      "mcp__dr-os__dr_get_playbook",
+      "mcp__dr-os__dr_ingest_reference",
+      "mcp__dr-os__dr_lawgate",
+      "mcp__dr-os__dr_list_artifacts",
+      "mcp__dr-os__dr_read_artifact",
+      "mcp__dr-os__dr_save_artifact",
+      "mcp__dr-os__dr_push_brief_board",
+      "mcp__dr-os__dr_list_boards",
+      "mcp__dr-os__dr_push_concept",
+      "mcp__dr-os__dr_status",
+      "mcp__ad-engine__resolve_reference_tool",
+      "mcp__ad-engine__watch_reference_tool",
+      "mcp__ad-engine__list_assets",
+      "mcp__ad-engine__get_asset",
+      "mcp__ad-engine__cost_summary"
+    ],
+    "disallowed_tools": [
+      "mcp__ad-engine__kie_generate",
+      "mcp__ad-engine__kie_upload",
+      "mcp__ad-engine__eleven_generate_vo",
+      "mcp__ad-engine__eleven_clone_voice",
+      "mcp__ad-engine__heygen_generate",
+      "mcp__ad-engine__heygen_upload_audio",
+      "mcp__ad-engine__plan_generate_anchors",
+      "mcp__ad-engine__plan_generate_keyframes",
+      "mcp__ad-engine__plan_animate_scenes"
+    ],
+    "flag_tools": {
+      "generate": [
+        "mcp__ad-engine__kie_generate",
+        "mcp__ad-engine__plan_generate_anchors",
+        "mcp__ad-engine__plan_generate_keyframes",
+        "mcp__ad-engine__eleven_generate_vo",
+        "mcp__ad-engine__heygen_generate"
+      ],
+      "animate": [
+        "mcp__ad-engine__plan_animate_scenes"
+      ]
+    }
+  },
+  "budget": {
+    "max_turns": 120,
+    "max_budget_usd": 15,
+    "wall_clock_min": 75
+  },
+  "stop": "mcp__dr-os__dr_push_brief_board",
+  "parent_run": null,
+  "created_by": "brooks",
+  "status": "blocked_on_human",
+  "session_id": "407c3581-48d4-41fd-9f22-de1ca622c7a3",
+  "cost_usd": 3.90307975,
+  "num_turns": 29,
+  "stop_met": true,
+  "stop_detail": "mcp__dr-os__dr_push_brief_board returned [{\"type\": \"text\", \"text\": \"{\\n  \\\"slug\\\": \\\"vel-weekender-onebag-01\\\",\\n  \\\"url\\\": \\\"http://localhost:8765/b/vel-weekender-onebag-01\\\",\\n  \\\"server_up\\\": true,\\",
+  "error": null,
+  "created_at": 1788478021.6186,
+  "started_at": 1788478021.62143,
+  "ended_at": 1788478934.615565
+}

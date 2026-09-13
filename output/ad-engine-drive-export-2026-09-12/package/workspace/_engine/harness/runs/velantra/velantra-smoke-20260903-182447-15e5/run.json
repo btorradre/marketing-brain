@@ -1,0 +1,45 @@
+{
+  "id": "velantra-smoke-20260903-182447-15e5",
+  "workflow": "smoke",
+  "brand": "velantra",
+  "product": null,
+  "inputs": {},
+  "flags": {
+    "generate": false
+  },
+  "policy": {
+    "allowed_tools": [
+      "Read",
+      "Write",
+      "Glob",
+      "mcp__dr-os__dr_status",
+      "mcp__dr-os__dr_load_brand"
+    ],
+    "disallowed_tools": [
+      "Bash"
+    ],
+    "flag_tools": {
+      "generate": [
+        "mcp__ad-engine__kie_generate"
+      ]
+    }
+  },
+  "budget": {
+    "max_turns": 8,
+    "max_budget_usd": 1,
+    "wall_clock_min": 5
+  },
+  "stop": "report.md",
+  "parent_run": null,
+  "created_by": "brooks",
+  "status": "done",
+  "session_id": "0d658240-95d4-4062-855f-9aed5fc22737",
+  "cost_usd": 0.2950965,
+  "num_turns": 6,
+  "stop_met": true,
+  "stop_detail": "file report.md written",
+  "error": null,
+  "created_at": 1788477887.2032058,
+  "started_at": 1788477887.2056441,
+  "ended_at": 1788477914.030196
+}

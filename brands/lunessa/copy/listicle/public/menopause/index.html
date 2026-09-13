@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 Reasons Women Over 50 Are Done Blaming Their Age for Sudden High Cholesterol</title>
+  <style>
+    :root {
+      --accent: #580e05;
+      --accent-hover: #441008;
+      --accent-light: #fdf0ef;
+      --text-dark: #1a1a1a;
+      --text-body: #444444;
+      --text-meta: #666666;
+      --text-light: #888888;
+      --bg-white: #ffffff;
+      --bg-subtle: #faf8f8;
+      --border: #e5e7eb;
+      --star: #f59e0b;
+      --guarantee-bg: #fef9e7;
+      --guarantee-border: #f5d565;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text-body);
+      background: var(--bg-white);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    .author-avatar { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; }
+    .hero-image { width: 100%; border-radius: 12px; margin: 24px 0 10px; display: block; }
+    .hero-caption { font-size: 13px; color: var(--text-light); text-align: center; line-height: 1.5; margin-bottom: 4px; }
+    .press-bar { text-align: center; padding: 20px 0 16px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 24px 0 4px; }
+    .press-label { display: block; font-size: 11px; letter-spacing: 2.5px; color: var(--text-light); text-transform: uppercase; margin-bottom: 12px; }
+    .press-logos { display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; color: #8a8a8a; }
+    .logo-forbes { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 22px; }
+    .logo-nbc { font-weight: 800; font-size: 15px; font-style: italic; }
+    .logo-fox { font-weight: 800; font-size: 13px; letter-spacing: 1.5px; border: 2px solid #8a8a8a; padding: 2px 8px; }
+    .doctor-photo { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+    .sticky-cta {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+      background: #fff; border-top: 1px solid var(--border);
+      box-shadow: 0 -4px 16px rgba(0,0,0,0.08);
+      padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      text-align: center;
+      transform: translateY(110%); transition: transform 0.3s ease;
+    }
+    .sticky-cta.visible { transform: translateY(0); }
+    .sticky-cta-btn {
+      display: block; max-width: 480px; margin: 0 auto;
+      background: var(--accent); color: #fff; font-size: 16px; font-weight: 700;
+      padding: 13px 24px; border-radius: 8px; text-decoration: none;
+    }
+    .sticky-cta-btn:hover { background: var(--accent-hover); }
+    .sticky-cta-sub { display: block; font-size: 12px; color: var(--text-light); margin-top: 5px; }
+    body.cta-visible .footer { padding-bottom: 110px; }
+    .eyebrow {
+      display: inline-block; margin-top: 36px; padding: 5px 14px;
+      background: var(--accent-light); color: var(--accent);
+      font-size: 13px; font-weight: 700; border-radius: 20px; letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .headline {
+      font-size: 32px; font-weight: 800; color: var(--text-dark);
+      line-height: 1.2; margin-top: 20px; margin-bottom: 12px;
+    }
+    @media (max-width: 600px) { .headline { font-size: 26px; } }
+    .subhead {
+      font-size: 18px; color: var(--text-meta); line-height: 1.55;
+      margin-bottom: 20px; font-weight: 400;
+    }
+    @media (max-width: 600px) { .subhead { font-size: 16px; } }
+    .byline {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+      font-size: 13px; color: var(--text-light);
+      padding-bottom: 20px; border-bottom: 1px solid var(--border); margin-bottom: 8px;
+    }
+    .byline .stars { color: var(--star); letter-spacing: 1px; }
+    .byline b { color: var(--text-meta); font-weight: 600; }
+    .opening-frame { padding: 24px 0 8px; }
+    .opening-frame p { font-size: 17px; color: var(--text-body); margin-bottom: 16px; line-height: 1.7; }
+    .doctor-quote {
+      background: var(--bg-subtle); border-left: 3px solid var(--accent);
+      padding: 20px 24px; margin: 24px 0; border-radius: 0 8px 8px 0;
+      font-size: 16px; font-style: italic; color: #555; line-height: 1.7;
+      display: flex; gap: 18px; align-items: flex-start;
+    }
+    .doctor-quote .attribution {
+      display: block; margin-top: 12px; font-style: normal;
+      font-size: 14px; font-weight: 600; color: var(--text-dark);
+    }
+    .mechanism-box {
+      background: var(--bg-subtle); border: 1px solid var(--border);
+      border-radius: 12px; padding: 24px; margin: 28px 0;
+    }
+    .mechanism-title {
+      font-size: 13px; letter-spacing: 2px; text-transform: uppercase;
+      font-weight: 800; color: var(--accent); margin-bottom: 16px; text-align: center;
+    }
+    .mechanism-row { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 14px; font-size: 16px; line-height: 1.6; }
+    .mechanism-num {
+      flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%;
+      background: var(--accent); color: #fff; font-size: 14px; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; margin-top: 2px;
+    }
+    .mechanism-note {
+      margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border);
+      font-size: 15px; font-weight: 600; color: var(--text-dark); text-align: center;
+    }
+    .section-image { width: 100%; border-radius: 12px; margin: 24px 0 8px; display: block; }
+    .cta-wrap { text-align: center; margin: 32px 0; }
+    .cta-btn {
+      display: inline-block; background: var(--accent); color: #fff;
+      font-size: 17px; font-weight: 700; padding: 16px 40px; border-radius: 8px;
+      text-decoration: none; transition: background 0.2s, transform 0.15s;
+      width: 100%; max-width: 480px; text-align: center;
+    }
+    .cta-btn:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .cta-sub { display: block; text-align: center; font-size: 13px; color: var(--text-light); margin-top: 8px; }
+    .list-item { padding: 28px 0 8px; }
+    .item-number {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 40px; height: 40px; background: var(--accent); color: #fff;
+      font-size: 18px; font-weight: 800; border-radius: 50%; margin-bottom: 14px;
+    }
+    .item-title {
+      font-size: 23px; font-weight: 700; color: var(--text-dark);
+      line-height: 1.3; margin-bottom: 16px;
+    }
+    @media (max-width: 600px) { .item-title { font-size: 20px; } }
+    .item-body p { font-size: 17px; color: var(--text-body); margin-bottom: 16px; line-height: 1.7; }
+    .item-body strong { color: var(--text-dark); }
+    .testimonial { background: var(--bg-subtle); border-radius: 12px; padding: 24px 28px; margin: 32px 0; }
+    .testimonial-stars { color: var(--star); font-size: 18px; margin-bottom: 10px; letter-spacing: 2px; }
+    .testimonial-text { font-size: 16px; font-style: italic; color: #555; line-height: 1.65; margin-bottom: 12px; }
+    .testimonial-author { font-size: 14px; font-weight: 600; color: var(--text-dark); }
+    .verified-badge {
+      display: inline-block; background: var(--accent-light); color: var(--accent);
+      font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px;
+      margin-left: 6px; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .close-section { padding: 44px 0 20px; border-top: 1px solid var(--border); text-align: center; }
+    .close-section p {
+      font-size: 18px; color: var(--text-body); margin-bottom: 18px;
+      line-height: 1.65; max-width: 600px; margin-left: auto; margin-right: auto;
+    }
+    .sellout {
+      background: var(--bg-subtle); border: 1px solid var(--border);
+      border-radius: 12px; padding: 24px 28px; margin: 36px 0;
+    }
+    .sellout h3 { font-size: 19px; color: var(--text-dark); margin-bottom: 10px; }
+    .sellout p { font-size: 15.5px; color: var(--text-body); line-height: 1.65; }
+    .ps-block { padding: 8px 0 12px; }
+    .ps-block p { font-size: 16px; color: var(--text-body); margin-bottom: 16px; line-height: 1.7; }
+    .ps-block strong { color: var(--text-dark); }
+    .trust-badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 28px 0; }
+    .trust-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--bg-subtle); border: 1px solid var(--border); border-radius: 8px;
+      padding: 10px 16px; font-size: 13px; font-weight: 600; color: var(--text-meta);
+    }
+    .faq-section { padding: 40px 0; border-top: 1px solid var(--border); }
+    .faq-heading { font-size: 24px; font-weight: 700; color: var(--text-dark); text-align: center; margin-bottom: 28px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-question {
+      width: 100%; background: none; border: none; padding: 18px 0;
+      font-size: 16px; font-weight: 600; color: var(--text-dark); text-align: left;
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+      font-family: inherit; line-height: 1.4;
+    }
+    .faq-question:hover { color: var(--accent); }
+    .faq-icon { font-size: 22px; font-weight: 300; color: var(--text-light); transition: transform 0.25s; flex-shrink: 0; margin-left: 16px; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+    .faq-item.open .faq-answer { max-height: 400px; padding-bottom: 18px; }
+    .faq-answer p { font-size: 15px; color: var(--text-body); line-height: 1.65; }
+    .guarantee-banner {
+      background: var(--guarantee-bg); border: 1px solid var(--guarantee-border);
+      border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;
+    }
+    .guarantee-banner .guarantee-title { font-size: 18px; font-weight: 700; color: var(--text-dark); margin-bottom: 8px; }
+    .guarantee-banner p { font-size: 15px; color: var(--text-body); line-height: 1.6; }
+    .footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; }
+    .footer p { font-size: 12px; color: var(--text-light); line-height: 1.7; max-width: 600px; margin: 0 auto; }
+    .footer a { color: var(--text-light); text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+
+    <div class="eyebrow">Women's Health · Worth Knowing</div>
+
+    <h1 class="headline">Your Cholesterol Was Fine for 30 Years. Then One Lab Report Changed Everything — and "It's Just Your Age" Is Not the Real Answer</h1>
+
+    <p class="subhead">You didn't start eating worse at 52. You didn't stop taking care of yourself. Something specific changed — and once you see it, the whole thing finally makes sense. Here are 8 reasons women over 50 are done blaming their age (and themselves).</p>
+
+    <div class="byline">
+      <img src="images/author.jpg" alt="Susan Hartley" class="author-avatar">
+      <span>By <b>Susan Hartley</b> · Women's Health Editor</span>·<span>July 2026</span>·<span>5 min read</span>·<span class="stars">★★★★★</span><b>4.8/5</b>
+    </div>
+
+    <img src="images/hero.jpg" alt="What the standard lab report never shows about cholesterol after menopause" class="hero-image">
+    <p class="hero-caption">What the standard lab report never shows you: the silent shift in how your body handles cholesterol after menopause.</p>
+
+    <div class="press-bar">
+      <span class="press-label">As Seen In</span>
+      <div class="press-logos">
+        <span class="logo-forbes">Forbes</span>
+        <span class="logo-nbc">NBCUniversal</span>
+        <span class="logo-fox">FOX NEWS</span>
+      </div>
+    </div>
+
+    <div class="opening-frame">
+      <p>For thirty years, your numbers were fine.</p>
+      <p>Then, somewhere after your last period, a doctor slid a lab report across the desk with a number circled in red — and asked when this "started." Nothing started. Same kitchen. Same walks. Same woman.</p>
+      <p><em>"It happens at your age,"</em> she said. <em>"If it keeps climbing, we'll talk about a statin."</em></p>
+      <p>So you did what diligent women do. Oatmeal like a punishment. Dry chicken. Longer walks. You skipped the cake at your own granddaughter's birthday.</p>
+      <p>And at the recheck, the number was <em>higher</em>.</p>
+      <p>So let's say what the seven-minute appointment never had time for: <strong>it's not your diet. And it's not your age.</strong> Aging is slow — it doesn't add 40 points in a year. A sudden jump is an event. Events have causes.</p>
+      <p>The cause: estrogen left. And on its way out, it stopped doing a job nobody told you it was doing — quietly protecting your heart, three ways at once, for forty years. You can't fix "getting older." <strong>A switch that flipped, you can work on.</strong></p>
+      <p>Meet <strong>Lunessa</strong> — a sugar-free raspberry gummy delivering <strong>2,400mg of red yeast rice and 200mg of CoQ10</strong> per serving, built for the woman on the other side of that switch. Here are eight reasons women keep reordering — and quietly telling their sisters.</p>
+    </div>
+
+    <div class="doctor-quote">
+      <img src="images/doctor.jpg" alt="Dr. Elaine Morris, N.D." class="doctor-photo">
+      <div>
+        "The most damaging phrase in women's heart health is 'it's normal for your age.' A woman hears that and blames herself quietly for years. But her cholesterol didn't rise because she got older — it rose because estrogen stopped doing three protective jobs at once. That's not aging. That's a specific, addressable change. We built Lunessa for exactly that change, at the doses the research actually used."
+        <span class="attribution">— Dr. Elaine Morris, N.D., formulation advisor</span>
+      </div>
+    </div>
+
+    <div class="mechanism-box">
+      <p class="mechanism-title">What Actually Changed (It Wasn't Your Age)</p>
+      <div class="mechanism-row"><span class="mechanism-num">1</span><div><strong>Your liver started making more.</strong> Estrogen used to keep cholesterol production dialed down. When it left, your liver turned the output up — no matter what you eat.</div></div>
+      <div class="mechanism-row"><span class="mechanism-num">2</span><div><strong>Your body started clearing less.</strong> Estrogen kept your blood's "cleanup crew" switched on, pulling cholesterol out of circulation every day. Without it, the cleanup slows — and the number climbs.</div></div>
+      <div class="mechanism-row"><span class="mechanism-num">3</span><div><strong>What lingers starts to "rust."</strong> Cholesterol that sits in your blood too long oxidizes — and oxidized cholesterol is the kind that actually sticks to artery walls.</div></div>
+      <p class="mechanism-note">Not one of those is caused by birthdays. All three are caused by the switch — and a switch can be worked on. That's what Lunessa was built for.</p>
+    </div>
+
+    <!-- REASON 1 -->
+    <img src="images/m1.jpg" alt="Woman reading a lab report at her kitchen table" class="section-image">
+    <div class="list-item">
+      <div class="item-number">1</div>
+      <h2 class="item-title">It Wasn't Your Diet. It Was Never Your Diet.</h2>
+      <div class="item-body">
+        <p>You've been auditing your kitchen for months while your husband eats what he wants — and his numbers are somehow fine. Here's the number that sets you free: <strong>75–80% of the cholesterol in your blood is made by your liver, not your plate.</strong></p>
+        <p>For thirty years, estrogen managed the liver side for you. Silently. Free. Your "fine numbers" were never proof the oatmeal worked — they were proof the switch hadn't flipped yet.</p>
+        <p>Then it flipped. No amount of dry chicken reaches the part that changed. You didn't fail — you were fighting the wrong 20%.</p>
+      </div>
+    </div>
+
+    <!-- REASON 2 -->
+    <img src="images/m2.jpg" alt="Lunessa bottle on a marble counter beside a stethoscope and clinical papers" class="section-image">
+    <div class="list-item">
+      <div class="item-number">2</div>
+      <h2 class="item-title">"Normal for Your Age" Isn't an Answer — It's a Brush-Off</h2>
+      <div class="item-body">
+        <p>Your doctor isn't lying to you. She's rushed — and "it's common at your age" is the fastest true-ish thing she can say before the next room.</p>
+        <p>But millions of women see the same sudden jump at the same life stage, with zero change in habits. That's not "age." <strong>That's a pattern with a cause — and causes can be addressed.</strong></p>
+        <p>"You're getting older" leaves you helpless. "Estrogen stopped protecting your heart, and here's exactly what changed" gives you somewhere to aim.</p>
+      </div>
+    </div>
+
+    <!-- REASON 3 -->
+    <img src="images/m3.jpg" alt="Woman's hand holding two Lunessa gummies with the bottle on a bright counter" class="section-image">
+    <div class="list-item" id="reason-3">
+      <div class="item-number">3</div>
+      <h2 class="item-title">It Works on the Thing That Changed — Not the Things That Didn't</h2>
+      <div class="item-body">
+        <p>Look back at everything you've tried — none of it goes where the problem lives. Oatmeal works in your gut. Fish oil is triglycerides. Garlic is mostly aroma. None of them touch the liver, where the switch flipped.</p>
+        <p>Red yeast rice does. It contains monacolin K — a natural compound that works on <strong>the same liver enzyme prescription drugs target.</strong> Same pathway. Decades of study.</p>
+        <p>It goes to the source — the place the oatmeal was never going to reach.</p>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"My numbers were fine my entire life. Two years after menopause, my LDL was up 44 points and my doctor said the word 'statin.' I cried in the car — I thought I'd done something wrong. Three months on Lunessa and my recheck came back 47 points lower. She looked at the chart twice and said 'whatever you're doing, keep doing it.' I cried in the car that day too. Different tears."</p>
+      <p class="testimonial-author">— Linda S., 61 <span class="verified-badge">Verified</span></p>
+    </div>
+
+    <!-- REASON 4 -->
+    <img src="images/m4.jpg" alt="Close-up of the Lunessa label with gummies on a ceramic dish" class="section-image">
+    <div class="list-item">
+      <div class="item-number">4</div>
+      <h2 class="item-title">It Gives Back the Energy This Whole Chapter Has Been Taking</h2>
+      <div class="item-body">
+        <p>The number isn't the only thing that changed, is it? The 2 PM wall. The evenings you cancel. Waking up tired after nine hours.</p>
+        <p>Part of that is a molecule called CoQ10 — the battery your muscles and brain run on — which falls right when everything else changes, and gets drained further by the prescription route. You've seen it: the friend who started a statin and "aged ten years in six months."</p>
+        <p>Lunessa includes <strong>200mg of CoQ10 per serving</strong> — putting the battery back in, and protecting circulating cholesterol from the "rusting" that actually builds plaque.</p>
+      </div>
+    </div>
+
+    <div class="cta-wrap">
+      <a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2" class="cta-btn">See the Full Ingredient Panel →</a>
+    </div>
+
+    <!-- REASON 5 -->
+    <img src="images/m5.jpg" alt="Lunessa bottle beside a stack of printed research papers and reading glasses" class="section-image">
+    <div class="list-item">
+      <div class="item-number">5</div>
+      <h2 class="item-title">It Uses the Full Research Doses — Most Store Bottles Don't Come Close</h2>
+      <div class="item-body">
+        <p>The clinical research on red yeast rice used <strong>2,400mg</strong> per serving. A typical pharmacy bottle: 600mg. The CoQ10 research points to <strong>200mg</strong>; most bottles carry 50–100.</p>
+        <p>Lunessa delivers the full research doses, exactly. So when a friend says "I tried red yeast rice and nothing happened" — ask her what dose she took.</p>
+      </div>
+    </div>
+
+    <!-- REASON 6 -->
+    <img src="images/m6.jpg" alt="Lunessa bottle and gummies in a spa-like flatlay with eucalyptus" class="section-image">
+    <div class="list-item">
+      <div class="item-number">6</div>
+      <h2 class="item-title">It's Two Gummies — Not a Prescription Bag With Your Name Stapled to It</h2>
+      <div class="item-body">
+        <p>No horse pills. No pill organizer next to the coffee maker like your mother had. Two sugar-free raspberry gummies with your morning coffee, done.</p>
+        <p>And about the cheap stuff: carelessly made red yeast rice can carry citrinin — a kidney-stressing contaminant the FDA has warned about. Most brands never test. Lunessa is <strong>third-party tested and certified citrinin-free, every batch</strong>, in a GMP-certified, FDA-registered facility.</p>
+      </div>
+    </div>
+
+    <!-- REASON 7 -->
+    <img src="images/m7.jpg" alt="Energetic woman in her sixties walking outdoors in morning light" class="section-image">
+    <div class="list-item">
+      <div class="item-number">7</div>
+      <h2 class="item-title">You'll Likely Feel It Working Before the Lab Slip Proves It</h2>
+      <div class="item-body">
+        <p>You can't feel a cholesterol number. You just wait months for the next draw, holding your breath. Lunessa gives you an earlier signal: with 200mg of CoQ10, many women notice steadier energy and a clearer head in the first few weeks — the afternoon wall stops showing up.</p>
+        <p>Then week eight: bloodwork. And this time, picture the doctor looking at the chart twice and saying, <em>"Whatever you're doing, keep doing it."</em></p>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"I honestly thought being exhausted was just part of being 58. Around week three I realized I hadn't needed my 2 PM sit-down all week. The bloodwork came back at week nine: down 39 points. My husband's numbers are worse than mine now. I've been telling every woman in my walking group."</p>
+      <p class="testimonial-author">— Carol M., 58 <span class="verified-badge">Verified</span></p>
+    </div>
+
+    <!-- REASON 8 -->
+    <img src="images/m8.jpg" alt="Printed cholesterol lab report on a desk with reading glasses" class="section-image">
+    <div class="list-item">
+      <div class="item-number">8</div>
+      <h2 class="item-title">Because "Let's Just Keep an Eye on It" Is Not a Plan</h2>
+      <div class="item-body">
+        <p>You've been offered two options: a prescription you've heard too many stories about, or "let's keep an eye on it" — which means do nothing and hope, one blood draw at a time.</p>
+        <p>There's a third now: work on what actually changed. Every month your number runs lower is quiet buildup that didn't happen. Time bought — for the graduations, the weddings, the grandkids who deserve to know you.</p>
+        <p><strong>The switch doesn't flip back on its own. But it's a switch — not a sentence.</strong></p>
+      </div>
+    </div>
+
+    <div class="guarantee-banner">
+      <p class="guarantee-title">🛡️ 90-Day Money-Back Guarantee</p>
+      <p>Try Lunessa risk-free. If your numbers don't improve within 90 days, you'll receive a full refund. No questions asked.</p>
+    </div>
+
+    <!-- CLOSE -->
+    <div class="close-section">
+      <p>First they told you it was your diet. So you punished your kitchen, and the number went up anyway.</p>
+      <p>Then they told you it was your age. Which isn't an answer — it's a way of ending the appointment.</p>
+      <p>It was never either one. Something specific changed. And now you know what it was, why the oatmeal never stood a chance, and where the work actually needs to happen.</p>
+      <p>Your next lab report can be the one where the doctor looks up and asks what <em>you've</em> been doing right.</p>
+      <p><strong>Lunessa guarantees it — or your money back.</strong></p>
+
+      <img src="images/product-hero.jpg" alt="Lunessa Red Yeast Rice + CoQ10 gummy supplement" class="section-image" style="max-width: 480px; margin-left: auto; margin-right: auto;">
+
+      <div class="cta-wrap" style="margin-top: 28px;">
+        <a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2" class="cta-btn">Get Lunessa Now →</a>
+        <span class="cta-sub">Free Shipping · 90-Day Guarantee · No Subscription Required</span>
+      </div>
+
+      <div class="trust-badges">
+        <div class="trust-badge">✓ Third-Party Tested</div>
+        <div class="trust-badge">✓ Citrinin-Free Certified</div>
+        <div class="trust-badge">✓ GMP Certified</div>
+        <div class="trust-badge">✓ FDA-Registered Facility</div>
+        <div class="trust-badge">✓ 90-Day Money-Back</div>
+      </div>
+    </div>
+
+    <!-- SELLOUT -->
+    <div class="sellout">
+      <h3>Why it keeps selling out</h3>
+      <p>Lunessa is made in small, third-party-tested batches at full clinical doses — 2,400mg red yeast rice and 200mg CoQ10 per serving. No fillers, no shortcuts. Which means when a batch sells out, restocks can take weeks. And this is the kind of thing women tell each other — sisters, walking groups, church friends — so demand stays ahead of supply. As of this week, Lunessa is in stock with the Buy 2, Get 1 Free offer — while supplies last.</p>
+    </div>
+
+    <!-- P.S. LADDER -->
+    <div class="ps-block">
+      <p><strong>P.S.</strong> Two gummies with your morning coffee. That's the whole routine. No new diet to fail at — you've already proven the diet was never the problem.</p>
+      <p><strong>P.P.S.</strong> <strong>90-day money-back guarantee.</strong> Ninety days is enough time to take it daily, get bloodwork around week eight, and set it next to your baseline. If your numbers don't improve, every penny back. Your labs decide — not your fear, and not a seven-minute appointment.</p>
+      <p><strong>P.P.P.S.</strong> <strong>If your next physical is in the next 30–90 days, start now.</strong> Results typically show in bloodwork at the 8–10 week mark. Order today, take it daily, and walk into that appointment with a lab slip you're not afraid of — Buy 2, Get 1 Free while this batch lasts.</p>
+    </div>
+
+    <div class="cta-wrap">
+      <a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2" class="cta-btn">Claim Buy 2, Get 1 Free →</a>
+      <span class="cta-sub">While Supplies Last</span>
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq-section">
+      <h2 class="faq-heading">Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">Isn't high cholesterol just part of getting older?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>No — and this matters. Aging is gradual; it doesn't add 40 points to a lab number in a year or two. The sudden jump so many women see after menopause is caused by a specific change: estrogen stops managing cholesterol production, clearing, and protection all at once. A specific change can be worked on. "Age" can't. That's the entire difference.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">My cholesterol was fine until menopause. Will this help me?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>That's exactly who Lunessa was formulated for. When estrogen declines, your liver makes more cholesterol, your body clears less of it, and what lingers in your blood oxidizes unprotected. Lunessa was built around that exact set of changes — the system that actually flipped at menopause.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">When will I see results?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Most women notice energy changes within the first 2–4 weeks. Meaningful lab changes typically show at the 8–10 week mark. We recommend bloodwork around week eight to compare against your baseline.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Can I take Lunessa if my doctor wants me on a statin?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Many women use Lunessa while working with their doctor on the right long-term plan. Always talk to your physician before starting or changing anything — and bring your week-eight bloodwork to that conversation.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">I've heard statins cause muscle pain and brain fog. Will this do that?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>The fatigue and muscle aches people associate with cholesterol-lowering are largely tied to the depletion of CoQ10 — your cells' energy molecule. Lunessa takes the opposite approach: every serving includes 200mg of CoQ10, replacing it instead of draining it.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">A friend tried red yeast rice and said it did nothing.<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Ask her what dose she took. Most store bottles contain 600mg per serving — a quarter of the 2,400mg used in the clinical research. Lunessa delivers the full research doses: 2,400mg red yeast rice plus 200mg CoQ10 per serving. Dose is usually the difference.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Is it safe long-term? What about sugar?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Lunessa gummies are sugar-free, vegan, and third-party tested every batch — including certification that they're free of citrinin, a contaminant found in poorly made red yeast rice. Made in a GMP-certified, FDA-registered facility.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What if it doesn't work for me?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>90-day money-back guarantee. If your numbers don't improve, full refund. No questions.</p></div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>This article is paid editorial content. Testimonials reflect individual experiences and are not guaranteed outcomes; results may vary. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Consult your physician before starting any supplement, especially if you are currently taking medication. Do not discontinue prescribed medications without speaking with your physician.</p>
+      <p style="margin-top: 12px;">
+        &copy; 2026 Lunessa. All rights reserved. &nbsp;·&nbsp;
+        <a href="#">Privacy Policy</a> &nbsp;·&nbsp;
+        <a href="#">Terms of Service</a> &nbsp;·&nbsp;
+        <a href="#">Contact Us</a>
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Sticky CTA (appears after Reason 3) -->
+  <div class="sticky-cta" id="stickyCta">
+    <a href="https://getlunessa.co/products/lunessa-red-yeast-rice-coq10-gummies-2" class="sticky-cta-btn">Try Lunessa Risk-Free →</a>
+    <span class="sticky-cta-sub">90-Day Money-Back Guarantee · Free Shipping</span>
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.parentElement;
+        var wasOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(function(el) { el.classList.remove('open'); });
+        if (!wasOpen) { item.classList.add('open'); }
+      });
+    });
+
+    (function() {
+      var trigger = document.getElementById('reason-3');
+      var bar = document.getElementById('stickyCta');
+      if (!trigger || !bar) return;
+      function onScroll() {
+        var passed = trigger.getBoundingClientRect().bottom < 0;
+        bar.classList.toggle('visible', passed);
+        document.body.classList.toggle('cta-visible', passed);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var hasParams = false;
+      params.forEach(function() { hasParams = true; });
+      if (!hasParams) return;
+      document.querySelectorAll('a[href*="getlunessa.co"]').forEach(function(a) {
+        try {
+          var url = new URL(a.href);
+          params.forEach(function(v, k) { url.searchParams.set(k, v); });
+          a.href = url.toString();
+        } catch (e) {}
+      });
+    })();
+  </script>
+
+</body>
+</html>

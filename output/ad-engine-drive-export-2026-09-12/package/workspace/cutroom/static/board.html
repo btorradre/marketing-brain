@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cutroom</title>
+<style>
+:root{
+  --bg:#1e2126; --dot:#2b2f36; --panel:#262a31; --panel2:#2e333b;
+  --text:#e8eaed; --muted:#9aa3ad; --accent:#4f8cff; --border:#3a4049;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
+#topbar{position:fixed;top:0;left:0;right:0;height:52px;z-index:50;display:flex;align-items:center;gap:12px;padding:0 16px;background:rgba(30,33,38,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+#topbar a{color:var(--muted);text-decoration:none;font-size:13px}
+#topbar a:hover{color:var(--text)}
+#boardTitle{font-size:15px;font-weight:600;background:none;border:none;color:var(--text);outline:none;min-width:120px;max-width:40vw}
+#topbar .spacer{flex:1}
+.tbtn{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:6px 12px;font-size:12.5px;cursor:pointer;white-space:nowrap}
+.tbtn:hover{background:#373d47}
+.tbtn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+#zoomLabel{color:var(--muted);font-size:12px;min-width:42px;text-align:center}
+#saveDot{width:8px;height:8px;border-radius:50%;background:#4caf7d;transition:background .3s}
+#saveDot.dirty{background:#e6a23c}
+#viewport{position:absolute;inset:0;top:52px;overflow:hidden;cursor:default;
+  background-image:radial-gradient(var(--dot) 1.2px, transparent 1.2px);background-size:26px 26px}
+#world{position:absolute;top:0;left:0;transform-origin:0 0;will-change:transform}
+.card{position:absolute;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.35);user-select:none}
+.card.selected{outline:2px solid var(--accent);outline-offset:2px}
+.card .drag-title{cursor:grab}
+.card.note{background:#f7f5ee;color:#26282c;padding:12px 14px;overflow:hidden}
+.card.note .ctitle{font-weight:700;font-size:13px;margin-bottom:6px;letter-spacing:.02em}
+.card.note .ctext{font-size:12.5px;line-height:1.45;white-space:pre-wrap;word-wrap:break-word}
+.card.note textarea,.card.note input{width:100%;background:transparent;border:none;outline:none;color:inherit;font:inherit;resize:none}
+.card.image{background:#111;overflow:hidden;display:flex;flex-direction:column}
+.card.image img{flex:1;width:100%;object-fit:cover;pointer-events:none;min-height:0}
+.card.image .cap{background:#15171b;color:#cfd5dc;font-size:11px;padding:6px 9px;line-height:1.35;border-top:1px solid #262a31}
+.card.image .cap:empty{display:none}
+.card.label{background:transparent;box-shadow:none;color:var(--text);font-weight:800;display:flex;align-items:flex-end;padding:4px 2px;letter-spacing:.01em}
+.card.label input{width:100%;background:transparent;border:none;outline:none;color:inherit;font:inherit;font-weight:800}
+.card.lane{background:rgba(255,255,255,.028);border:1px dashed #444b56;box-shadow:none;border-radius:14px;pointer-events:none}
+.card.lane .lane-title{pointer-events:auto;position:absolute;top:-11px;left:18px;background:var(--bg);padding:2px 10px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);cursor:grab}
+.resizer{position:absolute;right:-4px;bottom:-4px;width:14px;height:14px;cursor:nwse-resize;border-radius:3px;opacity:0}
+.card.selected .resizer{opacity:1;background:var(--accent)}
+svg#edges{position:absolute;top:0;left:0;overflow:visible;pointer-events:none}
+#hint{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);background:rgba(38,42,49,.9);border:1px solid var(--border);color:var(--muted);font-size:11.5px;padding:6px 14px;border-radius:99px;z-index:40;pointer-events:none}
+#drop{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;background:rgba(79,140,255,.12);border:3px dashed var(--accent);font-size:20px;font-weight:700;color:var(--accent)}
+</style>
+</head>
+<body>
+<div id="topbar">
+  <a href="/">← Boards</a>
+  <input id="boardTitle" spellcheck="false">
+  <div id="saveDot" title="saved"></div>
+  <div class="spacer"></div>
+  <button class="tbtn" id="aiBtn" style="border-color:#7a6bd6;color:#c9c2f2">✨ AI</button>
+  <button class="tbtn" id="addNote">+ Note</button>
+  <button class="tbtn" id="addLabel">+ Label</button>
+  <button class="tbtn" id="addLane">+ Lane</button>
+  <button class="tbtn" id="addImage">+ Image</button>
+  <input type="file" id="filePick" accept="image/*" multiple style="display:none">
+  <button class="tbtn" id="zoomOut">−</button>
+  <div id="zoomLabel">100%</div>
+  <button class="tbtn" id="zoomIn">+</button>
+  <button class="tbtn primary" id="zoomFit">Fit</button>
+</div>
+<div id="viewport"><div id="world"><svg id="edges"></svg></div></div>
+<div id="hint">drag canvas to pan · scroll/pinch to zoom · double-click cards to edit · drop images anywhere · ⌫ deletes selected</div>
+<div id="drop">Drop images to add them to the board</div>
+<div id="aiBar" style="display:none;position:fixed;bottom:44px;left:50%;transform:translateX(-50%);z-index:60;width:min(720px,90vw);background:#262a31;border:1px solid #7a6bd6;border-radius:14px;padding:10px;box-shadow:0 8px 30px rgba(0,0,0,.5)">
+  <div style="display:flex;gap:8px">
+    <input id="aiInput" placeholder="Ask Claude to add to this board… e.g. 'add a DO/DON'T lane for the editor about pacing'"
+      style="flex:1;background:#1e2126;border:1px solid #3a4049;border-radius:9px;color:#e8eaed;padding:10px 12px;font-size:13.5px;outline:none">
+    <button class="tbtn" id="aiSend" style="border-color:#7a6bd6;color:#c9c2f2">Send</button>
+  </div>
+  <div id="aiStatus" style="color:#9aa3ad;font-size:11.5px;padding:6px 4px 0;display:none"></div>
+</div>
+
+<script>
+const boardId = location.pathname.split('/').pop();
+let board = {id: boardId, title: '', cards: [], edges: []};
+let view = {x: 60, y: 40, s: 1};
+let selected = null, dirty = false, saveTimer = null;
+
+const $ = s => document.querySelector(s);
+const world = $('#world'), viewport = $('#viewport'), edgesSvg = $('#edges');
+const uid = () => 'c' + Math.random().toString(36).slice(2, 9);
+
+// ---------- load / save ----------
+async function load(){
+  const r = await fetch('/api/boards/' + boardId);
+  if(r.ok){ board = await r.json(); }
+  board.cards = board.cards || []; board.edges = board.edges || [];
+  $('#boardTitle').value = board.title || boardId;
+  document.title = (board.title || boardId) + ' · Cutroom';
+  render(); fitView();
+}
+function markDirty(){
+  dirty = true; $('#saveDot').classList.add('dirty');
+  clearTimeout(saveTimer); saveTimer = setTimeout(save, 700);
+}
+async function save(){
+  board.title = $('#boardTitle').value;
+  await fetch('/api/boards/' + boardId, {method:'PUT', body: JSON.stringify(board)});
+  dirty = false; $('#saveDot').classList.remove('dirty');
+}
+window.addEventListener('beforeunload', () => { if(dirty) navigator.sendBeacon && save(); });
+
+// ---------- render ----------
+function render(){
+  world.querySelectorAll('.card').forEach(e => e.remove());
+  const order = {lane:0, label:1, image:2, note:3};
+  [...board.cards].sort((a,b)=>(order[a.type]??2)-(order[b.type]??2)).forEach(makeEl);
+  drawEdges(); applyView();
+}
+function makeEl(c){
+  const el = document.createElement('div');
+  el.className = 'card ' + c.type; el.dataset.id = c.id;
+  el.style.left = c.x+'px'; el.style.top = c.y+'px';
+  el.style.width = c.w+'px'; el.style.height = c.h+'px';
+  if(c.type === 'note'){
+    el.style.background = c.color || '#f7f5ee';
+    el.innerHTML = `<div class="ctitle"></div><div class="ctext"></div>`;
+    el.querySelector('.ctitle').textContent = c.title || '';
+    el.querySelector('.ctext').textContent = c.text || '';
+    if(!c.title) el.querySelector('.ctitle').style.display='none';
+  } else if(c.type === 'image'){
+    el.innerHTML = `<img draggable="false"><div class="cap"></div>`;
+    el.querySelector('img').src = c.src;
+    el.querySelector('.cap').textContent = c.text || '';
+  } else if(c.type === 'label'){
+    el.style.fontSize = (c.size || 22) + 'px';
+    el.textContent = c.text || 'Label';
+    if(c.color) el.style.color = c.color;
+  } else if(c.type === 'lane'){
+    el.innerHTML = `<div class="lane-title"></div>`;
+    el.querySelector('.lane-title').textContent = c.title || 'LANE';
+  }
+  const rz = document.createElement('div'); rz.className = 'resizer'; el.appendChild(rz);
+  world.appendChild(el);
+  wireCard(el, c, rz);
+}
+function drawEdges(){
+  edgesSvg.innerHTML = '';
+  (board.edges||[]).forEach(e => {
+    const a = board.cards.find(c=>c.id===e.from), b = board.cards.find(c=>c.id===e.to);
+    if(!a||!b) return;
+    const x1=a.x+a.w/2, y1=a.y+a.h/2, x2=b.x+b.w/2, y2=b.y+b.h/2;
+    const p = document.createElementNS('http://www.w3.org/2000/svg','path');
+    p.setAttribute('d',`M${x1},${y1} C${(x1+x2)/2},${y1} ${(x1+x2)/2},${y2} ${x2},${y2}`);
+    p.setAttribute('stroke','#5a6370'); p.setAttribute('stroke-width','2');
+    p.setAttribute('fill','none'); p.setAttribute('stroke-dasharray','6 5');
+    edgesSvg.appendChild(p);
+  });
+}
+function applyView(){
+  world.style.transform = `translate(${view.x}px,${view.y}px) scale(${view.s})`;
+  $('#zoomLabel').textContent = Math.round(view.s*100)+'%';
+}
+
+// ---------- card interaction ----------
+function select(id){
+  selected = id;
+  world.querySelectorAll('.card').forEach(e => e.classList.toggle('selected', e.dataset.id===id));
+}
+function wireCard(el, c, rz){
+  const handle = c.type==='lane' ? el.querySelector('.lane-title') : el;
+  handle.addEventListener('pointerdown', ev => {
+    if(ev.button!==0 || ev.target===rz || el.querySelector('textarea,input')) return;
+    ev.stopPropagation(); select(c.id);
+    const sx=ev.clientX, sy=ev.clientY, ox=c.x, oy=c.y;
+    const move = e => {
+      c.x = Math.round((ox + (e.clientX-sx)/view.s)/2)*2;
+      c.y = Math.round((oy + (e.clientY-sy)/view.s)/2)*2;
+      el.style.left=c.x+'px'; el.style.top=c.y+'px'; drawEdges();
+    };
+    const up = () => { window.removeEventListener('pointermove',move); window.removeEventListener('pointerup',up); markDirty(); };
+    window.addEventListener('pointermove',move); window.addEventListener('pointerup',up);
+  });
+  rz.addEventListener('pointerdown', ev => {
+    ev.stopPropagation(); select(c.id);
+    const sx=ev.clientX, sy=ev.clientY, ow=c.w, oh=c.h;
+    const move = e => {
+      c.w = Math.max(60, Math.round(ow + (e.clientX-sx)/view.s));
+      c.h = Math.max(36, Math.round(oh + (e.clientY-sy)/view.s));
+      el.style.width=c.w+'px'; el.style.height=c.h+'px'; drawEdges();
+    };
+    const up = () => { window.removeEventListener('pointermove',move); window.removeEventListener('pointerup',up); markDirty(); };
+    window.addEventListener('pointermove',move); window.addEventListener('pointerup',up);
+  });
+  el.addEventListener('dblclick', ev => { ev.stopPropagation(); editCard(el, c); });
+}
+function editCard(el, c){
+  if(c.type === 'note'){
+    el.innerHTML = `<input placeholder="Title" value=""><textarea style="height:calc(100% - 30px)"></textarea>`;
+    const inp = el.querySelector('input'), ta = el.querySelector('textarea');
+    inp.value = c.title||''; ta.value = c.text||''; ta.focus();
+    const done = () => { c.title=inp.value; c.text=ta.value; markDirty(); render(); select(c.id); };
+    ta.addEventListener('blur', () => setTimeout(()=>{ if(!el.contains(document.activeElement)) done(); },80));
+    inp.addEventListener('blur', () => setTimeout(()=>{ if(!el.contains(document.activeElement)) done(); },80));
+  } else if(c.type === 'label'){
+    el.innerHTML = `<input>`;
+    const inp = el.querySelector('input'); inp.value = c.text||''; inp.focus(); inp.select();
+    inp.style.fontSize = (c.size||22)+'px';
+    inp.addEventListener('blur', () => { c.text=inp.value; markDirty(); render(); select(c.id); });
+    inp.addEventListener('keydown', e => { if(e.key==='Enter') inp.blur(); });
+  } else if(c.type === 'image'){
+    const t = prompt('Caption / emotion note:', c.text||'');
+    if(t!==null){ c.text=t; markDirty(); render(); select(c.id); }
+  } else if(c.type === 'lane'){
+    const t = prompt('Lane title:', c.title||'');
+    if(t!==null){ c.title=t; markDirty(); render(); select(c.id); }
+  }
+}
+window.addEventListener('keydown', e => {
+  if(e.target.matches('input,textarea')) return;
+  if((e.key==='Backspace'||e.key==='Delete') && selected){
+    board.cards = board.cards.filter(c=>c.id!==selected);
+    board.edges = (board.edges||[]).filter(ed=>ed.from!==selected && ed.to!==selected);
+    selected=null; markDirty(); render();
+  }
+});
+
+// ---------- pan / zoom ----------
+let panning=false;
+viewport.addEventListener('pointerdown', e => {
+  if(e.target.closest('.card')) return;
+  panning=true; select(null);
+  const sx=e.clientX, sy=e.clientY, ox=view.x, oy=view.y;
+  const move = ev => { view.x=ox+ev.clientX-sx; view.y=oy+ev.clientY-sy; applyView(); };
+  const up = () => { panning=false; window.removeEventListener('pointermove',move); window.removeEventListener('pointerup',up); };
+  window.addEventListener('pointermove',move); window.addEventListener('pointerup',up);
+});
+viewport.addEventListener('wheel', e => {
+  e.preventDefault();
+  if(e.ctrlKey || e.metaKey){
+    const f = Math.exp(-e.deltaY*0.01);
+    zoomAt(e.clientX, e.clientY, view.s*f);
+  } else { view.x-=e.deltaX; view.y-=e.deltaY; applyView(); }
+}, {passive:false});
+function zoomAt(cx, cy, ns){
+  ns = Math.min(2.5, Math.max(0.08, ns));
+  const r = viewport.getBoundingClientRect();
+  const px=(cx-r.left-view.x)/view.s, py=(cy-r.top-view.y)/view.s;
+  view.s=ns; view.x=cx-r.left-px*ns; view.y=cy-r.top-py*ns; applyView();
+}
+function fitView(){
+  if(!board.cards.length){ view={x:60,y:40,s:1}; applyView(); return; }
+  const xs=board.cards.map(c=>c.x), ys=board.cards.map(c=>c.y);
+  const xe=board.cards.map(c=>c.x+c.w), ye=board.cards.map(c=>c.y+c.h);
+  const minX=Math.min(...xs)-60, minY=Math.min(...ys)-60;
+  const w=Math.max(...xe)-minX+60, h=Math.max(...ye)-minY+60;
+  const r=viewport.getBoundingClientRect();
+  const s=Math.min(2, Math.min(r.width/w, r.height/h));
+  view={s, x:(r.width-w*s)/2-minX*s, y:(r.height-h*s)/2-minY*s};
+  applyView();
+}
+$('#zoomIn').onclick = () => { const r=viewport.getBoundingClientRect(); zoomAt(r.left+r.width/2, r.top+r.height/2, view.s*1.25); };
+$('#zoomOut').onclick = () => { const r=viewport.getBoundingClientRect(); zoomAt(r.left+r.width/2, r.top+r.height/2, view.s/1.25); };
+$('#zoomFit').onclick = fitView;
+
+// ---------- add cards ----------
+function centerWorld(){
+  const r = viewport.getBoundingClientRect();
+  return {x:(r.width/2-view.x)/view.s, y:(r.height/2-view.y)/view.s};
+}
+function addCard(c){ board.cards.push(c); markDirty(); render(); select(c.id); }
+$('#addNote').onclick = () => { const p=centerWorld(); addCard({id:uid(),type:'note',x:p.x-130,y:p.y-80,w:260,h:160,title:'',text:'New note — double-click to edit'}); };
+$('#addLabel').onclick = () => { const p=centerWorld(); addCard({id:uid(),type:'label',x:p.x-150,y:p.y-20,w:400,h:44,text:'SECTION LABEL',size:26}); };
+$('#addLane').onclick = () => { const p=centerWorld(); addCard({id:uid(),type:'lane',x:p.x-500,y:p.y-160,w:1000,h:340,title:'NEW LANE'}); };
+$('#addImage').onclick = () => $('#filePick').click();
+$('#filePick').onchange = e => uploadFiles([...e.target.files], centerWorld());
+
+async function uploadFiles(files, at){
+  let ox = 0;
+  for(const f of files){
+    if(!f.type.startsWith('image/')) continue;
+    const r = await fetch(`/api/assets?board=${boardId}&name=${encodeURIComponent(f.name)}`, {method:'POST', body:f});
+    const {src} = await r.json();
+    const dims = await new Promise(res => { const im=new Image(); im.onload=()=>res({w:im.width,h:im.height}); im.onerror=()=>res({w:320,h:220}); im.src=src; });
+    const w = 260, h = Math.round(w*dims.h/dims.w)+1;
+    addCard({id:uid(), type:'image', x:at.x-w/2+ox, y:at.y-h/2, w, h, src, text:''});
+    ox += w + 20;
+  }
+}
+// drag & drop images
+let dragDepth=0;
+window.addEventListener('dragenter', e => { e.preventDefault(); if(++dragDepth) $('#drop').style.display='flex'; });
+window.addEventListener('dragleave', e => { e.preventDefault(); if(--dragDepth<=0){ dragDepth=0; $('#drop').style.display='none'; } });
+window.addEventListener('dragover', e => e.preventDefault());
+window.addEventListener('drop', e => {
+  e.preventDefault(); dragDepth=0; $('#drop').style.display='none';
+  const r = viewport.getBoundingClientRect();
+  const at = {x:(e.clientX-r.left-view.x)/view.s, y:(e.clientY-r.top-view.y)/view.s};
+  uploadFiles([...e.dataTransfer.files], at);
+});
+
+// ---------- AI assist ----------
+const aiBar = $('#aiBar'), aiInput = $('#aiInput'), aiStatus = $('#aiStatus');
+$('#aiBtn').onclick = () => {
+  aiBar.style.display = aiBar.style.display === 'none' ? 'block' : 'none';
+  if (aiBar.style.display === 'block') aiInput.focus();
+};
+async function aiSend(){
+  const prompt = aiInput.value.trim();
+  if(!prompt) return;
+  aiInput.disabled = true; $('#aiSend').disabled = true;
+  aiStatus.style.display = 'block'; aiStatus.textContent = 'Claude is working on the board…';
+  try {
+    if (dirty) await save();
+    const r = await fetch('/api/ai', {method:'POST', body: JSON.stringify({board: boardId, prompt})});
+    const res = await r.json();
+    if (res.error) { aiStatus.textContent = '⚠ ' + res.error; }
+    else {
+      aiStatus.textContent = res.reply + (res.added ? ` (${res.added} cards added)` : '');
+      if (res.added) {
+        const fresh = await (await fetch('/api/boards/' + boardId)).json();
+        board = fresh; board.cards = board.cards || []; board.edges = board.edges || [];
+        render();
+      }
+      aiInput.value = '';
+    }
+  } catch (e) { aiStatus.textContent = '⚠ ' + e; }
+  aiInput.disabled = false; $('#aiSend').disabled = false; aiInput.focus();
+}
+$('#aiSend').onclick = aiSend;
+aiInput.addEventListener('keydown', e => { if(e.key === 'Enter') aiSend(); e.stopPropagation(); });
+
+$('#boardTitle').addEventListener('input', markDirty);
+load();
+</script>
+</body>
+</html>

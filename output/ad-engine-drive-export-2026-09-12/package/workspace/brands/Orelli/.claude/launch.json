@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "quiz-funnel-server",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 8091
+    },
+    {
+      "name": "motilli-glp1-lp",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["serve-lp.js", "motilli-glp1-diarrhea-landing.liquid"],
+      "port": 3000
+    }
+  ]
+}

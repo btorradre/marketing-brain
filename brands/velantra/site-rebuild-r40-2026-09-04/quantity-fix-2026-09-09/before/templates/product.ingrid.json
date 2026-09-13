@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "INGRID",
+        "description_override": "<p>The Ingrid’s burnished surface gives the bag depth, with tonal variation and natural-looking folds playing across its broad silhouette. Rolled handles, pinched side panels and curved corner reinforcements define the shape. A slender belt and warm gold-tone fittings bring focus to the front, with finishing details that vary between colorways. It is an expressive take on the top-handle bag, balancing a generous body with a composed outline.<\/p>",
+        "fact_material": "Burnished leather finish",
+        "fact_detail": "Belted top-handle silhouette",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Approximate dimensions: 15 × 12 × 6.3 in (L × H × D). Rolled handles, folded upper panel, pinched side panels and reinforced corners. Front fitting design varies by colorway.<\/p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Burnished leather-look surface with gold-tone fittings. Wipe with a soft, dry cloth. Avoid soaking, abrasive cleaners, direct heat and prolonged sunlight. Store lightly filled.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "THE RHYTHM OF MAKING",
+        "text": "<p>A closer look at the Ingrid.<\/p>"
+      }
+    },
+    "value": {
+      "type": "value-breakdown",
+      "disabled": true,
+      "settings": {
+        "default_asset": "",
+        "image_description": "The Ingrid",
+        "image_fit": "contain",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "table_caption": "The Ingrid: visible design details",
+        "product_heading": "The Ingrid",
+        "detail_heading": "Detail",
+        "purpose_heading": "The purpose"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

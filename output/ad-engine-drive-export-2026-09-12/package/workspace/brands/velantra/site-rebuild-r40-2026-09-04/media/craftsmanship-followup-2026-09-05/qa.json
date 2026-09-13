@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-05",
+  "all_final_images_accepted": true,
+  "provider_model": "gpt-image-2-image-to-image",
+  "accepted_count": 4,
+  "generated_attempt_count": 7,
+  "rejected_count": 3,
+  "source_scope": "September 3 owner-selected Chocolate master, full frame for panel1 and exact unaltered rectangular crops for retry panels2\u20134. No competitor image input.",
+  "native_resolution": [
+    2048,
+    2048
+  ],
+  "web_resolution": [
+    1024,
+    1024
+  ],
+  "checks": [
+    "Actual R40 reference compositions inspected",
+    "Selected Vivienne master and all final outputs viewed",
+    "Material grain/contrast, braid, attachment tab layers and hardware orientation reviewed against the master",
+    "Three failed details rejected and archived; corrected attempts reviewed",
+    "341:272 cover crop with 50% 50% position reviewed",
+    "CSS saturate(0.8) simulated in QA contact sheet only",
+    "All source PNG hashes preserved; JPEG conversion and uniform resize only",
+    "Final filenames and descriptive alt text recorded"
+  ],
+  "limitations": [
+    "Reference-relative intended-design fidelity, not physical sample measurements or certification.",
+    "Images depict material and finished construction details, not verified factory processes or actual inspection events."
+  ],
+  "delivery_manifest": "delivery-manifest.json",
+  "contact_sheet": "qa-contact-sheet.jpg"
+}

@@ -1,0 +1,31 @@
+{
+  "defaults": {
+    "model": "veo-3.1-fast-generate-preview",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration_seconds": 4,
+    "negative_prompt": "dialogue, voices, narration, on-screen text, watermark, logo, fast motion, camera shake, warped hands, morphing, extra straps"
+  },
+  "scenes": [
+    {
+      "image": "../../product-images/velantra-bow-tote-scene-2.jpg",
+      "prompt": "Extreme macro of the hand-tied beige ribbon bow threaded through gold grommets on ivory canvas. Very slow push-in toward the knot while soft light sweeps subtly across the woven texture. The bow and bag stay perfectly still, almost still overall, no camera shake. Quiet room tone only.",
+      "output": "bowtote-cut-1-macro-bow.mp4"
+    },
+    {
+      "image": "../../product-images/velantra-bow-tote-scene-4.jpg",
+      "prompt": "The ivory canvas bow tote stands on a polished teak yacht table, sea behind. Very slow, subtle orbit around the bag; the ocean glitters and drifts gently in the background, a soft breeze moves nothing else. The bag stays still and centered, crisp and unchanged. Gentle ocean ambience, no voices.",
+      "output": "bowtote-cut-2-yacht-hero.mp4"
+    },
+    {
+      "image": "../../product-images/velantra-bow-tote-scene-3.jpg",
+      "prompt": "Overhead styled flat-lay: the open ivory bow tote revealing its blue floral cotton lining, straw hat and sunglasses beside it. Very slow lateral drift across the tableau as window shadows shift softly. Everything stays in place, almost still, elegant and calm. Quiet ambience only.",
+      "output": "bowtote-cut-3-floral-lining.mp4"
+    },
+    {
+      "image": "../../product-images/velantra-bow-tote-scene-1.jpg",
+      "prompt": "Golden-hour harbor promenade: the woman in the white sundress walks slowly toward camera carrying the ivory bow tote, dress swaying gently, sailboats and stone quay soft behind her. Slow graceful push-in, natural relaxed pace, cinematic. The bag stays crisp and unchanged. Ambient harbor sounds, no dialogue.",
+      "output": "bowtote-cut-4-harbor-walk.mp4"
+    }
+  ]
+}

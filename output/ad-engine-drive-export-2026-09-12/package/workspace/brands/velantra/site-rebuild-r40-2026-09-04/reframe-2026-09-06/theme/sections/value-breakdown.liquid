@@ -1,0 +1,388 @@
+{%- if section.settings.weekender_color_details and template.suffix == 'weekender' -%}
+{% render 'weekender-variant-details', product: product, section: section, kind: 'value' %}
+{%- else -%}
+{%- liquid
+  assign image_alt = section.settings.image_description | default: section.settings.image.alt
+  assign image_position = section.settings.image.presentation.focal_point | default: '50% 50%'
+-%}
+<section class="value-breakdown{% if section.settings.sticky_content %} value-breakdown--sticky{% endif %}" aria-label="{{ section.settings.table_caption | escape }}">
+  <div class="value-breakdown__split">
+    <div class="value-breakdown__media" style="--value-image-position: {{ image_position }}; --value-image-fit: {{ section.settings.image_fit }};">
+      {% if section.settings.image != blank %}
+        {{ section.settings.image | image_url: width: 1800 | image_tag: widths: '400, 600, 800, 1100, 1400, 1800', sizes: '(min-width: 1024px) 50vw, 100vw', loading: 'lazy', class: 'value-breakdown__image', alt: image_alt }}
+      {% elsif section.settings.default_asset != blank %}
+        <img class="value-breakdown__image" src="{{ section.settings.default_asset | asset_url }}" width="1440" height="810" loading="lazy" alt="{{ image_alt | escape }}">
+      {% else %}
+        {{ 'product-apparel-1' | placeholder_svg_tag: 'value-breakdown__image' }}
+      {% endif %}
+    </div>
+    <div class="value-breakdown__content">
+      {% if section.settings.heading != blank %}
+        <h2 class="value-breakdown__heading">{{ section.settings.heading | escape }}</h2>
+      {% endif %}
+      <table class="value-breakdown__table">
+        <caption class="visually-hidden">{{ section.settings.table_caption | escape }}</caption>
+        <colgroup>
+          <col class="value-breakdown__detail-column">
+          <col class="value-breakdown__product-column">
+          <col class="value-breakdown__purpose-column">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">{{ section.settings.detail_heading | escape }}</th>
+            <th scope="col">{{ section.settings.product_heading | escape }}</th>
+            <th scope="col">{{ section.settings.purpose_heading | escape }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for block in section.blocks %}
+            <tr {{ block.shopify_attributes }}>
+              <th scope="row">{{ block.settings.detail | escape }}</th>
+              <td>{{ block.settings.product_detail | escape }}</td>
+              <td>{{ block.settings.purpose | escape }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% if section.settings.copy != blank %}
+        <div class="value-breakdown__note rte">{{ section.settings.copy }}</div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{%- endif -%}
+{% stylesheet %}
+  .value-breakdown {
+    padding-bottom: 48px;
+    background: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  .value-breakdown__split {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .value-breakdown__media {
+    position: relative;
+    width: 100%;
+    height: 123vw;
+    overflow: hidden;
+    background: var(--studio-bg, #fff);
+  }
+
+  .value-breakdown__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: var(--value-image-fit, cover);
+    object-position: var(--value-image-position, 50% 50%);
+  }
+
+  .value-breakdown__content {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 20px 12px 0;
+  }
+
+  .value-breakdown__heading {
+    margin: 0 0 24px;
+    font-family: var(--font-serif);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+
+  .value-breakdown__table {
+    width: 100%;
+    table-layout: fixed;
+    border: 0;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    line-height: 1.2;
+  }
+
+  .value-breakdown__detail-column { width: 36%; }
+  .value-breakdown__product-column { width: 34%; }
+  .value-breakdown__purpose-column { width: 30%; }
+
+  .value-breakdown__table th,
+  .value-breakdown__table td {
+    padding: 8px 8px 8px 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font-weight: 400;
+    text-align: right;
+    vertical-align: middle;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .value-breakdown__table th:first-child {
+    text-align: left;
+    padding-right: 16px;
+  }
+
+  .value-breakdown__table thead th {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-family: var(--font-serif);
+    font-size: 13px;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  .value-breakdown__note {
+    margin: 20px 0 0;
+    padding-left: 16px;
+    border-left: 2px solid var(--color-line);
+    font-family: var(--font-sans);
+    font-size: 11px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  .value-breakdown__note > :first-child { margin-top: 0; }
+  .value-breakdown__note > :last-child { margin-bottom: 0; }
+
+  @media (min-width: 1024px) {
+    .value-breakdown__split {
+      flex-direction: row;
+      align-items: stretch;
+    }
+
+    .value-breakdown__media {
+      flex: 0 0 50%;
+      width: 50%;
+      height: auto;
+      aspect-ratio: 759 / 941;
+    }
+
+    .value-breakdown__content {
+      flex: 0 0 50%;
+      width: 50%;
+      justify-content: center;
+      padding: clamp(32px, 3.5vw, 72px);
+    }
+
+    .value-breakdown--sticky .value-breakdown__content {
+      position: sticky;
+      top: 96px;
+      align-self: flex-start;
+      justify-content: flex-start;
+    }
+
+    .value-breakdown__heading,
+    .value-breakdown__table,
+    .value-breakdown__note {
+      width: min(100%, clamp(560px, 38vw, 760px));
+      margin-inline: auto;
+    }
+
+    .value-breakdown__heading { font-size: 32px; }
+    .value-breakdown__table { font-size: 13px; }
+    .value-breakdown__detail-column { width: 34%; }
+    .value-breakdown__product-column { width: 34%; }
+    .value-breakdown__purpose-column { width: 32%; }
+
+    .value-breakdown__table th,
+    .value-breakdown__table td {
+      padding: 12px 16px 12px 0;
+    }
+
+    .value-breakdown__table th:nth-child(2),
+    .value-breakdown__table td:nth-child(2) {
+      padding-right: 48px;
+    }
+
+    .value-breakdown__table thead th {
+      padding-bottom: 40px;
+      font-size: 20px;
+    }
+
+    .value-breakdown__note {
+      margin-top: clamp(28px, 2.2vw, 44px);
+      padding-left: clamp(20px, 1.5vw, 32px);
+      font-size: 13px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Value breakdown",
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer"
+    ]
+  },
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "weekender_color_details",
+      "label": "Match Weekender details to selected color",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "default_asset",
+      "label": "Theme image fallback",
+      "default": "vivienne-detail.jpg",
+      "info": "Used when no image is selected. Enter an existing image filename from this theme."
+    },
+    {
+      "type": "text",
+      "id": "image_description",
+      "label": "Image description",
+      "default": "Vivienne leather detail"
+    },
+    {
+      "type": "select",
+      "id": "image_fit",
+      "label": "Image fit",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Fill frame"
+        },
+        {
+          "value": "contain",
+          "label": "Show entire image"
+        }
+      ],
+      "default": "cover"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "copy",
+      "label": "Text below table"
+    },
+    {
+      "type": "text",
+      "id": "table_caption",
+      "label": "Table description for screen readers",
+      "default": "Vivienne details"
+    },
+    {
+      "type": "text",
+      "id": "detail_heading",
+      "label": "First column heading",
+      "default": "Detail"
+    },
+    {
+      "type": "text",
+      "id": "product_heading",
+      "label": "Second column heading",
+      "default": "The Vivienne"
+    },
+    {
+      "type": "text",
+      "id": "purpose_heading",
+      "label": "Third column heading",
+      "default": "The purpose"
+    },
+    {
+      "type": "checkbox",
+      "id": "sticky_content",
+      "label": "Keep desktop table in view while scrolling",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "detail",
+      "name": "Detail row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "detail",
+          "label": "Detail"
+        },
+        {
+          "type": "text",
+          "id": "product_detail",
+          "label": "Product detail"
+        },
+        {
+          "type": "text",
+          "id": "purpose",
+          "label": "Purpose"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Value breakdown",
+      "blocks": [
+        {
+          "type": "detail",
+          "settings": {
+            "detail": "Leather",
+            "product_detail": "Visible natural grain",
+            "purpose": "Tactile character"
+          }
+        },
+        {
+          "type": "detail",
+          "settings": {
+            "detail": "Trim",
+            "product_detail": "Smoother contrast finish",
+            "purpose": "Definition"
+          }
+        },
+        {
+          "type": "detail",
+          "settings": {
+            "detail": "Silhouette",
+            "product_detail": "Soft, slouching body",
+            "purpose": "An easy shape"
+          }
+        },
+        {
+          "type": "detail",
+          "settings": {
+            "detail": "Upper edge",
+            "product_detail": "Braided detail",
+            "purpose": "A distinctive finish"
+          }
+        },
+        {
+          "type": "detail",
+          "settings": {
+            "detail": "Hardware",
+            "product_detail": "Warm gold tone",
+            "purpose": "A quiet accent"
+          }
+        },
+        {
+          "type": "detail",
+          "settings": {
+            "detail": "Identity",
+            "product_detail": "Logo-free exterior",
+            "purpose": "The bag comes first"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

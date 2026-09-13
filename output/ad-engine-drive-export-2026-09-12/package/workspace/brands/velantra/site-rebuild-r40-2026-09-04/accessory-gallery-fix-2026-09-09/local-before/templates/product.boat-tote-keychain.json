@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>The Boat Tote Keychain brings the familiar lines of a carryall into a miniature accessory. A textured pale body, contrasting handles and tiny belted front give it definition, while a short chain and gold-tone ring complete the piece. The appeal is in the small details: the trim, the stitching and the neatly framed silhouette. Add it to your keys or a favorite bag for a quiet echo of the full-size tote.</p>",
+        "fact_material": "Textured body with contrast trim",
+        "fact_detail": "Miniature tote silhouette",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Miniature decorative tote with a short linked chain and gold-tone key ring. Contrast handles, vertical front strips and a tiny belted front.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Textured fabric-look body with smooth trim and gold-tone fittings. Wipe gently with a soft, dry cloth. Keep away from prolonged moisture and abrasive cleaners.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

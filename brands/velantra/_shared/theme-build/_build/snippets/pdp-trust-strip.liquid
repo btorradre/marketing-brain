@@ -1,0 +1,26 @@
+{% comment %}
+  In-buy-column 2-pill trust strip (FREE SHIPPING | 2-YEAR WARRANTY)
+  Cuyana pattern: no icons, inline text, two pills
+{% endcomment %}
+
+<div class="pdp-trust">
+  <span class="pdp-trust__pill">Free shipping over $100</span>
+  <span class="pdp-trust__sep" aria-hidden="true">|</span>
+  <span class="pdp-trust__pill">Two-Year Warranty</span>
+</div>
+
+<style>
+  .pdp-trust {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    margin: 14px 0; padding: 10px 12px;
+    background: transparent; border-top: 1px solid #e8e8e1; border-bottom: 1px solid #e8e8e1;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: #3a3a3a;
+  }
+  .pdp-trust__sep { color: #d4d0c4; }
+  @media (max-width: 480px) {
+    .pdp-trust { flex-direction: column; gap: 4px; }
+    .pdp-trust__sep { display: none; }
+  }
+</style>

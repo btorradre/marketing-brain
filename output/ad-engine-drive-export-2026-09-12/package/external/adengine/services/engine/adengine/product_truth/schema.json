@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adengine.dev/schema/product_truth.json",
+  "title": "ProductTruth",
+  "description": "Locked product truth for one product. identity_block and mechanism_block are pasted VERBATIM into generation prompts; never paraphrase them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "slug", "brand_slug", "category", "identity_block", "mechanism_block",
+               "colorways", "dimensions", "materials", "banned_terms", "required_phrases",
+               "claims", "engine_notes", "reference_assets", "qa_checklist", "version", "extracted_from"],
+  "properties": {
+    "name":        {"type": "string", "minLength": 1},
+    "slug":        {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "brand_slug":  {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "category":    {"type": "string"},
+    "positioning": {"type": ["string", "null"], "description": "Internal positioning line, never customer-facing."},
+    "price":       {"type": ["string", "null"]},
+    "identity_block": {"type": "string", "minLength": 1,
+                       "description": "Verbatim identity block. Colorway brackets like [a | b] are resolved by the caller."},
+    "mechanism_block": {"type": ["string", "null"],
+                        "description": "Verbatim opening / flap mechanism block, or null when the product has none."},
+    "extra_blocks": {
+      "type": "array",
+      "description": "Other verbatim paste blocks (closure hardware, scale anchor, photoreal footer, material, scene, occlusion).",
+      "items": {"type": "object", "additionalProperties": false,
+                "required": ["name", "text"],
+                "properties": {"name": {"type": "string"}, "text": {"type": "string"},
+                               "when": {"type": ["string", "null"], "description": "When to paste it, from the heading."}}}
+    },
+    "colorways": {
+      "type": "array",
+      "items": {"type": "object", "additionalProperties": false, "required": ["name", "description"],
+                "properties": {"name": {"type": "string"}, "description": {"type": "string"},
+                               "hex": {"type": ["string", "null"], "pattern": "^#[0-9a-fA-F]{6}$"},
+                               "hero": {"type": "boolean"},
+                               "reference": {"type": ["string", "null"], "description": "Original path of the colorway's canonical reference image."}}}
+    },
+    "dimensions": {"type": "object", "description": "Free-form: width_in, height_in, depth_in, width_cm, raw, note..."},
+    "materials":  {"type": "array", "items": {"type": "string"}},
+    "banned_terms": {
+      "type": "array",
+      "items": {"type": "object", "additionalProperties": false, "required": ["term", "reason"],
+                "properties": {"term": {"type": "string"}, "reason": {"type": "string"},
+                               "scope": {"type": "string", "enum": ["prompt", "copy", "any"]}}}
+    },
+    "required_phrases": {"type": "array", "items": {"type": "string"}},
+    "claims": {
+      "type": "array",
+      "items": {"type": "object", "additionalProperties": false, "required": ["claim", "verified", "source"],
+                "properties": {"claim": {"type": "string"}, "verified": {"type": "boolean"}, "source": {"type": "string"}}}
+    },
+    "engine_notes": {
+      "type": "array",
+      "items": {"type": "object", "additionalProperties": false, "required": ["engine", "note"],
+                "properties": {"engine": {"type": "string"}, "note": {"type": "string"}}}
+    },
+    "reference_assets": {
+      "type": "array",
+      "items": {"type": "object", "additionalProperties": false, "required": ["role", "asset_id", "source_path_original"],
+                "properties": {"role": {"type": "string", "enum": ["master_seed", "angle", "detail", "lifestyle"]},
+                               "asset_id": {"type": ["string", "null"], "description": "Store asset id once re-uploaded; null until then."},
+                               "source_path_original": {"type": "string"},
+                               "note": {"type": ["string", "null"]},
+                               "colorway": {"type": ["string", "null"]}}}
+    },
+    "qa_checklist": {"type": "array", "items": {"type": "string"}},
+    "version": {"type": "integer", "minimum": 1},
+    "extracted_from": {
+      "type": "object", "additionalProperties": false, "required": ["path"],
+      "properties": {"path": {"type": "string"}, "sha256": {"type": "string"},
+                     "extracted_at": {"type": "string"}, "extractor": {"type": "string"}}
+    },
+    "extraction": {
+      "type": "object",
+      "description": "Extractor self-report. confidence per field: high | medium | low | none.",
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {"type": "object", "additionalProperties": {"type": "string", "enum": ["high", "medium", "low", "none"]}},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": "gemini-omni-1.1-flash",
+  "background": true,
+  "input": [
+    {
+      "type": "image",
+      "local_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/creative/old-money-look-2026-09-10/storyboard/raw-phone-r2/C09.png"
+    },
+    {
+      "type": "text",
+      "text": "<FIRST_FRAME> Animate this exact reference photograph as a raw ordinary phone video. The white-cuffed hand immediately lifts the exact bag about 15 centimeters off the bench and begins to carry it to the right. Keep the complete bag visible. Keys stay on the bench. One brief ordinary grab-and-go action filmed casually by a friend. Action starts on frame one and runs at ordinary real time, not slow motion. Preserve this exact Cognac Eleanor Weekender: ivory woven canvas body, cognac attached flap, rolled handles through two handle openings, horizontal oval gold keyhole plate, dark side-wing slots, lower cognac corner patches and source-visible loose side straps. Preserve original bag-to-person scale, outfit, hands, setting, light and slight phone softness. Keep the bag closed. No added hardware, no logo, no skin smoothing, no studio lighting, no cinematic orbit, no dolly zoom, no artificial blur effect, no internal cuts, no transition, no layout change, no morphing, no additional people, no speech, no music, no captions or writing. One continuous natural action."
+    }
+  ],
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4s",
+    "delivery": "uri"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "image_complete_video_provider_blocked",
+  "generated_image": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/assets/images-v22/toilet-cramping-keyframe.png",
+  "image_model": "GPT Image 2",
+  "video_model": "Google Omni gemini-omni-flash-preview",
+  "video_attempts": [
+    {
+      "attempt": 1,
+      "result": "HTTP 400 content_blocked"
+    },
+    {
+      "attempt": 2,
+      "result": "HTTP 500 api_error, provider said not charged; subsequent readback invalid_request"
+    },
+    {
+      "attempt": 3,
+      "result": "HTTP 400 content_blocked"
+    }
+  ],
+  "new_video_created": false,
+  "native_edit_applied": false,
+  "final_ad_changed": false,
+  "latest_completed_ad": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v21/deliverables/Motilli-Unbranded-VSL-v21-1.2x.mp4",
+  "exact_cue": "Backed up, uncomfortable, just waiting.",
+  "target_frames": [
+    2316,
+    2380
+  ],
+  "duration_seconds": 2.1333333333333333,
+  "next_step": "Need working authorized Google Omni generation or user direction allowing a different video provider. Do not substitute a still for requested video.",
+  "cutroom": "https://cutroom-three.vercel.app/b/mot-ugc-yapper-01"
+}

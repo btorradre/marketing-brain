@@ -1,0 +1,779 @@
+{
+  "checked_at": "2026-09-05T23:44:14.484601+00:00",
+  "draft_id": 151364960321,
+  "method": "Fresh Admin GraphQL read-only pagination; Liquid exact bytes; JSON parsed after Shopify leading comment removal.",
+  "local_count": 75,
+  "remote_count": 75,
+  "pages": 7,
+  "roles": {
+    "draft": {
+      "id": "gid://shopify/OnlineStoreTheme/151364960321",
+      "name": "Velantra \u2014 R40 / Vivienne Craftsmanship",
+      "role": "UNPUBLISHED"
+    },
+    "main": [
+      {
+        "id": "gid://shopify/OnlineStoreTheme/151337074753",
+        "name": "Velantra \u2014 Quiet Luxury / R40",
+        "role": "MAIN"
+      }
+    ]
+  },
+  "role_check_passed": true,
+  "matched_files": 75,
+  "mismatches": [],
+  "passed": true,
+  "files": [
+    {
+      "filename": "config/settings_data.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "f016484e4493e1a79e1b28104c9b11b4230de5bce1cd9ef196bf1df707cd2e1c",
+      "remote_sha256": "f016484e4493e1a79e1b28104c9b11b4230de5bce1cd9ef196bf1df707cd2e1c",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "config/settings_schema.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "7df522f7f0883c005eb18a7e9dc92b6e33c5a52221bc3828002bde4173e968d2",
+      "remote_sha256": "7df522f7f0883c005eb18a7e9dc92b6e33c5a52221bc3828002bde4173e968d2",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "layout/theme.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "c99eba581f8eead01009b21dad082daaed4119b45f3dac10bf8d5cdbc916b386",
+      "remote_sha256": "c99eba581f8eead01009b21dad082daaed4119b45f3dac10bf8d5cdbc916b386",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "locales/en.default.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "c3c225b6330bad02328ee192f359749e43842449009f89c577e50d19cc557bfb",
+      "remote_sha256": "c3c225b6330bad02328ee192f359749e43842449009f89c577e50d19cc557bfb",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "sections/announcement.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "0f5620e6b5fbd0bbff942ae71ec371552c404fabdec9c074e610ab1df600a557",
+      "remote_sha256": "0f5620e6b5fbd0bbff942ae71ec371552c404fabdec9c074e610ab1df600a557",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/client-perspectives.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "dd447847607bbf0970dad4e18d789cd9746bb6f7bf49d57d2721374778ea0a6b",
+      "remote_sha256": "dd447847607bbf0970dad4e18d789cd9746bb6f7bf49d57d2721374778ea0a6b",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/contact-form.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "33017ea9ca651869957086a2f6e68d3f83e888612077837dcaf24e9deb311baf",
+      "remote_sha256": "33017ea9ca651869957086a2f6e68d3f83e888612077837dcaf24e9deb311baf",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/craftsmanship-timeline.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "a8532178406c4c972c0410711501ee81a9d5805f35ea30967876d855de182b17",
+      "remote_sha256": "a8532178406c4c972c0410711501ee81a9d5805f35ea30967876d855de182b17",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/custom-liquid.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "c105e6abbdb1bacc9790b6d652148a6a200c6fce8bd974001232e8b5ef2c70f0",
+      "remote_sha256": "c105e6abbdb1bacc9790b6d652148a6a200c6fce8bd974001232e8b5ef2c70f0",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/detail-film.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "9fe15a2cb89f90a1a042ff418bde4d2aef71953ece93475132478d0e702f06b5",
+      "remote_sha256": "9fe15a2cb89f90a1a042ff418bde4d2aef71953ece93475132478d0e702f06b5",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/editorial-text.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "86dc56bca951d0c1f32cfb1402e3fc64b69f7554e6d44bad39fe67c6c4d4c3bd",
+      "remote_sha256": "86dc56bca951d0c1f32cfb1402e3fc64b69f7554e6d44bad39fe67c6c4d4c3bd",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/featured-collection.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "ea68eac7de22ca218b3c4b2908eadb14778b99ed60b9c64d8f2e9e40cc1158f0",
+      "remote_sha256": "ea68eac7de22ca218b3c4b2908eadb14778b99ed60b9c64d8f2e9e40cc1158f0",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/featured-model-collection.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "f55f3922b19a50ecc998884a2baa50a204b08bbe801d6a0ec93abe6295d0c02a",
+      "remote_sha256": "f55f3922b19a50ecc998884a2baa50a204b08bbe801d6a0ec93abe6295d0c02a",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/footer-group.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "f70c8e26a1974cbdef8ad41b6f863d6ad4035ad6ee8eb7cc56c32134b9873c02",
+      "remote_sha256": "f70c8e26a1974cbdef8ad41b6f863d6ad4035ad6ee8eb7cc56c32134b9873c02",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "sections/footer.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "d50a164bddf62c8381946b41c902fb19ae8bec4f8a4260a7d99879982777cba8",
+      "remote_sha256": "d50a164bddf62c8381946b41c902fb19ae8bec4f8a4260a7d99879982777cba8",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/header-group.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "3d959710b7b03108f7a3472a62aff12346d3c28bcb760f4c0fc451db791bbe83",
+      "remote_sha256": "3d959710b7b03108f7a3472a62aff12346d3c28bcb760f4c0fc451db791bbe83",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "sections/header.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "709d7ec4a690bd3749c5da37d4a70597db8b5fcd11f8d28e13ed9367711bc863",
+      "remote_sha256": "709d7ec4a690bd3749c5da37d4a70597db8b5fcd11f8d28e13ed9367711bc863",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/hero-film.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "7e981a2e6d23164a68e5b0cf964f32744d9a4d7616fee6842c79af489783254a",
+      "remote_sha256": "7e981a2e6d23164a68e5b0cf964f32744d9a4d7616fee6842c79af489783254a",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/image-gallery.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "b849c77079c3f74fbed2daa44cca81c3796a1505402278130f2fd51e6c225463",
+      "remote_sha256": "b849c77079c3f74fbed2daa44cca81c3796a1505402278130f2fd51e6c225463",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/image-with-text.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "9155e3b8a315b7172b658316c7147ea3d186b0dc08900536be4a6dba29d6ce02",
+      "remote_sha256": "9155e3b8a315b7172b658316c7147ea3d186b0dc08900536be4a6dba29d6ce02",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-404.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "5ea53128131af56b18189ae8910fa75aad420bd78b18925acdc01747578d8e32",
+      "remote_sha256": "5ea53128131af56b18189ae8910fa75aad420bd78b18925acdc01747578d8e32",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-article.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "d6355ef5c4cfa0b7c068ef4de257b74d70c071138b6a149a8bc0418d98ef989c",
+      "remote_sha256": "d6355ef5c4cfa0b7c068ef4de257b74d70c071138b6a149a8bc0418d98ef989c",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-blog.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "f7d055187aa7b8a44610268f7b944e80c54c89e643d829f2a8fc51e18561e584",
+      "remote_sha256": "f7d055187aa7b8a44610268f7b944e80c54c89e643d829f2a8fc51e18561e584",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-cart.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "e6df538bee9ae2cbcdd80c83851889c25c747ca4a3be0dd4f01350cd4917974f",
+      "remote_sha256": "e6df538bee9ae2cbcdd80c83851889c25c747ca4a3be0dd4f01350cd4917974f",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-collection.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "bd5d9904e934aeea75c8322f97b9124e67566804ad7ee37296a437b104c4df1d",
+      "remote_sha256": "bd5d9904e934aeea75c8322f97b9124e67566804ad7ee37296a437b104c4df1d",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-list-collections.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "5679d7eee6dd0e8debceb62a3cdf6d332b1dabe1a92900fe40600c4744dfca9d",
+      "remote_sha256": "5679d7eee6dd0e8debceb62a3cdf6d332b1dabe1a92900fe40600c4744dfca9d",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-page.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "a77810b0d9441453c442f53814bc64ca55bb48185ca435ea4dd6ccb2374ef318",
+      "remote_sha256": "a77810b0d9441453c442f53814bc64ca55bb48185ca435ea4dd6ccb2374ef318",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-product.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "699e0c1a900605b7ce9565711e34788e4578b34e8a98fc8ed74ae94700a0fbf0",
+      "remote_sha256": "699e0c1a900605b7ce9565711e34788e4578b34e8a98fc8ed74ae94700a0fbf0",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/main-search.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "40d2b39b14eed5e06e40e19b9d1c085adf5124da40fcf3ee4d9c06f14aa2bdfc",
+      "remote_sha256": "40d2b39b14eed5e06e40e19b9d1c085adf5124da40fcf3ee4d9c06f14aa2bdfc",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/newsletter.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "f3e0346d5acb9907129689b4fa6ec7cb50ad6912c27fb6eca466e2207db12c2c",
+      "remote_sha256": "f3e0346d5acb9907129689b4fa6ec7cb50ad6912c27fb6eca466e2207db12c2c",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/product-recommendations.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "d47375e8d116aba26dceab7e09554c2567764737b192a823744da8f5e1b48777",
+      "remote_sha256": "d47375e8d116aba26dceab7e09554c2567764737b192a823744da8f5e1b48777",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/service-promises.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "ad12f5deaa50dcdedbcc20c94944b152b5dbfa16113271340005bf96a1f4756a",
+      "remote_sha256": "ad12f5deaa50dcdedbcc20c94944b152b5dbfa16113271340005bf96a1f4756a",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "sections/value-breakdown.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "faf2e2d5535e2fd49b28b3558866c5d24742a49c70e07f6a654eb580f0eb23e2",
+      "remote_sha256": "faf2e2d5535e2fd49b28b3558866c5d24742a49c70e07f6a654eb580f0eb23e2",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/cart-drawer.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "0e87caa9689eefb495afab35dc6bbe1fb94f672855bbd5a6acce823b52b2ccee",
+      "remote_sha256": "0e87caa9689eefb495afab35dc6bbe1fb94f672855bbd5a6acce823b52b2ccee",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/cart-request-queue.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "dc05f328a733c1667ebaf79b6899674e0ae27a76278bfab3d57dd4b5328027d5",
+      "remote_sha256": "dc05f328a733c1667ebaf79b6899674e0ae27a76278bfab3d57dd4b5328027d5",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/commerce-script.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "7081c56010206bb2f8732cbe0c0f586a428ecdba70ebd949c4671b32dde54f82",
+      "remote_sha256": "7081c56010206bb2f8732cbe0c0f586a428ecdba70ebd949c4671b32dde54f82",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/commerce-styles.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "8548d0be7a1fae2a680e1f52c51a720fae8ddd39a608eebe206e84eff855f3f7",
+      "remote_sha256": "8548d0be7a1fae2a680e1f52c51a720fae8ddd39a608eebe206e84eff855f3f7",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/product-card.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "9a63dbb061229e5e7aa543381bbb58d7059b07f685ffb8fb3f771d9fd2782019",
+      "remote_sha256": "9a63dbb061229e5e7aa543381bbb58d7059b07f685ffb8fb3f771d9fd2782019",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/product-gallery.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "e4df03e2d252e5e869fd99fb5b6af9778dc0079876d76ac949a5087318cd7731",
+      "remote_sha256": "e4df03e2d252e5e869fd99fb5b6af9778dc0079876d76ac949a5087318cd7731",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/product-price.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "b730c6d99bd2e9d6849c31f17671893f9d0392ae2eb2fbc18692d62b9b1f5d07",
+      "remote_sha256": "b730c6d99bd2e9d6849c31f17671893f9d0392ae2eb2fbc18692d62b9b1f5d07",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/studio-image-url.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "2fbdf6d1226c46e63c6fffda65ee0db42a56e07c9e4aff60f20fa048823332f3",
+      "remote_sha256": "2fbdf6d1226c46e63c6fffda65ee0db42a56e07c9e4aff60f20fa048823332f3",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/studio-variant-map.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "2bc0a06b9cc232e85f8bbffd965edfd4aa0c800d644e2e6ab05fb56ea8db882f",
+      "remote_sha256": "2bc0a06b9cc232e85f8bbffd965edfd4aa0c800d644e2e6ab05fb56ea8db882f",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/theme-script.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "048355fdff5ce32fda385d48852ef7af6c5cd66064f8918449fe194ef8e4d36f",
+      "remote_sha256": "048355fdff5ce32fda385d48852ef7af6c5cd66064f8918449fe194ef8e4d36f",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "snippets/theme-styles.liquid",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "2d7396596962ae3de3732cc873dd646967ba5053272d2d50d81e88b15dbc4315",
+      "remote_sha256": "2d7396596962ae3de3732cc873dd646967ba5053272d2d50d81e88b15dbc4315",
+      "exact_match": true,
+      "comparison": "exact_liquid",
+      "passed": true
+    },
+    {
+      "filename": "templates/404.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "673bac78f620425711ef917d9ae94a014d403aeedc4041114eb2238459cf304f",
+      "remote_sha256": "9596218488a73382e05f401f343f211bbf0a250cd1feefd77ce532c30fb6bd91",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/article.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "7ea58f267a44c3c5684b3430b78bab5c7436ebc2b9cf55d04fb4336849bea7fd",
+      "remote_sha256": "3faaf8ed2474a5d7c53086ac5b7e684fd1ed90f88ab604e90b3eff4106c012c9",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/blog.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "35ba7fa30f192a6de58540ecdcec93f5184041450ee778a8679815d13d27e758",
+      "remote_sha256": "b9ac0c02a4934b2f85f95a9cc554295f50a2349a0e6f913d41f1dc66ac1af400",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/cart.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "310803b7d9bbf02e74f026a9addecf3eaca20b584baf37d8f8c25a802a8a68a5",
+      "remote_sha256": "310803b7d9bbf02e74f026a9addecf3eaca20b584baf37d8f8c25a802a8a68a5",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/collection.all.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "feaf5d3e71dd640e5861d4203074a610be9806a08054446333f9de3d16cf878a",
+      "remote_sha256": "101760ec8d09028c774bd1e8c42c5c76ecc1eb2ca6312bb1ebd369b9f3f21711",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/collection.bags.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "feaf5d3e71dd640e5861d4203074a610be9806a08054446333f9de3d16cf878a",
+      "remote_sha256": "101760ec8d09028c774bd1e8c42c5c76ecc1eb2ca6312bb1ebd369b9f3f21711",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/collection.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "feaf5d3e71dd640e5861d4203074a610be9806a08054446333f9de3d16cf878a",
+      "remote_sha256": "101760ec8d09028c774bd1e8c42c5c76ecc1eb2ca6312bb1ebd369b9f3f21711",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/collection.luxe.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "feaf5d3e71dd640e5861d4203074a610be9806a08054446333f9de3d16cf878a",
+      "remote_sha256": "101760ec8d09028c774bd1e8c42c5c76ecc1eb2ca6312bb1ebd369b9f3f21711",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/index.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "e643a29cf20702c91ea1f7cd63038f7d026dea43df256ab88452b5e52c05e2b8",
+      "remote_sha256": "ac716fb4744c2745cc67c86b541f2dd98eb160855b3ce223336b8b5a763240df",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/list-collections.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "7b8186efa4657b42d41b7bf8565f0e66b2d764ef2c6402bd5cbf68d30fb25707",
+      "remote_sha256": "2cb5f41061120bed4fab6aea48348e1f468ec8abdd28ed851d1b0d99c9f61ecf",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/page.contact.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "eabd91dea4c09f5c202d4becdcef90a41733353972e4a7de2a2c934680e30152",
+      "remote_sha256": "eabd91dea4c09f5c202d4becdcef90a41733353972e4a7de2a2c934680e30152",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/page.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "e0120354c1c87714bb146c1843b03873e5d2ca3245b387b29e015684fbfd6c0c",
+      "remote_sha256": "e0120354c1c87714bb146c1843b03873e5d2ca3245b387b29e015684fbfd6c0c",
+      "exact_match": true,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.bag-organizer.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "7b993cc827bbcd7d8d9e304803fa16721cca6f3c7cc715a3d30ce632734064b0",
+      "remote_sha256": "0165bd13171a81ef61ee200f425ecb8a77d9cacd585651cd0487cee93d881514",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.bag-scarf.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "5dffb4a9745fd615840c44c384638adc7b86abb251353620497edd667770dfe1",
+      "remote_sha256": "83a39f7ea50a353cb4a80cc910b836856604ef4cba91c8de839c25834e21f29b",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.boat-tote-2.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "a8c740c2153fc28f130896333aafb6415616d0d24632dfb37cc9a516c09581cf",
+      "remote_sha256": "7146e03e78c1ba178cc3098896358259cc8a15b78aad9db6d6a9c96e68822e67",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.boat-tote-keychain.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "[REDACTED_SECRET]",
+      "remote_sha256": "55c2257db4462a3a4dbc95659d263da63c0bbf5530bc2dad6d414e76adec693e",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.boat-tote-legacy.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "dc167bd69a642f508f73156f98387332c107d2100971b5b30b0a4729676ec8fd",
+      "remote_sha256": "837452406b065fb7ddbebfd9372a13f2386afaac4e7c4ee13168ba1987a5aeac",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.bow-tote.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "a7de0231fca586a0f9256cd735f6d3909047295890a09aeca8684a929b726a12",
+      "remote_sha256": "9c0cffdb6674224b52c91bdedaaf5e2c6e6f214c0302ae0458cb26935e551a0b",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.cherry-charm.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "ef2b3618f32519a72b684a198d6ce25724aca6268e350cc977fdc2d6d756cb1d",
+      "remote_sha256": "8b556bd3f47c542ac84478469088f57ce8dc66b7b033e09120a8669ae0532371",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.colette.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "5a81f7163da25bf6d7467faadf0adc6dce9709751af4fd3030ca30e894a4edf2",
+      "remote_sha256": "a7a2a0276deab372ec0c9a8046c6ea0312585896920612a51fccb987a9df2d26",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.delphine.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "1212a35e7d5cbd5af6c0c510a0e481dafc96089cabcfda03f41deaacffcb2494",
+      "remote_sha256": "7556fb5c597a3a3f01931ceec5412e02d64587e2770bf1158f29169de9aca5a8",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.horse-charm.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "3ef972435efeeff6276d5cd9a1c3b66eb3fbc1137278a361ab5a9a2fce13ee51",
+      "remote_sha256": "6d9612f64e0063074819c8586278ce2a33ace815c6572d251de6d756247dd760",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.ingrid.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "8e0ee576b6072272a7199b4930422be707a067966632718c5f9525b56cf6db14",
+      "remote_sha256": "b519346f2b0a42833f5b90e7a43ebde5fc364d8790b8b343a24b638517edb1ed",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "b589ba03bb82539af1c3adb7d0d643131a1f0f244c99ec2ef79609fd48a3f83e",
+      "remote_sha256": "465d15bf434ec2b45a3d70d00ec9b7c43b41c84342b8bf93f7b4d9c7d8a54cc5",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.juliette.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "d02b1ceb411332e2a86fc1bad17d3e39670ff41fe02402b57570358938b0cea5",
+      "remote_sha256": "6cc4c51e8896cd0ef198f725e5a5aaa2f845f2406c734ea4a5e2cfb2c4e4c309",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.meridian-tote.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "c56ae94575ced24bb1ee8f656a4dd247cde08591eb1713acf6ec4b0aac7a0374",
+      "remote_sha256": "72c9e3f8226a58037ec8dc48780db9c43ba077aeb5e6702affd434b37e59fc4e",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.portico-bucket-bag.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "a2c20059e21723261b5a42ee6ff03a73923bf5a61535d15b5201a6fb3a5c40f1",
+      "remote_sha256": "4face4afc36d03f1aaabecb16df3c6b98b4792c15ebe29c8c77f6f3133f18438",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.straw-birkin.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "5e6f73234a4e0a3cab523f432547ee6dbcceb3eff8c435b776d858fcd8306101",
+      "remote_sha256": "bf3d246c5f742f5b1a300d32984a0a3d8fc9ba816927f57e0dbe3f86bdf4e444",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.vivienne.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "726bbc1134d0874ab944b368f8e2f72e3d486b8d2def388785098647bf71f24f",
+      "remote_sha256": "5c33368ed1209f929e996b16770bcd04123ed597850e3d99ca4706b61c6aece2",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/product.weekender.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "4ce3e9b31cdd60241d10b83bc200645c8619563e0d0bde036693f3e90509974f",
+      "remote_sha256": "7278720992411f001cb298d2ff20c3960668b0b9156d4c2e35d9ca8e7a00d932",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    },
+    {
+      "filename": "templates/search.json",
+      "local_present": true,
+      "remote_present": true,
+      "local_sha256": "3c6fa85aca91df2dee6c8e3b728d690d55b043dac4b8f49e4945c2ac6690e9e2",
+      "remote_sha256": "7634939ae6d401f761747dbf2b497bfd54f8579bfd81232822e8d3a374cc2ec4",
+      "exact_match": false,
+      "comparison": "semantic_json",
+      "passed": true
+    }
+  ],
+  "source_files_overwritten": false
+}

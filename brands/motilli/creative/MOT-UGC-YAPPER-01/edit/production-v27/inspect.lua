@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('PROJECT',p:GetName(),p:IsRenderingInProgress());for i=1,p:GetTimelineCount() do local t=p:GetTimelineByIndex(i);if string.find(t:GetName(),'v26') or string.find(t:GetName(),'v27') then print(t:GetName(),t:GetEndFrame());end end

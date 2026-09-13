@@ -1,0 +1,69 @@
+{
+  "privacyKeys": [
+    "getTrackingConsent",
+    "setTrackingConsent",
+    "userCanBeTracked",
+    "getRegulation",
+    "isRegulationEnforced",
+    "getShopPrefs",
+    "shouldShowGDPRBanner",
+    "userDataCanBeSold",
+    "setCCPAConsent",
+    "getCCPAConsent",
+    "shouldShowCCPABanner",
+    "doesMerchantSupportGranularConsent",
+    "analyticsProcessingAllowed",
+    "preferencesProcessingAllowed",
+    "marketingAllowed",
+    "firstPartyMarketingAllowed",
+    "saleOfDataAllowed",
+    "thirdPartyMarketingAllowed",
+    "currentVisitorConsent",
+    "shouldShowBanner",
+    "saleOfDataRegion",
+    "getRegion",
+    "getTrackingConsentMetafield",
+    "consentId",
+    "unstable",
+    "__metadata__"
+  ],
+  "consent": {
+    "marketing": "",
+    "analytics": "",
+    "preferences": "",
+    "sale_of_data": ""
+  },
+  "region": "USTX",
+  "tracking": true,
+  "analytics": true,
+  "marketing": true,
+  "gpc": null,
+  "fbq": "function",
+  "iframes": [
+    {
+      "id": "web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX-449ac4ccw8cfe1344p8a6aeedamfa32ca01",
+      "src": "https://getmotilli.com/web-pixels@449ac4ccw8cfe1344p8a6aeedamfa32ca01/custom/web-pixel-shopify-custom-pixel@0520/sandbox/modern/products/motilli-3-bottle-90day-reset"
+    },
+    {
+      "id": "",
+      "src": ""
+    }
+  ],
+  "relevant_request_urls": [
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/1536431777433131",
+    "https://getmotilli.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+    "https://getmotilli.com/cdn/wpm/b449ac4ccw8cfe1344p8a6aeedamfa32ca01m.js",
+    "https://getmotilli.com/web-pixels/strict/app/web-pixel-2301165935@14b26290829f755f27eefbf196eb8024.js",
+    "https://getmotilli.com/web-pixels/strict/app/web-pixel-2301198703@97b5be1756c17e4819e71893a005b595.js",
+    "https://getmotilli.com/web-pixels/strict/app/web-pixel-2301297007@d8a2bb2ccbb513dc8e8b6937f4b8033e.js",
+    "https://getmotilli.com/web-pixels/strict/app/web-pixel-shopify-app-pixel@0520.js",
+    "https://getmotilli.com/web-pixels@449ac4ccw8cfe1344p8a6aeedamfa32ca01/app/web-pixel-2244018543@96420dbe9ea96c426a1b7f364f977719~2/pixel.modern.js",
+    "https://getmotilli.com/web-pixels@449ac4ccw8cfe1344p8a6aeedamfa32ca01/custom/web-pixel-shopify-custom-pixel@0520/sandbox/modern/products/motilli-3-bottle-90day-reset",
+    "https://getmotilli.com/web-pixels@449ac4ccw8cfe1344p8a6aeedamfa32ca01/web-pixel-2301165935@14b26290829f755f27eefbf196eb8024/sandbox/worker.modern.js",
+    "https://getmotilli.com/web-pixels@449ac4ccw8cfe1344p8a6aeedamfa32ca01/web-pixel-2301198703@97b5be1756c17e4819e71893a005b595/sandbox/worker.modern.js",
+    "https://getmotilli.com/web-pixels@449ac4ccw8cfe1344p8a6aeedamfa32ca01/web-pixel-2301297007@d8a2bb2ccbb513dc8e8b6937f4b8033e/sandbox/worker.modern.js",
+    "https://getmotilli.com/web-pixels@449ac4ccw8cfe1344p8a6aeedamfa32ca01/web-pixel-shopify-app-pixel@0520/sandbox/worker.modern.js",
+    "https://www.facebook.com/tr/"
+  ]
+}

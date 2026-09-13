@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();for k,v in pairs(p:GetRenderCodecs('mov')) do print('MOV_CODEC',k,v) end

@@ -1,0 +1,102 @@
+- generic [ref=f58e12]:
+  - generic [ref=f58e15]:
+    - link "Meta Ad Library" [ref=f58e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+    - generic [ref=f58e21]: Ad Library
+    - menuitem "Ad Library Report" [ref=f58e24] [cursor=pointer]
+    - menuitem "Ad Library API" [ref=f58e27] [cursor=pointer]
+    - menuitem "Branded Content" [ref=f58e30] [cursor=pointer]
+    - menuitem "Open navigation panel" [ref=f58e33] [cursor=pointer]
+  - generic [ref=f58e40]:
+    - combobox "All" [ref=f58e44] [cursor=pointer]
+    - combobox "All ads" [ref=f58e62] [cursor=pointer]
+    - generic [ref=f58e82]:
+      - generic [ref=f58e83]: Search by keyword or advertiser
+      - generic [ref=f58e94]:
+        - searchbox "Search by keyword or advertiser" [ref=f58e100]: Velantra
+        - button "Clear" [ref=f58e102] [cursor=pointer]
+  - generic [ref=f58e105]:
+    - generic [ref=f58e107]:
+      - img "Page profile picture" [ref=f58e112]
+      - link [ref=f58e115] [cursor=pointer]:
+        - /url: https://facebook.com/61587741773603
+        - heading "Velantra" [level=1] [ref=f58e116]
+    - generic [ref=f58e117]:
+      - link "Ads" [ref=f58e118] [cursor=pointer]
+      - link "About" [ref=f58e119] [cursor=pointer]
+  - dialog [ref=f58e120]:
+    - generic [ref=f58e121]:
+      - link [ref=f58e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f58e123]: Log in
+      - menuitem [ref=f58e124] [cursor=pointer]
+    - generic [ref=f58e126]:
+      - generic [ref=f58e127]:
+        - heading [level=4] [ref=f58e129]: Ad Library
+        - menuitem [ref=f58e131] [cursor=pointer]:
+          - heading [level=4] [ref=f58e133]: Ad Library Report
+        - menuitem [ref=f58e135] [cursor=pointer]:
+          - heading [level=4] [ref=f58e137]: Ad Library API
+        - menuitem [ref=f58e139] [cursor=pointer]:
+          - heading [level=4] [ref=f58e141]: Branded Content
+      - separator [ref=f58e142]
+      - generic [ref=f58e143]:
+        - menuitem [ref=f58e145] [cursor=pointer]:
+          - heading [level=4] [ref=f58e147]: System status
+        - menuitem [ref=f58e149] [cursor=pointer]:
+          - heading [level=4] [ref=f58e151]: Subscribe to email updates
+        - menuitem [ref=f58e153] [cursor=pointer]:
+          - heading [level=4] [ref=f58e155]: FAQ
+        - menuitem [ref=f58e157] [cursor=pointer]:
+          - heading [level=4] [ref=f58e159]: About ads and data use
+        - menuitem [ref=f58e161] [cursor=pointer]:
+          - heading [level=4] [ref=f58e163]: Privacy
+        - menuitem [ref=f58e165] [cursor=pointer]:
+          - heading [level=4] [ref=f58e167]: Terms
+        - menuitem [ref=f58e169] [cursor=pointer]:
+          - heading [level=4] [ref=f58e171]: Cookies
+  - generic [ref=f58e172]:
+    - generic [ref=f58e210]:
+      - generic [ref=f58e220]:
+        - textbox "Keyword" [ref=f58e222]
+        - button "Filters" [ref=f58e226] [cursor=pointer]
+        - generic [ref=f58e233]:
+          - generic [ref=f58e234]: Sort
+          - combobox "Sort" [ref=f58e244] [cursor=pointer]:
+            - generic [ref=f58e245]: Sort by
+      - generic [ref=f58e255]:
+        - generic [ref=f58e256]:
+          - heading "No ads match your search criteria" [level=2] [ref=f58e257]
+          - generic [ref=f58e258]: This advertiser isn't running ads in the selected country and ad category at this time.
+        - link "View search tips." [ref=f58e260] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list
+    - generic [ref=f58e174]:
+      - generic [ref=f58e175]: System status
+      - generic [ref=f58e186]:
+        - list [ref=f58e187]:
+          - listitem [ref=f58e188]:
+            - heading [level=3] [ref=f58e189]:
+              - link "Ad Library API" [ref=f58e190] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=f58e191]:
+            - heading [level=3] [ref=f58e192]:
+              - link "About ads and data use" [ref=f58e193] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=f58e194]:
+            - heading [level=3] [ref=f58e195]:
+              - link "Privacy" [ref=f58e196] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=f58e197]:
+            - heading [level=3] [ref=f58e198]:
+              - link "Terms" [ref=f58e199] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=f58e200]:
+            - heading [level=3] [ref=f58e201]:
+              - link "Cookies" [ref=f58e202] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading [level=3] [ref=f58e204]:
+          - text: Meta © 2026 |
+          - link "English (US)" [ref=f58e205] [cursor=pointer]:
+            - /url: /language/

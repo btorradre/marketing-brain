@@ -1,0 +1,66 @@
+{%- comment -%}cb-1779235674{%- endcomment -%}
+{% comment %} Motilli PDP — Below the Fold #8: FAQ {% endcomment %}
+<section class="mtbf08">
+  <div class="mtbf08__inner">
+    <h2 class="mtbf08__h2">{{ section.settings.heading }}</h2>
+    <div class="mtbf08__list">
+      {% for block in section.blocks %}
+        {% if block.type == 'qa' %}
+          <details class="mtbf08__item" {{ block.shopify_attributes }}>
+            <summary class="mtbf08__q">
+              <span>{{ block.settings.question }}</span>
+              <span class="mtbf08__plus">+</span>
+            </summary>
+            <div class="mtbf08__a">{{ block.settings.answer }}</div>
+          </details>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<style>
+.mtbf08 { padding: 44px 24px; background: #ffffff; color: #1a2420; }
+.mtbf08__inner { max-width: 760px; margin: 0 auto; }
+.mtbf08__h2 { text-align: center; font: 700 32px/1.2 Inter, system-ui, sans-serif; margin: 0 0 20px; letter-spacing: -0.5px; }
+.mtbf08__list { border-top: 1px solid #e5e5e5; }
+.mtbf08__item { border-bottom: 1px solid #e5e5e5; }
+.mtbf08__q { display: flex; justify-content: space-between; align-items: center; padding: 18px 4px; cursor: pointer; font: 600 15px/1.4 Inter, system-ui, sans-serif; list-style: none; }
+.mtbf08__q::-webkit-details-marker { display: none; }
+.mtbf08__plus { font: 400 22px Inter, system-ui, sans-serif; color: #94c218; transition: transform 0.2s; }
+details[open] .mtbf08__plus { transform: rotate(45deg); }
+.mtbf08__a { padding: 0 4px 20px; font: 400 14px/1.6 Inter, system-ui, sans-serif; color: #555; }
+@media (max-width: 600px) { .mtbf08__h2 { font-size: 25px; } }
+</style>
+{% schema %}
+{
+  "name": "Motilli BF-08 FAQ",
+  "tag": "section",
+  "class": "motilli-bf-section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "FAQ" }
+  ],
+  "blocks": [
+    {
+      "type": "qa",
+      "name": "Question",
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question" },
+        { "type": "richtext", "id": "answer", "label": "Answer" }
+      ]
+    }
+  ],
+  "max_blocks": 15,
+  "presets": [
+    {
+      "name": "Motilli BF-08 FAQ",
+      "blocks": [
+        { "type": "qa", "settings": { "question": "What exactly does Motilli do?", "answer": "<p>Motilli supports the stomach nerve your GLP-1 medication slows down. Apigenin from celery juice helps restart gastric motility, sodium copper chlorophyllin neutralizes the sulfur gas that causes rotten-egg burps, and low-bulk soluble fiber helps clear the backed-up colon — without making a stalled stomach worse the way psyllium does.</p>" } },
+        { "type": "qa", "settings": { "question": "How fast will I see results?", "answer": "<p>Most customers report comfortable bowel movements within 5–7 days. Sulfur burps usually quiet down within the first two weeks. Full digestive stability — including a normal injection day — typically lands around week 3 to 4.</p>" } },
+        { "type": "qa", "settings": { "question": "How do I take it?", "answer": "<p>Two heart-shaped gummies a day. Most people take them in the morning. On injection day, taking them the night before tends to help the most.</p>" } },
+        { "type": "qa", "settings": { "question": "Is Motilli available on Amazon or in stores?", "answer": "<p>No. Motilli is direct-to-consumer only so we can keep the formula honest and ship straight from our facility. You won't find it on Amazon or at the pharmacy.</p>" } },
+        { "type": "qa", "settings": { "question": "What if it doesn't work for me?", "answer": "<p>Every order is backed by our 90-day money-back guarantee. If Motilli doesn't deliver — even on the last day — email us and we'll refund the bottles, no questions, no return shipping.</p>" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

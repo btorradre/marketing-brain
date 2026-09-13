@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('CURRENT',t:GetName(),t:GetEndFrame());for _,c in ipairs(t:GetItemListInTrack('audio',1)) do print(c:GetName(),c:GetStart(),c:GetEnd());dump(c:GetSpeed()) end

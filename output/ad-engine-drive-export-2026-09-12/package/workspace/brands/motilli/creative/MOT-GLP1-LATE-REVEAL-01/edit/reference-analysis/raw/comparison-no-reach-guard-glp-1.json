@@ -1,0 +1,416 @@
+{
+  "jsonrpc": "2.0",
+  "id": "comparison-no-reach-guard-glp-1",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Meta ad search — \"GLP-1, constipation\"\n\n## Results (4)\n\nAssistant instruction: when you show returned ads to the user, include the Media URL for each ad, or the Thumbnail URL fallback if Media URL is unavailable.\n\n### 1. The GLP-1 Club\n- Ad id: facebook_1031641256081601\n- Collation id: 1913874112641054 (use scan_ad with collation_id to scan this combined creative)\n- Status: active | Media: video | Days running: 55\n- Reach: 0 (7d growth: 0)\n- Estimated spend: €0\n- First seen: 2026-07-14 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/video/e488d2e9a7f4a02700b4092f2eeb778923eaa3df5897601bb429158fa0d874da.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/8d566ab799d18e6a1b9f08b79bd94c55d31b6c2a3a68f9c511b568edb1187ec2.jpg\n- Landing page: https://omyohealth.com/glp1s\n- Copy: The first digestive support made for GLP-1 constipation. Supports healthy bile flow — the natural lubricant your colon lost when your appetite dropped. ✅ Gentle daily regularity —…\n\n### 2. The GLP-1 Club\n- Ad id: facebook_1051576010785734\n- Collation id: 1585286326514863 (use scan_ad with collation_id to scan this combined creative)\n- Status: active | Media: video | Days running: 54\n- Reach: 0 (7d growth: 0)\n- Estimated spend: €0\n- First seen: 2026-07-15 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/video/33d8bf7f9fa5d72f46acad34556f68acbb8df6d55d2bafb03b261b0cd87e8c44.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/10bd0ede9092e506cd2dca09ecd4550d1454b5236a20aee1a38b5ef3e63c792d.jpg\n- Landing page: https://omyohealth.com/glp1s\n- Copy: The first digestive support made for GLP-1 constipation. Supports healthy bile flow — the natural lubricant your colon lost when your appetite dropped. ✅ Gentle daily regularity —…\n\n### 3. Silver Fern Brand\n- Ad id: facebook_986099777639206\n- Collation id: 1305914161740409 (use scan_ad with collation_id to scan this combined creative)\n- Status: active | Media: video | Days running: 105\n- Reach: 0 (7d growth: 0)\n- Estimated spend: €0\n- First seen: 2026-05-26 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/video/3b0b5a27f6f7ac39ae3454a82c2379f7929c749eedbe5586009bdd0722a468b5.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/cfc6891601c5d5bb4e592e2327af0e641fa1ab145319954359da28e5f640cbc2.jpg\n- Landing page: https://www.silverfernbrand.com/products/ultimate-fiber-motility-kit\n- Copy: You want the weight loss. Not the misery. Good news — answering the discomfort and keeping the results aren't mutually exclusive. Here's what nobody told you about GLP-1 meds. GLP…\n\n### 4. The GLP-1 Club\n- Ad id: facebook_4571806803137837\n- Collation id: 1003355216014571 (use scan_ad with collation_id to scan this combined creative)\n- Status: active | Media: video | Days running: 55\n- Reach: 0 (7d growth: 0)\n- Estimated spend: €0\n- First seen: 2026-07-14 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/video/d6a5a579eb15c3d8759aadfaba071f85d909ce89fde300235e9796ba26db1b72.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/320152a0e492f43c1ae7374a0deaffe6dc3193bcfde92e0ee7448abcfa7c52c9.jpg\n- Landing page: https://omyohealth.com/glp1s\n- Copy: The first digestive support made for GLP-1 constipation. Supports healthy bile flow — the natural lubricant your colon lost when your appetite dropped. ✅ Gentle daily regularity —…\n\n---\n\nFilters applied: search=[\"GLP-1\",\"constipation\"], searchType=\"adCopy\", keywordMode=\"all\", sortBy=\"mostDuplicates\", order=\"desc\", page=1, limit=20, platforms=[\"facebook\"], mediaType=\"video\", minDaysRunning=30, status=\"active\", minVideoDuration=90, adCountries={\"include\":[\"US\"]}\n\n---\nCredits used: 6 | Remaining: 8045 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "697e5839-a626-42c0-bc9f-986ab630b522",
+      "data": [
+        {
+          "id": "facebook_1031641256081601",
+          "collationId": "1913874112641054",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-07-15T18:26:54.749Z",
+          "firstSeenAt": "2026-07-14T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 55,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/8d566ab799d18e6a1b9f08b79bd94c55d31b6c2a3a68f9c511b568edb1187ec2.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/e488d2e9a7f4a02700b4092f2eeb778923eaa3df5897601bb429158fa0d874da.mp4"
+          },
+          "advertiser": {
+            "id": "409171918950421",
+            "name": "The GLP-1 Club",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/409171918950421.jpg",
+            "facebookPageId": "409171918950421",
+            "liveAdsCount": 12,
+            "reach30d": null,
+            "totalReach": 0,
+            "countriesCount": 1,
+            "facebookLikes": 2538,
+            "instagramFollowers": 32
+          },
+          "content": {
+            "title": null,
+            "body": "The first digestive support made for GLP-1 constipation.\n\nSupports healthy bile flow — the natural lubricant your colon lost when your appetite dropped.\n\n✅ Gentle daily regularity — no cramping, no urgency\n✅ No sludge, no disgusting liquids, no nuclear options\n✅ Nightly capsule — works while you sleep\n✅ Designed for Ozempic, Wegovy, Mounjaro & Zepbound\n\n60-day money back guarantee → Try Omyo risk-free\nhttps://omyohealth.com/glp1s",
+            "transcript": "{\"language\": \"en\", \"segments\": [{\"end\": 5.42, \"text\": \"you're on a GLP-1, more fiber isn't helping your constipation. It's making it worse. Here's why.\", \"start\": 0.0}, {\"end\": 10.82, \"text\": \"As a gastroenterologist, I see this on the shot every day. The bloating, the heaviness, the backed\", \"start\": 5.58}, {\"end\": 15.540000000000001, \"text\": \"up feeling that won't quit. It's called a bile drought. Essentially, what's happening is the shot\", \"start\": 10.82}, {\"end\": 21.06, \"text\": \"cut your appetite so hard that your body stopped releasing bile, the fluid that keeps your gut\", \"start\": 15.540000000000001}, {\"end\": 26.5, \"text\": \"slick and moving. Without it, everything dries out, turns hard, and gets stuck. And honestly,\", \"start\": 21.06}, {\"end\": 31.78, \"text\": \"for a lot of women, it only gets worse the longer they stay on the shot. Now here's where most women\", \"start\": 26.5}, {\"end\": 37.18, \"text\": \"go wrong. They grab more fiber. And I get it. It's easy. And it's what everyone tells you to do. But\", \"start\": 31.78}, {\"end\": 42.68, \"text\": \"in a dried out gut, fiber just clumps into a hard plug and you end up more bloated and backed up\", \"start\": 37.18}, {\"end\": 49.34, \"text\": \"than when you started. And Miralax, well, it forces water in to soften one block, but you dry right back\", \"start\": 42.68}, {\"end\": 54.82, \"text\": \"out. And most women on a GLP-1 aren't looking to get hooked on something they have to keep taking\", \"start\": 49.34}, {\"end\": 59.92, \"text\": \"just to go. Neither one fixes the real problem, the bile that stopped flowing. What I recommend\", \"start\": 54.82}, {\"end\": 65.18, \"text\": \"instead is getting your bile flowing again. It's the fluid that keeps your gut slick. And once it's\", \"start\": 59.92}, {\"end\": 70.16, \"text\": \"back, everything moves through on its own. Women tell me they're going regularly again within the\", \"start\": 65.18}, {\"end\": 75.62, \"text\": \"first few days. And that's how quickly you can see a difference. Here's the catch. Your body makes bile\", \"start\": 70.16}, {\"end\": 81.88, \"text\": \"when you eat, especially bitter greens, beets, and healthy fats. But on a GLP-1, you're barely eating,\", \"start\": 75.62}, {\"end\": 87.36, \"text\": \"so nothing's telling your liver to release any. That's why I recommend Omyo. It takes those same\", \"start\": 81.88}, {\"end\": 92.6, \"text\": \"bile-stimulating foods you can't eat enough of anymore and concentrates them into two capsules.\", \"start\": 87.36}, {\"end\": 97.46, \"text\": \"So your liver starts releasing bile again, even when you're eating next to nothing. It uses\", \"start\": 92.75999999999999}, {\"end\": 103.46, \"text\": \"concentrated bile herbs, milk thistle, artichoke, dandelion, and beet to get your bile moving far\", \"start\": 97.46}, {\"end\": 109.74, \"text\": \"better than fiber or water ever could. So your gut goes back to feeling slick, light, and finely regular.\", \"start\": 103.46}, {\"end\": 116.38000000000001, \"text\": \"You just take two capsules a day. That's it. Women report no cramping, no urgency, no 1 a.m. sprints\", \"start\": 109.74000000000001}, {\"end\": 121.74000000000001, \"text\": \"to the bathroom, and that they're going normally again within days. And by weeks 8 to 12, that's\", \"start\": 116.38000000000001}, {\"end\": 127.16000000000001, \"text\": \"when they start to see the bloating settle down for good. Their gut feel calm again, and even the sulfur\", \"start\": 121.74000000000001}, {\"end\": 133.54000000000002, \"text\": \"burps ease up. In fact, Omyo's results were so consistent that it's racked up over 2,500 five-star\", \"start\": 127.16000000000001}, {\"end\": 138.68, \"text\": \"reviews from people on the shot. That's how well it works. So look, if you've been backed up and bloated\", \"start\": 133.54000000000002}, {\"end\": 143.98000000000002, \"text\": \"ever since you started the shot, don't think fiber and Miralax are your only options. Thousands of\", \"start\": 138.68}, {\"end\": 148.88, \"text\": \"women on the shot are already taking Omyo. Give it at least 60 days. And if you're not going\", \"start\": 143.98000000000002}, {\"end\": 151.46, \"text\": \"regularly on your own, you get every penny back.\", \"start\": 148.88}], \"language_probability\": 1.0}",
+            "callToAction": "SHOP NOW",
+            "landingPageUrl": "https://omyohealth.com/glp1s",
+            "landingPageDomain": "omyohealth.com",
+            "ctaDescription": "Made for GLP-1 Constipation",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 3,
+            "currentRank": 3,
+            "rankDelta": -1,
+            "improvementPct": 25
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_1051576010785734",
+          "collationId": "1585286326514863",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-07-15T18:26:54.749Z",
+          "firstSeenAt": "2026-07-15T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 54,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/10bd0ede9092e506cd2dca09ecd4550d1454b5236a20aee1a38b5ef3e63c792d.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/33d8bf7f9fa5d72f46acad34556f68acbb8df6d55d2bafb03b261b0cd87e8c44.mp4"
+          },
+          "advertiser": {
+            "id": "409171918950421",
+            "name": "The GLP-1 Club",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/409171918950421.jpg",
+            "facebookPageId": "409171918950421",
+            "liveAdsCount": 12,
+            "reach30d": null,
+            "totalReach": 0,
+            "countriesCount": 1,
+            "facebookLikes": 2538,
+            "instagramFollowers": 32
+          },
+          "content": {
+            "title": null,
+            "body": "The first digestive support made for GLP-1 constipation.\n\nSupports healthy bile flow — the natural lubricant your colon lost when your appetite dropped.\n\n✅ Gentle daily regularity — no cramping, no urgency\n✅ No sludge, no disgusting liquids, no nuclear options\n✅ Nightly capsule — works while you sleep\n✅ Designed for Ozempic, Wegovy, Mounjaro & Zepbound\n\n60-day money back guarantee → Try Omyo risk-free\nhttps://omyohealth.com/glp1s",
+            "transcript": "{\"language\": \"en\", \"segments\": [{\"end\": 2.96, \"text\": \"As a gastroenterologist, I see this on the shot every day.\", \"start\": 0.0}, {\"end\": 4.62, \"text\": \"The bloating, the heaviness,\", \"start\": 3.22}, {\"end\": 6.44, \"text\": \"the backed up feeling that won't quit.\", \"start\": 4.86}, {\"end\": 7.88, \"text\": \"It's called a bile drought.\", \"start\": 6.68}, {\"end\": 10.84, \"text\": \"Essentially, what's happening is the shot cut your appetite\", \"start\": 8.28}, {\"end\": 13.88, \"text\": \"so hard that your body stopped releasing bile,\", \"start\": 10.84}, {\"end\": 16.48, \"text\": \"the fluid that keeps your gut slick and moving.\", \"start\": 14.040000000000001}, {\"end\": 18.44, \"text\": \"Without it, everything dries out,\", \"start\": 16.76}, {\"end\": 20.14, \"text\": \"turns hard, and gets stuck.\", \"start\": 18.6}, {\"end\": 21.92, \"text\": \"And honestly, for a lot of women,\", \"start\": 20.32}, {\"end\": 24.900000000000002, \"text\": \"it only gets worse the longer they stay on the shot.\", \"start\": 22.06}, {\"end\": 26.740000000000002, \"text\": \"Now, here's where most women go wrong.\", \"start\": 25.060000000000002}, {\"end\": 28.8, \"text\": \"They grab more fiber, and I get it.\", \"start\": 26.88}, {\"end\": 31.34, \"text\": \"It's easy, and it's what everyone tells you to do.\", \"start\": 28.8}, {\"end\": 34.96, \"text\": \"But in a dried-out gut, fiber just clumps into a hard plug,\", \"start\": 31.48}, {\"end\": 37.84, \"text\": \"and you end up more bloated and backed up than when you started.\", \"start\": 35.1}, {\"end\": 42.32, \"text\": \"And Miralax, well, it forces water in to soften one block,\", \"start\": 38.14}, {\"end\": 44.1, \"text\": \"but you dry right back out.\", \"start\": 42.46}, {\"end\": 48.120000000000005, \"text\": \"And most women on a GLP-1 aren't looking to get hooked on something\", \"start\": 44.24}, {\"end\": 49.92, \"text\": \"they have to keep taking just to go.\", \"start\": 48.120000000000005}, {\"end\": 53.38, \"text\": \"Neither one fixes the real problem, the bile that stopped flowing.\", \"start\": 50.120000000000005}, {\"end\": 56.66, \"text\": \"What I recommend instead is getting your bile flowing again.\", \"start\": 53.68}, {\"end\": 58.86000000000001, \"text\": \"It's the fluid that keeps your gut slick.\", \"start\": 56.660000000000004}, {\"end\": 61.64, \"text\": \"And once it's back, everything moves through on its own.\", \"start\": 59.06}, {\"end\": 65.4, \"text\": \"Women tell me they're going regularly again within the first few days.\", \"start\": 61.84}, {\"end\": 67.96000000000001, \"text\": \"And that's how quickly you can see a difference.\", \"start\": 65.58}, {\"end\": 68.88000000000001, \"text\": \"Here's the catch.\", \"start\": 68.18}, {\"end\": 70.74000000000001, \"text\": \"Your body makes bile when you eat,\", \"start\": 69.06}, {\"end\": 73.92, \"text\": \"especially bitter greens, beets, and healthy fats.\", \"start\": 70.9}, {\"end\": 76.26, \"text\": \"But on a GLP-1, you're barely eating,\", \"start\": 74.04}, {\"end\": 78.86, \"text\": \"so nothing's telling your liver to release any.\", \"start\": 76.5}, {\"end\": 80.62, \"text\": \"That's why I recommend Omyo.\", \"start\": 79.02000000000001}, {\"end\": 84.7, \"text\": \"It takes those same bile-stimulating foods you can't eat enough of anymore\", \"start\": 80.62}, {\"end\": 87.04, \"text\": \"and concentrates them into two capsules,\", \"start\": 84.7}, {\"end\": 89.26, \"text\": \"so your liver starts releasing bile again,\", \"start\": 87.16000000000001}, {\"end\": 91.30000000000001, \"text\": \"even when you're eating next to nothing.\", \"start\": 89.38000000000001}, {\"end\": 93.42, \"text\": \"It uses concentrated bile herbs,\", \"start\": 91.48}, {\"end\": 96.36, \"text\": \"milk thistle, artichoke, dandelion, and beet,\", \"start\": 93.64}, {\"end\": 100.02000000000001, \"text\": \"to get your bile moving far better than fiber or water ever could,\", \"start\": 96.5}, {\"end\": 104.16, \"text\": \"so your gut goes back to feeling slick, light, and finely regular.\", \"start\": 100.14}, {\"end\": 106.10000000000001, \"text\": \"You just take two capsules a day.\", \"start\": 104.34}, {\"end\": 106.7, \"text\": \"That's it.\", \"start\": 106.28}, {\"end\": 111.48, \"text\": \"Women report no cramping, no urgency, no 1 a.m. sprints to the bathroom,\", \"start\": 106.7}, {\"end\": 114.0, \"text\": \"and that they're going normally again within days.\", \"start\": 111.74000000000001}, {\"end\": 115.62, \"text\": \"And by weeks 8 to 12,\", \"start\": 114.2}, {\"end\": 118.84, \"text\": \"that's when they start to see the bloating settle down for good.\", \"start\": 115.86}, {\"end\": 122.64, \"text\": \"Their gut feel calm again, and even the sulfur burps ease up.\", \"start\": 119.08}, {\"end\": 125.14, \"text\": \"In fact, Omyo's results were so consistent\", \"start\": 122.80000000000001}, {\"end\": 129.7, \"text\": \"that it's racked up over 2,500 five-star reviews from people on the shot.\", \"start\": 125.14}, {\"end\": 130.92000000000002, \"text\": \"That's how well it works.\", \"start\": 129.88}, {\"end\": 134.66, \"text\": \"So look, if you've been backed up and bloated ever since you started the shot,\", \"start\": 131.06}, {\"end\": 137.52, \"text\": \"don't think fiber and Miralax are your only options.\", \"start\": 134.66}, {\"end\": 140.9, \"text\": \"Thousands of women on the shot are already taking Omyo.\", \"start\": 137.84}, {\"end\": 142.35999999999999, \"text\": \"Give it at least 60 days.\", \"start\": 141.04}, {\"end\": 144.48, \"text\": \"And if you're not going regularly on your own,\", \"start\": 142.52}, {\"end\": 145.85999999999999, \"text\": \"you get every penny back.\", \"start\": 144.66}], \"language_probability\": 1.0}",
+            "callToAction": "SHOP NOW",
+            "landingPageUrl": "https://omyohealth.com/glp1s",
+            "landingPageDomain": "omyohealth.com",
+            "ctaDescription": "Made for GLP-1 Constipation",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 5,
+            "currentRank": 5,
+            "rankDelta": -2,
+            "improvementPct": 41.67
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_986099777639206",
+          "collationId": "1305914161740409",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-05-27T01:05:50.782Z",
+          "firstSeenAt": "2026-05-26T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 105,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/cfc6891601c5d5bb4e592e2327af0e641fa1ab145319954359da28e5f640cbc2.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/3b0b5a27f6f7ac39ae3454a82c2379f7929c749eedbe5586009bdd0722a468b5.mp4"
+          },
+          "advertiser": {
+            "id": "450907138406954",
+            "name": "Silver Fern Brand",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/450907138406954.jpg",
+            "facebookPageId": "450907138406954",
+            "liveAdsCount": 909,
+            "reach30d": null,
+            "totalReach": 0,
+            "countriesCount": 1,
+            "facebookLikes": 118281,
+            "instagramFollowers": 193522
+          },
+          "content": {
+            "title": null,
+            "body": "You want the weight loss. Not the misery. Good news — answering the discomfort and keeping the results aren't mutually exclusive. Here's what nobody told you about GLP-1 meds.\n\nGLP-1 medications slow your entire digestive system. That's the mechanism. And slowing the whole system doesn't just cause constipation. A slow stomach causes nausea, burping, belching, reflux, heartburn, and indigestion. A slow gut causes constipation and diarrhea. All of it traces back to one thing — your system got the signal to slow down.\n\nHere's what most people do next: reach for acid blockers and laxatives. Both are bad answers. Certain laxatives cause dependency. Osmotic laxatives are associated with a 60% increased risk of dementia in long-term users. Acid blockers open the door to serious gut imbalances. You're adding problems to solve problems.\n\nHere's the better answer: Motility.\n\nMotility isn't a laxative or an acid blocker. It restores healthy signaling — bile secretion, parasympathetic nervous system function, gut-brain axis communication, butyrate production, and peristalsis. When the signals are restored, the system finds its balance. It helps with reflux, heartburn, nausea, burping, belching, bloating, constipation, and diarrhea. Yes, even diarrhea.\n\nAlso worth knowing: the appetite suppression from GLP-1 meds shifts more to the brain over time. The gut-slowing piece is largely temporary. Motility helps you get through it without destroying your gut in the process.\n\nComment \"Motility\" below — we'll share exactly what to do.\n\nDealing with more than just GLP-1 discomfort? Stomach issues, bloating, gut imbalances? DM us \"PROTOCOL.\" We'll build you a complete custom gut health protocol. It's thorough. Don't be surprised.",
+            "transcript": null,
+            "callToAction": "SHOP NOW",
+            "landingPageUrl": "https://www.silverfernbrand.com/products/ultimate-fiber-motility-kit",
+            "landingPageDomain": "silverfernbrand.com",
+            "ctaDescription": null,
+            "ctaLinkDescription": "Silver Fern™ Motility + Ultimate Fiber Kit restores gut signaling and builds fiber foundation for lasting regularity — without laxatives."
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 65,
+            "currentRank": 65,
+            "rankDelta": -4,
+            "improvementPct": 7.15
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": false,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        },
+        {
+          "id": "facebook_4571806803137837",
+          "collationId": "1003355216014571",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-07-15T18:26:54.749Z",
+          "firstSeenAt": "2026-07-14T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 55,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/320152a0e492f43c1ae7374a0deaffe6dc3193bcfde92e0ee7448abcfa7c52c9.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/d6a5a579eb15c3d8759aadfaba071f85d909ce89fde300235e9796ba26db1b72.mp4"
+          },
+          "advertiser": {
+            "id": "409171918950421",
+            "name": "The GLP-1 Club",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/409171918950421.jpg",
+            "facebookPageId": "409171918950421",
+            "liveAdsCount": 12,
+            "reach30d": null,
+            "totalReach": 0,
+            "countriesCount": 1,
+            "facebookLikes": 2538,
+            "instagramFollowers": 32
+          },
+          "content": {
+            "title": null,
+            "body": "The first digestive support made for GLP-1 constipation.\n\nSupports healthy bile flow — the natural lubricant your colon lost when your appetite dropped.\n\n✅ Gentle daily regularity — no cramping, no urgency\n✅ No sludge, no disgusting liquids, no nuclear options\n✅ Nightly capsule — works while you sleep\n✅ Designed for Ozempic, Wegovy, Mounjaro & Zepbound\n\n60-day money back guarantee → Try Omyo risk-free\nhttps://omyohealth.com/glp1s",
+            "transcript": "{\"language\": \"en\", \"segments\": [{\"end\": 2.96, \"text\": \"If you're on a GLP-1 and you haven't gone in three days,\", \"start\": 0.0}, {\"end\": 5.2, \"text\": \"it's not your fault and it's not your diet.\", \"start\": 2.96}, {\"end\": 8.38, \"text\": \"As a gastroenterologist, I see this on the shot every day.\", \"start\": 5.2}, {\"end\": 10.040000000000001, \"text\": \"The bloating, the heaviness,\", \"start\": 8.38}, {\"end\": 11.86, \"text\": \"the backed up feeling that won't quit.\", \"start\": 10.040000000000001}, {\"end\": 13.42, \"text\": \"It's called a bile drought.\", \"start\": 11.86}, {\"end\": 15.24, \"text\": \"Essentially, what's happening is the shot\", \"start\": 13.42}, {\"end\": 17.22, \"text\": \"cut your appetite so hard\", \"start\": 15.24}, {\"end\": 19.3, \"text\": \"that your body stopped releasing bile,\", \"start\": 17.22}, {\"end\": 21.88, \"text\": \"the fluid that keeps your gut slick and moving.\", \"start\": 19.3}, {\"end\": 23.740000000000002, \"text\": \"Without it, everything dries out,\", \"start\": 21.88}, {\"end\": 25.54, \"text\": \"turns hard and gets stuck.\", \"start\": 23.740000000000002}, {\"end\": 27.28, \"text\": \"And honestly, for a lot of women,\", \"start\": 25.54}, {\"end\": 30.28, \"text\": \"it only gets worse the longer they stay on the shot.\", \"start\": 27.28}, {\"end\": 32.120000000000005, \"text\": \"Now here's where most women go wrong.\", \"start\": 30.28}, {\"end\": 34.1, \"text\": \"They grab more fiber and I get it.\", \"start\": 32.120000000000005}, {\"end\": 36.68, \"text\": \"It's easy and it's what everyone tells you to do.\", \"start\": 34.1}, {\"end\": 40.34, \"text\": \"But in a dried out gut, fiber just clumps into a hard plug\", \"start\": 36.68}, {\"end\": 42.34, \"text\": \"and you end up more bloated and backed up\", \"start\": 40.34}, {\"end\": 43.32, \"text\": \"than when you started.\", \"start\": 42.34}, {\"end\": 47.68000000000001, \"text\": \"And Miralax, well, it forces water in to soften one block,\", \"start\": 43.32}, {\"end\": 49.46, \"text\": \"but you dry right back out.\", \"start\": 47.68000000000001}, {\"end\": 52.82, \"text\": \"And most women on a GLP-1 aren't looking to get hooked\", \"start\": 49.46}, {\"end\": 55.32, \"text\": \"on something they have to keep taking just to go.\", \"start\": 52.82}, {\"end\": 57.4, \"text\": \"Neither one fixes the real problem,\", \"start\": 55.32}, {\"end\": 58.9, \"text\": \"the bile that stopped flowing.\", \"start\": 57.4}, {\"end\": 60.26, \"text\": \"What I recommend instead\", \"start\": 58.9}, {\"end\": 62.06, \"text\": \"is getting your bile flowing again.\", \"start\": 60.26}, {\"end\": 64.22, \"text\": \"It's the fluid that keeps your gut slick.\", \"start\": 62.06}, {\"end\": 67.0, \"text\": \"And once it's back, everything moves through on its own.\", \"start\": 64.22}, {\"end\": 69.36, \"text\": \"Women tell me they're going regularly again\", \"start\": 67.0}, {\"end\": 70.8, \"text\": \"within the first few days.\", \"start\": 69.36}, {\"end\": 73.38, \"text\": \"And that's how quickly you can see a difference.\", \"start\": 70.8}, {\"end\": 74.26, \"text\": \"Here's the catch.\", \"start\": 73.38}, {\"end\": 76.12, \"text\": \"Your body makes bile when you eat,\", \"start\": 74.26}, {\"end\": 79.3, \"text\": \"especially bitter greens, beets, and healthy fats.\", \"start\": 76.12}, {\"end\": 81.64, \"text\": \"But on a GLP-1, you're barely eating,\", \"start\": 79.3}, {\"end\": 84.26, \"text\": \"so nothing's telling your liver to release any.\", \"start\": 81.64}, {\"end\": 85.98, \"text\": \"That's why I recommend Omyo.\", \"start\": 84.26}, {\"end\": 88.46000000000001, \"text\": \"It takes those same bile-stimulating foods\", \"start\": 85.98}, {\"end\": 90.08000000000001, \"text\": \"you can't eat enough of anymore\", \"start\": 88.46000000000001}, {\"end\": 92.38000000000001, \"text\": \"and concentrates them into two capsules,\", \"start\": 90.08000000000001}, {\"end\": 94.62, \"text\": \"so your liver starts releasing bile again,\", \"start\": 92.38000000000001}, {\"end\": 96.68, \"text\": \"even when you're eating next to nothing.\", \"start\": 94.62}, {\"end\": 98.80000000000001, \"text\": \"It uses concentrated bile herbs,\", \"start\": 96.68}, {\"end\": 101.72, \"text\": \"milk thistle, artichoke, dandelion, and beet,\", \"start\": 98.80000000000001}, {\"end\": 103.4, \"text\": \"to get your bile moving far better\", \"start\": 101.72}, {\"end\": 105.38000000000001, \"text\": \"than fiber or water ever could,\", \"start\": 103.4}, {\"end\": 108.32000000000001, \"text\": \"so your gut goes back to feeling slick, light,\", \"start\": 105.38000000000001}, {\"end\": 109.56, \"text\": \"and finally regular.\", \"start\": 108.32000000000001}, {\"end\": 111.44000000000001, \"text\": \"You just take two capsules a day.\", \"start\": 109.56}, {\"end\": 112.04, \"text\": \"That's it.\", \"start\": 111.44000000000001}, {\"end\": 114.64000000000001, \"text\": \"Women report no cramping, no urgency,\", \"start\": 112.04}, {\"end\": 116.88000000000001, \"text\": \"no 1 a.m. sprints to the bathroom,\", \"start\": 114.64000000000001}, {\"end\": 119.32000000000001, \"text\": \"and that they're going normally again within days.\", \"start\": 116.88000000000001}, {\"end\": 121.08000000000001, \"text\": \"And by weeks 8 to 12,\", \"start\": 119.32000000000001}, {\"end\": 124.24000000000001, \"text\": \"that's when they start to see the bloating settle down for good.\", \"start\": 121.08000000000001}, {\"end\": 125.88000000000001, \"text\": \"Their gut feel calm again,\", \"start\": 124.24000000000001}, {\"end\": 127.94000000000001, \"text\": \"and even the sulfur burps ease up.\", \"start\": 125.88000000000001}, {\"end\": 130.52, \"text\": \"In fact, Omyo's results were so consistent\", \"start\": 127.94000000000001}, {\"end\": 133.82000000000002, \"text\": \"that it's racked up over 2,500 five-star reviews\", \"start\": 130.52}, {\"end\": 135.04000000000002, \"text\": \"from people on the shot.\", \"start\": 133.82000000000002}, {\"end\": 136.22, \"text\": \"That's how well it works.\", \"start\": 135.04000000000002}, {\"end\": 138.38000000000002, \"text\": \"So look, if you've been backed up and bloated\", \"start\": 136.22}, {\"end\": 139.96, \"text\": \"ever since you started the shot,\", \"start\": 138.38000000000002}, {\"end\": 142.94, \"text\": \"don't think fiber and Miralax are your only options.\", \"start\": 139.96}, {\"end\": 146.20000000000002, \"text\": \"Thousands of women on the shot are already taking Omyo.\", \"start\": 142.94}, {\"end\": 147.68, \"text\": \"Give it at least 60 days,\", \"start\": 146.20000000000002}, {\"end\": 149.82000000000002, \"text\": \"and if you're not going regularly on your own,\", \"start\": 147.68}, {\"end\": 151.28, \"text\": \"you get every penny back.\", \"start\": 149.82000000000002}], \"language_probability\": 1.0}",
+            "callToAction": "SHOP NOW",
+            "landingPageUrl": "https://omyohealth.com/glp1s",
+            "landingPageDomain": "omyohealth.com",
+            "ctaDescription": "Made for GLP-1 Constipation",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 1,
+            "currentRank": 1,
+            "rankDelta": 0,
+            "improvementPct": 8.33
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": false,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 20,
+        "total": 4,
+        "totalPages": 1,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "query": null,
+        "keywords": [
+          "GLP-1",
+          "constipation"
+        ],
+        "searchIn": "ad_copy",
+        "categoryIds": [],
+        "country": "US",
+        "countryFilterKind": "targetedCountry",
+        "adCountries": null,
+        "mainCountries": [],
+        "trendSignal": "reach_growth_7d",
+        "sortBy": "mostDuplicates",
+        "order": "desc",
+        "requestedLimit": 20,
+        "effectiveLimit": 20,
+        "activeOnly": true,
+        "status": "active",
+        "page": 1,
+        "minTrafficGrowthPercent": null,
+        "trafficGrowthPeriod": null,
+        "trafficGrowth": null,
+        "adsGrowth": null,
+        "pageReachGrowth": null,
+        "adReachGrowth": null,
+        "language": null,
+        "adLanguages": [],
+        "cta": [],
+        "currency": null,
+        "currencies": [],
+        "shopifyAppIds": [],
+        "excludeShopifyAppIds": [],
+        "pixelIds": [],
+        "excludePixelIds": [],
+        "themeIds": [],
+        "filters": {
+          "search": [
+            "GLP-1",
+            "constipation"
+          ],
+          "searchType": "adCopy",
+          "keywordMode": "all",
+          "sortBy": "mostDuplicates",
+          "order": "desc",
+          "page": 1,
+          "limit": 20,
+          "platforms": [
+            "facebook"
+          ],
+          "mediaType": "video",
+          "minDaysRunning": 30,
+          "status": "active",
+          "minVideoDuration": 90,
+          "adCountries": {
+            "include": [
+              "US"
+            ]
+          }
+        },
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "countryBreakdowns": [
+          {
+            "path": "data[].audience.targetedCountries",
+            "meaning": "Full ad targeting country list, including non-EU markets such as US."
+          },
+          {
+            "path": "data[].audience.mainCountry",
+            "meaning": "Primary audience country from Meta's EU/UK ad transparency data; null for ads outside that scope, even when the ad targets those markets."
+          },
+          {
+            "path": "data[].advertiser.countriesCount",
+            "meaning": "Number of advertiser countries detected; not a country split."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].collationId",
+            "meaning": "Identifier of the combined creative represented by this search result. Pass it as scan_ad.collation_id to scan the same aggregate instead of only the representative ad."
+          },
+          {
+            "path": "data[].advertiser",
+            "meaning": "Facebook page identity, reach, followers, and live ads."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnails, and media URLs."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].audience",
+            "meaning": "Country, gender, and age targeting fields."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 20,
+        "effectiveUnits": 20,
+        "actualUnits": 4,
+        "costUnits": 6,
+        "recurringUnits": 6,
+        "topupUnits": 0,
+        "creditsRemaining": 8045,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

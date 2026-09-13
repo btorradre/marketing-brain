@@ -1,0 +1,1 @@
+local r=fu:GetResolve(); assert(r,'Resolve in-app connection unavailable');local p=r:GetProjectManager():GetCurrentProject();print('MOT_YAPPER_CONNECTION',r:GetVersionString(),p:GetName(),p:IsRenderingInProgress());print('STUDIO',r:IsStudio())

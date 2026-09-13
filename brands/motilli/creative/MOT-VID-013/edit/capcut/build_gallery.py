@@ -1,0 +1,20 @@
+from pathlib import Path
+import shutil,subprocess
+p=Path(__file__).resolve().parent;root=p.parents[5];dest=root/'cutroom/assets/mot-vid-013-edited-ad';dest.mkdir(parents=True,exist_ok=True)
+for v in 'ABC':
+ src=p/'exports'/f'MOT-VID-013-{v}.mp4';dst=dest/src.name
+ if dst.exists():dst.unlink()
+ try:dst.hardlink_to(src)
+ except OSError:shutil.copy2(src,dst)
+ subprocess.run(['ffmpeg','-v','error','-y','-ss','0.5','-i',str(src),'-frames:v','1','-vf','scale=360:640',str(dest/f'{v}-poster.jpg')],check=True)
+ shutil.copy2(dest/f'{v}-poster.jpg',p/f'{v}-poster.jpg')
+shutil.copy2(p/'MOT-VID-013.srt',dest/'MOT-VID-013.srt')
+html='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Motilli · Edited ad</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f3ed;color:#153d29;font-family:Arial,sans-serif}main{max-width:1200px;margin:auto;padding:40px 24px}h1{font-size:38px;margin:10px 0}p{line-height:1.55;color:#4a554c}small{letter-spacing:.13em}section{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:28px}article{background:white;border-radius:16px;padding:16px}video{display:block;width:100%;aspect-ratio:9/16;background:#17271b;border-radius:8px}h2{font-size:20px;margin:14px 0 8px}a{color:#153d29}article a{display:inline-block;background:#153d29;color:#fff;text-decoration:none;padding:11px 16px;border-radius:7px}footer{padding-top:28px}@media(max-width:800px){section{grid-template-columns:1fr;max-width:440px;margin:24px auto}h1{font-size:30px}}</style><main><small>MOTILLI · MOT-VID-013</small><h1>The edited ad</h1><p>Three opening options. One complete science-led story.<br>Each cut is 96.6 seconds, with matched B-roll, phrase captions, ingredient labels, music and the closing offer.</p><p>Voice: existing ElevenLabs narration. The reference voice clone is still pending.</p><section>'''
+for v,title in [('A','Tried all of these?'),('B','Still backed up?'),('C','Another remedy. Still waiting?')]:
+ html+=f'<article><video controls playsinline preload="metadata" poster="{v}-poster.jpg" src="MOT-VID-013-{v}.mp4"></video><h2>{v} · {title}</h2><p>1080 × 1920 · 30 fps</p><a href="MOT-VID-013-{v}.mp4" download>Download cut {v}</a></article>'
+html+='</section><footer><a href="MOT-VID-013.srt" download>Download captions</a></footer></main><script>document.querySelectorAll("video").forEach(v=>v.addEventListener("play",()=>document.querySelectorAll("video").forEach(o=>{if(o!==v)o.pause()})))</script></html>'
+(dest/'review.html').write_text(html)
+local=html
+for v in 'ABC':local=local.replace(f'"MOT-VID-013-{v}.mp4"',f'"exports/MOT-VID-013-{v}.mp4"')
+(p/'review.html').write_text(local)
+print('http://localhost:8765/assets/mot-vid-013-edited-ad/review.html')

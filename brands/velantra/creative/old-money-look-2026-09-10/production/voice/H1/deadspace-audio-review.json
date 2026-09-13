@@ -1,0 +1,62 @@
+{
+  "candidates": [
+    {
+      "index": 0,
+      "decision": "reject_cut",
+      "reason": "Cutting would remove an audible breath and make the transition sound unnatural."
+    },
+    {
+      "index": 1,
+      "decision": "reject_cut",
+      "reason": "Cutting would remove an audible breath and make the transition sound unnatural."
+    },
+    {
+      "index": 2,
+      "decision": "keep_cut",
+      "reason": "The breath is very brief and the cut improves pacing without sounding unnatural."
+    },
+    {
+      "index": 3,
+      "decision": "reject_cut",
+      "reason": "Cutting would remove an audible breath and make the transition sound unnatural."
+    },
+    {
+      "index": 4,
+      "decision": "reject_cut",
+      "reason": "Cutting would remove an audible breath and make the transition sound unnatural."
+    },
+    {
+      "index": 5,
+      "decision": "reject_cut",
+      "reason": "Cutting would remove an audible breath and make the transition sound unnatural."
+    },
+    {
+      "index": 6,
+      "decision": "reject_cut",
+      "reason": "Cutting would remove an audible breath and make the transition sound unnatural."
+    },
+    {
+      "index": 7,
+      "decision": "keep_cut",
+      "reason": "The breath is minimal and the cut significantly improves pacing without sounding unnatural."
+    },
+    {
+      "index": 8,
+      "decision": "keep_cut",
+      "reason": "No audible breath. This minor cut contributes to tighter pacing."
+    },
+    {
+      "index": 9,
+      "decision": "reject_cut",
+      "reason": "Cutting would remove an audible breath and make the transition sound unnatural."
+    },
+    {
+      "index": 10,
+      "decision": "keep_cut",
+      "reason": "No audible breath. This minor cut contributes to tighter pacing."
+    }
+  ],
+  "audible_last_syllable_end_seconds": 54.02,
+  "overall_notes": "Several proposed cuts were rejected due to the presence of audible breaths that would have made the speech sound unnatural or rushed if removed. A few cuts were kept where the breath was either minimal or non-existent, and the cut effectively tightened the pacing without negative impact on clarity or naturalness.",
+  "review_method": "Gemini audio-input perceptual review, not a human listening approval"
+}

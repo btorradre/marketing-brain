@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();assert(p:GetName()=='MOT-UGC-YAPPER-01 v7 V3 20260910' and not p:IsRenderingInProgress());assert(p:StartRendering({'1d12d38c-c65d-4979-9ba3-f1ad38b5a327','b6d27b94-8e45-43ca-ac1f-a6613c494259'}));print('FINAL_H1_H3_STARTED')

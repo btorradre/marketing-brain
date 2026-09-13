@@ -1,0 +1,13 @@
+{
+  "_comment": "Dead/closed stores whose Admin API is gone (app_not_installed). Figures here merge into the monthly P&L and are flagged [MANUAL ENTRY] on the Data Quality tab. Add per-month keys: net (required), and optionally gross, orders, cogs, fee_processing, cb_lost etc. If cogs is omitted, the hybrid COGS basis estimates it from covered stores' cost ratio.",
+  "stores": [
+    {
+      "brand": "Motilli #2 (manual est.)",
+      "group": "Motilli",
+      "domain": "dmt6z0-py.myshopify.com",
+      "months": {
+        "2026-03": {"net": 90000}
+      }
+    }
+  ]
+}

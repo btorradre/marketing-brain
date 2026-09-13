@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "listicle-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8099", "--directory", "landing-pages/motilli-celery-listicle-pagefly"],
+      "port": 8099
+    },
+    {
+      "name": "insider-listicle",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8101", "--directory", "landing-pages/motilli-glp1-insider-listicle"],
+      "port": 8101
+    }
+  ]
+}

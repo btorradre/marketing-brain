@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local p=r:GetProjectManager():GetCurrentProject();print('PROJECT',p:GetName());local t=p:GetCurrentTimeline();print('TIMELINE',t:GetName(),t:GetEndFrame());for _,k in ipairs({'video','audio'}) do for _,i in ipairs(t:GetItemListInTrack(k,1)) do print('ITEM',k,i:GetStart(),i:GetEnd());for a,b in pairs(i:GetSpeed()) do print(a,b,type(b)) end end end

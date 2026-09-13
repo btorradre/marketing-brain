@@ -1,0 +1,70 @@
+{%- liquid
+  assign photo = section.settings.image
+  assign loading = 'lazy'
+  assign priority = 'auto'
+  if section.settings.is_hero
+    assign loading = 'eager'
+    assign priority = 'high'
+  endif
+  assign heading_tag = 'h2'
+  if section.settings.is_hero
+    assign heading_tag = 'h1'
+  endif
+-%}
+<section id="Heritage-{{ section.id }}" class="heritage-campaign heritage-campaign--{{ section.settings.alignment }}{% if section.settings.is_hero %} heritage-campaign--hero{% endif %}" aria-labelledby="HeritageHeading-{{ section.id }}" style="--campaign-position:{{ section.settings.image_position }};--campaign-mobile-position:{{ section.settings.mobile_position }};--campaign-shade:{{ section.settings.shade | divided_by: 100.0 }};--campaign-height:{{ section.settings.desktop_height }}vh;--campaign-mobile-height:{{ section.settings.mobile_height }}svh">
+  <picture class="heritage-campaign__picture">
+    {% if section.settings.mobile_image != blank %}<source media="(max-width: 767px)" srcset="{{ section.settings.mobile_image | image_url: width: 1000 }}">{% elsif section.settings.mobile_image_url != blank %}<source media="(max-width: 767px)" srcset="{{ section.settings.mobile_image_url | escape }}">{% endif %}
+    {% if photo != blank %}
+      {{ photo | image_url: width: 2400 | image_tag: loading: loading, fetchpriority: priority, widths: '750,1100,1500,1800,2400', sizes: '100vw', alt: section.settings.image_alt }}
+    {% elsif section.settings.image_url != blank %}
+      <img src="{{ section.settings.image_url | escape }}" alt="{{ section.settings.image_alt | escape }}" width="1672" height="941" loading="{{ loading }}" fetchpriority="{{ priority }}">
+    {% endif %}
+  </picture>
+  <div class="heritage-campaign__shade"></div>
+  <div class="heritage-campaign__content">
+    {% if section.settings.eyebrow != blank %}<p class="heritage-eyebrow">{{ section.settings.eyebrow | escape }}</p>{% endif %}
+    <{{ heading_tag }} id="HeritageHeading-{{ section.id }}">{{ section.settings.heading | escape }}</{{ heading_tag }}>
+    {% if section.settings.copy != blank %}<div class="heritage-campaign__copy">{{ section.settings.copy }}</div>{% endif %}
+    <div class="heritage-links">
+      {% if section.settings.link != blank and section.settings.link_label != blank %}<a href="{{ section.settings.link }}">{{ section.settings.link_label | escape }}</a>{% endif %}
+      {% if section.settings.second_link != blank and section.settings.second_label != blank %}<a href="{{ section.settings.second_link }}">{{ section.settings.second_label | escape }}</a>{% endif %}
+    </div>
+  </div>
+</section>
+{% stylesheet %}
+.heritage-campaign{position:relative;isolation:isolate;height:var(--campaign-height,88vh);min-height:640px;color:#fff;background:#252820;overflow:hidden;display:flex;align-items:flex-end;justify-content:center}.heritage-campaign__picture,.heritage-campaign__shade{position:absolute;inset:0;z-index:-2}.heritage-campaign__picture img{width:100%;height:100%;object-fit:cover;object-position:var(--campaign-position,50% 50%);display:block}.heritage-campaign__shade{z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.14),transparent 35%,rgba(0,0,0,var(--campaign-shade,.48)))}.heritage-campaign__content{width:100%;padding:64px 40px 68px;text-align:center}.heritage-campaign--left .heritage-campaign__content{text-align:left;padding-left:7%;max-width:100%}.heritage-campaign--right .heritage-campaign__content{text-align:center;margin-left:52%;width:48%;padding:50px 4% 90px}.heritage-eyebrow{text-transform:uppercase;font-size:13px;line-height:1.6;letter-spacing:.2em;font-weight:500;margin:0 0 18px}.heritage-campaign h1,.heritage-campaign h2{font-family:var(--font-serif);font-weight:400;font-size:clamp(48px,5.2vw,84px);line-height:1.05;margin:0 0 16px;letter-spacing:-.02em;text-wrap:balance}.heritage-campaign__copy{font-size:15px;line-height:1.7;max-width:530px;margin:0 auto 15px;text-wrap:pretty}.heritage-campaign__copy p{margin:0}.heritage-campaign--left .heritage-campaign__copy{margin-left:0}.heritage-links{display:flex;align-items:center;justify-content:center;gap:30px;flex-wrap:wrap;margin-top:12px}.heritage-links a{font-size:12px;line-height:1.5;letter-spacing:.08em;font-weight:500;text-transform:uppercase;display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:1px;padding:8px 0;transition:opacity .2s}.heritage-links a:hover{opacity:.75}.heritage-links a:focus-visible{outline:2px solid currentColor;outline-offset:6px}.heritage-campaign--left .heritage-links{justify-content:flex-start}.heritage-campaign--hero{height:calc(100svh - 32px);min-height:720px;max-height:1120px}.heritage-campaign--hero .heritage-campaign__content{padding-bottom:65px}.heritage-campaign--hero .heritage-campaign__shade{background:linear-gradient(180deg,rgba(0,0,0,.24),transparent 30%,rgba(0,0,0,.05) 50%,rgba(0,0,0,var(--campaign-shade,.48)))}
+@media(max-width:767px){.heritage-campaign{height:var(--campaign-mobile-height,88svh);min-height:610px;max-height:950px}.heritage-campaign__picture img{object-position:var(--campaign-mobile-position,50% 50%)}.heritage-campaign__content,.heritage-campaign--left .heritage-campaign__content,.heritage-campaign--right .heritage-campaign__content{margin:0;width:100%;max-width:none;text-align:center;padding:40px 22px 40px}.heritage-campaign h1,.heritage-campaign h2{font-size:46px;line-height:1.04}.heritage-eyebrow{font-size:11px;letter-spacing:.17em;margin-bottom:14px}.heritage-campaign__copy{font-size:14px;line-height:1.6;max-width:330px}.heritage-links,.heritage-campaign--left .heritage-links{justify-content:center;gap:22px}.heritage-links a{font-size:11px}.heritage-campaign--hero{height:calc(100svh - 32px);min-height:700px}.heritage-campaign--hero .heritage-campaign__content{padding-bottom:35px}.heritage-campaign--right .heritage-campaign__shade{background:linear-gradient(180deg,transparent 25%,rgba(0,0,0,.58))}}
+@media(min-width:768px){.heritage-campaign--hero.heritage-campaign--left .heritage-campaign__content{width:49%;margin-right:auto;padding-left:6%;padding-right:25px;padding-bottom:80px}.heritage-campaign--hero.heritage-campaign--left h1{max-width:570px}.heritage-campaign--hero.heritage-campaign--left .heritage-campaign__copy{max-width:460px}.heritage-campaign--hero.heritage-campaign--left .heritage-campaign__shade{background:linear-gradient(90deg,rgba(0,0,0,.44),transparent 72%),linear-gradient(180deg,rgba(0,0,0,.16),transparent 35%,rgba(0,0,0,.18))}}
+@media(max-width:1100px){.heritage-campaign:not(.heritage-campaign--hero){height:auto;min-height:0;max-height:none;display:block;background:#132039}.heritage-campaign:not(.heritage-campaign--hero) .heritage-campaign__picture{position:relative;display:block;height:110vw;max-height:620px;z-index:auto}.heritage-campaign:not(.heritage-campaign--hero) .heritage-campaign__shade{display:none}.heritage-campaign:not(.heritage-campaign--hero) .heritage-campaign__content{padding:36px 24px 32px}.heritage-campaign--hero .heritage-campaign__content{padding-bottom:32px}.heritage-campaign--hero .heritage-campaign__shade{background:linear-gradient(180deg,rgba(0,0,0,.18),transparent 24%,transparent 65%,rgba(0,0,0,.55))}}
+.heritage-campaign--hero{height:calc(100svh - 124px);min-height:640px}
+@media(min-width:768px) and (max-width:1100px){.heritage-campaign--hero{height:auto;min-height:0;max-height:none;display:block;background:#132039}.heritage-campaign--hero .heritage-campaign__picture{position:relative;display:block;aspect-ratio:1672/941;z-index:auto}.heritage-campaign--hero .heritage-campaign__shade{display:none}.heritage-campaign--hero.heritage-campaign--left .heritage-campaign__content{width:100%;padding:36px 32px;text-align:center}.heritage-campaign--hero.heritage-campaign--left h1{max-width:none}.heritage-campaign--hero.heritage-campaign--left .heritage-campaign__copy{margin-left:auto;margin-right:auto}.heritage-campaign--hero.heritage-campaign--left .heritage-links{justify-content:center}}
+@media(max-width:767px){.heritage-campaign--hero{height:calc(100svh - 102px);min-height:700px}}
+@media(prefers-reduced-motion:reduce){.heritage-links a{transition:none}}
+{% endstylesheet %}
+{% schema %}
+{
+  "name":"Heritage campaign",
+  "settings":[
+    {"type":"checkbox","id":"is_hero","label":"Opening campaign (H1)","default":false},
+    {"type":"image_picker","id":"image","label":"Campaign image"},
+    {"type":"image_picker","id":"mobile_image","label":"Optional mobile image"},
+    {"type":"url","id":"mobile_image_url","label":"Optional mobile image URL"},
+    {"type":"url","id":"image_url","label":"Campaign image URL"},
+    {"type":"text","id":"image_alt","label":"Image description"},
+    {"type":"text","id":"image_position","label":"Desktop image position","default":"50% 50%"},
+    {"type":"text","id":"mobile_position","label":"Mobile image position","default":"50% 50%"},
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"VELANTRA"},
+    {"type":"text","id":"heading","label":"Heading","default":"A Life Well Carried"},
+    {"type":"richtext","id":"copy","label":"Supporting copy"},
+    {"type":"text","id":"link_label","label":"Primary link label","default":"Shop the Collection"},
+    {"type":"url","id":"link","label":"Primary link"},
+    {"type":"text","id":"second_label","label":"Secondary link label"},
+    {"type":"url","id":"second_link","label":"Secondary link"},
+    {"type":"select","id":"alignment","label":"Text position","options":[{"value":"center","label":"Bottom center"},{"value":"left","label":"Bottom left"},{"value":"right","label":"Bottom right"}],"default":"center"},
+    {"type":"range","id":"shade","label":"Image shade","min":0,"max":80,"step":5,"unit":"%","default":45},
+    {"type":"range","id":"desktop_height","label":"Desktop viewport height","min":60,"max":110,"step":5,"default":90},
+    {"type":"range","id":"mobile_height","label":"Mobile viewport height","min":60,"max":110,"step":5,"default":90}
+  ],
+  "presets":[{"name":"Heritage campaign"}]
+}
+{% endschema %}

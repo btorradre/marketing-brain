@@ -1,0 +1,10 @@
+import sys,json
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+P=Path(__file__).resolve().parent;sys.path.insert(0,str(P.parent/'v5'));import extra_motion as m
+m.P=P
+prompts=[('stool-softening','Animate this exact non-graphic teaching-model first frame in a continuous scientific clip. Blue water beads visibly enter the pores of the pale tan demonstration cylinder inside the pink colon channel. Its surface becomes smoother and softer, gently yielding as hydration happens, beginning immediately in the first second. Maintain this diagonal macro composition and anatomy. No expansion like bulk fiber, no new objects, no labels or text, no camera cuts, no sound. Vertical 9:16, navy background. Restrained clear educational 3D motion.'),('gastric-muscles','Animate this exact anatomical teaching model. The exposed muscular bands of the stomach visibly tighten and release in a traveling sequential wave toward the lower outlet, demonstrating muscular propulsion. Clearly visible action immediately, restrained realistic rhythmic contraction. Maintain the same back/oblique muscle-layer view and framing, no camera turn into an open bowl. No labels, arrows, words, new organs, blood or sound. Continuous vertical 9:16 scientific animation, navy background.'),('gastric-retention','Animate this exact isolated stomach teaching model in one continuous 9:16 scientific clip. Contents remain largely retained in the chamber, with a slow gentle ripple and only a tiny trickle through the narrow lower outlet. Do not empty the stomach. Keep the overhead oblique whole-chamber composition, no camera zoom into the outlet, no organ transformation, no new objects, no labels or text, no arrows and no sound. Dark navy background, non-graphic realistic medical illustration.')]
+(P/'motion-prompts.json').write_text(json.dumps(prompts,indent=2))
+with ThreadPoolExecutor(max_workers=3) as ex:
+ futures=[ex.submit(m.run,key,P/'assets'/(key+'.png'),prompt) for key,prompt in prompts]
+ for f in futures:f.result()

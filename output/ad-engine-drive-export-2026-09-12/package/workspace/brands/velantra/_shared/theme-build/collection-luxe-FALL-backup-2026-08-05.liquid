@@ -1,0 +1,418 @@
+{%- comment -%}
+  Collection | Luxe Grid — Palo Alto-style collection page for Impulse.
+  Hero text block, count + sort toolbar, tall product cards with hover image,
+  tag-driven badges (tag "badge:Best Seller"), metafield-driven star ratings
+  (reviews.rating + reviews.rating_count — hidden until populated),
+  colorway image swatches from variant images, craftsmanship banner + outro.
+{%- endcomment -%}
+
+{%- liquid
+  assign per_row = section.settings.per_row
+  assign per_page = section.settings.per_page
+  assign ratio = section.settings.image_ratio
+-%}
+
+<style>
+  .vlx { color: #262626; }
+  .vlx a { text-decoration: none; color: inherit; }
+  .vlx__wrap { padding: 0 60px; }
+  .vlx-serif { font-family: "New York", "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, serif; font-weight: 400; }
+
+  /* Hero */
+  .vlx-hero { padding: 26px 60px 30px; text-align: left; }
+  .vlx-hero__title { font-family: "New York", "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, serif; font-weight: 400; font-size: 34px; line-height: 1.15; letter-spacing: .01em; margin: 0 0 12px; color: #262626; }
+  .vlx-hero__desc { max-width: 70%; font-size: 14px; line-height: 1.65; color: #262626; }
+  .vlx-hero__desc p { margin: 0; }
+  .vlx-hero__desc a { text-decoration: underline; text-underline-offset: 2px; }
+
+  /* Toolbar */
+  .vlx-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 0 60px; padding: 12px 0; border-top: 1px solid rgba(0,0,0,.12); border-bottom: 1px solid rgba(0,0,0,.12); }
+  .vlx-toolbar__count { font-size: 13px; color: rgba(38,38,38,.7); letter-spacing: .02em; }
+  .vlx-toolbar__sort { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+  .vlx-toolbar__sort label { letter-spacing: .02em; }
+  .vlx-toolbar__sort select { -webkit-appearance: none; appearance: none; border: none; background: transparent; font-size: 13px; font-family: inherit; color: #262626; padding: 6px 22px 6px 0; cursor: pointer; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192' width='12' height='12'><path d='m36 72 60 60 60-60' fill='none' stroke='%23262626' stroke-width='14' stroke-linecap='round' stroke-linejoin='round'/></svg>"); background-repeat: no-repeat; background-position: right center; }
+  .vlx-toolbar__sort select:focus { outline: none; }
+
+  /* Grid */
+  .vlx-grid { display: grid; grid-template-columns: repeat({{ per_row }}, 1fr); gap: 44px 20px; padding: 34px 60px 60px; }
+
+  /* Card */
+  .vlx-card__media { position: relative; overflow: hidden; background: #ffffff; }
+  .vlx-card__media::before { content: ""; display: block; padding-bottom: {% if ratio == 'tall' %}150%{% elsif ratio == 'square' %}100%{% else %}133.333%{% endif %}; }
+  .vlx-card__link { position: absolute; inset: 0; display: block; }
+  .vlx-card__img { position: absolute; inset: 0; width: 100%; height: 100%; transition: opacity .35s ease; }
+  .vlx-fit--cover { object-fit: cover; object-position: center; }
+  .vlx-fit--contain { object-fit: contain; object-position: center; }
+  .vlx-card__img--hover { opacity: 0; }
+  .vlx-card__media:hover .vlx-card__img--hover { opacity: 1; }
+  .vlx-card__media:hover .vlx-card__img--main.has-hover { opacity: 0; }
+
+  .vlx-badge { position: absolute; top: 10px; left: 10px; pointer-events: none; }
+  .vlx-badge span { display: inline-block; background: {{ section.settings.badge_bg }}; color: {{ section.settings.badge_text }}; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; padding: 5px 9px; line-height: 1; }
+  .vlx-badge--sale { left: auto; right: 10px; }
+  .vlx-badge--sale span { background: {{ section.settings.sale_accent }}; color: {{ section.settings.sale_badge_text }}; }
+
+  .vlx-sale-strip { margin: 16px 60px 0; padding: 11px 16px; background: {{ section.settings.sale_accent }}; color: {{ section.settings.sale_badge_text }}; text-align: center; font-size: 13px; letter-spacing: .05em; text-transform: uppercase; }
+
+  .vlx-card__info { padding-top: 12px; text-align: left; }
+  .vlx-card__title { display: block; font-family: "New York", "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, serif; font-size: 16px; line-height: 1.35; color: #262626; margin: 0 0 4px; }
+  .vlx-card__title:hover { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+
+  .vlx-stars { display: flex; align-items: center; gap: 6px; margin: 2px 0 4px; font-size: 12px; color: #262626; }
+  .vlx-stars__set { position: relative; display: inline-block; line-height: 0; }
+  .vlx-stars__row { display: inline-flex; gap: 1px; }
+  .vlx-stars__row svg { width: 13px; height: 13px; fill: none; stroke: #262626; stroke-width: 1.4; }
+  .vlx-stars__fg { position: absolute; top: 0; left: 0; overflow: hidden; white-space: nowrap; }
+  .vlx-stars__fg svg { fill: #262626; stroke: #262626; }
+  .vlx-stars__count { color: rgba(38,38,38,.6); }
+
+  .vlx-card__price { display: block; font-size: 14px; color: #262626; margin: 2px 0 0; letter-spacing: .01em; }
+  .vlx-card__compare { color: rgba(38,38,38,.45); text-decoration: line-through; margin-right: 7px; }
+  .vlx-card__sale { color: {{ section.settings.sale_price_color }}; }
+  .vlx-card__save { display: inline-block; margin-left: 7px; font-size: 11px; letter-spacing: .04em; color: {{ section.settings.sale_price_color }}; text-transform: uppercase; }
+  .vlx-card__trust { display: block; margin-top: 4px; font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: rgba(38,38,38,.55); }
+
+  .vlx-swatches { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+  .vlx-swatch { display: block; width: 26px; height: 26px; border-radius: 50%; overflow: hidden; border: 1px solid rgba(0,0,0,.15); transition: border-color .2s ease; }
+  .vlx-swatch:hover { border-color: #262626; }
+  .vlx-swatch img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* Pagination */
+  .vlx-pagination { text-align: center; padding: 0 60px 60px; font-size: 14px; }
+  .vlx-pagination a, .vlx-pagination span { margin: 0 8px; }
+
+  /* Banner */
+  .vlx-banner { position: relative; overflow: hidden; height: 550px; }
+  .vlx-banner__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+  .vlx-banner__overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.42) 0%, rgba(0,0,0,.08) 45%, rgba(0,0,0,0) 70%); }
+  .vlx-banner__content { position: absolute; left: 0; right: 0; bottom: 0; padding: 0 60px 52px; color: #ffffff; max-width: 620px; }
+  .vlx-banner__content h2 { font-family: "New York", "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, serif; font-weight: 400; font-size: 30px; line-height: 1.2; margin: 0 0 12px; color: #ffffff; }
+  .vlx-banner__content p { font-size: 15px; line-height: 1.6; margin: 0; color: #ffffff; }
+
+  /* Outro */
+  .vlx-outro { text-align: center; padding: 60px 20px 100px; }
+  .vlx-outro__inner { max-width: 640px; margin: 0 auto; }
+  .vlx-outro h2 { font-family: "New York", "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, serif; font-weight: 400; font-size: 28px; line-height: 1.2; margin: 0 0 14px; color: #262626; }
+  .vlx-outro p { font-size: 14px; line-height: 1.65; color: #262626; margin: 0 0 24px; }
+  .vlx-outro__btn { display: inline-block; background: #000000; color: #ffffff !important; font-size: 13px; letter-spacing: .06em; padding: 14px 34px; transition: opacity .2s ease; }
+  .vlx-outro__btn:hover { opacity: .82; }
+
+  @media screen and (max-width: 1023px) {
+    .vlx-hero { padding: 20px 20px 24px; }
+    .vlx-hero__desc { max-width: 100%; }
+    .vlx-toolbar { margin: 0 20px; }
+    .vlx-sale-strip { margin: 14px 20px 0; font-size: 12px; }
+    .vlx-grid { grid-template-columns: repeat(3, 1fr); gap: 36px 16px; padding: 26px 20px 48px; }
+  }
+  @media screen and (max-width: 767px) {
+    .vlx-hero__title { font-size: 27px; }
+    .vlx-grid { grid-template-columns: repeat(2, 1fr); gap: 30px 10px; padding: 22px 10px 40px; }
+    .vlx-card__title { font-size: 14px; }
+    .vlx-card__price { font-size: 13px; }
+    .vlx-swatch { width: 22px; height: 22px; }
+    .vlx-banner { height: 440px; }
+    .vlx-banner__content { padding: 0 20px 36px; }
+    .vlx-banner__content h2 { font-size: 24px; }
+    .vlx-outro { padding: 48px 20px 72px; }
+  }
+</style>
+
+<svg style="display:none" aria-hidden="true"><symbol id="vlx-star" viewBox="0 0 24 24"><path d="M12 2.6l2.8 6.3 6.9.6-5.2 4.6 1.5 6.8L12 17.3l-6 3.6 1.5-6.8-5.2-4.6 6.9-.6z"/></symbol></svg>
+
+<div class="vlx" data-section-id="{{ section.id }}">
+
+  {%- if section.settings.show_hero -%}
+  <div class="vlx-hero">
+    <h1 class="vlx-hero__title">{{ collection.title }}</h1>
+    {%- if collection.description != blank -%}
+      <div class="vlx-hero__desc">{{ collection.description }}</div>
+    {%- elsif section.settings.hero_text != blank -%}
+      <div class="vlx-hero__desc">{{ section.settings.hero_text }}</div>
+    {%- endif -%}
+  </div>
+  {%- endif -%}
+
+  {%- paginate collection.products by per_page -%}
+
+  <div class="vlx-toolbar">
+    <div class="vlx-toolbar__count">{{ collection.products_count }} {% if collection.products_count == 1 %}product{% else %}products{% endif %}</div>
+    {%- if section.settings.enable_sort -%}
+    {%- assign current_sort = collection.sort_by | default: collection.default_sort_by -%}
+    <div class="vlx-toolbar__sort">
+      <label for="vlx-sort-{{ section.id }}">Sort by</label>
+      <select id="vlx-sort-{{ section.id }}" data-vlx-sort>
+        <option value="manual" {% if current_sort == 'manual' %}selected{% endif %}>Featured</option>
+        <option value="best-selling" {% if current_sort == 'best-selling' %}selected{% endif %}>Best selling</option>
+        <option value="title-ascending" {% if current_sort == 'title-ascending' %}selected{% endif %}>Alphabetically, A-Z</option>
+        <option value="title-descending" {% if current_sort == 'title-descending' %}selected{% endif %}>Alphabetically, Z-A</option>
+        <option value="price-ascending" {% if current_sort == 'price-ascending' %}selected{% endif %}>Price, low to high</option>
+        <option value="price-descending" {% if current_sort == 'price-descending' %}selected{% endif %}>Price, high to low</option>
+        <option value="created-ascending" {% if current_sort == 'created-ascending' %}selected{% endif %}>Date, old to new</option>
+        <option value="created-descending" {% if current_sort == 'created-descending' %}selected{% endif %}>Date, new to old</option>
+      </select>
+    </div>
+    {%- endif -%}
+  </div>
+
+  {%- if section.settings.show_sale_strip -%}
+    {%- liquid
+      assign max_pct = 0
+      for p in collection.products
+        if p.compare_at_price > p.price
+          assign pct = p.compare_at_price | minus: p.price | times: 100.0 | divided_by: p.compare_at_price | round
+          if pct > max_pct
+            assign max_pct = pct
+          endif
+        endif
+      endfor
+    -%}
+    {%- if section.settings.sale_strip_text != blank -%}
+      <div class="vlx-sale-strip">{{ section.settings.sale_strip_text }}</div>
+    {%- elsif max_pct > 0 -%}
+      <div class="vlx-sale-strip">The Fall Sale is on. Up to {{ max_pct }}% off. Prices as marked.</div>
+    {%- endif -%}
+  {%- endif -%}
+
+  <div class="vlx-grid">
+    {%- for product in collection.products -%}
+      {%- liquid
+        assign featured = product.featured_image
+        assign hover_img = blank
+        if product.images.size > 1
+          assign hover_img = product.images[1]
+        endif
+        assign fit = 'contain'
+        if featured.aspect_ratio <= 0.85
+          assign fit = 'cover'
+        endif
+        assign hover_fit = 'contain'
+        if hover_img != blank and hover_img.aspect_ratio <= 0.85
+          assign hover_fit = 'cover'
+        endif
+        assign product_url = product.url | within: collection
+      -%}
+      <div class="vlx-card" data-vlx-card>
+        <div class="vlx-card__media">
+          <a class="vlx-card__link" href="{{ product_url }}" aria-label="{{ product.title | escape }}">
+            <img
+              class="vlx-card__img vlx-card__img--main vlx-fit--{{ fit }}{% if hover_img != blank %} has-hover{% endif %}"
+              src="{{ featured | image_url: width: 720 }}"
+              srcset="{{ featured | image_url: width: 360 }} 360w, {{ featured | image_url: width: 540 }} 540w, {{ featured | image_url: width: 720 }} 720w, {{ featured | image_url: width: 900 }} 900w"
+              sizes="(min-width: 1024px) calc((100vw - 180px) / {{ per_row }}), (min-width: 768px) calc((100vw - 72px) / 3), calc((100vw - 30px) / 2)"
+              alt="{{ featured.alt | default: product.title | escape }}"
+              width="{{ featured.width }}" height="{{ featured.height }}"
+              loading="{% if forloop.index <= 4 %}eager{% else %}lazy{% endif %}"
+              data-vlx-main
+              data-vlx-original-src="{{ featured | image_url: width: 720 }}"
+              data-vlx-original-srcset="{{ featured | image_url: width: 360 }} 360w, {{ featured | image_url: width: 540 }} 540w, {{ featured | image_url: width: 720 }} 720w, {{ featured | image_url: width: 900 }} 900w">
+            {%- if hover_img != blank -%}
+            <img
+              class="vlx-card__img vlx-card__img--hover vlx-fit--{{ hover_fit }}"
+              src="{{ hover_img | image_url: width: 720 }}"
+              alt="{{ hover_img.alt | default: product.title | escape }}"
+              width="{{ hover_img.width }}" height="{{ hover_img.height }}"
+              loading="lazy">
+            {%- endif -%}
+          </a>
+          {%- for tag in product.tags -%}
+            {%- if tag contains 'badge:' -%}
+              <div class="vlx-badge"><span>{{ tag | remove_first: 'badge:' | strip }}</span></div>
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if product.compare_at_price > product.price and section.settings.sale_badge_label != blank -%}
+            <div class="vlx-badge vlx-badge--sale"><span>{{ section.settings.sale_badge_label }}</span></div>
+          {%- endif -%}
+        </div>
+        <div class="vlx-card__info">
+          <a class="vlx-card__title" href="{{ product_url }}">{{ product.title }}</a>
+
+          {%- liquid
+            assign rating_obj = product.metafields.reviews.rating.value
+            assign rating_val = rating_obj.rating | default: rating_obj
+            assign rating_count = product.metafields.reviews.rating_count.value | default: product.metafields.reviews.rating_count
+          -%}
+          {%- if rating_val != blank and rating_count != blank -%}
+            {%- assign rating_num = rating_val | times: 1.0 -%}
+            {%- assign count_num = rating_count | times: 1 -%}
+            {%- if rating_num > 0 and count_num > 0 -%}
+            {%- assign star_pct = rating_num | divided_by: 5.0 | times: 100.0 | at_most: 100 -%}
+            <div class="vlx-stars" aria-label="Rated {{ rating_num }} out of 5 stars, {{ count_num }} reviews">
+              <span>{{ rating_num }}</span>
+              <span class="vlx-stars__set">
+                <span class="vlx-stars__row">
+                  {%- for i in (1..5) -%}<svg><use href="#vlx-star"/></svg>{%- endfor -%}
+                </span>
+                <span class="vlx-stars__fg" style="width: {{ star_pct }}%;">
+                  <span class="vlx-stars__row">
+                    {%- for i in (1..5) -%}<svg><use href="#vlx-star"/></svg>{%- endfor -%}
+                  </span>
+                </span>
+              </span>
+              <span class="vlx-stars__count">{{ count_num }} Review{% if count_num != 1 %}s{% endif %}</span>
+            </div>
+            {%- endif -%}
+          {%- endif -%}
+
+          <a class="vlx-card__price" href="{{ product_url }}">
+            {%- if product.compare_at_price > product.price -%}
+              {%- assign save_pct = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round -%}
+              <s class="vlx-card__compare">{{ product.compare_at_price | money_with_currency }}</s>
+              <span class="vlx-card__sale">{%- if product.price_varies -%}From {% endif -%}{{ product.price | money_with_currency }}</span>
+              {%- if section.settings.show_save_pct -%}<span class="vlx-card__save">Save {{ save_pct }}%</span>{%- endif -%}
+            {%- else -%}
+              {%- if product.price_varies -%}From {% endif -%}{{ product.price | money_with_currency }}
+            {%- endif -%}
+          </a>
+          {%- if section.settings.trust_line != blank -%}
+            <span class="vlx-card__trust">{{ section.settings.trust_line }}</span>
+          {%- endif -%}
+
+          {%- liquid
+            assign color_index = -1
+            for opt in product.options_with_values
+              assign oname = opt.name | downcase
+              if oname == 'color' or oname == 'colour'
+                assign color_index = forloop.index0
+              endif
+            endfor
+          -%}
+          {%- if color_index > -1 and product.variants.size > 1 -%}
+            <div class="vlx-swatches">
+              {%- assign colors_seen = '' -%}
+              {%- for variant in product.variants -%}
+                {%- assign cval = variant.options[color_index] -%}
+                {%- assign ckey = cval | append: '||' -%}
+                {%- unless colors_seen contains ckey -%}
+                  {%- assign colors_seen = colors_seen | append: ckey -%}
+                  {%- if variant.featured_image != blank -%}
+                  <a class="vlx-swatch"
+                     href="{{ product_url }}?variant={{ variant.id }}"
+                     title="{{ product.title | escape }} — {{ cval | escape }}"
+                     data-vlx-swatch
+                     data-vlx-image="{{ variant.featured_image | image_url: width: 720 }}">
+                    <img src="{{ variant.featured_image | image_url: width: 100, height: 100, crop: 'center' }}" alt="{{ cval | escape }}" loading="lazy" width="100" height="100">
+                  </a>
+                  {%- endif -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  {%- if paginate.pages > 1 -%}
+    <nav class="vlx-pagination">{{ paginate | default_pagination }}</nav>
+  {%- endif -%}
+
+  {%- endpaginate -%}
+</div>
+
+{%- if section.settings.show_banner -%}
+<section class="vlx-banner">
+  {%- if section.settings.banner_image != blank -%}
+    <img class="vlx-banner__img" src="{{ section.settings.banner_image | image_url: width: 2400 }}" srcset="{{ section.settings.banner_image | image_url: width: 1200 }} 1200w, {{ section.settings.banner_image | image_url: width: 1800 }} 1800w, {{ section.settings.banner_image | image_url: width: 2400 }} 2400w" sizes="100vw" alt="{{ section.settings.banner_image.alt | default: section.settings.banner_heading | escape }}" loading="lazy">
+  {%- endif -%}
+  <div class="vlx-banner__overlay"></div>
+  <div class="vlx-banner__content">
+    {%- if section.settings.banner_heading != blank -%}<h2>{{ section.settings.banner_heading }}</h2>{%- endif -%}
+    {%- if section.settings.banner_text != blank -%}<p>{{ section.settings.banner_text }}</p>{%- endif -%}
+  </div>
+</section>
+{%- endif -%}
+
+{%- if section.settings.show_outro -%}
+<section class="vlx-outro">
+  <div class="vlx-outro__inner">
+    {%- if section.settings.outro_heading != blank -%}<h2>{{ section.settings.outro_heading }}</h2>{%- endif -%}
+    {%- if section.settings.outro_text != blank -%}<p>{{ section.settings.outro_text }}</p>{%- endif -%}
+    {%- if section.settings.outro_button_label != blank and section.settings.outro_button_link != blank -%}
+      <a class="vlx-outro__btn" href="{{ section.settings.outro_button_link }}">{{ section.settings.outro_button_label }}</a>
+    {%- endif -%}
+  </div>
+</section>
+{%- endif -%}
+
+<script>
+(function() {
+  var sorts = document.querySelectorAll('[data-vlx-sort]');
+  sorts.forEach(function(sel) {
+    sel.addEventListener('change', function() {
+      var url = new URL(window.location.href);
+      url.searchParams.set('sort_by', this.value);
+      url.searchParams.delete('page');
+      window.location.href = url.toString();
+    });
+  });
+
+  document.querySelectorAll('[data-vlx-card]').forEach(function(card) {
+    var main = card.querySelector('[data-vlx-main]');
+    if (!main) return;
+    card.querySelectorAll('[data-vlx-swatch]').forEach(function(sw) {
+      sw.addEventListener('mouseenter', function() {
+        if (sw.dataset.vlxImage) {
+          main.src = sw.dataset.vlxImage;
+          main.removeAttribute('srcset');
+        }
+      });
+    });
+    card.addEventListener('mouseleave', function() {
+      main.src = main.dataset.vlxOriginalSrc;
+      main.setAttribute('srcset', main.dataset.vlxOriginalSrcset);
+    });
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Collection | Luxe Grid",
+  "settings": [
+    { "type": "header", "content": "Layout" },
+    { "type": "range", "id": "per_row", "min": 2, "max": 4, "step": 1, "label": "Products per row (desktop)", "default": 4 },
+    { "type": "range", "id": "per_page", "min": 8, "max": 48, "step": 4, "label": "Products per page", "default": 24 },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Card image ratio",
+      "options": [
+        { "value": "portrait", "label": "Portrait (3:4)" },
+        { "value": "tall", "label": "Tall (2:3)" },
+        { "value": "square", "label": "Square (1:1)" }
+      ],
+      "default": "portrait"
+    },
+    { "type": "checkbox", "id": "enable_sort", "label": "Show sort dropdown", "default": true },
+    { "type": "header", "content": "Hero" },
+    { "type": "checkbox", "id": "show_hero", "label": "Show title + description", "default": true },
+    { "type": "richtext", "id": "hero_text", "label": "Fallback description (used when collection has none)" },
+    { "type": "header", "content": "Fall sale" },
+    { "type": "checkbox", "id": "show_sale_strip", "label": "Show sale strip above grid", "default": true },
+    { "type": "text", "id": "sale_strip_text", "label": "Sale strip text (blank = auto 'up to X% off')" },
+    { "type": "text", "id": "sale_badge_label", "label": "Sale badge label (blank = no badge)", "default": "Fall Sale" },
+    { "type": "checkbox", "id": "show_save_pct", "label": "Show 'Save X%' next to price", "default": true },
+    { "type": "text", "id": "trust_line", "label": "Trust line under price (blank = hidden)", "default": "Two-Year Warranty · 30-Day Returns" },
+    { "type": "color", "id": "sale_accent", "label": "Sale badge/strip background", "default": "#f7bebe" },
+    { "type": "color", "id": "sale_badge_text", "label": "Sale badge/strip text", "default": "#000000" },
+    { "type": "color", "id": "sale_price_color", "label": "Sale price color", "default": "#bf2b1f" },
+    { "type": "header", "content": "Badges" },
+    { "type": "paragraph", "content": "Add a tag like badge:Best Seller to a product to show a badge on its card." },
+    { "type": "color", "id": "badge_bg", "label": "Badge background", "default": "#262626" },
+    { "type": "color", "id": "badge_text", "label": "Badge text", "default": "#ffffff" },
+    { "type": "header", "content": "Craftsmanship banner" },
+    { "type": "checkbox", "id": "show_banner", "label": "Show banner", "default": true },
+    { "type": "image_picker", "id": "banner_image", "label": "Banner image" },
+    { "type": "text", "id": "banner_heading", "label": "Heading", "default": "Our Craftsmanship, In Every Stitch" },
+    { "type": "textarea", "id": "banner_text", "label": "Text", "default": "Every Velantra bag is built with premium hardware, structured materials, and finishing we inspect piece by piece — quality that matches its price." },
+    { "type": "header", "content": "Outro" },
+    { "type": "checkbox", "id": "show_outro", "label": "Show outro", "default": true },
+    { "type": "text", "id": "outro_heading", "label": "Heading", "default": "Designed To Be Carried Daily" },
+    { "type": "textarea", "id": "outro_text", "label": "Text", "default": "Every detail is considered — from stitch density to hardware weight — and every bag is backed by our Two-Year Warranty." },
+    { "type": "text", "id": "outro_button_label", "label": "Button label", "default": "Our Story" },
+    { "type": "url", "id": "outro_button_link", "label": "Button link" }
+  ],
+  "presets": [{ "name": "Collection | Luxe Grid" }]
+}
+{% endschema %}

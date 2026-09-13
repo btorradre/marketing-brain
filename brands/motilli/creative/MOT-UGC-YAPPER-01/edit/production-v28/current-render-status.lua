@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('CURRENT_RENDER',p:GetName(),p:IsRenderingInProgress());for _,j in ipairs(p:GetRenderJobList()) do local s=p:GetRenderJobStatus(j.JobId);if s.JobStatus=='Rendering' then print(j.JobId,j.OutputFilename);dump(s) end end

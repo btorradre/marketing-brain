@@ -1,0 +1,754 @@
+{
+  "id": "McJeZIQF033VgoQOi",
+  "actId": "DrF9mzPPEuVizVF4l",
+  "userId": "ZscMwFR5H7eCtWtyh",
+  "startedAt": "2026-09-11T11:20:29.844Z",
+  "finishedAt": "2026-09-11T11:20:32.791Z",
+  "status": "SUCCEEDED",
+  "meta": {
+    "origin": "API"
+  },
+  "stats": {
+    "durationMillis": 2892,
+    "runTimeSecs": 2.892,
+    "computeUnits": 0.0032133333333333332,
+    "imageSizeBytes": 374262784
+  },
+  "options": {
+    "useCache": true,
+    "betaPackages": false,
+    "memoryMbytes": 4096,
+    "diskMbytes": 8192
+  },
+  "exitCode": 0,
+  "inputSchema": "{\n  \"title\": \"Input schema for Instagram Search Scraper\",\n  \"type\": \"object\",\n  \"description\": \"To scrape search results, type in a <b>\ud83d\udd0d Search term</b>, choose the <b>\ud83e\uddda Search type</b>, and the <b>\ud83d\udcaf Number of results</b>. Then click <b>&#9655; Start</b> and your data is on its way!<br><br>\ud83d\ude80 <b>New:</b> choose <b>Search popular reels</b> to pull up to ~64 reels trending for your keyword, not just ones tied to a hashtag.<br><br>#\ufe0f\u20e3 If you would like to scrape hashtagged content in more detail, go for <a href='https://console.apify.com/actors/reGe1ST3OBgYZSsZJ/input' target='_blank' rel='noopener'>Instagram Hashtag Scraper</a>.<br> \ud83d\udd7a If you would like to scrape profiles in more detail, go for <a href='https://console.apify.com/actors/dSCLg0C3YEZ83HzYX/input' target='_blank' rel='noopener'>Instagram Profile Scraper</a>.<br> \ud83d\udccd If you would like to scrape locations in more detail, go for <a href='https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input' target='_blank' rel='noopener'>Instagram Scraper</a>.<br> \ud83c\udf9e\ufe0f If you would like to scrape reels in more detail or download them, go for <a href='https://console.apify.com/actors/xMc5Ga1oCONPmWJIa/input' target='_blank' rel='noopener'>Instagram Reel Scraper</a>.\",\n  \"schemaVersion\": 1,\n  \"properties\": {\n    \"search\": {\n      \"title\": \"\ud83d\udd0d Search term\",\n      \"type\": \"string\",\n      \"description\": \"Provide a keyword which will be used to extract Instagram search results. A keyword can be one or more words. To scrape multiple search terms at once, submit them as a comma-separated list.\",\n      \"editor\": \"textfield\",\n      \"default\": \"restaurant, restaurant prague\",\n      \"pattern\": \"^[^!?.,:;\\\\-+=*&%$#@/\\\\~^|<>()[\\\\]{}\\\"'`]+(?:,[^!?.,:;\\\\-+=*&%$#@/\\\\~^|<>()[\\\\]{}\\\"'`]+)*$\",\n      \"prefill\": \"restaurant\"\n    },\n    \"searchType\": {\n      \"title\": \"\ud83e\uddda Search type\",\n      \"type\": \"string\",\n      \"description\": \"Choose the type of Instagram page to search for (places, profiles, or hashtags), or `Search popular reels` to scrape trending reels for the keyword.\",\n      \"editor\": \"select\",\n      \"enum\": [\n        \"place\",\n        \"user\",\n        \"hashtag\",\n        \"popular\"\n      ],\n      \"enumTitles\": [\n        \"Search places\",\n        \"Search profiles\",\n        \"Search hashtags\",\n        \"Search popular reels\"\n      ],\n      \"default\": \"place\",\n      \"prefill\": \"hashtag\"\n    },\n    \"searchLimit\": {\n      \"title\": \"\ud83d\udcaf Maximum results per search term\",\n      \"type\": \"integer\",\n      \"description\": \"Set the maximum number of search results (hashtags, users, or places) you want to scrape. If you set it to 5, you'll get 5 results for each search term you've included.\",\n      \"editor\": \"number\",\n      \"prefill\": 1,\n      \"minimum\": 1,\n      \"maximum\": 250\n    },\n    \"enhanceUserSearchWithFacebookPage\": {\n      \"title\": \"Enhance the user search (top 10) with Facebook page and email info when available (higher credit usage)\",\n      \"type\": \"boolean\",\n      \"description\": \"For each user from the top 10, the scraper will extract their Facebook page that sometimes contains their business email. Keep in mind that you're forbidden to collect personal data in certain jurisdictions. See <a href=\\\"https://blog.apify.com/is-web-scraping-legal/#think-twice-before-scraping-personal-data\\\">this article</a> for more details.\",\n      \"editor\": \"hidden\"\n    },\n    \"liveSearch\": {\n      \"title\": \"\ud83d\udd0e Scrape with live search\",\n      \"type\": \"boolean\",\n      \"description\": \"Enable this option if you want to get data from a live Instagram search. Please note that the dataset will be slightly different than the one produced by standard search.\",\n      \"editor\": \"checkbox\"\n    }\n  },\n  \"required\": [\n    \"search\"\n  ]\n}",
+  "readme": "> **\ud83d\ude80 New feature: search by popular reels**, the most direct way to discover trending content on Instagram. Add one or more keywords and Instagram Search Scraper returns up to ~64 reels that are popular for that topic, so you can spot trends, find influencers, and track brand awareness.\n\n## What can Instagram Search Scraper do?\n\nInstagram Search Scraper **extracts Instagram search results for hashtags, places, profiles, or popular reels** along with detailed, structured data about each one. Add one or more keywords, and the scraper finds matching profiles, hashtags, locations, or trending reels.\n\n### \ud83d\udccd Places\n\n\ud83c\udfe0 Extract **metadata** such as place name, category, phone, price range, slug, and location ID\n\n\u23f0 Access **opening hours** and status (open/closed, opening/closing times)\n\n\ud83d\udccd Get **location details** including full address, city, zip, latitude, and longitude\n\n### \ud83d\udd7a Profiles\n\n\ud83d\udc64 Extract **account metadata** such as ID, username, profile URL, full name, bio, and external URLs\n\n\ud83d\udcca Collect **followers, following, posts count, verification, and profile picture**\n\n\ud83c\udfe2 Access **business info**: business account status, category, Facebook page info, joined recently\n\n\ud83c\udfd9\ufe0f Get **location details** including city, street address, latitude & longitude, and zip code\n\n### #\ufe0f\u20e3 Hashtags\n\n\ud83c\udff7\ufe0f Extract **hashtag metadata** such as name, ID, URL, posts count, posts per day, and difficulty\n\n\ud83d\udcca Collect **average, frequent, and rare hashtags** with usage volume\n\n\ud83d\udcc8 Access **related average and related rare hashtags** with usage volume\n\n### \ud83c\udfac Popular reels\n\n\ud83c\udfac Extract **reel metadata** such as caption, hashtags, mentions, URL, video and audio URLs, dimensions, and duration\n\n\ud83d\udcca Collect **engagement stats**: likes, comments, views, and plays\n\n\ud83d\udc64 Get **creator and collaborator details** including username, full name, ID, tagged users, and coauthors\n\n\ud83d\udcac Access **comments and music info**: first and latest comments, plus artist, song, and audio source\n\n### \ud83e\uddbe Overall\n\n\u2b07\ufe0f Export the results in **JSON, CSV, Excel, or XML**\n\n\ud83e\uddbe Access all data programmatically via SDKs (Python and Node.js), API endpoints, and webhooks\n\n\ud83e\udd33 Explore more Apify [social media scrapers](https://apify.com/store/collections/instagram-facebook-scrapers)\n\nUse Instagram Search Scraper to **discover local businesses and profiles**, **explore trending and related hashtags**, **surface popular reels by topic**, gauge content popularity, and monitor local or niche posts.\n\n## What data can I scrape using this Instagram search API?\n\nUsing this Instagram search API, you can extract the following Instagram search results, depending on the search type you pick (place, profile, hashtag, or popular reels):\n\n<table>\n<tr>  \n<td>\ud83d\udccd<strong>Places</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search</td>\n<td>search term, search source, input URL</td>\n</tr>\n<tr>\n<td>\ud83c\udfe0 Place</td>\n<td>name, category, phone, price range, slug, location ID</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Stats & media</td>\n<td>media count, profile pic URL, username, ID</td>\n</tr>\n<tr>\n<td>\u23f0 Hours</td>\n<td>status, opening/closing times</td>\n</tr>\n<tr>\n<td>\ud83d\udcdd Posts</td>\n<td>12 latest posts (type, caption, images, hashtags, location, comments, likes, views, media)</td>\n</tr>\n<tr>\n<td>\ud83d\udccd Location</td>\n<td>address, city, zip, latitude, longitude</td>\n</tr>\n<tr>  \n<td></td>\n</tr>\n<tr>  \n<td>\ud83d\udd7a<strong>Profiles</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search info</td>\n<td>search term, search source, input URL</td>\n</tr>\n<tr>\n<td>\ud83d\udc64 Account info</td>\n<td>ID, username, profile URL, full name, bio, external URL(s)</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Stats & features</td>\n<td>followers & follows count, has channel, posts count, verified, profile picture</td>\n</tr>\n<tr>\n<td>\ud83c\udfe2 Business info</td>\n<td>is business account, business category, Facebook page info, joined recently</td>\n</tr>\n<tr>\n<td>\ud83c\udfd9\ufe0f Location</td>\n<td>city, street address, latitude & longitude, zip code</td>\n</tr>\n<tr>\n<td>\ud83d\uddbc\ufe0f\ud83d\udcf9 Posts</td>\n<td>12 latest posts (images, carousels, videos, captions, hashtags, likes, comments, views, music info)</td>\n</tr>\n<tr>  \n<td></td>\n</tr>\n<tr>\n<td>#\ufe0f\u20e3 <strong>Hashtags</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search</td>\n<td>search term, search source</td>\n</tr>\n<tr>\n<td>\ud83c\udff7\ufe0f Hashtag</td>\n<td>name, id, url, posts count, posts per day, difficulty</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Average, frequent, rare</td>\n<td>hashtag, volume</td>\n</tr>\n<tr>\n<td>\ud83d\udcc8 Related average, related rare</td>\n<td>hashtag, volume</td>\n</tr>\n<tr>\n<td></td>\n</tr>\n<tr>\n<td>\ud83c\udfac <strong>Popular reels</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search</td>\n<td>input URL (encodes the keyword, e.g. /popular/golf-prague)</td>\n</tr>\n<tr>\n<td>\ud83c\udfac Reel</td>\n<td>type, shortcode, URL, caption, hashtags, mentions, video URL, audio URL, dimensions, duration, timestamp</td>\n</tr>\n<tr>\n<td>\ud83d\udc64 Creator</td>\n<td>username, full name, ID, tagged users, coauthors</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Engagement</td>\n<td>likes, comments, views, plays</td>\n</tr>\n<tr>\n<td>\ud83d\udcac Comments</td>\n<td>first comment, latest comments (text, author, likes, timestamp)</td>\n</tr>\n<tr>\n<td>\ud83c\udfb5 Music</td>\n<td>artist, song, original audio, audio ID</td>\n</tr>\n<tr>\n<td>\ud83d\udccd Location</td>\n<td>name, ID</td>\n</tr>\n</table>\n\n> Tip: To scrape detailed content for a user, use \ud83d\udd17 [Instagram Profile Scraper](https://apify.com/apify/instagram-profile-scraper). If you need to extract details from a specific location URL rather than places in general, use \ud83d\udd17 [Instagram Scraper](https://apify.com/apify/instagram-scraper).\n\n## How to scrape Instagram search results?\n\n1. [Create](https://console.apify.com/) a free Apify account.\n2. Find [Instagram Search Scraper](https://apify.com/apify/instagram-search-scraper).\n3. Add one or more **keywords**, choose a **search type** (user, hashtag, place, or popular reels), and the number of results per keyword (up to 250).\n4. Click **Save & Start** to start the scraper.\n5. Download your data in **JSON, CSV, Excel, or XML**, or access it through the API.\n\nIf you want step-by-step guidance, here\u2019s a walkthrough video:\n\nhttps://www.youtube.com/watch?v=OcYfUaFzXdY\n\n> \ud83d\udca1 Tip: Hashtags matter for discovery as much as search. You can find valuable hashtags with Instagram Search Scraper, then drill into each one using \ud83d\udd17 [Instagram Hashtag Scraper](https://apify.com/apify/instagram-hashtag-scraper) to pull its top reels and posts. To extract every hashtag on a topic with no result limit, use \ud83d\udd17 [Instagram Hashtag Analytics Scraper](https://apify.com/apify/instagram-hashtag-analytics-scraper).\n\n## How much does scraping Instagram search results cost?\n\nInstagram Search Scraper uses a **pay-per-event (PPE)** model. On the Free plan it costs $2.70 per 1,000 results, so the $5 credit gets you nearly **2,000 results for free**, while paid plans add a volume discount: Starter drops the rate to $2.30 per 1,000 (about **12,600 results a month**) and Scale to $1.90 per 1,000 (about **104,000 a month**). Check the [pricing tab](https://apify.com/apify/instagram-search-scraper/pricing) for full details.\n\n## \u2b07\ufe0f Input\n\nEnter one or more **keywords**, then choose the **type of search to perform**: place, user, hashtag, or popular reels. A keyword can be one or more words. To **scrape multiple search terms at once**, submit them in the same field as a comma-separated list. You can also set the number of results you'd like per keyword, up to **250**, which is as many as Instagram returns for a single search.\n\n> \ud83d\udca1 Tip: Not every keyword has a popular reels feed. If a popular reels run fails, check whether `https://www.instagram.com/popular/YOUR-KEYWORD` opens in an incognito window first.\n\n<a href=\"https://console.apify.com/actors/DrF9mzPPEuVizVF4l\"> <img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/2ee7ee4eed8947253f810af3879eee8f3f082fdb/Screenshot%202025-10-24%20at%2019.02.25.png\" alt=\"Instagram Search Scraper input\" style=\"width:70%;\"> </a>\n\n## \u2b06\ufe0f Output\n\nThe results appear in a dataset in the **Storage** tab. You can view them as a table, download them in **JSON, CSV, Excel, or XML**, or access them via the API.\n\n<a href=\"https://console.apify.com/actors/DrF9mzPPEuVizVF4l\"> <img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/0385917e879acf2f2bc2170c74efdc87429434a5/Screenshot%202025-10-24%20at%2019.03.35.png\" alt=\"Instagram Search Scraper output\" style=\"width:100%;\"> </a>\n\n### \ud83d\udccd Extracted Instagram search data sample (search by places)\n\n```json\n[\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/270309914/bakeshop-praha/\",\n        \"name\": \"Bakeshop Praha\",\n        \"phone\": \"+420 222 316 823\",\n        \"category\": \"Bakery\",\n        \"media_count\": 2850,\n        \"price_range\": 2,\n        \"lat\": 50.0897287,\n        \"lng\": 14.42240711,\n        \"slug\": \"bakeshop-praha\",\n        \"location_id\": \"270309914\",\n        \"location_address\": \"\",\n        \"location_city\": \"\",\n        \"location_zip\": \"\",\n        \"ig_business\": { \"profile\": null },\n        \"hours\": { \"status\": \"Open until 4:00 PM\" }\n    },\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/460164254727010/sweet-dreams-cz-chimney-cakes/\",\n        \"name\": \"Sweet Dreams CZ - chimney cakes\",\n        \"phone\": \"\",\n        \"category\": \"Fast food restaurant\",\n        \"media_count\": 23,\n        \"price_range\": 2,\n        \"lat\": 50.085855540208,\n        \"lng\": 14.420703649521,\n        \"slug\": \"sweet-dreams-cz-chimney-cakes\",\n        \"location_id\": \"460164254727010\",\n        \"location_address\": \"Melantrichova 12\",\n        \"location_city\": \"\",\n        \"location_zip\": \"11000\",\n        \"ig_business\": {\n            \"profile\": {\n                \"profile_pic_url\": \"https://scontent-lga3-1.cdninstagram.com/v/t51.2885-19/84540724_924556021293734_6854698440694169600_n.jpg\",\n                \"username\": \"sweetdreamscz\",\n                \"id\": \"13465708856\"\n            }\n        },\n        \"hours\": { \"status\": \"Open until 11:00 PM\" }\n    },\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/1022293501/prague-pastry/\",\n        \"name\": \"Prague Pastry\",\n        \"phone\": \"\",\n        \"category\": \"Cafe\",\n        \"media_count\": 132,\n        \"price_range\": 0,\n        \"lat\": 35.817311400041,\n        \"lng\": 51.483785915457,\n        \"slug\": \"prague-pastry\",\n        \"location_id\": \"1022293501\",\n        \"location_address\": \"\",\n        \"location_city\": \"\",\n        \"location_zip\": \"\",\n        \"ig_business\": { \"profile\": null },\n        \"hours\": { \"status\": \"Open until 11:00 PM\" },\n        \"posts\": [\n            {\n                \"type\": \"Image\",\n                \"shortCode\": \"C1fUNncL7ii\",\n                \"id\": \"3269420751126509730_970370936\",\n                \"caption\": null,\n                \"hashtags\": [],\n                \"url\": \"https://www.instagram.com/p/C1fUNncL7ii/\",\n                \"commentCount\": 0,\n                \"likeCount\": 0,\n                \"viewCount\": null,\n                \"displayUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/472866200_18478220851002937_6185328965757055417_n.jpg\",\n                \"ownerUsername\": \"adelinehaddad\",\n                \"location\": {\n                    \"id\": \"2346631682224801\",\n                    \"name\": \"Chimney Cake Prague\",\n                    \"lat\": 50.085882928078,\n                    \"lng\": 14.415053392466\n                },\n                \"timestamp\": \"2023-12-30T19:42:26.000Z\"\n            }\n        ]\n    }\n]\n```\n\n### \ud83d\udd7a Extracted Instagram search data sample (search by profiles)\n\n```json\n[\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"facebook-ads\",\n        \"inputUrl\": \"https://www.facebook.com/api/graphql/\",\n        \"id\": \"66573658348\",\n        \"username\": \"dora.prague.cakes\",\n        \"url\": \"https://www.instagram.com/dora.prague.cakes\",\n        \"fullName\": \"Dora Cakes\",\n        \"biography\": \"Online Baking Studio\\n\u25cf Asian homemade cakes / \ud83d\udcaf %vegan options \\norder via @prague.dora/Objednat via @prague.dora\",\n        \"externalUrls\": [\n            {\n                \"title\": \"\",\n                \"lynx_url\": \"https://l.instagram.com/?u=http%3A%2F%2Finstagram.com%2Fprague.dora%2F&e=AT33aSPYAQQEdBsa98xciPvV61n0mVj1Vg1DwfSXhY6119I1pbrje1YWm2tz-fN63DPskPGVQkxJBr6qTEiqBkDrmEsVlaQ1\",\n                \"url\": \"http://instagram.com/prague.dora/\",\n                \"link_type\": \"external\"\n            },\n            {\n                \"title\": \"Facebook profile\",\n                \"lynx_url\": \"\",\n                \"url\": \"\",\n                \"link_type\": \"facebook\"\n            }\n        ],\n        \"externalUrl\": \"http://instagram.com/prague.dora/\",\n        \"externalUrlShimmed\": \"https://l.instagram.com/?u=http%3A%2F%2Finstagram.com%2Fprague.dora%2F&e=AT1DnwS8M3xN_5FQ-v70hPwg1OZt7CD9-52ZvAI1XIO0H4YL_hRrNvfuqRgqe-JN8V5tezBy_O-YFC5lpjPKD7owFMOZhfKl\",\n        \"followersCount\": 261,\n        \"followsCount\": 25,\n        \"hasChannel\": false,\n        \"highlightReelCount\": 13,\n        \"isBusinessAccount\": true,\n        \"joinedRecently\": false,\n        \"businessCategoryName\": \"None,Candy Store\",\n        \"private\": false,\n        \"verified\": false,\n        \"profilePicUrl\": \"https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/448764192_1142727630369172_915707507726496118_n.jpg\",\n        \"profilePicUrlHD\": \"https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/448764192_1142727630369172_915707507726496118_n.jpg\",\n        \"facebookPage\": {\n            \"page_id\": \"387950174391228\",\n            \"category\": \"Profile\",\n            \"image_uri\": \"https://scontent-atl3-1.cdninstagram.com/v/t51.2885-19/448764192_1142727630369172_915707507726496118_n.jpg\",\n            \"likes\": null,\n            \"verification\": \"NOT_VERIFIED\",\n            \"name\": \"dora.prague.cakes\",\n            \"country\": null,\n            \"entity_type\": \"IG_ADS_IDENTITY\",\n            \"ig_username\": \"dora.prague.cakes\",\n            \"ig_followers\": 261,\n            \"ig_verification\": false,\n            \"page_alias\": \"\",\n            \"page_is_deleted\": false\n        },\n        \"igtvVideoCount\": 1,\n        \"relatedProfiles\": [],\n        \"latestIgtvVideos\": [\n            {\n                \"type\": \"Video\",\n                \"shortCode\": \"DAypcrOIei1\",\n                \"title\": \"\",\n                \"caption\": \"This is how you can find our bakery in Prague\ud83e\udd2d Small, but cutesy\ud83e\udd0d \\n\\n ---------------------------------\\n\ud83d\udcde 771 195 285\\n\ud83d\udce9 prague.dora@gmail.com\\n\ud83d\udccdVr\u0161ovick\u00e1 800/47, Vr\u0161ovice\\n\\n#AsianDelights #sweets #praha #desert #cakes #dorty #bagety #flanpudding #banhmi #desert #dora #bakeryinprague #kamvpraze #pekarnavpraze #foryou #fyp #fy #foryoupagee\",\n                \"commentsCount\": 0,\n                \"commentsDisabled\": false,\n                \"dimensionsHeight\": 1920,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-1.cdninstagram.com/v/t15.5256-10/462202714_1071689764348430_8866929195097638714_n.jpg\",\n                \"likesCount\": 14,\n                \"videoDuration\": 77.233,\n                \"videoViewCount\": 293,\n                \"id\": \"3473020553116379317\",\n                \"hashtags\": [\n                    \"AsianDelights\",\n                    \"sweets\",\n                    \"praha\",\n                    \"desert\",\n                    \"cakes\",\n                    \"dorty\",\n                    \"bagety\",\n                    \"flanpudding\",\n                    \"banhmi\",\n                    \"dora\",\n                    \"bakeryinprague\",\n                    \"kamvpraze\",\n                    \"pekarnavpraze\",\n                    \"foryou\",\n                    \"fyp\",\n                    \"fy\",\n                    \"foryoupagee\"\n                ],\n                \"mentions\": [\"gmail.com\"],\n                \"url\": \"https://www.instagram.com/p/DAypcrOIei1/\",\n                \"firstComment\": \"\",\n                \"latestComments\": [],\n                \"images\": [],\n                \"videoUrl\": \"https://scontent-lga3-3.cdninstagram.com/o1/v/t2/f2/m367/AQPDZeHvlrcc26Z5x6PGrnTbVj--x8hZM2oZ4AeL_Z0OYohryssElPDKHVN8MOLMvx1sEXtWgNFfWG_5vF2NPuik4qEuOsVuBr_8Lqk.mp4\",\n                \"alt\": null,\n                \"timestamp\": \"2024-10-06T17:39:00.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"productType\": \"igtv\",\n                \"isCommentsDisabled\": false\n            }\n        ],\n        \"postsCount\": 53,\n        \"latestPosts\": [\n            {\n                \"id\": \"3703969396077686591\",\n                \"type\": \"Image\",\n                \"shortCode\": \"DNnJIqQIO8_\",\n                \"caption\": \"Set cake tiramisu with flavours: mango,matcha, classic, jahoda, oreo\",\n                \"hashtags\": [],\n                \"mentions\": [],\n                \"url\": \"https://www.instagram.com/p/DNnJIqQIO8_/\",\n                \"commentsCount\": 0,\n                \"dimensionsHeight\": 1439,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/535878508_17906336769218349_458064727345907935_n.webp\",\n                \"images\": [],\n                \"alt\": \"Photo by Dora Cakes on August 21, 2025. May be an image of strawberry, chiffon cake, whipped cream, fruitcake, fruit cocktail, pie, cheesecake and text.\",\n                \"likesCount\": 1,\n                \"timestamp\": \"2025-08-21T09:13:01.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"isCommentsDisabled\": false\n            },\n            {\n                \"id\": \"3703134132287696685\",\n                \"type\": \"Image\",\n                \"shortCode\": \"DNkLN-Ooe8t\",\n                \"caption\": \"Strawberry cake \ud83c\udf53\ud83c\udf53\\n#vegancake#delicous#\",\n                \"hashtags\": [\"vegancake\", \"delicous\"],\n                \"mentions\": [],\n                \"url\": \"https://www.instagram.com/p/DNkLN-Ooe8t/\",\n                \"commentsCount\": 0,\n                \"dimensionsHeight\": 1080,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/535250569_17906215623218349_2127475903889191630_n.webp\",\n                \"images\": [],\n                \"alt\": \"Photo by Dora Cakes on August 19, 2025. May be an image of cake, strawberry, fruitcake and text.\",\n                \"likesCount\": 0,\n                \"timestamp\": \"2025-08-20T05:33:30.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"isCommentsDisabled\": false\n            },\n            {\n                \"id\": \"3654970805774779287\",\n                \"type\": \"Image\",\n                \"shortCode\": \"DK5EJU-oQOX\",\n                \"caption\": \"set cake and flowers \u2764\ufe0f\",\n                \"hashtags\": [],\n                \"mentions\": [],\n                \"url\": \"https://www.instagram.com/p/DK5EJU-oQOX/\",\n                \"commentsCount\": 0,\n                \"dimensionsHeight\": 1351,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/504491088_17898576810218349_8230302902285039573_n.webp\",\n                \"images\": [],\n                \"alt\": \"Photo by Dora Cakes on June 14, 2025.\",\n                \"likesCount\": 1,\n                \"timestamp\": \"2025-06-14T18:41:34.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"isCommentsDisabled\": false\n            }\n        ],\n        \"fbid\": \"17841466550451707\"\n    }\n]\n```\n\n### #\ufe0f\u20e3 Extracted Instagram search data sample (search by hashtags)\n\n```json\n[\n    {\n        \"searchTerm\": \"pope\",\n        \"searchSource\": \"instagram\",\n        \"name\": \"popethanavat\",\n        \"postsCount\": 7034999.999999999,\n        \"url\": \"https://www.instagram.com/explore/tags/popethanavat\",\n        \"id\": \"popethanavat\",\n        \"posts\": \"70.35 K\",\n        \"postsPerDay\": \"\u2014\",\n        \"difficulty\": \"\",\n        \"related\": [\n            {\n                \"hash\": \"#popezaap\",\n                \"info\": \"1.49 m\"\n            }\n        ],\n        \"frequent\": [],\n        \"average\": [],\n        \"rare\": [\n            {\n                \"hash\": \"#popethanavat\",\n                \"info\": \"70.35 k\"\n            }\n        ],\n        \"relatedFrequent\": [\n            { \"hash\": \"#popezaap\", \"info\": \"1.49 m\" },\n            { \"hash\": \"#metal\", \"info\": \"40.61 m\" },\n            { \"hash\": \"#deathmetal\", \"info\": \"7.14 m\" },\n            { \"hash\": \"#bellacampen\", \"info\": \"1.27 m\" },\n            { \"hash\": \"#progressivemetal\", \"info\": \"1.33 m\" },\n            { \"hash\": \"#music\", \"info\": \"515.74 m\" },\n            { \"hash\": \"#vinylcollection\", \"info\": \"15.63 m\" },\n            { \"hash\": \"#vinyl\", \"info\": \"38.42 m\" },\n            { \"hash\": \"#heavymetal\", \"info\": \"13.23 m\" }\n        ],\n        \"relatedAverage\": [\n            { \"hash\": \"#popeza\", \"info\": \"252.96 k\" },\n            { \"hash\": \"#popebella\", \"info\": \"221.86 k\" },\n            { \"hash\": \"#progmetal\", \"info\": \"823.7 k\" },\n            { \"hash\": \"#broadcastthaitv\", \"info\": \"125.16 k\" },\n            { \"hash\": \"#dreamtheater\", \"info\": \"484.32 k\" },\n            { \"hash\": \"#deeppurple\", \"info\": \"657.38 k\" },\n            { \"hash\": \"#childrenofbodom\", \"info\": \"141.01 k\" },\n            { \"hash\": \"#ramstein\", \"info\": \"104.79 k\" },\n            { \"hash\": \"#ch3thailand\", \"info\": \"947.86 k\" }\n        ],\n        \"relatedRare\": [\n            { \"hash\": \"#b1b2loveunlimited\", \"info\": \"15.17 k\" },\n            { \"hash\": \"#mikaelakerfeldt\", \"info\": \"21.85 k\" },\n            { \"hash\": \"#damnation\", \"info\": \"59.51 k\" },\n            { \"hash\": \"#lovedestiny2\", \"info\": \"45.68 k\" },\n            { \"hash\": \"#sanoplusbypope\", \"info\": \"29.04 k\" },\n            { \"hash\": \"#thanavatvatthanaputi\", \"info\": \"50.4 k\" },\n            { \"hash\": \"#myoxygen\", \"info\": \"46.7 k\" },\n            { \"hash\": \"#lovedestinythemovie\", \"info\": \"27.89 k\" },\n            { \"hash\": \"#luciano_popezaap\", \"info\": \"8093\" }\n        ]\n    }\n]\n```\n\n### \ud83c\udfac Extracted Instagram search data sample (search by popular reels)\n\n```json\n[\n    {\n        \"id\": \"3454963213298691216\",\n        \"type\": \"Video\",\n        \"shortCode\": \"C_yfrzAteyQ\",\n        \"inputUrl\": \"https://www.instagram.com/popular/golf-prague\",\n        \"url\": \"https://www.instagram.com/p/C_yfrzAteyQ/\",\n        \"caption\": \"As it's my birthday today I've managed to slow down for a day and reflect a little bit. What a crazy 6 weeks we have just had...\",\n        \"hashtags\": [\n            \"golfcoach\",\n            \"golflesson\",\n            \"golfimprovement\",\n            \"golfswing\",\n            \"golf\",\n            \"golftips\",\n            \"golfpro\",\n            \"golfinstruction\",\n            \"golfinstructor\",\n            \"golfhelp\",\n            \"changingthegame\",\n            \"growthegame\"\n        ],\n        \"mentions\": [\n            \"brttoursauce\",\n            \"heythropparkgc\",\n            \"tourgolfnetwork\",\n            \"eagleapparelgolf\",\n            \"groovefix_golf\",\n            \"pilotwagner\",\n            \"speedstixgolf\",\n            \"warnerhotels\"\n        ],\n        \"ownerUsername\": \"liamrobinsongolfcoaching\",\n        \"ownerFullName\": \"Liam Robinson\",\n        \"ownerId\": \"57178566202\",\n        \"displayUrl\": \"https://scontent-mia3-3.cdninstagram.com/v/t51.71878-15/505739652_1280027937086697_5137321744338332112_n.jpg\",\n        \"videoUrl\": \"https://scontent-mia5-1.cdninstagram.com/o1/v/t16/f2/m86/AQMCYAMXz8tJ8yxV0l5lOYFEPvc7fdjNE34NncFoGE4pRpZPx0z8K6fkzfBa7ffKECfn6SN9hWyDdxloH-HOFsqAMqejBU15GRGdbyM.mp4\",\n        \"audioUrl\": \"https://scontent-mia5-2.cdninstagram.com/o1/v/t2/f2/m86/AQOnKQD_P2nNmID3zXISssDGcuPtcWEhWmxkdJ1v2Z924oOUX_qpyCbuefEBiM8FvoPg0tZLpc_8p5CUiJ6TNGk.mp4\",\n        \"dimensionsHeight\": 1333,\n        \"dimensionsWidth\": 750,\n        \"likesCount\": 311,\n        \"commentsCount\": 15,\n        \"videoViewCount\": 7519,\n        \"videoPlayCount\": 16402,\n        \"videoDuration\": 35.4,\n        \"timestamp\": \"2024-09-11T19:45:47.000Z\",\n        \"locationName\": \"Worldwide\",\n        \"locationId\": \"169069617219371\",\n        \"productType\": \"clips\",\n        \"firstComment\": \"Hi Liam, we really like your coaching style from the lessons we've seen online. I've just sent you a DM to hopefully discuss some lessons.\",\n        \"latestComments\": [\n            {\n                \"id\": \"17986860068765733\",\n                \"text\": \"Hi Liam, we really like your coaching style from the lessons we've seen online. I've just sent you a DM to hopefully discuss some lessons.\",\n                \"ownerUsername\": \"envermeyer\",\n                \"likesCount\": 0,\n                \"repliesCount\": null,\n                \"timestamp\": \"2024-12-04T07:50:15.000Z\"\n            },\n            {\n                \"id\": \"17954053229719213\",\n                \"text\": \"Happy belated birthday \ud83e\udd73\ud83d\ude4c\ud83c\udfcc\ufe0f\u200d\u2642\ufe0f\",\n                \"ownerUsername\": \"denster.1\",\n                \"likesCount\": 1,\n                \"repliesCount\": null,\n                \"timestamp\": \"2024-09-19T11:08:39.000Z\"\n            }\n        ],\n        \"taggedUsers\": [\n            { \"username\": \"branholloway\", \"full_name\": \"Bran Holloway\", \"is_verified\": true },\n            { \"username\": \"brt_toursauce\", \"full_name\": \"BRT\", \"is_verified\": true },\n            { \"username\": \"liamrobbo89\", \"full_name\": \"Liam Robinson\", \"is_verified\": false },\n            { \"username\": \"tourgolfnetwork\", \"full_name\": \"Tour Golf Network\", \"is_verified\": false }\n        ],\n        \"musicInfo\": {\n            \"artist_name\": \"liamrobinsongolfcoaching\",\n            \"song_name\": \"Original audio\",\n            \"uses_original_audio\": true,\n            \"audio_id\": \"532824692464649\"\n        },\n        \"coauthorProducers\": [\n            { \"username\": \"tourgolfnetwork\", \"id\": \"8165752258\", \"is_verified\": false },\n            { \"username\": \"liamrobbo89\", \"id\": \"428765316\", \"is_verified\": false }\n        ],\n        \"childPosts\": [],\n        \"images\": [],\n        \"alt\": null,\n        \"isCommentsDisabled\": false\n    },\n    {\n        \"id\": \"3301960244295876457\",\n        \"type\": \"Video\",\n        \"shortCode\": \"C3S61j_t79p\",\n        \"inputUrl\": \"https://www.instagram.com/popular/golf-prague\",\n        \"url\": \"https://www.instagram.com/p/C3S61j_t79p/\",\n        \"caption\": \"\u26f3\ufe0f Nejlep\u0161\u00ed golf za\u010d\u00edn\u00e1 p\u0159\u00edpravou! \ud83c\udfcc\ufe0f\u200d\u2642\ufe0f P\u0159edstavujeme v\u00e1m 3 \u00fa\u017easn\u00e9 cviky od @golf_fitness_byma...\",\n        \"hashtags\": [\n            \"GolfLife\",\n            \"GolfTips\",\n            \"P\u0159\u00edpravaJeKl\u00ed\u010dem\",\n            \"GolfFitness\",\n            \"golfshop\",\n            \"citygolfcz\",\n            \"golfwarmup\",\n            \"czech\",\n            \"czechrepublic\",\n            \"pardubice\",\n            \"prague\",\n            \"brno\"\n        ],\n        \"mentions\": [\"golf_fitness_byma\"],\n        \"ownerUsername\": \"citygolfcz\",\n        \"ownerFullName\": \"CityGolfcz - obchody, fitting\",\n        \"ownerId\": \"3086568484\",\n        \"displayUrl\": \"https://instagram.fmem1-2.fna.fbcdn.net/v/t51.71878-15/503653214_746557964474188_2264376604727620744_n.jpg\",\n        \"videoUrl\": \"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m82/AQO5qXfxCikZfbiS-8syayPwHcnrOfUD69k-RiiOaV48lTgzXjtq9dXuWffLOYglAiB36V9cXPYrpLa68luT7-JybaBBIkDQSW2Ni-w.mp4\",\n        \"dimensionsHeight\": 1920,\n        \"dimensionsWidth\": 1080,\n        \"likesCount\": 130,\n        \"commentsCount\": 0,\n        \"videoViewCount\": 1131,\n        \"videoPlayCount\": 3109,\n        \"videoDuration\": 59.6,\n        \"timestamp\": \"2024-02-13T17:12:56.000Z\",\n        \"productType\": \"clips\",\n        \"firstComment\": \"\",\n        \"latestComments\": [],\n        \"taggedUsers\": [{ \"username\": \"golf_fitness_byma\", \"full_name\": \"Svatopluk B\u00fdma\", \"is_verified\": false }],\n        \"musicInfo\": {\n            \"artist_name\": \"Mountaineer\",\n            \"song_name\": \"With Pleasure\",\n            \"uses_original_audio\": false,\n            \"audio_id\": \"1524711188353014\"\n        },\n        \"coauthorProducers\": [{ \"username\": \"golf_fitness_byma\", \"id\": \"1338482166\", \"is_verified\": false }],\n        \"childPosts\": [],\n        \"images\": [],\n        \"alt\": null,\n        \"isCommentsDisabled\": false\n    }\n]\n```\n\n## Want to get other data from specific Instagram profiles or posts?\n\nYou can use the other dedicated scrapers below if you want to scrape specific Instagram data:\n\n<table>\n\n<tr><td>\ud83d\udc99 <a href=\"https://apify.com/apify/facebook-search-scraper\">Facebook Search Scraper</a></td>\n<td>\ud83d\udda4 <a href=\"https://apify.com/clockworks/tiktok-user-search-scraper\">TikTok Search Scraper</a></td> </tr>\n\n<tr> <td>\ud83d\udcf7 <a href=\"https://apify.com/apify/instagram-post-scraper\">Instagram Post Scraper</a></td><td>\ud83c\udf9e\ufe0f <a href=\"https://apify.com/apify/instagram-reel-scraper\">Instagram Reel Scraper</a></td> </tr>\n\n<tr> <td>#\ufe0f\u20e3 <a href=\"https://apify.com/apify/instagram-hashtag-scraper\">Instagram Hashtag Scraper</a></td> \n<td>\ud83d\udcca <a href=\"https://apify.com/apify/instagram-hashtag-analytics-scraper\">Instagram Hashtag Analytics Scraper</a></td> </tr>\n\n<tr> <td>\ud83d\udcac <a href=\"https://apify.com/apify/instagram-comment-scraper\">Instagram Comments Scraper</a></td> <td>\ud83d\udcbe <a href=\"https://apify.com/apify/export-instagram-comments-posts\">Export Instagram Comments and Posts Scraper</a></td> </tr>\n\n<tr> <td>\ud83d\udc64 <a href=\"https://apify.com/apify/instagram-profile-scraper\">Instagram Profile Scraper</a></td> <td>\ud83c\udff7\ufe0f <a href=\"https://apify.com/apify/instagram-tagged-scraper\">Instagram Mentions Scraper</a></td> </tr>\n<tr>\n<td>\ud83d\udd2e <a href=\"https://apify.com/apify/brand-collaboration-scraper\">Instagram Influencer Collaboration Scraper</a></td>\n<td>\ud83d\udecd\ufe0f <a href=\"https://apify.com/apify/facebook-ads-scraper\">Instagram Ads Scraper</a></td>\n</tr>\n<tr> <td>\ud83d\udc65 <a href=\"https://apify.com/apify/instagram-followers-count-scraper\">Instagram Followers Count Scraper</a></td> <td></td> </tr>\n</table>\n\n> For more advanced use cases, check out \ud83d\udd17 [Instagram Scraper](https://apify.com/apify/instagram-scraper) or \ud83d\udd17 [Instagram API Scraper](https://apify.com/apify/instagram-api-scraper). They cover almost all the functionality of the dedicated scrapers.\n\n## \u2753FAQ\n\n### My Instagram search dataset is too long. How can I shorten it to keep only location data?\n\nGo to Storage, then the Dataset tab, then scroll down to Advanced options. Choose `Posts` in Omit fields and you'll have only the main data in your dataset.\n\n### Can I scrape Instagram search by multiple keywords at once?\n\nYes. You can provide a **list of separate keywords** with a type to scrape separate datasets. You can also **add multiple terms simultaneously** by separating them with a comma, and you'll get all results in a single dataset.\n\n### Can I use keywords that include both a word and a location?\n\nAbsolutely. Keywords can include anything. For example:\n\n- Searching `cakes` for profiles returns user accounts.\n- Searching `prague` for Places gives you locations.\n- Combining them, like `cakes prague`, will return different results depending on the type: for Places, likely cafes and registered businesses; for Profiles, likely creatives, small businesses, or entrepreneurs.\n\n### What's the best way to scrape local businesses on Instagram?\n\nIt depends on what you want to find. Using the same keyword for Places vs. Profiles often yields different results. For example, `cakes prague` as a Place search often shows cafes, while as a Profile search it shows creatives, small businesses, and entrepreneurs. This isn't a strict rule, but it's a common pattern that's connected to whether an account is listed in a certain business category or not. You can also try \ud83d\udd17 [Local Lead Generation Agent](https://apify.com/apify/local-lead-generation-agent), built to find local businesses that are active on Instagram.\n\n### What are the best practices for searching hashtags?\n\nStart with single-word hashtags. Multi-word hashtags usually return fewer results.\n\n### Why is the maximum 250 results per search term?\n\n250 is the most Instagram returns for a single search, so the scraper can't go beyond it no matter how high you set the limit. To collect more, run several related keywords (each returns up to 250), or switch to a dedicated scraper such as \ud83d\udd17 [Instagram Hashtag Scraper](https://apify.com/apify/instagram-hashtag-scraper) or \ud83d\udd17 [Instagram Profile Scraper](https://apify.com/apify/instagram-profile-scraper) for deeper data on a specific target.\n\n### Where do the search results come from?\n\nResults come from Google, Facebook Ads, or Threads.\n\n### Is it legal to scrape Instagram content?\n\nInstagram Search Scraper only collects **publicly available data** from Instagram. It does not access private content. Some public data may still be considered personal data under regulations like the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). Only scrape data if you have a legitimate reason. For guidance, see the Apify blog on [the legality of web scraping](https://blog.apify.com/is-web-scraping-legal/).\n\n### Can I integrate Instagram search data with other services?\n\nYes. Scraped data can be integrated with almost any cloud service or web app. Apify supports **Zapier, n8n, Slack, Make, Airbyte, Gumloop, CrewAI, IFTTT, Lindy, GitHub, Google Sheets, Google Drive**, [and more](https://apify.com/integrations). You can also use [webhooks](https://docs.apify.com/integrations/webhooks) to trigger actions whenever a run finishes, like sending notifications or syncing datasets.\n\n### Can I use this Instagram search API programmatically?\n\nYes. The Apify API provides programmatic access to run Actors, fetch datasets, monitor performance, and manage tasks. For Node.js, use the apify-client [NPM package](https://apify.com/apify/instagram-search-scraper/api/javascript). For Python, use the apify-client [PyPI package](https://apify.com/apify/instagram-search-scraper/api/python). Full API docs are available in the [Apify API reference](https://docs.apify.com/api/v2).\n\n### Can I get Instagram search results through an MCP server?\n\nYes. You can [connect](https://apify.com/apify/instagram-search-scraper/api/mcp) to an MCP server using clients like Claude Desktop or LibreChat, or build your own integration. For Instagram Search Scraper:\n\n1. Start a Server-Sent Events (SSE) session to receive a `sessionId`.\n2. Send API messages using that `sessionId` to trigger the scraper.\n3. The message starts Instagram Search Scraper with the provided input.\n4. The response should be: Accepted.\n\nLearn more in the [MCP setup guide](https://blog.apify.com/how-to-use-mcp/).\n\n### Instagram Search Scraper not working\n\nThe Apify team constantly improves Actor performance. If you find bugs or technical issues, create an issue on the Actor's [Issues tab](https://apify.com/apify/instagram-search-scraper/issues/open).\n",
+  "changelog": "This changelog summarizes all changes of the Instagram actors provided by the [Apify organization](https://apify.com/store?search=instagram). The specific actors that are affected are listed for each change.\n\n## 2026-01-12\n\n_Fixes_\n\n- Fixed parsing of profile IDs with improved ID validation:\n    - Removed the restriction that only accepted IDs greater than 99999\n    - Now accepts all IDs greater than 2 (ID 3 resolves to https://www.instagram.com/kevin, inventor & former CEO of Instagram)\n    - Numeric profile names are now handled via the pattern https://www.instagram.com/_u/888 (which redirects to https://www.instagram.com/888)\n\n## 2025-12-10\n\n_Features_\n\n- The `isSponsored` output field is now deprecated as Instagram no longer provides this data (it always returns `false`).\n\n## 2025-12-08\n\n_Features_\n\n- Added transcript support for Instagram Reels as a paid add-on.\n    - Enable it by setting the input option `\"includeTranscript\": true` on [the reels\n      scraper](https://console.apify.com/actors/xMc5Ga1oCONPmWJIa).\n\n## 2025-12-08\n\n_Fixes_\n\n- Fixed parsing of profile IDs for restricted accounts\n\n## 2025-11-28\n\n_Fixes_\n\n- For hashtag details and instagram reels partial output was not provided when requests for extra details failed\n\n## 2025-11-26\n\n_Features_\n\n- Deprecate `\"resultsType\": \"stories\"` in favor of `\"resultsType\": \"reels\"` in all Instagram Actors\". Please update your tasks and integrations.\n\n## 2025-11-05\n\n_Fixes_\n\n- Reels: Some reels (e.g. https://www.instagram.com/reel/DGORdc8vJlM/) contains separate video fragments for each quality and a separate audio stream. Fixed videoUrl for these cases (before it failed with the error \"Invalid handle\") and added audioUrl.\n\n## 2025-11-03\n\n_Features_\n\n- Allows to skip pinned reels in the Instagram Reel Scraper\n\n## 2025-10-23\n\n_Fixes_\n\n- Hashtag reels scraper now outputs _way_ more results. Also includes slight improvements to keyword search posts and reels\n\n## 2025-08-19\n\n_Fixes_\n\n- Reparsing tagged users from child posts\n\n## 2025-08-12\n\n_Fixes_\n\n- Restored google search results\n\n## 2025-05-14\n\n_Fixes_\n\n- Restored resolving profile details by ID\n\n## 2024-12-19\n\n_Features_\n\n- Added support for comments just with animated GIFs (no text) saved as media dataset item property\n\n## 2024-11-23\n\n_Fixes_\n\n- Restored Instagram Hashtag Stats Scraper. Dataset now includes latestPosts and topPosts.\n\n## 2024-11-08\n\n_Fixes_\n\n- Restored Instagram Comments Scraper. Free users are now limited to maximum 20 results per post. No limit for paying users.\n\n## 2024-11-05\n\n_Fixes_\n\n- Restored Instagram Mentions Scraper. Free users are now limited to maximum 20 results per profile. No limit for paying users.\n\n## 2024-10-23\n\n_Fixes_\n\n- Instagram Hashtag Stats migrated to new format with rounded posts count and related-frequent tags instead latest-top posts.\n\n## 2024-10-22\n\n_Fixes_\n\n- Restored Instagram Hashtag Scraper after the data source was put down by Instagram today. Free users are now limited to maximum 20 results per hashtag. No limit for paying users.\n\n## 2024-10-18\n\n_Fixes_\n\n- Fixed issue that caused some runs to stall for a long time without getting results. This happened when the input of Instagram Scraper defined `\"search\": \"any_keyword\", \"searchType\": \"hashtag\"`. Since users only pay for results, there wasn't any extra cost for the user.\n- Fixed a very rare issue where some runs could stall and continue printing `RequestQueue2: The request queue seems to be stuck`. We reverted to the version of queue that doesn't have this issue.\n\n## 2024-10-15\n\n_Fixes_\n\n- Instagram Hashtag Scraper was fully restored to the same functionality as before 9th of October. You can again receive 100s of thousands of results per hashtag and the order is mostly sorted from newest to oldest.\n\n## 2024-10-11\n\n_Fixes_\n\n- Improved number of results for Instagram Hashtag Scraper, especially when `Number of posts per hashtag` (`resultsLimit`) was small.\n\n_Features_\n\n- Added `Only scrape posts with exact hashtag in` (`onlyPostsWithHashtagIn`) to Instagram Hashtag Scraper input. You can choose `hashtags` to require the exact hashtag be present or `hashtag-or-text` where the keyword can be in the caption of the post. `hashtags` is the default value and the previous behavior.\n\n## 2024-10-09\n\n_Fixes_\n\n- **Important**: Instagram put hashtag scraping fully behind login. To work around this issue, Instagram Hashtag Scraper now uses Google Search to find posts with specific hashtags. This means you will get different amount and order of results. The team is examining options to restore the original functionality.\n\n## 2024-10-03\n\n_Fixes_\n\n- Only comments available without login are `latestComments` from post details, so amount even more limited than before and comments scraper just forwarding latest comments as separate dataset items\n\n## 2024-08-05\n\n_Features_\n\n- Don't retry requests on removed profiles, improve speed\n\n## 2024-06-17\n\n_Features_\n\n- Restricted profiles resolved with partial details\n\n## 2024-04-23\n\n_Features_\n\n- Profile search results from ThreadsNet autocomplete appended to Facebook Ads results and continued by Google Search\n- Added value `searchSource` (`instagram`, `threads`, `facebook-ads` or `google`) to dataset items saved from search\n\n## 2024-04-02\n\n_Features_\n\n- New API format to parse reels like https://www.instagram.com/reel/C4rQqstCWTQ/\n\n## 2024-02-07\n\n_Features_\n\n- Added `coauthorProducers` to posts and reels, sample https://www.instagram.com/p/C2vSQcOPkf6/ - note that web page show only first coauthor i.e. \"lekkercoffee*rino\" but in fact it might be more, i.e. https://www.instagram.com/cocoffeeshops/ feed includes sample \"C2vSQcOPkf6\"\n  \\_Fixes*\n- Post-reel hashtags and mentions parsed from parent comment(s) by owner, i.e. https://www.instagram.com/p/C2vSQcOPkf6/ and https://www.instagram.com/p/C2P_5CLRgWS/\n\n## 2023-11-03\n\n_Features_\n\n- Added `enhanceUserSearchWithFacebookPage` that enables enhancing user search with Facebook data that sometimes contains business emails. Facebook data are added under `facebookPage` output field.\n- All search types are now enhanced with up to 200 extra search results from Google Search. This means:\n    - Hashtag (top 50 results via Instagram + up to 200 from Google Search)\n    - User (top 10 results via Facebook ads + up to 200 from Google Search)\n    - Location (up to 200 from Google Search)\n\n## 2023-10-30\n\n_Fixes_\n\n- Partially fixed search again after the previous solution stopped working\n    - Hashtag - fully restored\n    - User - 14 max results via Facebook Ads\n    - Location - found via Google Search\n\n## 2023-10-25\n\n_Fixes_\n\n- Fixed search after Instagram changed endpoints\n\n## 2023-10-17\n\n_Features_\n\n- Monorepo to get rid of internal actor metamorph and delay caused by it.\n\n## 2023-10-10\n\n_Fixes_\n\n- Search for hashtags and places was shortly not working for some inputs due to internal bug in the last day. It is fixed now.\n\n_Older changes were removed from the changelog as we changed reporting the format._\n",
+  "gitCommitId": "b7bb85c43e9decc6209dc98b94f3c607adb15b43",
+  "gitBranchName": "main",
+  "actorDefinition": {
+    "$schema": "https://apify.com/schemas/v1/actor.json",
+    "actorSpecification": 1,
+    "name": "instagram-search-scraper",
+    "title": "Instagram Search Scraper",
+    "description": "Scrapes Instagram hashtags, places and users based on a search query",
+    "version": "0.0.1",
+    "dockerfile": "../../../Dockerfile",
+    "dockerContextDir": "../../..",
+    "changelog": "This changelog summarizes all changes of the Instagram actors provided by the [Apify organization](https://apify.com/store?search=instagram). The specific actors that are affected are listed for each change.\n\n## 2026-01-12\n\n_Fixes_\n\n- Fixed parsing of profile IDs with improved ID validation:\n    - Removed the restriction that only accepted IDs greater than 99999\n    - Now accepts all IDs greater than 2 (ID 3 resolves to https://www.instagram.com/kevin, inventor & former CEO of Instagram)\n    - Numeric profile names are now handled via the pattern https://www.instagram.com/_u/888 (which redirects to https://www.instagram.com/888)\n\n## 2025-12-10\n\n_Features_\n\n- The `isSponsored` output field is now deprecated as Instagram no longer provides this data (it always returns `false`).\n\n## 2025-12-08\n\n_Features_\n\n- Added transcript support for Instagram Reels as a paid add-on.\n    - Enable it by setting the input option `\"includeTranscript\": true` on [the reels\n      scraper](https://console.apify.com/actors/xMc5Ga1oCONPmWJIa).\n\n## 2025-12-08\n\n_Fixes_\n\n- Fixed parsing of profile IDs for restricted accounts\n\n## 2025-11-28\n\n_Fixes_\n\n- For hashtag details and instagram reels partial output was not provided when requests for extra details failed\n\n## 2025-11-26\n\n_Features_\n\n- Deprecate `\"resultsType\": \"stories\"` in favor of `\"resultsType\": \"reels\"` in all Instagram Actors\". Please update your tasks and integrations.\n\n## 2025-11-05\n\n_Fixes_\n\n- Reels: Some reels (e.g. https://www.instagram.com/reel/DGORdc8vJlM/) contains separate video fragments for each quality and a separate audio stream. Fixed videoUrl for these cases (before it failed with the error \"Invalid handle\") and added audioUrl.\n\n## 2025-11-03\n\n_Features_\n\n- Allows to skip pinned reels in the Instagram Reel Scraper\n\n## 2025-10-23\n\n_Fixes_\n\n- Hashtag reels scraper now outputs _way_ more results. Also includes slight improvements to keyword search posts and reels\n\n## 2025-08-19\n\n_Fixes_\n\n- Reparsing tagged users from child posts\n\n## 2025-08-12\n\n_Fixes_\n\n- Restored google search results\n\n## 2025-05-14\n\n_Fixes_\n\n- Restored resolving profile details by ID\n\n## 2024-12-19\n\n_Features_\n\n- Added support for comments just with animated GIFs (no text) saved as media dataset item property\n\n## 2024-11-23\n\n_Fixes_\n\n- Restored Instagram Hashtag Stats Scraper. Dataset now includes latestPosts and topPosts.\n\n## 2024-11-08\n\n_Fixes_\n\n- Restored Instagram Comments Scraper. Free users are now limited to maximum 20 results per post. No limit for paying users.\n\n## 2024-11-05\n\n_Fixes_\n\n- Restored Instagram Mentions Scraper. Free users are now limited to maximum 20 results per profile. No limit for paying users.\n\n## 2024-10-23\n\n_Fixes_\n\n- Instagram Hashtag Stats migrated to new format with rounded posts count and related-frequent tags instead latest-top posts.\n\n## 2024-10-22\n\n_Fixes_\n\n- Restored Instagram Hashtag Scraper after the data source was put down by Instagram today. Free users are now limited to maximum 20 results per hashtag. No limit for paying users.\n\n## 2024-10-18\n\n_Fixes_\n\n- Fixed issue that caused some runs to stall for a long time without getting results. This happened when the input of Instagram Scraper defined `\"search\": \"any_keyword\", \"searchType\": \"hashtag\"`. Since users only pay for results, there wasn't any extra cost for the user.\n- Fixed a very rare issue where some runs could stall and continue printing `RequestQueue2: The request queue seems to be stuck`. We reverted to the version of queue that doesn't have this issue.\n\n## 2024-10-15\n\n_Fixes_\n\n- Instagram Hashtag Scraper was fully restored to the same functionality as before 9th of October. You can again receive 100s of thousands of results per hashtag and the order is mostly sorted from newest to oldest.\n\n## 2024-10-11\n\n_Fixes_\n\n- Improved number of results for Instagram Hashtag Scraper, especially when `Number of posts per hashtag` (`resultsLimit`) was small.\n\n_Features_\n\n- Added `Only scrape posts with exact hashtag in` (`onlyPostsWithHashtagIn`) to Instagram Hashtag Scraper input. You can choose `hashtags` to require the exact hashtag be present or `hashtag-or-text` where the keyword can be in the caption of the post. `hashtags` is the default value and the previous behavior.\n\n## 2024-10-09\n\n_Fixes_\n\n- **Important**: Instagram put hashtag scraping fully behind login. To work around this issue, Instagram Hashtag Scraper now uses Google Search to find posts with specific hashtags. This means you will get different amount and order of results. The team is examining options to restore the original functionality.\n\n## 2024-10-03\n\n_Fixes_\n\n- Only comments available without login are `latestComments` from post details, so amount even more limited than before and comments scraper just forwarding latest comments as separate dataset items\n\n## 2024-08-05\n\n_Features_\n\n- Don't retry requests on removed profiles, improve speed\n\n## 2024-06-17\n\n_Features_\n\n- Restricted profiles resolved with partial details\n\n## 2024-04-23\n\n_Features_\n\n- Profile search results from ThreadsNet autocomplete appended to Facebook Ads results and continued by Google Search\n- Added value `searchSource` (`instagram`, `threads`, `facebook-ads` or `google`) to dataset items saved from search\n\n## 2024-04-02\n\n_Features_\n\n- New API format to parse reels like https://www.instagram.com/reel/C4rQqstCWTQ/\n\n## 2024-02-07\n\n_Features_\n\n- Added `coauthorProducers` to posts and reels, sample https://www.instagram.com/p/C2vSQcOPkf6/ - note that web page show only first coauthor i.e. \"lekkercoffee*rino\" but in fact it might be more, i.e. https://www.instagram.com/cocoffeeshops/ feed includes sample \"C2vSQcOPkf6\"\n  \\_Fixes*\n- Post-reel hashtags and mentions parsed from parent comment(s) by owner, i.e. https://www.instagram.com/p/C2vSQcOPkf6/ and https://www.instagram.com/p/C2P_5CLRgWS/\n\n## 2023-11-03\n\n_Features_\n\n- Added `enhanceUserSearchWithFacebookPage` that enables enhancing user search with Facebook data that sometimes contains business emails. Facebook data are added under `facebookPage` output field.\n- All search types are now enhanced with up to 200 extra search results from Google Search. This means:\n    - Hashtag (top 50 results via Instagram + up to 200 from Google Search)\n    - User (top 10 results via Facebook ads + up to 200 from Google Search)\n    - Location (up to 200 from Google Search)\n\n## 2023-10-30\n\n_Fixes_\n\n- Partially fixed search again after the previous solution stopped working\n    - Hashtag - fully restored\n    - User - 14 max results via Facebook Ads\n    - Location - found via Google Search\n\n## 2023-10-25\n\n_Fixes_\n\n- Fixed search after Instagram changed endpoints\n\n## 2023-10-17\n\n_Features_\n\n- Monorepo to get rid of internal actor metamorph and delay caused by it.\n\n## 2023-10-10\n\n_Fixes_\n\n- Search for hashtags and places was shortly not working for some inputs due to internal bug in the last day. It is fixed now.\n\n_Older changes were removed from the changelog as we changed reporting the format._\n",
+    "minMemoryMbytes": 1024,
+    "maxMemoryMbytes": 4096,
+    "storages": {
+      "dataset": {
+        "actorSpecification": 1,
+        "fields": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "1234567890123456789"
+              ],
+              "description": "Unique Instagram user ID \u2014 profile results only"
+            },
+            "username": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "exampleuser"
+              ],
+              "description": "Instagram username of the profile \u2014 profile results only"
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://www.instagram.com/exampleuser"
+              ],
+              "description": "URL of the Instagram profile or hashtag page"
+            },
+            "fullName": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Example User"
+              ],
+              "description": "Full display name of the user \u2014 profile results only"
+            },
+            "biography": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "This is an example biography."
+              ],
+              "description": "Profile biography text \u2014 profile results only"
+            },
+            "externalUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com"
+              ],
+              "description": "External URL linked in the profile bio \u2014 profile results only"
+            },
+            "externalUrlShimmed": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://l.instagram.com/?u=https%3A%2F%2Fexample.com"
+              ],
+              "description": "Shimmed (tracked) version of the external URL \u2014 profile results only"
+            },
+            "externalUrls": {
+              "examples": [
+                [
+                  {
+                    "url": "https://example.com",
+                    "title": "My Website"
+                  }
+                ]
+              ],
+              "description": "All bio links added to the profile \u2014 profile results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "followersCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                50000
+              ],
+              "description": "Number of followers the profile has \u2014 profile results only"
+            },
+            "followsCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                500
+              ],
+              "description": "Number of accounts the profile follows \u2014 profile results only"
+            },
+            "hasChannel": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile has an Instagram broadcast channel \u2014 profile results only"
+            },
+            "highlightReelCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                5
+              ],
+              "description": "Number of highlight reels on the profile \u2014 profile results only"
+            },
+            "isBusinessAccount": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the account is a business account \u2014 profile results only"
+            },
+            "joinedRecently": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the account joined Instagram recently \u2014 profile results only"
+            },
+            "businessCategoryName": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Clothing (Brand)"
+              ],
+              "description": "Business category of the account \u2014 profile results only"
+            },
+            "private": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile is private \u2014 profile results only"
+            },
+            "verified": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile has a verified badge \u2014 profile results only"
+            },
+            "profilePicUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com/profile/pic/123456.jpg"
+              ],
+              "description": "URL of the profile picture \u2014 profile results only"
+            },
+            "profilePicUrlHD": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com/profile/pic/123456_hd.jpg"
+              ],
+              "description": "URL of the high-resolution profile picture \u2014 profile results only"
+            },
+            "igtvVideoCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                12
+              ],
+              "description": "Number of IGTV videos on the profile \u2014 profile results only"
+            },
+            "relatedProfiles": {
+              "examples": [
+                []
+              ],
+              "description": "Related Instagram profiles suggested by Instagram \u2014 profile results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "latestIgtvVideos": {
+              "examples": [
+                []
+              ],
+              "description": "Most recent IGTV videos from the profile \u2014 profile results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "postsCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                150
+              ],
+              "description": "Total number of posts on the profile \u2014 profile results only"
+            },
+            "latestPosts": {
+              "examples": [
+                []
+              ],
+              "description": "Most recent posts from the profile \u2014 profile results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "hasPublicStory": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile currently has a public story \u2014 profile results only"
+            },
+            "isRestrictedProfile": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile is restricted (e.g. age-gated) \u2014 profile results only"
+            },
+            "restrictionReason": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Age-restricted content"
+              ],
+              "description": "Reason the profile is restricted, if applicable \u2014 profile results only"
+            },
+            "businessAddress": {
+              "examples": [
+                {
+                  "street_address": "123 Example St",
+                  "city_name": "Example City"
+                }
+              ],
+              "description": "Business address associated with the profile \u2014 profile results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "fbid": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "123456789"
+              ],
+              "description": "Facebook ID linked to the Instagram profile \u2014 profile results only"
+            },
+            "latestMedia": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "2023-11-14T22:13:20.000Z"
+              ],
+              "description": "ISO 8601 date of the latest reel media \u2014 user live search results only"
+            },
+            "mediaCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                5000000
+              ],
+              "description": "Number of posts using this hashtag \u2014 hashtag live search results only"
+            },
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "travel"
+              ],
+              "description": "Hashtag name (without #) or place name \u2014 hashtag and location results only"
+            },
+            "related": {
+              "examples": [
+                [
+                  {
+                    "name": "travelphotography",
+                    "count": 500000
+                  }
+                ]
+              ],
+              "description": "Related hashtags \u2014 hashtag results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "frequent": {
+              "examples": [
+                [
+                  {
+                    "name": "photography",
+                    "count": 1000000
+                  }
+                ]
+              ],
+              "description": "Hashtags frequently used alongside this one \u2014 hashtag results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "topPosts": {
+              "examples": [
+                []
+              ],
+              "description": "Top posts for this hashtag \u2014 hashtag results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "city": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "New York"
+              ],
+              "description": "City the place is located in \u2014 place live search results only"
+            },
+            "facebookPlacesId": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "123456789"
+              ],
+              "description": "Facebook Places ID linked to this location \u2014 place live search results only"
+            },
+            "shortName": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Empire State"
+              ],
+              "description": "Short display name of the place \u2014 place live search results only"
+            },
+            "location_id": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "258096160"
+              ],
+              "description": "Unique identifier of the place \u2014 location results only"
+            },
+            "lat": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                40.748817
+              ],
+              "description": "Latitude coordinate of the place \u2014 location results only"
+            },
+            "lng": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                -73.985428
+              ],
+              "description": "Longitude coordinate of the place \u2014 location results only"
+            },
+            "address": {
+              "examples": [
+                {
+                  "street_address": "123 Example St",
+                  "city_name": "Example City",
+                  "country_code": "US"
+                }
+              ],
+              "description": "Street address of the place \u2014 location results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "string"
+              ]
+            },
+            "phone": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "+1 555-123-4567"
+              ],
+              "description": "Phone number of the place \u2014 location results only"
+            },
+            "hours": {
+              "examples": [
+                {
+                  "monday": "9:00 AM - 9:00 PM",
+                  "tuesday": "9:00 AM - 9:00 PM"
+                }
+              ],
+              "description": "Opening hours of the place \u2014 location results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "website": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com"
+              ],
+              "description": "Website URL of the place \u2014 location results only"
+            },
+            "posts": {
+              "examples": [
+                "1.77 M"
+              ],
+              "description": "Recent posts at the location \u2014 location results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "string"
+              ]
+            },
+            "inputUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://www.instagram.com/exampleuser"
+              ],
+              "description": "Input URL or search query used to find this result"
+            },
+            "searchTerm": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "example brand"
+              ],
+              "description": "Search term used to find this result"
+            },
+            "searchSource": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "facebook-ads"
+              ],
+              "description": "Source of the search that found this result"
+            },
+            "facebookPage": {
+              "examples": [
+                {
+                  "pageIsDeleted": false,
+                  "pageAlias": "examplepage"
+                }
+              ],
+              "description": "Facebook page linked to the result",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "threadsNetProfile": {
+              "examples": [
+                {
+                  "username": "exampleuser"
+                }
+              ],
+              "description": "Threads.net profile linked to this account",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "error": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "not_found"
+              ],
+              "description": "Error code if the result could not be fully scraped"
+            },
+            "errorDescription": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Profile does not exist"
+              ],
+              "description": "Human-readable description of the error"
+            },
+            "requestErrorMessages": {
+              "examples": [
+                [
+                  "Error: BLOCKED\n    at getRouteDefinition ..."
+                ]
+              ],
+              "description": "Array of error messages encountered during scraping",
+              "items": {
+                "type": "string"
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            }
+          }
+        },
+        "views": {},
+        "$schema": "https://apify.com/schemas/v1/dataset.json"
+      }
+    },
+    "output": {
+      "actorOutputSchemaVersion": 1,
+      "title": "Instagram search results",
+      "description": "Dataset containing Instagram profiles found via search query",
+      "properties": {
+        "dataset": {
+          "type": "string",
+          "title": "Search results",
+          "description": "Dataset containing profiles matching the search query",
+          "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+      }
+    },
+    "readme": "> **\ud83d\ude80 New feature: search by popular reels**, the most direct way to discover trending content on Instagram. Add one or more keywords and Instagram Search Scraper returns up to ~64 reels that are popular for that topic, so you can spot trends, find influencers, and track brand awareness.\n\n## What can Instagram Search Scraper do?\n\nInstagram Search Scraper **extracts Instagram search results for hashtags, places, profiles, or popular reels** along with detailed, structured data about each one. Add one or more keywords, and the scraper finds matching profiles, hashtags, locations, or trending reels.\n\n### \ud83d\udccd Places\n\n\ud83c\udfe0 Extract **metadata** such as place name, category, phone, price range, slug, and location ID\n\n\u23f0 Access **opening hours** and status (open/closed, opening/closing times)\n\n\ud83d\udccd Get **location details** including full address, city, zip, latitude, and longitude\n\n### \ud83d\udd7a Profiles\n\n\ud83d\udc64 Extract **account metadata** such as ID, username, profile URL, full name, bio, and external URLs\n\n\ud83d\udcca Collect **followers, following, posts count, verification, and profile picture**\n\n\ud83c\udfe2 Access **business info**: business account status, category, Facebook page info, joined recently\n\n\ud83c\udfd9\ufe0f Get **location details** including city, street address, latitude & longitude, and zip code\n\n### #\ufe0f\u20e3 Hashtags\n\n\ud83c\udff7\ufe0f Extract **hashtag metadata** such as name, ID, URL, posts count, posts per day, and difficulty\n\n\ud83d\udcca Collect **average, frequent, and rare hashtags** with usage volume\n\n\ud83d\udcc8 Access **related average and related rare hashtags** with usage volume\n\n### \ud83c\udfac Popular reels\n\n\ud83c\udfac Extract **reel metadata** such as caption, hashtags, mentions, URL, video and audio URLs, dimensions, and duration\n\n\ud83d\udcca Collect **engagement stats**: likes, comments, views, and plays\n\n\ud83d\udc64 Get **creator and collaborator details** including username, full name, ID, tagged users, and coauthors\n\n\ud83d\udcac Access **comments and music info**: first and latest comments, plus artist, song, and audio source\n\n### \ud83e\uddbe Overall\n\n\u2b07\ufe0f Export the results in **JSON, CSV, Excel, or XML**\n\n\ud83e\uddbe Access all data programmatically via SDKs (Python and Node.js), API endpoints, and webhooks\n\n\ud83e\udd33 Explore more Apify [social media scrapers](https://apify.com/store/collections/instagram-facebook-scrapers)\n\nUse Instagram Search Scraper to **discover local businesses and profiles**, **explore trending and related hashtags**, **surface popular reels by topic**, gauge content popularity, and monitor local or niche posts.\n\n## What data can I scrape using this Instagram search API?\n\nUsing this Instagram search API, you can extract the following Instagram search results, depending on the search type you pick (place, profile, hashtag, or popular reels):\n\n<table>\n<tr>  \n<td>\ud83d\udccd<strong>Places</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search</td>\n<td>search term, search source, input URL</td>\n</tr>\n<tr>\n<td>\ud83c\udfe0 Place</td>\n<td>name, category, phone, price range, slug, location ID</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Stats & media</td>\n<td>media count, profile pic URL, username, ID</td>\n</tr>\n<tr>\n<td>\u23f0 Hours</td>\n<td>status, opening/closing times</td>\n</tr>\n<tr>\n<td>\ud83d\udcdd Posts</td>\n<td>12 latest posts (type, caption, images, hashtags, location, comments, likes, views, media)</td>\n</tr>\n<tr>\n<td>\ud83d\udccd Location</td>\n<td>address, city, zip, latitude, longitude</td>\n</tr>\n<tr>  \n<td></td>\n</tr>\n<tr>  \n<td>\ud83d\udd7a<strong>Profiles</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search info</td>\n<td>search term, search source, input URL</td>\n</tr>\n<tr>\n<td>\ud83d\udc64 Account info</td>\n<td>ID, username, profile URL, full name, bio, external URL(s)</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Stats & features</td>\n<td>followers & follows count, has channel, posts count, verified, profile picture</td>\n</tr>\n<tr>\n<td>\ud83c\udfe2 Business info</td>\n<td>is business account, business category, Facebook page info, joined recently</td>\n</tr>\n<tr>\n<td>\ud83c\udfd9\ufe0f Location</td>\n<td>city, street address, latitude & longitude, zip code</td>\n</tr>\n<tr>\n<td>\ud83d\uddbc\ufe0f\ud83d\udcf9 Posts</td>\n<td>12 latest posts (images, carousels, videos, captions, hashtags, likes, comments, views, music info)</td>\n</tr>\n<tr>  \n<td></td>\n</tr>\n<tr>\n<td>#\ufe0f\u20e3 <strong>Hashtags</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search</td>\n<td>search term, search source</td>\n</tr>\n<tr>\n<td>\ud83c\udff7\ufe0f Hashtag</td>\n<td>name, id, url, posts count, posts per day, difficulty</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Average, frequent, rare</td>\n<td>hashtag, volume</td>\n</tr>\n<tr>\n<td>\ud83d\udcc8 Related average, related rare</td>\n<td>hashtag, volume</td>\n</tr>\n<tr>\n<td></td>\n</tr>\n<tr>\n<td>\ud83c\udfac <strong>Popular reels</strong></td>\n</tr>\n<tr>\n<td>\ud83d\udd0d Search</td>\n<td>input URL (encodes the keyword, e.g. /popular/golf-prague)</td>\n</tr>\n<tr>\n<td>\ud83c\udfac Reel</td>\n<td>type, shortcode, URL, caption, hashtags, mentions, video URL, audio URL, dimensions, duration, timestamp</td>\n</tr>\n<tr>\n<td>\ud83d\udc64 Creator</td>\n<td>username, full name, ID, tagged users, coauthors</td>\n</tr>\n<tr>\n<td>\ud83d\udcca Engagement</td>\n<td>likes, comments, views, plays</td>\n</tr>\n<tr>\n<td>\ud83d\udcac Comments</td>\n<td>first comment, latest comments (text, author, likes, timestamp)</td>\n</tr>\n<tr>\n<td>\ud83c\udfb5 Music</td>\n<td>artist, song, original audio, audio ID</td>\n</tr>\n<tr>\n<td>\ud83d\udccd Location</td>\n<td>name, ID</td>\n</tr>\n</table>\n\n> Tip: To scrape detailed content for a user, use \ud83d\udd17 [Instagram Profile Scraper](https://apify.com/apify/instagram-profile-scraper). If you need to extract details from a specific location URL rather than places in general, use \ud83d\udd17 [Instagram Scraper](https://apify.com/apify/instagram-scraper).\n\n## How to scrape Instagram search results?\n\n1. [Create](https://console.apify.com/) a free Apify account.\n2. Find [Instagram Search Scraper](https://apify.com/apify/instagram-search-scraper).\n3. Add one or more **keywords**, choose a **search type** (user, hashtag, place, or popular reels), and the number of results per keyword (up to 250).\n4. Click **Save & Start** to start the scraper.\n5. Download your data in **JSON, CSV, Excel, or XML**, or access it through the API.\n\nIf you want step-by-step guidance, here\u2019s a walkthrough video:\n\nhttps://www.youtube.com/watch?v=OcYfUaFzXdY\n\n> \ud83d\udca1 Tip: Hashtags matter for discovery as much as search. You can find valuable hashtags with Instagram Search Scraper, then drill into each one using \ud83d\udd17 [Instagram Hashtag Scraper](https://apify.com/apify/instagram-hashtag-scraper) to pull its top reels and posts. To extract every hashtag on a topic with no result limit, use \ud83d\udd17 [Instagram Hashtag Analytics Scraper](https://apify.com/apify/instagram-hashtag-analytics-scraper).\n\n## How much does scraping Instagram search results cost?\n\nInstagram Search Scraper uses a **pay-per-event (PPE)** model. On the Free plan it costs $2.70 per 1,000 results, so the $5 credit gets you nearly **2,000 results for free**, while paid plans add a volume discount: Starter drops the rate to $2.30 per 1,000 (about **12,600 results a month**) and Scale to $1.90 per 1,000 (about **104,000 a month**). Check the [pricing tab](https://apify.com/apify/instagram-search-scraper/pricing) for full details.\n\n## \u2b07\ufe0f Input\n\nEnter one or more **keywords**, then choose the **type of search to perform**: place, user, hashtag, or popular reels. A keyword can be one or more words. To **scrape multiple search terms at once**, submit them in the same field as a comma-separated list. You can also set the number of results you'd like per keyword, up to **250**, which is as many as Instagram returns for a single search.\n\n> \ud83d\udca1 Tip: Not every keyword has a popular reels feed. If a popular reels run fails, check whether `https://www.instagram.com/popular/YOUR-KEYWORD` opens in an incognito window first.\n\n<a href=\"https://console.apify.com/actors/DrF9mzPPEuVizVF4l\"> <img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/2ee7ee4eed8947253f810af3879eee8f3f082fdb/Screenshot%202025-10-24%20at%2019.02.25.png\" alt=\"Instagram Search Scraper input\" style=\"width:70%;\"> </a>\n\n## \u2b06\ufe0f Output\n\nThe results appear in a dataset in the **Storage** tab. You can view them as a table, download them in **JSON, CSV, Excel, or XML**, or access them via the API.\n\n<a href=\"https://console.apify.com/actors/DrF9mzPPEuVizVF4l\"> <img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/0385917e879acf2f2bc2170c74efdc87429434a5/Screenshot%202025-10-24%20at%2019.03.35.png\" alt=\"Instagram Search Scraper output\" style=\"width:100%;\"> </a>\n\n### \ud83d\udccd Extracted Instagram search data sample (search by places)\n\n```json\n[\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/270309914/bakeshop-praha/\",\n        \"name\": \"Bakeshop Praha\",\n        \"phone\": \"+420 222 316 823\",\n        \"category\": \"Bakery\",\n        \"media_count\": 2850,\n        \"price_range\": 2,\n        \"lat\": 50.0897287,\n        \"lng\": 14.42240711,\n        \"slug\": \"bakeshop-praha\",\n        \"location_id\": \"270309914\",\n        \"location_address\": \"\",\n        \"location_city\": \"\",\n        \"location_zip\": \"\",\n        \"ig_business\": { \"profile\": null },\n        \"hours\": { \"status\": \"Open until 4:00 PM\" }\n    },\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/460164254727010/sweet-dreams-cz-chimney-cakes/\",\n        \"name\": \"Sweet Dreams CZ - chimney cakes\",\n        \"phone\": \"\",\n        \"category\": \"Fast food restaurant\",\n        \"media_count\": 23,\n        \"price_range\": 2,\n        \"lat\": 50.085855540208,\n        \"lng\": 14.420703649521,\n        \"slug\": \"sweet-dreams-cz-chimney-cakes\",\n        \"location_id\": \"460164254727010\",\n        \"location_address\": \"Melantrichova 12\",\n        \"location_city\": \"\",\n        \"location_zip\": \"11000\",\n        \"ig_business\": {\n            \"profile\": {\n                \"profile_pic_url\": \"https://scontent-lga3-1.cdninstagram.com/v/t51.2885-19/84540724_924556021293734_6854698440694169600_n.jpg\",\n                \"username\": \"sweetdreamscz\",\n                \"id\": \"13465708856\"\n            }\n        },\n        \"hours\": { \"status\": \"Open until 11:00 PM\" }\n    },\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/1022293501/prague-pastry/\",\n        \"name\": \"Prague Pastry\",\n        \"phone\": \"\",\n        \"category\": \"Cafe\",\n        \"media_count\": 132,\n        \"price_range\": 0,\n        \"lat\": 35.817311400041,\n        \"lng\": 51.483785915457,\n        \"slug\": \"prague-pastry\",\n        \"location_id\": \"1022293501\",\n        \"location_address\": \"\",\n        \"location_city\": \"\",\n        \"location_zip\": \"\",\n        \"ig_business\": { \"profile\": null },\n        \"hours\": { \"status\": \"Open until 11:00 PM\" },\n        \"posts\": [\n            {\n                \"type\": \"Image\",\n                \"shortCode\": \"C1fUNncL7ii\",\n                \"id\": \"3269420751126509730_970370936\",\n                \"caption\": null,\n                \"hashtags\": [],\n                \"url\": \"https://www.instagram.com/p/C1fUNncL7ii/\",\n                \"commentCount\": 0,\n                \"likeCount\": 0,\n                \"viewCount\": null,\n                \"displayUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/472866200_18478220851002937_6185328965757055417_n.jpg\",\n                \"ownerUsername\": \"adelinehaddad\",\n                \"location\": {\n                    \"id\": \"2346631682224801\",\n                    \"name\": \"Chimney Cake Prague\",\n                    \"lat\": 50.085882928078,\n                    \"lng\": 14.415053392466\n                },\n                \"timestamp\": \"2023-12-30T19:42:26.000Z\"\n            }\n        ]\n    }\n]\n```\n\n### \ud83d\udd7a Extracted Instagram search data sample (search by profiles)\n\n```json\n[\n    {\n        \"searchTerm\": \"cakes prague\",\n        \"searchSource\": \"facebook-ads\",\n        \"inputUrl\": \"https://www.facebook.com/api/graphql/\",\n        \"id\": \"66573658348\",\n        \"username\": \"dora.prague.cakes\",\n        \"url\": \"https://www.instagram.com/dora.prague.cakes\",\n        \"fullName\": \"Dora Cakes\",\n        \"biography\": \"Online Baking Studio\\n\u25cf Asian homemade cakes / \ud83d\udcaf %vegan options \\norder via @prague.dora/Objednat via @prague.dora\",\n        \"externalUrls\": [\n            {\n                \"title\": \"\",\n                \"lynx_url\": \"https://l.instagram.com/?u=http%3A%2F%2Finstagram.com%2Fprague.dora%2F&e=AT33aSPYAQQEdBsa98xciPvV61n0mVj1Vg1DwfSXhY6119I1pbrje1YWm2tz-fN63DPskPGVQkxJBr6qTEiqBkDrmEsVlaQ1\",\n                \"url\": \"http://instagram.com/prague.dora/\",\n                \"link_type\": \"external\"\n            },\n            {\n                \"title\": \"Facebook profile\",\n                \"lynx_url\": \"\",\n                \"url\": \"\",\n                \"link_type\": \"facebook\"\n            }\n        ],\n        \"externalUrl\": \"http://instagram.com/prague.dora/\",\n        \"externalUrlShimmed\": \"https://l.instagram.com/?u=http%3A%2F%2Finstagram.com%2Fprague.dora%2F&e=AT1DnwS8M3xN_5FQ-v70hPwg1OZt7CD9-52ZvAI1XIO0H4YL_hRrNvfuqRgqe-JN8V5tezBy_O-YFC5lpjPKD7owFMOZhfKl\",\n        \"followersCount\": 261,\n        \"followsCount\": 25,\n        \"hasChannel\": false,\n        \"highlightReelCount\": 13,\n        \"isBusinessAccount\": true,\n        \"joinedRecently\": false,\n        \"businessCategoryName\": \"None,Candy Store\",\n        \"private\": false,\n        \"verified\": false,\n        \"profilePicUrl\": \"https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/448764192_1142727630369172_915707507726496118_n.jpg\",\n        \"profilePicUrlHD\": \"https://scontent-lga3-3.cdninstagram.com/v/t51.2885-19/448764192_1142727630369172_915707507726496118_n.jpg\",\n        \"facebookPage\": {\n            \"page_id\": \"387950174391228\",\n            \"category\": \"Profile\",\n            \"image_uri\": \"https://scontent-atl3-1.cdninstagram.com/v/t51.2885-19/448764192_1142727630369172_915707507726496118_n.jpg\",\n            \"likes\": null,\n            \"verification\": \"NOT_VERIFIED\",\n            \"name\": \"dora.prague.cakes\",\n            \"country\": null,\n            \"entity_type\": \"IG_ADS_IDENTITY\",\n            \"ig_username\": \"dora.prague.cakes\",\n            \"ig_followers\": 261,\n            \"ig_verification\": false,\n            \"page_alias\": \"\",\n            \"page_is_deleted\": false\n        },\n        \"igtvVideoCount\": 1,\n        \"relatedProfiles\": [],\n        \"latestIgtvVideos\": [\n            {\n                \"type\": \"Video\",\n                \"shortCode\": \"DAypcrOIei1\",\n                \"title\": \"\",\n                \"caption\": \"This is how you can find our bakery in Prague\ud83e\udd2d Small, but cutesy\ud83e\udd0d \\n\\n ---------------------------------\\n\ud83d\udcde 771 195 285\\n\ud83d\udce9 prague.dora@gmail.com\\n\ud83d\udccdVr\u0161ovick\u00e1 800/47, Vr\u0161ovice\\n\\n#AsianDelights #sweets #praha #desert #cakes #dorty #bagety #flanpudding #banhmi #desert #dora #bakeryinprague #kamvpraze #pekarnavpraze #foryou #fyp #fy #foryoupagee\",\n                \"commentsCount\": 0,\n                \"commentsDisabled\": false,\n                \"dimensionsHeight\": 1920,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-1.cdninstagram.com/v/t15.5256-10/462202714_1071689764348430_8866929195097638714_n.jpg\",\n                \"likesCount\": 14,\n                \"videoDuration\": 77.233,\n                \"videoViewCount\": 293,\n                \"id\": \"3473020553116379317\",\n                \"hashtags\": [\n                    \"AsianDelights\",\n                    \"sweets\",\n                    \"praha\",\n                    \"desert\",\n                    \"cakes\",\n                    \"dorty\",\n                    \"bagety\",\n                    \"flanpudding\",\n                    \"banhmi\",\n                    \"dora\",\n                    \"bakeryinprague\",\n                    \"kamvpraze\",\n                    \"pekarnavpraze\",\n                    \"foryou\",\n                    \"fyp\",\n                    \"fy\",\n                    \"foryoupagee\"\n                ],\n                \"mentions\": [\"gmail.com\"],\n                \"url\": \"https://www.instagram.com/p/DAypcrOIei1/\",\n                \"firstComment\": \"\",\n                \"latestComments\": [],\n                \"images\": [],\n                \"videoUrl\": \"https://scontent-lga3-3.cdninstagram.com/o1/v/t2/f2/m367/AQPDZeHvlrcc26Z5x6PGrnTbVj--x8hZM2oZ4AeL_Z0OYohryssElPDKHVN8MOLMvx1sEXtWgNFfWG_5vF2NPuik4qEuOsVuBr_8Lqk.mp4\",\n                \"alt\": null,\n                \"timestamp\": \"2024-10-06T17:39:00.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"productType\": \"igtv\",\n                \"isCommentsDisabled\": false\n            }\n        ],\n        \"postsCount\": 53,\n        \"latestPosts\": [\n            {\n                \"id\": \"3703969396077686591\",\n                \"type\": \"Image\",\n                \"shortCode\": \"DNnJIqQIO8_\",\n                \"caption\": \"Set cake tiramisu with flavours: mango,matcha, classic, jahoda, oreo\",\n                \"hashtags\": [],\n                \"mentions\": [],\n                \"url\": \"https://www.instagram.com/p/DNnJIqQIO8_/\",\n                \"commentsCount\": 0,\n                \"dimensionsHeight\": 1439,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/535878508_17906336769218349_458064727345907935_n.webp\",\n                \"images\": [],\n                \"alt\": \"Photo by Dora Cakes on August 21, 2025. May be an image of strawberry, chiffon cake, whipped cream, fruitcake, fruit cocktail, pie, cheesecake and text.\",\n                \"likesCount\": 1,\n                \"timestamp\": \"2025-08-21T09:13:01.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"isCommentsDisabled\": false\n            },\n            {\n                \"id\": \"3703134132287696685\",\n                \"type\": \"Image\",\n                \"shortCode\": \"DNkLN-Ooe8t\",\n                \"caption\": \"Strawberry cake \ud83c\udf53\ud83c\udf53\\n#vegancake#delicous#\",\n                \"hashtags\": [\"vegancake\", \"delicous\"],\n                \"mentions\": [],\n                \"url\": \"https://www.instagram.com/p/DNkLN-Ooe8t/\",\n                \"commentsCount\": 0,\n                \"dimensionsHeight\": 1080,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/535250569_17906215623218349_2127475903889191630_n.webp\",\n                \"images\": [],\n                \"alt\": \"Photo by Dora Cakes on August 19, 2025. May be an image of cake, strawberry, fruitcake and text.\",\n                \"likesCount\": 0,\n                \"timestamp\": \"2025-08-20T05:33:30.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"isCommentsDisabled\": false\n            },\n            {\n                \"id\": \"3654970805774779287\",\n                \"type\": \"Image\",\n                \"shortCode\": \"DK5EJU-oQOX\",\n                \"caption\": \"set cake and flowers \u2764\ufe0f\",\n                \"hashtags\": [],\n                \"mentions\": [],\n                \"url\": \"https://www.instagram.com/p/DK5EJU-oQOX/\",\n                \"commentsCount\": 0,\n                \"dimensionsHeight\": 1351,\n                \"dimensionsWidth\": 1080,\n                \"displayUrl\": \"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/504491088_17898576810218349_8230302902285039573_n.webp\",\n                \"images\": [],\n                \"alt\": \"Photo by Dora Cakes on June 14, 2025.\",\n                \"likesCount\": 1,\n                \"timestamp\": \"2025-06-14T18:41:34.000Z\",\n                \"childPosts\": [],\n                \"ownerUsername\": \"dora.prague.cakes\",\n                \"ownerId\": \"66573658348\",\n                \"isCommentsDisabled\": false\n            }\n        ],\n        \"fbid\": \"17841466550451707\"\n    }\n]\n```\n\n### #\ufe0f\u20e3 Extracted Instagram search data sample (search by hashtags)\n\n```json\n[\n    {\n        \"searchTerm\": \"pope\",\n        \"searchSource\": \"instagram\",\n        \"name\": \"popethanavat\",\n        \"postsCount\": 7034999.999999999,\n        \"url\": \"https://www.instagram.com/explore/tags/popethanavat\",\n        \"id\": \"popethanavat\",\n        \"posts\": \"70.35 K\",\n        \"postsPerDay\": \"\u2014\",\n        \"difficulty\": \"\",\n        \"related\": [\n            {\n                \"hash\": \"#popezaap\",\n                \"info\": \"1.49 m\"\n            }\n        ],\n        \"frequent\": [],\n        \"average\": [],\n        \"rare\": [\n            {\n                \"hash\": \"#popethanavat\",\n                \"info\": \"70.35 k\"\n            }\n        ],\n        \"relatedFrequent\": [\n            { \"hash\": \"#popezaap\", \"info\": \"1.49 m\" },\n            { \"hash\": \"#metal\", \"info\": \"40.61 m\" },\n            { \"hash\": \"#deathmetal\", \"info\": \"7.14 m\" },\n            { \"hash\": \"#bellacampen\", \"info\": \"1.27 m\" },\n            { \"hash\": \"#progressivemetal\", \"info\": \"1.33 m\" },\n            { \"hash\": \"#music\", \"info\": \"515.74 m\" },\n            { \"hash\": \"#vinylcollection\", \"info\": \"15.63 m\" },\n            { \"hash\": \"#vinyl\", \"info\": \"38.42 m\" },\n            { \"hash\": \"#heavymetal\", \"info\": \"13.23 m\" }\n        ],\n        \"relatedAverage\": [\n            { \"hash\": \"#popeza\", \"info\": \"252.96 k\" },\n            { \"hash\": \"#popebella\", \"info\": \"221.86 k\" },\n            { \"hash\": \"#progmetal\", \"info\": \"823.7 k\" },\n            { \"hash\": \"#broadcastthaitv\", \"info\": \"125.16 k\" },\n            { \"hash\": \"#dreamtheater\", \"info\": \"484.32 k\" },\n            { \"hash\": \"#deeppurple\", \"info\": \"657.38 k\" },\n            { \"hash\": \"#childrenofbodom\", \"info\": \"141.01 k\" },\n            { \"hash\": \"#ramstein\", \"info\": \"104.79 k\" },\n            { \"hash\": \"#ch3thailand\", \"info\": \"947.86 k\" }\n        ],\n        \"relatedRare\": [\n            { \"hash\": \"#b1b2loveunlimited\", \"info\": \"15.17 k\" },\n            { \"hash\": \"#mikaelakerfeldt\", \"info\": \"21.85 k\" },\n            { \"hash\": \"#damnation\", \"info\": \"59.51 k\" },\n            { \"hash\": \"#lovedestiny2\", \"info\": \"45.68 k\" },\n            { \"hash\": \"#sanoplusbypope\", \"info\": \"29.04 k\" },\n            { \"hash\": \"#thanavatvatthanaputi\", \"info\": \"50.4 k\" },\n            { \"hash\": \"#myoxygen\", \"info\": \"46.7 k\" },\n            { \"hash\": \"#lovedestinythemovie\", \"info\": \"27.89 k\" },\n            { \"hash\": \"#luciano_popezaap\", \"info\": \"8093\" }\n        ]\n    }\n]\n```\n\n### \ud83c\udfac Extracted Instagram search data sample (search by popular reels)\n\n```json\n[\n    {\n        \"id\": \"3454963213298691216\",\n        \"type\": \"Video\",\n        \"shortCode\": \"C_yfrzAteyQ\",\n        \"inputUrl\": \"https://www.instagram.com/popular/golf-prague\",\n        \"url\": \"https://www.instagram.com/p/C_yfrzAteyQ/\",\n        \"caption\": \"As it's my birthday today I've managed to slow down for a day and reflect a little bit. What a crazy 6 weeks we have just had...\",\n        \"hashtags\": [\n            \"golfcoach\",\n            \"golflesson\",\n            \"golfimprovement\",\n            \"golfswing\",\n            \"golf\",\n            \"golftips\",\n            \"golfpro\",\n            \"golfinstruction\",\n            \"golfinstructor\",\n            \"golfhelp\",\n            \"changingthegame\",\n            \"growthegame\"\n        ],\n        \"mentions\": [\n            \"brttoursauce\",\n            \"heythropparkgc\",\n            \"tourgolfnetwork\",\n            \"eagleapparelgolf\",\n            \"groovefix_golf\",\n            \"pilotwagner\",\n            \"speedstixgolf\",\n            \"warnerhotels\"\n        ],\n        \"ownerUsername\": \"liamrobinsongolfcoaching\",\n        \"ownerFullName\": \"Liam Robinson\",\n        \"ownerId\": \"57178566202\",\n        \"displayUrl\": \"https://scontent-mia3-3.cdninstagram.com/v/t51.71878-15/505739652_1280027937086697_5137321744338332112_n.jpg\",\n        \"videoUrl\": \"https://scontent-mia5-1.cdninstagram.com/o1/v/t16/f2/m86/AQMCYAMXz8tJ8yxV0l5lOYFEPvc7fdjNE34NncFoGE4pRpZPx0z8K6fkzfBa7ffKECfn6SN9hWyDdxloH-HOFsqAMqejBU15GRGdbyM.mp4\",\n        \"audioUrl\": \"https://scontent-mia5-2.cdninstagram.com/o1/v/t2/f2/m86/AQOnKQD_P2nNmID3zXISssDGcuPtcWEhWmxkdJ1v2Z924oOUX_qpyCbuefEBiM8FvoPg0tZLpc_8p5CUiJ6TNGk.mp4\",\n        \"dimensionsHeight\": 1333,\n        \"dimensionsWidth\": 750,\n        \"likesCount\": 311,\n        \"commentsCount\": 15,\n        \"videoViewCount\": 7519,\n        \"videoPlayCount\": 16402,\n        \"videoDuration\": 35.4,\n        \"timestamp\": \"2024-09-11T19:45:47.000Z\",\n        \"locationName\": \"Worldwide\",\n        \"locationId\": \"169069617219371\",\n        \"productType\": \"clips\",\n        \"firstComment\": \"Hi Liam, we really like your coaching style from the lessons we've seen online. I've just sent you a DM to hopefully discuss some lessons.\",\n        \"latestComments\": [\n            {\n                \"id\": \"17986860068765733\",\n                \"text\": \"Hi Liam, we really like your coaching style from the lessons we've seen online. I've just sent you a DM to hopefully discuss some lessons.\",\n                \"ownerUsername\": \"envermeyer\",\n                \"likesCount\": 0,\n                \"repliesCount\": null,\n                \"timestamp\": \"2024-12-04T07:50:15.000Z\"\n            },\n            {\n                \"id\": \"17954053229719213\",\n                \"text\": \"Happy belated birthday \ud83e\udd73\ud83d\ude4c\ud83c\udfcc\ufe0f\u200d\u2642\ufe0f\",\n                \"ownerUsername\": \"denster.1\",\n                \"likesCount\": 1,\n                \"repliesCount\": null,\n                \"timestamp\": \"2024-09-19T11:08:39.000Z\"\n            }\n        ],\n        \"taggedUsers\": [\n            { \"username\": \"branholloway\", \"full_name\": \"Bran Holloway\", \"is_verified\": true },\n            { \"username\": \"brt_toursauce\", \"full_name\": \"BRT\", \"is_verified\": true },\n            { \"username\": \"liamrobbo89\", \"full_name\": \"Liam Robinson\", \"is_verified\": false },\n            { \"username\": \"tourgolfnetwork\", \"full_name\": \"Tour Golf Network\", \"is_verified\": false }\n        ],\n        \"musicInfo\": {\n            \"artist_name\": \"liamrobinsongolfcoaching\",\n            \"song_name\": \"Original audio\",\n            \"uses_original_audio\": true,\n            \"audio_id\": \"532824692464649\"\n        },\n        \"coauthorProducers\": [\n            { \"username\": \"tourgolfnetwork\", \"id\": \"8165752258\", \"is_verified\": false },\n            { \"username\": \"liamrobbo89\", \"id\": \"428765316\", \"is_verified\": false }\n        ],\n        \"childPosts\": [],\n        \"images\": [],\n        \"alt\": null,\n        \"isCommentsDisabled\": false\n    },\n    {\n        \"id\": \"3301960244295876457\",\n        \"type\": \"Video\",\n        \"shortCode\": \"C3S61j_t79p\",\n        \"inputUrl\": \"https://www.instagram.com/popular/golf-prague\",\n        \"url\": \"https://www.instagram.com/p/C3S61j_t79p/\",\n        \"caption\": \"\u26f3\ufe0f Nejlep\u0161\u00ed golf za\u010d\u00edn\u00e1 p\u0159\u00edpravou! \ud83c\udfcc\ufe0f\u200d\u2642\ufe0f P\u0159edstavujeme v\u00e1m 3 \u00fa\u017easn\u00e9 cviky od @golf_fitness_byma...\",\n        \"hashtags\": [\n            \"GolfLife\",\n            \"GolfTips\",\n            \"P\u0159\u00edpravaJeKl\u00ed\u010dem\",\n            \"GolfFitness\",\n            \"golfshop\",\n            \"citygolfcz\",\n            \"golfwarmup\",\n            \"czech\",\n            \"czechrepublic\",\n            \"pardubice\",\n            \"prague\",\n            \"brno\"\n        ],\n        \"mentions\": [\"golf_fitness_byma\"],\n        \"ownerUsername\": \"citygolfcz\",\n        \"ownerFullName\": \"CityGolfcz - obchody, fitting\",\n        \"ownerId\": \"3086568484\",\n        \"displayUrl\": \"https://instagram.fmem1-2.fna.fbcdn.net/v/t51.71878-15/503653214_746557964474188_2264376604727620744_n.jpg\",\n        \"videoUrl\": \"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m82/AQO5qXfxCikZfbiS-8syayPwHcnrOfUD69k-RiiOaV48lTgzXjtq9dXuWffLOYglAiB36V9cXPYrpLa68luT7-JybaBBIkDQSW2Ni-w.mp4\",\n        \"dimensionsHeight\": 1920,\n        \"dimensionsWidth\": 1080,\n        \"likesCount\": 130,\n        \"commentsCount\": 0,\n        \"videoViewCount\": 1131,\n        \"videoPlayCount\": 3109,\n        \"videoDuration\": 59.6,\n        \"timestamp\": \"2024-02-13T17:12:56.000Z\",\n        \"productType\": \"clips\",\n        \"firstComment\": \"\",\n        \"latestComments\": [],\n        \"taggedUsers\": [{ \"username\": \"golf_fitness_byma\", \"full_name\": \"Svatopluk B\u00fdma\", \"is_verified\": false }],\n        \"musicInfo\": {\n            \"artist_name\": \"Mountaineer\",\n            \"song_name\": \"With Pleasure\",\n            \"uses_original_audio\": false,\n            \"audio_id\": \"1524711188353014\"\n        },\n        \"coauthorProducers\": [{ \"username\": \"golf_fitness_byma\", \"id\": \"1338482166\", \"is_verified\": false }],\n        \"childPosts\": [],\n        \"images\": [],\n        \"alt\": null,\n        \"isCommentsDisabled\": false\n    }\n]\n```\n\n## Want to get other data from specific Instagram profiles or posts?\n\nYou can use the other dedicated scrapers below if you want to scrape specific Instagram data:\n\n<table>\n\n<tr><td>\ud83d\udc99 <a href=\"https://apify.com/apify/facebook-search-scraper\">Facebook Search Scraper</a></td>\n<td>\ud83d\udda4 <a href=\"https://apify.com/clockworks/tiktok-user-search-scraper\">TikTok Search Scraper</a></td> </tr>\n\n<tr> <td>\ud83d\udcf7 <a href=\"https://apify.com/apify/instagram-post-scraper\">Instagram Post Scraper</a></td><td>\ud83c\udf9e\ufe0f <a href=\"https://apify.com/apify/instagram-reel-scraper\">Instagram Reel Scraper</a></td> </tr>\n\n<tr> <td>#\ufe0f\u20e3 <a href=\"https://apify.com/apify/instagram-hashtag-scraper\">Instagram Hashtag Scraper</a></td> \n<td>\ud83d\udcca <a href=\"https://apify.com/apify/instagram-hashtag-analytics-scraper\">Instagram Hashtag Analytics Scraper</a></td> </tr>\n\n<tr> <td>\ud83d\udcac <a href=\"https://apify.com/apify/instagram-comment-scraper\">Instagram Comments Scraper</a></td> <td>\ud83d\udcbe <a href=\"https://apify.com/apify/export-instagram-comments-posts\">Export Instagram Comments and Posts Scraper</a></td> </tr>\n\n<tr> <td>\ud83d\udc64 <a href=\"https://apify.com/apify/instagram-profile-scraper\">Instagram Profile Scraper</a></td> <td>\ud83c\udff7\ufe0f <a href=\"https://apify.com/apify/instagram-tagged-scraper\">Instagram Mentions Scraper</a></td> </tr>\n<tr>\n<td>\ud83d\udd2e <a href=\"https://apify.com/apify/brand-collaboration-scraper\">Instagram Influencer Collaboration Scraper</a></td>\n<td>\ud83d\udecd\ufe0f <a href=\"https://apify.com/apify/facebook-ads-scraper\">Instagram Ads Scraper</a></td>\n</tr>\n<tr> <td>\ud83d\udc65 <a href=\"https://apify.com/apify/instagram-followers-count-scraper\">Instagram Followers Count Scraper</a></td> <td></td> </tr>\n</table>\n\n> For more advanced use cases, check out \ud83d\udd17 [Instagram Scraper](https://apify.com/apify/instagram-scraper) or \ud83d\udd17 [Instagram API Scraper](https://apify.com/apify/instagram-api-scraper). They cover almost all the functionality of the dedicated scrapers.\n\n## \u2753FAQ\n\n### My Instagram search dataset is too long. How can I shorten it to keep only location data?\n\nGo to Storage, then the Dataset tab, then scroll down to Advanced options. Choose `Posts` in Omit fields and you'll have only the main data in your dataset.\n\n### Can I scrape Instagram search by multiple keywords at once?\n\nYes. You can provide a **list of separate keywords** with a type to scrape separate datasets. You can also **add multiple terms simultaneously** by separating them with a comma, and you'll get all results in a single dataset.\n\n### Can I use keywords that include both a word and a location?\n\nAbsolutely. Keywords can include anything. For example:\n\n- Searching `cakes` for profiles returns user accounts.\n- Searching `prague` for Places gives you locations.\n- Combining them, like `cakes prague`, will return different results depending on the type: for Places, likely cafes and registered businesses; for Profiles, likely creatives, small businesses, or entrepreneurs.\n\n### What's the best way to scrape local businesses on Instagram?\n\nIt depends on what you want to find. Using the same keyword for Places vs. Profiles often yields different results. For example, `cakes prague` as a Place search often shows cafes, while as a Profile search it shows creatives, small businesses, and entrepreneurs. This isn't a strict rule, but it's a common pattern that's connected to whether an account is listed in a certain business category or not. You can also try \ud83d\udd17 [Local Lead Generation Agent](https://apify.com/apify/local-lead-generation-agent), built to find local businesses that are active on Instagram.\n\n### What are the best practices for searching hashtags?\n\nStart with single-word hashtags. Multi-word hashtags usually return fewer results.\n\n### Why is the maximum 250 results per search term?\n\n250 is the most Instagram returns for a single search, so the scraper can't go beyond it no matter how high you set the limit. To collect more, run several related keywords (each returns up to 250), or switch to a dedicated scraper such as \ud83d\udd17 [Instagram Hashtag Scraper](https://apify.com/apify/instagram-hashtag-scraper) or \ud83d\udd17 [Instagram Profile Scraper](https://apify.com/apify/instagram-profile-scraper) for deeper data on a specific target.\n\n### Where do the search results come from?\n\nResults come from Google, Facebook Ads, or Threads.\n\n### Is it legal to scrape Instagram content?\n\nInstagram Search Scraper only collects **publicly available data** from Instagram. It does not access private content. Some public data may still be considered personal data under regulations like the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). Only scrape data if you have a legitimate reason. For guidance, see the Apify blog on [the legality of web scraping](https://blog.apify.com/is-web-scraping-legal/).\n\n### Can I integrate Instagram search data with other services?\n\nYes. Scraped data can be integrated with almost any cloud service or web app. Apify supports **Zapier, n8n, Slack, Make, Airbyte, Gumloop, CrewAI, IFTTT, Lindy, GitHub, Google Sheets, Google Drive**, [and more](https://apify.com/integrations). You can also use [webhooks](https://docs.apify.com/integrations/webhooks) to trigger actions whenever a run finishes, like sending notifications or syncing datasets.\n\n### Can I use this Instagram search API programmatically?\n\nYes. The Apify API provides programmatic access to run Actors, fetch datasets, monitor performance, and manage tasks. For Node.js, use the apify-client [NPM package](https://apify.com/apify/instagram-search-scraper/api/javascript). For Python, use the apify-client [PyPI package](https://apify.com/apify/instagram-search-scraper/api/python). Full API docs are available in the [Apify API reference](https://docs.apify.com/api/v2).\n\n### Can I get Instagram search results through an MCP server?\n\nYes. You can [connect](https://apify.com/apify/instagram-search-scraper/api/mcp) to an MCP server using clients like Claude Desktop or LibreChat, or build your own integration. For Instagram Search Scraper:\n\n1. Start a Server-Sent Events (SSE) session to receive a `sessionId`.\n2. Send API messages using that `sessionId` to trigger the scraper.\n3. The message starts Instagram Search Scraper with the provided input.\n4. The response should be: Accepted.\n\nLearn more in the [MCP setup guide](https://blog.apify.com/how-to-use-mcp/).\n\n### Instagram Search Scraper not working\n\nThe Apify team constantly improves Actor performance. If you find bugs or technical issues, create an issue on the Actor's [Issues tab](https://apify.com/apify/instagram-search-scraper/issues/open).\n",
+    "input": {
+      "title": "Input schema for Instagram Search Scraper",
+      "type": "object",
+      "description": "To scrape search results, type in a <b>\ud83d\udd0d Search term</b>, choose the <b>\ud83e\uddda Search type</b>, and the <b>\ud83d\udcaf Number of results</b>. Then click <b>&#9655; Start</b> and your data is on its way!<br><br>\ud83d\ude80 <b>New:</b> choose <b>Search popular reels</b> to pull up to ~64 reels trending for your keyword, not just ones tied to a hashtag.<br><br>#\ufe0f\u20e3 If you would like to scrape hashtagged content in more detail, go for <a href='https://console.apify.com/actors/reGe1ST3OBgYZSsZJ/input' target='_blank' rel='noopener'>Instagram Hashtag Scraper</a>.<br> \ud83d\udd7a If you would like to scrape profiles in more detail, go for <a href='https://console.apify.com/actors/dSCLg0C3YEZ83HzYX/input' target='_blank' rel='noopener'>Instagram Profile Scraper</a>.<br> \ud83d\udccd If you would like to scrape locations in more detail, go for <a href='https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input' target='_blank' rel='noopener'>Instagram Scraper</a>.<br> \ud83c\udf9e\ufe0f If you would like to scrape reels in more detail or download them, go for <a href='https://console.apify.com/actors/xMc5Ga1oCONPmWJIa/input' target='_blank' rel='noopener'>Instagram Reel Scraper</a>.",
+      "schemaVersion": 1,
+      "properties": {
+        "search": {
+          "title": "\ud83d\udd0d Search term",
+          "type": "string",
+          "description": "Provide a keyword which will be used to extract Instagram search results. A keyword can be one or more words. To scrape multiple search terms at once, submit them as a comma-separated list.",
+          "editor": "textfield",
+          "default": "restaurant, restaurant prague",
+          "pattern": "^[^!?.,:;\\-+=*&%$#@/\\~^|<>()[\\]{}\"'`]+(?:,[^!?.,:;\\-+=*&%$#@/\\~^|<>()[\\]{}\"'`]+)*$",
+          "prefill": "restaurant"
+        },
+        "searchType": {
+          "title": "\ud83e\uddda Search type",
+          "type": "string",
+          "description": "Choose the type of Instagram page to search for (places, profiles, or hashtags), or `Search popular reels` to scrape trending reels for the keyword.",
+          "editor": "select",
+          "enum": [
+            "place",
+            "user",
+            "hashtag",
+            "popular"
+          ],
+          "enumTitles": [
+            "Search places",
+            "Search profiles",
+            "Search hashtags",
+            "Search popular reels"
+          ],
+          "default": "place",
+          "prefill": "hashtag"
+        },
+        "searchLimit": {
+          "title": "\ud83d\udcaf Maximum results per search term",
+          "type": "integer",
+          "description": "Set the maximum number of search results (hashtags, users, or places) you want to scrape. If you set it to 5, you'll get 5 results for each search term you've included.",
+          "editor": "number",
+          "prefill": 1,
+          "minimum": 1,
+          "maximum": 250
+        },
+        "enhanceUserSearchWithFacebookPage": {
+          "title": "Enhance the user search (top 10) with Facebook page and email info when available (higher credit usage)",
+          "type": "boolean",
+          "description": "For each user from the top 10, the scraper will extract their Facebook page that sometimes contains their business email. Keep in mind that you're forbidden to collect personal data in certain jurisdictions. See <a href=\"https://blog.apify.com/is-web-scraping-legal/#think-twice-before-scraping-personal-data\">this article</a> for more details.",
+          "editor": "hidden"
+        },
+        "liveSearch": {
+          "title": "\ud83d\udd0e Scrape with live search",
+          "type": "boolean",
+          "description": "Enable this option if you want to get data from a live Instagram search. Please note that the dataset will be slightly different than the one produced by standard search.",
+          "editor": "checkbox"
+        }
+      },
+      "required": [
+        "search"
+      ]
+    }
+  },
+  "buildNumber": "0.1.508",
+  "actVersion": {
+    "sourceType": "GIT_REPO",
+    "buildTag": "latest",
+    "versionNumber": "0.1"
+  },
+  "usage": {
+    "ACTOR_COMPUTE_UNITS": 0.0032133333333333332
+  },
+  "usageTotalUsd": 0.0006426666666666667,
+  "usageUsd": {
+    "ACTOR_COMPUTE_UNITS": 0.0006426666666666667
+  }
+}

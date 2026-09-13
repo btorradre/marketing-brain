@@ -1,0 +1,13 @@
+<h1 class="lt-min-title">All Collections</h1>
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 22px;">
+{% for collection in collections %}
+  {% unless collection.handle == 'frontpage' or collection.handle == 'all' %}
+    <a href="{{ collection.url }}" style="text-decoration:none; color:inherit;">
+      <div style="background: var(--lt-cream-2); border:1px solid var(--lt-line); border-radius: 12px; padding: 20px;">
+        <div style="font-family:'Cormorant Garamond',serif; font-size:20px; font-weight:600;">{{ collection.title }}</div>
+        <div style="margin-top:6px; color: var(--lt-muted); font-size: 13px;">{{ collection.products_count }} items</div>
+      </div>
+    </a>
+  {% endunless %}
+{% endfor %}
+</div>

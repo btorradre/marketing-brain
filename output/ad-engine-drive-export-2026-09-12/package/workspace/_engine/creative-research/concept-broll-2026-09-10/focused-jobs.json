@@ -1,0 +1,123 @@
+[
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 60,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "spender": "brandtracker",
+      "sort_by": "reachDelta7d"
+    },
+    "tracked-reachDelta7d"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 60,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "spender": "brandtracker",
+      "sort_by": "reach"
+    },
+    "tracked-reach"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 60,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "spender": "brandtracker",
+      "sort_by": "longestRunning"
+    },
+    "tracked-longestRunning"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 30,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "query": "lymph",
+      "sort_by": "reach"
+    },
+    "focused-lymph"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 30,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "query": "bloating",
+      "sort_by": "reach"
+    },
+    "focused-bloating"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 30,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "query": "skeleton",
+      "sort_by": "reach",
+      "keywords": [
+        "gut",
+        "body",
+        "health",
+        "pain"
+      ],
+      "keyword_mode": "any"
+    },
+    "focused-skeleton"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 30,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "query": "podcast",
+      "sort_by": "reach"
+    },
+    "focused-podcast"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 60,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "technologies": [
+        "shopify"
+      ],
+      "sort_by": "reachDelta7d"
+    },
+    "shopify-growth"
+  ]
+]

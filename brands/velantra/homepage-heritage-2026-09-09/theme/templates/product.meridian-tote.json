@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "Meridian",
+        "description_override": "<p>The Meridian has a composed kind of ease. A softly structured shape, pebbled leather and silver-tone accents bring definition without feeling formal. From a morning appointment to a table booked for two, it suits the woman who likes her everyday pieces to feel considered.<\/p>",
+        "fact_material": "Pebbled leather",
+        "fact_detail": "Made by artisans with 10 years of experience",
+        "preorder_lead_time": "10 days before dispatch",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": false,
+        "fact_carry": "10 days before dispatch",
+        "lead_time": "10 days before dispatch"
+      },
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>The Meridian combines an open top with short, flat handles, folded side gussets and silver-tone front fittings. Inside, a central zipped compartment separates two open sections. Approximate dimensions are 37 × 24 × 15 cm (W × H × D).<\/p>",
+            "open": false
+          }
+        },
+        "tab_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>Wipe the leather with a soft, dry cloth. Keep it away from prolonged moisture, direct heat and sunlight, and store it loosely filled to support its shape.<\/p>",
+            "open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Shipping & delivery",
+            "content": "<p>Please allow 10 days from your order to dispatch. Delivery time is additional and varies by destination. You will receive tracking details when your order ships. See our <a href=\"\/policies\/shipping-policy\">shipping policy<\/a> for delivery information.<\/p>",
+            "open": false
+          }
+        },
+        "tab_returns": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Returns are accepted within 30 days of delivery for unused items in their original packaging with tags attached. To arrange a return, contact <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com<\/a>. See our <a href=\"\/policies\/refund-policy\">return policy<\/a> for full conditions.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_care",
+        "tab_shipping",
+        "tab_returns"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "The Rhythm Of Making",
+        "text": "<p>A closer look at the textures, seams and finishing details that give the Meridian its character.<\/p>"
+      },
+      "blocks": {
+        "material": {
+          "type": "stage",
+          "settings": {
+            "day": "Material",
+            "heading": "Pebbled leather",
+            "default_asset": "meridian-craft-material.jpg",
+            "alt": "Close-up of the Meridian Brown leather grain and natural front-body fold.",
+            "text": "<p>The Meridian Brown leather grain and natural front-body fold.<\/p>"
+          }
+        },
+        "stitching": {
+          "type": "stage",
+          "settings": {
+            "day": "Stitching",
+            "heading": "Tonal stitching",
+            "default_asset": "meridian-craft-stitching.jpg",
+            "alt": "Detail of the Meridian’s stitched front edge in Brown.",
+            "text": "<p>The Meridian’s stitched front edge in Brown.<\/p>"
+          }
+        },
+        "finishing": {
+          "type": "stage",
+          "settings": {
+            "day": "Finishing",
+            "heading": "Finished edges",
+            "default_asset": "meridian-craft-finishing.jpg",
+            "alt": "Close-up of the Meridian’s curved side gusset and finished leather edge.",
+            "text": "<p>The Meridian’s curved side gusset and finished leather edge.<\/p>"
+          }
+        },
+        "hardware": {
+          "type": "stage",
+          "settings": {
+            "day": "Details",
+            "heading": "Silver details",
+            "default_asset": "meridian-craft-hardware.jpg",
+            "alt": "Detail of the Meridian’s silver center fitting and slotted belt ends.",
+            "text": "<p>The Meridian’s silver center fitting and slotted belt ends.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "material",
+        "stitching",
+        "finishing",
+        "hardware"
+      ]
+    },
+    "value": {
+      "type": "value-breakdown",
+      "settings": {
+        "default_asset": "r40-40589715112001-white-studio.webp",
+        "image_description": "The Meridian in Brown, photographed in a white studio",
+        "image_fit": "contain",
+        "heading": "Luxury, Without The Logo",
+        "copy": "<p>The character is in the texture, the shape and the details.<\/p>",
+        "table_caption": "The Meridian in Brown: visible design details",
+        "detail_heading": "Detail",
+        "product_heading": "The Meridian",
+        "purpose_heading": "The purpose",
+        "sticky_content": true
+      },
+      "blocks": {
+        "detail1": {
+          "type": "detail",
+          "settings": {
+            "detail": "Surface",
+            "product_detail": "Visible pebbled grain",
+            "purpose": "Tactile character"
+          }
+        },
+        "detail2": {
+          "type": "detail",
+          "settings": {
+            "detail": "Handles",
+            "product_detail": "Short, flat leather handles",
+            "purpose": "A clean outline"
+          }
+        },
+        "detail3": {
+          "type": "detail",
+          "settings": {
+            "detail": "Silhouette",
+            "product_detail": "Wide body with folded sides",
+            "purpose": "A sculpted shape"
+          }
+        },
+        "detail4": {
+          "type": "detail",
+          "settings": {
+            "detail": "Upper edge",
+            "product_detail": "Open-top profile",
+            "purpose": "An uncluttered line"
+          }
+        },
+        "detail5": {
+          "type": "detail",
+          "settings": {
+            "detail": "Hardware",
+            "product_detail": "Silver tone",
+            "purpose": "A cool accent"
+          }
+        },
+        "detail6": {
+          "type": "detail",
+          "settings": {
+            "detail": "Identity",
+            "product_detail": "Logo-free exterior",
+            "purpose": "The bag comes first"
+          }
+        }
+      },
+      "block_order": [
+        "detail1",
+        "detail2",
+        "detail3",
+        "detail4",
+        "detail5",
+        "detail6"
+      ]
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

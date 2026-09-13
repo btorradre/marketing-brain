@@ -1,0 +1,1040 @@
+{
+  "schema_version": "design-example-3",
+  "status": "proposed_not_executable",
+  "example_only": true,
+  "note": "Synthetic planning examples. IDs, hashes, budgets, tool categories and results do not identify real submissions or delivered assets. Workspace identity and grants must be supplied and checked by the authenticated server, never trusted from model output.",
+  "agent_registry": [
+    {
+      "id": "overseer",
+      "purpose": "Own merchant conversation, task graph, decisions and verified delivery",
+      "capabilities": [
+        "context.read",
+        "task.dispatch",
+        "decision.record",
+        "artifact.select",
+        "budget.inspect",
+        "run.finish"
+      ],
+      "reasoning_model_policy": "gpt-6-astra_required",
+      "may_spawn_agents_directly": false,
+      "reports_to": "merchant"
+    },
+    {
+      "id": "brand_product",
+      "purpose": "Maintain source-backed brand and exact product/variant dossier",
+      "capabilities": [
+        "catalog.read",
+        "evidence.read",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "research_strategy",
+      "purpose": "Develop evidence-backed buying arguments and concept hypotheses",
+      "capabilities": [
+        "research.read",
+        "evidence.read",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "video_analysis",
+      "purpose": "Inspect actual references, raw footage, generated clips and edits; return timestamped evidence and actionable diagnosis",
+      "capabilities": [
+        "asset.read",
+        "media.inspect",
+        "video.frames_extract",
+        "audio.inspect",
+        "transcript.align",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline_with_verified_video_audio_analysis_tools",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "reference_style",
+      "purpose": "Derive conditional style profiles and target transfer choices from inspected video evidence",
+      "capabilities": [
+        "media.inspect",
+        "reference.read",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "script",
+      "purpose": "Write or revise exact authorized narration",
+      "capabilities": [
+        "context.read",
+        "evidence.read",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "editorial_planning",
+      "purpose": "Own canonical plan, scene reasons and aligned edit schedule",
+      "capabilities": [
+        "context.read",
+        "media.inspect",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "storyboard",
+      "purpose": "Populate and verify Cut Room cards and selected media",
+      "capabilities": [
+        "board.read",
+        "board.write_scoped",
+        "asset.read",
+        "delivery.verify"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "clip_production",
+      "purpose": "Obtain an inspected usable shot for each beat",
+      "capabilities": [
+        "asset.search",
+        "source.retrieve",
+        "media.inspect",
+        "subtask.request",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "image_generation",
+      "purpose": "Generate assigned images with GPT Image 2",
+      "capabilities": [
+        "generation.image_scoped",
+        "media.inspect",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "video_generation",
+      "purpose": "Generate assigned motion with Google Omni",
+      "capabilities": [
+        "generation.video_scoped",
+        "media.inspect",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "voice_alignment",
+      "purpose": "Produce authorized speech/presenter sync and exact alignment",
+      "capabilities": [
+        "generation.voice_scoped",
+        "generation.presenter_scoped",
+        "audio.inspect",
+        "alignment.create",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "resolve_editing",
+      "purpose": "Build native isolated Resolve edits and exports",
+      "capabilities": [
+        "resolve.read",
+        "resolve.write_leased",
+        "resolve.render",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "independent_qa",
+      "purpose": "Review pinned artifacts using inspectable evidence",
+      "capabilities": [
+        "artifact.read_pinned",
+        "media.inspect",
+        "review.submit"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "delivery",
+      "purpose": "Package and verify selected approved-scope artifacts",
+      "capabilities": [
+        "artifact.read",
+        "export.register",
+        "delivery.verify"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "performance_analysis",
+      "purpose": "Analyze matched export/ad measurements",
+      "capabilities": [
+        "campaign.read",
+        "measurements.import_scoped",
+        "artifact.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "learning",
+      "purpose": "Turn incidents into scoped candidates and evaluations",
+      "capabilities": [
+        "incident.read",
+        "lesson.propose",
+        "evaluation.request"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    },
+    {
+      "id": "harness_engineering",
+      "purpose": "Produce isolated tested patches and rollback packages",
+      "capabilities": [
+        "code.read_scoped",
+        "code.patch_isolated",
+        "tests.run",
+        "release.propose"
+      ],
+      "reasoning_model_policy": "configured_role_model_gpt_6_initial_baseline",
+      "may_spawn_agents_directly": false,
+      "reports_to": "overseer"
+    }
+  ],
+  "task_example": {
+    "server_context": {
+      "workspace_id": "demo_workspace_a",
+      "principal_id": "demo_worker_clip_1",
+      "authorization_grant_id": "demo_grant_create_ad",
+      "lease_fencing_token": 7
+    },
+    "task": {
+      "id": "demo_clip_b03",
+      "run_id": "demo_run_1",
+      "creative_id": "demo_creative_1",
+      "creative_revision": 4,
+      "assigned_agent": "clip_production",
+      "dependencies": [
+        "demo_aligned_plan",
+        "demo_first_frame_qa"
+      ],
+      "objective": "Obtain a distinct clip showing a hand closing the selected product, with the closure action visibly complete before the cut.",
+      "scope": {
+        "beat_ids": [
+          "B03"
+        ],
+        "product_variant_id": "demo_variant_1",
+        "editable_fields": [
+          "proposed_shot_selection"
+        ],
+        "preserve": [
+          "locked_narration",
+          "voice_speed",
+          "style_family",
+          "product_identity"
+        ]
+      },
+      "inputs": [
+        {
+          "artifact_id": "demo_edit_plan_v3",
+          "kind": "aligned_edit_plan",
+          "hash": "sha256:example_placeholder"
+        },
+        {
+          "artifact_id": "demo_selected_first_frame",
+          "kind": "inspected_first_frame",
+          "hash": "sha256:example_placeholder"
+        }
+      ],
+      "context": {
+        "style_version": "demo_guided_product_v2",
+        "lesson_ids": [
+          "demo_action_completion_lesson"
+        ],
+        "source_route": "generated_video",
+        "video_provider": "Google Omni",
+        "requested_duration_seconds": 6,
+        "aspect_ratio": "9:16",
+        "provider_capability_must_be_verified": true
+      },
+      "acceptance": [
+        "Correct selected product variant and identity",
+        "Closure action completes in selected interval",
+        "Distinct composition and action compared with other beats",
+        "Actual video interval inspected and evidence retained",
+        "Requested provider duration/format preserved or limitation reported"
+      ],
+      "limits": {
+        "max_attempts": 2,
+        "external_spend": "use_server_reservation_no_example_dollar_amount",
+        "deadline": "server_supplied",
+        "max_direct_child_agents": 0
+      },
+      "output_contract": {
+        "required": [
+          "status",
+          "artifact_ids",
+          "input_hashes",
+          "checks",
+          "external_handles",
+          "cost_receipts",
+          "unresolved"
+        ],
+        "completion_requires": "actual_accessible_shot_and_evidence_verified_by_server"
+      }
+    }
+  },
+  "result_example": {
+    "scenario": "The synthetic generated clip omits the requested closure action. The specialist requests revision without claiming success.",
+    "server_stamped": {
+      "workspace_id": "demo_workspace_a",
+      "agent_id": "demo_worker_clip_1",
+      "task_id": "demo_clip_b03",
+      "attempt_id": "demo_attempt_1",
+      "lease_fencing_token": 7
+    },
+    "result": {
+      "status": "needs_revision",
+      "artifact_ids": [
+        "demo_unselected_video_candidate"
+      ],
+      "input_hashes": [
+        "sha256:example_placeholder"
+      ],
+      "checks": [
+        {
+          "criterion": "closure_action_completes",
+          "verdict": "fail",
+          "evidence": {
+            "artifact_id": "demo_unselected_video_candidate",
+            "interval_seconds": [
+              0,
+              6
+            ],
+            "observation": "Synthetic example: hand reaches the closure but does not close it."
+          }
+        }
+      ],
+      "external_handles": [
+        {
+          "provider": "Google Omni",
+          "job_id": "demo_job_not_submitted",
+          "state": "synthetic_terminal_example"
+        }
+      ],
+      "cost_receipts": [],
+      "cost_state": "unknown_not_zero",
+      "proposed_change": "Request a revised motion job that begins with the hand already at the closure and completes the close within the provider-supported interval.",
+      "unresolved": [
+        "No selected usable shot yet"
+      ],
+      "next_action": "overseer_decides_revision_within_existing_grant_and_budget"
+    }
+  },
+  "graph_example": {
+    "workflow": "our_existing_reference_adaptation_workflow_wrapped_by_agents",
+    "stage": "design_only",
+    "tasks": [
+      {
+        "id": "T01",
+        "agent": "brand_product",
+        "dependencies": [],
+        "required_output": "product_dossier",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W01"
+        ],
+        "current_workflow_binding": "context_recovery_helper",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T02",
+        "agent": "research_strategy",
+        "dependencies": [
+          "T01"
+        ],
+        "required_output": "concept_brief",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W03"
+        ],
+        "current_workflow_binding": "research_and_concept_packets_if_needed",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T03A",
+        "agent": "video_analysis",
+        "dependencies": [],
+        "required_output": "timestamped_reference_analysis_package",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W02"
+        ],
+        "current_workflow_binding": "video_analysis_within_plan",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T03",
+        "agent": "reference_style",
+        "dependencies": [
+          "T03A"
+        ],
+        "required_output": "reference_style_audit",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W02"
+        ],
+        "current_workflow_binding": "style_interpretation_within_plan",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T04",
+        "agent": "script",
+        "dependencies": [
+          "T01",
+          "T02",
+          "T03"
+        ],
+        "required_output": "script_version",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W03"
+        ],
+        "current_workflow_binding": "script_packet_or_existing_locked_script",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T05",
+        "agent": "independent_qa",
+        "dependencies": [
+          "T04"
+        ],
+        "required_output": "script_review",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W03"
+        ],
+        "current_workflow_binding": "existing_qa_brief_check_not_new_user_gate",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T06",
+        "agent": "editorial_planning",
+        "dependencies": [
+          "T03",
+          "T05"
+        ],
+        "required_output": "provisional_edit_plan",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W04"
+        ],
+        "current_workflow_binding": "plan_packet",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T07",
+        "agent": "image_generation",
+        "dependencies": [
+          "T06"
+        ],
+        "required_output": "identity_anchors",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W05"
+        ],
+        "current_workflow_binding": "images_packet_identity_anchor_subtask",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T08",
+        "agent": "image_generation",
+        "dependencies": [
+          "T06",
+          "T07"
+        ],
+        "required_output": "first_asset_set",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W05"
+        ],
+        "current_workflow_binding": "images_packet_first_asset_subtasks",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T09",
+        "agent": "independent_qa",
+        "dependencies": [
+          "T08"
+        ],
+        "required_output": "first_asset_review",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W05"
+        ],
+        "current_workflow_binding": "existing_asset_inspection_helper",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T10",
+        "agent": "storyboard",
+        "dependencies": [
+          "T06",
+          "T09"
+        ],
+        "required_output": "populated_verified_board",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W06"
+        ],
+        "current_workflow_binding": "storyboard_packet",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T11",
+        "agent": "voice_alignment",
+        "dependencies": [
+          "T05",
+          "T06"
+        ],
+        "required_output": "selected_speech_and_word_alignment",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W07"
+        ],
+        "current_workflow_binding": "existing_voice_alignment_tools_production_helper",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T12",
+        "agent": "editorial_planning",
+        "dependencies": [
+          "T06",
+          "T11"
+        ],
+        "required_output": "aligned_edit_plan",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W09"
+        ],
+        "current_workflow_binding": "plan_packet_timing_revision",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T13",
+        "agent": "video_generation",
+        "dependencies": [
+          "T09",
+          "T10",
+          "T12"
+        ],
+        "required_output": "provider_motion_outputs",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W08"
+        ],
+        "current_workflow_binding": "video_packet",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T14",
+        "agent": "clip_production",
+        "dependencies": [
+          "T12",
+          "T13"
+        ],
+        "required_output": "selected_usable_shot_ranges",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W08"
+        ],
+        "current_workflow_binding": "selected_clip_inspection_helper",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T14A",
+        "agent": "video_analysis",
+        "dependencies": [
+          "T11",
+          "T14"
+        ],
+        "required_output": "selected_motion_and_audio_analysis",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W08"
+        ],
+        "current_workflow_binding": "video_analysis_selected_interval_helper",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T15",
+        "agent": "independent_qa",
+        "dependencies": [
+          "T11",
+          "T14",
+          "T14A"
+        ],
+        "required_output": "motion_and_audio_review",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W08"
+        ],
+        "current_workflow_binding": "existing_media_inspection_helper",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T16",
+        "agent": "resolve_editing",
+        "dependencies": [
+          "T10",
+          "T12",
+          "T15"
+        ],
+        "required_output": "native_project_and_export",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W10"
+        ],
+        "current_workflow_binding": "edit_packet",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T16A",
+        "agent": "video_analysis",
+        "dependencies": [
+          "T16"
+        ],
+        "required_output": "timestamped_export_diagnosis",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W11"
+        ],
+        "current_workflow_binding": "video_analysis_within_review",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T17",
+        "agent": "independent_qa",
+        "dependencies": [
+          "T16",
+          "T16A"
+        ],
+        "required_output": "finished_media_review",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W11"
+        ],
+        "current_workflow_binding": "review_packet",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T18",
+        "agent": "delivery",
+        "dependencies": [
+          "T17"
+        ],
+        "required_output": "verified_delivery_package",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W12"
+        ],
+        "current_workflow_binding": "existing_delivery_and_export_receipts",
+        "merchant_approval_gate": false
+      },
+      {
+        "id": "T19",
+        "agent": "learning",
+        "dependencies": [
+          "T18"
+        ],
+        "required_output": "lesson_candidates",
+        "require_dependencies_verified": true,
+        "workflow_steps": [
+          "W12"
+        ],
+        "current_workflow_binding": "existing_remember_plus_proposed_tested_learning",
+        "merchant_approval_gate": false
+      }
+    ],
+    "fanout_notes": [
+      "T08 expands into presenter if required, each distinct covering scene, overlays and every planned video first frame; merge all required results before T09.",
+      "T13 expands by generated video scene; sourced footage routes to Clip Production without video synthesis.",
+      "T11 may execute alongside T07-T10 after the plan exists when the merchant authorized both.",
+      "Final assembly waits for all selected scene intervals and final narration alignment.",
+      "Feedback can start a separate learning task before T19; T19 is the end-of-delivery consolidation.",
+      "Campaign analysis is optional and requires exact ad/export mappings and actual imported measurements; it never blocks ordinary creative delivery.",
+      "Video Analysis returns observed media evidence; Reference and Style interprets transfer, Editorial Planning owns the edit schedule, and Independent QA owns its separate verdict.",
+      "W01-W13 are the governing workflow map; this task graph only assigns agent ownership to those responsibilities.",
+      "Existing approved script/assets and verified reference evidence may satisfy nodes without rerunning production.",
+      "Merchant-specific onboarding and platform packaging follow workflow parity; they are not prerequisites for running the harness on our current concepts."
+    ],
+    "route_scope": "Illustrative authorized full-ad reference route only. Reuse selected inputs and skip satisfied or unrequested tasks; this graph does not define mandatory new workflow stages."
+  },
+  "state_contract": {
+    "task_states": [
+      "pending",
+      "ready",
+      "running",
+      "waiting_external",
+      "reconciling",
+      "awaiting_review",
+      "needs_revision",
+      "succeeded",
+      "blocked",
+      "failed",
+      "cancelled",
+      "superseded"
+    ],
+    "attempt_lease_expiry": "reconcile_external_state_before_retry",
+    "result_commit": "require_current_lease_expected_revision_and_verified_receipts",
+    "approval": "separate_authenticated_merchant_event_when_required_by_actual_scope",
+    "cancellation": "prevent_new_dispatch_preserve_submitted_job_cost_and_receipts"
+  },
+  "revision_rules": [
+    {
+      "change": "broll_asset_only",
+      "invalidate": [
+        "affected_scene_selection",
+        "affected_board_card",
+        "dependent_timeline_export",
+        "dependent_media_review"
+      ],
+      "preserve": [
+        "narration",
+        "speech_speed",
+        "word_alignment",
+        "unaffected_assets"
+      ]
+    },
+    {
+      "change": "script_or_voice",
+      "invalidate": [
+        "narration_lock_if_authorized_change",
+        "word_alignment",
+        "dependent_plan_timing",
+        "presenter_sync",
+        "caption_alignment",
+        "dependent_exports_and_reviews"
+      ],
+      "preserve": [
+        "historical_revisions",
+        "provider_originals",
+        "unaffected_reference_evidence"
+      ]
+    },
+    {
+      "change": "style_recipe_version",
+      "invalidate": [
+        "future_unpinned_context"
+      ],
+      "preserve": [
+        "active_run_pins",
+        "prior_export_bindings"
+      ],
+      "note": "Apply to an active concept only through an explicit scoped revision."
+    }
+  ],
+  "video_analysis_contract": {
+    "input_media_roles": [
+      "reference_ad",
+      "raw_footage",
+      "generated_clip",
+      "draft_edit",
+      "final_export",
+      "revision_comparison"
+    ],
+    "required_output_fields": [
+      "source_asset_ids_and_hashes",
+      "media_timebase",
+      "inspection_coverage",
+      "shot_and_event_tracks",
+      "transcript_and_audio_evidence_or_gap",
+      "consecutive_cut_boundary_frames",
+      "usable_source_intervals",
+      "timestamped_findings",
+      "editorial_implications",
+      "unverified_modalities"
+    ],
+    "event_tracks": [
+      "base_picture",
+      "overlays",
+      "captions",
+      "framing_and_effects",
+      "audio"
+    ],
+    "evidence_status": [
+      "observed",
+      "inferred",
+      "unverified"
+    ],
+    "consumers": [
+      "reference_style",
+      "clip_production",
+      "editorial_planning",
+      "resolve_editing",
+      "independent_qa",
+      "learning"
+    ],
+    "acceptance": [
+      "Actual requested source media inspected",
+      "Cuts checked on consecutive source frames",
+      "Full selected clip interval reviewed for action and defects",
+      "Coverage and missing modalities stated accurately",
+      "Evidence separates observation from inferred intent",
+      "No unverified performance or conversion conclusion"
+    ],
+    "analysis_only_endpoint": "Deliver analysis package and actionable editorial handoff; do not generate or edit without authorized production scope",
+    "source_mutations_allowed": false,
+    "quality_verdict_owner": "independent_qa",
+    "verification_fixture": "Labeled synthetic media containing known cuts, overlays, speech, silence and an intentionally incomplete action; verify detection, locators and truthful missing-modality reporting"
+  },
+  "workflow_parity_contract": {
+    "source_instruction": {
+      "date": "2026-09-13",
+      "speaker": "user",
+      "text": "Again, it should be the exact workflow that we have, but turned into an agentic harness."
+    },
+    "governing_intent": "GPT-6 coordinates our existing ad workflow through specialist agents; preserve current tools, skills, artifacts, dependencies, authorization and correction behavior.",
+    "current_sources": [
+      "AGENTS.md",
+      "_engine/ad-system/workflow.py",
+      "_engine/sops/Ad-Editing-Plan-First-SOP.md",
+      ".claude/skills/broll-storytelling/SKILL.md",
+      ".claude/skills/ad-editing-style/SKILL.md",
+      ".claude/skills/cutroom/SKILL.md",
+      ".claude/skills/broll-storytelling/references/concept-skills.md"
+    ],
+    "current_task_kinds": [
+      "research",
+      "concept",
+      "script",
+      "plan",
+      "source",
+      "images",
+      "video",
+      "storyboard",
+      "edit",
+      "review",
+      "analyze"
+    ],
+    "performance_task_kind": "analyze",
+    "video_analysis_binding": "Within reference planning or actual media review, or an explicitly requested standalone capability; never redefine the existing performance analyze task.",
+    "roles_are_not_mandatory_stages": true,
+    "existing_selection_can_satisfy_dependencies": true,
+    "new_merchant_checkpoints_from_agent_boundaries": false,
+    "initial_record_authority": "existing Ad Studio creative database and current committed memory projections",
+    "build_order": [
+      "map_actual_workflow",
+      "overseer_runs_current_planning",
+      "current_first_assets_and_cutroom",
+      "current_voice_video_alignment_resolve_delivery",
+      "revision_and_resume_parity",
+      "tested_learning",
+      "merchant_portability",
+      "external_pilot"
+    ],
+    "parity_assertions": [
+      "Exact selected narration and authorized revision scope preserved",
+      "Editing plan precedes every production job",
+      "Required first assets appear on the actual Cut Room board",
+      "Current model/editor routes and scoped exceptions honored",
+      "Actual reference and final media inspection coverage recorded honestly",
+      "Existing source and product identity requirements preserved",
+      "Visual-only revisions retain selected speech speed, alignment and captions",
+      "Real provider/editor handles reconciled before retries",
+      "Exact export hashes and structured memory receipts saved",
+      "Learning changes remain scoped and tested"
+    ],
+    "productization_rule": "Generalize merchant inputs and access after proving this same workflow; do not replace its editorial method or tools.",
+    "steps": [
+      {
+        "id": "W01",
+        "existing_work": "Recover assignment and memory",
+        "agent_roles": [
+          "overseer",
+          "brand_product"
+        ],
+        "current_entrypoints": [
+          "context",
+          "memory-search",
+          "show"
+        ]
+      },
+      {
+        "id": "W02",
+        "existing_work": "Inspect actual reference or raw footage",
+        "agent_roles": [
+          "video_analysis",
+          "reference_style"
+        ],
+        "current_entrypoints": [
+          "plan"
+        ]
+      },
+      {
+        "id": "W03",
+        "existing_work": "Develop or preserve concept and script",
+        "agent_roles": [
+          "research_strategy",
+          "script"
+        ],
+        "current_entrypoints": [
+          "research",
+          "concept",
+          "script"
+        ]
+      },
+      {
+        "id": "W04",
+        "existing_work": "Save or update concrete editing plan",
+        "agent_roles": [
+          "editorial_planning"
+        ],
+        "current_entrypoints": [
+          "plan"
+        ]
+      },
+      {
+        "id": "W05",
+        "existing_work": "Produce and inspect required first assets",
+        "agent_roles": [
+          "clip_production",
+          "image_generation",
+          "independent_qa"
+        ],
+        "current_entrypoints": [
+          "source",
+          "images"
+        ]
+      },
+      {
+        "id": "W06",
+        "existing_work": "Deliver populated Cut Room storyboard",
+        "agent_roles": [
+          "storyboard"
+        ],
+        "current_entrypoints": [
+          "storyboard"
+        ]
+      },
+      {
+        "id": "W07",
+        "existing_work": "Select or produce voice and presenter; align words",
+        "agent_roles": [
+          "voice_alignment"
+        ],
+        "current_entrypoints": [
+          "existing voice/presenter tools within authorized production"
+        ]
+      },
+      {
+        "id": "W08",
+        "existing_work": "Obtain and inspect planned clips",
+        "agent_roles": [
+          "video_generation",
+          "clip_production",
+          "video_analysis"
+        ],
+        "current_entrypoints": [
+          "source",
+          "video"
+        ]
+      },
+      {
+        "id": "W09",
+        "existing_work": "Update edit plan against selected narration timing",
+        "agent_roles": [
+          "voice_alignment",
+          "editorial_planning"
+        ],
+        "current_entrypoints": [
+          "plan"
+        ]
+      },
+      {
+        "id": "W10",
+        "existing_work": "Execute native Resolve edit",
+        "agent_roles": [
+          "resolve_editing"
+        ],
+        "current_entrypoints": [
+          "edit"
+        ]
+      },
+      {
+        "id": "W11",
+        "existing_work": "Inspect actual edit and route targeted revision",
+        "agent_roles": [
+          "video_analysis",
+          "independent_qa",
+          "overseer"
+        ],
+        "current_entrypoints": [
+          "review"
+        ]
+      },
+      {
+        "id": "W12",
+        "existing_work": "Deliver files and persist actual results",
+        "agent_roles": [
+          "delivery",
+          "overseer",
+          "learning"
+        ],
+        "current_entrypoints": [
+          "export",
+          "save",
+          "remember"
+        ]
+      },
+      {
+        "id": "W13",
+        "existing_work": "Analyze actual matched campaign results when available",
+        "agent_roles": [
+          "performance_analysis",
+          "learning",
+          "overseer"
+        ],
+        "current_entrypoints": [
+          "analyze",
+          "import",
+          "decision",
+          "iterate"
+        ]
+      }
+    ]
+  }
+}

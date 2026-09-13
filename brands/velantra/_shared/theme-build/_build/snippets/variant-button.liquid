@@ -1,0 +1,191 @@
+{%- comment -%}
+  Velantra override of Impulse's variant-button.liquid.
+  Renders Color options as image swatches using each matching variant's featured_image
+  (looked up via Liquid — bypasses Shopify's native swatch system entirely).
+  Renders Size/other options as clean text buttons.
+  Preserves all data attributes so Impulse variant-change JS still works.
+{%- endcomment -%}
+
+{%- assign swatch_file_extension = 'png' -%}
+
+{%- capture size_chart_title -%}
+  {{ 'products.general.size_chart' | t }} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-size-chart" viewBox="0 0 64 64"><path d="M22.39 33.53c-7.46 0-13.5-3.9-13.5-8.72s6-8.72 13.5-8.72 13.5 3.9 13.5 8.72a12 12 0 0 1-.22 1.73"/><ellipse cx="22.39" cy="24.81" rx="3.28" ry="2.12"/><path d="M8.89 24.81V38.5c0 7.9 6.4 9.41 14.3 9.41h31.92V33.53H22.39m24.39 0v7.44m-8.13-7.44v7.44m-8.13-7.44v7.44m-8.13-7.44v7.44"/></svg>
+{%- endcapture -%}
+
+{%- liquid
+  assign is_size = false
+  assign size_trigger = 'products.general.size_trigger' | t | downcase
+  assign downcased_option = option.name | downcase
+  if downcased_option contains size_trigger
+    assign is_size = true
+  endif
+  assign opt_idx = forloop.index0
+-%}
+
+<div class="variant-wrapper pdp-variant-wrapper js" data-type="button">
+  <label class="variant__label pdp-variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
+    for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
+    <span class="pdp-variant__label-name">{{ option.name }}</span>
+    {%- if connect_to_sizechart and is_size -%}
+      <span class="variant__label-info">
+        &mdash;
+        {%- render 'tool-tip-trigger', title: size_chart_title, content: section.blocks[sizechart_index].settings.size_chart.content, context: 'size-chart' -%}
+      </span>
+    {%- endif -%}
+    {%- if is_color -%}
+      <span class="variant__label-info pdp-variant__selected">
+        &mdash;
+        <span data-variant-color-label data-index="{{ forloop.index0 }}" data-option-index="{{ color_option_index }}">{{ option.selected_value }}</span>
+      </span>
+    {%- endif -%}
+  </label>
+  {%- assign option_index = forloop.index -%}
+  <fieldset class="variant-input-wrap{% if is_color %} pdp-variant-input-wrap--color{% else %} pdp-variant-input-wrap--text{% endif %}"
+    name="{{ option.name }}"
+    data-index="option{{ option_index }}"
+    data-handle="{{ option.name | handleize }}"
+    id="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
+    <legend class="hide">{{ option.name }}</legend>
+    {%- for value in option.values -%}
+      {%- liquid
+        assign product_available = true
+        if product.options.size == 1 and block.settings.product_dynamic_variants_enable
+          assign product_available = product.variants[forloop.index0].available
+        endif
+      -%}
+
+      {%- comment -%} Lookup the first matching variant for this option value to get its image {%- endcomment -%}
+      {%- if is_color -%}
+        {%- assign matched_variant = blank -%}
+        {%- for v in product.variants -%}
+          {%- if matched_variant == blank -%}
+            {%- if v.options[opt_idx] == value -%}
+              {%- assign matched_variant = v -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- liquid
+          assign color_image_url = ''
+          if value.swatch.image
+            assign color_image_url = value.swatch.image | image_url: width: 300
+          endif
+          if color_image_url == '' and matched_variant != blank and matched_variant.featured_image
+            assign color_image_url = matched_variant.featured_image | image_url: width: 300
+          endif
+          if color_image_url == '' and matched_variant != blank and matched_variant.image
+            assign color_image_url = matched_variant.image | image_url: width: 300
+          endif
+          if color_image_url == ''
+            assign color_file_name = value | handle | append: '.' | append: swatch_file_extension
+            if images[color_file_name] != blank
+              assign color_image_url = color_file_name | file_img_url: '300x300' | prepend: 'https:' | split: '?' | first
+            endif
+          endif
+          assign color_swatch_fallback = value.swatch.color
+          if color_swatch_fallback == blank
+            assign color_swatch_fallback = value | split: ' ' | last | handle
+          endif
+        -%}
+      {%- endif -%}
+
+      <div class="variant-input pdp-variant-input"
+        data-index="option{{ option_index }}"
+        data-value="{{ value | escape }}">
+        <input type="radio"
+          form="{{ form_id }}"
+          {% if option.selected_value == value %} checked="checked"{% endif %}
+          value="{{ value | escape }}"
+          data-index="option{{ option_index }}"
+          name="{{ option.name }}"
+          data-variant-input
+          class="{% unless product_available %} disabled{% endunless %}{% if is_color %} variant__input--color-swatch{% endif %}"
+          {% if is_color %} data-color-name="{{ value | escape }}"{% endif %}
+          {% if is_color %} data-color-index="{{ color_option_index }}"{% endif %}
+          id="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}">
+
+        {%- if is_color -%}
+          <label
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
+            class="variant__button-label pdp-variant__swatch color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
+            style="background-color: {{ color_swatch_fallback }};{% if color_image_url != '' %} background-image: url('{{ color_image_url }}');{% endif %}"
+            title="{{ value | escape }}"
+          >
+            <span class="visually-hidden">{{ value | escape }}</span>
+          </label>
+        {%- else -%}
+          <label
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
+            class="variant__button-label pdp-variant__btn{% unless product_available %} disabled{% endunless %}">{{ value | escape }}</label>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </fieldset>
+</div>
+
+<style>
+  .pdp-variant-wrapper { margin: 0 0 22px; font-family: var(--font-stack-base, 'Inter', sans-serif); }
+  .pdp-variant-wrapper .pdp-variant__label {
+    display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px;
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #3a3a3a;
+  }
+  .pdp-variant-wrapper .pdp-variant__label-name { font-weight: 500; }
+  .pdp-variant-wrapper .pdp-variant__selected {
+    font-size: 12px; letter-spacing: 0.04em; text-transform: none; color: #6a6a6a; font-weight: 400;
+  }
+  .pdp-variant-wrapper .pdp-variant-input-wrap--color,
+  .pdp-variant-wrapper .pdp-variant-input-wrap--text {
+    border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px;
+  }
+  .pdp-variant-wrapper .pdp-variant-input { position: relative; display: inline-block; }
+  .pdp-variant-wrapper .pdp-variant-input input[type="radio"] {
+    position: absolute; opacity: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; z-index: 2;
+  }
+  /* COLOR SWATCH — image-based circle (uses variant.featured_image when swatch.image isn't set) */
+  .pdp-variant-wrapper .pdp-variant__swatch.color-swatch {
+    display: block !important;
+    width: 56px !important; height: 56px !important;
+    border-radius: 50% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border: 1px solid rgba(0,0,0,0.08) !important;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: transform 200ms cubic-bezier(.4,0,.2,1), box-shadow 200ms;
+    font-size: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 !important;
+  }
+  .pdp-variant-wrapper .pdp-variant__swatch.color-swatch::before,
+  .pdp-variant-wrapper .pdp-variant__swatch.color-swatch::after { content: none !important; }
+  .pdp-variant-wrapper .pdp-variant__swatch.color-swatch:hover { transform: scale(1.06); }
+  .pdp-variant-wrapper .pdp-variant-input input[type="radio"]:checked + .pdp-variant__swatch.color-swatch {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #1a1a1a !important;
+  }
+  .pdp-variant-wrapper .pdp-variant__swatch.color-swatch.disabled { opacity: 0.4; }
+  /* TEXT BUTTON */
+  .pdp-variant-wrapper .pdp-variant__btn {
+    display: inline-block; cursor: pointer; box-sizing: border-box;
+    padding: 11px 20px; min-width: 56px;
+    background: #ffffff; color: #1a1a1a;
+    border: 1px solid #d4d0c4;
+    font-family: inherit; font-size: 13px; letter-spacing: 0.04em;
+    text-align: center; line-height: 1;
+    transition: border-color 200ms, background 200ms, color 200ms;
+  }
+  .pdp-variant-wrapper .pdp-variant__btn:hover { border-color: #1a1a1a; }
+  .pdp-variant-wrapper .pdp-variant-input input[type="radio"]:checked + .pdp-variant__btn {
+    background: #1a1a1a; color: #ffffff; border-color: #1a1a1a;
+  }
+  .pdp-variant-wrapper .pdp-variant__btn.disabled { opacity: 0.45; text-decoration: line-through; cursor: not-allowed; }
+  .visually-hidden {
+    position: absolute !important; width: 1px !important; height: 1px !important;
+    padding: 0 !important; margin: -1px !important; overflow: hidden !important;
+    clip: rect(0,0,0,0) !important; white-space: nowrap !important; border: 0 !important;
+  }
+  @media (max-width: 480px) {
+    .pdp-variant-wrapper .pdp-variant__swatch.color-swatch { width: 48px !important; height: 48px !important; }
+  }
+</style>

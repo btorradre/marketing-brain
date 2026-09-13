@@ -1,0 +1,135 @@
+{
+  "fetched_at_utc": "2026-09-13T16:48:15.311087+00:00",
+  "query": "FROM sessions SHOW sessions, online_store_visitors, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate, bounce_rate WHERE landing_page_path IN ('/products/velantra-weekender', '/products/the-eleanor-weekender') GROUP BY landing_page_path, session_device_type SINCE 2026-09-07 UNTIL 2026-09-13",
+  "status": 200,
+  "response": {
+    "data": {
+      "shopifyqlQuery": {
+        "tableData": {
+          "columns": [
+            {
+              "name": "landing_page_path",
+              "dataType": "STRING",
+              "displayName": "Landing page path"
+            },
+            {
+              "name": "session_device_type",
+              "dataType": "STRING",
+              "displayName": "Session device type"
+            },
+            {
+              "name": "sessions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions"
+            },
+            {
+              "name": "online_store_visitors",
+              "dataType": "INTEGER",
+              "displayName": "Online store visitors"
+            },
+            {
+              "name": "sessions_with_cart_additions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions with cart additions"
+            },
+            {
+              "name": "sessions_that_reached_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that reached checkout"
+            },
+            {
+              "name": "sessions_that_completed_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that completed checkout"
+            },
+            {
+              "name": "conversion_rate",
+              "dataType": "PERCENT",
+              "displayName": "Conversion rate"
+            },
+            {
+              "name": "bounce_rate",
+              "dataType": "PERCENT",
+              "displayName": "Bounce rate"
+            }
+          ],
+          "rows": [
+            {
+              "landing_page_path": "/products/velantra-weekender",
+              "session_device_type": "mobile",
+              "sessions": "158",
+              "online_store_visitors": "128",
+              "sessions_with_cart_additions": "9",
+              "sessions_that_reached_checkout": "4",
+              "sessions_that_completed_checkout": "3",
+              "conversion_rate": "0.0189873417721519",
+              "bounce_rate": "0.740506329113924"
+            },
+            {
+              "landing_page_path": "/products/velantra-weekender",
+              "session_device_type": "desktop",
+              "sessions": "38",
+              "online_store_visitors": "35",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7105263157894737"
+            },
+            {
+              "landing_page_path": "/products/velantra-weekender",
+              "session_device_type": "tablet",
+              "sessions": "9",
+              "online_store_visitors": "7",
+              "sessions_with_cart_additions": "2",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.5555555555555556"
+            },
+            {
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "session_device_type": "mobile",
+              "sessions": "8",
+              "online_store_visitors": "5",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.875"
+            },
+            {
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "session_device_type": "desktop",
+              "sessions": "7",
+              "online_store_visitors": "7",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.8571428571428571"
+            }
+          ]
+        },
+        "parseErrors": []
+      }
+    },
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 3,
+        "actualQueryCost": 3,
+        "throttleStatus": {
+          "maximumAvailable": 4000.0,
+          "currentlyAvailable": 3995,
+          "restoreRate": 200.0
+        }
+      },
+      "shopifyqlCost": {
+        "requestedQueryCost": 38,
+        "maximumAvailable": 1000,
+        "currentlyAvailable": 864,
+        "windowResetAt": "2026-09-13T16:49:00+00:00"
+      }
+    }
+  }
+}

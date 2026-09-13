@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:2048px;height:2048px;overflow:hidden}
+  body{
+    font-family:'Poppins',-apple-system,'Avenir Next',Helvetica,sans-serif;
+    background:#EAF4DD;position:relative;
+  }
+  .blob{position:absolute;top:-420px;right:-260px;width:1020px;height:900px;
+        background:#D3E5BB;border-radius:50%;}
+  .stage{position:relative;width:2048px;height:2048px;padding:118px 96px 96px;}
+  h1{font-size:138px;font-weight:800;color:#083D15;letter-spacing:-2.5px;line-height:1;position:relative;}
+  .rows{margin-top:120px;width:1268px;display:flex;flex-direction:column;gap:118px;position:relative;}
+  .row{display:flex;gap:60px;align-items:flex-start;}
+  .circ{flex:0 0 330px;width:330px;height:330px;border-radius:50%;
+        border:8px solid #2E6B2A;overflow:hidden;background:#fff;}
+  .circ img{width:100%;height:100%;object-fit:cover;display:block}
+  .txt{padding-top:26px}
+  .txt h2{font-size:73px;font-weight:700;color:#0C4A1B;line-height:1.04;margin-bottom:22px;letter-spacing:-1.2px}
+  .txt p{font-size:48px;font-weight:400;color:#31402F;line-height:1.34;max-width:812px}
+  .hero{position:absolute;right:38px;top:352px;width:715px;}
+  .hero img{width:100%;display:block}
+</style></head>
+<body>
+  <div class="blob"></div>
+  <div class="stage">
+    <h1>Inside Every Gummy</h1>
+    <div class="rows">
+      <div class="row">
+        <div class="circ"><img src="circ1.png"></div>
+        <div class="txt">
+          <h2>Celery Juice Extract</h2>
+          <p>Concentrated for apigenin. Supports the gut-brain signal, and the natural rhythm, that your GLP-1 turns down.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="circ"><img src="circ2.png"></div>
+        <div class="txt">
+          <h2>Chlorophyll Complex</h2>
+          <p>Neutralizes the hydrogen sulfide gas behind sulfur burps, at the source, not just the smell.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="circ"><img src="circ3.png"></div>
+        <div class="txt">
+          <h2>Prebiotic Fiber</h2>
+          <p>The low-viscosity soluble kind. Dissolves completely and adds no bulk, so it holds water in the stool instead of piling up.</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero"><img src="celery_cut.png"></div>
+  </div>
+</body></html>

@@ -1,0 +1,104 @@
+{
+  "family": "juliette",
+  "color": "Camel",
+  "stage": 2,
+  "attempt": "v6",
+  "provider": "Google Gemini Interactions API",
+  "model": "gemini-omni-1.1-flash",
+  "created_utc": "2026-09-05T23:36:28.192025+00:00",
+  "prompt": "[# References <IMAGE_REF_0>@Image1 <IMAGE_REF_1>@Image2] Extend the preceding approved9-second photographic film by9seconds, retaining the preceding9seconds in the complete provider output. Image1/<IMAGE_REF_0> is the EXACT Camel suede body material crop with a natural soft fold. Image2/<IMAGE_REF_1> is the EXACT pair of short dark cool-gray-brown rolled leather handle crowns from the preceding accepted film. These two literal crops are the ONLY sources for every new shot. There are no visible metal fittings in either crop. Do not reveal anything outside these crop boundaries. Keep exact material appearance, scale of texture, seam and curves; no ornament, studs, clasps, rings, collar, corner or full-bag view. Use the same neutral charcoal photographic studio and broad diffused light as the preceding film. Silent audio, no text, no transitions except hard cuts. The camera makes only a tiny source-plane movement or focus shift; there is no new angle.\nTimestamps below are relative to the NEW9-second segment:\n[0-0.25s] Briefly continue the existing handle shaft shot.\n[0.25-2s] Hard cut to the leather handle crowns exactly framed as <IMAGE_REF_1>. Gentle focus shift across the front and rear arcs; do not pull out or expose attachment roots.\n[2-3.75s] Hard cut to exactly <IMAGE_REF_0> at its source camera distance. Fine velvety Camel suede nap and the same soft fold fill the frame. Slow tiny lateral glide, no additional magnification and no body edges or metal.\n[3.75-5.5s] Hard cut tighter onto the front handle curve within <IMAGE_REF_1>, showing its same existing dark leather seam and rounded shaft against charcoal. Do not show roots or the collar. Subtle focus breathing only.\n[5.5-7.25s] Hard cut to the same literal fine matte Camel suede crop <IMAGE_REF_0>, framed slightly lower over its existing natural fold. Soft raking light, very restrained motion, not extreme microscopic zoom. No additional parts, seams or hardware.\n[7.25-9s] Hard cut to the two overlapping leather handle crowns exactly as <IMAGE_REF_1>. Stationary composition, a small focus change from rear to front arc. Finish on this supported handle detail. No complete bag return or endcard.\nFive additional distinct shots with five new hard cuts after the initial brief continuation. Absolute reference preservation: every new frame is a small camera observation WITHIN one of the two supplied photographic crops, never an imagined reconstruction of the complete product. No engraved or embossed patterns, shag, knitted loops or thick fiber strands.\n",
+  "status": "rejected",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "16:9",
+    "resolution": "1080p",
+    "duration": "9s",
+    "delivery": "inline"
+  },
+  "references": [
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/references/extension-v6/material.png",
+      "sha256": "70537bb144582fb4fdfd304e2ee758d7de94b76ff3b3d579fd1b0d6820366827"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/references/extension-v6/handle-crowns.jpg",
+      "sha256": "f25bb4e925b413755d8fecc0c092fd7ac2b4d9480747c0779a1aa7a04107e175"
+    }
+  ],
+  "physical_scale": "unverified",
+  "processing": "Decoded original provider base64 bytes only. No local assembly/editing/transcode/trim.",
+  "previous_interaction_id": "v1_ChZNNkNjYXJudkJKT29qckVQdl9MbktBEhZNNkNjYXJudkJKT29qckVQdl9MbktB",
+  "interaction_id": "v1_ChZNNkNjYXJudkJKT29qckVQdl9MbktBEhdnS2VjYXU3TUNQLWJfdU1QOHZMZ3lRNA",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/exports/v6/juliette-detail-stage-2.mp4",
+  "bytes": 17511501,
+  "sha256": "352df4208b5029fe6507fd4297ba937a0eced3511b16ed53f8cb4f82d301473d",
+  "video_duration": 18.0,
+  "container_duration": 18.005,
+  "frames": 432,
+  "fps": "24/1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "usage": {
+    "total_tokens": 117891,
+    "total_input_tokens": 58791,
+    "input_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 50880
+      },
+      {
+        "modality": "text",
+        "tokens": 1380
+      },
+      {
+        "modality": "image",
+        "tokens": 6531
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58668,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 432,
+    "raw_prompt_token": 48448,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 4118
+          },
+          {
+            "modality": "image",
+            "tokens": 6531
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 754
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 432
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "finished_utc": "2026-09-05T23:38:40.243861+00:00",
+  "rejection_reason": "The isolated suede macro changes the source crease into a new pinwheel fold. Select the approved native9-second five-shot film; no duration-driven further retries."
+}

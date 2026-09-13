@@ -1,0 +1,14 @@
+from pathlib import Path
+import json,shutil,subprocess,requests,html
+r=Path(__file__).resolve().parent;p=r/'capcut';dest=r.parents[5]/'cutroom/assets/mot-vid-013-revised-r3';dest.mkdir(exist_ok=True);projects=json.loads((p/'projects.json').read_text())
+page='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Motilli · Hook variations</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f3ed;color:#153d29;font-family:Arial,sans-serif}main{max-width:1200px;margin:auto;padding:40px 24px}h1{font-size:38px;margin:10px 0}p{line-height:1.55;color:#4a554c}small{letter-spacing:.13em}section{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:28px}article{background:white;border-radius:16px;padding:16px}video{display:block;width:100%;aspect-ratio:9/16;background:#17271b;border-radius:8px}h2{font-size:20px;margin:14px 0 8px}a{color:#153d29}article a{display:inline-block;background:#153d29;color:#fff;text-decoration:none;padding:11px 16px;border-radius:7px}footer{padding-top:28px}@media(max-width:800px){section{grid-template-columns:1fr;max-width:440px;margin:24px auto}h1{font-size:30px}}</style><main><small>MOTILLI · MOT-VID-013</small><h1>Revised edits · all three hooks</h1><p>Distinct B-roll throughout the shared body. Celery appears with the apigenin introduction.<br>1.1× narration · pauses removed · synced B-roll and captions.</p><section>'''
+for pr in projects:
+ v=pr['variant'];name=f'MOT-VID-013-Hook-{v}-R3.mp4';src=p/'exports'/name;dst=dest/name
+ if not dst.exists():dst.hardlink_to(src)
+ subprocess.run(['ffmpeg','-v','error','-y','-ss','0.5','-i',str(src),'-frames:v','1','-vf','scale=360:640',str(dest/f'{v}-poster.jpg')],check=True)
+ page+=f'<article><video controls playsinline preload="metadata" poster="{v}-poster.jpg" src="{name}"></video><h2>{v} · {html.escape({'A':'Remedy Cabinet','B':'Still Backed Up','C':'Another Morning'}[v])}</h2><p>95.9 seconds · 1080 × 1920</p><a href="{name}" download>Download full ad {v}</a></article>'
+shutil.copy2(r.parent/'capcut-r2/MOT-VID-013-R2.srt',dest/'MOT-VID-013-captions.srt');page+='</section><footer><a href="MOT-VID-013-captions.srt" download>Download captions</a></footer></main><script>document.querySelectorAll("video").forEach(v=>v.addEventListener("play",()=>document.querySelectorAll("video").forEach(o=>{if(o!==v)o.pause()})))</script></html>'
+(dest/'review.html').write_text(page);url='http://localhost:8765/assets/mot-vid-013-revised-r3/review.html';r=requests.get(url,timeout=10);r.encoding='utf-8';assert r.status_code==200 and 'Revised edits · all three hooks' in r.text
+for pr in projects:
+ with requests.get(url.rsplit('/',1)[0]+f'/MOT-VID-013-Hook-{pr["variant"]}-R3.mp4',stream=True,timeout=10) as r:assert r.status_code==200
+print(url)

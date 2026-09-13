@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "Eleanor",
+        "description_override": "<p>For the Friday departure and the invitation that becomes a weekend away. The Eleanor has the presence of a travel bag with the considered details of a favorite handbag: rolled handles, a broad leather flap and a generous silhouette. It feels as natural beside a wool coat as it does at the end of a sunlit platform.</p>",
+        "fact_material": "Canvas and vegetable-tanned leather; Black all leather",
+        "fact_detail": "Made by artisans with 10 years of experience",
+        "preorder_lead_time": "10 days before dispatch",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": false,
+        "fact_material_black": "Vegetable-tanned leather",
+        "fact_carry": "10 days before dispatch",
+        "lead_time": "10 days before dispatch"
+      },
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>The Eleanor has a broad fold-over flap, rolled top handles and leather corner reinforcements. Cognac, Army Green and Espresso combine canvas with leather; Black has an all-leather exterior. Approximate dimensions are 18 × 14.5 × 7 inches (W × H × D).</p>",
+            "open": false
+          }
+        },
+        "tab_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>For Cognac, Army Green and Espresso, spot-clean the canvas carefully with a barely damp cloth and wipe the leather dry. For Black, use a soft, dry cloth across the leather exterior. Allow moisture to dry naturally, away from direct heat, and store loosely filled.</p>",
+            "open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Shipping & delivery",
+            "content": "<p>Please allow 10 days from your order to dispatch. Delivery time is additional and varies by destination. You will receive tracking details when your order ships. See our <a href=\"/policies/shipping-policy\">shipping policy</a> for delivery information.</p>",
+            "open": false
+          }
+        },
+        "tab_returns": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Returns are accepted within 30 days of delivery for unused items in their original packaging with tags attached. To arrange a return, contact <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com</a>. See our <a href=\"/policies/refund-policy\">return policy</a> for full conditions.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_care",
+        "tab_shipping",
+        "tab_returns"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "The Rhythm Of Making",
+        "text": "<p>A closer look at the textures, seams and finishing details that give the Eleanor its character.</p>"
+      },
+      "blocks": {
+        "material": {
+          "type": "stage",
+          "settings": {
+            "day": "Material",
+            "heading": "Canvas texture",
+            "default_asset": "weekender-craft-material.jpg",
+            "alt": "Close-up of the Eleanor Weekender’s Army Green canvas weave.",
+            "text": "<p>The Eleanor Weekender’s Army Green canvas weave.</p>"
+          }
+        },
+        "stitching": {
+          "type": "stage",
+          "settings": {
+            "day": "Stitching",
+            "heading": "Tonal stitching",
+            "default_asset": "weekender-craft-stitching.jpg",
+            "alt": "Detail of the Eleanor Weekender’s contoured leather flap and tonal edge stitching.",
+            "text": "<p>The Eleanor Weekender’s contoured leather flap and tonal edge stitching.</p>"
+          }
+        },
+        "finishing": {
+          "type": "stage",
+          "settings": {
+            "day": "Finishing",
+            "heading": "Finished corners",
+            "default_asset": "weekender-craft-finishing.jpg",
+            "alt": "Close-up of the Eleanor Weekender’s leather corner reinforcement and Army Green canvas.",
+            "text": "<p>The Eleanor Weekender’s leather corner reinforcement and Army Green canvas.</p>"
+          }
+        },
+        "hardware": {
+          "type": "stage",
+          "settings": {
+            "day": "Details",
+            "heading": "Gold details",
+            "default_asset": "weekender-craft-hardware.jpg",
+            "alt": "Close-up of the Eleanor Weekender’s horizontal oval gold fitting on its leather flap.",
+            "text": "<p>The Eleanor Weekender’s horizontal oval gold fitting on its leather flap.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "material",
+        "stitching",
+        "finishing",
+        "hardware"
+      ]
+    },
+    "value": {
+      "type": "value-breakdown",
+      "settings": {
+        "default_asset": "weekender-value-hero.jpg",
+        "image_description": "The Eleanor in Army Green, photographed in a white studio",
+        "image_fit": "contain",
+        "heading": "Luxury, Without The Logo",
+        "copy": "<p>The character is in the texture, the shape and the details.</p>",
+        "table_caption": "The Eleanor in Army Green: visible design details",
+        "detail_heading": "Detail",
+        "product_heading": "The Eleanor",
+        "purpose_heading": "The purpose",
+        "sticky_content": true
+      },
+      "blocks": {
+        "detail1": {
+          "type": "detail",
+          "settings": {
+            "detail": "Body",
+            "product_detail": "Army Green canvas",
+            "purpose": "A textured foundation"
+          }
+        },
+        "detail2": {
+          "type": "detail",
+          "settings": {
+            "detail": "Trim",
+            "product_detail": "Contrasting brown leather",
+            "purpose": "A defined outline"
+          }
+        },
+        "detail3": {
+          "type": "detail",
+          "settings": {
+            "detail": "Silhouette",
+            "product_detail": "Broad, soft body",
+            "purpose": "An easy shape"
+          }
+        },
+        "detail4": {
+          "type": "detail",
+          "settings": {
+            "detail": "Upper edge",
+            "product_detail": "Contoured leather flap",
+            "purpose": "A distinctive profile"
+          }
+        },
+        "detail5": {
+          "type": "detail",
+          "settings": {
+            "detail": "Hardware",
+            "product_detail": "Warm gold tone",
+            "purpose": "A quiet accent"
+          }
+        },
+        "detail6": {
+          "type": "detail",
+          "settings": {
+            "detail": "Identity",
+            "product_detail": "Logo-free exterior",
+            "purpose": "The bag comes first"
+          }
+        }
+      },
+      "block_order": [
+        "detail1",
+        "detail2",
+        "detail3",
+        "detail4",
+        "detail5",
+        "detail6"
+      ]
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

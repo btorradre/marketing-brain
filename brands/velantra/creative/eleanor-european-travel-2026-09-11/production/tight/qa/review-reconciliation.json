@@ -1,0 +1,10 @@
+{
+  "raw_machine_verdict": {
+    "must_fix": true,
+    "usable_for_review": false
+  },
+  "audio_observation": "Machine actual-video review reported exact transcript, no audible join problems, no remaining dead spaces, good pacing and good lip sync. All 28 retained intervals independently correlate above 0.99999 at zero lag using 48 kHz sample comparisons.",
+  "layout_reconciliation": "Machine treated the requested enlargement as a future operation, although this reviewed export already has zoom 0.33 versus prior 0.28. Native full-frame samples show the left sleeve at frame edge and torso meeting bottom edge. Inspected S04/S06/S07/S09 samples retain bag readability; some lower-left proximity/partial overlap is inherent to presenter coverage, without obscuring the principal bag view. Direct frame at 69s (cta-spoken.jpg) shows shop captions above the graphic and presenter beside it, contradicting the machine below-graphic/collision claim. All nine consecutive scene boundary pairs were directly inspected; no missing/offline shot was observed.",
+  "decision": "Agent technical review passes for the requested pacing/layout revision based on direct visual evidence and audio checks. Raw machine flags preserved rather than represented as a model pass.",
+  "limits": "Sampled visual review and 4fps machine review are not frame-exhaustive or human approval. Small overlaps between foreground presenter and background are possible; visual hierarchy remains readable in inspected samples."
+}

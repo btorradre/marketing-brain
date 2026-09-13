@@ -1,0 +1,32 @@
+{
+  "expected_speed_multiplier": 1.1,
+  "pitch_correction": "Native Resolve GetSpeed readback true on both linked tracks",
+  "audio_sync_windows": [
+    {
+      "window_seconds": [
+        0,
+        40
+      ],
+      "envelope_correlation": 0.9882912813684416,
+      "lag_seconds": 0.0
+    },
+    {
+      "window_seconds": [
+        60,
+        110
+      ],
+      "envelope_correlation": 0.9904549271627873,
+      "lag_seconds": 0.0
+    },
+    {
+      "window_seconds": [
+        130,
+        178
+      ],
+      "envelope_correlation": 0.9903786353973155,
+      "lag_seconds": 0.0
+    }
+  ],
+  "duration_seconds": 179.32675,
+  "source_duration_seconds": 197.268
+}

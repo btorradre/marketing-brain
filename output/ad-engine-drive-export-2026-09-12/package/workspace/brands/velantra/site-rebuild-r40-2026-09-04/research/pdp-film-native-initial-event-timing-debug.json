@@ -1,0 +1,75 @@
+{
+  "theme_id": 151364960321,
+  "families": [
+    "weekender",
+    "meridian",
+    "camille",
+    "delphine"
+  ],
+  "rows": [],
+  "failures": [
+    {
+      "family": "weekender",
+      "width": 1440,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 23, in <module>\n    button.click();page.wait_for_function('!document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Pause film';button.click()\n                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "family": "meridian",
+      "width": 1440,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 22, in <module>\n    button=film.locator('button.detail-film-toggle');button.click();page.wait_for_function('document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Play film'\n                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "family": "camille",
+      "width": 1440,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 22, in <module>\n    button=film.locator('button.detail-film-toggle');button.click();page.wait_for_function('document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Play film'\n                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "family": "delphine",
+      "width": 1440,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 22, in <module>\n    button=film.locator('button.detail-film-toggle');button.click();page.wait_for_function('document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Play film'\n                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "family": "weekender",
+      "width": 390,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 22, in <module>\n    button=film.locator('button.detail-film-toggle');button.click();page.wait_for_function('document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Play film'\n                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "family": "meridian",
+      "width": 390,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 22, in <module>\n    button=film.locator('button.detail-film-toggle');button.click();page.wait_for_function('document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Play film'\n                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "family": "camille",
+      "width": 390,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 22, in <module>\n    button=film.locator('button.detail-film-toggle');button.click();page.wait_for_function('document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Play film'\n                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "family": "delphine",
+      "width": 390,
+      "error": "Traceback (most recent call last):\n  File \"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/research/pdp_film_native_qa.py\", line 22, in <module>\n    button=film.locator('button.detail-film-toggle');button.click();page.wait_for_function('document.querySelector(\"velantra-detail-film video\").paused');assert button.get_attribute('aria-label')=='Play film'\n                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    }
+  ],
+  "reduced_motion": [
+    {
+      "family": "weekender",
+      "autoplay_off": true,
+      "manual_play": true
+    },
+    {
+      "family": "meridian",
+      "autoplay_off": true,
+      "manual_play": true
+    },
+    {
+      "family": "camille",
+      "autoplay_off": true,
+      "manual_play": true
+    },
+    {
+      "family": "delphine",
+      "autoplay_off": true,
+      "manual_play": true
+    }
+  ],
+  "passed": false
+}

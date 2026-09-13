@@ -1,0 +1,584 @@
+{
+  "approvals": [
+    {
+      "date": "2026-09-11",
+      "id": "APP-SCRIPT-01",
+      "scope": "Exact script-v1 and storyboard production",
+      "source": "User: great now storyboard"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "A1",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/script-v1.txt",
+      "role": "script",
+      "status": "approved; narration locked"
+    },
+    {
+      "id": "A2",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/edit/editing-plan.md",
+      "role": "editing-plan",
+      "status": "revised before generation; selected assets reconciled; timing provisional"
+    },
+    {
+      "id": "A3",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/edit/reference-analysis/reference-findings.md",
+      "role": "reference",
+      "status": "partial visual inspection documented"
+    },
+    {
+      "id": "A4",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/edit/reference-analysis/transcript-archive.txt",
+      "role": "reference",
+      "status": "archived ASR; not audio-corrected"
+    },
+    {
+      "id": "SB1",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/cutroom-spec.json",
+      "role": "cutroom-board",
+      "status": "built and synced"
+    },
+    {
+      "id": "SB2",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/generation-manifest.json",
+      "role": "status",
+      "status": "ten revised selected scene images; origins and inspections recorded"
+    },
+    {
+      "id": "SB3",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/casting-r3/delivery-verification.json",
+      "role": "status",
+      "status": "latest live board and all thirty images verified; exact narration"
+    },
+    {
+      "id": "NR1",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/edit/reference-analysis/nuamore-r2/visual-study.md",
+      "role": "reference",
+      "status": "all 738 frames inspected at sheet resolution; native consecutive cut pairs inspected; observed vs inferred separated"
+    },
+    {
+      "id": "NR2",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/visual-review.md",
+      "role": "status",
+      "status": "selected image set visually reviewed"
+    },
+    {
+      "id": "NR3",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/sources/manifest.json",
+      "role": "reference",
+      "status": "actual hook photo provenance; reuse rights unverified"
+    },
+    {
+      "id": "NR4",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/cloud-board-before.json",
+      "role": "status",
+      "status": "prior live board preserved before replacement"
+    },
+    {
+      "id": "PF1",
+      "path": "brands/velantra/product-skills/registry.json",
+      "role": "product-reference",
+      "status": "Read before generation: Eleanor / velantra-weekender / Cognac (formerly Light Chocolate) / nominal one size."
+    },
+    {
+      "id": "PF2",
+      "path": "brands/velantra/product-skills/SCALE-AND-FIDELITY.md",
+      "role": "product-reference",
+      "status": "Read and applied: nominal dimensions are owner specification; physical image scale not certified."
+    },
+    {
+      "id": "PF3",
+      "path": "/Users/brooksorradre2/.codex/skills/velantra-weekender-product/SKILL.md",
+      "role": "product-reference",
+      "status": "Read before generation; approved corrected Cognac creative master and August 8 physical hardware references supplied."
+    },
+    {
+      "id": "CR3",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/casting-r3/generation-manifest.json",
+      "role": "status",
+      "status": "two replacement images selected and inspected; overrides prior S05/S06 selection"
+    },
+    {
+      "id": "CR3D",
+      "path": "brands/velantra/AGENTS.md",
+      "role": "brief",
+      "status": "explicit user casting direction September 12"
+    },
+    {
+      "id": "CR3B",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/casting-r3/cloud-board-before.json",
+      "role": "status",
+      "status": "prior live board preserved"
+    },
+    {
+      "id": "PROD-VOICE",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/voice/request.json",
+      "role": "status",
+      "status": "generated; exact requested voice settings recorded"
+    },
+    {
+      "id": "PROD-AUDIO-QA",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/voice/audio-review.json",
+      "role": "status",
+      "status": "machine perceptual audio review passed"
+    },
+    {
+      "id": "PROD-MOTION",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/omni/status-final.json",
+      "role": "status",
+      "status": "three completed; Paris failed; originals retained"
+    },
+    {
+      "id": "PROD-RESOLVE",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/resolve/build-result.json",
+      "role": "status",
+      "status": "live isolated Resolve WIP built; speaking presenter pending"
+    },
+    {
+      "id": "PROD-ALIGN",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/resolve/aligned-scenes.json",
+      "role": "editing-plan",
+      "status": "selected narration alignment at30fps"
+    },
+    {
+      "id": "PROD-SETTINGS",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/production-settings.json",
+      "role": "status",
+      "status": "voice settings, active Resolve project and presenter limitation recorded"
+    },
+    {
+      "id": "PROD-WIP",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/exports/Eleanor-EuropeanTravel-WIP.mp4",
+      "role": "export",
+      "status": "verified WIP; static presenter, not final"
+    },
+    {
+      "id": "PROD-DRP",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/exports/Eleanor-EuropeanTravel-WIP.drp",
+      "role": "project",
+      "status": "editable isolated DaVinci Resolve project"
+    },
+    {
+      "id": "PROD-WIP-QA",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/qa/wip-delivery-verification.json",
+      "role": "status",
+      "status": "render, decode, captions and sampled layout verified; presenter incomplete"
+    },
+    {
+      "id": "PROD-HEYGEN",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/heygen/state.json",
+      "role": "status",
+      "status": "User-authorized HeyGen presenter; live job submitted, processing"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P01",
+      "inspection": "Blonde identity, glasses, cardigan and tee consistent with selected presenter. Transparent PNG; corners alpha zero, face near opaque. Production matte edges require normal final composite review.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/assets/P01.png",
+      "rights": "unknown",
+      "sha256": "8216ee139eb992a6e92372576c903f35a1e9da03ef3e2c744d2223ec0e44b2d1",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a093c2-62a7-7272-bf80-3aa003c79d92/exec-63bf3aba-c658-4ad5-ba01-d68932d631ba.png"
+    },
+    {
+      "id": "S01",
+      "inspection": "Four distinct photographed women and distinct bags, all four bags readable within grid; smaller seam caption and lower-left P01. Sourced photos are AI-composed here, originals preserved separately. AI-composed sourced-photo grid; originals separate; no endorsement implied.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/L01-r2.png",
+      "rights": "unknown",
+      "sha256": "c3a7fe48a0c52a169c0818c8f09e1fc5e89a8497abc0fb677accea1073e22632",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-a9fa6224-453f-4e56-bdb0-d8f02b9f6b86.png"
+    },
+    {
+      "id": "S02",
+      "inspection": "Near-frontal Cognac bag in apartment entry; horizontal oval and continuous straps retained. Reference-relative product review only; physical scale unverified.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/S02-r2.png",
+      "rights": "unknown",
+      "sha256": "a6c1b06ba33600e61f3e66b51a8f30915b0e74182eaa7da457a5b201ee8acd02",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-8e92c2e9-5bd6-44f1-b29e-b49f67ba269b.png"
+    },
+    {
+      "id": "S03",
+      "inspection": "Realistic canvas/leather front detail and horizontal oval; no invented interior. Reference-relative product review only; physical scale unverified.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/S03-r2.png",
+      "rights": "unknown",
+      "sha256": "322afd0e2b464239e21eb18d990f144d94ead36b1bbbaf7a87c67eb77f448218",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-a988cdec-5dbd-4827-bc97-92b6d13f61f8.png"
+    },
+    {
+      "id": "S04",
+      "inspection": "Different dark-bob woman, cuff adjustment, named Paris clothing, hotel threshold, bag and loafers readable. Reference-relative product review only; physical scale unverified.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/S04-r2.png",
+      "rights": "unknown",
+      "sha256": "296e3ed2b6957a69bce613e1ea3199b132f22ab3751c3bceeba0b3428d460c41",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-adeb4026-6613-4dfa-989d-0301da53ac72.png"
+    },
+    {
+      "id": "S05",
+      "inspection": "Selected and visually inspected: distinct fictional white adult woman with chestnut waves; candid pose and cafe scene retained. Camel coat, espresso knit, charcoal trousers, gold jewelry and visible Cognac bag silhouette/hardware consistent with input.",
+      "limits": "Reference-relative fidelity; no metric scale certification. Synthetic storyboard still.",
+      "model": "GPT Image 2",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/casting-r3/assets/S05-r3.png",
+      "rights": "unknown",
+      "sha256": "8f8deba160f227a7e8eabf45571307127c3029651fc62351adabb59e0815eced",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-377d49d8-88ac-4e9e-bafb-3812191002f7.png"
+    },
+    {
+      "id": "S06",
+      "inspection": "Selected and visually inspected: fair-skinned hand/wrist, natural grip and gold bracelet match revised Milan woman. Canvas, leather, horizontal center fitting, strap plates and crop consistent with input.",
+      "limits": "Reference-relative fidelity; no metric scale certification. Synthetic storyboard still.",
+      "model": "GPT Image 2",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/casting-r3/assets/S06-r3.png",
+      "rights": "unknown",
+      "sha256": "f08f2eb8dd35bdbf0c6581f803a46b68e2e893c49c9823864de87b09b9b12b04",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-b86431a0-812d-40ef-b23d-c1639c7e1f0f.png"
+    },
+    {
+      "id": "S07",
+      "inspection": "Different copper-haired woman seated diagonally at bench, freckles, checks and sneakers, handle grip before pickup. Reference-relative product review only; physical scale unverified.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/S07-r2.png",
+      "rights": "unknown",
+      "sha256": "124e1b9278fd34f3016b949b96561110620f0f3fe5f1fdecda27ce452bcade69",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-6c60aa08-a393-49fe-a049-1341ae631dfe.png"
+    },
+    {
+      "id": "S08",
+      "inspection": "Face-free wardrobe reset with three clothing groups, stool and casually lit bedroom. Reference-relative product review only; physical scale unverified.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/S08-r2.png",
+      "rights": "unknown",
+      "sha256": "d84c864552604284433ddef9708ec4286310b32ce4f7b9e12c2a269908d79993",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-d1388ade-9c77-405d-b1d3-aba98953ab19.png"
+    },
+    {
+      "id": "S09",
+      "inspection": "Different mature silver-haired woman, train doorway, navy coat and scarf adjustment. Reference-relative product review only; physical scale unverified.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/S09-r2.png",
+      "rights": "unknown",
+      "sha256": "6e5729ae711058f9897d9df3a353542d41b30cb67f129d768367efb56e013285",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-e904f22b-cbce-4478-9cfc-f86752c7fbb2.png"
+    },
+    {
+      "id": "S10",
+      "inspection": "Distinct closing chair-and-scarf phone product view. Reference-relative product review only; physical scale unverified.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/nuamore-r2/assets/S10-r2.png",
+      "rights": "unknown",
+      "sha256": "7b855a7f2db5211898355a2ee0b706c55dc8fca9abd228bebe346f1b9f182612",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a0962b-43e6-7440-80ec-a54243b85739/exec-d953b1cb-f0fd-4421-99fb-6b3e5453541e.png"
+    },
+    {
+      "id": "O01",
+      "inspection": "Correct city names, The Eleanor Weekender and Shop Velantra spelling; transparent PNG and lower-right grouping. Graphic is first asset, not voice-aligned captions.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/storyboard/assets/O01.png",
+      "rights": "unknown",
+      "sha256": "2189578168c00ea92b9c706fc3f4e98e134355260e1238753114cbc50bd15954",
+      "source_identity": "/Users/brooksorradre2/.codex/generated_images/01a093c2-62a7-7272-bf80-3aa003c79d92/exec-8f17fc5c-a71d-4280-8ba8-d3e7e012839c.png"
+    },
+    {
+      "id": "VO1",
+      "inspection": "Provider timestamps match exact approved script. Gemini actual-audio review: no missing/added words, clear Eleanor Weekender and Velantra, no clipping, naturalness 4/5. Machine review, not human approval.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/voice/narration-native-1.1x.mp3",
+      "rights": "unknown",
+      "sha256": "ec67eb295c85189770dd6f8e34edb656ac9750aceaf8ee425ef577293bc3f7a3",
+      "source_identity": "ElevenLabs history 25lHzetSJxciXVku3Jtm"
+    },
+    {
+      "id": "S05-VIDEO",
+      "inspection": "One-second interval motion sheet inspected for visible action, identity and source-relative bag fidelity. S07 has a generated angle change; no metric scale claim. Final composite review pending.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/omni/S05-native.mp4",
+      "rights": "unknown",
+      "sha256": "572048abee81c02ac8a241d93b21b2d7a409a2ec99d67b6d11754cece6e778dc",
+      "source_identity": "Google Omni Flash 1.1 via ElevenCreative; see production/omni/broll-run.json"
+    },
+    {
+      "id": "S07-VIDEO",
+      "inspection": "One-second interval motion sheet inspected for visible action, identity and source-relative bag fidelity. S07 has a generated angle change; no metric scale claim. Final composite review pending.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/omni/S07-native.mp4",
+      "rights": "unknown",
+      "sha256": "ef324a1301da225ab040dbf4bc1d4e6d886d70a9741a723abcbd2864e0f24999",
+      "source_identity": "Google Omni Flash 1.1 via ElevenCreative; see production/omni/broll-run.json"
+    },
+    {
+      "id": "S09-VIDEO",
+      "inspection": "One-second interval motion sheet inspected for visible action, identity and source-relative bag fidelity. S07 has a generated angle change; no metric scale claim. Final composite review pending.",
+      "origin": "generated",
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/omni/S09-native.mp4",
+      "rights": "unknown",
+      "sha256": "8189ee256ccea42e81ee57929f477e27695692ce7616972bdccf8c9e25738d17",
+      "source_identity": "Google Omni Flash 1.1 via ElevenCreative; see production/omni/broll-run.json"
+    }
+  ],
+  "beats": [
+    {
+      "action": "Four distinct photographed women: tan, black, taupe and burgundy Birkin-family bags. 2\u00d72 source-photo grid with persistent lower-left P01 guide.",
+      "asset_id": "S01",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 0.000s\u201310.133s at 30fps.",
+      "duration": 10.133333333333333,
+      "id": "S01",
+      "line": "If you're going to Europe this fall, here's how I'd style one beautiful travel bag for Paris, Milan and London. Three different looks, without buying a whole new wardrobe for every stop.",
+      "medium": "Sourced-photo grid with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected actual source photographs composed using GPT Image 2; originals and provenance on separate lane; commercial rights unverified.",
+      "story_function": "Desire / hook",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. GPT Image 2 composed layout based on four actual sourced photographs; original photographs supplied separately. Their commercial reuse is unverified. Do not present them as Velantra endorsers. Hold photos; no generated action necessary. Hook caption at the seam protects bags; later captions lower center.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "Four distinct attractive looks immediately establish European travel aspiration and the range of bag styling. Simultaneous juxtaposition makes variety readable before the named Eleanor reveal. Hold the grid through the full hook; no spinning/panel transitions.",
+      "why_here": "Four distinct attractive looks immediately establish European travel aspiration and the range of bag styling. Simultaneous juxtaposition makes variety readable before the named Eleanor reveal. Hold the grid through the full hook; no spinning/panel transitions.",
+      "why_line": "Four distinct attractive looks immediately establish European travel aspiration and the range of bag styling. Simultaneous juxtaposition makes variety readable before the named Eleanor reveal. Hold the grid through the full hook; no spinning/panel transitions."
+    },
+    {
+      "action": "Cognac Eleanor nearly frontal in a lived-in apartment entry, daylight, slightly off-axis phone photo. Selected revised asset.",
+      "asset_id": "S02",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 10.133s\u201314.233s at 30fps.",
+      "duration": 4.1,
+      "id": "S02",
+      "line": "This is the Eleanor Weekender from Velantra. I'd go for Cognac.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Product introduction",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "The named introduction isolates the actual product after the inspiration grid. A casual real-world surface keeps the reveal in the same photographic world.",
+      "why_here": "The named introduction isolates the actual product after the inspiration grid. A casual real-world surface keeps the reveal in the same photographic world.",
+      "why_line": "The named introduction isolates the actual product after the inspiration grid. A casual real-world surface keeps the reveal in the same photographic world."
+    },
+    {
+      "action": "Close phone view of cognac leather/canvas junction and real horizontal gold hardware, natural uneven light. Selected revised asset.",
+      "asset_id": "S03",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 14.233s\u201319.733s at 30fps.",
+      "duration": 5.5,
+      "id": "S03",
+      "line": "That warm leather against the light canvas gives you such a beautiful starting point for your travel outfits.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Tactile desire",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "The close view makes the named warm leather and light canvas relationship inspectable; enters on That warm leather and sets up the outfit palette.",
+      "why_here": "The close view makes the named warm leather and light canvas relationship inspectable; enters on That warm leather and sets up the outfit palette.",
+      "why_line": "The close view makes the named warm leather and light canvas relationship inspectable; enters on That warm leather and sets up the outfit palette."
+    },
+    {
+      "action": "Different woman: short dark bob, cream knit, straight jeans, trench, loafers, carrying Eleanor at a modest Paris hotel entrance, friend-shot framing. Selected revised asset.",
+      "asset_id": "S04",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 19.733s\u201334.333s at 30fps.",
+      "duration": 14.6,
+      "id": "S04",
+      "line": "Starting with Paris, I'd keep everything relaxed. Straight-leg jeans, a cream knit, a trench and loafers. Then carry the Eleanor by the top handles. The bag gives those simple pieces a more finished look, even when you're just arriving at your hotel.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Attainable aspiration",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos. Optional single detail-led 110% stepped crop on handles/textures; keep P01 fixed and preserve bag/footwear readability. This is reframing, not a new scene.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "The whole outfit demonstrates each Paris suggestion and lets the bag finish familiar clothes. Small step/coat adjustment supports arrival context. Proposed single 110% stepped crop on Then carry, anchored on the bag and handles; keep presenter fixed.",
+      "why_here": "The whole outfit demonstrates each Paris suggestion and lets the bag finish familiar clothes. Small step/coat adjustment supports arrival context. Proposed single 110% stepped crop on Then carry, anchored on the bag and handles; keep presenter fixed.",
+      "why_line": "The whole outfit demonstrates each Paris suggestion and lets the bag finish familiar clothes. Small step/coat adjustment supports arrival context. Proposed single 110% stepped crop on Then carry, anchored on the bag and handles; keep presenter fixed."
+    },
+    {
+      "action": "Different white woman: shoulder-length chestnut waves, charcoal tailored trousers, fitted dark knit and long camel coat, leaning casually outside a Milan cafe, Eleanor held. Selected revised asset.",
+      "asset_id": "S05",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 34.333s\u201339.167s at 30fps.",
+      "duration": 4.833333333333333,
+      "id": "S05",
+      "line": "For Milan, I'd dress it up. Tailored trousers, a fitted knit, a long coat,",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Polish / styling demonstration",
+      "style_fit": "Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos. Selected casting revision; see storyboard/casting-r3/assets. Candid phone styling and sophisticated white female brand avatar.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "A distinct woman and seated/leaning pose make the sharper clothes a new example. Enter on Milan and hold the full silhouette before the jewelry detail.",
+      "why_here": "A distinct woman and seated/leaning pose make the sharper clothes a new example. Enter on Milan and hold the full silhouette before the jewelry detail.",
+      "why_line": "A distinct woman and seated/leaning pose make the sharper clothes a new example. Enter on Milan and hold the full silhouette before the jewelry detail."
+    },
+    {
+      "action": "Milan close view, matching fair-skinned hand and cuff, gold bracelet beside Eleanor hardware; new camera angle. Selected revised asset.",
+      "asset_id": "S06",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 39.167s\u201346.300s at 30fps.",
+      "duration": 7.133333333333334,
+      "id": "S06",
+      "line": "and a little gold jewelry to pick up the hardware. The same bag suddenly feels much more polished because of what you've put around it.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Detail demonstration",
+      "style_fit": "Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos. Selected casting revision; see storyboard/casting-r3/assets. Candid phone styling and sophisticated white female brand avatar.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "The bracelet and fitting make the specific gold-jewelry suggestion visible. This one detail continues the same Milan example deliberately; no unrelated new model inside the detail.",
+      "why_here": "The bracelet and fitting make the specific gold-jewelry suggestion visible. This one detail continues the same Milan example deliberately; no unrelated new model inside the detail.",
+      "why_line": "The bracelet and fitting make the specific gold-jewelry suggestion visible. This one detail continues the same Milan example deliberately; no unrelated new model inside the detail."
+    },
+    {
+      "action": "New copper-haired woman seated on a station-exterior bench, checked jacket, relaxed trousers and sneakers; hand grips Eleanor handles before pickup.",
+      "asset_id": "S07",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 46.300s\u201358.333s at 30fps.",
+      "duration": 12.033333333333333,
+      "id": "S07",
+      "line": "And for London, I'd have a little more fun. A checked jacket, relaxed trousers, comfortable sneakers. Let the textures do the work. The canvas and leather sit so nicely alongside those autumn layers.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Personality / practical support",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos. Optional single detail-led 110% stepped crop on handles/textures; keep P01 fixed and preserve bag/footwear readability. This is reframing, not a new scene.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "The checks and relaxed stance demonstrate London texture and personality. Keep shoes and bag readable; a single stepped crop on textures may show jacket/canvas relationship, never counted as new B-roll.",
+      "why_here": "The checks and relaxed stance demonstrate London texture and personality. Keep shoes and bag readable; a single stepped crop on textures may show jacket/canvas relationship, never counted as new B-roll.",
+      "why_line": "The checks and relaxed stance demonstrate London texture and personality. Keep shoes and bag readable; a single stepped crop on textures may show jacket/canvas relationship, never counted as new B-roll."
+    },
+    {
+      "action": "Fresh everyday wardrobe-rail still with Eleanor and three clothing groups; use natural window light, imperfect spacing. Selected revised asset.",
+      "asset_id": "S08",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 58.333s\u201366.867s at 30fps.",
+      "duration": 8.533333333333333,
+      "id": "S08",
+      "line": "That's what I like about building your travel wardrobe around a bag like this. You can change the whole mood with your clothes, and your weekender still feels like part of the outfit.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Understanding / recap",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "The arrangement collects the styling principle after three different women demonstrate it. It offers a face-free visual reset without replaying any earlier source.",
+      "why_here": "The arrangement collects the styling principle after three different women demonstrate it. It offers a face-free visual reset without replaying any earlier source.",
+      "why_line": "The arrangement collects the styling principle after three different women demonstrate it. It offers a face-free visual reset without replaying any earlier source."
+    },
+    {
+      "action": "New silver-haired woman at train doorway, navy coat and scarf, holding Eleanor while adjusting her scarf.",
+      "asset_id": "S09",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 66.867s\u201372.600s at 30fps.",
+      "duration": 5.733333333333333,
+      "id": "S09",
+      "line": "Because the outfit you wear between cities deserves just as much thought as the one you wear when you get there.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Desired journey",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "A new person and journey context carry the between-cities payoff. The visible coat adjustment ties comfort to looking put together, without a capacity or airline claim.",
+      "why_here": "A new person and journey context carry the between-cities payoff. The visible coat adjustment ties comfort to looking put together, without a capacity or airline claim.",
+      "why_line": "A new person and journey context carry the between-cities payoff. The visible coat adjustment ties comfort to looking put together, without a capacity or airline claim."
+    },
+    {
+      "action": "Fresh Cognac Eleanor on a plain wood chair beside a window with a scarf draped over chair back, casual phone product photo. Selected revised asset; retain O01 closing graphic.",
+      "asset_id": "S10",
+      "cut_cue": "Aligned to selected ElevenLabs narration: 72.600s\u201381.300s at 30fps.",
+      "duration": 8.7,
+      "id": "S10",
+      "line": "So, Paris, Milan or London\u2014which look would you wear? Shop the Eleanor Weekender at Velantra.",
+      "medium": "Candid phone-style generated fashion image with keyed presenter",
+      "placement": "background behind persistent presenter",
+      "source_route": "Selected and inspected GPT Image 2 image; distinct cast per city. Optional Google Omni motion later, not generated.",
+      "story_function": "Choice / action",
+      "style_fit": "Nuamore-derived ordinary daylight, informal posing and direct outfit/detail changes. Direct background cuts; continuous P01 and exact approved narration. Timing provisional until final voice alignment. Candid phone treatment; synthetic Eleanor scenes are style illustrations, not documentary customer photos.",
+      "transition_in": "Direct background cut at the first word of this scene; voice and presenter continue.",
+      "transition_out": "Direct cut on next scene opening; final scene holds 2s after speech.",
+      "viewer_response": "The clear product plus one shop action answers the closing city question. Hold two seconds after speech; no offer or artificial storefront required.",
+      "why_here": "The clear product plus one shop action answers the closing city question. Hold two seconds after speech; no offer or artificial storefront required.",
+      "why_line": "The clear product plus one shop action answers the closing city question. Hold two seconds after speech; no offer or artificial storefront required."
+    }
+  ],
+  "brand": "velantra",
+  "calibration": {
+    "accepted": 13,
+    "next_action": "Finish HeyGen presenter, composite in Resolve, inspect final render and update Cut Room.",
+    "notes": "First hook-layout proof had minor presenter/bag overlap; revised layout selected, all bags clear. Product review is reference-relative; physical scale unverified.",
+    "reviewed": 14
+  },
+  "claims": [],
+  "context_notes": "User September 11, 2026: pull Instagram DcWLvteqezx transcript and rewrite for Eleanor Weekender, European travel angle, AI UGC green-screen like prior Nuamore concepts. Current scope: script adaptation, not media production. Copy remains draft. Archived ASR preserved; no manual audio verification. See artifact provenance and editing-plan limits. User approved script and requested storyboard. Preserve exact script; execute first generated asset set and verified Cut Room delivery. Storyboard completed: 13 selected GPT Image 2 assets including the presenter, ten scene plates, corrected hook layout and CTA overlay. Reference frames remain in a separate lane. User-authorized image-complete Cut Room handoff; no video or Resolve editing claimed. September 12, 2026 user correction: different women, hook grids of actual people holding varied Birkin-family travel bags, iPhone appearance, study exact Nuamore 8cnpbi visual style/mood. Inspected 738 source frames on 21 sheets plus consecutive native boundary pairs. Revised editing plan before generation; ten replacement images selected, visually inspected and live-byte-verified in existing Cut Room board. Actual hook photographs were AI-composed; originals/provenance separate; commercial reuse unverified. Body Eleanor images use four distinct generated women, not documentary customer photos. Sourcing/generation split is assistant execution assumption after unanswered clarification, not user approval of synthetic images. P01 remains intentionally continuous. Approved narration unchanged. Storyboard only; no video, final voice or Resolve operations. September 12 casting correction: user directs white female featured casting for Velantra going forward. Replaced S05 model with chestnut-wave white woman and S06 hand detail to match; exact script and other scene assets retained. Editing plan updated before image editing. Both actual selected replacements inspected and live Cut Room files verified. Brand instruction saved in brands/velantra/AGENTS.md. User authorized production with Woman Over 40 voice, Natural preset and 1.1x. Generated exact continuous narration through ElevenLabs API after live voice lookup because connector schema omits requested settings. Natural stability0.5 and speed1.1 applied at synthesis. Audio79.28s; 81.3s Resolve WIP including endhold. Live Resolve21.1 Lua path works; external MCP scripting unavailable. Three Google Omni motion clips completed; Paris and exact-audio presenter test failed. User asked asynchronously for presenter-only Aurora exception; unanswered, no Aurora generation submitted. Static guide in WIP is not finished talking presenter. Native Resolve timeline and76captionphrases built. Native Resolve WIP render completed at 1080x1920, 30fps, 81.3 seconds. Full decode passed, 76 caption phrases match exact approved narration. Static guide moved down to clear bags; native hook and Milan frames rechecked. MP4 and editable DRP saved. Presenter exception remains unanswered; stage remains production and export is WIP. User now explicitly directs HeyGen for the presenter, superseding the pending Aurora question. Exact existing P01-green and full selected Woman Over 40 / Natural / native 1.1x audio uploaded. HeyGen Avatar V render submitted once, video61ab06d8141ce79c51f0ddc7bcbeb1ca, processing. Current plan updated before submission. No new speech synthesis or timeline retiming.",
+  "created": "2026-09-12T03:58:37+00:00",
+  "cutroom_url": "https://cutroom-three.vercel.app/b/eleanor-european-travel-storyboard",
+  "decision_id": null,
+  "editing_plan": "brands/velantra/creative/eleanor-european-travel-2026-09-11/edit/editing-plan.md",
+  "evidence": [
+    {
+      "date": "2026-09-11",
+      "id": "E1",
+      "kind": "observation",
+      "source_path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/edit/reference-analysis/transcript-archive.txt",
+      "source_url": "https://www.instagram.com/reel/DcWLvteqezx/",
+      "text": "Source transcript follows Paris, Milan and London styling chapters.",
+      "verified": true
+    },
+    {
+      "date": "2026-09-04",
+      "id": "E2",
+      "kind": "product-fact",
+      "source_path": "/Users/brooksorradre2/.codex/skills/velantra-weekender-product/references/product-reference.md",
+      "text": "Cognac reference exterior combines light woven canvas and cognac leather with warm gold fittings.",
+      "verified": true
+    }
+  ],
+  "hooks": [
+    {
+      "id": "H1",
+      "line": "If you're going to Europe this fall, here's how I'd style one beautiful travel bag for Paris, Milan and London. Three different looks, without buying a whole new wardrobe for every stop.",
+      "test": "European outfit aspiration; hook-rate objective unmeasured.",
+      "visual": "Four distinct photographed women: tan, black, taupe and burgundy Birkin-family bags. 2\u00d72 source-photo grid with persistent lower-left P01 guide."
+    }
+  ],
+  "id": "VELA-72dfab2c0c6d",
+  "kind": "concept",
+  "narration_lock": {
+    "at": "2026-09-12T04:05:34.186224+00:00",
+    "hash": "b7268260a66780b572f4e19bc41fd1f6813a6812f586eb8d83a4a6d9befd30fc",
+    "reason": "User approved script and requested storyboard"
+  },
+  "operational": {
+    "edit_minutes": null,
+    "rework_count": 2
+  },
+  "parent_id": null,
+  "parent_revision": null,
+  "product": "The Eleanor Weekender \u2014 Cognac proposed; one nominal size",
+  "production": {
+    "editor": "DaVinci Resolve",
+    "image_model": "GPT Image 2",
+    "video_model": "Google Omni"
+  },
+  "reference_audit": "brands/velantra/creative/eleanor-european-travel-2026-09-11/edit/reference-analysis/nuamore-r2/visual-study.md",
+  "revision": 12,
+  "script": "If you're going to Europe this fall, here's how I'd style one beautiful travel bag for Paris, Milan and London. Three different looks, without buying a whole new wardrobe for every stop.\n\nThis is the Eleanor Weekender from Velantra. I'd go for Cognac. That warm leather against the light canvas gives you such a beautiful starting point for your travel outfits.\n\nStarting with Paris, I'd keep everything relaxed. Straight-leg jeans, a cream knit, a trench and loafers. Then carry the Eleanor by the top handles. The bag gives those simple pieces a more finished look, even when you're just arriving at your hotel.\n\nFor Milan, I'd dress it up. Tailored trousers, a fitted knit, a long coat, and a little gold jewelry to pick up the hardware. The same bag suddenly feels much more polished because of what you've put around it.\n\nAnd for London, I'd have a little more fun. A checked jacket, relaxed trousers, comfortable sneakers. Let the textures do the work. The canvas and leather sit so nicely alongside those autumn layers.\n\nThat's what I like about building your travel wardrobe around a bag like this. You can change the whole mood with your clothes, and your weekender still feels like part of the outfit.\n\nBecause the outfit you wear between cities deserves just as much thought as the one you wear when you get there.\n\nSo, Paris, Milan or London\u2014which look would you wear? Shop the Eleanor Weekender at Velantra.",
+  "stage": "production",
+  "strategy": {
+    "awareness": "Style-aware, product-unaware.",
+    "belief_to_change": "A travel bag is part of the outfit and can anchor distinct city looks.",
+    "buyer_situation": "Planning outfits for a European fall trip.",
+    "changed": "Nuamore-informed four-woman hook grid and distinct city cast; latest revision replaces Milan portrait and jewelry detail with white female casting per user direction.",
+    "difference": "European wardrobe use case rather than old-money designer-price comparison.",
+    "fixed": "Exact approved narration; P01 guide; Cognac Eleanor identity; fashion aspiration; existing board.",
+    "format": "ugc",
+    "hypothesis": "Useful city styling advice may earn attention and make Eleanor desirable; unmeasured.",
+    "promise": "Aspirational Paris, Milan and London styling around Eleanor.",
+    "proof": "Visible exterior materials and stylistic outfit demonstrations; no campaign performance established.",
+    "treatment": "Persistent P01 style adviser over four-woman sourced-photo hook grid, followed by candid phone-style Eleanor images with distinct Paris, Milan, London and train women. Nuamore-derived daylight, informal framing and direct background cuts with occasional detail-led stepped crops. Featured female casting follows the white, sophisticated Velantra avatar; distinct identities across scenes."
+  },
+  "title": "Eleanor \u2014 European travel wardrobe / green-screen UGC",
+  "updated": "2026-09-12T21:36:58+00:00"
+}

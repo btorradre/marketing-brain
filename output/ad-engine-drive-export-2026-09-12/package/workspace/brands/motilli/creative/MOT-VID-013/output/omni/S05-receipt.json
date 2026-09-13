@@ -1,0 +1,73 @@
+{
+  "shot": "S05",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "She drops her gaze and exhales slowly with her elbows resting on her thighs; preserve the fully clothed pose and ordinary bathroom. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S05.png",
+  "reference_sha256": "2a6930e75aa0e39d851bef5dffc321bbed3c9b06d27b2e14dfea90c1e0deb52d",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdCN09nYXRPNklaS2N6N0lQeUliMXVRZxIXQjdPZ2F0TzZJWktjejdJUHlJYjF1UWc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S05.mp4",
+  "sha256": "60fee71045a87f7216ddceca5fe844aa8d125326ccd417f47da3cb719e87346b",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59918,
+    "total_input_tokens": 1157,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 57
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58422,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 339,
+    "raw_prompt_token": 31177,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1850
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 508
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 339
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

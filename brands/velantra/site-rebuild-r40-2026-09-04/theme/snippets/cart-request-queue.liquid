@@ -1,0 +1,24 @@
+{% doc %}
+Serializes same-origin Shopify Ajax Cart requests before app scripts initialize,
+so a late cart-creation response cannot replace a newly populated cart cookie.
+{% enddoc %}
+<script>
+(() => {
+  const originalFetch = window.fetch.bind(window);
+  let cartRequests = Promise.resolve();
+  window.fetch = function(input, options) {
+    let url;
+    try {
+      url = new URL(input instanceof Request ? input.url : input, window.location.href);
+    } catch (_) {
+      return originalFetch(input, options);
+    }
+    if (url.origin !== window.location.origin || !/\/cart(?:\/(?:add|change|update|clear))?\.js\/?$/.test(url.pathname)) {
+      return originalFetch(input, options);
+    }
+    const response = cartRequests.then(() => originalFetch(input, options));
+    cartRequests = response.then(() => undefined, () => undefined);
+    return response;
+  };
+})();
+</script>

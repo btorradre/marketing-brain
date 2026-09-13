@@ -1,0 +1,24 @@
+{
+  "job": "motilli-v19-toilet-cramping",
+  "brand": "motilli",
+  "brand_context": "Unbranded listicle VSL for adult women using GLP-1. Mature female presenter; this is illustrative real human B-roll, adult woman required, mature preferred but age flexible. No claim of actual product use or diagnosis. No competitor branding, visible nudity or excretion.",
+  "engine": "apify",
+  "slots": [
+    {
+      "slot_id": "B17",
+      "script_line": "Backed up, uncomfortable, just waiting.",
+      "emotion": "extreme frustration and abdominal discomfort, sustained strained expression and folded posture",
+      "action": "Adult woman visibly seated ON A TOILET in a bathroom, folded forward tightly bracing or clutching her abdomen with a sustained strong grimace. Exact toilet context and abdominal pain reaction must be visible together. Extreme entry and peak EV 5/5 with at least two supporting face/posture cues, rawness 4/5 or 5/5. Require a continuous 2.566667-second interval with NO source captions, text, watermarks, usernames, labels, or logos. No cropping or removal of lettering. Reject neutral seated monologues, talking about cramps, generic sofa pain, comedy mugging, minor distress, age ambiguity/minors, nudity/excretion.",
+      "mode": "search",
+      "search_terms": [
+        "endometriosis flare vlog",
+        "IBS flare up",
+        "period pain bathroom"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 3,
+      "max_duration_s": 240,
+      "duration_needs_s": 2.566666666666667
+    }
+  ]
+}

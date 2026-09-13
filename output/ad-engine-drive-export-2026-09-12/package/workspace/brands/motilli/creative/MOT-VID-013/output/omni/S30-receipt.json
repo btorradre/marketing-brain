@@ -1,0 +1,73 @@
+{
+  "shot": "S30",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "She shifts her weight naturally in the bathroom doorway and turns slightly toward the hall, fully clothed. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S30.png",
+  "reference_sha256": "f10a3fb13fd630effed45a5d083e6821d187e57a1237bbbfcdfe74fa80e050b5",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chd2N09nYXUyRUJMNmQ2ZGtQc3ZXTWtRYxIXdjdPZ2F1MkVCTDZkNmRrUHN2V01rUWM",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S30.mp4",
+  "sha256": "a78a5cff9a5940aa53673254f41900c157e98fbc22ed63e91c94b0e892352d70",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60013,
+    "total_input_tokens": 1151,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 51
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58453,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 409,
+    "raw_prompt_token": 31234,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1844
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 540
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 409
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

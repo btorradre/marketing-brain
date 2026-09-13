@@ -1,0 +1,7 @@
+{
+  "automated_flag": [
+    "00:00:00 - 01:20:900: Visible green edges around the presenter's cutout indicate a persistent keying issue that needs to be resolved for a clean composite."
+  ],
+  "finding": "Not corroborated in inspected frames. Direct enlarged visual inspection at 1s, 36s, 70s and 77s shows neutral hair/cardigan edges, no obvious green fringe. Eleven sampled lower-left regions contain zero pixels meeting G > max(R,B)+35 and G>100. Earlier machine review of the same keying passed; only the audio import changed. No creative alteration made solely on the unsupported flag.",
+  "limits": "Pixel threshold does not exclude every subtle tint; native samples and sampled video review do not prove every frame. The model also described a smooth fade-out that does not exist; this statement was rejected."
+}

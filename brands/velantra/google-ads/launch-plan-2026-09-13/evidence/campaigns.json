@@ -1,0 +1,6 @@
+{
+  "queried_at": "2026-09-13T18:56:51.559912+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT campaign.id, campaign.name, campaign.status, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign_budget.amount_micros, campaign.shopping_setting.merchant_id, campaign.shopping_setting.feed_label, campaign.network_settings.target_google_search, campaign.network_settings.target_search_network, campaign.network_settings.target_content_network FROM campaign WHERE campaign.status != REMOVED",
+  "results": []
+}

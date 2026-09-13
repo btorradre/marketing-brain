@@ -1,0 +1,20 @@
+{
+  "shot": "S26",
+  "verdict": "pass",
+  "observed_motion": "The woman adjusts the mint packet across the table surface before fully releasing it and retracting her hand to her lap, maintaining a neutral demeanor throughout.",
+  "issues": [
+    {
+      "time_s": 0.5,
+      "description": "Slight slide and hesitation with the packet before setting it down fully.",
+      "severity": "low"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 3.75,
+  "confidence": 3.6,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S26-4fps.jpg"
+}

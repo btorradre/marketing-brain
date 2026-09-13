@@ -1,0 +1,20 @@
+{
+  "query": "SELECT product_link.product_link_id, product_link.type, product_link.merchant_center.merchant_center_id FROM product_link",
+  "http_status": 200,
+  "response": {
+    "results": [
+      {
+        "productLink": {
+          "resourceName": "customers/9348603597/productLinks/1816828457",
+          "productLinkId": "1816828457",
+          "type": "MERCHANT_CENTER",
+          "merchantCenter": {
+            "merchantCenterId": "5819613813"
+          }
+        }
+      }
+    ],
+    "fieldMask": "productLink.productLinkId,productLink.type,productLink.merchantCenter.merchantCenterId",
+    "queryResourceConsumption": "148"
+  }
+}

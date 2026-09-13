@@ -1,0 +1,229 @@
+{
+  "status": "ready_for_editor",
+  "editor": "@adengine/timeline",
+  "plan": {
+    "schema_version": 1,
+    "title": "Synthetic handoff test",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_s": 4,
+    "analysis_to_edit": {
+      "rushes": "Proposed rushes decision based on source observations",
+      "cuts": "Proposed cuts decision based on source observations",
+      "transitions": "Proposed transitions decision based on source observations",
+      "pacing": "Proposed pacing decision based on source observations",
+      "animations": "Proposed animations decision based on source observations"
+    },
+    "clips": [
+      {
+        "id": "opening",
+        "asset_id": "asset_a",
+        "track_id": "main",
+        "kind": "video",
+        "timeline_start_s": 0,
+        "timeline_end_s": 2,
+        "source_in_s": 1,
+        "source_out_s": 3,
+        "speed": 1,
+        "animations": [
+          {
+            "property": "scale",
+            "rationale": "Proposed punch in",
+            "keyframes": [
+              {
+                "at_s": 0,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "at_s": 1.8,
+                "value": 1.1,
+                "easing": "hold"
+              }
+            ]
+          }
+        ],
+        "transition_out": {
+          "kind": "dissolve",
+          "duration_s": 0.2,
+          "rationale": "Proposed gentle handover"
+        },
+        "audio": null,
+        "evidence": [
+          {
+            "reference_id": "ref_a",
+            "observation_id": "rushes-1"
+          }
+        ],
+        "rationale": "Open on the usable action",
+        "qa_checks": [
+          "Action begins on first displayed frame"
+        ]
+      },
+      {
+        "id": "detail",
+        "asset_id": "asset_a",
+        "track_id": "main",
+        "kind": "video",
+        "timeline_start_s": 2,
+        "timeline_end_s": 4,
+        "source_in_s": 5,
+        "source_out_s": 9,
+        "speed": 2,
+        "animations": [],
+        "transition_out": null,
+        "audio": null,
+        "evidence": [
+          {
+            "reference_id": "ref_a",
+            "observation_id": "rushes-1"
+          }
+        ],
+        "rationale": "Open on the usable action",
+        "qa_checks": [
+          "Action begins on first displayed frame"
+        ]
+      },
+      {
+        "id": "sound",
+        "asset_id": "asset_a",
+        "track_id": "audio",
+        "kind": "audio",
+        "timeline_start_s": 0,
+        "timeline_end_s": 4,
+        "source_in_s": 0,
+        "source_out_s": 4,
+        "speed": 1,
+        "animations": [],
+        "transition_out": null,
+        "audio": {
+          "gain_db": -6,
+          "fade_in_s": 0.1,
+          "fade_out_s": 0.2
+        },
+        "evidence": [
+          {
+            "reference_id": "ref_a",
+            "observation_id": "rushes-1"
+          }
+        ],
+        "rationale": "Open on the usable action",
+        "qa_checks": [
+          "Action begins on first displayed frame"
+        ]
+      }
+    ],
+    "unresolved": [],
+    "acceptance_checks": [
+      "Compare rendered timing against the source ledger"
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset_a",
+      "kind": "video",
+      "url": "https://example.test/source.mp4",
+      "duration_s": 12
+    }
+  ],
+  "analysis": {
+    "ref_a": {
+      "video_asset_id": "asset_a",
+      "beats": [
+        {
+          "index": 1,
+          "t": 0,
+          "t_end": 12,
+          "duration": 12,
+          "gemini": {
+            "index": 1,
+            "shot_type": "MS"
+          }
+        }
+      ],
+      "editorial": {
+        "rushes": {
+          "status": "reviewed",
+          "summary": "Synthetic fixture: rushes",
+          "observations": [
+            {
+              "id": "rushes-1",
+              "start_s": 0,
+              "end_s": 12,
+              "description": "Synthetic source observation for contract tests",
+              "confidence": 0.95,
+              "details": {
+                "synthetic": true
+              }
+            }
+          ]
+        },
+        "cuts": {
+          "status": "reviewed",
+          "summary": "Synthetic fixture: cuts",
+          "observations": [
+            {
+              "id": "cuts-1",
+              "start_s": 0,
+              "end_s": 12,
+              "description": "Synthetic source observation for contract tests",
+              "confidence": 0.95,
+              "details": {
+                "synthetic": true
+              }
+            }
+          ]
+        },
+        "transitions": {
+          "status": "reviewed",
+          "summary": "Synthetic fixture: transitions",
+          "observations": [
+            {
+              "id": "transitions-1",
+              "start_s": 0,
+              "end_s": 12,
+              "description": "Synthetic source observation for contract tests",
+              "confidence": 0.95,
+              "details": {
+                "synthetic": true
+              }
+            }
+          ]
+        },
+        "pacing": {
+          "status": "reviewed",
+          "summary": "Synthetic fixture: pacing",
+          "observations": [
+            {
+              "id": "pacing-1",
+              "start_s": 0,
+              "end_s": 12,
+              "description": "Synthetic source observation for contract tests",
+              "confidence": 0.95,
+              "details": {
+                "synthetic": true
+              }
+            }
+          ]
+        },
+        "animations": {
+          "status": "reviewed",
+          "summary": "Synthetic fixture: animations",
+          "observations": [
+            {
+              "id": "animations-1",
+              "start_s": 0,
+              "end_s": 12,
+              "description": "Synthetic source observation for contract tests",
+              "confidence": 0.95,
+              "details": {
+                "synthetic": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

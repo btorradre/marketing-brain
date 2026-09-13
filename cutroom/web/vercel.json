@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/b/:slug", "destination": "/board.html" },
+    { "source": "/assets/:path*", "destination": "/api/asset?path=:path*" }
+  ],
+  "functions": {
+    "api/ai.js": { "maxDuration": 300 }
+  }
+}

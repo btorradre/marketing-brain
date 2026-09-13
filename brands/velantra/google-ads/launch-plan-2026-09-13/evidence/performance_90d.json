@@ -1,0 +1,21 @@
+{
+  "queried_at": "2026-09-13T18:56:51.503546+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT campaign.id, campaign.name, metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions, metrics.conversions_value FROM campaign WHERE segments.date BETWEEN '2026-06-15' AND '2026-09-12'",
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/9348603597/campaigns/24222469438",
+        "name": "Campaign #1",
+        "id": "24222469438"
+      },
+      "metrics": {
+        "clicks": "157",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "24151564",
+        "impressions": "9855"
+      }
+    }
+  ]
+}

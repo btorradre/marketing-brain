@@ -1,0 +1,73 @@
+{
+  "shot": "S35",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "In the close exterior portrait, she breathes softly and gives a small relaxed smile as a light breeze moves a few strands of hair. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S35-v2.png",
+  "reference_sha256": "e74bbf96fc9d93d74c0acbd2f18ecba6c13d3019823a09e2bcc6a8092a379556",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChY0N09nYXUtaUdOelV6N0lQaHJ2YVdBEhY0N09nYXUtaUdOelV6N0lQaHJ2YVdB",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S35.mp4",
+  "sha256": "c43febb75a302fbdbc95aad095253d9f71954a998cfeb1d73bf1854d47ced30a",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59965,
+    "total_input_tokens": 1158,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 58
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58439,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 368,
+    "raw_prompt_token": 31234,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1851
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 525
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 368
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

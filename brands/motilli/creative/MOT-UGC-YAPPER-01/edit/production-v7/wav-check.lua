@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('AUDIO_FORMAT_TEST',p:SetCurrentRenderFormatAndCodec('wav','LinearPCM'));local j=p:GetCurrentRenderFormatAndCodec();for k,v in pairs(j) do print(k,v) end

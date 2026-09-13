@@ -1,0 +1,18 @@
+Input #0, wav, from '/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v26/sources/H1-48k.wav':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Duration: 00:00:09.28, bitrate: 1152 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s32 (24 bit), 1152 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, mono, s16, 768 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+[Parsed_silencedetect_0 @ 0x9b7020900] silence_start: 2.944958
+[Parsed_silencedetect_0 @ 0x9b7020900] silence_end: 3.359896 | silence_duration: 0.414937
+[out#0/null @ 0x9b7020180] video:0KiB audio:870KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:09.28 bitrate=N/A speed=4.24e+03x elapsed=0:00:00.00    

@@ -1,0 +1,12 @@
+mutation ProductImage($product: ProductUpdateInput!, $media: [CreateMediaInput!]) {
+  productUpdate(product: $product, media: $media) {
+    product { id media(first: 15) { nodes { id alt status } } }
+    userErrors { field message }
+  }
+}
+mutation ProductImageOrder($id: ID!, $moves: [MoveInput!]!) {
+  productReorderMedia(id: $id, moves: $moves) {
+    job { id done }
+    mediaUserErrors { field message }
+  }
+}

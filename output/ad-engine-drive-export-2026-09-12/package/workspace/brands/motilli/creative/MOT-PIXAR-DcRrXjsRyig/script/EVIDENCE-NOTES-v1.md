@@ -1,0 +1,10 @@
+# Script evidence and editorial notes — draft1
+
+September11,2026. User selected concept1 and requested a script only. Story, characters and events are fictional; this is not a customer testimonial. No product/medical expert endorsement is invented.
+
+- Medical premise: [official Wegovy safety information](https://www.wegovy.com/obesity/is-wegovy-right-for-me/safety-side-effects.html) states delayed stomach emptying and lists bloating and constipation among potential adverse effects. This supports the narrow explanatory sentence, not a diagnosis of every symptom or a supplement-treatment claim. Internal character context is semaglutide injection; dialogue says medication/shot.
+- Product identity/format: [current Motilli page](https://getmotilli.com/) identifies celery juice gummies. The draft uses the form and a fictional character’s preference for chewing instead of swallowing pills. It does not repeat the page’s causal or efficacy assertions as established evidence.
+- Brand positioning: the August17 canonical top/bottom document, with later amendments, supersedes the retired signal/conveyor framework. It is marketing strategy, not medical substantiation.
+- Evidence conflict: the August11 custom-formulation brief acknowledges a previously fabricated facts panel and describes limited human evidence for celery constipation efficacy. The live site now displays amounts and ingredient claims, but this session has not established batch/manufacturing confirmation or a substantiated finished-product clinical claim. Consequently this draft narrows the product passage rather than inventing the canonical causal argument.
+- Story closure: the changed meaning of Linda leaving the table is the payoff. The final scene must not be staged as proof of a predictable clinical response. Passage of time and her prescriber contact are explicit, without attributing every change to gummies.
+- No dose, exact response time, quantified outcome, guarantee, exclusivity, scientific quotation or verified testimonial is included.

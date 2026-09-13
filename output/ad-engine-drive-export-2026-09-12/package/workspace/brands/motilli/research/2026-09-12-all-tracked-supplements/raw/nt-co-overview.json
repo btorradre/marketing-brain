@@ -1,0 +1,1531 @@
+{
+  "jsonrpc": "2.0",
+  "id": "nt-co-overview",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand tracker analysis — NT.CO\n\n## Overview\n\n- Date range: 2025-09-13 → 2026-09-13\n- Granularity: daily\n- Ads launched over period: 1,290\n\n## Media mix\n\n- Active ads: 168\n- Image: 168 (100%)\n- Video: 0 (0%)\n- DCO: 0 (0%)\n- Other: 0 (0%)\n\n## Demography / ad reach distribution\n\nRaw structuredContent paths:\n- Countries: `structuredContent.demography.data.countryDistribution`\n- Age: `structuredContent.demography.data.ageDistribution`\n- Gender: `structuredContent.demography.data.genderDistribution`\n\n### Countries by ad reach\n\n1. GB — 1,139 reach\n2. NL — 146 reach\n\n### Age ranges\n\n- 65+ — 406 reach\n- 55-64 — 292 reach\n- 45-54 — 239 reach\n- 35-44 — 200 reach\n- 25-34 — 109 reach\n\n### Gender\n\n- female — 861 reach\n- male — 403 reach\n- unknown — 21 reach\n\n## Top hooks\n\n_No hook signal recorded._\n\n## Top landing pages\n\n1. https://nutritiontherapy.co/products/pumpkin-seed-oil-drops — impressions 0, longest run 1d\n2. https://nutritiontherapy.co/pages/ooo-jv3q — impressions 0, longest run 24d\n3. https://nutritiontherapy.co/products/ooo-constipation — impressions 0, longest run 25d\n4. https://nutritiontherapy.co/products/oil-of-oregano — impressions 0, longest run 31d\n5. https://nutritiontherapy.co/products/oil-of-oregano-drops-26 — impressions 0, longest run 0d\n\n## Creative swipe file\n\n### Hooks to steal\n\n_No hook signal available._\n\n### Landing pages to study\n\n1. https://nutritiontherapy.co/products/pumpkin-seed-oil-drops — Generated 0 impressions with a longest run of 1 days.\n2. https://nutritiontherapy.co/pages/ooo-jv3q — Generated 0 impressions with a longest run of 24 days.\n3. https://nutritiontherapy.co/products/ooo-constipation — Generated 0 impressions with a longest run of 25 days.\n4. https://nutritiontherapy.co/products/oil-of-oregano — Generated 0 impressions with a longest run of 31 days.\n5. https://nutritiontherapy.co/products/oil-of-oregano-drops-26 — Generated 0 impressions with a longest run of 0 days.\n\n### Format signals\n\n- Image: 168\n- Video: 0\n- DCO: 0\n- Other: 0\n- Recommendation: Prioritize image creatives first; this is the strongest observed format signal for the tracked brand.\n\n---\nCredits used: 9 | Remaining: 6712 | Source: recurring\nBreakdown: brandtracker_access_check:1(success), overview:1(success), media_mix:1(success), demography:1(success), hooks:1(success), landing_pages:1(success)"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "ae20551b-8171-4ed9-be1b-c59106f02769",
+      "brandtrackerId": "c9e66e7b-6295-4e1e-aad6-fe85cbb79b5a",
+      "input": {
+        "brandtrackerId": "c9e66e7b-6295-4e1e-aad6-fe85cbb79b5a",
+        "brand": null
+      },
+      "resolution": {
+        "source": "brandtracker_id",
+        "resolvedBrandtrackerId": "c9e66e7b-6295-4e1e-aad6-fe85cbb79b5a",
+        "resolvedBrandName": "NT.CO",
+        "facebookPageId": "1243567648836652",
+        "matchedCount": null
+      },
+      "brandLookup": null,
+      "overview": {
+        "data": {
+          "graph": {
+            "granularity": "daily",
+            "dateRange": {
+              "startDate": "2025-09-13",
+              "endDate": "2026-09-13"
+            },
+            "adsLaunched": [
+              {
+                "date": "2026-07-21",
+                "count": 64
+              },
+              {
+                "date": "2026-07-22",
+                "count": 0
+              },
+              {
+                "date": "2026-07-23",
+                "count": 31
+              },
+              {
+                "date": "2026-07-24",
+                "count": 5
+              },
+              {
+                "date": "2026-07-25",
+                "count": 1
+              },
+              {
+                "date": "2026-07-26",
+                "count": 0
+              },
+              {
+                "date": "2026-07-27",
+                "count": 71
+              },
+              {
+                "date": "2026-07-28",
+                "count": 9
+              },
+              {
+                "date": "2026-07-29",
+                "count": 0
+              },
+              {
+                "date": "2026-07-30",
+                "count": 0
+              },
+              {
+                "date": "2026-07-31",
+                "count": 22
+              },
+              {
+                "date": "2026-08-01",
+                "count": 0
+              },
+              {
+                "date": "2026-08-02",
+                "count": 0
+              },
+              {
+                "date": "2026-08-03",
+                "count": 0
+              },
+              {
+                "date": "2026-08-04",
+                "count": 153
+              },
+              {
+                "date": "2026-08-05",
+                "count": 77
+              },
+              {
+                "date": "2026-08-06",
+                "count": 86
+              },
+              {
+                "date": "2026-08-07",
+                "count": 12
+              },
+              {
+                "date": "2026-08-08",
+                "count": 1
+              },
+              {
+                "date": "2026-08-09",
+                "count": 3
+              },
+              {
+                "date": "2026-08-10",
+                "count": 21
+              },
+              {
+                "date": "2026-08-11",
+                "count": 1
+              },
+              {
+                "date": "2026-08-12",
+                "count": 1
+              },
+              {
+                "date": "2026-08-13",
+                "count": 0
+              },
+              {
+                "date": "2026-08-14",
+                "count": 0
+              },
+              {
+                "date": "2026-08-15",
+                "count": 0
+              },
+              {
+                "date": "2026-08-16",
+                "count": 0
+              },
+              {
+                "date": "2026-08-17",
+                "count": 2
+              },
+              {
+                "date": "2026-08-18",
+                "count": 0
+              },
+              {
+                "date": "2026-08-19",
+                "count": 1
+              },
+              {
+                "date": "2026-08-20",
+                "count": 0
+              },
+              {
+                "date": "2026-08-21",
+                "count": 135
+              },
+              {
+                "date": "2026-08-22",
+                "count": 442
+              },
+              {
+                "date": "2026-08-23",
+                "count": 17
+              },
+              {
+                "date": "2026-08-24",
+                "count": 0
+              },
+              {
+                "date": "2026-08-25",
+                "count": 0
+              },
+              {
+                "date": "2026-08-26",
+                "count": 0
+              },
+              {
+                "date": "2026-08-27",
+                "count": 1
+              },
+              {
+                "date": "2026-08-28",
+                "count": 0
+              },
+              {
+                "date": "2026-08-29",
+                "count": 62
+              },
+              {
+                "date": "2026-08-30",
+                "count": 63
+              },
+              {
+                "date": "2026-08-31",
+                "count": 2
+              },
+              {
+                "date": "2026-09-01",
+                "count": 0
+              },
+              {
+                "date": "2026-09-02",
+                "count": 1
+              },
+              {
+                "date": "2026-09-03",
+                "count": 0
+              },
+              {
+                "date": "2026-09-04",
+                "count": 4
+              },
+              {
+                "date": "2026-09-05",
+                "count": 0
+              },
+              {
+                "date": "2026-09-06",
+                "count": 0
+              },
+              {
+                "date": "2026-09-07",
+                "count": 1
+              },
+              {
+                "date": "2026-09-08",
+                "count": 0
+              },
+              {
+                "date": "2026-09-09",
+                "count": 0
+              },
+              {
+                "date": "2026-09-10",
+                "count": 0
+              },
+              {
+                "date": "2026-09-11",
+                "count": 0
+              },
+              {
+                "date": "2026-09-12",
+                "count": 1
+              },
+              {
+                "date": "2026-09-13",
+                "count": 0
+              }
+            ],
+            "liveAds": [
+              {
+                "date": "2026-07-21",
+                "count": 64
+              },
+              {
+                "date": "2026-07-22",
+                "count": 140
+              },
+              {
+                "date": "2026-07-23",
+                "count": 171
+              },
+              {
+                "date": "2026-07-24",
+                "count": 176
+              },
+              {
+                "date": "2026-07-25",
+                "count": 177
+              },
+              {
+                "date": "2026-07-26",
+                "count": 125
+              },
+              {
+                "date": "2026-07-27",
+                "count": 196
+              },
+              {
+                "date": "2026-07-28",
+                "count": 205
+              },
+              {
+                "date": "2026-07-29",
+                "count": 208
+              },
+              {
+                "date": "2026-07-30",
+                "count": 34
+              },
+              {
+                "date": "2026-07-31",
+                "count": 56
+              },
+              {
+                "date": "2026-08-01",
+                "count": 56
+              },
+              {
+                "date": "2026-08-02",
+                "count": 56
+              },
+              {
+                "date": "2026-08-03",
+                "count": 56
+              },
+              {
+                "date": "2026-08-04",
+                "count": 209
+              },
+              {
+                "date": "2026-08-05",
+                "count": 276
+              },
+              {
+                "date": "2026-08-06",
+                "count": 362
+              },
+              {
+                "date": "2026-08-07",
+                "count": 374
+              },
+              {
+                "date": "2026-08-08",
+                "count": 368
+              },
+              {
+                "date": "2026-08-09",
+                "count": 377
+              },
+              {
+                "date": "2026-08-10",
+                "count": 296
+              },
+              {
+                "date": "2026-08-11",
+                "count": 215
+              },
+              {
+                "date": "2026-08-12",
+                "count": 216
+              },
+              {
+                "date": "2026-08-13",
+                "count": 125
+              },
+              {
+                "date": "2026-08-14",
+                "count": 107
+              },
+              {
+                "date": "2026-08-15",
+                "count": 108
+              },
+              {
+                "date": "2026-08-16",
+                "count": 97
+              },
+              {
+                "date": "2026-08-17",
+                "count": 93
+              },
+              {
+                "date": "2026-08-18",
+                "count": 93
+              },
+              {
+                "date": "2026-08-19",
+                "count": 57
+              },
+              {
+                "date": "2026-08-20",
+                "count": 57
+              },
+              {
+                "date": "2026-08-21",
+                "count": 192
+              },
+              {
+                "date": "2026-08-22",
+                "count": 629
+              },
+              {
+                "date": "2026-08-23",
+                "count": 247
+              },
+              {
+                "date": "2026-08-24",
+                "count": 247
+              },
+              {
+                "date": "2026-08-25",
+                "count": 247
+              },
+              {
+                "date": "2026-08-26",
+                "count": 247
+              },
+              {
+                "date": "2026-08-27",
+                "count": 248
+              },
+              {
+                "date": "2026-08-28",
+                "count": 248
+              },
+              {
+                "date": "2026-08-29",
+                "count": 212
+              },
+              {
+                "date": "2026-08-30",
+                "count": 213
+              },
+              {
+                "date": "2026-08-31",
+                "count": 215
+              },
+              {
+                "date": "2026-09-01",
+                "count": 198
+              },
+              {
+                "date": "2026-09-02",
+                "count": 193
+              },
+              {
+                "date": "2026-09-03",
+                "count": 191
+              },
+              {
+                "date": "2026-09-04",
+                "count": 186
+              },
+              {
+                "date": "2026-09-05",
+                "count": 184
+              },
+              {
+                "date": "2026-09-06",
+                "count": 184
+              },
+              {
+                "date": "2026-09-07",
+                "count": 185
+              },
+              {
+                "date": "2026-09-08",
+                "count": 167
+              },
+              {
+                "date": "2026-09-09",
+                "count": 167
+              },
+              {
+                "date": "2026-09-10",
+                "count": 167
+              },
+              {
+                "date": "2026-09-11",
+                "count": 167
+              },
+              {
+                "date": "2026-09-12",
+                "count": 168
+              },
+              {
+                "date": "2026-09-13",
+                "count": 168
+              }
+            ],
+            "euImpressionsSpend": [
+              {
+                "date": "2026-07-21",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-07-22",
+                "impressions": 0,
+                "cumulativeImpressions": 0,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-07-23",
+                "impressions": 194,
+                "cumulativeImpressions": 194,
+                "estimatedSpend": 1.75
+              },
+              {
+                "date": "2026-07-24",
+                "impressions": 410,
+                "cumulativeImpressions": 604,
+                "estimatedSpend": 3.69
+              },
+              {
+                "date": "2026-07-25",
+                "impressions": 1,
+                "cumulativeImpressions": 605,
+                "estimatedSpend": 0.01
+              },
+              {
+                "date": "2026-07-26",
+                "impressions": 99,
+                "cumulativeImpressions": 704,
+                "estimatedSpend": 0.89
+              },
+              {
+                "date": "2026-07-27",
+                "impressions": 65,
+                "cumulativeImpressions": 769,
+                "estimatedSpend": 0.59
+              },
+              {
+                "date": "2026-07-28",
+                "impressions": 9,
+                "cumulativeImpressions": 778,
+                "estimatedSpend": 0.08
+              },
+              {
+                "date": "2026-07-29",
+                "impressions": 0,
+                "cumulativeImpressions": 778,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-07-30",
+                "impressions": 85,
+                "cumulativeImpressions": 863,
+                "estimatedSpend": 0.77
+              },
+              {
+                "date": "2026-07-31",
+                "impressions": 561,
+                "cumulativeImpressions": 1424,
+                "estimatedSpend": 5.05
+              },
+              {
+                "date": "2026-08-01",
+                "impressions": 761,
+                "cumulativeImpressions": 2185,
+                "estimatedSpend": 6.85
+              },
+              {
+                "date": "2026-08-02",
+                "impressions": 0,
+                "cumulativeImpressions": 2185,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-08-03",
+                "impressions": 303,
+                "cumulativeImpressions": 2488,
+                "estimatedSpend": 2.73
+              },
+              {
+                "date": "2026-08-04",
+                "impressions": 760,
+                "cumulativeImpressions": 3248,
+                "estimatedSpend": 6.84
+              },
+              {
+                "date": "2026-08-05",
+                "impressions": 0,
+                "cumulativeImpressions": 3248,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-08-06",
+                "impressions": 458,
+                "cumulativeImpressions": 3706,
+                "estimatedSpend": 4.12
+              },
+              {
+                "date": "2026-08-07",
+                "impressions": 50,
+                "cumulativeImpressions": 3756,
+                "estimatedSpend": 0.45
+              },
+              {
+                "date": "2026-08-08",
+                "impressions": 207,
+                "cumulativeImpressions": 3963,
+                "estimatedSpend": 1.86
+              },
+              {
+                "date": "2026-08-09",
+                "impressions": 355,
+                "cumulativeImpressions": 4318,
+                "estimatedSpend": 3.2
+              },
+              {
+                "date": "2026-08-10",
+                "impressions": 144,
+                "cumulativeImpressions": 4462,
+                "estimatedSpend": 1.3
+              },
+              {
+                "date": "2026-08-11",
+                "impressions": 0,
+                "cumulativeImpressions": 4462,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-08-12",
+                "impressions": 0,
+                "cumulativeImpressions": 4462,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-08-13",
+                "impressions": 71,
+                "cumulativeImpressions": 4533,
+                "estimatedSpend": 0.64
+              },
+              {
+                "date": "2026-08-14",
+                "impressions": 0,
+                "cumulativeImpressions": 4533,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-08-15",
+                "impressions": 8,
+                "cumulativeImpressions": 4541,
+                "estimatedSpend": 0.07
+              },
+              {
+                "date": "2026-08-16",
+                "impressions": 41,
+                "cumulativeImpressions": 4582,
+                "estimatedSpend": 0.37
+              },
+              {
+                "date": "2026-08-17",
+                "impressions": 28,
+                "cumulativeImpressions": 4610,
+                "estimatedSpend": 0.25
+              },
+              {
+                "date": "2026-08-18",
+                "impressions": 29,
+                "cumulativeImpressions": 4639,
+                "estimatedSpend": 0.26
+              },
+              {
+                "date": "2026-08-19",
+                "impressions": 35,
+                "cumulativeImpressions": 4674,
+                "estimatedSpend": 0.32
+              },
+              {
+                "date": "2026-08-20",
+                "impressions": 0,
+                "cumulativeImpressions": 4674,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-08-21",
+                "impressions": 343,
+                "cumulativeImpressions": 5017,
+                "estimatedSpend": 3.09
+              },
+              {
+                "date": "2026-08-22",
+                "impressions": 778,
+                "cumulativeImpressions": 5795,
+                "estimatedSpend": 7
+              },
+              {
+                "date": "2026-08-23",
+                "impressions": 366,
+                "cumulativeImpressions": 6161,
+                "estimatedSpend": 3.29
+              },
+              {
+                "date": "2026-08-24",
+                "impressions": 279,
+                "cumulativeImpressions": 6440,
+                "estimatedSpend": 2.51
+              },
+              {
+                "date": "2026-08-25",
+                "impressions": 69,
+                "cumulativeImpressions": 6509,
+                "estimatedSpend": 0.62
+              },
+              {
+                "date": "2026-08-26",
+                "impressions": 0,
+                "cumulativeImpressions": 6509,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-08-27",
+                "impressions": 50,
+                "cumulativeImpressions": 6559,
+                "estimatedSpend": 0.45
+              },
+              {
+                "date": "2026-08-28",
+                "impressions": 62,
+                "cumulativeImpressions": 6621,
+                "estimatedSpend": 0.56
+              },
+              {
+                "date": "2026-08-29",
+                "impressions": 189,
+                "cumulativeImpressions": 6810,
+                "estimatedSpend": 1.7
+              },
+              {
+                "date": "2026-08-30",
+                "impressions": 136,
+                "cumulativeImpressions": 6946,
+                "estimatedSpend": 1.22
+              },
+              {
+                "date": "2026-08-31",
+                "impressions": 198,
+                "cumulativeImpressions": 7144,
+                "estimatedSpend": 1.78
+              },
+              {
+                "date": "2026-09-01",
+                "impressions": 42,
+                "cumulativeImpressions": 7186,
+                "estimatedSpend": 0.38
+              },
+              {
+                "date": "2026-09-02",
+                "impressions": 84,
+                "cumulativeImpressions": 7270,
+                "estimatedSpend": 0.76
+              },
+              {
+                "date": "2026-09-03",
+                "impressions": 217,
+                "cumulativeImpressions": 7487,
+                "estimatedSpend": 1.95
+              },
+              {
+                "date": "2026-09-04",
+                "impressions": 0,
+                "cumulativeImpressions": 7487,
+                "estimatedSpend": 0
+              },
+              {
+                "date": "2026-09-05",
+                "impressions": 62,
+                "cumulativeImpressions": 7549,
+                "estimatedSpend": 0.56
+              },
+              {
+                "date": "2026-09-06",
+                "impressions": 25,
+                "cumulativeImpressions": 7574,
+                "estimatedSpend": 0.23
+              },
+              {
+                "date": "2026-09-07",
+                "impressions": 39,
+                "cumulativeImpressions": 7613,
+                "estimatedSpend": 0.35
+              },
+              {
+                "date": "2026-09-08",
+                "impressions": 16,
+                "cumulativeImpressions": 7629,
+                "estimatedSpend": 0.14
+              },
+              {
+                "date": "2026-09-09",
+                "impressions": 17,
+                "cumulativeImpressions": 7646,
+                "estimatedSpend": 0.15
+              },
+              {
+                "date": "2026-09-10",
+                "impressions": 18,
+                "cumulativeImpressions": 7664,
+                "estimatedSpend": 0.16
+              },
+              {
+                "date": "2026-09-11",
+                "impressions": 14,
+                "cumulativeImpressions": 7678,
+                "estimatedSpend": 0.13
+              },
+              {
+                "date": "2026-09-12",
+                "impressions": 11,
+                "cumulativeImpressions": 7689,
+                "estimatedSpend": 0.1
+              },
+              {
+                "date": "2026-09-13",
+                "impressions": 15,
+                "cumulativeImpressions": 7704,
+                "estimatedSpend": 0.14
+              }
+            ],
+            "cpm": 9
+          },
+          "mediaMix": {
+            "activeAds": 0,
+            "formatCount": {
+              "image": 0,
+              "video": 0,
+              "dco": 0,
+              "other": 0
+            }
+          },
+          "topLandingPages": {
+            "data": [],
+            "pagination": {
+              "page": 1,
+              "limit": 5,
+              "total": 0,
+              "totalPages": 0
+            }
+          },
+          "topAds": {
+            "data": [
+              {
+                "ad": {
+                  "id": "facebook_4340083556247781",
+                  "platform": "facebook",
+                  "status": "active",
+                  "createdAt": "2026-07-30T06:45:31.947Z",
+                  "firstSeenAt": "2026-07-28T07:00:00.000Z",
+                  "lastSeenAt": "2026-08-01T07:00:00.000Z",
+                  "daysRunning": 45,
+                  "media": {
+                    "type": "image",
+                    "thumbnailUrl": null,
+                    "mediaUrl": "https://medias.trendtrack.io/facebook/image/46af40cc7c18548d3bee7c2b381223422157eab972f46333a7f5e4e0bbb6921e.png"
+                  },
+                  "advertiser": {
+                    "id": "1243567648836652",
+                    "name": "Scarlett Boyd",
+                    "logoUrl": "https://medias.trendtrack.io/profile_picture/1243567648836652.jpg",
+                    "facebookPageId": "1243567648836652",
+                    "liveAdsCount": 167,
+                    "reach30d": 2281,
+                    "totalReach": 6099,
+                    "countriesCount": null,
+                    "facebookLikes": 7,
+                    "instagramFollowers": null
+                  },
+                  "content": {
+                    "title": null,
+                    "body": "I'm a microbiome researcher. I've spent 12 years studying how bacteria overgrow and accumulate inside the human small intestine. The first thing you learn in my field is that bacterial overgrowth is behind more chronic diarrhea than any doctor will tell you.\nThen I travelled to a small village on the coast of Crete. The Greek community where people eat more carbohydrates per meal than almost anywhere else in Europe.\nWhat I found there broke everything I thought I knew.\nLet me back up.\nI work in a university research lab. Gastroenterologists send me cases when they've run out of answers. Gut panels. Tissue analysis. Files from patients who've been sick for years and nobody can figure out why.\nBy the time a patient file hits my desk, I already know what the chart is going to say. Because it always says the same thing.\nPatient presents with chronic diarrhea. Doctor's notes: IBS-D. Recommend dietary modification.\nPatient returns. Bloating that won't resolve. Doctor's notes: IBS. Recommend low-FODMAP diet.\nPatient returns. Fatigue that sleep doesn't fix. Doctor's notes: Chronic fatigue. Blood panel normal. Recommend exercise.\nPatient returns. Brain fog. Forgetting words. Can't follow conversations. Doctor's notes: Consider stress reduction.\nPatient returns. Urgency so bad she's mapping every bathroom on every route she drives. Doctor's notes: Increase Imodium dosage.\nFive visits. Five years. Five separate diagnoses. Five separate prescriptions.\nThen someone finally sends the case to me.\nI run the analysis. Look through the data. And in less than an hour I find what explains every single one of those visits.\nBacterial overgrowth. In the small intestine. Where it doesn't belong.\nHydrogen-producing bacteria. Colonies of them. Fermenting carbohydrates prematurely. Producing gas higher up in the digestive tract than normal.\nAnd surrounding everything, a thick protective coating so dense it hides what is inside from standard tests.\nBiofilm. A fortress wall. A personal bunker built inside the patient's small intestine by the bacteria themselves.\nFive years of doctors. Five prescriptions. Thousands of dollars. And the answer was sitting in my data in under an hour.\nThis is what I see every single day. It never changes. The symptoms are always the same. The wrong diagnoses are always the same. The years of suffering are always the same.\nAnd the bacterial overgrowth is always there. Behind its walls. Thriving.\nSo when I got invited to a research conference in Athens last spring, I added two extra weeks to the trip. Because something had been bothering me for years. Something I couldn't explain with anything I'd learned in 12 years of studying these organisms.\nThe Greek islands and coastal villages eat a diet heavy in bread, pasta, olive oil, cheese. Carbohydrates at nearly every meal. In my field, carbohydrates are the primary fuel source that feeds bacterial overgrowth. That's first-year textbook material. Every microbiome researcher knows it.\nBut the coastal villages of Crete have some of the lowest rates of chronic digestive disease in the developed world. The lowest rates of the gut dysfunction, diarrhea, and inflammatory conditions that are destroying Americans.\nThat makes no sense. Based on my training, these people should be the most bacterially burdened population in the developed world. They should have MORE of the symptoms I see in my American patients every day. Not less.\nI needed to understand why.\nAfter the conference I took a ferry south to Crete. A coastal village with one of the highest concentrations of healthy elderly people I had ever encountered outside of a research paper.\nPeople living past 90, not in nursing homes, but actually healthy, sharp, and active.\nI arranged a visit through a local contact.\nThe woman I met was named Eleni. She's 96 years old. Lives alone. Tends her garden every morning. Walks to the market. Cooks all her own meals.\nAnd she has been eating bread, cheese, and olive oil at every single meal for probably 80 years.\nI'm sitting at her kitchen table on day three watching her prepare breakfast.\nMy brain is going haywire. I'm thinking about every case I've ever analyzed. Every bacterial colony I've ever documented. Every patient file that ended up on my desk.\nThis woman has been eating carbohydrate-heavy meals daily for probably 80 years. Based on everything I know, her gut should be a war zone of bacterial overgrowth.\nBut she's 96. She's sharp. She has a flat stomach. She has more energy than most of my 40-year-old colleagues back home.\nI had to ask.\n\"Eleni, aren't you worried about your digestion? About what all those carbohydrates do to your gut?\"\nShe stops stirring. Looks at me. Starts laughing.\n\"Of course I worry. Everyone here worries. That's exactly why we all live so long.\"\nShe wipes her hands and tells me to sit down.\n\"You want to know the real secret? Why we live to 96 here while Americans are sick at 40 with ruined stomachs? Why my neighbor is 93 and still works in her garden every morning?\"\n\"It's because we clean our insides. Every single day. From the time we are children until the day we die.\"\n\"Americans swallow capsules and think they are cleaning themselves. But you cannot clean what lives inside you by swallowing something that cannot get past the damage. The gut is damaged. The capsules dissolve and what the bacteria deposited behind their walls stays untouched.\"\nShe shakes her head.\n\"We learned a long time ago. You must use the liquid. It goes straight past the damage. It touches everything the capsules cannot reach.\"\nI sat there staring at her. I have a PhD in microbiology. I have 12 years of laboratory research. I've published papers on bacterial biofilm resistance and antimicrobial evasion.\nAnd this 96-year-old woman just described the exact limitation of capsule-based protocols that I've been documenting in my research for over a decade. In one sentence. Like it was obvious.\nShe walks to a cabinet and pulls out a small dark glass bottle and a wooden dropper.\n\"Every morning before I eat, I take the drops.\" She holds the dropper up. \"Under my tongue or in water. Past the stomach. Past the damage. And then I eat.\"\n\"My grandmother gave these to me. She did the same thing every morning of her life. She lived to 101. Her mother did the same. Every woman in our family. Every woman in this village who lives past 90.\"\n\"The drops go straight into the gut. Liquid. No coating to dissolve. No capsule to break down. They touch the walls where the bad bacteria hide behind their protection. They break down those walls. And they kill the bad ones without killing the good ones.\"\nShe taps her abdomen.\n\"In the morning. Before you eat. That's when the gut is empty and the oil can reach everywhere. You clean first, then you eat. You clean every day, or you don't clean at all.\"\nThen she says something that stopped me cold.\n\"Americans swallow capsules that cannot get past a damaged gut and wonder why their stomachs never heal. That's why Americans are sick.\"\nI need you to understand what it felt like hearing that.\nI am literally the scientist who studies this. I have the data. I have the research. I have 12 years of published papers on my desk.\nAnd this woman, with no degree, no laboratory, no published research, just described four things I know to be scientifically true.\nOne. Capsules cannot get absorbed through a damaged gut. She said capsules dissolve and what the bacteria deposited stays untouched. She's right. SIBO damages the lining of the small intestine, creating a malabsorption barrier. Standard oral supplements lose the vast majority of their active compounds before they reach therapeutic concentration where bacteria are hiding behind biofilm. What survives gets diluted. By the time it reaches bacteria shielded inside the small intestinal wall, the concentration is nowhere near enough.\nTwo. Liquid delivery bypasses that problem entirely. She said you must use the liquid. That's exactly what the pharmacokinetics support. Liquid drops don't need to be dissolved. No reliance on a damaged intestinal wall to absorb them. The active compound makes direct contact with the bacterial overgrowth the moment it reaches the small intestine. Full concentration. Immediate contact.\nThree. It kills selectively. She said it kills the bad ones without killing the good ones. She's right. Carvacrol, the primary bioactive compound in oil of oregano, disrupts the cell membranes of gram-negative pathogenic bacteria — the hydrogen producers — while showing significantly less impact on beneficial Lactobacillus and Bifidobacterium strains. You're not carpet-bombing the gut. You're removing the invaders and leaving the defenders standing.\nFour. It breaks through biofilm. She said it breaks down their protection. She's right. Carvacrol has demonstrated anti-biofilm properties, penetrating the protective colonies that SIBO bacteria build in the small intestine. The same biofilm that shields them from standard antibiotics and makes rifaximin's relapse rate so notoriously high.\nFour facts I spent 12 years and a PhD confirming. She learned them from her grandmother.\nI spent the rest of that week talking to every elderly person in the village.\nHer 89-year-old neighbor takes the drops every morning. Has since she was a girl.\nThe woman down the road who is 91 does the same. Same practice. Same dark bottle passed down from her mother.\nThe fisherman around the corner who is 93 told me: \"We eat everything here. Bread, cheese, pasta, fish. But we take the oregano oil every morning or the food would destroy us. The liquid does what the capsules cannot.\"\nI looked at their health. Not with a laboratory. Just with my eyes. Flat stomachs. Clear skin. Sharp minds. Steady energy. No bloating. No diarrhea. No fatigue.\nThese people eat carbohydrates at every meal in one of the heaviest carbohydrate diets in Europe and look healthier than every patient whose file has ever landed on my desk.\nThen I think about those patients.\nPeople in their 40s, 50s, and 60s. Bloated. Exhausted. Sprinting to the bathroom ten times a day. Being told it's IBS-D. Being told it's stress. Being told everything is normal. While I find bacterial overgrowth in their data in under an hour.\nThe Cretan villagers eat bread every day and live to 96 because they clean every morning.\nMy American patients eliminate every food group, take Imodium daily, see doctors every year, and end up back in my files with the same results.\nThe contrast made me sick.\nWhen I got back to New York, everything Eleni taught me lined up with the research.\nThe drops she used contained the same compound I'd been reading about in biofilm and antimicrobial studies for years.\nCarvacrol. The primary bioactive compound in Origanum vulgare. The most extensively studied natural antimicrobial for gram-negative bacteria. The only natural compound with documented evidence for both penetrating biofilm matrices AND selectively disrupting pathogenic bacterial cell membranes without destroying beneficial flora.\nI've known about carvacrol in an academic context for a long time. But I'd only ever seen it used in capsule form.\nAnd in capsules, it doesn't reach therapeutic concentration where bacteria are hiding. I know the science. The damaged gut lining from SIBO creates a malabsorption barrier. Capsules need to dissolve. They need a functioning intestinal wall to absorb them. What reaches bacteria burrowed behind biofilm in the small intestine is a fraction of what was on the label.\nThat's the limitation I've been documenting for 12 years. Every capsule protocol fails for the same reason.\nBut Eleni wasn't swallowing capsules. She was taking liquid drops.\nAnd that changes everything.\nWhen oil of oregano is delivered in liquid form, the carvacrol doesn't need to be dissolved. Doesn't need to be broken down. Doesn't rely on a damaged intestinal wall to absorb it. The active compound makes direct contact with the bacterial overgrowth the moment it reaches the small intestine. Full concentration. Immediate contact.\nAnd because carvacrol's antimicrobial action is selective — targeting gram-negative pathogenic bacteria while showing significantly less impact on beneficial Lactobacillus and Bifidobacterium strains — you don't get the gut destruction that comes with broad-spectrum antibiotics. You're not flooding the house to put out a kitchen fire. You're walking into the kitchen with an extinguisher.\nThe anti-biofilm properties mean the protective shield bacteria build around themselves doesn't protect them anymore. Carvacrol penetrates the biofilm, reaches the bacteria hiding behind it, and disrupts their cell membranes. The same bacteria that standard antibiotics can't reach. The same bacteria that make rifaximin's relapse rate so notoriously high.\nEleni's morning practice addresses every single limitation I've spent my career documenting in capsule and antibiotic treatments.\nIt bypasses the damaged gut lining. It selectively targets the overgrowth. It breaks through biofilm. And it preserves the beneficial bacteria the gut needs to prevent recolonization.\nAs a scientist, I can tell you. This is the only approach that makes sense based on how these organisms actually live, hide, and protect themselves inside the human small intestine.\nThe biofilm doesn't stand a chance.\nEvery traditional Mediterranean culture that lived with heavy carbohydrate diets figured this out independently. That's the part that really got to me.\nEleni's village in Crete. Italian grandmothers who used oregano oil as medicine for centuries. Turkish healers prescribing it for digestive ailments for over 2,000 years. Greek physicians documenting its antimicrobial properties since Hippocrates.\nDifferent villages. Different islands. Different countries. Same practice. Same compound. Same results.\nThat's not coincidence. That's convergent discovery.\nIn science, when independent groups arrive at the same conclusion without contact, we take that very seriously.\nEvery civilization that lived close to carbohydrate-heavy food developed this practice.\nThe one civilization that stopped? Modern America.\nAnd we're the ones with the IBS-D epidemic. The chronic diarrhea. The explosive urgency. The bloating that doctors can't explain. The malabsorption that's starving people from the inside.\nMeanwhile, Eleni tends her garden every morning at 96.\nWhich brings me back to why I'm angry.\nYour doctor spent maybe a few hours on bacterial overgrowth in their entire medical education. If that.\nI spent 12 years studying what your doctor covered in an afternoon.\nSo when you walk in with explosive diarrhea, bloating, urgency, and fatigue, your doctor reaches for what they were trained to reach for. IBS-D. Stress. Diet changes. Imodium.\nNot because they're stupid. Because they were never taught to think about what I find in my data every single day.\nAnd the tests are a joke. I say that as the scientist whose literal job is to find this.\nThe standard tests your doctor orders — colonoscopy, stool tests, blood work — cannot detect bacterial overgrowth hiding behind biofilm in the small intestine. They check the large intestine. They check the blood. They check what comes out. None of them are designed to find what's happening in the small intestine where the bacteria are actually overgrown.\nThe tests are designed to miss this.\nAnd every missed diagnosis generates years of revenue. Imodium prescriptions. Specialist appointments. Colonoscopies. Monthly. Indefinitely.\nEleni's village has no IBS-D epidemic. No chronic diarrhea. No bathroom mapping. No medicine cabinets full of anti-diarrhea pills.\nBecause they clean every morning instead of masking symptoms every day.\n\"Americans swallow capsules that cannot get past a damaged gut and wonder why their stomachs never heal.\"\nShe was right.\nI started taking liquid oil of oregano drops every morning when I got home from Crete.\nWeek one. My digestion felt different. Calmer. Something was shifting. I've analyzed enough cases to know what it meant. No harsh die-off. No headache. No crash. Just quiet, steady change through a system that had been in chaos for years.\nWeek two. The bloating that had been part of my life for years started going down. The diarrhea that I'd accepted as \"just how my gut works\" started firming up. My stomach was flat after dinner for the first time in I don't know how long.\nWeek three. This is the week that matters. Every antibiotic protocol I've ever studied crashes at week three. The bacteria behind biofilm survive. The overgrowth recolonizes. Symptoms come back. Often worse.\nNothing came back. Bloating stayed down. Bowel movements stayed normal. Sleep stayed solid.\nAs a microbiome researcher, I knew exactly what that meant. The biofilm had been broken. The overgrowth had been reached. And because carvacrol's action is selective, the beneficial bacteria were still intact, preventing recolonization. The recirculation cycle was actually interrupted.\nWeek four. The urgency stopped completely. Brain fog lifted. I sat through an entire research meeting without losing my train of thought. The afternoon energy crashes that had been part of my daily life for years just stopped.\nA colleague looked at me across the lab and said, \"Did you do something different? You look younger.\"\nI hadn't done anything different. I'd just finally done for myself what Eleni has been doing every morning for 80 years.\nWeek six. Full transformation. Energy steady all day. Digestion smooth. Brain sharp. Normal bowel movements without urgency. Every symptom that had been part of my daily life for years. Just gone.\nI'm 44 years old and I feel better than I did at 32.\nNot because I found some new breakthrough. Because I finally listened to a 96-year-old woman who knew more about gut health than my entire field was willing to admit.\nBefore you try buying any oregano oil off the shelf, don't bother. I tried.\nBought oregano oil capsules from a supplement store. Added a separate probiotic. Tried to figure out the timing and dosing from forum posts and research papers.\nThe results were inconsistent. The absorption was unpredictable. Most brands had barely any carvacrol. And without the liquid delivery format I had none of the bioavailability that makes the drops work. I'd feel something starting to shift and then feel it stall.\nEleni's oil was made from wild Greek mountain oregano. Pressed by hand. Potent enough to make your eyes water from across the room. The concentration of carvacrol in her oil was nothing like the diluted products sold in American stores.\nThe brand I use now is Nutrition Therapy.\nHigh-potency carvacrol in liquid form for higher absorption. Also contains black seed oil, which disrupts harmful bacteria's ability to reproduce and supports the body in flushing out toxic debris. Research-backed dosage. Made with natural ingredients. No fillers. No synthetic junk. Antibiotic free. No prescription needed.\nIt's the modern version of what Eleni's family has been doing for generations. What every traditional Mediterranean culture did before modern medicine told them to swallow capsules instead.\nTwo dropperfuls every morning. That is the entire protocol.\n60-day money-back guarantee. If nothing changes, every penny back. Free shipping. Free mystery gift worth $32.99.\nI still analyze cases every day.\nI still find bacterial overgrowth in patients whose doctors said nothing was wrong. I still see biofilm so thick it hides everything underneath. I still read charts full of IBS-D diagnoses and Imodium refills for patients whose real problem is sitting in my data in under an hour.\nAnd now I think about Eleni every time.\n96 years old. Bread and cheese every day. Flat stomach. Sharp mind. More energy than people half her age.\nBecause she takes her drops every morning. Because her grandmother taught her. Because her grandmother's grandmother taught her.\nWhile my American patients take five prescriptions and get worse every year.\nIf you have chronic diarrhea that no diet can fix.\nIf you're bloated to the point where you look pregnant by lunchtime.\nIf you're mapping every bathroom on every route you drive.\nIf you have urgency so bad you carry spare clothes everywhere you go.\nIf you're exhausted even after a full night's sleep.\nIf you have brain fog so bad you forget what you were saying mid-sentence.\nThose aren't separate problems. Those are warnings.\nBacteria have overgrown in your small intestine. Building biofilm walls. Producing hydrogen that's flooding your gut with water. Speeding up your motility. Destroying your ability to absorb nutrients. And no standard test your doctor runs will find it.\nYour doctor won't find it. The colonoscopy won't catch it. The Imodium won't reach it. I've spent 12 years proving that.\nBut a 96-year-old woman on the coast of Crete showed me what actually works. The same thing every traditional Mediterranean culture figured out independently.\nLiquid. Direct contact. Selective. Through the biofilm. Every single day.\nEvery day you go without this is another day the bacteria ferment. Another day they produce hydrogen. Another day they draw water into your intestines. Another day their biofilm walls get thicker. Another day your gut lining gets more damaged.\nI don't want your file on my desk. I don't want to find in my data what five doctors missed over five years. I've seen that story too many times.\nEleni is 96 eating bread every day. She'll never end up in my files. Because she figured out what our entire medical system refuses to look at.\nYou can start tomorrow morning.\nBut Nutrition Therapy is a small company and they can't always keep up with demand. If you click and they're out of stock, check back. It's worth the wait.\nStop feeding what's feeding on you.\n\n👉 https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "transcript": null,
+                    "callToAction": "LEARN MORE",
+                    "landingPageUrl": "https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "landingPageDomain": "nutritiontherapy.co",
+                    "ctaDescription": "Read if your gut is ruining your life",
+                    "ctaLinkDescription": "7 Reasons Why 50k+ Americans With \"IBS\" Swear By Nutrition Therapy Oil Of Oregano Drops For Gut Support Rachel M. | GUT HEALTH RESEARCHER Last Updated: June 04, 2026 Read This BEFORE You Spend Another Dollar On Gut Supplements Nutrition Therapy Others Raw Oregano 💧 Actually Absorbs ✓ ✕ ✕ ....."
+                  },
+                  "metrics": {
+                    "reach": 35,
+                    "aggregatedReach": 35,
+                    "estimatedSpend": 0,
+                    "duplicates": null,
+                    "reachDelta1d": 0,
+                    "reachDelta7d": 0,
+                    "reachDelta30d": 12
+                  },
+                  "audience": {
+                    "targetedCountries": [
+                      "US",
+                      "CA",
+                      "GB",
+                      "AU",
+                      "NZ",
+                      "NL"
+                    ],
+                    "mainCountry": "NL",
+                    "gender": null,
+                    "ageMin": 18,
+                    "ageMax": 65
+                  },
+                  "rank": {
+                    "positionInPage": 11,
+                    "currentRank": 11,
+                    "rankDelta": null,
+                    "improvementPct": null
+                  },
+                  "flags": {
+                    "isEuAd": true,
+                    "isLowReach": false,
+                    "isMediaChanged": true,
+                    "hasPartnerBadge": false
+                  }
+                },
+                "metrics": {
+                  "totalReach": 35,
+                  "duplicateCount": 0,
+                  "daysRunning": 45,
+                  "currentRank": 11
+                }
+              },
+              {
+                "ad": {
+                  "id": "facebook_1573757577719274",
+                  "platform": "facebook",
+                  "status": "active",
+                  "createdAt": "2026-07-30T06:45:31.947Z",
+                  "firstSeenAt": "2026-07-28T07:00:00.000Z",
+                  "lastSeenAt": "2026-08-01T07:00:00.000Z",
+                  "daysRunning": 45,
+                  "media": {
+                    "type": "image",
+                    "thumbnailUrl": null,
+                    "mediaUrl": "https://medias.trendtrack.io/facebook/image/1b89c4e4fce780500abeba97456c56743a9493ccf39b6419f924f4b1b4a57ad2.png"
+                  },
+                  "advertiser": {
+                    "id": "1243567648836652",
+                    "name": "Scarlett Boyd",
+                    "logoUrl": "https://medias.trendtrack.io/profile_picture/1243567648836652.jpg",
+                    "facebookPageId": "1243567648836652",
+                    "liveAdsCount": 167,
+                    "reach30d": 2281,
+                    "totalReach": 6099,
+                    "countriesCount": null,
+                    "facebookLikes": 7,
+                    "instagramFollowers": null
+                  },
+                  "content": {
+                    "title": null,
+                    "body": "My colonoscopy came back completely clean. No polyps. No inflammation. Same explosive diarrhea the next morning. I thought that ruled out my gut. It doesn't. A colonoscopy looks at the structure of your large intestine. It cannot see, measure, or assess the bacterial overgrowth living in your small intestine. Those are completely different investigations.\n\nI didn't know that. And it cost me another four years of looking in the wrong place.\n\nI want to explain something clearly because I spent years confused about this and I suspect I'm not the only one.\n\nA colonoscopy is a camera on a long flexible tube that passes through your large intestine. It looks at the physical structure of your colon. Polyps. Ulcers. Erosion. Visible inflammation. Structural problems. It is very good at what it does.\n\nWhat it does not do is assess the bacterial population in your small intestine. The organisms that have overgrown where they don't belong — the hydrogen-producing bacteria that are fermenting your food prematurely, speeding up your gut motility, and drawing water into your intestines — are invisible to a colonoscope. Because the colonoscope doesn't go there.\n\nThose are different tests. They answer different questions.\n\nI had my colonoscopy in my fourth year of chronic explosive diarrhea. Clean. No structural issues. I came out of that appointment believing my gut had been assessed and cleared. I spent another four years operating on that assumption.\n\nI'd also had blood work, stool tests, an endoscopy, and a food sensitivity panel. IBS-D diagnosed. Imodium prescribed. Two gastroenterologists, a nutritionist, a primary care doctor, an internist. Every result: normal or mildly this, probably not causative that.\n\nEight years.\n\nI am a retired ICU nurse. I know which tests to ask for and how to ask for them. I went further than most people would. And still.\n\nThe thing I didn't know to ask for was an assessment of bacterial overgrowth in my small intestine. Because a colonoscopy was the closest the GI protocol got, and a clean colonoscopy felt like it covered gut involvement.\n\nIt doesn't. Here is the analogy that finally made sense to me: a colonoscopy tests the building. It checks whether the walls are intact, whether there are cracks or structural damage in the large intestine. A small intestinal bacterial assessment tests the air quality inside the building. You can have a structurally perfect building with completely toxic air. One clean inspection tells you nothing about the other condition.\n\nMy building was clean. My air quality was terrible.\n\nSIBO — Small Intestinal Bacterial Overgrowth — is what happens when bacteria that belong in your large intestine migrate upward and overgrow in your small intestine. When the bacterial population in your small intestine is overgrown, those hydrogen-producing bacteria ferment carbohydrates prematurely, producing gas higher up in your digestive tract than normal. That hydrogen literally speeds up your gut motility and draws water into your intestines. That is the explosive urgency. That is the diarrhea that gives you seconds. That is the bloating that makes you look six months pregnant by lunchtime. Not from dietary sensitivity. Not from stress. From bacteria in the wrong location producing hydrogen that floods your gut with every single meal.\n\nI found this in research 18 months ago. Documented. Multiple peer-reviewed studies. A huge number of people diagnosed with IBS-D actually have SIBO. It is one of the most common misdiagnoses in gastroenterology. Not wellness content. Published medical research.\n\nMy small intestine had never been properly assessed. Eight years of specialists, four of them after a clean colonoscopy, and the actual problem had never been identified.\n\nWhat followed was 18 months of trying to find something that addressed the right problem. Most IBS-D treatments are built for slowing motility or eliminating dietary triggers. Wrong target. Imodium slows the output but the bacteria are still there producing hydrogen underneath. Probiotics add more bacteria to a gut that already has too many in the wrong place. Dietary changes remove fuel but the bacteria ferment whatever you eat regardless. I checked every approach I could find. Category right, implementation wrong, almost across the board.\n\nAnd then there's the delivery problem. Years of bacterial overgrowth damages the lining of the small intestine, creating a malabsorption barrier. That means pills, capsules, and powdered supplements can't be properly broken down and absorbed through the damaged gut wall. Every capsule I swallowed was fighting against a system that couldn't process it.\n\nAnd the biofilm problem. SIBO bacteria build protective biofilm colonies in the small intestine that shield them from standard treatments. That's why antibiotics like rifaximin have such a notoriously high relapse rate. They can't penetrate the barrier. The bacteria behind it survive every round.\n\nI found this product six months ago. Oil of oregano drops with high-potency carvacrol — the primary bioactive compound shown in research to disrupt the cell membranes of hydrogen-producing pathogenic bacteria while showing significantly less impact on beneficial Lactobacillus and Bifidobacterium strains. Not the diluted store-shelf oregano oil. Not capsules that can't get absorbed through a damaged gut lining. Liquid drops that bypass the malabsorption barrier entirely and make direct contact with the bacterial overgrowth the moment they reach the small intestine. Also contains black seed oil, which disrupts harmful bacteria's ability to reproduce and supports the body in flushing out toxic debris. Research-backed dosage. Just 2 dropperfuls a day.\n\nA different research basis. Built for a different part of the problem than anything I'd tried in eight years.\n\nI've been taking it for about five months. The diarrhea has resolved. The urgency is gone. Morning bathroom sprints are a memory. After meals the gut stays calm and food moves through normally.\n\nIf you've had a clean colonoscopy and you're still dealing with explosive diarrhea, that scope told you your large intestine is structurally intact. It said nothing about bacterial overgrowth in your small intestine. Those are completely different questions and they require completely different approaches.\n\nNutrition Therapy Oil of Oregano Drops. High-potency carvacrol in liquid form for higher absorption. Also contains black seed oil. Research-backed dosage. Just 2 dropperfuls a day. Made with natural ingredients. Antibiotic free. No prescription needed. 60-day money-back guarantee. Free shipping. Free mystery gift worth $32.99.\n\nIf you want to see what finally addressed mine, this is where I found it.\n\n👉 https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "transcript": null,
+                    "callToAction": "LEARN MORE",
+                    "landingPageUrl": "https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "landingPageDomain": "nutritiontherapy.co",
+                    "ctaDescription": "Read if your gut is ruining your life",
+                    "ctaLinkDescription": "7 Reasons Why 50k+ Americans With \"IBS\" Swear By Nutrition Therapy Oil Of Oregano Drops For Gut Support Rachel M. | GUT HEALTH RESEARCHER Last Updated: June 04, 2026 Read This BEFORE You Spend Another Dollar On Gut Supplements Nutrition Therapy Others Raw Oregano 💧 Actually Absorbs ✓ ✕ ✕ ....."
+                  },
+                  "metrics": {
+                    "reach": 6,
+                    "aggregatedReach": 6,
+                    "estimatedSpend": 0,
+                    "duplicates": null,
+                    "reachDelta1d": 0,
+                    "reachDelta7d": 0,
+                    "reachDelta30d": 3
+                  },
+                  "audience": {
+                    "targetedCountries": [
+                      "US",
+                      "CA",
+                      "GB",
+                      "AU",
+                      "NZ",
+                      "NL"
+                    ],
+                    "mainCountry": "GB",
+                    "gender": null,
+                    "ageMin": 18,
+                    "ageMax": 65
+                  },
+                  "rank": {
+                    "positionInPage": 13,
+                    "currentRank": 13,
+                    "rankDelta": null,
+                    "improvementPct": null
+                  },
+                  "flags": {
+                    "isEuAd": true,
+                    "isLowReach": false,
+                    "isMediaChanged": true,
+                    "hasPartnerBadge": false
+                  }
+                },
+                "metrics": {
+                  "totalReach": 6,
+                  "duplicateCount": 0,
+                  "daysRunning": 45,
+                  "currentRank": 13
+                }
+              },
+              {
+                "ad": {
+                  "id": "facebook_1027937513549452",
+                  "platform": "facebook",
+                  "status": "active",
+                  "createdAt": "2026-07-30T06:45:31.947Z",
+                  "firstSeenAt": "2026-07-28T07:00:00.000Z",
+                  "lastSeenAt": "2026-07-31T07:00:00.000Z",
+                  "daysRunning": 45,
+                  "media": {
+                    "type": "image",
+                    "thumbnailUrl": null,
+                    "mediaUrl": "https://medias.trendtrack.io/facebook/image/46af40cc7c18548d3bee7c2b381223422157eab972f46333a7f5e4e0bbb6921e.png"
+                  },
+                  "advertiser": {
+                    "id": "1243567648836652",
+                    "name": "Scarlett Boyd",
+                    "logoUrl": "https://medias.trendtrack.io/profile_picture/1243567648836652.jpg",
+                    "facebookPageId": "1243567648836652",
+                    "liveAdsCount": 167,
+                    "reach30d": 2281,
+                    "totalReach": 6099,
+                    "countriesCount": null,
+                    "facebookLikes": 7,
+                    "instagramFollowers": null
+                  },
+                  "content": {
+                    "title": null,
+                    "body": "My colonoscopy came back completely clean. No polyps. No inflammation. Same explosive diarrhea the next morning. I thought that ruled out my gut. It doesn't. A colonoscopy looks at the structure of your large intestine. It cannot see, measure, or assess the bacterial overgrowth living in your small intestine. Those are completely different investigations.\n\nI didn't know that. And it cost me another four years of looking in the wrong place.\n\nI want to explain something clearly because I spent years confused about this and I suspect I'm not the only one.\n\nA colonoscopy is a camera on a long flexible tube that passes through your large intestine. It looks at the physical structure of your colon. Polyps. Ulcers. Erosion. Visible inflammation. Structural problems. It is very good at what it does.\n\nWhat it does not do is assess the bacterial population in your small intestine. The organisms that have overgrown where they don't belong — the hydrogen-producing bacteria that are fermenting your food prematurely, speeding up your gut motility, and drawing water into your intestines — are invisible to a colonoscope. Because the colonoscope doesn't go there.\n\nThose are different tests. They answer different questions.\n\nI had my colonoscopy in my fourth year of chronic explosive diarrhea. Clean. No structural issues. I came out of that appointment believing my gut had been assessed and cleared. I spent another four years operating on that assumption.\n\nI'd also had blood work, stool tests, an endoscopy, and a food sensitivity panel. IBS-D diagnosed. Imodium prescribed. Two gastroenterologists, a nutritionist, a primary care doctor, an internist. Every result: normal or mildly this, probably not causative that.\n\nEight years.\n\nI am a retired ICU nurse. I know which tests to ask for and how to ask for them. I went further than most people would. And still.\n\nThe thing I didn't know to ask for was an assessment of bacterial overgrowth in my small intestine. Because a colonoscopy was the closest the GI protocol got, and a clean colonoscopy felt like it covered gut involvement.\n\nIt doesn't. Here is the analogy that finally made sense to me: a colonoscopy tests the building. It checks whether the walls are intact, whether there are cracks or structural damage in the large intestine. A small intestinal bacterial assessment tests the air quality inside the building. You can have a structurally perfect building with completely toxic air. One clean inspection tells you nothing about the other condition.\n\nMy building was clean. My air quality was terrible.\n\nSIBO — Small Intestinal Bacterial Overgrowth — is what happens when bacteria that belong in your large intestine migrate upward and overgrow in your small intestine. When the bacterial population in your small intestine is overgrown, those hydrogen-producing bacteria ferment carbohydrates prematurely, producing gas higher up in your digestive tract than normal. That hydrogen literally speeds up your gut motility and draws water into your intestines. That is the explosive urgency. That is the diarrhea that gives you seconds. That is the bloating that makes you look six months pregnant by lunchtime. Not from dietary sensitivity. Not from stress. From bacteria in the wrong location producing hydrogen that floods your gut with every single meal.\n\nI found this in research 18 months ago. Documented. Multiple peer-reviewed studies. A huge number of people diagnosed with IBS-D actually have SIBO. It is one of the most common misdiagnoses in gastroenterology. Not wellness content. Published medical research.\n\nMy small intestine had never been properly assessed. Eight years of specialists, four of them after a clean colonoscopy, and the actual problem had never been identified.\n\nWhat followed was 18 months of trying to find something that addressed the right problem. Most IBS-D treatments are built for slowing motility or eliminating dietary triggers. Wrong target. Imodium slows the output but the bacteria are still there producing hydrogen underneath. Probiotics add more bacteria to a gut that already has too many in the wrong place. Dietary changes remove fuel but the bacteria ferment whatever you eat regardless. I checked every approach I could find. Category right, implementation wrong, almost across the board.\n\nAnd then there's the delivery problem. Years of bacterial overgrowth damages the lining of the small intestine, creating a malabsorption barrier. That means pills, capsules, and powdered supplements can't be properly broken down and absorbed through the damaged gut wall. Every capsule I swallowed was fighting against a system that couldn't process it.\n\nAnd the biofilm problem. SIBO bacteria build protective biofilm colonies in the small intestine that shield them from standard treatments. That's why antibiotics like rifaximin have such a notoriously high relapse rate. They can't penetrate the barrier. The bacteria behind it survive every round.\n\nI found this product six months ago. Oil of oregano drops with high-potency carvacrol — the primary bioactive compound shown in research to disrupt the cell membranes of hydrogen-producing pathogenic bacteria while showing significantly less impact on beneficial Lactobacillus and Bifidobacterium strains. Not the diluted store-shelf oregano oil. Not capsules that can't get absorbed through a damaged gut lining. Liquid drops that bypass the malabsorption barrier entirely and make direct contact with the bacterial overgrowth the moment they reach the small intestine. Also contains black seed oil, which disrupts harmful bacteria's ability to reproduce and supports the body in flushing out toxic debris. Research-backed dosage. Just 2 dropperfuls a day.\n\nA different research basis. Built for a different part of the problem than anything I'd tried in eight years.\n\nI've been taking it for about five months. The diarrhea has resolved. The urgency is gone. Morning bathroom sprints are a memory. After meals the gut stays calm and food moves through normally.\n\nIf you've had a clean colonoscopy and you're still dealing with explosive diarrhea, that scope told you your large intestine is structurally intact. It said nothing about bacterial overgrowth in your small intestine. Those are completely different questions and they require completely different approaches.\n\nNutrition Therapy Oil of Oregano Drops. High-potency carvacrol in liquid form for higher absorption. Also contains black seed oil. Research-backed dosage. Just 2 dropperfuls a day. Made with natural ingredients. Antibiotic free. No prescription needed. 60-day money-back guarantee. Free shipping. Free mystery gift worth $32.99.\n\nIf you want to see what finally addressed mine, this is where I found it.\n\n👉 https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "transcript": null,
+                    "callToAction": "LEARN MORE",
+                    "landingPageUrl": "https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "landingPageDomain": "nutritiontherapy.co",
+                    "ctaDescription": "Read if your gut is ruining your life",
+                    "ctaLinkDescription": "7 Reasons Why 50k+ Americans With \"IBS\" Swear By Nutrition Therapy Oil Of Oregano Drops For Gut Support Rachel M. | GUT HEALTH RESEARCHER Last Updated: June 04, 2026 Read This BEFORE You Spend Another Dollar On Gut Supplements Nutrition Therapy Others Raw Oregano 💧 Actually Absorbs ✓ ✕ ✕ ....."
+                  },
+                  "metrics": {
+                    "reach": 63,
+                    "aggregatedReach": 63,
+                    "estimatedSpend": 1,
+                    "duplicates": null,
+                    "reachDelta1d": 1,
+                    "reachDelta7d": 1,
+                    "reachDelta30d": 9
+                  },
+                  "audience": {
+                    "targetedCountries": [
+                      "US",
+                      "CA",
+                      "GB",
+                      "AU",
+                      "NZ"
+                    ],
+                    "mainCountry": "GB",
+                    "gender": null,
+                    "ageMin": 18,
+                    "ageMax": 65
+                  },
+                  "rank": {
+                    "positionInPage": 45,
+                    "currentRank": 45,
+                    "rankDelta": null,
+                    "improvementPct": null
+                  },
+                  "flags": {
+                    "isEuAd": true,
+                    "isLowReach": false,
+                    "isMediaChanged": true,
+                    "hasPartnerBadge": false
+                  }
+                },
+                "metrics": {
+                  "totalReach": 63,
+                  "duplicateCount": 0,
+                  "daysRunning": 45,
+                  "currentRank": 45
+                }
+              },
+              {
+                "ad": {
+                  "id": "facebook_2482252165601808",
+                  "platform": "facebook",
+                  "status": "active",
+                  "createdAt": "2026-08-04T03:26:19.491Z",
+                  "firstSeenAt": "2026-08-03T07:00:00.000Z",
+                  "lastSeenAt": "2026-08-03T07:00:00.000Z",
+                  "daysRunning": 39,
+                  "media": {
+                    "type": "image",
+                    "thumbnailUrl": null,
+                    "mediaUrl": "https://medias.trendtrack.io/facebook/image/193ba8be013df9f66548815e1f2bcab26178d94cf27eae3cb98f80df9d00ae6e.png"
+                  },
+                  "advertiser": {
+                    "id": "1243567648836652",
+                    "name": "Scarlett Boyd",
+                    "logoUrl": "https://medias.trendtrack.io/profile_picture/1243567648836652.jpg",
+                    "facebookPageId": "1243567648836652",
+                    "liveAdsCount": 167,
+                    "reach30d": 2281,
+                    "totalReach": 6099,
+                    "countriesCount": null,
+                    "facebookLikes": 7,
+                    "instagramFollowers": null
+                  },
+                  "content": {
+                    "title": null,
+                    "body": "I have had IBS-D my entire life until the last year. Severe diarrhea has become an issue. I wear pads (not full diapers) to help. I feel the stool coming and can get to the restroom usually.\n\nMy name is Carol Johnson, I'm 68 years old, and I need to tell you about the moment that broke me completely.\n\nToday was so bad it ran down both legs into my socks and shoes. I was in a grocery. So bad, the worst.\n\nI was so embarrassed.\n\nI've lived with IBS-D my entire life. My entire life. Over six decades of managing unpredictable bowels, bathroom mapping, and constant fear.\n\nBut this past year? Everything got worse.\n\nThe diarrhea became severe. Not just urgent—severe. The kind where I started wearing pads every single day just to feel safe enough to leave my house.\n\nNot full diapers. Just pads. Because I can usually feel the stool coming and get to the restroom in time.\n\nUsually.\n\nBut today wasn't usual.\n\nI was at the grocery store. Just doing my normal shopping. I'd been there maybe fifteen minutes.\n\nI was in the produce section when I felt it coming.\n\nI started walking quickly toward the bathrooms at the back of the store.\n\nBut I didn't make it.\n\nIt happened right there. In the middle of the grocery store.\n\nThe stool ran down both legs. Into my socks. Into my shoes. Onto the grocery store floor.\n\nI stood there frozen while other shoppers walked past.\n\nA store employee came over with a mop. She was kind, but I could see it in her face.\n\nI abandoned my cart. Walked to my car—leaving a trail behind me—and sat on the garbage bags I keep in my trunk.\n\nI drove home sobbing.\n\nWhen I got home, I threw away everything. My shoes. My socks. My pants. My underwear. The pads that didn't help.\n\nAnd I sat on my bathroom floor and cried for two hours.\n\nBecause this is what my life has become at 68 years old.\n\nI've dealt with IBS-D my entire life. But I never thought it would get THIS bad.\n\nHere's what makes me so angry:\n\nIt doesn't even make sense.\n\nLast Tuesday, I went to that exact same grocery store. Same time of day. I'd eaten the same breakfast. I was wearing my usual pads.\n\nShopped for thirty minutes. Came home. Completely fine.\n\nToday? SAME breakfast. Same pads. Same store.\n\nCatastrophic accident in the produce aisle.\n\nWHAT CHANGED?!\n\nNothing. Absolutely nothing changed except my body decided to completely betray me.\n\nYou know what the worst part is?\n\nIt's not even the accidents anymore.\n\nIt's the constant fear that it will happen again.\n\nI can't go anywhere without that underlying terror. Every trip to the store. Every visit to see my grandkids. Every single time I leave my house.\n\nI'm 68 years old and I'm wearing pads every day like I'm incontinent.\n\nAnd even with the pads, I still have accidents.\n\nLet me tell you what I've tried over the decades:\n\nI've seen probably ten different gastroenterologists in my lifetime. Every single one said: \"You have IBS-D. It's chronic. We'll manage it with diet and medication.\"\n\nI've tried every diet modification you can imagine. Low-FODMAP for over a year. Eliminated dairy, gluten, onions, garlic, everything they told me to.\n\nI've used every anti-diarrheal treatment doctors prescribed. They either don't work, or they work sometimes and fail other times.\n\nI've spent thousands—probably over $15,000 at this point—on probiotics, fiber supplements, doctor visits, treatments that led nowhere.\n\nAnd this past year, as the severe diarrhea got worse, I started wearing pads every single day.\n\nI'm STILL having accidents. Still living in constant fear. Still throwing away clothes in public bathrooms.\n\nThree days ago, after today's disaster at the grocery store, I made an appointment with a new gastroenterologist.\n\nHer name is Dr. Michelle Ramirez.\n\nI sat in her office and told her everything:\n\n\"I've had IBS-D my entire life. This past year it's become severe. I wear pads every day. I can usually feel the stool coming and get to the restroom, but not always. Today I had an accident at the grocery store. It ran down both legs into my socks and shoes. It was the worst, most embarrassing moment of my life. I've tried everything doctors told me to try. Nothing works. I'm 68 years old and I can't even go grocery shopping without having an accident.\"\n\nI expected her to suggest yet another diet modification or treatment adjustment.\n\nBut Dr. Ramirez surprised me.\n\nShe said: \"Carol, in your entire lifetime with IBS-D, has anyone ever explained to you WHY you can feel the stool coming but still can't make it to the bathroom in time? Has anyone told you what's actually happening inside your gut that causes that severe urgency?\"\n\nI just stared at her.\n\n\"No. Everyone just says it's IBS-D. That I have a sensitive digestive system. That some people just have more severe cases.\"\n\nShe pulled out a diagram of the digestive system.\n\n\"Carol, your gut has been silently colonized by harmful bacteria—strains that shouldn't be there in these numbers. This is called bacterial overgrowth. These bacteria produce endotoxins that inflame your gut lining and throw your motility into chaos. On any given day, when those bacteria spike in activity, they flood your colon with toxins. Your body recognizes the threat and goes into emergency evacuation mode—trying to flush everything out as fast as possible. That's why you feel it coming—your body is giving you a warning. But the urgency is so extreme because your colon is in crisis trying to expel the toxin-contaminated waste. And the overgrowth prevents your colon from absorbing water properly, which is why everything comes out liquid.\"\n\nI felt tears starting.\n\n\"Are you telling me I've had a bacterial overgrowth problem my entire life? For 68 years?\"\n\nShe nodded slowly.\n\n\"It's called gut bacterial overgrowth. Studies show up to 60% of people diagnosed with IBS actually have some degree of bacterial overgrowth that's never been tested for. Your body gives you the warning signal—that's the 'feeling the stool coming' sensation. But the evacuation is so urgent and severe that even wearing pads can't prevent accidents because your colon is in emergency mode trying to flush out the toxins these bacteria are producing.\"\n\n\"Then why hasn't anyone tested me for this? Why have I seen TEN different GI doctors over my entire life and not ONE of them mentioned bacterial overgrowth?\"\n\nDr. Ramirez sighed.\n\n\"Because standard IBS protocols don't include bacterial overgrowth testing. Most GI doctors are trained to treat symptoms—prescribe anti-diarrheal treatments, recommend dietary changes. Bacterial overgrowth isn't part of the typical diagnostic workup. It's a massive blind spot in gastroenterology.\"\n\nI sat there completely stunned.\n\nMy entire lifetime of suffering. And it was a bacterial overgrowth problem the whole time.\n\nDr. Ramirez continued: \"Here's why the dietary changes didn't work for you. Eliminating trigger foods helps if certain foods are the primary problem. But if your gut is overrun with harmful bacteria producing toxins regardless of what you eat, eliminating foods doesn't address the root cause. The bacteria are still there. The toxins still flood your colon. Your body still tries to evacuate urgently. That's why you can eat the same breakfast and have completely different results—it depends on what the bacteria are doing that day, not what you ate.\"\n\n\"And here's why the treatments gave inconsistent results. Anti-diarrheal medications slow gut motility. But if harmful bacteria are actively producing toxins in your gut, slowing things down doesn't prevent the severe urgency when your body decides it needs to expel the contaminated waste. Some days the bacterial activity is lower. Other days it spikes. That's the unpredictability.\"\n\n\"So what do I do?\" I asked, feeling desperate after a lifetime of this.\n\nShe said: \"You need to eliminate the bacterial overgrowth directly. The most effective natural antimicrobials for targeting gut bacterial overgrowth are carvacrol and thymol—the active compounds in medicinal-grade oil of oregano. They target the harmful bacteria without destroying the beneficial strains you need.\"\n\nBut then she said something critical:\n\n\"Carol, after decades of bacterial overgrowth, your gut lining is severely compromised. The bacteria have been destroying it for years. That's why capsules and tablets have never worked for you—they can't absorb through a gut this damaged. You need it in drop form. Drops absorb even through a compromised gut lining. They actually reach the bacteria where they're hiding.\"\n\nShe wrote down what I needed:\n\nCarvacrol: the primary antimicrobial that directly targets and eliminates harmful bacterial strains colonizing the gut\nThymol: works alongside carvacrol to break through bacterial colonies and restore normal gut function\nDrop form: bypasses the damaged gut lining that makes capsules and tablets useless\n\n\"Find an oil of oregano with a research-backed dosage of both compounds in drop form,\" she said. \"Take it daily. I genuinely think this is going to change your life.\"\n\nI went home and spent hours researching oil of oregano.\n\nMost were capsules or tablets—the exact delivery form Dr. Ramirez said wouldn't work with my damaged gut. Or diluted wellness-grade oils with barely any carvacrol.\n\nThen I found Nutrition Therapy's Oil of Oregano drops.\n\nIt had everything Dr. Ramirez said I needed:\n\nResearch-backed dosage of carvacrol and thymol\nDrop form for higher absorption—even through a compromised gut\nMade with natural ingredients\n\nI ordered it immediately.\n\nWhen it arrived, I was terrified to try it. After a lifetime of failed treatments, I couldn't afford to get my hopes up again.\n\nBut I took my two dropperfuls that first morning.\n\nThe next day, something was different.\n\nI took my drops again that morning.\n\nI put on my usual pads—because I was too scared not to.\n\nAnd I went to the grocery store. The same store where I'd had that catastrophic accident just days before.\n\nI walked through the store. Started shopping.\n\nTen minutes in—right around when I'd normally start feeling dread—nothing happened.\n\nTwenty minutes in. Still nothing.\n\nI finished my entire shopping trip. Checked out. Loaded groceries into my car.\n\nNo urgency. No feeling the stool coming. No accident. No emergency.\n\nI sat in my car and cried.\n\nBecause for the first time in as long as I could remember, I'd gone to the grocery store and felt... safe.\n\nBy the end of the first week, something remarkable happened:\n\nI was going about my day without constantly monitoring my gut. Without that underlying panic I've carried my entire life.\n\nWeek two: I went to the grocery store three times. No accidents. No emergencies. No severe urgency.\n\nWeek three: I stopped wearing pads. For the first time in over a year, I felt confident enough to leave the house without them.\n\nWeek four: I accepted a lunch invitation from friends. Actually sat through the entire meal without excusing myself. No urgency. No fear.\n\nI wasn't living in constant terror anymore.\n\nI wasn't wearing pads every day.\n\nI wasn't having accidents.\n\nI was just... living normally.\n\nFor the first time in my entire 68 years.\n\nThat was ten weeks ago.\n\nI'm still taking my two dropperfuls every morning.\n\nAnd I haven't had a single accident since I started.\n\nNot one.\n\nThe severe diarrhea that got so bad this past year? Gone.\n\nThe accidents that made me start wearing pads? Gone.\n\nThe constant fear and embarrassment? Gone.\n\nMy daughter said to me last week: \"Mom, I haven't seen you this relaxed in... I don't even know how long. You seem like a different person.\"\n\nDr. Ramirez told me she's now recommending oil of oregano drops to other patients with severe IBS-D and urgency caused by bacterial overgrowth.\n\nWithin 6-8 weeks, the majority of them report significant improvement in urgency and accidents.\n\nListen. If you've been dealing with severe IBS-D—if you're wearing pads to feel safe, if you've had accidents in public, if you feel the stool coming but can't always make it in time—I need you to understand something:\n\nThis might not be \"just IBS.\"\n\nThis might not be something you have to live with forever.\n\nThis might be bacterial overgrowth that no doctor has ever tested you for.\n\nI wasted my entire lifetime being told it was just IBS and I had to manage it.\n\nDon't waste another lifetime.\n\nNutrition Therapy's Oil of Oregano drops come with free shipping and a free mystery gift.\n\nThat's less risk than what I was spending on pads that didn't even prevent accidents.\n\nAnd Nutrition Therapy offers a 60-day money-back guarantee.\n\nIf you don't notice real improvement—if you're still having severe urgency and accidents—you get a full refund.\n\nYou literally only pay if it actually works.\n\nI'm 68 years old. I thought I'd be wearing pads and having accidents for the rest of my life. That the embarrassment and fear were things I'd have to accept forever.\n\nI was wrong.\n\nIf you want to learn more about where I finally found relief after a lifetime of severe IBS-D that made me wear pads and have accidents in public, visit:\n\nhttps://nutritiontherapy.co/pages/ooo-jv3q\n\nP.S. I've tried every diet modification. I've eliminated trigger foods. I could eat the same breakfast and have completely different results. It wasn't about trigger foods or managing better. It was about bacterial overgrowth that no one ever tested for. Don't waste your lifetime trying treatments that just mask symptoms when the real problem is the bacteria silently destroying your gut.\n\nhttps://nutritiontherapy.co/pages/ooo-jv3q",
+                    "transcript": null,
+                    "callToAction": "LEARN MORE",
+                    "landingPageUrl": "https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "landingPageDomain": "nutritiontherapy.co",
+                    "ctaDescription": "Read if your gut is ruining your life",
+                    "ctaLinkDescription": "7 Reasons Why 50k+ Americans With \"IBS\" Swear By Nutrition Therapy Oil Of Oregano Drops For Gut Support Rachel M. | GUT HEALTH RESEARCHER Last Updated: June 04, 2026 Read This BEFORE You Spend Another Dollar On Gut Supplements Nutrition Therapy Others Raw Oregano 💧 Actually Absorbs ✓ ✕ ✕ ....."
+                  },
+                  "metrics": {
+                    "reach": 3,
+                    "aggregatedReach": 3,
+                    "estimatedSpend": 0,
+                    "duplicates": null,
+                    "reachDelta1d": 0,
+                    "reachDelta7d": 0,
+                    "reachDelta30d": 2
+                  },
+                  "audience": {
+                    "targetedCountries": [
+                      "US",
+                      "CA",
+                      "GB",
+                      "AU",
+                      "NZ",
+                      "NL"
+                    ],
+                    "mainCountry": "GB",
+                    "gender": null,
+                    "ageMin": 18,
+                    "ageMax": 65
+                  },
+                  "rank": {
+                    "positionInPage": 6,
+                    "currentRank": 6,
+                    "rankDelta": null,
+                    "improvementPct": null
+                  },
+                  "flags": {
+                    "isEuAd": true,
+                    "isLowReach": false,
+                    "isMediaChanged": true,
+                    "hasPartnerBadge": false
+                  }
+                },
+                "metrics": {
+                  "totalReach": 3,
+                  "duplicateCount": 0,
+                  "daysRunning": 39,
+                  "currentRank": 6
+                }
+              },
+              {
+                "ad": {
+                  "id": "facebook_2342718826556740",
+                  "platform": "facebook",
+                  "status": "active",
+                  "createdAt": "2026-08-04T03:26:19.491Z",
+                  "firstSeenAt": "2026-08-03T07:00:00.000Z",
+                  "lastSeenAt": "2026-08-03T07:00:00.000Z",
+                  "daysRunning": 39,
+                  "media": {
+                    "type": "image",
+                    "thumbnailUrl": null,
+                    "mediaUrl": "https://medias.trendtrack.io/facebook/image/46af40cc7c18548d3bee7c2b381223422157eab972f46333a7f5e4e0bbb6921e.png"
+                  },
+                  "advertiser": {
+                    "id": "1243567648836652",
+                    "name": "Scarlett Boyd",
+                    "logoUrl": "https://medias.trendtrack.io/profile_picture/1243567648836652.jpg",
+                    "facebookPageId": "1243567648836652",
+                    "liveAdsCount": 167,
+                    "reach30d": 2281,
+                    "totalReach": 6099,
+                    "countriesCount": null,
+                    "facebookLikes": 7,
+                    "instagramFollowers": null
+                  },
+                  "content": {
+                    "title": null,
+                    "body": "I have had IBS-D my entire life until the last year. Severe diarrhea has become an issue. I wear pads (not full diapers) to help. I feel the stool coming and can get to the restroom usually.\n\nMy name is Carol Johnson, I'm 68 years old, and I need to tell you about the moment that broke me completely.\n\nToday was so bad it ran down both legs into my socks and shoes. I was in a grocery. So bad, the worst.\n\nI was so embarrassed.\n\nI've lived with IBS-D my entire life. My entire life. Over six decades of managing unpredictable bowels, bathroom mapping, and constant fear.\n\nBut this past year? Everything got worse.\n\nThe diarrhea became severe. Not just urgent—severe. The kind where I started wearing pads every single day just to feel safe enough to leave my house.\n\nNot full diapers. Just pads. Because I can usually feel the stool coming and get to the restroom in time.\n\nUsually.\n\nBut today wasn't usual.\n\nI was at the grocery store. Just doing my normal shopping. I'd been there maybe fifteen minutes.\n\nI was in the produce section when I felt it coming.\n\nI started walking quickly toward the bathrooms at the back of the store.\n\nBut I didn't make it.\n\nIt happened right there. In the middle of the grocery store.\n\nThe stool ran down both legs. Into my socks. Into my shoes. Onto the grocery store floor.\n\nI stood there frozen while other shoppers walked past.\n\nA store employee came over with a mop. She was kind, but I could see it in her face.\n\nI abandoned my cart. Walked to my car—leaving a trail behind me—and sat on the garbage bags I keep in my trunk.\n\nI drove home sobbing.\n\nWhen I got home, I threw away everything. My shoes. My socks. My pants. My underwear. The pads that didn't help.\n\nAnd I sat on my bathroom floor and cried for two hours.\n\nBecause this is what my life has become at 68 years old.\n\nI've dealt with IBS-D my entire life. But I never thought it would get THIS bad.\n\nHere's what makes me so angry:\n\nIt doesn't even make sense.\n\nLast Tuesday, I went to that exact same grocery store. Same time of day. I'd eaten the same breakfast. I was wearing my usual pads.\n\nShopped for thirty minutes. Came home. Completely fine.\n\nToday? SAME breakfast. Same pads. Same store.\n\nCatastrophic accident in the produce aisle.\n\nWHAT CHANGED?!\n\nNothing. Absolutely nothing changed except my body decided to completely betray me.\n\nYou know what the worst part is?\n\nIt's not even the accidents anymore.\n\nIt's the constant fear that it will happen again.\n\nI can't go anywhere without that underlying terror. Every trip to the store. Every visit to see my grandkids. Every single time I leave my house.\n\nI'm 68 years old and I'm wearing pads every day like I'm incontinent.\n\nAnd even with the pads, I still have accidents.\n\nLet me tell you what I've tried over the decades:\n\nI've seen probably ten different gastroenterologists in my lifetime. Every single one said: \"You have IBS-D. It's chronic. We'll manage it with diet and medication.\"\n\nI've tried every diet modification you can imagine. Low-FODMAP for over a year. Eliminated dairy, gluten, onions, garlic, everything they told me to.\n\nI've used every anti-diarrheal treatment doctors prescribed. They either don't work, or they work sometimes and fail other times.\n\nI've spent thousands—probably over $15,000 at this point—on probiotics, fiber supplements, doctor visits, treatments that led nowhere.\n\nAnd this past year, as the severe diarrhea got worse, I started wearing pads every single day.\n\nI'm STILL having accidents. Still living in constant fear. Still throwing away clothes in public bathrooms.\n\nThree days ago, after today's disaster at the grocery store, I made an appointment with a new gastroenterologist.\n\nHer name is Dr. Michelle Ramirez.\n\nI sat in her office and told her everything:\n\n\"I've had IBS-D my entire life. This past year it's become severe. I wear pads every day. I can usually feel the stool coming and get to the restroom, but not always. Today I had an accident at the grocery store. It ran down both legs into my socks and shoes. It was the worst, most embarrassing moment of my life. I've tried everything doctors told me to try. Nothing works. I'm 68 years old and I can't even go grocery shopping without having an accident.\"\n\nI expected her to suggest yet another diet modification or treatment adjustment.\n\nBut Dr. Ramirez surprised me.\n\nShe said: \"Carol, in your entire lifetime with IBS-D, has anyone ever explained to you WHY you can feel the stool coming but still can't make it to the bathroom in time? Has anyone told you what's actually happening inside your gut that causes that severe urgency?\"\n\nI just stared at her.\n\n\"No. Everyone just says it's IBS-D. That I have a sensitive digestive system. That some people just have more severe cases.\"\n\nShe pulled out a diagram of the digestive system.\n\n\"Carol, your gut has been silently colonized by harmful bacteria—strains that shouldn't be there in these numbers. This is called bacterial overgrowth. These bacteria produce endotoxins that inflame your gut lining and throw your motility into chaos. On any given day, when those bacteria spike in activity, they flood your colon with toxins. Your body recognizes the threat and goes into emergency evacuation mode—trying to flush everything out as fast as possible. That's why you feel it coming—your body is giving you a warning. But the urgency is so extreme because your colon is in crisis trying to expel the toxin-contaminated waste. And the overgrowth prevents your colon from absorbing water properly, which is why everything comes out liquid.\"\n\nI felt tears starting.\n\n\"Are you telling me I've had a bacterial overgrowth problem my entire life? For 68 years?\"\n\nShe nodded slowly.\n\n\"It's called gut bacterial overgrowth. Studies show up to 60% of people diagnosed with IBS actually have some degree of bacterial overgrowth that's never been tested for. Your body gives you the warning signal—that's the 'feeling the stool coming' sensation. But the evacuation is so urgent and severe that even wearing pads can't prevent accidents because your colon is in emergency mode trying to flush out the toxins these bacteria are producing.\"\n\n\"Then why hasn't anyone tested me for this? Why have I seen TEN different GI doctors over my entire life and not ONE of them mentioned bacterial overgrowth?\"\n\nDr. Ramirez sighed.\n\n\"Because standard IBS protocols don't include bacterial overgrowth testing. Most GI doctors are trained to treat symptoms—prescribe anti-diarrheal treatments, recommend dietary changes. Bacterial overgrowth isn't part of the typical diagnostic workup. It's a massive blind spot in gastroenterology.\"\n\nI sat there completely stunned.\n\nMy entire lifetime of suffering. And it was a bacterial overgrowth problem the whole time.\n\nDr. Ramirez continued: \"Here's why the dietary changes didn't work for you. Eliminating trigger foods helps if certain foods are the primary problem. But if your gut is overrun with harmful bacteria producing toxins regardless of what you eat, eliminating foods doesn't address the root cause. The bacteria are still there. The toxins still flood your colon. Your body still tries to evacuate urgently. That's why you can eat the same breakfast and have completely different results—it depends on what the bacteria are doing that day, not what you ate.\"\n\n\"And here's why the treatments gave inconsistent results. Anti-diarrheal medications slow gut motility. But if harmful bacteria are actively producing toxins in your gut, slowing things down doesn't prevent the severe urgency when your body decides it needs to expel the contaminated waste. Some days the bacterial activity is lower. Other days it spikes. That's the unpredictability.\"\n\n\"So what do I do?\" I asked, feeling desperate after a lifetime of this.\n\nShe said: \"You need to eliminate the bacterial overgrowth directly. The most effective natural antimicrobials for targeting gut bacterial overgrowth are carvacrol and thymol—the active compounds in medicinal-grade oil of oregano. They target the harmful bacteria without destroying the beneficial strains you need.\"\n\nBut then she said something critical:\n\n\"Carol, after decades of bacterial overgrowth, your gut lining is severely compromised. The bacteria have been destroying it for years. That's why capsules and tablets have never worked for you—they can't absorb through a gut this damaged. You need it in drop form. Drops absorb even through a compromised gut lining. They actually reach the bacteria where they're hiding.\"\n\nShe wrote down what I needed:\n\nCarvacrol: the primary antimicrobial that directly targets and eliminates harmful bacterial strains colonizing the gut\nThymol: works alongside carvacrol to break through bacterial colonies and restore normal gut function\nDrop form: bypasses the damaged gut lining that makes capsules and tablets useless\n\n\"Find an oil of oregano with a research-backed dosage of both compounds in drop form,\" she said. \"Take it daily. I genuinely think this is going to change your life.\"\n\nI went home and spent hours researching oil of oregano.\n\nMost were capsules or tablets—the exact delivery form Dr. Ramirez said wouldn't work with my damaged gut. Or diluted wellness-grade oils with barely any carvacrol.\n\nThen I found Nutrition Therapy's Oil of Oregano drops.\n\nIt had everything Dr. Ramirez said I needed:\n\nResearch-backed dosage of carvacrol and thymol\nDrop form for higher absorption—even through a compromised gut\nMade with natural ingredients\n\nI ordered it immediately.\n\nWhen it arrived, I was terrified to try it. After a lifetime of failed treatments, I couldn't afford to get my hopes up again.\n\nBut I took my two dropperfuls that first morning.\n\nThe next day, something was different.\n\nI took my drops again that morning.\n\nI put on my usual pads—because I was too scared not to.\n\nAnd I went to the grocery store. The same store where I'd had that catastrophic accident just days before.\n\nI walked through the store. Started shopping.\n\nTen minutes in—right around when I'd normally start feeling dread—nothing happened.\n\nTwenty minutes in. Still nothing.\n\nI finished my entire shopping trip. Checked out. Loaded groceries into my car.\n\nNo urgency. No feeling the stool coming. No accident. No emergency.\n\nI sat in my car and cried.\n\nBecause for the first time in as long as I could remember, I'd gone to the grocery store and felt... safe.\n\nBy the end of the first week, something remarkable happened:\n\nI was going about my day without constantly monitoring my gut. Without that underlying panic I've carried my entire life.\n\nWeek two: I went to the grocery store three times. No accidents. No emergencies. No severe urgency.\n\nWeek three: I stopped wearing pads. For the first time in over a year, I felt confident enough to leave the house without them.\n\nWeek four: I accepted a lunch invitation from friends. Actually sat through the entire meal without excusing myself. No urgency. No fear.\n\nI wasn't living in constant terror anymore.\n\nI wasn't wearing pads every day.\n\nI wasn't having accidents.\n\nI was just... living normally.\n\nFor the first time in my entire 68 years.\n\nThat was ten weeks ago.\n\nI'm still taking my two dropperfuls every morning.\n\nAnd I haven't had a single accident since I started.\n\nNot one.\n\nThe severe diarrhea that got so bad this past year? Gone.\n\nThe accidents that made me start wearing pads? Gone.\n\nThe constant fear and embarrassment? Gone.\n\nMy daughter said to me last week: \"Mom, I haven't seen you this relaxed in... I don't even know how long. You seem like a different person.\"\n\nDr. Ramirez told me she's now recommending oil of oregano drops to other patients with severe IBS-D and urgency caused by bacterial overgrowth.\n\nWithin 6-8 weeks, the majority of them report significant improvement in urgency and accidents.\n\nListen. If you've been dealing with severe IBS-D—if you're wearing pads to feel safe, if you've had accidents in public, if you feel the stool coming but can't always make it in time—I need you to understand something:\n\nThis might not be \"just IBS.\"\n\nThis might not be something you have to live with forever.\n\nThis might be bacterial overgrowth that no doctor has ever tested you for.\n\nI wasted my entire lifetime being told it was just IBS and I had to manage it.\n\nDon't waste another lifetime.\n\nNutrition Therapy's Oil of Oregano drops come with free shipping and a free mystery gift.\n\nThat's less risk than what I was spending on pads that didn't even prevent accidents.\n\nAnd Nutrition Therapy offers a 60-day money-back guarantee.\n\nIf you don't notice real improvement—if you're still having severe urgency and accidents—you get a full refund.\n\nYou literally only pay if it actually works.\n\nI'm 68 years old. I thought I'd be wearing pads and having accidents for the rest of my life. That the embarrassment and fear were things I'd have to accept forever.\n\nI was wrong.\n\nIf you want to learn more about where I finally found relief after a lifetime of severe IBS-D that made me wear pads and have accidents in public, visit:\n\nhttps://nutritiontherapy.co/pages/ooo-jv3q\n\nP.S. I've tried every diet modification. I've eliminated trigger foods. I could eat the same breakfast and have completely different results. It wasn't about trigger foods or managing better. It was about bacterial overgrowth that no one ever tested for. Don't waste your lifetime trying treatments that just mask symptoms when the real problem is the bacteria silently destroying your gut.\n\nhttps://nutritiontherapy.co/pages/ooo-jv3q",
+                    "transcript": null,
+                    "callToAction": "LEARN MORE",
+                    "landingPageUrl": "https://nutritiontherapy.co/pages/ooo-jv3q",
+                    "landingPageDomain": "nutritiontherapy.co",
+                    "ctaDescription": "Read if your gut is ruining your life",
+                    "ctaLinkDescription": "7 Reasons Why 50k+ Americans With \"IBS\" Swear By Nutrition Therapy Oil Of Oregano Drops For Gut Support Rachel M. | GUT HEALTH RESEARCHER Last Updated: June 04, 2026 Read This BEFORE You Spend Another Dollar On Gut Supplements Nutrition Therapy Others Raw Oregano 💧 Actually Absorbs ✓ ✕ ✕ ....."
+                  },
+                  "metrics": {
+                    "reach": 1,
+                    "aggregatedReach": 1,
+                    "estimatedSpend": 0,
+                    "duplicates": null,
+                    "reachDelta1d": 0,
+                    "reachDelta7d": 0,
+                    "reachDelta30d": 0
+                  },
+                  "audience": {
+                    "targetedCountries": [
+                      "US",
+                      "CA",
+                      "GB",
+                      "AU",
+                      "NZ",
+                      "NL"
+                    ],
+                    "mainCountry": "GB",
+                    "gender": null,
+                    "ageMin": 18,
+                    "ageMax": 65
+                  },
+                  "rank": {
+                    "positionInPage": 38,
+                    "currentRank": 38,
+                    "rankDelta": null,
+                    "improvementPct": null
+                  },
+                  "flags": {
+                    "isEuAd": true,
+                    "isLowReach": false,
+                    "isMediaChanged": true,
+                    "hasPartnerBadge": false
+                  }
+                },
+                "metrics": {
+                  "totalReach": 1,
+                  "duplicateCount": 0,
+                  "daysRunning": 39,
+                  "currentRank": 38
+                }
+              }
+            ],
+            "pagination": {
+              "page": 1,
+              "limit": 5,
+              "total": 167,
+              "totalPages": 34
+            }
+          },
+          "adsPreview": {
+            "data": [],
+            "pagination": {
+              "page": 1,
+              "limit": 5,
+              "total": 0,
+              "totalPages": 0
+            }
+          }
+        },
+        "meta": {
+          "requestedSnapshotDate": null,
+          "resolvedSnapshotDate": "2026-09-13",
+          "dataFreshnessLagDays": 0
+        }
+      },
+      "mediaMix": {
+        "data": {
+          "activeAds": 168,
+          "formatCount": {
+            "image": 168,
+            "video": 0,
+            "dco": 0,
+            "other": 0
+          }
+        },
+        "meta": {
+          "requestedSnapshotDate": null,
+          "resolvedSnapshotDate": null,
+          "dataFreshnessLagDays": null
+        }
+      },
+      "demography": {
+        "data": {
+          "hasData": true,
+          "countryDistribution": [
+            {
+              "countryCode": "GB",
+              "reach": 1139
+            },
+            {
+              "countryCode": "NL",
+              "reach": 146
+            }
+          ],
+          "ageDistribution": [
+            {
+              "ageRange": "65+",
+              "reach": 406
+            },
+            {
+              "ageRange": "55-64",
+              "reach": 292
+            },
+            {
+              "ageRange": "45-54",
+              "reach": 239
+            },
+            {
+              "ageRange": "35-44",
+              "reach": 200
+            },
+            {
+              "ageRange": "25-34",
+              "reach": 109
+            },
+            {
+              "ageRange": "18-24",
+              "reach": 39
+            }
+          ],
+          "genderDistribution": [
+            {
+              "gender": "female",
+              "reach": 861
+            },
+            {
+              "gender": "male",
+              "reach": 403
+            },
+            {
+              "gender": "unknown",
+              "reach": 21
+            }
+          ]
+        }
+      },
+      "hooks": {
+        "data": [],
+        "pagination": {
+          "page": 1,
+          "limit": 5,
+          "total": 0,
+          "totalPages": 0
+        }
+      },
+      "landingPages": {
+        "data": [
+          {
+            "landingPage": "https://nutritiontherapy.co/products/pumpkin-seed-oil-drops",
+            "usageCount": 134,
+            "longestRunning": 1,
+            "totalImpressions": 0,
+            "technologies": [],
+            "screenshots": {
+              "desktop": null,
+              "mobile": null,
+              "head": null
+            }
+          },
+          {
+            "landingPage": "https://nutritiontherapy.co/pages/ooo-jv3q",
+            "usageCount": 85,
+            "longestRunning": 24,
+            "totalImpressions": 0,
+            "technologies": [
+              {
+                "id": "04504d0b-df46-4f62-98b6-d4d9e14a2282",
+                "name": "Shopify",
+                "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/Shopify.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011822Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+              }
+            ],
+            "screenshots": {
+              "desktop": "https://medias.trendtrack.io/cta/901025720/05092026/full.jpg",
+              "mobile": "https://medias.trendtrack.io/cta/901025720/05092026/mobile.jpg",
+              "head": "https://medias.trendtrack.io/cta/901025720/05092026/head.jpg"
+            }
+          },
+          {
+            "landingPage": "https://nutritiontherapy.co/products/ooo-constipation",
+            "usageCount": 81,
+            "longestRunning": 25,
+            "totalImpressions": 0,
+            "technologies": [],
+            "screenshots": {
+              "desktop": null,
+              "mobile": null,
+              "head": null
+            }
+          },
+          {
+            "landingPage": "https://nutritiontherapy.co/products/oil-of-oregano",
+            "usageCount": 52,
+            "longestRunning": 31,
+            "totalImpressions": 0,
+            "technologies": [
+              {
+                "id": "04504d0b-df46-4f62-98b6-d4d9e14a2282",
+                "name": "Shopify",
+                "iconUrl": "https://trendtrack.0b7b94bdbc6a89d518ad043fa42843d8.r2.cloudflarestorage.com/technology_icons/Shopify.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=d8cb2e3741c49b44432b96b5d745f281%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011822Z&X-Amz-Expires=86400&X-Amz-Signature=[REDACTED_SECRET]&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+              }
+            ],
+            "screenshots": {
+              "desktop": "https://medias.trendtrack.io/cta/819472390/20072026/full.jpg",
+              "mobile": "https://medias.trendtrack.io/cta/819472390/20072026/mobile.jpg",
+              "head": "https://medias.trendtrack.io/cta/819472390/20072026/head.jpg"
+            }
+          },
+          {
+            "landingPage": "https://nutritiontherapy.co/products/oil-of-oregano-drops-26",
+            "usageCount": 42,
+            "longestRunning": 0,
+            "totalImpressions": 0,
+            "technologies": [],
+            "screenshots": {
+              "desktop": null,
+              "mobile": null,
+              "head": null
+            }
+          }
+        ],
+        "pagination": {
+          "page": 1,
+          "limit": 5,
+          "total": 20,
+          "totalPages": 4
+        }
+      },
+      "creativeSwipeFile": {
+        "hooksToSteal": [],
+        "landingPagesToStudy": [
+          {
+            "url": "https://nutritiontherapy.co/products/pumpkin-seed-oil-drops",
+            "reason": "Generated 0 impressions with a longest run of 1 days.",
+            "totalImpressions": 0,
+            "longestRunning": 1
+          },
+          {
+            "url": "https://nutritiontherapy.co/pages/ooo-jv3q",
+            "reason": "Generated 0 impressions with a longest run of 24 days.",
+            "totalImpressions": 0,
+            "longestRunning": 24
+          },
+          {
+            "url": "https://nutritiontherapy.co/products/ooo-constipation",
+            "reason": "Generated 0 impressions with a longest run of 25 days.",
+            "totalImpressions": 0,
+            "longestRunning": 25
+          },
+          {
+            "url": "https://nutritiontherapy.co/products/oil-of-oregano",
+            "reason": "Generated 0 impressions with a longest run of 31 days.",
+            "totalImpressions": 0,
+            "longestRunning": 31
+          },
+          {
+            "url": "https://nutritiontherapy.co/products/oil-of-oregano-drops-26",
+            "reason": "Generated 0 impressions with a longest run of 0 days.",
+            "totalImpressions": 0,
+            "longestRunning": 0
+          }
+        ],
+        "formatSignals": {
+          "image": 168,
+          "video": 0,
+          "dco": 0,
+          "other": 0,
+          "recommendation": "Prioritize image creatives first; this is the strongest observed format signal for the tracked brand."
+        }
+      },
+      "warnings": [],
+      "fieldGuide": {
+        "demography": [
+          {
+            "path": "structuredContent.demography.data.countryDistribution",
+            "meaning": "Country-level EU Meta ad reach distribution for the tracked brand."
+          },
+          {
+            "path": "structuredContent.demography.data.ageDistribution",
+            "meaning": "Age-range EU Meta ad reach distribution for the tracked brand."
+          },
+          {
+            "path": "structuredContent.demography.data.genderDistribution",
+            "meaning": "Gender EU Meta ad reach distribution for the tracked brand."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 6,
+        "effectiveUnits": 6,
+        "actualUnits": 6,
+        "costUnits": 9,
+        "recurringUnits": 9,
+        "topupUnits": 0,
+        "creditsRemaining": 6712,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null,
+        "breakdown": [
+          {
+            "key": "brandtracker_access_check",
+            "endpointKey": "public_api.brandtrackers.detail.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "overview",
+            "endpointKey": "public_api.brandtrackers.overview.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "media_mix",
+            "endpointKey": "public_api.brandtrackers.media_mix.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "demography",
+            "endpointKey": "public_api.brandtrackers.demography.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "hooks",
+            "endpointKey": "public_api.brandtrackers.hooks.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "landing_pages",
+            "endpointKey": "public_api.brandtrackers.landing_pages.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          }
+        ]
+      }
+    },
+    "isError": false
+  }
+}

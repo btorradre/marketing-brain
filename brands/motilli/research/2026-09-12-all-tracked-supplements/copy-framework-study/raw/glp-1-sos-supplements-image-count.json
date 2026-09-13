@@ -1,0 +1,192 @@
+{
+  "jsonrpc": "2.0",
+  "id": "glp-1-sos-supplements-image-count",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — GLP-1 SOS Supplements\n\nWindow: 7d | Sort: current_rank | Results: 1\n\nAssistant instruction: when you show returned ads to the user, include the Media URL for each ad, or the Thumbnail URL fallback if Media URL is unavailable.\n\n### 1. GLP-1 SOS Supplements\n- Ad id: facebook_904968789001919\n- Rank: current 396 | delta n/a | improvement 9950%\n- Status: active | Media: image | Days running: 1\n- Reach: n/a | Duplicates: n/a\n- First seen: 2026-09-10 | Last seen: 2026-09-10\n- Media URL: https://medias.trendtrack.io/facebook/image/7f7f5c32b845fb2ac967d63ab27eeef7e8e93517d14a200fb452735eccce9f9a.png\n- Landing page: https://glp1sos.com/products/glp1capsules\n- Copy: Bloated, backed up, burping on your GLP-1 and telling yourself it's fine? It doesn't have to be. GLP-1 SOS™ was built for a slowed-down gut — gentle regularity, less bloating and…\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":1,\"platforms\":[\"facebook\"],\"status\":\"active\",\"trackedPages\":[\"919987167857989\",\"1126310607234177\",\"1090659200806650\",\"1086506201215085\"],\"rankDeltaWindow\":\"7d\",\"mediaType\":\"image\"}\n\n---\nCredits used: 2 | Remaining: 6352 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "b3705e84-2701-48dd-8416-16a840670a8f",
+      "data": [
+        {
+          "id": "facebook_904968789001919",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-09-11T02:28:36.185Z",
+          "firstSeenAt": "2026-09-10T07:00:00.000Z",
+          "lastSeenAt": "2026-09-10T07:00:00.000Z",
+          "daysRunning": 1,
+          "media": {
+            "type": "image",
+            "thumbnailUrl": null,
+            "mediaUrl": "https://medias.trendtrack.io/facebook/image/7f7f5c32b845fb2ac967d63ab27eeef7e8e93517d14a200fb452735eccce9f9a.png"
+          },
+          "advertiser": {
+            "id": "919987167857989",
+            "name": "GLP-1 SOS Supplements",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/919987167857989.jpg",
+            "facebookPageId": "919987167857989",
+            "liveAdsCount": 398,
+            "reach30d": 0,
+            "totalReach": 53267,
+            "countriesCount": 1,
+            "facebookLikes": 2202,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "Bloated, backed up, burping on your GLP-1 and telling yourself it's fine? It doesn't have to be. GLP-1 SOS™ was built for a slowed-down gut — gentle regularity, less bloating and nausea, more energy. 60-day money-back guarantee.",
+            "transcript": null,
+            "callToAction": "SHOP NOW",
+            "landingPageUrl": "https://glp1sos.com/products/glp1capsules",
+            "landingPageDomain": "glp1sos.com",
+            "ctaDescription": "It Doesn't Have to Be This Way",
+            "ctaLinkDescription": "Gentle Relief for Constipation, Sulphur Burps & Fatigue on Ozempic®, Wegovy® & Mounjaro®‎"
+          },
+          "metrics": {
+            "reach": null,
+            "aggregatedReach": null,
+            "estimatedSpend": null,
+            "duplicates": null,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 396,
+            "currentRank": 396,
+            "rankDelta": null,
+            "improvementPct": 99.5
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 1,
+        "total": 125,
+        "totalPages": 125,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "9e7b452e-16f4-4f8c-bc30-38da414bf6b7",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "9e7b452e-16f4-4f8c-bc30-38da414bf6b7",
+          "resolvedBrandName": "GLP-1 SOS Supplements",
+          "facebookPageId": "919987167857989",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "919987167857989",
+            "1126310607234177",
+            "1090659200806650",
+            "1086506201215085"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 1,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active",
+          "trackedPages": [
+            "919987167857989",
+            "1126310607234177",
+            "1090659200806650",
+            "1086506201215085"
+          ],
+          "rankDeltaWindow": "7d",
+          "mediaType": "image"
+        },
+        "requestedLimit": 1,
+        "effectiveLimit": 1,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 1,
+        "effectiveUnits": 1,
+        "actualUnits": 1,
+        "costUnits": 2,
+        "recurringUnits": 2,
+        "topupUnits": 0,
+        "creditsRemaining": 6352,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

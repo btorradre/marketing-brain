@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gut Health Blog | Why GLP-1 Constipation Gets Worse Every Week — and Why Nothing in Your Cabinet Can Break the Loop</title>
+<meta name="description" content="The same slowdown that quiets your appetite is quietly starving the bacteria your colon needs to move. The full mechanism — why fiber, laxatives, and probiotics keep failing, and what a real fix has to do.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --masthead: #14302a;
+    --masthead-2: #1c4036;
+    --green-cta: #1c4036;
+    --green-cta-hover: #14302a;
+    --text-main: #121212;
+    --text-body: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --border: #e5e5e5;
+    --bg-page: #ffffff;
+    --bg-soft: #f7f7f5;
+    --bg-quote: #f4f6f4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; background: #fff !important; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-body);
+    background: #fff !important;
+    line-height: 1.7;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+
+  .disclosure-bar { background: var(--bg-soft); border-bottom: 1px solid var(--border); padding: 7px 0; text-align: center; }
+  .disclosure-bar .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; font-size: 11px; letter-spacing: 1.2px; font-weight: 600; text-transform: uppercase; color: #999; }
+
+  .masthead { background: #fff; border-bottom: 1px solid var(--border); padding: 16px 0 14px; }
+  .masthead .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .masthead .brand { font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: var(--masthead); letter-spacing: -0.5px; white-space: nowrap; line-height: 1.1; }
+  .masthead .tag { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1.1px; font-weight: 600; line-height: 1.4; text-align: right; }
+  .masthead .tag span { color: var(--masthead); }
+
+  .page {
+    max-width: 1100px; margin: 0 auto;
+    padding: 32px 20px 60px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 48px;
+    align-items: start;
+  }
+  .article { min-width: 0; max-width: 680px; }
+  .sidebar { position: sticky; top: 20px; }
+
+  .edit-tag { font-size: 11px; color: var(--masthead); text-transform: uppercase; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+  .edit-tag::after { content: ""; flex: 1; height: 1px; background: #d0d0d0; }
+
+  h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 34px; line-height: 1.22; font-weight: 700;
+    color: var(--text-main); letter-spacing: -0.4px; margin-bottom: 16px;
+  }
+  .dek { font-size: 18px; line-height: 1.6; color: #444; margin-bottom: 20px; font-weight: 400; }
+  .byline { display: flex; align-items: center; gap: 10px; padding: 14px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 30px; font-size: 13.5px; color: var(--text-muted); }
+  .byline strong { color: var(--text-main); font-weight: 600; }
+
+  .article p { margin-bottom: 22px; }
+  .article .beat { text-align: center; color: #bbb; letter-spacing: 6px; margin: 28px 0; font-size: 14px; }
+
+  h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 25px; line-height: 1.3; font-weight: 700;
+    color: var(--text-main); margin: 44px 0 18px;
+  }
+
+  .pullquote {
+    border-left: 3px solid var(--masthead);
+    background: var(--bg-quote);
+    padding: 22px 26px; margin: 30px 0;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 21px; line-height: 1.45; color: var(--text-main);
+  }
+  .pullquote .attr { display: block; margin-top: 10px; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--text-muted); font-style: normal; }
+
+  .loop-box {
+    border: 1.5px solid var(--masthead); border-radius: 6px;
+    padding: 26px 28px; margin: 30px 0; background: var(--bg-quote);
+  }
+  .loop-box .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; color: var(--masthead); margin-bottom: 16px; }
+  .loop-box ol { list-style: none; }
+  .loop-box li { padding: 8px 0; font-size: 16.5px; line-height: 1.5; color: var(--text-main); }
+  .loop-box li .arrow { display: block; color: var(--masthead); font-weight: 700; padding: 2px 0 0 8px; }
+  .loop-box .repeat { margin-top: 12px; padding-top: 14px; border-top: 1px dashed #b9c4bf; font-size: 15px; font-weight: 600; color: var(--masthead); }
+
+  .protocol-box {
+    border: 1.5px solid var(--masthead); border-radius: 6px;
+    padding: 24px 26px; margin: 30px 0; background: #fff;
+  }
+  .protocol-box .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; color: var(--masthead); margin-bottom: 10px; }
+  .protocol-box .big { font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; font-weight: 600; color: var(--text-main); line-height: 1.4; margin-bottom: 8px; }
+  .protocol-box .small { font-size: 14px; color: var(--text-muted); }
+
+  .checklist { margin: 26px 0; }
+  .checklist li {
+    list-style: none; padding: 14px 0 14px 34px; position: relative;
+    border-bottom: 1px solid var(--border); font-size: 17px; line-height: 1.55;
+  }
+  .checklist li::before {
+    content: "—"; position: absolute; left: 4px; top: 13px; color: var(--masthead); font-weight: 700;
+  }
+
+  .cta-block { margin: 34px 0; text-align: center; }
+  .cta-button {
+    display: inline-block; background: var(--green-cta); color: #fff !important;
+    font-weight: 700; font-size: 17px; padding: 17px 38px; border-radius: 6px;
+    text-decoration: none; letter-spacing: 0.2px;
+    transition: background 0.15s ease;
+  }
+  .cta-button:hover { background: var(--green-cta-hover); }
+  .cta-sub { margin-top: 10px; font-size: 13px; color: var(--text-muted); }
+
+  .product-figure { margin: 30px 0; }
+  .product-figure img { border-radius: 6px; border: 1px solid var(--border); }
+  .product-figure figcaption { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+
+  .faq { margin: 26px 0; }
+  .faq .q { font-weight: 700; color: var(--text-main); margin-bottom: 6px; font-size: 17px; }
+  .faq .a { margin-bottom: 24px; }
+
+  .reader-letter {
+    background: var(--bg-soft); border-radius: 6px; padding: 22px 24px; margin-bottom: 18px;
+    font-size: 16px; line-height: 1.65;
+  }
+  .reader-letter .who { font-size: 13px; color: var(--text-muted); margin-top: 10px; font-weight: 600; }
+  .reader-note { font-size: 12.5px; color: #999; margin-top: 6px; }
+
+  .offer-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+  .offer-card .card-head { background: var(--masthead); color: #fff; padding: 12px 18px; font-size: 12px; text-transform: uppercase; letter-spacing: 1.3px; font-weight: 700; }
+  .offer-card .card-body { padding: 18px; }
+  .offer-card img { border-radius: 4px; margin-bottom: 14px; }
+  .offer-card .name { font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; font-weight: 700; color: var(--text-main); margin-bottom: 6px; }
+  .offer-card .desc { font-size: 13.5px; color: #555; line-height: 1.55; margin-bottom: 14px; }
+  .offer-card ul { margin: 0 0 16px; }
+  .offer-card ul li { list-style: none; font-size: 13.5px; padding: 6px 0 6px 22px; position: relative; border-bottom: 1px solid #f0f0f0; }
+  .offer-card ul li::before { content: "✓"; position: absolute; left: 2px; color: var(--masthead); font-weight: 700; }
+  .offer-card .cta-button { display: block; text-align: center; font-size: 15px; padding: 14px 10px; }
+  .offer-card .guarantee { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 10px; }
+  .sidebar .side-quote { margin-top: 22px; font-family: 'Source Serif 4', Georgia, serif; font-size: 16px; color: #444; border-left: 3px solid var(--masthead); padding-left: 14px; line-height: 1.55; }
+  .sidebar .side-quote span { display: block; font-family: 'Inter', sans-serif; font-size: 12px; color: var(--text-muted); margin-top: 8px; }
+
+  .sticky-cta {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 50;
+    background: var(--masthead); padding: 10px 16px;
+    display: none; align-items: center; justify-content: space-between; gap: 12px;
+    transform: translateY(110%); transition: transform 0.25s ease;
+  }
+  .sticky-cta.visible { transform: translateY(0); }
+  .sticky-cta .txt { color: #fff; font-size: 13px; line-height: 1.35; font-weight: 600; }
+  .sticky-cta .txt small { display: block; font-weight: 400; opacity: 0.8; font-size: 11.5px; }
+  .sticky-cta a { background: #fff; color: var(--masthead); font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 5px; text-decoration: none; white-space: nowrap; }
+
+  .footer { border-top: 1px solid var(--border); background: var(--bg-soft); padding: 36px 0 90px; margin-top: 20px; }
+  .footer .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  .footer p { font-size: 12px; color: #999; line-height: 1.7; margin-bottom: 12px; }
+  .footer .links { font-size: 12.5px; color: #777; margin-bottom: 18px; }
+  .footer .links a { margin-right: 16px; text-decoration: none; }
+
+  @media (max-width: 900px) {
+    .page { grid-template-columns: 1fr; gap: 0; }
+    .sidebar { position: static; order: 2; margin-top: 30px; max-width: 480px; }
+    .article { max-width: 100%; }
+    h1 { font-size: 28px; }
+    .sticky-cta { display: flex; }
+  }
+</style>
+</head>
+<body>
+
+<div class="disclosure-bar"><div class="inner">Advertorial — This page contains an advertisement for Motilli</div></div>
+
+<header class="masthead">
+  <div class="inner">
+    <div class="brand">Gut Health Blog</div>
+    <div class="tag">Gut health, explained properly<br><span>GLP-1 Series</span></div>
+  </div>
+</header>
+
+<div class="page">
+<article class="article">
+
+  <div class="edit-tag">GLP-1 Series — The Mechanism</div>
+
+  <h1>Why GLP-1 Constipation Gets Worse Every Week — and Why Nothing in Your Cabinet Can Break the Loop</h1>
+
+  <p class="dek">The same slowdown that quiets your appetite is quietly starving the bacteria your colon needs to move. Once you see the loop, you'll understand why fiber, laxatives, and probiotics keep failing — and what a real fix actually has to do.</p>
+
+  <div class="byline">
+    <div><strong>Gut Health Blog — GLP-1 Series</strong> &nbsp;·&nbsp; Last updated July 2026</div>
+  </div>
+
+  <p>If you are on a GLP-1 medication, there is a pattern you may already know by heart.</p>
+
+  <p>The days between bathroom trips stretch out. Three, then five, then more — maybe you've started counting, on a calendar, in an app, or just in your head. The bloating builds through the afternoon until you look and feel six months pregnant by dinner. Some nights you skip dinner entirely, because eating makes it worse.</p>
+
+  <p>And you have the drawer. Miralax. Fiber gummies. Magnesium. Stool softeners. Prune juice. Each one works once, or not at all — and the fiber somehow made things worse. Your doctor says it's a known side effect. Add fiber. Drink water. Give it time to settle.</p>
+
+  <p>It doesn't settle. And somewhere in the back of your mind, a question has started forming that you may not have said out loud yet: <em>do I have to quit the medication to get my body back?</em></p>
+
+  <p>Before you answer that question, you deserve to see what is actually happening — because almost nobody explains it, and once you see it, everything else makes sense. Why the remedies fail. Why it worsens on a schedule. And why quitting was never the real choice.</p>
+
+  <h2>The system nobody thinks about until it stops</h2>
+
+  <p>Your colon is a muscle. To move waste, it has to contract — squeeze and push, over and over. And like any muscle, it doesn't act on its own. It waits for a signal.</p>
+
+  <p>That signal comes from a family of molecules called short-chain fatty acids — the most important one is <strong>butyrate</strong>. You do not make butyrate yourself. The bacteria living in your colon make it for you, by fermenting the fiber that passes through.

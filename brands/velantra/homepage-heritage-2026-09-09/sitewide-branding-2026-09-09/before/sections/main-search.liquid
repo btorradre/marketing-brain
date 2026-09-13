@@ -1,0 +1,19 @@
+<section class="search-page page-width">
+  <header class="collection-heading"><h1>{{ 'commerce.search.title' | t }}</h1><form action="{{ routes.search_url }}" method="get" class="commerce-search-form" role="search"><label for="Search-{{ section.id }}" class="visually-hidden">{{ 'commerce.search.placeholder' | t }}</label><input id="Search-{{ section.id }}" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'commerce.search.placeholder' | t | escape }}"><input type="hidden" name="options[prefix]" value="last"><button type="submit" class="eyebrow">{{ 'commerce.search.submit' | t }}</button></form></header>
+  {%- if search.performed -%}
+    {%- assign safe_search_terms = search.terms | escape -%}<p class="search-count eyebrow">{{ 'commerce.search.count' | t: count: search.results_count, terms: safe_search_terms }}</p>
+    {%- paginate search.results by section.settings.results_per_page -%}
+      <div class="product-grid" style="--desktop-columns: 4">
+        {%- for item in search.results -%}
+          {%- if item.object_type == 'product' -%}{% render 'product-card', product: item %}
+          {%- else -%}<article class="search-content-card">{% if item.image %}<a href="{{ item.url }}">{{ item.image | image_url: width: 720 | image_tag: loading: 'lazy' }}</a>{% endif %}<span class="eyebrow">{% if item.object_type == 'article' %}{{ 'commerce.search.article' | t }}{% else %}{{ 'commerce.search.page' | t }}{% endif %}</span><h2><a href="{{ item.url }}">{{ item.title | escape }}</a></h2><p>{{ item.content | strip_html | truncatewords: 35 }}</p></article>{%- endif -%}
+        {%- else -%}<div class="commerce-empty"><p>{{ 'commerce.search.empty' | t }}</p><a class="button button--outline" href="{{ routes.all_products_collection_url }}">{{ 'commerce.product.collection' | t }}</a></div>
+        {%- endfor -%}
+      </div>
+      {%- if paginate.pages > 1 -%}<nav class="commerce-pagination" aria-label="{{ 'commerce.collection.pagination' | t | escape }}">{{ paginate | default_pagination }}</nav>{%- endif -%}
+    {%- endpaginate -%}
+  {%- endif -%}
+</section>
+{% schema %}
+{"name":"Search","settings":[{"type":"range","id":"results_per_page","label":"Results per page","min":8,"max":48,"step":4,"default":24}]}
+{% endschema %}

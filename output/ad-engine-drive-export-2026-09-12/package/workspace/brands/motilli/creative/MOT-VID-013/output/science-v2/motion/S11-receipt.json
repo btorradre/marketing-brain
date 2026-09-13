@@ -1,0 +1,73 @@
+{
+  "shot": "S11",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The analog clock hand advances slightly while the connected anatomy remains stable with subtle tissue movement; no treatment transformation. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S11.png",
+  "reference_sha256": "050d0aa5324a78b55149f1beffe99062180d46e31d866083fda9077fbdc2fe60",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdjTU9nYXVhdEtlaWtxdHNQXy1xSndBVRIXY01PZ2F1YXRLZWlrcXRzUF8tcUp3QVU",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S11.mp4",
+  "sha256": "3fefe17b601e36ce8ecc6e279fe378a04efeae2ce5fa5068a3c6365cfd220918",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59845,
+    "total_input_tokens": 1153,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 53
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58479,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 213,
+    "raw_prompt_token": 31324,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1846
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 565
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 213
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

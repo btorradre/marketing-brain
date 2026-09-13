@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();for k,v in pairs(p:GetRenderJobStatus('6e240552-7464-4c13-ba26-cc7776673e71')) do print(k,v) end

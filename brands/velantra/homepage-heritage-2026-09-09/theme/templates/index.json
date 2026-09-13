@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "opening": {
+      "type": "heritage-campaign",
+      "settings": {
+        "eyebrow": "VELANTRA",
+        "heading": "A Life Well Carried",
+        "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/t/24/assets/heritage-vivienne-steps-v2-16x9.webp?v=1788999423",
+        "alignment": "left",
+        "shade": 55,
+        "desktop_height": 90,
+        "mobile_height": 90,
+        "image_position": "50% 50%",
+        "mobile_position": "50% 50%",
+        "is_hero": true,
+        "image_alt": "A woman seated on limestone steps with the Chocolate Vivienne in soft natural daylight",
+        "copy": "<p>Distinctive bags for the places, people, and moments that make a life.</p>",
+        "link": "/collections/handbags",
+        "link_label": "Shop Handbags",
+        "second_link": "/products/velantra-vivienne?variant=44462686830657",
+        "second_label": "Discover the Vivienne",
+        "mobile_image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/t/24/assets/heritage-vivienne-steps-v2-mobile.webp?v=1788999177"
+      }
+    },
+    "autumn": {
+      "type": "heritage-campaign",
+      "settings": {
+        "eyebrow": "THE COLETTE",
+        "heading": "The Autumn Edit",
+        "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/t/24/assets/heritage-colette-autumn.webp?v=1788997054",
+        "alignment": "right",
+        "shade": 45,
+        "desktop_height": 90,
+        "mobile_height": 90,
+        "image_position": "36% 50%",
+        "mobile_position": "36% 50%",
+        "image_alt": "The Caramel Colette wool tote beside an ivory knit in a warm paneled room",
+        "copy": "<p>Soft textures. Warm tones. A new season of familiar pleasures.</p>",
+        "link": "/products/the-colette-wool-tote?variant=44263482425409",
+        "link_label": "Discover the Colette"
+      }
+    },
+    "world": {
+      "type": "heritage-world",
+      "settings": {
+        "heading": "The World of Velantra",
+        "copy": "<p>Explore the collection, from everyday signatures to weekends away.</p>"
+      },
+      "blocks": {
+        "signature": {
+          "type": "world",
+          "settings": {
+            "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/t/24/assets/heritage-vivienne-signature.webp?v=1788997053",
+            "image_alt": "Chocolate Vivienne leather, braided trim and warm gold fittings",
+            "image_position": "50% 45%",
+            "eyebrow": "THE VIVIENNE",
+            "heading": "The Signature",
+            "link": "/products/velantra-vivienne?variant=44462686830657",
+            "link_label": "Explore the Vivienne"
+          }
+        },
+        "weekend": {
+          "type": "world",
+          "settings": {
+            "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/t/24/assets/heritage-eleanor-weekend.webp?v=1788997051",
+            "image_alt": "The Black Eleanor Weekender carried at a country-house doorway",
+            "image_position": "50% 50%",
+            "eyebrow": "THE ELEANOR",
+            "heading": "The Weekend Away",
+            "link": "/products/velantra-weekender?variant=44355431596097",
+            "link_label": "Explore the Eleanor"
+          }
+        }
+      },
+      "block_order": [
+        "signature",
+        "weekend"
+      ]
+    },
+    "accessories": {
+      "type": "heritage-campaign",
+      "settings": {
+        "eyebrow": "THE ACCESSORIES COLLECTION",
+        "heading": "The Finishing Touch",
+        "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/t/24/assets/heritage-horse-finishing-touch.webp?v=1788997050",
+        "alignment": "right",
+        "shade": 45,
+        "desktop_height": 80,
+        "mobile_height": 85,
+        "image_position": "50% 50%",
+        "mobile_position": "42% 50%",
+        "image_alt": "The Brown Horse Charm with its pale loop, resting on herringbone wool and walnut",
+        "copy": "<p>A little character. Entirely your own.</p>",
+        "link": "/collections/accessories",
+        "link_label": "Shop Accessories"
+      }
+    },
+    "closing": {
+      "type": "heritage-closing",
+      "settings": {
+        "eyebrow": "VELANTRA",
+        "heading": "Collected for the Everyday",
+        "copy": "<p>A favorite bag becomes part of your days. The morning you linger over. The weekend you look forward to. The places that feel like you.</p>",
+        "link": "/collections/handbags",
+        "link_label": "Explore the Collection"
+      }
+    }
+  },
+  "order": [
+    "opening",
+    "autumn",
+    "world",
+    "accessories",
+    "closing"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "score": 0.7029551,
+    "content": "theme​Duplicate mutation Requires The user needs write_themes and an exemption from Shopify to modify themes. If you think that your app is eligible for an exemption and should have access to this API, then you can submit an exception request. Duplicates a theme. Arguments id ID! required ID of the theme to be duplicated. name String Name of the new theme. Theme​Duplicate​Payload returns new​Theme Online​Store​Theme The newly duplicated theme. user​Errors [Theme​Duplicate​User​Error!]! non-null The list of errors that occurred from executing the mutation. Examples themeDuplicate reference",
+    "url": "https://shopify.dev/docs/api/admin-graphql/2026-07/mutations/themeDuplicate",
+    "title": "themeDuplicate - GraphQL Admin",
+    "domain": "admin"
+  },
+  {
+    "score": 0.69669735,
+    "content": "Theme​Duplicate​Payload payload Return type for themeDuplicate mutation. Fields new​Theme Online​Store​Theme The newly duplicated theme. user​Errors [Theme​Duplicate​User​Error!]! non-null The list of errors that occurred from executing the mutation. Mutations with this payload theme​Duplicate mutation Duplicates a theme. id ID! required Arguments ID of the theme to be duplicated. name String Name of the new theme. Map Mutations with this payload theme​Duplicate",
+    "url": "https://shopify.dev/docs/api/admin-graphql/2026-07/payloads/ThemeDuplicatePayload",
+    "title": "ThemeDuplicatePayload - GraphQL Admin",
+    "domain": "admin"
+  }
+]

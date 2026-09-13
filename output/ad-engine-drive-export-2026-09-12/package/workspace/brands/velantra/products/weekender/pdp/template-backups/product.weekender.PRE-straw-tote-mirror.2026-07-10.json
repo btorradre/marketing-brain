@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Effortless travel, elevated. The Velantra Weekender swallows everything you need for a quick getaway and still slides into the overhead \u2014 durable canvas, refined leather trim, and gold-tone hardware that earns its patina.</p>",
+            "page": ""
+          }
+        },
+        "tab_materials": {
+          "type": "tab",
+          "settings": {
+            "title": "Materials & Care",
+            "content": "<p><strong>Material</strong><br/>Durable premium canvas with full-grain leather trim and gold-tone hardware.</p><p><strong>Care</strong><br/>Spot clean canvas with a damp cloth and condition the leather trim every 6\u201312 months. Air dry only \u2014 do not machine wash.</p>",
+            "page": ""
+          }
+        },
+        "tab_dimensions": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions",
+            "content": "<p>Available in multiple sizes \u2014 select your size above for the right fit. Spacious main compartment with a structured, carry-on-friendly silhouette.</p>",
+            "page": ""
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>Free shipping on all orders over $75. Orders under $75 ship at a flat $4.99 (Standard Shipping), delivered within 7 to 10 business days.</p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free. If something isn&rsquo;t right, reach out &mdash; we&rsquo;ll make it right.</p>",
+            "page": ""
+          }
+        },
+        "tab_warranty": {
+          "type": "tab",
+          "settings": {
+            "title": "Two Year Warranty",
+            "content": "<p>Every Velantra bag is covered for two years against defects in materials and construction. If anything goes wrong in normal use, we&rsquo;ll repair or replace it.</p><p>After two years, we continue to offer repair service for the cost of materials. Designed to last decades, not seasons.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "description",
+        "variant_picker",
+        "buy_buttons",
+        "reviews",
+        "tab_details",
+        "tab_materials",
+        "tab_dimensions",
+        "tab_ship",
+        "tab_warranty"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "DESIGN",
+            "headline": "48 Hours, Carry-On Sized",
+            "body": "<p>Two outfits, two pairs of shoes, a toiletry kit &mdash; and still fits under the seat in front of you.</p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "Waxed Canvas + Saddle Leather",
+            "body": "<p>British-milled cotton, hot-waxed and hand-finished. Saddle leather at every wear point. Built for the road.</p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "LONGEVITY",
+            "headline": "Re-Waxable, Repairable",
+            "body": "<p>Re-wax it. Re-stitch it. The bag that gets better in the weather.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "icon_bar",
+    "recently_viewed"
+  ]
+}

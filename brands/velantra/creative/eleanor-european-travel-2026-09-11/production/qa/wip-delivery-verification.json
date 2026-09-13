@@ -1,0 +1,43 @@
+{
+  "status": "WIP review cut; speaking presenter incomplete",
+  "project": "VEL_Eleanor_EuropeanTravel_Natural110_20260912",
+  "timeline": "Eleanor-EuropeanTravel-WIP",
+  "render": {
+    "ok": true,
+    "result": {
+      "status": {
+        "CompletionPercentage": 100,
+        "TimeTakenToRenderInMs": 9874,
+        "JobStatus": "Complete"
+      },
+      "rendering": false
+    }
+  },
+  "duration_seconds": 81.365333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "caption_phrases": 76,
+  "caption_text_matches_approved_script": true,
+  "voice": "Woman Over 40 / Natural / speed 1.1 applied once at synthesis",
+  "decode": "Full exported video and audio decoded successfully with ffmpeg -v error -f null",
+  "visual_review": "Overview and native scene samples inspected. Final 1s and 36s frames reinspected after moving static guide down to clear bags. Not a completed lip-sync review.",
+  "limitations": [
+    "Static guide remains throughout; Omni exact-audio presenter generation failed. Presenter-only Aurora exception requested, unanswered.",
+    "Paris Omni job failed; selected still and stepped crop retained.",
+    "Hook source-photo commercial reuse rights unverified.",
+    "Product review is source-relative; physical size not certified."
+  ],
+  "files": [
+    {
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/exports/Eleanor-EuropeanTravel-WIP.mp4",
+      "bytes": 159094227,
+      "sha256": "e00856e01e3039b3f5bb3555e421ed3844b6e97e5de3eac16f75a755ac78d0bd"
+    },
+    {
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/exports/Eleanor-EuropeanTravel-WIP.drp",
+      "bytes": 255983,
+      "sha256": "4154cf96b2ea197ab5ab2559ada7f04bd68c9017cee84fee4b27a63e552bf25c"
+    }
+  ]
+}

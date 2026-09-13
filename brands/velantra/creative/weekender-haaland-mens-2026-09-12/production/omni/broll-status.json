@@ -1,0 +1,226 @@
+{
+  "flow_id": "bTNwJmMmdZKbo4jm8iko",
+  "flow_created": false,
+  "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+  "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+  "session_id": "XqSmRC3zGa0AkTNvM6oy",
+  "generations": [
+    {
+      "id": "y1p2O7tdPjPlhjBAdVUx",
+      "status": "completed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "One continuous fashion shot: the man takes two relaxed steps toward the camera at the airport, carrying the bag with a restrained natural swing. Preserve his identity, outfit, exact bag silhouette, tw",
+      "duration_secs": 7.018,
+      "width": 1080,
+      "height": 1920,
+      "created_at_unix_ms": 1789269669064,
+      "price": {
+        "credits": 6430.798342541437,
+        "price_cents": 106.1081726519337,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "49Ap7PL8tTBwGnwJ07LN",
+      "status": "failed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "One continuous street-style shot: the man in the white T-shirt walks naturally toward the camera, holding the bag steady alongside his jeans. Keep the exact bag, both tall handles, both front closure ",
+      "error_message": "Model did not complete the video generation.",
+      "created_at_unix_ms": 1789269674566,
+      "price": {
+        "credits": 5521.798342541437,
+        "price_cents": 91.1096726519337,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "WY9xjz9eaWN2PkEA046x",
+      "status": "completed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "Locked close-up: the fingertips gently trace the leather beside the oval gold plate and then lift clear to reveal the leather and light canvas contrast. Preserve the exact plate, stitching, rolled han",
+      "duration_secs": 6.016,
+      "width": 1080,
+      "height": 1920,
+      "created_at_unix_ms": 1789269680637,
+      "price": {
+        "credits": 5521.798342541437,
+        "price_cents": 91.1096726519337,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "cowUXdfjr4liGNt82epV",
+      "status": "completed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "One continuous overhead close-up: the hand gently holds the rim open and points just inside the existing wide slip pocket to show it separately from the main compartment. Preserve this exact single-po",
+      "duration_secs": 6.016,
+      "width": 1080,
+      "height": 1920,
+      "created_at_unix_ms": 1789269693167,
+      "price": {
+        "credits": 5521.798342541437,
+        "price_cents": 91.1096726519337,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "cYsVYxCKNNPatVUZtvI4",
+      "status": "completed",
+      "model_id": "gemini-omni-1.1-flash",
+      "modality": "video",
+      "prompt": "One continuous fashion shot: the man turns toward the hotel entrance and takes a relaxed step inside while holding the Weekender steady. Keep the exact bag proportions, canvas and cognac leather, two ",
+      "duration_secs": 6.016,
+      "width": 1080,
+      "height": 1920,
+      "created_at_unix_ms": 1789269699230,
+      "price": {
+        "credits": 5521.798342541437,
+        "price_cents": 91.1096726519337,
+        "cost_fiat_currency": "usd"
+      }
+    }
+  ],
+  "all_completed": false,
+  "has_failures": true,
+  "session_ids": [
+    "XqSmRC3zGa0AkTNvM6oy",
+    "sWEdkyhkLfKJmXgmMdOE",
+    "imBH9O2XDiBOPZZkL2pi",
+    "m2N65QZluaZnlmf96O6Y",
+    "eU0Hm5jYpwwzYbZ301xK"
+  ],
+  "media": [
+    {
+      "generation_id": "y1p2O7tdPjPlhjBAdVUx",
+      "kind": "video",
+      "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/XqSmRC3zGa0AkTNvM6oy/y1p2O7tdPjPlhjBAdVUx/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032231Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "aspect_ratio": 0.5625,
+      "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=y1p2O7tdPjPlhjBAdVUx",
+      "prompt": "One continuous fashion shot: the man takes two relaxed steps toward the camera at the airport, carrying the bag with a restrained natural swing. Preserve his identity, outfit, exact bag silhouette, two rolled handles and both horizontal front closure straps with gold fittings; no opening, captions or inset presenter.",
+      "duration_secs": 7.02,
+      "master_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/XqSmRC3zGa0AkTNvM6oy/y1p2O7tdPjPlhjBAdVUx/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032231Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "poster_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/XqSmRC3zGa0AkTNvM6oy/y1p2O7tdPjPlhjBAdVUx/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032232Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "model_id": "gemini-omni-1.1-flash",
+      "settings": [
+        {
+          "label": "Aspect ratio",
+          "value": "9:16"
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p"
+        },
+        {
+          "label": "Duration",
+          "value": "7"
+        }
+      ],
+      "references": [
+        {
+          "kind": "image",
+          "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/content_asset/m2I4DxOQZj9vYzelxWxy/thumbnail.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032351Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]"
+        }
+      ]
+    },
+    {
+      "generation_id": "WY9xjz9eaWN2PkEA046x",
+      "kind": "video",
+      "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/imBH9O2XDiBOPZZkL2pi/WY9xjz9eaWN2PkEA046x/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032254Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "aspect_ratio": 0.5625,
+      "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=WY9xjz9eaWN2PkEA046x",
+      "prompt": "Locked close-up: the fingertips gently trace the leather beside the oval gold plate and then lift clear to reveal the leather and light canvas contrast. Preserve the exact plate, stitching, rolled handles and visible strap hardware without moving or opening the flap; no text or presenter.",
+      "duration_secs": 6.02,
+      "master_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/imBH9O2XDiBOPZZkL2pi/WY9xjz9eaWN2PkEA046x/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032254Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "poster_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/imBH9O2XDiBOPZZkL2pi/WY9xjz9eaWN2PkEA046x/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032254Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "model_id": "gemini-omni-1.1-flash",
+      "settings": [
+        {
+          "label": "Aspect ratio",
+          "value": "9:16"
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p"
+        },
+        {
+          "label": "Duration",
+          "value": "6"
+        }
+      ],
+      "references": [
+        {
+          "kind": "image",
+          "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/content_asset/EjBGaPnsFjPrHolhKn7u/thumbnail.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032351Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]"
+        }
+      ]
+    },
+    {
+      "generation_id": "cowUXdfjr4liGNt82epV",
+      "kind": "video",
+      "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/m2N65QZluaZnlmf96O6Y/cowUXdfjr4liGNt82epV/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032252Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "aspect_ratio": 0.5625,
+      "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=cowUXdfjr4liGNt82epV",
+      "prompt": "One continuous overhead close-up: the hand gently holds the rim open and points just inside the existing wide slip pocket to show it separately from the main compartment. Preserve this exact single-pocket interior, lining, leather flap, handles and hardware; no new compartments, contents or text.",
+      "duration_secs": 6.02,
+      "master_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/m2N65QZluaZnlmf96O6Y/cowUXdfjr4liGNt82epV/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032252Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "poster_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/m2N65QZluaZnlmf96O6Y/cowUXdfjr4liGNt82epV/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032252Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "model_id": "gemini-omni-1.1-flash",
+      "settings": [
+        {
+          "label": "Aspect ratio",
+          "value": "9:16"
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p"
+        },
+        {
+          "label": "Duration",
+          "value": "6"
+        }
+      ],
+      "references": [
+        {
+          "kind": "image",
+          "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/content_asset/wMMIxfWUKsQRpdpq14fc/thumbnail.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032351Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]"
+        }
+      ]
+    },
+    {
+      "generation_id": "cYsVYxCKNNPatVUZtvI4",
+      "kind": "video",
+      "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/eU0Hm5jYpwwzYbZ301xK/cYsVYxCKNNPatVUZtvI4/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032309Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "aspect_ratio": 0.5625,
+      "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=cYsVYxCKNNPatVUZtvI4",
+      "prompt": "One continuous fashion shot: the man turns toward the hotel entrance and takes a relaxed step inside while holding the Weekender steady. Keep the exact bag proportions, canvas and cognac leather, two rolled handles and two horizontal front closure straps with gold fittings throughout; no text overlays.",
+      "duration_secs": 6.02,
+      "master_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/eU0Hm5jYpwwzYbZ301xK/cYsVYxCKNNPatVUZtvI4/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032309Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "poster_url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/eU0Hm5jYpwwzYbZ301xK/cYsVYxCKNNPatVUZtvI4/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032309Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]",
+      "model_id": "gemini-omni-1.1-flash",
+      "settings": [
+        {
+          "label": "Aspect ratio",
+          "value": "9:16"
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p"
+        },
+        {
+          "label": "Duration",
+          "value": "6"
+        }
+      ],
+      "references": [
+        {
+          "kind": "image",
+          "url": "https://storage.googleapis.com/xi-backend/database/workspace/9b58ed18934a4298b4f3f109b73e42e8/content_generation/content_asset/t2xL0E52ndfLULHY9udh/thumbnail.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260913T032351Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=[REDACTED_SECRET]"
+        }
+      ]
+    }
+  ]
+}

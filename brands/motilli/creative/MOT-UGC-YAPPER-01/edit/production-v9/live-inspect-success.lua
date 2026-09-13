@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('LIVE',p:GetName(),t:GetName(),t:GetEndFrame(),p:IsRenderingInProgress());for _,c in ipairs(t:GetItemListInTrack('video',2)) do if c:GetStart()>4500 and c:GetStart()<4800 then print('INSERT',c:GetName(),c:GetStart(),c:GetEnd(),c:GetProperty('ZoomX'),c:GetProperty('Tilt')) end end

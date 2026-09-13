@@ -1,0 +1,20 @@
+{
+  "shot": "S19",
+  "verdict": "minor_issue",
+  "observed_motion": "The shot is almost entirely static with virtually no perceptible camera translation or parallax movement across the frame.",
+  "issues": [
+    {
+      "time_s": 0.0,
+      "description": "Requested lateral camera move and parallax are missing; objects remain stationary with minimal to no camera motion.",
+      "severity": "moderate"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 3.75,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S19-4fps.jpg"
+}

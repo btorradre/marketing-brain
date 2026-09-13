@@ -1,0 +1,35 @@
+# Provisional editing framework — Motilli animated mini-movie
+
+September 11, 2026. **Selection phase only. No concept selected by the user, no approved narration, no production assets generated.** This records editorial direction before production. It must be expanded into the selected story’s exact line-to-shot editing plan after the user chooses a concept. Timing below is provisional and will change with performed dialogue.
+
+Reference: [audited museum Reel](reference-analysis/FRAME-AUDIT.md). Original pitches: [15 concepts](15-MOTILLI-CONCEPTS.md). The source uses dialogue coverage, facial reactions, longer exhibit reveals, a cross-dissolve for historical comparison and a black/fade-in break before product discovery. Motilli’s proposed treatment adapts those functions to an original adult character story.
+
+| Provisional time | Story / dialogue function | Specific visual direction and asset gap | Cut cue and duration logic | Incoming / outgoing transition | Editorial reason |
+|---|---|---|---|---|---|
+| 0–5s | Charged incident opens a question | Use the selected concept’s first-frame action: e.g. wife abruptly leaving anniversary table, husband catching glasses. All characters / setting / first-frame references are gaps. | Begin with action already underway. Hold long enough to understand who wants what; cut on the other character’s reaction. | Direct opening / motivated hard cut. | Emotional intensity and an obvious incomplete situation earn attention. Hook performance is an objective, not a guaranteed result. |
+| 5–17s | Plausible initial interpretation | In anniversary example, empty chair, untouched plate, husband rehearsing a speech. Distinct compositions; no repeated generic belly holds. | Alternate speaker and listener when interpretation changes; allow comic pauses. | Direct cuts / sound bridge toward next location. | Let viewers form a provisional explanation that the later reveal can change. |
+| 17–30s | Private burden revealed | Anniversary example: earrings in bathroom mirror, wife behind closed door, husband lowering himself beside it. | Hold the key expression; cut to the listener only when he understands. | Cut following sound or eye line / restrained hold. | Convert misunderstanding to empathy; the visible objects connect her private difficulty with her public intention. |
+| 30–44s | One missing piece explained unbranded | Exact physiological explanation remains an evidence/label gap. Prefer character dialogue and, only if useful, one coherent illustrative view in the same animation style. Current brand strategy is upstream, not retired signal/conveyor framing. | Follow the explanation’s logical steps, not a uniform cut rate. | Direct cut into relevant illustration / return to character. | Answer a real question created by the story. Avoid a claim that the analogy itself proves the mechanism. |
+| 44–55s | She states or demonstrates what she wants | Anniversary example: she admits wanting a relaxed evening together; husband offers companionship. | Hold the decision before introducing product. | Direct dialogue coverage / clear later-time transition. | Make the desired life moment belong to her before it belongs to the brand. |
+| 55–70s | Informed product choice | Current Motilli pack reference, label, substantiated benefits, use directions and any offer are gaps. Product introduced in a home routine/research context. ER concept explicitly separated from clinical care. | Give label and one supportable reason to choose it enough screen time. | Time transition into routine / transition acknowledging passage of time. | Product enters as a considered tool in the story; do not depict instant symptom resolution. |
+| 70–82s | Relationship / object callback | Anniversary example: later date night and joined hands; hostage example: reversed note-under-door joke. | Let the action complete and the other character react. | Motivated cut / clean transition to close. | Close the initial emotional question and make the outcome tangible. |
+| 82–90s | Brand / action / end hold | Current pack plus concise next step; exact offer and URL verified at scripting time. Source has no overt CTA, so this would be an original direct-response addition. | Reserve readable end time; choose final duration after voice alignment. | Clean cut or short motivated transition / end hold. | Preserve emotional closure while making the next action intelligible. |
+
+## Performance, captions and audio
+
+Use natural adult conversational performances. Give the supporting character a different attitude and rhythm; no forced sales-announcer pivot when the product appears. Keep reactions and brief pauses that make the reveal believable. Produce and align final dialogue before locking cuts and captions.
+
+Use readable white phrase captions with sufficient contrast and a phone-size readability review for an older audience. Avoid covering eyes, key props or product labels. Source captions are small; adaptation should prioritize legibility over literal imitation. Mark spoken words precisely after final voice alignment.
+
+Original audio direction: restrained score beneath dialogue; a clear reduction in musical activity at the vulnerable admission; gentle lift at the later payoff. Relevant scene sounds such as a glass catch, note sliding, zipper burst or chair scrape should reinforce an actual action. No unmotivated whoosh on every cut. Mix to keep every speaker understandable and verify on phone speakers; loudness targets follow the eventual delivery specification.
+
+## Production and delivery after selection
+
+1. Write the original script; verify claim/label inputs; expand this framework into a complete line/beat map with visual action, asset reference or gap, duration, cut cue, incoming/outgoing transition and rationale.
+2. Establish consistent original adult character designs and world style. Generate first asset set with GPT Image 2; inspect character continuity, actual Motilli packaging, composition and emotional readability.
+3. Deliver the selected storyboard in the correct Motilli Cut Room project, with actual selected images on every scene card, a separate reference lane, each scene’s rationale, and a working verified URL.
+4. Use Google Omni for video generation. Verify supported duration and aspect ratio before generating; report provider limitations rather than silently substituting.
+5. Check the DaVinci Resolve connection before editor operations. Create an isolated project/timeline and preserve existing work. Assemble and mix there.
+6. Before export, audit scene variety across the whole ad, identity/pack fidelity, voice alignment, captions, continuity, first-frame hook, supported claims and ending readability. Review full motion and sound, not only thumbnails. Retain original provider outputs and production provenance.
+
+No storyboard or editor operation is claimed in this phase. User choice is the next creative decision; completing the editing plan will not itself create another approval requirement.

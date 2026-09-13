@@ -1,0 +1,175 @@
+{
+  "name": "Velantra Meridian",
+  "slug": "meridian",
+  "brand_slug": "velantra",
+  "category": "Structured leather handbag",
+  "positioning": null,
+  "price": null,
+  "identity_block": "Silhouette: Birkin-inspired structured handbag, wider than tall, clean geometric lines\nBody: Full premium pebbled leather construction (single color throughout)\nHardware: Silver/palladium turn-lock clasp, silver buckle accents, silver feet\nHandles: Two rigid top handles in matching leather\nClosure: Front flap with centered turn-lock mechanism\nStrap: Front belt strap connecting handles through flap\nConstruction: Single-material leather. The entire bag is one color — no canvas, no two-tone.",
+  "mechanism_block": null,
+  "extra_blocks": [],
+  "colorways": [
+    {
+      "name": "Black",
+      "description": "Classic black leather, silver hardware"
+    },
+    {
+      "name": "Brown",
+      "description": "Warm tan/camel leather"
+    },
+    {
+      "name": "Coffee Brown",
+      "description": "Darker espresso-toned brown"
+    },
+    {
+      "name": "Gray",
+      "description": "Cool medium gray leather"
+    },
+    {
+      "name": "White",
+      "description": "Clean white/cream leather"
+    },
+    {
+      "name": "Green",
+      "description": "Deep emerald green"
+    },
+    {
+      "name": "Burgundy",
+      "description": "Rich wine/burgundy"
+    },
+    {
+      "name": "Light Blue",
+      "description": "Soft powder blue"
+    },
+    {
+      "name": "Ultra Light Blue",
+      "description": "Very pale icy blue"
+    }
+  ],
+  "dimensions": {},
+  "materials": [
+    "leather",
+    "silver",
+    "palladium",
+    "pebbled"
+  ],
+  "banned_terms": [],
+  "required_phrases": [],
+  "claims": [],
+  "engine_notes": [],
+  "reference_assets": [
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/black 1.webp",
+      "note": "Front view — black, silver hardware, classic angle",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/black 2.webp",
+      "note": "Alternate angle — black",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/black 3.webp",
+      "note": "Detail/different perspective — black",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/brown 1.webp",
+      "note": "Front view — warm brown/camel leather",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/brown 2.webp",
+      "note": "Alternate angle — brown",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/coffee brow n1.webp",
+      "note": "Front view — dark coffee brown",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/gray 1.webp",
+      "note": "Front view — gray",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/white 1.webp",
+      "note": "Front view — white/cream",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/green.webp",
+      "note": "Front view — emerald green",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/burgundy 1.webp",
+      "note": "Front view — wine/burgundy",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/light blue 1.jpg",
+      "note": "Front view — powder blue",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/statics/product references/velantra/meridian/ultra light blue 1.webp",
+      "note": "Front view — icy pale blue",
+      "colorway": null
+    }
+  ],
+  "qa_checklist": [],
+  "version": 1,
+  "extracted_from": {
+    "path": "/Users/brooksorradre2/.claude/skills/velantra-meridian/SKILL.md",
+    "sha256": "a9732ef5ff1f2f4b5ccd38452e4941d38ec8a03e52792889c29ebf4d0f7eb334",
+    "extracted_at": "2026-09-03T00:05:43+00:00",
+    "extractor": "scripts/extract_product_truth.py"
+  },
+  "extraction": {
+    "confidence": {
+      "name": "high",
+      "identity_block": "low",
+      "mechanism_block": "none",
+      "extra_blocks": "none",
+      "colorways": "medium",
+      "dimensions": "none",
+      "materials": "low",
+      "banned_terms": "none",
+      "required_phrases": "none",
+      "claims": "none",
+      "engine_notes": "none",
+      "reference_assets": "medium",
+      "qa_checklist": "none"
+    },
+    "notes": [
+      "no VERBATIM IDENTITY BLOCK; identity_block assembled from Visual Description bullets",
+      "no MECHANISM/FLAP/OPENING block found; mechanism_block=null"
+    ]
+  }
+}

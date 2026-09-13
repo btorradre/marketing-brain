@@ -1,0 +1,13 @@
+{
+  "defaults": {
+    "model": "veo-3.1-generate-preview",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration_seconds": 6,
+    "negative_prompt": "dialogue, voices, narration, people talking, on-screen text, captions, watermark, logos, fast motion, camera shake, metal hardware, zippers, buckles, morphing, bag deforming, flap opening, flap lifting, straps dangling, texture change, focus change"
+  },
+  "scenes": [
+    { "image": "keyframes/K02-dock-walk.png", "output": "clips/K02.mp4", "prompt": "Nearly still cinemagraph. The woman stands almost motionless on the dock holding the bag at her side, only her hair and dress move gently in the harbor breeze, the camera drifts forward extremely slowly. The bag hangs completely still and rigid at her side and keeps its exact construction every frame. The leather flap stays ONE single seamless sheet folded all the way over, lying completely flat against the front the entire clip: no gap, seam, or split ever opens anywhere in it, nothing behind it ever shows through it, its cut edge shapes never separate into pieces, and the two crossed belt straps stay fixed flat in their X the entire clip." },
+    { "image": "keyframes/K05-leather-macro.png", "output": "clips/K05.mp4", "prompt": "Nearly still macro cinemagraph, no focus change, the fingertips rest motionless on the leather flap edge, only a soft light shimmer moves across the straw weave. The leather and straw keep their exact texture, color and weave pattern every frame with no change. The leather flap stays ONE single seamless sheet lying completely flat against the straw the entire clip: no gap, void, or shadow ever opens under or behind it, it never lifts, and the white stitching stays identical the entire clip." }
+  ]
+}

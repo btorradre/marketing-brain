@@ -1,0 +1,193 @@
+{
+  "jsonrpc": "2.0",
+  "id": "glp-1-sos-supplements-video-count",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — GLP-1 SOS Supplements\n\nWindow: 7d | Sort: current_rank | Results: 1\n\nAssistant instruction: when you show returned ads to the user, include the Media URL for each ad, or the Thumbnail URL fallback if Media URL is unavailable.\n\n### 1. GLP-1 SOS Supplements\n- Ad id: facebook_2176219253245918\n- Rank: current 398 | delta -36 | improvement 10000%\n- Status: active | Media: video | Days running: 2\n- Reach: 0 | Duplicates: 1\n- First seen: 2026-09-09 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/video/0ac4f44845d025bfc3ef35f504e50cd85a143c1c579cf41e739f1446b653b4fd.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/147c5bbee4db9ce0c76bd2ee22017e0e9305bd815a9408def15ee72b0b2df09c.jpg\n- Landing page: https://glp1sos.com/products/glp1capsules?trybe=77a44801\n- Copy: Your GLP-1 slows your digestion on purpose. That's why the fiber, the water and the MiraLAX stop working: they were built for a normal gut, not a slowed one. GLP-1 SOS was formula…\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":1,\"platforms\":[\"facebook\"],\"status\":\"active\",\"trackedPages\":[\"919987167857989\",\"1126310607234177\",\"1090659200806650\",\"1086506201215085\"],\"rankDeltaWindow\":\"7d\",\"mediaType\":\"video\"}\n\n---\nCredits used: 2 | Remaining: 6350 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "a9fde3a9-c8c3-4997-98f3-d00e122ea3b9",
+      "data": [
+        {
+          "id": "facebook_2176219253245918",
+          "collationId": "1066416586240751",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-09-10T02:32:46.185Z",
+          "firstSeenAt": "2026-09-09T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 2,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/147c5bbee4db9ce0c76bd2ee22017e0e9305bd815a9408def15ee72b0b2df09c.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/0ac4f44845d025bfc3ef35f504e50cd85a143c1c579cf41e739f1446b653b4fd.mp4"
+          },
+          "advertiser": {
+            "id": "919987167857989",
+            "name": "GLP-1 SOS Supplements",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/919987167857989.jpg",
+            "facebookPageId": "919987167857989",
+            "liveAdsCount": 398,
+            "reach30d": 0,
+            "totalReach": 53267,
+            "countriesCount": 1,
+            "facebookLikes": 2202,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "Your GLP-1 slows your digestion on purpose. That's why the fiber, the water and the MiraLAX stop working: they were built for a normal gut, not a slowed one. GLP-1 SOS was formulated for the slowed gut. Magnesium that gently softens what's been sitting there, ginger that gets your stomach moving so the sulfur burps stop, a 19-strain probiotic, B12 and ashwagandha for the fog. Two capsules with dinner. 55,000+ people on a GLP-1 take it. 60-day money-back guarantee.",
+            "transcript": null,
+            "callToAction": "SHOP NOW",
+            "landingPageUrl": "https://glp1sos.com/products/glp1capsules?trybe=77a44801",
+            "landingPageDomain": "glp1sos.com",
+            "ctaDescription": "Finally Feel Normal on Your GLP-1",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 1,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 398,
+            "currentRank": 398,
+            "rankDelta": -36,
+            "improvementPct": 100
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": true
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 1,
+        "total": 250,
+        "totalPages": 250,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "9e7b452e-16f4-4f8c-bc30-38da414bf6b7",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "9e7b452e-16f4-4f8c-bc30-38da414bf6b7",
+          "resolvedBrandName": "GLP-1 SOS Supplements",
+          "facebookPageId": "919987167857989",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "919987167857989",
+            "1126310607234177",
+            "1090659200806650",
+            "1086506201215085"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 1,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active",
+          "trackedPages": [
+            "919987167857989",
+            "1126310607234177",
+            "1090659200806650",
+            "1086506201215085"
+          ],
+          "rankDeltaWindow": "7d",
+          "mediaType": "video"
+        },
+        "requestedLimit": 1,
+        "effectiveLimit": 1,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 1,
+        "effectiveUnits": 1,
+        "actualUnits": 1,
+        "costUnits": 2,
+        "recurringUnits": 2,
+        "topupUnits": 0,
+        "creditsRemaining": 6350,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

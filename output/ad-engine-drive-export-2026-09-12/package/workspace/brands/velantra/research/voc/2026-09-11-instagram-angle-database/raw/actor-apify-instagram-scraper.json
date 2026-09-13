@@ -1,0 +1,302 @@
+{
+  "id": "shu8hvrXbJbY3Eb9W",
+  "userId": "ZscMwFR5H7eCtWtyh",
+  "name": "instagram-scraper",
+  "username": "apify",
+  "description": "Extract Instagram posts, reels, profiles, places, hashtags, carousels, and comments. Get data from Instagram using one or more Instagram URLs or search queries: content, context, metrics, metadata. Export scraped data, run the scraper via API, schedule and monitor runs or integrate with other tools.",
+  "isPublic": true,
+  "createdAt": "2019-04-30T13:43:08.975Z",
+  "modifiedAt": "2026-09-11T14:41:08.147Z",
+  "taggedBuilds": {
+    "latest": {
+      "buildId": "Yo3Xy6MICBnbclfWT",
+      "finishedAt": "2026-09-11T11:20:34.091Z",
+      "buildNumberInt": 781,
+      "buildNumber": "0.0.781"
+    }
+  },
+  "stats": {
+    "totalBuilds": 3590,
+    "totalRuns": 192298695,
+    "totalUsers": 390553,
+    "lastRunStartedAt": "2026-09-11T20:27:34.916Z",
+    "totalMetamorphs": 228187,
+    "totalUsers30Days": 42822,
+    "totalUsers7Days": 21723,
+    "totalUsers90Days": 74149,
+    "publicActorRunStats30Days": {
+      "ABORTED": 5550,
+      "FAILED": 1218,
+      "SUCCEEDED": 17154279,
+      "TIMED-OUT": 45438,
+      "TOTAL": 17206485
+    },
+    "actorReviewCount": 593,
+    "actorReviewRating": 4.702767651675735,
+    "bookmarkCount": 4423
+  },
+  "versions": [
+    {
+      "versionNumber": "0.0",
+      "sourceType": "GIT_REPO",
+      "buildTag": "latest"
+    },
+    {
+      "versionNumber": "0.2",
+      "sourceType": "GIT_REPO",
+      "buildTag": "debug"
+    },
+    {
+      "versionNumber": "0.98",
+      "sourceType": "SOURCE_FILES"
+    },
+    {
+      "versionNumber": "0.99",
+      "sourceType": "GIT_REPO",
+      "buildTag": null
+    }
+  ],
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 604800,
+    "memoryMbytes": 1024
+  },
+  "exampleRunInput": {
+    "body": "{ \"helloWorld\": 123 }",
+    "contentType": "application/json; charset=utf-8"
+  },
+  "categories": [
+    "SOCIAL_MEDIA"
+  ],
+  "isDeprecated": false,
+  "title": "Instagram Scraper",
+  "pictureUrl": "https://apify-image-uploads-prod.s3.amazonaws.com/shu8hvrXbJbY3Eb9W/KA98igtKtYjWmFkuc-Instagram_Scraper.png",
+  "seoTitle": "\ud83d\udc41 Instagram Scraper",
+  "seoDescription": "Scrape and extract data from Instagram profiles, posts, locations and search. Get comments, mentions, hashtags, likes, photos, reels and more.",
+  "pricingInfos": [
+    {
+      "pricingModel": "PRICE_PER_DATASET_ITEM",
+      "pricePerUnitUsd": 0.0023,
+      "reasonForChange": "",
+      "unitName": "results",
+      "startedAt": "2024-08-14T00:00:00.000Z",
+      "createdAt": "2024-07-30T08:21:20.402Z",
+      "apifyMarginPercentage": 0.2,
+      "notifiedAboutFutureChangeAt": "2024-07-30T08:22:31.428Z",
+      "notifiedAboutChangeAt": "2024-08-14T00:09:17.258Z"
+    },
+    {
+      "pricingModel": "PRICE_PER_DATASET_ITEM",
+      "reasonForChange": null,
+      "unitName": "results",
+      "pricePerUnitUsd": 0.0007,
+      "minimalMaxTotalChargeUsd": null,
+      "createdAt": "2024-12-12T18:31:59.055Z",
+      "startedAt": "2024-12-12T18:31:59.055Z",
+      "apifyMarginPercentage": 0.2,
+      "notifiedAboutChangeAt": "2024-12-12T19:09:18.861Z"
+    },
+    {
+      "pricingModel": "PRICE_PER_DATASET_ITEM",
+      "reasonForChange": null,
+      "unitName": "results",
+      "pricePerUnitUsd": 0.0023,
+      "minimalMaxTotalChargeUsd": null,
+      "createdAt": "2024-12-12T19:57:48.182Z",
+      "startedAt": "2024-12-12T19:57:48.182Z",
+      "apifyMarginPercentage": 0.2,
+      "notifiedAboutChangeAt": "2024-12-12T20:09:19.711Z"
+    },
+    {
+      "pricingModel": "PRICE_PER_DATASET_ITEM",
+      "reasonForChange": "Introducing Apify Store discounts.",
+      "unitName": "result",
+      "tieredPricing": {
+        "FREE": {
+          "tieredPricePerUnitUsd": 0.0027
+        },
+        "BRONZE": {
+          "tieredPricePerUnitUsd": 0.0023
+        },
+        "SILVER": {
+          "tieredPricePerUnitUsd": 0.0019
+        },
+        "GOLD": {
+          "tieredPricePerUnitUsd": 0.0015
+        },
+        "PLATINUM": {
+          "tieredPricePerUnitUsd": 0.0009
+        },
+        "DIAMOND": {
+          "tieredPricePerUnitUsd": 0.0005
+        }
+      },
+      "createdAt": "2025-06-06T08:10:00.000Z",
+      "startedAt": "2025-06-06T08:10:00.000Z",
+      "notifiedAboutChangeAt": "2025-06-06T08:10:00.000Z",
+      "apifyMarginPercentage": 0.2,
+      "minimalMaxTotalChargeUsd": 0.5
+    },
+    {
+      "minimalMaxTotalChargeUsd": 0.5,
+      "pricingModel": "PAY_PER_EVENT",
+      "isPriceChangeNotificationSuppressed": true,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "Result",
+            "eventDescription": "Each result written to the dataset",
+            "isOneTimeEvent": false,
+            "eventTieredPricingUsd": {
+              "FREE": {
+                "tieredEventPriceUsd": 0.002
+              },
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.0023
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.0019
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.0015
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.0009
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.0005
+              }
+            },
+            "isPrimaryEvent": true
+          }
+        }
+      },
+      "createdAt": "2025-12-12T12:58:59.221Z",
+      "startedAt": "2025-12-12T12:58:59.221Z",
+      "apifyMarginPercentage": 0.2
+    },
+    {
+      "minimalMaxTotalChargeUsd": 0.5,
+      "pricingModel": "PAY_PER_EVENT",
+      "isPriceChangeNotificationSuppressed": true,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "Result",
+            "eventDescription": "Each result written to the dataset",
+            "isOneTimeEvent": false,
+            "eventTieredPricingUsd": {
+              "FREE": {
+                "tieredEventPriceUsd": 0.0027
+              },
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.0023
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.0019
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.0015
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.0009
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.0005
+              }
+            },
+            "isPrimaryEvent": true
+          }
+        }
+      },
+      "createdAt": "2025-12-12T12:59:32.023Z",
+      "startedAt": "2025-12-12T12:59:32.023Z",
+      "apifyMarginPercentage": 0.2
+    },
+    {
+      "minimalMaxTotalChargeUsd": 0.0027,
+      "pricingModel": "PAY_PER_EVENT",
+      "isPriceChangeNotificationSuppressed": true,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "Result",
+            "eventDescription": "Each result written to the dataset",
+            "isOneTimeEvent": false,
+            "eventTieredPricingUsd": {
+              "FREE": {
+                "tieredEventPriceUsd": 0.0027
+              },
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.0023
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.0019
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.0015
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.0009
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.0005
+              }
+            },
+            "isPrimaryEvent": true
+          }
+        }
+      },
+      "createdAt": "2025-12-12T16:10:43.534Z",
+      "startedAt": "2025-12-12T16:10:43.534Z",
+      "apifyMarginPercentage": 0.2
+    },
+    {
+      "minimalMaxTotalChargeUsd": 0.0027,
+      "pricingModel": "PAY_PER_EVENT",
+      "isPriceChangeNotificationSuppressed": true,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "Result",
+            "eventDescription": "Each result written to the dataset",
+            "isOneTimeEvent": false,
+            "eventTieredPricingUsd": {
+              "FREE": {
+                "tieredEventPriceUsd": 0.0027
+              },
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.0023
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.0019
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.0015
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.0009
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.0005
+              }
+            },
+            "isPrimaryEvent": true
+          }
+        }
+      },
+      "createdAt": "2026-02-20T12:24:59.754Z",
+      "startedAt": "2026-02-20T12:24:59.754Z",
+      "apifyMarginPercentage": 0.2
+    }
+  ],
+  "notice": "NONE",
+  "isCritical": true,
+  "isGeneric": false,
+  "hasNoDataset": false,
+  "isSourceCodeHidden": true,
+  "standbyUrl": null,
+  "actorPermissionLevel": "LIMITED_PERMISSIONS",
+  "readmeSummary": "## Instagram Scraper\n\nInstagram Scraper extracts public Instagram content and metadata across posts, carousels, reels, comments, mentions, profiles, hashtags, and places. It scrapes media and contextual data including captions, hashtags, @-mentions, image and video URLs, thumbnails and profile pictures, carousel children, audio/music metadata, media dimensions and durations, timestamps, and owner/profile metadata (bio, full name, follower/following counts, verified/business flags). Engagement and performance metrics returned include likes, comment counts, views/plays, comment text with author identity and reply threads, and hashtag analytics such as post counts, posts-per-day, related-tag clusters and reach tiers. Place/location outputs include coordinates, address, category, post counts and top/latest posts. The Actor supports discovery by keyword search (profiles, hashtags, places) or scraping from lists of URLs, and offers features like date filtering, content-type selection (posts vs reels vs comments vs mentions vs details), pinned-post handling, and nested comment retrieval. Outputs are structured, record-oriented datasets of media, engagement, profile, hashtag, mention, comment and place metadata suitable for trend analysis, influencer evaluation, brand monitoring, and other downstream analytics.\n\n## Use cases\n\n- Influencer vetting and partnership research (creator discovery, engagement scoring, audience audit)\n- Trend tracking and UGC intelligence (hashtag trend monitoring, adjacent tag discovery)\n- Competition and campaign monitoring (content performance comparison, posting cadence analysis)\n- Brand monitoring and mentions (caption mentions, branded hashtag UGC, @-tag collection)\n- Local business discovery and lead generation (place discovery by category + city, business profile enrichment)\n- Content and image analysis (media URLs, captions, alt text, audio/music metadata)\n- UGC discovery and sentiment analysis (comments, replies, author identities, timestamps)\n- Campaign performance tracking (likes, comments, views, plays, timestamps)",
+  "deploymentKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMwUlm0LSgcwxYqY0W/8NK7lnx1+AOnz3e5hZTTbZppBl2yCuAm9pc/rZaiCCXYyM+p17qgSROoGZF995Ve3mfbBfb5I/SV5rFIeYvJHsYL0I8/4S0A047zdn116BSQPgAyPcKovuQnm7NiYcP8POZcPu8Mo0A5sA/yV0qZpqSQl8PzymwYrb3UThLQC51GA0VQFvmBKMEZqgzPqpkVADG67+BxKYjVwn3TjNvFyeoFb1eVTnqvO3om000/GdUTGbWm72KvhLpwqfZJDPUfCk+mUmPLDvexZKzzGfihWdftkFJQAryFiFZwicglB1mtd/w3P4jgERc+zbrlBPplKxJ \n"
+}

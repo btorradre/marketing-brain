@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "_readme": [
+    "The only file you edit. Everything else is measured from Shopify.",
+    "",
+    "AFTER YOU PLACE A PO, update that SKU's last_po block: date + units.",
+    "That is the whole maintenance burden. The script counts units sold since",
+    "that date to work out what is left, because Shopify inventory is untracked",
+    "on this store and reads negative store-wide (Camille Navy at -1005).",
+    "",
+    "lead_time_days     = sold out -> in hand, from the agent (Brooks, 2026-08-08).",
+    "safety_pct         = extra cover on top of lead-time demand. 0.25 = 25%.",
+    "baseline_stall_pct = the SKU's HEALTHY share of labels aged 5-10 days that",
+    "                     still have no carrier scan. Measured Apr-Aug 2026.",
+    "                     When the live figure runs well above this, the agent is",
+    "                     issuing tracking numbers for parcels that do not exist,",
+    "                     which is the earliest visible sign he has run dry. The",
+    "                     Sofia hit 93% in Aug 2026 while Shopify's own processing",
+    "                     time still read 0.4 days."
+  ],
+  "store_domain_env": "SHOPIFY_VELANTRA_STORE",
+  "velocity_window_days": 30,
+  "velocity_window_long_days": 60,
+  "products": [
+    {
+      "name": "The Eleanor Weekender",
+      "shopify_titles": [
+        "The Eleanor Weekender",
+        "Velantra Weekender"
+      ],
+      "agent_sku_prefix": "BRO009",
+      "lead_time_days": 40,
+      "safety_pct": 0.25,
+      "last_po": {
+        "date": null,
+        "units": null,
+        "note": "UNSET - fill this in"
+      },
+      "baseline_stall_pct": 0.2
+    },
+    {
+      "name": "The Sofia Woven Tote",
+      "shopify_titles": [
+        "The Sofia Woven Tote",
+        "Velantra Straw Tote"
+      ],
+      "agent_sku_prefix": "xwp-",
+      "lead_time_days": 20,
+      "safety_pct": 0.25,
+      "last_po": {
+        "date": null,
+        "units": null,
+        "note": "UNSET - fill this in"
+      },
+      "baseline_stall_pct": 0.15
+    },
+    {
+      "name": "The Margot Leather Tote",
+      "shopify_titles": [
+        "The Margot Leather Tote"
+      ],
+      "agent_sku_prefix": "BRO011",
+      "lead_time_days": 20,
+      "safety_pct": 0.25,
+      "last_po": {
+        "date": null,
+        "units": null,
+        "note": "UNSET - fill this in"
+      },
+      "baseline_stall_pct": 0.1
+    },
+    {
+      "name": "The Camille Boat Tote",
+      "shopify_titles": [
+        "The Camille Boat Tote"
+      ],
+      "agent_sku_prefix": "BRO008",
+      "lead_time_days": 7,
+      "safety_pct": 0.25,
+      "last_po": {
+        "date": null,
+        "units": null,
+        "note": "UNSET - fill this in"
+      },
+      "baseline_stall_pct": 0.2
+    }
+  ],
+  "alert_stall_amber_pct": 0.4,
+  "alert_stall_red_pct": 0.6
+}

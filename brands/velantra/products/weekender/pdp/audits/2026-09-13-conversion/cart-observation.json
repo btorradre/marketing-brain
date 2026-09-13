@@ -1,0 +1,136 @@
+{
+  "started_utc": "2026-09-13T17:01:29.557825+00:00",
+  "events": [
+    {
+      "path": "https://velantrafashion.com/cart.js",
+      "status": 200
+    },
+    {
+      "path": "https://velantrafashion.com/cart.js",
+      "status": 302
+    },
+    {
+      "path": "https://velantrafashion.com/cart",
+      "status": 200
+    },
+    {
+      "path": "https://velantrafashion.com/cart/add.js",
+      "status": 200,
+      "data": {
+        "id": null,
+        "variant_id": null,
+        "product_title": null,
+        "variant_title": null,
+        "price": null,
+        "quantity": null,
+        "status": null,
+        "message": null,
+        "description": null
+      }
+    },
+    {
+      "path": "https://velantrafashion.com/cart.js",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "steps": [
+    {
+      "name": "cart-test-before",
+      "host": "velantrafashion.com",
+      "path": "/products/velantra-weekender",
+      "title": "Weekender Bag | The Eleanor | Velantra",
+      "visible_buttons": [
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "CART (0)",
+          "disabled": false
+        },
+        {
+          "text": "\u2190",
+          "disabled": true
+        },
+        {
+          "text": "\u2192",
+          "disabled": false
+        },
+        {
+          "text": "\u2212",
+          "disabled": false
+        },
+        {
+          "text": "+",
+          "disabled": false
+        },
+        {
+          "text": "ADD TO CART",
+          "disabled": false
+        },
+        {
+          "text": "SUBSCRIBE",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "cart-test-after",
+      "host": "velantrafashion.com",
+      "path": "/products/velantra-weekender",
+      "title": "Weekender Bag | The Eleanor | Velantra",
+      "visible_buttons": [
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "CART (1)",
+          "disabled": false
+        },
+        {
+          "text": "\u2190",
+          "disabled": true
+        },
+        {
+          "text": "\u2192",
+          "disabled": false
+        },
+        {
+          "text": "\u2212",
+          "disabled": false
+        },
+        {
+          "text": "+",
+          "disabled": false
+        },
+        {
+          "text": "ADD TO CART",
+          "disabled": false
+        },
+        {
+          "text": "SUBSCRIBE",
+          "disabled": false
+        },
+        {
+          "text": "Decrease quantity",
+          "disabled": false
+        },
+        {
+          "text": "Increase quantity",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "test_note": "Synthetic Cognac add-to-cart only unless a checkout button is subsequently followed; no customer or payment information."
+}

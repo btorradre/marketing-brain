@@ -1,0 +1,24 @@
+description: Harness self-test. Loads brand context, calls one dr-os tool, writes report.md. Costs cents.
+stages: [delivery]
+inputs: {}
+allowed_tools:
+  - Read
+  - Write
+  - Glob
+  - mcp__dr-os__dr_status
+  - mcp__dr-os__dr_load_brand
+disallowed_tools:
+  - Bash
+flags:
+  generate: false
+flag_tools:
+  generate:
+    - mcp__ad-engine__kie_generate
+budget:
+  max_turns: 8
+  max_budget_usd: 1
+  wall_clock_min: 5
+stop:
+  file: report.md
+model: sonnet
+effort: low

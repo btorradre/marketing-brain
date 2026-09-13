@@ -1,0 +1,1314 @@
+{
+  "fetched_at_utc": "2026-09-13T16:46:11.282487+00:00",
+  "api_version": "v23.0",
+  "request": {
+    "path": "6998265963075/insights",
+    "params": {
+      "fields": "campaign_id,campaign_name,adset_id,adset_name,ad_id,ad_name,date_start,date_stop,spend,impressions,reach,frequency,clicks,inline_link_clicks,outbound_clicks,unique_outbound_clicks,actions,action_values,cpm,ctr,cpc",
+      "level": "ad",
+      "time_range": "{\"since\": \"2026-09-07\", \"until\": \"2026-09-13\"}",
+      "use_unified_attribution_setting": "true",
+      "limit": 100
+    }
+  },
+  "status": 200,
+  "response": {
+    "data": [
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998265963275",
+        "adset_name": "european travel",
+        "ad_id": "6998265962875",
+        "ad_name": "1",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "7.84",
+        "impressions": "76",
+        "reach": "73",
+        "frequency": "1.041096",
+        "clicks": "2",
+        "inline_link_clicks": "2",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "2"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "2"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "2"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "1"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "1"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "33"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "33"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "2"
+          },
+          {
+            "action_type": "video_view",
+            "value": "31"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "2"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "319.98"
+          }
+        ],
+        "cpm": "103.157895",
+        "ctr": "2.631579",
+        "cpc": "3.92"
+      },
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998266184275",
+        "adset_name": "chic travel bag",
+        "ad_id": "6998266184475",
+        "ad_name": "1",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "45.18",
+        "impressions": "313",
+        "reach": "279",
+        "frequency": "1.121864",
+        "clicks": "19",
+        "inline_link_clicks": "14",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "14"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "13"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "14"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "3"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "16"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "9"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "9"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "145"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "5"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "145"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "16"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_net",
+            "value": "5"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "16"
+          },
+          {
+            "action_type": "view_content",
+            "value": "16"
+          },
+          {
+            "action_type": "onsite_conversion.post_save",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_save",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "3"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "16"
+          },
+          {
+            "action_type": "offsite_add_to_cart_add_20_s_calls",
+            "value": "1"
+          },
+          {
+            "action_type": "video_view",
+            "value": "126"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "16"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "16"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "2429.84"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "2429.84"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "view_content",
+            "value": "2429.84"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "2429.84"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "2429.84"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "159.99"
+          }
+        ],
+        "cpm": "144.345048",
+        "ctr": "6.070288",
+        "cpc": "2.377895"
+      },
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998265963275",
+        "adset_name": "european travel",
+        "ad_id": "6998266276075",
+        "ad_name": "2",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "3.16",
+        "impressions": "25",
+        "reach": "25",
+        "frequency": "1",
+        "clicks": "2",
+        "inline_link_clicks": "2",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "2"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "2"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "2"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "2"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "2"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "2"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "17"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "2"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "17"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "post_interaction_net",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "2"
+          },
+          {
+            "action_type": "video_view",
+            "value": "13"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "2"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "319.98"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "319.98"
+          }
+        ],
+        "cpm": "126.4",
+        "ctr": "8",
+        "cpc": "1.58"
+      },
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998266319075",
+        "adset_name": "old money",
+        "ad_id": "6998266319275",
+        "ad_name": "1",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "16.07",
+        "impressions": "143",
+        "reach": "134",
+        "frequency": "1.067164",
+        "clicks": "14",
+        "inline_link_clicks": "10",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "10"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "10"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "10"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "17"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "11"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "11"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "80"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "80"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "17"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "17"
+          },
+          {
+            "action_type": "view_content",
+            "value": "17"
+          },
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "17"
+          },
+          {
+            "action_type": "offsite_add_to_cart_add_20_s_calls",
+            "value": "2"
+          },
+          {
+            "action_type": "video_view",
+            "value": "70"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "17"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "17"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "179.98"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "179.98"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "2558.16"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "179.98"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "2558.16"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "179.98"
+          },
+          {
+            "action_type": "view_content",
+            "value": "2558.16"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "2558.16"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "2558.16"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "179.98"
+          }
+        ],
+        "cpm": "112.377622",
+        "ctr": "9.79021",
+        "cpc": "1.147857"
+      },
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998266319075",
+        "adset_name": "old money",
+        "ad_id": "6998266607475",
+        "ad_name": "2",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "22.71",
+        "impressions": "241",
+        "reach": "220",
+        "frequency": "1.095455",
+        "clicks": "15",
+        "inline_link_clicks": "14",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "14"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "11"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "14"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "3"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "13"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "11"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "11"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "97"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "4"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "97"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "13"
+          },
+          {
+            "action_type": "post_interaction_net",
+            "value": "4"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "13"
+          },
+          {
+            "action_type": "view_content",
+            "value": "13"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_comment",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "3"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "13"
+          },
+          {
+            "action_type": "video_view",
+            "value": "79"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "13"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "13"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "2044.87"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "2044.87"
+          },
+          {
+            "action_type": "view_content",
+            "value": "2044.87"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "2044.87"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "2044.87"
+          }
+        ],
+        "cpm": "94.232365",
+        "ctr": "6.224066",
+        "cpc": "1.514"
+      },
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998266319075",
+        "adset_name": "old money",
+        "ad_id": "6998266618075",
+        "ad_name": "3",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "6.55",
+        "impressions": "89",
+        "reach": "84",
+        "frequency": "1.059524",
+        "clicks": "3",
+        "inline_link_clicks": "3",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "3"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "3"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "3"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "4"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "2"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "2"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "31"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "31"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "4"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "4"
+          },
+          {
+            "action_type": "view_content",
+            "value": "4"
+          },
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "4"
+          },
+          {
+            "action_type": "offsite_add_to_cart_add_20_s_calls",
+            "value": "1"
+          },
+          {
+            "action_type": "video_view",
+            "value": "28"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "4"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "4"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "636.63"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "636.63"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "view_content",
+            "value": "636.63"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "636.63"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "636.63"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "159.99"
+          }
+        ],
+        "cpm": "73.595506",
+        "ctr": "3.370787",
+        "cpc": "2.183333"
+      },
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998289487675",
+        "adset_name": "haaland",
+        "ad_id": "6998289500675",
+        "ad_name": "VEL-WEEKENDER-HAALAND-01-C1-gringo-A",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "10.41",
+        "impressions": "104",
+        "reach": "99",
+        "frequency": "1.050505",
+        "clicks": "8",
+        "inline_link_clicks": "8",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "8"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "8"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "8"
+          },
+          {
+            "action_type": "initiate_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_initiate_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_initiate_checkout_add_20_s_calls",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "14"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "8"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "8"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "70"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "70"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "14"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "14"
+          },
+          {
+            "action_type": "view_content",
+            "value": "14"
+          },
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_web_initiate_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "omni_initiated_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "2"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "14"
+          },
+          {
+            "action_type": "offsite_add_to_cart_add_20_s_calls",
+            "value": "2"
+          },
+          {
+            "action_type": "video_view",
+            "value": "62"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "14"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "14"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "319.98"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "319.98"
+          },
+          {
+            "action_type": "omni_initiated_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "2194.86"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "319.98"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "2194.86"
+          },
+          {
+            "action_type": "onsite_web_initiate_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "319.98"
+          },
+          {
+            "action_type": "view_content",
+            "value": "2194.86"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_initiate_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "2194.86"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "2194.86"
+          },
+          {
+            "action_type": "initiate_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "319.98"
+          }
+        ],
+        "cpm": "100.096154",
+        "ctr": "7.692308",
+        "cpc": "1.30125"
+      },
+      {
+        "campaign_id": "6998265963075",
+        "campaign_name": "weekender",
+        "adset_id": "6998289487675",
+        "adset_name": "haaland",
+        "ad_id": "6998289501275",
+        "ad_name": "Weekender-Haaland-Gringo-Natural-AvatarV-110-NoGaps",
+        "date_start": "2026-09-07",
+        "date_stop": "2026-09-13",
+        "spend": "7.88",
+        "impressions": "105",
+        "reach": "89",
+        "frequency": "1.179775",
+        "clicks": "6",
+        "inline_link_clicks": "5",
+        "outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "5"
+          }
+        ],
+        "unique_outbound_clicks": [
+          {
+            "action_type": "outbound_click",
+            "value": "5"
+          }
+        ],
+        "actions": [
+          {
+            "action_type": "web_in_store_purchase",
+            "value": "1"
+          },
+          {
+            "action_type": "omni_purchase",
+            "value": "1"
+          },
+          {
+            "action_type": "link_click",
+            "value": "5"
+          },
+          {
+            "action_type": "initiate_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_purchase_add_20_s_calls",
+            "value": "1"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_purchase",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_initiate_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_initiate_checkout_add_20_s_calls",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_content_view_add_20_s_calls",
+            "value": "6"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "5"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "5"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "60"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_web_app_purchase",
+            "value": "1"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "60"
+          },
+          {
+            "action_type": "purchase",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "6"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_net",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "6"
+          },
+          {
+            "action_type": "view_content",
+            "value": "6"
+          },
+          {
+            "action_type": "web_app_in_store_purchase",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_web_initiate_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "omni_initiated_checkout",
+            "value": "1"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_content_view_add_meta_leads",
+            "value": "6"
+          },
+          {
+            "action_type": "onsite_web_purchase",
+            "value": "1"
+          },
+          {
+            "action_type": "offsite_add_to_cart_add_20_s_calls",
+            "value": "1"
+          },
+          {
+            "action_type": "video_view",
+            "value": "54"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "6"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "6"
+          }
+        ],
+        "action_values": [
+          {
+            "action_type": "onsite_web_app_purchase",
+            "value": "159.99"
+          },
+          {
+            "action_type": "onsite_web_app_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "onsite_web_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "omni_initiated_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_view_content",
+            "value": "959.94"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "omni_view_content",
+            "value": "959.94"
+          },
+          {
+            "action_type": "onsite_web_initiate_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "onsite_web_purchase",
+            "value": "159.99"
+          },
+          {
+            "action_type": "add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "purchase",
+            "value": "159.99"
+          },
+          {
+            "action_type": "view_content",
+            "value": "959.94"
+          },
+          {
+            "action_type": "web_app_in_store_purchase",
+            "value": "0.02"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_initiate_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "onsite_web_view_content",
+            "value": "959.94"
+          },
+          {
+            "action_type": "onsite_web_app_view_content",
+            "value": "959.94"
+          },
+          {
+            "action_type": "offsite_conversion.fb_pixel_purchase",
+            "value": "159.99"
+          },
+          {
+            "action_type": "initiate_checkout",
+            "value": "159.99"
+          },
+          {
+            "action_type": "omni_add_to_cart",
+            "value": "159.99"
+          },
+          {
+            "action_type": "omni_purchase",
+            "value": "159.99"
+          },
+          {
+            "action_type": "web_in_store_purchase",
+            "value": "159.99"
+          }
+        ],
+        "cpm": "75.047619",
+        "ctr": "5.714286",
+        "cpc": "1.313333"
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "MAZDZD",
+        "after": "NwZDZD"
+      },
+      "has_next": false
+    }
+  }
+}

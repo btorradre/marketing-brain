@@ -1,0 +1,338 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A suede body under a full leather collar, with rolled leather handles and leather at all four corners. Open at the top, 18.5 inches across, and soft on purpose.</p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p><strong>One size, 18.5&quot; W x 18.5&quot; H x 8&quot; D.</strong></p><p>The handle drop is short. It carries in the hand or over the forearm, not on the shoulder.</p><p><strong>Construction:</strong> suede body, smooth leather collar wrapping the full top edge front and back, two rolled leather top handles, leather caps on all four base corners, antique brass fittings, and tonal saddle stitching along every leather edge. The top is open, with no closure.</p>"
+          }
+        },
+        "tab_delivery": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery",
+            "content": "<p>Free shipping on all orders over $75. Orders under $75 ship at a flat $4.99. Once your order is placed it ships and arrives within 7 to 10 business days.</p><p>Made in limited runs. When a color sells out it can be 4 to 8 weeks before it returns.</p><p>Returns and exchanges within 30 days of delivery, on unused items in original packaging with tags attached.</p>"
+          }
+        },
+        "tab_care": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "<p><strong>Body:</strong> suede.<br/><strong>Collar, handles and corners:</strong> smooth leather.<br/><strong>Hardware:</strong> antique brass.</p><p>Brush the suede with a soft dry brush, following the nap. Wipe the leather with a clean dry cloth and condition it occasionally. Keep both out of prolonged moisture and direct sun. Store it stuffed so the collar keeps its line.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "tab_details",
+        "tab_delivery",
+        "tab_care",
+        "reviews",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Straw Tote",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag \u2014 all designed to match.</p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "video_text": {
+      "type": "pdp-video-text",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "SEE IT IN MOTION",
+        "headline": "Woven Entirely by Hand",
+        "body": "<p>Watch how the Straw Tote moves through the day. The hand-woven seagrass holds a structured shape whether the bag is full or empty. The leather handles sit easily in the hand or over the arm. It's the kind of piece that draws a second look \u2014 and a question about where you found it.</p><p>A classic shape, reimagined in natural straw. Refined enough for evening, easy enough for every day.</p>",
+        "cta_label": "Shop the Straw Tote",
+        "cta_url": "/collections/handbags/products/sofia-woven-tote",
+        "media_position": "left",
+        "video_url": "",
+        "autoplay": true,
+        "show_controls": false,
+        "show_play_overlay": true,
+        "bg_color": "#ffffff"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we\u2019ll repair or replace it.</p>",
+        "link_url": "/pages/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "MATERIAL",
+            "headline": "Suede body, leather collar",
+            "body": "<p>A full suede body under a smooth leather collar that wraps the entire top edge. Two materials, and you can feel both.</p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "Antique brass, saddle stitching",
+            "body": "<p>Brass fittings at the collar, the sides and all four corners. Tonal saddle stitching along every leather edge.</p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "EXCLUSIVE",
+            "headline": "Made in limited runs",
+            "body": "<p>Produced in small quantities. When a color sells out it can be weeks before it returns.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE OPENING",
+            "headline": "Open at the top",
+            "body": "<p>No zip, no clasp, nothing to fight with one arm full. Drop it in and go.</p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE COLLAR",
+            "headline": "Leather across the full width",
+            "body": "<p>The collar wraps the top edge front and back, so the part that takes the most handling is the part built to take it.</p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE HANDLES",
+            "headline": "Rolled, not folded",
+            "body": "<p>Each handle is rolled into a tube and set through the collar. It holds its round in the hand.</p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE BASE",
+            "headline": "Leather at all four corners",
+            "body": "<p>Capped and studded at every point that touches the ground.</p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image": "",
+            "image_position": "left",
+            "eyebrow": "WHAT YOU ARE PAYING FOR",
+            "headline": "The suede, not the logo",
+            "body": "<p>The same suede and the same leather work as bags at several times the price. There is no name stamped across the front of this one, and no markup attached to that name. You are paying for the hide and the stitching.</p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered.",
+            "body": "<p>A two-year warranty on materials and construction, from the day it arrives. If stitching comes undone, a handle separates or a fitting gives out in normal use, we replace it free.</p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "video_text",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "editorial",
+    "recently_viewed"
+  ]
+}

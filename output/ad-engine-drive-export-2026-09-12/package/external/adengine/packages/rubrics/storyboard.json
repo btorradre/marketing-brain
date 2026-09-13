@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "storyboard",
+  "version": "0.1.0",
+  "calibration_status": "provisional",
+  "artifact_kind": "storyboard",
+  "pass_threshold": 90,
+  "scale": {
+    "min": 0,
+    "max": 4,
+    "meaning": "0 absent/unacceptable; 1 major failures; 2 meaningful revision; 3 acceptable; 4 exemplary"
+  },
+  "criteria": [
+    {
+      "id": "script_coverage",
+      "weight": 20,
+      "minimum_score": 3,
+      "required_evidence": [
+        "artifact"
+      ],
+      "description": "Map every spoken line, pause and CTA to an identified shot with duration and intended audio.",
+      "critical_failure_conditions": [
+        "Omitting or changing an approved claim or mandatory disclosure."
+      ],
+      "anchors": {
+        "0": "Missing script sections.",
+        "1": "Several unassigned lines or contradictory timing.",
+        "2": "Complete coverage but ambiguous timings.",
+        "3": "Every line maps to a shot; totals and durations agree.",
+        "4": "Shot-by-shot traceability with deliberate pacing and workable speaking duration."
+      }
+    },
+    {
+      "id": "broll_relevance",
+      "weight": 25,
+      "minimum_score": 3,
+      "required_evidence": [
+        "artifact",
+        "product_truth"
+      ],
+      "description": "Each B-roll shot demonstrates the nearby spoken claim or clearly serves a stated narrative purpose.",
+      "critical_failure_conditions": [
+        "Wrong product/variant or shot falsely implying a product capability."
+      ],
+      "anchors": {
+        "0": "Misleading or unrelated coverage.",
+        "1": "Frequent decorative substitutions.",
+        "2": "Mostly relevant; one or more weak matches.",
+        "3": "Every B-roll shot has a precise line/claim mapping and correct product.",
+        "4": "Literal demonstration and purposeful context support comprehension without redundant filler."
+      }
+    },
+    {
+      "id": "product_continuity",
+      "weight": 20,
+      "minimum_score": 3,
+      "required_evidence": [
+        "artifact",
+        "product_truth"
+      ],
+      "description": "Specify reference assets and preserve shape, scale, hardware, color, material and garment/scene continuity.",
+      "critical_failure_conditions": [
+        "Wrong product identity or invented feature/demo."
+      ],
+      "anchors": {
+        "0": "Wrong identity or impossible use.",
+        "1": "Multiple continuity conflicts.",
+        "2": "Recognizable product with unspecified important details.",
+        "3": "Correct product references and continuity for all shots.",
+        "4": "Specific continuity constraints cover every angle, interaction and transition."
+      }
+    },
+    {
+      "id": "edit_spec",
+      "weight": 20,
+      "minimum_score": 3,
+      "required_evidence": [
+        "artifact"
+      ],
+      "description": "Specify in/out times or frames, shot IDs, source ranges, narration spans, transition purpose and caption plan.",
+      "critical_failure_conditions": [],
+      "anchors": {
+        "0": "Editor cannot assemble it.",
+        "1": "Many missing timing/source decisions.",
+        "2": "Feasible but cut intent or narration spans ambiguous.",
+        "3": "Executable timing and source instructions; transitions serve the message.",
+        "4": "Unambiguous cut map including handles, voice continuity and key proof moments."
+      }
+    },
+    {
+      "id": "production_feasibility",
+      "weight": 15,
+      "minimum_score": 3,
+      "required_evidence": [
+        "artifact"
+      ],
+      "description": "Distinguish existing, generated and missing assets; count unique assets and generated scenes consistently.",
+      "critical_failure_conditions": [
+        "Representing missing or failed media as ready."
+      ],
+      "anchors": {
+        "0": "Assets/counts unusable.",
+        "1": "Major unexplained sourcing or generation gaps.",
+        "2": "Feasible with unresolved counts or dependencies.",
+        "3": "Asset ledger and shot table agree; missing assets are explicit.",
+        "4": "Reusable assets, constraints and dependencies are clear enough to produce without interpretation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# docker compose -f docker/docker-compose.yml up --build
+# Three services share one /data volume and one env file (docker/adengine.env).
+services:
+  dr:
+    build: { context: .., dockerfile: docker/Dockerfile }
+    image: adengine-engine:local
+    command: ["python", "-m", "adengine.dr", "--http", "8770"]
+    env_file: [adengine.env]
+    ports: ["8770:8770"]
+    volumes: ["adengine-data:/data"]
+    restart: unless-stopped
+
+  gen:
+    image: adengine-engine:local
+    depends_on: [dr]
+    command: ["python", "-m", "adengine.gen", "--http", "8771"]
+    env_file: [adengine.env]
+    ports: ["8771:8771"]
+    volumes: ["adengine-data:/data"]
+    restart: unless-stopped
+
+  workers:
+    image: adengine-engine:local
+    depends_on: [dr]
+    command: ["python", "-m", "adengine.workers"]
+    env_file: [adengine.env]
+    volumes: ["adengine-data:/data"]
+    restart: unless-stopped
+
+volumes:
+  adengine-data:

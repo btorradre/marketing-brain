@@ -1,0 +1,73 @@
+{
+  "shot": "S31",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "She steadies the black tote handle and gently closes her other hand around the existing key ring without lifting it from the table; preserve the black electronic key fob and every metal key throughout, with a locked camera and only natural finger motion. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S31-v2.png",
+  "reference_sha256": "913ba1bb173994b77c04af09047a87a7ba12def7cc4f25515e3037639cbf98d8",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdTcldnYXFDd0VJcWw2ZGtQc2F5MHVRRRIXU3JXZ2FxQ3dFSXFsNmRrUHNheTB1UUU",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/revisions/S31.mp4",
+  "sha256": "c58947f64a2743fae00c941f0ac8919709dfe52b184d332c03a0b445cff0a1dd",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 59866,
+    "total_input_tokens": 1179,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 79
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58454,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 233,
+    "raw_prompt_token": 31424,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1872
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 540
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 233
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

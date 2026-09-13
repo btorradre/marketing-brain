@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "BOAT TOTE"
+      }
+    },
+    "detailfilm": {
+      "type": "detail-film",
+      "disabled": true,
+      "settings": {
+        "description": "A detail film of the Boat Tote",
+        "vertical_position": 65
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "THE RHYTHM OF MAKING",
+        "text": "<p>A closer look at the Boat Tote.</p>"
+      }
+    },
+    "value": {
+      "type": "value-breakdown",
+      "disabled": true,
+      "settings": {
+        "default_asset": "",
+        "image_description": "The Boat Tote",
+        "image_fit": "contain",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "table_caption": "The Boat Tote: visible design details",
+        "product_heading": "The Boat Tote",
+        "detail_heading": "Detail",
+        "purpose_heading": "The purpose"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "detailfilm",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

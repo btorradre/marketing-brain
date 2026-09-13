@@ -1,0 +1,11 @@
+<a href="/account" style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase;">&larr; Account</a>
+<h1 class="lt-min-title" style="margin-top:14px;">Order {{ order.name }}</h1>
+<div style="font-size: 13px; color: var(--lt-muted); margin-bottom:24px;">Placed on {{ order.created_at | date: "%B %e, %Y" }} &middot; {{ order.financial_status_label }}</div>
+<table style="width:100%; border-collapse: collapse;">
+  {% for line in order.line_items %}
+    <tr><td style="padding: 14px 0; border-bottom: 1px solid var(--lt-line);">
+      <strong>{{ line.title }}</strong> &times; {{ line.quantity }}
+    </td><td style="text-align:right; border-bottom: 1px solid var(--lt-line);">{{ line.final_line_price | money }}</td></tr>
+  {% endfor %}
+  <tr><td style="padding: 14px 0;"><strong>Total</strong></td><td style="text-align:right;"><strong>{{ order.total_price | money }}</strong></td></tr>
+</table>

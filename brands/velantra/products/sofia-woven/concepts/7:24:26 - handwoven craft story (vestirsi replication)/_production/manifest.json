@@ -1,0 +1,124 @@
+{
+  "concept": "VEL-STRAW-WOVEN-CRAFT-01",
+  "reference_ad": "Vestirsi Woven Collection (TrendTrack vestirsi-Sdk1ue), 20.9s, 720x1280",
+  "angle": "The bags you'll carry the longest are made the slowest. Every strand placed by hand.",
+  "pipeline": "gpt-image-2-image-to-image (keyframes) -> kling-3.0/video (i2v, 6s) -> ElevenLabs single-track VO -> stitch",
+  "aspect_ratio": "9:16",
+  "image_resolution": "1K",
+  "kling_mode": "std",
+  "clip_duration": 6,
+
+  "refs": {
+    "caramel": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/straw-birkin/product-images/straw birkin/caramel 1.png"
+  },
+
+  "material_lock": "The straw material in this image is the exact same straw as the reference image: warm sandy caramel natural seagrass straw fiber, fine tightly twisted strands, matte with a faint natural sheen, slightly irregular the way real plant fiber is, never plastic, never shiny, never dyed. IMPORTANT: the finished handbag from the reference image does NOT appear anywhere in this scene. Do not draw a bag, a tote, a handle, a leather flap, crossed belt straps or any finished product. Only the raw materials and the workshop parts described above are in frame.",
+
+  "product_lock": "The bag is the exact Velantra Straw Tote from the first product reference image and every color matches that first reference image exactly: a structured hand woven straw tote in warm sandy caramel, tightly woven straw body with braided cross stitch trim along the edges, a smooth taupe leather flap folded over the top of the bag from the back: the flap is ONE single seamless piece of leather, its front lower edge cut into the silhouette of a wide center panel with 2 squared outer tabs, the leather fully continuous and unbroken between and above these shapes, with exactly 2 narrow slots through which the handles pass, two rolled taupe leather top handles, two taupe leather belt straps crossed on the front, white contrast stitching on all leather edges, no metal hardware, no logos. The leather flap, tabs and belt straps exist ONLY on the FRONT face of the bag, the back face is plain woven straw, no duplicated front detailing on any other face. The bag has ONLY the two rolled top handles, it has no shoulder strap and no crossbody strap of any kind, never add one. Keep the bag identical to the reference image, no added logos, no added hardware, no added straps.",
+
+  "flap_closed_pin": "Flap construction: the taupe leather flap is ONE single seamless sheet of leather attached along the top rear edge of the tote and folded all the way forward over the front, lying completely flat and fully closed. Its front lower edge is cut into the shape of a wide center panel and 2 squared outer tabs, but these are shapes cut into the SAME single sheet, never separate pieces. The leather is continuous and unbroken between the shapes and across the entire top of the bag, including between the two handle slots. The only openings anywhere in the flap are the 2 narrow handle slots. No gap, no seam, no split and no opening exists anywhere else in the flap, and nothing inside the bag is ever visible through the flap. The flap never splits into pieces, never lifts, never stands up, always folded all the way over. The 2 taupe leather belt straps lie crossed in an X over the front below the flap with rounded ends and white contrast stitching, exactly as on the closed reference bag. No metal hardware anywhere on the bag.",
+
+  "kling_flap_pin": "The leather flap stays ONE single seamless sheet folded all the way over, lying completely flat the entire clip: no gap, seam, or split ever opens anywhere in it, nothing behind it ever shows through it, and its cut edge shapes never separate into pieces. No shoulder strap ever appears on the bag. The bag holds its structured shape throughout and never sags, folds or deforms.",
+
+  "style_line": "Documentary macro photograph inside a quiet craft workshop, pale cream plaster wall behind, a worn pale wood worktable, soft diffused daylight falling from the left of frame, warm neutral slightly desaturated color, shallow depth of field, natural film grain, true to life color, vertical 9:16 framing. No faces, no heads, no shoulders, no eyes: only hands and forearms in a plain cream linen rolled sleeve are ever visible. No windows, no signage. Absolutely no text, captions, watermarks or logos anywhere in the image.",
+
+  "motion_footer": "The camera is locked off on a tripod and does not move at all, no pan, no tilt, no zoom, no push in. All motion in the frame comes from the hands. No faces, heads or shoulders ever enter the frame. Ambient workshop room tone, no cuts, no transitions, one continuous shot.",
+
+  "imperfections": "Subtle natural lens breathing, faint film grain, ambient light shifting very gently across the scene, tiny natural tremor in the working hands. No text or captions on screen.",
+
+  "script": [
+    {"line": 1, "vo": "The bags you'll carry the longest are made the slowest.", "clips": ["A", "B"]},
+    {"line": 2, "vo": "Straw has to be worked by hand while it's still damp, or it splits.", "clips": ["C", "D"]},
+    {"line": 3, "vo": "So every strand is placed one at a time, before the bag is ever assembled.", "clips": ["E", "F", "G"]},
+    {"line": 4, "vo": "Hours of work, in hands that have done it a thousand times.", "clips": ["H", "I"]},
+    {"line": 5, "vo": "It's a slower way to make a bag, but it's exactly why it holds its shape.", "clips": ["J", "K", "L"]},
+    {"line": 6, "vo": "The Straw Tote by Velantra. Discover yours.", "clips": ["M", "N"]}
+  ],
+
+  "shots": [
+    {
+      "id": "A", "cuts": "1", "time": "0.0-1.3", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cut 1 - mallet tapping the woven leather panel flat",
+      "keyframe_prompt": "Extreme macro. Two hands hold a flat wooden beater over a rectangular hand woven straw panel lying on the pale wood worktable. One hand grips the beater handle, the other rests flat and open on the panel holding it still. The panel is dense caramel straw weave, its edges still raw and unfinished with loose strand ends fanning out. The panel fills the lower two thirds of frame.",
+      "motion_prompt": "The wooden beater taps down onto the straw panel twice with a small firm motion. The flat open hand stays pressed on the panel and does not move. The panel settles very slightly flatter with each tap."
+    },
+    {
+      "id": "B", "cuts": "2", "time": "1.3-2.6", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cut 2 - industrial machine stitching the woven panel edge",
+      "keyframe_prompt": "Extreme macro of an industrial sewing machine needle and presser foot. The top edge of a caramel straw woven panel is being joined to a piece of smooth taupe leather, a line of white contrast stitching already laid down behind the needle along the seam where the two materials meet. Two hands guide the work from the right of frame, fingertips close to the presser foot. The straw weave fills the lower left of frame, the taupe leather the upper right.",
+      "motion_prompt": "The needle rises and falls quickly. The straw panel and the taupe leather feed steadily to the left under the presser foot and a line of white stitching grows behind the needle along the seam between them. The two hands make small steady guiding corrections."
+    },
+    {
+      "id": "C", "cuts": "3", "time": "2.6-3.9", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cut 3 - artisan lifting the steel cutting die over the hide",
+      "keyframe_prompt": "Mid macro. Two hands lift a thick loose hank of raw natural straw fiber and lower it onto the pale wood worktable. The strands are long, fine and unruly, spilling over the hands and hanging down. Cream linen sleeves rolled to the forearm. The hank fills the center of frame, the pale plaster wall soft and out of focus behind.",
+      "motion_prompt": "The hands lower the hank of raw straw down onto the worktable. The loose strands fan out and settle. One hand releases and the fibers spread slightly across the wood."
+    },
+    {
+      "id": "D", "cuts": "4,5", "time": "3.9-6.5", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cuts 4 and 5 - hands pressing the panel, the clicker press",
+      "keyframe_prompt": "Extreme macro of two hands drawing a bundle of straw strands through a folded damp grey cloth. The strands emerging on the near side of the cloth are visibly darker and carry a wet sheen. A shallow tray of water sits soft and out of focus at the top of frame. The fingers pinch the strands firmly.",
+      "motion_prompt": "The hands draw the bundle of straw strands slowly through the damp cloth toward the camera. The strands darken and take on a wet sheen as they emerge. The second hand smooths them straight as they clear the cloth."
+    },
+    {
+      "id": "E", "cuts": "6,7", "time": "6.5-8.6", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cuts 6 and 7 - panel settled onto the weaving board",
+      "keyframe_prompt": "Low angle across the worktable. A part woven caramel straw panel rests on a flat wooden weaving frame with a row of fine metal pins running along one edge. Roughly two thirds of the panel is tightly woven, the remaining third is loose parallel strands waiting to be worked. Two hands settle the panel down onto the frame.",
+      "motion_prompt": "The hands settle the part woven panel down flat onto the wooden frame. One hand then lifts the unfinished edge slightly so the loose strand ends fan apart, and lowers it again."
+    },
+    {
+      "id": "F", "cuts": "8", "time": "8.6-9.9", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cut 8 - HERO top down weaving shot",
+      "keyframe_prompt": "Directly top down over the wooden weaving frame, filling the frame edge to edge. A grid of caramel straw warp strands runs vertically. A single straw strand is being threaded horizontally across them, passing over one strand and under the next in a clear visible over under rhythm. Two fingers pinch the working strand mid weave. The half of the panel behind the working row is already tight and finished, the half in front is open warp.",
+      "motion_prompt": "The fingers push the single working strand across the warp from left to right, weaving over one strand and under the next in a clear steady rhythm. The second hand holds the finished weave flat below. The strand advances about a third of the way across the panel."
+    },
+    {
+      "id": "G", "cuts": "9", "time": "9.9-11.2", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cut 9 - top down, weave nearly complete",
+      "keyframe_prompt": "Directly top down, tighter than a full panel view. The caramel straw weave is now dense, complete and perfectly even across the whole frame, the pattern tight with no gaps. One open hand rests flat on the surface, palm down, smoothing it.",
+      "motion_prompt": "The open hand sweeps slowly across the finished straw weave from left to right, pressing it flat. The weave stays perfectly even and does not shift or distort."
+    },
+    {
+      "id": "H", "cuts": "10", "time": "11.2-13.2", "dur": 6, "subject": "material", "refs": ["caramel"],
+      "ref_beat": "ref cut 10 - cylinder arm machine, ringed hands",
+      "keyframe_prompt": "Extreme macro of the braided cross stitch trim being worked by hand along the raw edge of a caramel straw panel. A large blunt needle carrying a single straw strand is mid stitch, pulled through the edge of the panel. The finished braided cross stitch runs away behind it, the unfinished raw edge ahead of it. Two hands, one pulling the needle, one holding the panel steady.",
+      "motion_prompt": "The hand pulls the needle and its straw strand fully through the edge of the panel and draws it tight, then sets the needle for the next stitch. The braided trim gains one more cross stitch."
+    },
+    {
+      "id": "I", "cuts": "11", "time": "13.2-15.2", "dur": 6, "subject": "leather", "refs": ["caramel"],
+      "ref_beat": "ref cut 11 - second machine, weathered hands",
+      "keyframe_prompt": "Extreme macro of a cylinder arm sewing machine. A flat piece of smooth taupe leather runs under the needle with a line of white contrast stitching being laid along its edge. Two weathered hands guide the leather, one on each side of the presser foot. No straw anywhere in this frame, only the taupe leather and the machine.",
+      "motion_prompt": "The needle rises and falls. The taupe leather feeds steadily under the presser foot and a clean line of white stitching grows behind the needle. The hands make small steady corrections to keep the edge true."
+    },
+    {
+      "id": "J", "cuts": "12", "time": "15.2-16.5", "dur": 6, "subject": "leather", "refs": ["caramel"],
+      "ref_beat": "ref cut 12 - metal setting tool on the strap keeper",
+      "keyframe_prompt": "Macro of two hands working the edge of a rolled taupe leather handle with a small wooden burnishing tool. The handle is held taut between the hands above the pale wood worktable. White contrast stitching runs along the handle. No straw in this frame.",
+      "motion_prompt": "One hand runs the wooden burnishing tool back and forth along the edge of the rolled leather handle in short firm strokes. The other hand holds the handle taut and completely still."
+    },
+    {
+      "id": "K", "cuts": "13", "time": "16.5-17.8", "dur": 6, "subject": "leather", "refs": ["caramel"],
+      "ref_beat": "ref cut 13 - machine stitching the rolled strap",
+      "keyframe_prompt": "Extreme macro of a sewing machine needle running along a rolled taupe leather handle, white contrast stitching laid down its length. Fingertips guide the handle from the right of frame. Shallow focus, the machine body soft and out of focus behind. No straw in this frame.",
+      "motion_prompt": "The rolled leather handle feeds steadily under the needle and white stitching runs down its length behind the presser foot. The fingertips guide it forward with small steady pressure."
+    },
+    {
+      "id": "L", "cuts": "14", "time": "17.8-18.5", "dur": 6, "subject": "product", "refs": ["caramel"],
+      "ref_beat": "ref cut 14 - macro of the finished bag",
+      "keyframe_prompt": "Macro of the finished Velantra Straw Tote standing upright on the pale wood worktable, shot close and slightly across the front face so the caramel straw weave fills most of the frame. The braided cross stitch trim runs along the visible edge and the two crossed taupe leather belt straps sit in the lower part of frame. No hands anywhere in this frame.",
+      "motion_prompt": "Nothing in the scene moves except the light, which shifts very slightly across the straw weave. The bag is completely still and does not rotate, tilt or deform. No hands enter the frame."
+    },
+    {
+      "id": "M", "cuts": "15,16", "time": "18.5-19.8", "dur": 6, "subject": "product", "refs": ["caramel"],
+      "ref_beat": "ref cuts 15 and 16 - tissue fold, then the lift",
+      "keyframe_prompt": "Two hands draw a sheet of soft cream tissue paper up around the finished Velantra Straw Tote, which stands fully upright and square on the pale wood worktable. CRITICAL: the tote stands vertically on its flat base holding its rigid structured box shape, exactly as in the reference image. It is never collapsed, never lying on its side, never folded, flattened, slumped or deflated. The tissue wraps only the lower half of the bag. The entire upper half stays fully visible above the tissue: the taupe leather flap lying flat, the two crossed belt straps and both rolled taupe leather top handles standing up. Cream linen sleeves rolled to the forearm.",
+      "motion_prompt": "The hands draw the cream tissue up around the lower half of the upright bag, then take hold of both rolled leather handles and lift the tote straight up clear of the tissue, the tissue falling away below. The bag stays rigid, upright and square the entire time."
+    },
+    {
+      "id": "N", "cuts": "17,18,19", "time": "19.8-21.6", "dur": 6, "subject": "product", "refs": ["caramel"],
+      "ref_beat": "ref cuts 17 to 19 - hero held up, lowered, at rest",
+      "keyframe_prompt": "The finished Velantra Straw Tote held up by both rolled taupe leather handles, filling the center of frame, against a plain cream linen apron and the soft pale plaster wall behind. Shot straight on to the front face so the leather flap, the crossed belt straps and the full caramel straw weave all read clearly. Framed from slightly below table height so the bag sits high in frame. Only the hands and forearms holding the handles are visible, no head, no shoulders, no face.",
+      "motion_prompt": "The hands lower the tote slowly and set it down onto the pale wood worktable. The bag settles and comes completely to rest. The hands then release the handles and withdraw out of frame, leaving the bag still and centered."
+    }
+  ]
+}

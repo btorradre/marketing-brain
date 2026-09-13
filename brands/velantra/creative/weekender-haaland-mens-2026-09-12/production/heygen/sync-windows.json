@@ -1,0 +1,71 @@
+[
+  {
+    "clip_name": "opening0s",
+    "phoneme_examples": [
+      {
+        "word": "Nobody",
+        "phoneme": "/b/",
+        "local_time": "00:00.33",
+        "observation": "A clear and firm lip closure for the /b/ sound is visible, timed precisely with the audio plosive. The lips close just before the sound and release cleanly into the following vowel."
+      },
+      {
+        "word": "does it like",
+        "phoneme": "/aɪ/",
+        "local_time": "00:01.40",
+        "observation": "The mouth shape for the 'i' in 'like' transitions correctly from an open vowel to the final consonant. The timing appears accurate."
+      }
+    ],
+    "obvious_sync_drift": false,
+    "artifact_severity": "low",
+    "acceptable_for_inset": true,
+    "limitations": "Analysis is based on a limited selection of phonemes. The 24fps frame rate limits millisecond-level precision."
+  },
+  {
+    "clip_name": "middle18s",
+    "phoneme_examples": [
+      {
+        "word": "jeans",
+        "phoneme": "/iː/",
+        "local_time": "00:00.67",
+        "observation": "The lip spread for the long 'ee' vowel in 'jeans' is natural and correctly timed with the audio."
+      },
+      {
+        "word": "sharper",
+        "phoneme": "/p/",
+        "local_time": "00:01.75",
+        "observation": "Excellent example of a bilabial plosive. The lips press together firmly and precisely for the /p/ sound, releasing with the audio. The sync is tight."
+      }
+    ],
+    "obvious_sync_drift": false,
+    "artifact_severity": "low",
+    "acceptable_for_inset": true,
+    "limitations": "Not all phonemes were checked. Analysis focuses on the clearest visual examples."
+  },
+  {
+    "clip_name": "end35s",
+    "phoneme_examples": [
+      {
+        "word": "weekend",
+        "phoneme": "/w/",
+        "local_time": "00:00.54",
+        "observation": "The characteristic lip rounding for the /w/ phoneme is well-formed and perfectly synchronized with the start of the word."
+      },
+      {
+        "word": "walk",
+        "phoneme": "/w/",
+        "local_time": "00:01.67",
+        "observation": "Similar to 'weekend', the lip pucker for the /w/ in 'walk' is distinct and accurately timed."
+      },
+      {
+        "word": "hotel too",
+        "phoneme": "/uː/",
+        "local_time": "00:02.50",
+        "observation": "The mouth forms a tight, rounded 'oo' shape for the word 'too', matching the sustained vowel sound in the audio very well."
+      }
+    ],
+    "obvious_sync_drift": false,
+    "artifact_severity": "low",
+    "acceptable_for_inset": true,
+    "limitations": "This clip lacks clear B/P/M phonemes, so analysis focused on other distinct visemes like /w/ and /u:/."
+  }
+]

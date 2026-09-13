@@ -1,0 +1,90 @@
+[chatcut-upload] using bundled ffmpeg 8.1
+[chatcut-upload] using bundled ffprobe 8.1
+[chatcut-upload] starting import for 1 file(s)
+[chatcut-upload] [1/1] probing S6-charleston-arrival.mp4
+[chatcut-upload] [1/1] registering asset placeholder for S6-charleston-arrival.mp4
+[chatcut-upload] waiting for endpoint response: registerAssetPlaceholderRequest
+[chatcut-upload] endpoint response received: registerAssetPlaceholderRequest
+[chatcut-upload] uploading chatcut-S6-charleston-arrival-thumbnail-11831-1.jpg
+[chatcut-upload] uploaded chatcut-S6-charleston-arrival-thumbnail-11831-1.jpg
+[chatcut-upload] [1/1] requesting transcription upload slot for S6-charleston-arrival.mp4
+[chatcut-upload] waiting for endpoint response: prepareTranscriptionAudioRequest
+[chatcut-upload] endpoint response received: prepareTranscriptionAudioRequest
+[chatcut-upload] [1/1] uploading/finalizing transcription audio for S6-charleston-arrival.mp4 before asset upload
+[chatcut-upload] uploading chatcut-S6-charleston-arrival-transcription-11831-1.ogg
+[chatcut-upload] uploaded chatcut-S6-charleston-arrival-transcription-11831-1.ogg
+[chatcut-upload] waiting for endpoint response: prepareTranscriptionAudioRequest
+[chatcut-upload] endpoint response received: prepareTranscriptionAudioRequest
+[chatcut-upload] uploading chatcut-S6-charleston-arrival-waveform-11831-1.u8
+[chatcut-upload] uploaded chatcut-S6-charleston-arrival-waveform-11831-1.u8
+[chatcut-upload] waiting for endpoint response: finalizeTranscriptionAudioRequest
+[chatcut-upload] endpoint response received: finalizeTranscriptionAudioRequest
+[chatcut-upload] [1/1] preparing S6-charleston-arrival.mp4
+[chatcut-upload] [1/1] requesting registered upload slots for S6-charleston-arrival.mp4
+[chatcut-upload] waiting for endpoint response: prepareRegisteredUploadRequest
+[chatcut-upload] endpoint response received: prepareRegisteredUploadRequest
+[chatcut-upload] [1/1] uploading asset bytes for S6-charleston-arrival.mp4
+[chatcut-upload] uploading S6-charleston-arrival.mp4
+[chatcut-upload] uploaded S6-charleston-arrival.mp4
+[chatcut-upload] uploading chatcut-S6-charleston-arrival-thumbnail-11831-1.jpg
+[chatcut-upload] uploaded chatcut-S6-charleston-arrival-thumbnail-11831-1.jpg
+[chatcut-upload] finalizing S6-charleston-arrival.mp4 with uploaded size 2544840 bytes
+[chatcut-upload] waiting for endpoint response: finalizeAssetUploadRequest
+[chatcut-upload] endpoint response received: finalizeAssetUploadRequest
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 1,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "S6-charleston-arrival.mp4",
+        "size": 2544840,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "S6-charleston-arrival.mp4",
+        "uploadPath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/omni/out/S6-charleston-arrival.mp4",
+        "durationInSeconds": 10.005,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": true,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 2,
+          "sampleRate": 48000,
+          "integratedLufs": -52.2
+        },
+        "sourceManifest": {
+          "audioChannels": 2,
+          "audioSampleRate": 48000,
+          "audioStartOffsetInSeconds": 0,
+          "audioStreamDurationInSeconds": 10.005,
+          "originalFilename": "S6-charleston-arrival.mp4",
+          "videoStreamDurationInSeconds": 10
+        }
+      },
+      "result": {
+        "assetId": "157b234d-9563-481f-afe2-51a5ebd4c4f7",
+        "assetType": "video",
+        "filename": "S6-charleston-arrival.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/157b234d-9563-481f-afe2-51a5ebd4c4f7/S6-charleston-arrival.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/157b234d-9563-481f-afe2-51a5ebd4c4f7/S6-charleston-arrival.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/157b234d-9563-481f-afe2-51a5ebd4c4f7/S6-charleston-arrival.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/157b234d-9563-481f-afe2-51a5ebd4c4f7/S6-charleston-arrival.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/omni/out/S6-charleston-arrival.mp4"
+    }
+  ]
+}

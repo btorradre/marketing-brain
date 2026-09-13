@@ -1,0 +1,41 @@
+{
+  "jsonrpc": "2.0",
+  "id": "favorite-folders",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Favorite ads folders\n\nShowing 0 of 0 returned row(s).\n\n_No favorite folders returned._\n\n---\n\nFilters: type=ads, mode=folders, scope=workspace, folder=all, page=1, limit=25\n\n---\nCredits used: 0 | Remaining: 7837"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "62cc1a6b-575e-4e90-b073-6af5b3fd10f3",
+      "type": "ads",
+      "mode": "folders",
+      "scope": "workspace",
+      "folder": null,
+      "data": [],
+      "pagination": {
+        "page": 1,
+        "limit": 25,
+        "total": 0,
+        "totalPages": 0
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 25,
+        "effectiveUnits": 25,
+        "actualUnits": 0,
+        "costUnits": 0,
+        "recurringUnits": 0,
+        "topupUnits": 0,
+        "creditsRemaining": 7837,
+        "creditsSourceHeader": null,
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

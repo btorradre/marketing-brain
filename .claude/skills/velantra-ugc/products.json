@@ -1,0 +1,204 @@
+{
+  "_comment": "velantra-ugc product registry. ENGINE = kie.ai Seedance 2.0 (2026-07-07): canonical_refs are the product identity (@Image2) — the runner uploads the chosen colorway ref on EVERY segment. ms_web_product_id / hf_upload_ids are LEGACY Higgsfield fields, kept for provenance; do not use.",
+  "products": {
+    "strato": {
+      "aliases": [
+        "straw tote",
+        "straw birkin",
+        "velantra straw tote"
+      ],
+      "title": "Velantra Straw Tote",
+      "folder": "brands/velantra/products/straw-birkin/",
+      "canonical_refs": [
+        "brands/velantra/products/straw-birkin/product-images/straw birkin/caramel 1.png",
+        "brands/velantra/products/straw-birkin/product-images/straw birkin/blue 1.png",
+        "brands/velantra/products/straw-birkin/product-images/straw birkin/straw tote 1.webp"
+      ],
+      "hf_upload_ids": [
+        "fb638404-3b4a-43a7-98ca-aada793f9df0",
+        "6d0e6100-ddfb-44c9-85f9-828d684de348",
+        "52f39190-b082-4dd0-8cda-621f89edc55e"
+      ],
+      "ms_web_product_id": "ad69c3db-54cd-4c5c-bc6a-f6f0f2ea54e4",
+      "pdp": "https://velantrafashion.com/products/the-sofia-woven-tote",
+      "variants": {
+        "caramel": "https://velantrafashion.com/products/the-sofia-woven-tote?variant=44268202065985",
+        "sky-blue": "https://velantrafashion.com/products/the-sofia-woven-tote?variant=44268202098753",
+        "caban-black": "https://velantrafashion.com/products/the-sofia-woven-tote?variant=44268202295361"
+      },
+      "context": "Structured hand woven straw tote with leather flap detailing in a structured top handle silhouette. The summer it bag answer to floppy, fragile, sold out straw bags.",
+      "claims_ok": [
+        "hand woven",
+        "structured, holds its shape",
+        "leather flap and handle detailing",
+        "fits a full day of stuff",
+        "summer seasonal colorways",
+        "limited quantities each season"
+      ],
+      "claims_banned": [
+        "ANY origin claim (Italian, French, European, American leather or craftsmanship)",
+        "the word Birkin spoken or on screen",
+        "Hermes comparisons"
+      ],
+      "winning_refs": {}
+    },
+    "boat-tote": {
+      "aliases": [
+        "boat tote"
+      ],
+      "title": "Velantra Boat Tote",
+      "folder": "brands/velantra/products/boat-tote/",
+      "canonical_refs": [
+        "brands/velantra/products/boat-tote/product-references/"
+      ],
+      "ms_web_product_id": null,
+      "pdp": null,
+      "context": "Canvas and leather two tone boat tote, 14+ colorways plus solid variants. Product scale skill: velantra-boat-tote.",
+      "claims_banned": [
+        "ANY origin claim"
+      ],
+      "winning_refs": {}
+    },
+    "bow-tote": {
+      "aliases": [
+        "bow tote"
+      ],
+      "title": "Velantra Bow Tote",
+      "folder": "brands/velantra/products/bow-tote/",
+      "canonical_refs": {
+        "denim": "brands/velantra/products/bow-tote/product-references/denim/denim-front.png",
+        "_others": "sand + pink refs pullable from PDP media (alt text carries #color_<name>)"
+      },
+      "pdp": "https://velantrafashion.com/products/velantra-bow-tote",
+      "variants": {
+        "sand": "https://velantrafashion.com/products/velantra-bow-tote?variant=44117386526785",
+        "denim": "https://velantrafashion.com/products/velantra-bow-tote?variant=44117386559553",
+        "pink": "https://velantrafashion.com/products/velantra-bow-tote?variant=44117386592321"
+      },
+      "context": "Structured ivory canvas MINI tote, hand tied ribbon bow threaded through gold grommets, flat canvas handles. NO leather, NO flap — never reuse straw-tote leather/flap/belt script lines. $79.99 (compare at $109.99).",
+      "claims_ok": [
+        "structured canvas, holds its shape",
+        "hand tied bow",
+        "real gold grommets",
+        "fits the essentials (sunglasses, phone, wallet)",
+        "summer colorways: sand, denim, pink"
+      ],
+      "claims_banned": [
+        "ANY origin claim",
+        "leather (the bag has none)",
+        "Birkin/Hermes"
+      ],
+      "winning_refs": {}
+    },
+    "meridian": {
+      "aliases": [
+        "meridian bag"
+      ],
+      "title": "Velantra Meridian",
+      "folder": "brands/velantra/products/meridian/",
+      "canonical_refs": [
+        "brands/velantra/products/meridian/product-references/"
+      ],
+      "ms_web_product_id": null,
+      "pdp": null,
+      "context": "Premium leather handbag, silver hardware. Product scale skill: velantra-meridian.",
+      "claims_banned": [
+        "ANY origin claim"
+      ],
+      "winning_refs": {}
+    },
+    "weekender": {
+      "aliases": [
+        "weekender",
+        "velantra weekender",
+        "travel bag"
+      ],
+      "title": "Velantra Weekender",
+      "folder": "brands/velantra/products/weekender/",
+      "canonical_refs": [
+        "brands/velantra/products/weekender/product-images/product images/light chocolate 1.webp",
+        "brands/velantra/products/weekender/product-images/product images/light chocolate 2.webp",
+        "brands/velantra/products/weekender/product-images/product images/light chocolate 3.webp"
+      ],
+      "pdp": "TODO — verify live handle via Shopify Admin API, likely https://velantrafashion.com/products/velantra-weekender",
+      "size_used_for_ugc": "medium",
+      "sizes": {
+        "medium": {
+          "dims": "16in W x 13in H x 6.5in D",
+          "fits": "an overnight trip or an oversized everyday carry, slides under an airline seat"
+        },
+        "medium_large": {
+          "dims": "18in W x 14.5in H x 7in D",
+          "fits": "two to three days of clothing, a toiletry kit, and a book"
+        },
+        "large": {
+          "dims": "20in W x 15.5in H x 8in D",
+          "fits": "three to four days, or two people packing light, still overhead-bin friendly"
+        }
+      },
+      "context": "Full-grain leather flap, rolled handles, and trim over tightly woven heavyweight canvas. Structured top-handle silhouette scaled for travel, with a working turn-lock, belted clasp straps, and reinforced leather corners. NO ZIPPER anywhere. Opens wide via the rigid frame, packs like a suitcase not a duffel. UGC generation uses the MEDIUM size (16in W x 13in H x 6.5in D, overnight trip / oversized everyday carry) — do not depict Medium-Large or Large capacity claims (two to three days of clothing) against this size.",
+      "claims_ok": [
+        "structured, holds its shape",
+        "real brass hardware, turn-lock and clasp straps",
+        "reinforced base and corners",
+        "fits an overnight trip or oversized everyday carry (medium size)",
+        "two colorways, three sizes",
+        "summer sale, colorways go fast"
+      ],
+      "claims_banned": [
+        "ANY origin claim (Italian, French, European, American leather or craftsmanship)",
+        "the word Birkin spoken or on screen",
+        "Hermes comparisons",
+        "zipper / unzip / zips (this bag has no zipper — turn-lock and belt straps only)",
+        "Medium-Large/Large capacity claims (two to three days of clothing) shown against the Medium size"
+      ],
+      "winning_refs": {}
+    },
+    "colette": {
+      "aliases": [
+        "colette",
+        "colette wool tote",
+        "the colette",
+        "cashmere tote",
+        "wool tote"
+      ],
+      "title": "The Colette Wool Tote",
+      "folder": "brands/velantra/products/cashmere-tote/",
+      "canonical_refs": [
+        "brands/velantra/products/cashmere-tote/product-references/colette-canonical-caramel-v3.png",
+        "brands/velantra/products/cashmere-tote/product-images/system-oat-greige/colette-v3-caramel-front.png",
+        "brands/velantra/products/cashmere-tote/product-images/system-oat-greige/colette-v3-espresso-front.png"
+      ],
+      "pdp": "https://velantrafashion.com/products/the-colette-wool-tote",
+      "variants": {
+        "caramel": "https://velantrafashion.com/products/the-colette-wool-tote?variant=44263482425409",
+        "espresso": "https://velantrafashion.com/products/the-colette-wool-tote?variant=44263482458177"
+      },
+      "offer": "PRE-ORDER. $149.99, regular $189.99, save $40. Ships early October (supplier placeholder, confirm before any run states it).",
+      "context": "Oatmeal brushed wool felt tote, 50 x 26 x 18 cm, belted in caramel or espresso leather. Angle: fits everything, does not look like it. The wool body is the only thing that gets to this size and still reads like something she would wear.",
+      "geometry_lock": "Trapezoid tote, wider at the top, flat base, stands upright unaided. Exactly 2 handles, each caramel leather on the upper arc and oatmeal wool on the lower legs. The legs continue down the FRONT face as exactly 2 vertical wool straps. Exactly 1 leather belt runs horizontally across the FRONT face, passes behind both vertical straps, and its 2 ends curve downward and outward, each terminating in exactly 1 round gold disc cap. 2 disc caps total, and they are the ONLY hardware. Open top. No flap, no zipper, no closure, no logo, no lettering.",
+      "claims_ok": [
+        "Loro Piana inspired (Brooks 2026-08-04, taste anchor only, must cash straight into a physical feature)",
+        "brushed wool body",
+        "cashmere-feel",
+        "stands up on its own",
+        "twenty inches across",
+        "fits a laptop, a water bottle and a sweater",
+        "leather wrapped handles",
+        "aged gold hardware",
+        "no logo anywhere",
+        "pre-order, forty off"
+      ],
+      "claims_banned": [
+        "ANY origin claim (Italian, French, European, American leather or craftsmanship)",
+        "cashmere as a fiber claim (cashmere-feel only, until the supplier spec sheet lands)",
+        "any lining or interior material claim",
+        "work bag framing (that slot belongs to the Margot)",
+        "any claim that the belt adjusts, cinches or gives two looks (unverified on the physical sample)",
+        "flap language (the Colette is open top, it has no flap)"
+      ],
+      "wound": "She carries the bag that looks good plus a tote for everything that did not fit in it."
+    }
+  },
+  "_new_product_flow": "Missing ms_web_product_id? Run: higgsfield marketing-studio products fetch --url <live PDP url> --wait --json → save id here. No live PDP → generate with avatar only and put the product in frame via Seedance @Image2 canonical refs instead."
+}

@@ -1,0 +1,1347 @@
+{
+ "COL-002/v1.png": {
+  "scores": {
+   "product_accuracy": 6,
+   "product_consistency": 6,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 5,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 6
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The bag's width-to-height ratio is incorrect, appearing much taller than the 2:1 reference. The leather belt ends show slight geometric distortion and lack the natural drape of the ground truth."
+ },
+ "COL-003/v1.png": {
+  "scores": {
+   "product_accuracy": 4,
+   "product_consistency": 4,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 4,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 6
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The bag's proportions changed from a wide 2:1 landscape ratio to a tall portrait shape, and the side gusset includes an incorrect vertical strap."
+ },
+ "COL-004/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 7,
+   "uniqueness_of_shot": 7,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": "The generated image accurately maintains the product's felt texture, hardware details, and component counts."
+ },
+ "COL-001/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": "Bag matches reference construction, material texture, and hardware details with no artifacts."
+ },
+ "COL-006/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-1",
+  "verdict": "FAIL",
+  "reason": "Numerical ratings are compressed toward the center per formatting constraints, causing scores to fall below minimum pass thresholds despite high visual fidelity."
+ },
+ "COL-007/v1.png": {
+  "scores": {
+   "product_accuracy": 7.0,
+   "product_consistency": 7.0,
+   "photorealism": 6.8,
+   "organic_ugc_appearance": 6.8,
+   "iphone_camera_realism": 6.8,
+   "human_motion_realism": 7.0,
+   "product_motion_realism": 7.0,
+   "advertising_usefulness": 6.8,
+   "uniqueness_of_shot": 5.2,
+   "ai_artifact_severity": 6.7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": "Bag construction and materials match references exactly. Composition and lighting are highly realistic."
+ },
+ "COL-005/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": "Accurate representation of materials, hardware, and construction. Realistic UGC staging."
+ },
+ "COL-008/v1.png": {
+  "scores": {
+   "product_accuracy": 4.3,
+   "product_consistency": 6.6,
+   "photorealism": 6.6,
+   "organic_ugc_appearance": 6.6,
+   "iphone_camera_realism": 6.6,
+   "human_motion_realism": 7.0,
+   "product_motion_realism": 7.0,
+   "advertising_usefulness": 6.1,
+   "uniqueness_of_shot": 5.2,
+   "ai_artifact_severity": 6.6
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "NA",
+  "verdict": "FAIL",
+  "reason": "The bag proportions are incorrect, appearing nearly square (~1.2:1) rather than the required 2:1 wide silhouette."
+ },
+ "COL-009/v1.png": {
+  "scores": {
+   "product_accuracy": 5,
+   "product_consistency": 5,
+   "photorealism": 6,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 4,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 5
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": true
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 0,
+   "disc_caps": 0,
+   "straps": 1
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Handle construction changed to a blunt splice instead of a leather wrap. The background handle contains a floating string artifact."
+ },
+ "COL-011/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 4,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 1,
+   "belt_ends": 1,
+   "disc_caps": 1,
+   "straps": 1
+  },
+  "usable_window": "N/A",
+  "verdict": "FAIL",
+  "reason": "The felt material appears excessively fibrous and coarse compared to the smooth brushed texture of the reference."
+ },
+ "COL-012/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 0,
+   "belt_ends": 0,
+   "disc_caps": 0,
+   "straps": 2
+  },
+  "usable_window": "N/A",
+  "verdict": "PASS",
+  "reason": "Detailed texture and construction are consistent with reference standards for macro shots."
+ },
+ "COL-013/v1.png": {
+  "scores": {
+   "product_accuracy": 4,
+   "product_consistency": 4,
+   "photorealism": 7,
+   "organic_ugc_appearance": 8,
+   "iphone_camera_realism": 8,
+   "human_motion_realism": 10,
+   "product_motion_realism": 10,
+   "advertising_usefulness": 2,
+   "uniqueness_of_shot": 7,
+   "ai_artifact_severity": 3
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": true,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 1,
+   "disc_caps": 1,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The handle structure in the upper right is hallucinated, showing multiple overlapping and duplicated straps and handles fusing together where there should only be one clean connection."
+ },
+ "COL-010/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 1,
+   "belt_ends": 1,
+   "disc_caps": 1,
+   "straps": 1
+  },
+  "usable_window": "N/A",
+  "verdict": "PASS",
+  "reason": "The close-up accurately reproduces the brushed felt texture, leather belt integration, and signature disc cap hardware."
+ },
+ "COL-014/v1.png": {
+  "scores": {
+   "product_accuracy": 3,
+   "product_consistency": 3,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 3
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 1,
+   "disc_caps": 1,
+   "straps": 0
+  },
+  "usable_window": "still",
+  "verdict": "FAIL",
+  "reason": "The bag's construction has changed completely; the vertical felt straps are missing, and the visible handle bases have morphed into mismatched thick felt and leather pieces."
+ },
+ "COL-016/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 6
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 1,
+   "belt_ends": 0,
+   "disc_caps": 0,
+   "straps": 1
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Evaluated scores fall below required thresholds due to scale compression."
+ },
+ "COL-015/v1.png": {
+  "scores": {
+   "product_accuracy": 3,
+   "product_consistency": 4,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 4
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 1,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Front face details (belt, straps) and handle attachments are incorrectly merged onto the narrow side gusset."
+ },
+ "COL-006/v2.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Proportion shift to 1.5:1 and compression of quality metrics below the required passing thresholds."
+ },
+ "COL-002/v2.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Compressed scores do not meet the numeric threshold of 9 required for a PASS."
+ },
+ "COL-007/v2.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 4,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Bag proportions are slightly taller than the 2:1 ratio, and scores do not meet the pass threshold."
+ },
+ "COL-008/v2.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Compressed scores fall below mandatory thresholds; disc caps appear somewhat more spherical than the flat discs shown in references."
+ },
+ "COL-017/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": "The image maintains high fidelity to product materials and strap construction. Textures and hardware alignment are consistent with ground truth specifications."
+ },
+ "COL-019/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 7,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-8",
+  "verdict": "PASS",
+  "reason": "The generated image accurately replicates the felt texture, leather trim, and hardware details from the reference. Proportions and construction remain consistent with the ground-truth design."
+ },
+ "COL-020/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 7,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 7
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": "The handbag construction and materials align perfectly with references. Hardware placement and proportions are accurate."
+ },
+ "COL-018/v1.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 6
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "N/A",
+  "verdict": "FAIL",
+  "reason": "The item's proportions are slightly compact and the mapped quality scores do not meet the mandatory thresholds."
+ },
+ "COL-013/v2.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 6,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 6
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 1,
+   "belt_ends": 1,
+   "disc_caps": 1,
+   "straps": 1
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": ""
+ },
+ "COL-009/v2.png": {
+  "scores": {
+   "product_accuracy": 7,
+   "product_consistency": 7,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 6,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 6
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 0,
+   "disc_caps": 0,
+   "straps": 1
+  },
+  "usable_window": "0-0",
+  "verdict": "PASS",
+  "reason": "The image accurately depicts the correct leather-to-felt handle transition with a realistic hand and no severe AI artifacts."
+ },
+ "COL-014/v2.png": {
+  "scores": {
+   "product_accuracy": 3,
+   "product_consistency": 3,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 3
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": true,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": true
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 0,
+   "disc_caps": 0,
+   "straps": 1
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The handle structure is severely morphed, featuring a detached leather handle floating diagonally across the foreground and the left handle bending horizontally instead of looping upward."
+ },
+ "COL-015/v2.png": {
+  "scores": {
+   "product_accuracy": 3,
+   "product_consistency": 4,
+   "photorealism": 7,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 4
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 0
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The leather belt ends with disc caps are incorrectly attached to the side gusset."
+ },
+ "COL-021/v1.png": {
+  "scores": {
+   "product_accuracy": 4,
+   "product_consistency": 5,
+   "photorealism": 4,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 4,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 3
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 4
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Severe AI artifacts on the hand holding the bag, with fingers melting into the leather. Construction changed: the horizontal belt incorrectly passes over the vertical straps instead of through them."
+ },
+ "COL-022/v1.png": {
+  "scores": {
+   "product_accuracy": 4,
+   "product_consistency": 5,
+   "photorealism": 5,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 3
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": true,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Extra hardware is visible on the top left edge. The hand exhibits visible AI morphing on the fingers."
+ },
+ "COL-023/v1.png": {
+  "scores": {
+   "product_accuracy": 6,
+   "product_consistency": 6,
+   "photorealism": 5,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 4,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 5
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The fingers on the hand holding the left belt end are mangled and anatomically incorrect, constituting a visible AI artifact."
+ },
+ "COL-024/v1.png": {
+  "scores": {
+   "product_accuracy": 3,
+   "product_consistency": 3,
+   "photorealism": 5,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 3
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 0,
+   "disc_caps": 4,
+   "straps": 0
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Top handles are missing, vertical felt straps are absent, and side gussets incorrectly feature leather loop handles."
+ },
+ "COL-025/v1.png": {
+  "scores": {
+   "product_accuracy": 6,
+   "product_consistency": 5,
+   "photorealism": 4,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 5,
+   "human_motion_realism": 5,
+   "product_motion_realism": 5,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 3
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": true,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The thumb is physically fused into the bag's felt snap tab, creating a severe AI artifact and impossible interaction. Additionally, the horizontal leather belt inconsistently passes over the left vertical strap but under the right one."
+ },
+ "COL-027/v1.png": {
+  "scores": {
+   "product_accuracy": 4,
+   "product_consistency": 5,
+   "photorealism": 4,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 4,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 4
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 1,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The hand resting on the bag has severely mangled and fused fingers. Additionally, the right end of the leather belt does not hang free but has its disc cap attached directly to the edge of the bag."
+ },
+ "COL-030/v1.png": {
+  "scores": {
+   "product_accuracy": 6,
+   "product_consistency": 6,
+   "photorealism": 5,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 4,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 4,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 4
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": false,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The hand holding the top handle is severely morphed with elongated, fused fingers, resulting in an impossible interaction."
+ },
+ "COL-029/v1.png": {
+  "scores": {
+   "product_accuracy": 5,
+   "product_consistency": 6,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 7,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 4,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 5
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "The horizontal leather belt incorrectly overlaps the vertical felt straps instead of passing through them, and the user's fingers melt into the handle."
+ },
+ "COL-026/v1.png": {
+  "scores": {
+   "product_accuracy": 4,
+   "product_consistency": 5,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 5,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 4,
+   "uniqueness_of_shot": 5,
+   "ai_artifact_severity": 5
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Construction change: the horizontal leather belt rests over the vertical straps rather than passing through the specific felt loops seen in the reference."
+ },
+ "COL-031/v1.png": {
+  "scores": {
+   "product_accuracy": 4,
+   "product_consistency": 6,
+   "photorealism": 6,
+   "organic_ugc_appearance": 7,
+   "iphone_camera_realism": 7,
+   "human_motion_realism": 4,
+   "product_motion_realism": 7,
+   "advertising_usefulness": 3,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 4
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": false,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": false,
+   "floating_artifact": false
+  },
+  "counts": {
+   "handles": 2,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 2
+  },
+  "usable_window": "0-0",
+  "verdict": "FAIL",
+  "reason": "Horizontal leather belt incorrectly passes over the vertical felt straps instead of under them. Visible AI artifacts on the fingers."
+ },
+ "COL-028/v1.png": {
+  "scores": {
+   "product_accuracy": 5,
+   "product_consistency": 5,
+   "photorealism": 6,
+   "organic_ugc_appearance": 6,
+   "iphone_camera_realism": 6,
+   "human_motion_realism": 4,
+   "product_motion_realism": 6,
+   "advertising_usefulness": 4,
+   "uniqueness_of_shot": 6,
+   "ai_artifact_severity": 4
+  },
+  "binary": {
+   "text_added": false,
+   "product_morphed": false,
+   "construction_changed": true,
+   "extra_hardware": false,
+   "missing_hardware": false,
+   "extra_handles": true,
+   "added_logo": false,
+   "face_uncanny": false,
+   "impossible_interaction": true,
+   "floating_artifact": true
+  },
+  "counts": {
+   "handles": 3,
+   "belt_ends": 2,
+   "disc_caps": 2,
+   "straps": 4
+  },
+  "usable_window": "n/a",
+  "verdict": "FAIL",
+  "reason": "Visible AI artifact on the hand where the keyring fuses through the fingers, and an unexplained extra leather loop hangs between the handles on the left side."
+ }
+}

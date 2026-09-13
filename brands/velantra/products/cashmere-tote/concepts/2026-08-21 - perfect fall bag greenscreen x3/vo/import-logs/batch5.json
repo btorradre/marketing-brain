@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 4,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "VEL-COL-088-setdown-park-bench.mp4",
+        "size": 2704276,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "VEL-COL-088-setdown-park-bench.mp4",
+        "uploadPath": "broll/library-2026-08/clips/VEL-COL-088-setdown-park-bench.mp4",
+        "durationInSeconds": 10.005,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": true,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 2,
+          "sampleRate": 48000,
+          "integratedLufs": -44.3
+        },
+        "sourceManifest": {
+          "audioChannels": 2,
+          "audioSampleRate": 48000,
+          "audioStartOffsetInSeconds": 0,
+          "audioStreamDurationInSeconds": 10.005,
+          "originalFilename": "VEL-COL-088-setdown-park-bench.mp4",
+          "videoStreamDurationInSeconds": 10
+        }
+      },
+      "result": {
+        "assetId": "0c6ef7d3-2046-4e7e-8312-5923796df94b",
+        "assetType": "video",
+        "filename": "VEL-COL-088-setdown-park-bench.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/0c6ef7d3-2046-4e7e-8312-5923796df94b/VEL-COL-088-setdown-park-bench.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/0c6ef7d3-2046-4e7e-8312-5923796df94b/VEL-COL-088-setdown-park-bench.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/0c6ef7d3-2046-4e7e-8312-5923796df94b/VEL-COL-088-setdown-park-bench.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/0c6ef7d3-2046-4e7e-8312-5923796df94b/VEL-COL-088-setdown-park-bench.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "broll/library-2026-08/clips/VEL-COL-088-setdown-park-bench.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "pdp-screenrec.mp4",
+        "size": 1707902,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "pdp-screenrec.mp4",
+        "uploadPath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/pdp-capture/pdp-screenrec.mp4",
+        "durationInSeconds": 15.033333,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": false,
+        "transcriptionState": "no_audio",
+        "transcriptionSkipReason": "no_audio_track",
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "pdp-screenrec.mp4",
+          "videoStreamDurationInSeconds": 15.033333
+        }
+      },
+      "result": {
+        "assetId": "37107f77-1736-4781-b376-b378927b431d",
+        "assetType": "video",
+        "filename": "pdp-screenrec.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/37107f77-1736-4781-b376-b378927b431d/pdp-screenrec.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/37107f77-1736-4781-b376-b378927b431d/pdp-screenrec.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/37107f77-1736-4781-b376-b378927b431d/pdp-screenrec.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/37107f77-1736-4781-b376-b378927b431d/pdp-screenrec.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/pdp-capture/pdp-screenrec.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "audio",
+        "contentType": "audio/ogg",
+        "filename": "VO-hookA-claire.ogg",
+        "size": 582311,
+        "sourceType": "audio",
+        "transcodeReason": "audio assets follow the frontend Ogg/Opus upload path",
+        "transcoded": true,
+        "uploadFilename": "VO-hookA-claire.ogg",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-VO-hookA-claire-audio-23885-3.ogg",
+        "durationInSeconds": 28.8,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 1,
+          "sampleRate": 48000,
+          "integratedLufs": -17.6
+        },
+        "sourceManifest": {
+          "audioStartOffsetInSeconds": 0.025057,
+          "audioStreamDurationInSeconds": 28.8,
+          "channels": 1,
+          "originalFilename": "VO-hookA-claire.mp3",
+          "sampleRate": 44100
+        }
+      },
+      "result": {
+        "assetId": "dea6542e-8b77-45ff-b70a-24cddca23939",
+        "assetType": "audio",
+        "filename": "VO-hookA-claire.ogg",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/dea6542e-8b77-45ff-b70a-24cddca23939/VO-hookA-claire.ogg",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/dea6542e-8b77-45ff-b70a-24cddca23939/VO-hookA-claire.ogg",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/dea6542e-8b77-45ff-b70a-24cddca23939/VO-hookA-claire.ogg",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/dea6542e-8b77-45ff-b70a-24cddca23939/VO-hookA-claire.ogg",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/vo/VO-hookA-claire.mp3"
+    },
+    {
+      "metadata": {
+        "assetType": "audio",
+        "contentType": "audio/ogg",
+        "filename": "VO-hookB-claire.ogg",
+        "size": 620336,
+        "sourceType": "audio",
+        "transcodeReason": "audio assets follow the frontend Ogg/Opus upload path",
+        "transcoded": true,
+        "uploadFilename": "VO-hookB-claire.ogg",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-VO-hookB-claire-audio-23885-4.ogg",
+        "durationInSeconds": 29.52,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 1,
+          "sampleRate": 48000,
+          "integratedLufs": -17.1
+        },
+        "sourceManifest": {
+          "audioStartOffsetInSeconds": 0.025057,
+          "audioStreamDurationInSeconds": 29.52,
+          "channels": 1,
+          "originalFilename": "VO-hookB-claire.mp3",
+          "sampleRate": 44100
+        }
+      },
+      "result": {
+        "assetId": "67203efe-db16-4485-abd7-08dca3c93261",
+        "assetType": "audio",
+        "filename": "VO-hookB-claire.ogg",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/67203efe-db16-4485-abd7-08dca3c93261/VO-hookB-claire.ogg",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/67203efe-db16-4485-abd7-08dca3c93261/VO-hookB-claire.ogg",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/67203efe-db16-4485-abd7-08dca3c93261/VO-hookB-claire.ogg",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/67203efe-db16-4485-abd7-08dca3c93261/VO-hookB-claire.ogg",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/vo/VO-hookB-claire.mp3"
+    }
+  ]
+}

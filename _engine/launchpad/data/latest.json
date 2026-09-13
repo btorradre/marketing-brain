@@ -1,0 +1,858 @@
+{
+ "shopify": {
+  "ok": true,
+  "data": {
+   "week_start": "2026-09-13T00:00:00-05:00",
+   "stores": [
+    {
+     "brand": "Velantra",
+     "domain": "uzdgxy-sb.myshopify.com",
+     "today_revenue": 1069.94,
+     "today_orders": 8,
+     "week_revenue": 1069.94,
+     "week_orders": 8
+    },
+    {
+     "brand": "Motilli #4",
+     "domain": "y9t3s8-ns.myshopify.com",
+     "today_revenue": 76.96,
+     "today_orders": 2,
+     "week_revenue": 76.96,
+     "week_orders": 2
+    },
+    {
+     "brand": "Motilli #1",
+     "domain": "1kmiic-2s.myshopify.com",
+     "today_revenue": 0,
+     "today_orders": 0,
+     "week_revenue": 0,
+     "week_orders": 0
+    },
+    {
+     "brand": "Lunessa",
+     "domain": "cr5n4f-ck.myshopify.com",
+     "today_revenue": 0,
+     "today_orders": 0,
+     "week_revenue": 0,
+     "week_orders": 0
+    },
+    {
+     "brand": "Renavita",
+     "domain": "gz9gwx-jq.myshopify.com",
+     "today_revenue": 0,
+     "today_orders": 0,
+     "week_revenue": 0,
+     "week_orders": 0
+    }
+   ],
+   "totals": {
+    "today_revenue": 1146.9,
+    "today_orders": 10,
+    "week_revenue": 1146.9,
+    "week_orders": 10
+   },
+   "errors": [
+    {
+     "brand": "Motilli #2",
+     "error": "HTTP Error 400: Bad Request"
+    },
+    {
+     "brand": "Motilli #3",
+     "error": "HTTP Error 400: Bad Request"
+    },
+    {
+     "brand": "Solorna",
+     "error": "HTTP Error 400: Bad Request"
+    }
+   ],
+   "note": "Gross order value (incl. shipping/tax, pre-refund), cancelled/test/refunded excluded"
+  },
+  "elapsed_s": 4.0
+ },
+ "ai_costs": {
+  "ok": true,
+  "data": {
+   "claude_code": {
+    "week_start": "2026-09-13T00:00:00-05:00",
+    "total_cost": 0.0,
+    "by_model": {},
+    "by_day": {},
+    "note": "Claude Code usage valued at public API rates (subscription gauge, not a bill)"
+   },
+   "kie": {
+    "credits": 1152.27,
+    "usd_value": 4.61,
+    "auto_topup": true
+   },
+   "elevenlabs": {
+    "tier": "pro",
+    "characters_used": 186020,
+    "characters_limit": 1195638,
+    "next_reset_unix": 1791001764
+   }
+  },
+  "elapsed_s": 0.0
+ },
+ "agents": {
+  "ok": true,
+  "data": {
+   "total": 119,
+   "by_category": {
+    "Video/Creative": 42,
+    "Other": 23,
+    "Infrastructure": 20,
+    "Velantra": 17,
+    "Copy/Funnel": 14,
+    "Motilli": 2,
+    "Lunessa": 1
+   },
+   "skills": [
+    {
+     "name": "ad-concept-builder",
+     "scope": "project",
+     "category": "Copy/Funnel",
+     "description": "Build a long-form direct-response ad with INTENT \u2014 interactively. Use whenever the user wants to write or plan an ad, ad concept, long-form copy, Facebook ad, advertorial body, VSL\u2026"
+    },
+    {
+     "name": "ad-editing-style",
+     "scope": "project",
+     "category": "Copy/Funnel",
+     "description": "Analyze an ad reference's editing style frame by frame, explain why its cuts, transitions, zooms, overlays, captions, sound and pacing occur where they do, and adapt that style int\u2026"
+    },
+    {
+     "name": "ad-system",
+     "scope": "project",
+     "category": "Copy/Funnel",
+     "description": "Operate the shared ad workspace from evidence and concept tests through scripts, scene reasons, specialist work, QA, exact export/ad-ID tracking and performance-backed next briefs.\u2026"
+    },
+    {
+     "name": "advertorial",
+     "scope": "project",
+     "category": "Copy/Funnel",
+     "description": "Use this skill whenever writing advertorials, editorial-style landing pages, native ad pages, bridge pages, presell pages, or article-style sales content. Also trigger when editing\u2026"
+    },
+    {
+     "name": "aiugc-infinite",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Infinite AIUGC video factory built on Higgsfield Marketing Studio (UGC preset) + Seedance 2.0. Produces two-cut creator ads at scale \u2014 Cut 1 is a talking-head (creator delivering t\u2026"
+    },
+    {
+     "name": "aiugc-longform",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Long-form continuous-shot AIUGC factory. Produces 60-180s single-shot creator-talking-head VSL ads in the GetHookd \"HurAgain\" style \u2014 one creator, one continuous setting, one conti\u2026"
+    },
+    {
+     "name": "applicant-screener",
+     "scope": "project",
+     "category": "Other",
+     "description": ">"
+    },
+    {
+     "name": "avatar-research-deep",
+     "scope": "project",
+     "category": "Other",
+     "description": "Scraped-evidence avatar and market research at depth. Harvests 1,000-4,000 real customer posts, reviews, and comments through Apify actors (Reddit, Amazon, YouTube, TikTok, Trustpi\u2026"
+    },
+    {
+     "name": "broll-ai-voiceover-vsl",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Plan and produce visual coverage for AI-voiceover and faceless narrated VSLs, choosing among native footage, physical demonstration, animation and product scenes based on each line\u2026"
+    },
+    {
+     "name": "broll-animated-ads",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Create concept-matched B-roll for 2D, 3D and other animated ads, preserving character/world continuity while using emotion, action and mechanism scenes to advance each script beat."
+    },
+    {
+     "name": "broll-heygen-vsl",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Plan, source and generate B-roll for HeyGen-style presenter VSLs, balancing presenter holds, human footage, scientific inserts and product scenes, with a reason for each placement."
+    },
+    {
+     "name": "broll-podcast",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Choose and produce B-roll for podcast and interview ads while preserving speaker turns, reactions and conversational continuity; explain why each insert or hold belongs."
+    },
+    {
+     "name": "broll-skeleton-ads",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Design and generate B-roll for animated skeleton and translucent-anatomy ads, including comparison characters, laboratory guides and lifestyle hybrids, with scene-by-scene storytel\u2026"
+    },
+    {
+     "name": "broll-sourcer",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Scans a video creative (AI UGC, talking head, etc.), identifies every B-roll segment where the creator isn't talking, classifies each by type (action/lifestyle, science/mechanism, \u2026"
+    },
+    {
+     "name": "broll-storytelling",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Explain why each scene belongs in an ad, using frame-by-frame reference analysis, the intended concept and the narration; then plan, source or generate matching B-roll. Use for ani\u2026"
+    },
+    {
+     "name": "cutroom",
+     "scope": "project",
+     "category": "Other",
+     "description": "Visual creative briefs on Cutroom, the internal cloud-backed Milanote-style whiteboard (projects \u2192 boards \u2192 assets, synced to Supabase). Breaks a reference ad down into a visual st\u2026"
+    },
+    {
+     "name": "direct-response-os",
+     "scope": "project",
+     "category": "Other",
+     "description": "The router and shared spine for the Direct Response OS, the system that turns raw customer language into tested ad angles. Use whenever the user wants NEW AD ANGLES, asks \"what sho\u2026"
+    },
+    {
+     "name": "dr-angle-bank",
+     "scope": "project",
+     "category": "Other",
+     "description": "Build and maintain the angle bank, the durable tagged library of validated creative directions that every brief in the Direct Response OS is written from. Part of the DR OS. Use wh\u2026"
+    },
+    {
+     "name": "dr-angle-mapper",
+     "scope": "project",
+     "category": "Other",
+     "description": "Turn pages of avatar research into a mapped tree of angles and micro-angles so every cohort in the market has an ad written to it. Part of the DR OS. Use when the user says \"map th\u2026"
+    },
+    {
+     "name": "dr-awareness-audit",
+     "scope": "project",
+     "category": "Other",
+     "description": "Audit a running ad account against Eugene Schwartz's five awareness levels, find which level is starved, and turn the gap into prioritised brief directions. Part of the Direct Resp\u2026"
+    },
+    {
+     "name": "dr-funnel-strategy",
+     "scope": "project",
+     "category": "Other",
+     "description": "Build the full-funnel creative strategy document a media buyer and a creative team can both execute from without a follow-up question. Part of the Direct Response OS, and the skill\u2026"
+    },
+    {
+     "name": "dr-hook-lab",
+     "scope": "project",
+     "category": "Other",
+     "description": "Write five genuinely different hook variations for one angle, each aimed at one specific person at one awareness level, in the customer's own recorded language. Part of the Direct \u2026"
+    },
+    {
+     "name": "dr-market-intel",
+     "scope": "project",
+     "category": "Other",
+     "description": "Competitive and winning-ad intelligence for the Direct Response OS. Two modes. Competitor mode maps what the category is running, finds the white space nobody owns, and produces a \u2026"
+    },
+    {
+     "name": "dr-survey-designer",
+     "scope": "project",
+     "category": "Other",
+     "description": "Design post-purchase and post-refusal surveys engineered to produce quotable ad copy rather than satisfaction scores. Part of the Direct Response OS. Use when the user wants survey\u2026"
+    },
+    {
+     "name": "dr-ugc-brief",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Turn one angle plus its hook into a complete UGC creator brief a creator who has never heard of the brand can shoot without a single follow-up question. Part of the Direct Response\u2026"
+    },
+    {
+     "name": "dr-video-ads",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "The video ad script engine. Writes belief-shifting TOF video ad scripts (30s UGC through 6-min VSLs) from avatar research using the punch-in-the-gut framework studied from Nuora. P\u2026"
+    },
+    {
+     "name": "dr-voc-mining",
+     "scope": "project",
+     "category": "Other",
+     "description": "Mine raw customer language into a sourced, tagged angle index. Part of the Direct Response OS. Use when the user hands over or points at product reviews, Reddit threads, IG or Meta\u2026"
+    },
+    {
+     "name": "fashion-replicator",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Takes any reference video (POV, lifestyle, product demo), replicates every scene 1:1 for fashion brands (Solorna, Velantra, etc.) using image-to-image with text removal, extracts m\u2026"
+    },
+    {
+     "name": "finance-agent",
+     "scope": "project",
+     "category": "Other",
+     "description": "The ecommerce accounting agent. Aggregates every money source into one transaction table \u2014 GPT 5.6 Sol's raw bank/card exports dropped in finances/inbox, Apple Card statement PDFs,\u2026"
+    },
+    {
+     "name": "google-ads-agent",
+     "scope": "project",
+     "category": "Other",
+     "description": "Google Ads management agent. Handles account setup, campaign creation, keyword research, ad copywriting, bidding strategy, optimization, reporting, and ongoing management via Claud\u2026"
+    },
+    {
+     "name": "higgsfield-replicator",
+     "scope": "project",
+     "category": "Infrastructure",
+     "description": "Canonical Higgsfield Marketing Studio replication pipeline using the official higgsfield CLI. Takes a reference ad (image or video) plus a brand and replicates it via `higgsfield g\u2026"
+    },
+    {
+     "name": "long-form-copy",
+     "scope": "project",
+     "category": "Copy/Funnel",
+     "description": "Use this skill whenever writing long-form direct response copy, Facebook ads, mechanism-education copy, health supplement copy, physical product copy, device copy, topical product \u2026"
+    },
+    {
+     "name": "margin-dashboard",
+     "scope": "project",
+     "category": "Other",
+     "description": "True contribution-margin reporting and the live Vercel dashboard. Scrapes every Shopify order for real per-order COGS, pulls ad spend, payment fees and channel attribution from Tri\u2026"
+    },
+    {
+     "name": "mbc-pipeline",
+     "scope": "project",
+     "category": "Other",
+     "description": "Marketing Brain Cloud end-to-end pipeline. Takes a reference video + brand + creative direction, runs Creative Strategist (Opus 4.6 trained on DR principles), Gemini 3.1 Pro scene \u2026"
+    },
+    {
+     "name": "nano-banana",
+     "scope": "project",
+     "category": "Other",
+     "description": "Generates AI images using the nano-banana CLI (Gemini 3.1 Flash default, Pro available). Handles multi-resolution (512-4K), aspect ratios, reference images for style transfer, gree\u2026"
+    },
+    {
+     "name": "omni-ugc",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": ">"
+    },
+    {
+     "name": "pov-trend-factory",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": ">"
+    },
+    {
+     "name": "product-launch",
+     "scope": "project",
+     "category": "Other",
+     "description": "End-to-end product launch from a single URL. Takes any product link (competitor DTC page, supplier listing, marketplace), pulls the source pack, locks product truth, generates the \u2026"
+    },
+    {
+     "name": "rapid-vsl",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Rapid VSL generation for organic talking-head \"yapper\" ads. Takes a script + avatar image, segments the script into ~5-second clauses, generates lip-synced clips via kie.ai Kling 3\u2026"
+    },
+    {
+     "name": "raw-ugc-avatar",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Turns a short creative brief, a Pinterest reference, or a screenshot from another AI UGC concept into ONE production-ready image-generation prompt for a raw, organic, iPhone-real v\u2026"
+    },
+    {
+     "name": "restock-watch",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Velantra restock watch \u2014 checks every SKU for whether a purchase order is due and whether the agent has quietly run out of stock. Runs automatically every Monday 08:47 via LaunchAg\u2026"
+    },
+    {
+     "name": "seedance-brief-runner",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Executes a Segment-Brief-SOP production brief through Seedance 2.0 \u2014 compiles the brief's segment map into segments.json, runs the segment-1 casting call, locks the voice anchor, g\u2026"
+    },
+    {
+     "name": "seedance-directors-cut",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Reference video ad in, finished Seedance 2.5 production package out, for ANY brand (Motilli, Lunessa, Velantra, Orelli, Solorna, or a brand new one). Studies the reference frame by\u2026"
+    },
+    {
+     "name": "seedance-prompt-architect",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Turn any reference video into a copy-paste PROMPT PACK for manual asset generation \u2014 it does NOT generate anything. Watches a reference ad via the /watch skill, detects every hard \u2026"
+    },
+    {
+     "name": "seedanceugcdirector",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Turn a single product concept or ad script into a complete, copy paste ready production package for fake UGC video ads in Seedance 2.0. Act as a full expert creative director: inve\u2026"
+    },
+    {
+     "name": "shopify-financials",
+     "scope": "project",
+     "category": "Other",
+     "description": "Pull complete Shopify financials across all brand stores and build formatted Excel P&Ls \u2014 both a single-period 8-tab deep-dive AND a full month-by-month P&L that merges bank/expens\u2026"
+    },
+    {
+     "name": "strategize-ad-adaptation",
+     "scope": "project",
+     "category": "Copy/Funnel",
+     "description": "Takes the frame-by-frame manifest produced by ad-engine's watch_reference tool and reasons out a scene-by-scene adaptation plan for a target brand/product \u2014 what each beat's job is\u2026"
+    },
+    {
+     "name": "swipe-intake",
+     "scope": "project",
+     "category": "Copy/Funnel",
+     "description": "Process queued GetHookd ads \u2014 classify by type, transcribe video, tag with metadata, route to correct vault folder, update indexes. Run this after the n8n workflow has pulled new a\u2026"
+    },
+    {
+     "name": "tiktok-broll-sourcing",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Source TikTok and native phone-style action B-roll with extreme visible emotional intensity, an organic raw appearance and no on-screen text. Use for B-roll footage, emotional acti\u2026"
+    },
+    {
+     "name": "ugc-forge",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Consistent, correctly-voiced UGC video ads from one script. Auto-segments an ad script into <=8s beats, voices every beat with ONE ElevenLabs voice (with a pronunciation lexicon so\u2026"
+    },
+    {
+     "name": "ui-ux-pro-max",
+     "scope": "project",
+     "category": "Other",
+     "description": "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks (R\u2026"
+    },
+    {
+     "name": "velantra-ugc",
+     "scope": "project",
+     "category": "Velantra",
+     "description": "Multi-shot UGC video ads for any Velantra product via kie.ai Seedance 2.0, using a Brooks-supplied Pinterest image as the creator reference (the 5-avatar roster is RETIRED for new \u2026"
+    },
+    {
+     "name": "video-brief",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Writes the production brief for a video ad concept in the canonical house format (the MOT-VID-009 structure) and publishes it to Notion under <Brand> Concepts. Every new video conc\u2026"
+    },
+    {
+     "name": "video-editor-brief",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Takes a script and video-scene-replicator output, uses Gemini to match each script line to the best-fitting scene, and generates a comprehensive video editor brief with timeline, v\u2026"
+    },
+    {
+     "name": "video-scene-replicator",
+     "scope": "project",
+     "category": "Video/Creative",
+     "description": "Takes a reference video, extracts every scene, uses Nano Banana 2 image-to-image to transform each frame for your brand, animates with Kling 3.0 using extracted motion, and uploads\u2026"
+    },
+    {
+     "name": "ad-replicator",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Takes a reference ad image (static, native, or branded), analyzes why it works using Claude Opus 4.6, adapts it for your brand using research docs from the vault, generates an imag\u2026"
+    },
+    {
+     "name": "ad-watcher",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Universal video-ad watcher and psychological breakdown. Takes any ad (URL or local file), downloads it, extracts every visual beat via ffmpeg scene-change detection, pulls a timest\u2026"
+    },
+    {
+     "name": "aiugc-orchestrator",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "End-to-end AI UGC video ad production. Takes a script + brand \u2192 generates voiceover (ElevenLabs), creates avatar image (Nano Banana 2), produces talking head video (Fabric 1.0), an\u2026"
+    },
+    {
+     "name": "aiugc-replicator",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Takes any reference AI UGC video ad (podcast, talking head, multi-person, etc.), extracts keyframes at scene shifts, transforms avatars via Nano Banana 2 image-to-image, animates w\u2026"
+    },
+    {
+     "name": "animated-video",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "End-to-end animated video ad pipeline using Kling 3.0 with NATIVE audio generation (no ElevenLabs needed). Takes a script + brief + brand, breaks it into a scene-beat breakdown, ge\u2026"
+    },
+    {
+     "name": "animated-video-replicator",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Takes a reference animated video ad (3D animated, anthropomorphic characters, \"inside the body\" style), extracts the script and scene structure, rewrites the script for your brand \u2026"
+    },
+    {
+     "name": "b-roll-finder",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "DR-ad b-roll orchestrator (forked for Brooks from louisedesadeleer/b-roll-finder). Takes an ad script / shot list / creative brief, classifies every beat, routes each to the right \u2026"
+    },
+    {
+     "name": "broll-auditor",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": ">"
+    },
+    {
+     "name": "broll-sourcer",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Scans a video creative (AI UGC, talking head, etc.), identifies every B-roll segment where the creator isn't talking, classifies each by type (action/lifestyle, science/mechanism, \u2026"
+    },
+    {
+     "name": "claymation",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "End-to-end claymation-style direct response video ad pipeline. Takes a script + brief + brand, breaks it into a villain/hero arc OR accepts structured scene beats, generates clay-t\u2026"
+    },
+    {
+     "name": "creative-brief",
+     "scope": "user",
+     "category": "Copy/Funnel",
+     "description": "Writes the creative strategist's brief for a video ad concept \u2014 the simple five-part format (header block, Concept WHY/WHAT/HOW/Runtime, Ad Structure as swappable Hook+Bridge pairs\u2026"
+    },
+    {
+     "name": "cro-agent",
+     "scope": "user",
+     "category": "Copy/Funnel",
+     "description": "CRO (Conversion Rate Optimization) agent trained on 30+ high-converting direct response funnels across 10+ brands with 300+ winning ads. Audits landing pages, product pages, advert\u2026"
+    },
+    {
+     "name": "elevenlabs-agent",
+     "scope": "user",
+     "category": "Other",
+     "description": ">"
+    },
+    {
+     "name": "elixir-pdp-builder",
+     "scope": "user",
+     "category": "Copy/Funnel",
+     "description": ">"
+    },
+    {
+     "name": "fabric-talking-head",
+     "scope": "user",
+     "category": "Other",
+     "description": "Creates AI talking head videos using VEED Fabric 1.0 via fal.ai. Takes a static avatar image + voiceover audio and generates a lip-synced talking head video with natural head movem\u2026"
+    },
+    {
+     "name": "general-video",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": ">"
+    },
+    {
+     "name": "higgsfield-generate",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "|"
+    },
+    {
+     "name": "higgsfield-marketplace-cards",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "|"
+    },
+    {
+     "name": "higgsfield-product-photoshoot",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "|"
+    },
+    {
+     "name": "higgsfield-soul-id",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "|"
+    },
+    {
+     "name": "hyperframes",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": ">"
+    },
+    {
+     "name": "hyperframes-animation",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "All animation knowledge for HyperFrames \u2014 atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GS\u2026"
+    },
+    {
+     "name": "hyperframes-audio",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": ">"
+    },
+    {
+     "name": "hyperframes-cli",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": ">"
+    },
+    {
+     "name": "hyperframes-core",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "The HyperFrames composition contract \u2014 build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variab\u2026"
+    },
+    {
+     "name": "hyperframes-creative",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals\u2026"
+    },
+    {
+     "name": "hyperframes-keyframes",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": ">"
+    },
+    {
+     "name": "hyperframes-registry",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Install, discover, and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add or hyperframes catalog, installing one item or every bloc\u2026"
+    },
+    {
+     "name": "landing-page-builder",
+     "scope": "user",
+     "category": "Copy/Funnel",
+     "description": "Build high-converting single-page product landing pages on Shopify (Liquid sections) or standalone (Vercel), with cart drawer, BOGO bundles, subscriptions, and CRO best practices"
+    },
+    {
+     "name": "lunessa",
+     "scope": "user",
+     "category": "Lunessa",
+     "description": "Product scale for Lunessa Red Yeast Rice + CoQ10 Gummies. Trained on product reference images (single bottle, triple bottles, gummy close-ups, lifestyle shots). Use this skill when\u2026"
+    },
+    {
+     "name": "media-use",
+     "scope": "user",
+     "category": "Other",
+     "description": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or pa\u2026"
+    },
+    {
+     "name": "motilli",
+     "scope": "user",
+     "category": "Motilli",
+     "description": "Product scale for Motilli Celery Juice Fiber Gummies. Trained on product reference images (bottle, individual gummy, labels, lifestyle shots). Use this skill whenever running the a\u2026"
+    },
+    {
+     "name": "motilli-funnel-agent",
+     "scope": "user",
+     "category": "Motilli",
+     "description": "Deep-dive funnel analysis agent for Motilli. Scrapes Meta Ads Library (searches \"Deborah Whitman\"), extracts all active ad creatives and copy, follows landing page links to capture\u2026"
+    },
+    {
+     "name": "n8n-code-javascript",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime,\u2026"
+    },
+    {
+     "name": "n8n-code-python",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n\u2026"
+    },
+    {
+     "name": "n8n-expression-syntax",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, mappi\u2026"
+    },
+    {
+     "name": "n8n-mcp-tools-expert",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, managing credentials, auditi\u2026"
+    },
+    {
+     "name": "n8n-node-configuration",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, \u2026"
+    },
+    {
+     "name": "n8n-validation-expert",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understand\u2026"
+    },
+    {
+     "name": "n8n-workflow-patterns",
+     "scope": "user",
+     "category": "Infrastructure",
+     "description": "Proven workflow architectural patterns from real n8n workflows. Use when building new workflows, designing workflow structure, choosing workflow patterns, planning workflow archite\u2026"
+    },
+    {
+     "name": "native-image-factory",
+     "scope": "user",
+     "category": "Copy/Funnel",
+     "description": "Use this skill whenever generating native ad images, creating image prompts for Facebook ads, building visual creative for long-form copy, or producing scroll-stopping images for d\u2026"
+    },
+    {
+     "name": "product-launch-video",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video \u2014 SaaS promos, feature reveals, product demos, app and company launches. Use when the u\u2026"
+    },
+    {
+     "name": "sales-page-builder",
+     "scope": "user",
+     "category": "Copy/Funnel",
+     "description": ">"
+    },
+    {
+     "name": "shopify-listicle-builder",
+     "scope": "user",
+     "category": "Copy/Funnel",
+     "description": "Build a high-converting direct-response LISTICLE that lives as a native Shopify product page (custom product template) with the brand's real Shrine theme Add-To-Cart button and Kac\u2026"
+    },
+    {
+     "name": "tiktok-broll-crawler",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Sources real organic TikTok footage as B-roll for ad creatives, matched to the exact script line and emotion. Takes either a reference ad (analyzes it scene-by-scene to spec the em\u2026"
+    },
+    {
+     "name": "velantra-ad-script",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "The house formula for every Velantra ad script. Short hook, then an immediate \"This is the [Product] from Velantra\" intro, then an attribute stack, a lived proof beat, a capacity l\u2026"
+    },
+    {
+     "name": "velantra-bergen-concept",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Write a VIDEO AD CONCEPT + creative brief for the Velantra Bergen specifically. Trigger when the user says \"video ad concept for the bergen\", \"write a bergen ad\", \"new video ad for\u2026"
+    },
+    {
+     "name": "velantra-boat-tote",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Product scale for the Velantra Boat Tote. Trained on 14+ colorways including canvas-and-leather two-tone variants (navy, red, pink, dark green, olive green, orange, sunny yellow, y\u2026"
+    },
+    {
+     "name": "velantra-boat-tote-concept",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Write a VIDEO AD CONCEPT + creative brief for the Velantra Boat Tote specifically. Trigger when the user says \"video ad concept for the boat tote\", \"write a boat tote ad\", \"new vid\u2026"
+    },
+    {
+     "name": "velantra-inspired-birkin-concept",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Write a VIDEO AD CONCEPT + creative brief for the Velantra Inspired Birkin (leather Birkin-alternative) specifically. Trigger when the user says \"video ad concept for the inspired \u2026"
+    },
+    {
+     "name": "velantra-jelly-tote-concept",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Write a VIDEO AD CONCEPT + creative brief for the Velantra Jelly Tote (jelly Birkin) specifically. Trigger when the user says \"video ad concept for the jelly tote\", \"jelly birkin a\u2026"
+    },
+    {
+     "name": "velantra-juliette",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Product scale and locked product truth for the Juliette Suede Tote. Use for ANY content generation involving this product, video ads, statics, UGC, PDP imagery, b-roll, concepts. C\u2026"
+    },
+    {
+     "name": "velantra-meridian",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Product scale for the Velantra Meridian. Trained on 40 product reference images across 9+ colorways (black, brown, coffee brown, gray, white, green, burgundy, light blue, ultra lig\u2026"
+    },
+    {
+     "name": "velantra-meridian-concept",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Write a VIDEO AD CONCEPT + creative brief for the Velantra Meridian specifically. Trigger when the user says \"video ad concept for the meridian\", \"write a meridian ad\", \"new video \u2026"
+    },
+    {
+     "name": "velantra-pov-tiktok-replicator",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Takes any TikTok URL and recreates it as a short POV video ad for a Velantra product (Boat Tote, Weekender, Meridian). Pipeline \u2014 yt-dlp downloads the TikTok + extracts its origina\u2026"
+    },
+    {
+     "name": "velantra-straw-birkin-concept",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Write a VIDEO AD CONCEPT + creative brief for the Velantra Straw Birkin specifically. Trigger when the user says \"video ad concept for the straw tote\", \"straw birkin ad\", \"new vide\u2026"
+    },
+    {
+     "name": "velantra-straw-tote",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Product scale + locked product truth for the Velantra Straw Tote (aka registry key \"strato\" \u2014 never call it Strato in outputs). Use for ANY content generation involving the Straw T\u2026"
+    },
+    {
+     "name": "velantra-vivienne",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Product scale and locked product truth for the Vivienne Top Handle Bag. Use for ANY content generation involving this product, video ads, statics, UGC, PDP imagery, b-roll, concept\u2026"
+    },
+    {
+     "name": "velantra-weekender",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Product scale + locked product truth for the Velantra Weekender. Use this skill for ANY content generation involving the Weekender \u2014 video ads (Seedance/velantra-ugc), static ads (\u2026"
+    },
+    {
+     "name": "velantra-weekender-concept",
+     "scope": "user",
+     "category": "Velantra",
+     "description": "Write a VIDEO AD CONCEPT + creative brief for the Velantra Weekender specifically. Trigger when the user says \"video ad concept for the weekender\", \"write a weekender ad\", \"new vid\u2026"
+    },
+    {
+     "name": "video-editor-brief",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Takes a script and video-scene-replicator output, uses Gemini to match each script line to the best-fitting scene, and generates a comprehensive video editor brief with timeline, v\u2026"
+    },
+    {
+     "name": "video-gen",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": ">-"
+    },
+    {
+     "name": "video-scene-replicator",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Takes a reference video, extracts every scene, uses Nano Banana 2 image-to-image to transform each frame for your brand, animates with Kling 3.0 using extracted motion, and uploads\u2026"
+    },
+    {
+     "name": "watch",
+     "scope": "user",
+     "category": "Video/Creative",
+     "description": "Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or Whisper API fallback), and hands the resul\u2026"
+    }
+   ]
+  },
+  "elapsed_s": 0.0
+ },
+ "gmail": {
+  "ok": true,
+  "data": {
+   "accounts": [
+    {
+     "key": "gmail",
+     "email": "btorradre@gmail.com",
+     "status": "needs_auth"
+    },
+    {
+     "key": "btoec",
+     "email": "btorradre@btoecventures.com",
+     "status": "needs_auth"
+    },
+    {
+     "key": "orelli",
+     "email": "brooks@orelli.com",
+     "status": "needs_auth"
+    }
+   ],
+   "calendar_today": []
+  },
+  "elapsed_s": 0.0
+ },
+ "meta_ads": {
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "elapsed_s": 0.0
+ },
+ "generated_at": "2026-09-13T13:47:09.666844-05:00"
+}

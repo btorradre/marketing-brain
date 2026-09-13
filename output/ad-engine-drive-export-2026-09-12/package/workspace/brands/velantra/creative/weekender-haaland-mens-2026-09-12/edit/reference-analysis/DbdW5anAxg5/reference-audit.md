@@ -1,0 +1,21 @@
+# New selected reference — Alec Grawe / FTL Pro
+
+Source: https://www.instagram.com/p/DbdW5anAxg5/ . Downloaded September 12, 2026. This supersedes the earlier Peggy Gou reference for draft 4. Native media: 720×1280, 30fps, 1,253 frames, 41.766667s picture; 41.773991s audio. SHA256: 5141cf8ed6bc45be824a6948534f4b1300153260854b6689a657282b56b6493c
+
+Coverage: 42 chronological 1-second samples, 30 consecutive candidate pairs, plus enlarged first frame, overhead-demo frame244 and last frame1252. 21 picture-edit candidates verified, including a same-setup organization change; nine other candidates are internal motion/state changes, not new scenes. Boundaries are in cut-map.csv; pair sheets record actual observed frames. The opening handoff at frame76 settles on the same setup at77. This is sampled visual review and verified candidate pairs, not exhaustive every-frame inspection. Continuous folding animation timing/speed and all subtle small edits are not fully audited.
+
+Two model passes extracted speech internally from full video and audio alone. The broad wording agrees, with opening phrase uncertainty (one pass misheard the verb), athlete surname normalization needed (Nabers), and inconsistent automated product-name spelling. The model's word timeline extends to44.1s beyond the41.77s source and is rejected. Do not treat these as final word alignment. Visible captions substantiate sequence and feature labels. Model-only music/SFX observations are unverified by direct listening; a list of reported whoosh timestamps beyond the source is unreliable. No full transcript is reproduced in the deliverables.
+
+| Approximate section clock, based on picture boundaries/captions | Spoken argument, paraphrased | Picture and likely editorial job |
+|---|---|---|
+| 0–4.17 | Athlete names and superlative bag claim | Rapid athlete images establish recognition and lead to the product. |
+| 4.17–8.13 | Smart-bag claim and product name | Product split screen then athlete image; reveal occurs early. |
+| 8.13–16.37 | Consolidation promise and travel-organization problem | Overhead demonstration, outdoor carry, many bags and messy luggage make the claimed problem visible. |
+| 16.37–30.70 | Feature → benefit stack | Foldout garment sequence, shoe compartment, laptop sleeve, opening and trolley attachment show one feature at a time. |
+| 30.70–41.77 | Use cases, fee claim and athlete callback | Arrival looks return to aspiration and finish with a product hero. |
+
+Observed edit language: fast athlete-photo sequence first, then longer product demonstrations. A continuing male cutout presenter holds a small microphone and changes position to avoid the demonstrated feature. Opening red ATHLETE tag and white SMART TRAVEL BAG panel; later compact all-caps white phrase captions sit on dark bars. Caption events are separate from shot changes. Portrait crops alternate with horizontal footage using blurred fill. Main picture edits are direct changes. The product folding sequence contains multiple internal state changes that must not be counted as distinct sourced scenes. Genuine hand actions carry the demonstrations. No basis for naming an editing preset, exact zoom curve, source capture speed or conversion improvement.
+
+Interpretation: the athlete hook makes a practical product feel desirable; the early name prevents prolonged mystery; each feature is immediately connected to a use benefit and shown while named; the closing translates the feature stack into imagined daily situations. These are inferred editorial purposes. Athlete product-use claims, functionality and performance of the reference have not been independently certified.
+
+Transfer to Weekender: retain athlete recognition, early product reveal, confident factual cadence, detail-to-benefit progression and a concise end. Use Haaland as a style reference only; distinctly reveal Velantra. Replace the organizational problem section with positive style criteria under the standing fashion-aspiration instruction. Use the Weekender’s visible shape, Cognac leather/canvas, handles and slip pocket. Do not transfer foldout garment system, shoe separator, laptop fit,30L,roller sleeve,underseat fit,wrinkle prevention or baggage-fee promises. No generic claim that the Weekender is carried by reference athletes.

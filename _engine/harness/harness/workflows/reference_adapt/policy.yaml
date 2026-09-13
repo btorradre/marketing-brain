@@ -1,0 +1,73 @@
+description: Reference video ad in, law-compliant adaptation script + two-lane Cutroom storyboard out. No generation.
+stages: [research, angles, script, storyboard, delivery]
+skills:
+  - direct-response-os
+  - strategize-ad-adaptation
+  - seedance-directors-cut
+  - long-form-copy
+  - cutroom
+inputs:
+  ref:
+    required: true
+    help: reference video URL (TrendTrack share link, Meta library, TikTok, YouTube) or local path
+  angle:
+    required: false
+    help: optional angle or concept constraint from Brooks
+allowed_tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
+  - Skill
+  - WebFetch
+  - mcp__dr-os__dr_pipeline_guide
+  - mcp__dr-os__dr_load_brand
+  - mcp__dr-os__dr_list_playbooks
+  - mcp__dr-os__dr_get_playbook
+  - mcp__dr-os__dr_ingest_reference
+  - mcp__dr-os__dr_lawgate
+  - mcp__dr-os__dr_list_artifacts
+  - mcp__dr-os__dr_read_artifact
+  - mcp__dr-os__dr_save_artifact
+  - mcp__dr-os__dr_push_brief_board
+  - mcp__dr-os__dr_list_boards
+  - mcp__dr-os__dr_push_concept
+  - mcp__dr-os__dr_status
+  - mcp__ad-engine__resolve_reference_tool
+  - mcp__ad-engine__watch_reference_tool
+  - mcp__ad-engine__list_assets
+  - mcp__ad-engine__get_asset
+  - mcp__ad-engine__cost_summary
+disallowed_tools:
+  - mcp__ad-engine__kie_generate
+  - mcp__ad-engine__kie_upload
+  - mcp__ad-engine__eleven_generate_vo
+  - mcp__ad-engine__eleven_clone_voice
+  - mcp__ad-engine__heygen_generate
+  - mcp__ad-engine__heygen_upload_audio
+  - mcp__ad-engine__plan_generate_anchors
+  - mcp__ad-engine__plan_generate_keyframes
+  - mcp__ad-engine__plan_animate_scenes
+flags:
+  generate: false
+  animate: false
+flag_tools:
+  generate:
+    - mcp__ad-engine__kie_generate
+    - mcp__ad-engine__plan_generate_anchors
+    - mcp__ad-engine__plan_generate_keyframes
+    - mcp__ad-engine__eleven_generate_vo
+    - mcp__ad-engine__heygen_generate
+  animate:
+    - mcp__ad-engine__plan_animate_scenes
+budget:
+  max_turns: 120
+  max_budget_usd: 15
+  wall_clock_min: 75
+stop:
+  tool: mcp__dr-os__dr_push_brief_board
+  result_contains: "url"
+model: opus
+effort: high

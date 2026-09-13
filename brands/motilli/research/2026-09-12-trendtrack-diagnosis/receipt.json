@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-09-12T23:14:11.140647+00:00",
+  "task": "User-requested live TrendTrack MCP GLP-1 constipation competitive diagnosis",
+  "mcp_server": "trendtrack-server",
+  "mcp_server_version": "0.0.1",
+  "endpoint": "https://api.trendtrack.io/v1/mcp",
+  "mode": "Authenticated read-only research",
+  "discovery": {
+    "query_count": 16,
+    "returned_rows": 93,
+    "unique_ad_ids": 45,
+    "unique_collation_ids": 45
+  },
+  "selected_cases": [
+    {
+      "brand": "GLP-1 SOS",
+      "raw": "raw/scan-sos-main.json",
+      "collation_id": "818433794685137",
+      "representative_ad_id": "facebook_1532596651995766",
+      "active_ad_ids": [
+        "facebook_1085621653931457",
+        "facebook_1532596651995766"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/video/bb382bba6f05aad91d16583ea2339a5d58fc6541084537679a405a69b70c74aa.mp4"
+    },
+    {
+      "brand": "Cloud / GLP-1 Women talk",
+      "raw": "raw/scan-3291016807753829.json",
+      "collation_id": "1513272747503535",
+      "representative_ad_id": "facebook_3291016807753829",
+      "active_ad_ids": [
+        "facebook_1519895792794446"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/image/c0823460e8748f1a0c709a7af10208354c8f6566b66074c1552e802e57006c60.jpg"
+    },
+    {
+      "brand": "Gliss\u00e9 / The Wellness Journal",
+      "raw": "raw/scan-878420788651528.json",
+      "collation_id": "1784999059539487",
+      "representative_ad_id": "facebook_878420788651528",
+      "active_ad_ids": [
+        "facebook_1779715703053598"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/image/533c0848e3c2cf5375fa1de1a7470e4c4aa7d28aeb2aac591b03b791a875dbe8.jpg"
+    },
+    {
+      "brand": "PiPi / Cholesterol Relief Community",
+      "raw": "raw/scan-pipi-recent.json",
+      "collation_id": "27931908326405568",
+      "representative_ad_id": "facebook_1604509631289921",
+      "active_ad_ids": [
+        "facebook_1604509631289921"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/image/13f860209fe0e925adb60bf5b11e0fb830b3b4b0fa20da08454659b06d3ce686.jpg"
+    },
+    {
+      "brand": "SoWell",
+      "raw": "raw/scan-sowell-group.json",
+      "collation_id": "1389479918971807",
+      "representative_ad_id": "facebook_24781784614835674",
+      "active_ad_ids": [
+        "facebook_1407316390973020"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/video/509bd1e5f71e5fa1630833eb837dadf8fde91571c4875db715ee046e9ad374b6.mp4"
+    },
+    {
+      "brand": "Lunvara / Nyra Basics",
+      "raw": "raw/scan-2835637713488990.json",
+      "collation_id": "1089665200338950",
+      "representative_ad_id": "facebook_2835637713488990",
+      "active_ad_ids": [
+        "facebook_2835637713488990"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/video/27242e25f68a86caa144d8e121ccc6b565fa818ff2020a9c0c292974f927a506.mp4"
+    },
+    {
+      "brand": "Jevawell / Better Digestion Daily",
+      "raw": "raw/scan-1854675355459426.json",
+      "collation_id": "2412449425901164",
+      "representative_ad_id": "facebook_1854675355459426",
+      "active_ad_ids": [
+        "facebook_1854675355459426"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/image/22485cd422458376be3f66dc3eedd5a50cb561e0c139d1b709e4a77486a66a6b.jpg"
+    },
+    {
+      "brand": "Formulite",
+      "raw": "raw/scan-formulite-group.json",
+      "collation_id": "1684217165624736",
+      "representative_ad_id": "facebook_1313972990318526",
+      "active_ad_ids": [
+        "facebook_730206366820657"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/video/c4f04e2aa72cf22e74e8fd2daa0cc9db021e4364d8bf8a593c01578c24da3fd9.mp4"
+    },
+    {
+      "brand": "Nupo",
+      "raw": "raw/scan-1349959323630833.json",
+      "collation_id": "1576752131123370",
+      "representative_ad_id": "facebook_1349959323630833",
+      "active_ad_ids": [
+        "facebook_1349959323630833"
+      ],
+      "media_url": "https://medias.trendtrack.io/facebook/image/2c40c59a3f034d9f256aaeecc4f9123fa267cf0d26bea5a7371690e655fa3eb9.png"
+    }
+  ],
+  "sos_historical_transcript_groups_retrieved": 15,
+  "sos_current_ad_candidates": 10,
+  "sos_current_transcripts_available": 7,
+  "video_frame_audit_performed": false,
+  "report": "REPORT.md",
+  "limitations": [
+    "Sample not category census",
+    "Third-party delivery proxies not financial results",
+    "Inconsistent reach deltas not used for growth conclusions",
+    "Competitor medical/testimonial claims not validated",
+    "Latest Motilli draft untested; store repair has no demonstrated lift"
+  ],
+  "mutations_executed": [
+    "Local research artifacts and shared agent memory only"
+  ]
+}

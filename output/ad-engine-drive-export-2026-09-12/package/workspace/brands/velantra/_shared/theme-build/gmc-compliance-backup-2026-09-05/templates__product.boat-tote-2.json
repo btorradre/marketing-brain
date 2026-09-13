@@ -1,0 +1,322 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An open-top everyday carry in canvas and full-grain leather. Designed to soften with use — built to last decades.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        },
+        "tab_delivery": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free. If something isn&rsquo;t right, reach out &mdash; we&rsquo;ll make it right.<\/p>"
+          }
+        },
+        "tab_care": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "<p><strong>Exterior:<\/strong> Heavyweight 18oz cotton canvas with a quality trim.<br\/><strong>Hardware:<\/strong> Hand-finished solid brass with a brushed antique patina.<br\/><strong>Interior:<\/strong> Cotton twill lining with reinforced stress points.<br\/><strong>Base:<\/strong> Double-layered canvas with reinforced rivets for structure.<\/p><p><strong>Care:<\/strong> Spot clean canvas with a damp cloth and mild soap. Air dry fully before storing. The canvas will soften and develop character with use — this is by design, not a defect. Store upright when not in use. Avoid prolonged exposure to direct sunlight.<\/p>"
+          }
+        },
+        "tab_dim": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Fit",
+            "content": "<p><strong>Width:<\/strong> 20&quot; &nbsp;|&nbsp; <strong>Height:<\/strong> 14&quot; &nbsp;|&nbsp; <strong>Depth:<\/strong> 8&quot;<br><strong>51 &times; 36 &times; 20 cm<\/strong><\/p><p><strong>Strap drop:<\/strong> 10&quot; &mdash; goes over the shoulder or carries in the hand.<\/p><p><strong>What it fits:<\/strong> a 15-inch laptop, a full wallet, a sunglasses case, a water bottle, phone and keys, and a change of clothes on top, with room left over. A true everyday carryall.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "tab_dim",
+        "tab_delivery",
+        "tab_care",
+        "reviews",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Boat Tote",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag — all designed to match.<\/p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we’ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "DESIGN",
+            "headline": "Soft-Sided, Hard-Worn",
+            "body": "<p>Open top, deep cavity, reinforced where it counts. Holds a beach day, a workday, a weekend.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "18oz Cotton Canvas + Brass",
+            "body": "<p>Heavyweight cotton from a New England mill. Hand-finished solid brass hardware with a brushed antique patina.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "LONGEVITY",
+            "headline": "Designed to Be Repaired",
+            "body": "<p>Hand-bound seams. Reinforced webbing handles. We&rsquo;ll fix it free for two years.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "One zip pocket, one slip",
+            "body": "<p>Sized for a phone on one side, a passport on the other.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "AT THE BASE",
+            "headline": "Saddle-leather binding",
+            "body": "<p>Double-stitched corners. Holds shape under a full grocery run.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "LAPTOP READY",
+            "headline": "13-inch sleeve at the back",
+            "body": "<p>Padded by the canvas body. Nothing bounces.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE INSERT",
+            "headline": "Drop-in Bag Organizer",
+            "body": "<p>Six-pocket felt insert. Lifts out, moves between bags.<\/p>",
+            "linked_product": "bag-organizer",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/editorial_navy.jpg",
+            "image_position": "left",
+            "eyebrow": "THE EVERYDAY, ELEVATED",
+            "headline": "Built for the Life You've Already Made",
+            "body": "<p>We designed the Boat Tote for the woman who carries her world with intention. Every stitch is reinforced at the stress points. Every webbing handle is cut and bound to the same exacting standard. The brass hardware is hand-finished and left uncoated so it develops its own character alongside yours.<\/p><p>This isn’t a bag you retire after a season — it’s one that gets better the longer you carry it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered. Lifetime in our shop.",
+            "body": "<p>Two-year warranty on materials and stitching. After that, we repair anything for the cost of materials. Send it back. Get it back better than you sent it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "editorial",
+    "recently_viewed"
+  ]
+}

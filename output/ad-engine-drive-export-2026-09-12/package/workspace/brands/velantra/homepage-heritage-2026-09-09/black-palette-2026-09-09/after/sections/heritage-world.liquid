@@ -1,0 +1,28 @@
+<section class="heritage-world" aria-labelledby="WorldHeading-{{ section.id }}">
+  <div class="heritage-world__intro"><h2 id="WorldHeading-{{ section.id }}">{{ section.settings.heading | escape }}</h2><div>{{ section.settings.copy }}</div></div>
+  <div class="heritage-world__grid">
+    {% for block in section.blocks %}
+      <article class="heritage-world__card" {{ block.shopify_attributes }}>
+        <a class="heritage-world__image" href="{{ block.settings.link }}" aria-label="{{ block.settings.heading | escape }}" style="--world-position:{{ block.settings.image_position }}">
+          {% if block.settings.image != blank %}
+            {{ block.settings.image | image_url: width: 1500 | image_tag: loading: 'lazy', widths: '600,900,1200,1500', sizes: '(min-width: 768px) 50vw, 100vw', alt: block.settings.image_alt }}
+          {% else %}<img src="{{ block.settings.image_url | escape }}" width="1122" height="1402" loading="lazy" alt="{{ block.settings.image_alt | escape }}">{% endif %}
+        </a>
+        <div class="heritage-world__caption"><p class="heritage-eyebrow">{{ block.settings.eyebrow | escape }}</p><h3>{{ block.settings.heading | escape }}</h3><div class="heritage-links"><a href="{{ block.settings.link }}">{{ block.settings.link_label | escape }}</a></div></div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% stylesheet %}
+.heritage-world{background:#f7f5ef;padding:76px 28px 80px;color:#000000}.heritage-world__intro{text-align:center;padding:0 24px 46px}.heritage-world__intro h2{font-family:var(--font-serif);font-weight:400;font-size:48px;line-height:1.15;letter-spacing:-.02em;margin:0 0 17px}.heritage-world__intro>div{font-size:14px;line-height:1.65}.heritage-world__intro p{margin:0}.heritage-world__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1800px;margin:auto}.heritage-world__card{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:4/5;color:white;background:#302c27}.heritage-world__image{display:block;width:100%;height:100%}.heritage-world__image img{display:block;width:100%;height:100%;object-fit:cover;object-position:var(--world-position,50% 50%);transition:transform .65s ease}.heritage-world__card:after{content:'';position:absolute;inset:55% 0 0;pointer-events:none;background:linear-gradient(transparent,rgba(0,0,0,.72))}.heritage-world__card:hover img{transform:scale(1.015)}.heritage-world__caption{position:absolute;bottom:0;left:0;right:0;padding:35px 20px 35px;text-align:center;z-index:1;pointer-events:none}.heritage-world__caption a{pointer-events:auto}.heritage-world__caption .heritage-eyebrow{margin-bottom:10px;font-size:11px}.heritage-world__caption h3{font-family:var(--font-serif);font-weight:400;font-size:46px;line-height:1.05;margin:0}.heritage-world__caption .heritage-links{margin-top:12px}.heritage-world__image:focus-visible{outline:3px solid white;outline-offset:-7px}
+@media(max-width:767px){.heritage-world{padding:48px 14px 50px}.heritage-world__intro{padding:0 10px 30px}.heritage-world__intro h2{font-size:36px}.heritage-world__intro>div{font-size:14px}.heritage-world__grid{grid-template-columns:1fr;gap:16px}.heritage-world__caption{padding:30px 18px 24px}.heritage-world__caption h3{font-size:38px}}
+@media(prefers-reduced-motion:reduce){.heritage-world__image img{transition:none}.heritage-world__card:hover img{transform:none}}
+{% endstylesheet %}
+{% schema %}
+{
+ "name":"World of Velantra","max_blocks":4,
+ "settings":[{"type":"text","id":"heading","label":"Heading","default":"The World of Velantra"},{"type":"richtext","id":"copy","label":"Supporting copy","default":"<p>Distinctive bags. Familiar rituals. A world to make your own.</p>"}],
+ "blocks":[{"type":"world","name":"Collection story","settings":[{"type":"image_picker","id":"image","label":"Image"},{"type":"url","id":"image_url","label":"Image URL"},{"type":"text","id":"image_alt","label":"Image description"},{"type":"text","id":"image_position","label":"Image position","default":"50% 50%"},{"type":"text","id":"eyebrow","label":"Eyebrow"},{"type":"text","id":"heading","label":"Heading"},{"type":"url","id":"link","label":"Link"},{"type":"text","id":"link_label","label":"Link label","default":"Discover"}]}],
+ "presets":[{"name":"World of Velantra","blocks":[{"type":"world"},{"type":"world"}]}]
+}
+{% endschema %}

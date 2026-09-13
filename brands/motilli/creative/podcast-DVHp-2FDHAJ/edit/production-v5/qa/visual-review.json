@@ -1,0 +1,19 @@
+{
+  "review_scope": "Read-only review of concurrently active production/v5 assets; preserve that production run and do not duplicate render submissions.",
+  "host": {
+    "source": "production/v5/host-avatar-master.mp4",
+    "observed": "1080x1920 25fps 30.24 seconds; image at 1s preserves female reference and microphone. Footer remains visible.",
+    "remaining": "Full lip-sync, motion and spoken-word review still required. Reference presenters and clinical dialogue clearance question remains unanswered in this thread."
+  },
+  "stomach": {
+    "source": "production/v5/broll/stomach-open/original.mp4",
+    "observed": "720x1280 24fps 10.005 seconds; frames at 1s/3s show open anatomical interior, fluid, navy background, no text. Camera moves closer.",
+    "remaining": "Review selected range in Resolve and decode QA. Native source is 720p, not native 1080p."
+  },
+  "voice": {
+    "authorized_parker_clone": "ewko4I4aHqR0FVZQ9gby",
+    "guest_audio": "edit/production-v5/audio/guest-raw.mp3",
+    "status": "Complete alternate take; existing production/v5 uses another authorized clone and already submitted renders. Do not replace active render audio accidentally."
+  },
+  "delivery_status": "Final ad not yet assembled or verified by this thread."
+}

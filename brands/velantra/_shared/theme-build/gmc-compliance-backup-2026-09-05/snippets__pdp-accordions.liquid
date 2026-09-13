@@ -1,0 +1,53 @@
+{%- comment -%} Velantra PDP accordion group — Vestirsi-style. Description open by default. {%- endcomment -%}
+<div class="v-pdp-acc">
+  <details class="v-acc" open>
+    <summary>Description</summary>
+    <div class="v-acc-body v-acc-desc">{{ product.description }}</div>
+  </details>
+
+  <details class="v-acc">
+    <summary>Details</summary>
+    <div class="v-acc-body">
+      <p>Structured, considered construction made to last through years of real use. Reinforced stitching throughout and a spacious, organized interior.</p>
+      <p>Designed to wear in and improve with age — built for decades, not seasons.</p>
+    </div>
+  </details>
+
+  <details class="v-acc">
+    <summary>Delivery</summary>
+    <div class="v-acc-body">
+      <p>Complimentary shipping on all orders, delivered within 7 to 10 business days.</p>
+      <p>Free 30-day returns and exchanges. If something isn't right, reach out — we'll make it right.</p>
+    </div>
+  </details>
+
+  <details class="v-acc">
+    <summary>Care</summary>
+    <div class="v-acc-body">
+      <p>Wipe clean with a soft, dry cloth. Store away from direct heat and prolonged sunlight, and rest the bag in its dust cover between uses.</p>
+      <p>Handle natural materials gently — they soften and deepen in character over time.</p>
+    </div>
+  </details>
+</div>
+
+<style>
+  .v-pdp-acc { margin: 6px 0 4px; }
+  .v-pdp-acc .v-acc { border-top: 1px solid rgba(0,0,0,0.12); }
+  .v-pdp-acc .v-acc:last-child { border-bottom: 1px solid rgba(0,0,0,0.12); }
+  .v-pdp-acc .v-acc > summary {
+    list-style: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 2px; font-size: 1.05rem; font-weight: 500; line-height: 1.2;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .v-pdp-acc .v-acc > summary::-webkit-details-marker { display: none; }
+  .v-pdp-acc .v-acc > summary::after {
+    content: "+"; font-size: 1.4rem; font-weight: 400; line-height: 1;
+    margin-left: 16px; transition: transform 0.2s ease;
+  }
+  .v-pdp-acc .v-acc[open] > summary::after { content: "\2013"; }
+  .v-pdp-acc .v-acc-body { padding: 0 2px 24px; }
+  .v-pdp-acc .v-acc-body p { font-size: 1rem; line-height: 1.65; margin: 0 0 16px; opacity: 0.9; }
+  .v-pdp-acc .v-acc-body p:last-child { margin-bottom: 0; }
+  .v-pdp-acc .v-acc-desc .v-pdp-epithet { font-size: 1.02rem; opacity: 0.75; margin-bottom: 16px; }
+</style>

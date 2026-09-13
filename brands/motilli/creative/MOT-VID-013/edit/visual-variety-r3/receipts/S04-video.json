@@ -1,0 +1,42 @@
+{
+  "id": "S04",
+  "kind": "video",
+  "model": "google/gemini-omni-flash-1-1",
+  "duration": 4,
+  "edit_duration": 2.233333,
+  "input": {
+    "prompt": "A single continuous silent vertical medical illustration shot beginning exactly with the supplied image. Preserve this isolated stomach exterior and its anatomical silhouette. One subtle slow natural wall contraction moves toward the pyloric outlet; restrained motion, no dramatic squeezing or treatment effect. Fixed camera with a very slight oblique drift. No torso, no cutaway food pool, no new organs, no magical glow, no captions, no added labels, no speech, no cuts. Render a 9:16 1080p four-second source clip; this is a B-roll asset for an existing edit.",
+    "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788976912242-jok1k4fvz88.png",
+    "duration": "4",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p"
+  },
+  "job": {
+    "id": "job_3ec2129e77e9",
+    "engine": "kie",
+    "kind": "generate",
+    "model": "google/gemini-omni-flash-1-1",
+    "status": "success",
+    "external_task_id": "9aaec62a03878c46fbc3d9cad0ab1c05",
+    "brand": "motilli",
+    "concept": "MOT-VID-013-visual-variety-r3",
+    "error": null,
+    "created_at": "2026-09-09T18:07:10.393847+00:00",
+    "updated_at": "2026-09-09T18:09:12.000055+00:00",
+    "input": {
+      "prompt": "A single continuous silent vertical medical illustration shot beginning exactly with the supplied image. Preserve this isolated stomach exterior and its anatomical silhouette. One subtle slow natural wall contraction moves toward the pyloric outlet; restrained motion, no dramatic squeezing or treatment effect. Fixed camera with a very slight oblique drift. No torso, no cutaway food pool, no new organs, no magical glow, no captions, no added labels, no speech, no cuts. Render a 9:16 1080p four-second source clip; this is a B-roll asset for an existing edit.",
+      "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788976912242-jok1k4fvz88.png",
+      "duration": "4",
+      "aspect_ratio": "9:16",
+      "resolution": "1080p"
+    },
+    "output": {
+      "asset_ids": [
+        "asset_6472abab17ad"
+      ],
+      "credits_consumed": 63.0
+    }
+  },
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/edit/visual-variety-r3/motion/S04.mp4",
+  "source_url": "https://tempfile.aiquickdraw.com/v/9aaec62a03878c46fbc3d9cad0ab1c05_1788977308.mp4"
+}

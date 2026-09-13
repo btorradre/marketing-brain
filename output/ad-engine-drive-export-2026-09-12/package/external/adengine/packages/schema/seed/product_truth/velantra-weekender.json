@@ -1,0 +1,336 @@
+{
+  "name": "Velantra Weekender",
+  "slug": "weekender",
+  "brand_slug": "velantra",
+  "category": "travel bag",
+  "positioning": "\"Birkin-inspired travel bag, perfect for the weekend.\" NEVER write \"Birkin\" in generation prompts — the kie runner's claims-grep blocks it and it must never appear customer-facing. Say \"travel bag\" / \"weekend bag\".",
+  "price": null,
+  "identity_block": "a structured two tone weekend bag, wider than tall, rich cognac brown leather upper flap section and two rolled cognac leather top handles over a [cream ivory woven canvas | deep army green twill canvas] body, a small gold oval turn lock on the front, two flat gold clasp plates with cognac leather belt straps threaded through them, a small cognac leather key bell tied to the handle base, cognac leather corner patches at the bottom, a small gold eyelet high on each side face, visible stitching, gold hardware, no logos anywhere on the bag, smooth caramel tan leather interior lining with a wide matching caramel slip pocket on the interior wall",
+  "mechanism_block": "Open bag construction: the open bag keeps the exact same two tone split as the closed bag in the reference image. The entire upper section of the bag body, across the front, the back and both sides, is smooth rich cognac brown leather, exactly as deep as the cognac leather upper section on the closed reference bag, and everything below it is [cream ivory woven canvas | deep army green twill canvas]. Folding the flap back does NOT change this split: the line where the leather ends and the canvas begins sits in exactly the same place as on the closed reference bag. The two rolled cognac leather top handles are anchored directly into this wide leather upper band with sturdy leather bases, never into the canvas. Two flat vertical gold staples stand on the leather band, each made of TWO PARALLEL FLAT GOLD BARS side by side, and a single small knurled gold mushroom headed post stands at the front centre of the band. There is NO oval plate on the band: the one and only gold oval keyhole plate in the whole picture is the one on the folded back flap's centre tab. Both rolled handles STAND UPRIGHT and arch cleanly over the open mouth in a firm rounded loop, never drooping, sagging or hanging as a long slack loop across the front or over the canvas. The two cognac leather belt straps hang straight DOWN and unfastened close to the left and right SIDE edges, so each strap's lower portion lies flat against the canvas and its tip plate stays near its side edge; they never cross the middle of the front, never run diagonally and never reach the bottom edge. The wide leather band on the front is plain smooth leather and is part of the bag body: no tab sections, no scalloped edges, no pocket shape, no turn lock pocket, it is not a flap. The entire cognac leather flap, one single piece, is folded backward over the top rear edge of the bag and leans back behind the open mouth, clearly visible from the front: the inside face of the flap stands behind the opening showing its two keyhole shaped handle cutouts, its two small oval strap slots and its small gold oval plate with a shaped keyhole cutout, with the rear rolled handle rising above it. The flap never covers the front of the bag and never splits into pieces. The mouth of the bag is a clean open oval at the top of the leather section, showing the smooth caramel tan leather interior lining and the wide matching caramel slip pocket on the interior wall. The bag has NO zipper anywhere, no zipper track, no zipper teeth, no zipper pull along the mouth of the bag, and no embossed text or lettering anywhere on the bag.",
+  "extra_blocks": [
+    {
+      "name": "closure hardware",
+      "text": "Front closure hardware, exactly as on the reference photo: at the front center of the leather band stands a small gold turn post with a round knurled mushroom shaped head. The flap's center tab carries a polished gold oval plate with a shaped keyhole cutout in its middle, and when the flap is down this tab rests over the post so the gold post head shows through the cutout. To the left and right, two flat vertical gold staples stand on the leather band; when the flap is down its two small oval slots sit over these staples so the staples poke through. The two cognac leather belt straps come over the top from the back of the bag, and each strap tip carries a flat gold rounded rectangular end plate with an oblong slot and small dome rivets, which hooks over its staple. When unfastened, the straps hang straight DOWN close to the left and right SIDE edges with their gold end plates visible, lying flat against the canvas near those side edges; they never cross the middle of the front, never run diagonally and never reach the bottom edge. Each staple is TWO PARALLEL FLAT GOLD BARS side by side, never one solid blade and never a buckle. The knurled mushroom post appears ONCE, at the front centre of the band; never render both a post through the plate and a second post below the flap edge. The oval plate itself is FLAT and flush against the leather with a smooth polished face and an EMPTY cross shaped keyhole cutout punched through it, flanked by two TINY PLAIN SMOOTH DOME RIVETS sitting almost flush: no barrel, no cylinder, no knurled drum, no turning bar or toggle standing proud of the plate face, and the rivets are never slotted screws. The handles pass through keyhole shaped cutouts in the flap with stitched edges. All hardware is the same warm brass gold, both sides identical, no silver, no chrome.",
+      "when": "paste whenever the front hardware is large in frame — macros, closed-bag beats, product shots"
+    },
+    {
+      "name": "photoreal",
+      "text": "Use the attached photo ONLY as the reference for the bag's shape, proportions, materials, colours, stitching and hardware. Do NOT copy its lighting, its white background, its clean edges or its polished studio product-photo look. That attachment is a catalogue image and the picture you produce must not resemble one. Create ...",
+      "when": "MANDATORY in EVERY keyframe / static / b-roll prompt"
+    }
+  ],
+  "colorways": [
+    {
+      "name": "Light Chocolate",
+      "description": "cream pin-dot canvas + cognac leather — launch hero",
+      "hero": true
+    },
+    {
+      "name": "Army Green",
+      "description": "deep olive canvas + tan leather"
+    },
+    {
+      "name": "Dark Chocolate",
+      "description": "cream canvas + very dark espresso chocolate leather, gold hardware unchanged — RELEASED 2026-08-08 pm as the third variant, $159.99"
+    }
+  ],
+  "dimensions": {
+    "width_in": 18.0,
+    "height_in": 14.5,
+    "depth_in": 7.0,
+    "raw": "18\" W × 14.5\" H × 7\" D"
+  },
+  "materials": [
+    "leather",
+    "canvas",
+    "twill",
+    "gold hardware",
+    "woven"
+  ],
+  "banned_terms": [
+    {
+      "term": "Birkin",
+      "reason": "- Positioning (internal): \"Birkin-inspired travel bag, perfect for the weekend.\" NEVER write \"Birkin\" in generation prompts — the kie runner's claims-grep blocks it and it must never appear customer-facing. Say \"travel b",
+      "scope": "prompt"
+    }
+  ],
+  "required_phrases": [
+    "SCALE IS CRITICAL. This is a LARGE TRAVEL BAG, 18 inches wide by 14.5 inches tall by 7 inches deep, big enough to pack two to three days of clothes. It is NOT a handbag, NOT a purse, NOT a medium tote. Roughly the size of a carry-on duffel. Render it noticeably oversized rather than too small.",
+    "copy the exact pronunciation of every word in @Audio1, especially the brand name.",
+    "BOTH handles are clearly visible standing upright: the front handle rises from the front leather band, the rear handle rises from the back leather band in front of the folded back flap. Never omit the front handle."
+  ],
+  "claims": [
+    {
+      "claim": "holds three days of clothing",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md#L16"
+    },
+    {
+      "claim": "slides into the overhead bin",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md#L16"
+    },
+    {
+      "claim": "keeps its shape packed full or barely at all",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md#L16"
+    },
+    {
+      "claim": "smooth leather fold-over flap",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md#L16"
+    },
+    {
+      "claim": "reinforced handles",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md#L16"
+    },
+    {
+      "claim": "contrast stitching",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md#L16"
+    }
+  ],
+  "engine_notes": [
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "Wire real-product-2026-08-08/LC-closed-front-unfastened.jpg as the product reference (2026-08-08 — replaces light chocolate 1.webp as default; open shots never go to Seedance per the rules above); paste both verbatim blocks into the prompt."
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "✅ THE FIX FOR \"VELANTRA\" (2026-08-07): put the correct pronunciation in the AUDIO REFERENCE, not in the spelling. Seedance copies pronunciation from reference_audio_urls into its own NATIVE audio. Proven on the 13s ASKME25-04 run: audio ref = an ElevenLabs VO saying \"Velantra\" correctly → Seedance's own generated audio said \"Velantra\" correctly. Recipe: clone the creator voice in ElevenLabs (eleven_v3, stability 0.0, similarity 0.85), generate the script, verify with word-level STT and pick a take that says the brand right (2 of 3 takes were correct), upload it as reference_audio_urls, keep ge"
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "🔊 SPELLING HACKS DO NOT WORK FOR \"VELANTRA\". Six attempts, six failures (2026-08-07): plain \"Velantra\"→\"Volantra\"; VOICE-block phonetic guidance→\"Valenza\"; in-line \"Vel-ahn-tra\"→\"Volantre\"; \"Vellantra\"→\"Volantra\"; \"Valantra\"→\"Volantre\"; a sixth→\"Velanta\". The model has a hard prior pulling \"Vel\" to \"Vol\". Do not burn credits re-testing spellings — use the audio-reference fix above."
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "🔊 (superseded by the above) \"VELANTRA\" CANNOT BE SPOKEN BY SEEDANCE NATIVE AUDIO. The invented brand name gets normalised to a real-sounding word every time, and the failure is not stable enough to prompt around: plain spelling → \"Volantra\"; explicit pronunciation guidance in the VOICE block → \"Valenza\"; in-line phonetic \"Vel-ahn-tra\" → \"Volantre\"; a fourth run → \"Velanta\". This is the same class of limitation as the model being unable to SPELL \"Weekender\", and it has the same fix: keep the invented proper noun out of the native TTS. Write the line as \"this Weekender\" or \"this bag\" and carry V"
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "✅ \"Weekender\" IS fixable in native audio. Plain spelling drops the D (\"Weekener\"). All-caps WEEK-ender fixes the D but sounds forced. What works: leave the word spelled normally in the DIALOGUE line and put the pronunciation guidance in the VOICE block instead — \"'Weekender' is said WEEK-en-der, three syllables, sounding the D clearly before the final er, spoken naturally with no exaggerated stress.\" Validated correct on two runs."
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "🔊 (superseded, kept for context) NEVER let Seedance SAY \"Weekender\" from the plain spelling either (2026-08-07, Brooks: \"she says weekener when it should be weekender\"). The native-audio TTS drops the D the same way the text renderer drops letters — it is the same failure in a different channel, and it recurs on every Weekender run. Write the word phonetically in the DIALOGUE line: WEEK-ender or Week Ender (two words). ByteDance's own documented workaround for a mispronounced word is to substitute a spelling that reads correctly aloud. Always re-transcribe the finished audio and check the bran"
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "NEVER render the word \"Weekender\" as native on-screen text. Seedance misspelled it 2 of 2 attempts (\"Weekaner\", \"Weekaver\"). Any caption containing \"Weekender\" gets a post overlay: generate the clip with NO caption in the prompt (native VELANTRA wordmark is fine — renders reliably), then overlay via caption PNG + ffmpeg (this machine's ffmpeg has NO drawtext — use Pillow to render the PNG; script pattern: Freja pack scratchpad/overlay_caption.py, white ~4.2%-of-width Helvetica Neue at 88% height)."
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "Silver-plate attractor (2026-07-28, 3 of 5 rolls): Seedance recurrently renders the RIGHT front clasp plate silver/white while the left stays gold, even with \"all hardware gold\" pinned. Pin it asymmetric-explicit up front: \"BOTH clasp plates are the SAME warm brass gold, the RIGHT plate identical in color to the LEFT plate, no silver, no chrome, no white metal on any hardware.\" If it still renders silver on an otherwise clean take, ship it and have the editor do a tracked warm tint (pixel keying CANNOT separate the plate from the near-neutral cream canvas, verified by sampling)."
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "Two-line native captions: never delimit lines with periods (they render into the caption). Phrase as: \"the caption reads exactly: <full sentence>. It is split across two centered lines, the first line ends after the word <X> and has no punctuation at its end.\""
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "Per-segment native text drifts in size/placement between segments. Pin it: \"small, the same height as the <other> line, sits low in the frame just above the bottom edge, never in the middle of the frame.\""
+    },
+    {
+      "engine": "Seedance 2.0 via kie.ai (velantra-ugc runner)",
+      "note": "No em dashes/ellipses in prompts (claims-grep), no \"Birkin\", no origin claims."
+    },
+    {
+      "engine": "Google Omni (omni-ugc pipeline, video-native — no keyframe step)",
+      "note": "✅ VALIDATED 2026-07-11 pm — the mechanism block above produced a Brooks-approved open-bag packed shot on Omni (\"this is perfect, this is exactly how the bag should open\"), reference = closed light chocolate hero only. Exact validated prompt: references/omni-open-bag-validated.md in this skill folder. Approved clip saved at brands/velantra/products/weekender/broll/Open_bag_packed_for_weekend_202607111429.mp4 and verified frame-by-frame (12 frames over 8s): construction holds through the entire push-in with zero morphing — flap stays one piece, band depth constant, no zipper ever appears. One AC"
+    },
+    {
+      "engine": "Google Omni (omni-ugc pipeline, video-native — no keyframe step)",
+      "note": "Observed open-bag failure modes en route (2026-07-11, all caught by Brooks): (a) invented a full ZIPPER mouth (gold track + pull) — the bag has no zipper, the no-zipper negation in the mechanism block is mandatory; (b) rendered the folded-back flap as a malformed stiff punched panel (a visible flap leaning back behind the mouth is CORRECT — the fail was its wrong construction, not its visibility); (c) stripped the leather upper band off the body — handles anchored into bare canvas with small stitched tabs, all front leather reduced to a hairline (this survived two prompt rounds because the pro"
+    },
+    {
+      "engine": "Google Omni (omni-ugc pipeline, video-native — no keyframe step)",
+      "note": "Product reference for open-bag runs: the light chocolate colorway; the closed hero works since the prompt ties the mouth trim to \"the leather trim that sits underneath the flap on the closed bag in the reference image.\""
+    },
+    {
+      "engine": "Google Omni (omni-ugc pipeline, video-native — no keyframe step)",
+      "note": "If a packed-contents scene includes a toiletry pouch or other zippered prop, state \"the only zipper in the entire scene belongs to the small pouch.\""
+    },
+    {
+      "engine": "GPT Image 2 (static product shots, i2i only — never Nano Banana)",
+      "note": "Full validated prompt pack: brands/velantra/products/weekender/product-images/weekender-multishot-prompts.md (Cuyana-style system, includes the flap-mechanism language for open shots and dimension-text removal). ⚠️ That pack's open-shot language predates the FINAL wide-band truth (\"leather upper trim\" undersizes the band) — for open shots use the mechanism block above, not the pack's Shot 3/4 wording."
+    },
+    {
+      "engine": "GPT Image 2 (static product shots, i2i only — never Nano Banana)",
+      "note": "Product shots are ALWAYS pure i2i from the canonical refs."
+    },
+    {
+      "engine": "GPT Image 2 (static product shots, i2i only — never Nano Banana)",
+      "note": "Access path (2026-07-17): Higgsfield workspace is free-plan/0-credits and Pixa is out of org credits — run GPT Image 2 via kie.ai: model gpt-image-2-image-to-image, createTask flow, input_urls from the kie temp-file upload. Validated open-bag combo: ref 1 = still from the validated broll clip, ref 2 = light chocolate 4.webp, mechanism block pasted with pointers reworded to \"the first reference image\". Working example (E2 email interior shot, Brooks-approved pipeline): weekender-interior-open.jpg on the Shopify CDN."
+    },
+    {
+      "engine": "GPT Image 2 (static product shots, i2i only — never Nano Banana)",
+      "note": "QA addition (2026-07-17, caught in self-audit): GPT i2i from the broll still dropped the FRONT handle entirely on attempt 1. Every open-bag prompt must pin: \"BOTH handles are clearly visible standing upright: the front handle rises from the front leather band, the rear handle rises from the back leather band in front of the folded back flap. Never omit the front handle.\" Add missing-front-handle to the regenerate-on-sight FAIL list."
+    }
+  ],
+  "reference_assets": [
+    {
+      "role": "master_seed",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-closed-front-unfastened.jpg",
+      "note": "Default closed-bag @Image — light chocolate, front, flap down, straps hanging",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-closed-side-strap-detail.jpg",
+      "note": "Side construction: hanging belt strap (riveted tip, gold-lined slot), canvas weave macro",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-macro-turnlock-flap.jpg",
+      "note": "Hardware macro: flap plate + post head through cutout, staple, kelly plate",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-open-flap-foldback-front.jpg",
+      "note": "Open bag mid-fold: flap folding back, caramel interior appearing",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-open-flap-inner-face-interior.jpg",
+      "note": "Open-bag truth: flap inner face (keyhole cutouts, oval plate) + caramel interior",
+      "colorway": null
+    },
+    {
+      "role": "lifestyle",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-open-band-post-hand.jpg",
+      "note": "Open front band: knurled gold post, teardrop handle bases, hand for scale",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-open-interior-slip-pocket.jpg",
+      "note": "Interior: caramel lining + wide slip pocket, mouth held open",
+      "colorway": null
+    },
+    {
+      "role": "lifestyle",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-hand-scale-front.jpg",
+      "note": "Scale anchor: adult hand spans only a fraction of the front",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/AG-closed-front.jpg",
+      "note": "Army green: front / 3-4 / full-frame hero / hardware macro",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/AG-closed-three-quarter.jpg",
+      "note": "Army green: front / 3-4 / full-frame hero / hardware macro",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/AG-still-closed-front.jpg",
+      "note": "Army green: front / 3-4 / full-frame hero / hardware macro",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "brands/velantra/products/weekender/product-references/real-product-2026-08-08/AG-macro-turnlock-staple.jpg",
+      "note": "Army green: front / 3-4 / full-frame hero / hardware macro",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/velantra/products/weekender/product-images/product images/light chocolate 1.webp",
+      "note": "Closed catalogue hero — clean silhouette/geometry backup. ⚠️ Studio cutout: proven source of the 3D-render look; prefer LC-closed-front-unfastened.jpg as @Image",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/velantra/products/weekender/product-images/product images/light chocolate 4.webp",
+      "note": "Open-interior backup — top-down open. Material identity only; do NOT derive mechanism language from it (angle hides the leather band)",
+      "colorway": null
+    },
+    {
+      "role": "lifestyle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/velantra/products/weekender/broll/Open_bag_packed_for_weekend_202607111429.mp4",
+      "note": "✅ Validated open-bag MOTION truth (2026-07-11, Brooks-approved, frame-by-frame QA passed) — canonical fold-back look: one-piece flap leaning back behind the mouth, wide leather band with handles ancho",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/velantra/products/weekender/product-images/product images/light chocolate 2/3/5/6.webp",
+      "note": "Alternate angles, light chocolate",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/velantra/products/weekender/product-images/product images/green 1-6.webp",
+      "note": "Army green twill colorway (dark muted olive, not bright green), same leather/hardware",
+      "colorway": null
+    }
+  ],
+  "qa_checklist": [
+    "Real-product still from real-product-2026-08-08/ wired as a reference image? (closed → LC-closed-front-unfastened.jpg; open → LC-open-flap-inner-face-interior.jpg; hardware-prominent → LC-macro-turnlock-flap.jpg too; army green → the AG-* files)",
+    "Identity block pasted verbatim? Colorway bracket resolved? (interior = caramel leather, never cream canvas)",
+    "Front hardware large in frame? → Closure hardware block pasted.",
+    "Photoreal block pasted as the footer, AND the reference-anchoring preamble at the top of every i2i prompt? (the single most-missed step — it is what makes frames come back as 3D renders)",
+    "Bag open anywhere in the shot? → Mechanism block pasted + light chocolate 4.webp wired as a reference.",
+    "On-screen text contains \"Weekender\"? → strip from prompt, post overlay.",
+    "Full-body/small-in-frame? → add the anti-drift hardening line.",
+    "No \"Birkin\", no em dashes, no origin claims in the prompt.",
+    "3 variants queued for every scene, with a pick step before anything is animated?",
+    "uniform polished leather with no creases or scuffs",
+    "clean even lighting with no blown highlights and no noise",
+    "perfect centred framing",
+    "tack-sharp everywhere",
+    "spotless surfaces",
+    "a background that reads as a set rather than a real room."
+  ],
+  "version": 1,
+  "extracted_from": {
+    "path": "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md",
+    "sha256": "7a417ef2f7f28ba7a9cb27571cd0630d96a997ff945b7774381e7c188b58390b",
+    "extracted_at": "2026-09-03T00:05:43+00:00",
+    "extractor": "scripts/extract_product_truth.py"
+  },
+  "extraction": {
+    "confidence": {
+      "category": "low",
+      "name": "high",
+      "identity_block": "high",
+      "mechanism_block": "high",
+      "extra_blocks": "high",
+      "colorways": "medium",
+      "dimensions": "medium",
+      "materials": "low",
+      "banned_terms": "medium",
+      "required_phrases": "low",
+      "claims": "medium",
+      "engine_notes": "medium",
+      "reference_assets": "medium",
+      "qa_checklist": "medium"
+    },
+    "notes": []
+  }
+}

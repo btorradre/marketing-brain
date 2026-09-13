@@ -1,0 +1,73 @@
+{
+  "shot": "S22",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "Macro scientific material animation in clear moving water: the existing fine translucent strands drift together gently from left to right, and several small water bubbles travel upward past the foreground strands. Clear visible relative motion, not a frozen still. Preserve strand thickness and length throughout. They remain separate dispersed strands, never clumping or turning into gel. Camera stays fixed. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S22.png",
+  "reference_sha256": "6d92fc6f2b12db1dcee958e21544b25f9e7c3069c018b2ea8c07bae99dd39708",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdCTVNnYXFYT0ktcVo2ZGtQd1p5OHVBMBIXQk1TZ2FxWE9JLXFaNmRrUHdaeTh1QTA",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/revisions/S22.mp4",
+  "sha256": "ef612e1aa52d1fbc6a2770d96f881ae27c8006b2632dd24bc17de378d5c1bb8f",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60096,
+    "total_input_tokens": 1201,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 101
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58396,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 499,
+    "raw_prompt_token": 31360,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1894
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 483
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 499
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

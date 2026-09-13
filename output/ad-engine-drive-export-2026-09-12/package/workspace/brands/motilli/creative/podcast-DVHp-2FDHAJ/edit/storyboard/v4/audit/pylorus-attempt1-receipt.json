@@ -1,0 +1,26 @@
+{
+  "id": "pylorus",
+  "model": "gpt-image-2-text-to-image",
+  "input": {
+    "prompt": "Create ONE vertical 9:16 first frame for a scientific educational animation, a detailed realistic medical 3D illustration, non-gory. Deep dark navy blue backdrop #081b35, natural pink tissue, subtle teal rim light, warm contents. The requested anatomical subject fills the central 75% of the frame. Absolutely NO text, labels, arrows, numbers, logos, captions, panels, inset diagrams, white background, glowing magic or face. Not a clinical recording. Close detailed oblique cutaway of the stomach ANTRUM narrowing into the PYLORIC SPHINCTER and the very beginning of duodenum. Only the outlet region is visible, not an entire stomach. One natural muscle squeeze advances a thin stream of tan liquid chyme through the open pyloric channel. Continuous anatomically connected lumen. Distinct from wide open-stomach shot and from intestinal muscle tube. No instant cure or dramatic before/after.",
+    "aspect_ratio": "9:16"
+  },
+  "job": {
+    "id": "job_f7cb7cf0f16d",
+    "engine": "kie",
+    "kind": "generate",
+    "model": "gpt-image-2-text-to-image",
+    "status": "fail",
+    "external_task_id": "bce8d1430b9a981645780c1d58e3ae87",
+    "brand": "motilli",
+    "concept": "podcast-DVHp-2FDHAJ-storyboard-v4",
+    "output_json": null,
+    "error": "400: Sorry, but the image we created may violate OpenAI's content policies.",
+    "created_at": "2026-09-10T01:18:23.052283+00:00",
+    "updated_at": "2026-09-10T01:21:40.263068+00:00",
+    "input": {
+      "prompt": "Create ONE vertical 9:16 first frame for a scientific educational animation, a detailed realistic medical 3D illustration, non-gory. Deep dark navy blue backdrop #081b35, natural pink tissue, subtle teal rim light, warm contents. The requested anatomical subject fills the central 75% of the frame. Absolutely NO text, labels, arrows, numbers, logos, captions, panels, inset diagrams, white background, glowing magic or face. Not a clinical recording. Close detailed oblique cutaway of the stomach ANTRUM narrowing into the PYLORIC SPHINCTER and the very beginning of duodenum. Only the outlet region is visible, not an entire stomach. One natural muscle squeeze advances a thin stream of tan liquid chyme through the open pyloric channel. Continuous anatomically connected lumen. Distinct from wide open-stomach shot and from intestinal muscle tube. No instant cure or dramatic before/after.",
+      "aspect_ratio": "9:16"
+    }
+  }
+}

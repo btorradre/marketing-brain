@@ -1,0 +1,2428 @@
+{
+  "runs": [
+    {
+      "mode": "immediate",
+      "index": 0,
+      "network": [
+        {
+          "at_ms": 537,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 594,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 2027,
+          "url": "https://velantrafashion.com/cart/add.js?",
+          "method": "POST",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "09347353-d344-495d-b38d-59e5ae1cfc9f-1788624824"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "d651f584fd6f"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            },
+            {
+              "name": "cart",
+              "value_hash": "5ddc0b4de957"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "cart": {
+            "added_variant": 44462686830657,
+            "quantity": 1
+          }
+        },
+        {
+          "at_ms": 2186,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "078dcbe3-6169-4bde-bd34-53501ed65be4-1788624824"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "3be38aa634e1"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            },
+            {
+              "name": "cart",
+              "value_hash": "5ddc0b4de957"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 2300,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "932a62b1-0e22-4f06-a720-0535c9899c77-1788624824"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        },
+        {
+          "at_ms": 2427,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "8431d89d-1ea6-450e-b0a4-d13cca03ce30-1788624825"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "5ddc0b4de957",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2534,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "444941a8-fe01-448b-bfbc-01c9ad6408b1-1788624825"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "5ddc0b4de957",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 3069,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "96ea5b22-d3d7-4331-9536-d12a3a23fb00-1788624825"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            },
+            {
+              "name": "localization",
+              "value_hash": "9b202ecbc6d4"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_essential",
+              "value_hash": "42b89f26d6a3"
+            }
+          ],
+          "html_cart_lines": 1,
+          "html_empty": false,
+          "html_theme_id": "{\"name\":\"Velantra \u2014 Quiet Luxury \\/ R40\",\"id\":151337074753,\"schema_name\":\"Velantra Quiet Luxury\",\"schema_version\":\"1.0.0\",\"theme_store_id\":null,\"role\":\"unpublished\"}"
+        },
+        {
+          "at_ms": 3098,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 3167,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 3598,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "e4e714e1-c1c5-450b-ad7d-fae2eee9e92d-1788624826"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "cd200f6dd8c4"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            },
+            {
+              "name": "cart",
+              "value_hash": "5ddc0b4de957"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 3705,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "42eded1b-c00c-413b-8f6c-9ea110de13c8-1788624826"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        },
+        {
+          "at_ms": 4035,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "1edbf649-6531-46cc-ac37-57cadd267ad0-1788624826"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "683f6073cd07"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            },
+            {
+              "name": "localization",
+              "value_hash": "9b202ecbc6d4"
+            },
+            {
+              "name": "cart",
+              "value_hash": "5ddc0b4de957"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 4107,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_analytics",
+              "value_hash": "771cde391558"
+            },
+            {
+              "name": "_shopify_marketing",
+              "value_hash": "e020441d4928"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "0a4e4de6c159"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f3f5984c6fb9"
+            }
+          ]
+        },
+        {
+          "at_ms": 5090,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cache-control": "max-age=31536000, public",
+            "cf-cache-status": "MISS",
+            "x-request-id": "51b4b558-f230-4b8e-bae6-c9adb122b506-1788624827"
+          },
+          "set_cookies": []
+        },
+        {
+          "at_ms": 5096,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "5ddc0b4de957",
+          "headers": {
+            "cache-control": "max-age=31536000, public",
+            "cf-cache-status": "MISS",
+            "x-request-id": "b702f18b-2a5c-455d-9425-f85479548ba4-1788624827"
+          },
+          "set_cookies": []
+        }
+      ],
+      "page_errors": [],
+      "cookies": {
+        "before_add": [
+          {
+            "name": "_shopify_essential",
+            "value_hash": "1c7fd85afd82",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "drawer_ready": [
+          {
+            "name": "cart",
+            "value_hash": "5ddc0b4de957",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "3be38aa634e1",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "cart_page": [
+          {
+            "name": "cart",
+            "value_hash": "5ddc0b4de957",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "42b89f26d6a3",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "after_api": [
+          {
+            "name": "cart",
+            "value_hash": "5ddc0b4de957",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "cd200f6dd8c4",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ]
+      },
+      "checkouts": [],
+      "drawer_text": "Your selection\n\u00d7\nThe Vivienne Top Handle Bag\n\nChocolate\n\n$149.99\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n\u2212\n1\n+\nRemove\n\nSubtotal\n$149.99\n\nShipping and taxes calculated at checkout.\n\nPROCEED TO CHECKOUT\nVIEW YOUR SELECTION",
+      "main_text": "Your bag\nCONTINUE EXPLORING\nThe Vivienne Top Handle Bag\n\nChocolate\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n$149.99\n\nQuantity for The Vivienne Top Handle Bag\nREMOVE\n\n$149.99\n\nUPDATE BAG\nA NOTE WITH YOUR ORDER\nSubtotal\n\n$149.99 USD\n\nShipping and any applicable taxes are calculated at checkout.\n\nCHECKOUT",
+      "cart_lines": 1,
+      "cart_after_page": {
+        "item_count": 1,
+        "total_price": 14999,
+        "token_hash": "5ddc0b4de957",
+        "items": [
+          {
+            "variant_id": 44462686830657,
+            "quantity": 1,
+            "line_price": 14999
+          }
+        ]
+      },
+      "checkout_verified": true,
+      "checkout_quantity_two_total": true,
+      "cleared_test_cart": {
+        "item_count": 0,
+        "total_price": 0,
+        "token_hash": "5ddc0b4de957",
+        "items": []
+      }
+    },
+    {
+      "mode": "immediate",
+      "index": 1,
+      "network": [
+        {
+          "at_ms": 401,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 412,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 1758,
+          "url": "https://velantrafashion.com/cart/add.js?",
+          "method": "POST",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "57dce5eb-31eb-4436-92fb-8b05e828c420-1788624829"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "0d46b469d7d7"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            },
+            {
+              "name": "cart",
+              "value_hash": "647e8a0c0870"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "cart": {
+            "added_variant": 44462686830657,
+            "quantity": 1
+          }
+        },
+        {
+          "at_ms": 1927,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "e0925684-5c70-47ec-bf1e-7a82e3e9d39e-1788624829"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "feed2a781b17"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            },
+            {
+              "name": "cart",
+              "value_hash": "647e8a0c0870"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 2042,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "476c46c5-e827-4380-b01b-198d9c094986-1788624829"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        },
+        {
+          "at_ms": 2144,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "d3a266ce-07fd-4d34-9af3-16abad88e343-1788624830"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "647e8a0c0870",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2261,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "d3e9d095-61d6-40c1-ae39-35d4bf0e64fa-1788624830"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "647e8a0c0870",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2420,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 2404,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "cf46f216-6ea2-4b9c-af0d-23b206716f85-1788624830"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            },
+            {
+              "name": "localization",
+              "value_hash": "9b202ecbc6d4"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_essential",
+              "value_hash": "441f9995cf06"
+            }
+          ],
+          "html_cart_lines": 1,
+          "html_empty": false,
+          "html_theme_id": "{\"name\":\"Velantra \u2014 Quiet Luxury \\/ R40\",\"id\":151337074753,\"schema_name\":\"Velantra Quiet Luxury\",\"schema_version\":\"1.0.0\",\"theme_store_id\":null,\"role\":\"unpublished\"}"
+        },
+        {
+          "at_ms": 2470,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 2786,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "58bfe59d-0dca-4897-b329-bd08b49f41e2-1788624830"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "561a4570643d"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            },
+            {
+              "name": "cart",
+              "value_hash": "647e8a0c0870"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 2878,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "647e8a0c0870",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "745a0ed7-2fc7-47e6-921a-f9b271c3b3e1-1788624830"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "6ff5fef4b938"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "f5543fdfc7c9"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        }
+      ],
+      "page_errors": [],
+      "cookies": {
+        "before_add": [
+          {
+            "name": "_shopify_essential",
+            "value_hash": "33bbaa46f202",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "drawer_ready": [
+          {
+            "name": "cart",
+            "value_hash": "647e8a0c0870",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "feed2a781b17",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "cart_page": [
+          {
+            "name": "cart",
+            "value_hash": "647e8a0c0870",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "441f9995cf06",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "after_api": [
+          {
+            "name": "cart",
+            "value_hash": "647e8a0c0870",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "39bd15719a54",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ]
+      },
+      "checkouts": [],
+      "drawer_text": "Your selection\n\u00d7\nThe Vivienne Top Handle Bag\n\nChocolate\n\n$149.99\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n\u2212\n1\n+\nRemove\n\nSubtotal\n$149.99\n\nShipping and taxes calculated at checkout.\n\nPROCEED TO CHECKOUT\nVIEW YOUR SELECTION",
+      "main_text": "Your bag\nCONTINUE EXPLORING\nThe Vivienne Top Handle Bag\n\nChocolate\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n$149.99\n\nQuantity for The Vivienne Top Handle Bag\nREMOVE\n\n$149.99\n\nUPDATE BAG\nA NOTE WITH YOUR ORDER\nSubtotal\n\n$149.99 USD\n\nShipping and any applicable taxes are calculated at checkout.\n\nCHECKOUT",
+      "cart_lines": 1,
+      "cart_after_page": {
+        "item_count": 1,
+        "total_price": 14999,
+        "token_hash": "647e8a0c0870",
+        "items": [
+          {
+            "variant_id": 44462686830657,
+            "quantity": 1,
+            "line_price": 14999
+          }
+        ]
+      },
+      "cleared_test_cart": {
+        "item_count": 0,
+        "total_price": 0,
+        "token_hash": "647e8a0c0870",
+        "items": []
+      }
+    },
+    {
+      "mode": "immediate",
+      "index": 2,
+      "network": [
+        {
+          "at_ms": 403,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 421,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 1664,
+          "url": "https://velantrafashion.com/cart/add.js?",
+          "method": "POST",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "7db7ab7b-b64b-4fa3-82c3-78e5deae17ae-1788624832"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "d0f98c81bf10"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            },
+            {
+              "name": "cart",
+              "value_hash": "053bddd5c15c"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "cart": {
+            "added_variant": 44462686830657,
+            "quantity": 1
+          }
+        },
+        {
+          "at_ms": 1789,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "f5545d63-a099-465f-943c-67700f8f1f09-1788624832"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "053bddd5c15c",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 1963,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "4a57a7fe-cae6-4d47-a770-277ea6fa94d8-1788624832"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "6a558d0618ae"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            },
+            {
+              "name": "cart",
+              "value_hash": "053bddd5c15c"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 2064,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "d0ccccc7-dad0-4ccd-8426-2ced9863d380-1788624832"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        },
+        {
+          "at_ms": 2182,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "7e6ad69e-09b5-4198-8460-81dee0a0b398-1788624833"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "053bddd5c15c",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2348,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 2334,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "c5256433-0de5-41c7-9005-bb3bdedc3e45-1788624833"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            },
+            {
+              "name": "localization",
+              "value_hash": "9b202ecbc6d4"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_essential",
+              "value_hash": "f080d03e01f5"
+            }
+          ],
+          "html_cart_lines": 1,
+          "html_empty": false,
+          "html_theme_id": "{\"name\":\"Velantra \u2014 Quiet Luxury \\/ R40\",\"id\":151337074753,\"schema_name\":\"Velantra Quiet Luxury\",\"schema_version\":\"1.0.0\",\"theme_store_id\":null,\"role\":\"unpublished\"}"
+        },
+        {
+          "at_ms": 2387,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 2713,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "de4c5c62-1d72-4a84-bb10-cbf33b51d463-1788624833"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "755539ad49f6"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            },
+            {
+              "name": "cart",
+              "value_hash": "053bddd5c15c"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 2814,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "053bddd5c15c",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "6a603024-e8d6-40c8-9d0b-976bb2f09f17-1788624833"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d10b229b06e2"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "1f2e34be1d08"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        }
+      ],
+      "page_errors": [],
+      "cookies": {
+        "before_add": [
+          {
+            "name": "_shopify_essential",
+            "value_hash": "b25653579460",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "drawer_ready": [
+          {
+            "name": "cart",
+            "value_hash": "053bddd5c15c",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "6a558d0618ae",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "cart_page": [
+          {
+            "name": "cart",
+            "value_hash": "053bddd5c15c",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "f080d03e01f5",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "after_api": [
+          {
+            "name": "cart",
+            "value_hash": "053bddd5c15c",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "221c6eb8dc31",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ]
+      },
+      "checkouts": [],
+      "drawer_text": "Your selection\n\u00d7\nThe Vivienne Top Handle Bag\n\nChocolate\n\n$149.99\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n\u2212\n1\n+\nRemove\n\nSubtotal\n$149.99\n\nShipping and taxes calculated at checkout.\n\nPROCEED TO CHECKOUT\nVIEW YOUR SELECTION",
+      "main_text": "Your bag\nCONTINUE EXPLORING\nThe Vivienne Top Handle Bag\n\nChocolate\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n$149.99\n\nQuantity for The Vivienne Top Handle Bag\nREMOVE\n\n$149.99\n\nUPDATE BAG\nA NOTE WITH YOUR ORDER\nSubtotal\n\n$149.99 USD\n\nShipping and any applicable taxes are calculated at checkout.\n\nCHECKOUT",
+      "cart_lines": 1,
+      "cart_after_page": {
+        "item_count": 1,
+        "total_price": 14999,
+        "token_hash": "053bddd5c15c",
+        "items": [
+          {
+            "variant_id": 44462686830657,
+            "quantity": 1,
+            "line_price": 14999
+          }
+        ]
+      },
+      "cleared_test_cart": {
+        "item_count": 0,
+        "total_price": 0,
+        "token_hash": "053bddd5c15c",
+        "items": []
+      }
+    },
+    {
+      "mode": "delay",
+      "index": 3,
+      "network": [
+        {
+          "at_ms": 398,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 461,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 1811,
+          "url": "https://velantrafashion.com/cart/add.js?",
+          "method": "POST",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "a98ec64c-a8b5-435b-afbc-863369c3e31b-1788624835"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "9c5cf1da89f5"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "e495f277b0c3"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "7b4837a7659a"
+            },
+            {
+              "name": "cart",
+              "value_hash": "1bbe182f473e"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "cart": {
+            "added_variant": 44462686830657,
+            "quantity": 1
+          }
+        },
+        {
+          "at_ms": 1985,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "1bbe182f473e",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "7a5c374d-a952-4674-8524-42a748659cb6-1788624835"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "5db211890111"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "e495f277b0c3"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "7b4837a7659a"
+            },
+            {
+              "name": "cart",
+              "value_hash": "1bbe182f473e"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 2081,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "1bbe182f473e",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "3811c0d5-d914-4f75-8628-2da074de5b17-1788624835"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "e495f277b0c3"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "7b4837a7659a"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        },
+        {
+          "at_ms": 2189,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "1bbe182f473e",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "aea3a7e3-26df-4cbd-a860-e846a31eb866-1788624835"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "e495f277b0c3"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "7b4837a7659a"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "1bbe182f473e",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2292,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "1bbe182f473e",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "002ec672-275d-4688-bcbd-fa0569484c45-1788624836"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "e495f277b0c3"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "7b4837a7659a"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "1bbe182f473e",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 3255,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 3239,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "1bbe182f473e",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "5f5aeaa6-d190-422e-90e8-e6d270034925-1788624836"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_y",
+              "value_hash": "e495f277b0c3"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "7b4837a7659a"
+            },
+            {
+              "name": "localization",
+              "value_hash": "9b202ecbc6d4"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_essential",
+              "value_hash": "e715197e7b83"
+            }
+          ],
+          "html_cart_lines": 1,
+          "html_empty": false,
+          "html_theme_id": "{\"name\":\"Velantra \u2014 Quiet Luxury \\/ R40\",\"id\":151337074753,\"schema_name\":\"Velantra Quiet Luxury\",\"schema_version\":\"1.0.0\",\"theme_store_id\":null,\"role\":\"unpublished\"}"
+        },
+        {
+          "at_ms": 3301,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "1bbe182f473e",
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        }
+      ],
+      "page_errors": [],
+      "cookies": {
+        "before_add": [
+          {
+            "name": "_shopify_essential",
+            "value_hash": "337241eb131b",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "drawer_ready": [
+          {
+            "name": "cart",
+            "value_hash": "1bbe182f473e",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "5db211890111",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "cart_page": [
+          {
+            "name": "cart",
+            "value_hash": "1bbe182f473e",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "e715197e7b83",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "after_api": [
+          {
+            "name": "cart",
+            "value_hash": "1bbe182f473e",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "8a70447a752d",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ]
+      },
+      "checkouts": [],
+      "drawer_text": "Your selection\n\u00d7\nThe Vivienne Top Handle Bag\n\nChocolate\n\n$149.99\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n\u2212\n1\n+\nRemove\n\nSubtotal\n$149.99\n\nShipping and taxes calculated at checkout.\n\nPROCEED TO CHECKOUT\nVIEW YOUR SELECTION",
+      "main_text": "Your bag\nCONTINUE EXPLORING\nThe Vivienne Top Handle Bag\n\nChocolate\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n$149.99\n\nQuantity for The Vivienne Top Handle Bag\nREMOVE\n\n$149.99\n\nUPDATE BAG\nA NOTE WITH YOUR ORDER\nSubtotal\n\n$149.99 USD\n\nShipping and any applicable taxes are calculated at checkout.\n\nCHECKOUT",
+      "cart_lines": 1,
+      "cart_after_page": {
+        "item_count": 1,
+        "total_price": 14999,
+        "token_hash": "1bbe182f473e",
+        "items": [
+          {
+            "variant_id": 44462686830657,
+            "quantity": 1,
+            "line_price": 14999
+          }
+        ]
+      },
+      "cleared_test_cart": {
+        "item_count": 0,
+        "total_price": 0,
+        "token_hash": "1bbe182f473e",
+        "items": []
+      }
+    },
+    {
+      "mode": "delay",
+      "index": 4,
+      "network": [
+        {
+          "at_ms": 253,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 279,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 1521,
+          "url": "https://velantrafashion.com/cart/add.js?",
+          "method": "POST",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "88d5a87f-2212-4637-b460-ebaf835130c2-1788624838"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "4f2ca1c07170"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            },
+            {
+              "name": "cart",
+              "value_hash": "39b83c6daa0d"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "cart": {
+            "added_variant": 44462686830657,
+            "quantity": 1
+          }
+        },
+        {
+          "at_ms": 1898,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "ce63b0b4-e866-49b8-b002-cea4939bc9aa-1788624839"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "7aeaa6b76f97"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            },
+            {
+              "name": "cart",
+              "value_hash": "39b83c6daa0d"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 2012,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "97b9c3a3-303e-4e96-ae59-aeb89aec3185-1788624839"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        },
+        {
+          "at_ms": 2098,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "37ac6316-1ca8-433c-b668-21b3bc8ffdd7-1788624839"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "39b83c6daa0d",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2206,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "781b707e-7663-4f33-b7a1-14192a864d57-1788624839"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "39b83c6daa0d",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 3417,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 3403,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "c7b48681-c2ea-4a24-aa16-62e9a8ff6922-1788624840"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            },
+            {
+              "name": "localization",
+              "value_hash": "9b202ecbc6d4"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_essential",
+              "value_hash": "937960dc7639"
+            }
+          ],
+          "html_cart_lines": 1,
+          "html_empty": false,
+          "html_theme_id": "{\"name\":\"Velantra \u2014 Quiet Luxury \\/ R40\",\"id\":151337074753,\"schema_name\":\"Velantra Quiet Luxury\",\"schema_version\":\"1.0.0\",\"theme_store_id\":null,\"role\":\"unpublished\"}"
+        },
+        {
+          "at_ms": 3456,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 3916,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "53302d2a-f92f-40f1-8db5-a08c2ec28e97-1788624841"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "8822eb9360f2"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            },
+            {
+              "name": "cart",
+              "value_hash": "39b83c6daa0d"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 4011,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "39b83c6daa0d",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "31609ef7-50bb-4f9a-8ab6-ede62e9e108a-1788624841"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "d4a3d1ac3c94"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "144d2807607c"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        }
+      ],
+      "page_errors": [],
+      "cookies": {
+        "before_add": [
+          {
+            "name": "_shopify_essential",
+            "value_hash": "180a2f684a9a",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "drawer_ready": [
+          {
+            "name": "cart",
+            "value_hash": "39b83c6daa0d",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "7aeaa6b76f97",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "cart_page": [
+          {
+            "name": "cart",
+            "value_hash": "39b83c6daa0d",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "937960dc7639",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "after_api": [
+          {
+            "name": "cart",
+            "value_hash": "39b83c6daa0d",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "da77977fd186",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ]
+      },
+      "checkouts": [],
+      "drawer_text": "Your selection\n\u00d7\nThe Vivienne Top Handle Bag\n\nChocolate\n\n$149.99\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n\u2212\n1\n+\nRemove\n\nSubtotal\n$149.99\n\nShipping and taxes calculated at checkout.\n\nPROCEED TO CHECKOUT\nVIEW YOUR SELECTION",
+      "main_text": "Your bag\nCONTINUE EXPLORING\nThe Vivienne Top Handle Bag\n\nChocolate\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n$149.99\n\nQuantity for The Vivienne Top Handle Bag\nREMOVE\n\n$149.99\n\nUPDATE BAG\nA NOTE WITH YOUR ORDER\nSubtotal\n\n$149.99 USD\n\nShipping and any applicable taxes are calculated at checkout.\n\nCHECKOUT",
+      "cart_lines": 1,
+      "cart_after_page": {
+        "item_count": 1,
+        "total_price": 14999,
+        "token_hash": "39b83c6daa0d",
+        "items": [
+          {
+            "variant_id": 44462686830657,
+            "quantity": 1,
+            "line_price": 14999
+          }
+        ]
+      },
+      "cleared_test_cart": {
+        "item_count": 0,
+        "total_price": 0,
+        "token_hash": "39b83c6daa0d",
+        "items": []
+      }
+    },
+    {
+      "mode": "immediate",
+      "index": 5,
+      "network": [
+        {
+          "at_ms": 333,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 348,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 1683,
+          "url": "https://velantrafashion.com/cart/add.js?",
+          "method": "POST",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "1123b3ff-0470-4c06-a5c3-ecb562f9012e-1788624843"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "99f754be54d1"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "f80d6eccbcdb"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "e6aec4658f67"
+            },
+            {
+              "name": "cart",
+              "value_hash": "0a7909bf43a3"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "cart": {
+            "added_variant": 44462686830657,
+            "quantity": 1
+          }
+        },
+        {
+          "at_ms": 1866,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "0a7909bf43a3",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "10e318c8-c245-4d25-a7f5-5a874a49b37f-1788624843"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "0e12d458e91f"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "f80d6eccbcdb"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "e6aec4658f67"
+            },
+            {
+              "name": "cart",
+              "value_hash": "0a7909bf43a3"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        },
+        {
+          "at_ms": 1963,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "0a7909bf43a3",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "d8da7b54-4f7a-4fdc-9950-5782669b2265-1788624843"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "f80d6eccbcdb"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "e6aec4658f67"
+            }
+          ],
+          "html_cart_lines": 0,
+          "html_empty": false,
+          "html_theme_id": null
+        },
+        {
+          "at_ms": 2068,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "0a7909bf43a3",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "25a641f2-172b-4773-8315-c282aa2cd4c0-1788624843"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "f80d6eccbcdb"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "e6aec4658f67"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "0a7909bf43a3",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2199,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "0a7909bf43a3",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "b9d06112-4aa2-445b-bff3-75c3347a47f5-1788624844"
+          },
+          "set_cookies": [
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "f80d6eccbcdb"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "e6aec4658f67"
+            }
+          ],
+          "cart": {
+            "item_count": 1,
+            "total_price": 14999,
+            "token_hash": "0a7909bf43a3",
+            "items": [
+              {
+                "variant_id": 44462686830657,
+                "quantity": 1,
+                "line_price": 14999
+              }
+            ]
+          }
+        },
+        {
+          "at_ms": 2401,
+          "url": "https://shop.app/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": null,
+          "headers": {
+            "cache-control": "public, max-age=60"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 2389,
+          "url": "https://velantrafashion.com/cart?",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "0a7909bf43a3",
+          "headers": {
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "b57a0a88-07d7-405c-8926-aa40347344f1-1788624844"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_y",
+              "value_hash": "f80d6eccbcdb"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "e6aec4658f67"
+            },
+            {
+              "name": "localization",
+              "value_hash": "9b202ecbc6d4"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            },
+            {
+              "name": "_shopify_essential",
+              "value_hash": "6e00d5c65954"
+            }
+          ],
+          "html_cart_lines": 1,
+          "html_empty": false,
+          "html_theme_id": "{\"name\":\"Velantra \u2014 Quiet Luxury \\/ R40\",\"id\":151337074753,\"schema_name\":\"Velantra Quiet Luxury\",\"schema_version\":\"1.0.0\",\"theme_store_id\":null,\"role\":\"unpublished\"}"
+        },
+        {
+          "at_ms": 2442,
+          "url": "https://velantrafashion.com/checkouts/[redacted]",
+          "method": "GET",
+          "status": 200,
+          "request_cart_hash": "0a7909bf43a3",
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate"
+          },
+          "set_cookies": [],
+          "read_error": "JSONDecodeError"
+        },
+        {
+          "at_ms": 2916,
+          "url": "https://velantrafashion.com/cart.js?",
+          "method": "POST",
+          "status": 302,
+          "request_cart_hash": "0a7909bf43a3",
+          "headers": {
+            "cache-control": "no-cache, no-store",
+            "cf-cache-status": "DYNAMIC",
+            "x-request-id": "3a724ea8-b2c6-43ac-a874-fa70cbeb9ed1-1788624844"
+          },
+          "set_cookies": [
+            {
+              "name": "_shopify_essential",
+              "value_hash": "97858b52fbbe"
+            },
+            {
+              "name": "_shopify_y",
+              "value_hash": "f80d6eccbcdb"
+            },
+            {
+              "name": "_shopify_s",
+              "value_hash": "e6aec4658f67"
+            },
+            {
+              "name": "cart",
+              "value_hash": "0a7909bf43a3"
+            },
+            {
+              "name": "cart_currency",
+              "value_hash": "a26cdf3a6e70"
+            }
+          ],
+          "read_error": "Error"
+        }
+      ],
+      "page_errors": [],
+      "cookies": {
+        "before_add": [
+          {
+            "name": "_shopify_essential",
+            "value_hash": "046d1ab55a4d",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "drawer_ready": [
+          {
+            "name": "cart",
+            "value_hash": "0a7909bf43a3",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "0e12d458e91f",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "cart_page": [
+          {
+            "name": "cart",
+            "value_hash": "0a7909bf43a3",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "6e00d5c65954",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ],
+        "after_api": [
+          {
+            "name": "cart",
+            "value_hash": "0a7909bf43a3",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          },
+          {
+            "name": "_shopify_essential",
+            "value_hash": "f7a522c3f052",
+            "domain": "velantrafashion.com",
+            "path": "/"
+          }
+        ]
+      },
+      "checkouts": [],
+      "drawer_text": "Your selection\n\u00d7\nThe Vivienne Top Handle Bag\n\nChocolate\n\n$149.99\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n\u2212\n1\n+\nRemove\n\nSubtotal\n$149.99\n\nShipping and taxes calculated at checkout.\n\nPROCEED TO CHECKOUT\nVIEW YOUR SELECTION",
+      "main_text": "Your bag\nCONTINUE EXPLORING\nThe Vivienne Top Handle Bag\n\nChocolate\n\nPre-order. Every colorway is made to order. Expected to ship October.\n\n$149.99\n\nQuantity for The Vivienne Top Handle Bag\nREMOVE\n\n$149.99\n\nUPDATE BAG\nA NOTE WITH YOUR ORDER\nSubtotal\n\n$149.99 USD\n\nShipping and any applicable taxes are calculated at checkout.\n\nCHECKOUT",
+      "cart_lines": 1,
+      "cart_after_page": {
+        "item_count": 1,
+        "total_price": 14999,
+        "token_hash": "0a7909bf43a3",
+        "items": [
+          {
+            "variant_id": 44462686830657,
+            "quantity": 1,
+            "line_price": 14999
+          }
+        ]
+      },
+      "cleared_test_cart": {
+        "item_count": 0,
+        "total_price": 0,
+        "token_hash": "0a7909bf43a3",
+        "items": []
+      }
+    }
+  ],
+  "errors": [],
+  "scope": "Fresh private browser contexts only. Adds own test item, may update test quantity, never places an order. Token/cookie values recorded only as SHA256 prefixes."
+}

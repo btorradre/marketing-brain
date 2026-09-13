@@ -1,0 +1,53 @@
+{% doc %}
+Renders native prices from the same variant, with accessible compare-at labels.
+@param {product} product - Product to price
+@param {variant} [variant] - Exact selected variant; omit for minimum/from pricing
+@param {boolean} [show_currency] - Include the presentment currency code
+{% enddoc %}
+{%- liquid
+  assign price_variant = variant
+  assign show_from = false
+  if price_variant == blank
+    assign price_variant = product.variants | sort: 'price' | first
+    assign show_from = product.price_varies
+  endif
+  assign show_compare = false
+  if settings.show_compare_at_prices != false and price_variant.price > 0 and price_variant.compare_at_price > price_variant.price
+    assign show_compare = true
+  endif
+  if show_currency
+    assign current_price = price_variant.price | money_with_currency
+    assign compare_price = price_variant.compare_at_price | money_with_currency
+  else
+    assign current_price = price_variant.price | money
+    assign compare_price = price_variant.compare_at_price | money
+  endif
+-%}
+{%- if price_variant != blank -%}
+  <span class="price-display" data-price-display data-compare-enabled="{% if settings.show_compare_at_prices != false %}true{% else %}false{% endif %}" data-price-format="{% if show_currency %}currency{% else %}plain{% endif %}">
+    <span data-price-status {% if price_variant.price > 0 %}hidden{% endif %}>{{ 'commerce.product.contact_availability' | t }}</span>
+    <span class="price-display__values" data-price-values {% unless price_variant.price > 0 %}hidden{% endunless %}>
+      <span class="price-display__current"><span class="visually-hidden">{{ 'commerce.product.current_price' | t }} </span><span data-price-current>{% if show_from %}{{ 'commerce.product.from_price' | t: price: current_price }}{% else %}{{ current_price }}{% endif %}</span></span>
+      <span class="price-display__compare" data-price-compare-group {% unless show_compare %}hidden{% endunless %}><span class="visually-hidden">{{ 'commerce.product.compare_at_price' | t }} </span><s data-price-compare>{% if show_compare %}{{ compare_price }}{% endif %}</s></span>
+    </span>
+  </span>
+{%- endif -%}
+{% stylesheet %}
+  .price-display { display: inline-block; max-width: 100%; }
+  .price-display__values { display: inline-flex; align-items: baseline; justify-content: inherit; flex-wrap: wrap; gap: 3px 9px; max-width: 100%; }
+  .price-display__current, .price-display__compare { display: inline-block; }
+  .price-display__compare { color: var(--color-muted, #686861); }
+  .price-display__compare s { text-decoration-thickness: 1px; }
+  .price-display [hidden] { display: none !important; }
+  .product-price .price-display__values { justify-content: center; }
+  .product-card__price:has(.price-display) { flex-shrink: 1; min-width: 0; max-width: 55%; }
+  .product-card__price .price-display__values { justify-content: flex-end; }
+  .product-sticky > div:has(.price-display) { min-width: 0; }
+  .product-sticky .price-display__values { gap: 2px 7px; }
+  @media (max-width: 479px) {
+    .product-card__heading:has(.price-display) { flex-wrap: wrap; gap: 6px 12px; }
+    .product-card__heading:has(.price-display) h3 { flex-basis: 100%; }
+    .product-card__price:has(.price-display) { max-width: 100%; text-align: left; }
+    .product-card__price .price-display__values { justify-content: flex-start; }
+  }
+{% endstylesheet %}

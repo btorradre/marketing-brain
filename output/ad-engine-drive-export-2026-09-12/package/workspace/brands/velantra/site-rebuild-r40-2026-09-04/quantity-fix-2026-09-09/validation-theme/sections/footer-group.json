@@ -1,0 +1,97 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "services": {
+      "type": "service-promises",
+      "blocks": {
+        "one": {
+          "type": "service",
+          "settings": {
+            "number": "I",
+            "heading": "Considered design",
+            "text": "Form, function, and feeling"
+          }
+        },
+        "two": {
+          "type": "service",
+          "settings": {
+            "number": "II",
+            "heading": "Distinctive materials",
+            "text": "Texture worth coming closer for"
+          }
+        },
+        "three": {
+          "type": "service",
+          "settings": {
+            "number": "III",
+            "heading": "Client services",
+            "text": "A real person, here to help"
+          }
+        },
+        "four": {
+          "type": "service",
+          "settings": {
+            "number": "IV",
+            "heading": "The Velantra signature",
+            "text": "Luxury without the logo"
+          }
+        }
+      },
+      "block_order": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "settings": {}
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {}
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "services": {
+          "type": "services",
+          "settings": {
+            "heading": "Help & care"
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "heading": "The collection"
+          }
+        },
+        "legal": {
+          "type": "legal",
+          "settings": {
+            "heading": "Legal & terms"
+          }
+        }
+      },
+      "block_order": [
+        "services",
+        "collection",
+        "legal"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "services",
+    "newsletter",
+    "footer"
+  ]
+}

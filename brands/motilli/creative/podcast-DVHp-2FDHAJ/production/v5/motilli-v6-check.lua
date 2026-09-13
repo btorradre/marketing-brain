@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local p=r:GetProjectManager():GetCurrentProject();print('PROJECT',p:GetName());print('CURRENT',p:GetCurrentTimeline():GetName());for i=1,p:GetTimelineCount() do local t=p:GetTimelineByIndex(i);print(i,t:GetName(),t:GetEndFrame()) end

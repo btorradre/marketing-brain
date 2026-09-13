@@ -1,0 +1,9 @@
+<a href="/account" style="font-size:12px; letter-spacing:0.18em; text-transform:uppercase;">&larr; Account</a>
+<h1 class="lt-min-title" style="margin-top:14px;">Addresses</h1>
+{% paginate customer.addresses by 10 %}
+  {% for address in customer.addresses %}
+    <div style="padding:16px 0; border-bottom: 1px solid var(--lt-line);">
+      {{ address | format_address }}
+    </div>
+  {% endfor %}
+{% endpaginate %}

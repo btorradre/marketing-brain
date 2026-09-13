@@ -1,0 +1,20 @@
+{
+  "shot": "S15",
+  "verdict": "minor_issue",
+  "observed_motion": "The woman gently adjusts the capped medication pen on the counter beside its box, experiences brief finger hesitation, and fully withdraws her hand by her side.",
+  "issues": [
+    {
+      "time_s": 2.5,
+      "description": "Slight jitter and repetitive tapping of fingers on the pen before withdrawal.",
+      "severity": "minor"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 4.75,
+  "confidence": 0.76,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 20,
+  "native_duration_s": 5.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S15-4fps.jpg"
+}

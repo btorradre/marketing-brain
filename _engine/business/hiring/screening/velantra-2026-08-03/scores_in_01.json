@@ -1,0 +1,37 @@
+[
+{"id":"dpw4qrwb","name":"Rikki Drian Brillantes Gamot",
+ "gates":{"filter_word":true,"loom_link":true,"portfolio_link":true,"timezone_hours":true},
+ "scores":{"visual_line_match":2.5,"pacing":2.0,"benchmark_resemblance":1.5,"category_fit":0,"caption_craft":1.0,"ai_tooling":0.3,"throughput":0.25},
+ "caps":["wrong_category"],
+ "evidence":[
+  "4 ads measured: 2.68 / 2.27 / 1.65 / 2.65s avg shot, first cut 1.8s. Dead inside the Balmbare band",
+  "toenail-fungus DR ad: 'How a 67 year old went from hiding his feet' over real beach UGC, then 'Not to the beach' over a man walking on sand, then 'But I couldnt fix my own feet' over a clinical toe close-up. Textbook literal visual-to-line matching",
+  "dark translucent caption box, white text, one idea per shot, 9:16, ungraded, hard cuts only. This IS the benchmark grammar",
+  "BUT the category is health/supplement DR, not fashion. Zero apparel work, so wrong_category caps him for the Velantra post",
+  "FLAG FOR BROOKS: strongest craft in the whole subset and a near-perfect fit for the MOTILLI editor role. Wrong post, right person",
+  "supplied no Loom, so ai_tooling cannot be verified beyond the finished output"]},
+
+{"id":"db95kdxb","name":"Gerwin Bocado",
+ "gates":{"filter_word":true,"loom_link":true,"portfolio_link":true,"timezone_hours":true},
+ "scores":{"visual_line_match":1.5,"pacing":2.0,"benchmark_resemblance":0.4,"category_fit":1.5,"caption_craft":0.6,"ai_tooling":0.6,"throughput":0.25},
+ "caps":[],
+ "evidence":[
+  "3 ads measured: 2.87 / 2.40 / 2.02s avg shot, first cut 2.6s. Inside the band",
+  "genuine handbag/leather-goods work, the only true fashion category fit among the watched set",
+  "'PREMIUM CRAFTSMANSHIP' sits on a gold-hardware macro, so the line is matched, but the piece reads as a product film with stretches of interchangeable beauty b-roll",
+  "polished and colour-graded with shallow depth of field, which is the opposite of the scrappy phone-native benchmark. benchmark_resemblance scored low deliberately",
+  "cover letter is a generic template opening 'Dear Hiring Manager' with no specific reference to the post",
+  "302s Loom supplied and downloaded, not yet watched in full, so ai_tooling is provisional"]},
+
+{"id":"ak94zwxd","name":"Venniel Ablanque Carrera",
+ "gates":{"filter_word":true,"loom_link":true,"portfolio_link":true,"timezone_hours":true},
+ "scores":{"visual_line_match":2.0,"pacing":2.0,"benchmark_resemblance":0.9,"category_fit":0,"caption_craft":1.0,"ai_tooling":1.0,"throughput":0.25},
+ "caps":["wrong_category"],
+ "evidence":[
+  "2 ads measured: 2.47 and 1.94s avg shot, first cut 2.0s. Fastest cutter in the subset",
+  "persistent yellow header caption plus word-by-word karaoke captions, one idea per shot",
+  "'cold press' lands on an olive-press shot, so the matching instinct is there",
+  "visuals lean heavily on glossy 3D medical animation and obvious AI-generated scenes, which is the 3D-render look that gets regenerated here",
+  "supplement/health DR, no apparel work, so wrong_category caps him for the fashion post",
+  "two Looms supplied, both downloaded with transcripts"]}
+]

@@ -1,0 +1,25 @@
+{
+  "shot": "S28",
+  "verdict": "revise",
+  "observed_motion": "The camera pans and rotates around the jar until around 3.50s, where the bottle unnaturally snaps and morphs from a tilted orientation into an upright vertical position.",
+  "issues": [
+    {
+      "time_s": 1.5,
+      "description": "Label text loses legibility due to lighting glare and angular distortion during rotation.",
+      "severity": "moderate"
+    },
+    {
+      "time_s": 3.5,
+      "description": "Unnatural jump and morphing transition as the jar flips from a diagonal resting position to standing upright.",
+      "severity": "high"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 1.25,
+  "confidence": 3,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 20,
+  "native_duration_s": 5.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S28-4fps.jpg"
+}

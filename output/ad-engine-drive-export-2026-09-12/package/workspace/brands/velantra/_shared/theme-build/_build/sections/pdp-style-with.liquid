@@ -1,0 +1,118 @@
+{% comment %}
+  PDP — Style With / Pair With (manual product picker carousel)
+{% endcomment %}
+
+<section
+  class="pdp-style-with pdp-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="pdp-style-with"
+  style="--pdp-bg: {{ section.settings.bg_color }};"
+>
+  <div class="pdp-style-with__inner">
+    <div class="pdp-style-with__head">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="pdp-style-with__heading">{{ section.settings.heading }}</h2>
+      {%- endif -%}
+      {%- if section.settings.subheading != blank -%}
+        <p class="pdp-style-with__sub">{{ section.settings.subheading }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="pdp-style-with__grid">
+      {%- for block in section.blocks -%}
+        {%- assign p = all_products[block.settings.product] -%}
+        {%- if p != blank -%}
+          <a class="pdp-style-with__card" href="{{ p.url }}" {{ block.shopify_attributes }}>
+            <div class="pdp-style-with__media">
+              {%- assign img = block.settings.override_image | default: p.featured_image -%}
+              {%- if img != blank -%}
+                {{ img | image_url: width: 600 | image_tag:
+                  loading: 'lazy',
+                  widths: '240, 360, 480, 600',
+                  sizes: '(min-width: 768px) 25vw, 50vw',
+                  alt: p.title,
+                  class: 'pdp-style-with__img' }}
+              {%- endif -%}
+            </div>
+            <div class="pdp-style-with__info">
+              <h3 class="pdp-style-with__title">{{ p.title }}</h3>
+              <p class="pdp-style-with__price">{{ p.price | money }}</p>
+            </div>
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<style>
+  #shopify-section-{{ section.id }} .pdp-style-with {
+    background: var(--pdp-bg, #ffffff);
+    padding: clamp(48px, 6vw, 80px) clamp(20px, 4vw, 56px);
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__inner { max-width: 1280px; margin: 0 auto; }
+  #shopify-section-{{ section.id }} .pdp-style-with__head { text-align: center; margin-bottom: clamp(28px, 3vw, 40px); }
+  #shopify-section-{{ section.id }} .pdp-style-with__heading {
+    font-family: var(--font-stack-header, 'Cormorant', serif);
+    font-weight: 400; font-size: clamp(26px, 2.6vw, 36px);
+    letter-spacing: -0.01em; margin: 0;
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__sub {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 14px; opacity: 0.7; margin: 8px 0 0;
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(16px, 2vw, 24px);
+  }
+  @media (min-width: 768px) {
+    #shopify-section-{{ section.id }} .pdp-style-with__grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__card {
+    display: block; color: inherit; text-decoration: none;
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__media {
+    background: #f5f3ee; aspect-ratio: 1/1; overflow: hidden;
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 500ms cubic-bezier(.4,0,.2,1);
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__card:hover .pdp-style-with__img { transform: scale(1.04); }
+  #shopify-section-{{ section.id }} .pdp-style-with__info { padding: 14px 4px 0; }
+  #shopify-section-{{ section.id }} .pdp-style-with__title {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 14px; font-weight: 500; margin: 0 0 4px;
+  }
+  #shopify-section-{{ section.id }} .pdp-style-with__price {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 13px; opacity: 0.7; margin: 0;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "PDP · Style With",
+  "tag": "section",
+  "class": "shopify-section--pdp-style-with",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Style With" },
+    { "type": "text", "id": "subheading", "label": "Sub-heading" },
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#ffffff" }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Product card",
+      "settings": [
+        { "type": "product", "id": "product", "label": "Product" },
+        { "type": "image_picker", "id": "override_image", "label": "Override image (optional)" }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    { "name": "PDP · Style With", "blocks": [{ "type": "card" }, { "type": "card" }, { "type": "card" }, { "type": "card" }] }
+  ],
+  "disabled_on": { "groups": ["header", "footer", "aside"] }
+}
+{% endschema %}

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "no-bnpl-extended",
+    "law": "no BNPL on Velantra (extended phrasing)",
+    "severity": "blocker",
+    "regex": "\\bpay\\s+later\\b|\\bpay\\s+in\\s+(?:4|four)\\b|\\bsezzle\\b|\\bzip\\s+pay\\b|\\b(?:4|four)\\s+(?:easy|equal|interest[-\\s]free)\\s+(?:monthly\\s+)?payments\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Extends examples/velantra.json no-bnpl (Klarna/Afterpay/Affirm/Shop Pay installments). Velantra does not offer buy-now-pay-later: no Zip badge, no 'Shop Now, Pay Later', no 'Pay later with...'. Strip payment-method rows from Nuamore-style references like competitor logos.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_no_bnpl"
+  },
+  {
+    "id": "no-luxury-house-named",
+    "law": "no competitor comparisons (luxury houses named)",
+    "severity": "warning",
+    "regex": "\\b(?:herm[eè]s|chanel|louis\\s+vuitton|gucci|prada|saint\\s+laurent|ysl|bottega(?:\\s+veneta)?|loewe|dior|c[eé]line|fendi|cult\\s+gaia)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Default: no brand is ever named in Velantra copy; designer talk stays category-level ('designer prices', 'designer inflation'). Hermès stays out ALWAYS. Other houses are allowed only in a Brooks-directed comparison-FORMAT ad (ranked roundup), praised sincerely with a trade-off never a defect, prices verified same day from the brand's own site. Extends no-competitor-names.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_no_competitor_comparisons"
+  },
+  {
+    "id": "no-birkin-in-generation-prompt",
+    "law": "Birkin never enters a generation prompt",
+    "severity": "blocker",
+    "regex": "\\b(?:birkin|herm[eè]s)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'Birkin-inspired' is live VO/caption vocabulary for the Weekender, Vivienne, Sofia and Inspired Birkin, but it NEVER appears in an image or video generation prompt. The kie runner's claims-grep hard-fails the job. Prompts describe the silhouette from the product-truth identity block instead.",
+    "scope": "prompt",
+    "brand": "velantra",
+    "source": "feedback_velantra_birkin_inspired_mechanism"
+  },
+  {
+    "id": "is-a-birkin-claim",
+    "law": "Birkin is a lineage claim, never 'is a Birkin'",
+    "severity": "blocker",
+    "regex": "\\b(?:it['’]?s|it\\s+is|this\\s+is|that['’]?s|that\\s+is|is)\\s+a\\s+birkin\\b(?![-\\s]?inspired)",
+    "flags": [
+      "i"
+    ],
+    "note": "A caption card reading 'It's a Birkin' (split off from '-inspired shape') claims the bag IS a Birkin, a counterfeit-adjacent claim. 'Birkin' must carry '-inspired' in the SAME card / sentence. 'The Birkin is your dream bag' (hook about the icon) is allowed and does not match.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_chatcut_captions_asr_audit"
+  },
+  {
+    "id": "no-birkin-price-quoted",
+    "law": "no Hermès/Birkin price quoted",
+    "severity": "warning",
+    "regex": "\\b(?:birkin|herm[eè]s)\\b[^.\\n]{0,60}\\$\\s?\\d|\\$\\s?\\d[\\d,]*[^.\\n]{0,60}\\b(?:birkin|herm[eè]s)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Birkin-inspired is a lineage claim about our silhouette, never a price comparison. No Birkin price is ever quoted; never a price-led 'dupe for less'.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_birkin_inspired_mechanism"
+  },
+  {
+    "id": "no-dupe-replica-wording",
+    "law": "no dupe / replica / knockoff / alternative wording",
+    "severity": "blocker",
+    "regex": "\\b(?:dupes?|replicas?|knock[-\\s]?offs?|look[-\\s]?alikes?|counterfeits?)\\b|\\b(?:birkin|herm[eè]s)\\s+alternative\\b|\\balternative\\s+to\\s+(?:a|the)\\s+birkin\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "The words dupe / replica / alternative / knockoff never appear in Velantra copy. Lead with architecture and identity. DMCA history (luxboattote) makes this a store-survival issue, not a taste issue.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_birkin_inspired_mechanism"
+  },
+  {
+    "id": "no-quiet-luxury-phrase",
+    "law": "never say the phrase 'quiet luxury' in copy",
+    "severity": "warning",
+    "regex": "\\bquiet\\s+luxury\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "REGISTER = quiet luxury (Brooks 2026-07-23) uses restraint vocabulary ('quietly', 'chose restraint', 'without ceremony') but never names the phrase; naming it breaks it.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_brand_films_no_founder"
+  },
+  {
+    "id": "no-affordable-luxury-phrase",
+    "law": "'affordable luxury' is internal mechanism language, not customer-facing copy",
+    "severity": "warning",
+    "regex": "\\baffordable\\s+luxury\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'Affordable luxury' is internal-only, never spoken in customer-facing copy (2026-07-23). The 2026-07-28 update ('Affordable luxury is fine. The problem is the scam position.') approved the VALUE positioning; whether the literal phrase may now appear in copy is ambiguous, so this stays a warning. Counter-promise wording: 'quality that actually matches the price'.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_designer_inflation_language"
+  },
+  {
+    "id": "no-tired-of-complaint",
+    "law": "designer-inflation language: no 'tired of X' complaint structure",
+    "severity": "warning",
+    "regex": "\\b(?:tired|sick)\\s+of\\b|\\bfed\\s+up\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Meaning beats are observational and identity-forward (who she is, what she noticed, what we promise), never grievance. 'We got tired of it' / 'Women are tired of feeling scammed' were rewritten before production. Reaffirmed 2026-07-28 when Brooks chose discernment framing over direct 'tired of' language.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_designer_inflation_language"
+  },
+  {
+    "id": "no-priced-out-framing",
+    "law": "designer-inflation language: never priced out / can't afford / bitter",
+    "severity": "warning",
+    "regex": "\\bpriced\\s+out\\b|\\bcan(?:['’]t|not)\\s+afford\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "The identity to emulate is the woman who is NOT frivolously spending on designer: she could, she chooses not to. Sour-grapes framing repels her. The can't-afford reality can inform targeting internally but never appears in customer-facing copy.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_designer_inflation_language"
+  },
+  {
+    "id": "no-comparison-sneer",
+    "law": "comparison-ad tone: competitors get a trade-off, never a defect",
+    "severity": "warning",
+    "regex": "\\bthe\\s+whole\\s+bag\\b|\\bthat(?:['’]s|\\s+is)\\s+all\\s+it\\s+is\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Banned in any Velantra comparison ad: 'the whole bag', 'that is all it is', sneering, or any framing where a rival's bag is the problem. Test: if a line would make a Saint Laurent owner feel stupid, it is the wrong line; she is the avatar. Thesis line: 'the only question is how much of what you are paying for is actually the bag.'",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_no_competitor_comparisons"
+  },
+  {
+    "id": "no-women-personification",
+    "law": "no object personification / no fourth-wall on the muse names",
+    "severity": "warning",
+    "regex": "\\bnamed\\s+(?:for|after)\\s+(?:a\\s+)?wom[ae]n\\b|\\bwomen\\s+aren['’]?t\\s+real\\b|\\bmeet\\s+the\\s+women\\b|\\bbag\\s+(?:is|has)\\s+a\\s+woman(?:['’]s\\s+name)?\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Never call the product line 'the women', never state bags are named for / are women, never 'The women aren't real. The lives are.' Anywhere: decks, briefs, PDPs, ads. A bare 'the women' is too common to regex; read for it. Vestirsi model: the name is just a name.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_no_object_personification"
+  },
+  {
+    "id": "no-epithet-taglines",
+    "law": "no epithet tag lines on the muse names",
+    "severity": "warning",
+    "regex": "\\bthe\\s+(?:summer|everyday|polished|weekend|work|travel)\\s+one\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Epithets ('the summer one', 'the everyday one', 'the polished one', 'the one that never checks a bag') lower perceived value and state the obvious (Brooks 2026-07-23). PDP: name = title only, body opens on craft/function copy.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_no_object_personification"
+  },
+  {
+    "id": "no-origin-claims-extended",
+    "law": "no origin claims (extended sweep terms)",
+    "severity": "warning",
+    "regex": "\\bnew\\s+york\\s+atelier\\b|\\bitalian\\s+craftsmanship\\b|\\b(?:made|handcrafted|crafted|manufactured)\\s+in\\s+(?:the\\s+)?(?:usa|u\\.s(?:\\.a)?|america|new\\s+york|italy|paris|france|portugal|spain|england|europe)\\b|\\btuscan\\b|\\btanner(?:y|ies)\\b|\\bLWG\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Velantra bags are manufactured in China. Never claim US/EU/Italian manufacture. Approved framing: 'Designed in the U.S., handcrafted by skilled artisans overseas.' Extends examples/velantra.json no-origin-claims with the inherited-claim sweep terms (Italian/Tuscan/tannery/LWG). CARVE-OUT: the material line 'softest Italian leather' is APPROVED in Straw Tote ad scripts and must not be auto-stripped; note that the existing no-origin-claims regex ('italian\\s+leather') will flag it as a warning.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_origin_claims"
+  },
+  {
+    "id": "no-jessica-persona",
+    "law": "Jessica persona RETIRED; Brooks is the public founder",
+    "severity": "blocker",
+    "regex": "\\bjessica\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Since 2026-07-22 Brooks is the public founder in ALL customer-facing copy; sign founder letters 'Brooks, Founder'. Never resurrect Jessica (cleanup debt remains in old Omnisend templates / sender names).",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_jessica_persona"
+  },
+  {
+    "id": "founding-claim-newport-beach",
+    "law": "locked founding claim: 'Founded in Newport Beach'",
+    "severity": "warning",
+    "regex": "\\bfounded\\s+in\\s+(?:nantucket|cape\\s+cod|new\\s+york|nyc|manhattan|los\\s+angeles|paris|italy|france)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'Founded in Newport Beach' superseded the earlier same-day Nantucket phrasing (2026-07-23). Founding claim only; never extended to where bags are made.",
+    "scope": "copy",
+    "brand": "velantra",
+    "source": "feedback_velantra_brand_films_no_founder"
+  },
+  {
+    "id": "no-mouth-above-flap-phrasing",
+    "law": "flap-mechanism-no-exceptions (banned prompt phrasings)",
+    "severity": "blocker",
+    "regex": "\\brising\\s+(?:up\\s+)?above\\s+(?:and\\s+)?behind\\s+the\\s+flap\\b|\\b(?:mouth|opening|interior)\\s+(?:is\\s+)?visible\\s+(?:above|behind|beside)\\s+the\\s+flap\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Two prompt phrasings actively cause the open-straw-box failure on the Straw Tote / Weekender: describing the mouth as 'visible rising above and behind the flap', and any wording implying the interior should be shown. The flap folds over the ENTIRE bag; a packing shot looks CLOSED.",
+    "scope": "prompt",
+    "brand": "velantra",
+    "source": "feedback_flap_mechanism_no_exceptions"
+  },
+  {
+    "id": "weekender-no-native-text-in-prompt",
+    "law": "Seedance cannot spell 'Weekender' as native text",
+    "severity": "warning",
+    "regex": "\\b(?:on[-\\s]screen\\s+text|caption|lettering|title\\s+card|typography)\\b[^.\\n]{0,40}\\bweekender\\b|\\b(?:reads?|says|spell(?:s|ing)?)\\s*[:\"“']\\s*weekender\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Seedance renders 'Weekender' as Weekaner/Weekaver. Strip the caption from the prompt and post-overlay via Pillow PNG. Native two-line captions must not use periods as line delimiters; pin size/position explicitly.",
+    "scope": "prompt",
+    "brand": "velantra",
+    "source": "feedback_weekender_product_truth_skill"
+  }
+]

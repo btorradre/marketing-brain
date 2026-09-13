@@ -1,0 +1,102 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "BOAT TOTE",
+        "description_override": "<p>Canvas gives the Boat Tote its relaxed character, framed by contrasting handles and a belted front. The textured body and visible stitching keep the construction part of the design, with a broad carryall shape that feels easy to reach for. Its appeal is in that meeting of practical form and considered detail: a familiar silhouette with enough personality to make the everyday feel a little more your own.</p>",
+        "fact_material": "Canvas with contrast trim",
+        "fact_detail": "Everyday carryall",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Canvas carryall with contrast handles, trim and a belted front. Construction varies by listing and colorway; refer to the selected product’s photographs.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Canvas body with contrasting trim. Spot-clean gently with a barely damp cloth and air-dry fully. Avoid soaking, direct heat and prolonged sunlight.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "detailfilm": {
+      "type": "detail-film",
+      "disabled": true,
+      "settings": {
+        "description": "A detail film of the Boat Tote",
+        "vertical_position": 65
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "THE RHYTHM OF MAKING",
+        "text": "<p>A closer look at the Boat Tote.</p>"
+      }
+    },
+    "value": {
+      "type": "value-breakdown",
+      "disabled": true,
+      "settings": {
+        "default_asset": "",
+        "image_description": "The Boat Tote",
+        "image_fit": "contain",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "table_caption": "The Boat Tote: visible design details",
+        "product_heading": "The Boat Tote",
+        "detail_heading": "Detail",
+        "purpose_heading": "The purpose"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "detailfilm",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

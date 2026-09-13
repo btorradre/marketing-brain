@@ -1,0 +1,119 @@
+{
+  "theme_id": 151364960321,
+  "baseline": "research/pdp-templates-baseline-final-2026-09-05.json",
+  "modified_files": [
+    "sections/client-perspectives.liquid",
+    "templates/product.vivienne.json",
+    "templates/product.weekender.json",
+    "templates/product.meridian-tote.json",
+    "templates/product.boat-tote-2.json",
+    "templates/product.colette.json",
+    "templates/product.delphine.json",
+    "templates/product.juliette.json",
+    "templates/product.straw-birkin.json",
+    "templates/product.bow-tote.json",
+    "templates/product.portico-bucket-bag.json",
+    "templates/product.ingrid.json",
+    "templates/product.boat-tote-legacy.json"
+  ],
+  "preserved_main_product": [
+    "vivienne",
+    "weekender",
+    "meridian-tote",
+    "boat-tote-2",
+    "colette",
+    "delphine",
+    "juliette"
+  ],
+  "vivienne_main_changes": [
+    "description_override removes single-hide/finish claim and preserves October preorder",
+    "Details uses visible features and approximate nominal dimensions; removes unverified mechanism/feet/strap claims",
+    "Care removes unsupported tanning and metal composition claims"
+  ],
+  "pending_media": {
+    "six_active_films": "disabled until individual hosted files arrive",
+    "six_active_timelines": "Enabled with final reviewed filenames; root must upload corresponding 24 assets before templates.",
+    "draft_editorial_sections": "disabled pending model-specific evidence/media"
+  },
+  "template_assignments_for_root": [
+    {
+      "id": "gid://shopify/Product/7995890073665",
+      "handle": "the-ingrid-top-handle-tote",
+      "templateSuffix": "ingrid"
+    },
+    {
+      "id": "gid://shopify/Product/7585764835393",
+      "handle": "velantra-boat-tote",
+      "templateSuffix": "boat-tote-legacy"
+    },
+    {
+      "id": "gid://shopify/Product/7661611679809",
+      "handle": "boat-tote",
+      "templateSuffix": "boat-tote-legacy"
+    },
+    {
+      "id": "gid://shopify/Product/7688698101825",
+      "handle": "velantra-boat-tote-1",
+      "templateSuffix": "boat-tote-legacy"
+    }
+  ],
+  "default_and_accessory_templates_changed": false,
+  "review_source": "No verified active-family review feed found; app block section configured with honest empty state.",
+  "preservation_checks": [
+    {
+      "file": "templates/product.weekender.json",
+      "main_product_preserved": true
+    },
+    {
+      "file": "templates/product.meridian-tote.json",
+      "main_product_preserved": true
+    },
+    {
+      "file": "templates/product.boat-tote-2.json",
+      "main_product_preserved": true
+    },
+    {
+      "file": "templates/product.colette.json",
+      "main_product_preserved": true
+    },
+    {
+      "file": "templates/product.delphine.json",
+      "main_product_preserved": true
+    },
+    {
+      "file": "templates/product.juliette.json",
+      "main_product_preserved": true
+    },
+    {
+      "file": "templates/product.bag-scarf.json",
+      "accessory_template_unchanged": true
+    },
+    {
+      "file": "templates/product.horse-charm.json",
+      "accessory_template_unchanged": true
+    },
+    {
+      "file": "templates/product.boat-tote-keychain.json",
+      "accessory_template_unchanged": true
+    },
+    {
+      "file": "templates/product.cherry-charm.json",
+      "accessory_template_unchanged": true
+    },
+    {
+      "file": "templates/product.bag-organizer.json",
+      "accessory_template_unchanged": true
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "files": 13,
+    "artifact_id": "2b84e39e-9cbe-47e1-bc29-f9655fc2c483",
+    "revision": 2
+  },
+  "native_qa": "research/pdp-editorial-smoke-qa.json (16/16 desktop/mobile active listing checks passed)",
+  "value_hero_replacements": {
+    "weekender": "weekender-value-hero.jpg (accepted actual Army Green source)",
+    "delphine": "delphine-value-hero.jpg (accepted corrected Light Chocolate master)"
+  }
+}

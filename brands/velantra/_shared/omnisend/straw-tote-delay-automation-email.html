@@ -1,0 +1,108 @@
+<!-- ============================================================
+     VELANTRA — Straw Tote Delay Notice (AUTOMATION — new buyers)
+     Purpose: fires once per NEW Straw Tote order so every buyer
+     hears about the delay from us BEFORE the premature shipping
+     confirmation / tracking emails can confuse them.
+     Omnisend automation trigger: event "placed order" (origin
+     shopify) + sub-filter raw.line_items.[].title contains
+     "Straw Tote". Delay: send immediately (before Dianxiaomi
+     fulfills at ~12h). Sender: Brooks at Velantra
+     <customerservice@velantrafashion.com>.
+     Import via post_email_templates_import — fluid-width
+     convention, literal UTF-8 only (no HTML entities).
+     Suggested subject:  A quick note about your Straw Tote order
+     Suggested preheader: Your bag is confirmed — here's exactly
+     what happens next (and what those tracking emails mean).
+     ============================================================ -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;">
+  <tr>
+    <td align="center">
+
+      <!-- Preheader / inbox preview -->
+      <div style="display:none; font-size:1px; color:#ffffff; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all;">
+        Your bag is confirmed — here's exactly what happens next. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+      </div>
+
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:552px; background-color:#ffffff;">
+
+        <!-- top hairline accent -->
+        <tr><td style="height:4px; background-color:#000000; line-height:4px; font-size:0;">&nbsp;</td></tr>
+
+        <!-- Wordmark -->
+        <tr>
+          <td align="center" style="padding:36px 12px 6px 12px;">
+            <a href="https://velantrafashion.com" style="text-decoration:none;">
+              <span style="font-family:'Abel','Arial Narrow','Helvetica Neue',Arial,sans-serif; font-size:32px; letter-spacing:10px; color:#000000; text-transform:uppercase; font-weight:400;">Velantra</span>
+            </a>
+          </td>
+        </tr>
+
+        <!-- Eyebrow -->
+        <tr>
+          <td align="center" style="padding:0 12px 28px 12px;">
+            <span style="font-family:'Assistant','Helvetica Neue',Helvetica,Arial,sans-serif; font-size:11px; letter-spacing:4px; color:#8a8a8a; text-transform:uppercase;">A Note On Your Order</span>
+          </td>
+        </tr>
+
+        <!-- Lead line -->
+        <tr>
+          <td style="padding:0 12px; font-family:'Abel','Arial Narrow',Arial,sans-serif;">
+            <p style="margin:0 0 26px 0; font-size:22px; line-height:31px; color:#000000;">Your Straw Tote is confirmed — and I want to tell you exactly what happens next.</p>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="padding:0 12px; font-family:'Assistant','Helvetica Neue',Helvetica,Arial,sans-serif; color:#1a1a1a; font-size:16px; line-height:27px;">
+            <p style="margin:0 0 20px 0;">Hi [[contact.first_name | default: "there"]],</p>
+
+            <p style="margin:0 0 20px 0;">Thank you for your order. Your Straw Tote is reserved for you, and nothing else is needed on your end.</p>
+
+            <p style="margin:0 0 20px 0;">One thing I want to be upfront about: demand for this bag ran ahead of us, and production is still catching up. Your tote will ship around <strong>early August</strong>. I know that's a longer wait than you expected, and I'm sorry for it. We would rather make it well than make it fast.</p>
+          </td>
+        </tr>
+
+        <!-- "What you'll see" — cream panel (the defuser) -->
+        <tr>
+          <td style="padding:8px 12px 0 12px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f6f1eb;">
+              <tr>
+                <td style="padding:24px 24px; font-family:'Assistant','Helvetica Neue',Helvetica,Arial,sans-serif; color:#1a1a1a; font-size:16px; line-height:27px;">
+                  <p style="margin:0 0 10px 0; font-size:12px; letter-spacing:3px; text-transform:uppercase; color:#000000; font-weight:700;">What happens next</p>
+                  <p style="margin:0 0 14px 0;">Until your bag ships, your order will simply show as processing. You won't get tracking updates yet — and that's on purpose. We only want to send you a tracking number that actually moves.</p>
+                  <p style="margin:0;">The moment your tote leaves the workshop, you'll get a shipping confirmation with live tracking, and you can follow it right to your door.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Closing -->
+        <tr>
+          <td style="padding:26px 12px 8px 12px; font-family:'Assistant','Helvetica Neue',Helvetica,Arial,sans-serif; color:#1a1a1a; font-size:16px; line-height:27px;">
+            <p style="margin:0 0 20px 0;">If the wait doesn't work for you, that's completely okay. Just reply to this email and I'll personally make it right — no awkward back-and-forth.</p>
+            <p style="margin:0 0 26px 0;">Thank you for being one of the first to carry the Straw Tote. I can't wait for you to hold it.</p>
+            <p style="margin:0 0 2px 0;">Warmly,</p>
+            <p style="margin:0; font-family:'Abel','Arial Narrow',Arial,sans-serif; font-size:20px; letter-spacing:1px; color:#000000;">Brooks</p>
+            <p style="margin:2px 0 0 0; font-size:11px; letter-spacing:3px; color:#8a8a8a; text-transform:uppercase;">Founder, Velantra</p>
+          </td>
+        </tr>
+
+        <!-- bottom hairline -->
+        <tr><td style="padding:30px 12px 0 12px;"><div style="border-top:1px solid #e0dfdf; line-height:1px; font-size:0;">&nbsp;</div></td></tr>
+
+        <!-- Footer -->
+        <tr>
+          <td align="center" style="background-color:#ffffff; padding:22px 12px 36px 12px;">
+            <div style="font-family:'Abel','Arial Narrow',Arial,sans-serif; font-size:18px; letter-spacing:6px; text-transform:uppercase; color:#000000; margin-bottom:14px;">Velantra</div>
+            <p style="margin:0 0 6px 0; font-family:'Assistant',Helvetica,Arial,sans-serif; color:#9a9a9a; font-size:12px; line-height:18px;">You're receiving this because you placed an order with Velantra.</p>
+            <p style="margin:0; font-family:'Assistant',Helvetica,Arial,sans-serif; color:#9a9a9a; font-size:12px; line-height:18px;">Questions? Just reply to this email — it comes straight to us.</p>
+            <p style="margin:14px 0 0 0;"><a href="[[unsubscribe_link]]" style="color:#9a9a9a; text-decoration:underline; font-size:12px; font-family:'Assistant',Helvetica,Arial,sans-serif;">Unsubscribe</a></p>
+          </td>
+        </tr>
+
+      </table>
+
+    </td>
+  </tr>
+</table>

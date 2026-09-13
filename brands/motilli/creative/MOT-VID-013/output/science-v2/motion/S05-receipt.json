@@ -1,0 +1,73 @@
+{
+  "shot": "S05",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The tissue makes one very slow subtle contraction around the unchanged stool segments; no abrupt expulsion or complete blockage. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S05.png",
+  "reference_sha256": "9ce9afa7f4f532171745566db80c108a40172646dd5e894e84177e63e04236b8",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChZiOE9nYXZfX092S0h6N0lQeFppSmNREhZiOE9nYXZfX092S0h6N0lQeFppSmNR",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S05.mp4",
+  "sha256": "78fb9510109337877b07e9ccbf35a621184f7f04fa7cd1dd5f2880e33c01c329",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60013,
+    "total_input_tokens": 1153,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 53
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58373,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 487,
+    "raw_prompt_token": 31006,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1846
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 459
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 487
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

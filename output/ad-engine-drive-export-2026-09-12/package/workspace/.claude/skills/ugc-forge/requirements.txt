@@ -1,0 +1,10 @@
+# ugc-forge dependencies
+google-genai>=1.60        # Veo 3 image-to-video (Gemini API)
+requests>=2.31            # ElevenLabs REST (no SDK needed)
+# ffmpeg + ffprobe must be on PATH (brew install ffmpeg)
+# optional: opencv-python  -> enables multi-face guard on the reference image
+#
+# Lip-sync: the default "fal" backend uses FAL_API_KEY (already in the vault .env)
+# — Sync.so hosted on fal.ai, no extra install. Alternative local backends are
+# wired via env (UGC_OMNI_CMD / UGC_WAV2LIP_CMD); override the fal model with
+# UGC_FAL_LIPSYNC_MODEL.

@@ -1,0 +1,73 @@
+{
+  "shot": "S08",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "Subtle organic tissue movement and a tiny physical camera drift reveal the glossy colon surface without changing its shape or connections. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S08.png",
+  "reference_sha256": "f6be2378b922704d1e126977d67cad16062abda9c667d076a1768aba69719487",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdDTE9nYXBLNEpaS2N6N0lQeUliMXVRZxIXQ0xPZ2FwSzRKWktjejdJUHlJYjF1UWc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S08.mp4",
+  "sha256": "e1743e8313d276b0fb933896b72b39fd621254fcf03fe1399b6c1db1602e19b6",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59979,
+    "total_input_tokens": 1155,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 55
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58530,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 294,
+    "raw_prompt_token": 31482,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1847
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 616
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 294
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

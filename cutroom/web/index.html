@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cutroom</title>
+<style>
+:root{--bg:#1e2126;--panel:#262a31;--panel2:#2e333b;--text:#e8eaed;--muted:#9aa3ad;--accent:#4f8cff;--border:#3a4049}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.layout{display:flex;min-height:100vh}
+#side{width:250px;flex-shrink:0;border-right:1px solid var(--border);padding:28px 16px;display:flex;flex-direction:column;gap:4px}
+.logo{font-size:20px;font-weight:800;letter-spacing:-.02em;padding:0 10px 18px}
+.logo span{color:var(--accent)}
+.pitem{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:9px;cursor:pointer;color:var(--muted);font-size:13.5px;font-weight:550}
+.pitem:hover{background:var(--panel)}
+.pitem.active{background:var(--panel2);color:var(--text)}
+.pitem .count{margin-left:auto;font-size:11px;color:var(--muted);background:var(--panel);border-radius:99px;padding:1px 8px}
+.pitem .del{display:none;color:#777;font-size:12px;padding:0 2px}
+.pitem:hover .del{display:block}
+.pitem .del:hover{color:#e66}
+#newProj{display:flex;gap:6px;margin-top:10px;padding:0 4px}
+#newProj input{flex:1;min-width:0;background:var(--panel);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:8px 10px;font-size:12.5px;outline:none}
+#newProj button{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:0 11px;cursor:pointer}
+.syncline{margin-top:auto;padding:10px;color:var(--muted);font-size:11px;display:flex;align-items:center;gap:7px}
+.syncline .dot{width:7px;height:7px;border-radius:50%;background:#4caf7d}
+#main{flex:1;padding:40px 44px;min-width:0}
+h2{font-size:19px;margin-bottom:4px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:24px}
+.new{display:flex;gap:10px;margin-bottom:30px;max-width:640px}
+.new input{flex:1;background:var(--panel);border:1px solid var(--border);border-radius:10px;color:var(--text);padding:12px 14px;font-size:14px;outline:none}
+.new input:focus{border-color:var(--accent)}
+.new button{background:var(--accent);border:none;color:#fff;border-radius:10px;padding:12px 20px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+a.tile{display:block;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;color:var(--text);transition:border-color .15s,transform .15s;position:relative}
+a.tile:hover{border-color:var(--accent);transform:translateY(-2px)}
+.tile .t{font-weight:650;font-size:15px;margin-bottom:6px;padding-right:20px}
+.tile .m{color:var(--muted);font-size:12px}
+.tile .proj{display:inline-block;margin-top:8px;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:#9db7e8;background:rgba(79,140,255,.12);border-radius:99px;padding:2px 9px}
+.empty{color:var(--muted);font-size:14px;padding:40px 0}
+
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <div id="side">
+    <div class="logo">Cut<span>room</span></div>
+    <div id="plist"></div>
+    <div id="newProj">
+      <input id="projName" placeholder="New project…" onkeydown="if(event.key==='Enter')createProject()">
+      <button onclick="createProject()">+</button>
+    </div>
+    <div class="syncline"><div class="dot"></div>Cutroom Cloud · Supabase</div>
+  </div>
+  <div id="main">
+    <h2 id="mainTitle">All boards</h2>
+    <div class="sub" id="mainSub"></div>
+    <div class="new">
+      <input id="title" placeholder="New board name…" onkeydown="if(event.key==='Enter')createBoard()">
+      <button onclick="createBoard()">Create board</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" style="display:none">Nothing here yet.</div>
+  </div>
+</div>
+<script>
+let projects = [], boards = [], current = 'all', RO = false;
+
+const $ = s => document.querySelector(s);
+
+async function load(){
+  RO = false;
+  if (RO) {
+    document.querySelector('.new').style.display = 'none';
+    document.getElementById('newProj').style.display = 'none';
+  }
+  [projects, boards] = await Promise.all([
+    (await fetch('/api/projects')).json(),
+    (await fetch('/api/boards')).json(),
+  ]);
+  if (current !== 'all' && !projects.some(p => p.id === current)) current = 'all';
+  renderSide(); renderMain();
+}
+function renderSide(){
+  const el = $('#plist'); el.innerHTML = '';
+  const mk = (id, name, count, deletable) => {
+    const d = document.createElement('div');
+    d.className = 'pitem' + (current === id ? ' active' : '');
+    const label = document.createElement('span'); label.textContent = name;
+    d.appendChild(label);
+    if (deletable) {
+      const x = document.createElement('span'); x.className = 'del'; x.textContent = '✕';
+      x.title = 'Delete project (boards move to General)';
+      x.onclick = async ev => { ev.stopPropagation();
+        if (confirm(`Delete project "${name}"? Its boards move to General.`)) {
+          await fetch('/api/projects?slug=' + id, {method:'DELETE'}); if (current === id) current = 'all'; load();
+        }};
+      d.appendChild(x);
+    }
+    const c = document.createElement('span'); c.className = 'count'; c.textContent = count;
+    d.appendChild(c);
+    d.onclick = () => { current = id; renderSide(); renderMain(); };
+    el.appendChild(d);
+  };
+  mk('all', 'All boards', boards.length, false);
+  for (const p of projects) mk(p.id, p.name, p.boards, !RO && p.id !== 'general');
+}
+function renderMain(){
+  const list = current === 'all' ? boards : boards.filter(b => b.project === current);
+  const pname = current === 'all' ? 'All boards' : (projects.find(p => p.id === current)?.name || current);
+  $('#mainTitle').textContent = pname;
+  $('#mainSub').textContent = list.length + (list.length === 1 ? ' board' : ' boards');
+  const grid = $('#grid'); grid.innerHTML = '';
+  $('#empty').style.display = list.length ? 'none' : 'block';
+  for (const b of list) {
+    const a = document.createElement('a');
+    a.className = 'tile'; a.href = '/b/' + b.id;
+    const d = new Date(b.updated * 1000);
+    const projName = projects.find(p => p.id === b.project)?.name || b.project;
+    a.innerHTML = `<div class="t"></div><div class="m">${b.cards} cards · ${d.toLocaleDateString()}</div>` +
+      (current === 'all' ? `<span class="proj"></span>` : '');
+    a.querySelector('.t').textContent = b.title;
+    if (current === 'all') a.querySelector('.proj').textContent = projName;
+    grid.appendChild(a);
+  }
+}
+async function createBoard(){
+  const title = $('#title').value.trim() || 'Untitled board';
+  const project = current === 'all' ? 'general' : current;
+  const r = await (await fetch('/api/boards', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({title, project})})).json();
+  location.href = '/b/' + r.id;
+}
+async function createProject(){
+  const name = $('#projName').value.trim();
+  if (!name) return;
+  const r = await (await fetch('/api/projects', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name})})).json();
+  $('#projName').value = '';
+  if (r.id) current = r.id;
+  load();
+}
+load();
+</script>
+</body>
+</html>

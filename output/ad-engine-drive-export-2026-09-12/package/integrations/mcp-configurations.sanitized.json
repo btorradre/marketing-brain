@@ -1,0 +1,98 @@
+{
+  "/Users/brooksorradre2/Documents/marketing brain/.mcp.json": {
+    "dr-os": {
+      "command": "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/ad-engine/.venv/bin/python",
+      "args": [
+        "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/dr-os/server.py"
+      ]
+    },
+    "ad-engine": {
+      "command": "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/ad-engine/.venv/bin/python",
+      "args": [
+        "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/ad-engine/server.py"
+      ]
+    }
+  },
+  "/Users/brooksorradre2/.codex/config.toml": {
+    "node_repl": {
+      "command": "/Applications/Codex.app/Contents/Resources/node_repl",
+      "startup_timeout_sec": 120.0,
+      "env": {
+        "BROWSER_USE_AVAILABLE_BACKENDS": "chrome,iab",
+        "BROWSER_USE_MARKETPLACE_NAME": "openai-bundled",
+        "CODEX_CLI_PATH": "/Applications/Codex.app/Contents/Resources/codex",
+        "CODEX_HOME": "/Users/brooksorradre2/.codex",
+        "NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS": "1000",
+        "NODE_REPL_NODE_MODULE_DIRS": "",
+        "NODE_REPL_NODE_PATH": "/Applications/Codex.app/Contents/Resources/node",
+        "NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S": "167fdf579477181fba1773c1efb067b00c5a64fe85dafb50a2001bde198dc739",
+        "NODE_REPL_TRUSTED_CODE_PATHS": "/Users/brooksorradre2/.codex",
+        "NODE_REPL_UNTRUSTED_ENV_ALLOWLIST": "BROWSER_USE_MARKETPLACE_NAME"
+      }
+    },
+    "davinci-resolve": {
+      "command": "/Users/brooksorradre2/.local/share/davinci-resolve-mcp/venv/bin/python",
+      "args": [
+        "/Users/brooksorradre2/.local/share/davinci-resolve-mcp/src/server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/Modules",
+        "RESOLVE_SCRIPT_API": "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting",
+        "RESOLVE_SCRIPT_LIB": "/Applications/DaVinci Resolve/DaVinci Resolve.app/Contents/Libraries/Fusion/fusionscript.so"
+      }
+    },
+    "elevenlabs": {
+      "url": "https://api.us.elevenlabs.io/v1/mcp"
+    }
+  },
+  "/Users/brooksorradre2/.claude.json": {
+    "apify-playwright": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?actors=jiri.spilka/playwright-mcp-server",
+      "headers": {
+        "Authorization": "Bearer [REDACTED_SECRET]"
+      }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--user-data-dir",
+        "/Users/brooksorradre2/.claude/playwright-profiles/hiring",
+        "--viewport-size",
+        "1440x900"
+      ],
+      "env": {
+        "npm_config_cache": "/Users/brooksorradre2/.cache/npm-claude"
+      }
+    },
+    "/Users/brooksorradre2/Documents/marketing brain::content-system": {
+      "type": "http",
+      "url": "https://mcp.contentsystem.ai/mcp"
+    },
+    "/Users/brooksorradre2/Documents/marketing brain::flow-engine": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/brooksorradre2/.claude/mcpb/content-system-flow-engine/dist/boot.js"
+      ],
+      "env": {
+        "FLOW_PROFILE_DIR": "/Users/brooksorradre2/.claude/mcpb/content-system-flow-engine/.flow-profile"
+      }
+    }
+  },
+  "/Users/brooksorradre2/Library/Application Support/Claude/claude_desktop_config.json": {
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "[REDACTED_SECRET]"
+      }
+    }
+  }
+}

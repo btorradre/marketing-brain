@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health-Insider | Why The Bloating From Your GLP-1 Isn't Just A Side Effect You Have To Live With</title>
+<meta name="description" content="The real reason your digestion slowed down on Ozempic, Wegovy, Mounjaro or Zepbound — and what actually works without more laxatives.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-header: #2b3920;
+    --green-accent: #42563e;
+    --green-soft: #e8f0e6;
+    --green-quote-border: #7ba87e;
+    --orange-cta: #e87722;
+    --orange-cta-hover: #d3651a;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --text-muted: #6b6b6b;
+    --border-soft: #e5e5e5;
+    --bg-white: #ffffff;
+    --bg-page: #fafaf7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-primary);
+    background: var(--bg-page);
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  /* Header bar */
+  .site-header {
+    background: var(--green-header);
+    color: #fff;
+    padding: 18px 0;
+    text-align: center;
+  }
+  .site-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
+
+  /* Layout */
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .breadcrumb {
+    padding: 18px 0 8px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 48px;
+    padding-bottom: 80px;
+  }
+  @media (max-width: 880px) {
+    .layout { grid-template-columns: 1fr; gap: 32px; }
+    .site-header h1 { font-size: 24px; }
+  }
+
+  /* Main article */
+  article h1.title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 14px;
+    color: var(--text-primary);
+  }
+  @media (max-width: 880px) { article h1.title { font-size: 28px; } }
+  .dek {
+    font-size: 17px;
+    color: var(--text-secondary);
+    margin-bottom: 14px;
+    font-weight: 400;
+  }
+  .byline {
+    font-size: 13px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-soft);
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  article h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 700;
+    margin: 36px 0 20px;
+    text-align: left;
+    color: var(--text-primary);
+  }
+  @media (max-width: 880px) { article h2 { font-size: 22px; } }
+  article p {
+    margin-bottom: 14px;
+    color: var(--text-secondary);
+  }
+  article p.lead {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+  article ul {
+    list-style: none;
+    margin: 14px 0 18px;
+    padding: 0;
+  }
+  article ul li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+  }
+  article ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0; top: 0;
+    width: 20px; height: 20px;
+    background: var(--green-accent);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .quote-callout {
+    background: var(--green-soft);
+    border-left: 4px solid var(--green-quote-border);
+    padding: 14px 18px;
+    margin: 18px 0;
+    font-size: 16px;
+    color: var(--text-primary);
+    font-style: normal;
+  }
+  .quote-callout em { font-style: italic; }
+  .image-block {
+    margin: 20px 0 24px;
+    text-align: center;
+  }
+  .image-block img {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border-soft);
+    margin: 32px 0;
+  }
+  .cta-inline {
+    display: inline-block;
+    background: var(--orange-cta);
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    transition: background 0.15s;
+  }
+  .cta-inline:hover { background: var(--orange-cta-hover); }
+  .cta-wrap { text-align: center; margin: 30px 0; }
+
+  /* Sidebar product card */
+  aside.sidebar {
+    position: sticky;
+    top: 24px;
+    align-self: start;
+  }
+  .product-card {
+    background: #fff;
+    border: 1px solid var(--border-soft);
+    border-radius: 8px;
+    padding: 22px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .product-card .recommended-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .product-card .stars {
+    color: #f5a623;
+    font-size: 16px;
+    margin-bottom: 4px;
+    letter-spacing: 2px;
+  }
+  .product-card .reviews {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+  .product-card img.product {
+    width: 100%;
+    height: auto;
+    margin: 6px 0 12px;
+  }
+  .product-card .name {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--green-accent);
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .product-card .tagline {
+    font-size: 13px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .product-card ul.benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px;
+  }
+  .product-card ul.benefits li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+  }
+  .product-card ul.benefits li::before {
+    content: "✓";
+    position: absolute;
+    left: 0; top: 2px;
+    width: 18px; height: 18px;
+    background: var(--green-accent);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .product-card a.cta {
+    display: block;
+    background: var(--orange-cta);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    transition: background 0.15s;
+  }
+  .product-card a.cta:hover { background: var(--orange-cta-hover); }
+
+  /* Recommended bottom card */
+  .recommended-bottom {
+    background: #fff;
+    border: 1px solid var(--border-soft);
+    border-radius: 8px;
+    padding: 28px;
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+  @media (max-width: 600px) { .recommended-bottom { grid-template-columns: 1fr; text-align: center; } }
+  .recommended-bottom img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .recommended-bottom .info h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: var(--green-accent);
+    margin-bottom: 6px;
+  }
+  .recommended-bottom .info p.tag {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+  .recommended-bottom .info .stars {
+    color: #f5a623;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .recommended-bottom .info ul {
+    margin-bottom: 16px;
+  }
+
+  /* Sticky bottom CTA */
+  .sticky-cta {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: #e8eae3;
+    border-top: 1px solid var(--green-header);
+    padding: 12px 16px;
+    z-index: 9999;
+    box-shadow: 0 -4px 18px rgba(0,0,0,0.08);
+  }
+  .sticky-cta a {
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--orange-cta);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 24px;
+    border-radius: 8px;
+    font-family: 'Source Sans 3', -apple-system, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: background 0.15s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  }
+  .sticky-cta a:hover { background: var(--orange-cta-hover); }
+  @media (max-width: 600px) {
+    .sticky-cta { padding: 10px 12px; }
+    .sticky-cta a { font-size: 16px; padding: 16px 20px; letter-spacing: 1px; }
+  }
+  /* Body bottom padding so sticky bar never covers content */
+  body { padding-bottom: 96px; }
+  @media (max-width: 600px) { body { padding-bottom: 88px; } }
+
+  /* Disclaimer */
+  .disclaimer {
+    background: #f3f1ec;
+    padding: 28px 0;
+    text-align: center;
+    border-top: 1px solid var(--border-soft);
+    margin-top: 40px;
+  }
+  .disclaimer p {
+    font-size: 12px;
+    color: var(--text-muted);
+    max-width: 900px;
+    margin: 0 auto 8px;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container"><h1>HEALTH-INSIDER</h1></div>
+</header>
+
+<div class="container">
+  <nav class="breadcrumb">
+    <a href="#">Home</a> &gt; <a href="#">Digestive Health</a> &gt; <a href="#">GLP-1 Side Effect Relief</a>
+  </nav>
+
+  <div class="layout">
+    <article>
+
+      <h1 class="title">Why The Bloating And Constipation From Your GLP-1 Isn't Just A Side Effect You Have To Live With — And What Actually Works</h1>
+      <p class="dek">Without more laxatives, prescription add-ons, or lowering the dose that's finally working for you</p>
+      <p class="byline">By Dr. Rebecca Marsh, MD, Gastroenterology | Published: May 14, 2026 | 9:18 AM EST</p>
+
+      <!-- IMAGE 1: HERO -->
+      <div class="image-block">
+        <img src="./images/01_hero.png" alt="GLP-1 woman with bloating, anatomical overlay showing stomach as root cause">
+      </div>
+
+      <h2>The Real Reason Your Digestion Slowed Down — And Why Your Doctor Isn't Telling You</h2>
+      <p>It started small.</p>
+      <p>A little extra bloating after dinner. Burping more than you used to, sometimes with a smell you hoped no one else caught. A bathroom trip that just... didn't come when it should have. Then a few days passed. Then longer.</p>
+      <p>"They say that's just part of the medication."</p>
+      <div class="quote-callout">Your doctor tells you to drink more water and pick up some Miralax®. The people around you nod. And quietly, you start to wonder: is this the trade? Lose the weight, but feel like this to keep it off?</div>
+      <p class="lead">No. And here is why.</p>
+      <p>That heavy, full feeling hours after you eat. The burps. The bathroom trips that never come on schedule. That is not the price of your medication, and it is not random.</p>
+      <p>It is coming from one specific organ. And it is not the organ that a single product in your medicine cabinet is built to treat.</p>
+
+      <hr class="divider">
+
+      <h2>The Laxative-Aisle Trap Almost Every GLP-1 User Falls Into</h2>
+
+      <!-- IMAGE 3: LAXATIVE TRAP -->
+      <div class="image-block">
+        <img src="./images/03_laxative_trap.png" alt="Bathroom counter cluttered with laxatives, red X overlay">
+      </div>
+
+      <p>One of my patients spent 3 months taking Miralax every single morning. "Otherwise nothing moves at all," she told me. She was still bloated by noon, still burping, still going a week between bathroom trips. Three months, and the only thing that had changed was how much she was spending at the pharmacy.</p>
+      <p>Here is the problem with the entire laxative aisle. Miralax, Dulcolax®, Senna, magnesium citrate, fiber gummies, Smooth Move tea.</p>
+      <ul>
+        <li>Every one of them works on the colon, the very end of the line</li>
+        <li>Not one of them does anything at the stomach, where a GLP-1 actually slows you down</li>
+        <li>The bulking fiber ones can make it worse, by handing a stalled stomach even more to hold</li>
+        <li>And the moment you stop taking them, you are right back where you started, because the real cause was never touched</li>
+      </ul>
+      <p>You can keep treating the bottom of the line forever. The food is stuck at the top.</p>
+      <p class="lead">You have not been failing those products. They were built for a problem you do not have.</p>
+
+      <hr class="divider">
+
+      <h2>"I've Already Tried Everything. Why Would Anything Be Different?"</h2>
+      <p>I hear this in my exam room almost every week. And the woman saying it is right to be skeptical. She has tried Miralax. She has tried fiber. She has tried Linzess®. Some have tried all of it at once.</p>
+      <p>So I tell them the same thing every time. For almost every GLP-1 user, none of that was ever going to work. Not because she did it wrong. Because of where the problem actually sits.</p>
+
+      <!-- IMAGE 4: MECHANISM DIAGRAM -->
+      <div class="image-block">
+        <img src="./images/04_mechanism_diagram.png" alt="Anatomical diagram showing stomach as root cause vs colon where laxatives work">
+      </div>
+
+      <p>Your digestion runs in a single line. Food enters at the top, at your stomach. It leaves at the bottom, through your colon. Those two points are about 6 feet apart.</p>
+      <p>A GLP-1 works by slowing how fast your stomach empties. That is the whole point of the drug, and it is the whole source of your problem. A meal that should clear your stomach in about 4 hours now sits there for 10, sometimes 12. While it sits in a warm, still stomach, it ferments. That fermentation is your gas. Your bloating. The rotten egg burps. The pressure under your ribs.</p>
+      <p>By the time anything reaches your colon, days late, the colon has just been sitting there empty and waiting.</p>
+      <p>Now look again at that medicine cabinet. Every product in it works on the colon. The colon was never the problem. The problem starts 6 feet upstream, at the stomach, and not one of those products goes there.</p>
+      <p class="lead">So a real solution cannot just push harder on the colon. It has to do 3 things, in the place the problem actually lives:</p>
+      <ul>
+        <li>Wake the stomach back up, so it starts moving food again instead of letting it sit and ferment</li>
+        <li>Neutralize the sulfur gas that has already built up, so the burps and the smell settle down</li>
+        <li>Help the colon clear gently, with the low-bulk kind of fiber that draws in moisture, not the bulking kind that asks a tired system to push harder</li>
+      </ul>
+      <p>Not one product in that aisle does more than one of those. Most do none.</p>
+      <p>And once I had that 3-part list, I knew exactly what to look for.</p>
+
+      <hr class="divider">
+
+      <h2>The 3-Ingredient Formula That Works Where The Problem Actually Starts</h2>
+
+      <!-- IMAGE 5: FORMULA HERO -->
+      <div class="image-block">
+        <img src="./images/05_formula_hero.png" alt="Motilli bottle with 3 ingredient circles">
+      </div>
+
+      <p>It took me longer than I expected to find one product that did all 3. Most of what I reviewed, supplements included, still stopped at the colon.</p>
+      <p>The one that did not is made by a small company called Motilli.</p>
+      <p>Motilli is built around 3 active ingredients, and each one does exactly one job on that list.</p>
+      <p><strong>Apigenin, from celery juice extract.</strong> In the studies I pulled, apigenin supported the same stomach nerve a GLP-1 slows down. It does not switch your medication off. It helps your stomach find its rhythm again, so food stops sitting long enough to ferment. That covers the stomach.</p>
+      <p><strong>Sodium copper chlorophyllin.</strong> Not the chlorophyll on the health food shelf, which falls apart in stomach acid before it does anything. This is the stable form. It neutralizes the sulfur gas behind the rotten egg smell before that gas can rise back up. That covers the burps.</p>
+      <p><strong>Low-bulk soluble fiber.</strong> Not psyllium, not the bulking kind. The low-bulk kind that draws moisture into the colon, so whatever has been stuck there can finally move once the stomach starts pushing again. That covers the colon, gently.</p>
+      <p>Three ingredients, doing the exact 3 jobs the laxative aisle could never cover, in a heart-shaped gummy you take 2 a day.</p>
+
+      <h2 style="font-size: 24px; margin-top: 26px;">Why This Combination Works When The Aisle Didn't</h2>
+      <ul>
+        <li>Apigenin restarts the organ the medication slowed down, the stomach</li>
+        <li>Chlorophyllin handles the gas that is already trapped and rising</li>
+        <li>The soluble fiber clears the colon without the bulk that makes a stalled stomach worse</li>
+        <li>Together, they treat the problem from the top of the line down, instead of only at the very bottom</li>
+      </ul>
+
+      <div class="cta-wrap"><a href="https://getmotilli.com/products/motilli-digestive-health-gummies" class="cta-inline">CHECK AVAILABILITY →</a></div>
+
+      <hr class="divider">
+
+      <h2>What This Actually Means For Your Day</h2>
+
+      <!-- IMAGE 6: DAILY LIFE COLLAGE -->
+      <div class="image-block">
+        <img src="./images/06_daily_life_collage.png" alt="GLP-1 woman lifestyle moments around Motilli bottle">
+      </div>
+
+      <p>You know what is in it now. Here is what changes once your stomach is actually moving again.</p>
+      <p><strong>Your Mornings Change</strong><br>
+      Instead of waking up already bloated, already bracing, already calculating when you will next get to a bathroom... you wake up and the day is just a day. Your stomach is quiet. You are not starting from behind.</p>
+      <p><strong>You Get The Table Back</strong></p>
+      <div class="quote-callout">One patient had stopped going out for coffee with her closest friend, because she could not stop thinking about her own breath across a small table. A few weeks in, she said, "I sat there for an hour and never once thought about it. I had forgotten what that felt like."</div>
+      <p><strong>The Things You Quietly Stopped Doing Come Back</strong><br>
+      The dinners you started declining. The grandkids' games you left early, every time, for the bathroom. The trips you stopped taking because you could not predict your own body.</p>
+      <div class="quote-callout">Another patient put it simply: "My husband told me I seem like myself again. He didn't even know how long I'd been gone."</div>
+
+      <hr class="divider">
+
+      <h2>What You Can Expect, Week By Week</h2>
+
+      <!-- IMAGE 7: WEEKLY TIMELINE -->
+      <div class="image-block">
+        <img src="./images/07_weekly_timeline.png" alt="3-panel weekly transformation: Quiet Start, First Real Sign, The Turn">
+      </div>
+
+      <p>This is not a laxative. It will not hit you the next morning, and you should not want it to. It works by helping a slowed system speed back up, and that takes a little time.</p>
+      <p><strong>Week 1 to 2: The Quiet Start</strong><br>
+      For most women, not much yet. A few decide it isn't working and almost quit here. Underneath, the stomach is only beginning to move again.</p>
+      <p><strong>Week 2 to 3: The First Real Sign</strong><br>
+      The bloating eases first. It is subtle enough that you second-guess it. Then the sulfur burps start to fade, and for most women that is the change that convinces them, because it is the one other people had already noticed.</p>
+      <div class="quote-callout">"By week three I realized I hadn't reached for Miralax in days."</div>
+      <p><strong>Week 4 And Beyond: The Turn</strong><br>
+      Bathroom trips become regular and predictable. The pressure that kept you up at night settles. You sit through a full dinner without bracing for it.</p>
+      <div class="quote-callout">"I stopped tracking it on my phone. I just don't have to think about it anymore."</div>
+
+      <hr class="divider">
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>"Why would this work when nothing else did?"</strong><br>
+      Because everything else was aimed at your colon. This is the only approach that starts at your stomach, the organ your medication actually slowed down. A colon product was never going to fix a stomach problem.</p>
+      <p><strong>"How many gummies a day?"</strong><br>
+      Two a day. They are heart-shaped and dissolve quickly, which matters, because a gummy goes to work in the stomach. That is exactly where the problem starts. A hard tablet would move straight past it.</p>
+      <p><strong>"How soon will I notice anything?"</strong><br>
+      Weeks 1 to 2, subtle. Weeks 2 to 3, the bloating and burps begin to ease. Week 4 and beyond, regular and predictable. It is not overnight, and consistency is what makes it work.</p>
+      <p><strong>"Is it safe to take long-term?"</strong><br>
+      Yes. It is a dietary supplement made from food-derived ingredients, intended for daily use.</p>
+      <p><strong>"Can I take it while I'm still on my GLP-1 medication?"</strong><br>
+      Yes. It is designed for exactly that. It is meant to be taken alongside Ozempic®, Wegovy®, Mounjaro®, or Zepbound®, not instead of them, and it does not interfere with how the medication works. If you take other prescription drugs, check with your doctor or pharmacist first.</p>
+
+      <hr class="divider">
+
+      <h2>What An Ordinary Day Looks Like On The Other Side Of This</h2>
+      <p>Sitting through a whole dinner without counting the minutes.</p>
+      <p>Bathroom trips that are regular, and that you stop tracking.</p>
+      <p>Coffee with a friend without one thought about your breath.</p>
+      <p>A morning that does not start with bloating and bracing.</p>
+      <p>Staying for the whole visit, instead of disappearing every half hour.</p>
+      <p>Keeping the weight loss you worked so hard for, without the body it came in making you miserable.</p>
+      <p class="lead">This is what it is supposed to feel like.</p>
+
+      <h2 style="font-size: 24px; margin-top: 26px;">How It Fits Into Your Day</h2>
+      <p>The simplest part of all of this is the routine. Two heart-shaped gummies a day, with or without food, whenever fits your morning. That is the whole protocol. No mixing powders, no timing it around meals, no swallowing horse-pill tablets. It is gentle enough for people who do not tolerate supplements well, because it is built from food-derived ingredients, not harsh stimulant laxatives.</p>
+
+      <h2 id="bottom">How To Get Started</h2>
+      <p>If the bloating, the burps, and the bathroom trips have been wearing on you, and you want to see what working on the actual cause does, this is the moment to start.</p>
+      <p>I will be honest. This is not always something you can just click and order. Motilli is a small company. They make one product, in small batches, and they sell it directly so they can keep the quality where it is. When word moves through the GLP-1 support groups, they sell out, and a reorder runs weeks behind.</p>
+      <p>They also stand behind it with a <strong>90-day money-back guarantee.</strong> Take it for 90 days, and mark the changes on a calendar. If the bloating does not ease, if the burps do not fade, if you still brace yourself before a normal dinner, you send it back and pay nothing. The risk sits with them, not with you.</p>
+      <p>The link below checks current availability. If it is in stock, I would secure it now rather than wait. If it has sold out, you can join the waitlist and be notified the moment it returns.</p>
+      <p>And do not wait for it to get worse first. Every week your stomach stays slowed is another week of food sitting and fermenting. The sooner it is moving again, the less there is to undo.</p>
+
+      <div class="cta-wrap"><a href="https://getmotilli.com/products/motilli-digestive-health-gummies" class="cta-inline">CHECK AVAILABILITY →</a></div>
+
+      <!-- Recommended bottom card -->
+      <div class="recommended-bottom">
+        <img src="./images/02_product_sidebar.png" alt="Motilli Celery Juice Fiber Gummies">
+        <div class="info">
+          <p style="font-size:12px; color: var(--text-muted); margin-bottom:6px;">Recommended:</p>
+          <div class="stars">★★★★★</div>
+          <p style="font-size:12px; color: var(--text-muted); margin-bottom:10px;">4.8 | 13,429+ GLP-1 Users</p>
+          <h3>Motilli — Celery Juice Fiber Gummies</h3>
+          <p class="tag">For GLP-1 bloating, sulfur burps & irregularity</p>
+          <ul>
+            <li>Works at the stomach, where a GLP-1 actually slows you down</li>
+            <li>Eases bloating, sulfur burps, and irregularity</li>
+            <li>3 food-derived ingredients, no harsh stimulant laxatives</li>
+            <li>2 heart-shaped gummies a day, 90-day money-back guarantee</li>
+          </ul>
+          <a href="https://getmotilli.com/products/motilli-digestive-health-gummies" class="cta-inline" style="margin: 0;">CHECK AVAILABILITY →</a>
+        </div>
+      </div>
+
+    </article>
+
+    <aside class="sidebar">
+      <div class="product-card">
+        <p class="recommended-label">Recommended:</p>
+        <div class="stars">★★★★★</div>
+        <p class="reviews">4.8 | 13,429+ GLP-1 Users</p>
+        <img src="./images/02_product_sidebar.png" class="product" alt="Motilli bottle">
+        <p class="name">motilli</p>
+        <p class="tagline">Celery Juice Fiber Gummies</p>
+        <ul class="benefits">
+          <li>Works at the stomach, where a GLP-1 slows you down</li>
+          <li>Eases bloating, sulfur burps & irregularity</li>
+          <li>3 food-derived ingredients, no stimulant laxatives</li>
+          <li>2 heart-shaped gummies daily — 90-day money-back guarantee</li>
+        </ul>
+        <a href="https://getmotilli.com/products/motilli-digestive-health-gummies" class="cta">CHECK AVAILABILITY →</a>
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+<footer class="disclaimer">
+  <div class="container">
+    <p><strong>This is an advertisement and not an actual news article, blog, or medical report.</strong></p>
+    <p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Motilli is a dietary supplement and is not a substitute for any medication prescribed by your doctor. Do not stop or change a prescribed medication without consulting your physician.</p>
+  </div>
+</footer>
+
+<!-- Local-dev sticky CTA (Shopify production renders an identical one from the page template since position:fixed is sanitized out of body_html) -->
+<div class="sticky-cta">
+  <a href="https://getmotilli.com/products/motilli-digestive-health-gummies">CHECK AVAILABILITY →</a>
+</div>
+
+</body>
+</html>

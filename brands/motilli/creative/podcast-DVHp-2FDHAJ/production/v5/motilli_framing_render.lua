@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();p:SetCurrentRenderMode(1);p:SetRenderSettings({TargetDir='/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/podcast-DVHp-2FDHAJ/production/v5/qa',CustomName='framing-single',SelectAllFrames=true,ExportVideo=true,ExportAudio=false});local id=p:AddRenderJob();print(id,p:StartRendering(id))

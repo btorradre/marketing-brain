@@ -1,0 +1,21 @@
+{
+  "queried_at": "2026-09-13T18:56:52.127025+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT campaign.name, campaign_criterion.type, campaign_criterion.negative, campaign_criterion.location.geo_target_constant FROM campaign_criterion WHERE campaign_criterion.type = LOCATION AND campaign_criterion.status != REMOVED",
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/9348603597/campaigns/24222469438",
+        "name": "Campaign #1"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/9348603597/campaignCriteria/24222469438~2840",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/2840"
+        },
+        "negative": false
+      }
+    }
+  ]
+}

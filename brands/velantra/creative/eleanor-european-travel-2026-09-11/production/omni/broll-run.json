@@ -1,0 +1,107 @@
+{
+  "flow_id": "v9fitIcgXq2wpUuyCuvG",
+  "nodes": [
+    {
+      "id": "S04",
+      "duration": 10,
+      "prompt": "She casually adjusts her trench cuff, looks up and takes one small arriving step toward the hotel, keeping the bag visible by its top handles. One candid handheld iPhone shot, subtle camera sway, ordinary cloudy daylight; preserve her exact identity/outfit and the exact bag canvas, cognac leather, horizontal gold fittings, handles and proportions. No dialogue, no captions, no music, no cut.",
+      "node_id": "ZeypUz2oIgatjn5TyXm7",
+      "reference_node_id": "TjxpAz8yZGYdQZr8tGe1"
+    },
+    {
+      "id": "S05",
+      "duration": 5,
+      "prompt": "She shifts her weight casually against the cafe window and gives a small relaxed smile toward her friend, with a very slight natural bag sway. Preserve this exact woman, outfit and Cognac Eleanor silhouette, canvas/leather boundaries, horizontal gold hardware and handles; candid phone footage in ordinary daylight, minimal camera movement, one continuous shot, no dialogue, no captions or music.",
+      "node_id": "5ybuF4A0kvgGiW1eQH4c",
+      "reference_node_id": "Sl2Jw2IBmcZbi8gspf1q"
+    },
+    {
+      "id": "S07",
+      "duration": 10,
+      "prompt": "Seated naturally, she glances toward the station entrance, gently grips the bag handles and lifts the bag only a few centimeters before resting it beside her again. Keep the distinct woman, checked jacket, relaxed trousers and sneakers, exact bag construction and hardware; one candid phone shot, overcast light, no dialogue, no captions, no music.",
+      "node_id": "51tJhdxRWt0Ruwfm6yye",
+      "reference_node_id": "ZHDPF37dzBTC4tMeoJA7"
+    },
+    {
+      "id": "S09",
+      "duration": 6,
+      "prompt": "The woman gently adjusts her cream scarf with her free hand, then turns slightly toward the train doorway while holding the bag by its short handles. Preserve her exact identity, outfit and Cognac Eleanor construction, hardware and scale relationship; one informal phone-video shot, natural light, no dialogue, no captions or music.",
+      "node_id": "If0R40pVOCclKLtN77st",
+      "reference_node_id": "1GJYp5C5pXENWQm13Yp8"
+    }
+  ],
+  "run": {
+    "flow_id": "v9fitIcgXq2wpUuyCuvG",
+    "flow_created": false,
+    "url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG?vs=viewstate_01m2b7t4xtffdr4egrfthagt93",
+    "flow_url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG",
+    "results": [
+      {
+        "success": true,
+        "node_id": "ZeypUz2oIgatjn5TyXm7",
+        "session_id": "LJoCcrfb1Yu4i4Qq0T8L"
+      },
+      {
+        "success": true,
+        "node_id": "5ybuF4A0kvgGiW1eQH4c",
+        "session_id": "u9zmNcBRzYBHF40DXwO3"
+      },
+      {
+        "success": true,
+        "node_id": "51tJhdxRWt0Ruwfm6yye",
+        "session_id": "vKmpBXhCzs8bp1rp8Cjv"
+      },
+      {
+        "success": true,
+        "node_id": "If0R40pVOCclKLtN77st",
+        "session_id": "CcYcFb4QxUTeEKYTHEDv"
+      }
+    ],
+    "summary": {
+      "nodes_run": 4,
+      "generations_started": 4,
+      "failed": 0,
+      "generations_by_node": {
+        "ZeypUz2oIgatjn5TyXm7": 1,
+        "5ybuF4A0kvgGiW1eQH4c": 1,
+        "51tJhdxRWt0Ruwfm6yye": 1,
+        "If0R40pVOCclKLtN77st": 1
+      }
+    },
+    "session_ids": [
+      "LJoCcrfb1Yu4i4Qq0T8L",
+      "u9zmNcBRzYBHF40DXwO3",
+      "vKmpBXhCzs8bp1rp8Cjv",
+      "CcYcFb4QxUTeEKYTHEDv"
+    ],
+    "pending": [
+      {
+        "generation_id": "6ogSFcX9Xp9dTTuJQ89b",
+        "kind": "video",
+        "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=6ogSFcX9Xp9dTTuJQ89b",
+        "aspect_ratio": 0.5625
+      },
+      {
+        "generation_id": "cPKAvAM2oLxXBVw0Pltz",
+        "kind": "video",
+        "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=cPKAvAM2oLxXBVw0Pltz",
+        "aspect_ratio": 0.5625
+      },
+      {
+        "generation_id": "QKfpF4nvskHXGLACbVGs",
+        "kind": "video",
+        "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=QKfpF4nvskHXGLACbVGs",
+        "aspect_ratio": 0.5625
+      },
+      {
+        "generation_id": "QeRMujMs5EFlxAPxveqQ",
+        "kind": "video",
+        "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=QeRMujMs5EFlxAPxveqQ",
+        "aspect_ratio": 0.5625
+      }
+    ],
+    "poll_after_seconds": 15,
+    "notes": "Not finished yet. If a generation view is shown it tracks progress and polls by itself, so there is nothing to do here. Only call creative_get_flow_run_status yourself if no view appeared: wait poll_after_seconds, then call it with this flow_id and session_ids, repeating until all_completed or has_failures is true.",
+    "view_state_id": "viewstate_01m2b7t4xtffdr4egrfthagt93"
+  }
+}

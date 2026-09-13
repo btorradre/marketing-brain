@@ -1,0 +1,198 @@
+{
+  "audit_date": "2026-09-13",
+  "completed_at_utc": "2026-09-13T17:07:00.954522+00:00",
+  "campaign_id": "6998265963075",
+  "account_id": "28754886360776091",
+  "canonical_pdp": "https://velantrafashion.com/products/velantra-weekender",
+  "shopify_product_id": "7971794747457",
+  "source_snapshots_utc": {
+    "meta": "2026-09-13T16:46:10.665965+00:00",
+    "shopify": "2026-09-13T16:48:14.910246+00:00"
+  },
+  "meta_window": "Campaign launch September 12 through partial September 13, America/Los_Angeles",
+  "meta_attribution": "Adset unified attribution: 7-day click, 1-day view, 1-day engaged video; events are not a unique-session cohort.",
+  "meta_metrics": {
+    "spend": 119.8,
+    "impressions": 1096.0,
+    "all_clicks": 69.0,
+    "link_clicks": 58.0,
+    "landing_page_views": 49.0,
+    "pixel_add_to_cart_events": 7.0,
+    "pixel_checkout_events": 2.0,
+    "pixel_purchases": 1.0,
+    "link_ctr_percent": 5.292,
+    "link_cpc": 2.0655,
+    "cpm": 109.3066
+  },
+  "shopify_window": "September 7-13 partial, America/New_York, canonical PDP landing sessions, all traffic and potentially prior page versions",
+  "shopify_metrics": {
+    "sessions": 205,
+    "sessions_with_cart_additions": 11,
+    "sessions_that_reached_checkout": 5,
+    "sessions_that_completed_checkout": 3,
+    "conversion_rate_percent": 1.4634
+  },
+  "ads": [
+    {
+      "ad_id": "6998289500675",
+      "ad_name": "VEL-WEEKENDER-HAALAND-01-C1-gringo-A",
+      "adset_name": "haaland",
+      "status": "DISAPPROVED",
+      "video_id": "1601940615275982",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 10.41,
+      "landing_page_views": 8,
+      "purchases": 0
+    },
+    {
+      "ad_id": "6998289501275",
+      "ad_name": "Weekender-Haaland-Gringo-Natural-AvatarV-110-NoGaps",
+      "adset_name": "haaland",
+      "status": "ACTIVE",
+      "video_id": "1565706315224533",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 7.88,
+      "landing_page_views": 5,
+      "purchases": 1
+    },
+    {
+      "ad_id": "6998266276075",
+      "ad_name": "2",
+      "adset_name": "european travel",
+      "status": "ACTIVE",
+      "video_id": "1071897935720086",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 3.16,
+      "landing_page_views": 2,
+      "purchases": 0
+    },
+    {
+      "ad_id": "6998266319275",
+      "ad_name": "1",
+      "adset_name": "old money",
+      "status": "ACTIVE",
+      "video_id": "1115209877744080",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 16.07,
+      "landing_page_views": 11,
+      "purchases": 0
+    },
+    {
+      "ad_id": "6998266618075",
+      "ad_name": "3",
+      "adset_name": "old money",
+      "status": "ACTIVE",
+      "video_id": "1028220980172304",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 6.55,
+      "landing_page_views": 2,
+      "purchases": 0
+    },
+    {
+      "ad_id": "6998266607475",
+      "ad_name": "2",
+      "adset_name": "old money",
+      "status": "ACTIVE",
+      "video_id": "2508085426366576",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 22.71,
+      "landing_page_views": 11,
+      "purchases": 0
+    },
+    {
+      "ad_id": "6998265962875",
+      "ad_name": "1",
+      "adset_name": "european travel",
+      "status": "ACTIVE",
+      "video_id": "1066178262724313",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 7.84,
+      "landing_page_views": 1,
+      "purchases": 0
+    },
+    {
+      "ad_id": "6998266184475",
+      "ad_name": "1",
+      "adset_name": "chic travel bag",
+      "status": "ACTIVE",
+      "video_id": "2146270566305805",
+      "destination": "https://velantrafashion.com/products/velantra-weekender",
+      "spend": 45.18,
+      "landing_page_views": 9,
+      "purchases": 0
+    }
+  ],
+  "findings": [
+    {
+      "id": "identity",
+      "status": "confirmed visual mismatch; conversion impact hypothesis",
+      "evidence": [
+        "ad-vs-pdp-construction.jpg",
+        "cognac-gallery-contact.jpg",
+        "ads/old-money-hardware.png"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "three_sizes",
+      "status": "confirmed copy versus purchasable options mismatch in all 8 ad records (7 active)",
+      "evidence": [
+        "meta-ads.json",
+        "product-7971794747457.json"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "dispatch",
+      "status": "confirmed conflicting shipping/in-stock messaging",
+      "evidence": [
+        "ads/europe-old-page.png",
+        "color-diagnosis.json",
+        "shipping-policy.txt"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "old_page_and_color_names",
+      "status": "confirmed earlier page footage; current price is consistent",
+      "evidence": [
+        "ads/chic-old-page.png",
+        "mobile-initial.png"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "materials_and_benefits",
+      "status": "specification/proof and message hierarchy gaps; not proof of false material composition",
+      "evidence": [
+        "ads/6998266184475-transcript.txt",
+        "mobile-visible-text.txt"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "mobile_buybox_and_trust",
+      "status": "confirmed layout/empty review observations; causal conversion impact unmeasured",
+      "evidence": [
+        "mobile-initial-audit.json",
+        "mobile-initial.png",
+        "refund-policy.txt"
+      ],
+      "priority": 3
+    }
+  ],
+  "functional_result": {
+    "all_four_color_selection": "passed; Black label becomes Pre-order",
+    "cognac_add_to_cart": "HTTP 200; one Cognac bag shown at $159.99",
+    "checkout_navigation": "passed by following actual cart checkout link",
+    "payment_or_shipping_rates": "not tested; no address, customer information, payment or order submitted",
+    "receipts": [
+      "color-diagnosis.json",
+      "cart-observation.json",
+      "checkout-link-test.json"
+    ],
+    "synthetic_events_note": "Audit browser visits and up to two cart additions occurred after the metric snapshots; one successful checkout navigation at 17:02 UTC. Later analytics may include them."
+  },
+  "external_changes": "No live ads, theme, product, inventory, pricing or policy mutations. Synthetic cart only.",
+  "record_binding": "Platform ad identity verified from API. No exact local export hash binding established; no formal winner/loser or revision-level performance decision."
+}

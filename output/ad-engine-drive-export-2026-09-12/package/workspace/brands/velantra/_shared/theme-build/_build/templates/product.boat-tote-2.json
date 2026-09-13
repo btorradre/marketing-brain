@@ -1,0 +1,368 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An open-top everyday carry in canvas and full-grain leather. Designed to soften with use \u2014 built to last decades.</p>"
+          }
+        },
+        "variants": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "monogram": {
+          "type": "custom",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "customize_btn": {
+          "type": "custom",
+          "settings": {}
+        },
+        "buy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "trust": {
+          "type": "custom",
+          "settings": {}
+        },
+        "hint": {
+          "type": "custom",
+          "settings": {}
+        },
+        "inline_acc": {
+          "type": "custom",
+          "settings": {}
+        },
+        "tab_dim": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Care",
+            "content": "<p><strong>Dimensions</strong><br>\nPlease see product details below.</p>\n<p><strong>Material</strong><br>\nFull-grain leather, canvas, and hand-set hardware.</p>\n<p><strong>Care</strong><br>\nWipe clean with a soft, dry cloth. Condition leather every 6&ndash;12 months with a neutral leather cream. Avoid prolonged exposure to direct sunlight, water, and heat.</p>"
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p><strong>Shipping</strong><br>\nFree standard shipping on orders over $100. Orders ship within 1&ndash;2 business days from our New York atelier.</p>\n<p><strong>Returns</strong><br>\n30-day returns on unused items in original condition. Personalized items are final sale.</p>\n<p><strong>Repairs</strong><br>\nEvery Velantra bag is covered by our Two-Year Warranty. We&rsquo;ll repair or replace anything that fails in normal use.</p>"
+          }
+        },
+        "in_store": {
+          "type": "custom",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "blurb",
+        "variants",
+        "monogram",
+        "price",
+        "customize_btn",
+        "buy",
+        "trust",
+        "hint",
+        "inline_acc",
+        "tab_dim",
+        "tab_ship",
+        "in_store"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_size": "large",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_height": "fixed",
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Boat Tote",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag \u2014 all designed to match.</p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we&rsquo;ll repair or replace it.</p>",
+        "link_url": "/pages/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "DESIGN",
+            "headline": "Relaxed & Versatile",
+            "body": "<p>An open silhouette that holds everything from a laptop to a beach towel without losing its shape.</p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "QUALITY",
+            "headline": "Made to Soften",
+            "body": "<p>Heavyweight cotton canvas paired with full-grain leather handles that patina beautifully.</p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "SUSTAINABILITY",
+            "headline": "Built to Outlast",
+            "body": "<p>Tanned at LWG-certified tanneries. Designed for repair, not replacement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Two internal pockets",
+            "body": "<p>One zippered, one open \u2014 for keys, sunglasses, and the things that get lost.</p>"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "BUILT IN",
+            "headline": "Reinforced base",
+            "body": "<p>Double-stitched and saddle-leather bound. Holds shape when fully loaded.</p>"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "READY FOR",
+            "headline": "13-inch laptop",
+            "body": "<p>Slips in flat against the back panel, padded by the canvas body.</p>"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "PAIRS WITH",
+            "headline": "Bag Organizer",
+            "body": "<p>Drop-in insert that turns the open top into a structured commute bag.</p>",
+            "linked_product": "bag-organizer",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "feature_carousel": {
+      "type": "pdp-feature-carousel",
+      "blocks": {
+        "slide_0": {
+          "type": "slide",
+          "settings": {
+            "caption": "Full-grain leather handles, raw-cut edges hand-burnished",
+            "image": "shopify://shop_images/pdp-velantra-boat-tote-2-scene-1.png"
+          }
+        },
+        "slide_1": {
+          "type": "slide",
+          "settings": {
+            "caption": "Heavyweight cotton canvas, 18oz \u2014 built to hold its shape",
+            "image": "shopify://shop_images/pdp-velantra-boat-tote-2-scene-2.png"
+          }
+        },
+        "slide_2": {
+          "type": "slide",
+          "settings": {
+            "caption": "Top-load opening \u2014 wide enough for a laptop bag or a beach towel",
+            "image": "shopify://shop_images/pdp-velantra-boat-tote-2-scene-3.png"
+          }
+        },
+        "slide_3": {
+          "type": "slide",
+          "settings": {
+            "caption": "Optional monogramming in gold, silver, or blind-deboss",
+            "image": "shopify://shop_images/pdp-velantra-boat-tote-2-scene-4.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_0",
+        "slide_1",
+        "slide_2",
+        "slide_3"
+      ],
+      "settings": {
+        "eyebrow": "IN DETAIL",
+        "heading": "Every detail, considered",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image_position": "left",
+            "eyebrow": "ITALIAN LEATHER",
+            "headline": "Tanned the slow way",
+            "body": "<p>Our leather handles come from a 4th-generation Tuscan tannery that still vegetable-tans every hide by hand. The result: a finish that softens, deepens, and tells the story of where you've taken it.</p>"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "MADE TO OUTLAST",
+            "headline": "Two-year warranty. Lifetime repair.",
+            "body": "<p>If anything fails in normal use, we'll repair it. If we can't repair it, we'll replace it. Tell us where to send it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "style_with": {
+      "type": "pdp-style-with",
+      "blocks": {
+        "card_0": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-meridian-tote"
+          }
+        },
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-weekender"
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-portico-bucket-bag"
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-evening-bag"
+          }
+        }
+      },
+      "block_order": [
+        "card_0",
+        "card_1",
+        "card_2",
+        "card_3"
+      ],
+      "settings": {
+        "heading": "Style With",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "feature_carousel",
+    "editorial",
+    "style_with",
+    "recently_viewed"
+  ]
+}

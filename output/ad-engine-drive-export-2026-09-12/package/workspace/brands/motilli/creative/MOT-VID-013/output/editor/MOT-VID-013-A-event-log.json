@@ -1,0 +1,5629 @@
+{
+  "base": {
+    "id": "MOT-VID-013-A",
+    "version": 0,
+    "tickRate": 6000,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration": 0,
+    "tracks": [],
+    "assets": [
+      {
+        "id": "mot-013-HA1",
+        "kind": "video",
+        "name": "HA1",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HA1.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdUcktnYXRMU0VadUxtdGtQNWF1WWlBSRIXVHJLZ2F0TFNFWnVMbXRrUDVhdVlpQUk",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-HA2",
+        "kind": "video",
+        "name": "HA2",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HA2.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chc0N0tnYXRfU0VlZWE2ZGtQMEx6QzhRRRIXNDdLZ2F0X1NFZWVhNmRrUDBMekM4UUU",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-HB1",
+        "kind": "video",
+        "name": "HB1",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HB1.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chc0N0tnYW82eUlKclZ6N0lQdDhmczhBNBIXNDdLZ2FvNnlJSnJWejdJUHQ4ZnM4QTQ",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-HB2",
+        "kind": "video",
+        "name": "HB2",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HB2.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdHclNnYXZtRUZPNmQ2ZGtQb3JTMzZRNBIXR3JTZ2F2bUVGTzZkNmRrUG9yUzM2UTQ",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-HC1",
+        "kind": "video",
+        "name": "HC1",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HC1.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chc0N0tnYXVlQ0c5S2h6N0lQbk5hS3lBZxIXNDdLZ2F1ZUNHOUtoejdJUG5OYUt5QWc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-HC2",
+        "kind": "video",
+        "name": "HC2",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HC2.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chc0N0tnYXFubEg1X2p6N0lQdHNucDJRdxIXNDdLZ2FxbmxINV9qejdJUHRzbnAyUXc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S03",
+        "kind": "video",
+        "name": "S03",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S03.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdCN09nYW9uU0ZkZUttdGtQdTZxOC1BdxIXQjdPZ2FvblNGZGVLbXRrUHU2cTgtQXc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S04",
+        "kind": "video",
+        "name": "S04",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S04.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChZUcktnYXUtZEVhM1V6N0lQNktQSFVREhZUcktnYXUtZEVhM1V6N0lQNktQSFVR",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S05",
+        "kind": "video",
+        "name": "S05",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S05.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdCN09nYXRPNklaS2N6N0lQeUliMXVRZxIXQjdPZ2F0TzZJWktjejdJUHlJYjF1UWc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S06",
+        "kind": "video",
+        "name": "S06",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S06.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdCN09nYXNIRk9hU2Q2ZGtQOE1YODJBRRIXQjdPZ2FzSEZPYVNkNmRrUDhNWDgyQUU",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S07",
+        "kind": "video",
+        "name": "S07",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S07.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdDTE9nYXV1T0hQWHN6N0lQLXUyaXFRMBIXQ0xPZ2F1dU9IUFhzejdJUC11MmlxUTA",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S08",
+        "kind": "video",
+        "name": "S08",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S08.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdDTE9nYXBLNEpaS2N6N0lQeUliMXVRZxIXQ0xPZ2FwSzRKWktjejdJUHlJYjF1UWc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S09",
+        "kind": "video",
+        "name": "S09",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S09.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdLN09nYXJEQ01vM19xdHNQeS11VXNBNBIXSzdPZ2FyRENNbzNfcXRzUHktdVVzQTQ",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S10",
+        "kind": "video",
+        "name": "S10",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S10.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdMTE9nYXZ6VkNlSHF6N0lQOWNPWDhRbxIXTExPZ2F2elZDZUhxejdJUDljT1g4UW8",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S11",
+        "kind": "video",
+        "name": "S11",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S11.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdHclNnYW8zSElLT3ptdGtQdC1fc3NRWRIXR3JTZ2FvM0hJS096bXRrUHQtX3NzUVk",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S12",
+        "kind": "video",
+        "name": "S12",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S12.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdMYk9nYXF6eUg5SF9xdHNQNDYyazhRdxIXTGJPZ2FxenlIOUhfcXRzUDQ2Mms4UXc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S13",
+        "kind": "video",
+        "name": "S13",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S13.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdMYk9nYXZTdU1kcXN6N0lQdGQ3RXNROBIXTGJPZ2F2U3VNZHFzejdJUHRkN0VzUTg",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S14",
+        "kind": "video",
+        "name": "S14",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S14.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdVTE9nYXBMTkdNZjlxdHNQZ1pQbTZRdxIXVUxPZ2FwTE5HTWY5cXRzUGdaUG02UXc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S15",
+        "kind": "video",
+        "name": "S15",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S15.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdVYk9nYXBUaEJ1ZUh6N0lQd191WjRBSRIXVWJPZ2FwVGhCdWVIejdJUHdfdVo0QUk",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S16",
+        "kind": "video",
+        "name": "S16",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S16.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdVYk9nYXJyZEdKbXN6N0lQNWU3QnlBcxIXVWJPZ2FycmRHSm1zejdJUDVlN0J5QXM",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S17",
+        "kind": "video",
+        "name": "S17",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S17.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdVYk9nYXUyRE1kS2h6N0lQbk5hS3lBZxIXVWJPZ2F1MkRNZEtoejdJUG5OYUt5QWc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S18",
+        "kind": "video",
+        "name": "S18",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S18.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdVck9nYXRMUks1bXN6N0lQNWU3QnlBcxIXVXJPZ2F0TFJLNW1zejdJUDVlN0J5QXM",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S19",
+        "kind": "video",
+        "name": "S19",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S19.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdkYk9nYXBHOUl2ZlF6N0lQdzhmaHlROBIXZGJPZ2FwRzlJdmZRejdJUHc4Zmh5UTg",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S20",
+        "kind": "video",
+        "name": "S20",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S20.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdHclNnYXFfdkc3Zmx6N0lQNXZ6YjZBVRIXR3JTZ2FxX3ZHN2ZsejdJUDV2emI2QVU",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S21",
+        "kind": "video",
+        "name": "S21",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S21.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdkYk9nYXNqZ09kcXpxdHNQbi11V2dRNBIXZGJPZ2FzamdPZHF6cXRzUG4tdVdnUTQ",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S23",
+        "kind": "video",
+        "name": "S23",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S23.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdkN09nYW9PcEc0ZlZ6N0lQNmJuRy1RRRIXZDdPZ2FvT3BHNGZWejdJUDZibkctUUU",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S24",
+        "kind": "video",
+        "name": "S24",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S24.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdtYk9nYXJDNExObmx6N0lQb0o3c2tRMBIXbWJPZ2FyQzRMTm5sejdJUG9KN3NrUTA",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S25",
+        "kind": "video",
+        "name": "S25",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S25.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chdtck9nYXRQTU50V0d6N0lQN1pqVThROBIXbXJPZ2F0UE1OdFdHejdJUDdaalU4UTg",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S26",
+        "kind": "video",
+        "name": "S26",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S26.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chdtck9nYXNTWEtJREJ6N0lQLThTcDBRZxIXbXJPZ2FzU1hLSURCejdJUC04U3AwUWc",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S27",
+        "kind": "video",
+        "name": "S27",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S27.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdUcktnYXF6cEVKbXN6N0lQNWU3QnlBcxIXVHJLZ2FxenBFSm1zejdJUDVlN0J5QXM",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S28",
+        "kind": "video",
+        "name": "S28",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S28.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdjclNnYXFhQkZfNnR6N0lQcEw2WmlRRRIXY3JTZ2FxYUJGXzZ0ejdJUHBMNlppUUU",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S29",
+        "kind": "video",
+        "name": "S29",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S29.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChZuTE9nYXA0S3RvYlBzZy0wMXZQb0NBEhZuTE9nYXA0S3RvYlBzZy0wMXZQb0NB",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S30",
+        "kind": "video",
+        "name": "S30",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S30.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chd2N09nYXUyRUJMNmQ2ZGtQc3ZXTWtRYxIXdjdPZ2F1MkVCTDZkNmRrUHN2V01rUWM",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S31",
+        "kind": "video",
+        "name": "S31",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S31.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChdTcldnYXFDd0VJcWw2ZGtQc2F5MHVRRRIXU3JXZ2FxQ3dFSXFsNmRrUHNheTB1UUU",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S32",
+        "kind": "video",
+        "name": "S32",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S32.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chd3TE9nYXVTMkVfZlF6N0lQdzhmaHlROBIXd0xPZ2F1UzJFX2ZRejdJUHc4Zmh5UTg",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S33",
+        "kind": "video",
+        "name": "S33",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S33.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chd3TE9nYXRxNExNX2p6N0lQNG9qZjJRNBIXd0xPZ2F0cTRMTV9qejdJUDRvamYyUTQ",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S34",
+        "kind": "video",
+        "name": "S34",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S34.mp4",
+        "duration": 30000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chd3Yk9nYXAzdUY5V0d6N0lQN1pqVThROBIXd2JPZ2FwM3VGOVdHejdJUDdaalU4UTg",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S35",
+        "kind": "video",
+        "name": "S35",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S35.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_ChY0N09nYXUtaUdOelV6N0lQaHJ2YVdBEhY0N09nYXUtaUdOelV6N0lQaHJ2YVdB",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S36",
+        "kind": "video",
+        "name": "S36",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S36.mp4",
+        "duration": 24000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chc1TE9nYXVuMk43T05tdGtQcU5uY2dBMBIXNUxPZ2F1bjJON09ObXRrUHFObmNnQTA",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-S37",
+        "kind": "video",
+        "name": "S37",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S37.mp4",
+        "duration": 36000,
+        "width": 720,
+        "height": 1280,
+        "mime": "video/mp4",
+        "provenance": {
+          "jobId": "v1_Chc1Yk9nYXZDY0JKMl9xdHNQbDlHa3FBOBIXNWJPZ2F2Q2NCSjJfcXRzUGw5R2txQTg",
+          "source": "Google Omni"
+        }
+      },
+      {
+        "id": "mot-013-vo",
+        "kind": "audio",
+        "name": "Woman Over 40 — take 4",
+        "url": "http://localhost:8765/assets/mot-vid-013-motion-review/narration.mp3",
+        "duration": 692640,
+        "mime": "audio/mpeg",
+        "provenance": {
+          "source": "ElevenLabs eleven_v3 Creative"
+        }
+      }
+    ],
+    "markers": [],
+    "captions": [],
+    "name": "MOT-VID-013-A — motion draft",
+    "meta": {
+      "status": "draft_pending_S22_and_editor_playback",
+      "sourceBoard": "mot-vid-013-generated-visuals",
+      "narrationSpeed": 1.22
+    }
+  },
+  "log": {
+    "base": {
+      "id": "MOT-VID-013-A",
+      "version": 0,
+      "tickRate": 6000,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "duration": 0,
+      "tracks": [],
+      "assets": [
+        {
+          "id": "mot-013-HA1",
+          "kind": "video",
+          "name": "HA1",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HA1.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdUcktnYXRMU0VadUxtdGtQNWF1WWlBSRIXVHJLZ2F0TFNFWnVMbXRrUDVhdVlpQUk",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-HA2",
+          "kind": "video",
+          "name": "HA2",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HA2.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chc0N0tnYXRfU0VlZWE2ZGtQMEx6QzhRRRIXNDdLZ2F0X1NFZWVhNmRrUDBMekM4UUU",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-HB1",
+          "kind": "video",
+          "name": "HB1",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HB1.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chc0N0tnYW82eUlKclZ6N0lQdDhmczhBNBIXNDdLZ2FvNnlJSnJWejdJUHQ4ZnM4QTQ",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-HB2",
+          "kind": "video",
+          "name": "HB2",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HB2.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdHclNnYXZtRUZPNmQ2ZGtQb3JTMzZRNBIXR3JTZ2F2bUVGTzZkNmRrUG9yUzM2UTQ",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-HC1",
+          "kind": "video",
+          "name": "HC1",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HC1.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chc0N0tnYXVlQ0c5S2h6N0lQbk5hS3lBZxIXNDdLZ2F1ZUNHOUtoejdJUG5OYUt5QWc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-HC2",
+          "kind": "video",
+          "name": "HC2",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/HC2.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chc0N0tnYXFubEg1X2p6N0lQdHNucDJRdxIXNDdLZ2FxbmxINV9qejdJUHRzbnAyUXc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S03",
+          "kind": "video",
+          "name": "S03",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S03.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdCN09nYW9uU0ZkZUttdGtQdTZxOC1BdxIXQjdPZ2FvblNGZGVLbXRrUHU2cTgtQXc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S04",
+          "kind": "video",
+          "name": "S04",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S04.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChZUcktnYXUtZEVhM1V6N0lQNktQSFVREhZUcktnYXUtZEVhM1V6N0lQNktQSFVR",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S05",
+          "kind": "video",
+          "name": "S05",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S05.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdCN09nYXRPNklaS2N6N0lQeUliMXVRZxIXQjdPZ2F0TzZJWktjejdJUHlJYjF1UWc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S06",
+          "kind": "video",
+          "name": "S06",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S06.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdCN09nYXNIRk9hU2Q2ZGtQOE1YODJBRRIXQjdPZ2FzSEZPYVNkNmRrUDhNWDgyQUU",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S07",
+          "kind": "video",
+          "name": "S07",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S07.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdDTE9nYXV1T0hQWHN6N0lQLXUyaXFRMBIXQ0xPZ2F1dU9IUFhzejdJUC11MmlxUTA",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S08",
+          "kind": "video",
+          "name": "S08",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S08.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdDTE9nYXBLNEpaS2N6N0lQeUliMXVRZxIXQ0xPZ2FwSzRKWktjejdJUHlJYjF1UWc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S09",
+          "kind": "video",
+          "name": "S09",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S09.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdLN09nYXJEQ01vM19xdHNQeS11VXNBNBIXSzdPZ2FyRENNbzNfcXRzUHktdVVzQTQ",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S10",
+          "kind": "video",
+          "name": "S10",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S10.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdMTE9nYXZ6VkNlSHF6N0lQOWNPWDhRbxIXTExPZ2F2elZDZUhxejdJUDljT1g4UW8",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S11",
+          "kind": "video",
+          "name": "S11",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S11.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdHclNnYW8zSElLT3ptdGtQdC1fc3NRWRIXR3JTZ2FvM0hJS096bXRrUHQtX3NzUVk",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S12",
+          "kind": "video",
+          "name": "S12",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S12.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdMYk9nYXF6eUg5SF9xdHNQNDYyazhRdxIXTGJPZ2FxenlIOUhfcXRzUDQ2Mms4UXc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S13",
+          "kind": "video",
+          "name": "S13",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S13.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdMYk9nYXZTdU1kcXN6N0lQdGQ3RXNROBIXTGJPZ2F2U3VNZHFzejdJUHRkN0VzUTg",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S14",
+          "kind": "video",
+          "name": "S14",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S14.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdVTE9nYXBMTkdNZjlxdHNQZ1pQbTZRdxIXVUxPZ2FwTE5HTWY5cXRzUGdaUG02UXc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S15",
+          "kind": "video",
+          "name": "S15",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S15.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdVYk9nYXBUaEJ1ZUh6N0lQd191WjRBSRIXVWJPZ2FwVGhCdWVIejdJUHdfdVo0QUk",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S16",
+          "kind": "video",
+          "name": "S16",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S16.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdVYk9nYXJyZEdKbXN6N0lQNWU3QnlBcxIXVWJPZ2FycmRHSm1zejdJUDVlN0J5QXM",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S17",
+          "kind": "video",
+          "name": "S17",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S17.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdVYk9nYXUyRE1kS2h6N0lQbk5hS3lBZxIXVWJPZ2F1MkRNZEtoejdJUG5OYUt5QWc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S18",
+          "kind": "video",
+          "name": "S18",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S18.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdVck9nYXRMUks1bXN6N0lQNWU3QnlBcxIXVXJPZ2F0TFJLNW1zejdJUDVlN0J5QXM",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S19",
+          "kind": "video",
+          "name": "S19",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S19.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdkYk9nYXBHOUl2ZlF6N0lQdzhmaHlROBIXZGJPZ2FwRzlJdmZRejdJUHc4Zmh5UTg",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S20",
+          "kind": "video",
+          "name": "S20",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S20.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdHclNnYXFfdkc3Zmx6N0lQNXZ6YjZBVRIXR3JTZ2FxX3ZHN2ZsejdJUDV2emI2QVU",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S21",
+          "kind": "video",
+          "name": "S21",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S21.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdkYk9nYXNqZ09kcXpxdHNQbi11V2dRNBIXZGJPZ2FzamdPZHF6cXRzUG4tdVdnUTQ",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S23",
+          "kind": "video",
+          "name": "S23",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S23.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdkN09nYW9PcEc0ZlZ6N0lQNmJuRy1RRRIXZDdPZ2FvT3BHNGZWejdJUDZibkctUUU",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S24",
+          "kind": "video",
+          "name": "S24",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S24.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdtYk9nYXJDNExObmx6N0lQb0o3c2tRMBIXbWJPZ2FyQzRMTm5sejdJUG9KN3NrUTA",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S25",
+          "kind": "video",
+          "name": "S25",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S25.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chdtck9nYXRQTU50V0d6N0lQN1pqVThROBIXbXJPZ2F0UE1OdFdHejdJUDdaalU4UTg",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S26",
+          "kind": "video",
+          "name": "S26",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S26.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chdtck9nYXNTWEtJREJ6N0lQLThTcDBRZxIXbXJPZ2FzU1hLSURCejdJUC04U3AwUWc",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S27",
+          "kind": "video",
+          "name": "S27",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S27.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdUcktnYXF6cEVKbXN6N0lQNWU3QnlBcxIXVHJLZ2FxenBFSm1zejdJUDVlN0J5QXM",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S28",
+          "kind": "video",
+          "name": "S28",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S28.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdjclNnYXFhQkZfNnR6N0lQcEw2WmlRRRIXY3JTZ2FxYUJGXzZ0ejdJUHBMNlppUUU",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S29",
+          "kind": "video",
+          "name": "S29",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S29.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChZuTE9nYXA0S3RvYlBzZy0wMXZQb0NBEhZuTE9nYXA0S3RvYlBzZy0wMXZQb0NB",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S30",
+          "kind": "video",
+          "name": "S30",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S30.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chd2N09nYXUyRUJMNmQ2ZGtQc3ZXTWtRYxIXdjdPZ2F1MkVCTDZkNmRrUHN2V01rUWM",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S31",
+          "kind": "video",
+          "name": "S31",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S31.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChdTcldnYXFDd0VJcWw2ZGtQc2F5MHVRRRIXU3JXZ2FxQ3dFSXFsNmRrUHNheTB1UUU",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S32",
+          "kind": "video",
+          "name": "S32",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S32.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chd3TE9nYXVTMkVfZlF6N0lQdzhmaHlROBIXd0xPZ2F1UzJFX2ZRejdJUHc4Zmh5UTg",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S33",
+          "kind": "video",
+          "name": "S33",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S33.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chd3TE9nYXRxNExNX2p6N0lQNG9qZjJRNBIXd0xPZ2F0cTRMTV9qejdJUDRvamYyUTQ",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S34",
+          "kind": "video",
+          "name": "S34",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S34.mp4",
+          "duration": 30000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chd3Yk9nYXAzdUY5V0d6N0lQN1pqVThROBIXd2JPZ2FwM3VGOVdHejdJUDdaalU4UTg",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S35",
+          "kind": "video",
+          "name": "S35",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S35.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_ChY0N09nYXUtaUdOelV6N0lQaHJ2YVdBEhY0N09nYXUtaUdOelV6N0lQaHJ2YVdB",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S36",
+          "kind": "video",
+          "name": "S36",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S36.mp4",
+          "duration": 24000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chc1TE9nYXVuMk43T05tdGtQcU5uY2dBMBIXNUxPZ2F1bjJON09ObXRrUHFObmNnQTA",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-S37",
+          "kind": "video",
+          "name": "S37",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/S37.mp4",
+          "duration": 36000,
+          "width": 720,
+          "height": 1280,
+          "mime": "video/mp4",
+          "provenance": {
+            "jobId": "v1_Chc1Yk9nYXZDY0JKMl9xdHNQbDlHa3FBOBIXNWJPZ2F2Q2NCSjJfcXRzUGw5R2txQTg",
+            "source": "Google Omni"
+          }
+        },
+        {
+          "id": "mot-013-vo",
+          "kind": "audio",
+          "name": "Woman Over 40 — take 4",
+          "url": "http://localhost:8765/assets/mot-vid-013-motion-review/narration.mp3",
+          "duration": 692640,
+          "mime": "audio/mpeg",
+          "provenance": {
+            "source": "ElevenLabs eleven_v3 Creative"
+          }
+        }
+      ],
+      "markers": [],
+      "captions": [],
+      "name": "MOT-VID-013-A — motion draft",
+      "meta": {
+        "status": "draft_pending_S22_and_editor_playback",
+        "sourceBoard": "mot-vid-013-generated-visuals",
+        "narrationSpeed": 1.22
+      }
+    },
+    "events": [
+      {
+        "id": "op_78",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "batch",
+        "ops": [
+          {
+            "id": "op_1",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addTrack",
+            "track": {
+              "id": "track_1",
+              "kind": "video",
+              "name": "Video"
+            },
+            "index": 0
+          },
+          {
+            "id": "op_2",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addTrack",
+            "track": {
+              "id": "track_2",
+              "kind": "audio",
+              "name": "VO"
+            }
+          },
+          {
+            "id": "op_3",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addCaptionTrack",
+            "track": {
+              "id": "captions_1",
+              "name": "Captions",
+              "style": {
+                "font": "Arial",
+                "size": 58,
+                "weight": 800,
+                "color": "#111111",
+                "highlightColor": "#ffd400",
+                "mode": "line",
+                "uppercase": false,
+                "outline": {
+                  "color": "#ffffff",
+                  "width": 0
+                },
+                "background": {
+                  "color": "#ffffff",
+                  "padding": 18,
+                  "radius": 12
+                }
+              },
+              "placement": {
+                "anchor": "custom",
+                "y": 0.73,
+                "x": 0.5,
+                "safeZone": true,
+                "scrimAware": true
+              }
+            }
+          },
+          {
+            "id": "op_4",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_1",
+              "kind": "video",
+              "assetId": "mot-013-HA1",
+              "start": 0,
+              "duration": 11600,
+              "in": 0,
+              "out": 11600,
+              "name": "Eye-level view from just outside the open bathroom cabinet. Woman opens the door onto crowded shelves of MiraLAX, magnesium, stool softeners and fiber; packages face the viewer."
+            }
+          },
+          {
+            "id": "op_5",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_1",
+              "at": 0,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "On a GLP-1, the harder you push your colon",
+              "clipId": "clip_1"
+            }
+          },
+          {
+            "id": "op_6",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_2",
+              "kind": "video",
+              "assetId": "mot-013-HA2",
+              "start": 11600,
+              "duration": 15600,
+              "in": 0,
+              "out": 15600,
+              "name": "Close view of her hand hovering between the familiar remedy packages; her tired face remains visible at the frame edge. No product is falling or being thrown away."
+            }
+          },
+          {
+            "id": "op_7",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_2",
+              "at": 11600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "with laxatives and fiber, the more stuck you can feel.",
+              "clipId": "clip_2"
+            }
+          },
+          {
+            "id": "op_8",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_3",
+              "kind": "video",
+              "assetId": "mot-013-S03",
+              "start": 27200,
+              "duration": 11600,
+              "in": 0,
+              "out": 11600,
+              "name": "Same woman seated on the closed toilet lid, clothed in a grey cotton tee and lounge trousers; she looks from the counter to her abdomen. Tighten framing with a hard cut."
+            }
+          },
+          {
+            "id": "op_9",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_3",
+              "at": 27200,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "Here’s the trap no one explains.",
+              "clipId": "clip_3"
+            }
+          },
+          {
+            "id": "op_10",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_4",
+              "kind": "video",
+              "assetId": "mot-013-S04",
+              "start": 38800,
+              "duration": 13600,
+              "in": 0,
+              "out": 13600,
+              "name": "Whole digestive tract; amber highlight stays on the anatomically correct stomach. Slow, subtle movement rather than a frozen or sealed organ."
+            }
+          },
+          {
+            "id": "op_11",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_4",
+              "at": 38800,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "Your GLP-1 slows your stomach down.",
+              "clipId": "clip_4"
+            }
+          },
+          {
+            "id": "op_12",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_5",
+              "kind": "video",
+              "assetId": "mot-013-S05",
+              "start": 52400,
+              "duration": 9600,
+              "in": 0,
+              "out": 9600,
+              "name": "Same woman sits on the edge of the bathtub, fully clothed, elbows resting on thighs. She exhales and looks down."
+            }
+          },
+          {
+            "id": "op_13",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_5",
+              "at": 52400,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "So when you haven’t gone in days,",
+              "clipId": "clip_5"
+            }
+          },
+          {
+            "id": "op_14",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_6",
+              "kind": "video",
+              "assetId": "mot-013-S06",
+              "start": 62000,
+              "duration": 22600,
+              "in": 0,
+              "out": 22600,
+              "name": "Four quick object reveals on the counter, one per named remedy. Use real package references; allow internal picture changes on each product name."
+            }
+          },
+          {
+            "id": "op_15",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_6",
+              "at": 62000,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "you reach for MiraLAX, magnesium, stool softeners, or more fiber.",
+              "clipId": "clip_6"
+            }
+          },
+          {
+            "id": "op_16",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_7",
+              "kind": "video",
+              "assetId": "mot-013-S07",
+              "start": 84600,
+              "duration": 20600,
+              "in": 0,
+              "out": 20600,
+              "name": "Torso diagram: camera travels down the continuous digestive tract and highlights the colon. Keep the stomach visible in the same diagram."
+            }
+          },
+          {
+            "id": "op_17",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_7",
+              "at": 84600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "Those products work downstream. They target the colon—",
+              "clipId": "clip_7"
+            }
+          },
+          {
+            "id": "op_18",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_8",
+              "kind": "video",
+              "assetId": "mot-013-S08",
+              "start": 105200,
+              "duration": 10200,
+              "in": 0,
+              "out": 10200,
+              "name": "Closer view of the colon in the same diagram. A simple editor-set COLON label lands beside it; no empty-tube claim."
+            }
+          },
+          {
+            "id": "op_19",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_8",
+              "at": 105200,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "the end of your digestive system.",
+              "clipId": "clip_8"
+            }
+          },
+          {
+            "id": "op_20",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_9",
+              "kind": "video",
+              "assetId": "mot-013-S09",
+              "start": 115400,
+              "duration": 16800,
+              "in": 0,
+              "out": 16800,
+              "name": "Hard cut back to the upper torso. Highlight the stomach at the exact word stomach; the entire tract remains connected."
+            }
+          },
+          {
+            "id": "op_21",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_9",
+              "at": 115400,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "But if the slowdown begins higher up in your stomach,",
+              "clipId": "clip_9"
+            }
+          },
+          {
+            "id": "op_22",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_10",
+              "kind": "video",
+              "assetId": "mot-013-S10",
+              "start": 132200,
+              "duration": 11200,
+              "in": 0,
+              "out": 11200,
+              "name": "Stomach cross-section shows a modest meal and gradual mixing; no solid brick, stool, complete obstruction, or food packed into the esophagus."
+            }
+          },
+          {
+            "id": "op_23",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_10",
+              "at": 132200,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "food is still sitting at the beginning.",
+              "clipId": "clip_10"
+            }
+          },
+          {
+            "id": "op_24",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_11",
+              "kind": "video",
+              "assetId": "mot-013-S11",
+              "start": 143400,
+              "duration": 13400,
+              "in": 0,
+              "out": 13400,
+              "name": "Same woman looks briefly hopeful at her bathroom mirror, then cut to her returning to the counter the following morning."
+            }
+          },
+          {
+            "id": "op_25",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_11",
+              "at": 143400,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "That’s why the relief may last a day,",
+              "clipId": "clip_11"
+            }
+          },
+          {
+            "id": "op_26",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_12",
+              "kind": "video",
+              "assetId": "mot-013-S12",
+              "start": 156800,
+              "duration": 13200,
+              "in": 0,
+              "out": 13200,
+              "name": "Side-on seated portrait at breakfast; woman gently loosens her waistband and leaves the bowl partly eaten. Subtle fullness, no extreme distension."
+            }
+          },
+          {
+            "id": "op_27",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_12",
+              "at": 156800,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "the fiber can make you feel even fuller,",
+              "clipId": "clip_12"
+            }
+          },
+          {
+            "id": "op_28",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_13",
+              "kind": "video",
+              "assetId": "mot-013-S13",
+              "start": 170000,
+              "duration": 13600,
+              "in": 0,
+              "out": 13600,
+              "name": "Same woman at the dining table brings a closed hand to her mouth and turns away discreetly. Avoid a cartoon gas cloud."
+            }
+          },
+          {
+            "id": "op_29",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_13",
+              "at": 170000,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "and those rotten-egg burps keep coming back.",
+              "clipId": "clip_13"
+            }
+          },
+          {
+            "id": "op_30",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_14",
+              "kind": "video",
+              "assetId": "mot-013-S14",
+              "start": 183600,
+              "duration": 11400,
+              "in": 0,
+              "out": 11400,
+              "name": "Eye-level close portrait. She relaxes her shoulders slightly, still thoughtful. Hold long enough for the reassurance to land."
+            }
+          },
+          {
+            "id": "op_31",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_14",
+              "at": 183600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "It’s not that your body is broken.",
+              "clipId": "clip_14"
+            }
+          },
+          {
+            "id": "op_32",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_15",
+              "kind": "video",
+              "assetId": "mot-013-S15",
+              "start": 195000,
+              "duration": 12200,
+              "in": 0,
+              "out": 12200,
+              "name": "Her hand sets the correctly referenced medication pen beside its box. Do not show injection technique or throw medication away."
+            }
+          },
+          {
+            "id": "op_33",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_15",
+              "at": 195000,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "And it doesn’t mean you have to quit your shot.",
+              "clipId": "clip_15"
+            }
+          },
+          {
+            "id": "op_34",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_16",
+              "kind": "video",
+              "assetId": "mot-013-S16",
+              "start": 207200,
+              "duration": 24600,
+              "in": 0,
+              "out": 24600,
+              "name": "One full-frame anatomy map. Two editor-set callouts read STOMACH / UPSTREAM and COLON / DOWNSTREAM. Alternate emphasis between them."
+            }
+          },
+          {
+            "id": "op_35",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_16",
+              "at": 207200,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "You’ve been trying to solve an upstream slowdown with downstream tools.",
+              "clipId": "clip_16"
+            }
+          },
+          {
+            "id": "op_36",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_17",
+              "kind": "video",
+              "assetId": "mot-013-S17",
+              "start": 231800,
+              "duration": 16200,
+              "in": 0,
+              "out": 16200,
+              "name": "Stay on the neutral stomach map. A soft highlight introduces the proposed movement-support job. No switch flipping, nerve repair, or restart demonstration."
+            }
+          },
+          {
+            "id": "op_37",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_17",
+              "at": 231800,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "What you need is something designed to wake your stomach back up",
+              "clipId": "clip_17"
+            }
+          },
+          {
+            "id": "op_38",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_18",
+              "kind": "video",
+              "assetId": "mot-013-S18",
+              "start": 248000,
+              "duration": 12800,
+              "in": 0,
+              "out": 12800,
+              "name": "Camera moves down the same connected tract; a second quiet highlight joins the first. Keep the diagram visually continuous."
+            }
+          },
+          {
+            "id": "op_39",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_18",
+              "at": 248000,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "while supporting everything below it.",
+              "clipId": "clip_18"
+            }
+          },
+          {
+            "id": "op_40",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_19",
+              "kind": "video",
+              "assetId": "mot-013-S19",
+              "start": 260800,
+              "duration": 16800,
+              "in": 0,
+              "out": 16800,
+              "name": "Three clean numbered ingredient spaces fill the frame. Show 1, 2, 3; no product bottle or Motilli mark yet."
+            }
+          },
+          {
+            "id": "op_41",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_19",
+              "at": 260800,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "And to do that, you need three specific things.",
+              "clipId": "clip_19"
+            }
+          },
+          {
+            "id": "op_42",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_20",
+              "kind": "video",
+              "assetId": "mot-013-S20",
+              "start": 277600,
+              "duration": 23200,
+              "in": 0,
+              "out": 23200,
+              "name": "Macro of washed celery stalks and a small glass of green juice on cream stone. Editor-set APIGENIN / FROM CELERY label; first checklist dot fills."
+            }
+          },
+          {
+            "id": "op_43",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_20",
+              "at": 277600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "First, apigenin—a plant compound concentrated from celery juice—",
+              "clipId": "clip_20"
+            }
+          },
+          {
+            "id": "op_44",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_21",
+              "kind": "video",
+              "assetId": "mot-013-S21",
+              "start": 300800,
+              "duration": 16000,
+              "in": 0,
+              "out": 16000,
+              "name": "Neutral illustrative stomach with an external wave line indicating the intended job. No causal before/after animation showing celery restarting contractions."
+            }
+          },
+          {
+            "id": "op_45",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_21",
+              "at": 300800,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "to support your stomach’s natural wave-like movement.",
+              "clipId": "clip_21"
+            }
+          },
+          {
+            "id": "op_46",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_22",
+              "kind": "video",
+              "assetId": "mot-013-S23",
+              "start": 331600,
+              "duration": 8800,
+              "in": 0,
+              "out": 8800,
+              "name": "Restrained diagram of water and stool inside the colon; label this an illustrative concept. Do not show FOS behaving as a proven gel-forming osmotic agent."
+            }
+          },
+          {
+            "id": "op_47",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_22",
+              "at": 331600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "that holds water in the stool",
+              "clipId": "clip_22"
+            }
+          },
+          {
+            "id": "op_48",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_23",
+              "kind": "video",
+              "assetId": "mot-013-S24",
+              "start": 340400,
+              "duration": 15200,
+              "in": 0,
+              "out": 15200,
+              "name": "Small measured ingredient dish beside the actual referenced full-size fiber container. No fabricated gram numbers or zero-bulk comparison graphic."
+            }
+          },
+          {
+            "id": "op_49",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_23",
+              "at": 340400,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "without becoming another heavy bulk load.",
+              "clipId": "clip_23"
+            }
+          },
+          {
+            "id": "op_50",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_24",
+              "kind": "video",
+              "assetId": "mot-013-S25",
+              "start": 355600,
+              "duration": 18200,
+              "in": 0,
+              "out": 18200,
+              "name": "Deep-green chlorophyllin ingredient material in a laboratory-style glass dish, editor-set CHLOROPHYLLIN label; third checklist dot fills. No fabricated molecular binding."
+            }
+          },
+          {
+            "id": "op_51",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_24",
+              "at": 355600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "And third, chlorophyllin to neutralize the sulfur compounds",
+              "clipId": "clip_24"
+            }
+          },
+          {
+            "id": "op_52",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_25",
+              "kind": "video",
+              "assetId": "mot-013-S26",
+              "start": 373800,
+              "duration": 19200,
+              "in": 0,
+              "out": 19200,
+              "name": "Return to the dining scene as the woman sets down a mint packet. Stay neutral; do not portray the ingredient producing instant relief."
+            }
+          },
+          {
+            "id": "op_53",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_25",
+              "at": 373800,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "behind those burps instead of merely covering the smell.",
+              "clipId": "clip_25"
+            }
+          },
+          {
+            "id": "op_54",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_26",
+              "kind": "video",
+              "assetId": "mot-013-S27",
+              "start": 393000,
+              "duration": 13600,
+              "in": 0,
+              "out": 13600,
+              "name": "FIRST MOTILLI REVEAL: the verified current bottle enters between the three ingredient dishes. Label faces the lens and remains readable."
+            }
+          },
+          {
+            "id": "op_55",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_26",
+              "at": 393000,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "That’s why Motilli combines all three",
+              "clipId": "clip_26"
+            }
+          },
+          {
+            "id": "op_56",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_27",
+              "kind": "video",
+              "assetId": "mot-013-S28",
+              "start": 406600,
+              "duration": 26000,
+              "in": 0,
+              "out": 26000,
+              "name": "Macro of exactly two dark-green heart-shaped gummies beside the bottle. Preserve true gummy shape and finish from the reference."
+            }
+          },
+          {
+            "id": "op_57",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_27",
+              "at": 406600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "in two heart-shaped gummies made specifically for people on GLP-1s.",
+              "clipId": "clip_27"
+            }
+          },
+          {
+            "id": "op_58",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_28",
+              "kind": "video",
+              "assetId": "mot-013-S29",
+              "start": 432600,
+              "duration": 9000,
+              "in": 0,
+              "out": 9000,
+              "name": "Warm eye-level portrait of the same woman at the kitchen counter, now looking ahead rather than down."
+            }
+          },
+          {
+            "id": "op_59",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_28",
+              "at": 432600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "For women on a GLP-1,",
+              "clipId": "clip_28"
+            }
+          },
+          {
+            "id": "op_60",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_29",
+              "kind": "video",
+              "assetId": "mot-013-S30",
+              "start": 441600,
+              "duration": 13400,
+              "in": 0,
+              "out": 13400,
+              "name": "Wide doorway view of her ordinary bathroom; she is in the adjacent hall, fully clothed. Do not show a bowel movement or imply verified relief."
+            }
+          },
+          {
+            "id": "op_61",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_29",
+              "at": 441600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "the goal isn’t just another trip to the bathroom.",
+              "clipId": "clip_29"
+            }
+          },
+          {
+            "id": "op_62",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_30",
+              "kind": "video",
+              "assetId": "mot-013-S31",
+              "start": 455000,
+              "duration": 18200,
+              "in": 0,
+              "out": 18200,
+              "name": "Close view of her picking up her bag and house keys from the hall table."
+            }
+          },
+          {
+            "id": "op_63",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_30",
+              "at": 455000,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "It’s feeling regular again—and getting on with your day.",
+              "clipId": "clip_30"
+            }
+          },
+          {
+            "id": "op_64",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_31",
+              "kind": "video",
+              "assetId": "mot-013-S32",
+              "start": 473200,
+              "duration": 14400,
+              "in": 0,
+              "out": 14400,
+              "name": "Morning light on the same woman sitting up in bed; cut to a neutral bathroom-door detail. Editor label: IMAGINE YOUR MORNING."
+            }
+          },
+          {
+            "id": "op_65",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_31",
+              "at": 473200,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "Imagine waking up, going comfortably,",
+              "clipId": "clip_31"
+            }
+          },
+          {
+            "id": "op_66",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_32",
+              "kind": "video",
+              "assetId": "mot-013-S33",
+              "start": 487600,
+              "duration": 15400,
+              "in": 0,
+              "out": 15400,
+              "name": "She puts on a light cardigan over her usual tee and takes her bag. No altered waist size, flatter-stomach comparison or jeans transformation."
+            }
+          },
+          {
+            "id": "op_67",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_32",
+              "at": 487600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "and getting dressed without wondering how long it’s been.",
+              "clipId": "clip_32"
+            }
+          },
+          {
+            "id": "op_68",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_33",
+              "kind": "video",
+              "assetId": "mot-013-S34",
+              "start": 503000,
+              "duration": 20200,
+              "in": 0,
+              "out": 20200,
+              "name": "Over-shoulder view of her choosing a time for coffee with a friend; hard cut to her picking up keys. Any phone text is added in the editor, not generated."
+            }
+          },
+          {
+            "id": "op_69",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_33",
+              "at": 503000,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "Making plans without your stomach being the first thing you think about.",
+              "clipId": "clip_33"
+            }
+          },
+          {
+            "id": "op_70",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_34",
+              "kind": "video",
+              "assetId": "mot-013-S35",
+              "start": 523200,
+              "duration": 11000,
+              "in": 0,
+              "out": 11000,
+              "name": "Eye-level exterior portrait just outside the same home; natural small smile, relaxed shoulders and warm daylight."
+            }
+          },
+          {
+            "id": "op_71",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_34",
+              "at": 523200,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "You want to feel like yourself again,",
+              "clipId": "clip_34"
+            }
+          },
+          {
+            "id": "op_72",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_35",
+              "kind": "video",
+              "assetId": "mot-013-S36",
+              "start": 534200,
+              "duration": 13400,
+              "in": 0,
+              "out": 13400,
+              "name": "She walks out toward her day carrying her bag. No scale, body-size before/after or claims that medication effects are unchanged."
+            }
+          },
+          {
+            "id": "op_73",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_35",
+              "at": 534200,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "without giving up the progress you’ve worked for.",
+              "clipId": "clip_35"
+            }
+          },
+          {
+            "id": "op_74",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_1",
+            "clip": {
+              "id": "clip_36",
+              "kind": "video",
+              "assetId": "mot-013-S37",
+              "start": 547600,
+              "duration": 32200,
+              "in": 0,
+              "out": 32200,
+              "name": "Verified current bottle and exactly two dark-green heart-shaped gummies on cream stone. Editor-set brand, 90-DAY MONEY-BACK GUARANTEE and SHOP MOTILLI. Add a two-second silent tail."
+            }
+          },
+          {
+            "id": "op_75",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addMarker",
+            "marker": {
+              "id": "marker_36",
+              "at": 547600,
+              "kind": "note",
+              "author": {
+                "kind": "agent",
+                "id": "codex-mot-vid-013"
+              },
+              "body": "Motilli. 90-day money-back guarantee. Tap below.",
+              "clipId": "clip_36"
+            }
+          },
+          {
+            "id": "op_76",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "addClip",
+            "trackId": "track_2",
+            "clip": {
+              "id": "clip_37",
+              "kind": "audio",
+              "assetId": "mot-013-vo",
+              "start": 0,
+              "duration": 567738,
+              "in": 0,
+              "out": 692640,
+              "name": "VO",
+              "audio": {
+                "gain": 0,
+                "fadeIn": 0,
+                "fadeOut": 0
+              },
+              "speed": 1.22
+            }
+          },
+          {
+            "id": "op_77",
+            "at": "2026-09-09T01:26:44.938Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "alignCaptions",
+            "trackId": "captions_1",
+            "words": [
+              {
+                "text": "On",
+                "start": 246,
+                "end": 507
+              },
+              {
+                "text": "a",
+                "start": 703,
+                "end": 900
+              },
+              {
+                "text": "GLP-1,",
+                "start": 1426,
+                "end": 5228
+              },
+              {
+                "text": "the",
+                "start": 5425,
+                "end": 6015
+              },
+              {
+                "text": "harder",
+                "start": 6182,
+                "end": 7195
+              },
+              {
+                "text": "you",
+                "start": 7392,
+                "end": 7982
+              },
+              {
+                "text": "push",
+                "start": 8139,
+                "end": 8769
+              },
+              {
+                "text": "your",
+                "start": 8926,
+                "end": 9556
+              },
+              {
+                "text": "colon",
+                "start": 9885,
+                "end": 11523
+              },
+              {
+                "text": "with",
+                "start": 11680,
+                "end": 12310
+              },
+              {
+                "text": "laxatives",
+                "start": 12703,
+                "end": 14670
+              },
+              {
+                "text": "and",
+                "start": 14867,
+                "end": 15457
+              },
+              {
+                "text": "fiber,",
+                "start": 15787,
+                "end": 18998
+              },
+              {
+                "text": "the",
+                "start": 19195,
+                "end": 19785
+              },
+              {
+                "text": "more",
+                "start": 20021,
+                "end": 20966
+              },
+              {
+                "text": "stuck",
+                "start": 21295,
+                "end": 22933
+              },
+              {
+                "text": "you",
+                "start": 23130,
+                "end": 23720
+              },
+              {
+                "text": "can",
+                "start": 23818,
+                "end": 24113
+              },
+              {
+                "text": "feel.",
+                "start": 24507,
+                "end": 26474
+              },
+              {
+                "text": "Here’s",
+                "start": 27182,
+                "end": 30408
+              },
+              {
+                "text": "the",
+                "start": 30507,
+                "end": 30802
+              },
+              {
+                "text": "trap",
+                "start": 31195,
+                "end": 32769
+              },
+              {
+                "text": "no",
+                "start": 33162,
+                "end": 33949
+              },
+              {
+                "text": "one",
+                "start": 34048,
+                "end": 34343
+              },
+              {
+                "text": "explains.",
+                "start": 34736,
+                "end": 38277
+              },
+              {
+                "text": "Your",
+                "start": 38749,
+                "end": 40638
+              },
+              {
+                "text": "GLP-1",
+                "start": 41164,
+                "end": 44572
+              },
+              {
+                "text": "slows",
+                "start": 44966,
+                "end": 46933
+              },
+              {
+                "text": "your",
+                "start": 47090,
+                "end": 47720
+              },
+              {
+                "text": "stomach",
+                "start": 47867,
+                "end": 48900
+              },
+              {
+                "text": "down.",
+                "start": 49293,
+                "end": 51261
+              },
+              {
+                "text": "So",
+                "start": 52308,
+                "end": 54408
+              },
+              {
+                "text": "when",
+                "start": 54644,
+                "end": 55589
+              },
+              {
+                "text": "you",
+                "start": 55687,
+                "end": 55982
+              },
+              {
+                "text": "haven’t",
+                "start": 56179,
+                "end": 57752
+              },
+              {
+                "text": "gone",
+                "start": 57870,
+                "end": 58343
+              },
+              {
+                "text": "in",
+                "start": 58475,
+                "end": 58736
+              },
+              {
+                "text": "days,",
+                "start": 59208,
+                "end": 61884
+              },
+              {
+                "text": "you",
+                "start": 61982,
+                "end": 62277
+              },
+              {
+                "text": "reach",
+                "start": 62538,
+                "end": 63851
+              },
+              {
+                "text": "for",
+                "start": 64146,
+                "end": 65031
+              },
+              {
+                "text": "MiraLAX,",
+                "start": 65228,
+                "end": 70146
+              },
+              {
+                "text": "magnesium,",
+                "start": 70343,
+                "end": 72507
+              },
+              {
+                "text": "stool",
+                "start": 72767,
+                "end": 74080
+              },
+              {
+                "text": "softeners,",
+                "start": 74395,
+                "end": 78015
+              },
+              {
+                "text": "or",
+                "start": 78408,
+                "end": 79195
+              },
+              {
+                "text": "more",
+                "start": 79510,
+                "end": 80769
+              },
+              {
+                "text": "fiber.",
+                "start": 81098,
+                "end": 83916
+              },
+              {
+                "text": "Those",
+                "start": 84570,
+                "end": 87851
+              },
+              {
+                "text": "products",
+                "start": 88067,
+                "end": 89818
+              },
+              {
+                "text": "work",
+                "start": 90054,
+                "end": 90998
+              },
+              {
+                "text": "downstream.",
+                "start": 91426,
+                "end": 96113
+              },
+              {
+                "text": "They",
+                "start": 96664,
+                "end": 98867
+              },
+              {
+                "text": "target",
+                "start": 99148,
+                "end": 100834
+              },
+              {
+                "text": "the",
+                "start": 100933,
+                "end": 101228
+              },
+              {
+                "text": "colon—",
+                "start": 101685,
+                "end": 105162
+              },
+              {
+                "text": "the",
+                "start": 105261,
+                "end": 105556
+              },
+              {
+                "text": "end",
+                "start": 106048,
+                "end": 107523
+              },
+              {
+                "text": "of",
+                "start": 107656,
+                "end": 107916
+              },
+              {
+                "text": "your",
+                "start": 108074,
+                "end": 108703
+              },
+              {
+                "text": "digestive",
+                "start": 108900,
+                "end": 110670
+              },
+              {
+                "text": "system.",
+                "start": 111064,
+                "end": 114998
+              },
+              {
+                "text": "But",
+                "start": 115490,
+                "end": 116966
+              },
+              {
+                "text": "if",
+                "start": 117359,
+                "end": 118146
+              },
+              {
+                "text": "the",
+                "start": 118244,
+                "end": 118539
+              },
+              {
+                "text": "slowdown",
+                "start": 118800,
+                "end": 120900
+              },
+              {
+                "text": "begins",
+                "start": 121180,
+                "end": 122867
+              },
+              {
+                "text": "higher",
+                "start": 123207,
+                "end": 125228
+              },
+              {
+                "text": "up",
+                "start": 125621,
+                "end": 126408
+              },
+              {
+                "text": "in",
+                "start": 126669,
+                "end": 127195
+              },
+              {
+                "text": "your",
+                "start": 127274,
+                "end": 127589
+              },
+              {
+                "text": "stomach,",
+                "start": 127884,
+                "end": 131916
+              },
+              {
+                "text": "food",
+                "start": 132231,
+                "end": 133490
+              },
+              {
+                "text": "is",
+                "start": 133751,
+                "end": 134277
+              },
+              {
+                "text": "still",
+                "start": 134474,
+                "end": 135457
+              },
+              {
+                "text": "sitting",
+                "start": 135703,
+                "end": 137425
+              },
+              {
+                "text": "at",
+                "start": 137685,
+                "end": 138211
+              },
+              {
+                "text": "the",
+                "start": 138310,
+                "end": 138605
+              },
+              {
+                "text": "beginning.",
+                "start": 138880,
+                "end": 142933
+              },
+              {
+                "text": "That’s",
+                "start": 143405,
+                "end": 145687
+              },
+              {
+                "text": "why",
+                "start": 145785,
+                "end": 146080
+              },
+              {
+                "text": "the",
+                "start": 146277,
+                "end": 146867
+              },
+              {
+                "text": "relief",
+                "start": 147148,
+                "end": 148834
+              },
+              {
+                "text": "may",
+                "start": 149031,
+                "end": 149621
+              },
+              {
+                "text": "last",
+                "start": 150015,
+                "end": 151589
+              },
+              {
+                "text": "a",
+                "start": 151982,
+                "end": 152375
+              },
+              {
+                "text": "day,",
+                "start": 152966,
+                "end": 156703
+              },
+              {
+                "text": "the",
+                "start": 156802,
+                "end": 157097
+              },
+              {
+                "text": "fiber",
+                "start": 157426,
+                "end": 159064
+              },
+              {
+                "text": "can",
+                "start": 159261,
+                "end": 159851
+              },
+              {
+                "text": "make",
+                "start": 160008,
+                "end": 160638
+              },
+              {
+                "text": "you",
+                "start": 160834,
+                "end": 161425
+              },
+              {
+                "text": "feel",
+                "start": 161661,
+                "end": 162605
+              },
+              {
+                "text": "even",
+                "start": 162998,
+                "end": 164572
+              },
+              {
+                "text": "fuller,",
+                "start": 164966,
+                "end": 169687
+              },
+              {
+                "text": "and",
+                "start": 169982,
+                "end": 170867
+              },
+              {
+                "text": "those",
+                "start": 171064,
+                "end": 172048
+              },
+              {
+                "text": "rotten-egg",
+                "start": 172274,
+                "end": 174802
+              },
+              {
+                "text": "burps",
+                "start": 175097,
+                "end": 176769
+              },
+              {
+                "text": "keep",
+                "start": 177084,
+                "end": 178343
+              },
+              {
+                "text": "coming",
+                "start": 178569,
+                "end": 179916
+              },
+              {
+                "text": "back.",
+                "start": 180310,
+                "end": 182670
+              },
+              {
+                "text": "It’s",
+                "start": 183590,
+                "end": 185818
+              },
+              {
+                "text": "not",
+                "start": 186015,
+                "end": 186605
+              },
+              {
+                "text": "that",
+                "start": 186762,
+                "end": 187392
+              },
+              {
+                "text": "your",
+                "start": 187549,
+                "end": 188179
+              },
+              {
+                "text": "body",
+                "start": 188493,
+                "end": 189752
+              },
+              {
+                "text": "is",
+                "start": 190013,
+                "end": 190539
+              },
+              {
+                "text": "broken.",
+                "start": 190933,
+                "end": 194670
+              },
+              {
+                "text": "And",
+                "start": 195015,
+                "end": 196048
+              },
+              {
+                "text": "it",
+                "start": 196308,
+                "end": 196834
+              },
+              {
+                "text": "doesn’t",
+                "start": 197031,
+                "end": 198408
+              },
+              {
+                "text": "mean",
+                "start": 198644,
+                "end": 199589
+              },
+              {
+                "text": "you",
+                "start": 199687,
+                "end": 199982
+              },
+              {
+                "text": "have",
+                "start": 200139,
+                "end": 200769
+              },
+              {
+                "text": "to",
+                "start": 201030,
+                "end": 201556
+              },
+              {
+                "text": "quit",
+                "start": 201792,
+                "end": 202736
+              },
+              {
+                "text": "your",
+                "start": 202893,
+                "end": 203523
+              },
+              {
+                "text": "shot.",
+                "start": 203916,
+                "end": 206670
+              },
+              {
+                "text": "You’ve",
+                "start": 207261,
+                "end": 209425
+              },
+              {
+                "text": "been",
+                "start": 209582,
+                "end": 210211
+              },
+              {
+                "text": "trying",
+                "start": 210438,
+                "end": 211785
+              },
+              {
+                "text": "to",
+                "start": 211918,
+                "end": 212179
+              },
+              {
+                "text": "solve",
+                "start": 212439,
+                "end": 213752
+              },
+              {
+                "text": "an",
+                "start": 214146,
+                "end": 214933
+              },
+              {
+                "text": "upstream",
+                "start": 215238,
+                "end": 217687
+              },
+              {
+                "text": "slowdown",
+                "start": 218036,
+                "end": 220834
+              },
+              {
+                "text": "with",
+                "start": 221149,
+                "end": 222408
+              },
+              {
+                "text": "downstream",
+                "start": 222767,
+                "end": 226343
+              },
+              {
+                "text": "tools.",
+                "start": 226933,
+                "end": 231457
+              },
+              {
+                "text": "What",
+                "start": 231851,
+                "end": 233425
+              },
+              {
+                "text": "you",
+                "start": 233523,
+                "end": 233818
+              },
+              {
+                "text": "need",
+                "start": 234211,
+                "end": 235785
+              },
+              {
+                "text": "is",
+                "start": 236179,
+                "end": 236966
+              },
+              {
+                "text": "something",
+                "start": 237123,
+                "end": 238539
+              },
+              {
+                "text": "designed",
+                "start": 238756,
+                "end": 240507
+              },
+              {
+                "text": "to",
+                "start": 240767,
+                "end": 241293
+              },
+              {
+                "text": "wake",
+                "start": 241530,
+                "end": 242474
+              },
+              {
+                "text": "your",
+                "start": 242631,
+                "end": 243261
+              },
+              {
+                "text": "stomach",
+                "start": 243457,
+                "end": 244834
+              },
+              {
+                "text": "back",
+                "start": 245149,
+                "end": 246408
+              },
+              {
+                "text": "up",
+                "start": 246802,
+                "end": 247589
+              },
+              {
+                "text": "while",
+                "start": 248046,
+                "end": 250343
+              },
+              {
+                "text": "supporting",
+                "start": 250593,
+                "end": 253097
+              },
+              {
+                "text": "everything",
+                "start": 253348,
+                "end": 255851
+              },
+              {
+                "text": "below",
+                "start": 256111,
+                "end": 257425
+              },
+              {
+                "text": "it.",
+                "start": 257951,
+                "end": 260375
+              },
+              {
+                "text": "And",
+                "start": 260720,
+                "end": 261752
+              },
+              {
+                "text": "to",
+                "start": 261885,
+                "end": 262146
+              },
+              {
+                "text": "do",
+                "start": 262539,
+                "end": 263326
+              },
+              {
+                "text": "that,",
+                "start": 263562,
+                "end": 265687
+              },
+              {
+                "text": "you",
+                "start": 265884,
+                "end": 266474
+              },
+              {
+                "text": "need",
+                "start": 266710,
+                "end": 267654
+              },
+              {
+                "text": "three",
+                "start": 267984,
+                "end": 269621
+              },
+              {
+                "text": "specific",
+                "start": 269926,
+                "end": 272375
+              },
+              {
+                "text": "things.",
+                "start": 272823,
+                "end": 277097
+              },
+              {
+                "text": "First,",
+                "start": 277687,
+                "end": 281425
+              },
+              {
+                "text": "apigenin—a",
+                "start": 281685,
+                "end": 286539
+              },
+              {
+                "text": "plant",
+                "start": 286736,
+                "end": 287720
+              },
+              {
+                "text": "compound",
+                "start": 288025,
+                "end": 290474
+              },
+              {
+                "text": "concentrated",
+                "start": 290744,
+                "end": 294015
+              },
+              {
+                "text": "from",
+                "start": 294172,
+                "end": 294802
+              },
+              {
+                "text": "celery",
+                "start": 295082,
+                "end": 296769
+              },
+              {
+                "text": "juice—",
+                "start": 297162,
+                "end": 300703
+              },
+              {
+                "text": "to",
+                "start": 300836,
+                "end": 301097
+              },
+              {
+                "text": "support",
+                "start": 301343,
+                "end": 303064
+              },
+              {
+                "text": "your",
+                "start": 303221,
+                "end": 303851
+              },
+              {
+                "text": "stomach’s",
+                "start": 304097,
+                "end": 306605
+              },
+              {
+                "text": "natural",
+                "start": 306949,
+                "end": 309359
+              },
+              {
+                "text": "wave-like",
+                "start": 309674,
+                "end": 312507
+              },
+              {
+                "text": "movement.",
+                "start": 312811,
+                "end": 316048
+              },
+              {
+                "text": "Second,",
+                "start": 316721,
+                "end": 321556
+              },
+              {
+                "text": "a",
+                "start": 321949,
+                "end": 322343
+              },
+              {
+                "text": "low-viscosity",
+                "start": 322539,
+                "end": 326670
+              },
+              {
+                "text": "soluble",
+                "start": 326966,
+                "end": 329031
+              },
+              {
+                "text": "fiber",
+                "start": 329425,
+                "end": 331392
+              },
+              {
+                "text": "that",
+                "start": 331628,
+                "end": 332572
+              },
+              {
+                "text": "holds",
+                "start": 332902,
+                "end": 334539
+              },
+              {
+                "text": "water",
+                "start": 334869,
+                "end": 336507
+              },
+              {
+                "text": "in",
+                "start": 336767,
+                "end": 337293
+              },
+              {
+                "text": "the",
+                "start": 337392,
+                "end": 337687
+              },
+              {
+                "text": "stool",
+                "start": 338080,
+                "end": 340048
+              },
+              {
+                "text": "without",
+                "start": 340441,
+                "end": 343195
+              },
+              {
+                "text": "becoming",
+                "start": 343456,
+                "end": 345556
+              },
+              {
+                "text": "another",
+                "start": 345851,
+                "end": 347916
+              },
+              {
+                "text": "heavy",
+                "start": 348246,
+                "end": 349884
+              },
+              {
+                "text": "bulk",
+                "start": 350198,
+                "end": 351457
+              },
+              {
+                "text": "load.",
+                "start": 351851,
+                "end": 354998
+              },
+              {
+                "text": "And",
+                "start": 355589,
+                "end": 357359
+              },
+              {
+                "text": "third,",
+                "start": 357752,
+                "end": 360113
+              },
+              {
+                "text": "chlorophyllin",
+                "start": 360374,
+                "end": 364048
+              },
+              {
+                "text": "to",
+                "start": 364441,
+                "end": 365228
+              },
+              {
+                "text": "neutralize",
+                "start": 365474,
+                "end": 368375
+              },
+              {
+                "text": "the",
+                "start": 368474,
+                "end": 368769
+              },
+              {
+                "text": "sulfur",
+                "start": 369049,
+                "end": 370736
+              },
+              {
+                "text": "compounds",
+                "start": 371011,
+                "end": 373490
+              },
+              {
+                "text": "behind",
+                "start": 373884,
+                "end": 376244
+              },
+              {
+                "text": "those",
+                "start": 376441,
+                "end": 377425
+              },
+              {
+                "text": "burps",
+                "start": 377720,
+                "end": 379785
+              },
+              {
+                "text": "instead",
+                "start": 380228,
+                "end": 383326
+              },
+              {
+                "text": "of",
+                "start": 383587,
+                "end": 384113
+              },
+              {
+                "text": "merely",
+                "start": 384393,
+                "end": 386080
+              },
+              {
+                "text": "covering",
+                "start": 386341,
+                "end": 388441
+              },
+              {
+                "text": "the",
+                "start": 388638,
+                "end": 389228
+              },
+              {
+                "text": "smell.",
+                "start": 389557,
+                "end": 392375
+              },
+              {
+                "text": "That’s",
+                "start": 393084,
+                "end": 396310
+              },
+              {
+                "text": "why",
+                "start": 396408,
+                "end": 396703
+              },
+              {
+                "text": "Motilli",
+                "start": 397097,
+                "end": 399457
+              },
+              {
+                "text": "combines",
+                "start": 399762,
+                "end": 402211
+              },
+              {
+                "text": "all",
+                "start": 402605,
+                "end": 403785
+              },
+              {
+                "text": "three",
+                "start": 404179,
+                "end": 406146
+              },
+              {
+                "text": "in",
+                "start": 406672,
+                "end": 407720
+              },
+              {
+                "text": "two",
+                "start": 408211,
+                "end": 409687
+              },
+              {
+                "text": "heart-shaped",
+                "start": 410016,
+                "end": 413228
+              },
+              {
+                "text": "gummies",
+                "start": 413425,
+                "end": 415982
+              },
+              {
+                "text": "made",
+                "start": 416454,
+                "end": 418343
+              },
+              {
+                "text": "specifically",
+                "start": 418584,
+                "end": 421490
+              },
+              {
+                "text": "for",
+                "start": 421687,
+                "end": 422277
+              },
+              {
+                "text": "people",
+                "start": 422616,
+                "end": 424638
+              },
+              {
+                "text": "on",
+                "start": 424898,
+                "end": 425425
+              },
+              {
+                "text": "GLP-1s.",
+                "start": 426079,
+                "end": 432113
+              },
+              {
+                "text": "For",
+                "start": 432507,
+                "end": 433687
+              },
+              {
+                "text": "women",
+                "start": 433948,
+                "end": 435261
+              },
+              {
+                "text": "on",
+                "start": 435521,
+                "end": 436048
+              },
+              {
+                "text": "a",
+                "start": 436244,
+                "end": 436441
+              },
+              {
+                "text": "GLP-1,",
+                "start": 437095,
+                "end": 441556
+              },
+              {
+                "text": "the",
+                "start": 441654,
+                "end": 441949
+              },
+              {
+                "text": "goal",
+                "start": 442343,
+                "end": 443916
+              },
+              {
+                "text": "isn’t",
+                "start": 444310,
+                "end": 446277
+              },
+              {
+                "text": "just",
+                "start": 446513,
+                "end": 447457
+              },
+              {
+                "text": "another",
+                "start": 447605,
+                "end": 448638
+              },
+              {
+                "text": "trip",
+                "start": 448952,
+                "end": 450211
+              },
+              {
+                "text": "to",
+                "start": 450344,
+                "end": 450605
+              },
+              {
+                "text": "the",
+                "start": 450703,
+                "end": 450998
+              },
+              {
+                "text": "bathroom.",
+                "start": 451303,
+                "end": 454539
+              },
+              {
+                "text": "It’s",
+                "start": 455066,
+                "end": 457097
+              },
+              {
+                "text": "feeling",
+                "start": 457220,
+                "end": 458080
+              },
+              {
+                "text": "regular",
+                "start": 458375,
+                "end": 460441
+              },
+              {
+                "text": "again—and",
+                "start": 460898,
+                "end": 465162
+              },
+              {
+                "text": "getting",
+                "start": 465359,
+                "end": 466736
+              },
+              {
+                "text": "on",
+                "start": 466997,
+                "end": 467523
+              },
+              {
+                "text": "with",
+                "start": 467680,
+                "end": 468310
+              },
+              {
+                "text": "your",
+                "start": 468389,
+                "end": 468703
+              },
+              {
+                "text": "day.",
+                "start": 469195,
+                "end": 472638
+              },
+              {
+                "text": "Imagine",
+                "start": 473130,
+                "end": 476572
+              },
+              {
+                "text": "waking",
+                "start": 476852,
+                "end": 478539
+              },
+              {
+                "text": "up,",
+                "start": 479066,
+                "end": 480900
+              },
+              {
+                "text": "going",
+                "start": 481161,
+                "end": 482474
+              },
+              {
+                "text": "comfortably,",
+                "start": 482769,
+                "end": 487589
+              },
+              {
+                "text": "and",
+                "start": 487687,
+                "end": 487982
+              },
+              {
+                "text": "getting",
+                "start": 488179,
+                "end": 489556
+              },
+              {
+                "text": "dressed",
+                "start": 489802,
+                "end": 491523
+              },
+              {
+                "text": "without",
+                "start": 491769,
+                "end": 493490
+              },
+              {
+                "text": "wondering",
+                "start": 493726,
+                "end": 495851
+              },
+              {
+                "text": "how",
+                "start": 496146,
+                "end": 497031
+              },
+              {
+                "text": "long",
+                "start": 497267,
+                "end": 498211
+              },
+              {
+                "text": "it’s",
+                "start": 498472,
+                "end": 499392
+              },
+              {
+                "text": "been.",
+                "start": 499707,
+                "end": 502539
+              },
+              {
+                "text": "Making",
+                "start": 502987,
+                "end": 505687
+              },
+              {
+                "text": "plans",
+                "start": 506144,
+                "end": 508441
+              },
+              {
+                "text": "without",
+                "start": 508736,
+                "end": 510802
+              },
+              {
+                "text": "your",
+                "start": 510959,
+                "end": 511589
+              },
+              {
+                "text": "stomach",
+                "start": 511834,
+                "end": 513556
+              },
+              {
+                "text": "being",
+                "start": 513689,
+                "end": 514343
+              },
+              {
+                "text": "the",
+                "start": 514539,
+                "end": 515130
+              },
+              {
+                "text": "first",
+                "start": 515459,
+                "end": 517097
+              },
+              {
+                "text": "thing",
+                "start": 517293,
+                "end": 518277
+              },
+              {
+                "text": "you",
+                "start": 518474,
+                "end": 519064
+              },
+              {
+                "text": "think",
+                "start": 519197,
+                "end": 519851
+              },
+              {
+                "text": "about.",
+                "start": 520111,
+                "end": 522605
+              },
+              {
+                "text": "You",
+                "start": 523293,
+                "end": 525359
+              },
+              {
+                "text": "want",
+                "start": 525595,
+                "end": 526539
+              },
+              {
+                "text": "to",
+                "start": 526800,
+                "end": 527326
+              },
+              {
+                "text": "feel",
+                "start": 527484,
+                "end": 528113
+              },
+              {
+                "text": "like",
+                "start": 528270,
+                "end": 528900
+              },
+              {
+                "text": "yourself",
+                "start": 529161,
+                "end": 531261
+              },
+              {
+                "text": "again,",
+                "start": 531590,
+                "end": 534015
+              },
+              {
+                "text": "without",
+                "start": 534261,
+                "end": 535982
+              },
+              {
+                "text": "giving",
+                "start": 536208,
+                "end": 537556
+              },
+              {
+                "text": "up",
+                "start": 537816,
+                "end": 538343
+              },
+              {
+                "text": "the",
+                "start": 538441,
+                "end": 538736
+              },
+              {
+                "text": "progress",
+                "start": 539041,
+                "end": 541490
+              },
+              {
+                "text": "you’ve",
+                "start": 541589,
+                "end": 542670
+              },
+              {
+                "text": "worked",
+                "start": 542838,
+                "end": 543851
+              },
+              {
+                "text": "for.",
+                "start": 544244,
+                "end": 546998
+              },
+              {
+                "text": "Motilli.",
+                "start": 547687,
+                "end": 551720
+              },
+              {
+                "text": "90-day",
+                "start": 554080,
+                "end": 556441
+              },
+              {
+                "text": "money-back",
+                "start": 556702,
+                "end": 559195
+              },
+              {
+                "text": "guarantee.",
+                "start": 559470,
+                "end": 562343
+              },
+              {
+                "text": "Tap",
+                "start": 563031,
+                "end": 565097
+              },
+              {
+                "text": "below.",
+                "start": 565357,
+                "end": 567851
+              }
+            ],
+            "options": {
+              "maxWords": 5,
+              "maxDuration": 15000
+            }
+          }
+        ],
+        "note": "assemble_from_board MOT-VID-013-A lane ours"
+      },
+      {
+        "id": "mot-013-mute-MOT-VID-013-A",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTrack",
+        "trackId": "track_1",
+        "patch": {
+          "muted": true
+        }
+      },
+      {
+        "id": "edit_1",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addTrack",
+        "track": {
+          "id": "labels",
+          "kind": "text",
+          "name": "Reference-style callouts"
+        }
+      },
+      {
+        "id": "edit_2",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-hook",
+          "kind": "text",
+          "name": "Tried all of these?",
+          "start": 0,
+          "duration": 27200,
+          "text": {
+            "content": "Tried all of these?",
+            "font": "Arial",
+            "size": 54,
+            "weight": 800,
+            "italic": false,
+            "color": "#ffffff",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": true,
+            "background": {
+              "color": "#153d29",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_3",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-hook",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "edit_4",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-colon",
+          "kind": "text",
+          "name": "COLON",
+          "start": 84600,
+          "duration": 30800,
+          "text": {
+            "content": "COLON",
+            "font": "Arial",
+            "size": 54,
+            "weight": 800,
+            "italic": false,
+            "color": "#111111",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": false,
+            "background": {
+              "color": "#ffffff",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_5",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-colon",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "edit_6",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-stomach",
+          "kind": "text",
+          "name": "STOMACH",
+          "start": 115400,
+          "duration": 16800,
+          "text": {
+            "content": "STOMACH",
+            "font": "Arial",
+            "size": 54,
+            "weight": 800,
+            "italic": false,
+            "color": "#111111",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": false,
+            "background": {
+              "color": "#ffffff",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_7",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-stomach",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "edit_8",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-map",
+          "kind": "text",
+          "name": "STOMACH / UPSTREAM\nCOLON / DOWNSTREAM",
+          "start": 207200,
+          "duration": 24600,
+          "text": {
+            "content": "STOMACH / UPSTREAM\nCOLON / DOWNSTREAM",
+            "font": "Arial",
+            "size": 54,
+            "weight": 800,
+            "italic": false,
+            "color": "#111111",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": false,
+            "background": {
+              "color": "#ffffff",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_9",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-map",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "edit_10",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-apigenin",
+          "kind": "text",
+          "name": "APIGENIN\nFROM CELERY",
+          "start": 277600,
+          "duration": 23200,
+          "text": {
+            "content": "APIGENIN\nFROM CELERY",
+            "font": "Arial",
+            "size": 54,
+            "weight": 800,
+            "italic": false,
+            "color": "#111111",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": false,
+            "background": {
+              "color": "#ffffff",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_11",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-apigenin",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "edit_12",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-chlorophyllin",
+          "kind": "text",
+          "name": "CHLOROPHYLLIN",
+          "start": 355600,
+          "duration": 18200,
+          "text": {
+            "content": "CHLOROPHYLLIN",
+            "font": "Arial",
+            "size": 54,
+            "weight": 800,
+            "italic": false,
+            "color": "#111111",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": false,
+            "background": {
+              "color": "#ffffff",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_13",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-chlorophyllin",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "edit_14",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-imagine",
+          "kind": "text",
+          "name": "IMAGINE YOUR MORNING",
+          "start": 473200,
+          "duration": 14400,
+          "text": {
+            "content": "IMAGINE YOUR MORNING",
+            "font": "Arial",
+            "size": 54,
+            "weight": 800,
+            "italic": false,
+            "color": "#111111",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": false,
+            "background": {
+              "color": "#ffffff",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_15",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-imagine",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "edit_16",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addClip",
+        "trackId": "labels",
+        "clip": {
+          "id": "label-cta",
+          "kind": "text",
+          "name": "MOTILLI\n90-DAY MONEY-BACK GUARANTEE\nSHOP MOTILLI",
+          "start": 547600,
+          "duration": 32200,
+          "text": {
+            "content": "MOTILLI\n90-DAY MONEY-BACK GUARANTEE\nSHOP MOTILLI",
+            "font": "Arial",
+            "size": 46,
+            "weight": 800,
+            "italic": false,
+            "color": "#111111",
+            "align": "center",
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "uppercase": false,
+            "background": {
+              "color": "#ffffff",
+              "padding": 18,
+              "radius": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "edit_17",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-cta",
+        "transform": {
+          "y": -650
+        }
+      },
+      {
+        "id": "missing-MOT-VID-013-A-S22",
+        "at": "2026-09-09T01:26:44.938Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "addMarker",
+        "marker": {
+          "id": "qa-S22",
+          "at": 316800,
+          "kind": "qa_fail",
+          "body": "Google Omni rejected the fiber-dish generation under its content guidelines; no substitute or frozen still inserted.",
+          "author": {
+            "kind": "agent",
+            "id": "codex-mot-vid-013"
+          }
+        }
+      }
+    ],
+    "inverses": [
+      {
+        "id": "op_b89686e7-cc3c-43e0-a617-d203e2a55c6c",
+        "at": "2026-09-09T01:26:44.940Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "batch",
+        "ops": [
+          {
+            "id": "op_dae40adc-fbbd-4b31-931a-c3f49f799d5b",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "setCaptions",
+            "trackId": "captions_1",
+            "captions": []
+          },
+          {
+            "id": "op_ef5ee04d-8bd1-4984-9b57-25b521b3215a",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_37"
+          },
+          {
+            "id": "op_0c79f58d-6aed-483a-91bd-d3274e186563",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_36"
+          },
+          {
+            "id": "op_88af87e6-1d79-4cf3-87eb-b5734c148f0c",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_36"
+          },
+          {
+            "id": "op_22019502-facf-4bb2-9af1-c38199ea76ba",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_35"
+          },
+          {
+            "id": "op_19537785-1595-4e6e-85b6-5b32e02f2fb8",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_35"
+          },
+          {
+            "id": "op_36027cac-bd73-433c-b4a1-7eb4f63553d4",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_34"
+          },
+          {
+            "id": "op_19049575-9cec-4985-a619-3eea7f5518b2",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_34"
+          },
+          {
+            "id": "op_5d1902f3-8bc7-4978-9b55-de254c60b823",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_33"
+          },
+          {
+            "id": "op_211bdc53-b18b-44e3-b1e1-3450c0bc6fe7",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_33"
+          },
+          {
+            "id": "op_2273df97-9c43-4e3c-86f9-0fb49a201821",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_32"
+          },
+          {
+            "id": "op_dbc10e2b-60f5-4341-8fc5-bc659c01ec74",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_32"
+          },
+          {
+            "id": "op_0c1f05a7-f365-4fd4-a92f-9f356b248357",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_31"
+          },
+          {
+            "id": "op_5023a145-2500-4270-a45e-2b7c5fdf58b9",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_31"
+          },
+          {
+            "id": "op_481cad21-443b-4327-89ba-e31bc51cd46f",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_30"
+          },
+          {
+            "id": "op_69f5ba0e-cf94-45ce-81b8-87dde8c3cf74",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_30"
+          },
+          {
+            "id": "op_858315e3-d92c-4b36-ae95-08a14bb16d25",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_29"
+          },
+          {
+            "id": "op_96507db0-b38f-4d3a-9ae1-9e0ec9355cbb",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_29"
+          },
+          {
+            "id": "op_e953ce8b-9e63-4c2f-ac77-5735d3f0ad54",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_28"
+          },
+          {
+            "id": "op_4e0cd9b2-2c91-49e8-ad2c-b6937e548d3f",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_28"
+          },
+          {
+            "id": "op_6ea395dd-8cef-46a5-854a-238d8300a3a5",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_27"
+          },
+          {
+            "id": "op_fd7ca316-a95e-4aef-ac38-aa6fd4fd20e2",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_27"
+          },
+          {
+            "id": "op_689eae7e-2738-46d9-9244-533fdd0725a5",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_26"
+          },
+          {
+            "id": "op_6eeb7e10-7c05-465c-96c7-abb2e620e3a2",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_26"
+          },
+          {
+            "id": "op_a2906da7-0338-4036-b5ca-c18e571d7ab2",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_25"
+          },
+          {
+            "id": "op_f99410af-1f78-4f38-b451-4ea5df3968ee",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_25"
+          },
+          {
+            "id": "op_fa17f333-f565-43dc-9579-db2a1186c538",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_24"
+          },
+          {
+            "id": "op_241257f9-7c7c-4081-94e5-92cbb27b62d1",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_24"
+          },
+          {
+            "id": "op_c81afc99-8954-4317-aceb-9bc874d244a6",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_23"
+          },
+          {
+            "id": "op_836db1e3-6c98-4b87-b644-e6c91575dae1",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_23"
+          },
+          {
+            "id": "op_5fc3f37c-b17c-4f76-9747-fc4660379eaf",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_22"
+          },
+          {
+            "id": "op_c99a3e20-4210-453d-aff6-9f1b595b204d",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_22"
+          },
+          {
+            "id": "op_aef589ff-e0e7-4908-95c2-58ce5180f953",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_21"
+          },
+          {
+            "id": "op_2843509c-4db8-406d-ba2a-820cbf66134a",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_21"
+          },
+          {
+            "id": "op_68294b2d-755c-4803-8098-a3accb2eb136",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_20"
+          },
+          {
+            "id": "op_d9dab320-bb15-4c82-80b3-f1595c78a835",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_20"
+          },
+          {
+            "id": "op_375a301f-45bf-46ee-b001-d87ae620f12a",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_19"
+          },
+          {
+            "id": "op_654e656d-5a8d-48c5-94b1-af14840109b9",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_19"
+          },
+          {
+            "id": "op_5255868f-f259-459e-93b0-00c6ba385de9",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_18"
+          },
+          {
+            "id": "op_e0b31bca-32ad-4c98-84a2-3d9e89b8b897",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_18"
+          },
+          {
+            "id": "op_cd52b476-25b0-4354-abc1-4187027d3483",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_17"
+          },
+          {
+            "id": "op_99daafec-b8d4-4bbd-a35c-f619c3d8339d",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_17"
+          },
+          {
+            "id": "op_8f32e858-4182-4c82-8931-197bda6cf68e",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_16"
+          },
+          {
+            "id": "op_85a727ac-23b2-42a4-b428-e960cea9b78a",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_16"
+          },
+          {
+            "id": "op_98d69f6c-5891-40d1-934a-383cceeb8668",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_15"
+          },
+          {
+            "id": "op_c8796d61-879a-4918-a219-75c77e46a18e",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_15"
+          },
+          {
+            "id": "op_18e20910-2ad1-441d-b084-2f1881092ae8",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_14"
+          },
+          {
+            "id": "op_b5247325-ea01-4a34-abb2-5c77c6764602",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_14"
+          },
+          {
+            "id": "op_bfee77f3-63e0-4d4a-a58b-4666bee16624",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_13"
+          },
+          {
+            "id": "op_80d622f5-eaa6-405d-85dd-b93baebee9c8",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_13"
+          },
+          {
+            "id": "op_24946108-f111-437f-a1c2-4381806ef040",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_12"
+          },
+          {
+            "id": "op_013eed90-7b86-4f26-911b-7ef23361c666",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_12"
+          },
+          {
+            "id": "op_a9b863cc-dabf-485c-970e-b2d5e1405472",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_11"
+          },
+          {
+            "id": "op_424712a9-e7ad-47ac-86a6-eb26824446e0",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_11"
+          },
+          {
+            "id": "op_2a0dd707-937b-4e5a-b033-642427ec9e76",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_10"
+          },
+          {
+            "id": "op_f07010bb-9028-4566-b454-e9fd4f8a36d3",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_10"
+          },
+          {
+            "id": "op_35597caa-6bec-4b0b-af1d-63e06401a787",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_9"
+          },
+          {
+            "id": "op_fb61820c-8347-44bd-98a8-a4ec15ef6347",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_9"
+          },
+          {
+            "id": "op_e07b3192-1424-4ea5-b410-8038c88648d5",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_8"
+          },
+          {
+            "id": "op_9c9fb440-2d0f-4472-aa15-99ff529321d8",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_8"
+          },
+          {
+            "id": "op_11df579c-7cb9-492e-a3eb-03d47a557165",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_7"
+          },
+          {
+            "id": "op_94469461-d571-4e04-afca-1e49f3d9eb9a",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_7"
+          },
+          {
+            "id": "op_027e318e-a48c-4cb0-9930-5e58be4888d3",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_6"
+          },
+          {
+            "id": "op_0dc266cc-61be-48c5-a38c-b05af13c5877",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_6"
+          },
+          {
+            "id": "op_f919d1d9-bbbc-457d-9934-bc8c2d812229",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_5"
+          },
+          {
+            "id": "op_13ff6b90-102d-4d01-9f88-c886134de6c7",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_5"
+          },
+          {
+            "id": "op_4be1ae12-c426-4b4a-be88-0ecdaab155e3",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_4"
+          },
+          {
+            "id": "op_c4d289b5-9dbe-4683-a058-919339fb4b64",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_4"
+          },
+          {
+            "id": "op_0048023f-297d-4991-b173-4cd059b0c4b3",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_3"
+          },
+          {
+            "id": "op_4dcd015e-4ed1-4453-8f9e-9a33625a0aa2",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_3"
+          },
+          {
+            "id": "op_2a06ed6f-b503-4182-9925-e01152b57fd9",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_2"
+          },
+          {
+            "id": "op_465b2e66-b32f-4aa5-a126-cb8883820aa3",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_2"
+          },
+          {
+            "id": "op_d7b26964-da6c-41d3-a666-d205cec9aeff",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeMarker",
+            "markerId": "marker_1"
+          },
+          {
+            "id": "op_34c5a19e-766a-4ccb-891a-6cbaa2a97a84",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeClip",
+            "clipId": "clip_1"
+          },
+          {
+            "id": "op_f666b302-7137-41ef-9bd6-d06523b93ba7",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeCaptionTrack",
+            "trackId": "captions_1"
+          },
+          {
+            "id": "op_b9ccf8b4-b178-4744-9ea5-6ccaee106a75",
+            "at": "2026-09-09T01:26:44.941Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeTrack",
+            "trackId": "track_2"
+          },
+          {
+            "id": "op_50c4ee37-9bd3-4c74-b942-0d48cb6a6e47",
+            "at": "2026-09-09T01:26:44.940Z",
+            "author": {
+              "kind": "agent",
+              "id": "codex-mot-vid-013"
+            },
+            "type": "removeTrack",
+            "trackId": "track_1"
+          }
+        ]
+      },
+      {
+        "id": "op_a2b4a545-680d-455d-a2b8-08fa615a7b79",
+        "at": "2026-09-09T01:26:44.942Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTrack",
+        "trackId": "track_1",
+        "patch": {
+          "muted": false
+        }
+      },
+      {
+        "id": "op_2f83f7fb-0a19-440d-b1dd-0dbe4c0c5a6c",
+        "at": "2026-09-09T01:26:44.942Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeTrack",
+        "trackId": "labels"
+      },
+      {
+        "id": "op_1fafa984-0828-4bd2-a347-3f58ba426916",
+        "at": "2026-09-09T01:26:44.942Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-hook"
+      },
+      {
+        "id": "op_8f925ba3-3f3e-481f-a9bd-3c637b7de962",
+        "at": "2026-09-09T01:26:44.942Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-hook",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_3cf90251-b316-4c39-8ab6-915dcf9c259f",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-colon"
+      },
+      {
+        "id": "op_78d717d0-7a76-4f81-bc0b-1ada998c95af",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-colon",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_4ee32963-0807-4937-856a-b7d338b4bf3a",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-stomach"
+      },
+      {
+        "id": "op_b18c92b1-44c2-4b14-949e-6801ddfbcd65",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-stomach",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_5fb0979d-b58f-4a64-b520-d1011761115a",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-map"
+      },
+      {
+        "id": "op_6957d6fb-78f8-4b17-add3-2baec8bf75c4",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-map",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_b4cd8674-298f-4f54-ba1b-4af27b94511b",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-apigenin"
+      },
+      {
+        "id": "op_9ea8eb94-ca5a-4093-b16c-a5f0435457ad",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-apigenin",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_775ea98b-ee2c-4ec5-8f03-7e88a7d6ee51",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-chlorophyllin"
+      },
+      {
+        "id": "op_61cf27be-42e0-4a77-8a95-e903580bf8f8",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-chlorophyllin",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_39556900-7075-4bca-b88a-77606f04e54e",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-imagine"
+      },
+      {
+        "id": "op_ac770a98-f37c-4919-ad07-38c2c6a65f20",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-imagine",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_bc6b6e45-7c93-4d8e-86e2-2af8fa7d668d",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeClip",
+        "clipId": "label-cta"
+      },
+      {
+        "id": "op_2919258b-cc03-4996-b077-6a15a4291b29",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "setTransform",
+        "clipId": "label-cta",
+        "transform": {
+          "y": 0
+        }
+      },
+      {
+        "id": "op_babf55a5-b738-4722-afcb-9feecd0503fe",
+        "at": "2026-09-09T01:26:44.943Z",
+        "author": {
+          "kind": "agent",
+          "id": "codex-mot-vid-013"
+        },
+        "type": "removeMarker",
+        "markerId": "qa-S22"
+      }
+    ],
+    "snapshotEvery": 50,
+    "snapshots": []
+  }
+}

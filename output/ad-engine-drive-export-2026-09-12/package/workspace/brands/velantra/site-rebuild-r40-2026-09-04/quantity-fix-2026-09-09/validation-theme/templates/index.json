@@ -1,0 +1,278 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "hero-film",
+      "settings": {
+        "link": "/products/velantra-vivienne"
+      }
+    },
+    "philosophy": {
+      "type": "editorial-text",
+      "settings": {
+        "eyebrow": "Philosophy",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "text": "<p>Some pieces speak for themselves.</p><p>In the curve of a handle, the warmth of leather, and the way a bag becomes part of your day.<br>Velantra is a collection for that feeling. Beautiful to carry. Entirely your own.</p>"
+      }
+    },
+    "triptych": {
+      "type": "featured-model-collection",
+      "settings": {
+        "heading": "THE SIGNATURE COLLECTION",
+        "eyebrow": "",
+        "show_collection_link": true,
+        "show_prices": true,
+        "ratio": "4/5",
+        "columns": 3,
+        "gap": 12,
+        "mobile_layout": "scroll",
+        "side_padding": 6,
+        "vertical_padding": 0
+      },
+      "blocks": {
+        "vivienne": {
+          "type": "product",
+          "settings": {
+            "product": "velantra-vivienne",
+            "variant_id": "44462686830657",
+            "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/r40-41079930257473-white-studio.webp?v=1788564534",
+            "title": "VIVIENNE",
+            "alt_text": "Model carrying the Vivienne in Chocolate",
+            "image_fit": "cover",
+            "image_position": "50% 50%"
+          }
+        },
+        "weekender": {
+          "type": "product",
+          "settings": {
+            "product": "velantra-weekender",
+            "variant_id": "44355431596097",
+            "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/r40-40845616087105-white-studio.webp?v=1788564974",
+            "title": "WEEKENDER",
+            "alt_text": "Model carrying the Weekender in Black",
+            "image_fit": "contain",
+            "image_position": "50% 50%"
+          }
+        },
+        "meridian": {
+          "type": "product",
+          "settings": {
+            "product": "velantra-margot-tote",
+            "variant_id": "42492796174401",
+            "image_url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/r40-40589715144769-white-studio.webp?v=1788564209",
+            "title": "MERIDIAN",
+            "alt_text": "Model carrying the Meridian in Brown",
+            "image_fit": "cover",
+            "image_position": "50% 50%"
+          }
+        }
+      },
+      "block_order": [
+        "vivienne",
+        "weekender",
+        "meridian"
+      ]
+    },
+    "atelier": {
+      "type": "editorial-text",
+      "settings": {
+        "eyebrow": "Atelier",
+        "heading": "SHAPED WITH CARE",
+        "text": "<p>The Vivienne is a study in texture and proportion.</p><p>Soft leather, a braided edge, and warm gold fittings come together in a silhouette that feels entirely its own.</p><p>Our bestselling top handle bag, with a quiet presence that carries through the day.</p>",
+        "label": "Discover The Vivienne",
+        "link": "/products/velantra-vivienne"
+      }
+    },
+    "detail": {
+      "type": "value-breakdown",
+      "settings": {
+        "default_asset": "r40-41079930191937-white-studio.webp",
+        "image_description": "The Chocolate Vivienne in a white studio, showing its soft body, braided edge and warm gold fittings",
+        "image_fit": "cover",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "copy": "<p>The character is in the leather, the shape and the details you carry every day.</p>",
+        "table_caption": "The Vivienne: materials and design details",
+        "detail_heading": "Detail",
+        "product_heading": "The Vivienne",
+        "purpose_heading": "The purpose",
+        "sticky_content": true
+      },
+      "blocks": {
+        "detail_1": {
+          "type": "detail",
+          "settings": {
+            "detail": "Leather",
+            "product_detail": "Visible natural grain",
+            "purpose": "Tactile character"
+          }
+        },
+        "detail_2": {
+          "type": "detail",
+          "settings": {
+            "detail": "Trim",
+            "product_detail": "Smoother contrast finish",
+            "purpose": "Definition"
+          }
+        },
+        "detail_3": {
+          "type": "detail",
+          "settings": {
+            "detail": "Silhouette",
+            "product_detail": "Soft, slouching body",
+            "purpose": "An easy shape"
+          }
+        },
+        "detail_4": {
+          "type": "detail",
+          "settings": {
+            "detail": "Upper edge",
+            "product_detail": "Braided detail",
+            "purpose": "A distinctive finish"
+          }
+        },
+        "detail_5": {
+          "type": "detail",
+          "settings": {
+            "detail": "Hardware",
+            "product_detail": "Warm gold tone",
+            "purpose": "A quiet accent"
+          }
+        },
+        "detail_6": {
+          "type": "detail",
+          "settings": {
+            "detail": "Identity",
+            "product_detail": "Logo-free exterior",
+            "purpose": "The bag comes first"
+          }
+        }
+      },
+      "block_order": [
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "detail_4",
+        "detail_5",
+        "detail_6"
+      ]
+    },
+    "closing": {
+      "type": "editorial-text",
+      "settings": {
+        "eyebrow": "The edit",
+        "heading": "WELL CARRIED",
+        "text": "<p>For the everyday, and the days you remember.</p>",
+        "label": "Explore the collection",
+        "link": "/collections/handbags"
+      }
+    },
+    "wide": {
+      "type": "image-gallery",
+      "settings": {
+        "columns": 1,
+        "ratio": "21/9",
+        "gap": 0,
+        "padding": 0
+      },
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "default_asset": "vivienne-studio-wide.jpg",
+            "alt": "The Vivienne in the studio",
+            "link": "/products/velantra-vivienne"
+          }
+        }
+      },
+      "block_order": [
+        "image"
+      ],
+      "disabled": true
+    },
+    "macro": {
+      "type": "detail-film",
+      "settings": {
+        "description": "A multi-angle detail film of the Chocolate Vivienne: leather grain, braided edge, rolled handles, warm gold fittings and soft silhouette",
+        "video": "shopify://files/videos/velantra-vivienne-detail-surface-clean-2026-09-06-v2.mp4",
+        "poster": "shopify://shop_images/velantra-vivienne-detail-surface-clean-poster-2026-09-06.jpg",
+        "vertical_position": 65,
+        "mobile_height": 340
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "settings": {
+        "eyebrow": "Craftsmanship",
+        "heading": "VALUE IN THE MAKING",
+        "text": "<p>The character of the Vivienne begins in the leather.</p><p>From the first cut to the final detail, explore the elements that give the bag its shape, texture and quiet presence.</p>"
+      },
+      "blocks": {
+        "selection": {
+          "type": "stage",
+          "settings": {
+            "day": "Day 1",
+            "heading": "Leather Selection & Cutting",
+            "default_asset": "vivienne-craft-leather.jpg",
+            "alt": "Close-up of the Vivienne’s Chocolate leather grain and contrasting corner trim.",
+            "text": "<p>The leather sets the character of the bag. On the Chocolate Vivienne, a richly grained body meets smoother, warmer trim. Selection and cutting establish that balance: the movement of the leather, the shape of each panel, and the soft silhouette that follows.</p>"
+          }
+        },
+        "stitching": {
+          "type": "stage",
+          "settings": {
+            "day": "Day 4–8",
+            "heading": "Thread Selection & Stitching",
+            "default_asset": "vivienne-craft-stitching.jpg",
+            "alt": "Close-up of the Vivienne’s braided upper edge and tonal stitching.",
+            "text": "<p>Thread and stitching bring the separate elements together. Follow the seams across the front band and the braided detail along the upper edge. Their rhythm gives the Vivienne a distinctive outline, adding definition while leaving room for the leather’s natural folds.</p>"
+          }
+        },
+        "finishing": {
+          "type": "stage",
+          "settings": {
+            "day": "Finishing",
+            "heading": "Edge Paint & Finishing",
+            "default_asset": "vivienne-craft-finishing.jpg",
+            "alt": "Detail of the Vivienne’s finished handle attachment, tonal stitching and gold rivets.",
+            "text": "<p>Look closely at the edges of the handles, trim and corners. The finish traces each curve and gives the darker body and warmer accents their definition. These small details are part of the bag’s character, visible wherever one surface meets another.</p>"
+          }
+        },
+        "inspection": {
+          "type": "stage",
+          "settings": {
+            "day": "Final review",
+            "heading": "Final Quality Inspection",
+            "default_asset": "vivienne-craft-inspection.jpg",
+            "alt": "Close-up of the Vivienne’s horizontal gold center fitting and contrasting leather straps.",
+            "text": "<p>The final review brings the details back into view: the silhouette, the alignment of the front band, the braided edge and the warm gold fittings. Each element should sit naturally with the next, so the complete bag feels balanced and considered.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "selection",
+        "stitching",
+        "finishing",
+        "inspection"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "philosophy",
+    "wide",
+    "atelier",
+    "triptych",
+    "macro",
+    "craftsmanship",
+    "detail",
+    "closing"
+  ]
+}

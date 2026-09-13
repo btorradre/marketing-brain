@@ -1,0 +1,73 @@
+{
+  "shot": "S19",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A gentle lateral camera move creates real parallax across the three existing ingredient dishes; the celery, fiber and green liquid stay in place. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S19.png",
+  "reference_sha256": "f4d68d05ca3a391c93af68497a00a63d92ff330b121b018949cf55a66d85bc5f",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdkYk9nYXBHOUl2ZlF6N0lQdzhmaHlROBIXZGJPZ2FwRzlJdmZRejdJUHc4Zmh5UTg",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S19.mp4",
+  "sha256": "880730e7f5b1fd0216842edcff06160c11a0764249c01b49a48cdaff746b7b3f",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59887,
+    "total_input_tokens": 1158,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 58
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58431,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 298,
+    "raw_prompt_token": 31210,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1851
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 517
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 298
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

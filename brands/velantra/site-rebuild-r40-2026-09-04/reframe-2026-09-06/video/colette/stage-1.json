@@ -1,0 +1,29 @@
+{
+  "family": "colette",
+  "stage": 1,
+  "model": "gemini-omni-1.1-flash",
+  "references": [
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/colette/references/studio-first-frame.png",
+      "sha256": "2195b0588eae0715d788f028daf78529f8663239c566883c1dff7fd106963c72"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-references/colette-canonical-caramel-v3.png",
+      "sha256": "c70c09f0670b8966d5552c67dea6225e6fc2849db74969e692c19e60152cee34"
+    }
+  ],
+  "prompt": "[# Sources <FIRST_FRAME>@Image1] [# References <IMAGE_REF_0>@Image2] Photograph the exact bag in these references as a silent luxury product detail film. Caramel Colette current v3 front. Pale oatmeal felt body, two handles with felt lower legs and smooth caramel leather-wrapped upper arcs, two wide vertical felt front strips, narrow caramel front belt threaded through the strips, two independent curved dangling belt ends each with round gold-tone end cap. Keep those ends separate, never connecting a V. No new clasp, zipper, wraparound closure, lining or long strap. Image1 controls the charcoal studio, gray tabletop, camera view and lighting. Image2 controls product construction and texture. Preserve natural material texture at ordinary photographic scale. The body keeps its original fine grain, tight canvas weave, short wool fibers or suede nap as applicable. Leather trim has subtle pores and real folds, never an engraved surface. Eliminate long wandering squiggles, hairline scratches, stray curly threads, etched contour networks, writhing patterns and temporal crawling. Do not replace authentic grain, seams or stitches with blur. Broad soft light, gentle fill, modest contrast, no harsh raking light, no sharpening halos. All textures stay attached to the surface through motion. No extreme microscope magnification. The actual bag remains entirely still. Only a minute physical camera move within each shot. No rotation to hidden views, new hardware, hands, operations, interiors, text, audio or logos. Whole-product views retain every handle and corner inside the central 46 percent of frame width and 76 percent of frame height. Generate exactly 9 seconds. Four shots with clean hard cuts: 0\u20132.5s complete bag matching Image1; 2.5\u20134.7s moderate close-up of pale oatmeal matte felt front body, preserving short fuzzy fibers and delicate heathering, never knit or leather; 4.7\u20136.8s moderate close-up of smooth Caramel leather around the upper handle arc with the existing felt-to-leather boundary visible at one edge; retain felt lower leg with roots and hardware outside frame; 6.8\u20139s complete bag matching Image1. Each close-up retains photographic fine material detail, without inventing macro scratches.",
+  "status": "rejected",
+  "physical_scale": "unverified; reference-relative fidelity only",
+  "interaction_id": "v1_Chd5dXFkYXVxa0tKaWMtOFlQcXZLVjhRSRIXeXVxZGF1cWtLSmljLThZUHF2S1Y4UUk",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/reframe-2026-09-06/video/colette/stage-1.mp4",
+  "sha256": "4e081f513c38c6301e5ad376a1de5fc84b2f49a7c7c51104ff3d69f97029422e",
+  "duration": "9.000000",
+  "frames": "216",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "processing": "Original provider bytes; no edit, retime, transcode or assembly",
+  "visual_review": "Long dark curly strands on wool at 3.8s. Stage 2 inherits the rejected first segment."
+}

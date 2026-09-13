@@ -1,0 +1,25 @@
+{
+  "checked": "2026-09-04",
+  "official_sources": [
+    {
+      "url": "https://ai.google.dev/api/interactions-api",
+      "evidence": "VideoResponseFormat exposes duration:string, aspect_ratio:16:9|9:16, resolution:720p and delivery:inline."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "evidence": "June30 Omni release describes generation of3\u201310second videos."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/omni",
+      "evidence": "Omni guide documents direct Interactions video output in model_output content, native portrait/landscape and prompt audio control."
+    }
+  ],
+  "requested_response_format": {
+    "type": "video",
+    "aspect_ratio": "16:9 or9:16",
+    "resolution": "720p",
+    "duration": "3s",
+    "delivery": "inline"
+  },
+  "processing_allowed": "Base64 decode/download and read-only ffprobe QA; first-frame JPEG extraction for poster. No edits or changes to MP4 bytes."
+}

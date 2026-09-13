@@ -1,0 +1,28 @@
+- generic [active] [ref=f100e1]:
+  - generic [ref=f100e5]:
+    - navigation "primary" [ref=f100e12]:
+      - button "Collapse" [ref=f100e46] [cursor=pointer]
+      - list [ref=f100e51]:
+        - listitem [ref=f100e52] [cursor=pointer]
+        - listitem [ref=f100e69] [cursor=pointer]
+        - listitem [ref=f100e77] [cursor=pointer]
+        - listitem [ref=f100e84] [cursor=pointer]
+        - listitem [ref=f100e93] [cursor=pointer]
+        - listitem [ref=f100e105] [cursor=pointer]
+        - listitem [ref=f100e117] [cursor=pointer]
+        - listitem [ref=f100e129] [cursor=pointer]
+        - listitem [ref=f100e136] [cursor=pointer]
+        - listitem [ref=f100e137] [cursor=pointer]
+    - generic [ref=f100e152]:
+      - main [ref=f100e153]:
+        - generic [ref=f100e154]
+      - contentinfo [ref=f100e371]:
+        - heading "Footer navigation" [level=2] [ref=f100e372]
+        - generic [ref=f100e373]: © 2015 - 2026 Upwork® Global LLC
+        - list [ref=f100e374]
+  - textbox [ref=f100e383]
+  - generic [ref=f100e1216]:
+    - button "Close the tooltip" [ref=f100e1217] [cursor=pointer]
+    - generic [ref=f100e1223]:
+      - heading "Get your top picks to apply" [level=2] [ref=f100e1224]
+      - paragraph [ref=f100e1225]: It's now much easier to reach out to freelancers you're interested in.

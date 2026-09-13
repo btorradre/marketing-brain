@@ -1,0 +1,1 @@
+local r=fu:GetResolve(); local p=r:GetProjectManager():GetCurrentProject();print('V7_LIVE_CHECK',r:GetVersionString(),p:GetName(),'RENDERING',p:IsRenderingInProgress());print('AUDIO_FORMATS');for k,v in pairs(p:GetRenderFormats()) do print(k,v) end

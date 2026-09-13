@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local p=r:GetProjectManager():GetCurrentProject();print('RENDERING',p:IsRenderingInProgress());dump(p:GetRenderJobStatus('01346a64-5e72-4f64-9ee5-88cc5522ac80'))

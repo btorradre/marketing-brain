@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0",
+  "product": "Vivienne",
+  "brand": "Velantra",
+  "verified_at": "2026-09-04",
+  "reviewer": "independent-vivienne-truth-agent",
+  "scope": "Evidence ledger for calibration, not manufacturing certification or publication approval.",
+  "sources": [
+    {
+      "id": "truth",
+      "path": "brands/velantra/products/vivienne/PRODUCT-TRUTH.md",
+      "sha256": "be8939d54733c031b44b152beaefb2cb1e336b0bba45e4aa5352453c256b98f7",
+      "kind": "local product specification with dated owner decisions",
+      "limitation": "Internally contradictory and contains claims inferred from third-party photography; not a supplier specification."
+    },
+    {
+      "id": "latest_skill",
+      "path": "/Users/brooksorradre2/.claude/skills/velantra-vivienne/SKILL.md",
+      "excerpt": "The identity, material and scene blocks in this skill are STALE",
+      "locator": "READ FIRST, 2026-09-03",
+      "interpretation": "Use correction header, product truth and latest owner-selected master; do not paste stale verbatim blocks."
+    },
+    {
+      "id": "master",
+      "path": "brands/velantra/products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png",
+      "sha256": "2dcbee2ac61a72b87df14e1f8afb179ff070dc00005b25854987d8d03e33f325",
+      "kind": "owner-approved visual master",
+      "inspection": "Viewed directly at 1600px tool resolution. Dark chocolate body, warmer brown straps, upright rolled handles, warm gold front hardware, inward strap tips and no visible brand logo. Visual reference only; cannot establish tanning process or real product performance."
+    },
+    {
+      "id": "master_readme",
+      "path": "brands/velantra/products/vivienne/product-images/master/README.md",
+      "locator": "Brooks, 2026-09-03",
+      "excerpt": "is the ONE master seed for every Vivienne generation"
+    },
+    {
+      "id": "pdp",
+      "url": "https://velantrafashion.com/products/velantra-vivienne",
+      "kind": "live brand storefront",
+      "accessed": "2026-09-04",
+      "observations": {
+        "price_usd": 149.99,
+        "compare_at_usd": 199.99,
+        "colorways": [
+          "Chocolate",
+          "Cognac",
+          "Black",
+          "Olive"
+        ],
+        "fulfillment": "Pre-order; expected October shipping"
+      },
+      "excerpt": "Expected to ship October.",
+      "limitation": "Confirms what the storefront advertises, not independent proof of materials, reviews, scarcity or durability."
+    },
+    {
+      "id": "broll_log",
+      "path": "brands/velantra/products/vivienne/broll/SHOTLIST.md",
+      "excerpt": "No real footage of our bag exists. The TikToks are third-party, reference-only, never ship.",
+      "locator": "Still true from v1; Animated 2026-08-23"
+    },
+    {
+      "id": "gallery_qa",
+      "path": "brands/velantra/products/vivienne/product-images/qa/QA-NOTES.md",
+      "locator": "v4, 2026-08-22",
+      "kind": "historical generated-image QA and owner hero approval"
+    }
+  ],
+  "claims": [
+    {
+      "id": "identity",
+      "claim": "The Vivienne Top Handle Bag from Velantra",
+      "status": "supported",
+      "sources": [
+        "truth",
+        "pdp"
+      ]
+    },
+    {
+      "id": "price",
+      "claim": "$149.99",
+      "status": "live_verified",
+      "sources": [
+        "pdp"
+      ],
+      "recheck": "On publication day; show pre-order status alongside purchase CTA."
+    },
+    {
+      "id": "fulfillment",
+      "claim": "Pre-order, expected to ship October",
+      "status": "live_verified",
+      "sources": [
+        "truth",
+        "pdp"
+      ],
+      "hard_constraint": "Do not say ships now, in stock, immediate delivery or guarantee an exact arrival date."
+    },
+    {
+      "id": "visible_features",
+      "claim": "Large top-handle silhouette, two rolled handles, contrasting brown straps on Chocolate, brass-tone closure, braided trim, no visible logo",
+      "status": "visually_supported",
+      "sources": [
+        "master",
+        "truth"
+      ],
+      "limitation": "Appearance is supported; do not infer material composition or functional operation from a generated still."
+    },
+    {
+      "id": "strap",
+      "claim": "Detachable shoulder strap; top handles for hand or elbow carry",
+      "status": "brand_specified",
+      "sources": [
+        "truth",
+        "pdp"
+      ],
+      "limitation": "Master does not show the long strap. Shoulder carry must use an approved long-strap reference, never lengthen the short handles."
+    },
+    {
+      "id": "material",
+      "claim": "Vegetable-tanned leather throughout",
+      "status": "brand_asserted_not_independently_substantiated",
+      "sources": [
+        "truth",
+        "pdp"
+      ],
+      "limitation": "Truth admits no supplier sheet; tanning method and all-panel composition cannot be established from photographs. Omit in first calibration copy unless relying explicitly on brand specification, and never present as independent tested proof."
+    },
+    {
+      "id": "texture_structure",
+      "claim": "Soft/slouchy, matte-to-satin grain body with smoother trim",
+      "status": "visual_design_spec",
+      "sources": [
+        "truth",
+        "master"
+      ],
+      "limitation": "Matches current written specification and master appearance. Not independently tested softness or long-term behavior. Older skill instructions for rigid high-gloss structure are explicitly stale."
+    },
+    {
+      "id": "dimensions",
+      "claim": "38 x 27 x 20 cm",
+      "status": "owner_approved_estimates_not_measured",
+      "sources": [
+        "truth"
+      ],
+      "excerpt": "THESE ARE APPROVED, NOT MEASURED.",
+      "hard_constraint": "No laptop size, capacity, packing volume or fits-everything assertion; use only as approximate design scale if needed."
+    },
+    {
+      "id": "interior",
+      "claim": "Lining, pocket configuration, internal zipper and organization",
+      "status": "unknown",
+      "sources": [
+        "truth"
+      ],
+      "hard_constraint": "No generated interior, packing demonstration or specific pocket claim."
+    }
+  ],
+  "precedence_and_conflicts": [
+    {
+      "conflict": "Generic older Birkin-name bans versus current user brief",
+      "resolution": "Current user explicitly requests Birkin-dupe angle for Vivienne. Allow this angle in copy review; do not fail solely for Birkin wording. Do not claim affiliation, exact equivalence or identical craftsmanship."
+    },
+    {
+      "conflict": "Skill stale structured/high-gloss/all-dimensions-unconfirmed blocks versus its correction header and truth",
+      "resolution": "Correction header delegates to current truth and master. Old blocks are excluded from prompt compilation."
+    },
+    {
+      "conflict": "Truth initially calls TikTok supreme, but latest owner choice appoints own Sept 3 master and replaces source hardware",
+      "resolution": "Use latest own master for visible design. TikTok supports source-product understanding only, never ours or publishable material."
+    },
+    {
+      "conflict": "Truth hardware paragraph says strap tails fall at side edges; dated Sept 3 correction says inward",
+      "resolution": "Sept 3 rule and actual master govern: inward tails, upright handles."
+    },
+    {
+      "conflict": "PDP contains one-finish language despite two-texture truth; verified-buyer quote despite pre-order first run; generic delivery timing beside October pre-order",
+      "resolution": "Do not treat inherited storefront prose as independent evidence. Use expected October, skip testimonial and material-performance claims."
+    },
+    {
+      "conflict": "Gallery has Black/Olive visuals while truth says strap treatment unconfirmed",
+      "resolution": "Use Chocolate for first calibration; other color manufacturing details remain unresolved."
+    }
+  ],
+  "hard_failures": [
+    "Wrong product or Delphine carryover.",
+    "Invented personal ownership, testing duration, compliments, purchase, sales counts, review ratings, scarcity deadlines or customer testimonial.",
+    "Interior, capacity, laptop fit, leather origin, certifications, same-factory or same-quality-as-Hermes claims without evidence.",
+    "Generated B-roll presented as real product testing or footage of a delivered customer unit.",
+    "Third-party TikTok/reference footage inserted into publishable output without rights evidence.",
+    "Handle/strap/hardware drift, duplicate lock, silver hardware, logo mutation or impossible transparent cutouts.",
+    "Wrong fulfillment claim, guaranteed October arrival or unsupported urgency."
+  ],
+  "assets": {
+    "approved_master": {
+      "path": "brands/velantra/products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png",
+      "rights_status": "Own brand published gallery / owner approved for this workflow; generated asset per historical QA provenance, not physical product proof",
+      "allowed_use": "Product reference and storyboard; preserve provenance"
+    },
+    "gallery_candidates": {
+      "paths": [
+        "brands/velantra/products/vivienne/product-images/colors/Chocolate/front.png",
+        "brands/velantra/products/vivienne/product-images/colors/Chocolate/three-quarter.png",
+        "brands/velantra/products/vivienne/product-images/colors/Chocolate/lifestyle.png",
+        "brands/velantra/products/vivienne/product-images/colors/Chocolate/detail.png"
+      ],
+      "status": "Historical approved generated gallery; re-QA exact shot against latest master before reuse"
+    },
+    "generated_broll_candidates": [
+      {
+        "id": "O1",
+        "path": "brands/velantra/products/vivienne/broll/final/O1.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O2",
+        "path": "brands/velantra/products/vivienne/broll/final/O2.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O3",
+        "path": "brands/velantra/products/vivienne/broll/final/O3.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O4",
+        "path": "brands/velantra/products/vivienne/broll/final/O4.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O5",
+        "path": "brands/velantra/products/vivienne/broll/final/O5.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": 6.5,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O6",
+        "path": "brands/velantra/products/vivienne/broll/final/O6.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O7",
+        "path": "brands/velantra/products/vivienne/broll/final/O7.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O8",
+        "path": "brands/velantra/products/vivienne/broll/final/O8.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O9",
+        "path": "brands/velantra/products/vivienne/broll/final/O9.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O10",
+        "path": "brands/velantra/products/vivienne/broll/final/O10.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": 2.2,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O11",
+        "path": "brands/velantra/products/vivienne/broll/final/O11.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      },
+      {
+        "id": "O12",
+        "path": "brands/velantra/products/vivienne/broll/final/O12.mp4",
+        "provenance": "Google Omni, 2026-08-23",
+        "historical_clean_window_s": null,
+        "status": "historical pass only; all need current frame and motion QA against Sept 3 master",
+        "rights_status": "locally generated brand asset; no independent license contract inspected"
+      }
+    ],
+    "reference_only": [
+      "brands/velantra/products/vivienne/source/",
+      "brands/velantra/products/vivienne/broll/tiktok-source/"
+    ],
+    "reject_paths": [
+      "brands/velantra/products/vivienne/product-images/v1-rejected/",
+      "brands/velantra/products/vivienne/product-images/v2-rejected/"
+    ],
+    "real_owned_broll": "None identified. Local broll log expressly says no real footage of our bag exists.",
+    "edit_evidence_rule": "Assign exact asset, in/out window and supported script proposition to each beat. A beauty shot supports appearance only; it cannot prove softness, capacity, durability or lock function."
+  }
+}

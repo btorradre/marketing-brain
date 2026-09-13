@@ -1,0 +1,20 @@
+{
+  "shot": "S12",
+  "verdict": "minor_issue",
+  "observed_motion": "Subtle peristaltic pulsing of the stomach walls with gentle fluid movement initially. Starting around 1.25s, plant-fiber strands extend and reach upward into the empty stomach cavity rather than mixing gently within the chyme.",
+  "issues": [
+    {
+      "time_s": 1.5,
+      "description": "Plant fibers unnaturally sprout and wave upward into the hollow chamber like tentacles instead of remaining suspended in the food mixture.",
+      "severity": "moderate"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 1.0,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S12-4fps.jpg"
+}

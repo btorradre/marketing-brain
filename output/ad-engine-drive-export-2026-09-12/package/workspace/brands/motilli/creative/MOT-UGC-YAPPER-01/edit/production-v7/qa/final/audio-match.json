@@ -1,0 +1,60 @@
+{
+  "final_audio_matches_verified_Resolve_voice": true,
+  "window_checks": [
+    {
+      "second": 0,
+      "lag": 0.0,
+      "correlation": 0.9999997019767761
+    },
+    {
+      "second": 30,
+      "lag": 0.0,
+      "correlation": 0.9999997615814209
+    },
+    {
+      "second": 60,
+      "lag": 0.0,
+      "correlation": 0.9999997615814209
+    },
+    {
+      "second": 90,
+      "lag": 0.0,
+      "correlation": 0.9999997615814209
+    },
+    {
+      "second": 120,
+      "lag": 0.0,
+      "correlation": 0.9999995827674866
+    },
+    {
+      "second": 150,
+      "lag": 0.0,
+      "correlation": 0.9999996423721313
+    },
+    {
+      "second": 180,
+      "lag": 0.0,
+      "correlation": 0.9999995827674866
+    },
+    {
+      "second": 210,
+      "lag": 0.0,
+      "correlation": 0.9999996423721313
+    },
+    {
+      "second": 240,
+      "lag": 0.0,
+      "correlation": 0.9999995231628418
+    },
+    {
+      "second": 270,
+      "lag": 0.0,
+      "correlation": 0.9999997615814209
+    }
+  ],
+  "speech_gap_and_silence_evidence": [
+    "final-actual-speech-pacing.json",
+    "locked-voice-qa.json"
+  ],
+  "note": "A maximum 0.359s low-level span overlaps the final consonant/end of off; preserved to avoid clipping. No long quiet gaps or ending hold."
+}

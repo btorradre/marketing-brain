@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launchpad</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --surface-2: #222221;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --border: rgba(255,255,255,0.10);
+    --accent: #3987e5;      /* series 1 */
+    --violet: #9085e9;      /* series 7 */
+    --aqua: #199e70;
+    --orange: #d95926;
+    --good: #0ca30c;
+    --warning: #fab219;
+    --critical: #d03b3b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 20px 22px 60px;
+  }
+  a { color: var(--accent); }
+
+  header { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
+  header h1 { font-size: 18px; letter-spacing: 3px; margin: 0; font-weight: 700; }
+  header h1 .dot { color: var(--accent); }
+  #clock { color: var(--ink-2); font-size: 14px; }
+  #meta { color: var(--muted); font-size: 12px; margin-left: auto; display: flex; align-items: center; gap: 10px; }
+  button.refresh {
+    background: var(--surface-2); color: var(--ink); border: 1px solid var(--border);
+    border-radius: 6px; padding: 5px 12px; font: inherit; font-size: 12px; cursor: pointer;
+  }
+  button.refresh:hover { border-color: var(--accent); }
+  button.refresh[disabled] { opacity: .5; cursor: wait; }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .kpi .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+  .kpi .value { font-size: 26px; font-weight: 700; margin-top: 2px; }
+  .kpi .sub { color: var(--ink-2); font-size: 12px; margin-top: 2px; }
+
+  .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 12px; }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; min-width: 0; }
+  .panel h2 { font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-2); margin: 0 0 10px; font-weight: 600; }
+  .span6 { grid-column: span 6; } .span4 { grid-column: span 4; }
+  .span8 { grid-column: span 8; } .span12 { grid-column: span 12; }
+  @media (max-width: 1100px) { .span6,.span4,.span8 { grid-column: span 12; } }
+
+  /* store bars */
+  .barrow { display: grid; grid-template-columns: 110px 1fr 150px; align-items: center; gap: 10px; padding: 4px 0; }
+  .barrow .name { color: var(--ink-2); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bartrack { height: 16px; position: relative; }
+  .barfill { position: absolute; left: 0; top: 2px; height: 12px; background: var(--accent); border-radius: 0 4px 4px 0; min-width: 2px; }
+  .barrow .val { font-size: 13px; text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .barrow .val small { color: var(--muted); }
+  .offline { color: var(--muted); font-size: 12px; margin-top: 8px; }
+
+  /* spark bars */
+  .spark { display: flex; align-items: flex-end; gap: 6px; height: 90px; margin: 6px 0 4px; }
+  .spark .col { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 4px; height: 100%; }
+  .spark .bar { width: 100%; max-width: 46px; background: var(--violet); border-radius: 4px 4px 0 0; min-height: 2px; }
+  .spark .lbl { color: var(--muted); font-size: 10px; }
+  .spark .amt { color: var(--ink-2); font-size: 11px; font-variant-numeric: tabular-nums; }
+
+  table.mini { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  table.mini td, table.mini th { padding: 4px 6px; text-align: right; border-top: 1px solid var(--grid); font-variant-numeric: tabular-nums; }
+  table.mini td:first-child, table.mini th:first-child { text-align: left; font-variant-numeric: normal; }
+  table.mini th { color: var(--muted); font-weight: 500; border-top: none; font-size: 11px; }
+
+  /* email */
+  .acct { margin-bottom: 14px; }
+  .acct .head { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); margin-bottom: 5px; }
+  .pill { font-size: 11px; border-radius: 20px; padding: 1px 9px; border: 1px solid var(--border); }
+  .pill.unread { color: var(--accent); border-color: var(--accent); }
+  .pill.auth { color: var(--warning); border-color: var(--warning); }
+  .email { padding: 6px 8px; border-radius: 6px; display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; }
+  .email:hover { background: var(--surface-2); }
+  .email .from { color: var(--ink); font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .email .subj { grid-column: 1 / -1; color: var(--ink-2); font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .email .when { color: var(--muted); font-size: 11px; }
+  .email.unread .from::before { content: "●"; color: var(--accent); margin-right: 6px; font-size: 9px; vertical-align: 2px; }
+  .flag { color: var(--warning); font-size: 11px; margin-left: 6px; }
+  .authbox { background: var(--surface-2); border: 1px dashed var(--border); border-radius: 8px; padding: 10px 12px; font-size: 12.5px; color: var(--ink-2); }
+  .authbox code { display: block; margin-top: 6px; color: var(--warning); font-size: 12px; user-select: all; overflow-x: auto; white-space: pre; }
+
+  /* calendar */
+  .cal { display: flex; gap: 10px; padding: 5px 0; border-top: 1px solid var(--grid); font-size: 13px; }
+  .cal:first-of-type { border-top: none; }
+  .cal .time { color: var(--accent); min-width: 62px; font-variant-numeric: tabular-nums; }
+  .cal .who { color: var(--muted); font-size: 11px; margin-left: auto; }
+
+  /* agents */
+  .cats { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .cat { font-size: 12px; border: 1px solid var(--border); border-radius: 20px; padding: 3px 11px; cursor: pointer; color: var(--ink-2); background: none; font-family: inherit; }
+  .cat.active { border-color: var(--accent); color: var(--accent); }
+  input.search { width: 100%; background: var(--surface-2); border: 1px solid var(--border); color: var(--ink); border-radius: 6px; padding: 7px 10px; font: inherit; font-size: 13px; margin-bottom: 8px; }
+  .agent { padding: 6px 4px; border-top: 1px solid var(--grid); }
+  .agent .nm { font-weight: 600; font-size: 13px; }
+  .agent .nm .scope { color: var(--muted); font-weight: 400; font-size: 11px; margin-left: 6px; }
+  .agent .ds { color: var(--muted); font-size: 12px; margin-top: 1px; }
+  #agentlist { max-height: 420px; overflow-y: auto; }
+
+  .empty { color: var(--muted); font-size: 12.5px; padding: 8px 0; }
+  .err { color: var(--critical); font-size: 12.5px; }
+  .statusdot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--good); }
+  .statusdot.bad { background: var(--critical); }
+</style>
+</head>
+<body>
+<header>
+  <h1>LAUNCHPAD<span class="dot">_</span></h1>
+  <span id="clock"></span>
+  <div id="meta">
+    <span id="generated"></span>
+    <button class="refresh" id="refreshBtn" onclick="doRefresh()">Refresh</button>
+  </div>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="grid">
+  <div class="panel span6">
+    <h2>Revenue by store — this week</h2>
+    <div id="stores"></div>
+  </div>
+  <div class="panel span6">
+    <h2>AI spend — this week <span style="color:var(--muted);text-transform:none;letter-spacing:0">(Claude Code at API rates)</span></h2>
+    <div class="spark" id="aiSpark"></div>
+    <table class="mini" id="aiModels"></table>
+    <div id="aiBalances" style="margin-top:10px;color:var(--ink-2);font-size:12.5px"></div>
+  </div>
+
+  <div class="panel span8">
+    <h2>Inbox — priority mail (last 48h)</h2>
+    <div id="mail"></div>
+  </div>
+  <div class="panel span4">
+    <h2>Today</h2>
+    <div id="calendar"></div>
+    <h2 style="margin-top:16px">Meta ads (Motilli)</h2>
+    <div id="meta_ads"></div>
+  </div>
+
+  <div class="panel span12">
+    <h2>Agent fleet</h2>
+    <div class="cats" id="cats"></div>
+    <input class="search" id="agentSearch" placeholder="Search agents…" oninput="renderAgents()">
+    <div id="agentlist"></div>
+  </div>
+</div>
+
+<script>
+let DATA = null;
+let catFilter = null;
+
+const fmt$ = n => "$" + Number(n).toLocaleString("en-US", {maximumFractionDigits: n >= 1000 ? 0 : 2});
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function tick() {
+  document.getElementById("clock").textContent =
+    new Date().toLocaleString("en-US", {weekday:"short", month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});
+}
+setInterval(tick, 15000); tick();
+
+async function load() {
+  const r = await fetch("/api/data");
+  DATA = await r.json();
+  render();
+}
+
+async function doRefresh() {
+  const btn = document.getElementById("refreshBtn");
+  btn.disabled = true; btn.textContent = "Refreshing…";
+  try { await fetch("/api/refresh", {method: "POST"}); await load(); }
+  finally { btn.disabled = false; btn.textContent = "Refresh"; }
+}
+
+function sec(name) {
+  const s = DATA?.[name];
+  return s && s.ok ? s.data : null;
+}
+
+function render() {
+  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  document.getElementById("generated").textContent = gen ?
+    "updated " + gen.toLocaleTimeString("en-US", {hour:"numeric", minute:"2-digit"}) : "";
+
+  renderKPIs(); renderStores(); renderAI(); renderMail(); renderCalendar(); renderMeta(); renderCats(); renderAgents();
+}
+
+function renderKPIs() {
+  const sh = sec("shopify"), ai = sec("ai_costs"), ag = sec("agents"), gm = sec("gmail"), ma = sec("meta_ads");
+  const unread = gm ? gm.accounts.filter(a => a.status === "ok").reduce((n,a) => n + (a.unread||0), 0) : null;
+  const needsAuth = gm ? gm.accounts.filter(a => a.status === "needs_auth").length : 0;
+  const kpis = [
+    ["Revenue today", sh ? fmt$(sh.totals.today_revenue) : "—", sh ? sh.totals.today_orders + " orders" : ""],
+    ["Revenue this week", sh ? fmt$(sh.totals.week_revenue) : "—", sh ? sh.totals.week_orders + " orders · since Sun" : ""],
+    ["AI spend this week", ai?.claude_code ? fmt$(ai.claude_code.total_cost) : "—", "Claude Code, API-rate value"],
+    ["Meta spend this week", ma && !ma.error ? fmt$(ma.week.spend) : "—", ma && !ma.error ? fmt$(ma.today.spend) + " today" : "token issue"],
+    ["Unread inbox", unread !== null && !needsAuth ? unread : (unread ?? "—"), needsAuth ? needsAuth + " account(s) need auth" : "across connected accounts"],
+    ["Agents built", ag ? ag.total : "—", "skills & pipelines"],
+  ];
+  document.getElementById("kpis").innerHTML = kpis.map(([l,v,s]) =>
+    `<div class="kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="sub">${esc(s)}</div></div>`).join("");
+}
+
+function renderStores() {
+  const sh = sec("shopify");
+  const el = document.getElementById("stores");
+  if (!sh) { el.innerHTML = `<div class="err">Shopify data unavailable</div>`; return; }
+  const live = sh.stores.filter(s => s.week_revenue > 0 || s.today_revenue > 0);
+  const zero = sh.stores.filter(s => !live.includes(s));
+  const max = Math.max(...live.map(s => s.week_revenue), 1);
+  el.innerHTML = live.map(s => `
+    <div class="barrow" title="${esc(s.brand)}: ${fmt$(s.week_revenue)} this week (${s.week_orders} orders), ${fmt$(s.today_revenue)} today">
+      <div class="name">${esc(s.brand)}</div>
+      <div class="bartrack"><div class="barfill" style="width:${(s.week_revenue/max*100).toFixed(1)}%"></div></div>
+      <div class="val">${fmt$(s.week_revenue)} <small>· ${fmt$(s.today_revenue)} today</small></div>
+    </div>`).join("")
+    + (zero.length ? `<div class="offline">No sales: ${zero.map(s=>esc(s.brand)).join(", ")}</div>` : "")
+    + (sh.errors?.length ? `<div class="offline">Offline / auth failed: ${sh.errors.map(e=>esc(e.brand)).join(", ")}</div>` : "")
+    + `<div class="offline">${esc(sh.note)}</div>`;
+}
+
+function renderAI() {
+  const ai = sec("ai_costs");
+  if (!ai) return;
+  const cc = ai.claude_code || {};
+  const days = Object.entries(cc.by_day || {});
+  const max = Math.max(...days.map(([,v]) => v), 1);
+  document.getElementById("aiSpark").innerHTML = days.map(([d,v]) => `
+    <div class="col" title="${d}: ${fmt$(v)}">
+      <div class="amt">${fmt$(v)}</div>
+      <div class="bar" style="height:${Math.max(v/max*62, 2)}px"></div>
+      <div class="lbl">${new Date(d+"T12:00").toLocaleDateString("en-US",{weekday:"short"})}</div>
+    </div>`).join("");
+
+  const models = Object.entries(cc.by_model || {});
+  document.getElementById("aiModels").innerHTML =
+    `<tr><th>Model</th><th>Calls</th><th>Out tokens</th><th>Est. cost</th></tr>` +
+    models.map(([m,v]) => `<tr><td>${esc(m)}</td><td>${v.calls.toLocaleString()}</td><td>${(v.output/1000).toFixed(0)}k</td><td>${fmt$(v.cost)}</td></tr>`).join("");
+
+  const kie = ai.kie || {}, el11 = ai.elevenlabs || {};
+  const parts = [];
+  if (kie.credits != null) parts.push(`kie.ai balance: <b>${Number(kie.credits).toLocaleString()} cr</b> (~${fmt$(kie.usd_value)}, auto top-up on)`);
+  if (el11.characters_used != null) parts.push(`ElevenLabs (${esc(el11.tier)}): <b>${(el11.characters_used/1000).toFixed(0)}k / ${(el11.characters_limit/1000).toFixed(0)}k</b> chars this cycle`);
+  document.getElementById("aiBalances").innerHTML = parts.join(" &nbsp;·&nbsp; ");
+}
+
+function renderMail() {
+  const gm = sec("gmail");
+  const el = document.getElementById("mail");
+  if (!gm) { el.innerHTML = `<div class="err">Gmail data unavailable</div>`; return; }
+  el.innerHTML = gm.accounts.map(a => {
+    let body;
+    if (a.status === "needs_auth") {
+      body = `<div class="authbox">One-time sign-in needed to connect this inbox. In a terminal:
+        <code>cd "$HOME/Documents/marketing brain/_engine/launchpad" && python3 gmail_auth.py ${a.key}</code></div>`;
+    } else if (a.status === "error") {
+      body = `<div class="err">${esc(a.error)}</div>`;
+    } else if (!a.emails?.length) {
+      body = `<div class="empty">Nothing in the last 48h.</div>`;
+    } else {
+      body = a.emails.slice(0, 8).map(e => {
+        const from = esc((e.from || "").replace(/<.*$/, "").replace(/"/g, "").trim());
+        const when = e.ts ? new Date(e.ts).toLocaleString("en-US",{weekday:"short",hour:"numeric",minute:"2-digit"}) : "";
+        return `<div class="email ${e.unread ? "unread" : ""}" title="${esc(e.snippet)}">
+          <div class="from">${from}${e.important ? '<span class="flag">★ important</span>' : ""}</div>
+          <div class="when">${when}</div>
+          <div class="subj">${esc(e.subject)}</div>
+        </div>`;
+      }).join("");
+    }
+    const pill = a.status === "ok"
+      ? `<span class="pill unread">${a.unread} unread</span>`
+      : `<span class="pill auth">${a.status === "needs_auth" ? "needs auth" : "error"}</span>`;
+    return `<div class="acct"><div class="head"><span class="statusdot ${a.status==="ok"?"":"bad"}"></span><b>${esc(a.email)}</b>${pill}</div>${body}</div>`;
+  }).join("");
+}
+
+function renderCalendar() {
+  const gm = sec("gmail");
+  const el = document.getElementById("calendar");
+  const evs = gm?.calendar_today || [];
+  const anyOk = gm?.accounts?.some(a => a.status === "ok");
+  if (!anyOk) { el.innerHTML = `<div class="empty">Calendar connects with Gmail auth.</div>`; return; }
+  if (!evs.length) { el.innerHTML = `<div class="empty">No events today. Clear runway.</div>`; return; }
+  el.innerHTML = evs.map(e => {
+    const t = e.all_day ? "all day" : new Date(e.start).toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});
+    return `<div class="cal"><span class="time">${t}</span><span>${esc(e.summary)}</span><span class="who">${esc((e.account||"").split("@")[0])}</span></div>`;
+  }).join("");
+}
+
+function renderMeta() {
+  const ma = sec("meta_ads");
+  const el = document.getElementById("meta_ads");
+  if (!ma || ma.error) { el.innerHTML = `<div class="empty">${esc(ma?.error || "unavailable")}</div>`; return; }
+  el.innerHTML = `<table class="mini">
+    <tr><th></th><th>Spend</th><th>Clicks</th><th>Impr.</th></tr>
+    <tr><td>Today</td><td>${fmt$(ma.today.spend)}</td><td>${ma.today.clicks.toLocaleString()}</td><td>${ma.today.impressions.toLocaleString()}</td></tr>
+    <tr><td>Week</td><td>${fmt$(ma.week.spend)}</td><td>${ma.week.clicks.toLocaleString()}</td><td>${ma.week.impressions.toLocaleString()}</td></tr>
+  </table>`;
+}
+
+function renderCats() {
+  const ag = sec("agents");
+  if (!ag) return;
+  const cats = Object.entries(ag.by_category);
+  document.getElementById("cats").innerHTML =
+    `<button class="cat ${catFilter===null?"active":""}" onclick="setCat(null)">All (${ag.total})</button>` +
+    cats.map(([c,n]) => `<button class="cat ${catFilter===c?"active":""}" onclick="setCat('${esc(c)}')">${esc(c)} (${n})</button>`).join("");
+}
+
+function setCat(c) { catFilter = c; renderCats(); renderAgents(); }
+
+function renderAgents() {
+  const ag = sec("agents");
+  const el = document.getElementById("agentlist");
+  if (!ag) { el.innerHTML = `<div class="err">Agent data unavailable</div>`; return; }
+  const q = (document.getElementById("agentSearch").value || "").toLowerCase();
+  const rows = ag.skills.filter(s =>
+    (!catFilter || s.category === catFilter) &&
+    (!q || s.name.toLowerCase().includes(q) || s.description.toLowerCase().includes(q)));
+  el.innerHTML = rows.map(s => `
+    <div class="agent">
+      <div class="nm">${esc(s.name)}<span class="scope">${s.scope} · ${esc(s.category)}</span></div>
+      <div class="ds">${esc(s.description)}</div>
+    </div>`).join("") || `<div class="empty">No matches.</div>`;
+}
+
+load();
+setInterval(load, 5 * 60 * 1000); // re-pull every 5 min (server auto-refreshes in background)
+</script>
+</body>
+</html>

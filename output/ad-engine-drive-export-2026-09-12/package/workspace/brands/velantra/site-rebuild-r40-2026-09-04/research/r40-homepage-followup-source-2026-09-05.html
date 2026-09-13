@@ -1,0 +1,2192 @@
+<!DOCTYPE html><html lang="en"><head>
+    
+    <style data-shopify="">
+  /* Native /policies/ pages (Settings -> Policies) typeset to the brand system */
+  .shopify-policy__container {
+    max-width: 44rem !important;
+    margin: 0 auto;
+    padding: 48px 20px 96px;
+  }
+  .shopify-policy__title {
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid var(--site-color-line);
+  }
+  .shopify-policy__title h1 {
+    font-family: var(--site-font-serif);
+    font-size: clamp(22px, 2.2vw, 36px);
+    font-weight: 400;
+    line-height: 1.25;
+    color: var(--site-color-text);
+    margin: 0;
+  }
+  .shopify-policy__body {
+    font-family: var(--site-font-sans);
+    font-size: clamp(11px, 0.188vw + 10.3px, 13px);
+    line-height: 1.75;
+    color: rgba(42, 42, 42, 0.8);
+  }
+  .shopify-policy__body h2 {
+    font-family: var(--site-font-serif);
+    font-size: clamp(17px, 0.751vw + 14.18px, 25px);
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--site-color-text);
+    margin: 56px 0 20px;
+  }
+  .shopify-policy__body h3 {
+    font-family: var(--site-font-serif);
+    font-size: clamp(14px, 0.376vw + 12.59px, 18px);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--site-color-text);
+    margin: 36px 0 12px;
+  }
+  .shopify-policy__body p { margin: 0 0 16px; }
+  .shopify-policy__body ul, .shopify-policy__body ol { margin: 0 0 20px; padding-left: 20px; }
+  .shopify-policy__body li { margin-bottom: 10px; }
+  .shopify-policy__body strong { font-weight: 500; color: var(--site-color-text); }
+  .shopify-policy__body a { color: var(--site-color-text); text-decoration: none; border-bottom: 1px solid rgba(42, 42, 42, 0.3); }
+  @media (min-width: 768px) {
+    .shopify-policy__container { padding: 64px 32px 128px; }
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--site-color-line); }
+  /* kill the mobile tap-flash grey box on every tappable element (buttons/links already have their
+     own :active / :hover feedback); inherited, so setting it on the root covers the whole site */
+  html { -webkit-tap-highlight-color: transparent; }
+
+  /* a11y utilities: skip-link lives off-screen until keyboard focus (never visible to mouse/touch);
+     .visually-hidden = present for screen readers/SEO, zero pixels on screen */
+  .skip-link {
+    position: absolute;
+    top: -100px;
+    left: 12px;
+    z-index: 300;
+    padding: 12px 20px;
+    font-family: var(--site-font-sans);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--site-color-bg);
+    background: var(--site-color-text);
+    text-decoration: none;
+  }
+  .skip-link:focus-visible { top: 12px; }
+  .visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* ---- global input hygiene (sitewide, covers every current & future field) ---- */
+  /* caret in brand ink, not the OS accent blue */
+  input, textarea { caret-color: var(--site-color-text); }
+  /* kill the blue-ish autofill wash Chrome/Safari paint into filled fields */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px var(--site-color-bg) inset;
+    -webkit-text-fill-color: var(--site-color-text);
+  }
+  /* strip the UA chrome from every type=search field (rounded inset box, magnifier, clear button) */
+  input[type="search"] { -webkit-appearance: none; appearance: none; }
+  input[type="search"]::-webkit-search-decoration,
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration { -webkit-appearance: none; display: none; }
+  /* NOTE: no 16px input floor — design keeps the original small input sizes; iOS focus-zoom is
+     suppressed via maximum-scale=1 in the viewport meta instead (pinch zoom still works on iOS 10+). */
+  
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//arforti.com/cdn/fonts/montserrat/montserrat_n4.81949fa0ac9fd2021e16436151e8eaa539321637.woff2") format("woff2"),
+       url("//arforti.com/cdn/fonts/montserrat/montserrat_n4.a6c632ca7b62da89c3594789ba828388aac693fe.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//arforti.com/cdn/fonts/montserrat/montserrat_n5.07ef3781d9c78c8b93c98419da7ad4fbeebb6635.woff2") format("woff2"),
+       url("//arforti.com/cdn/fonts/montserrat/montserrat_n5.adf9b4bd8b0e4f55a0b203cdd84512667e0d5e4d.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//arforti.com/cdn/fonts/montserrat/montserrat_n7.3c434e22befd5c18a6b4afadb1e3d77c128c7939.woff2") format("woff2"),
+       url("//arforti.com/cdn/fonts/montserrat/montserrat_n7.5d9fa6e2cae713c8fb539a9876489d86207fe957.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("//arforti.com/cdn/fonts/montserrat/montserrat_i7.a0d4a463df4f146567d871890ffb3c80408e7732.woff2") format("woff2"),
+       url("//arforti.com/cdn/fonts/montserrat/montserrat_i7.f6ec9f2a0681acc6f8152c40921d2a4d2e1a2c78.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("//arforti.com/cdn/fonts/montserrat/montserrat_i4.5a4ea298b4789e064f62a29aafc18d41f09ae59b.woff2") format("woff2"),
+       url("//arforti.com/cdn/fonts/montserrat/montserrat_i4.072b5869c5e0ed5b9d2021e4c2af132e16681ad2.woff") format("woff");
+}
+
+
+  
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//arforti.com/cdn/fonts/montserrat/montserrat_n4.81949fa0ac9fd2021e16436151e8eaa539321637.woff2") format("woff2"),
+       url("//arforti.com/cdn/fonts/montserrat/montserrat_n4.a6c632ca7b62da89c3594789ba828388aac693fe.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//arforti.com/cdn/fonts/montserrat/montserrat_n5.07ef3781d9c78c8b93c98419da7ad4fbeebb6635.woff2") format("woff2"),
+       url("//arforti.com/cdn/fonts/montserrat/montserrat_n5.adf9b4bd8b0e4f55a0b203cdd84512667e0d5e4d.woff") format("woff");
+}
+
+
+  
+  @font-face {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url(//arforti.com/cdn/shop/t/28/assets/cormorant-garamond.woff2?v=182166748388722948901781619141) format("woff2");
+  }
+  @font-face {
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url(//arforti.com/cdn/shop/t/28/assets/cormorant-garamond-italic.woff2?v=157447606735893581041781619141) format("woff2");
+  }:root {
+    --font-primary--family: Montserrat, sans-serif;
+    --font-primary--style: normal;
+    --font-primary--weight: 400;
+    --page-width: 90rem;
+    --page-margin: 20px;
+    --color-background: #FDFDFD;
+    --color-foreground: #2A2A2A;
+    --style-border-radius-inputs: 4px;
+
+    
+    --sp-1: 0.25rem;
+    --sp-2: 0.5rem;
+    --sp-3: 0.75rem;
+    --sp-4: 1rem;
+    --sp-5: 1.25rem;
+    --sp-6: 1.5rem;
+    --sp-8: 2rem;
+    --sp-10: 2.5rem;
+    --sp-12: 3rem;
+    --sp-14: 3.5rem;
+    --sp-16: 4rem;
+    --sp-20: 5rem;
+    --sp-24: 6rem;
+    --sp-28: 7rem;
+    --sp-32: 8rem;
+    --sp-36: 9rem;
+    --sp-40: 10rem;
+
+    
+    --site-font-sans: var(--font-primary--family);
+    --site-font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    --site-color-bg: #FDFDFD;
+    --site-color-text: #2A2A2A;
+    --site-color-line: #d1d1cd;
+    --site-color-placeholder: #ebebeb;
+    --site-color-error: #9a3f35;
+
+    
+    --grid-margin: 12px;
+    --grid-gap: 12px;
+    --grid-cols: 6;
+    --grid-width: calc(100vw - (var(--grid-margin) * 2));
+    --grid-col: calc((var(--grid-width) - ((var(--grid-cols) - 1) * var(--grid-gap))) / var(--grid-cols));
+    --grid-unit: calc(var(--grid-col) + var(--grid-gap));
+  }
+
+  
+  @media (min-width: 1024px) {
+    :root {
+      --grid-margin: 12px;
+      --grid-gap: 12px;
+      --grid-cols: 24;
+    }
+  }
+</style>
+
+
+    
+    
+      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin="">
+
+      
+      <link href="//arforti.com/cdn/fonts/montserrat/montserrat_n4.81949fa0ac9fd2021e16436151e8eaa539321637.woff2" as="font" crossorigin="anonymous" rel="preload">
+    
+
+    
+    <link href="//arforti.com/cdn/shop/t/28/assets/critical.css?v=4758811807867743961781619141" rel="stylesheet" type="text/css" media="all">
+
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><link rel="icon" type="image/png" href="//arforti.com/cdn/shop/files/ARFORTI-logo3-_-2048.png?crop=center&amp;height=32&amp;v=1787664204&amp;width=32">
+  <link rel="icon" type="image/png" sizes="192x192" href="//arforti.com/cdn/shop/files/ARFORTI-logo3-_-2048.png?crop=center&amp;height=192&amp;v=1787664204&amp;width=192">
+  <link rel="apple-touch-icon" href="//arforti.com/cdn/shop/files/ARFORTI-logo3-_-2048.png?crop=center&amp;height=180&amp;v=1787664204&amp;width=180">
+
+<meta property="og:site_name" content="ARFORTI">
+<meta property="og:url" content="https://arforti.com/">
+<meta property="og:title" content="ARFORTI">
+<meta property="og:type" content="website">
+<meta property="og:description" content="ARFORTI"><meta property="og:image" content="https://arforti.com/cdn/shop/files/08209271_0765a5c7-9cf5-4b53-a9dd-f1060a651482.jpg?v=1787828972&amp;width=1200">
+  <meta property="og:image:secure_url" content="https://arforti.com/cdn/shop/files/08209271_0765a5c7-9cf5-4b53-a9dd-f1060a651482.jpg?v=1787828972&amp;width=1200"><script src="https://connect.facebook.net/signals/config/2851867628514338?v=2.9.393&amp;r=stable&amp;domain=arforti.com&amp;hme=118644ce20ff837cfc6c6ee441987e9e11b8b9fb8ec6bc04b15a3c516441ba07&amp;ex_m=115%2C226%2C166%2C26%2C80%2C81%2C158%2C76%2C75%2C11%2C176%2C100%2C20%2C150%2C138%2C45%2C83%2C88%2C146%2C171%2C178%2C31%2C17%2C30%2C18%2C32%2C33%2C34%2C36%2C54%2C159%2C85%2C123%2C22%2C24%2C50%2C46%2C48%2C47%2C93%2C102%2C106%2C121%2C157%2C160%2C52%2C122%2C28%2C25%2C130%2C77%2C42%2C162%2C161%2C163%2C154%2C152%2C29%2C41%2C65%2C120%2C173%2C78%2C21%2C125%2C91%2C74%2C23%2C95%2C96%2C127%2C94%2C148%2C147%2C151%2C107%2C172%2C175%2C40%2C55%2C124%2C53%2C8%2C4%2C5%2C7%2C6%2C3%2C101%2C112%2C179%2C193%2C240%2C82%2C254%2C253%2C252%2C14%2C27%2C39%2C61%2C114%2C67%2C10%2C71%2C108%2C109%2C110%2C116%2C141%2C37%2C35%2C143%2C144%2C145%2C140%2C139%2C167%2C84%2C170%2C168%2C169%2C56%2C66%2C134%2C19%2C174%2C51%2C303%2C304%2C305%2C302%2C318%2C340%2C233%2C222%2C68%2C223%2C221%2C343%2C334%2C58%2C234%2C118%2C142%2C90%2C132%2C60%2C131%2C137%2C136%2C64%2C72%2C70%2C164%2C86%2C87%2C126%2C43%2C38%2C59%2C62%2C111%2C177%2C1%2C135%2C16%2C133%2C12%2C2%2C63%2C103%2C15%2C73%2C69%2C129%2C99%2C98%2C181%2C182%2C104%2C105%2C9%2C113%2C180%2C57%2C155%2C97%2C89%2C79%2C128%2C117%2C49%2C156%2C0%2C92%2C149%2C153%2C165%2C44%2C119%2C13%2C183" async=""></script><script async="true" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="//arforti.com/cdn/s/trekkie.storefront.ce2a643c30d67cd7b828f2dda8cfc17d1d88fbb5.min.js"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ARFORTI",
+      "url": "https:\/\/arforti.com"
+,
+      "logo": "https:\/\/arforti.com\/cdn\/shop\/files\/ARFORTI-logo3-_-2048.png?v=1787664204\u0026width=512"
+}
+  </script><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ARFORTI">
+<meta name="twitter:description" content="ARFORTI">
+
+<title>
+  ARFORTI
+</title>
+
+<link rel="canonical" href="https://arforti.com/">
+
+
+
+
+    <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/62481989686/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="[REDACTED_SECRET]">
+<link rel="alternate" hreflang="x-default" href="https://arforti.com/">
+<link rel="alternate" hreflang="en" href="https://arforti.com/">
+<link rel="alternate" hreflang="de" href="https://arforti.com/de">
+<link rel="alternate" hreflang="fr" href="https://arforti.com/fr">
+<link rel="alternate" hreflang="it" href="https://arforti.com/it">
+<link rel="alternate" hreflang="es" href="https://arforti.com/es">
+<script async="async" src="/checkouts/internal/preloads.js?locale=en-US"></script>
+<link rel="preconnect" href="https://shop.app" crossorigin="anonymous">
+<script async="async" src="https://shop.app/checkouts/internal/preloads.js?locale=en-US&amp;shop_id=62481989686" crossorigin="anonymous"></script>
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":62481989686,"countryCode":"HK","currencyCode":"USD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/62481989686","merchantName":"ARFORTI","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard"],"total":{"type":"pending","label":"ARFORTI","amount":"1.00"},"shopifyPaymentsEnabled":true,"supportsSubscriptions":true}</script>
+<script id="shopify-features" type="application/json">{"accessToken":"[REDACTED_SECRET]","betas":["rich-media-storefront-analytics"],"domain":"arforti.com","predictiveSearch":true,"shopId":62481989686,"locale":"en"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "9fb657-e9.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.country = "US";
+Shopify.theme = {"name":"ARFORTI","id":153505169462,"schema_name":"Skeleton","schema_version":"0.1.0","theme_store_id":null,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "arforti.com/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";
+Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";
+Shopify.SignInWithShop = Shopify.SignInWithShop || {};
+Shopify.SignInWithShop.User = Shopify.SignInWithShop.User || {};
+Shopify.SignInWithShop.User.recognized = false;</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>
+  window.ShopifyPay = window.ShopifyPay || {};
+  window.ShopifyPay.apiHost = "shop.app\/pay";
+  window.ShopifyPay.redirectState = null;
+</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  window.Shopify.SignInWithShop = window.Shopify.SignInWithShop || {};
+  window.Shopify.SignInWithShop.assetMetrics = { sampleRate: 0.25 };
+  window.Shopify.SignInWithShop.eligible = true;
+</script>
+<script id="shop-js-analytics" type="application/json">{"pageType":"index"}</script>
+<script defer="defer" async="" type="module" src="https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js"></script>
+<script type="module">
+  await import("https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js");
+
+  window.Shopify.SignInWithShop?.initShopCartSync?.({"fedCMEnabled":true,"windoidEnabled":true});
+
+</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  if (!window.Shopify.featureAssets) window.Shopify.featureAssets = {};
+  window.Shopify.featureAssets['shop-js'] = {"shop-toast-manager":["modules/v2/loader.shop-toast-manager.en.esm.js"],"listener":["modules/v2/loader.listener.en.esm.js"],"shop-cash-offers":["modules/v2/loader.shop-cash-offers.en.esm.js"],"init-shop-user-recognition":["modules/v2/loader.init-shop-user-recognition.en.esm.js"],"init-windoid":["modules/v2/loader.init-windoid.en.esm.js"],"init-shop-email-lookup-coordinator":["modules/v2/loader.init-shop-email-lookup-coordinator.en.esm.js"],"init-fed-cm":["modules/v2/loader.init-fed-cm.en.esm.js"],"shop-button":["modules/v2/loader.shop-button.en.esm.js"],"avatar":["modules/v2/loader.avatar.en.esm.js"],"checkout-modal":["modules/v2/loader.checkout-modal.en.esm.js"],"shop-login":["modules/v2/loader.shop-login.en.esm.js"],"init-customer-accounts-sign-up":["modules/v2/loader.init-customer-accounts-sign-up.en.esm.js"],"init-shop-for-new-customer-accounts":["modules/v2/loader.init-shop-for-new-customer-accounts.en.esm.js"],"init-shop-cart-sync":["modules/v2/loader.init-shop-cart-sync.en.esm.js"],"shop-user-recognition":["modules/v2/loader.shop-user-recognition.en.esm.js"],"init-customer-accounts":["modules/v2/loader.init-customer-accounts.en.esm.js"],"pay-button":["modules/v2/loader.pay-button.en.esm.js"],"shop-cart-sync":["modules/v2/loader.shop-cart-sync.en.esm.js"],"shop-login-button":["modules/v2/loader.shop-login-button.en.esm.js"],"shop-follow-button":["modules/v2/loader.shop-follow-button.en.esm.js"],"lead-capture":["modules/v2/loader.lead-capture.en.esm.js"],"payment-terms":["modules/v2/loader.payment-terms.en.esm.js"]};
+</script>
+<script id="__st">var __st={"a":62481989686,"offset":28800,"reqid":"4076940a-0b69-4ba8-8f13-ff469edd2c5f-1788643864","pageurl":"arforti.com\/","u":"a652946117c3","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
+<script integrity="sha256-JjoPp5ZfB1sSAs5SQaol1x1GgvveM+BgmRzyDexInEQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//arforti.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js" crossorigin="anonymous"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//arforti.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="//arforti.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-bf1cdb70.js?v=20250812"></script>
+<script id="shopify-origin-trials" async="async" integrity="sha256-mqQjA+yhr1DtPsW5MhDIq3zDu+LghfjNT49r/ttG3eY=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-5059b83f.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
+<script>
+  window.Shopify = window.Shopify || {};
+  window.Shopify.MCP = window.Shopify.MCP || {};
+  window.Shopify.MCP.enabled = true;
+  window.Shopify.MCP.shop = "9fb657-e9.myshopify.com";
+  window.Shopify.MCP.mcpEndpoint = "https:\/\/arforti.com\/api\/mcp";
+  window.Shopify.MCP.tools = [{"name":"search_shop_policies_and_faqs","description":"Used to get facts about the stores policies, products, or services.\nSome examples of questions you can ask are:\n  - What is your return policy?\n  - What is your shipping policy?\n  - What is your phone number?\n  - What are your hours of operation?\"\n","inputSchema":{"$schema":"https:\/\/json-schema.org\/draft\/2020-12\/schema","type":"object","properties":{"query":{"type":"string","description":"A natural language query."},"context":{"type":"string","description":"Additional information about the request such as user demographics, mood, location, or other relevant details that could help in tailoring the response appropriately."}},"required":["query"]}}];
+</script>
+<script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("https:\/\/cdn.shopify.com\/storefront\/webmcp\/webmcp-0.1.1.js","");})();
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://arforti.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
+  function portableWalletsHideBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.add("hidden"),t.setAttribute("aria-hidden","true"),n.removeEventListener("click",e))}function portableWalletsShowBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.remove("hidden"),t.removeAttribute("aria-hidden"),n.addEventListener("click",e))}window.Shopify?.PaymentButton&&(window.Shopify.PaymentButton.hideBuyerConsent=portableWalletsHideBuyerConsent,window.Shopify.PaymentButton.showBuyerConsent=portableWalletsShowBuyerConsent);
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.cart.bootstrap">document.addEventListener("DOMContentLoaded",(function(){function t(){return document.querySelector("shopify-accelerated-checkout-cart, shopify-accelerated-checkout")}if(t())Shopify.PaymentButton.init();else{new MutationObserver((function(e,n){t()&&(Shopify.PaymentButton.init(),n.disconnect())})).observe(document.body,{childList:!0,subtree:!0})}}));
+</script>
+<link id="shopify-accelerated-checkout-styles" rel="stylesheet" media="screen" href="https://arforti.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css" crossorigin="anonymous">
+<style id="shopify-accelerated-checkout-cart">
+        #shopify-buyer-consent {
+  margin-top: 1em;
+  display: inline-block;
+  width: 100%;
+}
+
+#shopify-buyer-consent.hidden {
+  display: none;
+}
+
+#shopify-subscription-policy-button {
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+#shopify-subscription-policy-button::before {
+  box-shadow: none;
+}
+
+      </style>
+<link rel="stylesheet" media="screen" href="//arforti.com/cdn/shop/t/28/compiled_assets/styles.css?v=6892716040062753621788339939">
+<script id="sections-script" data-sections="hero,details,newsletter,header,footer,cart-drawer,concierge,cookie-banner" defer="defer" src="//arforti.com/cdn/shop/t/28/compiled_assets/scripts.js?v=20134089335404897121788339942"></script>
+<script id="snippets-script" data-snippets="empty-state,cart-action-link" defer="defer" src="//arforti.com/cdn/shop/t/28/compiled_assets/snippet-scripts.js?v=49725332812574098841783005836"></script>
+<script id="shopify-cfh-end">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+  <!-- BEGIN app block: shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8 --><!-- Start of Judge.me Core -->
+
+
+
+
+
+
+
+<link rel="dns-prefetch" href="https://cdn.judge.me">
+<link rel="dns-prefetch" href="https://cdn1.judge.me">
+<link rel="dns-prefetch" href="https://api.judge.me">
+
+<script data-cfasync="false" class="jdgm-settings-script">window.jdgmSettings={"pagination":5,"disable_web_reviews":false,"coupon_receiving_condition":"any_review","coupon_value_type":"percentage","coupon_value_percentage":10,"coupon_value_fixed_amount":0,"coupon_discount_type":"single","coupon_tier_text_enabled":false,"coupon_tier_text_percentage":10,"coupon_tier_text_fixed_amount":0,"coupon_tier_photo_enabled":false,"coupon_tier_photo_percentage":10,"coupon_tier_photo_fixed_amount":0,"coupon_tier_video_enabled":false,"coupon_tier_video_percentage":10,"coupon_tier_video_fixed_amount":0,"enable_coupons":false,"badge_no_review_text":"No reviews","badge_n_reviews_text":"{{ n }} review/reviews","hide_badge_preview_if_no_reviews":true,"badge_hide_text":false,"enforce_center_preview_badge":false,"widget_title":"CLIENT VOICES","widget_open_form_text":"Write a review","widget_close_form_text":"Cancel review","widget_refresh_page_text":"Refresh page","widget_summary_text":"Based on {{ number_of_reviews }} review/reviews","widget_no_review_text":"Share Your Experience","widget_name_field_text":"Display name","widget_verified_name_field_text":"Verified Name (public)","widget_name_placeholder_text":"Display name","widget_required_field_error_text":"This field is required.","widget_email_field_text":"Email address","widget_verified_email_field_text":"Verified Email (private, can not be edited)","widget_email_placeholder_text":"Your email address","widget_email_field_error_text":"Please enter a valid email address.","widget_rating_field_text":"Rating","widget_review_title_field_text":"Review Title","widget_review_title_placeholder_text":"Give your review a title","widget_review_body_field_text":"Review content","widget_review_body_placeholder_text":"Start writing here...","widget_pictures_field_text":"Picture/Video (optional)","widget_submit_review_text":"Submit Review","widget_submit_verified_review_text":"Submit Verified Review","widget_submit_success_msg_with_auto_publish":"Thank you! Please refresh the page in a few moments to see your review. You can remove or edit your review by logging into \u003ca href='https://judge.me/login' target='_blank' rel='nofollow noopener'\u003eJudge.me\u003c/a\u003e","widget_submit_success_msg_no_auto_publish":"Thank you! Your review will be published as soon as it is approved by the shop admin. You can remove or edit your review by logging into \u003ca href='https://judge.me/login' target='_blank' rel='nofollow noopener'\u003eJudge.me\u003c/a\u003e","widget_show_default_reviews_out_of_total_text":"Showing {{ n_reviews_shown }} out of {{ n_reviews }} reviews.","widget_show_all_link_text":"Show all","widget_show_less_link_text":"Show less","widget_author_said_text":"{{ reviewer_name }} said:","widget_days_text":"{{ n }} days ago","widget_weeks_text":"{{ n }} week/weeks ago","widget_months_text":"{{ n }} month/months ago","widget_years_text":"{{ n }} year/years ago","widget_yesterday_text":"Yesterday","widget_today_text":"Today","widget_replied_text":"\u003e\u003e {{ shop_name }} replied:","widget_read_more_text":"Read more","widget_reviewer_name_as_initial":"","widget_rating_filter_color":"#fbcd0a","widget_rating_filter_see_all_text":"See all reviews","widget_sorting_most_recent_text":"Most Recent","widget_sorting_highest_rating_text":"Highest Rating","widget_sorting_lowest_rating_text":"Lowest Rating","widget_sorting_with_pictures_text":"Only Pictures","widget_sorting_most_helpful_text":"Most Helpful","widget_open_question_form_text":"Ask a question","widget_reviews_subtab_text":"Reviews","widget_questions_subtab_text":"Questions","widget_question_label_text":"Question","widget_answer_label_text":"Answer","widget_question_placeholder_text":"Write your question here","widget_submit_question_text":"Submit Question","widget_question_submit_success_text":"Thank you for your question! We will notify you once it gets answered.","verified_badge_text":"Verified","verified_badge_bg_color":"","verified_badge_text_color":"","verified_badge_placement":"left-of-reviewer-name","widget_review_max_height":"","widget_hide_border":false,"widget_social_share":false,"widget_thumb":false,"widget_review_location_show":false,"widget_location_format":"","all_reviews_include_out_of_store_products":true,"all_reviews_out_of_store_text":"(out of store)","all_reviews_pagination":100,"all_reviews_product_name_prefix_text":"about","enable_review_pictures":true,"enable_question_anwser":false,"widget_theme":"default","review_date_format":"mm/dd/yyyy","default_sort_method":"most-recent","enable_ai_review_visibility":true,"widget_product_reviews_subtab_text":"Product Reviews","widget_shop_reviews_subtab_text":"Shop Reviews","widget_other_products_reviews_text":"Reviews for other products","widget_store_reviews_subtab_text":"Store reviews","widget_product_variant_reference_text":"Review for","widget_no_store_reviews_text":"This store hasn't received any reviews yet","widget_web_restriction_product_reviews_text":"This product hasn't received any reviews yet","widget_no_items_text":"No items found","widget_show_more_text":"Show more","widget_write_a_store_review_text":"Write a Store Review","widget_product_and_store_reviews_text":"Product and store reviews","widget_reviews_in_collection_text":"Reviews in this collection","widget_other_languages_heading":"Reviews in Other Languages","widget_translate_review_text":"Translate review to {{ language }}","widget_translating_review_text":"Translating...","widget_show_original_translation_text":"Show original ({{ language }})","widget_translate_review_failed_text":"Review couldn't be translated.","widget_translate_review_retry_text":"Retry","widget_translate_review_try_again_later_text":"Try again later","show_product_url_for_grouped_product":false,"widget_sorting_pictures_first_text":"Pictures First","show_pictures_on_all_rev_page_mobile":false,"show_pictures_on_all_rev_page_desktop":false,"floating_tab_hide_mobile_install_preference":false,"floating_tab_button_name":"★ Reviews","floating_tab_title":"Let customers speak for us","floating_tab_button_color":"","floating_tab_button_background_color":"","floating_tab_url":"","floating_tab_url_enabled":false,"floating_tab_tab_style":"text","all_reviews_text_badge_text":"Customers rate us {{ shop.metafields.judgeme.all_reviews_rating | round: 1 }}/5 based on {{ shop.metafields.judgeme.all_reviews_count }} reviews.","all_reviews_text_badge_text_branded_style":"{{ shop.metafields.judgeme.all_reviews_rating | round: 1 }} out of 5 stars based on {{ shop.metafields.judgeme.all_reviews_count }} reviews","is_all_reviews_text_badge_a_link":false,"show_stars_for_all_reviews_text_badge":false,"all_reviews_text_badge_url":"","all_reviews_text_style":"branded","all_reviews_text_color_style":"judgeme_brand_color","all_reviews_text_color":"#108474","all_reviews_text_show_jm_brand":false,"featured_carousel_show_header":true,"featured_carousel_title":"Let customers speak for us","testimonials_carousel_title":"Customers are saying","videos_carousel_title":"Real customer stories","cards_carousel_title":"Customers are saying","featured_carousel_count_text":"from {{ n }} reviews","featured_carousel_add_link_to_all_reviews_page":false,"featured_carousel_url":"","featured_carousel_show_images":true,"featured_carousel_autoslide_interval":5,"featured_carousel_arrows_on_the_sides":false,"featured_carousel_height":250,"featured_carousel_width":80,"featured_carousel_image_size":0,"featured_carousel_image_height":250,"featured_carousel_arrow_color":"#eeeeee","verified_count_badge_style":"branded","verified_count_badge_orientation":"horizontal","verified_count_badge_color_style":"judgeme_brand_color","verified_count_badge_color":"#108474","is_verified_count_badge_a_link":false,"verified_count_badge_url":"","verified_count_badge_show_jm_brand":true,"widget_rating_preset_default":5,"widget_first_sub_tab":"product-reviews","widget_show_histogram":true,"widget_histogram_use_custom_color":false,"widget_pagination_use_custom_color":false,"widget_star_use_custom_color":false,"widget_verified_badge_use_custom_color":false,"widget_write_review_use_custom_color":false,"picture_reminder_submit_button":"Upload Pictures","enable_review_videos":true,"mute_video_by_default":false,"widget_sorting_videos_first_text":"Videos First","widget_review_pending_text":"Pending","featured_carousel_items_for_large_screen":3,"social_share_options_order":"Facebook,Twitter","remove_microdata_snippet":true,"disable_json_ld":false,"enable_json_ld_products":false,"preview_badge_show_question_text":false,"preview_badge_no_question_text":"No questions","preview_badge_n_question_text":"{{ number_of_questions }} question/questions","qa_badge_show_icon":false,"qa_badge_position":"same-row","remove_judgeme_branding":false,"widget_add_search_bar":false,"widget_search_bar_placeholder":"Search","widget_sorting_verified_only_text":"Verified only","widget_sorting_most_relevant_text":"Most Relevant","featured_carousel_theme":"default","featured_carousel_show_rating":true,"featured_carousel_show_title":true,"featured_carousel_show_body":true,"featured_carousel_show_date":false,"featured_carousel_show_reviewer":true,"featured_carousel_show_product":false,"featured_carousel_header_background_color":"#108474","featured_carousel_header_text_color":"#ffffff","featured_carousel_name_product_separator":"reviewed","featured_carousel_full_star_background":"#108474","featured_carousel_empty_star_background":"#dadada","featured_carousel_vertical_theme_background":"#f9fafb","featured_carousel_verified_badge_enable":true,"featured_carousel_verified_badge_color":"#108474","featured_carousel_border_style":"round","featured_carousel_review_line_length_limit":3,"featured_carousel_more_reviews_button_text":"Read more reviews","featured_carousel_view_product_button_text":"View product","all_reviews_page_load_reviews_on":"scroll","all_reviews_page_load_more_text":"Load More Reviews","disable_fb_tab_reviews":false,"enable_ajax_cdn_cache":false,"widget_advanced_speed_features":5,"widget_public_name_text":"displayed publicly like","default_reviewer_name":"John Smith","default_reviewer_name_has_non_latin":true,"widget_reviewer_anonymous":"Anonymous","medals_widget_title":"Judge.me Review Medals","medals_widget_background_color":"#f9fafb","medals_widget_position":"footer_all_pages","medals_widget_border_color":"#f9fafb","medals_widget_verified_text_position":"left","medals_widget_use_monochromatic_version":false,"medals_widget_elements_color":"#108474","show_reviewer_avatar":true,"widget_invalid_yt_video_url_error_text":"Not a YouTube video URL","widget_max_length_field_error_text":"Please enter no more than {0} characters.","widget_show_country_flag":false,"widget_show_collected_via_shop_app":true,"widget_verified_by_shop_badge_style":"light","widget_verified_by_shop_text":"Verified by Shop","widget_show_photo_gallery":true,"widget_load_with_code_splitting":true,"widget_ugc_install_preference":false,"widget_ugc_title":"Made by us, Shared by you","widget_ugc_subtitle":"Tag us to see your picture featured in our page","widget_ugc_arrows_color":"#ffffff","widget_ugc_primary_button_text":"Buy Now","widget_ugc_primary_button_background_color":"#108474","widget_ugc_primary_button_text_color":"#ffffff","widget_ugc_primary_button_border_width":"0","widget_ugc_primary_button_border_style":"none","widget_ugc_primary_button_border_color":"#108474","widget_ugc_primary_button_border_radius":"25","widget_ugc_secondary_button_text":"Load More","widget_ugc_secondary_button_background_color":"#ffffff","widget_ugc_secondary_button_text_color":"#108474","widget_ugc_secondary_button_border_width":"2","widget_ugc_secondary_button_border_style":"solid","widget_ugc_secondary_button_border_color":"#108474","widget_ugc_secondary_button_border_radius":"25","widget_ugc_reviews_button_text":"View Reviews","widget_ugc_reviews_button_background_color":"#ffffff","widget_ugc_reviews_button_text_color":"#108474","widget_ugc_reviews_button_border_width":"2","widget_ugc_reviews_button_border_style":"solid","widget_ugc_reviews_button_border_color":"#108474","widget_ugc_reviews_button_border_radius":"25","widget_ugc_reviews_button_link_to":"judgeme-reviews-page","widget_ugc_show_post_date":true,"widget_ugc_max_width":"800","widget_rating_metafield_value_type":true,"widget_primary_color":"#2A2A2A","widget_enable_secondary_color":false,"widget_secondary_color":"#edf5f5","widget_summary_average_rating_text":"{{ average_rating }} out of 5","widget_media_grid_title":"Customer photos \u0026 videos","widget_media_grid_see_more_text":"See more","widget_round_style":false,"widget_show_product_medals":true,"widget_verified_by_judgeme_text":"Verified by Judge.me","widget_show_store_medals":true,"widget_verified_by_judgeme_text_in_store_medals":"Verified by Judge.me","widget_media_field_exceed_quantity_message":"Sorry, we can only accept {{ max_media }} for one review.","widget_media_field_exceed_limit_message":"{{ file_name }} is too large, please select a {{ media_type }} less than {{ size_limit }}MB.","widget_review_submitted_text":"Review Submitted!","widget_question_submitted_text":"Question Submitted!","widget_close_form_text_question":"Cancel","widget_write_your_answer_here_text":"Write your answer here","widget_enabled_branded_link":true,"widget_show_collected_by_judgeme":false,"widget_reviewer_name_color":"","widget_write_review_text_color":"","widget_write_review_bg_color":"","widget_collected_by_judgeme_text":"collected by Judge.me","widget_pagination_type":"standard","widget_load_more_text":"Load More","widget_load_more_color":"#108474","widget_full_review_text":"Full Review","widget_read_more_reviews_text":"Read More Reviews","widget_read_questions_text":"Read Questions","widget_questions_and_answers_text":"Questions \u0026 Answers","widget_verified_by_text":"Verified by","widget_verified_text":"Verified","widget_number_of_reviews_text":"{{ number_of_reviews }} reviews","widget_back_button_text":"Back","widget_next_button_text":"Next","widget_custom_forms_filter_button":"Filters","custom_forms_style":"horizontal","widget_show_review_information":false,"how_reviews_are_collected":"How reviews are collected?","widget_show_review_keywords":false,"widget_gdpr_statement":"How we use your data: We'll only contact you about the review you left, and only if necessary. By submitting your review, you agree to Judge.me's \u003ca href='https://judge.me/terms' target='_blank' rel='nofollow noopener'\u003eterms\u003c/a\u003e, \u003ca href='https://judge.me/privacy' target='_blank' rel='nofollow noopener'\u003eprivacy\u003c/a\u003e and \u003ca href='https://judge.me/content-policy' target='_blank' rel='nofollow noopener'\u003econtent\u003c/a\u003e policies.","widget_multilingual_sorting_enabled":false,"widget_translate_review_content_enabled":false,"widget_translate_review_content_method":"manual","popup_widget_review_selection":"automatically_with_pictures","popup_widget_round_border_style":true,"popup_widget_show_title":true,"popup_widget_show_body":true,"popup_widget_show_reviewer":false,"popup_widget_show_product":true,"popup_widget_show_pictures":true,"popup_widget_use_review_picture":true,"popup_widget_show_on_home_page":true,"popup_widget_show_on_product_page":true,"popup_widget_show_on_collection_page":true,"popup_widget_show_on_cart_page":true,"popup_widget_position":"bottom_left","popup_widget_first_review_delay":5,"popup_widget_duration":5,"popup_widget_interval":5,"popup_widget_review_count":5,"popup_widget_hide_on_mobile":true,"popup_widget_source_mode":"auto","popup_widget_page_product":"current_product","popup_widget_page_collection":"current_collection","popup_widget_page_cart":"cart_mode","popup_widget_page_home":"all","popup_widget_star_rating":"all","popup_widget_review_type":"all","popup_widget_top_up_thin_pages":true,"popup_widget_corner_styling":"soft","review_snippet_widget_round_border_style":true,"review_snippet_widget_card_color":"#FFFFFF","review_snippet_widget_text_color":"#000000","review_snippet_widget_lighter_text_color":"#7B7B7B","review_snippet_widget_slider_arrows_background_color":"#FFFFFF","review_snippet_widget_slider_arrows_color":"#000000","review_snippet_widget_star_color":"#2A2A2A","show_product_variant":false,"all_reviews_product_variant_label_text":"Variant: ","widget_show_verified_branding":true,"widget_ai_summary_title":"Customers say","widget_ai_summary_disclaimer":"Summarized and selected by AI from recent customer reviews","widget_show_ai_summary":false,"widget_show_ai_summary_bg":false,"write_review_button_visibility":"everyone","store_summary_widget_heading":"Customers rate this store","store_summary_widget_button_text":"View customer reviews","store_summary_widget_button_theme_text":"See AI reviews summary","widget_show_review_title_input":false,"widget_autofill_review_title":true,"redirect_reviewers_invited_via_email":"external_form","request_store_review_after_product_review":true,"request_review_other_products_in_order":true,"review_form_color_scheme":"default","review_form_corner_style":"square","review_form_star_color":"#2A2A2A","review_form_text_color":"#333333","review_form_background_color":"#ffffff","review_form_field_background_color":"#fafafa","review_form_button_color":"#2A2A2A","review_form_button_text_color":"#ffffff","review_form_modal_overlay_color":"#000000","review_form_theme":"multi_step","review_form_location":"in_store_popup","review_form_external_page_background_color":"#C5F7F0","review_content_screen_title_text":"How would you rate this product?","review_content_introduction_text":"We would love it if you would share a bit about your experience.","store_review_form_title_text":"How would you rate this store?","store_review_form_introduction_text":"We would love it if you would share a bit about your experience.","show_review_guidance_text":true,"one_star_review_guidance_text":"Poor","five_star_review_guidance_text":"Great","customer_information_screen_title_text":"About you","customer_information_introduction_text":"Please tell us more about you.","custom_questions_screen_title_text":"Your experience in more detail","custom_questions_introduction_text":"Here are a few questions to help us understand more about your experience.","review_submitted_screen_title_text":"Thanks for your review!","review_submitted_screen_thank_you_text":"We are processing it and it will appear on the store soon.","review_submitted_screen_email_verification_text":"Please confirm your email by clicking the link we just sent you. This helps us keep reviews authentic.","confirm_email_screen_title_text":"Confirm your email","confirm_email_screen_message_text":"To help keep reviews authentic, we'll send you a secure link to continue writing your review. It only takes a moment.","check_email_screen_title_text":"Check your email","check_email_screen_message_text":"We sent you an email to {{ email }}. Click the button on the email to continue.","check_email_screen_resend_message_text":"Email resent!","check_email_resend_hint_text":"Didn't get the email? Check your spam folder or [resend the email].","verification_email_rate_limit_error_text":"You've reached the limit for review attempts on this product. Please check your inbox or try again later.","review_submitted_request_store_review_text":"Would you like to share your experience of shopping with us?","review_submitted_review_other_products_text":"Would you like to review these products?","store_review_screen_title_text":"Would you like to share your experience of shopping with us?","store_review_introduction_text":"We value your feedback and use it to improve. Please share any thoughts or suggestions you have.","reviewer_media_screen_title_picture_text":"Share a picture","reviewer_media_introduction_picture_text":"Upload a photo to support your review.","reviewer_media_screen_title_video_text":"Share a video","reviewer_media_introduction_video_text":"Upload a video to support your review.","reviewer_media_screen_title_picture_or_video_text":"Share a picture or video","reviewer_media_introduction_picture_or_video_text":"Upload a photo or video to support your review.","reviewer_media_youtube_url_text":"Paste your Youtube URL here","advanced_settings_next_step_button_text":"Next","advanced_settings_close_review_button_text":"Close","modal_write_review_flow":true,"write_review_flow_required_text":"Required","write_review_flow_privacy_message_text":"We respect your privacy.","write_review_flow_anonymous_text":"Post review as anonymous","write_review_flow_visibility_text":"This won't be visible to other customers.","write_review_flow_multiple_selection_help_text":"Select as many as you like","write_review_flow_single_selection_help_text":"Select one option","write_review_flow_required_field_error_text":"This field is required","write_review_flow_invalid_email_error_text":"Please enter a valid email address","write_review_flow_max_length_error_text":"Max. {{ max_length }} characters.","write_review_flow_media_upload_text":"\u003cb\u003eClick to upload\u003c/b\u003e or drag and drop","write_review_flow_gdpr_statement":"We'll only contact you about your review if necessary. By submitting your review, you agree to our \u003ca href='https://judge.me/terms' target='_blank' rel='nofollow noopener'\u003eterms and conditions\u003c/a\u003e and \u003ca href='https://judge.me/privacy' target='_blank' rel='nofollow noopener'\u003eprivacy policy\u003c/a\u003e.","rating_only_reviews_enabled":false,"show_negative_reviews_help_screen":false,"new_review_flow_help_screen_rating_threshold":3,"negative_review_resolution_screen_title_text":"Tell us more","negative_review_resolution_text":"Your experience matters to us. If there were issues with your purchase, we're here to help. Feel free to reach out to us, we'd love the opportunity to make things right.","negative_review_resolution_button_text":"Contact us","negative_review_resolution_proceed_with_review_text":"Leave a review","negative_review_resolution_subject":"Issue with purchase from {{ shop_name }}.{{ order_name }}","coupon_promo_intro_any_review_text":"Write a review and get a coupon for {{ amount }} off your next purchase","coupon_promo_intro_with_photo_text":"Write a review and add a photo or video to get a coupon for {{ amount }} off your next purchase","coupon_promo_intro_with_video_text":"Write a review and add a video to get a coupon for {{ amount }} off your next purchase","coupon_promo_intro_up_to_any_review_text":"Write a review and get a coupon for up to {{ amount }} off your next purchase","coupon_promo_intro_up_to_with_photo_text":"Write a review and add a photo or video to get a coupon for up to {{ amount }} off your next purchase","coupon_promo_intro_external_text":"Write a review and get a reward for your next purchase","coupon_promo_intro_external_with_photo_text":"Write a review and add a photo or video to get a reward for your next purchase","coupon_promo_intro_external_with_video_text":"Write a review and add a video to get a reward for your next purchase","coupon_promo_media_photo_text":"Add a photo or video and get a coupon for {{ amount }} off your next purchase","coupon_promo_media_photo_only_text":"Add a photo and get a coupon for {{ amount }} off your next purchase","coupon_promo_media_video_text":"Add a video and get a coupon for {{ amount }} off your next purchase","coupon_promo_media_external_photo_text":"Add a photo or video and get a reward for your next purchase","coupon_promo_media_external_photo_only_text":"Add a photo and get a reward for your next purchase","coupon_promo_media_external_video_text":"Add a video and get a reward for your next purchase","coupon_promo_success_text":"You've got a coupon for your next purchase at {{ shop_name }}!","coupon_promo_success_subtext":"You'll receive your coupon email within the hour.","preview_badge_collection_page_install_status":false,"widget_review_custom_css":"","preview_badge_custom_css":"","preview_badge_stars_count":"5-stars","featured_carousel_custom_css":"","floating_tab_custom_css":"","all_reviews_widget_custom_css":"","medals_widget_custom_css":"","verified_badge_custom_css":"","all_reviews_text_custom_css":"","transparency_badges_collected_via_store_invite":false,"transparency_badges_from_another_provider":false,"transparency_badges_collected_from_store_visitor":false,"transparency_badges_collected_by_verified_review_provider":true,"transparency_badges_earned_reward":false,"transparency_badges_collected_via_store_invite_text":"Review collected via store invitation","transparency_badges_from_another_provider_text":"Review collected from another provider","transparency_badges_collected_from_store_visitor_text":"Review collected from a store visitor","transparency_badges_written_in_google_text":"Review written in Google","transparency_badges_written_in_etsy_text":"Review written in Etsy","transparency_badges_written_in_shop_app_text":"Review written in Shop App","transparency_badges_earned_reward_text":"Review earned a reward for future purchase","product_review_widget_per_page":10,"widget_other_languages_reviews_per_page":3,"widget_store_review_label_text":"Review about the store","widget_cart_mode_aggregate_heading_text":"Customers rate this store","checkout_comment_extension_title_on_product_page":"Customer Comments","checkout_comment_extension_num_latest_comment_show":5,"checkout_comment_extension_format":"name_and_timestamp","checkout_comment_customer_name":"last_initial","checkout_comment_comment_notification":true,"preview_badge_collection_page_install_preference":false,"preview_badge_home_page_install_preference":false,"preview_badge_product_page_install_preference":false,"review_widget_install_preference":"","review_carousel_install_preference":false,"floating_reviews_tab_install_preference":"none","verified_reviews_count_badge_install_preference":false,"all_reviews_text_install_preference":false,"review_widget_best_location":false,"judgeme_medals_install_preference":false,"review_widget_revamp_enabled":true,"review_widget_qna_enabled":false,"review_widget_revamp_dual_publish_end_date":"2026-04-30T11:01:47.000+00:00","review_widget_header_theme":"minimal","review_widget_widget_title_enabled":true,"review_widget_header_text_size":"medium","review_widget_header_text_weight":"regular","review_widget_average_rating_style":"compact","review_widget_bar_chart_enabled":true,"review_widget_bar_chart_type":"numbers","review_widget_bar_chart_style":"standard","review_widget_expanded_media_gallery_enabled":false,"review_widget_show_review_highlights":false,"review_widget_show_review_keywords_in_gray":false,"review_widget_reviews_section_theme":"standard","review_widget_image_style":"thumbnails","review_widget_review_image_ratio":"square","review_widget_stars_size":"medium","review_widget_verified_badge":"standard_text","review_widget_review_title_text_size":"medium","review_widget_review_text_size":"medium","review_widget_review_text_length":"medium","review_widget_number_of_columns_desktop":3,"review_widget_carousel_transition_speed":5,"review_widget_custom_questions_answers_display":"always","review_widget_card_section_size":"small","review_widget_star_and_histogram_color":"#2A2A2A","review_widget_button_color":"#2A2A2A","review_widget_button_text_color":"#FFFFFF","review_widget_text_color":"#000000","review_widget_lighter_text_color":"#7B7B7B","review_widget_corner_styling":"soft","review_widget_review_word_singular":"Share Your Experience","review_widget_review_word_plural":"Share Your Experience","review_widget_voting_label":"Helpful?","review_widget_shop_reply_label":"Reply from {{ shop_name }}:","review_widget_filters_title":"Filters","review_widget_filter_rating_title":"Rating","review_widget_filter_keyword_title":"Keyword","review_widget_clear_filters_text":"Clear filters","review_widget_expand_more_text":"More","review_widget_review_highlights_title":"Review highlights","qna_widget_question_word_singular":"Question","qna_widget_question_word_plural":"Questions","qna_widget_answer_reply_label":"Answer from {{ answerer_name }}:","qna_content_screen_title_text":"Ask a question about this product","qna_widget_question_required_field_error_text":"Please enter your question.","qna_widget_flow_gdpr_statement":"We'll only contact you about your question if necessary. By submitting your question, you agree to our \u003ca href='https://judge.me/terms' target='_blank' rel='nofollow noopener'\u003eterms and conditions\u003c/a\u003e and \u003ca href='https://judge.me/privacy' target='_blank' rel='nofollow noopener'\u003eprivacy policy\u003c/a\u003e.","qna_widget_question_submitted_text":"Thanks for your question!","qna_widget_close_form_text_question":"Close","qna_widget_question_submit_success_text":"We’ll notify you by email when your question is answered.","all_reviews_widget_v2025_enabled":true,"all_reviews_widget_v2025_header_theme":"default","all_reviews_widget_v2025_widget_title_enabled":true,"all_reviews_widget_v2025_header_text_size":"medium","all_reviews_widget_v2025_header_text_weight":"regular","all_reviews_widget_v2025_average_rating_style":"compact","all_reviews_widget_v2025_bar_chart_enabled":true,"all_reviews_widget_v2025_bar_chart_type":"numbers","all_reviews_widget_v2025_bar_chart_style":"standard","all_reviews_widget_v2025_expanded_media_gallery_enabled":false,"all_reviews_widget_v2025_show_store_medals":true,"all_reviews_widget_v2025_show_photo_gallery":true,"all_reviews_widget_v2025_show_review_keywords":false,"all_reviews_widget_v2025_show_ai_summary":false,"all_reviews_widget_v2025_show_ai_summary_bg":false,"all_reviews_widget_v2025_show_review_highlights":false,"all_reviews_widget_v2025_show_review_keywords_in_gray":false,"all_reviews_widget_v2025_add_search_bar":false,"all_reviews_widget_v2025_default_sort_method":"most-recent","all_reviews_widget_v2025_reviews_per_page":10,"all_reviews_widget_v2025_reviews_section_theme":"default","all_reviews_widget_v2025_image_style":"thumbnails","all_reviews_widget_v2025_review_image_ratio":"square","all_reviews_widget_v2025_stars_size":"medium","all_reviews_widget_v2025_verified_badge":"standard_text","all_reviews_widget_v2025_review_title_text_size":"medium","all_reviews_widget_v2025_review_text_size":"medium","all_reviews_widget_v2025_review_text_length":"medium","all_reviews_widget_v2025_number_of_columns_desktop":3,"all_reviews_widget_v2025_carousel_transition_speed":5,"all_reviews_widget_v2025_custom_questions_answers_display":"always","all_reviews_widget_v2025_review_dates":false,"all_reviews_widget_v2025_card_section_size":"small","all_reviews_widget_v2025_show_product_variant":false,"all_reviews_widget_v2025_show_reviewer_avatar":true,"all_reviews_widget_v2025_reviewer_name_as_initial":"","all_reviews_widget_v2025_review_location_show":false,"all_reviews_widget_v2025_location_format":"","all_reviews_widget_v2025_show_country_flag":false,"all_reviews_widget_v2025_widget_thumb":false,"all_reviews_widget_v2025_verified_by_shop_badge_style":"light","all_reviews_widget_v2025_social_share":false,"all_reviews_widget_v2025_social_share_options_order":"Facebook,Twitter,LinkedIn,Pinterest","all_reviews_widget_v2025_pagination_type":"standard","all_reviews_widget_v2025_button_text_color":"#FFFFFF","all_reviews_widget_v2025_text_color":"#000000","all_reviews_widget_v2025_lighter_text_color":"#7B7B7B","all_reviews_widget_v2025_corner_styling":"soft","all_reviews_widget_v2025_title":"Customer reviews","all_reviews_widget_v2025_ai_summary_title":"Customers say about this store","all_reviews_widget_v2025_no_review_text":"Be the first to write a review","all_reviews_widget_v2025_review_highlights_title":"Review highlights","reviews_grid_widget_show_sample_reviews":false,"reviews_grid_widget_review_selection":"all","reviews_grid_widget_select_products":[],"reviews_grid_widget_show_media_only":false,"reviews_grid_widget_display_order":"media_first","reviews_grid_widget_card_grouping":"per_media","reviews_grid_widget_columns_desktop":3,"reviews_grid_widget_rows_desktop":3,"reviews_grid_widget_columns_mobile":2,"reviews_grid_widget_rows_mobile":6,"reviews_grid_widget_show_stars":true,"reviews_grid_widget_show_reviewer_name":true,"reviews_grid_widget_show_review_title_on_hover_desktop":true,"reviews_grid_widget_corner_styling":"soft","reviews_grid_widget_card_spacing":"medium","reviews_grid_widget_header_text_color":"#000000","reviews_grid_widget_star_and_reviewer_name_color":"#F9F9F9","reviews_grid_widget_overlay_and_background_color":"#000000","reviews_grid_widget_content_color":"#F9F9F9","reviews_grid_widget_header_text":"From our customers","reviews_grid_widget_show_average_rating":true,"trust_badge_enabled":false,"trust_badge_structure":"outline","trust_badge_color":"black","trust_badge_star":"black","trust_badge_rating_display_default":"show_avg_text","platform":"shopify","branding_url":"https://app.judge.me/reviews","branding_text":"Powered by Judge.me","locale":"en","reply_name":"ARFORTI","shop_currency":"USD","widget_version":"3.0","footer":true,"autopublish":true,"review_dates":true,"enable_custom_form":false,"shop_locale":"en","enable_multi_locales_translations":false,"show_review_title_input":false,"autofill_review_title":true,"review_verification_email_status":"always","require_verification_before_submit":false,"sign_in_with_shop_enabled":false,"customer_account_validation_enabled":true,"most_relevant_sort_enabled":false,"coupon_promo_invited_eligible":true,"coupon_promo_web_eligible":false,"uses_coupon_integration":false,"uses_external_coupon":false,"can_be_branded":false,"rtl_stars_enabled_ar":true,"rtl_stars_enabled_he":true,"reply_name_text":"ARFORTI"};</script> <style class="jdgm-settings-style">.jdgm-xx{left:0}:root{--jdgm-primary-color: #2A2A2A;--jdgm-secondary-color: rgba(42,42,42,0.1);--jdgm-star-color: #2A2A2A;--jdgm-write-review-text-color: white;--jdgm-write-review-bg-color: #2A2A2A;--jdgm-paginate-color: #2A2A2A;--jdgm-border-radius: 0;--jdgm-reviewer-name-color: #2A2A2A}.jdgm-histogram__bar-content{background-color:#2A2A2A}.jdgm-rev[data-verified-buyer=true] .jdgm-rev__icon.jdgm-rev__icon:after,.jdgm-rev__buyer-badge.jdgm-rev__buyer-badge{color:white;background-color:#2A2A2A}.jdgm-review-widget--small .jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before{content:"See more"}@media only screen and (min-width: 768px){.jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before{content:"See more"}}.jdgm-prev-badge[data-average-rating='0.00']{display:none !important}.jdgm-author-all-initials{display:none !important}.jdgm-author-last-initial{display:none !important}.jdgm-rev-widg__title{visibility:hidden}.jdgm-rev-widg__summary-text{visibility:hidden}.jdgm-prev-badge__text{visibility:hidden}.jdgm-rev__prod-link-prefix:before{content:'about'}.jdgm-rev__variant-label:before{content:'Variant: '}.jdgm-rev__out-of-store-text:before{content:'(out of store)'}@media only screen and (min-width: 768px){.jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,.jdgm-rev__pics .jdgm-rev__product-picture{display:none}}@media only screen and (max-width: 768px){.jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,.jdgm-rev__pics .jdgm-rev__product-picture{display:none}}.jdgm-preview-badge[data-template="product"]{display:none !important}.jdgm-preview-badge[data-template="collection"]{display:none !important}.jdgm-preview-badge[data-template="index"]{display:none !important}.jdgm-review-widget[data-from-snippet="true"]{display:none !important}.jdgm-verified-count-badget[data-from-snippet="true"]{display:none !important}.jdgm-carousel-wrapper[data-from-snippet="true"]{display:none !important}.jdgm-all-reviews-text[data-from-snippet="true"]{display:none !important}.jdgm-medals-section[data-from-snippet="true"]{display:none !important}.jdgm-ugc-media-wrapper[data-from-snippet="true"]{display:none !important}.jdgm-rev__transparency-badge[data-badge-type="review_collected_via_store_invitation"]{display:none !important}.jdgm-rev__transparency-badge[data-badge-type="review_collected_from_another_provider"]{display:none !important}.jdgm-rev__transparency-badge[data-badge-type="review_collected_from_store_visitor"]{display:none !important}.jdgm-rev__transparency-badge[data-badge-type="review_earned_for_future_purchase"]{display:none !important}.jdgm-review-snippet-widget{--jdgm-snippet-card-color: #fff;--jdgm-snippet-text-color: #000;--jdgm-snippet-lighter-text-color: #7B7B7B;--jdgm-snippet-star-color: #2A2A2A;--jdgm-snippet-border-radius: 8px;--jdgm-snippet-arrows-bg-color: #fff;--jdgm-snippet-arrows-color: #000}.jdgm-review-snippet-widget .jdgm-rev-snippet-widget__cards-container .jdgm-rev-snippet-card{border-radius:8px;background:#fff}.jdgm-review-snippet-widget .jdgm-rev-snippet-widget__cards-container .jdgm-rev-snippet-card__rev-rating .jdgm-star{color:#2A2A2A}.jdgm-review-snippet-widget .jdgm-rev-snippet-widget__prev-btn,.jdgm-review-snippet-widget .jdgm-rev-snippet-widget__next-btn{border-radius:50%;background:#fff}.jdgm-review-snippet-widget .jdgm-rev-snippet-widget__prev-btn>svg,.jdgm-review-snippet-widget .jdgm-rev-snippet-widget__next-btn>svg{fill:#000}.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jm-mfp-content,.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jdgm-full-rev__icon,.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jdgm-full-rev__pic-img,.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jdgm-full-rev__reply{border-radius:8px}.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jdgm-full-rev[data-verified-buyer="true"] .jdgm-full-rev__icon::after{border-radius:8px}.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jdgm-full-rev .jdgm-rev__buyer-badge{border-radius:calc( 8px / 2 )}.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jdgm-full-rev .jdgm-full-rev__replier::before{content:'ARFORTI'}.jdgm-full-rev-modal.rev-snippet-widget .jm-mfp-container .jdgm-full-rev .jdgm-full-rev__product-button{border-radius:calc( 8px * 6 )}
+</style> <style class="jdgm-settings-style"></style>
+
+  
+  
+  
+  <style class="jdgm-miracle-styles">
+  @-webkit-keyframes jdgm-spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);-ms-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes jdgm-spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);-ms-transform:rotate(359deg);transform:rotate(359deg)}}@font-face{font-family:'JudgemeStar';src:url("data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAScAA0AAAAABrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEgAAAABoAAAAcbyQ+3kdERUYAAARgAAAAHgAAACAAMwAGT1MvMgAAAZgAAABGAAAAVi+vS9xjbWFwAAAB8AAAAEAAAAFKwBMjvmdhc3AAAARYAAAACAAAAAj//wADZ2x5ZgAAAkAAAAEJAAABdH33LXtoZWFkAAABMAAAAC0AAAA2BroQKWhoZWEAAAFgAAAAHAAAACQD5QHQaG10eAAAAeAAAAAPAAAAFAYAAABsb2NhAAACMAAAAA4AAAAOAO4AeG1heHAAAAF8AAAAHAAAACAASgAvbmFtZQAAA0wAAADeAAABkorWfVZwb3N0AAAELAAAACkAAABEp3ubLXgBY2BkYADhPPP4OfH8Nl8ZuJkYQODS2fRrCPr/aSYGxq1ALgcDWBoAO60LkwAAAHgBY2BkYGDc+v80gx4TAwgASaAICmABAFB+Arl4AWNgZGBgYGPQYWBiAAIwyQgWc2AAAwAHVQB6eAFjYGRiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbByMsCBAAMCBKS5pjA4PGB4wMR44P8BBj3GrQymQGFGkBwAjtgK/gAAeAFjYoAAEA1jAwAAZAAHAHgB3crBCcAwDEPRZydkih567CDdf4ZskmLwFBV8xBfCaC4BXkOUmx4sU0h2ngNb9V0vQCxaRKIAevT7fGWuBrEAAAAAAAAAAAA0AHgAugAAeAF9z79Kw1AUx/FzTm7un6QmJtwmQ5Bg1abgEGr/BAqlU6Gju+Cgg1MkQ/sA7Vj7BOnmO/gUvo2Lo14NqIO6/IazfD8HEODtmQCfoANwNsyp2/GJt3WKQrd1NLiYYWx2PBqOsmJMEOznPOTzfSCrhAtbbLdmeFLJV9eKd63WLrZcIcuaEVdssWCKM6pLCfTVOYbz/0pNSMSZKLIZpvh78sAUH6PlMrreTCabP9r+Z/puPZ2ur/RqpQHgh+MIegCnXeM4MRAPjYN//5tj4ZtTjkFqEdmeMShlEJ7tVAly2TAkx6R68Fl4E/aVvn8JqHFQ4JS1434gXKcuL31dDhzs3YbsEOAd/IU88gAAAHgBfY4xTgMxEEVfkk0AgRCioKFxQYd2ZRtpixxgRU2RfhU5q5VWseQ4JdfgAJyBlmNwAM7ABRhZQ0ORwp7nr+eZAa54YwYg9zm3ynPOeFRe8MCrciXOh/KSS76UV5L/iDmrLiS5AeU519wrL3jmSbkS5115yR2fyivJv9kx0ZMZ2RLZw27q87iNQi8EBo5FSPIMw3HqBboi5lKTGAGDp8FKXWP+t9TU01Lj5His1Ba6uM9dTEMwvrFmbf5GC/q2drW3ruXUhhsCiQOjznFlCzYhHUZp4xp76vsvQh89CQAAeAFjYGJABowM6IANLMrEyMTIzMjCXpyRWJBqZshWXJJYBKOMAFHFBucAAAAAAAAB//8AAngBY2BkYGDgA2IJBhBgAvKZGViBJAuYxwAABJsAOgAAeAFjYGBgZACCk535hiD60tn0azAaAEqpB6wAAA==") format("woff");font-weight:normal;font-style:normal}.jdgm-star{font-family:'JudgemeStar';display:inline !important;text-decoration:none !important;padding:0 4px 0 0 !important;margin:0 !important;font-weight:bold;opacity:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.jdgm-star:hover{opacity:1}.jdgm-star:last-of-type{padding:0 !important}.jdgm-star.jdgm--on:before{content:"\e000"}.jdgm-star.jdgm--off:before{content:"\e001"}.jdgm-star.jdgm--half:before{content:"\e002"}.jdgm-widget *{margin:0;line-height:1.4;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-overflow-scrolling:touch}.jdgm-hidden{display:none !important;visibility:hidden !important}.jdgm-temp-hidden{display:none}.jdgm-spinner{width:40px;height:40px;margin:auto;border-radius:50%;border-top:2px solid #eee;border-right:2px solid #eee;border-bottom:2px solid #eee;border-left:2px solid #ccc;-webkit-animation:jdgm-spin 0.8s infinite linear;animation:jdgm-spin 0.8s infinite linear}.jdgm-spinner:empty{display:block}.jdgm-prev-badge{display:block !important}
+
+</style>
+
+
+  
+  
+   
+
+
+
+
+<script data-cfasync="false" class="jdgm-script">
+!function(e){window.jdgm=window.jdgm||{};
+/* INF-1976 */
+var _jdgmBlocked=function(){var raw=(window.jdgmSettings||{}).hostname_allowlist;var list=(raw==null?"":""+raw).split(/[\s,]+/).map(function(h){return h.trim().toLowerCase().replace(/\.$/,"");}).filter(function(h){return h;});if(!list.length)return false;var host=(e.location.hostname||"").toLowerCase().replace(/\.$/,"");if(/(^|\.)shopifypreview\.com$/.test(host))return false;var bare=host.replace(/^www\./,"");for(var i=0;i<list.length;i++){var en=list[i];if(en.indexOf("*.")===0){var b=en.slice(2);if(host===b||host.slice(-(b.length+1))==="."+b)return false;}else if(bare===en.replace(/^www\./,""))return false;}return true;}();
+if(_jdgmBlocked){jdgm._loaderExecuted=true;jdgm._blocked=true;var _jdgmS=e.createElement("style");_jdgmS.textContent='[class^="jdgm-"],[class*=" jdgm-"]{display:none !important}';(e.head||e.documentElement).appendChild(_jdgmS);return;}
+jdgm.CDN_HOST="https://cdnwidget.judge.me/",jdgm.CDN_HOST_ALT="https://cdn2.judge.me/cdn/widget_frontend/",jdgm.API_HOST="https://api.judge.me/",jdgm.CDN_BASE_URL="https://cdn.shopify.com/extensions/01a0674f-e340-7c39-856d-a810d6687196/judgeme-739/assets/",jdgm.CDN_API_HOST="https://cdn.judge.me/",
+jdgm.docReady=function(d){(e.attachEvent?"complete"===e.readyState:"loading"!==e.readyState)?
+setTimeout(d,0):e.addEventListener("DOMContentLoaded",d)},jdgm.loadCSS=function(d,t,o,a){
+!o&&jdgm.loadCSS.requestedUrls.indexOf(d)>=0||(jdgm.loadCSS.requestedUrls.push(d),
+(a=e.createElement("link")).rel="stylesheet",a.class="jdgm-stylesheet",a.media="nope!",
+a.href=d,a.onload=function(){this.media="all",t&&setTimeout(t)},e.body.appendChild(a))},
+jdgm.loadCSS.requestedUrls=[],jdgm.loadJS=function(e,d){var t=new XMLHttpRequest;
+t.onreadystatechange=function(){4===t.readyState&&t.status>=200&&t.status<300&&(Function(t.response)(),d&&d(t.response))},
+t.open("GET",e),t.onerror=function(){if(e.indexOf(jdgm.CDN_HOST)===0&&jdgm.CDN_HOST_ALT!==jdgm.CDN_HOST){var f=e.replace(jdgm.CDN_HOST,jdgm.CDN_HOST_ALT);jdgm.loadJS(f,d)}},t.send()},jdgm.docReady((function(){(window.jdgmLoadCSS||e.querySelectorAll(
+".jdgm-widget, .jdgm-all-reviews-page").length>0)&&(jdgmSettings.widget_load_with_code_splitting?
+parseFloat(jdgmSettings.widget_version)>=3?jdgm.loadCSS(jdgm.CDN_BASE_URL+"widget_v3_base.css"):
+jdgm.loadCSS(jdgm.CDN_BASE_URL+"widget_base.css"):jdgm.loadCSS(jdgm.CDN_BASE_URL+"shopify_v2.css")
+)}))}(document);
+</script>
+<noscript><link rel="stylesheet" type="text/css" media="all" href="https://cdn.shopify.com/extensions/01a0674f-e340-7c39-856d-a810d6687196/judgeme-739/assets/shopify_v2.css"></noscript>
+
+<!-- BEGIN app snippet: theme_fix_tags --><script>
+  (function() {
+    var jdgmThemeFixes = null;
+    if (!jdgmThemeFixes) return;
+
+    // "All themes" fix: CSS and JS applied on every theme. CSS is injected
+    // before the per-theme fix so the theme-specific CSS wins the cascade.
+    // HTML is never applied globally (too risky).
+    var allThemesFix = jdgmThemeFixes['all'];
+    if (allThemesFix && allThemesFix.css) {
+      var allStyleTag = document.createElement('style');
+      allStyleTag.classList.add('jdgm-theme-fix-style-all');
+      allStyleTag.innerHTML = allThemesFix.css;
+      document.head.append(allStyleTag);
+    };
+
+    if (allThemesFix && allThemesFix.js) {
+      var allScriptTag = document.createElement('script');
+      allScriptTag.classList.add('jdgm-theme-fix-script-all');
+      allScriptTag.innerHTML = allThemesFix.js;
+      document.head.append(allScriptTag);
+    };
+
+    var thisThemeFix = jdgmThemeFixes[Shopify.theme.id];
+    if (!thisThemeFix) return;
+
+    if (thisThemeFix.html) {
+      document.addEventListener("DOMContentLoaded", function() {
+        var htmlDiv = document.createElement('div');
+        htmlDiv.classList.add('jdgm-theme-fix-html');
+        htmlDiv.innerHTML = thisThemeFix.html;
+        document.body.append(htmlDiv);
+      });
+    };
+
+    if (thisThemeFix.css) {
+      var styleTag = document.createElement('style');
+      styleTag.classList.add('jdgm-theme-fix-style');
+      styleTag.innerHTML = thisThemeFix.css;
+      document.head.append(styleTag);
+    };
+
+    if (thisThemeFix.js) {
+      var scriptTag = document.createElement('script');
+      scriptTag.classList.add('jdgm-theme-fix-script');
+      scriptTag.innerHTML = thisThemeFix.js;
+      document.head.append(scriptTag);
+    };
+  })();
+</script>
+<!-- END app snippet -->
+<!-- End of Judge.me Core -->
+
+
+
+<!-- END app block --><script src="https://cdn.shopify.com/extensions/01a0674f-e340-7c39-856d-a810d6687196/judgeme-739/assets/loader.js" type="text/javascript" defer="defer"></script>
+<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {try {var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description;} catch {var session_token_from_headers = undefined;}var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/);var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : "";var session_token = session_token_from_headers || session_token_from_cookie || "";function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 62481989686,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token,page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script>
+  window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
+</script>
+<script>(function(){var wpmLoader=function(){"use strict";var e=/Googlebot|Storebot-Google|bingbot|Baiduspider|YandexBot|DuckDuckBot|Slurp|facebookexternalhit|Twitterbot|LinkedInBot|Applebot|AdsBot-Google|Mediapartners-Google|APIs-Google|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|Acunetix|PerplexityBot|Perplexity-User/i,t=/bytedance/i;function i(){try{var e=document.cookie;if(!e||"string"!=typeof e)return;for(var t=0,i=e.split(";");t<i.length;t++){var n=i[t],r=n.indexOf("=");if(-1!==r){var o=n.slice(0,r).trim();if(o){var d=void 0;try{d=decodeURIComponent(o)}catch(e){d=o}if("_shopify_s"===d){var a=n.slice(r+1).trim();try{return decodeURIComponent(a)}catch(e){return a}}}}}return}catch(e){return}}function n(e){try{"undefined"!=typeof console&&"function"==typeof console.warn&&console.warn(e)}catch(e){}}function r(e,t){return"string"==typeof e&&e.length>0&&e.length<=t?e:void 0}function o(e){var t;switch(null==(t=null==e?void 0:e.navigation)?void 0:t.type){case 0:return"navigate";case 1:return"reload";case 2:return"back_forward";default:return}}function d(){var e,t,i;try{var n=null==(i=null==(t=null==(e=self.ShopifyAnalytics)?void 0:e.lib)?void 0:t.trekkie)?void 0:i.state;return"awaiting-consent"===n||"initialized"===n?n:void 0}catch(e){return}}return function(a,s,u,l){var c,p,f,v,h=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{},y=(p=(c={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,f=c.legacy,(v=navigator.userAgent).match(e)?"bot":v.match(p)?"modern":v.match(f)?"legacy":v.match(t)?"bot":"unknown"),g=function(e){var t,i,n=r(e,128);try{var d=window.performance,a=null==(t=null==d?void 0:d.getEntriesByType)?void 0:t.call(d,"navigation")[0];if(!a)return{requestId:n,navigationType:o(d)};var s="type"in a?r(a.type,64):void 0,u="serverTiming"in a&&Array.isArray(a.serverTiming)?a.serverTiming:[];return{requestId:null!=n?n:r(null==(i=u.find(function(e){return"requestID"===e.name}))?void 0:i.description,128),navigationType:s}}catch(e){return{requestId:n}}}(h.requestId),m=function(e){var t=e.version,r=e.browserTarget,o=e.surface,d=e.shopId,a=e.monorailEndpoint,s=window.location.href;return{emit:function(e){var u=e.status,l=e.errorMsg,c=e.failureReason,p=e.useKeepaliveFallback,f=void 0!==p&&p,v=e.navigationType,h=e.pagehidePersisted,y=e.requestId,g=e.trekkieState;if(a){var m,w;try{var b=(new Date).getTime();m=JSON.stringify({metadata:{event_sent_at_ms:b},events:[{schema_id:"web_pixels_manager_load/3.3",payload:{version:t,bundle_target:r,page_url:s,status:u,surface:o,error_msg:l,failure_reason:c,navigation_type:v,pagehide_persisted:h,request_id:y,trekkie_state:g,shop_id:d,visit_token:i()},metadata:{event_created_at_ms:b}}]})}catch(e){return}try{if("function"==typeof window.navigator.sendBeacon&&-1===(w=window.navigator.userAgent).indexOf("iPhone; CPU iPhone OS 12_")&&-1===w.indexOf("iPad; CPU OS 12_")&&-1===w.indexOf("iPod touch; CPU iPhone OS 12_")&&window.navigator.sendBeacon.bind(window.navigator)(a,m))return}catch(e){}if(f)try{"function"==typeof window.fetch&&window.fetch(a,{method:"POST",headers:{"Content-Type":"text/plain"},body:m,keepalive:!0}).catch(function(){})}catch(e){}else try{var P=new XMLHttpRequest;P.open("POST",a,!0),P.setRequestHeader("Content-Type","text/plain"),P.send(m)}catch(e){n("[Web Pixels Manager] Got an unhandled error while logging to Monorail.")}}else n("[Web Pixels Manager] No Monorail endpoint provided, skipping logging.")}}}({version:u,browserTarget:y,surface:a.surface,shopId:a.shopId,monorailEndpoint:a.monorailEndpoint});if(Boolean(null==(b=null==(w=window.Shopify)?void 0:w.analytics)?void 0:b.replayQueue))m.emit({status:"setup-skipped",errorMsg:"replay queue already initialized."});else{var w,b;m.emit({status:"setup-started"}),window.Shopify=window.Shopify||{};var P=window.Shopify;P.analytics=P.analytics||{};var _=P.analytics;_.replayQueue=[],_.publish=function(e,t,i){return _.replayQueue.push([e,t,i]),!0};try{self.performance.mark("wpm:start")}catch(e){}var S,C="modern"===y?"modern":"legacy",k=(null!=l?l:{modern:"",legacy:""})[C],O=[(S={baseUrl:s,hashVersion:u,buildTarget:C}).baseUrl,"/wpm","/b",S.hashVersion,"modern"===S.buildTarget?"m":"l",".js"].join(""),T=!1,A=!1;try{h.browserTarget=y,function(){T=!0;try{window.addEventListener("pagehide",U)}catch(e){T=!1}}(),M(function(){try{M(B)}catch(e){R(e)}}),m.emit({status:"loading",requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()})}catch(e){R(e)}}function I(){var e;if(q(),!function(){var e,t;return Boolean(null==(t=null==(e=window.Shopify)?void 0:e.analytics)?void 0:t.initialized)}()){var t,i,n;try{if("function"!=typeof(null==(e=window.webPixelsManager)?void 0:e.init))return void x();if(!(null!==(n=i=t=window.webPixelsManager.init(a))&&"function"!=typeof n&&Object(n)===n&&"publish"in i&&"function"==typeof i.publish&&"publishCustomEvent"in i&&"function"==typeof i.publishCustomEvent&&"visitor"in i&&"function"==typeof i.visitor))return void x()}catch(e){return void x(e)}var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var i=e[0],n=e[1],r=e[2];t.publishCustomEvent(i,n,r)}),r.replayQueue=[],r.publish=t.publishCustomEvent,r.visitor=t.visitor,r.initialized=!0}}function x(e){E("manager_api_unavailable",void 0===e?void 0:D(e))}function B(){E("script_load_failed","".concat(O," has failed to load"))}function E(e,t){A||(A=!0,q(),m.emit({status:"failed",errorMsg:t,failureReason:e,requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()}))}function U(e){T&&(q(),m.emit({status:"pagehide-while-loading",useKeepaliveFallback:!0,pagehidePersisted:e.persisted,requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()}))}function q(){T=!1;try{window.removeEventListener("pagehide",U)}catch(e){}}function M(e){var t;!function(e){var t=e.src,i=e.async,n=void 0===i||i,r=e.onload,o=e.onerror,d=e.sri,a=e.scriptDataAttributes,s=void 0===a?{}:a,u=document.createElement("script"),l=document.querySelector("head"),c=document.querySelector("body");if(u.async=n,u.src=t,d&&(u.integrity=d,u.crossOrigin="anonymous"),s)for(var p in s)if(Object.prototype.hasOwnProperty.call(s,p))try{u.dataset[p]=s[p]}catch(e){}if(r&&u.addEventListener("load",r),o&&u.addEventListener("error",o),l)l.appendChild(u);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(u)}}({src:O,async:!0,onload:I,onerror:e,sri:(t=k,"string"==typeof t&&/^sha384-[A-Za-z0-9+/=]+$/.test(t)?k:""),scriptDataAttributes:h})}function R(e){E("script_append_failed",D(e))}function D(e){return e instanceof Error?e.message:"Unknown error"}}}();wpmLoader({shopId: 62481989686,storefrontBaseUrl: "https://arforti.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://arforti.com/.well-known/shopify/monorail/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["d5bdd5d0","873d0e44"],webPixelsConfigList: [{"id":"2692120630","configuration":"{\"pixelCode\":\"DA7TRDJC77U208UL97PG\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"22e92c2ad45662f435e4801458fb78cc","type":"APP","apiClientId":4383523,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"2682060854","configuration":"{\"pixel_id\":\"2851867628514338\",\"pixel_type\":\"facebook_pixel\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"96420dbe9ea96c426a1b7f364f977719","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"2497151030","configuration":"{\"webPixelName\":\"Judge.me\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"34ad157958823915625854214640f0bf","type":"APP","apiClientId":683015,"privacyPurposes":["ANALYTICS"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0520","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0520","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"ARFORTI","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"9fb657-e9.myshopify.com","countryCode":"HK","storefrontUrl":"https:\/\/arforti.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"products":[{"id":"8465702027318","handle":"alir-gray-taupe","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47246747828278","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8616617836598","handle":"wharton-warm-taupe","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47331894951990","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]}],"purchasingCompany":null},},"https://arforti.com/cdn","80079e4cw22952a98p55856082md4f1b6b4",{"modern":"","legacy":""},{"trekkieShim":true,"agentContext":true,"apiClientId":"580111","facebookCapiEnabled":"true","themeId":"153505169462","themePublished":"true","eventMetadataId":"7829890a-8ae5-4525-be6b-7cfacdae47b7","pageType":"home","shopId":"62481989686","storefrontBaseUrl":"https:\/\/arforti.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"d5bdd5d0\", \"873d0e44\"]","isMerchantRequest":"false","hashVersion":"80079e4cw22952a98p55856082md4f1b6b4","publish":"custom","events":"[[\"page_viewed\",{}]]"});})();</script><script async="" src="https://arforti.com/cdn/wpm/b80079e4cw22952a98p55856082md4f1b6b4m.js" data-trekkie-shim="true" data-agent-context="true" data-api-client-id="580111" data-facebook-capi-enabled="true" data-theme-id="153505169462" data-theme-published="true" data-event-metadata-id="7829890a-8ae5-4525-be6b-7cfacdae47b7" data-page-type="home" data-shop-id="62481989686" data-storefront-base-url="https://arforti.com" data-extension-base-url="https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager" data-surface="storefront-renderer" data-enabled-beta-flags="[&quot;d5bdd5d0&quot;, &quot;873d0e44&quot;]" data-is-merchant-request="false" data-hash-version="80079e4cw22952a98p55856082md4f1b6b4" data-publish="custom" data-events="[[&quot;page_viewed&quot;,{}]]" data-browser-target="modern"></script><script>
+  window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+  window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+  window.ShopifyAnalytics.meta.currency = 'USD';
+  var meta = {"page":{"pageType":"home","requestId":"4076940a-0b69-4ba8-8f13-ff469edd2c5f-1788643864"}};
+  for (var attr in meta) {
+    window.ShopifyAnalytics.meta[attr] = meta[attr];
+  }
+</script>
+<script class="analytics">
+  (function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    window.ShopifyAnalytics.lib.trekkie = window.trekkie;
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        if (window.__TREKKIE_SHIM_QUEUE && (method == 'track' || method == 'page')) {
+          try {
+            window.__TREKKIE_SHIM_QUEUE.push({
+              from: 'trekkie-stub',
+              method: method,
+              args: args.slice(1)
+            });
+          } catch (e) {
+            // no-op
+          }
+        }
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      var first = document.getElementsByTagName('script')[0];
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.onerror = function(e) {
+  var scriptFallback = document.createElement('script');
+  scriptFallback.type = 'text/javascript';
+  scriptFallback.onerror = function(error) {
+          var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 62481989686,
+      theme_id: 153505169462,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "//arforti.com/cdn/s/trekkie.storefront.ce2a643c30d67cd7b828f2dda8cfc17d1d88fbb5.min.js"});
+
+  };
+  scriptFallback.async = true;
+  scriptFallback.src = '//arforti.com/cdn/s/trekkie.storefront.ce2a643c30d67cd7b828f2dda8cfc17d1d88fbb5.min.js';
+  first.parentNode.insertBefore(scriptFallback, first);
+};
+script.async = true;
+script.src = '//arforti.com/cdn/s/trekkie.storefront.ce2a643c30d67cd7b828f2dda8cfc17d1d88fbb5.min.js';
+first.parentNode.insertBefore(script, first);
+
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":62481989686,"isMerchantRequest":null,"themeId":153505169462,"themeCityHash":"16321198334944955103","contentLanguage":"en","currency":"USD","eventMetadataId":"7829890a-8ae5-4525-be6b-7cfacdae47b7"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["f43e7f5e","b5387b81","d5bdd5d0"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+        
+      }
+    });
+
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"home","requestId":"4076940a-0b69-4ba8-8f13-ff469edd2c5f-1788643864","shopifyEmitted":true});
+
+    var eventsListenerScript = document.createElement('script');
+    eventsListenerScript.async = true;
+    eventsListenerScript.src = "//arforti.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js";
+    document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+})();</script><script async="" src="//arforti.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js"></script>
+<script defer="" src="https://arforti.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.8.9.min.js" data-application="storefront-renderer" data-shop-id="62481989686" data-render-region="gcp-us-east1" data-page-type="index" data-theme-instance-id="153505169462" data-theme-name="Skeleton" data-theme-version="0.1.0" data-monorail-region="shop_domain" data-resource-timing-sampling-rate="10" data-shs="true" data-shs-beacon="true" data-shs-export-with-fetch="true" data-shs-logs-sample-rate="1" data-shs-beacon-endpoint="https://arforti.com/api/collect"></script>
+<meta name="shopify-y" content="bf70d35c-9b81-4286-b6be-1e6486c42858" data-expiration="1820201464000"><meta name="shopify-s" content="5b542587-4f5c-48a7-95ea-8ff344796eb9" data-expiration="1788645664000"><meta name="new-cookie-storage-activated" content="f">
+<meta http-equiv="origin-trial" content="A1duO9QWZ/3h+eq5jQsvYqOTVq5h5q2AoGInpwNr4FT22/JUt3BxFERXHAo5iKhs6doOavi6G5hno0oBANPzSgIAAABxeyJvcmlnaW4iOiJodHRwczovL2Nkbi5zaG9waWZ5LmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJlcmVuZGVyVW50aWxTY3JpcHQiLCJleHBpcnkiOjE3ODg4MjU2MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="AwnTE1hYg9Bsa5x0wEDsbG6tOdZ3j6ebKzXxbr/2TnTilsCRK9FwndlhAyFVnnBH1qQAqpOPJxVWiKGUqBnOmAYAAAB8eyJvcmlnaW4iOiJodHRwczovL2Nkbi5zaG9waWZ5LmNvbTo0NDMiLCJmZWF0dXJlIjoiTG9uZ0FuaW1hdGlvbkZyYW1lU3R5bGVEdXJhdGlvbiIsImV4cGlyeSI6MTc5MTI0NDgwMCwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A1cNj7yeFpBT/ETqZHRgUfM9tToLwOpBySTd4C9Eya3JtQo/BEQegM6MMV7BZESSyAjQJJXYgH/ovHY1UHmB8woAAABjeyJvcmlnaW4iOiJodHRwczovL2Nkbi5zaG9waWZ5LmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViTUNQIiwiZXhwaXJ5IjoxNzk0ODczNjAwLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1XQljJxk3U4c44gueu4vlIeDofyyWFswfVKbUiNw4itZx4Yy8Uw3nIhtzBePIrv1bSXqzHGDfYymYF5W7TKKAoAAABzeyJvcmlnaW4iOiJodHRwczovL2Nkbi5zaG9waWZ5LmNvbTo0NDMiLCJmZWF0dXJlIjoiU3BlY3VsYXRpb25NZWFzdXJlbWVudCIsImV4cGlyeSI6MTc5MzY2NDAwMCwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script type="speculationrules">{}</script><script type="module" defer="" src="https://arforti.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js"></script><script src="https://arforti.com/web-pixels@80079e4cw22952a98p55856082md4f1b6b4/app/web-pixel-2682060854@96420dbe9ea96c426a1b7f364f977719~2/pixel.modern.js" async="" data-pixel-id="2682060854" data-pixel-type="APP"></script><link rel="dns-prefetch preconnect" href="https://cdn.shopify.com" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/polyfills.Db3KX98s.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/app.pC2QZIzv.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/esnext-vendor.BgMbUV1p.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/context-browser.CXP_dDmb.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/checkout-policy.DH6_Axi-.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/helpers-installmentsNotSupportedForAddress.CZ6eRFry.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/receipt-mapper-load-recovery.BoYC4d6N.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/receipt-eager-mappers.CnMijc_s.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/consent-manager-shared.Nd7Ww1fi.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/sections-shared.Dt2ItJ1I.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/error-logger-report-graphql-error.ihqnXMaa.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/shop-pay-normalizeBuyerDetails.BEhxIoxr.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/helpers-derivations.D-G5-STJ.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/utilities-shopCashMoney.B1WgvElc.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/color-contrast-colorContrast.tkeO-3T8.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/graphql-redeemable.CNIdI_XL.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hydrate.DIADhEPP.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShopPayExternalAppContext.C-Z2oMxB.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/locale-en.BqHdjmAI.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/OnePage.jkBhwRvF.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/components-DeliveryTransition.CKpUdZIs.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/useShopPayButtonClassName.d59KQDKL.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/cross-border-hooks.CwIqdnAz.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-usePickupPoints.DtA5CojJ.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/ChangeCompanyLocationLink.C8Hzmi2y.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/BillingAddressForm.DRiiCk5O.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/PhoneField.CMkAJrp6.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useSuppressShopPayModalOnLoad.C8EQbvEZ.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/components-RedirectionNotice.module.COqArpwC.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/Popover.DdPqkIWt.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/Choice.DQmULULI.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/Checkbox.CxmUiY0J.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useCanChangeCompanyLocation.DTXNbc10.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useForceShopPayUrl.rtnULKFr.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/ImpressionEventCapture.CDiuqmOw.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/utilities-previous.DXThPzJT.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/CaptureEvents-ButtonWithRegisterWebPixel.ZgCjzgX4.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/ShopPayLogo.CavihgBM.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useWalletsTimeout.DizBNwLR.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-usePostPurchase.36xwWX7D.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useWalletsMonorailTrack.Z7BQB2cc.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/EmptyState.dnKg9RDa.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/AutocompleteField-hooks.BQj4bnpi.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/PendingShipping.8_gSpXGs.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/RememberMeSection.Dd06HXGI.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/PaymentIcon.CRHEbx0J.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/cvv-cvvBridge.BBPzzipL.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/payment-usePaymentExemptionReason.lSdwCnDj.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useGeneralPaymentErrorMessage.mbIzLmRe.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/PaymentLine.hWQTKfQW.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useUpdateCheckoutAddress.DFVzZ8fu.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/Section.BUJWuaE5.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/Section-SectionStyleOverride.DeCAqGg2.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/PaymentErrorBanner.Bf_BYB20.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useOnePageFormSubmit.PMS1oT9n.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/PaymentButtons.B5g3gxPL.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/PayButton-sizing._n8GkcX3.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/useShopPaySessionTokenStorage.CRgezX78.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/sandbox-helpers.BFBp0vwY.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/utils-useViolationsHandler.BciB8DPC.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/checkout-as-guest-amazon-pay.BeQwAiLG.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-payment-button.D1UU_RzK.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShouldRevealExtension.CnBl02PM.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-usePreselectSpi.P-8PTi-1.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/Switch.CBsiWZKm.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useAvailableShopPromotionDiscounts.BeMpVCqe.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/Middot.CKtziuzI.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/EstimatedDeliveryContent.ByGP3rjX.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/shipping-methods-consolidated-included.CRwTgyqa.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/ShippingLines.BydJ5gsC.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/ShipmentBreakdown.Dxl3GInG.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/MerchandiseModal.tbb596jn.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/ShippingMethodSelector.BdPxG7Gm.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/TextArea.CsaOnUIw.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/SubscriptionPriceBreakdown.FS_p2VTS.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShopPayNewSignupLoginExperiment.DXcNAs1N.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/MobileOrderSummary.vrBK5OLe.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/hooks-useStableHostMethodsReferences.D0McV_w0.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/BillingAddressSelector.B8I4Scnu.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="script" href="/cdn/shopifycloud/checkout-web/assets/c1/StockProblems-StockProblemsLineItemList.DF8lwJwP.js" crossorigin=""><link rel="prefetch" fetchpriority="low" as="style" href="/cdn/shopifycloud/checkout-web/assets/c1/assets/app.CM6PQxCl.css" crossorigin=""></head>
+
+  <body><a class="skip-link" href="#MainContent">Skip to content</a>
+    <!-- BEGIN sections: header-group -->
+<div id="shopify-section-sections--21565161373750__header" class="shopify-section shopify-section-group-header-group"><script>
+  window.__ARFORTI_CAA__ = window.__ARFORTI_CAA__ || {
+    clientId: "7c37ed8b-5106-46f3-9882-175e0edc0dc1",
+    redirectUri: "https:\/\/arforti.com\/pages\/account",
+    logoutUri: "https:\/\/arforti.com"
+  };
+</script>
+<script src="//arforti.com/cdn/shop/t/28/assets/customer-account.js?v=175922954698242447771785921624" defer=""></script>
+<header class="header full-width header--overlay is-scrolled is-solid" data-header="" role="banner">
+  <div class="header__bar">
+    <div class="header__group header__group--left">
+      <button class="header__icon header__burger" type="button" data-menu-open="" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+      
+<a class="header__icon header__icon--mobile" href="/pages/account" aria-label="Account">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-account-icon=""><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          <span class="header__avatar ts-sm" data-account-avatar="" hidden=""></span>
+        </a>
+      
+
+      
+        <nav class="header__nav" aria-label="Primary">
+          
+            
+              <div class="header__nav-item header__nav-item--mega">
+                <a class="header__navlink ts-xxs header__underline" href="/collections/all">Collection</a>
+                <div class="header__mega">
+                  <div class="header__mega-links">
+                    
+                      <a class="header__mega-link ts-h-s" href="/collections/all">All Bags</a>
+                    
+                      <a class="header__mega-link ts-h-s" href="/collections/alir">ALIR</a>
+                    
+                      <a class="header__mega-link ts-h-s" href="/collections/wharton">WHARTON</a>
+                    
+                  </div>
+                  <a class="header__mega-media" href="/collections/all" tabindex="-1" aria-hidden="true">
+                    
+                      <img src="//arforti.com/cdn/shop/files/08209271_0765a5c7-9cf5-4b53-a9dd-f1060a651482.jpg?v=1787828972&amp;width=1200" alt="Collection" srcset="//arforti.com/cdn/shop/files/08209271_0765a5c7-9cf5-4b53-a9dd-f1060a651482.jpg?v=1787828972&amp;width=600 600w, //arforti.com/cdn/shop/files/08209271_0765a5c7-9cf5-4b53-a9dd-f1060a651482.jpg?v=1787828972&amp;width=900 900w, //arforti.com/cdn/shop/files/08209271_0765a5c7-9cf5-4b53-a9dd-f1060a651482.jpg?v=1787828972&amp;width=1200 1200w" width="1200" height="800" loading="lazy" sizes="67vw" class="header__mega-img">
+                    
+                    <span class="header__mega-overlay"></span>
+                  </a>
+                </div>
+              </div>
+            
+          
+            
+              <a class="header__navlink ts-xxs header__underline" href="/collections/all">New Arrivals</a>
+            
+          
+        </nav>
+      
+    </div>
+
+    <a class="header__logo" href="/">ARFORTI</a>
+
+    <div class="header__group header__group--right">
+      
+        <button class="header__icon header__icon--mobile" type="button" data-search-toggle="" aria-label="Search" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </button>
+      
+
+      <a class="header__icon header__icon--mobile header__cart" href="/cart" aria-label="Cart" data-cart-open="">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+        <span class="header__cart-dot ts-xxs is-empty" data-cart-count="">0</span>
+      </a>
+
+      
+        <button class="header__navlink ts-xxs header__underline header__desk" type="button" data-region-open="">EN / USD</button>
+      
+
+      
+        <button class="header__navlink ts-xxs header__underline header__desk" type="button" data-search-toggle="">Search</button>
+      
+      
+        <a class="header__navlink ts-xxs header__underline header__desk" href="/pages/account">Account</a>
+      
+      
+        <a class="header__navlink ts-xxs header__underline header__desk" href="/pages/waitlist">Waitlist (<span data-waitlist-count="">0</span>)</a>
+      
+      <a class="header__navlink ts-xxs header__underline header__desk header__cart-text" href="/cart" data-cart-open="">Cart (<span data-cart-count="">0</span>)</a>
+    </div>
+  </div>
+
+  
+    <div class="header__search" data-search-panel="" data-predictive-url="/search/suggest" hidden="">
+      <div class="header__search-inner">
+        <button class="header__search-close" type="button" data-search-toggle="" aria-label="Close search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        <form action="/search" method="get" role="search" class="header__search-form"><input type="search" name="q" value="" class="header__search-input ts-h-s" placeholder="Search" aria-label="Search" autocomplete="off" data-predictive-input="" style="">
+          <input type="hidden" name="type" value="product" style="">
+        </form>
+
+        <div class="header__search-content"><div class="header__search-results" data-predictive-results="" hidden=""></div>
+        </div>
+      </div>
+    </div>
+  
+</header>
+
+<div class="header__menu" data-menu="" hidden="">
+  <button class="header__menu-overlay" type="button" data-menu-close="" aria-label="Close menu"></button>
+  <div class="header__menu-panel">
+    <div class="header__menu-top">
+      <span class="ts-sm header__menu-title">Menu</span>
+      <button class="header__icon" type="button" data-menu-close="" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+    </div>
+    <nav class="header__menu-list" aria-label="Mobile">
+      
+        
+          
+            <div class="header__menu-group" data-menu-accordion="">
+              <button class="header__menu-trigger" type="button" data-menu-toggle="" aria-expanded="false">
+                <span class="header__menu-link ts-h">Collection</span>
+                <svg class="header__menu-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M19 9l-7 7-7-7"></path></svg>
+              </button>
+              <div class="header__menu-sub" data-menu-sub="">
+                <div class="header__menu-sub-inner">
+                  
+                    <a class="header__menu-sublink ts-h-s" href="/collections/all">All Bags</a>
+                  
+                    <a class="header__menu-sublink ts-h-s" href="/collections/alir">ALIR</a>
+                  
+                    <a class="header__menu-sublink ts-h-s" href="/collections/wharton">WHARTON</a>
+                  
+                </div>
+              </div>
+            </div>
+          
+        
+          
+            <a class="header__menu-link ts-h" href="/collections/all">New Arrivals</a>
+          
+        
+      
+
+      
+        <hr class="header__menu-divider">
+        
+          <a class="header__menu-link ts-h" href="/pages/account">Account</a><button type="button" class="header__menu-link ts-h" data-caa-logout="" hidden="">Log out</button>
+        
+        
+          <span class="header__menu-waitlist">
+            <a class="header__menu-link ts-h" href="/pages/waitlist">Waitlist (<span data-waitlist-count="">0</span>)</a>
+            
+              <span class="header__menu-waitlist-badge" hidden="" data-label="On The List" data-label-ready="In Stock">On The List</span>
+            
+          </span>
+        
+      
+
+        <div class="header__menu-group" data-menu-accordion="">
+          <button class="header__menu-trigger" type="button" data-menu-toggle="" aria-expanded="false">
+            <span class="header__menu-link ts-h">Client Services</span>
+            <svg class="header__menu-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="header__menu-sub" data-menu-sub="">
+            <div class="header__menu-sub-inner">
+              
+                <a class="header__menu-sublink ts-h-s" href="/pages/faq">FAQ</a>
+              
+                <a class="header__menu-sublink ts-h-s" href="/pages/shipping">Shipping &amp; Delivery</a>
+              
+                <a class="header__menu-sublink ts-h-s" href="/pages/returns">Returns &amp; Exchanges</a>
+              
+                <a class="header__menu-sublink ts-h-s" href="/pages/warranty">Craftsmanship Warranty</a>
+              
+                <a class="header__menu-sublink ts-h-s" href="/pages/care">Care Guide</a>
+              
+            </div>
+          </div>
+        </div>
+      
+    </nav>
+      <div class="header__menu-foot">
+        
+          <button class="header__menu-region ts-sm-s" type="button" data-region-open="">United States (USD)</button>
+        
+        
+<div class="header__menu-social" data-social-mirror=""><a class="header__menu-social-link ts-sm-xs" href="https://www.facebook.com/share/1GtBSkaVPV/?mibextid=wwXIfr">FB</a><a class="header__menu-social-link ts-sm-xs" href="https://www.instagram.com/arforti_official?igsi=aG9tYnVleGR5bWh5&amp;utm_source=qr">IG</a><a class="header__menu-social-link ts-sm-xs" href="https://www.tiktok.com/@arforti?_r=1&amp;_t=ZT-99BAGYQinoj">TT</a></div>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <div class="header__region" data-region="" hidden="">
+    <button class="header__region-overlay" type="button" data-region-close="" aria-label="Close"></button>
+    <div class="header__region-panel" role="dialog" aria-modal="true" aria-label="Regional settings">
+      <button class="header__region-x" type="button" data-region-close="" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button><form method="post" action="/localization" id="region-form" accept-charset="UTF-8" class="shopify-localization-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" style=""><input type="hidden" name="utf8" value="✓" style=""><input type="hidden" name="_method" value="put" style=""><input type="hidden" name="return_to" value="/" style=""><div class="header__region-head">
+          <h3 class="header__region-title ts-h">Regional Settings</h3>
+          <p class="header__region-sub ts-sm">Select your destination and currency</p>
+        </div>
+        <div class="header__region-cols">
+          <div class="header__region-col header__region-col--dest">
+            <span class="header__region-coltitle ts-sm-s">Destination</span>
+            <div class="header__region-scroll">
+
+<button type="button" class="header__region-opt ts-sm-s is-active" data-locale="en">United States</button>
+                
+              
+
+<button type="button" class="header__region-opt ts-sm-s" data-locale="en">Canada</button>
+                
+              
+
+<button type="button" class="header__region-opt ts-sm-s" data-locale="en">United Kingdom</button>
+                
+              
+
+<button type="button" class="header__region-opt ts-sm-s" data-locale="fr">France</button>
+                
+              
+
+<button type="button" class="header__region-opt ts-sm-s" data-locale="de">Germany</button>
+                
+              
+
+<button type="button" class="header__region-opt ts-sm-s" data-locale="it">Italy</button>
+                
+              
+
+<button type="button" class="header__region-opt ts-sm-s" data-locale="es">Spain</button>
+                
+              
+
+<button type="button" class="header__region-opt ts-sm-s" data-locale="en">Australia</button>
+                
+              
+
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            </div>
+          </div>
+          <div class="header__region-col">
+            <span class="header__region-coltitle ts-sm-s">Currency</span>
+            <div class="header__region-scroll">
+
+
+
+                  <button type="button" class="header__region-cur ts-sm-s is-active" data-country="US">USD</button>
+                
+              
+
+
+                  <button type="button" class="header__region-cur ts-sm-s" data-country="FR">EUR</button>
+                
+              
+
+
+                  <button type="button" class="header__region-cur ts-sm-s" data-country="GB">GBP</button>
+                
+              
+
+
+                  <button type="button" class="header__region-cur ts-sm-s" data-country="CA">CAD</button>
+                
+              
+
+
+                  <button type="button" class="header__region-cur ts-sm-s" data-country="AU">AUD</button>
+                
+              
+
+              
+              
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <input type="hidden" name="locale_code" value="en" data-locale-input="" style="">
+        <input type="hidden" name="country_code" value="US" data-country-input="" style="">
+        <div class="header__region-foot">
+          <button type="submit" class="header__region-confirm ts-sm">Confirm Settings</button>
+        </div></form></div>
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+<!-- END sections: header-group -->
+
+    <main id="MainContent" tabindex="-1">
+      <div id="shopify-section-template--21565161570358__hero" class="shopify-section"><section class="hero hero--full full-width" data-overlay-until="" style="--hero-overlay: 0.1; --hero-overlay-color: #1a1a1a;"><div class="hero__media"><video class="hero__video" autoplay="" loop="" muted="" playsinline="" preload="metadata" aria-label="ARFORTI" poster="//arforti.com/cdn/shop/files/preview_images/fe89f740c64c40b4a713b4bf0a077e5f.thumbnail.0000000000.jpg?v=1787552310&amp;width=1920"><source src="//arforti.com/cdn/shop/videos/c/vp/fe89f740c64c40b4a713b4bf0a077e5f/fe89f740c64c40b4a713b4bf0a077e5f.m3u8?v=0" type="application/x-mpegURL"><source src="//arforti.com/cdn/shop/videos/c/vp/fe89f740c64c40b4a713b4bf0a077e5f/fe89f740c64c40b4a713b4bf0a077e5f.HD-1080p-7.2Mbps-92428353.mp4?v=0" type="video/mp4"></video>
+      <div class="hero__overlay" aria-hidden="true"></div>
+    </div>
+    <h1 class="visually-hidden">ARFORTI</h1>
+  
+
+  
+
+  
+    <div class="hero__cta-wrap">
+      <a class="hero__cta" href="/collections/all" data-cut-link="">
+        Explore The Collection
+      </a>
+    </div>
+  
+</section>
+
+
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__philosophy" class="shopify-section"><section class="philosophy full-width" style="--phil-cols: 3;">
+  
+<div class="intro intro--center" style="--intro-pt:var(--sp-12);--intro-pb:var(--sp-14);--intro-pt-lg:var(--sp-20);--intro-pb-lg:var(--sp-24);">
+  
+    <span class="intro__kicker ts-sm">Philosophy</span>
+  
+  
+    <h2 class="intro__title ts-h-xl">FELT, NOT SEEN</h2>
+  
+  
+    <div class="intro__copy ts-sm-m"><p>Some things reveal their value quietly.<br>When everything outside the piece itself falls away, what remains is the warmth of the leather, the balance of its form, and the care that went into making it.<br>As it settles into your life, its meaning becomes uniquely yours.<br>Its value is not fixed at the moment of purchase. It is shaped by the years that follow.</p></div>
+  
+</div>
+
+
+
+
+  
+    <div class="philosophy__gallery">
+      
+        
+        
+          <div class="philosophy__item">
+          <div class="philosophy__media">
+            
+<img src="//arforti.com/cdn/shop/files/08209276_73d21fbd-1d3a-4628-a033-d39e1e027721.jpg?v=1787828834&amp;width=1000" alt="" srcset="//arforti.com/cdn/shop/files/08209276_73d21fbd-1d3a-4628-a033-d39e1e027721.jpg?v=1787828834&amp;width=325 325w, //arforti.com/cdn/shop/files/08209276_73d21fbd-1d3a-4628-a033-d39e1e027721.jpg?v=1787828834&amp;width=463 463w, //arforti.com/cdn/shop/files/08209276_73d21fbd-1d3a-4628-a033-d39e1e027721.jpg?v=1787828834&amp;width=640 640w, //arforti.com/cdn/shop/files/08209276_73d21fbd-1d3a-4628-a033-d39e1e027721.jpg?v=1787828834&amp;width=800 800w, //arforti.com/cdn/shop/files/08209276_73d21fbd-1d3a-4628-a033-d39e1e027721.jpg?v=1787828834&amp;width=1000 1000w" width="1000" height="1500" sizes="(min-width: 1024px) 33vw, 80vw" class="philosophy__img">
+            
+          </div>
+          
+        </div>
+        
+      
+        
+        
+          <div class="philosophy__item">
+          <div class="philosophy__media">
+            
+<img src="//arforti.com/cdn/shop/files/08209257_0dfac6b1-9dd2-44bc-8f30-31fff331b5b7.jpg?v=1787828861&amp;width=1000" alt="" srcset="//arforti.com/cdn/shop/files/08209257_0dfac6b1-9dd2-44bc-8f30-31fff331b5b7.jpg?v=1787828861&amp;width=325 325w, //arforti.com/cdn/shop/files/08209257_0dfac6b1-9dd2-44bc-8f30-31fff331b5b7.jpg?v=1787828861&amp;width=463 463w, //arforti.com/cdn/shop/files/08209257_0dfac6b1-9dd2-44bc-8f30-31fff331b5b7.jpg?v=1787828861&amp;width=640 640w, //arforti.com/cdn/shop/files/08209257_0dfac6b1-9dd2-44bc-8f30-31fff331b5b7.jpg?v=1787828861&amp;width=800 800w, //arforti.com/cdn/shop/files/08209257_0dfac6b1-9dd2-44bc-8f30-31fff331b5b7.jpg?v=1787828861&amp;width=1000 1000w" width="1000" height="1500" sizes="(min-width: 1024px) 33vw, 80vw" class="philosophy__img">
+            
+          </div>
+          
+        </div>
+        
+      
+        
+        
+          <div class="philosophy__item">
+          <div class="philosophy__media">
+            
+<img src="//arforti.com/cdn/shop/files/08209185_05bfc8ef-aca0-46d9-90de-287f1c43d579.jpg?v=1787655893&amp;width=1000" alt="" srcset="//arforti.com/cdn/shop/files/08209185_05bfc8ef-aca0-46d9-90de-287f1c43d579.jpg?v=1787655893&amp;width=325 325w, //arforti.com/cdn/shop/files/08209185_05bfc8ef-aca0-46d9-90de-287f1c43d579.jpg?v=1787655893&amp;width=463 463w, //arforti.com/cdn/shop/files/08209185_05bfc8ef-aca0-46d9-90de-287f1c43d579.jpg?v=1787655893&amp;width=640 640w, //arforti.com/cdn/shop/files/08209185_05bfc8ef-aca0-46d9-90de-287f1c43d579.jpg?v=1787655893&amp;width=800 800w, //arforti.com/cdn/shop/files/08209185_05bfc8ef-aca0-46d9-90de-287f1c43d579.jpg?v=1787655893&amp;width=1000 1000w" width="1000" height="1500" sizes="(min-width: 1024px) 33vw, 80vw" class="philosophy__img">
+            
+          </div>
+          
+        </div>
+        
+      
+    </div>
+  
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__banner" class="shopify-section"><section class="banner full-width" style="--banner-overlay: 0.0; --banner-overlay-color: #1a1a1a;">
+  
+  
+    <div class="banner__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209197_9fe8d8dc-52c7-4357-9f36-b273f6b37b20.jpg?v=1787828944&amp;width=2400" alt="ARFORTI" srcset="//arforti.com/cdn/shop/files/08209197_9fe8d8dc-52c7-4357-9f36-b273f6b37b20.jpg?v=1787828944&amp;width=640 640w, //arforti.com/cdn/shop/files/08209197_9fe8d8dc-52c7-4357-9f36-b273f6b37b20.jpg?v=1787828944&amp;width=960 960w, //arforti.com/cdn/shop/files/08209197_9fe8d8dc-52c7-4357-9f36-b273f6b37b20.jpg?v=1787828944&amp;width=1280 1280w, //arforti.com/cdn/shop/files/08209197_9fe8d8dc-52c7-4357-9f36-b273f6b37b20.jpg?v=1787828944&amp;width=1600 1600w, //arforti.com/cdn/shop/files/08209197_9fe8d8dc-52c7-4357-9f36-b273f6b37b20.jpg?v=1787828944&amp;width=2000 2000w, //arforti.com/cdn/shop/files/08209197_9fe8d8dc-52c7-4357-9f36-b273f6b37b20.jpg?v=1787828944&amp;width=2400 2400w" width="2400" height="1600" loading="lazy" sizes="100vw" class="banner__img">
+    
+
+    
+
+    
+  </div>
+  
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__material" class="shopify-section"><section class="material full-width">
+  
+<div class="intro intro--center" style="--intro-pt:var(--sp-10);--intro-pb:var(--sp-14);--intro-pt-lg:var(--sp-16);--intro-pb-lg:var(--sp-20);">
+  
+    <span class="intro__kicker ts-sm">ATELIER</span>
+  
+  
+    <h2 class="intro__title ts-h-xl">QUIET DIALOGUE</h2>
+  
+  
+    <div class="intro__copy ts-sm-m"><p>Every piece begins with a quiet exchange between the leather and the artisan.</p><p>We work with the leather’s natural character, shaping each piece with care and precision.</p><p>What emerges is a series of enduring forms that stay with you through every stage of your life.</p></div>
+  
+</div>
+
+
+
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__featured" class="shopify-section"><section class="featured full-width" style="--featured-ratio: 725 / 872;">
+  
+    <div class="featured__grid">
+      
+<article class="featured__card">
+          <a class="featured__media" href="/products/alir-gray-taupe">
+            
+<img src="//arforti.com/cdn/shop/files/08209284_3549fb71-ec3e-40a5-a1bc-2e283f5649da.jpg?v=1787829027&amp;width=1200" alt="ALIR" srcset="//arforti.com/cdn/shop/files/08209284_3549fb71-ec3e-40a5-a1bc-2e283f5649da.jpg?v=1787829027&amp;width=390 390w, //arforti.com/cdn/shop/files/08209284_3549fb71-ec3e-40a5-a1bc-2e283f5649da.jpg?v=1787829027&amp;width=640 640w, //arforti.com/cdn/shop/files/08209284_3549fb71-ec3e-40a5-a1bc-2e283f5649da.jpg?v=1787829027&amp;width=725 725w, //arforti.com/cdn/shop/files/08209284_3549fb71-ec3e-40a5-a1bc-2e283f5649da.jpg?v=1787829027&amp;width=960 960w, //arforti.com/cdn/shop/files/08209284_3549fb71-ec3e-40a5-a1bc-2e283f5649da.jpg?v=1787829027&amp;width=1200 1200w" width="1200" height="1800" loading="lazy" sizes="(min-width: 1024px) 50vw, 100vw" class="featured__img">
+            
+
+            <div class="featured__overlay">
+              <h3 class="featured__name ts-h">ALIR</h3>
+              
+                <p class="featured__subtitle ts-sub">Full Grain Calfskin</p>
+              
+              <span class="featured__link cart-action-link ts-sm">BAGS</span>
+            </div>
+          </a>
+
+          <div class="featured__copy">
+            <h3 class="featured__name ts-h">ALIR</h3>
+            
+              <p class="featured__subtitle ts-sub">Full Grain Calfskin</p>
+            
+            <a class="featured__link cart-action-link ts-sm" href="/products/alir-gray-taupe" data-cut-link="">BAGS</a>
+          </div>
+        </article>
+      
+<article class="featured__card">
+          <a class="featured__media" href="/products/wharton-warm-taupe">
+            
+<img src="//arforti.com/cdn/shop/files/08209221_b555ee93-6505-4317-82e3-09566ab62dfa.jpg?v=1787828577&amp;width=1200" alt="WHARTON" srcset="//arforti.com/cdn/shop/files/08209221_b555ee93-6505-4317-82e3-09566ab62dfa.jpg?v=1787828577&amp;width=390 390w, //arforti.com/cdn/shop/files/08209221_b555ee93-6505-4317-82e3-09566ab62dfa.jpg?v=1787828577&amp;width=640 640w, //arforti.com/cdn/shop/files/08209221_b555ee93-6505-4317-82e3-09566ab62dfa.jpg?v=1787828577&amp;width=725 725w, //arforti.com/cdn/shop/files/08209221_b555ee93-6505-4317-82e3-09566ab62dfa.jpg?v=1787828577&amp;width=960 960w, //arforti.com/cdn/shop/files/08209221_b555ee93-6505-4317-82e3-09566ab62dfa.jpg?v=1787828577&amp;width=1200 1200w" width="1200" height="1800" loading="lazy" sizes="(min-width: 1024px) 50vw, 100vw" class="featured__img">
+            
+
+            <div class="featured__overlay">
+              <h3 class="featured__name ts-h">WHARTON</h3>
+              
+                <p class="featured__subtitle ts-sub">Full Grain Calfskin</p>
+              
+              <span class="featured__link cart-action-link ts-sm">BAGS</span>
+            </div>
+          </a>
+
+          <div class="featured__copy">
+            <h3 class="featured__name ts-h">WHARTON</h3>
+            
+              <p class="featured__subtitle ts-sub">Full Grain Calfskin</p>
+            
+            <a class="featured__link cart-action-link ts-sm" href="/products/wharton-warm-taupe" data-cut-link="">BAGS</a>
+          </div>
+        </article>
+      
+    </div>
+  
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__details" class="shopify-section"><section class="details full-width" data-video="" data-autoplay="true" data-play-mobile="true" style="--details-dim: 0.85; --details-dim-lg: 0.85">
+    
+<video class="details__media" loop="" muted="" playsinline="" preload="auto" poster="//arforti.com/cdn/shop/files/preview_images/b0fc145331de40bfaecb0cc68e0acc99.thumbnail.0000000000.jpg?v=1786985159&amp;width=1500"><source src="//arforti.com/cdn/shop/videos/c/vp/b0fc145331de40bfaecb0cc68e0acc99/b0fc145331de40bfaecb0cc68e0acc99.m3u8?v=0" type="application/x-mpegURL"><source src="//arforti.com/cdn/shop/videos/c/vp/b0fc145331de40bfaecb0cc68e0acc99/b0fc145331de40bfaecb0cc68e0acc99.HD-1080p-7.2Mbps-91857694.mp4?v=0" type="video/mp4"></video>
+  
+</section>
+
+
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__dossier" class="shopify-section"><section class="dossier full-width" data-desaturate="">
+  
+<div class="intro intro--center" style="--intro-pt:var(--sp-12);--intro-pb:var(--sp-14);--intro-pt-lg:var(--sp-20);--intro-pb-lg:var(--sp-24);">
+  
+    <span class="intro__kicker ts-sm">Transparency</span>
+  
+  
+    <h2 class="intro__title ts-h-xl">INTRINSIC VALUE</h2>
+  
+  
+    <div class="intro__copy ts-sm-m"><p>Craftsmanship is subtraction.</p><p>Each piece takes 15 to 20 days. That time goes to the essentials.</p><p>With the illusion of value stripped away, what remains is the piece itself—the leather, the hardware, and the craftsmanship behind it.</p></div>
+  
+</div>
+
+
+
+
+  
+    <div class="dossier__strip">
+      <div class="dossier__grid">
+        
+          <article class="dossier__card">
+            <div class="dossier__media">
+              
+<img src="//arforti.com/cdn/shop/files/2a55e883cd8e2adc4ff1f3ad78015c3.jpg?v=1787647338&amp;width=700" alt="Leather Selection &amp; Cutting" srcset="//arforti.com/cdn/shop/files/2a55e883cd8e2adc4ff1f3ad78015c3.jpg?v=1787647338&amp;width=290 290w, //arforti.com/cdn/shop/files/2a55e883cd8e2adc4ff1f3ad78015c3.jpg?v=1787647338&amp;width=341 341w, //arforti.com/cdn/shop/files/2a55e883cd8e2adc4ff1f3ad78015c3.jpg?v=1787647338&amp;width=480 480w, //arforti.com/cdn/shop/files/2a55e883cd8e2adc4ff1f3ad78015c3.jpg?v=1787647338&amp;width=640 640w, //arforti.com/cdn/shop/files/2a55e883cd8e2adc4ff1f3ad78015c3.jpg?v=1787647338&amp;width=700 700w" width="700" height="701" loading="lazy" sizes="(min-width: 1024px) 25vw, 290px" class="dossier__img" style="object-position:49.4523% 59.1789%;">
+              
+            </div>
+            
+              <span class="dossier__day ts-sm">DAY 01-03</span>
+            
+            
+              <h3 class="dossier__title ts-h-l">Leather Selection &amp; Cutting</h3>
+            
+            
+              <p class="dossier__text ts-sub-xs">Texture often says more than words. Full-grain leather is sourced from tanneries certified Gold by the Leather Working Group (LWG). Heavy surface coatings are avoided, preserving the leather’s natural grain, supple texture, and individual character. Each hide is carefully selected and precisely cut so the panels come together in a balanced, consistent composition.</p>
+            
+          </article>
+        
+          <article class="dossier__card">
+            <div class="dossier__media">
+              
+<img src="//arforti.com/cdn/shop/files/DSC00452_1_c6f04bb0-21b7-4b66-adaf-563ea2784607.jpg?v=1786524237&amp;width=700" alt="Thread Selection &amp; Stitching" srcset="//arforti.com/cdn/shop/files/DSC00452_1_c6f04bb0-21b7-4b66-adaf-563ea2784607.jpg?v=1786524237&amp;width=290 290w, //arforti.com/cdn/shop/files/DSC00452_1_c6f04bb0-21b7-4b66-adaf-563ea2784607.jpg?v=1786524237&amp;width=341 341w, //arforti.com/cdn/shop/files/DSC00452_1_c6f04bb0-21b7-4b66-adaf-563ea2784607.jpg?v=1786524237&amp;width=480 480w, //arforti.com/cdn/shop/files/DSC00452_1_c6f04bb0-21b7-4b66-adaf-563ea2784607.jpg?v=1786524237&amp;width=640 640w, //arforti.com/cdn/shop/files/DSC00452_1_c6f04bb0-21b7-4b66-adaf-563ea2784607.jpg?v=1786524237&amp;width=700 700w" width="700" height="700" loading="lazy" sizes="(min-width: 1024px) 25vw, 290px" class="dossier__img">
+              
+            </div>
+            
+              <span class="dossier__day ts-sm">DAY 04-08</span>
+            
+            
+              <h3 class="dossier__title ts-h-l">Thread Selection &amp; Stitching</h3>
+            
+            
+              <p class="dossier__text ts-sub-xs">Each well-placed stitch gives the form its strength. Selected to meet exacting standards for texture, strength, flexibility, and finish, the thread gives each seam a clean, precise expression. Carefully controlled spacing and tension support the bag’s structure while refining its overall feel.</p>
+            
+          </article>
+        
+          <article class="dossier__card">
+            <div class="dossier__media">
+              
+<img src="//arforti.com/cdn/shop/files/DSC09907_1_d0f75bb4-35d9-411b-ac8b-94a28bc10efc.jpg?v=1786524178&amp;width=700" alt="Edge Paint &amp; Finishing" srcset="//arforti.com/cdn/shop/files/DSC09907_1_d0f75bb4-35d9-411b-ac8b-94a28bc10efc.jpg?v=1786524178&amp;width=290 290w, //arforti.com/cdn/shop/files/DSC09907_1_d0f75bb4-35d9-411b-ac8b-94a28bc10efc.jpg?v=1786524178&amp;width=341 341w, //arforti.com/cdn/shop/files/DSC09907_1_d0f75bb4-35d9-411b-ac8b-94a28bc10efc.jpg?v=1786524178&amp;width=480 480w, //arforti.com/cdn/shop/files/DSC09907_1_d0f75bb4-35d9-411b-ac8b-94a28bc10efc.jpg?v=1786524178&amp;width=640 640w, //arforti.com/cdn/shop/files/DSC09907_1_d0f75bb4-35d9-411b-ac8b-94a28bc10efc.jpg?v=1786524178&amp;width=700 700w" width="700" height="700" loading="lazy" sizes="(min-width: 1024px) 25vw, 290px" class="dossier__img">
+              
+            </div>
+            
+              <span class="dossier__day ts-sm">DAY 09-13</span>
+            
+            
+              <h3 class="dossier__title ts-h-l">Edge Paint &amp; Finishing</h3>
+            
+            
+              <p class="dossier__text ts-sub-xs">Refinement is visible in every edge. Specially selected edge paint creates a fine, subtly textured finish with a light and refined appearance. Built up in multiple thin layers, it gives the edges quiet depth without making them feel heavy. Its flexibility and adhesion allow the finish to sit naturally with the leather, adding definition to the silhouette and detail of the bag.</p>
+            
+          </article>
+        
+          <article class="dossier__card">
+            <div class="dossier__media">
+              
+<img src="//arforti.com/cdn/shop/files/DSC00463_1_b873ea90-cbfd-44fa-9959-c21d539502d3.jpg?v=1786524258&amp;width=700" alt="Final Quality Inspection" srcset="//arforti.com/cdn/shop/files/DSC00463_1_b873ea90-cbfd-44fa-9959-c21d539502d3.jpg?v=1786524258&amp;width=290 290w, //arforti.com/cdn/shop/files/DSC00463_1_b873ea90-cbfd-44fa-9959-c21d539502d3.jpg?v=1786524258&amp;width=341 341w, //arforti.com/cdn/shop/files/DSC00463_1_b873ea90-cbfd-44fa-9959-c21d539502d3.jpg?v=1786524258&amp;width=480 480w, //arforti.com/cdn/shop/files/DSC00463_1_b873ea90-cbfd-44fa-9959-c21d539502d3.jpg?v=1786524258&amp;width=640 640w, //arforti.com/cdn/shop/files/DSC00463_1_b873ea90-cbfd-44fa-9959-c21d539502d3.jpg?v=1786524258&amp;width=700 700w" width="700" height="700" loading="lazy" sizes="(min-width: 1024px) 25vw, 290px" class="dossier__img">
+              
+            </div>
+            
+              <span class="dossier__day ts-sm">DAY 14-15+</span>
+            
+            
+              <h3 class="dossier__title ts-h-l">Final Quality Inspection</h3>
+            
+            
+              <p class="dossier__text ts-sub-xs">Nothing is finished until every detail is in place. Before packaging, every bag is reviewed for silhouette, panel alignment, stitch consistency, edge finish, leather condition, and hardware function. Only pieces that meet the required standards are approved for release.</p>
+            
+          </article>
+        
+      </div>
+    </div>
+  
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__comparison" class="shopify-section"><section class="comparison full-width  comparison--sticky" style="--cmp-ratio: 759 / 941;">
+  <div class="comparison__split">
+    <div class="comparison__media">
+      
+<img src="//arforti.com/cdn/shop/files/def3ee9a8cdef6a89f9ccbdf823f74f.jpg?v=1785321632&amp;width=1100" alt="ARFORTI" srcset="//arforti.com/cdn/shop/files/def3ee9a8cdef6a89f9ccbdf823f74f.jpg?v=1785321632&amp;width=480 480w, //arforti.com/cdn/shop/files/def3ee9a8cdef6a89f9ccbdf823f74f.jpg?v=1785321632&amp;width=640 640w, //arforti.com/cdn/shop/files/def3ee9a8cdef6a89f9ccbdf823f74f.jpg?v=1785321632&amp;width=760 760w, //arforti.com/cdn/shop/files/def3ee9a8cdef6a89f9ccbdf823f74f.jpg?v=1785321632&amp;width=960 960w, //arforti.com/cdn/shop/files/def3ee9a8cdef6a89f9ccbdf823f74f.jpg?v=1785321632&amp;width=1100 1100w" width="1100" height="1375" loading="lazy" sizes="(min-width: 1024px) 50vw, 100vw" class="comparison__img">
+      
+    </div>
+
+    <div class="comparison__content">
+      <div class="comparison__table">
+        <div class="comparison__row comparison__row--head">
+          <span class="comparison__driver ts-h-m">Value Breakdown</span>
+          <div class="comparison__cols">
+            <span class="comparison__col ts-h-m">Established Brands</span>
+            <span class="comparison__col ts-h-m">ARFORTI</span>
+          </div>
+        </div>
+
+        
+          <div class="comparison__row">
+            <span class="comparison__label ts-sub-s">Selected Full-Grain Leather</span>
+            <div class="comparison__cols">
+              <span class="comparison__col ts-sub-s">Included</span>
+              <span class="comparison__col comparison__col--brand ts-sub-s">Included</span>
+            </div>
+          </div>
+        
+          <div class="comparison__row">
+            <span class="comparison__label ts-sub-s">Skilled Craftsmanship</span>
+            <div class="comparison__cols">
+              <span class="comparison__col ts-sub-s">Included</span>
+              <span class="comparison__col comparison__col--brand ts-sub-s">Included</span>
+            </div>
+          </div>
+        
+          <div class="comparison__row">
+            <span class="comparison__label ts-sub-s">Master Artisan (10+ Yrs)</span>
+            <div class="comparison__cols">
+              <span class="comparison__col ts-sub-s">Included</span>
+              <span class="comparison__col comparison__col--brand ts-sub-s">Included</span>
+            </div>
+          </div>
+        
+          <div class="comparison__row">
+            <span class="comparison__label ts-sub-s">Brand Premium (Flagship Stores / 5th Ave)</span>
+            <div class="comparison__cols">
+              <span class="comparison__col ts-sub-s">Built into Price</span>
+              <span class="comparison__col comparison__col--brand ts-sub-s">None</span>
+            </div>
+          </div>
+        
+          <div class="comparison__row">
+            <span class="comparison__label ts-sub-s">Celebrity Endorsements</span>
+            <div class="comparison__cols">
+              <span class="comparison__col ts-sub-s">Built into Price</span>
+              <span class="comparison__col comparison__col--brand ts-sub-s">None</span>
+            </div>
+          </div>
+        
+          <div class="comparison__row">
+            <span class="comparison__label ts-sub-s">Traditional Retail Markups</span>
+            <div class="comparison__cols">
+              <span class="comparison__col ts-sub-s">Built into Price</span>
+              <span class="comparison__col comparison__col--brand ts-sub-s">Direct to You</span>
+            </div>
+          </div>
+        
+      </div>
+
+      
+        <div class="comparison__note">
+          
+            <div class="comparison__note-copy ts-sub-xs"><p>You are not paying for traditional retail markups, celebrity endorsements, or layers of distribution.</p><p><br>Value stays in the leather and the making.</p></div>
+          
+          
+            <a class="comparison__cta cart-action-link ts-sm" href="/pages/story" data-cut-link="">
+              Discover More
+            </a>
+          
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__community" class="shopify-section"><section class="community full-width">
+  <div class="community__head">
+    
+      <span class="community__kicker ts-sm">Edit</span>
+    
+    
+      <h2 class="community__heading ts-h-xl">THE LOOK</h2>
+    
+    
+      <div class="community__copy ts-sm-m"><p>Stripped of excess to focus on pure form. </p><p>Explore the balance of fine leather, clean silhouettes, and careful craftsmanship.</p></div>
+    
+    
+      <a class="community__follow cart-action-link ts-sm" href="https://www.instagram.com/arforti_official?igsi=aG9tYnVleGR5bWh5&amp;utm_source=qr" data-cut-link="">
+        Follow Our Journey
+        <svg class="community__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+      </a>
+    
+  </div><div class="community__stage">
+    <a class="community__center" href="https://www.instagram.com/arforti_official?igsi=aG9tYnVleGR5bWh5&amp;utm_source=qr" aria-label="Follow us on Instagram">
+      
+        <h3 class="community__ig-title ts-h-m">Follow us on Instagram</h3>
+      
+      
+        <div class="community__ig-handle ts-sm">@ARFORTI</div>
+      
+    </a>
+
+    
+      <div class="community__gallery">
+        
+          
+
+<figure class="community__tile community__tile--1 community__tile--portrait">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=120 120w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=180 180w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=240 240w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=320 320w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=400 400w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=480 480w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+
+<figure class="community__tile community__tile--2 community__tile--square">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=120 120w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=180 180w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=240 240w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=320 320w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=400 400w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=480 480w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+
+<figure class="community__tile community__tile--3 community__tile--portrait">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=120 120w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=180 180w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=240 240w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=320 320w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=400 400w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=480 480w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+
+<figure class="community__tile community__tile--4 community__tile--portrait">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=120 120w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=180 180w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=240 240w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=320 320w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=400 400w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=480 480w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+
+<figure class="community__tile community__tile--5 community__tile--portrait">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=120 120w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=180 180w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=240 240w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=320 320w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=400 400w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=480 480w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+
+<figure class="community__tile community__tile--6 community__tile--portrait">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=120 120w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=180 180w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=240 240w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=320 320w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=400 400w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=480 480w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=600 600w" width="600" height="400" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+
+<figure class="community__tile community__tile--7 community__tile--landscape">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=120 120w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=180 180w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=240 240w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=320 320w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=400 400w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=480 480w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+
+<figure class="community__tile community__tile--8 community__tile--tall">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=120 120w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=180 180w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=240 240w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=320 320w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=400 400w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=480 480w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+        
+          
+          
+
+<figure class="community__tile community__tile--9 community__tile--portrait community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=120 120w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=180 180w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=240 240w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=320 320w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=400 400w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=480 480w, //arforti.com/cdn/shop/files/08209288_30e17925-6455-49ea-b52f-f8fb67adea90.jpg?v=1787829156&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+          
+
+<figure class="community__tile community__tile--10 community__tile--square community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=120 120w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=180 180w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=240 240w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=320 320w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=400 400w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=480 480w, //arforti.com/cdn/shop/files/08209189_4935070c-ec7d-47d1-aacc-733edad441de.jpg?v=1787829484&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+          
+
+<figure class="community__tile community__tile--11 community__tile--portrait community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=120 120w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=180 180w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=240 240w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=320 320w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=400 400w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=480 480w, //arforti.com/cdn/shop/files/08209178_268a821a-a07c-4763-8982-81cb4076e6d0.jpg?v=1787829252&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+          
+
+<figure class="community__tile community__tile--12 community__tile--portrait community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=120 120w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=180 180w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=240 240w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=320 320w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=400 400w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=480 480w, //arforti.com/cdn/shop/files/08209289_6c1130e8-f555-4b34-9442-0a7588edd4b8.jpg?v=1787829368&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+          
+
+<figure class="community__tile community__tile--13 community__tile--portrait community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=120 120w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=180 180w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=240 240w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=320 320w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=400 400w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=480 480w, //arforti.com/cdn/shop/files/08209260_a454ff7a-0dcb-4363-8729-70e67719518c.jpg?v=1787829413&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+          
+
+<figure class="community__tile community__tile--14 community__tile--portrait community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=120 120w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=180 180w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=240 240w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=320 320w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=400 400w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=480 480w, //arforti.com/cdn/shop/files/08209374_86c229c5-febc-4b8a-a40f-e6c653715ba3.jpg?v=1787829453&amp;width=600 600w" width="600" height="400" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+          
+
+<figure class="community__tile community__tile--15 community__tile--landscape community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=120 120w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=180 180w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=240 240w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=320 320w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=400 400w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=480 480w, //arforti.com/cdn/shop/files/08209294_f39bcec6-e993-4c5b-9c59-91fc5ce27773.jpg?v=1787829296&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+          
+          
+
+<figure class="community__tile community__tile--16 community__tile--tall community__tile--dup" aria-hidden="true">
+  <span class="community__media">
+    
+<img src="//arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=600" alt="" srcset="//arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=120 120w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=180 180w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=240 240w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=320 320w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=400 400w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=480 480w, //arforti.com/cdn/shop/files/08209334_0463b6af-97f1-4d35-9463-e1135684e1c2.jpg?v=1787829332&amp;width=600 600w" width="600" height="900" loading="lazy" sizes="(min-width: 1024px) 25vw, 46vw" class="community__img">
+    
+  </span>
+  
+</figure>
+
+        
+      </div>
+    
+  </div>
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__proof" class="shopify-section"><section class="proof full-width">
+  
+    <div class="proof__shell">
+      <div class="proof__grid">
+        
+<div class="proof__item">
+            
+              <span class="proof__number ts-h-l">I</span>
+            
+            
+              <div class="proof__title-wrap">
+                <h3 class="proof__title ts-sm">Handcrafted</h3>
+              </div>
+            
+            
+              <p class="proof__copy ts-sm-s">Precision Stitching and Finishing</p>
+            
+            
+              <span class="proof__divider-v" aria-hidden="true"></span>
+            
+            
+              <span class="proof__divider-h" aria-hidden="true"></span>
+            
+          </div>
+        
+<div class="proof__item">
+            
+              <span class="proof__number ts-h-l">II</span>
+            
+            
+              <div class="proof__title-wrap">
+                <h3 class="proof__title ts-sm">Premium Leather</h3>
+              </div>
+            
+            
+              <p class="proof__copy ts-sm-s">Selected Full Grain Leather</p>
+            
+            
+              <span class="proof__divider-v proof__divider-v--desktop" aria-hidden="true"></span>
+            
+            
+              <span class="proof__divider-h" aria-hidden="true"></span>
+            
+          </div>
+        
+<div class="proof__item">
+            
+              <span class="proof__number ts-h-l">III</span>
+            
+            
+              <div class="proof__title-wrap">
+                <h3 class="proof__title ts-sm">Global Warranty</h3>
+              </div>
+            
+            
+              <p class="proof__copy ts-sm-s">Lifetime Repair and Care</p>
+            
+            
+              <span class="proof__divider-v" aria-hidden="true"></span>
+            
+            
+          </div>
+        
+<div class="proof__item">
+            
+              <span class="proof__number ts-h-l">IV</span>
+            
+            
+              <div class="proof__title-wrap">
+                <h3 class="proof__title ts-sm">Returns</h3>
+              </div>
+            
+            
+              <p class="proof__copy ts-sm-s">30 Day Global Returns</p>
+            
+            
+            
+          </div>
+        
+      </div>
+    </div>
+  
+</section>
+
+
+
+
+</div><div id="shopify-section-template--21565161570358__newsletter" class="shopify-section"><section class="newsletter full-width">
+  <div class="newsletter__content">
+    
+      <h2 class="newsletter__title ts-h">Be Among The First</h2>
+    
+    
+      <div class="newsletter__copy ts-sub-xs"><p>Discover new arrivals, special editions, and the latest news.</p></div>
+    
+
+    <div class="newsletter__form-shell"><form id="newsletter-template--21565161570358__newsletter" class="newsletter-form" data-klaviyo-key="UzcEyk" data-klaviyo-list="SeCuKy" data-error-text="Something went wrong. Please try again.">
+        <div class="newsletter__row">
+          <input type="email" name="email" id="newsletter-template--21565161570358__newsletter-email" class="newsletter__input ts-sub" placeholder="Email Address" autocomplete="email" autocapitalize="off" autocorrect="off" required="" aria-label="Email Address" style="">
+          <button type="submit" class="newsletter__submit ts-sm">Subscribe</button>
+        </div>
+        <p class="newsletter__error ts-sm-m" data-nl-error="" role="alert" style="display: none"></p>
+        
+          <div class="newsletter__consent">
+            <input type="checkbox" id="newsletter-template--21565161570358__newsletter-consent" class="newsletter__checkbox" required="" style="">
+            <label for="newsletter-template--21565161570358__newsletter-consent" class="newsletter__consent-label ts-sm-s"><p>I agree to the <a href="/pages/privacy">Privacy Policy</a> and consent to receiving email updates.</p></label>
+          </div>
+        
+        <p class="newsletter__success ts-h" data-nl-success="" style="display: none">Welcome.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+</div>
+    </main>
+
+    
+
+
+
+
+    
+    
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    <!-- BEGIN sections: footer-group -->
+<div id="shopify-section-sections--21565161340982__footer" class="shopify-section shopify-section-group-footer-group"><footer class="footer full-width" role="contentinfo">
+  <div class="footer__main">
+    <div class="footer__grid">
+      <div class="footer__brand-col">
+        
+          <div class="footer__brand ts-h">ARFORTI</div>
+        
+        
+          <div class="footer__blurb ts-sm-s"><p>We don’t chase time; we stitch it into leather. </p><p>Made for everyday life, each piece gathers character through years of use.</p></div>
+        
+
+        
+          <div class="footer__form-shell"><form id="footer-newsletter-sections--21565161340982__footer" class="footer-newsletter-form" data-klaviyo-key="UzcEyk" data-klaviyo-list="SeCuKy" data-error-text="Something went wrong. Please try again.">
+              <div class="footer__form-row">
+                <input type="email" name="email" id="footer-newsletter-sections--21565161340982__footer-email" class="footer__input ts-sm" placeholder="Email Address" autocomplete="email" autocapitalize="off" autocorrect="off" required="" aria-label="Email Address" style="">
+                <button type="submit" class="footer__join ts-sm">Join</button>
+              </div>
+              <p class="footer__error ts-sm" data-footer-error="" role="alert" style="display: none"></p>
+              <p class="footer__success ts-label" data-footer-success="" style="display: none">Welcome.</p>
+            </form>
+          </div>
+        
+      </div>
+
+      <div class="footer__links">
+        
+          
+            <div class="footer__col">
+              
+                <h3 class="footer__col-title ts-sm">Help &amp; Care</h3>
+              
+              
+              <ul class="footer__list" role="list">
+                
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/faq">FAQ</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/shipping">Shipping &amp; Returns</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/warranty">Warranty</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/contact">Contact Us</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                  
+                
+              </ul>
+            </div>
+          
+        
+          
+            <div class="footer__col">
+              
+                <h3 class="footer__col-title ts-sm">The House</h3>
+              
+              
+              <ul class="footer__list" role="list">
+                
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/story">Our Story</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                  
+                    
+                    
+                    
+                    
+                  
+                    
+                    
+                    
+                    
+                  
+                    
+                    
+                    
+                    
+                  
+                
+              </ul>
+            </div>
+          
+        
+          
+            <div class="footer__col">
+              
+                <h3 class="footer__col-title ts-sm">Legal &amp; Terms</h3>
+              
+              
+              <ul class="footer__list" role="list">
+                
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/privacy">Privacy Policy</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/terms">Terms of Service</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                      <li><a class="footer__link ts-sm-s" href="/pages/accessibility">Accessibility</a></li>
+                    
+                  
+                    
+                    
+                    
+                    
+                  
+                    
+                    
+                    
+                    
+                  
+                
+              </ul>
+            </div>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__rule" aria-hidden="true"></div>
+
+  <div class="footer__bottom">
+    <div class="footer__bottom-row"><div class="footer__social">
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="footer__social-link ts-sm" href="https://www.facebook.com/share/1GtBSkaVPV/?mibextid=wwXIfr">Facebook</a>
+          
+        
+          
+            <a class="footer__social-link ts-sm" href="https://www.instagram.com/arforti_official?igsi=aG9tYnVleGR5bWh5&amp;utm_source=qr">Instagram</a>
+          
+        
+          
+            <a class="footer__social-link ts-sm" href="https://www.tiktok.com/@arforti?_r=1&amp;_t=ZT-99BAGYQinoj">TikTok</a>
+          
+        
+      </div><div class="footer__payments" role="list" aria-label="Accepted payment methods"><span class="footer__pay-chip ts-sm" role="listitem">VISA</span><span class="footer__pay-chip ts-sm" role="listitem">MC</span><span class="footer__pay-chip ts-sm" role="listitem">AMEX</span><span class="footer__pay-chip ts-sm" role="listitem">SHOP PAY</span><span class="footer__pay-chip ts-sm" role="listitem">MORE</span></div>
+        <div class="footer__copyright ts-sm">© 2026 ARFORTI</div>
+      
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+</div>
+<!-- END sections: footer-group -->
+
+    <div id="shopify-section-cart-drawer" class="shopify-section"><div class="cart-drawer" data-cart="" data-cart-build="clean-8-429retry" data-cart-currency="USD" data-adding-label="Adding…" data-added-label="Added" hidden="">
+  <button class="cart-drawer__overlay" type="button" data-cart-close="" aria-label="Close cart"></button>
+  <aside class="cart-drawer__panel" role="dialog" aria-modal="true" aria-label="Cart">
+    <div class="cart-drawer__head">
+      <span class="cart-drawer__head-title ts-sm">Your Selection</span>
+      <button class="cart-drawer__close" type="button" data-cart-close="" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+    </div>
+
+    <p class="cart-drawer__note" data-cart-note="" role="status" aria-live="polite" hidden=""></p>
+
+    <div class="cart-drawer__inner" data-cart-inner="">
+      <span data-cart-total-count="" hidden="">0</span>
+      <div class="cart-drawer__body">
+        
+          <div class="cart-drawer__empty">
+            <p class="cart-drawer__empty-title ts-label-xl">Empty</p>
+          </div>
+        
+</div>
+
+      <div class="cart-drawer__foot">
+        <div class="cart-drawer__totals">
+          <div class="cart-drawer__total-row">
+            <span class="ts-sm-l">Subtotal</span>
+            <span class="ts-sm-l" data-cart-subtotal="">$0</span>
+          </div>
+          <div class="cart-drawer__total-row">
+            <span class="ts-sm-l">Shipping</span>
+            <span class="ts-sm-l">Free</span>
+          </div>
+        </div>
+
+        <form action="/cart" method="post">
+          <button type="submit" name="checkout" class="cart-drawer__checkout is-disabled" disabled="">Proceed to Checkout</button>
+        </form><div class="cart-drawer__proof">
+          <div class="cart-drawer__proof-grid"><div class="cart-drawer__proof-item">
+                  <span class="cart-drawer__proof-index ts-h-l">I</span>
+                  <div class="cart-drawer__proof-text">
+                    
+                      <span class="cart-drawer__proof-title ts-sm">Handcrafted</span>
+                    
+                    
+                      <span class="cart-drawer__proof-copy ts-sm-s">Precision Stitching and Finishing</span>
+                    
+                  </div>
+                </div><div class="cart-drawer__proof-item">
+                  <span class="cart-drawer__proof-index ts-h-l">II</span>
+                  <div class="cart-drawer__proof-text">
+                    
+                      <span class="cart-drawer__proof-title ts-sm">Premium Leather</span>
+                    
+                    
+                      <span class="cart-drawer__proof-copy ts-sm-s">Selected Full Grain Leather</span>
+                    
+                  </div>
+                </div><div class="cart-drawer__proof-item">
+                  <span class="cart-drawer__proof-index ts-h-l">III</span>
+                  <div class="cart-drawer__proof-text">
+                    
+                      <span class="cart-drawer__proof-title ts-sm">Global Warranty</span>
+                    
+                    
+                      <span class="cart-drawer__proof-copy ts-sm-s">Lifetime Repair and Care</span>
+                    
+                  </div>
+                </div><div class="cart-drawer__proof-item">
+                  <span class="cart-drawer__proof-index ts-h-l">IV</span>
+                  <div class="cart-drawer__proof-text">
+                    
+                      <span class="cart-drawer__proof-title ts-sm">Returns</span>
+                    
+                    
+                      <span class="cart-drawer__proof-copy ts-sm-s">30 Day Global Returns</span>
+                    
+                  </div>
+                </div></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+
+
+
+
+
+</div>
+
+    <div id="shopify-section-concierge" class="shopify-section">
+  <div class="concierge" data-concierge="">
+    <button class="concierge__trigger" type="button" data-concierge-open="" aria-label="Client Advisor">
+      <svg class="concierge__trigger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+      <span class="concierge__trigger-label ts-sm">Advisor</span>
+    </button>
+
+    <div class="concierge__drawer" data-concierge-drawer="" hidden="">
+      <button class="concierge__overlay" type="button" data-concierge-close="" aria-label="Close"></button>
+      <div class="concierge__panel" role="dialog" aria-modal="true" aria-label="Client Advisor">
+        <div class="concierge__head">
+          <span class="concierge__head-title ts-sm">Client Advisor</span>
+          <button class="concierge__close" type="button" data-concierge-close="" aria-label="Close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M6 18L18 6M6 6l12 12"></path></svg>
+          </button>
+        </div>
+        <div class="concierge__body"><p class="concierge__greeting ts-h-l">Hi, how can we help?</p>
+          
+            <div class="concierge__topics">
+              
+                <details class="concierge__faq">
+                  <summary class="concierge__topic ts-sub-xs">How long until I receive my piece?</summary>
+                  <div class="concierge__answer ts-sub-xs"><p>Every ARFORTI is scheduled into production the moment your order is confirmed: the atelier's making typically takes <strong>15–20 days</strong>, and once it passes final inspection it is dispatched within 1 business day. Standard shipping (free worldwide) arrives approximately 4–6 business days after dispatch; express (approx. $30), 1–3 business days. From order to delivery, usually three to four weeks. See the <a href="/pages/shipping">Shipping Policy</a>.</p></div>
+                </details>
+              
+                <details class="concierge__faq">
+                  <summary class="concierge__topic ts-sub-xs">How can I follow my piece's progress?</summary>
+                  <div class="concierge__answer ts-sub-xs"><p>Sign in to your ARFORTI account to see every step of your piece — from cutting and edge-painting to saddle stitching. Every moment of its making is shown to you, openly.</p></div>
+                </details>
+              
+                <details class="concierge__faq">
+                  <summary class="concierge__topic ts-sub-xs">Can I cancel or change my order?</summary>
+                  <div class="concierge__answer ts-sub-xs"><p>Within <strong>24 hours</strong> of confirmation, you may cancel in full, free of charge; to change colour or style, write to your advisor within the same window. Beyond 24 hours the hide enters an irreversible production schedule and can no longer be altered — but once your piece is delivered, you still have the 30-day return service.</p></div>
+                </details>
+              
+                <details class="concierge__faq">
+                  <summary class="concierge__topic ts-sub-xs">Where do you ship, and what does it cost?</summary>
+                  <div class="concierge__answer ts-sub-xs"><p>We ship to most countries and regions worldwide. Standard shipping is free worldwide (no minimum); express is approximately $30 (the amount shown at checkout prevails).</p></div>
+                </details>
+              
+                <details class="concierge__faq">
+                  <summary class="concierge__topic ts-sub-xs">What if the piece I love is sold out?</summary>
+                  <div class="concierge__answer ts-sub-xs"><p>Join the waitlist on the product page and leave your email. The moment that style reopens for production or there is any news, we will write to you first.</p></div>
+                </details>
+              
+            </div>
+          
+          
+            <p class="concierge__note ts-sm-s">Can't find your answer?<br>Our advisors are just a message away.</p>
+          
+          
+            <p class="concierge__prompt ts-sm-s">How would you prefer to connect?</p>
+          
+          <div class="concierge__options">
+            
+              <a class="concierge__option concierge__option--outline" href="https://wa.me/12139970149" target="_blank" rel="noopener">
+                <svg class="concierge__option-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.305-.885-.653-1.48-1.459-1.653-1.756-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51h-.57c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+                <span class="concierge__option-label ts-xxs">WhatsApp</span>
+              </a>
+            
+            
+              <a class="concierge__option concierge__option--solid" href="mailto:contact@arforti.com">
+                <svg class="concierge__option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <span class="concierge__option-label ts-xxs">Email Us</span>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+</div>
+
+    <div id="shopify-section-cookie-banner" class="shopify-section">
+
+
+  <aside class="cookie-banner" data-cookie-banner="" hidden="" aria-label="Your privacy">
+    <div class="cookie-banner__inner">
+      <div class="cookie-banner__text">
+        <div class="cookie-banner__titles">
+          <h2 class="cookie-banner__title ts-h-l">Your privacy</h2>
+          
+            <span class="cookie-banner__kicker ts-xxs">Cookies &amp; Privacy</span>
+          
+        </div>
+        
+          <p class="cookie-banner__body ts-sm-m">We use cookies to remember your preferences and shape a more considered experience each time you visit. You may change these at any time.</p>
+        
+      </div>
+      <div class="cookie-banner__actions">
+        <button class="cookie-banner__btn cookie-banner__btn--ghost ts-sm" type="button" data-cookie-decline="">
+          Necessary only
+        </button>
+        <button class="cookie-banner__btn cookie-banner__btn--solid ts-sm" type="button" data-cookie-accept="">
+          Accept all
+        </button>
+      </div>
+    </div>
+  </aside>
+
+
+
+
+
+
+
+</div>
+  <!-- Failed to render app block "12168986436008309812": app block path "shopify://apps/parkour-tiktok-pixel/blocks/threasury_pixel/6c589340-c893-4a7c-ad89-703f18722d60" does not exist --><script src="https://cdn.shopify.com/storefront/standard-actions.js" type="module" data-source-attribution="shopify.standard_actions"></script>
+
+
+<shop-cart-sync data-instance-id="81a6634e-013e-479d-9d5a-5ed5390014e6"></shop-cart-sync><div tabindex="-1" aria-hidden="true" id="web-pixels-manager-sandbox-container" data-shopify-privacy="exclude" style="height: 0px !important; width: 0px !important; position: fixed !important; visibility: hidden !important; overflow: hidden !important; z-index: -100 !important; margin: 0px !important; padding: 0px !important; border: 0px !important;"><iframe tabindex="-1" aria-hidden="true" name="web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX-80079e4cw22952a98p55856082md4f1b6b4" src="https://arforti.com/web-pixels@80079e4cw22952a98p55856082md4f1b6b4/custom/web-pixel-shopify-custom-pixel@0520/sandbox/modern/" id="web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX-80079e4cw22952a98p55856082md4f1b6b4" sandbox="allow-scripts allow-forms" style="height: 0px !important; width: 0px !important; visibility: hidden !important;"></iframe></div></body></html>

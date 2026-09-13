@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('V16_RENDERING',p:IsRenderingInProgress());local s=p:GetRenderJobStatus('58515122-e70c-48ec-a093-8236c606935b');for k,v in pairs(s) do print('V16_RENDER',k,v) end

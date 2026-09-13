@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('V10_STATUS',p:GetName(),t:GetName(),t:GetEndFrame(),p:IsRenderingInProgress());for k,v in pairs(p:GetRenderJobStatus('600aaa05-fb6e-4c82-a0bd-ff1ce7b28d5e')) do print(k,v) end

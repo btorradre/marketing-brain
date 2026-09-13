@@ -1,0 +1,376 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Full-grain leather over tightly woven canvas. The structured, Birkin-inspired silhouette, sized for a weekend away — and made in limited quantities.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        },
+        "assurance": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free U.S. shipping · 30-day returns &amp; free exchanges · Two-year warranty<\/p>"
+          }
+        },
+        "perks": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"wknd-perks\">\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"\/><path d=\"M3 9h18M8 3v4M16 3v4\"\/><path d=\"M7.5 13.5h3M7.5 17h3M13.5 13.5h3M13.5 17h3\"\/><\/svg>\n    <span>Packs 2–3 day trips<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 17h18M5 17V9a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8\"\/><path d=\"M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7\"\/><path d=\"M8 21h.01M16 21h.01\"\/><\/svg>\n    <span>Fits the overhead bin<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><ellipse cx=\"12\" cy=\"12\" rx=\"4.5\" ry=\"6\"\/><path d=\"M12 9.5v3.5l1.8 1.2\"\/><\/svg>\n    <span>Working gold turn-lock<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 9c2.5-2 5-3 8-3s5.5 1 8 3\"\/><path d=\"M4 9v7c2.5 2 5 3 8 3s5.5-1 8-3V9\"\/><path d=\"M4 13c2.5 2 5 3 8 3s5.5-1 8-3\"\/><\/svg>\n    <span>Full-grain leather &amp; canvas<\/span>\n  <\/div>\n<\/div>\n<style>\n.wknd-perks{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;background:#faf8f4;border-radius:12px;padding:20px 22px;margin:14px 0 4px;}\n.wknd-perk{display:flex;align-items:center;gap:12px;font-size:14px;line-height:1.35;color:#1a1a1a;}\n.wknd-perk svg{width:30px;height:30px;flex:0 0 30px;}\n@media (max-width:480px){.wknd-perks{grid-template-columns:1fr 1fr;gap:12px 12px;padding:16px 16px;}.wknd-perk{font-size:13px;gap:9px;}.wknd-perk svg{width:26px;height:26px;flex-basis:26px;}}\n<\/style>"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p><strong>One size — approx. 18&quot; W &times; 14.5&quot; H &times; 7&quot; D.<\/strong> The true weekender: two to three days of clothing, a toiletry kit, and a book. Cabin-friendly — no checked bag.<\/p><p><strong>What it fits:<\/strong> a wide-mouth opening and structured walls mean you pack it like a suitcase, not a duffel — folded knits, rolled shirts, shoes along the base, essentials in the interior slip pocket.<\/p><p><strong>Carry:<\/strong> rolled leather handles that sit comfortably in the hand or over the forearm, and a structured base that stacks neatly on top of a rolling suitcase between gates.<\/p>"
+          }
+        },
+        "tab_delivery": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>Because each bag is made in limited production runs, sold-out sizes and colors may take 4 to 8 weeks to restock.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free.<\/p>"
+          }
+        },
+        "tab_care": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "<p><strong>Body:<\/strong> Tightly woven heavyweight canvas.<br\/><strong>Flap, Handles &amp; Trim:<\/strong> Full-grain leather with burnished edges and visible stitching.<br\/><strong>Hardware:<\/strong> Gold-tone turn-lock, clasp plates, and buckles.<br\/><strong>Interior:<\/strong> Natural cotton-canvas lining with a leather slip pocket.<\/p><p><strong>Care:<\/strong> Spot-clean the canvas with a soft, damp cloth. Wipe the leather with a clean, dry cloth and condition it every few months — it will darken and gain character with wear. Store stuffed and away from direct sunlight.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "assurance",
+        "perks",
+        "description",
+        "tab_details",
+        "tab_delivery",
+        "tab_care",
+        "reviews",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Weekender",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag — all designed to match.<\/p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "video_text": {
+      "type": "pdp-video-text",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "SEE IT IN MOTION",
+        "headline": "Built Like a Handbag, Sized for the Weekend",
+        "body": "<p>Watch how the Weekender travels. The structured body holds its shape packed full or half empty. The rolled leather handles sit easily in the hand, and the turn-lock and clasp straps close it like a bag that costs five times as much. It's the kind of piece that gets a second look at the gate — and a question about where you found it.<\/p><p>A classic silhouette, rebuilt for travel. Refined enough to carry through a hotel lobby, tough enough to ride in the trunk all summer.<\/p>",
+        "cta_label": "Shop the Weekender",
+        "cta_url": "\/products\/velantra-weekender",
+        "media_position": "left",
+        "video_url": "",
+        "autoplay": true,
+        "show_controls": false,
+        "show_play_overlay": true,
+        "bg_color": "#ffffff"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we’ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "MATERIAL",
+            "headline": "Full-Grain Leather + Woven Canvas",
+            "body": "<p>A full-grain leather flap, handles, and trim over tightly woven heavyweight canvas — structured on the shelf, soft to the hand.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "Hardware That Works",
+            "body": "<p>A working gold-tone turn-lock, belted clasp straps, and reinforced leather corners at the base — finished like a handbag, built like luggage.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "EXCLUSIVE",
+            "headline": "Made in Limited Runs",
+            "body": "<p>Produced in small quantities. When a size or color sells out, it can be weeks before it returns.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Packs a full weekend",
+            "body": "<p>A wide-mouth opening, cotton-canvas lining, and an interior slip pocket — pack it like a suitcase, not a duffel.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE HANDLES",
+            "headline": "Rolled leather handles",
+            "body": "<p>Full-grain leather, rolled and hand-finished. Made to soften and darken with wear.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE HARDWARE",
+            "headline": "Turn-lock and clasp straps",
+            "body": "<p>A working gold-tone turn-lock and belted clasps — the details that make it read as a handbag, not luggage.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE BASE",
+            "headline": "Reinforced leather corners",
+            "body": "<p>Leather corner patches at every point of contact — set it down anywhere.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img3.webp",
+            "image_position": "left",
+            "eyebrow": "AN ICON, SIZED FOR TRAVEL",
+            "headline": "The Structured Look, Built for the Weekend",
+            "body": "<p>We took the structured top-handle silhouette that has defined luxury for decades and scaled it for travel — a full-grain leather flap and trim over heavyweight woven canvas, with a working turn-lock and reinforced corners exactly where a travel bag earns its keep. It opens wide, packs two to three days easily, and holds its shape full or empty.<\/p><p>Made in limited quantities, it's the bag that gets asked about at the gate — not the duffel you shove under the seat. A travel bag that happens to be beautiful enough to carry every day.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered. Lifetime in our shop.",
+            "body": "<p>Two-year warranty on materials and stitching. After that, we repair anything for the cost of materials. Send it back. Get it back better than you sent it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "value_money": {
+      "type": "advanced-content",
+      "blocks": {
+        "liq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"v2-value\">\n  <div class=\"v2-value-head\">\n    <p class=\"v2-eyebrow\">Where the money goes<\/p>\n    <h2 class=\"v2-h2\">What you are paying for<\/h2>\n    <p class=\"v2-sub\">What we skip is the logo, and the markup that comes with it.<\/p>\n  <\/div>\n  <div class=\"v2-value-grid\">\n    <div class=\"v2-value-col\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/4092\/2433\/files\/weekender-blk-01-front.png?v=1786307190&width=800\" alt=\"Black leather bag with structured body\" loading=\"lazy\">\n      <h3 class=\"v2-value-title\">Leather with structure<\/h3>\n      <p class=\"v2-value-text\">Bodies that stand on their own and materials that earn character with age.<\/p>\n    <\/div>\n    <div class=\"v2-value-col\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/4092\/2433\/files\/weekender-dc-07-hardware.png?v=1786228302&width=800\" alt=\"Solid brass turn-lock hardware\" loading=\"lazy\">\n      <h3 class=\"v2-value-title\">Solid brass hardware<\/h3>\n      <p class=\"v2-value-text\">Turn-locks, fittings, and feet in real brass, with weight you can feel.<\/p>\n    <\/div>\n    <div class=\"v2-value-col\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/4092\/2433\/files\/weekender-blk-interior-tripleflap.png?v=1786927857&width=800\" alt=\"Finished interior of a Velantra bag\" loading=\"lazy\">\n      <h3 class=\"v2-value-title\">Finished inside and out<\/h3>\n      <p class=\"v2-value-text\">Reinforced stitching and interiors built as carefully as the exterior.<\/p>\n    <\/div>\n  <\/div>\n<\/div>\n\n<style>\n  .v2-value { background: #F6F3EE; padding: 64px 20px; }\n  .v2-value-head { text-align: center; max-width: 560px; margin: 0 auto 42px; }\n  .v2-value-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 1240px; margin: 0 auto; }\n  .v2-value-col { text-align: center; }\n  .v2-value-col img { width: 100%; aspect-ratio: 1 \/ 1; object-fit: cover; display: block; margin-bottom: 18px; }\n  .v2-value-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }\n  .v2-value-text { font-size: 0.95rem; line-height: 1.6; opacity: 0.8; max-width: 320px; margin: 0 auto; }\n  @media (max-width: 780px) { .v2-value-grid { grid-template-columns: 1fr; gap: 36px; } }\n<\/style>\n",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liq"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      },
+      "disabled": true
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "video_text",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "value_money",
+    "editorial",
+    "recently_viewed"
+  ]
+}

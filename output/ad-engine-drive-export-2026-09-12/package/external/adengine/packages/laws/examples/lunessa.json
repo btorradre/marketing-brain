@@ -1,0 +1,24 @@
+[
+  {
+    "id": "no-monacolin",
+    "law": "Monacolin K is BANNED in Lunessa copy",
+    "severity": "blocker",
+    "regex": "monacolin",
+    "flags": [
+      "i"
+    ],
+    "note": "The ingredient name is banned in this brand's copy."
+  },
+  {
+    "id": "no-aging-dismissal-frame",
+    "law": "menopause angle law: 'it's not aging' (never frame post-menopause cholesterol as aging)",
+    "severity": "warning",
+    "regex": "\\b(?:part\\s+of\\s+(?:getting\\s+older|aging|ageing)|comes?\\s+with\\s+age|as\\s+(?:you|we)\\s+(?:get\\s+older|age)|normal\\s+for\\s+(?:your|my|her)\\s+age|because\\s+(?:you['’]?re|of\\s+your)\\s+age)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Angle law for the menopause avatar: a sudden jump is an EVENT with a cause, therefore addressable; 'age' is a dismissal. Never frame post-menopause cholesterol as aging. Warning because the dismissal may be quoted in order to reject it.",
+    "scope": "copy",
+    "source": "feedback_awareness_calibration"
+  }
+]

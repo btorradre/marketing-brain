@@ -1,0 +1,48 @@
+{
+  "version": "v6 visual revision",
+  "timeline": "Motilli Podcast v6 Visual Revision",
+  "project": "Motilli Podcast DVHp v5 20260909",
+  "frames": 5917,
+  "fps": 30,
+  "board_url": "http://localhost:8765/b/motilli-podcast-dvhp-storyboard",
+  "files": [
+    {
+      "name": "podcast-captions.srt",
+      "bytes": 6152,
+      "sha256": "f88b9bc0c84919770f3ba1e7e885175a0ca90c8cc5d92a0dfe7b00b4f60b49b6"
+    },
+    {
+      "name": "Motilli-Podcast-v6-Visual-Revision.mp4",
+      "bytes": 353119851,
+      "sha256": "2d695c7b674681995b6662dbfee957341848e38404962029b8d8c0f6d12d3e58"
+    }
+  ],
+  "qa": {
+    "presenter_and_audio_timeline_rows_unchanged": true,
+    "native_structure": "181 clips match expected ranges, paths and tracks, zero mismatches",
+    "frames": 5917,
+    "cut_triplets_inspected": 17,
+    "visible_results": [
+      "No orange appetite insert at 27.733\u201331.733; original guest revealed",
+      "Raspberries transparent at 31.733\u201333.533",
+      "Text-free stool hydration 49.133\u201350.233 and muscular propulsion 50.233\u201353.133",
+      "Text-free gastric retention 57.833\u201360.833",
+      "No celery at old First cue 95.1; exact entrance 98.167 on apigenin",
+      "Celery, chlorophyll and soluble fiber have transparent backgrounds over live guest",
+      "No guarantee promotional card; link-only CTA at 193.233",
+      "Scientific views distinct from one another and no exact source reuse"
+    ],
+    "audio_qa": {
+      "v5_pcm_sha256": "90c0bb09c30a6ff0c8959c2ad2d6ea9b11a0cc65d6efbfb2892374f687a6236f",
+      "v6_pcm_sha256": "90c0bb09c30a6ff0c8959c2ad2d6ea9b11a0cc65d6efbfb2892374f687a6236f",
+      "decoded_audio_identical": true
+    },
+    "board_qa": {
+      "page_status": 200,
+      "images": 68,
+      "bad": []
+    }
+  },
+  "source_limitations": "Existing Google Omni science/lifestyle is native 720p scaled in the 1080p edit; approved HeyGen presenters stay native 1080p. All original files preserved.",
+  "editable_export_status": "Saved editable v6 timeline is complete inside Resolve. Standalone DRP/DRT file export stalled and was not confirmed; these files are not included."
+}

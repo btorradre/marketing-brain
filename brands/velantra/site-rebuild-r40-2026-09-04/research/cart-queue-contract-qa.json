@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Same-origin locale-prefixed Ajax cart writes serialize",
+    "Unrelated product requests bypass the queue",
+    "Rejected first request releases the queue",
+    "Original request options are preserved"
+  ],
+  "method": "Node VM with controlled fetch promises; no store mutation"
+}

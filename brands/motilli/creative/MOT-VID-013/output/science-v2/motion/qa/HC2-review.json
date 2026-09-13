@@ -1,0 +1,20 @@
+{
+  "shot": "HC2",
+  "verdict": "minor_issue",
+  "observed_motion": "Extremely subtle micro-pulsing along the tissue wall with near-static retention of stool geometry throughout the duration.",
+  "issues": [
+    {
+      "time_s": 0.0,
+      "description": "Motion is minimal to the point of appearing nearly frozen across the sequence.",
+      "severity": "low"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 4.75,
+  "confidence": 3,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 20,
+  "native_duration_s": 5.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/HC2-4fps.jpg"
+}

@@ -1,0 +1,47 @@
+{
+  "jsonrpc": "2.0",
+  "id": "zylara-transcripts",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brandtracker transcripts (0 shown of 0)\n\nBrandtracker ID: 7edb99af-061d-426f-9e15-ac17c7e44ed8\nFilters: time_period=last6m, sort_by=usageCount, order=desc, eu_only=false, page=1, limit=3\n\nNo grouped transcripts found for this brandtracker and filter set.\n\n---\nCredits used: 0 | Remaining: 6680"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "710a951b-643d-4393-9138-a5c49c516729",
+      "brandtrackerId": "7edb99af-061d-426f-9e15-ac17c7e44ed8",
+      "query": {
+        "brandtracker_id": "7edb99af-061d-426f-9e15-ac17c7e44ed8",
+        "time_period": "last6m",
+        "page": 1,
+        "limit": 3,
+        "eu_only": false,
+        "order": "desc",
+        "sort_by": "usageCount"
+      },
+      "data": [],
+      "pagination": {
+        "page": 1,
+        "limit": 3,
+        "total": 0,
+        "totalPages": 0
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 3,
+        "effectiveUnits": 3,
+        "actualUnits": 0,
+        "costUnits": 0,
+        "recurringUnits": 0,
+        "topupUnits": 0,
+        "creditsRemaining": 6680,
+        "creditsSourceHeader": null,
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "brand": "Solorna",
+  "product": "Raffia Slide Sandal — Chunky Block Heel, Square Open Toe, Metal Chain Mule",
+  "reference_style": "Tory Burch luxury e-commerce product photography",
+  "source_images": "Use the existing TikTok product photos for each color as the input image",
+  "photography_system": {
+    "shots_per_color": 4,
+    "shot_types": ["angle", "side", "detail", "overhead"],
+    "total_prompts": 24,
+    "style_notes": "Tory Burch uses 4 shots per colorway: (1) three-quarter angle hero, (2) side profile silhouette, (3) extreme detail close-up on hardware/texture, (4) overhead flat lay. All on pure white seamless backgrounds, soft diffused studio lighting, minimal shadows, elevated minimalist aesthetic."
+  },
+  "colors": {
+    "beige": {
+      "raffia": "Light cream / off-white woven raffia",
+      "hardware": "Gold chain buckle",
+      "sole": "Tan/natural"
+    },
+    "black": {
+      "raffia": "Jet black woven raffia",
+      "hardware": "Gold chain buckle",
+      "sole": "Black"
+    },
+    "brown": {
+      "raffia": "Light warm brown woven raffia",
+      "hardware": "Silver chain buckle",
+      "sole": "Tan/natural"
+    },
+    "coffee": {
+      "raffia": "Dark mocha brown woven raffia",
+      "hardware": "Silver chain buckle",
+      "sole": "Brown"
+    },
+    "khaki": {
+      "raffia": "Olive / warm tan woven raffia",
+      "hardware": "Gold chain buckle",
+      "sole": "Tan/natural"
+    },
+    "sky_blue": {
+      "raffia": "Soft sky blue woven raffia",
+      "hardware": "Silver chain buckle",
+      "sole": "Tan/beige"
+    }
+  },
+  "prompts": {
+    "beige": {
+      "angle": {
+        "prompt_id": "solorna_beige_angle",
+        "source_image": "Use the beige colorway main product photo (three-quarter view)",
+        "prompt": "Restyle this raffia slide sandal as a luxury e-commerce product photograph in the style of Tory Burch. Place the sandal at a three-quarter front-left angle, slightly elevated and tilted to show both the top woven raffia texture and the side profile simultaneously. Pure white seamless infinity background with no edges or seams visible. Soft diffused overhead studio lighting from slightly above and to the left, creating even illumination with no harsh shadows. Very subtle soft contact shadow directly beneath the sole. The gold chain buckle hardware should catch a gentle specular highlight. Crisp focus across the entire product. Clean, bright, airy exposure. High-end minimalist luxury aesthetic. No text, no branding, no watermarks. Single sandal only. 1:1 square format."
+      },
+      "side": {
+        "prompt_id": "solorna_beige_side",
+        "source_image": "Use the beige colorway side/profile product photo",
+        "prompt": "Restyle this raffia slide sandal as a luxury e-commerce product photograph in the style of Tory Burch. Show the sandal in a pure side profile revealing the full silhouette — the chunky block heel, the sole, the gentle slope of the footbed, and the upright toe band with gold chain hardware visible in profile. Pure white seamless background. Soft diffused studio lighting from above, even illumination, no harsh shadows. The woven raffia texture is gently visible in the light. Very subtle contact shadow beneath the sole. Clean, bright exposure. Minimalist luxury aesthetic. No text, no branding. Single sandal only. 1:1 square format."
+      },
+      "detail": {
+        "prompt_id": "solorna_beige_detail",
+        "source_image": "Use the beige colorway photo showing the chain hardware up close",
+        "prompt": "Restyle this as a luxury e-commerce detail close-up in the style of Tory Burch. Extreme close-up focusing on the oversized gold metal chain buckle hardware and the woven raffia texture of the toe band. The gold chain links and interlocking buckle should fill approximately 60% of the frame. The handwoven raffia pattern is clearly visible behind and around the hardware. Soft diffused studio lighting with gentle specular highlights on the polished gold. Slight shallow depth of field — chain sharp, background raffia slightly softer. Pure white background. Clean, luxurious lighting showing material quality and craftsmanship. No text, no branding. 1:1 square format."
+      },
+      "overhead": {
+        "prompt_id": "solorna_beige_overhead",
+        "source_image": "Use the beige colorway photo (or generate from the main angle shot)",
+        "prompt": "Restyle this raffia slide sandal as a luxury e-commerce overhead flat lay in the style of Tory Burch. Bird's eye view looking directly down at the sandal. The full silhouette is visible — square open toe, wide raffia toe band with centered gold chain hardware, smooth footbed, chunky heel at the back. Sandal points toward the top of the frame. Pure white seamless background. Even overhead studio lighting creating flat, shadowless illumination across the entire top surface. Very subtle soft shadow around the edges for dimensional separation. The gold chain catches a gentle highlight. Raffia weave texture clearly readable. No text, no branding. 1:1 square format."
+      }
+    },
+    "black": {
+      "angle": {
+        "prompt_id": "solorna_black_angle",
+        "source_image": "Use the black colorway main product photo (three-quarter view)",
+        "prompt": "Restyle this black raffia slide sandal as a luxury e-commerce product photograph in the style of Tory Burch. Three-quarter front-left angle, slightly elevated and tilted showing top woven texture and side profile. Pure white seamless infinity background — the black sandal pops dramatically against the white. Soft diffused overhead studio lighting with even illumination that reveals the black raffia weave texture without losing detail in the dark material. The gold chain buckle catches bright gentle highlights against the black. Very subtle contact shadow. Balanced exposure preserving black texture detail. Minimalist luxury aesthetic. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "side": {
+        "prompt_id": "solorna_black_side",
+        "source_image": "Use the black colorway side/profile photo",
+        "prompt": "Restyle this black raffia slide sandal as a luxury e-commerce side profile in the style of Tory Burch. Pure side view showing full silhouette — black chunky block heel, black sole, footbed slope, upright toe band with gold chain in profile. Pure white seamless background with striking contrast. Soft diffused studio lighting preserving texture in the black raffia. Gold hardware catches balanced highlights. Subtle contact shadow. Clean bright exposure. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "detail": {
+        "prompt_id": "solorna_black_detail",
+        "source_image": "Use the black colorway close-up showing hardware",
+        "prompt": "Restyle as a luxury e-commerce detail close-up in the style of Tory Burch. Extreme close-up of the oversized gold metal chain buckle against the jet black woven raffia. Polished gold chain links fill approximately 60% of frame. The contrast between gleaming gold hardware and matte black woven texture is the focus. Soft diffused lighting with bright specular highlights on the gold against the dark material. Shallow depth of field. Pure white background. No text, no branding. 1:1 square format."
+      },
+      "overhead": {
+        "prompt_id": "solorna_black_overhead",
+        "source_image": "Use the black colorway photo (or generate overhead from main shot)",
+        "prompt": "Restyle this black raffia slide sandal as a luxury e-commerce overhead flat lay in the style of Tory Burch. Direct bird's eye view. Full silhouette — square open toe, wide black raffia band with gold chain, smooth black footbed, chunky heel. Pure white background. Even overhead lighting, flat illumination. Gold chain catches a highlight. Black raffia texture clearly readable with good shadow detail. Subtle edge shadow for separation. No text, no branding. 1:1 square format."
+      }
+    },
+    "brown": {
+      "angle": {
+        "prompt_id": "solorna_brown_angle",
+        "source_image": "Use the brown colorway main product photo (three-quarter view)",
+        "prompt": "Restyle this light brown raffia slide sandal as a luxury e-commerce product photograph in the style of Tory Burch. Three-quarter front-left angle, slightly elevated and tilted showing top woven texture and side profile. Pure white seamless infinity background. Soft diffused overhead studio lighting with even illumination. The silver chain buckle catches gentle cool highlights against the warm brown raffia. Subtle contact shadow. Clean, bright, airy exposure. Minimalist luxury aesthetic. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "side": {
+        "prompt_id": "solorna_brown_side",
+        "source_image": "Use the brown colorway side/profile photo",
+        "prompt": "Restyle this light brown raffia slide sandal as a luxury e-commerce side profile in the style of Tory Burch. Pure side view — chunky tan block heel, natural sole, footbed slope, upright toe band with silver chain in profile. Pure white seamless background. Soft diffused lighting revealing warm brown raffia weave. Subtle contact shadow. Clean bright exposure. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "detail": {
+        "prompt_id": "solorna_brown_detail",
+        "source_image": "Use the brown colorway close-up showing hardware",
+        "prompt": "Restyle as a luxury e-commerce detail close-up in the style of Tory Burch. Extreme close-up of the oversized silver metal chain buckle against the warm brown woven raffia. Silver chain links fill 60% of frame. Cool silver reflections contrast with warm brown texture. Woven raffia pattern clearly visible. Soft diffused lighting. Shallow depth of field. Pure white background. No text, no branding. 1:1 square format."
+      },
+      "overhead": {
+        "prompt_id": "solorna_brown_overhead",
+        "source_image": "Use the brown colorway photo (or generate overhead from main shot)",
+        "prompt": "Restyle this brown raffia slide sandal as a luxury e-commerce overhead flat lay in the style of Tory Burch. Direct bird's eye view. Full silhouette — square open toe, wide brown raffia band with silver chain, smooth footbed, chunky heel. Pure white background. Even flat overhead lighting. Silver chain cool highlight. Brown raffia texture readable. Subtle edge shadow. No text, no branding. 1:1 square format."
+      }
+    },
+    "coffee": {
+      "angle": {
+        "prompt_id": "solorna_coffee_angle",
+        "source_image": "Use the coffee colorway main product photo (three-quarter view)",
+        "prompt": "Restyle this dark mocha coffee brown raffia slide sandal as a luxury e-commerce product photograph in the style of Tory Burch. Three-quarter front-left angle, slightly elevated and tilted showing top woven texture and side profile. Pure white seamless infinity background. Soft diffused overhead studio lighting revealing the rich dark mocha raffia. Silver chain buckle catches gentle highlights. Subtle contact shadow. Clean bright exposure. Minimalist luxury aesthetic. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "side": {
+        "prompt_id": "solorna_coffee_side",
+        "source_image": "Use the coffee colorway side/profile photo",
+        "prompt": "Restyle this dark mocha coffee raffia slide sandal as a luxury e-commerce side profile in the style of Tory Burch. Pure side view — chunky brown block heel, brown sole, footbed slope, upright toe band with silver chain in profile. Pure white seamless background. Soft diffused lighting preserving texture in the dark coffee raffia. Subtle contact shadow. Clean exposure. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "detail": {
+        "prompt_id": "solorna_coffee_detail",
+        "source_image": "Use the coffee colorway close-up showing hardware",
+        "prompt": "Restyle as a luxury e-commerce detail close-up in the style of Tory Burch. Extreme close-up of the oversized silver metal chain buckle against the dark mocha coffee brown woven raffia. Silver chain links fill 60% of frame. Rich dark brown weave visible behind the hardware. Soft diffused lighting with silver specular highlights. Shallow depth of field. Pure white background. No text, no branding. 1:1 square format."
+      },
+      "overhead": {
+        "prompt_id": "solorna_coffee_overhead",
+        "source_image": "Use the coffee colorway photo (or generate overhead from main shot)",
+        "prompt": "Restyle this dark coffee raffia slide sandal as a luxury e-commerce overhead flat lay in the style of Tory Burch. Direct bird's eye view. Full silhouette — square open toe, wide dark mocha raffia band with silver chain, smooth dark footbed, chunky heel. Pure white background. Even flat overhead lighting. Silver chain highlight. Dark coffee texture readable. Subtle edge shadow. No text, no branding. 1:1 square format."
+      }
+    },
+    "khaki": {
+      "angle": {
+        "prompt_id": "solorna_khaki_angle",
+        "source_image": "Use the khaki colorway main product photo (three-quarter view)",
+        "prompt": "Restyle this olive-toned warm khaki raffia slide sandal as a luxury e-commerce product photograph in the style of Tory Burch. Three-quarter front-left angle, slightly elevated and tilted showing top woven texture and side profile. Pure white seamless infinity background. Soft diffused overhead studio lighting. Gold chain buckle catches warm highlights against the muted olive-khaki raffia. Subtle contact shadow. Clean, bright, airy exposure. Minimalist luxury aesthetic. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "side": {
+        "prompt_id": "solorna_khaki_side",
+        "source_image": "Use the khaki colorway side/profile photo",
+        "prompt": "Restyle this khaki raffia slide sandal as a luxury e-commerce side profile in the style of Tory Burch. Pure side view — chunky tan block heel, natural sole, footbed slope, upright toe band with gold chain in profile. Pure white seamless background. Soft diffused lighting on muted khaki raffia. Subtle contact shadow. Clean exposure. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "detail": {
+        "prompt_id": "solorna_khaki_detail",
+        "source_image": "Use the khaki colorway close-up showing hardware",
+        "prompt": "Restyle as a luxury e-commerce detail close-up in the style of Tory Burch. Extreme close-up of the oversized gold metal chain buckle against the olive-toned khaki woven raffia. Gold chain links fill 60% of frame. Warm gold against muted natural weave. Raffia artisanal pattern clearly visible. Soft diffused lighting. Shallow depth of field. Pure white background. No text, no branding. 1:1 square format."
+      },
+      "overhead": {
+        "prompt_id": "solorna_khaki_overhead",
+        "source_image": "Use the khaki colorway photo (or generate overhead from main shot)",
+        "prompt": "Restyle this khaki raffia slide sandal as a luxury e-commerce overhead flat lay in the style of Tory Burch. Direct bird's eye view. Full silhouette — square open toe, wide khaki raffia band with gold chain, smooth footbed, chunky heel. Pure white background. Even flat overhead lighting. Gold chain warm highlight. Khaki texture readable. Subtle edge shadow. No text, no branding. 1:1 square format."
+      }
+    },
+    "sky_blue": {
+      "angle": {
+        "prompt_id": "solorna_skyblue_angle",
+        "source_image": "Use the sky blue colorway main product photo (three-quarter view)",
+        "prompt": "Restyle this soft sky blue raffia slide sandal as a luxury e-commerce product photograph in the style of Tory Burch. Three-quarter front-left angle, slightly elevated and tilted showing top woven texture and side profile. Pure white seamless infinity background — the cool pastel blue pops beautifully against the white. Soft diffused overhead studio lighting capturing the cool blue tone accurately. Silver chain buckle catches gentle highlights. Subtle contact shadow. Clean, bright, airy exposure. Minimalist luxury aesthetic. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "side": {
+        "prompt_id": "solorna_skyblue_side",
+        "source_image": "Use the sky blue colorway side/profile photo",
+        "prompt": "Restyle this sky blue raffia slide sandal as a luxury e-commerce side profile in the style of Tory Burch. Pure side view — chunky tan block heel, beige sole, footbed slope, upright toe band with silver chain in profile. Cool pastel blue raffia accurately rendered. Pure white seamless background. Soft diffused lighting. Subtle contact shadow. Clean exposure. No text, no branding. Single sandal. 1:1 square format."
+      },
+      "detail": {
+        "prompt_id": "solorna_skyblue_detail",
+        "source_image": "Use the sky blue colorway close-up showing hardware",
+        "prompt": "Restyle as a luxury e-commerce detail close-up in the style of Tory Burch. Extreme close-up of the oversized silver metal chain buckle against the soft sky blue woven raffia. Silver chain links fill 60% of frame. Cool silver complements the pastel blue weave. Raffia texture clearly visible. Soft diffused lighting with cool-toned highlights. Shallow depth of field. Pure white background. No text, no branding. 1:1 square format."
+      },
+      "overhead": {
+        "prompt_id": "solorna_skyblue_overhead",
+        "source_image": "Use the sky blue colorway photo (or generate overhead from main shot)",
+        "prompt": "Restyle this sky blue raffia slide sandal as a luxury e-commerce overhead flat lay in the style of Tory Burch. Direct bird's eye view. Full silhouette — square open toe, wide sky blue raffia band with silver chain, smooth footbed, chunky heel. Cool pastel blue accurately rendered. Pure white background. Even flat overhead lighting. Silver chain cool highlight. Blue raffia texture readable. Subtle edge shadow. No text, no branding. 1:1 square format."
+      }
+    }
+  }
+}

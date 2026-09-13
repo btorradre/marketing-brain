@@ -1,0 +1,20 @@
+# V31 — actual Motilli packaging correction
+
+User explicitly requests actual Motilli packaging in the product intro. This supersedes the earlier no-packaging instruction for this scene. Read and retain V29/V30 plans for all unaffected editing, upper-middle hook headlines, exact script, voice,120% speed, captions, square community/research overlays and CTA. PreserveV30; duplicate native Resolve timelines forV31.
+
+Observed defect: N08 shows mature hands opening a generic unbranded glass jar. It does not identify Motilli. Source product identity: brands/motilli/celery juice gummies/brand/product-references/motilli product reference.png, previously user-selected by the brand workspace. Clear cylindrical tall jar, broad white screw cap, bright lime-green wraparound label, white lowercase motilli logo, CELERY JUICE FIBER GUMMIES, dark-green contents, exact supplied typography/markings. Use the provided art as visual identity, not a new efficacy validation. Do not invent packaging, colors, proportions, label amounts or capsule contents.
+
+ReplaceN08 with a new label-forward handheld product close-up: same mature hands/coral sleeve and warm everyday counter style, actual approved Motilli package dominant and upright in the upper central frame. Gentle small lift/steady hold lets viewers recognize the real package. Keep the face out of frame and the label clear above the existing lower-middle captions. GPTImage2 uses actual product reference plus prior scene for setting/hand style; inspect label/proportions before GoogleOmni motion. Native10s provider original preserved; select only the needed source interval. Replacement picture silent.
+
+Entry: exactly on the spoken word Motilli in each hook version. Exit: originalN08exit at Everything else was just fiber. Direct cuts, no added sound or transitions. This earlier entry fixes the missed named product reveal; full product label remains readable through the all-three-in-one-gummy explanation. Executableframe ranges:product-replacement.json. Source in provisionally0.5s, update after motion inspection. No repetition elsewhere; existing loose gummies in breakfast routine are not packaging errors.
+
+QA: visually inspect first frame and selected motion for logo spelling, green label, white cap, clear jar shape, contents, stable label text and natural hands. Reject distorted label or bottle. Inspect native final renders at product entry, middle and exit for caption collisions. Confirm old generic jar clip absent, all3updated, exact original voice/speed/durations/bodyoutsideinterval preserved. Deliver3MP4s plus editable Resolve project/timelines and source manifest. No storyboard requested.
+
+
+## Final asset selection after inspection
+Google Omni motion was rejected: main logo was stable but the fine label lettering changed. Use the untouched, approved product-reference PNG as a static, centered square product insert over the presenter. This ensures exact label artwork; no generated packaging is used in the final edit. Encode a 10-second still-image video only for Resolve duration handling; native Resolve sets square size to 80% of frame width. Keep all previously mapped cut cues and durations. No animation is needed for this packaging-only correction. Original GPT Image 2 and Omni outputs are retained as rejected candidates.
+
+Placement: 864x864 square, horizontally centered and raised 320px above screen center so the complete package remains above the unchanged spoken captions.
+
+## Export QA complete
+All three V31 native Resolve renders completed and decoded without errors. Frame counts unchanged (H1 6141, H2 6279, H3 6335). Full audio correlations with V30 equal 1.0 within numerical precision. Eight sampled unchanged picture positions per version passed pixel comparisons. Consecutive entry/exit frames and four in-scene frames per hook visually inspected; the original Motilli photo is visible with exact label and no generic jar. In the actual export the square occupies x108–972, y348–1212; the product bottle itself stays above the spoken caption at y1120. Native Tilt 320 is source-scaled by Resolve.

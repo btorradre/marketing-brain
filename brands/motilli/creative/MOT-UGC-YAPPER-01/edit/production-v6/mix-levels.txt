@@ -1,0 +1,29 @@
+Input #0, wav, from 'brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v6/narration-mix.wav':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Duration: 00:05:35.16, bitrate: 1152 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s32 (24 bit), 1152 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, mono, s16, 3072 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+size=N/A time=00:00:49.90 bitrate=N/A speed=98.8x elapsed=0:00:00.50    size=N/A time=00:01:40.90 bitrate=N/A speed=99.9x elapsed=0:00:01.01    size=N/A time=00:02:31.40 bitrate=N/A speed=99.9x elapsed=0:00:01.51    size=N/A time=00:03:22.30 bitrate=N/A speed= 100x elapsed=0:00:02.02    size=N/A time=00:04:13.30 bitrate=N/A speed= 100x elapsed=0:00:02.52    size=N/A time=00:05:04.50 bitrate=N/A speed= 100x elapsed=0:00:03.03    [Parsed_loudnorm_0 @ 0xafb0149c0] 
+{
+	"input_i" : "-14.69",
+	"input_tp" : "-0.98",
+	"input_lra" : "3.50",
+	"input_thresh" : "-25.54",
+	"output_i" : "-14.31",
+	"output_tp" : "-1.00",
+	"output_lra" : "3.40",
+	"output_thresh" : "-25.13",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.31"
+}
+[out#0/null @ 0xafb014240] video:0KiB audio:125684KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:05:35.20 bitrate=N/A speed= 101x elapsed=0:00:03.32    

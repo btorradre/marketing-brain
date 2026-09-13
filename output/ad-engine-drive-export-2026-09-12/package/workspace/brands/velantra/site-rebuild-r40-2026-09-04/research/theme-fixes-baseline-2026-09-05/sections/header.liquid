@@ -1,0 +1,45 @@
+<header class="site-header" data-site-header style="--logo-width:{{ section.settings.logo_width }}px">
+<div class="header-left"><button class="mobile-menu micro" data-dialog-open="NavigationDrawer" aria-controls="NavigationDrawer" aria-label="{{ 'general.menu' | t }}"><span class="menu-lines"></span></button><nav class="desktop-nav" aria-label="{{ 'general.navigation' | t }}"><details class="nav-dropdown"><summary class="micro">{{ 'general.collection' | t }}</summary><div class="nav-flyout">{% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title | escape }}</a>{% endfor %}{% else %}<a href="{{ routes.all_products_collection_url }}">{{ 'general.all_bags' | t }}</a><a href="{{ routes.root_url | append: "/products/" | replace: "//", "/" }}velantra-vivienne">{{ 'general.vivienne' | t }}</a><a href="{{ routes.root_url | append: "/products/" | replace: "//", "/" }}velantra-weekender">{{ 'general.eleanor' | t }}</a>{% endif %}</div></details><a class="micro" href="{{ routes.all_products_collection_url }}?sort_by=created-descending">{{ 'general.new_arrivals' | t }}</a></nav></div>
+<a href="{{ routes.root_url }}" class="wordmark" aria-label="{{ shop.name | escape }}">{% if section.settings.logo != blank %}{{ section.settings.logo | image_url: width: 600 | image_tag: width: section.settings.logo_width, alt: shop.name }}{% else %}{{ section.settings.wordmark | escape }}{% endif %}</a>
+<nav class="header-right" aria-label="{{ 'general.utilities' | t }}">{% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}<button class="micro desktop-utility" data-dialog-open="LocaleDialog">{{ localization.language.iso_code | upcase }} / {{ localization.country.currency.iso_code }}</button>{% endif %}<button class="micro desktop-utility" data-dialog-open="SearchDialog">{{ 'general.search' | t }}</button>{% if shop.customer_accounts_enabled %}<a class="micro desktop-utility" href="{{ routes.account_url }}">{{ 'general.account' | t }}</a>{% endif %}<button class="micro" data-dialog-open="CartDrawer" aria-controls="CartDrawer">{{ 'cart.title' | t }} (<span data-cart-count>{{ cart.item_count }}</span>)</button></nav>
+</header>
+<dialog class="drawer navigation-drawer" id="NavigationDrawer" aria-label="{{ 'general.menu' | t }}"><div class="dialog-top"><span class="micro">{{ 'general.menu' | t }}</span><button class="icon-close" data-dialog-close aria-label="{{ 'general.close' | t }}">×</button></div><nav class="drawer-body"><p class="eyebrow">{{ 'general.collection' | t }}</p>{% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title | escape }}</a>{% for child in link.links %}<a class="child-link" href="{{ child.url }}">{{ child.title | escape }}</a>{% endfor %}{% endfor %}{% else %}<a href="{{ routes.all_products_collection_url }}">{{ 'general.all_bags' | t }}</a><a href="{{ routes.root_url | append: "/products/" | replace: "//", "/" }}velantra-vivienne">{{ 'general.vivienne' | t }}</a><a href="{{ routes.root_url | append: "/products/" | replace: "//", "/" }}velantra-weekender">{{ 'general.eleanor' | t }}</a>{% endif %}<hr><a href="{{ routes.search_url }}">{{ 'general.search' | t }}</a>{% if shop.customer_accounts_enabled %}<a href="{{ routes.account_url }}">{{ 'general.account' | t }}</a>{% endif %}<a href="mailto:{{ shop.email }}">{{ 'general.client_services' | t }}</a>{% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}<button class="micro" data-dialog-open="LocaleDialog">{{ localization.country.name }} / {{ localization.country.currency.iso_code }}</button>{% endif %}</nav></dialog>
+<dialog class="search-dialog" id="SearchDialog" aria-label="{{ 'general.search' | t }}"><div class="dialog-top"><h2>{{ 'general.search' | t }}</h2><button class="icon-close" data-dialog-close aria-label="{{ 'general.close' | t }}">×</button></div><form action="{{ routes.search_url }}" method="get" role="search" class="drawer-body"><label class="visually-hidden" for="HeaderSearch">{{ 'general.search' | t }}</label><div class="newsletter-input"><input id="HeaderSearch" type="search" name="q" placeholder="{{ 'general.search_placeholder' | t }}" required><input type="hidden" name="type" value="product"><button type="submit" class="micro">{{ 'general.search' | t }} →</button></div></form></dialog>
+{% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}<dialog id="LocaleDialog" aria-label="{{ 'general.region' | t }}" class="locale-dialog"><div class="dialog-top"><h2>{{ 'general.region' | t }}</h2><button class="icon-close" data-dialog-close aria-label="{{ 'general.close' | t }}">×</button></div><div class="drawer-body">{% form 'localization', id: 'LocaleForm' %}<label for="Country">{{ 'general.destination' | t }}</label><select name="country_code" id="Country">{% for country in localization.available_countries %}<option value="{{ country.iso_code }}"{% if country.iso_code == localization.country.iso_code %} selected{% endif %}>{{ country.name }} ({{ country.currency.iso_code }})</option>{% endfor %}</select>{% if localization.available_languages.size > 1 %}<label for="Language">{{ 'general.language' | t }}</label><select name="language_code" id="Language">{% for language in localization.available_languages %}<option value="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} selected{% endif %}>{{ language.endonym_name }}</option>{% endfor %}</select>{% endif %}<button class="button" type="submit">{{ 'general.confirm' | t }}</button>{% endform %}</div></dialog>{% endif %}
+{% stylesheet %}
+.site-header{height:var(--header-height);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:25px;padding:0 12px;position:relative;z-index:30;background:var(--color-bg);transition:background .2s,color .2s}.has-transparent-header .site-header{position:absolute;top:0;left:0;right:0;background:transparent;color:inherit}.has-transparent-header .site-header{color:#fff}.has-transparent-header .site-header:has(details[open]){background:var(--color-bg);color:var(--color-text)}.wordmark{font-family:var(--font-serif);font-size:32.8px;font-weight:400;letter-spacing:5.9px;line-height:1}.wordmark img{width:var(--logo-width,180px);height:auto}.desktop-nav,.header-right{display:flex;align-items:center;gap:32px}.header-right{justify-content:flex-end;gap:28px}.desktop-nav .micro,.header-right .micro{white-space:nowrap;padding:12px 0}.nav-dropdown summary{padding:12px 0}.nav-flyout{position:absolute;left:0;right:0;top:80px;padding:35px 24px;background:var(--color-bg);color:var(--color-text);border-bottom:1px solid var(--color-line);display:flex;gap:42px}.nav-flyout a{font-family:var(--font-serif);font-size:22px}.mobile-menu{display:none}.navigation-drawer{left:0;right:auto}.navigation-drawer nav>a{font-family:var(--font-serif);font-size:27px;display:block;padding:10px 0}.navigation-drawer nav>.child-link{font-size:20px;padding-left:18px}.navigation-drawer hr{border:0;border-top:1px solid var(--color-line);margin:32px 0}.search-dialog{inset:0 0 auto;width:100%;max-width:100%;padding-bottom:25px}.search-dialog form{max-width:760px;margin:auto}.locale-dialog{inset:50% auto auto 50%;transform:translate(-50%,-50%);width:min(450px,90vw)}.locale-dialog form{display:grid;gap:16px}.menu-lines{display:block;width:18px;height:10px;border-top:1px solid;border-bottom:1px solid}.menu-lines::after{content:'';display:block;border-top:1px solid;margin-top:4px}.mobile-menu{padding:12px 8px}
+@media(max-width:1100px){.desktop-nav{display:none}.mobile-menu{display:block}.header-right{gap:18px}.desktop-nav{gap:22px}.desktop-utility{display:none}}@media(max-width:767px){.desktop-nav{display:none}.mobile-menu{display:block}.wordmark{font-size:26px;letter-spacing:4.2px}.site-header{gap:10px}.wordmark img{width:150px}.header-right .micro{font-size:9px}.header-right{gap:0}}
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "label": "Logo width",
+      "min": 80,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "default": 180
+    },
+    {
+      "type": "text",
+      "id": "wordmark",
+      "label": "Wordmark",
+      "default": "VELANTRA"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Collection navigation"
+    }
+  ]
+}
+{% endschema %}

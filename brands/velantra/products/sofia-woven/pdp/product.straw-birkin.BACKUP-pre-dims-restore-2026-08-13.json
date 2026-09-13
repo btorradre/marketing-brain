@@ -1,0 +1,340 @@
+{
+ "sections": {
+  "breadcrumb": {
+   "type": "pdp-breadcrumb",
+   "disabled": true,
+   "settings": {
+    "collection": ""
+   }
+  },
+  "main": {
+   "type": "main-product",
+   "blocks": {
+    "blurb": {
+     "type": "text",
+     "settings": {
+      "text": "<p>Hand-woven seagrass finished with the highest-quality leather. A structured top-handle silhouette, reimagined \u2014 and made in limited quantities.</p>"
+     }
+    },
+    "price": {
+     "type": "price",
+     "settings": {}
+    },
+    "variant_picker": {
+     "type": "variant_picker",
+     "settings": {
+      "variant_labels": true,
+      "picker_type": "button",
+      "product_dynamic_variants_enable": true,
+      "color_swatches": true
+     }
+    },
+    "buy_buttons": {
+     "type": "buy_buttons",
+     "settings": {
+      "show_dynamic_checkout": false,
+      "surface_pickup_enable": false,
+      "show_gift_card_recipient": false
+     }
+    },
+    "description": {
+     "type": "description",
+     "settings": {
+      "is_tab": false
+     }
+    },
+    "reviews": {
+     "type": "custom",
+     "settings": {
+      "code": "{% render 'pdp-reviews' %}"
+     }
+    },
+    "hint": {
+     "type": "custom",
+     "disabled": true,
+     "settings": {
+      "code": "{% render 'pdp-send-hint' %}"
+     }
+    },
+    "inline_acc": {
+     "type": "custom",
+     "disabled": true,
+     "settings": {
+      "code": "{% render 'pdp-inline-accessories' %}"
+     }
+    },
+    "tab_details": {
+     "type": "tab",
+     "settings": {
+      "title": "Details",
+      "content": "<p><strong>Height:</strong> 9.5&quot; &nbsp;|&nbsp; <strong>Width:</strong> 12&quot; &nbsp;|&nbsp; <strong>Depth:</strong> 6&quot; &nbsp;|&nbsp; <strong>Handle Drop:</strong> 4&quot;</p><p><strong>What it fits:</strong> phone, cardholder or slim wallet, sunglasses, compact, keys, and your daily essentials \u2014 structured for both day and evening.</p>"
+     }
+    },
+    "tab_delivery": {
+     "type": "tab",
+     "settings": {
+      "title": "Delivery",
+      "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.</p><p>Because each bag is woven by hand in limited quantities, sold-out colors may take 4 to 8 weeks to restock.</p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free.</p>"
+     }
+    },
+    "tab_care": {
+     "type": "tab",
+     "settings": {
+      "title": "Care",
+      "content": "<p><strong>Exterior:</strong> Hand-woven natural seagrass.<br/><strong>Handles &amp; Trim:</strong> Highest-quality leather.</p><p><strong>Care:</strong> Keep dry and store away from direct sunlight. Gently dust the seagrass with a soft, dry brush; wipe the leather trim with a clean, dry cloth and condition occasionally. Avoid prolonged moisture \u2014 natural fibers are durable but not waterproof.</p>"
+     }
+    }
+   },
+   "block_order": [
+    "blurb",
+    "price",
+    "variant_picker",
+    "buy_buttons",
+    "description",
+    "tab_details",
+    "tab_delivery",
+    "tab_care",
+    "reviews",
+    "hint",
+    "inline_acc"
+   ],
+   "settings": {
+    "sku_enable": false,
+    "image_position": "left",
+    "image_size": "medium",
+    "product_zoom_enable": true,
+    "thumbnail_position": "beside",
+    "thumbnail_height": "flexible",
+    "thumbnail_arrows": true,
+    "mobile_layout": "full",
+    "enable_video_looping": true,
+    "product_video_style": "muted"
+   }
+  },
+  "customize": {
+   "type": "pdp-customize-grid",
+   "blocks": {
+    "item_0": {
+     "type": "companion",
+     "settings": {
+      "product": "bag-organizer",
+      "tagline": "Slip inside"
+     }
+    },
+    "item_1": {
+     "type": "companion",
+     "settings": {
+      "product": "boat-tote-keychain",
+      "tagline": ""
+     }
+    },
+    "item_2": {
+     "type": "companion",
+     "settings": {
+      "product": "bag-scarf",
+      "tagline": ""
+     }
+    }
+   },
+   "block_order": [
+    "item_0",
+    "item_1",
+    "item_2"
+   ],
+   "disabled": true,
+   "settings": {
+    "eyebrow": "MAKE IT YOURS",
+    "heading": "Customize Your Straw Tote",
+    "intro": "<p>Add an organizer, charm, or scarf to complete your bag \u2014 all designed to match.</p>",
+    "bg_color": "#faf8f4"
+   }
+  },
+  "video_text": {
+   "type": "pdp-video-text",
+   "disabled": true,
+   "settings": {
+    "eyebrow": "SEE IT IN MOTION",
+    "headline": "Woven Entirely by Hand",
+    "body": "<p>Watch how the Straw Tote moves through the day. The hand-woven seagrass holds a structured shape whether the bag is full or empty. The leather handles sit easily in the hand or over the arm. It's the kind of piece that draws a second look \u2014 and a question about where you found it.</p><p>A classic shape, reimagined in natural straw. Refined enough for evening, easy enough for every day.</p>",
+    "cta_label": "Shop the Straw Tote",
+    "cta_url": "/collections/handbags/products/sofia-woven-tote",
+    "media_position": "left",
+    "video_url": "",
+    "autoplay": true,
+    "show_controls": false,
+    "show_play_overlay": true,
+    "bg_color": "#ffffff"
+   }
+  },
+  "warranty": {
+   "type": "pdp-warranty",
+   "disabled": true,
+   "settings": {
+    "eyebrow": "OUR PROMISE",
+    "heading": "Two-Year Warranty",
+    "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we\u2019ll repair or replace it.</p>",
+    "link_url": "/pages/warranty",
+    "link_label": "Read the warranty",
+    "bg_color": "#1a1a1a",
+    "text_color": "#ffffff"
+   }
+  },
+  "icon_bar": {
+   "type": "pdp-icon-bar",
+   "blocks": {
+    "pillar_0": {
+     "type": "pillar",
+     "settings": {
+      "icon": "",
+      "eyebrow": "MATERIAL",
+      "headline": "Hand-Woven Seagrass",
+      "body": "<p>Natural seagrass, tightly woven for real structure and everyday durability. No two weaves are identical.</p>"
+     }
+    },
+    "pillar_1": {
+     "type": "pillar",
+     "settings": {
+      "icon": "",
+      "eyebrow": "CRAFT",
+      "headline": "Leather Trim",
+      "body": "<p>Top handles and edges finished in the highest-quality leather \u2014 hand-set, and made to age beautifully.</p>"
+     }
+    },
+    "pillar_2": {
+     "type": "pillar",
+     "settings": {
+      "icon": "",
+      "eyebrow": "EXCLUSIVE",
+      "headline": "Made in Limited Runs",
+      "body": "<p>Woven by hand in small quantities. When a color sells out, it can be weeks before it returns.</p>"
+     }
+    }
+   },
+   "block_order": [
+    "pillar_0",
+    "pillar_1",
+    "pillar_2"
+   ],
+   "settings": {
+    "heading": "",
+    "bg_color": "#faf8f4",
+    "text_color": "#1a1a1a"
+   }
+  },
+  "benefits": {
+   "type": "pdp-benefit-blocks",
+   "blocks": {
+    "benefit_0": {
+     "type": "benefit",
+     "settings": {
+      "eyebrow_small": "INSIDE",
+      "headline": "Clean, roomy interior",
+      "body": "<p>Roomy enough for your essentials, refined enough for evening.</p>",
+      "linked_product": "",
+      "link_url": "",
+      "link_label": "Shop"
+     }
+    },
+    "benefit_1": {
+     "type": "benefit",
+     "settings": {
+      "eyebrow_small": "THE HANDLES",
+      "headline": "leather top handles",
+      "body": "<p>Hand-set and finished at the edges. Made to soften with wear.</p>",
+      "linked_product": "",
+      "link_url": "",
+      "link_label": "Shop"
+     }
+    },
+    "benefit_2": {
+     "type": "benefit",
+     "settings": {
+      "eyebrow_small": "THE WEAVE",
+      "headline": "Hand-woven seagrass",
+      "body": "<p>Tightly woven for a structure that holds well beyond the season.</p>",
+      "linked_product": "",
+      "link_url": "",
+      "link_label": "Shop"
+     }
+    },
+    "benefit_3": {
+     "type": "benefit",
+     "settings": {
+      "eyebrow_small": "THE TRIM",
+      "headline": "leather handles",
+      "body": "<p>Finished with the highest-quality leather.</p>",
+      "linked_product": "",
+      "link_url": "",
+      "link_label": "Shop"
+     }
+    }
+   },
+   "block_order": [
+    "benefit_0",
+    "benefit_1",
+    "benefit_2",
+    "benefit_3"
+   ],
+   "disabled": true,
+   "settings": {
+    "eyebrow": "BUILT-IN BENEFITS",
+    "heading": "Made with intention",
+    "layout": "stack",
+    "bg_color": "#ffffff"
+   }
+  },
+  "editorial": {
+   "type": "pdp-editorial-tile",
+   "blocks": {
+    "tile_0": {
+     "type": "tile",
+     "settings": {
+      "image": "shopify://shop_images/lifestyle1.webp",
+      "image_position": "left",
+      "eyebrow": "AN ICON, REWOVEN",
+      "headline": "A Classic Shape, Made by Hand in Straw",
+      "body": "<p>We took the structured top-handle silhouette that has defined luxury for decades and rebuilt it in hand-woven seagrass, finished with the highest-quality leather. Every panel is woven by hand and every edge is set by hand \u2014 so the bag you carry is genuinely one of a kind.</p><p>Made in limited quantities, it's designed to be the piece people ask about. Not a summer bag you pack away \u2014 a year-round statement that happens to be woven from straw.</p>",
+      "link_url": "",
+      "link_label": "Read the story"
+     }
+    },
+    "tile_1": {
+     "type": "tile",
+     "disabled": true,
+     "settings": {
+      "image_position": "right",
+      "eyebrow": "THE PROMISE",
+      "headline": "Two years covered. Lifetime in our shop.",
+      "body": "<p>Two-year warranty on materials and stitching. After that, we repair anything for the cost of materials. Send it back. Get it back better than you sent it.</p>",
+      "link_url": "",
+      "link_label": "Read the story"
+     }
+    }
+   },
+   "block_order": [
+    "tile_0",
+    "tile_1"
+   ],
+   "settings": {
+    "bg_color": "#ffffff"
+   }
+  },
+  "recently_viewed": {
+   "type": "recently-viewed",
+   "settings": {
+    "recent_count": 5
+   }
+  }
+ },
+ "order": [
+  "breadcrumb",
+  "main",
+  "customize",
+  "video_text",
+  "warranty",
+  "icon_bar",
+  "benefits",
+  "editorial",
+  "recently_viewed"
+ ]
+}

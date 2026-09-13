@@ -1,0 +1,73 @@
+{
+  "shot": "S12",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The existing meal and plant-fiber strands mix very gently within the stomach, with small natural wall movements; organ size stays unchanged. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S12.png",
+  "reference_sha256": "75b60abcfd04440cebb7abaad21b10291b5d37ac238a8d646f867489ae23f610",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdjTU9nYXJfSEt1cUl6N0lQeTgyTDJRSRIXY01PZ2FyX0hLdXFJejdJUHk4MkwyUUk",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S12.mp4",
+  "sha256": "f87f25b786db9356144b5f0c34fdfda9ca760f7a613d49111ee391bff8d2c65d",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60016,
+    "total_input_tokens": 1158,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 58
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58378,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 480,
+    "raw_prompt_token": 31051,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1851
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 465
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 480
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

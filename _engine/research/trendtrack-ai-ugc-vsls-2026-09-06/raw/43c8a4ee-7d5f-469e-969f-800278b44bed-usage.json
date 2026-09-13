@@ -1,0 +1,100 @@
+{
+  "jsonrpc": "2.0",
+  "id": 17,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brandtracker transcripts (4 shown of 4)\n\nBrandtracker ID: 43c8a4ee-7d5f-469e-969f-800278b44bed\nFilters: time_period=last6m, sort_by=usageCount, order=desc, eu_only=false, page=1, limit=6\n\n## Results\n\n1. Transcript\n\nCoffee in hand, life in order, everyday bag on repeat. Because honestly, who has time to switch? Made from premium Piedmontese suede. Designed to outlast trends. It goes with every outfit. Really elegant, really posh. The size of it is so good. You can fit everything you need in there. And it is available at 50% off for a short time. I would hurry if I were you, girls.\n\n   - Usage: 1 ads\n   - Total impressions: 0\n   - Longest running: 23 days\n   - First/last used: 2026-03-15 \u2192 2026-03-15\n   - Sample ad: facebook_1545184773250534 | Media URL: https://medias.trendtrack.io/facebook/video/61eed1c48539071869392144bc166c6d23bb1a8b65f525273422f23429163850.mp4\n\n2. Transcript\n\nI have zero regrets about this purchase. The compliments have been surprisingly consistent. Oh, life could be a dream.\n\n   - Usage: 1 ads\n   - Total impressions: 0\n   - Longest running: 12 days\n   - First/last used: 2026-08-25 \u2192 2026-08-25\n   - Sample ad: facebook_27694350643581239 | Media URL: https://medias.trendtrack.io/facebook/video/bc526f6d272f3a4fa2b9fb65454103fc2ccb4a76db669e7537c04b5a2a320cac.mp4\n\n3. Transcript\n\nOne good bag beats five average ones. It's Monday again, and I'm almost awake. One hand on my coffee, one foot in a mistake. It's Monday again, but I'm moving somehow. If the world wants perfect, you can't have me right now.\n\n   - Usage: 1 ads\n   - Total impressions: 0\n   - Longest running: 12 days\n   - First/last used: 2026-08-25 \u2192 2026-08-25\n   - Sample ad: facebook_1769708911008698 | Media URL: https://medias.trendtrack.io/facebook/video/39f8cb1a6333e3f170c552ac8f12b573fdbfd5a0aef37e5bf154557d27c7ab06.mp4\n\n4. Transcript\n\nOne good bag beats five average ones. Oh, life could be a dream If I could take you up in paradise up above If you would tell me I'm the only one that you love Life could be a dream, sweetheart Hello, hello again Shaboom, I'm hoping we'll meet again Oh, lie\n\n   - Usage: 1 ads\n   - Total impressions: 0\n   - Longest running: 26 days\n   - First/last used: 2026-08-11 \u2192 2026-08-11\n   - Sample ad: facebook_1092605659870498 | Media URL: https://medias.trendtrack.io/facebook/video/6c4dd6330cfdf0fbc2356156a423ac58bac1dc2e9f17c741b4a6d0c76f5667b7.mp4\n\nFull transcript text is also available at `structuredContent.data[].fullText`.\n\n---\nCredits used: 6 | Remaining: 9823 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "20a528df-11f1-4f4a-9b20-946c68174778",
+      "brandtrackerId": "43c8a4ee-7d5f-469e-969f-800278b44bed",
+      "query": {
+        "brandtracker_id": "43c8a4ee-7d5f-469e-969f-800278b44bed",
+        "time_period": "last6m",
+        "page": 1,
+        "limit": 6,
+        "eu_only": false,
+        "order": "desc",
+        "sort_by": "usageCount"
+      },
+      "data": [
+        {
+          "fullText": "Coffee in hand, life in order, everyday bag on repeat. Because honestly, who has time to switch? Made from premium Piedmontese suede. Designed to outlast trends. It goes with every outfit. Really elegant, really posh. The size of it is so good. You can fit everything you need in there. And it is available at 50% off for a short time. I would hurry if I were you, girls.",
+          "usageCount": 1,
+          "longestRunning": 23,
+          "totalImpressions": 0,
+          "firstUsedAt": "2026-03-15T07:00:00.000Z",
+          "lastUsedAt": "2026-03-15T07:00:00.000Z",
+          "sampleAd": {
+            "adId": "facebook_1545184773250534",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/61eed1c48539071869392144bc166c6d23bb1a8b65f525273422f23429163850.mp4",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/4008e4adabaca7b03d7a2eedfc1c33ca30d57d1e479249b94889eaae15b18c5d.jpg"
+          }
+        },
+        {
+          "fullText": "I have zero regrets about this purchase. The compliments have been surprisingly consistent. Oh, life could be a dream.",
+          "usageCount": 1,
+          "longestRunning": 12,
+          "totalImpressions": 0,
+          "firstUsedAt": "2026-08-25T07:00:00.000Z",
+          "lastUsedAt": "2026-08-25T07:00:00.000Z",
+          "sampleAd": {
+            "adId": "facebook_27694350643581239",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/bc526f6d272f3a4fa2b9fb65454103fc2ccb4a76db669e7537c04b5a2a320cac.mp4",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/7ccd743985e8fa111263a231eaa8b02b8386c7aef4c9e636c43e41444d4bb65e.jpg"
+          }
+        },
+        {
+          "fullText": "One good bag beats five average ones. It's Monday again, and I'm almost awake. One hand on my coffee, one foot in a mistake. It's Monday again, but I'm moving somehow. If the world wants perfect, you can't have me right now.",
+          "usageCount": 1,
+          "longestRunning": 12,
+          "totalImpressions": 0,
+          "firstUsedAt": "2026-08-25T07:00:00.000Z",
+          "lastUsedAt": "2026-08-25T07:00:00.000Z",
+          "sampleAd": {
+            "adId": "facebook_1769708911008698",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/39f8cb1a6333e3f170c552ac8f12b573fdbfd5a0aef37e5bf154557d27c7ab06.mp4",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/e4a08f68a4bc3e60a231add4c55be413857ac8046e1b69770ffc1cab5a4b048e.jpg"
+          }
+        },
+        {
+          "fullText": "One good bag beats five average ones. Oh, life could be a dream If I could take you up in paradise up above If you would tell me I'm the only one that you love Life could be a dream, sweetheart Hello, hello again Shaboom, I'm hoping we'll meet again Oh, lie",
+          "usageCount": 1,
+          "longestRunning": 26,
+          "totalImpressions": 0,
+          "firstUsedAt": "2026-08-11T07:00:00.000Z",
+          "lastUsedAt": "2026-08-11T07:00:00.000Z",
+          "sampleAd": {
+            "adId": "facebook_1092605659870498",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/6c4dd6330cfdf0fbc2356156a423ac58bac1dc2e9f17c741b4a6d0c76f5667b7.mp4",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/1130549e427924525134fa12166490e4309a8e80a5b54f8a8562ae9e174b23c0.jpg"
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 6,
+        "total": 4,
+        "totalPages": 1
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 6,
+        "effectiveUnits": 6,
+        "actualUnits": 4,
+        "costUnits": 6,
+        "recurringUnits": 6,
+        "topupUnits": 0,
+        "creditsRemaining": 9823,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

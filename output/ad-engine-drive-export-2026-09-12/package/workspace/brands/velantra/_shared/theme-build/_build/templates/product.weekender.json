@@ -1,0 +1,329 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "image_position": "left",
+        "image_size": "large",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_height": "fixed",
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      },
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A 48-hour bag in waxed canvas and saddle leather. Carry-on sized. Built to age in transit.</p>"
+          }
+        },
+        "variants": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true,
+            "variant_labels": true
+          }
+        },
+        "monogram": {
+          "type": "custom",
+          "settings": {
+            "liquid": "{% render 'pdp-monogram' %}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "trust": {
+          "type": "custom",
+          "settings": {
+            "liquid": "{% render 'pdp-trust-strip' %}"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "settings": {
+            "liquid": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "settings": {
+            "liquid": "{% render 'pdp-inline-accessories' %}"
+          }
+        },
+        "tab_dim": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Care",
+            "content": "<p><strong>Dimensions</strong><br>\nPlease see product details below.</p>\n<p><strong>Material</strong><br>\nFull-grain leather, canvas, and hand-set hardware.</p>\n<p><strong>Care</strong><br>\nWipe clean with a soft, dry cloth. Condition leather every 6&ndash;12 months with a neutral leather cream. Avoid prolonged exposure to direct sunlight, water, and heat.</p>"
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p><strong>Shipping</strong><br>\nFree standard shipping on orders over $100. Orders ship within 1&ndash;2 business days from our New York atelier.</p>\n<p><strong>Returns</strong><br>\n30-day returns on unused items in original condition. Personalized items are final sale.</p>\n<p><strong>Repairs</strong><br>\nEvery Velantra bag is covered by our Two-Year Warranty. We&rsquo;ll repair or replace anything that fails in normal use.</p>"
+          }
+        },
+        "in_store": {
+          "type": "custom",
+          "settings": {
+            "liquid": "{% render 'pdp-in-store' %}"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "variants",
+        "monogram",
+        "price",
+        "buy",
+        "trust",
+        "hint",
+        "inline_acc",
+        "tab_dim",
+        "tab_ship",
+        "in_store"
+      ]
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we&rsquo;ll repair or replace it.</p>",
+        "link_url": "/pages/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "settings": {
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      },
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "DESIGN",
+            "headline": "Carry-On Sized",
+            "body": "<p>Sized to slide into any overhead bin while still holding two days of clothes.</p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "QUALITY",
+            "headline": "Saddle Leather Trim",
+            "body": "<p>Thick, vegetable-tanned leather at every wear point \u2014 handles, base corners, strap mounts.</p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "SUSTAINABILITY",
+            "headline": "Repairable Construction",
+            "body": "<p>Hand-stitched. Rebuilt at the seam, not thrown away.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ]
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      },
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Full-length zip top",
+            "body": "<p>Opens flat to a wide compartment \u2014 pack it like a duffel, lift it out like a tray.</p>"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "BUILT IN",
+            "headline": "Detachable strap",
+            "body": "<p>Padded shoulder strap clips off when you don't need it.</p>"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "READY FOR",
+            "headline": "Two-day trip",
+            "body": "<p>Sized to fit two pairs of shoes, four outfits, and a toiletry kit.</p>"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "DETAIL",
+            "headline": "Trolley sleeve",
+            "body": "<p>Slides over a roller suitcase handle for hands-free transit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ]
+    },
+    "feature_carousel": {
+      "type": "pdp-feature-carousel",
+      "settings": {
+        "eyebrow": "IN DETAIL",
+        "heading": "Every detail, considered",
+        "bg_color": "#ffffff"
+      },
+      "blocks": {
+        "slide_0": {
+          "type": "slide",
+          "settings": {
+            "caption": "British waxed canvas \u2014 water-resistant, made to patina"
+          }
+        },
+        "slide_1": {
+          "type": "slide",
+          "settings": {
+            "caption": "Saddle leather handles and base corners"
+          }
+        },
+        "slide_2": {
+          "type": "slide",
+          "settings": {
+            "caption": "Detachable padded shoulder strap"
+          }
+        },
+        "slide_3": {
+          "type": "slide",
+          "settings": {
+            "caption": "Trolley sleeve for hands-free airport transit"
+          }
+        }
+      },
+      "block_order": [
+        "slide_0",
+        "slide_1",
+        "slide_2",
+        "slide_3"
+      ]
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "settings": {
+        "bg_color": "#ffffff"
+      },
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image_position": "left",
+            "eyebrow": "WAXED CANVAS",
+            "headline": "Gets better with the weather",
+            "body": "<p>British-milled waxed cotton \u2014 water-resistant from day one, with a finish that softens and burnishes wherever the bag flexes and rubs.</p>"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "ON THE ROAD",
+            "headline": "Sized for the bin",
+            "body": "<p>We benchmarked every major airline's carry-on dimensions, then built the Weekender to fit the strictest of them.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ]
+    },
+    "style_with": {
+      "type": "pdp-style-with",
+      "settings": {
+        "heading": "Style With",
+        "bg_color": "#faf8f4"
+      },
+      "blocks": {
+        "card_0": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-boat-tote-2"
+          }
+        },
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-meridian-tote"
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-portico-bucket-bag"
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "product": "velantra-evening-bag"
+          }
+        }
+      },
+      "block_order": [
+        "card_0",
+        "card_1",
+        "card_2",
+        "card_3"
+      ]
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "feature_carousel",
+    "editorial",
+    "style_with",
+    "recently_viewed"
+  ]
+}

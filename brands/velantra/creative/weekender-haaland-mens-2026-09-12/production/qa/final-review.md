@@ -1,0 +1,19 @@
+# Weekender / Haaland — delivery review
+
+Selected timeline: Weekender-Haaland-HeyGen-v6 in VEL_Weekender_Haaland_20260912. Final deliverable: production/exports/Weekender-Haaland-final.mp4. 1080×1920, 30fps, 1299 frames, 43.30seconds. Exact approved narration is unchanged and not retimed. This is an agent technical/visual review, not a human approval or campaign-readiness certificate.
+
+## Repairs and evidence
+- Media Offline root cause: Resolve treated numbered PNG names as image sequences. Digit-free aliases import as Still. All 62 video-track items resolve to media-pool items; 46 still-backed items include editable caption/title sources. Final full render completes.
+- Presenter: original HeyGen avatar driven by permitted reference-clone take2. Continuous source-zero DeltaKeyer master rendered in Resolve to ProRes4444 alpha; final timeline maps its embedded01:00:00:00 source timecode explicitly. Source offsets equal narration positions. Final face poses at0.4,19,36seconds match native HeyGen; selected speech cross-correlation is zero lag. No source retiming.
+- Three exported lip-sync windows (0–3,17–20,35–38seconds) reviewed at24fps: no sustained lead/lag observed. Automated phoneme commentary is supporting evidence with model limitations, not an exhaustive phoneme audit. First hook title intentionally replaces phrase captions; first spoken phrase caption begins at frame76 /2.533s, matching the selected alignment's “The” at2.540s. The earlier model's coarse 2-second mismatch flag was contradicted by consecutive frame75/76 inspection and exact source timing.
+- Caption correction: TextPlus and black background now explicitly share1080×1920 dimensions; text sits inside its bar at all positions. Bars widened with padding for long phrases. S07 captions sit below presenter; no caption crosses his face. Native captions and hook titles remain editable.
+- All final frames decoded; low-resolution every-frame scan checks near-total black, predominantly red offline cards and large green-screen regions. See export-frame-scan.json and export-audio-sync.json. These are technical checks, not proof every product pixel is perfect.
+
+## Visual review and decisions
+Selected actual rendered compositions were viewed, including every scene first frame, caption boundaries and hardware/canvas caption positions. Whole ad model review at3fps found no Media Offline, frozen presenter or malformed selected motion. Opening/end missing-caption suggestions are intentional choices: reference-style hook title, and explicit user instruction for bag-only S13. S07 presenter covers a portion of the large canvas field; extensive unobstructed canvas remains visible, and its leather boundary, gold plate and fittings are clear. Retain the approved floating-presenter treatment.
+
+All 13 background scenes are distinct. S04/S11/S12 use restrained revised Omni actions; S07 uses the inspected hardware take. Athlete photos and wardrobe S06/S08/S09/S10 are intentional stills. S06 Omni failed twice; no generated motion is claimed there. Two front closure straps and two rolled handles are visible in applicable closed-front views; macro crops and open interior are exempt from impossible full-front counting. Physical scale is illustrative, not measured. Original provider outputs and diagnostic versions remain preserved.
+
+Audio is speech only. No copied reference music or automatic cut SFX. S13 has no presenter, product title or CTA caption, as requested; narration supplies the final CTA and a clean two-second hold follows.
+
+Cut Room carries actual rendered first frames and final voice-aligned timings in the Velantra board. Public board/23 asset bytes checked; browser UI could not be inspected in this session. Native Resolve scripting and render receipts establish actual editor operations; no screenshot-based claim is made.

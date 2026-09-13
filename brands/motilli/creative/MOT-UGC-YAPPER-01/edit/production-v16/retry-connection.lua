@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local pm=r:GetProjectManager();local p=pm:GetCurrentProject();print('RETRY_CONNECTION',r:GetVersionString(),p and p:GetName(),p and p:IsRenderingInProgress());if p then for i=1,p:GetTimelineCount() do local t=p:GetTimelineByIndex(i);print('TIMELINE',t:GetName(),t:GetEndFrame()) end end

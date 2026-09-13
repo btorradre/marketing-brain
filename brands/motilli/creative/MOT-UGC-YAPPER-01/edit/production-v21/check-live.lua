@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local p=r:GetProjectManager():GetCurrentProject();print('PROJECT',p:GetName());print('RENDERING',p:IsRenderingInProgress());for i=1,p:GetTimelineCount() do local t=p:GetTimelineByIndex(i);if t:GetName()=='v18 FINAL - Michelle V3 MiraLAX' or string.find(t:GetName(),'v21') then print('TIMELINE',t:GetName(),t:GetEndFrame()) end end

@@ -1,0 +1,20 @@
+{
+  "shot": "S08",
+  "verdict": "minor_issue",
+  "observed_motion": "Extremely minimal to near-static motion across the duration, with little perceptible camera drift or tissue movement.",
+  "issues": [
+    {
+      "time_s": 0.0,
+      "description": "Motion is virtually imperceptible with minimal organic drift or zoom.",
+      "severity": "low"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 3.75,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S08-4fps.jpg"
+}

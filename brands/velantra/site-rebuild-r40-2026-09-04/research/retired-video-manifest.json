@@ -1,0 +1,106 @@
+{
+  "project": "Velantra Vivienne Studio Hero",
+  "created": "2026-09-04",
+  "source": {
+    "keyframe": "assets/vivienne-studio-keyframe.png",
+    "product_reference": "assets/vivienne-product-master.png",
+    "keyframe_provider": "built-in image_gen",
+    "video_provider": "Google Gemini Interactions API",
+    "video_model": "gemini-omni-1.1-flash",
+    "source_video": "assets/vivienne-studio-raw.mp4",
+    "macro_source": "../../products/vivienne/broll/final/O11.mp4",
+    "macro_source_note": "Existing approved Google Omni generated Vivienne footage; no reference-brand media used.",
+    "product_reference_original": "../../products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png"
+  },
+  "verification": {
+    "manual_contact_sheet": "qa/studio-contact.jpg",
+    "video_analysis_model": "gemini-3.7-flash",
+    "video_analysis_result": "qa/studio-gemini-qa.json",
+    "hyperframes_version": "0.8.27",
+    "desktop_check": "qa/desktop-check.json",
+    "mobile_check": "mobile/check.json"
+  },
+  "outputs": [
+    {
+      "file": "exports/vivienne-hero-desktop.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 6.0,
+      "bytes": 519451,
+      "codec": "h264",
+      "fps": "24/1",
+      "pixel_format": "yuv420p",
+      "audio": false,
+      "faststart": true,
+      "seam_mean_abs_rgb_difference_0_to_255": 1.626
+    },
+    {
+      "file": "exports/vivienne-hero-mobile.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration_seconds": 6.0,
+      "bytes": 706733,
+      "codec": "h264",
+      "fps": "24/1",
+      "pixel_format": "yuv420p",
+      "audio": false,
+      "faststart": true,
+      "seam_mean_abs_rgb_difference_0_to_255": 4.999
+    },
+    {
+      "file": "exports/vivienne-macro.mp4",
+      "width": 1440,
+      "height": 720,
+      "duration_seconds": 8.0,
+      "bytes": 2425948,
+      "codec": "h264",
+      "fps": "24/1",
+      "pixel_format": "yuv420p",
+      "audio": false,
+      "faststart": true,
+      "seam_mean_abs_rgb_difference_0_to_255": 3.196
+    },
+    {
+      "file": "exports/vivienne-editorial-01.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 50872
+    },
+    {
+      "file": "exports/vivienne-editorial-02.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 49376
+    },
+    {
+      "file": "exports/vivienne-editorial-03.jpg",
+      "width": 810,
+      "height": 866,
+      "bytes": 45644
+    },
+    {
+      "file": "exports/vivienne-hero-desktop.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 36417
+    },
+    {
+      "file": "exports/vivienne-hero-mobile.jpg",
+      "width": 720,
+      "height": 1280,
+      "bytes": 51359
+    },
+    {
+      "file": "exports/vivienne-macro.jpg",
+      "width": 1440,
+      "height": 810,
+      "bytes": 159057
+    },
+    {
+      "file": "exports/vivienne-studio-wide.jpg",
+      "width": 1672,
+      "height": 941,
+      "bytes": 85236
+    }
+  ]
+}

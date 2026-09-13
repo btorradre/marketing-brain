@@ -1,0 +1,37 @@
+test_agent_notes_persist_and_context_retrieves (test_memory.MemoryTest.test_agent_notes_persist_and_context_retrieves) ... ok
+test_auto_sync_new_and_changed_record (test_memory.MemoryTest.test_auto_sync_new_and_changed_record) ... ok
+test_concurrent_agents_share_latest_snapshot (test_memory.MemoryTest.test_concurrent_agents_share_latest_snapshot) ... ok
+test_decisions_and_tasks_refresh_without_creative_revision (test_memory.MemoryTest.test_decisions_and_tasks_refresh_without_creative_revision) ... ok
+test_failed_sync_preserves_committed_record_and_recovers (test_memory.MemoryTest.test_failed_sync_preserves_committed_record_and_recovers) ... Ad memory sync needs attention: simulated write failure
+ok
+test_manual_generated_edit_is_preserved_as_conflict (test_memory.MemoryTest.test_manual_generated_edit_is_preserved_as_conflict) ... ok
+test_markdown_mirror_reads_without_creating_database (test_memory.MemoryTest.test_markdown_mirror_reads_without_creating_database) ... ok
+test_repeated_sync_no_rewrites (test_memory.MemoryTest.test_repeated_sync_no_rewrites) ... ok
+test_rollback_does_not_publish (test_memory.MemoryTest.test_rollback_does_not_publish) ... ok
+test_search_brand_scope_and_sources (test_memory.MemoryTest.test_search_brand_scope_and_sources) ... ok
+test_changed_media_invalidates_review (test_system.SystemTest.test_changed_media_invalidates_review) ... ok
+test_comparison_and_operations (test_system.SystemTest.test_comparison_and_operations) ... ok
+test_decision_lineage (test_system.SystemTest.test_decision_lineage) ... ok
+test_duplicate_overlap_atomic (test_system.SystemTest.test_duplicate_overlap_atomic) ... ok
+test_exact_export_binding (test_system.SystemTest.test_exact_export_binding) ... ok
+test_http_token_revision_and_range (test_system.SystemTest.test_http_token_revision_and_range) ... ok
+test_invalid_calibration_and_scores (test_system.SystemTest.test_invalid_calibration_and_scores) ... ok
+test_inventory_conservative_idempotent (test_system.SystemTest.test_inventory_conservative_idempotent) ... ok
+test_lock (test_system.SystemTest.test_lock) ... ok
+test_media_review_staleness_and_stage (test_system.SystemTest.test_media_review_staleness_and_stage) ... ok
+test_missing_and_zero_denominators (test_system.SystemTest.test_missing_and_zero_denominators) ... ok
+test_mixed_settings_headers_and_values (test_system.SystemTest.test_mixed_settings_headers_and_values) ... ok
+test_path_containment_and_symlinks (test_system.SystemTest.test_path_containment_and_symlinks) ... ok
+test_quote_fidelity (test_system.SystemTest.test_quote_fidelity) ... ok
+test_ratios_from_totals_and_idempotence (test_system.SystemTest.test_ratios_from_totals_and_idempotence) ... ok
+test_revision_conflict_and_persistence (test_system.SystemTest.test_revision_conflict_and_persistence) ... ok
+test_scene_reasons_and_tiktok (test_system.SystemTest.test_scene_reasons_and_tiktok) ... ok
+test_stage_checks_cannot_be_bypassed (test_system.SystemTest.test_stage_checks_cannot_be_bypassed) ... ok
+test_stale_tasks (test_system.SystemTest.test_stale_tasks) ... ok
+test_tasks_dependency_and_reconciliation (test_system.SystemTest.test_tasks_dependency_and_reconciliation) ... ok
+test_unmatched_rejoin_and_brand_safety (test_system.SystemTest.test_unmatched_rejoin_and_brand_safety) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.918s
+
+OK

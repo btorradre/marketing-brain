@@ -1,0 +1,73 @@
+{
+  "shot": "HB1",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A very slow physical camera drift past the foreground remedy packages creates slight parallax against the digestive illustration; all objects retain their shape and lettering. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/HB1.png",
+  "reference_sha256": "6702f94ad65ae658720216c5f997b9565c4888ee59b76c9331d00f95b54b8571",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chc0N0tnYW82eUlKclZ6N0lQdDhmczhBNBIXNDdLZ2FvNnlJSnJWejdJUHQ4ZnM4QTQ",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/HB1.mp4",
+  "sha256": "871470ac9af98b7ac1164511b28c6bfa34668acb5072b157438ce5515c54d117",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60217,
+    "total_input_tokens": 1159,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 59
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58454,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 604,
+    "raw_prompt_token": 31285,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1852
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 540
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 604
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

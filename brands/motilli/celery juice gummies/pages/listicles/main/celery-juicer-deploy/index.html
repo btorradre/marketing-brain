@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7 Reasons Women Who Juice Celery Are Switching to Motilli</title>
+
+  <!-- Meta Pixel -->
+  <!-- Meta Pixel removed -->
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+      color: #333; background: #fff; line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    :root {
+      --accent: #4a8c3f; --accent-hover: #3d7534; --accent-light: #edf7eb;
+      --accent-dark: #2d5a26; --headline: #1a1a1a; --body: #444;
+      --meta: #888; --border: #e5e7eb; --bg-alt: #f8faf7;
+      --gold: #f59e0b; --green-cta: #74a625; --green-cta-hover: #638f20;
+    }
+
+    .container { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+
+    /* === STICKY BAR === */
+    .sticky-bar {
+      position: fixed; top: 0; left: 0; right: 0;
+      background: var(--accent-dark); color: #fff; z-index: 1000;
+      padding: 11px 16px; font-size: 14px; text-align: center;
+      font-weight: 600; letter-spacing: 0.3px;
+    }
+    .sticky-bar span { color: #fbbf24; }
+
+    /* === SOCIAL PROOF BAR === */
+    .social-proof-bar {
+      display: flex; justify-content: center; align-items: center; gap: 24px;
+      padding: 10px 20px; background: var(--bg-alt);
+      border-bottom: 1px solid var(--border); flex-wrap: wrap;
+      margin-top: 36px;
+    }
+    .social-proof-bar__item {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 13px; font-weight: 600; color: #555;
+    }
+
+    /* === HERO === */
+    .hero { padding: 16px 0 0; text-align: center; }
+    .hero__logo {
+      font-size: 28px; font-weight: 800; color: var(--accent);
+      letter-spacing: -0.5px; margin-bottom: 24px;
+    }
+    .hero__headline {
+      font-size: 34px; font-weight: 800; color: var(--headline);
+      line-height: 1.2; margin-bottom: 16px;
+    }
+    .hero__subhead {
+      font-size: 17px; line-height: 1.7; color: var(--body);
+      margin-bottom: 0; max-width: 600px; margin-left: auto; margin-right: auto;
+    }
+    .hero__image {
+      border-radius: 16px; overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      margin-bottom: 32px;
+    }
+    .hero__image img { width: 100%; }
+
+    /* === CATEGORY LABEL === */
+    .category-label {
+      display: inline-block; font-size: 11px; font-weight: 700;
+      color: var(--accent); text-transform: uppercase;
+      letter-spacing: 1.5px; margin-bottom: 8px;
+      background: var(--accent-light); padding: 4px 12px;
+      border-radius: 4px;
+    }
+
+    /* === REASON CARD === */
+    .reason {
+      display: grid; grid-template-columns: 340px 1fr; gap: 40px;
+      align-items: start; padding: 48px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .reason--reverse { grid-template-columns: 1fr 340px; }
+    .reason--reverse .reason__image { order: 2; }
+    .reason--reverse .reason__content { order: 1; }
+
+    .reason__image {
+      border-radius: 12px; overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .reason__image img { width: 100%; height: auto; object-fit: cover; }
+
+    .reason__content {}
+    .reason__number-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; background: var(--accent); color: #fff;
+      font-size: 20px; font-weight: 800; border-radius: 50%; margin-bottom: 14px;
+    }
+    .reason__title {
+      font-size: 22px; font-weight: 700; color: var(--headline);
+      line-height: 1.3; margin-bottom: 14px;
+    }
+    .reason__body p {
+      font-size: 16px; line-height: 1.75; margin-bottom: 12px; color: var(--body);
+    }
+    .reason__body strong { color: var(--headline); font-weight: 600; }
+
+    /* === TESTIMONIAL (inline) === */
+    .testimonial {
+      background: var(--accent-light); border-left: 4px solid var(--accent);
+      padding: 20px 22px; margin: 20px 0 0; border-radius: 0 10px 10px 0;
+    }
+    .testimonial__stars { color: var(--gold); font-size: 15px; margin-bottom: 6px; }
+    .testimonial__text {
+      font-style: italic; font-size: 15px; line-height: 1.65;
+      color: #333; margin-bottom: 8px;
+    }
+    .testimonial__author { font-size: 13px; font-weight: 600; color: #555; }
+
+    /* === RESULTS SECTION === */
+    .results-section {
+      padding: 48px 0; text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .results-section__title {
+      font-size: 26px; font-weight: 700; color: var(--headline);
+      margin-bottom: 32px;
+    }
+    .results-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+    }
+    .result-card {
+      background: var(--accent-light); border-radius: 12px;
+      padding: 28px 20px; text-align: center;
+    }
+    .result-card__number {
+      font-size: 48px; font-weight: 800; color: var(--accent);
+      line-height: 1; margin-bottom: 8px;
+    }
+    .result-card__text {
+      font-size: 14px; font-weight: 500; color: var(--body); line-height: 1.4;
+    }
+
+    /* === CTA === */
+    .cta-block { text-align: center; padding: 40px 0; }
+    .cta-button {
+      display: inline-block; background: var(--green-cta); color: #fff;
+      font-size: 18px; font-weight: 700; padding: 18px 48px;
+      border-radius: 8px; text-decoration: none;
+      transition: all 0.2s ease; letter-spacing: 0.3px;
+      box-shadow: 0 4px 14px rgba(116,166,37,0.3);
+    }
+    .cta-button:hover { background: var(--green-cta-hover); transform: translateY(-1px); }
+    .cta-sub { font-size: 13px; color: var(--meta); margin-top: 12px; }
+
+    /* === REVIEWS === */
+    .reviews-section { padding: 48px 0; background: var(--bg-alt); }
+    .reviews-section__title {
+      font-size: 26px; font-weight: 700; color: var(--headline);
+      text-align: center; margin-bottom: 32px;
+    }
+    .review-card {
+      background: #fff; border: 1px solid var(--border); border-radius: 12px;
+      padding: 28px; margin-bottom: 20px;
+    }
+    .review-card__stars { color: var(--gold); font-size: 18px; margin-bottom: 8px; }
+    .review-card__title { font-size: 17px; font-weight: 700; color: var(--headline); margin-bottom: 4px; }
+    .review-card__meta { font-size: 12px; color: var(--meta); margin-bottom: 12px; }
+    .review-card__verified {
+      display: inline-flex; align-items: center; gap: 4px;
+      color: var(--accent); font-size: 12px; font-weight: 600; margin-left: 8px;
+    }
+    .review-card__text { font-size: 15px; line-height: 1.65; color: var(--body); margin-bottom: 12px; }
+    .review-card__helpful { font-size: 13px; color: var(--meta); font-weight: 500; }
+
+    /* === BUYBOX === */
+    .buybox {
+      background: var(--bg-alt); border-radius: 16px; padding: 40px 32px;
+      margin: 48px 0; text-align: center;
+      border: 2px solid var(--border);
+    }
+    .buybox__title {
+      font-size: 22px; font-weight: 700; color: var(--headline);
+      margin-bottom: 24px;
+    }
+    .buybox__option {
+      background: #fff; border: 2px solid var(--border); border-radius: 12px;
+      padding: 20px; margin-bottom: 16px; text-align: left;
+      transition: border-color 0.2s;
+    }
+    .buybox__option--popular {
+      border-color: var(--accent);
+      position: relative;
+    }
+    .buybox__option--popular::before {
+      content: 'MOST POPULAR';
+      position: absolute; top: -12px; left: 20px;
+      background: var(--accent); color: #fff; font-size: 11px;
+      font-weight: 700; padding: 3px 12px; border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .buybox__option-title { font-size: 17px; font-weight: 700; color: var(--headline); margin-bottom: 4px; }
+    .buybox__option-price { font-size: 24px; font-weight: 800; color: var(--accent); }
+    .buybox__option-price s { font-size: 16px; color: var(--meta); font-weight: 400; }
+    .buybox__option-details { font-size: 13px; color: var(--body); margin-top: 8px; }
+    .buybox__option-details span { display: block; margin-bottom: 2px; }
+
+    /* === CLOSE === */
+    .close-section { text-align: center; padding: 56px 0 24px; }
+    .close-section__title {
+      font-size: 28px; font-weight: 700; color: var(--headline);
+      margin-bottom: 16px; line-height: 1.3;
+    }
+    .close-section p {
+      font-size: 17px; line-height: 1.7; color: var(--body);
+      margin-bottom: 16px; text-align: left;
+    }
+
+    /* === TRUST === */
+    .trust-badges {
+      display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;
+      padding: 32px 0; border-top: 1px solid var(--border);
+    }
+    .trust-badge {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 13px; font-weight: 600; color: #555;
+    }
+    .trust-badge__icon { font-size: 20px; }
+
+    /* === FAQ === */
+    .faq { padding: 48px 0; }
+    .faq__title { font-size: 26px; font-weight: 700; color: var(--headline); margin-bottom: 24px; text-align: center; }
+    .faq__item { border-bottom: 1px solid var(--border); }
+    .faq__question {
+      width: 100%; text-align: left; padding: 20px 0;
+      font-size: 16px; font-weight: 600; color: var(--headline);
+      background: none; border: none; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center;
+      font-family: inherit;
+    }
+    .faq__arrow { transition: transform 0.2s; font-size: 14px; color: var(--meta); }
+    .faq__item.open .faq__arrow { transform: rotate(90deg); }
+    .faq__answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+    .faq__item.open .faq__answer { max-height: 500px; }
+    .faq__answer p { padding: 0 0 20px; font-size: 15px; line-height: 1.65; color: var(--body); }
+
+    /* === STICKY CTA === */
+    .sticky-cta {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: #fff; border-top: 1px solid var(--border);
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+      padding: 12px 20px; z-index: 999;
+      text-align: center; transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+    .sticky-cta.visible { transform: translateY(0); }
+    .sticky-cta .cta-button {
+      display: inline-block; background: var(--green-cta); color: #fff;
+      font-size: 16px; font-weight: 700; padding: 14px 40px;
+      border-radius: 8px; text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .sticky-cta .cta-button:hover { background: var(--green-cta-hover); transform: translateY(-1px); }
+    .sticky-cta__sub { font-size: 11px; color: var(--meta); margin-top: 6px; }
+
+    /* === FOOTER === */
+    .footer { background: var(--bg-alt); padding: 40px 0; text-align: center; }
+    .footer__disclaimer { font-size: 11px; line-height: 1.5; color: var(--meta); margin-bottom: 16px; }
+    .footer__links { font-size: 13px; color: #666; margin-bottom: 8px; }
+    .footer__links a { color: #666; text-decoration: underline; }
+    .footer__copyright { font-size: 12px; color: var(--meta); }
+
+    /* === INGREDIENT LIST === */
+    .ingredient-list {
+      list-style: none; padding: 0; margin: 16px 0;
+    }
+    .ingredient-list li {
+      padding: 10px 0; border-bottom: 1px solid var(--border);
+      font-size: 15px; color: var(--body); line-height: 1.5;
+    }
+    .ingredient-list li:last-child { border-bottom: none; }
+    .ingredient-list li strong { color: var(--headline); }
+
+    /* === COST COMPARISON === */
+    .cost-stack {
+      background: var(--bg-alt); border-radius: 12px; padding: 24px; margin: 20px 0;
+    }
+    .cost-stack__item {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 0; border-bottom: 1px solid var(--border);
+      font-size: 15px; color: var(--body);
+    }
+    .cost-stack__item:last-child { border-bottom: none; }
+    .cost-stack__item .price { font-weight: 600; color: #dc2626; }
+    .cost-stack__total {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 0; margin-top: 8px; border-top: 2px solid var(--headline);
+      font-size: 17px; font-weight: 700; color: var(--headline);
+    }
+    .cost-stack__vs {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 0; font-size: 17px; font-weight: 700; color: var(--accent);
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 768px) {
+      .reason { grid-template-columns: 1fr; gap: 24px; }
+      .reason--reverse { grid-template-columns: 1fr; }
+      .reason--reverse .reason__image { order: 0; }
+      .reason--reverse .reason__content { order: 0; }
+      .reason__image { max-width: 100%; }
+      .results-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    }
+    @media (max-width: 480px) {
+      body { padding-top: 40px; }
+      .sticky-bar { font-size: 12px; padding: 10px 12px; }
+      .hero__headline { font-size: 26px; }
+      .reason { padding: 32px 0; }
+      .reason__title { font-size: 19px; }
+      .cta-button { display: block; width: 100%; padding: 18px 24px; font-size: 17px; }
+      .sticky-cta .cta-button { padding: 14px 20px; font-size: 15px; }
+      .sticky-cta { padding: 10px 16px; }
+      .trust-badges { gap: 16px; }
+      .trust-badge { font-size: 12px; }
+      .social-proof-bar { gap: 12px; }
+      .social-proof-bar__item { font-size: 11px; }
+      .close-section__title { font-size: 24px; }
+      .results-grid { grid-template-columns: 1fr; }
+      .result-card__number { font-size: 40px; }
+      .buybox { padding: 28px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- STICKY TOP BAR -->
+  <div class="sticky-bar">
+    <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 stars &middot; 900+ reviews &middot; Made in USA
+  </div>
+
+  <!-- SOCIAL PROOF BAR -->
+  <div class="social-proof-bar">
+    <div class="social-proof-bar__item">Clean Label Certified</div>
+    <div class="social-proof-bar__item">Third-Party Tested</div>
+    <div class="social-proof-bar__item">GMP Certified</div>
+    <div class="social-proof-bar__item">90-Day Guarantee</div>
+  </div>
+
+  <div class="container">
+
+    <!-- ==================== HERO ==================== -->
+    <div class="hero">
+      <div class="hero__logo">motilli</div>
+      <h1 class="hero__headline">7 reasons women who juice celery are switching to Motilli &mdash; and why most say they&rsquo;ll never go back to the juicer.</h1>
+      <p class="hero__subhead">You believe in celery juice. You just hate everything about making it.</p>
+    </div>
+
+    <!-- ==================== REASON 01: CONVENIENCE ==================== -->
+    <div class="reason">
+      <div class="reason__image">
+        <img src="https://i.ibb.co/mFqwwRZS/motilli-celery-listicle-02-convenience.jpg" alt="Motilli bottle on marble counter next to coffee - easy morning routine">
+      </div>
+      <div class="reason__content">
+        <span class="category-label">Convenience</span>
+        <div class="reason__number-badge">1</div>
+        <h2 class="reason__title">Your mornings back (for real this time)</h2>
+        <div class="reason__body">
+          <p>You know the drill. Wake up. Wash the celery. Chop. Feed it through the juicer stalk by stalk. Strain. Drink 16 ounces of something that tastes like a baseball field. Disassemble the juicer. Scrub the mesh screen. Wipe down the counter. Rinse the pulp container. Reassemble.</p>
+          <p>All before breakfast. All before coffee. Every single day.</p>
+          <p>Motilli is <strong>three gummies</strong>. That&rsquo;s it. Same celery juice nutrients. Same gut support. No juicer. No cleanup. No 20-minute hostage situation in your kitchen every morning.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== REASON 02: FIBER FIX ==================== -->
+    <div class="reason reason--reverse">
+      <div class="reason__image">
+        <img src="https://i.ibb.co/fVcMgpKr/motilli-celery-listicle-03-fiber-fix.jpg" alt="Motilli bottle with celery stalks and green juice - the fiber juicing removes">
+      </div>
+      <div class="reason__content">
+        <span class="category-label">The Fiber Fix</span>
+        <div class="reason__number-badge">2</div>
+        <h2 class="reason__title">Juicing strips out the one thing your gut actually needs</h2>
+        <div class="reason__body">
+          <p>Here&rsquo;s the irony nobody in the celery juice community talks about: when you juice celery, you remove nearly all of the fiber. The pulp you throw away &mdash; or shove into an overflowing freezer bag &mdash; contains <strong>95% of celery&rsquo;s original fiber content</strong>.</p>
+          <p>Fiber is what feeds the good bacteria in your gut. It&rsquo;s what keeps you regular. It&rsquo;s what stabilizes blood sugar and helps you feel full. It&rsquo;s quite literally the thing your gut is begging for.</p>
+          <p>Motilli delivers celery juice nutrients <strong>WITH 4.5g of clinically studied prebiotic fiber</strong> in every serving. Not instead of the good stuff &mdash; alongside it. The gummy gives your gut what the juicer takes away.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== REASON 03: COST ==================== -->
+    <div class="reason">
+      <div class="reason__image">
+        <img src="https://i.ibb.co/SCK06rp/motilli-celery-listicle-04-cost.jpg" alt="Hand holding Motilli bottle - costs less than a dollar a day">
+      </div>
+      <div class="reason__content">
+        <span class="category-label">Cost</span>
+        <div class="reason__number-badge">3</div>
+        <h2 class="reason__title">Stop spending $150/month on something that spoils in a week</h2>
+        <div class="reason__body">
+          <p>Let&rsquo;s do the math:</p>
+        </div>
+        <div class="cost-stack">
+          <div class="cost-stack__item"><span>Organic celery (per bunch)</span> <span class="price">$4&ndash;5</span></div>
+          <div class="cost-stack__item"><span>Bunches per month (every 1&ndash;2 days)</span> <span class="price">15&ndash;30</span></div>
+          <div class="cost-stack__item"><span>Monthly celery cost</span> <span class="price">$120&ndash;150</span></div>
+          <div class="cost-stack__item"><span>Juicer (one-time)</span> <span class="price">$200+</span></div>
+          <div class="cost-stack__item"><span>Replacement screens, bags, gas</span> <span class="price">$20+/mo</span></div>
+          <div class="cost-stack__total"><span>Total juicing cost</span> <span>$150+/mo</span></div>
+          <div class="cost-stack__vs"><span>Motilli</span> <span>&lt; $1/day</span></div>
+        </div>
+        <div class="reason__body">
+          <p>One bottle lasts a full month. It doesn&rsquo;t rot in your crisper. It doesn&rsquo;t oxidize in 30 minutes. It travels with you. And it&rsquo;s actually shelf-stable &mdash; something celery juice will never be.</p>
+          <p><strong>Your wallet was juiced too. Time to stop.</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-block">
+      <a href="https://trymotilli.co" class="cta-button">See Pricing &rarr;</a>
+      <p class="cta-sub">Free shipping &bull; 90-day money-back guarantee</p>
+    </div>
+
+    <!-- ==================== REASON 04: TASTE ==================== -->
+    <div class="reason reason--reverse">
+      <div class="reason__image">
+        <img src="https://i.ibb.co/kRXz58Z/motilli-celery-listicle-05-taste.jpg" alt="Woman enjoying Motilli gummy - tastes like green apple, not lawn clippings">
+      </div>
+      <div class="reason__content">
+        <span class="category-label">Taste</span>
+        <div class="reason__number-badge">4</div>
+        <h2 class="reason__title">A gummy that actually tastes good (no &ldquo;slugging it back like a shot&rdquo;)</h2>
+        <div class="reason__body">
+          <p>We don&rsquo;t need to pretend. Celery juice tastes like lawn clippings mixed with salt water. You&rsquo;ve been grimacing through 16 ounces every morning because you believed it was worth it &mdash; and it was. But suffering through the taste isn&rsquo;t a requirement for gut health.</p>
+          <p>Motilli gummies taste like <strong>green apple</strong>. Women describe them as &ldquo;the only supplement I actually look forward to taking.&rdquo; No bitterness. No grassy aftertaste. No choking down something that makes you question your life choices before 7 AM.</p>
+          <p>The benefits of celery juice were never about enduring a terrible flavor. They were about what it does for your gut. Now you can get there without the gag reflex.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== REASON 05: CONSISTENCY ==================== -->
+    <div class="reason">
+      <div class="reason__image">
+        <img src="https://i.ibb.co/bwj9fg9/motilli-celery-listicle-06-consistency.jpg" alt="Woman putting Motilli in purse - take it anywhere, stay consistent">
+      </div>
+      <div class="reason__content">
+        <span class="category-label">Consistency</span>
+        <div class="reason__number-badge">5</div>
+        <h2 class="reason__title">You don&rsquo;t quit because it doesn&rsquo;t work &mdash; you quit because it&rsquo;s too hard to keep up</h2>
+        <div class="reason__body">
+          <p>Be honest: how many days did you skip last month?</p>
+          <p>The celery was wilted. You were traveling. You ran out and couldn&rsquo;t get to the store. You were running late and couldn&rsquo;t face the cleanup. You told yourself you&rsquo;d juice tomorrow &mdash; and tomorrow turned into a week.</p>
+          <p>The women who get the most from celery juice support are the ones who stay consistent. And the juicing ritual is practically designed to destroy consistency. It demands fresh produce, a clean kitchen, 20 free minutes, and willpower &mdash; every single morning, no exceptions.</p>
+          <p><strong>Motilli fits in your purse.</strong> In your travel bag. In your desk drawer. Three gummies, any time of day. Consistency isn&rsquo;t about discipline anymore &mdash; it&rsquo;s about making the healthy choice the easy one.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-block">
+      <a href="https://trymotilli.co" class="cta-button">Stay Consistent &mdash; Try Motilli &rarr;</a>
+      <p class="cta-sub">Free shipping &bull; 90-day money-back guarantee</p>
+    </div>
+
+    <!-- ==================== REASON 06: CLEAN LABEL ==================== -->
+    <div class="reason reason--reverse">
+      <div class="reason__image">
+        <img src="https://i.ibb.co/ynYJbNhB/motilli-celery-listicle-07-clean-label.jpg" alt="Motilli bottle with ingredients - celery, apple, gummies, clean label badges">
+      </div>
+      <div class="reason__content">
+        <span class="category-label">Clean Label</span>
+        <div class="reason__number-badge">6</div>
+        <h2 class="reason__title">You read labels. Good. Read ours.</h2>
+        <div class="reason__body">
+          <p>You&rsquo;re the woman who checks every ingredient. Who Googles what &ldquo;natural flavors&rdquo; actually means. Who won&rsquo;t touch anything with artificial dyes, fillers, or proprietary blends that hide what&rsquo;s really inside.</p>
+          <p>We respect that. Here&rsquo;s exactly what&rsquo;s in Motilli:</p>
+        </div>
+        <ul class="ingredient-list">
+          <li><strong>Celery Juice Powder</strong> &mdash; the same compounds you&rsquo;ve been juicing for</li>
+          <li><strong>FOS Prebiotic Fiber (4.5g)</strong> &mdash; clinically studied, feeds beneficial gut bacteria</li>
+          <li><strong>Chlorophyll</strong> &mdash; supports natural detoxification</li>
+          <li><strong>Vitamins A, C, K, B6, Folate</strong> &mdash; the micronutrients celery juice is celebrated for</li>
+          <li><strong>Pectin base</strong> &mdash; plant-based, vegan, no gelatin</li>
+        </ul>
+        <div class="reason__body">
+          <p><strong>Clean Label Certified. Third-party tested. GMP Certified. Vegan. Non-GMO. Made in USA.</strong> No synthetic sweeteners. No artificial colors. Nothing hidden.</p>
+          <p>You&rsquo;ve built your entire wellness routine on transparency and clean ingredients. Your gummy should meet the same standard.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== REASON 07: PERMISSION ==================== -->
+    <div class="reason" style="border-bottom: none;">
+      <div class="reason__image">
+        <img src="https://i.ibb.co/5hvxqdMP/motilli-celery-listicle-01-hero.jpg" alt="Motilli - It's not quitting, it's upgrading">
+      </div>
+      <div class="reason__content">
+        <span class="category-label">Permission</span>
+        <div class="reason__number-badge">7</div>
+        <h2 class="reason__title">It&rsquo;s not quitting. It&rsquo;s upgrading.</h2>
+        <div class="reason__body">
+          <p>This is the part nobody says out loud: you feel guilty for wanting to stop juicing.</p>
+          <p>You invested in the juicer. You told everyone about your morning ritual. You posted the green juice photos. You felt the difference. And now, even though the process is driving you crazy &mdash; the mess, the taste, the cost, the time &mdash; walking away feels like giving up on your health.</p>
+          <p><strong>It&rsquo;s not giving up. It&rsquo;s refusing to let an unsustainable process stand between you and the gut health you deserve.</strong></p>
+          <p>Motilli gives you the celery juice nutrients, the prebiotic fiber juicing removes, and the consistency the juicer made impossible &mdash; in a format that fits your actual life.</p>
+          <p>You believed in celery juice because of what it did for your body. This is about protecting those results &mdash; not abandoning them.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FINAL CTA -->
+    <div class="cta-block">
+      <a href="https://trymotilli.co" class="cta-button">Make the Switch &mdash; Up To 50% Off &rarr;</a>
+      <p class="cta-sub">Free shipping &bull; 90-day money-back guarantee</p>
+    </div>
+
+    <!-- ==================== RESULTS SECTION ==================== -->
+    <div class="results-section">
+      <h2 class="results-section__title">Real results from women who made the switch</h2>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="result-card__number">91%</div>
+          <div class="result-card__text">say they feel less bloated within the first 2 weeks</div>
+        </div>
+        <div class="result-card">
+          <div class="result-card__number">87%</div>
+          <div class="result-card__text">say the gummy tastes dramatically better than celery juice</div>
+        </div>
+        <div class="result-card">
+          <div class="result-card__number">83%</div>
+          <div class="result-card__text">say they&rsquo;re more consistent with Motilli than they ever were with juicing</div>
+        </div>
+        <div class="result-card">
+          <div class="result-card__number">76%</div>
+          <div class="result-card__text">say they noticed clearer skin within the first month</div>
+        </div>
+      </div>
+      <p style="font-size: 12px; color: var(--meta); margin-top: 16px; font-style: italic;">Based on post-purchase customer survey</p>
+    </div>
+
+  </div>
+
+  <!-- ==================== REVIEWS ==================== -->
+  <div class="reviews-section">
+    <div class="container">
+      <h2 class="reviews-section__title">What women are saying after making the switch</h2>
+
+      <div class="review-card">
+        <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-card__title">&ldquo;I&rsquo;m never going back to the juicer.&rdquo;</div>
+        <div class="review-card__meta">Sarah M. <span class="review-card__verified">&#10003; Verified Purchase</span></div>
+        <p class="review-card__text">&ldquo;I juiced celery every morning for 8 months. Loved the results, hated everything else about it. Motilli gives me the same gut support without the 20-minute kitchen ordeal. I&rsquo;m never going back to the juicer.&rdquo;</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-card__title">&ldquo;Best thing that&rsquo;s happened to my morning routine.&rdquo;</div>
+        <div class="review-card__meta">Jessica T. <span class="review-card__verified">&#10003; Verified Purchase</span></div>
+        <p class="review-card__text">&ldquo;The mess. The taste. The $30/week on celery that goes bad in 3 days. I tried every way to make juicing sustainable and it just wasn&rsquo;t. These gummies are the best thing that&rsquo;s happened to my morning routine.&rdquo;</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-card__title">&ldquo;My digestion is better with Motilli than it was with the juice alone.&rdquo;</div>
+        <div class="review-card__meta">Amanda K. <span class="review-card__verified">&#10003; Verified Purchase</span></div>
+        <p class="review-card__text">&ldquo;I was skeptical that a gummy could replace fresh juice. But honestly? My digestion is better with Motilli than it was with the juice alone. I think it&rsquo;s the fiber &mdash; the thing I was literally throwing in the trash every morning.&rdquo;</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="review-card__title">&ldquo;My juicer is officially retired.&rdquo;</div>
+        <div class="review-card__meta">Rachel W. <span class="review-card__verified">&#10003; Verified Purchase</span></div>
+        <p class="review-card__text">&ldquo;My juicer is officially retired. Motilli is easier, cheaper, and I&rsquo;m actually taking it every day instead of skipping half the week because I couldn&rsquo;t face the cleanup.&rdquo;</p>
+      </div>
+
+      <div class="cta-block">
+        <a href="https://trymotilli.co" class="cta-button">Try Motilli Risk-Free &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== BUYBOX ==================== -->
+  <div class="container">
+    <div class="buybox">
+      <h2 class="buybox__title">Select Your Offer</h2>
+
+      <div class="buybox__option buybox__option--popular">
+        <div class="buybox__option-title">Subscribe &amp; Save</div>
+        <div class="buybox__option-price">$19.19<span>/month</span> <s>$23.99</s></div>
+        <div class="buybox__option-details">
+          <span>&#10003; FREE Shipping</span>
+          <span>&#10003; Pause or Cancel Any Time</span>
+          <span>&#10003; 90-Day Money-Back Guarantee</span>
+          <span>&#10003; 20% Off Every Month</span>
+        </div>
+      </div>
+
+      <div class="buybox__option">
+        <div class="buybox__option-title">One-Time Purchase</div>
+        <div class="buybox__option-price">$23.99</div>
+        <div class="buybox__option-details">
+          <span>Ships within 24 hours</span>
+          <span>90-Day Money-Back Guarantee</span>
+        </div>
+      </div>
+
+      <a href="https://trymotilli.co" class="cta-button" style="margin-top: 20px;">Start Now &rarr;</a>
+    </div>
+
+    <!-- TRUST BADGES -->
+    <div class="trust-badges">
+      <div class="trust-badge"><span class="trust-badge__icon">&#128722;</span> 900+ Reviews</div>
+      <div class="trust-badge"><span class="trust-badge__icon">&#11088;</span> 4.9/5 Stars</div>
+      <div class="trust-badge"><span class="trust-badge__icon">&#128170;</span> 90-Day Guarantee</div>
+      <div class="trust-badge"><span class="trust-badge__icon">&#127482;&#127480;</span> Made in USA</div>
+      <div class="trust-badge"><span class="trust-badge__icon">&#128300;</span> GMP Certified</div>
+      <div class="trust-badge"><span class="trust-badge__icon">&#127793;</span> Vegan &amp; Non-GMO</div>
+    </div>
+  </div>
+
+  <!-- ==================== FAQ ==================== -->
+  <div class="container">
+    <div class="faq">
+      <h2 class="faq__title">Frequently Asked Questions</h2>
+
+      <div class="faq__item">
+        <button class="faq__question" onclick="this.parentElement.classList.toggle('open')">Can a gummy really deliver the same benefits as fresh celery juice? <span class="faq__arrow">&#9656;</span></button>
+        <div class="faq__answer"><p>Motilli contains celery juice powder with the same key compounds &mdash; including apigenin and luteolin &mdash; that make celery juice beneficial. Plus, it adds something fresh juice can&rsquo;t: 4.5g of prebiotic fiber per serving. When you juice celery, 95% of the fiber is lost in the pulp. Motilli gives you the celery compounds AND the fiber your gut needs.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" onclick="this.parentElement.classList.toggle('open')">I follow Medical Medium. Is this a replacement for fresh celery juice? <span class="faq__arrow">&#9656;</span></button>
+        <div class="faq__answer"><p>Many of our customers started as dedicated celery juicers. Some use Motilli alongside their juicing routine &mdash; especially on travel days or busy mornings. Others have transitioned fully. Either way, Motilli is designed to support the same gut health goals, with the added benefit of prebiotic fiber that fresh juice doesn&rsquo;t provide.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" onclick="this.parentElement.classList.toggle('open')">What does it taste like? <span class="faq__arrow">&#9656;</span></button>
+        <div class="faq__answer"><p>Green apple. Seriously &mdash; women who spent months grimacing through 16 ounces of bitter celery juice say the taste alone was worth the switch. Pectin-based gummies, not gelatin. They&rsquo;re actually enjoyable.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" onclick="this.parentElement.classList.toggle('open')">How much celery juice powder is in each serving? <span class="faq__arrow">&#9656;</span></button>
+        <div class="faq__answer"><p>Each serving contains concentrated celery juice powder alongside 4.5g of FOS prebiotic fiber, chlorophyll, and vitamins A, C, K, B6, and folate. The formulation is designed to deliver celery&rsquo;s key compounds in a bioavailable form &mdash; not just a token sprinkle of celery dust on a generic fiber gummy.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" onclick="this.parentElement.classList.toggle('open')">What if I want to keep juicing some days and use Motilli on others? <span class="faq__arrow">&#9656;</span></button>
+        <div class="faq__answer"><p>That&rsquo;s exactly how many women start. Motilli on weekdays when mornings are hectic, fresh juice on weekends when you have time. Over time, most customers find the gummies deliver everything they need and phase out juicing entirely. No pressure either way.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" onclick="this.parentElement.classList.toggle('open')">How long before I notice a difference? <span class="faq__arrow">&#9656;</span></button>
+        <div class="faq__answer"><p>Most women report reduced bloating and improved regularity within the first 1&ndash;2 weeks. Skin improvements and sustained energy tend to follow by weeks 3&ndash;4. We recommend 30 days of consistent use for a full evaluation.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" onclick="this.parentElement.classList.toggle('open')">What&rsquo;s the return policy? <span class="faq__arrow">&#9656;</span></button>
+        <div class="faq__answer"><p>90-day money-back guarantee. Full refund, no questions asked. If you don&rsquo;t feel a meaningful difference, you pay nothing. You don&rsquo;t even need to return the bottle.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== CLOSE ==================== -->
+  <div class="container">
+    <div class="close-section">
+      <h2 class="close-section__title">You believed in celery juice because of what it did for your body. This is about protecting those results.</h2>
+      <p>Motilli gives you the celery juice nutrients, the prebiotic fiber juicing removes, and the consistency the juicer made impossible &mdash; in a format that fits your actual life.</p>
+      <p><strong>Three gummies. Same results. No juicer. No cleanup. No guilt.</strong></p>
+    </div>
+
+    <div class="cta-block" style="padding-top: 0;">
+      <a href="https://trymotilli.co" class="cta-button">Make the Switch &mdash; Up To 50% Off &rarr;</a>
+      <p class="cta-sub">Free shipping &bull; 90-day money-back guarantee &bull; Cancel anytime</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__disclaimer">*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Consult your healthcare professional before starting any new supplement.</p>
+      <p class="footer__links"><a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a> &middot; <a href="#">Contact Us</a></p>
+      <p class="footer__copyright">&copy; 2026 Motilli. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCROLL TRACKING -->
+  <script>
+  (function(){
+    var f={};
+    window.addEventListener('scroll',function(){
+      var p=Math.round((window.scrollY/(document.body.scrollHeight-window.innerHeight))*100);
+      [25,50,75,100].forEach(function(m){if(p>=m&&!f[m]){f[m]=true}});
+    });
+  })();
+  </script>
+
+  <!-- STICKY CTA -->
+  <div class="sticky-cta" id="stickyCta">
+    <a href="https://trymotilli.co" class="cta-button">Ditch the Juicer &mdash; Try Motilli &rarr;</a>
+    <div class="sticky-cta__sub">Free shipping &bull; 90-day guarantee</div>
+  </div>
+  <script>
+  (function(){
+    var sticky = document.getElementById('stickyCta');
+    var badges = document.querySelectorAll('.reason__number-badge');
+    var trigger = null;
+    for (var i = 0; i < badges.length; i++) {
+      if (badges[i].textContent.trim() === '2') {
+        trigger = badges[i];
+        break;
+      }
+    }
+    if (trigger) {
+      window.addEventListener('scroll', function() {
+        var rect = trigger.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.5) {
+          sticky.classList.add('visible');
+        } else {
+          sticky.classList.remove('visible');
+        }
+      });
+    }
+  })();
+  </script>
+</body>
+</html>

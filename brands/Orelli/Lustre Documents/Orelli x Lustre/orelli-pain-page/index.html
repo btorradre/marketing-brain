@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Orelli — Where does it hurt?</title>
+<style>
+  /* ============ FONTS ============ */
+  @font-face {
+    font-family: "PolySans Median";
+    src: url("assets/fonts/PolySans-Median.woff2") format("woff2");
+    font-weight: 500; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: "PolySans";
+    src: url("assets/fonts/PolySans-Neutral.woff2") format("woff2");
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: "PolySans Mono";
+    src: url("assets/fonts/PolySans-NeutralMono.woff2") format("woff2");
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+
+  /* ============ TOKENS ============ */
+  :root {
+    --white:   #FFFFFF;
+    --cream:   #FFF8F3;
+    --peach:   #F9E7D9;
+    --yellow:  #FEFF95;
+    --tangerine:#F9B77B;
+    --orange:  #E2614F;
+    --sky:     #94B5EA;
+    --cobalt:  #0D21A4;
+    --navy:    #080E58;
+
+    --ink: var(--navy);
+    --head: "PolySans Median", "Helvetica Neue", Arial, sans-serif;
+    --body: "PolySans", "Helvetica Neue", Arial, sans-serif;
+    --mono: "PolySans Mono", "SFMono-Regular", ui-monospace, monospace;
+
+    --maxw: 1320px;
+    --r: 18px;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--body);
+    color: var(--ink);
+    background: var(--cream);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+  ::selection { background: var(--cobalt); color: var(--cream); }
+
+  /* ============ NAV ============ */
+  .announce {
+    background: var(--cobalt);
+    color: var(--cream);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 9px 16px;
+  }
+  nav {
+    background: var(--cream);
+    border-bottom: 1px solid rgba(13,33,164,0.10);
+    position: sticky; top: 0; z-index: 50;
+  }
+  .nav-inner {
+    max-width: var(--maxw); margin: 0 auto;
+    display: grid; grid-template-columns: 1fr auto 1fr;
+    align-items: center; gap: 16px;
+    padding: 16px 28px;
+  }
+  .nav-links {
+    display: flex; gap: 30px; align-items: center;
+    font-family: var(--mono); font-size: 12px;
+    letter-spacing: 0.10em; text-transform: uppercase;
+  }
+  .nav-links.right { justify-content: flex-end; }
+  .nav-links a { color: var(--cobalt); text-decoration: none; opacity: 0.92; white-space: nowrap; }
+  .nav-links a:hover { opacity: 1; }
+  .nav-logo { display: flex; justify-content: center; }
+  .nav-logo svg { width: 34px; height: 34px; display: block; }
+  .cart-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 18px; height: 18px; border-radius: 50%;
+    border: 1px solid var(--cobalt); font-size: 10px; margin-left: 6px;
+  }
+  .nav-burger { display: none; }
+
+  /* ============ SECTION SHELL ============ */
+  .stage-section {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 40px 28px 64px;
+  }
+  .head-row {
+    display: flex; flex-wrap: wrap; align-items: flex-end;
+    justify-content: space-between; gap: 24px;
+    margin-bottom: 28px;
+  }
+  .eyebrow {
+    font-family: var(--mono); font-size: 12px; color: var(--cobalt);
+    letter-spacing: 0.16em; text-transform: uppercase; margin: 0 0 14px;
+  }
+  h1.title {
+    font-family: var(--head); font-weight: 500;
+    font-size: clamp(40px, 6vw, 78px); line-height: 1.02;
+    letter-spacing: -0.01em; color: var(--cobalt); margin: 0;
+  }
+  .lede {
+    max-width: 440px; font-size: 16px; line-height: 1.7;
+    color: var(--navy); opacity: 0.82; margin: 16px 0 0;
+  }
+
+  /* view toggle */
+  .toggle { display: inline-flex; gap: 8px; padding: 0; }
+  .toggle button {
+    font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.08em;
+    font-size: 12px; cursor: pointer;
+    background: var(--white); color: var(--cobalt);
+    border: 1.5px solid var(--cobalt); border-radius: 100px;
+    padding: 12px 22px; transition: all .18s ease;
+  }
+  .toggle button:hover { background: rgba(13,33,164,0.06); }
+  .toggle button[aria-pressed="true"] { background: var(--cobalt); color: var(--cream); }
+
+  /* ============ MAIN GRID ============ */
+  .layout {
+    display: grid;
+    grid-template-columns: 1.25fr 0.95fr;
+    gap: 24px;
+    align-items: stretch;
+  }
+
+  /* ---- STAGE (figure) ---- */
+  .stage {
+    position: relative;
+    border-radius: 28px;
+    background:
+      radial-gradient(120% 90% at 50% 8%, rgba(148,181,234,0.30) 0%, rgba(148,181,234,0) 55%),
+      radial-gradient(95% 80% at 50% 92%, rgba(249,183,123,0.55) 0%, rgba(254,255,149,0.18) 38%, rgba(255,248,243,0) 70%),
+      linear-gradient(180deg, var(--white) 0%, var(--cream) 100%);
+    border: 1px solid rgba(13,33,164,0.08);
+    overflow: hidden;
+    min-height: 640px;
+    display: flex; align-items: center; justify-content: center;
+    padding: 32px 0;
+    perspective: 1300px;
+    touch-action: pan-y;
+  }
+  /* floating warm "where it hurts" orb */
+  .glow {
+    position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(38% 32% at var(--glowx, 50%) var(--glowy, 46%),
+      rgba(226,97,79,0.42) 0%, rgba(249,183,123,0.30) 35%, rgba(249,183,123,0) 70%);
+    transition: background .25s ease, transform .3s ease;
+    transform: translate(var(--gtx,0), var(--gty,0));
+    mix-blend-mode: multiply;
+    z-index: 1;
+  }
+  .figure-wrap {
+    position: relative;
+    height: clamp(440px, 66vh, 576px);
+    width: auto;
+    aspect-ratio: 340 / 800;
+    z-index: 2;
+    transform-style: preserve-3d;
+    transform: rotateX(var(--tiltX, 0deg)) rotateY(var(--tiltY, 0deg));
+    transition: transform .35s cubic-bezier(.22,.61,.36,1);
+    will-change: transform;
+  }
+  .figure-float {
+    position: absolute; inset: 0;
+    animation: float 7s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%,100% { transform: translateY(0); }
+    50%     { transform: translateY(-12px); }
+  }
+  .figure-float svg { width: 100%; height: 100%; display: block; overflow: visible; }
+
+  /* hotspots layer shares the figure transform space */
+  .spots { position: absolute; inset: 0; z-index: 3; }
+  .spot {
+    position: absolute; transform: translate(-50%, -50%);
+    width: 30px; height: 30px; padding: 0; border: 0; cursor: pointer;
+    background: transparent; border-radius: 50%;
+    left: var(--x); top: var(--y);
+  }
+  .spot .dot {
+    position: absolute; inset: 50% auto auto 50%;
+    transform: translate(-50%,-50%);
+    width: 16px; height: 16px; border-radius: 50%;
+    background: var(--cream);
+    border: 2px solid var(--cobalt);
+    box-shadow: 0 2px 10px rgba(8,14,88,0.25);
+    transition: all .2s ease;
+  }
+  .spot .ring {
+    position: absolute; inset: 50% auto auto 50%;
+    transform: translate(-50%,-50%);
+    width: 16px; height: 16px; border-radius: 50%;
+    border: 2px solid var(--cobalt);
+    opacity: .55;
+    animation: pulse 2.4s ease-out infinite;
+  }
+  @keyframes pulse {
+    0%   { width:16px; height:16px; opacity:.55; }
+    100% { width:46px; height:46px; opacity:0; }
+  }
+  .spot:hover .dot,
+  .spot:focus-visible .dot,
+  .spot.is-active .dot {
+    background: var(--orange); border-color: var(--orange);
+    width: 22px; height: 22px;
+    box-shadow: 0 0 0 6px rgba(226,97,79,0.18), 0 4px 14px rgba(226,97,79,0.4);
+  }
+  .spot.is-active .ring { border-color: var(--orange); }
+  .spot:focus-visible { outline: none; }
+  .spot:focus-visible .dot { box-shadow: 0 0 0 4px var(--cobalt), 0 0 0 8px rgba(13,33,164,0.25); }
+
+  /* little floating label on hover/active */
+  .spot .tip {
+    position: absolute; left: 50%; bottom: calc(100% + 10px);
+    transform: translateX(-50%) translateY(4px);
+    background: var(--navy); color: var(--cream);
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.06em;
+    text-transform: uppercase; white-space: nowrap;
+    padding: 6px 10px; border-radius: 8px;
+    opacity: 0; pointer-events: none; transition: all .18s ease;
+  }
+  .spot .tip::after {
+    content: ""; position: absolute; top: 100%; left: 50%;
+    transform: translateX(-50%); border: 5px solid transparent;
+    border-top-color: var(--navy);
+  }
+  .spot:hover .tip, .spot:focus-visible .tip, .spot.is-active .tip {
+    opacity: 1; transform: translateX(-50%) translateY(0);
+  }
+
+  /* hint chip bottom-left of stage */
+  .stage-hint {
+    position: absolute; left: 18px; bottom: 16px; z-index: 4;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.10em;
+    text-transform: uppercase; color: var(--cobalt); opacity: 0.6;
+    display: flex; align-items: center; gap: 8px; pointer-events: none;
+  }
+  .stage-hint .blip { width: 8px; height: 8px; border-radius: 50%; background: var(--orange); animation: pulse2 1.8s infinite; }
+  @keyframes pulse2 { 0%,100%{opacity:.4;} 50%{opacity:1;} }
+
+  /* ---- PANEL ---- */
+  .panel {
+    background: var(--cobalt); color: var(--cream);
+    border-radius: 28px; padding: 36px 34px;
+    display: flex; flex-direction: column;
+    position: relative; overflow: hidden;
+    min-height: 560px;
+  }
+  .panel-bg {
+    position: absolute; inset: 0; pointer-events: none; opacity: .9;
+    background: radial-gradient(80% 60% at 100% 0%, rgba(249,183,123,0.35) 0%, rgba(13,33,164,0) 60%);
+  }
+  .panel > * { position: relative; z-index: 1; }
+  .p-region {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--sky); margin: 0 0 18px;
+  }
+  .p-title {
+    font-family: var(--head); font-weight: 500;
+    font-size: clamp(28px, 3.6vw, 40px); line-height: 1.06;
+    letter-spacing: -0.01em; margin: 0 0 20px; color: var(--cream);
+  }
+  .p-block { margin: 0 0 22px; }
+  .p-kicker {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--sky); margin: 0 0 8px;
+  }
+  .p-text { font-size: 15.5px; line-height: 1.72; margin: 0; color: rgba(255,248,243,0.92); }
+  .p-help { font-size: 15.5px; line-height: 1.72; margin: 0; color: var(--cream); }
+  .p-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 24px; }
+  .tag {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 7px 13px; border-radius: 100px;
+    background: rgba(255,248,243,0.12); color: var(--cream);
+    border: 1px solid rgba(255,248,243,0.22);
+  }
+  .tag.warm { background: var(--tangerine); color: var(--navy); border-color: transparent; }
+  .tag.sky  { background: var(--sky);  color: var(--navy); border-color: transparent; }
+  .tag.sun  { background: var(--yellow); color: var(--navy); border-color: transparent; }
+  .p-action {
+    align-self: flex-start; margin-top: 18px;
+    font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.08em;
+    font-size: 12px; cursor: pointer;
+    background: var(--cream); color: var(--cobalt);
+    border: none; border-radius: 100px; padding: 13px 22px;
+    transition: background .18s ease, transform .12s ease;
+  }
+  .p-action:hover { background: var(--white); transform: translateY(-1px); }
+  .p-action[hidden] { display: none; }
+
+  /* swap animation */
+  .swap { animation: rise .4s cubic-bezier(.22,.61,.36,1); }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+  .footnote {
+    max-width: var(--maxw); margin: 0 auto; padding: 0 28px 56px;
+    font-size: 12px; line-height: 1.6; color: var(--navy); opacity: 0.55;
+  }
+  .footnote sup { color: var(--orange); }
+
+  /* views */
+  .view { display: none; }
+  .view.is-on { display: contents; }
+  .figure-wrap[data-view="head"] .figure-float svg { width: 100%; }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 920px) {
+    .layout { grid-template-columns: 1fr; }
+    .stage { min-height: 480px; }
+    .panel { min-height: auto; }
+    .nav-links:not(.right) { display: none; }
+    .nav-links.right { gap: 18px; }
+    .nav-inner { grid-template-columns: auto 1fr auto; }
+    .nav-burger { display: inline-flex; font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--cobalt); background: none; border: none; cursor: pointer; }
+  }
+  @media (max-width: 560px) {
+    .stage-section { padding: 28px 16px 40px; }
+    .nav-inner { padding: 14px 16px; }
+    .nav-links.right span.label { display: none; }
+    h1.title { font-size: 40px; }
+    .panel { padding: 28px 24px; }
+    .stage { min-height: 440px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .figure-float { animation: none; }
+    .figure-wrap { transition: none; }
+    .spot .ring, .stage-hint .blip { animation: none; }
+    .swap { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- announcement -->
+  <div class="announce">Free domestic and international shipping</div>
+
+  <!-- nav -->
+  <nav>
+    <div class="nav-inner">
+      <button class="nav-burger" aria-label="Menu">Menu</button>
+      <div class="nav-links">
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Use &amp; Dosage</a>
+      </div>
+      <div class="nav-logo" aria-label="Orelli">
+        <svg viewBox="0 0 120.4581 120.4581" role="img"><path d="M6.9326,32.2011C22.4119,2.7664,58.8221-8.5467,88.2571,6.9326c29.4345,15.4794,40.7479,51.8894,25.268,81.3244-15.4792,29.4345-51.8892,40.7479-81.324,25.2687C2.7665,98.0458-8.5468,61.6359,6.9326,32.2011ZM31.5831,88.77c2.3376,1.8285,4.8711,3.4743,7.5908,4.9043,5.7466,3.022,11.8132,4.8157,17.899,5.4738l.0046-.0933c.7881.1199,1.5697.216,2.3437.2916,4.9157.297,9.8189-.1403,14.5508-1.2596,10.2609-2.9668,18.3936-10.2398,23.4389-19.8337l.0572.03c5.1236-9.7418,5.9329-20.3663,2.5506-30.0225-32.7399-1.8831-56.2971,24.0446-68.4357,40.5096ZM24.2469,39.7769c-5.5737,10.5989-5.5713,21.7598-2.0775,30.9272,1.5807-2.4504,3.3645-4.9407,5.3796-7.4548,10.2665-12.7262,28.6262-27.9431,59.4969-32.9701-2.4572-1.9851-5.1638-3.7732-8.2206-5.3807-21.3977-11.2528-44.1969-4.8624-54.5784,14.8785Z" style="fill:#0d21a4;"/></svg>
+      </div>
+      <div class="nav-links right">
+        <a href="#"><span class="label">Search</span></a>
+        <a href="#"><span class="label">Account</span></a>
+        <a href="#">Cart <span class="cart-num">2</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- interactive section -->
+  <section class="stage-section">
+    <div class="head-row">
+      <div>
+        <p class="eyebrow">Same trusted relief, mapped</p>
+        <h1 class="title">Where does<br>it hurt?</h1>
+        <p class="lede">Orelli is chewable acetaminophen — the same trusted pain reliever and fever reducer, in a 500&nbsp;mg soft chew. Move over the body to see where it can help.</p>
+      </div>
+      <div class="toggle" role="group" aria-label="Choose a view">
+        <button id="btn-body" aria-pressed="true">Full body</button>
+        <button id="btn-head" aria-pressed="false">Head &amp; headaches</button>
+      </div>
+    </div>
+
+    <div class="layout">
+      <!-- STAGE -->
+      <div class="stage" id="stage">
+        <div class="glow" id="glow"></div>
+
+        <div class="figure-wrap" id="figureWrap" data-view="body">
+          <div class="figure-float">
+
+            <!-- BODY FIGURE -->
+            <div class="view is-on" data-fig="body">
+              <svg viewBox="0 0 340 800" role="img" aria-label="Stylized human body">
+                <defs>
+                  <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#1630c9"/>
+                    <stop offset="0.55" stop-color="#0D21A4"/>
+                    <stop offset="1" stop-color="#080E58"/>
+                  </linearGradient>
+                  <radialGradient id="sheen" cx="0.4" cy="0.28" r="0.7">
+                    <stop offset="0" stop-color="#94B5EA" stop-opacity="0.55"/>
+                    <stop offset="0.6" stop-color="#94B5EA" stop-opacity="0"/>
+                  </radialGradient>
+                </defs>
+
+                <!-- contact shadow -->
+                <ellipse cx="170" cy="772" rx="92" ry="16" fill="#0D21A4" opacity="0.10"/>
+
+                <g>
+                  <!-- legs -->
+                  <rect x="120" y="438" width="46" height="328" rx="23" fill="url(#bodyGrad)"/>
+                  <rect x="174" y="438" width="46" height="328" rx="23" fill="url(#bodyGrad)"/>
+                  <!-- arms -->
+                  <rect x="50" y="176" width="38" height="248" rx="19" fill="url(#bodyGrad)" transform="rotate(8 69 196)"/>
+                  <rect x="252" y="176" width="38" height="248" rx="19" fill="url(#bodyGrad)" transform="rotate(-8 271 196)"/>
+                  <!-- pelvis -->
+                  <path d="M108,356 Q170,378 232,356 L221,452 Q170,488 119,452 Z" fill="url(#bodyGrad)"/>
+                  <!-- torso -->
+                  <path d="M82,184 Q140,156 168,156 Q200,156 258,184 L232,372 Q170,392 108,372 Z" fill="url(#bodyGrad)"/>
+                  <!-- neck -->
+                  <rect x="150" y="108" width="40" height="40" rx="17" fill="url(#bodyGrad)"/>
+                  <!-- head -->
+                  <ellipse cx="170" cy="72" rx="45" ry="51" fill="url(#bodyGrad)"/>
+                  <!-- sheen highlight -->
+                  <ellipse cx="148" cy="240" rx="70" ry="120" fill="url(#sheen)"/>
+                  <ellipse cx="160" cy="60" rx="30" ry="34" fill="url(#sheen)"/>
+                </g>
+              </svg>
+            </div>
+
+            <!-- HEAD FIGURE -->
+            <div class="view" data-fig="head">
+              <svg viewBox="0 0 340 800" role="img" aria-label="Stylized head">
+                <defs>
+                  <linearGradient id="headGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#1630c9"/>
+                    <stop offset="0.6" stop-color="#0D21A4"/>
+                    <stop offset="1" stop-color="#080E58"/>
+                  </linearGradient>
+                  <radialGradient id="sheen2" cx="0.38" cy="0.3" r="0.7">
+                    <stop offset="0" stop-color="#94B5EA" stop-opacity="0.5"/>
+                    <stop offset="0.65" stop-color="#94B5EA" stop-opacity="0"/>
+                  </radialGradient>
+                </defs>
+                <ellipse cx="170" cy="694" rx="150" ry="20" fill="#0D21A4" opacity="0.10"/>
+                <!-- neck + shoulders, connected to the chin -->
+                <path d="M150,468 L150,545 Q70,560 64,690 L276,690 Q270,560 190,545 L190,468 Z" fill="url(#headGrad)"/>
+                <!-- head: rounded with slight jaw taper -->
+                <path d="M170,70
+                         C238,70 286,150 286,250
+                         C286,360 246,470 170,490
+                         C94,470 54,360 54,250
+                         C54,150 102,70 170,70 Z" fill="url(#headGrad)"/>
+                <!-- ear -->
+                <ellipse cx="58" cy="280" rx="16" ry="26" fill="url(#headGrad)"/>
+                <ellipse cx="282" cy="280" rx="16" ry="26" fill="url(#headGrad)"/>
+                <!-- features (subtle) -->
+                <g fill="#FFF8F3" opacity="0.16">
+                  <rect x="96" y="232" width="56" height="9" rx="4.5"/>   <!-- left brow -->
+                  <rect x="188" y="232" width="56" height="9" rx="4.5"/>  <!-- right brow -->
+                  <ellipse cx="124" cy="266" rx="14" ry="11"/>            <!-- left eye -->
+                  <ellipse cx="216" cy="266" rx="14" ry="11"/>            <!-- right eye -->
+                  <path d="M170,288 L170,338 Q160,346 152,340" stroke="#FFF8F3" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.9"/>
+                  <rect x="138" y="380" width="64" height="9" rx="4.5"/>  <!-- mouth -->
+                </g>
+                <ellipse cx="148" cy="230" rx="64" ry="92" fill="url(#sheen2)"/>
+              </svg>
+            </div>
+
+          </div><!-- /float -->
+
+          <!-- HOTSPOTS: BODY -->
+          <div class="spots view is-on" data-spots="body" id="spotsBody"></div>
+          <!-- HOTSPOTS: HEAD -->
+          <div class="spots view" data-spots="head" id="spotsHead"></div>
+        </div><!-- /figure-wrap -->
+
+        <div class="stage-hint"><span class="blip"></span> Hover or tap a point</div>
+      </div>
+
+      <!-- PANEL -->
+      <aside class="panel" aria-live="polite">
+        <div class="panel-bg"></div>
+        <div id="panelInner" class="swap">
+          <p class="p-region" id="pRegion">Interactive guide</p>
+          <h2 class="p-title" id="pTitle">Pick a spot.</h2>
+          <div class="p-block">
+            <p class="p-text" id="pText">Orelli delivers a standard adult dose of acetaminophen in a chewable format — no water required. Hover or tap a glowing point on the body to see how it can help.</p>
+          </div>
+          <div class="p-block" id="pHelpBlock" hidden>
+            <p class="p-kicker">How Orelli helps</p>
+            <p class="p-help" id="pHelp"></p>
+          </div>
+          <button class="p-action" id="pAction" hidden></button>
+          <div class="p-tags" id="pTags">
+            <span class="tag sky">500 mg</span>
+            <span class="tag warm">Chewable</span>
+            <span class="tag">No water</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <p class="footnote">
+    Orelli contains acetaminophen, a widely used pain reliever and fever reducer. Acetaminophen relieves pain but is not an anti-inflammatory.
+    Use only as directed; do not exceed the recommended dose. This interactive page is illustrative and is not medical advice.
+  </p>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- CONTENT ---------- */
+  var DATA = {
+    body: {
+      headaches: {
+        x: 50, y: 9, region: "Head",
+        title: "Headaches",
+        text: "From a dull, all-day ache to a sharp throb, headaches are the number-one reason people reach for relief.",
+        help: "Acetaminophen is clinically recognized for the temporary relief of headache pain — Orelli just makes it easier to take.",
+        tags: [["Pain reliever","warm"]],
+        action: { label: "See headache types", view: "head" }
+      },
+      tooth: {
+        x: 61, y: 13, region: "Jaw",
+        title: "Toothache",
+        text: "A nagging tooth is impossible to ignore — and it never waits for a dentist appointment.",
+        help: "Helps dull minor dental pain while you arrange to see your dentist.",
+        tags: [["Pain reliever","warm"]]
+      },
+      neck: {
+        x: 37, y: 20, region: "Neck & shoulders",
+        title: "Neck & shoulder tension",
+        text: "Hours at a screen or a bad night's sleep leave the muscles here tight, knotted, and sore.",
+        help: "Eases the everyday aches and pains that build up in tense muscles.",
+        tags: [["Pain reliever","warm"]]
+      },
+      fever: {
+        x: 50, y: 28, region: "Temperature",
+        title: "Fever & body aches",
+        text: "When a cold or flu hits, a rising temperature and the deep, all-over aches that come with it can flatten your whole day.",
+        help: "Acetaminophen is both a pain reliever and a fever reducer — Orelli brings a fever down without needing a glass of water.",
+        tags: [["Pain reliever","warm"],["Fever reducer","sky"]]
+      },
+      muscle: {
+        x: 19, y: 41, region: "Arms & muscles",
+        title: "Muscle aches",
+        text: "Overdid it at the gym or spent a long day on your feet? Sore, overworked muscles are a classic minor pain.",
+        help: "Provides temporary relief from minor muscular aches so you can keep moving.",
+        tags: [["Pain reliever","warm"]]
+      },
+      back: {
+        x: 64, y: 45, region: "Back",
+        title: "Backache",
+        text: "Lower-back pain from lifting, sitting, or everyday wear is one of the most common aches there is.",
+        help: "Offers temporary relief from minor backaches, so the day doesn't have to stop.",
+        tags: [["Pain reliever","warm"]]
+      },
+      cramps: {
+        x: 50, y: 52, region: "Abdomen",
+        title: "Menstrual cramps",
+        text: "Cramping that radiates through the lower abdomen and back can make it hard to focus on anything else.",
+        help: "Takes the edge off the monthly aches and pains — discreetly, and on your schedule.",
+        tags: [["Pain reliever","warm"]]
+      },
+      joints: {
+        x: 57, y: 82, region: "Joints",
+        title: "Minor joint pain",
+        text: "Knees, elbows, wrists — the minor arthritis-type aches that show up with age or activity.",
+        help: "Used for the temporary relief of minor arthritis pain. (Acetaminophen relieves pain but won't reduce swelling.)",
+        tags: [["Pain reliever","warm"]]
+      }
+    },
+    head: {
+      tension: {
+        x: 50, y: 27, region: "Band across the head",
+        title: "Tension headache",
+        text: "The most common type — a steady, pressing ache that wraps around the forehead and temples, like a band tightening.",
+        help: "Acetaminophen is a go-to for tension-headache pain. Chew one, no water needed.",
+        tags: [["Pain reliever","warm"]]
+      },
+      migraine: {
+        x: 28, y: 36, region: "One side / temple",
+        title: "Migraine",
+        text: "Often one-sided and throbbing, sometimes with sensitivity to light and sound. Catching it early matters.",
+        help: "Used for the temporary relief of migraine pain — take at the first sign, as directed.",
+        tags: [["Pain reliever","warm"]]
+      },
+      sinus: {
+        x: 50, y: 44, region: "Forehead & cheeks",
+        title: "Sinus headache",
+        text: "Pressure and pain across the forehead, the bridge of the nose, and the cheeks — usually alongside congestion.",
+        help: "Eases the head and face pain that comes with sinus pressure.",
+        tags: [["Pain reliever","warm"]]
+      },
+      cluster: {
+        x: 67, y: 40, region: "Behind one eye",
+        title: "Behind-the-eye pain",
+        text: "Intense pain focused around or behind one eye — sharp, and hard to ignore.",
+        help: "Helps take the edge off the pain. See a doctor for severe or recurring episodes.",
+        tags: [["Pain reliever","warm"]]
+      },
+      jaw: {
+        x: 42, y: 59, region: "Jaw",
+        title: "Toothache & jaw pain",
+        text: "Dental pain often radiates up into the jaw and head, blurring into a headache of its own.",
+        help: "Dulls minor tooth and jaw pain until you can see your dentist.",
+        tags: [["Pain reliever","warm"]]
+      }
+    }
+  };
+
+  var DEFAULTS = {
+    body: {
+      region: "Interactive guide",
+      title: "Where does it hurt?",
+      text: "Orelli delivers a standard adult dose of acetaminophen in a chewable format — no water required. Hover or tap a glowing point on the body to see how it can help.",
+      help: null,
+      tags: [["500 mg","sky"],["Chewable","warm"],["No water",""]]
+    },
+    head: {
+      region: "Headaches, up close",
+      title: "Not all headaches feel the same.",
+      text: "Tension, migraine, sinus — they show up in different places and feel different too. Hover or tap a zone to see the type, and how Orelli can help.",
+      help: null,
+      tags: [["500 mg","sky"],["Chewable","warm"],["No water",""]]
+    }
+  };
+
+  /* ---------- DOM ---------- */
+  var stage = document.getElementById("stage");
+  var glow = document.getElementById("glow");
+  var figureWrap = document.getElementById("figureWrap");
+  var spotsBody = document.getElementById("spotsBody");
+  var spotsHead = document.getElementById("spotsHead");
+  var panelInner = document.getElementById("panelInner");
+  var pRegion = document.getElementById("pRegion");
+  var pTitle = document.getElementById("pTitle");
+  var pText = document.getElementById("pText");
+  var pHelp = document.getElementById("pHelp");
+  var pHelpBlock = document.getElementById("pHelpBlock");
+  var pTags = document.getElementById("pTags");
+  var pAction = document.getElementById("pAction");
+  var btnBody = document.getElementById("btn-body");
+  var btnHead = document.getElementById("btn-head");
+
+  var currentView = "body";
+  var pinned = null;          // pinned spot id
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- BUILD HOTSPOTS ---------- */
+  function buildSpots(view, container) {
+    var set = DATA[view];
+    Object.keys(set).forEach(function (id) {
+      var d = set[id];
+      var b = document.createElement("button");
+      b.className = "spot";
+      b.style.setProperty("--x", d.x + "%");
+      b.style.setProperty("--y", d.y + "%");
+      b.setAttribute("data-id", id);
+      b.setAttribute("aria-label", d.title);
+      b.innerHTML = '<span class="ring"></span><span class="dot"></span><span class="tip">' + d.title + '</span>';
+
+      b.addEventListener("mouseenter", function () { show(view, id, false); });
+      b.addEventListener("focus", function () { show(view, id, false); });
+      b.addEventListener("mouseleave", function () { restore(); });
+      b.addEventListener("blur", function () { restore(); });
+      b.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (pinned === id) { pinned = null; restore(); }
+        else { pinned = id; show(view, id, true); }
+      });
+      container.appendChild(b);
+    });
+  }
+  buildSpots("body", spotsBody);
+  buildSpots("head", spotsHead);
+
+  var allSpots = function () { return (currentView === "body" ? spotsBody : spotsHead).querySelectorAll(".spot"); };
+
+  /* ---------- RENDER PANEL ---------- */
+  function renderTags(tags) {
+    pTags.innerHTML = "";
+    tags.forEach(function (t) {
+      var s = document.createElement("span");
+      s.className = "tag" + (t[1] ? " " + t[1] : "");
+      s.textContent = t[0];
+      pTags.appendChild(s);
+    });
+  }
+
+  function paint(d, isDefault) {
+    pRegion.textContent = d.region;
+    pTitle.textContent = d.title;
+    pText.textContent = d.text;
+    if (d.help) { pHelp.textContent = d.help; pHelpBlock.hidden = false; }
+    else { pHelpBlock.hidden = true; }
+    renderTags(d.tags);
+
+    if (!isDefault && d.action) {
+      pAction.hidden = false;
+      pAction.textContent = d.action.label + "  →";
+      pAction.onclick = function () { setView(d.action.view); };
+    } else {
+      pAction.hidden = true; pAction.onclick = null;
+    }
+
+    if (!reduceMotion) {
+      panelInner.classList.remove("swap");
+      void panelInner.offsetWidth;   // reflow to restart animation
+      panelInner.classList.add("swap");
+    }
+  }
+
+  function setActive(id) {
+    allSpots().forEach(function (s) {
+      s.classList.toggle("is-active", s.getAttribute("data-id") === id);
+    });
+  }
+
+  function moveGlow(d) {
+    glow.style.setProperty("--glowx", d.x + "%");
+    glow.style.setProperty("--glowy", d.y + "%");
+  }
+
+  function show(view, id, doPin) {
+    var d = DATA[view][id];
+    if (!d) return;
+    paint(d, false);
+    setActive(id);
+    moveGlow(d);
+    if (doPin) pinned = id;
+  }
+
+  function restore() {
+    if (pinned) { show(currentView, pinned, false); return; }
+    paint(DEFAULTS[currentView], true);
+    setActive(null);
+    glow.style.setProperty("--glowx", "50%");
+    glow.style.setProperty("--glowy", currentView === "head" ? "36%" : "46%");
+  }
+
+  /* ---------- VIEW SWITCH ---------- */
+  function setView(view) {
+    if (view === currentView) return;
+    currentView = view;
+    pinned = null;
+
+    btnBody.setAttribute("aria-pressed", String(view === "body"));
+    btnHead.setAttribute("aria-pressed", String(view === "head"));
+
+    figureWrap.setAttribute("data-view", view);
+    document.querySelectorAll(".view").forEach(function (el) {
+      var match = el.getAttribute("data-fig") === view || el.getAttribute("data-spots") === view;
+      el.classList.toggle("is-on", match);
+    });
+    restore();
+  }
+  btnBody.addEventListener("click", function () { setView("body"); });
+  btnHead.addEventListener("click", function () { setView("head"); });
+
+  /* ---------- PSEUDO-3D TILT ---------- */
+  if (!reduceMotion) {
+    var raf = null, tx = 0, ty = 0;
+    stage.addEventListener("pointermove", function (e) {
+      var r = stage.getBoundingClientRect();
+      var px = (e.clientX - r.left) / r.width - 0.5;   // -0.5..0.5
+      var py = (e.clientY - r.top) / r.height - 0.5;
+      tx = py * -10;   // rotateX
+      ty = px * 12;    // rotateY
+      if (!raf) raf = requestAnimationFrame(applyTilt);
+      // glow parallax (opposite, subtle)
+      glow.style.setProperty("--gtx", (px * -22) + "px");
+      glow.style.setProperty("--gty", (py * -18) + "px");
+    });
+    stage.addEventListener("pointerleave", function () {
+      tx = 0; ty = 0;
+      if (!raf) raf = requestAnimationFrame(applyTilt);
+      glow.style.setProperty("--gtx", "0px");
+      glow.style.setProperty("--gty", "0px");
+    });
+    function applyTilt() {
+      figureWrap.style.setProperty("--tiltX", tx.toFixed(2) + "deg");
+      figureWrap.style.setProperty("--tiltY", ty.toFixed(2) + "deg");
+      raf = null;
+    }
+  }
+
+  /* ---------- INIT ---------- */
+  restore();
+})();
+</script>
+</body>
+</html>

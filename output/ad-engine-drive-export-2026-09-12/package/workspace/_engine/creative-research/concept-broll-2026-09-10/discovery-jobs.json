@@ -1,0 +1,108 @@
+[
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 45,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "sort_by": "reachDelta7d"
+    },
+    "broad-reachDelta7d"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 45,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "sort_by": "reach"
+    },
+    "broad-reach"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 45,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "sort_by": "mostDuplicates"
+    },
+    "broad-mostDuplicates"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 45,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "query": "skeleton",
+      "sort_by": "reach"
+    },
+    "query-skeleton"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 45,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "query": "podcast",
+      "sort_by": "reach"
+    },
+    "query-podcast"
+  ],
+  [
+    "search_ads",
+    {
+      "media_type": "video",
+      "ad_language": "en",
+      "status": "active",
+      "min_video_duration": 45,
+      "max_ads_per_brand": 3,
+      "limit": 20,
+      "query": "animation",
+      "sort_by": "reach"
+    },
+    "query-animation"
+  ],
+  [
+    "list_tracked_brands",
+    {
+      "limit": 25,
+      "page": 1
+    },
+    "tracked-1"
+  ],
+  [
+    "list_tracked_brands",
+    {
+      "limit": 25,
+      "page": 2
+    },
+    "tracked-2"
+  ],
+  [
+    "list_favorites",
+    {
+      "type": "ads",
+      "mode": "folders",
+      "limit": 25
+    },
+    "favorite-folders"
+  ]
+]

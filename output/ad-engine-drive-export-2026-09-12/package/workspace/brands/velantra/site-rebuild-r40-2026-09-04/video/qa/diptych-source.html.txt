@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920,height=1080"><title>Vivienne Hero desktop</title>
+<script src="assets/gsap.min.js"></script>
+<style>html,body{margin:0;padding:0;background:#211c17}#root{position:relative;width:1920px;height:1080px;overflow:hidden}.clip{position:absolute;top:0;height:100%;display:block;object-fit:cover}.main{z-index:0}.wrap{z-index:1;opacity:0}</style></head><body>
+<div id="root" data-composition-id="vivienne-hero-desktop" data-start="0" data-width="1920" data-height="1080" data-duration="8">
+<video id="detail-main" class="clip main" src="assets/vivienne-O11.mp4" data-start="0" data-duration="8" data-media-start="1" data-track-index="0" muted playsinline style="left:0;width:58%;object-position:52% 58%" aria-label="detail view of the Vivienne"></video>
+<video id="detail-wrap" class="clip wrap" src="assets/vivienne-O11.mp4" data-start="7" data-duration="1" data-media-start="0" data-track-index="1" muted playsinline style="left:0;width:58%;object-position:52% 58%" aria-label="detail view of the Vivienne"></video>
+<video id="bag-main" class="clip main" src="assets/vivienne-O12.mp4" data-start="0" data-duration="8" data-media-start="1" data-track-index="2" muted playsinline style="left:58%;width:42%;object-position:50% 72%" aria-label="bag view of the Vivienne"></video>
+<video id="bag-wrap" class="clip wrap" src="assets/vivienne-O12.mp4" data-start="7" data-duration="1" data-media-start="0" data-track-index="3" muted playsinline style="left:58%;width:42%;object-position:50% 72%" aria-label="bag view of the Vivienne"></video>
+</div>
+<script>const tl=gsap.timeline({paused:true});tl.fromTo('.wrap',{opacity:0},{opacity:1,duration:1,ease:'none'},7);window.__timelines=window.__timelines||{};window.__timelines['vivienne-hero-desktop']=tl;</script>
+</body></html>

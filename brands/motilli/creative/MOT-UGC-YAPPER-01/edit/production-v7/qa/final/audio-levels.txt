@@ -1,0 +1,59 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v7/deliverables/Motilli-Unbranded-VSL-v7.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    creation_time   : 2026-09-10T06:15:35.000000Z
+    encoder         : Blackmagic Design DaVinci Resolve
+  Duration: 00:04:37.63, start: 0.000000, bitrate: 16338 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920, 16017 kb/s, SAR 1:1 DAR 9:16, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      creation_time   : 2026-09-10T06:15:35.000000Z
+      handler_name    : VideoHandler
+      encoder         : H.264
+      timecode        : 00:00:00:00
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 319 kb/s (default)
+    Metadata:
+      creation_time   : 2026-09-10T06:15:35.000000Z
+      handler_name    : SoundHandler
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74) (default)
+    Metadata:
+      creation_time   : 2026-09-10T06:15:35.000000Z
+      handler_name    : TimeCodeHandler
+      timecode        : 00:00:00:00
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.102 wrapped_avframe
+      creation_time   : 2026-09-10T06:15:35.000000Z
+      handler_name    : VideoHandler
+      timecode        : 00:00:00:00
+  Stream #0:1(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+      creation_time   : 2026-09-10T06:15:35.000000Z
+      handler_name    : SoundHandler
+frame=  627 fps=0.0 q=-0.0 size=N/A time=00:00:19.30 bitrate=N/A speed=38.5x elapsed=0:00:00.50    frame= 1304 fps=1295 q=-0.0 size=N/A time=00:00:42.20 bitrate=N/A speed=41.9x elapsed=0:00:01.00    frame= 1992 fps=1317 q=-0.0 size=N/A time=00:01:04.80 bitrate=N/A speed=42.9x elapsed=0:00:01.51    frame= 2693 fps=1335 q=-0.0 size=N/A time=00:01:28.20 bitrate=N/A speed=43.7x elapsed=0:00:02.01    frame= 3359 fps=1333 q=-0.0 size=N/A time=00:01:50.70 bitrate=N/A speed=43.9x elapsed=0:00:02.52    frame= 4043 fps=1336 q=-0.0 size=N/A time=00:02:13.00 bitrate=N/A speed=  44x elapsed=0:00:03.02    frame= 4693 fps=1330 q=-0.0 size=N/A time=00:02:35.10 bitrate=N/A speed=  44x elapsed=0:00:03.52    frame= 5387 fps=1336 q=-0.0 size=N/A time=00:02:58.00 bitrate=N/A speed=44.1x elapsed=0:00:04.03    frame= 6071 fps=1338 q=-0.0 size=N/A time=00:03:20.80 bitrate=N/A speed=44.3x elapsed=0:00:04.53    frame= 6745 fps=1338 q=-0.0 size=N/A time=00:03:43.30 bitrate=N/A speed=44.3x elapsed=0:00:05.04    frame= 7447 fps=1343 q=-0.0 size=N/A time=00:04:06.60 bitrate=N/A speed=44.5x elapsed=0:00:05.54    frame= 8131 fps=1345 q=-0.0 size=N/A time=00:04:29.40 bitrate=N/A speed=44.5x elapsed=0:00:06.04    [Parsed_loudnorm_0 @ 0x97501e040] 
+{
+	"input_i" : "-14.00",
+	"input_tp" : "-2.00",
+	"input_lra" : "1.70",
+	"input_thresh" : "-24.06",
+	"output_i" : "-14.06",
+	"output_tp" : "-2.00",
+	"output_lra" : "1.70",
+	"output_thresh" : "-24.12",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.06"
+}
+[out#0/null @ 0x97501c300] video:3448KiB audio:208191KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 8327 fps=1342 q=-0.0 Lsize=N/A time=00:04:37.56 bitrate=N/A speed=44.7x elapsed=0:00:06.20    

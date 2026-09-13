@@ -1,0 +1,267 @@
+{%- comment -%}
+  ============================================================
+  VELANTRA — Product Email/SMS Capture Popups
+  Single snippet that powers all 13 product popups.
+  - Renders only on product pages whose handle is in PRODUCTS below.
+  - Pulls the live product image/title via Liquid; copy comes from the JS config.
+  - Captures email via Shopify's native customer (newsletter) endpoint
+    -> creates a marketing-subscribed customer -> Omnisend syncs it.
+  - Reveals discount code WELCOME10 (10% off, once per customer) on success.
+
+  SAFE-LAUNCH GATE:
+    var ENABLED = false;  // <- real visitors see NOTHING while false
+    Preview anytime by adding  ?velantra_popup=preview  to a product URL.
+    Flip ENABLED to true to go live for everyone.
+
+  Include once in layout/theme.liquid, just before </body>:
+    {% render 'velantra-popup' %}
+  ============================================================
+{%- endcomment -%}
+
+{%- if request.page_type == 'product' -%}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@400;600;700&display=swap">
+
+<style>
+  #vlt-pop, #vlt-pop * { box-sizing: border-box; }
+  #vlt-pop {
+    position: fixed; inset: 0; z-index: 2147483000;
+    display: none; align-items: center; justify-content: center;
+    background: rgba(20,20,20,.55); padding: 16px;
+    font-family: 'Assistant','Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  #vlt-pop.vlt-on { display: flex; animation: vlt-fade .25s ease; }
+  @keyframes vlt-fade { from{opacity:0} to{opacity:1} }
+  .vlt-card {
+    position: relative; width: 100%; max-width: 460px; background: #fff;
+    border-top: 4px solid #000; max-height: 92vh; overflow-y: auto;
+    box-shadow: 0 24px 60px rgba(0,0,0,.28); animation: vlt-rise .3s ease;
+  }
+  @keyframes vlt-rise { from{transform:translateY(14px);opacity:.4} to{transform:none;opacity:1} }
+  .vlt-x {
+    position: absolute; top: 12px; right: 12px; width: 30px; height: 30px;
+    border: 0; background: transparent; cursor: pointer; font-size: 22px;
+    line-height: 1; color: #8a8a8a; z-index: 2;
+  }
+  .vlt-x:hover { color: #000; }
+  .vlt-img { width: 100%; height: 190px; object-fit: cover; display: block; background:#f6f1eb; }
+  .vlt-body { padding: 26px 30px 30px; }
+  .vlt-eyebrow {
+    font-size: 11px; letter-spacing: 3px; text-transform: uppercase;
+    color: #8a8a8a; margin: 0 0 10px;
+  }
+  .vlt-h1 {
+    font-family: 'Abel','Arial Narrow',Arial,sans-serif;
+    font-size: 25px; line-height: 1.18; color: #000; margin: 0 0 10px; font-weight: 400;
+  }
+  .vlt-sub { font-size: 15px; line-height: 1.5; color: #1a1a1a; margin: 0 0 20px; }
+  .vlt-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 6px; }
+  .vlt-chip {
+    border: 1px solid #d9d6d0; background: #fff; color: #1a1a1a;
+    padding: 10px 14px; font-size: 13px; cursor: pointer; border-radius: 0;
+    font-family: inherit; transition: all .15s ease; flex: 1 1 auto; text-align: center;
+  }
+  .vlt-chip:hover { border-color: #000; background: #f6f1eb; }
+  .vlt-field {
+    width: 100%; border: 1px solid #cfccc6; padding: 14px 14px; font-size: 15px;
+    font-family: inherit; margin: 0 0 10px; border-radius: 0; color:#000;
+  }
+  .vlt-field:focus { outline: none; border-color: #000; }
+  .vlt-btn {
+    width: 100%; background: #000; color: #fff; border: 0; padding: 15px 18px;
+    font-size: 13px; letter-spacing: 2px; text-transform: uppercase; font-weight: 600;
+    cursor: pointer; font-family: inherit; border-radius: 0;
+  }
+  .vlt-btn:hover { background: #1a1a1a; }
+  .vlt-btn[disabled] { opacity: .55; cursor: default; }
+  .vlt-skip {
+    display: block; width: 100%; text-align: center; background: none; border: 0;
+    color: #8a8a8a; font-size: 12px; margin-top: 12px; cursor: pointer; text-decoration: underline;
+    font-family: inherit;
+  }
+  .vlt-fine { font-size: 11px; line-height: 1.45; color: #9a9a9a; margin: 12px 0 0; }
+  .vlt-code {
+    border: 1px dashed #000; background: #f6f1eb; text-align: center;
+    padding: 16px; margin: 4px 0 16px;
+  }
+  .vlt-code small { display:block; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8a6d3b; margin-bottom:6px; }
+  .vlt-code b { font-family:'Abel',Arial,sans-serif; font-size:26px; letter-spacing:4px; color:#000; font-weight:700; }
+  .vlt-step { display: none; }
+  .vlt-step.vlt-active { display: block; }
+  @media (max-width: 560px) {
+    #vlt-pop { align-items: flex-end; padding: 0; }
+    .vlt-card { max-width: 100%; max-height: 88vh; }
+    .vlt-img { height: 150px; }
+  }
+</style>
+
+<div id="vlt-pop" role="dialog" aria-modal="true" aria-label="Velantra offer">
+  <div class="vlt-card">
+    <button class="vlt-x" type="button" data-vlt-close aria-label="Close">&times;</button>
+    <img class="vlt-img" src="{{ product.featured_image | image_url: width: 760 }}" alt="{{ product.title | escape }}">
+    <div class="vlt-body">
+      <p class="vlt-eyebrow">Velantra</p>
+
+      <!-- STEP 1: HOOK -->
+      <div class="vlt-step vlt-active" data-step="hook">
+        <h2 class="vlt-h1" data-slot="h1"></h2>
+        <p class="vlt-sub" data-slot="sub"></p>
+        <button class="vlt-btn" type="button" data-vlt-next="engage">Unlock 10% off</button>
+      </div>
+
+      <!-- STEP 2: ENGAGE -->
+      <div class="vlt-step" data-step="engage">
+        <h2 class="vlt-h1" data-slot="q"></h2>
+        <div class="vlt-chips" data-slot="chips"></div>
+      </div>
+
+      <!-- STEP 3: EMAIL -->
+      <div class="vlt-step" data-step="email">
+        <h2 class="vlt-h1">Where should we send your 10% off?</h2>
+        <input class="vlt-field" type="email" inputmode="email" placeholder="you@email.com" data-vlt-email>
+        <button class="vlt-btn" type="button" data-vlt-email-submit>Get my 10% off</button>
+        <p class="vlt-fine">By signing up you agree to receive Velantra emails. Unsubscribe anytime.</p>
+      </div>
+
+      <!-- STEP 4: SMS (optional) -->
+      <div class="vlt-step" data-step="sms">
+        <h2 class="vlt-h1">Want launch &amp; restock alerts by text too?</h2>
+        <input class="vlt-field" type="tel" inputmode="tel" placeholder="(555) 555-5555" data-vlt-phone>
+        <button class="vlt-btn" type="button" data-vlt-phone-submit>Yes, text me</button>
+        <button class="vlt-skip" type="button" data-vlt-next="done">No thanks &mdash; just email</button>
+        <p class="vlt-fine">By entering your number you agree to receive recurring marketing texts from Velantra. Msg &amp; data rates may apply. Reply STOP to opt out.</p>
+      </div>
+
+      <!-- STEP 5: SUCCESS -->
+      <div class="vlt-step" data-step="done">
+        <h2 class="vlt-h1" data-slot="success"></h2>
+        <div class="vlt-code"><small>Use code at checkout</small><b>WELCOME10</b></div>
+        <a class="vlt-btn" style="display:block;text-align:center;text-decoration:none;" href="/discount/WELCOME10?redirect=/products/{{ product.handle }}">Apply &amp; shop</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  /* ---------- SAFE-LAUNCH GATE ---------- */
+  var ENABLED = false;                                   // <- set true to go live for all visitors
+  var isPreview = location.search.indexOf('velantra_popup=preview') !== -1;
+  if (!ENABLED && !isPreview) return;
+
+  var HANDLE = {{ product.handle | json }};
+
+  /* ---------- PER-PRODUCT COPY ---------- */
+  var PRODUCTS = {
+    "velantra-boat-tote-2": { img:"https://cdn.shopify.com/s/files/1/0627/4092/2433/files/hf_20260619_084008_05519f28-1ddf-430b-a918-b1e79bde5ec7.png?v=1781858533", h1:"The tote that started it all.", sub:"Join the Velantra list for 10% off your Boat Tote — plus first dibs on new colorways.", q:"Which color are you eyeing?", chips:["Navy","Emerald","A solid shade","Still deciding"], success:"Here’s 10% off — your Boat Tote’s waiting." },
+    "velantra-weekender": { h1:"Made for the long weekend.", sub:"Take 10% off the Weekender — premium canvas, leather trim, built to travel.", q:"What’s it for?", chips:["A weekend away","Carry-on travel","Everyday / gym","A gift"], success:"10% off — packed and ready." },
+    "velantra-meridian-tote": { h1:"Structure meets softness.", sub:"10% off the Meridian — grained leather that works as hard as you do.", q:"Which Meridian suits you?", chips:["Black","Brown / Coffee","Cream / Taupe","Show me all"], success:"10% off your Meridian — enjoy." },
+    "velantra-portico-bucket-bag": { h1:"The bucket bag, elevated.", sub:"10% off the Portico — soft leather, room for everything that matters.", q:"How will you carry it?", chips:["Everyday","Work","Going out","A bit of everything"], success:"10% off the Portico is yours." },
+    "velantra-evening-bag": { h1:"Quiet luxury, after dark.", sub:"10% off the Evening Bag — a statement that whispers.", q:"What’s the occasion?", chips:["Date night","Wedding / event","Everyday elegance","Treating myself"], success:"10% off — see you at golden hour." },
+    "velantra-straw-tote": { h1:"Summer’s most-wanted tote.", sub:"Join the list for 10% off — and be first to know the moment it’s back in stock.", q:"When will you carry it?", chips:["Beach days","City summer","Vacation","Gifting"], success:"You’re on the list — 10% off + first access when it ships." },
+    "velantra-jelly-tote": { h1:"Translucent. Playful. Yours.", sub:"10% off the Jelly Tote — 15 colors that catch the light.", q:"Pick your shade", chips:["Brights","Pastels","Clear / Neutral","All of them"], success:"10% off your Jelly Tote — go bold." },
+    "velantra-leather-handbag": { h1:"The look you’ve been saving for — for less.", sub:"10% off the Leather Handbag — elevated craftsmanship, sized and colored your way.", q:"Which size calls you?", chips:["Mini","Classic","Larger","Help me choose"], success:"10% off your handbag — quiet luxury, unlocked." },
+    "bag-scarf": { h1:"The finishing touch.", sub:"10% off your first order — tie on a Bag Scarf and make any bag yours.", q:"Styling it on", chips:["My Boat Tote","A leather bag","A gift","Just browsing"], success:"10% off — go add the perfect scarf." },
+    "velantra-horse-charm": { h1:"A little equestrian elegance.", sub:"10% off your first order — the Horse Charm that finishes the look.", q:"Where’s it going?", chips:["On my tote","On a handbag","A gift","Collecting them"], success:"10% off — pick your charm." },
+    "velantra-cherry-charm": { h1:"Sweet little statement.", sub:"10% off your first order — add a Cherry Charm and stand out.", q:"Your vibe", chips:["Cherry Red","Black","Pink","One of each"], success:"10% off — treat your bag." },
+    "boat-tote-keychain": { h1:"The Boat Tote, in miniature.", sub:"10% off your first order — the collectible keychain everyone’s clipping on.", q:"Clipping it to", chips:["My keys","My bag","A gift","Collecting"], success:"10% off — grab your mini." },
+    "bag-organizer": { h1:"Everything in its place.", sub:"10% off your first order — the felt insert that keeps your bag flawless.", q:"Organizing which bag?", chips:["Tote","Handbag","Multiple bags","Not sure yet"], success:"10% off — get organized." }
+  };
+
+  var cfg = PRODUCTS[HANDLE];
+  if (!cfg) return;                                      // not one of our products
+
+  /* ---------- FREQUENCY ---------- */
+  var SEEN = 'vlt_seen_' + HANDLE, DONE = 'vlt_done';
+  function suppressed() {
+    if (isPreview) return false;
+    if (localStorage.getItem(DONE)) return true;         // already subscribed (any product)
+    var t = localStorage.getItem(SEEN);
+    return t && (Date.now() - parseInt(t,10) < 7*24*60*60*1000); // dismissed < 7 days ago
+  }
+  if (suppressed()) return;
+
+  /* ---------- BUILD ---------- */
+  var pop = document.getElementById('vlt-pop');
+  if (!pop) return;
+  var answer = '';
+  function fill(slot, val){ var el = pop.querySelector('[data-slot="'+slot+'"]'); if(el) el.textContent = val; }
+  fill('h1', cfg.h1); fill('sub', cfg.sub); fill('q', cfg.q); fill('success', cfg.success);
+  if (cfg.img) { var _im = pop.querySelector('.vlt-img'); if (_im) _im.src = cfg.img; }  // lifestyle image override
+
+  var chipWrap = pop.querySelector('[data-slot="chips"]');
+  cfg.chips.forEach(function (c) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'vlt-chip'; b.textContent = c;
+    b.addEventListener('click', function () { answer = c; go('email'); });
+    chipWrap.appendChild(b);
+  });
+
+  function go(step) {
+    pop.querySelectorAll('.vlt-step').forEach(function (s) {
+      s.classList.toggle('vlt-active', s.getAttribute('data-step') === step);
+    });
+  }
+  function open() {
+    if (pop.classList.contains('vlt-on')) return;
+    pop.classList.add('vlt-on');
+    document.documentElement.style.overflow = 'hidden';
+  }
+  function close() {
+    pop.classList.remove('vlt-on');
+    document.documentElement.style.overflow = '';
+    if (!isPreview) localStorage.setItem(SEEN, String(Date.now()));
+  }
+
+  /* ---------- CAPTURE (Shopify native -> Omnisend sync) ---------- */
+  function subscribe(extra) {
+    var fd = new FormData();
+    fd.append('form_type', 'customer');
+    fd.append('utf8', '✓');
+    fd.append('contact[email]', (pop.querySelector('[data-vlt-email]').value || '').trim());
+    var tags = ['velantra-popup', HANDLE];
+    if (answer) tags.push('interest:' + answer);
+    fd.append('contact[tags]', tags.join(','));
+    if (extra && extra.phone) fd.append('contact[phone]', extra.phone);
+    return fetch('/contact', { method: 'POST', body: fd, headers: { 'X-Requested-With':'XMLHttpRequest' } })
+      .catch(function(){ /* swallow — still show success so UX isn't blocked */ });
+  }
+
+  /* ---------- WIRE UP ---------- */
+  pop.querySelectorAll('[data-vlt-next]').forEach(function (b) {
+    b.addEventListener('click', function () { go(b.getAttribute('data-vlt-next')); });
+  });
+  pop.querySelectorAll('[data-vlt-close]').forEach(function (b) {
+    b.addEventListener('click', close);
+  });
+  pop.addEventListener('click', function (e) { if (e.target === pop) close(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+
+  pop.querySelector('[data-vlt-email-submit]').addEventListener('click', function () {
+    var v = (pop.querySelector('[data-vlt-email]').value || '').trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)) { pop.querySelector('[data-vlt-email]').focus(); return; }
+    localStorage.setItem(DONE, '1');
+    subscribe();
+    go('sms');
+  });
+  pop.querySelector('[data-vlt-phone-submit]').addEventListener('click', function () {
+    var p = (pop.querySelector('[data-vlt-phone]').value || '').trim();
+    if (p) subscribe({ phone: p });
+    go('done');
+  });
+
+  /* ---------- TRIGGERS ---------- */
+  var fired = false;
+  function trigger(){ if(fired) return; fired = true; open(); }
+  setTimeout(trigger, 5000);                                            // 5s delay
+  window.addEventListener('scroll', function () {                       // 35% scroll
+    var h = document.documentElement;
+    if ((h.scrollTop) / (h.scrollHeight - h.clientHeight) > 0.35) trigger();
+  }, { passive: true });
+  document.addEventListener('mouseout', function (e) {                  // exit-intent (desktop)
+    if (e.clientY <= 0 && window.innerWidth > 768) trigger();
+  });
+})();
+</script>
+{%- endif -%}

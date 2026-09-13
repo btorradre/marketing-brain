@@ -1,0 +1,25 @@
+<h1 class="lt-min-title">Your Account</h1>
+<p>Welcome back, {{ customer.first_name | default: customer.email }}.</p>
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 32px;">
+  <div>
+    <h2>Recent Orders</h2>
+    {% if customer.orders.size > 0 %}
+      {% for order in customer.orders limit: 10 %}
+        <a href="{{ order.customer_url }}" style="display:block; padding:14px 0; border-bottom:1px solid var(--lt-line); text-decoration:none; color:inherit;">
+          <strong>{{ order.name }}</strong> &middot; {{ order.created_at | date: "%b %e, %Y" }} &middot; {{ order.total_price | money }}
+        </a>
+      {% endfor %}
+    {% else %}
+      <p style="color: var(--lt-muted);">No orders yet.</p>
+    {% endif %}
+  </div>
+  <div>
+    <h2>Account Details</h2>
+    <p>{{ customer.email }}</p>
+    {% if customer.default_address %}
+      <p>{{ customer.default_address | format_address }}</p>
+    {% endif %}
+    <a href="/account/addresses">Manage Addresses</a><br>
+    <a href="/account/logout">Sign Out</a>
+  </div>
+</div>

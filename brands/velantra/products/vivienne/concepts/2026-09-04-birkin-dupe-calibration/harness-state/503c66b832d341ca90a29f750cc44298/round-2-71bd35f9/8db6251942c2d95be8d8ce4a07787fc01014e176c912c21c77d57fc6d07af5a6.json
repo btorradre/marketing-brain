@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "product": "Vivienne",
+  "brand": "Velantra",
+  "reviewer": "independent-vivienne-truth-agent",
+  "verified_at": "2026-09-04",
+  "evidence_tier": "Adjacent-category public discussion plus existing research synthesis; no authenticated Vivienne purchaser interviews, survey answers or review export identified.",
+  "sources": [
+    {
+      "id": "icp",
+      "path": "brands/velantra/research/icp-branding/Ideal_Customer_Profile.md",
+      "locators": [
+        "11. Customer Language",
+        "12. Voice of Customer: Raw Quotes Appendix",
+        "References 15 and 16"
+      ],
+      "limitation": "Synthetic persona narrative is not observed customer fact. Other products and seasonal bags dominate some quotes. Do not transfer testimonials or demographic detail to Vivienne."
+    },
+    {
+      "id": "forum",
+      "url": "https://forum.purseblog.com/threads/high-end-alternatives-to-a-birking.1048512/page-3",
+      "accessed": "2026-09-04",
+      "kind": "Primary category discussion, independently reopened",
+      "limitation": "2024 comments concern other bags; qualitative language evidence, not representative customer sample or purchasing-performance data."
+    },
+    {
+      "id": "reddit",
+      "url": "https://www.reddit.com/r/handbags/comments/1di0tjy/high_quality_littleknown_bags_with_no_logo_on_the/",
+      "accessed": "2026-09-04",
+      "kind": "Primary category discussion, page reopened",
+      "limitation": "Historical category comments. Quotes below come from local cited research; individual attribution not freshly re-audited."
+    }
+  ],
+  "voice_evidence": [
+    {
+      "id": "voc-access",
+      "source_id": "forum",
+      "locator": "ParisBound, post 34, March 26 2024",
+      "excerpt": "I am over playing games",
+      "meaning": "Access friction and fatigue with prestige shopping rituals. Speak directly about wanting the look without turning buying a bag into a project.",
+      "transfer_limit": "Do not fabricate narrator experience shopping Hermes or claim facts about its current purchase process."
+    },
+    {
+      "id": "voc-value",
+      "source_id": "forum",
+      "locator": "Joeli7, post 37, March 31 2024",
+      "excerpt": "reasonably priced, discreet bags",
+      "meaning": "Value and understated appearance can coexist. Straightforward language about price and visible design is a plausible register.",
+      "transfer_limit": "Does not support identical quality or explain the price gap."
+    },
+    {
+      "id": "voc-vibe",
+      "source_id": "forum",
+      "locator": "Sa26, post 35, March 26 2024",
+      "excerpt": "just get the vibe or the function",
+      "meaning": "At least one category shopper prefers an alternative with the desired feeling/function over an identical look-alike.",
+      "transfer_limit": "This is a counter-signal to dupe language, not grounds to override the user brief. Test the angle; do not declare audience unanimity."
+    },
+    {
+      "id": "voc-no-logo",
+      "source_id": "icp",
+      "original_url": "https://www.reddit.com/r/handbags/comments/1di0tjy/high_quality_littleknown_bags_with_no_logo_on_the/",
+      "locator": "12. Anti-Logo / Stealth Wealth; attributed to SeaJellyfish",
+      "excerpt": "I'm very embarrassed by big logos on the exterior",
+      "meaning": "No-logo design is an observed category preference. Translate into personal aesthetic choice, not judgments about the viewer.",
+      "transfer_limit": "Do not speak as this commenter or imply they bought Vivienne."
+    }
+  ],
+  "working_avatar": {
+    "status": "Testable creative hypothesis, not measured customer segmentation",
+    "description": "A bag-aware shopper who recognizes the Birkin silhouette, likes understated styling, and wants a price she can justify. She is skeptical of generic quality promises and wants to see the actual design and purchase conditions.",
+    "voice": "Conversational peer showing a find: short contractions, clear everyday nouns, one concrete visual detail per breath. Curious and confident, with light enthusiasm and room for a practical objection.",
+    "exclude_assumptions": [
+      "No invented age, race, income, geography, job, family, coastal lifestyle or ownership history.",
+      "No presumption that all shoppers want to look wealthy or fool others.",
+      "No gender policing, class shame, cheap-woman judgments or claim that people judge the viewer by her bag."
+    ],
+    "angle_fit": "User-authorized Birkin-dupe concept. Contrast recognizable design and actual price through subjective styling judgment, with no assertion of identical manufacturing or affiliation.",
+    "naturalness_notes": [
+      "Read aloud before approval. Break attribute stacks that cannot fit in one normal breath.",
+      "Avoid corporate phrases such as elevate your look, luxury redefined and curated for you.",
+      "Use spontaneous cadence without stuffing literally/obsessed into every sentence.",
+      "First-person preference is permissible; first-person use, purchase, compliments or testing require a real source."
+    ]
+  },
+  "copy_qa_checks": [
+    {
+      "id": "voice-evidence",
+      "question": "Can the language choice be mapped to a sourced category phrase or clearly labeled creative hypothesis?",
+      "failure": "Invented customer vocabulary presented as survey findings."
+    },
+    {
+      "id": "truthful-narrator",
+      "question": "Does every personal experience have an actual speaker/source?",
+      "failure": "Synthetic narrator says I bought, I have had, everyone asks, I tested or this fits my laptop without evidence."
+    },
+    {
+      "id": "natural-speech",
+      "question": "Can a person say the line comfortably at the reference cadence, and does it sound like recommending a bag to a friend?",
+      "failure": "Breathless attribute list, unsupported hyperbole, corporate slogan or excessive forced slang."
+    },
+    {
+      "id": "avatar-fit",
+      "question": "Does the script address appearance, price and purchase confidence without invented lifestyle or demographics?",
+      "failure": "The pitch shames the viewer or relies on a fictional affluent persona as evidence."
+    },
+    {
+      "id": "angle-and-proof",
+      "question": "Does Birkin wording open the intended comparison while the body demonstrates the Vivienne itself?",
+      "failure": "The script substitutes brand-name repetition for product-specific visual evidence or claims exact equivalence."
+    },
+    {
+      "id": "offer-clarity",
+      "question": "Are current price and pre-order expected October clear where purchase is encouraged?",
+      "failure": "Unavailable immediate delivery or fabricated urgency."
+    }
+  ],
+  "calibration_limitations": [
+    "This first concept can calibrate defect detection, not establish optimal quality or predictive ad performance.",
+    "Human ratings, comments and later performance need to remain distinct from agent scores.",
+    "No Vivienne-specific voice evidence identified: mark that rubric dimension provisional rather than manufacture confidence."
+  ]
+}

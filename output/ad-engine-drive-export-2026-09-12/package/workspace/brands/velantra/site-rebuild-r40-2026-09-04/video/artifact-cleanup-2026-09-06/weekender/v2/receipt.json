@@ -1,0 +1,22 @@
+{
+  "family": "weekender",
+  "attempt": "v2",
+  "status": "error",
+  "model": "gemini-omni-1.1-flash",
+  "provider": "Google Gemini Interactions API",
+  "previous_interaction_id": "v1_ChZwSjZjYXVzY2xJZlV5US1GbzdIZ0N3EhdDYUtjYW9DT0hydVlfdU1QdHRIVDhROA",
+  "source_video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/weekender/exports/v2/weekender-detail-stage-2.mp4",
+  "source_sha256": "b46b556021ea6fe70d2b59a4bd84efd955e900aee3c65d072caf54e078e5ca76",
+  "expected_duration": 18.0,
+  "expected_shots": 10,
+  "prompt": "Remove the artificial squiggly lines, stray hairlike strands and etched worm-like marks from the bag surfaces throughout this existing film. Restore clean tightly woven olive canvas and softly grained brown leather with natural fine texture. Preserve real stitching, seams and panel edges. Keep everything else exactly the same, including all 10 shots, their original cut times, the full 18.0-second duration, camera motion, framing, lighting, colors, bag shape, handles and hardware. Do not blur the surfaces or smooth them into plastic.",
+  "created_utc": "2026-09-06T06:29:09.229435+00:00",
+  "processing": "Original provider bytes, decoded only. No local video editing.",
+  "physical_scale_verified": false,
+  "generation_config": {
+    "video_config": {
+      "task": "edit"
+    }
+  },
+  "error": "{\"message\": \"previous_interaction_id is not allowed when video task is set.\", \"code\": \"invalid_request\"}"
+}

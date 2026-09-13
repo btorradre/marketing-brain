@@ -1,0 +1,164 @@
+{%- comment -%}
+  Below-ATC reviews block: star rating summary + a featured testimonial.
+
+  Rating reads from product.metafields.reviews.rating.value.value (Rating drop's
+  inner .value field — NOT just .value which returns the drop itself).
+  Falls back to loox.avg_rating.
+
+  Testimonial reads from product.metafields.custom.testimonial (multi_line_text_field)
+  with format:
+    Quote text here.
+    — Author Name, Verified Buyer
+  Falls back to a sensible default per product.
+{%- endcomment -%}
+
+{%- liquid
+  assign rating_value = 0
+  assign rating_count = 0
+  assign rating_scale_max = 5
+
+  if product.metafields.reviews.rating.value.value
+    assign rating_value = product.metafields.reviews.rating.value.value | times: 1.0
+    assign rating_scale_max = product.metafields.reviews.rating.value.scale_max | times: 1.0
+  elsif product.metafields.reviews.rating.value
+    assign rating_value = product.metafields.reviews.rating.value | times: 1.0
+  elsif product.metafields.loox.avg_rating != blank
+    assign rating_value = product.metafields.loox.avg_rating | times: 1.0
+  endif
+
+  if product.metafields.reviews.rating_count != blank
+    assign rating_count = product.metafields.reviews.rating_count | times: 1
+  elsif product.metafields.loox.num_reviews != blank
+    assign rating_count = product.metafields.loox.num_reviews | times: 1
+  endif
+
+  if rating_value > 0 and rating_scale_max > 0
+    assign rating_pct = rating_value | times: 100 | divided_by: rating_scale_max
+  else
+    assign rating_pct = 0
+  endif
+
+  comment
+    Pull testimonial. Default falls back to a brand-voice quote per product type.
+  endcomment
+  assign testimonial = product.metafields.custom.testimonial | default: product.metafields.pdp.testimonial
+
+  if testimonial == blank
+    case product.handle
+      when 'velantra-boat-tote-2'
+        assign testimonial = 'I bought this for the school run and it has somehow replaced every other bag I own. Soft enough to slouch on the passenger seat, structured enough to walk into a meeting with.|Margot R., Verified Buyer'
+      when 'velantra-meridian-tote'
+        assign testimonial = 'Two years of daily use, three flights a month, and the leather looks better than the day it arrived. This is the only bag I bring on work trips now.|Anya K., Verified Buyer'
+      when 'velantra-weekender'
+        assign testimonial = 'Fits everything I need for a four-day trip and still slides into the overhead. The waxed canvas has started getting that lived-in look I was hoping for.|Eleanor M., Verified Buyer'
+      when 'velantra-portico-bucket-bag'
+        assign testimonial = 'The leather is unreal. It actually slouches the way it does in the photos, and the little zip pouch comes out for dinner like a proper clutch.|Sofia L., Verified Buyer'
+      when 'velantra-evening-bag'
+        assign testimonial = "Holds my phone, my card case, and a lipstick — exactly what I need, nothing I don't. The edge work is what gives it away.|Camille D., Verified Buyer"
+      when 'velantra-blackwood-carry'
+        assign testimonial = "Six months in and it still photographs black. The gunmetal hardware doesn't pick up scratches the way I expected it to.|Daniela P., Verified Buyer"
+      else
+        assign testimonial = "Quietly become my favorite thing I own. The craftsmanship is what you don't expect at this price.|Jordan W., Verified Buyer"
+    endcase
+  endif
+
+  assign testimonial_parts = testimonial | split: '|'
+  assign testimonial_quote = testimonial_parts[0] | strip
+  assign testimonial_author = testimonial_parts[1] | strip
+-%}
+
+{%- if rating_count > 0 -%}
+  <div class="pdp-rev-block">
+    <a href="#pdp-reviews" class="pdp-rev" data-pdp-scroll-reviews>
+      <span class="pdp-rev__stars" aria-label="Rated {{ rating_value }} out of {{ rating_scale_max }}">
+        <span class="pdp-rev__stars-base" aria-hidden="true">★★★★★</span>
+        <span class="pdp-rev__stars-fill" aria-hidden="true" style="width: {{ rating_pct }}%;">★★★★★</span>
+      </span>
+      <span class="pdp-rev__meta">
+        <span class="pdp-rev__value">{{ rating_value }}</span>
+        <span class="pdp-rev__sep">·</span>
+        <span class="pdp-rev__count">{{ rating_count }} {% if rating_count == 1 %}review{% else %}reviews{% endif %}</span>
+      </span>
+    </a>
+
+    {%- if testimonial_quote != blank -%}
+      <figure class="pdp-rev__quote">
+        <svg class="pdp-rev__quotemark" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+          <path d="M9.5 4.5c-2.8 0-5 2.2-5 5v6h5v-6h-3c0-1.7 1.3-3 3-3v-2zm9 0c-2.8 0-5 2.2-5 5v6h5v-6h-3c0-1.7 1.3-3 3-3v-2z"/>
+        </svg>
+        <blockquote class="pdp-rev__quote-text">{{ testimonial_quote }}</blockquote>
+        {%- if testimonial_author != blank -%}
+          <figcaption class="pdp-rev__author">— {{ testimonial_author }}</figcaption>
+        {%- endif -%}
+      </figure>
+    {%- endif -%}
+  </div>
+
+  <style>
+    .pdp-rev-block {
+      margin: 16px 0 4px;
+      padding: 0;
+      font-family: var(--font-stack-base, 'Inter', sans-serif);
+    }
+    .pdp-rev {
+      display: inline-flex; align-items: center; gap: 10px;
+      margin: 0 0 14px;
+      text-decoration: none; color: #1a1a1a;
+    }
+    .pdp-rev:hover .pdp-rev__count { text-decoration: underline; text-underline-offset: 3px; }
+    .pdp-rev__stars {
+      position: relative; display: inline-block;
+      font-size: 14px; line-height: 1; letter-spacing: 2px;
+    }
+    .pdp-rev__stars-base { color: #d4d0c4; }
+    .pdp-rev__stars-fill {
+      position: absolute; top: 0; left: 0;
+      overflow: hidden; white-space: nowrap; color: #1a1a1a;
+    }
+    .pdp-rev__meta { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #4a4a4a; }
+    .pdp-rev__value { font-weight: 500; color: #1a1a1a; }
+    .pdp-rev__sep { color: #c0bcb1; }
+
+    /* Testimonial */
+    .pdp-rev__quote {
+      position: relative; margin: 0; padding: 18px 18px 16px 44px;
+      background: #faf8f4; border-left: 2px solid #1a1a1a;
+    }
+    .pdp-rev__quotemark {
+      position: absolute; left: 14px; top: 16px;
+      color: #1a1a1a; opacity: 0.35;
+    }
+    .pdp-rev__quote-text {
+      margin: 0; padding: 0;
+      font-family: var(--font-stack-header, 'Cormorant', serif);
+      font-size: 17px; line-height: 1.5; font-weight: 400;
+      color: #1a1a1a; font-style: italic;
+    }
+    .pdp-rev__author {
+      margin-top: 10px;
+      font-family: var(--font-stack-base, 'Inter', sans-serif);
+      font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+      color: #6a6a6a;
+    }
+
+    @media (max-width: 480px) {
+      .pdp-rev__quote { padding: 16px 14px 14px 38px; }
+      .pdp-rev__quote-text { font-size: 16px; }
+      .pdp-rev__quotemark { left: 12px; top: 14px; }
+    }
+  </style>
+
+  <script>
+  (function(){
+    document.querySelectorAll('[data-pdp-scroll-reviews]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var t = document.getElementById('pdp-reviews')
+              || document.querySelector('[data-section-type*="reviews"]')
+              || document.querySelector('#looxReviews, .loox-reviews, .jdgm-rev-widg')
+              || document.querySelector('[id*="product-reviews"]');
+        if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      });
+    });
+  })();
+  </script>
+{%- endif -%}

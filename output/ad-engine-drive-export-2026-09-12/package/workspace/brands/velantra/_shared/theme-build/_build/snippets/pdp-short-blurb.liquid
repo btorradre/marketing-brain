@@ -1,0 +1,29 @@
+{% comment %}
+  In-buy-column short blurb (1-2 sentence intro under price)
+  Reads from product metafield: product.metafields.pdp.short_blurb (rich_text)
+  Fallback: first sentence of product.description
+{% endcomment %}
+
+{%- assign blurb = product.metafields.pdp.short_blurb -%}
+{%- if blurb == blank -%}
+  {%- assign desc_plain = product.description | strip_html | split: '.' | first -%}
+  {%- if desc_plain.size > 0 -%}
+    {%- assign blurb = desc_plain | append: '.' -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if blurb != blank -%}
+  <div class="pdp-blurb">
+    {{ blurb }}
+  </div>
+
+  <style>
+    .pdp-blurb {
+      font-family: var(--font-stack-base, 'Inter', sans-serif);
+      font-size: 15px; line-height: 1.55;
+      color: #3a3a3a; margin: 12px 0 20px;
+      max-width: 42ch;
+    }
+    .pdp-blurb p { margin: 0; }
+  </style>
+{%- endif -%}

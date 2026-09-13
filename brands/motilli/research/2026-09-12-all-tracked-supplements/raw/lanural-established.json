@@ -1,0 +1,123 @@
+{
+  "jsonrpc": "2.0",
+  "id": "lanural-established",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — Lanural\n\nWindow: 7d | Sort: current_rank | Results: 0\n\n_No scaling ads returned. Try broader filters, a larger current-rank cap, or another rank window._\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":6,\"platforms\":[\"facebook\"],\"status\":\"active\",\"trackedPages\":[\"1012675711938985\",\"1041337329068110\",\"1023247650879278\"],\"rankDeltaWindow\":\"7d\",\"minDaysRunning\":30}\n\n---\nCredits used: 0 | Remaining: 6504"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "7e5d62a7-6dc5-4904-a3ac-0e7364479e9b",
+      "data": [],
+      "pagination": {
+        "page": 1,
+        "limit": 6,
+        "total": 0,
+        "totalPages": 0,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "fcc41353-8599-4f4f-8d10-52809fe8a797",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "fcc41353-8599-4f4f-8d10-52809fe8a797",
+          "resolvedBrandName": "Lanural",
+          "facebookPageId": "1012675711938985",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "1012675711938985",
+            "1041337329068110",
+            "1023247650879278"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 6,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active",
+          "trackedPages": [
+            "1012675711938985",
+            "1041337329068110",
+            "1023247650879278"
+          ],
+          "rankDeltaWindow": "7d",
+          "minDaysRunning": 30
+        },
+        "requestedLimit": 6,
+        "effectiveLimit": 6,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 6,
+        "effectiveUnits": 6,
+        "actualUnits": 0,
+        "costUnits": 0,
+        "recurringUnits": 0,
+        "topupUnits": 0,
+        "creditsRemaining": 6504,
+        "creditsSourceHeader": null,
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

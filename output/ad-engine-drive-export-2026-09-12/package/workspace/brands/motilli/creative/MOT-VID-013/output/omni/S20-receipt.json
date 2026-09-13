@@ -1,0 +1,73 @@
+{
+  "shot": "S20",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The hand holding the celery makes a tiny natural adjustment while the leaves sway softly; keep the stalks and background consistent. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S20.png",
+  "reference_sha256": "ddb34ebf0ae3693d58ec606c35807323baa368d70dcab6582a19ed91a098fc1f",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdkYk9nYXFHMk04X2p6N0lQNG9qZjJRNBIXZGJPZ2FxRzJNOF9qejdJUDRvamYyUTQ",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S20.mp4",
+  "sha256": "afa40152ad71de1d593fbe391a8daa89cfc0ec6f82ba747776ae426e891b728a",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 61511,
+    "total_input_tokens": 1155,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 55
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58491,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1865,
+    "raw_prompt_token": 31372,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1848
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 577
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1865
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

@@ -1,0 +1,73 @@
+{
+  "shot": "S03",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A gentle physical camera move settles from the lower digestive tract toward the stomach; the connected organs retain their shape. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/keyframes/S03.png",
+  "reference_sha256": "217201e43d5d3c8608647247cdd83d047ff69c032bcd02726789e51caac71b4f",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdUTU9nYW9IU0hJNmZ6N0lQZ2NXYnVRZxIXVE1PZ2FvSFNISTZmejdJUGdjV2J1UWc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/S03.mp4",
+  "sha256": "99b76ad95292ff164f4eca83e5d26b0e28ac97fcd22d2a386d0c9d5e6511e5a5",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60126,
+    "total_input_tokens": 1154,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 54
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58529,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 443,
+    "raw_prompt_token": 31474,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1847
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 615
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 443
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

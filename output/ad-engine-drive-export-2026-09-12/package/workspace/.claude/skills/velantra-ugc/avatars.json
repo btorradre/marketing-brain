@@ -1,0 +1,72 @@
+{
+  "_comment": "velantra-ugc avatar roster. Canonical folder: brands/velantra/_shared/ugc-creators/<Name>/ (ref image + profile.md with verbatim Seedance creator block + voice). ENGINE = kie.ai Seedance 2.0 (2026-07-07): the ref_image is the identity (@Image1) — the runner uploads it per run. hf_upload_id / ms_avatar_id / soul_v2_job are LEGACY Higgsfield fields, kept only for provenance; do not use.",
+  "avatars": {
+    "blair": {
+      "display_name": "Velantra Blair",
+      "age": 42,
+      "vibe": "golden blonde waves, linen shirt jacket over white button down, warm plaster hallway — closest to the 7/7 MS reference creator",
+      "ref_image": "brands/velantra/_shared/ugc-creators/Blair/blair-ref.png",
+      "profile": "brands/velantra/_shared/ugc-creators/Blair/profile.md",
+      "hf_upload_id": "ec0bc243-8b13-4fa0-9e15-f6e380f87754",
+      "ms_avatar_id": "a852335b-f33f-42dc-925a-ea90a84a1dee",
+      "soul_v2_job": "8c3a9ebd-4231-4f12-af95-0776d73612f8"
+    },
+    "sloane": {
+      "display_name": "Velantra Sloane",
+      "age": 38,
+      "vibe": "long dark brunette, sun tanned, black tank + ivory cardigan, coastal kitchen with lemons",
+      "ref_image": "brands/velantra/_shared/ugc-creators/Sloane/sloane-ref.png",
+      "profile": "brands/velantra/_shared/ugc-creators/Sloane/profile.md",
+      "hf_upload_id": "1360c04d-af39-4d29-a0de-3002864549da",
+      "ms_avatar_id": "15ad49e9-0690-47f8-a674-8c98760fbd08",
+      "soul_v2_job": "c1d84215-8d84-423e-9f14-421c8af4e38e"
+    },
+    "marin": {
+      "display_name": "Velantra Marin",
+      "age": 52,
+      "vibe": "brown hair with gray streaks, smile lines, breton stripe + navy cardigan, linen sofa — upper end of ICP age band",
+      "ref_image": "brands/velantra/_shared/ugc-creators/Marin/marin-ref.png",
+      "profile": "brands/velantra/_shared/ugc-creators/Marin/profile.md",
+      "hf_upload_id": "00b49c9d-13d9-4ba2-989d-04617233d2f8",
+      "ms_avatar_id": "f360f1a7-6eab-4e21-a3e1-7576cdb30b5b",
+      "soul_v2_job": "b816e138-f765-47c9-be58-83e904e35c7c"
+    },
+    "tessa": {
+      "display_name": "Velantra Tessa",
+      "age": 35,
+      "vibe": "strawberry blonde curls, freckles, sage henley, sunlit bedroom — youngest of the roster",
+      "ref_image": "brands/velantra/_shared/ugc-creators/Tessa/tessa-ref.png",
+      "profile": "brands/velantra/_shared/ugc-creators/Tessa/profile.md",
+      "hf_upload_id": "70b1772a-08da-4ac5-b100-023f159b025f",
+      "ms_avatar_id": "05247a03-3d81-431a-8642-ce6956aed865",
+      "soul_v2_job": "c05e45b1-c58d-4014-875f-ce39f8dd6f72"
+    },
+    "camille": {
+      "display_name": "Velantra Camille",
+      "age": 47,
+      "vibe": "chin length dark bob, pearl studs, ivory crewneck, rattan mirror entryway, medium deep warm skin tone",
+      "ref_image": "brands/velantra/_shared/ugc-creators/Camille/camille-ref.png",
+      "profile": "brands/velantra/_shared/ugc-creators/Camille/profile.md",
+      "hf_upload_id": "46591d3d-a9e6-48ec-9592-8a7e4bc9fd87",
+      "ms_avatar_id": "5d98119e-3f80-402b-8a30-da0519024258",
+      "soul_v2_job": "085d7c0d-b3c4-4a01-bbb4-b3a7b167d0cb"
+    }
+  },
+  "real_creators": {
+    "caroline-nutt": {
+      "display_name": "Caroline Nutt",
+      "type": "real UGC creator footage",
+      "ref_image": "brands/velantra/_shared/ugc-creators/Caroline Nutt/caroline-ref-still.jpg",
+      "footage_dir": "brands/velantra/_shared/ugc-creators/Caroline Nutt/",
+      "ms_avatar_id": null,
+      "note": "Usable as Seedance @Image1 identity ref; not registered as an MS avatar"
+    }
+  },
+  "soul_characters": {
+    "velantra-unboxing-creator": {
+      "soul_id": "dfe380c9-14de-49ce-82c3-7df6c8f58d75",
+      "status": "completed",
+      "note": "Trained Soul — for text2image_soul_v2 identity locked stills, not an MS avatar"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "reviewer": "commerce_theme",
+  "metric_scale": "Not physically verified; source-relative visual review only",
+  "family": "weekender",
+  "candidate": "qa/v2-final",
+  "decision": "accept sampled construction; mobile framing limitation",
+  "sources_viewed": [
+    "weekender/qa/v2-final/contact.jpg",
+    "weekender/qa/v2-final/frame-00-0.000.jpg",
+    "weekender/qa/v2-final/frame-13-11.200.jpg",
+    "weekender/qa/v2-final/mobile-crop-contact.jpg",
+    "weekender/qa/v2-final/desktop-crop-contact.jpg"
+  ],
+  "findings": [
+    "Rejected plain-flap shot is replaced with a handle-only macro.",
+    "Two handle contours remain in the more upright later pose; rear contour is visible on both sides.",
+    "Horizontal oval plate, contoured front, green canvas and corner trims remain."
+  ],
+  "crop_note": "Later full fronts slightly exceed the centered390/420mobile window at outer side wings; approximately16pxleft and a few pixelsright at390px. Handles, main front and base remain visible.",
+  "framing_resolution": {
+    "setting": "mobile_height360 at390pxwidth",
+    "proof": "research/weekender-mobile-film-height360-local.png",
+    "decision": "Full sampled product outline preserved with cover; no letterboxing required. Native deployment verification follows root push."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "edit",
+  "version": "0.1.2",
+  "calibration_status": "provisional",
+  "artifact_kind": "render",
+  "pass_threshold": 95,
+  "scale": {
+    "min": 0,
+    "max": 4,
+    "meaning": "0 absent/unacceptable; 1 major failures; 2 meaningful revision; 3 acceptable; 4 exemplary"
+  },
+  "criteria": [
+    {
+      "id": "frame_accuracy",
+      "weight": 20,
+      "minimum_score": 3,
+      "required_evidence": [
+        "render",
+        "timeline"
+      ],
+      "description": "Inspect every cut against the intended source range at native FPS, including frames immediately before/after each boundary. Planned cut deviation tolerance is one frame unless the approved brief says otherwise.",
+      "critical_failure_conditions": [
+        "Wrong take, flash/black frame at a join, missing proof moment or material cut outside the approved interval."
+      ],
+      "anchors": {
+        "0": "Unusable or wrong sequence.",
+        "1": "Repeated mistimed cuts.",
+        "2": "Visible timing errors beyond agreed tolerance.",
+        "3": "Every cut verified within tolerance; no clipped proof or stray frames.",
+        "4": "Frame-accurate boundaries and purposeful pacing across every transition."
+      }
+    },
+    {
+      "id": "speech_broll_sync",
+      "weight": 25,
+      "minimum_score": 3,
+      "required_evidence": [
+        "render",
+        "timeline",
+        "audio"
+      ],
+      "description": "Compare timecoded narration to every B-roll interval; show the referenced feature during its spoken claim and preserve relevant action long enough to perceive.",
+      "critical_failure_conditions": [
+        "B-roll contradicts speech, wrong product or a misleading demonstration."
+      ],
+      "anchors": {
+        "0": "Misleading visual/audio pairing.",
+        "1": "Repeated irrelevant or late B-roll.",
+        "2": "Some weak alignment or rushed demonstrations.",
+        "3": "Every claim maps to timely correct visuals and comprehensible action.",
+        "4": "Visual emphasis lands on the exact spoken idea with clear demonstration and fluent continuity."
+      }
+    },
+    {
+      "id": "product_fidelity",
+      "weight": 20,
+      "minimum_score": 3,
+      "required_evidence": [
+        "render",
+        "product_truth"
+      ],
+      "description": "Inspect final frames against product references for geometry, hardware, material, logos, scale and interaction.",
+      "critical_failure_conditions": [
+        "Wrong product/variant, hallucinated feature or physically misleading demo."
+      ],
+      "anchors": {
+        "0": "Wrong identity or deceptive visual.",
+        "1": "Repeated visible distortions.",
+        "2": "Recognizable with distracting inconsistencies.",
+        "3": "Correct product throughout and credible handling.",
+        "4": "All angles and interactions preserve product detail, with no visible generation defects."
+      }
+    },
+    {
+      "id": "audio_integrity",
+      "weight": 15,
+      "minimum_score": 3,
+      "required_evidence": [
+        "render",
+        "audio"
+      ],
+      "description": "Listen to full render; inspect speech boundaries, intelligibility, lip sync if visible, mix and clipping. Ad creative must omit the current offer amount, including amounts written in words, discounts and price badges; internal source records may retain them.",
+      "critical_failure_conditions": [
+        "Missing or changed essential spoken claim/disclosure.",
+        "Ad narration, captions or visible graphics include the current offer amount, a spelled-out monetary amount, a discount, a crossed-out price or a price badge."
+      ],
+      "anchors": {
+        "0": "Missing or unusable speech.",
+        "1": "Clipped words, harsh mix or repeated sync errors.",
+        "2": "Intelligible but distracting transitions or levels.",
+        "3": "Clean full words, consistent sync and intelligible mix.",
+        "4": "Smooth acoustic continuity, expressive delivery and deliberate musical support."
+      }
+    },
+    {
+      "id": "captions_graphics",
+      "weight": 10,
+      "minimum_score": 3,
+      "required_evidence": [
+        "render",
+        "audio"
+      ],
+      "description": "Compare captions to actual speech and inspect timing, spelling, safe areas, contrast and product occlusion using delivery specs. Ad creative must omit the current offer amount, including amounts written in words, discounts and price badges; internal source records may retain them.",
+      "critical_failure_conditions": [
+        "Caption changes product claim, price, negation or essential qualification.",
+        "Ad narration, captions or visible graphics include the current offer amount, a spelled-out monetary amount, a discount, a crossed-out price or a price badge."
+      ],
+      "anchors": {
+        "0": "Incorrect meaning or unreadable text.",
+        "1": "Repeated transcription/placement errors.",
+        "2": "Minor mismatches or distracting overlap.",
+        "3": "Accurate readable captions and unobstructed key visuals.",
+        "4": "Precisely timed emphasis and clean hierarchy improve comprehension."
+      }
+    },
+    {
+      "id": "delivery_pacing",
+      "weight": 10,
+      "minimum_score": 3,
+      "required_evidence": [
+        "render",
+        "timeline"
+      ],
+      "description": "Watch the entire export and verify brief-specific duration, aspect, resolution, CTA hold, continuity and absence of dead frames.",
+      "critical_failure_conditions": [
+        "Export missing a required segment or ending before the CTA/qualification."
+      ],
+      "anchors": {
+        "0": "Incomplete or wrong export.",
+        "1": "Multiple pacing or delivery problems.",
+        "2": "Mostly workable with weak hold or distracting jump.",
+        "3": "Complete export meets brief and pacing supports understanding.",
+        "4": "First-to-last-frame polish with enough time to absorb proof and take action."
+      }
+    }
+  ]
+}

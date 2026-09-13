@@ -1,0 +1,622 @@
+## Validation Summary
+
+**Overall Status:** ❌ INVALID
+**Total Files:** 62
+
+## Detailed Results
+
+### File 1
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/cart-drawer.liquid passed all checks.
+
+### File 2
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** snippets/commerce-script.liquid:
+ERROR [line 7, col 13]: 'commerce.product.add_to_cart' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 8, col 18]: 'commerce.product.preorder' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 9, col 17]: 'commerce.product.sold_out' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 10, col 21]: 'commerce.product.unavailable' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 11, col 17]: 'commerce.product.contact_availability' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 12, col 16]: 'commerce.product.adding' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 13, col 15]: 'commerce.product.error' does not have a matching entry in 'locales/en.default.json'
+
+### File 3
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/theme-styles.liquid passed all checks.
+
+### File 4
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** snippets/product-gallery.liquid:
+ERROR [line 50, col 60]: 'commerce.gallery.enlarge' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 47, col 186]: 'commerce.gallery.zoom' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 18, col 92]: 'commerce.gallery.label' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 61, col 60]: 'commerce.gallery.previous' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 63, col 60]: 'commerce.gallery.next' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 66, col 94]: 'commerce.gallery.close' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 65, col 111]: 'commerce.gallery.label' does not have a matching entry in 'locales/en.default.json'
+
+### File 5
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/theme-script.liquid passed all checks.
+
+### File 6
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/commerce-styles.liquid passed all checks.
+
+### File 7
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** snippets/studio-image-url.liquid:
+ERROR [line 3, col 1]: The parameter 'image' is defined but not used in this file.; SUGGESTED FIXES: Remove unused parameter 'image'.
+ERROR [line 4, col 1]: The parameter 'product' is defined but not used in this file.; SUGGESTED FIXES: Remove unused parameter 'product'.
+
+### File 8
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** snippets/product-card.liquid:
+ERROR [line 25, col 82]: 'commerce.product.sold_out' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 30, col 39]: 'commerce.product.contact_availability' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 31, col 53]: 'commerce.product.from_price' does not have a matching entry in 'locales/en.default.json'
+
+### File 9
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-list-collections.liquid passed all checks.
+
+### File 10
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/announcement.liquid passed all checks.
+
+### File 11
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** sections/main-cart.liquid:
+ERROR [line 2, col 45]: 'commerce.cart.title' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 2, col 148]: 'commerce.cart.continue' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 3, col 68]: 'commerce.cart.empty' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 3, col 169]: 'commerce.cart.discover' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 18, col 85]: 'commerce.product.preorder_october' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 19, col 89]: 'commerce.product.preorder_early_october' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 20, col 151]: 'commerce.product.preorder_black_september' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 25, col 134]: 'commerce.cart.quantity_for' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 25, col 403]: 'commerce.cart.remove' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 30, col 91]: 'commerce.cart.update' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 33, col 104]: 'commerce.cart.note' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 35, col 47]: 'commerce.cart.subtotal' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 36, col 69]: 'commerce.product.tax_included' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 36, col 122]: 'commerce.cart.shipping_checkout' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 37, col 79]: 'commerce.cart.checkout' does not have a matching entry in 'locales/en.default.json'
+
+### File 12
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/editorial-text.liquid passed all checks.
+
+### File 13
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/featured-collection.liquid passed all checks.
+
+### File 14
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/contact-form.liquid passed all checks.
+
+### File 15
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** sections/main-search.liquid:
+ERROR [line 2, col 45]: 'commerce.search.title' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 2, col 239]: 'commerce.search.placeholder' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 2, col 394]: 'commerce.search.placeholder' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 2, col 539]: 'commerce.search.submit' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 4, col 40]: 'commerce.search.count' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 9, col 251]: 'commerce.search.article' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 9, col 296]: 'commerce.search.page' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 10, col 55]: 'commerce.search.empty' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 10, col 174]: 'commerce.product.collection' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 13, col 84]: 'commerce.collection.pagination' does not have a matching entry in 'locales/en.default.json'
+
+### File 16
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/header-group.json passed all checks.
+
+### File 17
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/header.liquid passed all checks.
+
+### File 18
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/image-with-text.liquid passed all checks.
+
+### File 19
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/footer-group.json passed all checks.
+
+### File 20
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-blog.liquid passed all checks.
+
+### File 21
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-page.liquid passed all checks.
+
+### File 22
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/custom-liquid.liquid passed all checks.
+
+### File 23
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/service-promises.liquid passed all checks.
+
+### File 24
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-article.liquid passed all checks.
+
+### File 25
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/footer.liquid passed all checks.
+
+### File 26
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/image-gallery.liquid passed all checks.
+
+### File 27
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-404.liquid passed all checks.
+
+### File 28
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** sections/main-product.liquid:
+ERROR [line 9, col 30]: 'commerce.facts.vivienne_material' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 10, col 28]: 'commerce.facts.vivienne_detail' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 11, col 27]: 'commerce.facts.vivienne_carry' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 13, col 30]: 'commerce.facts.delphine_material' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 14, col 28]: 'commerce.facts.delphine_detail' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 15, col 27]: 'commerce.facts.delphine_carry' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 17, col 30]: 'commerce.facts.juliette_material' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 18, col 28]: 'commerce.facts.juliette_detail' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 19, col 27]: 'commerce.facts.juliette_carry' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 21, col 30]: 'commerce.facts.colette_material' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 22, col 28]: 'commerce.facts.colette_detail' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 23, col 27]: 'commerce.facts.colette_carry' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 25, col 30]: 'commerce.facts.camille_material' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 26, col 28]: 'commerce.facts.camille_detail' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 27, col 27]: 'commerce.facts.camille_carry' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 29, col 30]: 'commerce.facts.meridian_material' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 30, col 28]: 'commerce.facts.meridian_detail' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 31, col 27]: 'commerce.facts.meridian_carry' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 58, col 142]: 'commerce.product.home' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 58, col 263]: 'commerce.product.collection' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 58, col 60]: 'commerce.product.breadcrumb' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 68, col 36]: 'commerce.product.preorder_october' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 69, col 42]: 'commerce.product.preorder_early_october' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 70, col 44]: 'commerce.product.preorder_black_september' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 73, col 111]: 'commerce.product.contact_availability' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 76, col 39]: 'commerce.facts.material' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 77, col 39]: 'commerce.facts.detail' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 78, col 39]: 'commerce.facts.carry' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 84, col 74]: 'commerce.product.variant' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 86, col 295]: 'commerce.product.sold_out' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 125, col 56]: 'commerce.product.purchase_option' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 127, col 77]: 'commerce.product.one_time' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 131, col 138]: 'commerce.product.quantity' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 134, col 71]: 'commerce.product.contact_availability' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 134, col 167]: 'commerce.product.sold_out' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 134, col 227]: 'commerce.product.preorder' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 134, col 274]: 'commerce.product.add_to_cart' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 136, col 218]: 'commerce.product.email_availability' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 140, col 68]: 'commerce.product.tax_included' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 140, col 205]: 'commerce.product.shipping_policy' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 154, col 119]: 'commerce.product.shipping' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 155, col 117]: 'commerce.product.returns' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 160, col 374]: 'commerce.product.preorder' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 160, col 421]: 'commerce.product.add_to_cart' does not have a matching entry in 'locales/en.default.json'
+
+### File 29
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/hero-film.liquid passed all checks.
+
+### File 30
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** sections/main-collection.liquid:
+ERROR [line 15, col 66]: 'commerce.collection.min_price' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 15, col 350]: 'commerce.collection.max_price' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 17, col 95]: 'commerce.collection.reset' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 17, col 173]: 'commerce.collection.apply' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 23, col 78]: 'commerce.collection.product_count' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 23, col 265]: 'commerce.collection.sort' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 23, col 675]: 'commerce.collection.apply' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 27, col 208]: 'commerce.collection.remove_filter' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 28, col 341]: 'commerce.collection.remove_filter' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 32, col 187]: 'commerce.collection.empty' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 32, col 290]: 'commerce.collection.clear_filters' does not have a matching entry in 'locales/en.default.json'
+ERROR [line 34, col 82]: 'commerce.collection.pagination' does not have a matching entry in 'locales/en.default.json'
+
+### File 31
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/product-recommendations.liquid passed all checks.
+
+### File 32
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/newsletter.liquid passed all checks.
+
+### File 33
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** locales/en.default.json passed all checks.
+
+### File 34
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** config/settings_schema.json passed all checks.
+
+### File 35
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** config/settings_data.json passed all checks.
+
+### File 36
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** layout/theme.liquid passed all checks.
+
+### File 37
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.vivienne.json passed all checks.
+
+### File 38
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.bag-organizer.json passed all checks.
+
+### File 39
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.colette.json passed all checks.
+
+### File 40
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.weekender.json passed all checks.
+
+### File 41
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/cart.json passed all checks.
+
+### File 42
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/search.json passed all checks.
+
+### File 43
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.boat-tote-keychain.json passed all checks.
+
+### File 44
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.boat-tote-2.json passed all checks.
+
+### File 45
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/page.contact.json passed all checks.
+
+### File 46
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.bag-scarf.json passed all checks.
+
+### File 47
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.cherry-charm.json passed all checks.
+
+### File 48
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.meridian-tote.json passed all checks.
+
+### File 49
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/collection.all.json passed all checks.
+
+### File 50
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/collection.luxe.json passed all checks.
+
+### File 51
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/404.json passed all checks.
+
+### File 52
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/article.json passed all checks.
+
+### File 53
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/collection.json passed all checks.
+
+### File 54
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.json passed all checks.
+
+### File 55
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.horse-charm.json passed all checks.
+
+### File 56
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.juliette.json passed all checks.
+
+### File 57
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/collection.bags.json passed all checks.
+
+### File 58
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/index.json passed all checks.
+
+### File 59
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/blog.json passed all checks.
+
+### File 60
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.delphine.json passed all checks.
+
+### File 61
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/list-collections.json passed all checks.
+
+### File 62
+**Artifact ID:** velantra-full-theme
+**Revision:** 2
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/page.json passed all checks.
+
+
+Loaded resource from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/manifest_theme.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/theme_settings.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/theme_block.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/translations.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/settings.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/app_block_entry.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/section.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/theme_block_entry.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/default_setting_values.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/setting.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/preset_blocks.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/targetted_block_entry.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/preset.json
+Loaded schema from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/local_block_entry.json
+Loaded resource from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/tags.json
+Loaded resource from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/filters.json
+Loaded resource from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/shopify_system_translations.json
+Loaded resource from /Users/brooksorradre2/Library/Caches/theme-liquid-docs-nodejs/objects.json

@@ -1,0 +1,73 @@
+{
+  "shot": "S15",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "Her hand gently lowers the capped blue pen onto the existing counter beside its box and withdraws; the cap remains on. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S15.png",
+  "reference_sha256": "90dc4a3e7ea70b444ed3d76946fec6273d70eb7f559ff2216bcf1878b3ab581a",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "5s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdVYk9nYXBUaEJ1ZUh6N0lQd191WjRBSRIXVWJPZ2FwVGhCdWVIejdJUHdfdVo0QUk",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S15.mp4",
+  "sha256": "97059c8fee6c3608425d6ce4ee7e885ca746ac5734da3f7b06451442bb7a1ba4",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 5.0,
+  "usage": {
+    "total_tokens": 60101,
+    "total_input_tokens": 1156,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 56
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58566,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 379,
+    "raw_prompt_token": 31616,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1849
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 652
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 379
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

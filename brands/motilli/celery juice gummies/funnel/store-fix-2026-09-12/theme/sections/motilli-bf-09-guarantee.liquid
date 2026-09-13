@@ -1,0 +1,43 @@
+{%- comment -%}cb-1780080545{%- endcomment -%}
+{% comment %} Motilli PDP — Below the Fold #9: Money Back Guarantee {% endcomment %}
+<section class="mtbf09">
+  <div class="mtbf09__inner">
+    <div class="mtbf09__shield" aria-hidden="true">
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+        <path d="M28 4 L48 12 V28 C48 40 38 48 28 52 C18 48 8 40 8 28 V12 Z" fill="#94c218"/>
+        <path d="M19 28 L26 35 L38 22" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </div>
+    <h2 class="mtbf09__h2">{{ section.settings.heading }}</h2>
+    <p class="mtbf09__p">{{ section.settings.body }}</p>
+    {% if section.settings.cta_text != blank %}
+      <a class="mtbf09__cta" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
+    {% endif %}
+  </div>
+</section>
+<style>
+.mtbf09 { padding: 40px 24px 48px; background: #ffffff; color: #1a2420; }
+.mtbf09__inner { max-width: 600px; margin: 0 auto; text-align: center; }
+.mtbf09__shield { margin-bottom: 14px; display: inline-flex; }
+.mtbf09__h2 { font: 800 38px/1.05 Inter, system-ui, sans-serif; margin: 0 0 14px; letter-spacing: -1px; }
+.mtbf09__p { font: 400 14px/1.6 Inter, system-ui, sans-serif; color: #555; margin: 0 auto 28px; max-width: 460px; }
+.mtbf09__cta { display: inline-block; background: #94c218; color: #fff; font: 700 13px/1 Inter, system-ui, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; padding: 18px 60px; border-radius: 999px; text-decoration: none; transition: background 0.15s; }
+.mtbf09__cta:hover { background: #7ba316; }
+@media (max-width: 600px) { .mtbf09__h2 { font-size: 30px; } }
+</style>
+{% schema %}
+{
+  "name": "Motilli BF-09 Guarantee",
+  "tag": "section",
+  "class": "motilli-bf-section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "90 Day Money Back." },
+    { "type": "textarea", "id": "body", "label": "Body", "default": "We're so confident Motilli will give you back a normal stomach that we cover every order with a 90-day money-back guarantee. If you don't get the results you came for, email us — full refund, no return needed." },
+    { "type": "text", "id": "cta_text", "label": "Button text", "default": "Shop Now" },
+    { "type": "url", "id": "cta_link", "label": "Button link" }
+  ],
+  "presets": [
+    { "name": "Motilli BF-09 Guarantee" }
+  ]
+}
+{% endschema %}

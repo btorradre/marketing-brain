@@ -1,0 +1,299 @@
+{
+  "source_timeline": "Weekender-Haaland-Gringo-Natural-AvatarV-v2",
+  "fps": 30,
+  "speed": 1.1,
+  "pitch_correction": true,
+  "source_frames": 1431,
+  "kept_frames": 1139,
+  "removed_frames": 292,
+  "removed_seconds": 9.733333333333333,
+  "estimated_output_frames": 1035,
+  "remove": [
+    {
+      "start": 0,
+      "end": 3,
+      "reason": "0.10s leading empty margin; first word onset0.14 retained"
+    },
+    {
+      "start": 68,
+      "end": 90,
+      "reason": {
+        "after": "Haaland.",
+        "before": "The",
+        "speech_end": 2.2,
+        "next_start": 3.079
+      }
+    },
+    {
+      "start": 147,
+      "end": 150,
+      "reason": {
+        "after": "Birkin,",
+        "before": "and",
+        "speech_end": 4.839,
+        "next_start": 5.079
+      }
+    },
+    {
+      "start": 210,
+      "end": 232,
+      "reason": {
+        "after": "notice.",
+        "before": "If",
+        "speech_end": 6.939,
+        "next_start": 7.819
+      }
+    },
+    {
+      "start": 299,
+      "end": 310,
+      "reason": {
+        "after": "presence,",
+        "before": "take",
+        "speech_end": 9.899,
+        "next_start": 10.42
+      }
+    },
+    {
+      "start": 372,
+      "end": 389,
+      "reason": {
+        "after": "Weekender.",
+        "before": "It's",
+        "speech_end": 12.319,
+        "next_start": 13.059
+      }
+    },
+    {
+      "start": 447,
+      "end": 457,
+      "reason": {
+        "after": "shape,",
+        "before": "rolled",
+        "speech_end": 14.839,
+        "next_start": 15.299
+      }
+    },
+    {
+      "start": 493,
+      "end": 501,
+      "reason": {
+        "after": "handles,",
+        "before": "and",
+        "speech_end": 16.359,
+        "next_start": 16.779
+      }
+    },
+    {
+      "start": 557,
+      "end": 579,
+      "reason": {
+        "after": "canvas.",
+        "before": "So",
+        "speech_end": 18.479,
+        "next_start": 19.379
+      }
+    },
+    {
+      "start": 683,
+      "end": 716,
+      "reason": {
+        "after": "look.",
+        "before": "The",
+        "speech_end": 22.68,
+        "next_start": 23.939
+      }
+    },
+    {
+      "start": 822,
+      "end": 825,
+      "reason": {
+        "after": "body",
+        "before": "with",
+        "speech_end": 27.319,
+        "next_start": 27.579
+      }
+    },
+    {
+      "start": 866,
+      "end": 892,
+      "reason": {
+        "after": "hardware.",
+        "before": "Easy",
+        "speech_end": 28.799,
+        "next_start": 29.819
+      }
+    },
+    {
+      "start": 942,
+      "end": 948,
+      "reason": {
+        "after": "jacket,",
+        "before": "denim,",
+        "speech_end": 31.319,
+        "next_start": 31.679
+      }
+    },
+    {
+      "start": 963,
+      "end": 968,
+      "reason": {
+        "after": "denim,",
+        "before": "or",
+        "speech_end": 32.04,
+        "next_start": 32.34
+      }
+    },
+    {
+      "start": 994,
+      "end": 1027,
+      "reason": {
+        "after": "coat.",
+        "before": "Inside,",
+        "speech_end": 33.259,
+        "next_start": 34.319
+      },
+      "waveform_refinement": "Actual source RMS is below\u221244dBFS from33.02s, despite ASR endingcoat33.259s. Preserve through33.133s; remove remaining quiet margin."
+    },
+    {
+      "start": 1171,
+      "end": 1198,
+      "reason": {
+        "after": "compartment.",
+        "before": "So",
+        "speech_end": 38.959,
+        "next_start": 40.0
+      }
+    },
+    {
+      "start": 1310,
+      "end": 1341,
+      "reason": {
+        "after": "too.",
+        "before": "The",
+        "speech_end": 43.579,
+        "next_start": 44.779
+      }
+    },
+    {
+      "start": 1383,
+      "end": 1393,
+      "reason": {
+        "after": "Weekender.",
+        "before": "Check",
+        "speech_end": 46.039,
+        "next_start": 46.5
+      }
+    }
+  ],
+  "keep": [
+    {
+      "source_start": 3,
+      "source_end": 68,
+      "record_start": 0,
+      "record_end": 65
+    },
+    {
+      "source_start": 90,
+      "source_end": 147,
+      "record_start": 65,
+      "record_end": 122
+    },
+    {
+      "source_start": 150,
+      "source_end": 210,
+      "record_start": 122,
+      "record_end": 182
+    },
+    {
+      "source_start": 232,
+      "source_end": 299,
+      "record_start": 182,
+      "record_end": 249
+    },
+    {
+      "source_start": 310,
+      "source_end": 372,
+      "record_start": 249,
+      "record_end": 311
+    },
+    {
+      "source_start": 389,
+      "source_end": 447,
+      "record_start": 311,
+      "record_end": 369
+    },
+    {
+      "source_start": 457,
+      "source_end": 493,
+      "record_start": 369,
+      "record_end": 405
+    },
+    {
+      "source_start": 501,
+      "source_end": 557,
+      "record_start": 405,
+      "record_end": 461
+    },
+    {
+      "source_start": 579,
+      "source_end": 683,
+      "record_start": 461,
+      "record_end": 565
+    },
+    {
+      "source_start": 716,
+      "source_end": 822,
+      "record_start": 565,
+      "record_end": 671
+    },
+    {
+      "source_start": 825,
+      "source_end": 866,
+      "record_start": 671,
+      "record_end": 712
+    },
+    {
+      "source_start": 892,
+      "source_end": 942,
+      "record_start": 712,
+      "record_end": 762
+    },
+    {
+      "source_start": 948,
+      "source_end": 963,
+      "record_start": 762,
+      "record_end": 777
+    },
+    {
+      "source_start": 968,
+      "source_end": 994,
+      "record_start": 777,
+      "record_end": 803
+    },
+    {
+      "source_start": 1027,
+      "source_end": 1171,
+      "record_start": 803,
+      "record_end": 947
+    },
+    {
+      "source_start": 1198,
+      "source_end": 1310,
+      "record_start": 947,
+      "record_end": 1059
+    },
+    {
+      "source_start": 1341,
+      "source_end": 1383,
+      "record_start": 1059,
+      "record_end": 1101
+    },
+    {
+      "source_start": 1393,
+      "source_end": 1431,
+      "record_start": 1101,
+      "record_end": 1139
+    }
+  ]
+}

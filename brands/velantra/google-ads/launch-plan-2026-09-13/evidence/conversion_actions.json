@@ -1,0 +1,135 @@
+{
+  "queried_at": "2026-09-13T18:56:51.819859+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT conversion_action.id, conversion_action.name, conversion_action.status, conversion_action.type, conversion_action.category, conversion_action.primary_for_goal, conversion_action.counting_type, conversion_action.value_settings.default_value, conversion_action.value_settings.always_use_default_value FROM conversion_action WHERE conversion_action.status != REMOVED",
+  "results": [
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7747612685",
+        "status": "ENABLED",
+        "type": "WEBPAGE_CODELESS",
+        "category": "PURCHASE",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7747612685",
+        "name": "Purchase",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7749282697",
+        "status": "ENABLED",
+        "type": "WEBPAGE",
+        "category": "PURCHASE",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7749282697",
+        "name": "Google Shopping App Purchase",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7749282700",
+        "status": "ENABLED",
+        "type": "WEBPAGE",
+        "category": "BEGIN_CHECKOUT",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7749282700",
+        "name": "Google Shopping App Begin Checkout",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7749322470",
+        "status": "ENABLED",
+        "type": "WEBPAGE",
+        "category": "ADD_TO_CART",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7749322470",
+        "name": "Google Shopping App Add To Cart",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7749322473",
+        "status": "ENABLED",
+        "type": "WEBPAGE",
+        "category": "PAGE_VIEW",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7749322473",
+        "name": "Google Shopping App Page View",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7749322476",
+        "status": "ENABLED",
+        "type": "WEBPAGE",
+        "category": "PAGE_VIEW",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7749322476",
+        "name": "Google Shopping App View Item",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7749322479",
+        "status": "ENABLED",
+        "type": "WEBPAGE",
+        "category": "PAGE_VIEW",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7749322479",
+        "name": "Google Shopping App Search",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/9348603597/conversionActions/7749322482",
+        "status": "ENABLED",
+        "type": "WEBPAGE",
+        "category": "DEFAULT",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7749322482",
+        "name": "Google Shopping App Add Payment Info",
+        "primaryForGoal": false
+      }
+    }
+  ]
+}

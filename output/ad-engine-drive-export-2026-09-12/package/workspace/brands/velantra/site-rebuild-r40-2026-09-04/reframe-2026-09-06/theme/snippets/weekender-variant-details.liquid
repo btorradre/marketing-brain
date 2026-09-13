@@ -1,0 +1,138 @@
+{% doc %}
+Renders color-specific Weekender craft or value details from existing variant photography.
+@param {product} product - Current Weekender listing.
+@param {section} section - Section settings and blocks.
+@param {string} kind - Either craft or value.
+{% enddoc %}
+{%- assign initial_color = product.selected_or_first_available_variant.option1 | downcase -%}
+<weekender-variant-details data-product-url="{{ product.url }}" data-initial-color="{{ initial_color | escape }}">
+  {%- for variant in product.variants -%}
+    {%- liquid
+      assign color = variant.option1 | downcase
+      assign source = variant.featured_image
+      assign body_heading = 'commerce.weekender.canvas_heading' | t
+      assign body_copy = 'commerce.weekender.canvas_copy' | t
+      assign surface = 'commerce.weekender.canvas_surface' | t
+      if color == 'black'
+        assign body_heading = 'commerce.weekender.leather_heading' | t
+        assign body_copy = 'commerce.weekender.leather_copy' | t
+        assign surface = 'commerce.weekender.leather_surface' | t
+      endif
+    -%}
+    <div data-weekender-color="{{ color | escape }}" {% unless color == initial_color %}hidden{% endunless %}>
+      {%- if kind == 'craft' -%}
+        <section class="craft-timeline" aria-labelledby="CraftTitle-{{ section.id }}-{{ forloop.index }}">
+          <div class="craft-intro">
+            {% if section.settings.eyebrow != blank %}<p class="eyebrow">{{ section.settings.eyebrow | escape }}</p>{% endif %}
+            <h2 id="CraftTitle-{{ section.id }}-{{ forloop.index }}">{{ section.settings.heading | escape }}</h2>
+            <div class="rte">{{ section.settings.text }}</div>
+          </div>
+          <div class="craft-strip" tabindex="0" role="region" aria-label="{{ 'general.craftsmanship_stages' | t }}">
+            <ol class="craft-grid" style="--craft-columns:4">
+              {%- for stage in (1..4) -%}
+                {%- liquid
+                  assign zoom = 4
+                  assign x = 20
+                  assign y = 79
+                  case stage
+                    when 1
+                      assign zoom = 5
+                      assign x = 70
+                      assign y = 68
+                      assign label = 'commerce.weekender.material_label' | t
+                      assign heading = body_heading
+                      assign copy = body_copy
+                    when 2
+                      assign label = 'commerce.weekender.stitching_label' | t
+                      assign heading = 'commerce.weekender.stitching_heading' | t
+                      assign copy = 'commerce.weekender.stitching_copy' | t
+                    when 3
+                      assign x = 80
+                      assign label = 'commerce.weekender.finishing_label' | t
+                      assign heading = 'commerce.weekender.finishing_heading' | t
+                      assign copy = 'commerce.weekender.finishing_copy' | t
+                    when 4
+                      assign zoom = 3.2
+                      assign x = 50
+                      assign y = 18
+                      assign label = 'commerce.weekender.details_label' | t
+                      assign heading = 'commerce.weekender.handles_heading' | t
+                      assign copy = 'commerce.weekender.handles_copy' | t
+                  endcase
+                  assign width = zoom | times: 100
+                  assign left = x | times: zoom | minus: 50 | times: -1
+                  assign top = y | times: zoom | minus: 50 | times: -1
+                  assign alt = 'commerce.weekender.detail_alt' | t: color: variant.option1, detail: heading
+                -%}
+                <li class="craft-card">
+                  <div class="craft-media weekender-detail-crop" style="--detail-width:{{ width }}%;--detail-left:{{ left }}%;--detail-top:{{ top }}%">
+                    {{ source | image_url: width: 2000 | image_tag: loading: 'lazy', alt: alt }}
+                  </div>
+                  <p class="craft-day">{{ label | escape }}</p>
+                  <h3>{{ heading | escape }}</h3>
+                  <div class="craft-copy"><p>{{ copy | escape }}</p></div>
+                </li>
+              {%- endfor -%}
+            </ol>
+          </div>
+        </section>
+      {%- else -%}
+        <section class="value-breakdown{% if section.settings.sticky_content %} value-breakdown--sticky{% endif %}" aria-label="{{ section.settings.table_caption | escape }}">
+          <div class="value-breakdown__split">
+            <div class="value-breakdown__media weekender-value-media">
+              <div class="weekender-detail-crop" style="--detail-width:250%;--detail-left:-100%;--detail-top:-120%">
+                {%- assign alt = 'commerce.weekender.detail_alt' | t: color: variant.option1, detail: body_heading -%}
+                {{ source | image_url: width: 2000 | image_tag: loading: 'lazy', alt: alt }}
+              </div>
+            </div>
+            <div class="value-breakdown__content">
+              <h2 class="value-breakdown__heading">{{ section.settings.heading | escape }}</h2>
+              <table class="value-breakdown__table">
+                <caption class="visually-hidden">{{ section.settings.table_caption | escape }}</caption>
+                <colgroup><col class="value-breakdown__detail-column"><col class="value-breakdown__product-column"><col class="value-breakdown__purpose-column"></colgroup>
+                <thead><tr><th scope="col">{{ section.settings.detail_heading | escape }}</th><th scope="col">{{ section.settings.product_heading | escape }}</th><th scope="col">{{ section.settings.purpose_heading | escape }}</th></tr></thead>
+                <tbody>
+                  {% for block in section.blocks %}
+                    <tr {{ block.shopify_attributes }}><th scope="row">{{ block.settings.detail | escape }}</th><td>{% if forloop.first %}{{ surface | escape }}{% else %}{{ block.settings.product_detail | escape }}{% endif %}</td><td>{{ block.settings.purpose | escape }}</td></tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+              {% if section.settings.copy != blank %}<div class="value-breakdown__note rte">{{ section.settings.copy }}</div>{% endif %}
+            </div>
+          </div>
+        </section>
+      {%- endif -%}
+    </div>
+  {%- endfor -%}
+</weekender-variant-details>
+{% stylesheet %}
+  weekender-variant-details{display:block}
+  weekender-variant-details [hidden]{display:none!important}
+  .weekender-detail-crop{position:relative;overflow:hidden;aspect-ratio:1;background:#fff}
+  .craft-media.weekender-detail-crop img,.weekender-value-media .weekender-detail-crop img{position:absolute;width:var(--detail-width);height:auto;max-width:none;left:var(--detail-left);top:var(--detail-top);object-fit:fill;filter:none;transition:none}
+  .value-breakdown__media.weekender-value-media{aspect-ratio:1;height:auto}
+  .weekender-value-media .weekender-detail-crop{width:100%;height:auto}
+{% endstylesheet %}
+{% javascript %}
+  if (!customElements.get('weekender-variant-details')) {
+    customElements.define('weekender-variant-details', class extends HTMLElement {
+      connectedCallback() {
+        this.events?.abort();
+        this.events = new AbortController();
+        document.addEventListener('variant:change', event => {
+          if (event.target.dataset.productUrl !== this.dataset.productUrl) return;
+          this.show(event.detail?.variant?.options?.[0]);
+        }, {signal:this.events.signal});
+        const main = [...document.querySelectorAll('[data-product-section]')].find(node => node.dataset.productUrl === this.dataset.productUrl);
+        this.show(main?.querySelector('[data-color-option] input:checked')?.value || this.dataset.initialColor);
+      }
+      show(color) {
+        const key = String(color || '').trim().toLowerCase();
+        const panels = [...this.querySelectorAll('[data-weekender-color]')];
+        if (!panels.some(panel => panel.dataset.weekenderColor === key)) return;
+        panels.forEach(panel => {panel.hidden = panel.dataset.weekenderColor !== key;});
+      }
+      disconnectedCallback() {this.events?.abort();}
+    });
+  }
+{% endjavascript %}

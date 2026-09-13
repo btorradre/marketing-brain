@@ -1,0 +1,110 @@
+{
+  "family": "delphine",
+  "color": "Light Chocolate",
+  "status": "approved",
+  "video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/delphine/exports/v2/delphine-detail-stage-2.mp4",
+  "poster": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/delphine/qa/v2-final/detail-poster.jpg",
+  "poster_sha256": "b5875ae661ea570d5eceb0e2027cb438f103d5338e89915e2575ed7501c427bc",
+  "video_sha256": "4fc6e61fdab0ae926bd22fa882a84a82c2939c649b14509c87d39d59f8819e15",
+  "bytes": 22028850,
+  "video_duration_seconds": 18.0,
+  "container_duration_seconds": 18.005,
+  "frames": 432,
+  "fps": "24/1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "provider": "Google Gemini Interactions API",
+  "model": "gemini-omni-1.1-flash",
+  "provider_delivery": "inline base64; decoded unchanged, no persistent provider URL",
+  "native_extension": "9-second first interaction + native9-second extension; cumulative18-second provider output",
+  "post_processing": "None to MP4. Read-only ffprobe/ffmpeg QA and first-frame JPEG extraction; no local assembly, trim or re-encoding.",
+  "sources": [
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/delphine/references/studio-first-frame.png",
+      "sha256": "45f0330abf984be309558bc87c3f7177d76885b9ba504294d97aac3b1b3b71fe"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/approved/LC-master.png",
+      "sha256": "076800e1a99dcb062d8338321ce6b5bb9d2d07ce9c38b162c8ee991452526c75"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/pdp-handbags-followup-2026-09-05/final/delphine-craft-material.png",
+      "sha256": "511c0f98f226aa1b2a314b19f82cd93b6bf3842fe7a7f61bfe8fa551056a154e"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/pdp-handbags-followup-2026-09-05/final/delphine-craft-finishing.png",
+      "sha256": "ae3460a41ec6f64228529ff153e9b83d41c39b72bff5d18b562d6b5fadbfee9b"
+    }
+  ],
+  "production_receipt": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/delphine/exports/v2/stage-2-receipt.json",
+  "qa": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/delphine/qa/v2-final/visual-review.json",
+  "inspection": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/delphine/qa/v2-final/inspection.json",
+  "shots": [
+    {
+      "start": 0,
+      "end": 2,
+      "description": "Complete corrected Light Chocolate front"
+    },
+    {
+      "start": 2,
+      "end": 3.625,
+      "description": "Cream diagonal twill macro"
+    },
+    {
+      "start": 3.625,
+      "end": 5.375,
+      "description": "Two rolled handle crowns"
+    },
+    {
+      "start": 5.375,
+      "end": 7.166667,
+      "description": "Lower corner cap and gold foot"
+    },
+    {
+      "start": 7.166667,
+      "end": 9.125,
+      "description": "Rolled handle shaft"
+    },
+    {
+      "start": 9.125,
+      "end": 10.875,
+      "description": "Rolled handle crown detail"
+    },
+    {
+      "start": 10.875,
+      "end": 12.708333,
+      "description": "Complete front portrait"
+    },
+    {
+      "start": 12.708333,
+      "end": 14.541667,
+      "description": "Lower corner and diagonal slotted end"
+    },
+    {
+      "start": 14.541667,
+      "end": 16.291667,
+      "description": "Cream diagonal twill material"
+    },
+    {
+      "start": 16.291667,
+      "end": 18,
+      "description": "Final complete front"
+    }
+  ],
+  "shot_boundary_method": "Frame-sampled hard-cut review with scene-detector candidates;10 shots/9 cuts. Adjacent-frame scene responses grouped as one cut.",
+  "display": {
+    "desktop_ratio": "1434/750",
+    "mobile_ratio": "390/420",
+    "object_fit": "cover",
+    "object_position": "50% 65%",
+    "muted": true
+  },
+  "delivery_notes": [
+    "One native provider transition artifact at frame128,5.333333s, lasts41.667ms immediately before the5.375s cut. Exact-frame sequential decoding confirms adjacent frames clean. Root reviewed and accepted as minor transient, not persistent construction change.",
+    "No local correction, trimming or editing performed."
+  ],
+  "physical_scale": "unverified; no physical measurement inferred from generated studio photograph",
+  "store_writes_performed": false
+}

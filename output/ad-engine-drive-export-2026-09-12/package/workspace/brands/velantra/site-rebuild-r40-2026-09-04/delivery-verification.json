@@ -1,0 +1,1077 @@
+{
+  "status": "delivered_with_documented_data_gaps",
+  "deployment": {
+    "theme_id": "gid://shopify/OnlineStoreTheme/151364960321",
+    "numeric_id": 151364960321,
+    "name": "Velantra \u2014 R40 / Vivienne Craftsmanship",
+    "role": "UNPUBLISHED",
+    "preview_url": "https://velantrafashion.com/?preview_theme_id=151364960321",
+    "editor_url": "https://admin.shopify.com/store/uzdgxy-sb/themes/151364960321/editor",
+    "source_theme_id": 151337074753,
+    "source_theme_published_by_merchant_during_task": true,
+    "automatic_review_blocked_live_theme_writes": true
+  },
+  "verified_theme_roles": {
+    "draft": {
+      "id": "gid://shopify/OnlineStoreTheme/151364960321",
+      "name": "Velantra \u2014 R40 / Vivienne Craftsmanship",
+      "role": "UNPUBLISHED"
+    },
+    "live": {
+      "id": "gid://shopify/OnlineStoreTheme/151337074753",
+      "name": "Velantra \u2014 Quiet Luxury / R40",
+      "role": "MAIN"
+    }
+  },
+  "catalog": {
+    "products": 13,
+    "variants": 68,
+    "source_gallery_positions": 185,
+    "generated_reviewed_uploaded_images": 152
+  },
+  "theme_validation": {
+    "passed": true,
+    "liquid_and_json_files": 75,
+    "report": "research/validation-craftsmanship-final.txt",
+    "artifact_id": "velantra-craftsmanship-final-theme",
+    "revision": 1
+  },
+  "native_and_delivery_checks": {
+    "home-preview-qa.json": {
+      "passed": true
+    },
+    "commerce-preview-qa.json": {
+      "passed": true
+    },
+    "commerce-final-catalog-smoke.json": {
+      "passed": true
+    },
+    "commerce-card-visual-qa.json": {
+      "passed": true
+    },
+    "commerce-drawer-studio-qa.json": {
+      "passed": true
+    },
+    "final-home-media-qa.json": {
+      "passed": true
+    },
+    "cdn-content-verification.json": {
+      "passed": true
+    },
+    "remote-code-comparison.json": {
+      "passed": true
+    },
+    "direct-omni-storefront-qa.json": {
+      "passed": true
+    }
+  },
+  "packages": {
+    "velantra-quiet-luxury-theme.zip": {
+      "bytes": 38686317,
+      "sha256": "2f0b2e1bd668501a71fb4063ef02afe203fac92926c52abacac5a71a77e22a1d"
+    },
+    "velantra-white-studio-images.zip": {
+      "bytes": 19304205,
+      "sha256": "f3f097c26e9100738dd4ca06ea75edb5a52be01aa2988cf0984017728133737d"
+    }
+  },
+  "limitations": [
+    "Existing accessory and Black Eleanor source inconsistencies were preserved and documented in CATALOG-QA.md.",
+    "Product images and films are checked against supplied references; physical dimensions are not independently measured or certified.",
+    "Client Perspectives supports review app blocks; a real review source has not yet been supplied."
+  ],
+  "published": false,
+  "orders_placed": 0,
+  "catalog_updates": {
+    "weekender_colors": {
+      "Light Chocolate": "Cognac",
+      "Dark Chocolate": "Espresso",
+      "Army Green": "Army Green",
+      "Black": "Black"
+    },
+    "handles": [
+      "velantra-weekender",
+      "the-eleanor-weekender"
+    ],
+    "variant_ids_and_prices_preserved": true,
+    "media_ids_preserved": true,
+    "media_alt_labels_updated": 32,
+    "dedicated_weekender_color_metaobjects": true,
+    "updated_at_utc": "2026-09-04T23:59:44.788606+00:00",
+    "storefront_checks": {
+      "passed": true,
+      "reports": [
+        "research/weekender-color-preview-qa.json",
+        "research/weekender-color-live-qa.json"
+      ],
+      "live_theme_note": "Two generic Failed to fetch errors were observed; all eight live color selections and variant updates passed."
+    }
+  },
+  "media_workflow_correction": {
+    "updated_at_utc": "2026-09-05T00:19:33.692144+00:00",
+    "video_generation": "Google Omni",
+    "image_production": "GPT Image 2",
+    "editing": "User internal video editor only when needed",
+    "hyperframes_banned": true,
+    "active_hyperframes_runtime_removed": true,
+    "hero_duration_seconds": 3,
+    "desktop_and_mobile_outputs_direct": true,
+    "video_edits_performed": false,
+    "cdn_matches_provider_bytes": true,
+    "manifest": "video/manifest.json",
+    "storefront_qa": "research/direct-omni-storefront-qa.json"
+  },
+  "product_fidelity_followup": {
+    "product_skill_count": 16,
+    "physical_scale_verification_complete": false,
+    "evidence_register": "../product-skills/measurement-register.json",
+    "note": "Theme implementation checks remain historical verification of storefront behavior. Product-reference accuracy and metric scale need the separate product-skill audit; prior source-relative image approval does not establish physical measurements."
+  },
+  "storefront_fixes_2026_09_05": {
+    "completed_at_utc": "2026-09-05T16:16:39.431445+00:00",
+    "status": "complete",
+    "published": false,
+    "changed_theme_files": 15,
+    "remote_files_match_local": true,
+    "featured_models": [
+      "Vivienne Chocolate",
+      "Weekender Black",
+      "Meridian Brown"
+    ],
+    "repeated_wide_image_hidden": true,
+    "compare_at_prices": "Native variant values enabled across PDPs, product cards, mobile purchase bar and model collection; 13 products and 68 variants checked",
+    "all_bags_destination": "/collections/handbags",
+    "pdp_media": "Horizontal desktop/mobile gallery with arrows, keyboard, touch swipe, counts and zoom",
+    "checkout": "Native Shopify checkout; ordered cart requests prevent late OneText initialization from replacing a populated cart; editor checkout opens outside iframe",
+    "orders_placed": 0,
+    "validation": "All changed Liquid and JSON files passed Shopify validation",
+    "reports": [
+      "research/checkout-fix-qa.json",
+      "research/compare-at-preview-qa.json",
+      "research/featured-models-qa.json",
+      "research/pdp-horizontal-gallery-native/report.json",
+      "research/handbags-navigation-qa.json",
+      "research/theme-fixes-readback-2026-09-05.json",
+      "research/cart-queue-contract-qa.json"
+    ]
+  },
+  "navigation_followup_2026_09_05": {
+    "completed_at_utc": "2026-09-05T16:30:47.653217+00:00",
+    "status": "complete",
+    "published": false,
+    "menu": {
+      "id": "gid://shopify/Menu/242506039361",
+      "handle": "velantra-quiet-luxury-navigation",
+      "title": "Velantra \u2014 Quiet Luxury navigation",
+      "items": [
+        {
+          "title": "All bags",
+          "type": "COLLECTION",
+          "url": "/collections/handbags"
+        },
+        {
+          "title": "Accessories",
+          "type": "COLLECTION",
+          "url": "/collections/accessories"
+        },
+        {
+          "title": "Track your order",
+          "type": "HTTP",
+          "url": "https://velantrafashion.com/apps/parcel"
+        },
+        {
+          "title": "Contact",
+          "type": "PAGE",
+          "url": "/pages/contact"
+        }
+      ]
+    },
+    "desktop_and_mobile_destinations_verified": true,
+    "bag_specific_navigation_removed": true,
+    "accessories_collection_reused": true,
+    "changed_theme_files": 4,
+    "remote_files_match_local": true,
+    "reports": [
+      "research/navigation-four-links-readback.json",
+      "research/navigation-four-links-qa.json",
+      "research/navigation-destination-qa.json"
+    ]
+  },
+  "updated_at_utc": "2026-09-05T23:46:26.180093+00:00",
+  "craftsmanship_followup": {
+    "homepage": "complete_and_verified",
+    "handbag_pdp_templates": "complete_and_verified_on_eight_active_listings",
+    "reviews": "Native app-block section complete; empty until a real review feed is connected; no invented testimonials or ratings.",
+    "home_qa": {
+      "passed": true,
+      "viewports": [
+        {
+          "width": 1440,
+          "single_collection": true,
+          "film": {
+            "duration": 21.674667,
+            "width": 1920,
+            "height": 1080,
+            "src": "https://velantrafashion.com/cdn/shop/videos/c/vp/1ad14d0997474e428fa2c952b9d97554/1ad14d0997474e428fa2c952b9d97554.HD-1080p-7.2Mbps-93603160.mp4?v=0",
+            "muted": true,
+            "loop": true
+          },
+          "controls": true,
+          "timeline_after_film": true,
+          "timeline_scroll": {
+            "width": 1440,
+            "scrollWidth": 1440
+          },
+          "page_errors": [],
+          "no_overflow": true,
+          "section_order": [
+            "shopify-section-template--21317517738049__hero",
+            "shopify-section-template--21317517738049__philosophy",
+            "shopify-section-template--21317517738049__atelier",
+            "shopify-section-template--21317517738049__triptych",
+            "shopify-section-template--21317517738049__macro",
+            "shopify-section-template--21317517738049__craftsmanship",
+            "shopify-section-template--21317517738049__detail",
+            "shopify-section-template--21317517738049__closing"
+          ]
+        },
+        {
+          "width": 390,
+          "single_collection": true,
+          "film": {
+            "duration": 21.674667,
+            "width": 1920,
+            "height": 1080,
+            "src": "https://velantrafashion.com/cdn/shop/videos/c/vp/1ad14d0997474e428fa2c952b9d97554/1ad14d0997474e428fa2c952b9d97554.HD-1080p-7.2Mbps-93603160.mp4?v=0",
+            "muted": true,
+            "loop": true
+          },
+          "controls": true,
+          "timeline_after_film": true,
+          "timeline_scroll": {
+            "width": 390,
+            "scrollWidth": 1220
+          },
+          "page_errors": [],
+          "no_overflow": true,
+          "section_order": [
+            "shopify-section-template--21317517738049__hero",
+            "shopify-section-template--21317517738049__philosophy",
+            "shopify-section-template--21317517738049__atelier",
+            "shopify-section-template--21317517738049__triptych",
+            "shopify-section-template--21317517738049__macro",
+            "shopify-section-template--21317517738049__craftsmanship",
+            "shopify-section-template--21317517738049__detail",
+            "shopify-section-template--21317517738049__closing"
+          ]
+        }
+      ],
+      "reduced_motion": {
+        "autoplay_disabled": true,
+        "manual_play_works": true
+      }
+    },
+    "upcart_qa": [
+      {
+        "width": 1440,
+        "header_opens_upcart": true,
+        "single_add": true,
+        "quantity_increase_decrease": true,
+        "upsell_add_remove": true,
+        "badge_sync": true,
+        "one_drawer": true,
+        "shopify_checkout": true,
+        "checkout_path": "https://velantrafashion.com/checkouts/cn/hWNGUqdCucCjAZwd2ONEQs8A/en-us",
+        "errors": [],
+        "no_order_placed": true
+      },
+      {
+        "width": 390,
+        "header_opens_upcart": true,
+        "single_add": true,
+        "quantity_increase_decrease": true,
+        "upsell_add_remove": true,
+        "badge_sync": true,
+        "one_drawer": true,
+        "shopify_checkout": true,
+        "checkout_path": "https://velantrafashion.com/checkouts/cn/hWNGUqu1SFy9Hm4GxcrtY350/en-us",
+        "errors": [],
+        "no_order_placed": true
+      }
+    ],
+    "upcart_fallback": {
+      "upcart_script_blocked": true,
+      "theme_fallback_drawer": true,
+      "one_item_added": true,
+      "shopify_checkout": true,
+      "no_order_placed": true
+    },
+    "shipping_note": "Free shipping over $75 \u2014 plain text, no link",
+    "package_refresh": "complete",
+    "craft_images": {
+      "accepted": 28,
+      "families": 7,
+      "shopify_hosted": true,
+      "active_templates_enabled": true
+    },
+    "upcart_editor_checkout": {
+      "design_mode_simulated": true,
+      "actual_authenticated_editor_not_accessible": true,
+      "opens_separate_tab": true,
+      "preview_retained": true,
+      "correct_bag_in_shopify_checkout": true,
+      "no_order_placed": true
+    },
+    "upcart_studio_images": {
+      "passed": true,
+      "all_rendered_product_images_are_studio": true,
+      "rendered_image_count": 11,
+      "upsell_variant_selection": "42697227042881",
+      "variant_specific_image": "//velantrafashion.com/cdn/shop/t/20/assets/r40-36096087425089-white-studio.webp?v=110448741230577695151788645100&height=180",
+      "upsell_add": true,
+      "quantity_update": true,
+      "header_count": 3,
+      "native_cart_unchanged": true
+    },
+    "home_cover_qa": {
+      "passed": true,
+      "rows": [
+        {
+          "width": 1440,
+          "poster": "https://velantrafashion.com/cdn/shop/files/vivienne-detail-film-poster.jpg?v=1788648190&width=2000",
+          "position": "50% 65%",
+          "paused": true
+        },
+        {
+          "width": 390,
+          "poster": "https://velantrafashion.com/cdn/shop/files/vivienne-detail-film-poster.jpg?v=1788648190&width=2000",
+          "position": "50% 65%",
+          "paused": true
+        }
+      ]
+    },
+    "delphine_value_hero_qa": "research/pdp-value-hero-qa-delphine.json",
+    "weekender_value_hero_qa": "research/pdp-value-hero-qa-weekender.json",
+    "weekender_outline_review": "media/pdp-handbags-followup-2026-09-05/value-heroes/weekender-outline-review.json",
+    "film_mobile_settings_qa": "research/pdp-film-mobile-setting-alias-qa.json",
+    "four_additional_films_qa": "research/pdp-film-native-qa-weekender-meridian-camille-delphine.json",
+    "value_hero_uploads": "research/value-hero-shopify-uploads.json",
+    "colette_film_qa": "research/pdp-film-native-qa-colette.json",
+    "handbag_films": {
+      "status": "deployed_and_verified",
+      "families": 7,
+      "active_listings": 8,
+      "vivienne_seconds": 21.666667,
+      "weekender_meridian_camille_colette_delphine_seconds": 18,
+      "juliette_seconds": 9,
+      "all_native_provider_bytes_verified_on_cdn": true,
+      "manifest": "video/shopify-detail-films.json",
+      "native_qa": "research/final-handbag-film-native-qa.json",
+      "vivienne_qa": "research/home-detail-followup-qa.json"
+    },
+    "package_integrity": "research/package-integrity-craftsmanship.json",
+    "final_code_readback": "research/final-craftsmanship-code-readback.json",
+    "juliette_film_qa": "research/pdp-film-native-qa-juliette.json",
+    "pdp_editorial_qa_before_final_films": {
+      "theme_id": 151364960321,
+      "rows": [
+        {
+          "handle": "velantra-vivienne",
+          "width": 1440,
+          "title": "VIVIENNE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-leather.jpg?v=154816416471721169071788645175",
+              "alt": "Close-up of the Vivienne\u2019s Chocolate leather grain and contrasting corner trim.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-stitching.jpg?v=155161998954447705681788645176",
+              "alt": "Close-up of the Vivienne\u2019s braided upper edge and tonal stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-finishing.jpg?v=85114599303228943401788645176",
+              "alt": "Detail of the Vivienne\u2019s finished handle attachment, tonal stitching and gold rivets.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-inspection.jpg?v=119654462573774518741788645177",
+              "alt": "Close-up of the Vivienne\u2019s horizontal gold center fitting and contrasting leather straps.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 1,
+          "selected_price": 14999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518229569__main",
+            "shopify-section-template--21317518229569__detailfilm",
+            "shopify-section-template--21317518229569__craftsmanship",
+            "shopify-section-template--21317518229569__value",
+            "shopify-section-template--21317518229569__recommendations",
+            "shopify-section-template--21317518229569__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-weekender",
+          "width": 1440,
+          "title": "ELEANOR",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-material.jpg?v=38519802856526466351788649235",
+              "alt": "Close-up of the Eleanor Weekender\u2019s Army Green canvas weave.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-stitching.jpg?v=18142081209739313631788649236",
+              "alt": "Detail of the Eleanor Weekender\u2019s contoured leather flap and tonal edge stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-finishing.jpg?v=25081674922229835641788649236",
+              "alt": "Close-up of the Eleanor Weekender\u2019s leather corner reinforcement and Army Green canvas.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-hardware.jpg?v=1855974015964807161788649237",
+              "alt": "Close-up of the Eleanor Weekender\u2019s horizontal oval gold fitting on its leather flap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 15999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518262337__main",
+            "shopify-section-template--21317518262337__craftsmanship",
+            "shopify-section-template--21317518262337__value",
+            "shopify-section-template--21317518262337__recommendations",
+            "shopify-section-template--21317518262337__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "the-eleanor-weekender",
+          "width": 1440,
+          "title": "ELEANOR",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-material.jpg?v=38519802856526466351788649235",
+              "alt": "Close-up of the Eleanor Weekender\u2019s Army Green canvas weave.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-stitching.jpg?v=18142081209739313631788649236",
+              "alt": "Detail of the Eleanor Weekender\u2019s contoured leather flap and tonal edge stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-finishing.jpg?v=25081674922229835641788649236",
+              "alt": "Close-up of the Eleanor Weekender\u2019s leather corner reinforcement and Army Green canvas.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-hardware.jpg?v=1855974015964807161788649237",
+              "alt": "Close-up of the Eleanor Weekender\u2019s horizontal oval gold fitting on its leather flap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 15999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518262337__main",
+            "shopify-section-template--21317518262337__craftsmanship",
+            "shopify-section-template--21317518262337__value",
+            "shopify-section-template--21317518262337__recommendations",
+            "shopify-section-template--21317518262337__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "width": 1440,
+          "title": "MERIDIAN",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-material.jpg?v=181490432769407383811788649221",
+              "alt": "Close-up of the Meridian Brown leather grain and natural front-body fold.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-stitching.jpg?v=83595479748915904441788649222",
+              "alt": "Detail of the Meridian\u2019s stitched front edge in Brown.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-finishing.jpg?v=115102488654108473471788649223",
+              "alt": "Close-up of the Meridian\u2019s curved side gusset and finished leather edge.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-hardware.jpg?v=34624714714183422091788649223",
+              "alt": "Detail of the Meridian\u2019s silver center fitting and slotted belt ends.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 12499,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518196801__main",
+            "shopify-section-template--21317518196801__craftsmanship",
+            "shopify-section-template--21317518196801__value",
+            "shopify-section-template--21317518196801__recommendations",
+            "shopify-section-template--21317518196801__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "width": 1440,
+          "title": "CAMILLE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-material.jpg?v=178756350258247210551788649224",
+              "alt": "Close-up of the Camille Navy tote\u2019s cream canvas weave.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-stitching.jpg?v=123912800741515704551788649225",
+              "alt": "Close-up of the Camille\u2019s Navy front strip and contrasting edge stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-finishing.jpg?v=80650053466335555511788649226",
+              "alt": "Detail of the Camille\u2019s soft lower-corner pleat and Navy base trim.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-hardware.jpg?v=141867221606731142691788649226",
+              "alt": "Close-up of the Camille\u2019s gold center fitting on its Navy front belt.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 7999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317517934657__main",
+            "shopify-section-template--21317517934657__craftsmanship",
+            "shopify-section-template--21317517934657__value",
+            "shopify-section-template--21317517934657__recommendations",
+            "shopify-section-template--21317517934657__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "width": 1440,
+          "title": "COLETTE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-material.jpg?v=104095031720295431821788649227",
+              "alt": "Close-up of the Colette\u2019s pale felt-like surface and short matte fibers.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-stitching.jpg?v=24568731266259869161788649228",
+              "alt": "Detail of the Colette\u2019s stitched Caramel belt passing through a felt keeper.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-finishing.jpg?v=1210913671715909221788649228",
+              "alt": "Close-up of the Colette\u2019s felt side gusset and curved lower edge.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-hardware.jpg?v=42637663402028658361788649229",
+              "alt": "Detail of the Colette\u2019s curved Caramel belt end and round gold-tone cap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 11999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518032961__main",
+            "shopify-section-template--21317518032961__craftsmanship",
+            "shopify-section-template--21317518032961__value",
+            "shopify-section-template--21317518032961__recommendations",
+            "shopify-section-template--21317518032961__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-delphine",
+          "width": 1440,
+          "title": "DELPHINE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-material.jpg?v=121131724497200198651788649230",
+              "alt": "Close-up of the Delphine Light Chocolate bag\u2019s diagonal canvas twill.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-stitching.jpg?v=167630672921691618431788649230",
+              "alt": "Detail of the Delphine\u2019s curved leather flap edge and tonal stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-finishing.jpg?v=175088523048677973681788649231",
+              "alt": "Close-up of the Delphine\u2019s leather corner reinforcement and curved seam.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-hardware.jpg?v=84782685175046039661788649232",
+              "alt": "Detail of the Delphine\u2019s slotted gold belt end against cream canvas.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 12499,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518065729__main",
+            "shopify-section-template--21317518065729__craftsmanship",
+            "shopify-section-template--21317518065729__value",
+            "shopify-section-template--21317518065729__recommendations",
+            "shopify-section-template--21317518065729__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-juliette",
+          "width": 1440,
+          "title": "JULIETTE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-material.jpg?v=114257742812458096801788649232",
+              "alt": "Close-up of the Juliette Camel suede nap and soft natural folds.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-stitching.jpg?v=55442439131921541461788649233",
+              "alt": "Detail of the Juliette\u2019s dark leather collar seam against Camel suede.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-finishing.jpg?v=163696946388980116011788649234",
+              "alt": "Close-up of the Juliette\u2019s leather corner cap, curved seam and brass stud.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-hardware.jpg?v=69201722770850051911788649234",
+              "alt": "Detail of the Juliette\u2019s antique-brass bar and dark leather front strap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 14999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518164033__main",
+            "shopify-section-template--21317518164033__craftsmanship",
+            "shopify-section-template--21317518164033__value",
+            "shopify-section-template--21317518164033__recommendations",
+            "shopify-section-template--21317518164033__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-vivienne",
+          "width": 390,
+          "title": "VIVIENNE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-leather.jpg?v=154816416471721169071788645175",
+              "alt": "Close-up of the Vivienne\u2019s Chocolate leather grain and contrasting corner trim.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-stitching.jpg?v=155161998954447705681788645176",
+              "alt": "Close-up of the Vivienne\u2019s braided upper edge and tonal stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-finishing.jpg?v=85114599303228943401788645176",
+              "alt": "Detail of the Vivienne\u2019s finished handle attachment, tonal stitching and gold rivets.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/vivienne-craft-inspection.jpg?v=119654462573774518741788645177",
+              "alt": "Close-up of the Vivienne\u2019s horizontal gold center fitting and contrasting leather straps.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 1,
+          "selected_price": 14999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518229569__main",
+            "shopify-section-template--21317518229569__detailfilm",
+            "shopify-section-template--21317518229569__craftsmanship",
+            "shopify-section-template--21317518229569__value",
+            "shopify-section-template--21317518229569__recommendations",
+            "shopify-section-template--21317518229569__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-weekender",
+          "width": 390,
+          "title": "ELEANOR",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-material.jpg?v=38519802856526466351788649235",
+              "alt": "Close-up of the Eleanor Weekender\u2019s Army Green canvas weave.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-stitching.jpg?v=18142081209739313631788649236",
+              "alt": "Detail of the Eleanor Weekender\u2019s contoured leather flap and tonal edge stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-finishing.jpg?v=25081674922229835641788649236",
+              "alt": "Close-up of the Eleanor Weekender\u2019s leather corner reinforcement and Army Green canvas.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-hardware.jpg?v=1855974015964807161788649237",
+              "alt": "Close-up of the Eleanor Weekender\u2019s horizontal oval gold fitting on its leather flap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 15999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518262337__main",
+            "shopify-section-template--21317518262337__craftsmanship",
+            "shopify-section-template--21317518262337__value",
+            "shopify-section-template--21317518262337__recommendations",
+            "shopify-section-template--21317518262337__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "the-eleanor-weekender",
+          "width": 390,
+          "title": "ELEANOR",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-material.jpg?v=38519802856526466351788649235",
+              "alt": "Close-up of the Eleanor Weekender\u2019s Army Green canvas weave.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-stitching.jpg?v=18142081209739313631788649236",
+              "alt": "Detail of the Eleanor Weekender\u2019s contoured leather flap and tonal edge stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-finishing.jpg?v=25081674922229835641788649236",
+              "alt": "Close-up of the Eleanor Weekender\u2019s leather corner reinforcement and Army Green canvas.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/weekender-craft-hardware.jpg?v=1855974015964807161788649237",
+              "alt": "Close-up of the Eleanor Weekender\u2019s horizontal oval gold fitting on its leather flap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 15999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518262337__main",
+            "shopify-section-template--21317518262337__craftsmanship",
+            "shopify-section-template--21317518262337__value",
+            "shopify-section-template--21317518262337__recommendations",
+            "shopify-section-template--21317518262337__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "width": 390,
+          "title": "MERIDIAN",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-material.jpg?v=181490432769407383811788649221",
+              "alt": "Close-up of the Meridian Brown leather grain and natural front-body fold.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-stitching.jpg?v=83595479748915904441788649222",
+              "alt": "Detail of the Meridian\u2019s stitched front edge in Brown.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-finishing.jpg?v=115102488654108473471788649223",
+              "alt": "Close-up of the Meridian\u2019s curved side gusset and finished leather edge.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/meridian-craft-hardware.jpg?v=34624714714183422091788649223",
+              "alt": "Detail of the Meridian\u2019s silver center fitting and slotted belt ends.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 12499,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518196801__main",
+            "shopify-section-template--21317518196801__craftsmanship",
+            "shopify-section-template--21317518196801__value",
+            "shopify-section-template--21317518196801__recommendations",
+            "shopify-section-template--21317518196801__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "width": 390,
+          "title": "CAMILLE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-material.jpg?v=178756350258247210551788649224",
+              "alt": "Close-up of the Camille Navy tote\u2019s cream canvas weave.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-stitching.jpg?v=123912800741515704551788649225",
+              "alt": "Close-up of the Camille\u2019s Navy front strip and contrasting edge stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-finishing.jpg?v=80650053466335555511788649226",
+              "alt": "Detail of the Camille\u2019s soft lower-corner pleat and Navy base trim.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/camille-craft-hardware.jpg?v=141867221606731142691788649226",
+              "alt": "Close-up of the Camille\u2019s gold center fitting on its Navy front belt.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 7999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317517934657__main",
+            "shopify-section-template--21317517934657__craftsmanship",
+            "shopify-section-template--21317517934657__value",
+            "shopify-section-template--21317517934657__recommendations",
+            "shopify-section-template--21317517934657__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "width": 390,
+          "title": "COLETTE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-material.jpg?v=104095031720295431821788649227",
+              "alt": "Close-up of the Colette\u2019s pale felt-like surface and short matte fibers.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-stitching.jpg?v=24568731266259869161788649228",
+              "alt": "Detail of the Colette\u2019s stitched Caramel belt passing through a felt keeper.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-finishing.jpg?v=1210913671715909221788649228",
+              "alt": "Close-up of the Colette\u2019s felt side gusset and curved lower edge.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/colette-craft-hardware.jpg?v=42637663402028658361788649229",
+              "alt": "Detail of the Colette\u2019s curved Caramel belt end and round gold-tone cap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 11999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518032961__main",
+            "shopify-section-template--21317518032961__craftsmanship",
+            "shopify-section-template--21317518032961__value",
+            "shopify-section-template--21317518032961__recommendations",
+            "shopify-section-template--21317518032961__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-delphine",
+          "width": 390,
+          "title": "DELPHINE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-material.jpg?v=121131724497200198651788649230",
+              "alt": "Close-up of the Delphine Light Chocolate bag\u2019s diagonal canvas twill.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-stitching.jpg?v=167630672921691618431788649230",
+              "alt": "Detail of the Delphine\u2019s curved leather flap edge and tonal stitching.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-finishing.jpg?v=175088523048677973681788649231",
+              "alt": "Close-up of the Delphine\u2019s leather corner reinforcement and curved seam.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/delphine-craft-hardware.jpg?v=84782685175046039661788649232",
+              "alt": "Detail of the Delphine\u2019s slotted gold belt end against cream canvas.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 12499,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518065729__main",
+            "shopify-section-template--21317518065729__craftsmanship",
+            "shopify-section-template--21317518065729__value",
+            "shopify-section-template--21317518065729__recommendations",
+            "shopify-section-template--21317518065729__perspectives"
+          ],
+          "page_errors": []
+        },
+        {
+          "handle": "velantra-juliette",
+          "width": 390,
+          "title": "JULIETTE",
+          "passed": true,
+          "craft_images": [
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-material.jpg?v=114257742812458096801788649232",
+              "alt": "Close-up of the Juliette Camel suede nap and soft natural folds.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-stitching.jpg?v=55442439131921541461788649233",
+              "alt": "Detail of the Juliette\u2019s dark leather collar seam against Camel suede.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-finishing.jpg?v=163696946388980116011788649234",
+              "alt": "Close-up of the Juliette\u2019s leather corner cap, curved seam and brass stud.",
+              "w": 1024,
+              "h": 1024
+            },
+            {
+              "src": "https://velantrafashion.com/cdn/shop/t/20/assets/juliette-craft-hardware.jpg?v=69201722770850051911788649234",
+              "alt": "Detail of the Juliette\u2019s antique-brass bar and dark leather front strap.",
+              "w": 1024,
+              "h": 1024
+            }
+          ],
+          "film_count": 0,
+          "selected_price": 14999,
+          "purchase_disabled": false,
+          "section_order": [
+            "shopify-section-template--21317518164033__main",
+            "shopify-section-template--21317518164033__craftsmanship",
+            "shopify-section-template--21317518164033__value",
+            "shopify-section-template--21317518164033__recommendations",
+            "shopify-section-template--21317518164033__perspectives"
+          ],
+          "page_errors": []
+        }
+      ],
+      "failures": [],
+      "passed": true
+    },
+    "draft_handbag_scope": "Dedicated templates assigned and preserved as drafts; editorial sections stay disabled until their own approved media is available.",
+    "minor_video_limitations": "Delphine retains one 41.667ms native transition artifact; Juliette has some amplified source texture. Construction/appearance QA does not certify microscopic material equivalence or physical measurements."
+  },
+  "verification_scope_note": "Original build reports are retained as historical evidence. Current draft follow-up validation and native QA are recorded in craftsmanship_followup; current Shopify theme roles are in verified_theme_roles.",
+  "completed_at_utc": "2026-09-05T23:46:26.180093+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "at": "2026-09-13T03:01:04.729707+00:00",
+  "observed": "Cloud src for S04/S06/S08 reverted to old layout-v2; remaining fields matched local. Repaired selected sources and old presentation asset aliases.",
+  "cause": "Unknown; stale full-board save hypothesis only.",
+  "aliases": [
+    {
+      "scene": "S04",
+      "old_url_path": "assets/velantra-weekender-haaland-reference-style/S04-product-reveal-layout-v2.png",
+      "selected_url_path": "assets/velantra-weekender-haaland-reference-style/S04-product-reveal-paired-straps-v3.png",
+      "sha256": "ee23a0fdab5d65a958617637ff84218f256e731ea9a24c7580321eea94c61f43",
+      "old_bytes_archive": "brands/velantra/creative/weekender-haaland-mens-2026-09-12/storyboard/delivery-archive/S04-product-reveal-layout-v2.png"
+    },
+    {
+      "scene": "S06",
+      "old_url_path": "assets/velantra-weekender-haaland-reference-style/S06-tee-jeans-layout-v2.png",
+      "selected_url_path": "assets/velantra-weekender-haaland-reference-style/S06-tee-jeans-paired-straps-v3.png",
+      "sha256": "0da5df10290fc207723b3f8816c425c63b4cd31b00c558a90e1ae612fd4597e1",
+      "old_bytes_archive": "brands/velantra/creative/weekender-haaland-mens-2026-09-12/storyboard/delivery-archive/S06-tee-jeans-layout-v2.png"
+    },
+    {
+      "scene": "S08",
+      "old_url_path": "assets/velantra-weekender-haaland-reference-style/S08-navy-jacket-layout-v2.png",
+      "selected_url_path": "assets/velantra-weekender-haaland-reference-style/S08-navy-jacket-paired-straps-v3.png",
+      "sha256": "decc1f0e7c7551b9dc11771fd644f1b0b65fb4463d7eea5f62c8df0cb0053aeb",
+      "old_bytes_archive": "brands/velantra/creative/weekender-haaland-mens-2026-09-12/storyboard/delivery-archive/S08-navy-jacket-layout-v2.png"
+    }
+  ],
+  "alias_checks": [
+    {
+      "scene": "S04",
+      "old_url_now_corrected": true
+    },
+    {
+      "scene": "S06",
+      "old_url_now_corrected": true
+    },
+    {
+      "scene": "S08",
+      "old_url_now_corrected": true
+    }
+  ],
+  "verified_at": "2026-09-13T03:01:42.105958+00:00"
+}

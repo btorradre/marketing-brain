@@ -1,0 +1,42 @@
+{
+  "id": "S11",
+  "kind": "video",
+  "model": "google/gemini-omni-flash-1-1",
+  "duration": 4,
+  "edit_duration": 2.2666666666666657,
+  "input": {
+    "prompt": "Create one continuous silent vertical shot starting exactly from the supplied keyframe. The clock second hand advances naturally; preserve dial numerals and clock structure. No time-lapse, jump or dissolve. Restrained realistic motion. No new captions, watermarks, logos, speech, music, scene cuts, transition, zoom jump, morphing or before/after comparison. Preserve this scene composition throughout. Educational illustrations must not become simulated treatment evidence. Render a 4-second 9:16 1080p source clip for an existing ad edit.",
+    "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788976914468-iaj0nul7t5a.png",
+    "duration": "4",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p"
+  },
+  "job": {
+    "id": "job_c0320f44ce79",
+    "engine": "kie",
+    "kind": "generate",
+    "model": "google/gemini-omni-flash-1-1",
+    "status": "success",
+    "external_task_id": "ccde2c5bce72256df57c7769a53a26cb",
+    "brand": "motilli",
+    "concept": "MOT-VID-013-visual-variety-r3",
+    "error": null,
+    "created_at": "2026-09-09T18:08:26.106171+00:00",
+    "updated_at": "2026-09-09T18:10:52.166276+00:00",
+    "input": {
+      "prompt": "Create one continuous silent vertical shot starting exactly from the supplied keyframe. The clock second hand advances naturally; preserve dial numerals and clock structure. No time-lapse, jump or dissolve. Restrained realistic motion. No new captions, watermarks, logos, speech, music, scene cuts, transition, zoom jump, morphing or before/after comparison. Preserve this scene composition throughout. Educational illustrations must not become simulated treatment evidence. Render a 4-second 9:16 1080p source clip for an existing ad edit.",
+      "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788976914468-iaj0nul7t5a.png",
+      "duration": "4",
+      "aspect_ratio": "9:16",
+      "resolution": "1080p"
+    },
+    "output": {
+      "asset_ids": [
+        "asset_221dbf1b2794"
+      ],
+      "credits_consumed": 63.0
+    }
+  },
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/edit/visual-variety-r3/motion/S11.mp4",
+  "source_url": "https://tempfile.aiquickdraw.com/v/ccde2c5bce72256df57c7769a53a26cb_1788977394.mp4"
+}

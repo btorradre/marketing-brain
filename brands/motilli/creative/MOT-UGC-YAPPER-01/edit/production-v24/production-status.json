@@ -1,0 +1,59 @@
+{
+  "status": "clean_audio_complete_heygen_api_credit_blocked",
+  "voice_model": "eleven_v3",
+  "preset": "Natural",
+  "voice": "Michelle - Full and Reassuring",
+  "speed": 1.2,
+  "editor": "DaVinci Resolve native audio timelines",
+  "audio": [
+    {
+      "hook": "H1",
+      "source_seconds": 244.32,
+      "clean_seconds": 219.26666666666668,
+      "removed_seconds": 25.053333333333313,
+      "pause_edits": 73,
+      "mp3": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v24/deliverables/Motilli-V24-H1-Natural-1.2x-clean.mp3",
+      "sha256": "1be9709c0c8c2524ddfb4eaf236e730110a7df9ae99dbb256dbb575e1103ae03",
+      "pcm_correlation": 0.99999997370033,
+      "asr_before_after_differences": [],
+      "silences_over_035_seconds": []
+    },
+    {
+      "hook": "H2",
+      "source_seconds": 254.72,
+      "clean_seconds": 223.53333333333333,
+      "removed_seconds": 31.186666666666667,
+      "pause_edits": 75,
+      "mp3": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v24/deliverables/Motilli-V24-H2-Natural-1.2x-clean.mp3",
+      "sha256": "74dd0bede44c82f0e52c68d485f2829e52114a59225b2b50b3df223a1401d857",
+      "pcm_correlation": 0.9999999753460516,
+      "asr_before_after_differences": [],
+      "silences_over_035_seconds": []
+    },
+    {
+      "hook": "H3",
+      "source_seconds": 243.36,
+      "clean_seconds": 216.83333333333334,
+      "removed_seconds": 26.52666666666667,
+      "pause_edits": 74,
+      "mp3": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v24/deliverables/Motilli-V24-H3-Natural-1.2x-clean.mp3",
+      "sha256": "cd3a6cfe31e1804245f89db074e6848516bdeb327531594e459bd128aea818b4",
+      "pcm_correlation": 0.9999999742503484,
+      "asr_before_after_differences": [],
+      "silences_over_035_seconds": []
+    }
+  ],
+  "heygen": {
+    "avatar_look": "3c421c1dc94c35b2f46a50496bbd781c",
+    "engine": "avatar_v",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "H1": "Clean audio staged; final render not submitted because API credits are insufficient.",
+    "H2": "Clean audio staged; final render not submitted because API credits are insufficient.",
+    "H3": "Final clean-audio job 16f81598650ab16139743711a1463f86 failed with MOVIO_PAYMENT_INSUFFICIENT_CREDIT.",
+    "superseded_H3_draft": "First-pass job a291682367f11ccf0a1cc4374c504995 was submitted prematurely and is superseded; its audio retains gaps. Not a final delivery. Local polling stopped; remote job may complete.",
+    "ready_for_submission_after_api_credits": true
+  },
+  "new_final_avatar_videos_delivered": false,
+  "previous_completed_full_ad_version": 21
+}

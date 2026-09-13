@@ -1,0 +1,170 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Velantra Quiet Luxury",
+    "theme_version": "1.0.0",
+    "theme_author": "Velantra",
+    "theme_documentation_url": "https://help.shopify.com/en/manual/online-store/themes",
+    "theme_support_url": "https://velantrafashion.com/pages/contact"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Page background",
+        "default": "#fdfdfd"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text",
+        "default": "#2a2a2a"
+      },
+      {
+        "type": "color",
+        "id": "color_line",
+        "label": "Dividers",
+        "default": "#d1d1cd"
+      },
+      {
+        "type": "color",
+        "id": "color_muted",
+        "label": "Secondary text",
+        "default": "#686861"
+      },
+      {
+        "type": "color",
+        "id": "studio_background",
+        "label": "Studio background",
+        "default": "#ffffff"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "custom_fonts",
+        "label": "Use custom fonts",
+        "default": false
+      },
+      {
+        "type": "font_picker",
+        "id": "body_font",
+        "label": "Body font",
+        "default": "montserrat_n4"
+      },
+      {
+        "type": "font_picker",
+        "id": "heading_font",
+        "label": "Heading font",
+        "default": "serif"
+      }
+    ]
+  },
+  {
+    "name": "Layout and brand",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "transparent_header",
+        "label": "Transparent homepage header",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "page_width",
+        "label": "Page width",
+        "min": 1000,
+        "max": 2000,
+        "step": 50,
+        "unit": "px",
+        "default": 1600
+      },
+      {
+        "type": "range",
+        "id": "section_spacing",
+        "label": "Section spacing",
+        "min": 40,
+        "max": 160,
+        "step": 8,
+        "unit": "px",
+        "default": 96
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      },
+      {
+        "type": "url",
+        "id": "instagram",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "url",
+        "id": "facebook",
+        "label": "Facebook URL"
+      }
+    ]
+  },
+  {
+    "name": "Studio catalog",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "use_studio_catalog",
+        "label": "Use included white studio product images",
+        "default": true
+      },
+      {
+        "type": "paragraph",
+        "content": "White studio images are scoped to this theme. Newly uploaded product media uses its own image automatically."
+      }
+    ]
+  },
+  {
+    "name": "Preorders",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "vivienne_preorder",
+        "label": "Vivienne preorder enabled",
+        "default": true
+      },
+      {
+        "type": "textarea",
+        "id": "vivienne_preorder_message",
+        "label": "Vivienne preorder message",
+        "default": "Pre-order. Every colorway is made to order. Expected to ship October."
+      },
+      {
+        "type": "checkbox",
+        "id": "colette_preorder",
+        "label": "Colette preorder enabled",
+        "default": true
+      },
+      {
+        "type": "textarea",
+        "id": "colette_preorder_message",
+        "label": "Colette preorder message",
+        "default": "Pre-order. Expected to ship early October."
+      },
+      {
+        "type": "checkbox",
+        "id": "weekender_black_preorder",
+        "label": "Eleanor Black preorder enabled",
+        "default": true
+      },
+      {
+        "type": "textarea",
+        "id": "weekender_black_preorder_message",
+        "label": "Eleanor Black preorder message",
+        "default": "Pre-order. Black is all leather with no canvas. Expected to ship mid September 2026."
+      }
+    ]
+  }
+]

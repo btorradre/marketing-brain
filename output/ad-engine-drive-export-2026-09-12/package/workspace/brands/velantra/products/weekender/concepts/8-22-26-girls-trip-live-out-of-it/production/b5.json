@@ -1,0 +1,82 @@
+[chatcut-upload] using bundled ffprobe 8.1
+[chatcut-upload] using bundled ffmpeg 8.1
+[chatcut-upload] starting import for 1 file(s)
+[chatcut-upload] [1/1] probing VO-LIVEOUT-01-14LUFS.wav
+[chatcut-upload] [1/1] registering asset placeholder for VO-LIVEOUT-01-14LUFS.wav
+[chatcut-upload] waiting for endpoint response: registerAssetPlaceholderRequest
+[chatcut-upload] endpoint response received: registerAssetPlaceholderRequest
+[chatcut-upload] [1/1] requesting transcription upload slot for VO-LIVEOUT-01-14LUFS.wav
+[chatcut-upload] waiting for endpoint response: prepareTranscriptionAudioRequest
+[chatcut-upload] endpoint response received: prepareTranscriptionAudioRequest
+[chatcut-upload] [1/1] uploading/finalizing transcription audio for VO-LIVEOUT-01-14LUFS.wav before asset upload
+[chatcut-upload] uploading chatcut-VO-LIVEOUT-01-14LUFS-transcription-43212-1.ogg
+[chatcut-upload] uploaded chatcut-VO-LIVEOUT-01-14LUFS-transcription-43212-1.ogg
+[chatcut-upload] waiting for endpoint response: prepareTranscriptionAudioRequest
+[chatcut-upload] endpoint response received: prepareTranscriptionAudioRequest
+[chatcut-upload] uploading chatcut-VO-LIVEOUT-01-14LUFS-waveform-43212-1.u8
+[chatcut-upload] uploaded chatcut-VO-LIVEOUT-01-14LUFS-waveform-43212-1.u8
+[chatcut-upload] waiting for endpoint response: finalizeTranscriptionAudioRequest
+[chatcut-upload] endpoint response received: finalizeTranscriptionAudioRequest
+[chatcut-upload] [1/1] preparing VO-LIVEOUT-01-14LUFS.wav
+[chatcut-upload] [1/1] requesting registered upload slots for VO-LIVEOUT-01-14LUFS.wav
+[chatcut-upload] waiting for endpoint response: prepareRegisteredUploadRequest
+[chatcut-upload] endpoint response received: prepareRegisteredUploadRequest
+[chatcut-upload] [1/1] uploading asset bytes for VO-LIVEOUT-01-14LUFS.wav
+[chatcut-upload] uploading chatcut-VO-LIVEOUT-01-14LUFS-audio-43212-1.ogg
+[chatcut-upload] uploaded chatcut-VO-LIVEOUT-01-14LUFS-audio-43212-1.ogg
+[chatcut-upload] finalizing chatcut-VO-LIVEOUT-01-14LUFS-audio-43212-1.ogg with uploaded size 707994 bytes
+[chatcut-upload] waiting for endpoint response: finalizeAssetUploadRequest
+[chatcut-upload] endpoint response received: finalizeAssetUploadRequest
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 1,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "audio",
+        "contentType": "audio/ogg",
+        "filename": "VO-LIVEOUT-01-14LUFS.ogg",
+        "size": 707994,
+        "sourceType": "audio",
+        "transcodeReason": "audio assets follow the frontend Ogg/Opus upload path",
+        "transcoded": true,
+        "uploadFilename": "VO-LIVEOUT-01-14LUFS.ogg",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-VO-LIVEOUT-01-14LUFS-audio-43212-1.ogg",
+        "durationInSeconds": 35.6,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 1,
+          "sampleRate": 48000,
+          "integratedLufs": -14.9
+        },
+        "sourceManifest": {
+          "audioStartOffsetInSeconds": 0,
+          "audioStreamDurationInSeconds": 35.6,
+          "channels": 1,
+          "originalFilename": "VO-LIVEOUT-01-14LUFS.wav",
+          "sampleRate": 48000
+        }
+      },
+      "result": {
+        "assetId": "2fed9559-e7a2-4eed-9147-0c84b2ff4d07",
+        "assetType": "audio",
+        "filename": "VO-LIVEOUT-01-14LUFS.ogg",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/audio/2fed9559-e7a2-4eed-9147-0c84b2ff4d07/VO-LIVEOUT-01-14LUFS.ogg",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/audio/2fed9559-e7a2-4eed-9147-0c84b2ff4d07/VO-LIVEOUT-01-14LUFS.ogg",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/audio/2fed9559-e7a2-4eed-9147-0c84b2ff4d07/VO-LIVEOUT-01-14LUFS.ogg",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/audio/2fed9559-e7a2-4eed-9147-0c84b2ff4d07/VO-LIVEOUT-01-14LUFS.ogg",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/vo/VO-LIVEOUT-01-14LUFS.wav"
+    }
+  ]
+}

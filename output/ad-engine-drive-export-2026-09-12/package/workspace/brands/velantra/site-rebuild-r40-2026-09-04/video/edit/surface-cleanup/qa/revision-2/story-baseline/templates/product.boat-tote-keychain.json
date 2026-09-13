@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {},
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>A miniature ode to the original. The Boat Tote Keychain captures the charm of the icon in collectible form &mdash; clip it to your keys, your bag, or tuck it into a gift set. Small in size, big on detail.</p>",
+            "open": false
+          }
+        },
+        "tab_materials": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials & Care",
+            "content": "<p><strong>Material</strong><br>Premium materials with the same contrast stitching as the full-size tote and antique-finish hardware.</p><p><strong>Care</strong><br>Wipe clean with a soft, dry cloth. Keep away from prolonged moisture to preserve the finish.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_materials"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

@@ -1,0 +1,7 @@
+print('V7_SPEED_BEGIN')
+local r=fu:GetResolve();local pm=r:GetProjectManager();local p=pm:GetCurrentProject();if p then assert(pm:SaveProject()) end
+if not p or p:GetName()~='Motilli Podcast DVHp v5 20260909' then p=pm:LoadProject('Motilli Podcast DVHp v5 20260909') end
+assert(p and p:GetName()=='Motilli Podcast DVHp v5 20260909');local mp=p:GetMediaPool();for i=1,p:GetTimelineCount() do assert(p:GetTimelineByIndex(i):GetName()~='Motilli Podcast v7 110 percent Final','Already exists; inspect before repeating') end
+local t=mp:CreateEmptyTimeline('Motilli Podcast v7 110 percent Final');assert(t);assert(p:SetCurrentTimeline(t));assert(t:SetStartTimecode('00:00:00:00'))
+local media=mp:ImportMedia({'/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/podcast-DVHp-2FDHAJ/production/v6/deliverables/Motilli-Podcast-v6-Visual-Revision.mp4'});assert(media and media[1]);local items=mp:AppendToTimeline({{mediaPoolItem=media[1],startFrame=0,endFrame=5917,recordFrame=0,trackIndex=1}});assert(items and items[1]);local video=t:GetItemListInTrack('video',1)[1];local audio=t:GetItemListInTrack('audio',1)[1];assert(video and audio);assert(t:SetClipsLinked({video,audio},true))
+assert(video:SetSpeed({Percentage=110,PitchCorrection=true,RippleTimeline=true,StretchKeyframesToFit=true}),'video speed failed');assert(t:SetClipsLinked({video,audio},true));for _,i in ipairs({video,audio}) do print('SPEED_ITEM',i:GetStart(),i:GetEnd());for k,v in pairs(i:GetSpeed()) do print(k,v) end end;assert(pm:SaveProject());print('V7_SPEED_DONE',t:GetEndFrame())

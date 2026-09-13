@@ -1,0 +1,94 @@
+{% liquid
+  assign cover = section.settings.poster | default: section.settings.video.preview_image
+  if cover != blank
+    assign cover_url = cover | image_url: width: 2000
+  else
+    assign cover_url = 'vivienne-detail-film-poster.jpg' | asset_url
+  endif
+%}
+<velantra-detail-film class="detail-film" aria-label="{{ section.settings.description | escape }}" style="--film-position:50% {{ section.settings.vertical_position }}%;--film-mobile-height:{{ section.settings.mobile_height | default: 420 }}">
+  {% if section.settings.video != blank %}
+    {{ section.settings.video | video_tag: autoplay: false, loop: true, muted: true, controls: true, preload: 'none', image_size: '2000x', poster: cover_url, class: 'detail-film-video' }}
+  {% else %}
+    <img class="detail-film-poster" src="{{ cover_url }}" width="1920" height="1080" loading="lazy" alt="{{ section.settings.description | escape }}">
+  {% endif %}
+  <button class="detail-film-toggle" type="button" aria-label="{{ 'general.play_film' | t }}" data-play-label="{{ 'general.play_film' | t }}" data-pause-label="{{ 'general.pause_film' | t }}" hidden>
+    <svg class="detail-film-play" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5 13 8 4 13.5Z" fill="currentColor"/></svg>
+    <svg class="detail-film-pause" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" hidden><path d="M4 2h3v12H4zm5 0h3v12H9z" fill="currentColor"/></svg>
+  </button>
+</velantra-detail-film>
+{% stylesheet %}
+  .detail-film{display:block;position:relative;width:100%;aspect-ratio:1434/726;background:#000;overflow:hidden}
+  .detail-film .detail-film-video,.detail-film .detail-film-poster{width:100%;height:100%;object-fit:cover;object-position:var(--film-position);opacity:.85}
+  .template-product .detail-film{aspect-ratio:1434/750}
+  .detail-film-toggle{position:absolute;bottom:20px;right:20px;display:grid;place-items:center;width:44px;height:44px;border:1px solid #ffffff9c;border-radius:50%;background:#0003;color:#fff;backdrop-filter:blur(8px)}
+  .detail-film-toggle:hover{background:#0006}
+  @media(max-width:1023px){.detail-film,.template-product .detail-film{aspect-ratio:390/var(--film-mobile-height)}.detail-film-toggle{bottom:12px;right:12px}}
+{% endstylesheet %}
+{% javascript %}
+  if (!customElements.get('velantra-detail-film')) {
+    customElements.define('velantra-detail-film', class extends HTMLElement {
+      connectedCallback() {
+        this.video = this.querySelector('video');
+        this.button = this.querySelector('.detail-film-toggle');
+        if (!this.video || !this.button) return;
+        this.events = new AbortController();
+        const options = { signal: this.events.signal };
+        this.motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        this.visible = false;
+        this.userPaused = false;
+        this.video.muted = true;
+        this.video.playsInline = true;
+        this.video.controls = false;
+        this.button.hidden = false;
+        const sync = () => {
+          const paused = this.video.paused;
+          this.button.setAttribute('aria-label', paused ? this.button.dataset.playLabel : this.button.dataset.pauseLabel);
+          this.button.querySelector('.detail-film-play').hidden = !paused;
+          this.button.querySelector('.detail-film-pause').hidden = paused;
+        };
+        const play = () => this.video.play().catch(sync);
+        this.button.addEventListener('click', () => {
+          if (this.video.paused) { this.userPaused = false; play(); }
+          else { this.userPaused = true; this.video.pause(); }
+        }, options);
+        this.video.addEventListener('play', sync, options);
+        this.video.addEventListener('pause', sync, options);
+        this.video.addEventListener('error', () => { this.video.controls = true; this.button.hidden = true; }, options);
+        this.motion.addEventListener('change', () => {
+          if (this.motion.matches) this.video.pause();
+          else if (this.visible && !this.userPaused) play();
+        }, options);
+        document.addEventListener('visibilitychange', () => {
+          if (document.hidden) this.video.pause();
+          else if (this.visible && !this.motion.matches && !this.userPaused) play();
+        }, options);
+        this.observer = new IntersectionObserver(entries => {
+          this.visible = entries[0].isIntersecting && entries[0].intersectionRatio >= 0.15;
+          if (this.visible && !this.motion.matches && !this.userPaused && !document.hidden) play();
+          else this.video.pause();
+        }, { threshold: 0.15 });
+        this.observer.observe(this);
+        sync();
+      }
+      disconnectedCallback() {
+        this.events?.abort();
+        this.observer?.disconnect();
+        this.video?.pause();
+      }
+    });
+  }
+{% endjavascript %}
+{% schema %}
+{
+  "name": "Detail film",
+  "settings": [
+    { "type": "video", "id": "video", "label": "Video" },
+    { "type": "image_picker", "id": "poster", "label": "Cover image" },
+    { "type": "range", "id": "vertical_position", "label": "Vertical focal point", "min": 0, "max": 100, "step": 5, "unit": "%", "default": 65 },
+    { "type": "range", "id": "mobile_height", "label": "Mobile height at 390 px width", "min": 280, "max": 460, "step": 10, "unit": "px", "default": 420 },
+    { "type": "text", "id": "description", "label": "Description", "default": "Vivienne: leather, braided edge, handles and gold hardware in close-up" }
+  ],
+  "presets": [{ "name": "Detail film" }]
+}
+{% endschema %}

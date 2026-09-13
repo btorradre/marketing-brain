@@ -1,0 +1,25 @@
+<section class="content-page"><h1>{{ section.settings.heading | escape }}</h1><div class="rte">{{ section.settings.text }}</div>{% form 'contact' %}{% if form.posted_successfully? %}<p role="status">{{ 'contact.success' | t }}</p>{% else %}{{ form.errors | default_errors }}<div class="contact-grid"><label for="ContactName">{{ 'contact.name' | t }}<input id="ContactName" name="contact[name]" autocomplete="name" value="{{ form.name | escape }}" required></label><label for="ContactEmail">{{ 'contact.email' | t }}<input id="ContactEmail" type="email" name="contact[email]" autocomplete="email" value="{{ form.email | escape }}" required></label><label class="full" for="ContactMessage">{{ 'contact.message' | t }}<textarea id="ContactMessage" name="contact[body]" required>{{ form.body | escape }}</textarea></label><button class="button full" type="submit">{{ 'contact.send' | t }}</button></div>{% endif %}{% endform %}</section>
+{% schema %}
+{
+  "name": "Contact form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Client Services"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Introduction",
+      "default": "<p>For help choosing a piece, an order update, or a question about your bag, leave us a note.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact form"
+    }
+  ]
+}
+{% endschema %}

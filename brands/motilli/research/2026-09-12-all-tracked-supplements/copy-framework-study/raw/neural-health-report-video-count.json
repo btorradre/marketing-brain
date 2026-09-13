@@ -1,0 +1,119 @@
+{
+  "jsonrpc": "2.0",
+  "id": "neural-health-report-video-count",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — Neural Health Report\n\nWindow: 7d | Sort: current_rank | Results: 0\n\n_No scaling ads returned. Try broader filters, a larger current-rank cap, or another rank window._\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":1,\"platforms\":[\"facebook\"],\"status\":\"active\",\"trackedPages\":[\"856847537508620\"],\"rankDeltaWindow\":\"7d\",\"mediaType\":\"video\"}\n\n---\nCredits used: 0 | Remaining: 6372"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "d6f2250a-4ff3-44c3-9f08-a6b86d59bfc1",
+      "data": [],
+      "pagination": {
+        "page": 1,
+        "limit": 1,
+        "total": 0,
+        "totalPages": 0,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "3ef86095-deda-4f00-8a66-616bc5a5cc8c",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "3ef86095-deda-4f00-8a66-616bc5a5cc8c",
+          "resolvedBrandName": "Neural Health Report",
+          "facebookPageId": "856847537508620",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "856847537508620"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 1,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active",
+          "trackedPages": [
+            "856847537508620"
+          ],
+          "rankDeltaWindow": "7d",
+          "mediaType": "video"
+        },
+        "requestedLimit": 1,
+        "effectiveLimit": 1,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 1,
+        "effectiveUnits": 1,
+        "actualUnits": 0,
+        "costUnits": 0,
+        "recurringUnits": 0,
+        "topupUnits": 0,
+        "creditsRemaining": 6372,
+        "creditsSourceHeader": null,
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

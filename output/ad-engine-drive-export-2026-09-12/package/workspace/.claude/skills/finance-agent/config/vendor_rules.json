@@ -1,0 +1,595 @@
+{
+  "_readme": [
+    "Vendor rulebook for categorize.py. Rules are tried IN ORDER; the first regex (case-insensitive) that matches",
+    "the cleaned merchant OR the raw description wins. Fields: name, pattern, category, brand (optional),",
+    "note (optional), review (true = still send to the review queue even though it matched).",
+    "Categories must exist in shopify-financials/scripts/import_expenses.py CATEGORIES.",
+    "review.py --learn appends new rules here from your decisions; keep specific rules ABOVE generic ones."
+  ],
+  "rules": [
+    {
+      "name": "income tax payments (IRS / FTB)",
+      "pattern": "usataxpymt|irs tax payment|internal revenue service|franchise tax bo|franchise tax board|ftb payment|estimated tax",
+      "category": "income_tax",
+      "note": "owner's income tax on pass-through profit — excluded, P&L is pre-tax. CA $800 minimum franchise tax is immaterial inside this."
+    },
+    {
+      "name": "Amex ACH payment (bank side)",
+      "pattern": "business to business ach american express|american express ach|amex ach pmt|amex epayment|american express payment",
+      "category": "cc_payment"
+    },
+    {
+      "name": "card payment received (card side)",
+      "pattern": "payment - thank you|payment thank you|mobile payment|online payment|autopay payment|payment received",
+      "category": "cc_payment"
+    },
+    {
+      "name": "Apple Card payment (bank side)",
+      "pattern": "applecard gsbank|apple card payment|ach deposit internet transfer",
+      "category": "cc_payment"
+    },
+    {
+      "name": "Orelli intercompany",
+      "pattern": "orelli inc|bnf=orelli|seq orelli",
+      "category": "transfer",
+      "review": true,
+      "policy": "owner_transfers",
+      "note": "wires to Orelli Inc (Brooks's other company) — intercompany, not an expense of this entity"
+    },
+    {
+      "name": "owner draw (business → Brooks)",
+      "pattern": "online transfer to orradre|transfer to orradre b",
+      "category": "owner_draw",
+      "review": true,
+      "policy": "owner_transfers",
+      "note": "business checking → Brooks personal; confirm draw vs reimbursement"
+    },
+    {
+      "name": "own-account transfer (personal side)",
+      "pattern": "online transfer from (bto ec ventures|orradre)|transfer from bto ec|online transfer to bto ec|transfer to bto ec",
+      "category": "transfer"
+    },
+    {
+      "name": "MFS investment moves",
+      "pattern": "o mfs\\s+savi|mfs\\s+savi|reds/pnote|purch/pacs",
+      "category": "transfer",
+      "note": "MFS Investment redemptions/purchases — investing, not P&L"
+    },
+    {
+      "name": "generic money transfer",
+      "pattern": "^money transfer\\b(?!.*(wise|venmo|zelle))|money transfer\\s+auth(?!.*(wise|venmo|zelle))",
+      "category": "transfer",
+      "review": true,
+      "policy": "unknown_transfer",
+      "note": "Wells Fargo 'MONEY TRANSFER' — counterparty not in descriptor"
+    },
+    {
+      "name": "B2B ACH unknown payee",
+      "pattern": "business to business ach payment|pmt for invoice",
+      "category": "other_opex",
+      "review": true,
+      "policy": "unknown_transfer"
+    },
+    {
+      "name": "amex payment",
+      "pattern": "american express payment|amex .*payment|payment thank you|autopay payment",
+      "category": "cc_payment"
+    },
+    {
+      "name": "apple card payment",
+      "pattern": "apple card payment|apple card ; apple card payment|ach deposit internet transfer",
+      "category": "cc_payment"
+    },
+    {
+      "name": "cc payment generic",
+      "pattern": "online transfer ref .* to (wells|chase|amex|apple)|credit card payment|card payment to",
+      "category": "cc_payment"
+    },
+    {
+      "name": "own-account transfer",
+      "pattern": "^transfer (to|from) (checking|savings|business)|online transfer (to|from) (chk|sav|checking|savings)|internal transfer",
+      "category": "transfer"
+    },
+    {
+      "name": "shopify payout",
+      "pattern": "shopify payout|shopify\\s+transfer|shopify\\s+shopify\\s+st-|shopify\\s+sd\\d+|shopify\\s+[a-z0-9]{12}\\s+bto|^(lunessa|motilli|velantra|solorna|renavita|orelli|wend)\\s+shopify|shopify inc.? (des:)?transfer|shopify capital|stripe payout|stripe transfer",
+      "category": "transfer",
+      "note": "Shopify payouts landing in business checking — revenue is already counted from the Shopify API"
+    },
+    {
+      "name": "coinbase",
+      "pattern": "coinbase",
+      "category": "other_opex",
+      "review": true,
+      "note": "Brooks to rule: contractor payment vs personal — see memory",
+      "policy": "unknown_transfer"
+    },
+    {
+      "name": "loan principal",
+      "pattern": "loan payment|principal payment|sba loan|clearco|wayflyer|8fig",
+      "category": "loan_principal",
+      "review": true,
+      "policy": "unknown_transfer"
+    },
+    {
+      "name": "supplier Haikou Genyangkai",
+      "pattern": "haikou|genyangkai",
+      "category": "inventory_purchase",
+      "note": "bag + gummy supplier; per-order bills in finances/supplier invoices"
+    },
+    {
+      "name": "supplier wire generic",
+      "pattern": "wire transfer to .*(trading|co\\.?,? ?ltd|technology|industr|manufactur|supply)",
+      "category": "inventory_purchase",
+      "review": true,
+      "policy": "unknown_transfer"
+    },
+    {
+      "name": "ecomflow 3PL",
+      "pattern": "ecomflow|ecom flow",
+      "category": "fulfillment_3pl"
+    },
+    {
+      "name": "3PL generic",
+      "pattern": "shipbob|shipmonk|deliverr|fulfil|pick ?pack|warehouse",
+      "category": "fulfillment_3pl"
+    },
+    {
+      "name": "freight / duties",
+      "pattern": "flexport|freightos|customs|duties|dhl express|fedex freight|ups freight|forwarder|cbp ",
+      "category": "freight_duties"
+    },
+    {
+      "name": "postage",
+      "pattern": "shippo|pirate ?ship|stamps\\.com|easypost|usps|ups store|fedex office",
+      "category": "shipping_postage"
+    },
+    {
+      "name": "Meta ads",
+      "pattern": "meta ads|facebook ads|facebk|fb ads|meta platforms|facebook \\*?ads|facebk \\*",
+      "category": "ad_spend_meta"
+    },
+    {
+      "name": "Google ads",
+      "pattern": "google ?\\*?ads|google adwords|adwords|google ; google ads",
+      "category": "ad_spend_google"
+    },
+    {
+      "name": "TikTok ads",
+      "pattern": "tiktok ads|tiktok for business|bytedance|paypal \\*tiktok|tiktok 7700 eastport|ecomdy",
+      "category": "ad_spend_tiktok"
+    },
+    {
+      "name": "other ads",
+      "pattern": "pinterest ads|snap ads|snapchat ads|applovin|taboola|outbrain|reddit ads|microsoft ads|bing ads|youtube ads|amazon ads",
+      "category": "ad_spend_other"
+    },
+    {
+      "name": "X Premium",
+      "pattern": "x corp\\.? paid feature|twitter blue|x premium",
+      "category": "software_saas"
+    },
+    {
+      "name": "impact.com partnerships",
+      "pattern": "impact holdings|impact\\.com",
+      "category": "creators_influencers",
+      "review": true,
+      "note": "impact.com = affiliate/creator partnership payouts — confirm"
+    },
+    {
+      "name": "Anthropic / Claude",
+      "pattern": "anthropic|claude",
+      "category": "ai_tools"
+    },
+    {
+      "name": "OpenAI",
+      "pattern": "openai|chatgpt|open ai",
+      "category": "ai_tools"
+    },
+    {
+      "name": "OpenRouter",
+      "pattern": "openrouter",
+      "category": "ai_tools"
+    },
+    {
+      "name": "Manus",
+      "pattern": "manus ai|manus\\.im|manus ai singapore",
+      "category": "ai_tools"
+    },
+    {
+      "name": "Higgsfield",
+      "pattern": "higgsfield",
+      "category": "ai_tools"
+    },
+    {
+      "name": "ElevenLabs",
+      "pattern": "elevenlabs|eleven labs",
+      "category": "ai_tools"
+    },
+    {
+      "name": "HeyGen",
+      "pattern": "heygen",
+      "category": "ai_tools"
+    },
+    {
+      "name": "kie.ai",
+      "pattern": "kie\\.?\\s?ai\\b|kieai",
+      "category": "ai_tools"
+    },
+    {
+      "name": "video gen models",
+      "pattern": "runway|midjourney|kling|seedance|hailuo|minimax|luma ?ai|pika ?labs|veo |sora|fal\\.ai|replicate|pixverse|wan ?video|genmo|vidu|fal features",
+      "category": "ai_tools"
+    },
+    {
+      "name": "image gen / edit AI",
+      "pattern": "magnific|pixelcut|krea|ideogram|leonardo|freepik|nano ?banana|pixa\\b|photoroom|clipdrop|remove\\.bg|topaz",
+      "category": "ai_tools"
+    },
+    {
+      "name": "voice / lipsync AI",
+      "pattern": "sync ?labs|synchronicity labs|sync\\.so|wispr|descript|play\\.ht|resemble|cartesia|suno|udio",
+      "category": "ai_tools"
+    },
+    {
+      "name": "LLM providers",
+      "pattern": "perplexity|gemini|google ai studio|deepseek|mistral|groq|together\\.ai|hugging ?face|cohere|x\\.ai|xai corp|grok|runpod|wavespeed|flair ai|lambda labs|vast\\.ai|modal labs",
+      "category": "ai_tools"
+    },
+    {
+      "name": "AI writing / detection",
+      "pattern": "gptzero|writehuman|quillbot|blort|adnova|jasper|copy\\.ai|undetectable|gethookd",
+      "category": "ai_tools"
+    },
+    {
+      "name": "AI coding / agents",
+      "pattern": "cursor|devin|cognition|lovable|bolt\\.new|v0\\.dev|windsurf|codeium|github copilot",
+      "category": "ai_tools"
+    },
+    {
+      "name": "AI video editing",
+      "pattern": "opus ?clip|captions\\.ai|arcads|creatify|icon\\.com|chatcut|hyperframes|makeugc|poppy ai|^captions\\b|captions 169|letsenhance|topaz labs|submagic|veed\\.io|invideo|pictory|fliki",
+      "category": "ai_tools"
+    },
+    {
+      "name": "Klaviyo",
+      "pattern": "klaviyo",
+      "category": "marketing_software"
+    },
+    {
+      "name": "Omnisend",
+      "pattern": "omnisend",
+      "category": "marketing_software"
+    },
+    {
+      "name": "SMS / email tools",
+      "pattern": "attentive|postscript|sendlane|mailchimp|drip\\.com|yotpo|okendo|loox|judge\\.me",
+      "category": "marketing_software"
+    },
+    {
+      "name": "ad intel tools",
+      "pattern": "adspy|trendtrack|kalodata|similarweb|foreplay|minea|pipiads|bigspy|adbeat|anstrex|motion ?app|atria|tryatria|adrevival|magicbrief|dropship\\.io|the daily virals|viral|rapid ads|funnelish|creativeos|creative ?os",
+      "category": "marketing_software"
+    },
+    {
+      "name": "attribution tools",
+      "pattern": "triple ?whale|northbeam|hyros|polar analytics|lifetimely|truecommerce",
+      "category": "marketing_software"
+    },
+    {
+      "name": "creative software",
+      "pattern": "canva|capcut|frame\\.io|adobe|figma|envato|artlist|epidemic sound|motion array|storyblocks",
+      "category": "marketing_software"
+    },
+    {
+      "name": "Brandwise AI",
+      "pattern": "brandwise",
+      "category": "ai_tools",
+      "note": "AI ad-comment moderation — AI product → ai_tools (GPT+house rule)"
+    },
+    {
+      "name": "Whop (AdRevival)",
+      "pattern": "whop",
+      "category": "marketing_software",
+      "review": true,
+      "note": "Whop hosts AdRevival + other memberships — check the memo",
+      "policy": "whop_memberships"
+    },
+    {
+      "name": "creator platforms",
+      "pattern": "trybe|insense|billo|joinbrands|collabstr|grin\\b|aspire ?iq|influencer|ugc|creator payout",
+      "category": "creators_influencers"
+    },
+    {
+      "name": "Disputifier",
+      "pattern": "disputifier|chargeflow|chargebacks911|chargeback ?gurus",
+      "category": "chargeback_services"
+    },
+    {
+      "name": "Shopify",
+      "pattern": "shopify",
+      "category": "software_saas",
+      "note": "subscription + app charges; Shopify Payments fees come from the API, not the bank"
+    },
+    {
+      "name": "Ecom Elixir theme",
+      "pattern": "ecom elixir",
+      "category": "software_saas"
+    },
+    {
+      "name": "n8n / automation",
+      "pattern": "n8n|paddle\\.net.*n8n|synta|zapier|make\\.com",
+      "category": "software_saas"
+    },
+    {
+      "name": "infra / hosting",
+      "pattern": "vercel|netlify|hostinger|cloudflare|namecheap|godaddy|google cloud|aws|amazon web services|digitalocean|supabase|railway|render\\.com|heroku",
+      "category": "software_saas"
+    },
+    {
+      "name": "workspace tools",
+      "pattern": "google workspace|google one|notion|slack|loom|docusign|microsoft|dropbox|zoom|1password|lastpass|calendly|apple\\.com/bill|icloud|rize\\.io|lemonsqueezy|sumup \\*my company|zendesk|atom\\.com|squadhelp|builder ?io|pagedeck|sunday app",
+      "category": "software_saas"
+    },
+    {
+      "name": "scraping / data",
+      "pattern": "apify|bright ?data|scraperapi|phantombuster",
+      "category": "software_saas"
+    },
+    {
+      "name": "finance tools",
+      "pattern": "rocket money|simplefin|plaid|mercury|brex|ramp\\b",
+      "category": "software_saas"
+    },
+    {
+      "name": "hiring tools",
+      "pattern": "onlinejobs|jobsph|upwork .*membership|linkedin premium|indeed",
+      "category": "software_saas"
+    },
+    {
+      "name": "communities / courses",
+      "pattern": "skool|p\\.skool|discord|circle\\.so|kajabi|teachable|masterclass|copecart|acquisition\\.com|whop\\*ecommerce builder|ecommerce builder|course|academy|mastermind|udemy|coursera|macmillan learn",
+      "category": "other_opex",
+      "note": "education / community memberships"
+    },
+    {
+      "name": "streaming (personal-looking)",
+      "pattern": "netflix|hbo ?max|prime video|youtube tv|spotify|scribd|hulu|disney ?plus|playstation|help\\.max\\.com|max\\.com|apple tv|paramount|peacock|audible",
+      "category": "other_opex",
+      "review": true,
+      "note": "looks personal — confirm business purpose or owner_draw",
+      "policy": "personal_looking"
+    },
+    {
+      "name": "QuickBooks / Intuit",
+      "pattern": "intuit(?! dome)|quickbooks|bench\\.co|pilot\\.com|legalzoom|law office|cpa\\b|accounting|bookkeep|armanino|legalshield|us patent trademark|uspto",
+      "category": "legal_professional"
+    },
+    {
+      "name": "taxes",
+      "pattern": "dept of revenue|comptroller|sales tax|secretary of state|business license|city tax|\\bdmv\\b",
+      "category": "taxes_gov"
+    },
+    {
+      "name": "card/travel credits",
+      "pattern": "pay with points credit|fhr redeem|hotel credit|airline fee credit|statement credit",
+      "category": "travel",
+      "note": "Amex travel credits — negative on the travel line"
+    },
+    {
+      "name": "fee reimbursements",
+      "pattern": "fee reimbursement|late fee adjustment|cash back redemption",
+      "category": "merchant_fees",
+      "note": "credits against fees"
+    },
+    {
+      "name": "bank interest income",
+      "pattern": "^interest payment$|interest payment\\s",
+      "category": "other_income"
+    },
+    {
+      "name": "purchase return",
+      "pattern": "^purchase return",
+      "category": "other_opex",
+      "note": "refund of an unidentified purchase"
+    },
+    {
+      "name": "interest",
+      "pattern": "interest charge|finance charge|interest on",
+      "category": "interest_expense"
+    },
+    {
+      "name": "card / bank fees",
+      "pattern": "membership fee|annual fee|late fee|wire trans svc charge|wire fee|foreign transaction fee|service charge|overdraft|nsf fee|monthly maintenance fee",
+      "category": "merchant_fees"
+    },
+    {
+      "name": "payment processor fees",
+      "pattern": "stripe fee|paypal fee|payoneer fee|wise fee",
+      "category": "merchant_fees"
+    },
+    {
+      "name": "Corp E e-check (Tom Orradre)",
+      "pattern": "corp e corp|tom orrad",
+      "category": "owner_draw",
+      "review": true,
+      "policy": "owner_transfers"
+    },
+    {
+      "name": "Phoenix Ecommerce",
+      "pattern": "phoenix ecommerce",
+      "category": "contractors_agency",
+      "review": true,
+      "policy": "agencies"
+    },
+    {
+      "name": "Wells Fargo card odd vendors",
+      "pattern": "abs\\*monitrfee|abs\\*brandpro|wis dallas|shrine solutions",
+      "category": "other_opex",
+      "review": true,
+      "note": "unknown — rule by id"
+    },
+    {
+      "name": "unknown vendors (SimpleFIN 2026)",
+      "pattern": "sovely|intl fourteen london|bob's lock|skyline ranch|jo vogelbache|city of nb",
+      "category": "other_opex",
+      "review": true,
+      "note": "unknown — rule by id"
+    },
+    {
+      "name": "Upwork",
+      "pattern": "upwork|payment escrow inc",
+      "category": "contractors_agency",
+      "note": "VAs + video editors — see Employee Costs sheet"
+    },
+    {
+      "name": "MULTISERVICE LLC (Square)",
+      "pattern": "multiservicellc|multiservice llc",
+      "category": "other_opex",
+      "review": true,
+      "policy": "unknown_transfer",
+      "note": "$1,000 Square payment 2026 — purpose unknown"
+    },
+    {
+      "name": "PMUSA vending",
+      "pattern": "pmusa",
+      "category": "other_opex",
+      "review": true,
+      "policy": "personal_looking",
+      "note": "Philip Morris USA — tobacco/vending, personal"
+    },
+    {
+      "name": "MPP invoice (Gibraltar micro-charges)",
+      "pattern": "mpp\\*? ?invoice",
+      "category": "software_saas",
+      "note": "~$2.50 recurring micro-invoices from Gibraltar (Eurotowers) — legacy ledger booked software_saas"
+    },
+    {
+      "name": "payroll providers",
+      "pattern": "gusto|adp\\b|rippling|justworks|paychex|deel\\b|remote\\.com",
+      "category": "payroll"
+    },
+    {
+      "name": "Venmo / Wise / Zelle to people",
+      "pattern": "venmo|wise ; wise transfer|wise transfer|zelle|wise (us )?inc\\b|business to business ach wise|instant pmt from venmo|money transfer wise|return wise|transfer to cash app|cash app\\b",
+      "category": "contractors_agency",
+      "review": true,
+      "note": "per Brooks: Venmo/Wise to individuals = contractors unless clearly personal",
+      "policy": "people_payments"
+    },
+    {
+      "name": "wire to individual",
+      "pattern": "^wt .*jpmorgan|/bnf=|bnf=|wire transfer to [a-z' ]+$|wire transfer to (dhanraj|kabir|matvei|flock)|revolut payments|tbc bank|lead bank",
+      "category": "contractors_agency",
+      "review": true,
+      "note": "recurring wires to named people (Dhanraj Gala monthly, Kabir Salami, Matvei Poshivai) — Brooks ruled the 2026-05 Dhanraj wire NOT a contractor; settle the policy once",
+      "policy": "people_payments"
+    },
+    {
+      "name": "fiverr / agencies",
+      "pattern": "fiverr|agency|studio llc|media llc|consulting",
+      "category": "contractors_agency",
+      "review": true,
+      "policy": "agencies"
+    },
+    {
+      "name": "ATM cash",
+      "pattern": "atm withdrawal|cash withdrawal",
+      "category": "other_opex",
+      "review": true,
+      "note": "cash — purpose unknown",
+      "policy": "personal_looking"
+    },
+    {
+      "name": "food delivery",
+      "pattern": "grubhub|doordash|uber eats|postmates|caviar|uber \\*?eats",
+      "category": "meals_entertainment"
+    },
+    {
+      "name": "restaurants / coffee",
+      "pattern": "chipotle|starbucks|sweetgreen|coffee|cafe|caf\\u00e9|restaurant|grill|pizza|pizzer|burger|sushi|ramen|bbq|bakery|taco|kitchen|tavern|alehouse|brewery|bistro|deli\\b|steak|noodle|thai|dining|in-n-out|five guys|chick-fil-a|panda express|domino|cava\\b|snarf|fresh ?brothers|le tambour|ku ?deta|kudeta|ho lee fook|maggie choo|flat iron|fayy|yakiniku|zundoya|isibo|le bloom|haute cakes|tully|blk dot|scout coffee|kreuzberg|blackhorse|herst|ralph's coffee|uncle miguel|marcer|pulmuone|mega coffee|abc pizza|smu the|amk smu|festival thai|matsuzaka|seongssine|jeju|myujeuon|muse on|sck company|cheesecake|nobu|ihop|denny|wendy|mcdonald|popeyes|jeni|merit coffee|rose cafe|graduate|fairgrounds|eller bakery|earthbar|major food|van leeuwen|flower child|pret a manger|rumores|tienda bar|pura vida liquor|lavomatic|ozone|para club|pizzera|sandwich|bagel|donut|boba|tea house|wine|liquor|bar\\b|caffe|caff\\u00e8|osteria|trattoria|ristorante|brasserie|pub\\b|nando|wagamama|shake shack|o'?neills|oneills|rumba|alchemist|master wei|urumchi|pink mamma|chartie|caveau|haze\\b|lincontro|osteria|leone c|tibu\\b|bain de mer|sharivari|pez lola|gflv|profix|tao uptown|big bite|paul ory|fresh brot|kitchen|eatery|food hall|tapas|gelato|creperie|boulangerie|patisserie|brunch|diner\\b|cantina|izakaya|bistro|churrascaria|ceviche|poke|taqueria|wondertree|spo\\*oldflings|court 108|thcl|market place isla|newport beach- civic|regal newport|^tst[\\*\\- ]|la guerite|scarlett saint|bocca di lupo|banditos|avilas|todos santos|vincero|rampoldi|dodie's|brewed|splendid beer|fregate|viva casa",
+      "category": "meals_entertainment"
+    },
+    {
+      "name": "airlines",
+      "pattern": "airline|airlines|korean air|hk ?express|delta air|united air|southwest|american air|jetblue|alaska air|spirit air|frontier|cathay|\\ball nippon\\b|\\bana air|\\bjapan airlines\\b|emirates|qatar air|air canada|hkexpress|koreanair|easyjet|vueling|ryanair|british airways|air france|lufthansa|klm\\b|iberia|wizz|norwegian|swiss air|aer lingus|tap portugal|turkish air|etihad|singapore air|eva air|newrest travel|ground handl|inflight|vaa lax|virgin atlantic|omio\\b",
+      "category": "travel"
+    },
+    {
+      "name": "hotels",
+      "pattern": "hotel|ritz|marriott|hilton|hyatt|four seasons|airbnb|booking\\.com|expedia|hotels\\.com|amextravel|amex fine hot|signiel|hotel lotte|lotte hotel|parisian macao|grand prince|paradise hote|resort|palazzo|montemartini|sonesta|renaissanc|vanderbilt|condado|la concha|hostel|\\binn\\b|suites|bbmr reservations|\\blodge\\b|cpayment\\*|le ?roch|rosewood|montage laguna|goldener hirsch|phantomstays|las brisas|main park city|accor\\b|monaco",
+      "category": "travel"
+    },
+    {
+      "name": "ground transport",
+      "pattern": "uber(?!\\s*\\*?\\s*eats)|lyft|taxi|tmoney|suica|mtr|korail|parkmobile|parking|\\btoll\\b|hertz|avis|enterprise rent|turo|tap to ride|kokusaikougyo|klook|tfl travel|tfl\\.gov|airport cars|national rail|trainline|eurostar|renfe|sncf|ratp|bolt\\.eu|cabify|free now|\\bgrab\\b|city of newport beach|metro\\b|rail\\b",
+      "category": "travel"
+    },
+    {
+      "name": "fuel / car",
+      "pattern": "exxon|\\bshell\\b(?! ?fish)|chevron|\\b76 (gas|station|fuel)\\b|union 76|arco|conserv fuel|car wash|auto spa|aaa membership|mercedes-benz financial|tesla|mbfs\\.com|park place mo|fletcher jone",
+      "category": "travel"
+    },
+    {
+      "name": "Apple retail",
+      "pattern": "apple store",
+      "category": "office_misc"
+    },
+    {
+      "name": "retail / supplies",
+      "pattern": "best buy|amazon (mark|mktpl|reta|\\.com)|amzn|target|walgreens|cvs|7-eleven|7 eleven|-eleven|foxtrot|office depot|staples|home depot|costco|walmart|trader joe|whole foods|central market|ralphs|familymart|korail retail|emart|lotte mall|lotte imall|lotte shopping|olive young|harbour city|zigzag|flecture|gs25|cu\\b|whole ?foods|wholefds|lidl|osco|tesco|sainsbury|monoprix|carrefour|one stop|papersource|paper source|barnes & noble|apple\\.com/us|laundr|central marke|nespresso",
+      "category": "office_misc"
+    },
+    {
+      "name": "amazon digital / prime",
+      "pattern": "amazon prime|amazon digi|prime membership",
+      "category": "software_saas"
+    },
+    {
+      "name": "apparel (personal-looking)",
+      "pattern": "zara|ralph lauren|uniqlo|frlkorea|margiela|brooks brothers|lululemon|nike|adidas|nordstrom|macys|macy's|saks|gucci|prada|louis vuitton|coach\\b|allsaints|ray-?ban|h samuel|represent clo|the lot fashion|burberry|hermes|dior|balenciaga|off-white|ssense|farfetch|mr porter|end clothing|selfridges|harrods|golden goose|canada goose|polo factory|alo-yoga|alo yoga|dick's sport|guitar center",
+      "category": "other_opex",
+      "review": true,
+      "note": "apparel — likely personal / owner_draw unless wardrobe for shoots",
+      "policy": "personal_looking"
+    },
+    {
+      "name": "health / gym / spa (personal-looking)",
+      "pattern": "equinox|spa\\b|chiropract|barber|salon|dentist|pharmacy|dispensar|yakkook|haircut|hair cut|louies|raven barbers|optician|clinic|physio|massage",
+      "category": "other_opex",
+      "review": true,
+      "note": "likely personal — Brooks to confirm",
+      "policy": "personal_looking"
+    },
+    {
+      "name": "insurance",
+      "pattern": "insurance|zillion",
+      "category": "other_opex"
+    },
+    {
+      "name": "rent / office",
+      "pattern": "cedar at the bra|rent\\b|wework|regus|industrious",
+      "category": "office_misc",
+      "note": "Cedar at the Branch = rent"
+    },
+    {
+      "name": "wifi / telecom",
+      "pattern": "now wifi|at&t|verizon|t-mobile|xfinity|spectrum|google fi|mint mobile|airalo",
+      "category": "office_misc"
+    },
+    {
+      "name": "university",
+      "pattern": "southern methodist|smu\\b|asu undergrad|university|tuition",
+      "category": "other_opex",
+      "review": true,
+      "policy": "personal_looking"
+    },
+    {
+      "name": "entertainment venues",
+      "pattern": "ocean park|casino|club\\b|karaoke|darts|cinema|theatre|museum|aqua luna|ngong ping|giraffe japan|tickpick|tiqets|regal|amc\\b|zoo\\b|arcade|centre de loisir|fourvenues|klub|nightclub|lounge|cabaret|theater|stubhub|ticketmaster|fenway|kings back bay|greenville ave dallas|nba league pass|topgolf|hinge co|koru coins",
+      "category": "meals_entertainment",
+      "review": true,
+      "policy": "personal_looking"
+    }
+  ]
+}

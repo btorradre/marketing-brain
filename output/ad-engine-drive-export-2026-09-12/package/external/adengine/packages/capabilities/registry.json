@@ -1,0 +1,86 @@
+[
+  {
+    "id": "video-edit-analysis",
+    "name": "Analyze footage and build an edit plan",
+    "version": 1,
+    "owner_agent": "analysis_agent",
+    "handoff_agent": "editing_agent",
+    "description": "Analyze rushes, transitions, cuts, pacing and animations, then build an evidence-backed edit plan and pass it to the editing agent.",
+    "triggers": [
+      "analyze footage for editing",
+      "review rushes and select takes",
+      "break down cuts, transitions, pacing or animations",
+      "build an edit plan from a reference video",
+      "hand video analysis to the editing agent"
+    ],
+    "inputs": [
+      "reference and/or rush video assets",
+      "editing objective and constraints"
+    ],
+    "analysis_dimensions": [
+      "rushes",
+      "transitions",
+      "cuts",
+      "pacing",
+      "animations"
+    ],
+    "agent_instructions": "Own the complete analysis-to-plan task. Inspect the source footage, identify usable takes and editing mechanics, decide how those findings translate into the requested edit, and produce the validated edit-plan asset. Scene descriptions are supporting observations, not the completion artifact. Use frame-window inspection for uncertain or rapid events. Explain the edit decisions, retain source evidence, and leave unsupported or unverified requirements unresolved. Pass the saved edit-plan asset id to the editing agent, who reads it through get_edit_plan before using the internal editor. Use Gemini 3.8 Flash (gemini-3.8-flash) for every visual-analysis pass; no older-model fallback.",
+    "workflow": [
+      {
+        "stage": "inspect",
+        "tools": [
+          "watch_reference",
+          "get_watch_manifest",
+          "review_video_frames",
+          "get_job"
+        ],
+        "output": "Timed source observations and frame evidence across all five analysis dimensions"
+      },
+      {
+        "stage": "plan",
+        "tools": [
+          "get_edit_plan_contract",
+          "save_edit_plan"
+        ],
+        "output": "Validated edit plan with source selects, cuts, transitions, pacing, animations, audio and QA checks"
+      },
+      {
+        "stage": "handoff",
+        "tools": [
+          "get_edit_plan"
+        ],
+        "output": "Edit-plan asset id passed to the editing agent with evidence and acceptance checks"
+      }
+    ],
+    "completion": {
+      "artifact_kind": "edit_plan",
+      "status": "ready_for_editor",
+      "required_result_fields": [
+        "capability_id",
+        "asset_id",
+        "status",
+        "handoff_agent"
+      ],
+      "insufficient_outputs": [
+        "scene descriptions",
+        "shot list alone",
+        "watch manifest alone",
+        "unvalidated prose editing suggestions"
+      ]
+    },
+    "playbook": "video-analysis-edit-handoff",
+    "editor": "@adengine/timeline",
+    "execution_model": "Calling agent reasons and invokes the workflow tools; this capability does not automatically launch another agent.",
+    "validation_status": "Contract and timeline compilation tested; live model perception and rendered results require separate validation.",
+    "visual_analysis": {
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "fallback_allowed": false,
+      "applies_to": [
+        "reference and rush video analysis",
+        "image and keyframe QA",
+        "detailed frame review"
+      ]
+    }
+  }
+]

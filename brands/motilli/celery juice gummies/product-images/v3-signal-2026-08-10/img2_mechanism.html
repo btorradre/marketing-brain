@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:2048px;height:2048px;overflow:hidden}
+  body{
+    font-family:'Poppins',-apple-system,'Avenir Next',Helvetica,sans-serif;
+    background:#0E2F18;position:relative;color:#fff;
+  }
+  .glow{position:absolute;inset:0;
+    background:
+      radial-gradient(760px 620px at 88% 12%, rgba(126,190,90,.20), transparent 62%),
+      radial-gradient(900px 760px at 6% 92%, rgba(126,190,90,.16), transparent 60%);}
+  .stage{position:relative;width:2048px;height:2048px;padding:120px 100px;}
+
+  h1{font-size:132px;font-weight:800;line-height:1.03;letter-spacing:-2.6px;}
+  h1 .lo{color:#A9D77E;}
+  .kicker{font-size:40px;font-weight:600;letter-spacing:6px;text-transform:uppercase;
+          color:#8FC46A;margin-bottom:30px;}
+
+  .cards{margin-top:86px;display:flex;gap:34px;}
+  .card{flex:1;min-height:430px;background:rgba(255,255,255,.09);border:2px solid rgba(255,255,255,.16);
+        border-radius:40px;padding:44px 40px 48px;backdrop-filter:blur(2px);}
+  .num{width:82px;height:82px;border-radius:50%;background:#fff;color:#0E2F18;
+       font-size:46px;font-weight:800;display:flex;align-items:center;justify-content:center;
+       margin-bottom:34px;}
+  .card h3{font-size:58px;font-weight:700;line-height:1.08;margin-bottom:20px;letter-spacing:-.8px}
+  .card p{font-size:38px;font-weight:400;line-height:1.35;color:#DCEBCE}
+
+  .bottom{position:absolute;left:100px;right:100px;bottom:118px;
+          display:flex;align-items:flex-end;justify-content:space-between;gap:40px;}
+  .outcome{max-width:1080px}
+  .outcome .lbl{font-size:40px;font-weight:600;letter-spacing:5px;text-transform:uppercase;
+                color:#8FC46A;margin-bottom:24px}
+  .outcome .list{font-size:62px;font-weight:600;line-height:1.28;color:#fff;letter-spacing:-.6px}
+  .outcome .list span{color:#A9D77E;padding:0 14px}
+  .bottles{display:flex;align-items:flex-end;gap:-40px;position:relative;width:660px;height:640px}
+  .bottles img{position:absolute;bottom:0;filter:drop-shadow(0 30px 46px rgba(0,0,0,.45))}
+  .b1{left:0;width:300px;opacity:.92}
+  .b2{left:170px;width:390px;z-index:2}
+  .b3{left:392px;width:300px;opacity:.92}
+</style></head>
+<body>
+  <div class="glow"></div>
+  <div class="stage">
+    <div class="kicker">Built for a GLP-1 gut</div>
+    <h1>Stop Forcing the Exit.<br><span class="lo">Restore the Signal.</span></h1>
+
+    <div class="cards">
+      <div class="card">
+        <div class="num">1</div>
+        <h3>Restores the Signal</h3>
+        <p>Apigenin from celery juice supports the gut-brain signal your medication turns down.</p>
+      </div>
+      <div class="card">
+        <div class="num">2</div>
+        <h3>Clears the Sulfur</h3>
+        <p>Chlorophyll neutralizes the hydrogen sulfide behind rotten-egg burps, at the source.</p>
+      </div>
+      <div class="card">
+        <div class="num">3</div>
+        <h3>Keeps Water In</h3>
+        <p>Low-viscosity soluble fiber holds moisture in the stool without ever adding bulk.</p>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="outcome">
+        <div class="lbl">The outcome</div>
+        <div class="list">Less bloating<span>·</span>Fewer sulfur burps<br>Mornings you can count on</div>
+      </div>
+      <div class="bottles">
+        <img class="b1" src="bottle_cut.png">
+        <img class="b3" src="bottle_cut.png">
+        <img class="b2" src="bottle_cut.png">
+      </div>
+    </div>
+  </div>
+</body></html>

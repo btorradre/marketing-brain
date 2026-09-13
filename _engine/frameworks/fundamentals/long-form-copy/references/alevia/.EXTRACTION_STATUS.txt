@@ -1,0 +1,35 @@
+ALEVIA AD EXTRACTION STATUS
+===========================
+Date: 2026-03-26
+Source: Meta Ad Library (facebook.com/ads/library/)
+
+ADS VERIFIED IN BROWSER:
+- Ad 2 (index 1): window.AD2_COMPLETE = 27,533 chars
+  Hook: "Got my lab results back today. LDL 216..."
+  Type: story-dominant, cholesterol diary
+  Product: Alevia Amla
+
+- Ad 3 (index 2): window.AD3_COMPLETE = 16,805 chars  
+  Hook: "If you're living with osteoarthritis..."
+  Type: mechanism-dominant, orthopedic surgeon
+  Product: Alevia Amla
+
+- Ad 4 (index 3): window.AD4_COMPLETE = 20,158 chars
+  Hook: "My cholesterol hit 253 at age 48..."
+  Type: story-dominant, 13-year story
+  Product: Alevia Amla
+
+STORAGE LOCATION:
+- Browser localStorage: FINAL_WRITE_*, EXPORT_FULL_*, formatted_*, final_*
+- Browser window globals: window.finalExport.ads, window.completedAds, window.AD*_COMPLETE
+- Browser DOM: textarea#export-ad2, textarea#export-ad3, textarea#export-ad4
+
+EXTRACTION METHOD:
+The ads were extracted from the Meta Ad Library by:
+1. Identifying 4 total ads on the page via DOM query (querySelectorAll + text content filtering)
+2. Extracting ads 2, 3, 4 (indexes 1, 2, 3) from the page
+3. Formatting with headers (hook, length, product, architecture)
+4. Splitting into chunks to handle JavaScript tool output truncation
+5. Reconstructing in quarters and verifying against expected lengths
+
+All three ads are complete and verified. Ready for file writing.

@@ -1,0 +1,170 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "hero-film",
+      "settings": {
+        "link": "/products/velantra-vivienne"
+      }
+    },
+    "philosophy": {
+      "type": "editorial-text",
+      "settings": {
+        "eyebrow": "Philosophy",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "text": "<p>Some pieces speak for themselves.</p><p>In the curve of a handle, the warmth of leather, and the way a bag becomes part of your day.<br>Velantra is a collection for that feeling. Beautiful to carry. Entirely your own.</p>"
+      }
+    },
+    "triptych": {
+      "type": "image-gallery",
+      "settings": {
+        "columns": 3,
+        "ratio": "4/5"
+      },
+      "blocks": {
+        "image1": {
+          "type": "image",
+          "settings": {
+            "default_asset": "vivienne-editorial-1.jpg",
+            "alt": "The Vivienne, a study in everyday elegance",
+            "link": "/products/velantra-vivienne"
+          }
+        },
+        "image2": {
+          "type": "image",
+          "settings": {
+            "default_asset": "vivienne-editorial-2.jpg",
+            "alt": "The Vivienne, a study in everyday elegance",
+            "link": "/products/velantra-vivienne"
+          }
+        },
+        "image3": {
+          "type": "image",
+          "settings": {
+            "default_asset": "vivienne-editorial-3.jpg",
+            "alt": "The Vivienne, a study in everyday elegance",
+            "link": "/products/velantra-vivienne"
+          }
+        }
+      },
+      "block_order": [
+        "image1",
+        "image2",
+        "image3"
+      ]
+    },
+    "atelier": {
+      "type": "editorial-text",
+      "settings": {
+        "eyebrow": "The Vivienne",
+        "heading": "A QUIET PRESENCE",
+        "text": "<p>Vegetable-tanned leather. A belted brass closure. A silhouette with a life of its own.</p><p>Our bestselling top handle bag, made for everything the day holds.</p>",
+        "label": "Discover The Vivienne",
+        "link": "/products/velantra-vivienne"
+      }
+    },
+    "collection": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "THE EVERYDAY COLLECTION",
+        "columns": 2,
+        "limit": 2
+      }
+    },
+    "detail": {
+      "type": "image-with-text",
+      "settings": {
+        "default_asset": "vivienne-detail.jpg",
+        "eyebrow": "Our approach",
+        "heading": "BEAUTY IN THE EVERYDAY",
+        "text": "<p>The bag you carry should feel like you.</p><p>We focus on the things you touch and use: tactile materials, thoughtful proportions, and details that earn their place.</p><p>With the Vivienne, one vegetable-tanned leather runs through every panel, from the body to the corners, gussets, and piping.</p>",
+        "link": "/products/velantra-vivienne"
+      },
+      "blocks": {
+        "material": {
+          "type": "value",
+          "settings": {
+            "label": "The Vivienne",
+            "value": "Vegetable-tanned leather"
+          }
+        },
+        "hardware": {
+          "type": "value",
+          "settings": {
+            "label": "The detail",
+            "value": "Belted brass closure"
+          }
+        },
+        "signature": {
+          "type": "value",
+          "settings": {
+            "label": "The signature",
+            "value": "Luxury without the logo"
+          }
+        }
+      },
+      "block_order": [
+        "material",
+        "hardware",
+        "signature"
+      ]
+    },
+    "closing": {
+      "type": "editorial-text",
+      "settings": {
+        "eyebrow": "The edit",
+        "heading": "WELL CARRIED",
+        "text": "<p>For the everyday, and the days you remember.</p>",
+        "label": "Explore the collection",
+        "link": "/collections/all"
+      }
+    },
+    "wide": {
+      "type": "image-gallery",
+      "settings": {
+        "columns": 1,
+        "ratio": "21/9",
+        "gap": 0,
+        "padding": 0
+      },
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "default_asset": "vivienne-studio-wide.jpg",
+            "alt": "The Vivienne in the studio",
+            "link": "/products/velantra-vivienne"
+          }
+        }
+      },
+      "block_order": [
+        "image"
+      ]
+    },
+    "macro": {
+      "type": "detail-film",
+      "settings": {
+        "description": "A closer look at Vivienne leather and hardware"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "philosophy",
+    "triptych",
+    "wide",
+    "atelier",
+    "collection",
+    "macro",
+    "detail",
+    "closing"
+  ]
+}

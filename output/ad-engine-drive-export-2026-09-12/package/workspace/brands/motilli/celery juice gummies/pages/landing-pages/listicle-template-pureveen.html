@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{PAGE_TITLE}}</title>
+<style>
+  :root {
+    --teal: #2BA89F;
+    --teal-dark: #228A82;
+    --teal-light: #E8F6F4;
+    --charcoal: #1F2937;
+    --text: #333333;
+    --muted: #6B7280;
+    --bg: #FFFFFF;
+    --bg-alt: #F9FAFB;
+    --callout-bg: #F5F5F5;
+    --border: #E5E7EB;
+    --star: #FFC107;
+    --urgent: #DC2626;
+    --urgent-bg: #FEF2F2;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  img { max-width: 100%; height: auto; display: block; }
+
+  a { color: var(--teal); text-decoration: none; }
+  a:hover { color: var(--teal-dark); }
+
+  /* ============ ANNOUNCEMENT BAR ============ */
+  .announcement-bar {
+    background: var(--charcoal);
+    color: #fff;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .announcement-bar strong { color: #FCD34D; }
+
+  /* ============ HEADER ============ */
+  .header {
+    border-bottom: 1px solid var(--border);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 24px;
+  }
+  .header-nav { display: flex; gap: 24px; font-size: 14px; color: var(--charcoal); font-weight: 500; }
+  .header-nav a { color: var(--charcoal); }
+  .header-logo { text-align: center; }
+  .header-logo img { max-height: 40px; margin: 0 auto; }
+  .header-logo .logo-text { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; color: var(--charcoal); }
+  .header-actions { display: flex; justify-content: flex-end; gap: 16px; align-items: center; font-size: 14px; }
+  .cart-icon { position: relative; }
+  .cart-badge {
+    position: absolute; top: -6px; right: -10px;
+    background: var(--teal); color: #fff;
+    border-radius: 50%; font-size: 11px;
+    width: 18px; height: 18px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700;
+  }
+
+  /* ============ LAYOUT ============ */
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  .narrow { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  /* ============ HERO ============ */
+  .hero {
+    padding: 60px 0 40px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 800;
+    color: var(--charcoal);
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+  }
+  .hero .subhead {
+    font-size: 18px;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 32px;
+  }
+  .hero-cta {
+    margin-bottom: 40px;
+  }
+  .hero-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .hero-image-placeholder {
+    background: var(--bg-alt);
+    border: 1px dashed var(--border);
+    aspect-ratio: 16/9;
+    max-width: 760px;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-style: italic;
+  }
+
+  /* ============ BUTTONS ============ */
+  .btn {
+    display: inline-block;
+    background: var(--teal);
+    color: #fff !important;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 16px 36px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(43, 168, 159, 0.25);
+  }
+  .btn:hover {
+    background: var(--teal-dark);
+    color: #fff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(43, 168, 159, 0.35);
+  }
+  .btn-large {
+    font-size: 19px;
+    padding: 20px 48px;
+  }
+  .btn-full { display: block; width: 100%; text-align: center; }
+
+  .cta-wrap { text-align: center; padding: 32px 0; }
+
+  /* ============ INTRO ============ */
+  .intro {
+    padding: 40px 0 60px;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+  .intro p { margin-bottom: 20px; }
+  .intro .dialogue {
+    background: var(--bg-alt);
+    border-left: 4px solid var(--teal);
+    padding: 20px 24px;
+    margin: 28px 0;
+    font-style: italic;
+    border-radius: 0 8px 8px 0;
+  }
+  .mechanism-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+  }
+  .mechanism-circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: var(--teal-light);
+    border: 3px solid var(--teal);
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--charcoal);
+  }
+  .mechanism-arrow {
+    font-size: 32px;
+    color: var(--teal);
+    font-weight: 700;
+  }
+
+  /* ============ NUMBERED LIST ITEMS ============ */
+  .list-item {
+    padding: 60px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .list-item:nth-child(even) { background: var(--bg-alt); }
+
+  .list-item-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .list-item-content .number {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--teal);
+    line-height: 1;
+    margin-bottom: 8px;
+    letter-spacing: -2px;
+  }
+  .list-item-content h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: var(--charcoal);
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+  }
+  .list-item-content p { margin-bottom: 16px; }
+
+  .list-item-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  .list-item-image-placeholder {
+    background: #fff;
+    border: 1px dashed var(--border);
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-style: italic;
+  }
+
+  /* ============ QUOTE CALLOUT ============ */
+  .quote-callout {
+    background: var(--callout-bg);
+    border-left: 4px solid var(--teal);
+    padding: 18px 22px;
+    margin: 24px 0;
+    font-style: italic;
+    border-radius: 0 6px 6px 0;
+    font-size: 16px;
+    color: #444;
+  }
+  .quote-callout .author {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--charcoal);
+  }
+  .quote-callout .stars {
+    color: var(--star);
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  /* ============ TIMELINE ============ */
+  .timeline-section {
+    padding: 80px 0;
+    background: var(--bg-alt);
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .section-header h2 {
+    font-size: 38px;
+    font-weight: 800;
+    color: var(--charcoal);
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+  .section-header p {
+    font-size: 18px;
+    color: var(--muted);
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .timeline-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 28px 22px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-top: 4px solid var(--teal);
+  }
+  .timeline-card .phase {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .timeline-card h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--charcoal);
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+  .timeline-card p { font-size: 15px; color: var(--text); }
+
+  /* ============ COMPARISON TABLE ============ */
+  .comparison-section { padding: 80px 0; }
+  .comparison-table {
+    max-width: 980px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  }
+  .comparison-table table { width: 100%; border-collapse: collapse; }
+  .comparison-table th {
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .comparison-table th:first-child {
+    background: #4B5563;
+    color: #fff;
+  }
+  .comparison-table th:last-child {
+    background: var(--teal);
+    color: #fff;
+  }
+  .comparison-table td {
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--border);
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+    width: 50%;
+    vertical-align: top;
+  }
+  .comparison-table td:first-child { color: #6B7280; }
+  .comparison-table td:first-child::before { content: "✗  "; color: #EF4444; font-weight: 700; }
+  .comparison-table td:last-child { color: var(--charcoal); font-weight: 500; }
+  .comparison-table td:last-child::before { content: "✓  "; color: var(--teal); font-weight: 700; }
+  .comparison-table tr:last-child td { border-bottom: none; }
+
+  /* ============ PURCHASE SECTION ============ */
+  .purchase-section {
+    padding: 80px 0;
+    background: var(--bg-alt);
+  }
+  .purchase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    align-items: center;
+  }
+  .purchase-content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--charcoal);
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+  }
+  .purchase-savings {
+    display: inline-block;
+    background: var(--urgent-bg);
+    color: var(--urgent);
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .benefit-list {
+    list-style: none;
+    margin: 24px 0;
+  }
+  .benefit-list li {
+    padding: 10px 0 10px 32px;
+    position: relative;
+    font-size: 16px;
+  }
+  .benefit-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: var(--teal);
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .imagine-block {
+    background: var(--teal-light);
+    border-left: 4px solid var(--teal);
+    padding: 24px 28px;
+    margin: 28px 0;
+    border-radius: 0 8px 8px 0;
+  }
+  .imagine-block h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--charcoal);
+    margin-bottom: 14px;
+  }
+  .imagine-block ul { list-style: none; }
+  .imagine-block li {
+    padding: 6px 0 6px 28px;
+    position: relative;
+    font-size: 16px;
+  }
+  .imagine-block li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--teal);
+    font-weight: 700;
+  }
+
+  /* ============ PRODUCT CARD ============ */
+  .product-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  .product-image-wrap {
+    margin-bottom: 20px;
+    background: var(--bg-alt);
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--muted);
+    font-style: italic;
+    overflow: hidden;
+  }
+  .product-name {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--charcoal);
+    margin-bottom: 6px;
+  }
+  .product-subtitle {
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .price-row {
+    display: flex; justify-content: center; align-items: baseline;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .price-old {
+    color: var(--muted);
+    text-decoration: line-through;
+    font-size: 20px;
+  }
+  .price-new {
+    color: var(--teal);
+    font-weight: 800;
+    font-size: 32px;
+  }
+  .price-meta {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 18px;
+  }
+  .shipping-callout {
+    background: var(--teal-light);
+    color: var(--teal-dark);
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .stock-bar-wrap { margin: 20px 0; text-align: left; }
+  .stock-bar-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--urgent);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .stock-bar {
+    height: 10px;
+    background: var(--border);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .stock-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--teal), #F59E0B);
+    width: 83%;
+  }
+  .stock-bar-meta {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .trust-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .trust-row div { text-align: center; }
+  .trust-row .trust-icon { font-size: 22px; margin-bottom: 4px; color: var(--teal); }
+
+  /* ============ TESTIMONIALS ============ */
+  .testimonials-section { padding: 80px 0; }
+  .rating-summary {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .rating-summary .big-stars {
+    color: var(--star);
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+  }
+  .rating-summary .rating-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--charcoal);
+  }
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .testimonial-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    text-align: center;
+  }
+  .testimonial-photo {
+    width: 70px; height: 70px;
+    border-radius: 50%;
+    background: var(--bg-alt);
+    margin: 0 auto 12px;
+    overflow: hidden;
+    border: 3px solid var(--teal-light);
+  }
+  .testimonial-photo-placeholder {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--muted);
+    font-size: 11px;
+    font-style: italic;
+  }
+  .testimonial-card .stars {
+    color: var(--star);
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .testimonial-card .quote {
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--text);
+    margin-bottom: 12px;
+    font-style: italic;
+  }
+  .testimonial-card .name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--charcoal);
+  }
+  .testimonial-card .verified {
+    font-size: 11px;
+    color: var(--teal);
+    margin-top: 4px;
+    font-weight: 600;
+  }
+
+  /* ============ GUARANTEE BADGE ============ */
+  .guarantee-section {
+    background: var(--charcoal);
+    color: #fff;
+    padding: 60px 24px;
+    text-align: center;
+  }
+  .guarantee-section h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  .guarantee-section p {
+    max-width: 640px;
+    margin: 0 auto;
+    color: #D1D5DB;
+    font-size: 17px;
+  }
+  .guarantee-badge {
+    display: inline-block;
+    background: var(--teal);
+    color: #fff;
+    width: 140px; height: 140px;
+    border-radius: 50%;
+    line-height: 1.1;
+    display: inline-flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    font-weight: 800;
+    margin-bottom: 24px;
+    border: 4px solid #fff;
+  }
+  .guarantee-badge .big { font-size: 36px; }
+  .guarantee-badge .small { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+  /* ============ FOOTER ============ */
+  .footer {
+    background: #111827;
+    color: #9CA3AF;
+    padding: 48px 24px 32px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  .footer-links a { color: #D1D5DB; }
+  .footer-disclaimer {
+    max-width: 800px;
+    margin: 0 auto 16px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #6B7280;
+  }
+  .footer-copyright { font-size: 12px; color: #6B7280; }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 900px) {
+    .header-inner { grid-template-columns: 1fr 1fr; }
+    .header-nav { display: none; }
+    .hero { padding: 40px 0 24px; }
+    .hero h1 { font-size: 32px; }
+    .hero .subhead { font-size: 16px; }
+    .list-item { padding: 40px 0; }
+    .list-item-inner { grid-template-columns: 1fr; gap: 24px; }
+    .list-item-content .number { font-size: 52px; }
+    .list-item-content h2 { font-size: 26px; }
+    .timeline-grid { grid-template-columns: 1fr 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr 1fr; }
+    .purchase-grid { grid-template-columns: 1fr; gap: 32px; }
+    .purchase-content h2 { font-size: 28px; }
+    .section-header h2 { font-size: 28px; }
+    .comparison-table th, .comparison-table td { padding: 14px; font-size: 14px; }
+    .mechanism-circle { width: 130px; height: 130px; font-size: 13px; }
+    .mechanism-arrow { transform: rotate(90deg); }
+  }
+  @media (max-width: 540px) {
+    body { font-size: 16px; }
+    .hero h1 { font-size: 26px; }
+    .timeline-grid { grid-template-columns: 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .btn { width: 100%; padding: 16px 24px; font-size: 16px; }
+    .btn-large { font-size: 17px; padding: 18px 24px; }
+    .section-header h2 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ ANNOUNCEMENT BAR ============ -->
+<div class="announcement-bar">
+  <strong>{{ANNOUNCEMENT_PREFIX}}</strong> {{ANNOUNCEMENT_TEXT}}
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="header-inner">
+    <nav class="header-nav">
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+      <a href="#">Order Tracking</a>
+    </nav>
+    <div class="header-logo">
+      <!-- Replace .logo-text with <img src="{{LOGO_URL}}" alt="{{PRODUCT_NAME}}"> for an image logo -->
+      <div class="logo-text">{{PRODUCT_NAME}}</div>
+    </div>
+    <div class="header-actions">
+      <a href="#">Log in</a>
+      <a href="#" class="cart-icon">Cart <span class="cart-badge">0</span></a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="narrow">
+    <h1>{{HERO_HEADLINE}}</h1>
+    <div class="subhead">{{HERO_SUBHEADLINE}}</div>
+    <div class="hero-cta">
+      <a href="#buy" class="btn btn-large">{{HERO_CTA_TEXT}}</a>
+    </div>
+    <!-- Replace placeholder with: <img class="hero-image" src="{{HERO_IMAGE}}" alt="{{HERO_IMAGE_ALT}}"> -->
+    <div class="hero-image-placeholder">{{HERO_IMAGE}} — hero image placeholder</div>
+  </div>
+</section>
+
+<!-- ============ NARRATIVE INTRO ============ -->
+<section class="intro">
+  <div class="narrow">
+    <p>{{INTRO_PARAGRAPH_1}}</p>
+
+    <div class="dialogue">
+      <p>{{INTRO_DIALOGUE_OR_QUOTE}}</p>
+    </div>
+
+    <p>{{INTRO_PARAGRAPH_2}}</p>
+
+    <!-- 3-circle mechanism diagram -->
+    <div class="mechanism-diagram">
+      <div class="mechanism-circle">{{MECHANISM_STEP_1}}</div>
+      <div class="mechanism-arrow">→</div>
+      <div class="mechanism-circle">{{MECHANISM_STEP_2}}</div>
+      <div class="mechanism-arrow">→</div>
+      <div class="mechanism-circle">{{MECHANISM_STEP_3}}</div>
+    </div>
+
+    <p>{{INTRO_PARAGRAPH_3}}</p>
+  </div>
+</section>
+
+<!-- ============ LIST ITEM 1 ============ -->
+<section class="list-item" id="list-item-1">
+  <div class="list-item-inner">
+    <div class="list-item-content">
+      <div class="number">1.</div>
+      <h2>{{SECTION_1_HEADLINE}}</h2>
+      <p>{{SECTION_1_BODY_1}}</p>
+      <p>{{SECTION_1_BODY_2}}</p>
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{SECTION_1_QUOTE}}"
+        <span class="author">— {{SECTION_1_QUOTE_AUTHOR}}</span>
+      </div>
+    </div>
+    <div class="list-item-image-placeholder">{{SECTION_1_IMAGE}} — section 1 image</div>
+  </div>
+</section>
+
+<!-- ============ LIST ITEM 2 ============ -->
+<section class="list-item" id="list-item-2">
+  <div class="list-item-inner">
+    <div class="list-item-content">
+      <div class="number">2.</div>
+      <h2>{{SECTION_2_HEADLINE}}</h2>
+      <p>{{SECTION_2_BODY_1}}</p>
+      <p>{{SECTION_2_BODY_2}}</p>
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{SECTION_2_QUOTE}}"
+        <span class="author">— {{SECTION_2_QUOTE_AUTHOR}}</span>
+      </div>
+    </div>
+    <div class="list-item-image-placeholder">{{SECTION_2_IMAGE}} — section 2 image</div>
+  </div>
+</section>
+
+<!-- ============ CTA #1 (after section 2) ============ -->
+<div class="cta-wrap">
+  <a href="#buy" class="btn btn-large">GET {{PRODUCT_NAME_UPPER}} NOW</a>
+</div>
+
+<!-- ============ LIST ITEM 3 ============ -->
+<section class="list-item" id="list-item-3">
+  <div class="list-item-inner">
+    <div class="list-item-content">
+      <div class="number">3.</div>
+      <h2>{{SECTION_3_HEADLINE}}</h2>
+      <p>{{SECTION_3_BODY_1}}</p>
+      <p>{{SECTION_3_BODY_2}}</p>
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{SECTION_3_QUOTE_1}}"
+        <span class="author">— {{SECTION_3_QUOTE_1_AUTHOR}}</span>
+      </div>
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{SECTION_3_QUOTE_2}}"
+        <span class="author">— {{SECTION_3_QUOTE_2_AUTHOR}}</span>
+      </div>
+    </div>
+    <div class="list-item-image-placeholder">{{SECTION_3_IMAGE}} — section 3 image</div>
+  </div>
+</section>
+
+<!-- ============ LIST ITEM 4 ============ -->
+<section class="list-item" id="list-item-4">
+  <div class="list-item-inner">
+    <div class="list-item-content">
+      <div class="number">4.</div>
+      <h2>{{SECTION_4_HEADLINE}}</h2>
+      <p>{{SECTION_4_BODY_1}}</p>
+      <p>{{SECTION_4_BODY_2}}</p>
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{SECTION_4_QUOTE}}"
+        <span class="author">— {{SECTION_4_QUOTE_AUTHOR}}</span>
+      </div>
+    </div>
+    <div class="list-item-image-placeholder">{{SECTION_4_IMAGE}} — section 4 image</div>
+  </div>
+</section>
+
+<!-- ============ LIST ITEM 5 ============ -->
+<section class="list-item" id="list-item-5">
+  <div class="list-item-inner">
+    <div class="list-item-content">
+      <div class="number">5.</div>
+      <h2>{{SECTION_5_HEADLINE}}</h2>
+      <p>{{SECTION_5_BODY_1}}</p>
+
+      <p><strong>No more:</strong></p>
+      <ul class="benefit-list">
+        <li>{{SECTION_5_NO_MORE_1}}</li>
+        <li>{{SECTION_5_NO_MORE_2}}</li>
+        <li>{{SECTION_5_NO_MORE_3}}</li>
+        <li>{{SECTION_5_NO_MORE_4}}</li>
+        <li>{{SECTION_5_NO_MORE_5}}</li>
+      </ul>
+
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{SECTION_5_QUOTE_1}}"
+        <span class="author">— {{SECTION_5_QUOTE_1_AUTHOR}}</span>
+      </div>
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{SECTION_5_QUOTE_2}}"
+        <span class="author">— {{SECTION_5_QUOTE_2_AUTHOR}}</span>
+      </div>
+    </div>
+    <div class="list-item-image-placeholder">{{SECTION_5_IMAGE}} — section 5 image</div>
+  </div>
+</section>
+
+<!-- ============ CTA #2 (after section 5) ============ -->
+<div class="cta-wrap">
+  <a href="#buy" class="btn btn-large">GET {{PRODUCT_NAME_UPPER}} NOW</a>
+</div>
+
+<!-- ============ 90-DAY TIMELINE ============ -->
+<section class="timeline-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Your 90-Day Transformation Timeline</h2>
+      <p>{{TIMELINE_SUBHEAD}}</p>
+    </div>
+    <div class="timeline-grid">
+      <div class="timeline-card">
+        <div class="phase">Weeks 1–2</div>
+        <h3>{{TIMELINE_1_HEADLINE}}</h3>
+        <p>{{TIMELINE_1_BODY}}</p>
+      </div>
+      <div class="timeline-card">
+        <div class="phase">Weeks 3–4</div>
+        <h3>{{TIMELINE_2_HEADLINE}}</h3>
+        <p>{{TIMELINE_2_BODY}}</p>
+      </div>
+      <div class="timeline-card">
+        <div class="phase">Weeks 5–8</div>
+        <h3>{{TIMELINE_3_HEADLINE}}</h3>
+        <p>{{TIMELINE_3_BODY}}</p>
+      </div>
+      <div class="timeline-card">
+        <div class="phase">Weeks 9–12</div>
+        <h3>{{TIMELINE_4_HEADLINE}}</h3>
+        <p>{{TIMELINE_4_BODY}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARISON TABLE ============ -->
+<section class="comparison-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Most Solutions Get Wrong vs. What {{PRODUCT_NAME}} Does Right</h2>
+    </div>
+    <div class="comparison-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Other Solutions</th>
+            <th>{{PRODUCT_NAME}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>{{COMPARE_BAD_1}}</td><td>{{COMPARE_GOOD_1}}</td></tr>
+          <tr><td>{{COMPARE_BAD_2}}</td><td>{{COMPARE_GOOD_2}}</td></tr>
+          <tr><td>{{COMPARE_BAD_3}}</td><td>{{COMPARE_GOOD_3}}</td></tr>
+          <tr><td>{{COMPARE_BAD_4}}</td><td>{{COMPARE_GOOD_4}}</td></tr>
+          <tr><td>{{COMPARE_BAD_5}}</td><td>{{COMPARE_GOOD_5}}</td></tr>
+          <tr><td>{{COMPARE_BAD_6}}</td><td>{{COMPARE_GOOD_6}}</td></tr>
+          <tr><td>{{COMPARE_BAD_7}}</td><td>{{COMPARE_GOOD_7}}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PURCHASE SECTION ============ -->
+<section class="purchase-section" id="buy">
+  <div class="purchase-grid">
+    <div class="purchase-content">
+      <div class="purchase-savings">{{PURCHASE_SAVINGS_BADGE}}</div>
+      <h2>{{PURCHASE_HEADLINE}}</h2>
+
+      <ul class="benefit-list">
+        <li>{{PURCHASE_BENEFIT_1}}</li>
+        <li>{{PURCHASE_BENEFIT_2}}</li>
+        <li>{{PURCHASE_BENEFIT_3}}</li>
+        <li>{{PURCHASE_BENEFIT_4}}</li>
+        <li>{{PURCHASE_BENEFIT_5}}</li>
+        <li>{{PURCHASE_BENEFIT_6}}</li>
+        <li>{{PURCHASE_BENEFIT_7}}</li>
+      </ul>
+
+      <div class="quote-callout">
+        <div class="stars">★★★★★</div>
+        "{{PURCHASE_QUOTE}}"
+        <span class="author">— {{PURCHASE_QUOTE_AUTHOR}}</span>
+      </div>
+
+      <div class="imagine-block">
+        <h3>Imagine in just 90 days:</h3>
+        <ul>
+          <li>{{IMAGINE_1}}</li>
+          <li>{{IMAGINE_2}}</li>
+          <li>{{IMAGINE_3}}</li>
+          <li>{{IMAGINE_4}}</li>
+          <li>{{IMAGINE_5}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PRODUCT CARD -->
+    <div class="product-card">
+      <div class="product-image-wrap">{{PRODUCT_IMAGE}} — product bottle image</div>
+      <div class="product-name">{{PRODUCT_NAME}}</div>
+      <div class="product-subtitle">{{PRODUCT_SUBTITLE}}</div>
+
+      <div class="price-row">
+        <span class="price-old">{{PRICE_OLD}}</span>
+        <span class="price-new">{{PRICE_NEW}}</span>
+      </div>
+      <div class="price-meta">{{PRICE_META}}</div>
+
+      <div class="shipping-callout">{{SHIPPING_CALLOUT}}</div>
+
+      <a href="#" class="btn btn-large btn-full">ADD TO CART</a>
+
+      <div class="stock-bar-wrap">
+        <div class="stock-bar-label">⚡ {{STOCK_LABEL}}</div>
+        <div class="stock-bar"><div class="stock-bar-fill"></div></div>
+        <div class="stock-bar-meta">{{STOCK_META}}</div>
+      </div>
+
+      <div class="trust-row">
+        <div><div class="trust-icon">🛡️</div>90-Day<br>Guarantee</div>
+        <div><div class="trust-icon">🚚</div>Free<br>Shipping</div>
+        <div><div class="trust-icon">🔒</div>Secure<br>Checkout</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="rating-summary">
+      <div class="big-stars">★★★★★</div>
+      <div class="rating-text">{{RATING_VALUE}} | {{RATING_COUNT}}</div>
+    </div>
+    <div class="section-header">
+      <h2>{{TESTIMONIALS_HEADLINE}}</h2>
+      <p>{{TESTIMONIALS_SUBHEAD}}</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-photo"><div class="testimonial-photo-placeholder">photo</div></div>
+        <div class="stars">★★★★★</div>
+        <div class="quote">"{{TESTIMONIAL_1_QUOTE}}"</div>
+        <div class="name">{{TESTIMONIAL_1_NAME}}</div>
+        <div class="verified">✓ Verified Buyer</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-photo"><div class="testimonial-photo-placeholder">photo</div></div>
+        <div class="stars">★★★★★</div>
+        <div class="quote">"{{TESTIMONIAL_2_QUOTE}}"</div>
+        <div class="name">{{TESTIMONIAL_2_NAME}}</div>
+        <div class="verified">✓ Verified Buyer</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-photo"><div class="testimonial-photo-placeholder">photo</div></div>
+        <div class="stars">★★★★★</div>
+        <div class="quote">"{{TESTIMONIAL_3_QUOTE}}"</div>
+        <div class="name">{{TESTIMONIAL_3_NAME}}</div>
+        <div class="verified">✓ Verified Buyer</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-photo"><div class="testimonial-photo-placeholder">photo</div></div>
+        <div class="stars">★★★★★</div>
+        <div class="quote">"{{TESTIMONIAL_4_QUOTE}}"</div>
+        <div class="name">{{TESTIMONIAL_4_NAME}}</div>
+        <div class="verified">✓ Verified Buyer</div>
+      </div>
+    </div>
+    <div class="cta-wrap" style="margin-top: 32px;">
+      <a href="#buy" class="btn btn-large">GET {{PRODUCT_NAME_UPPER}} NOW</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GUARANTEE ============ -->
+<section class="guarantee-section">
+  <div class="guarantee-badge">
+    <span class="big">90</span>
+    <span class="small">Day Guarantee</span>
+  </div>
+  <h2>{{GUARANTEE_HEADLINE}}</h2>
+  <p>{{GUARANTEE_BODY}}</p>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-links">
+    <a href="#">Contact</a>
+    <a href="#">Shipping</a>
+    <a href="#">Returns</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">Order Tracking</a>
+  </div>
+  <p class="footer-disclaimer">{{FOOTER_DISCLAIMER}}</p>
+  <p class="footer-copyright">© {{YEAR}} {{COMPANY_NAME}}. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

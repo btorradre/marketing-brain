@@ -1,0 +1,41 @@
+{
+  "id": "podcast-split",
+  "model": "gpt-image-2-image-to-image",
+  "input": {
+    "input_urls": [
+      "https://tempfile.redpandaai.co/kieai/706342/motilli-podcast-v4/1789003079-host-gpt-image-2-5-kie.png",
+      "https://tempfile.redpandaai.co/kieai/706342/motilli-podcast-v4/1789003080-guest-gpt-image-2-5-kie.png"
+    ],
+    "aspect_ratio": "9:16",
+    "prompt": "Make a clean vertical 9:16 two-panel stacked podcast composition from these exact two supplied presenter references. TOP HALF must be the FEMALE HOST from image 1: preserve her exact face, long straight brown hair, navy hoodie, black microphone and warm beige studio. She listens thoughtfully. BOTTOM HALF must be the existing MALE SPEAKING GUEST from image 2: preserve his exact face, beard, olive cap, charcoal shirt and warm studio. Only these two people. Do NOT put any male cohost in top panel. Equal-height panels, eye lines natural, sharp clean horizontal boundary, no thick divider strip. Keep identity and wardrobes unchanged. Remove existing footer text and add NO text, subtitles, labels or logos. This is an AI storyboard concept, not an actual recording or endorsement."
+  },
+  "job": {
+    "id": "job_b6f2ca19172b",
+    "engine": "kie",
+    "kind": "generate",
+    "model": "gpt-image-2-image-to-image",
+    "status": "success",
+    "external_task_id": "adfbc637c7526c3ab4c0274190018582",
+    "brand": "motilli",
+    "concept": "podcast-DVHp-2FDHAJ-storyboard-v4",
+    "error": null,
+    "created_at": "2026-09-10T01:18:27.384570+00:00",
+    "updated_at": "2026-09-10T01:21:49.556359+00:00",
+    "input": {
+      "input_urls": [
+        "https://tempfile.redpandaai.co/kieai/706342/motilli-podcast-v4/1789003079-host-gpt-image-2-5-kie.png",
+        "https://tempfile.redpandaai.co/kieai/706342/motilli-podcast-v4/1789003080-guest-gpt-image-2-5-kie.png"
+      ],
+      "aspect_ratio": "9:16",
+      "prompt": "Make a clean vertical 9:16 two-panel stacked podcast composition from these exact two supplied presenter references. TOP HALF must be the FEMALE HOST from image 1: preserve her exact face, long straight brown hair, navy hoodie, black microphone and warm beige studio. She listens thoughtfully. BOTTOM HALF must be the existing MALE SPEAKING GUEST from image 2: preserve his exact face, beard, olive cap, charcoal shirt and warm studio. Only these two people. Do NOT put any male cohost in top panel. Equal-height panels, eye lines natural, sharp clean horizontal boundary, no thick divider strip. Keep identity and wardrobes unchanged. Remove existing footer text and add NO text, subtitles, labels or logos. This is an AI storyboard concept, not an actual recording or endorsement."
+    },
+    "output": {
+      "asset_ids": [
+        "asset_e682bb9292cf"
+      ],
+      "credits_consumed": 6.0
+    }
+  },
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/podcast-DVHp-2FDHAJ/edit/storyboard/v4/assets/podcast-split.png",
+  "source_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000947c8230879cdb968e7e18e4.png"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "TASK-bf09d4a9f09b",
+  "record_id": "MOT-PIXAR-DcRrXjsRyig",
+  "revision": 4,
+  "body": {
+    "kind": "storyboard",
+    "state": "queued",
+    "depends_on": [],
+    "packet": "/Users/brooksorradre2/Documents/marketing brain/_engine/ad-system/data/work-packets/MOT-PIXAR-DcRrXjsRyig/r4-TASK-bf09d4a9f09b.md",
+    "readiness": {
+      "scope": "production",
+      "revision": 4,
+      "verdict": "FLAG",
+      "checks": [
+        {
+          "verdict": "FLAG",
+          "field": "beats.medium",
+          "reason": "A fully animated concept contains another medium.",
+          "fix": "Confirm the intentional hybrid treatment or generate matching animation."
+        }
+      ],
+      "created": "2026-09-12T03:51:31+00:00"
+    },
+    "handle": null,
+    "receipt": null,
+    "owner": null,
+    "lease_until": null
+  }
+}

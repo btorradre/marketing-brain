@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();assert(p:GetName()=='MOT-UGC-YAPPER-01 v6 20260909');local t=p:GetCurrentTimeline();assert(t:GetName()=='v6 FINAL - ElevenLabs Avatar V');local a=t:GetItemListInTrack('audio',1)[1];for k,v in pairs(a:GetProperty()) do print(k,v) end

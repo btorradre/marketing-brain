@@ -1,0 +1,47 @@
+{
+  "workflow": "GPT Image 2 product-image generation with the approved Vivienne master as the identity reference",
+  "created": "2026-09-06",
+  "source_master": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png",
+  "product_provenance": "Owner-selected generated design target dated 2026-09-03; not a physically measured production sample.",
+  "outputs": [
+    {
+      "name": "home hero",
+      "project_path": "visuals/generated/vivienne-home-hero.png",
+      "generated_original": "/Users/brooksorradre2/.codex/generated_images/01a06e14-037f-7530-a0fd-869221cefedb/exec-690ff5ac-e4e5-4914-aeca-98766e7cfecf.png",
+      "prompt_summary": "Photorealistic 9:16 creator-home hero with warm window light, full Chocolate Vivienne, upper text space and lower-right presenter space; exact silhouette, trim and hardware locked; no people, text, logo, price, duplicate, strap, hidden view or capacity claim.",
+      "qa": "pass for storyboard: whole bag visible; wide slouch, braid, two handles, key bell, corner caps, oval fitting, side bars, inward belt tails and no logo retained. Generated derivative; physical dimensions not certified."
+    },
+    {
+      "name": "detail",
+      "project_path": "visuals/generated/vivienne-detail.png",
+      "generated_original": null,
+      "prompt_summary": null,
+      "qa": "source-locked: the storyboard builder crops only the approved master pixels into the lower-left detail tile. No generated geometry or texture.",
+      "source_operation": "direct copy/crop of the approved September 3 Chocolate master; no generative edit"
+    },
+    {
+      "name": "daily driver",
+      "project_path": "visuals/generated/vivienne-daily-driver.png",
+      "generated_original": "/Users/brooksorradre2/.codex/generated_images/01a06e14-037f-7530-a0fd-869221cefedb/exec-34ae4fef-0535-4079-8035-33d769f1f173.png",
+      "prompt_summary": "Photorealistic 9:16 caf\u00e9/lounge plate with full Chocolate Vivienne on a chair and minimal notebook/sunglasses context; exact identity locked; no people, logo, price, added strap, open bag, laptop, capacity or exact-scale implication.",
+      "qa": "pass for storyboard: full product remains visible and no unapproved interior, capacity or material claim is introduced. Generated derivative; scale is contextual only."
+    }
+  ],
+  "storyboard_composites": "visuals/storyboard/01-hook.jpg through 08-cta.jpg",
+  "presenter_reference": "visuals/presenter/anna-keyed.png",
+  "motion": "No video generation was run. Google Omni is reserved for approved beats that truly require generated motion; this concept primarily uses stable plates and Anna's performance.",
+  "rejected_outputs": [
+    {
+      "path": "visuals/generated/vivienne-detail-v1-rejected.png",
+      "reason": "extra gold half-disc behind the front band above the left paired bars."
+    },
+    {
+      "path": "visuals/generated/vivienne-detail-v2-rejected.png",
+      "reason": "stray half-disc removed, but legitimate round eyelet at far-left braid terminal was also removed."
+    },
+    {
+      "path": "visuals/generated/vivienne-detail-v3-rejected.png",
+      "reason": "hardware corrected, but repeated edits introduced dense etched-looking grain and lost the master texture contrast."
+    }
+  ]
+}

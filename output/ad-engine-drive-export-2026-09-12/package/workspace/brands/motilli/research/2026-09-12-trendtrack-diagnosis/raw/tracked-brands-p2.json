@@ -1,0 +1,251 @@
+{
+  "jsonrpc": "2.0",
+  "id": "tracked-brands-p2",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Tracked brands (10 shown of 30)\n\nPage 2 · Limit 20\n\nUse the Brandtracker ID with `analyze_brand_changes` for recent-change analysis.\n\n| Brand | Brandtracker ID | Status | Active ads | New 1d | New 7d | New 30d | Domains | Added |\n| --- | --- | --- | ---: | ---: | ---: | ---: | --- | --- |\n| avaRoot | f1578708-7955-4337-9c9d-87b8d3525580 | inactive / new_ads_7d | 0 | 0 | 4 | 149 | avaroot.com | 2026-06-11 |\n| jevawell | 534c22fc-d681-4701-be80-085aac95c83a | active / new_ads_7d | 187 | 0 | 7 | 44 | jevawell.com | 2026-06-10 |\n| NT.CO | c9e66e7b-6295-4e1e-aad6-fe85cbb79b5a | active / new_ads_1d | 1,239 | 273 | 628 | 2,822 | nutritiontherapy.co | 2026-06-10 |\n| Sanlava | 8c363618-f76d-4a51-9c9c-4dd27bc75704 | inactive / no_recent_ads | 0 | 0 | 0 | 0 | sanlava.com | 2026-06-06 |\n| Zylara | 7edb99af-061d-426f-9e15-ac17c7e44ed8 | active / new_ads_1d | 74 | 27 | 35 | 171 | tryvitarosa.com | 2026-06-06 |\n| Alevia | f2f10b46-43a7-47dc-8fdd-31df364bbdbd | active / new_ads_1d | 1,465 | 130 | 695 | 2,951 | alevia.com, getalevia.com | 2026-06-05 |\n| The Blood Pressure Journal | a3be841a-16ef-49da-8a25-2078d5db8def | active / new_ads_1d | 701 | 41 | 140 | 926 | alevia.com, getalevia.com, auniva.co | 2026-06-04 |\n| GLP-1 SOS Supplements | 9e7b452e-16f4-4f8c-bc30-38da414bf6b7 | active / new_ads_1d | 494 | 142 | 503 | 1,447 | infinitelove-bcn.com, glp1sos.com, glpgummies.co | 2026-06-01 |\n| go.blymeskinsystems.com | 1b605f19-96b9-463c-b10c-e47295fb5f51 | active / no_recent_ads | 176 | 0 | 0 | 0 | heyblisscosmetics.com, go.blymeskinsystems.com, learn.heyblisscosmetics.com | 2026-06-01 |\n| AuraVanna | 01d5d5ed-a75e-4a8e-8a36-9db40b284ed5 | active / new_ads_1d | 203 | 27 | 86 | 643 | bing.com, sunvanna.com, biovanna.com | 2026-06-01 |\n\n---\nCredits used: 15 | Remaining: 7280 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "8c7fa40b-67df-4a19-9436-8935f19ff0fb",
+      "query": {
+        "page": 2,
+        "limit": 20
+      },
+      "data": [
+        {
+          "id": "f1578708-7955-4337-9c9d-87b8d3525580",
+          "name": "avaRoot",
+          "domain": "avaroot.com",
+          "domains": [
+            "avaroot.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-11",
+          "status": {
+            "advertising": "inactive",
+            "freshness": "new_ads_7d"
+          },
+          "counts": {
+            "activeAds": 0,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 4,
+            "newAdsLast30Days": 149
+          }
+        },
+        {
+          "id": "534c22fc-d681-4701-be80-085aac95c83a",
+          "name": "jevawell",
+          "domain": "jevawell.com",
+          "domains": [
+            "jevawell.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-10",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_7d"
+          },
+          "counts": {
+            "activeAds": 187,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 7,
+            "newAdsLast30Days": 44
+          }
+        },
+        {
+          "id": "c9e66e7b-6295-4e1e-aad6-fe85cbb79b5a",
+          "name": "NT.CO",
+          "domain": "nutritiontherapy.co",
+          "domains": [
+            "nutritiontherapy.co"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-10",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 1239,
+            "newAdsLastDay": 273,
+            "newAdsLast7Days": 628,
+            "newAdsLast30Days": 2822
+          }
+        },
+        {
+          "id": "8c363618-f76d-4a51-9c9c-4dd27bc75704",
+          "name": "Sanlava",
+          "domain": "sanlava.com",
+          "domains": [
+            "sanlava.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-06",
+          "status": {
+            "advertising": "inactive",
+            "freshness": "no_recent_ads"
+          },
+          "counts": {
+            "activeAds": 0,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 0,
+            "newAdsLast30Days": 0
+          }
+        },
+        {
+          "id": "7edb99af-061d-426f-9e15-ac17c7e44ed8",
+          "name": "Zylara",
+          "domain": "tryvitarosa.com",
+          "domains": [
+            "tryvitarosa.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-06",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 74,
+            "newAdsLastDay": 27,
+            "newAdsLast7Days": 35,
+            "newAdsLast30Days": 171
+          }
+        },
+        {
+          "id": "f2f10b46-43a7-47dc-8fdd-31df364bbdbd",
+          "name": "Alevia",
+          "domain": "alevia.com",
+          "domains": [
+            "alevia.com",
+            "getalevia.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-05",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 1465,
+            "newAdsLastDay": 130,
+            "newAdsLast7Days": 695,
+            "newAdsLast30Days": 2951
+          }
+        },
+        {
+          "id": "a3be841a-16ef-49da-8a25-2078d5db8def",
+          "name": "The Blood Pressure Journal",
+          "domain": "alevia.com",
+          "domains": [
+            "alevia.com",
+            "getalevia.com",
+            "auniva.co"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-04",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 701,
+            "newAdsLastDay": 41,
+            "newAdsLast7Days": 140,
+            "newAdsLast30Days": 926
+          }
+        },
+        {
+          "id": "9e7b452e-16f4-4f8c-bc30-38da414bf6b7",
+          "name": "GLP-1 SOS Supplements",
+          "domain": "infinitelove-bcn.com",
+          "domains": [
+            "infinitelove-bcn.com",
+            "glp1sos.com",
+            "glpgummies.co"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-01",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 494,
+            "newAdsLastDay": 142,
+            "newAdsLast7Days": 503,
+            "newAdsLast30Days": 1447
+          }
+        },
+        {
+          "id": "1b605f19-96b9-463c-b10c-e47295fb5f51",
+          "name": "go.blymeskinsystems.com",
+          "domain": "heyblisscosmetics.com",
+          "domains": [
+            "heyblisscosmetics.com",
+            "go.blymeskinsystems.com",
+            "learn.heyblisscosmetics.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-06-01",
+          "status": {
+            "advertising": "active",
+            "freshness": "no_recent_ads"
+          },
+          "counts": {
+            "activeAds": 176,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 0,
+            "newAdsLast30Days": 0
+          }
+        },
+        {
+          "id": "01d5d5ed-a75e-4a8e-8a36-9db40b284ed5",
+          "name": "AuraVanna",
+          "domain": "bing.com",
+          "domains": [
+            "bing.com",
+            "sunvanna.com",
+            "biovanna.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-06-01",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 203,
+            "newAdsLastDay": 27,
+            "newAdsLast7Days": 86,
+            "newAdsLast30Days": 643
+          }
+        }
+      ],
+      "pagination": {
+        "page": 2,
+        "limit": 20,
+        "total": 30,
+        "totalPages": 2
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 20,
+        "effectiveUnits": 20,
+        "actualUnits": 10,
+        "costUnits": 15,
+        "recurringUnits": 15,
+        "topupUnits": 0,
+        "creditsRemaining": 7280,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

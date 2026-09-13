@@ -1,0 +1,21 @@
+{
+  "model": "gemini-omni-1.1-flash",
+  "background": true,
+  "input": [
+    {
+      "type": "image",
+      "local_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/creative/old-money-look-2026-09-10/storyboard/hooks/designer-r3/H1-designer-grid.png"
+    },
+    {
+      "type": "text",
+      "text": "<FIRST_FRAME> Animate this exact four-panel fashion grid. In the left panels the women take one elegant small step, the black and taupe bags swing gently. In the right panels the tan and burgundy bags remain resting as the camera gently approaches within each panel. All four panels stay visible simultaneously for the entire clip. Preserve the fixed equal 2 by 2 layout, panel borders, original bag designs, hardware, colors, styling and environments. Action begins immediately. Restrained aspirational luxury fashion movement; no new scenes, no internal cuts, no transitions, no layout change, no bag morphing, no added people, no speech, no music, no writing, captions, titles, logos or visible watermarks. One continuous shot in each panel."
+    }
+  ],
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4s",
+    "delivery": "uri"
+  }
+}

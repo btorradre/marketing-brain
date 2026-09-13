@@ -1,0 +1,209 @@
+{
+  "date": "2026-09-05",
+  "reviewer": "product_media",
+  "method": "Viewed all six original product references and each tight input crop; reviewed six source/generated/341:272 comparison sheets, and full-resolution Camille and Meridian hardware. Visual review checks reference-relative product construction and material appearance.",
+  "metric_scale": "Not verifiable from isolated uncalibrated macros; no measurements added.",
+  "crop_test": {
+    "ratio": "341:272",
+    "fit": "cover",
+    "position": "center",
+    "css_saturation_preview": 0.8,
+    "verdict": "Key panel subject readable in all24 previews."
+  },
+  "attempts": 24,
+  "rejected": 0,
+  "panels": {
+    "meridian-craft-material": {
+      "status": "accepted",
+      "sha256": "9519daa319c170b85e117c91b0ebf91b23b5539ecfbc02feaef39318d56c35b2",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Pebbled Brown body retained. Raking highlight clarifies natural fold; pore rendering regenerated."
+    },
+    "meridian-craft-stitching": {
+      "status": "accepted",
+      "sha256": "e42d62344c91bd9d96c4adff82cdb88a1bba81a9e7b69f10406283cd06b6d18e",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Single curved front seam and adjacent pebbled leather retained; no added stitch row."
+    },
+    "meridian-craft-finishing": {
+      "status": "accepted",
+      "sha256": "5138060527adfa05752124e4488216dd2ca315e9346eec8270e9c17beaaa632d",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Curved gusset and layered edge retained with neutral shadow; no extra panel."
+    },
+    "meridian-craft-hardware": {
+      "status": "accepted",
+      "sha256": "bb1e9efb246c52f893808589953589d56e324ffe1d9f2239353148c1c2fafe58",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Silver center plate/post and both slotted ends retain orientation/overlap. Full-resolution inspected; source does not certify mechanism details."
+    },
+    "camille-craft-material": {
+      "status": "accepted",
+      "sha256": "3762c07a4bbe6559c7c9fec5c4008e66ff0b361caf41352888d022ac530027da",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Cream canvas weave retained without added props or surface features."
+    },
+    "camille-craft-stitching": {
+      "status": "accepted",
+      "sha256": "169ef9725dd7b42aab2b73076fd427378918035d11c45da798400dc9e3276b3d",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Navy flat strip and two cream stitch lines retained."
+    },
+    "camille-craft-finishing": {
+      "status": "accepted",
+      "sha256": "852792ffb9f169737ffb4277a3e674bc54b1cf3e5d4944444d65fe91c76f4416",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Cream lower corner, Navy border and existing gold foot retained."
+    },
+    "camille-craft-hardware": {
+      "status": "accepted",
+      "sha256": "698185a37365b972781a4645441053d40546c93854f2400a79f31ff57aace692",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Gold front fitting, small upright part, Navy belt and raw canvas edge retained. Full-resolution source and output inspected."
+    },
+    "colette-craft-material": {
+      "status": "accepted",
+      "sha256": "69f19f304c36c521767bbf535a8c26b073a62053cff1b40edf6d779a5d0d1ae4",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Pale oatmeal felt-like matte fiber texture retained; no knit or leather substitution."
+    },
+    "colette-craft-stitching": {
+      "status": "accepted",
+      "sha256": "43e59a17a26468e180b0a2cef05edd7d69e326bb73322fac0c20d6df24f230a6",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Caramel belt retains tonal stitch lines, two felt keepers and front felt strips."
+    },
+    "colette-craft-finishing": {
+      "status": "accepted",
+      "sha256": "e1f98382e790857d8829477db6d11708c2c7df0a43b06dcb9333a333e854f7c9",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Felt gusset curve, edge thickness and partial existing cap retained."
+    },
+    "colette-craft-hardware": {
+      "status": "accepted",
+      "sha256": "1f59b42c0e965825d61463d449dde67b4782d2a7474ccc137823cbe5be5c0d2a",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "One curved Caramel belt end and one round gold-tone cap retained; revised source crop gives cap enough vertical space."
+    },
+    "delphine-craft-material": {
+      "status": "accepted",
+      "sha256": "511c0f98f226aa1b2a314b19f82cd93b6bf3842fe7a7f61bfe8fa551056a154e",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Substantial cream diagonal twill retained."
+    },
+    "delphine-craft-stitching": {
+      "status": "accepted",
+      "sha256": "4daacae2bd1d8f1f44e99d4031bbafaf1fb3390fdb5d6a2b22b306a1ad0c8aed",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Burnished warm leather flap, curved edge stitch row and small existing rivet retained."
+    },
+    "delphine-craft-finishing": {
+      "status": "accepted",
+      "sha256": "ae3460a41ec6f64228529ff153e9b83d41c39b72bff5d18b562d6b5fadbfee9b",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Corner cap curve, tonal seam, adjacent twill and existing foot retained."
+    },
+    "delphine-craft-hardware": {
+      "status": "accepted",
+      "sha256": "ff871fe1a9bf2e4cfbfcdf6467b538282107fcb3b6eaea6077ed94bc0377322b",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "One diagonal slotted gold plate, two rivets and original strap overlap retained; creative target fidelity, not physical hardware certification."
+    },
+    "juliette-craft-material": {
+      "status": "accepted",
+      "sha256": "70537bb144582fb4fdfd304e2ee758d7de94b76ff3b3d579fd1b0d6820366827",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Camel suede nap retained; relighting/restage strengthens a soft fold without structural changes."
+    },
+    "juliette-craft-stitching": {
+      "status": "accepted",
+      "sha256": "100c3c7dca66ded035e8a7c354ddad82b71427867b1ad72de629633e8851f982",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Dark collar seam, one keeper/bar in crop and adjacent suede retained."
+    },
+    "juliette-craft-finishing": {
+      "status": "accepted",
+      "sha256": "ffa2d919f1cfc98693551122daf44a91d623f6570ddf3c4d0ca258e48d47e21c",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "One curved dark corner cap, seam and small brass stud retained."
+    },
+    "juliette-craft-hardware": {
+      "status": "accepted",
+      "sha256": "42f62f36c500c6016f36f04e1110a753d741a1c72fb6a4a335d70262eaafdd7e",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "One flat antique-brass bar, keeper and pointed decorative belt end retained."
+    },
+    "weekender-craft-material": {
+      "status": "accepted",
+      "sha256": "79b4d64a561d9d4852af1b4729342d69d2ab0c4806f47247aac9aa8b43facfdf",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Actual Army Green canvas color/weave retained; loose incidental lint cleaned."
+    },
+    "weekender-craft-stitching": {
+      "status": "accepted",
+      "sha256": "1657b1a47169f5a67fa408e9cf662a6a0c0dfa1b0098d772bc8f7094df91bd35",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Real contoured leather flap seam and horizontal oval retained. At341:272 upper plate partly crops while intended seam stays clear."
+    },
+    "weekender-craft-finishing": {
+      "status": "accepted",
+      "sha256": "675c0eb8c5464ae92d9256650facb4a36e79e54aba6d7796e7f209c3627ec4c4",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Actual warm-brown corner reinforcement, piping and green canvas retained; floor restaged warm-neutral."
+    },
+    "weekender-craft-hardware": {
+      "status": "accepted",
+      "sha256": "bb2bf2d5d9ba1745dcf651f319966c5ac3dcdbc06ccb399688e42731c39c5111",
+      "reference_relative_fidelity": "pass",
+      "material_color": "pass_under_warm_neutral_lighting",
+      "crop_341_272": "pass",
+      "notes": "Actual HORIZONTAL gold oval, empty shaped slot and two side rivets retained; no vertical oval or center turn post invented."
+    }
+  }
+}

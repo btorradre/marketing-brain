@@ -1,0 +1,177 @@
+{% comment %}
+  PDP — Numbered feature carousel (editorial slides, 1/N counter)
+{% endcomment %}
+
+<section
+  class="pdp-feature-carousel pdp-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="pdp-feature-carousel"
+  style="--pdp-bg: {{ section.settings.bg_color }};"
+>
+  <div class="pdp-feature-carousel__inner">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="pdp-feature-carousel__eyebrow">{{ section.settings.eyebrow }}</p>
+    {%- endif -%}
+    {%- if section.settings.heading != blank -%}
+      <h2 class="pdp-feature-carousel__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    <div class="pdp-feature-carousel__viewport" data-pdp-carousel>
+      <div class="pdp-feature-carousel__track" data-pdp-track>
+        {%- for block in section.blocks -%}
+          <figure class="pdp-feature-carousel__slide" {{ block.shopify_attributes }} data-index="{{ forloop.index }}">
+            {%- if block.settings.image != blank -%}
+              {{ block.settings.image | image_url: width: 1600 | image_tag:
+                loading: 'lazy',
+                widths: '480, 720, 960, 1200, 1600',
+                sizes: '(min-width: 1024px) 80vw, 100vw',
+                alt: block.settings.caption | default: section.settings.heading,
+                class: 'pdp-feature-carousel__img' }}
+            {%- endif -%}
+            {%- if block.settings.caption != blank -%}
+              <figcaption class="pdp-feature-carousel__caption">
+                <span class="pdp-feature-carousel__num">{{ forloop.index }} / {{ section.blocks.size }}</span>
+                <span class="pdp-feature-carousel__caption-text">{{ block.settings.caption }}</span>
+              </figcaption>
+            {%- endif -%}
+          </figure>
+        {%- endfor -%}
+      </div>
+
+      {%- if section.blocks.size > 1 -%}
+        <div class="pdp-feature-carousel__controls">
+          <button type="button" class="pdp-feature-carousel__btn" data-pdp-prev aria-label="Previous slide">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <div class="pdp-feature-carousel__dots" data-pdp-dots>
+            {%- for block in section.blocks -%}
+              <button type="button" class="pdp-feature-carousel__dot{% if forloop.first %} is-active{% endif %}" data-pdp-dot="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+            {%- endfor -%}
+          </div>
+          <button type="button" class="pdp-feature-carousel__btn" data-pdp-next aria-label="Next slide">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+<style>
+  #shopify-section-{{ section.id }} .pdp-feature-carousel {
+    background: var(--pdp-bg, #ffffff);
+    padding: clamp(48px, 6vw, 80px) 0;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__inner { max-width: 1440px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__eyebrow {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    text-align: center; opacity: 0.6; margin: 0 0 12px;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__heading {
+    font-family: var(--font-stack-header, 'Cormorant', serif);
+    font-weight: 400; font-size: clamp(26px, 2.6vw, 36px);
+    text-align: center; margin: 0 0 clamp(28px, 3vw, 40px); letter-spacing: -0.01em;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__viewport { position: relative; overflow: hidden; }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__track {
+    display: flex; transition: transform 480ms cubic-bezier(.4,0,.2,1);
+    will-change: transform;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__slide {
+    flex: 0 0 100%; margin: 0; position: relative;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__img {
+    width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__caption {
+    position: absolute; left: clamp(16px, 3vw, 32px); bottom: clamp(16px, 3vw, 32px);
+    background: rgba(255,255,255,0.92); padding: 14px 18px;
+    max-width: 420px; backdrop-filter: blur(8px);
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__num {
+    display: block; font-size: 11px; letter-spacing: 0.18em; opacity: 0.6; margin-bottom: 4px;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__caption-text { font-size: 14px; line-height: 1.4; color: #1a1a1a; }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__controls {
+    display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 24px;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__btn {
+    background: none; border: 1px solid #e8e8e1; width: 40px; height: 40px;
+    display: inline-flex; align-items: center; justify-content: center;
+    cursor: pointer; color: #1a1a1a; transition: background 200ms;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__btn:hover { background: #f5f3ee; }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__dots { display: flex; gap: 8px; }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__dot {
+    width: 8px; height: 8px; border-radius: 50%; border: none;
+    background: #d4d0c4; cursor: pointer; padding: 0;
+    transition: background 200ms, transform 200ms;
+  }
+  #shopify-section-{{ section.id }} .pdp-feature-carousel__dot.is-active { background: #1a1a1a; transform: scale(1.2); }
+</style>
+
+<script>
+(function(){
+  var root = document.querySelector('#shopify-section-{{ section.id }} [data-pdp-carousel]');
+  if (!root) return;
+  var track = root.querySelector('[data-pdp-track]');
+  var slides = track.children;
+  var dots = root.querySelectorAll('[data-pdp-dot]');
+  var prev = root.querySelector('[data-pdp-prev]');
+  var next = root.querySelector('[data-pdp-next]');
+  var index = 0;
+  function go(i){
+    index = (i + slides.length) % slides.length;
+    track.style.transform = 'translateX(-' + (index * 100) + '%)';
+    dots.forEach(function(d, di){ d.classList.toggle('is-active', di === index); });
+  }
+  if (prev) prev.addEventListener('click', function(){ go(index - 1); });
+  if (next) next.addEventListener('click', function(){ go(index + 1); });
+  dots.forEach(function(d){
+    d.addEventListener('click', function(){ go(parseInt(d.getAttribute('data-pdp-dot'), 10)); });
+  });
+  // Touch swipe
+  var startX = 0, deltaX = 0, dragging = false;
+  track.addEventListener('touchstart', function(e){ startX = e.touches[0].clientX; dragging = true; }, {passive: true});
+  track.addEventListener('touchmove', function(e){ if(!dragging) return; deltaX = e.touches[0].clientX - startX; }, {passive: true});
+  track.addEventListener('touchend', function(){
+    if (Math.abs(deltaX) > 50) go(index + (deltaX < 0 ? 1 : -1));
+    dragging = false; deltaX = 0;
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "PDP · Feature Carousel",
+  "tag": "section",
+  "class": "shopify-section--pdp-feature-carousel",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "IN DETAIL" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Every detail, considered" },
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#ffffff" }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "text", "id": "caption", "label": "Caption", "default": "Hand-finished edges" }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "PDP · Feature Carousel",
+      "blocks": [
+        { "type": "slide" }, { "type": "slide" }, { "type": "slide" }, { "type": "slide" }
+      ]
+    }
+  ],
+  "disabled_on": { "groups": ["header", "footer", "aside"] }
+}
+{% endschema %}

@@ -1,0 +1,267 @@
+[
+  {
+    "shot": "HA1",
+    "verdict": "minor_issue",
+    "observed_motion": "The camera performs a very slight vertical drift rather than tracking smoothly past the remedy bottles, leaving the composition largely stationary.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Lateral motion past the containers is minimal, resulting in an almost static perspective.",
+        "severity": "moderate"
+      },
+      {
+        "time_s": 2.75,
+        "description": "Subtle downward framing shift introduces the upper cabinet edge into the top of the frame.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/HA1-4fps.jpg"
+  },
+  {
+    "shot": "HA2",
+    "verdict": "pass",
+    "observed_motion": "A smooth downward camera pan drifts along the cutaway section of the colon, maintaining anatomy structure and contents without noticeable distortion.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.76,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/HA2-4fps.jpg"
+  },
+  {
+    "shot": "HC2",
+    "verdict": "minor_issue",
+    "observed_motion": "Extremely subtle micro-pulsing along the tissue wall with near-static retention of stool geometry throughout the duration.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Motion is minimal to the point of appearing nearly frozen across the sequence.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 3,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/HC2-4fps.jpg"
+  },
+  {
+    "shot": "S03",
+    "verdict": "pass",
+    "observed_motion": "The camera executes a slow, subtle upward pedestal/tilt moving focus from the pelvic/lower colon area up toward the stomach and chest cavity while the amber illumination on the stomach remains steady.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.78,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S03-4fps.jpg"
+  },
+  {
+    "shot": "S05",
+    "verdict": "pass",
+    "observed_motion": "Subtle peristaltic contraction in the colon tissue surrounding stable, stationary stool segments without abrupt movement or visual deformation.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.74,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S05-4fps.jpg"
+  },
+  {
+    "shot": "S11",
+    "verdict": "pass",
+    "observed_motion": "The clock hands advance continuously over time while the anatomical structure remains structurally stable with subtle micro-motion.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S11-4fps.jpg"
+  },
+  {
+    "shot": "S12",
+    "verdict": "minor_issue",
+    "observed_motion": "Subtle peristaltic pulsing of the stomach walls with gentle fluid movement initially. Starting around 1.25s, plant-fiber strands extend and reach upward into the empty stomach cavity rather than mixing gently within the chyme.",
+    "issues": [
+      {
+        "time_s": 1.5,
+        "description": "Plant fibers unnaturally sprout and wave upward into the hollow chamber like tentacles instead of remaining suspended in the food mixture.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 1.0,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S12-4fps.jpg"
+  },
+  {
+    "shot": "S13",
+    "verdict": "pass",
+    "observed_motion": "Translucent gas bubbles continuously rise from the stomach cavity up through the esophagus, while stomach geometry, intestines, and food mass remain structurally stable.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.84,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S13-4fps.jpg"
+  },
+  {
+    "shot": "S14",
+    "verdict": "pass",
+    "observed_motion": "Subtle natural settling and faint tissue motion across the digestive tract with stable anatomical structures, constant neutral lighting, and no camera drift.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.76,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S14-4fps.jpg"
+  },
+  {
+    "shot": "S22",
+    "verdict": "minor_issue",
+    "observed_motion": "The fiber strands and surrounding water droplets exhibit virtually no perceptible movement or drift, remaining static across the entire duration.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Lack of dynamic fluid motion; strands and droplets appear frozen rather than drifting gently through liquid.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S22-4fps.jpg"
+  },
+  {
+    "shot": "S24",
+    "verdict": "pass",
+    "observed_motion": "Subtle fluid movement along the intestinal base with gentle drifting of fine fiber strands, while mucosal wall structure remains stable.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.75,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S24-4fps.jpg"
+  },
+  {
+    "shot": "S26",
+    "verdict": "pass",
+    "observed_motion": "Translucent bubbles steadily rise from the stomach fluid up through the esophagus. The anatomical structures and external mint lozenge remain stable and static throughout.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 4,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S26-4fps.jpg"
+  },
+  {
+    "shot": "S29",
+    "verdict": "pass",
+    "observed_motion": "A very subtle camera drift with slight parallax between the translucent body shell and inner digestive tract. The glowing locator on the stomach gently pulses with minimal internal tissue breathing motion, while small atmospheric particles subtly drift in the background.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.74,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S29-4fps.jpg"
+  },
+  {
+    "shot": "S30",
+    "verdict": "minor_issue",
+    "observed_motion": "The scene remains essentially static throughout the duration with no discernible door opening motion.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "The bathroom door does not ease open as intended; the shot remains motionless.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.7,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S30-4fps.jpg"
+  },
+  {
+    "shot": "S31",
+    "verdict": "pass",
+    "observed_motion": "The colon wall contracts in a gentle wave while the stool segments steadily advance downward along the lumen across the entire duration without abrupt shifts or structural deformation.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.75,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S31-4fps.jpg"
+  },
+  {
+    "shot": "S36",
+    "verdict": "minor_issue",
+    "observed_motion": "Smooth lateral camera tracking across the counter moves past the stationary objects, but the left end of the medication pen undergoes geometric deformation and premature cropping.",
+    "issues": [
+      {
+        "time_s": 1.25,
+        "description": "The blue cap end of the medication pen visibly shrinks and deforms before exiting the frame edge.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 1.0,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/S36-4fps.jpg"
+  }
+]

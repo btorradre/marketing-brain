@@ -1,0 +1,3 @@
+# Black palette — September 9, 2026
+
+User requested replacing navy with black across the existing draft. Changed every #132039 brand value to #000000 in global settings, shared shell, sitewide styles (including UpCart), and all three heritage homepage sections. Cream, imagery and commerce behavior are unchanged. Six changed files passed Shopify validation; deployment receipt and before/readback copies are retained here. Theme 151519330369 was published externally between the initial backup and deployment. All six files were compared against their fresh backups before applying the user-requested color change to the now-live theme. This palette supersedes the earlier navy branding notes.

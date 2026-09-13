@@ -1,0 +1,127 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "New York";
+      src: url("assets/fonts/NewYork.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Abel";
+      src: url("assets/fonts/Abel-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      color: #1a1a1a;
+    }
+    #f05-find-your-silhouette-ground {
+      position: absolute;
+      inset: 0;
+      background: #f6f1eb;
+    }
+    #f05-find-your-silhouette-collection {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+      transform-origin: 50% 50%;
+    }
+    #f05-find-your-silhouette-collection-label {
+      position: absolute;
+      left: 0;
+      top: 64px;
+      width: 100%;
+      text-align: center;
+      font-family: "Abel", sans-serif;
+      font-size: 23px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #1a1a1a;
+    }
+    #f05-find-your-silhouette-lockup {
+      position: absolute;
+      left: 310px;
+      top: 218px;
+      width: 1300px;
+      height: 590px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #1a1a1a;
+    }
+    #f05-find-your-silhouette-logo {
+      width: 1100px;
+      height: 275px;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+    }
+    #f05-find-your-silhouette-rule {
+      width: 210px;
+      height: 3px;
+      margin-top: 16px;
+      background: #343434;
+      transform-origin: left center;
+    }
+    #f05-find-your-silhouette-cta {
+      margin-top: 48px;
+      font-family: "New York", serif;
+      font-size: 68px;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: -0.015em;
+    }
+    #f05-find-your-silhouette-url-wrap {
+      margin-top: 42px;
+      overflow: hidden;
+      width: 700px;
+      min-width: 700px;
+      flex-shrink: 0;
+      text-align: center;
+    }
+    #f05-find-your-silhouette-url {
+      font-family: "Abel", sans-serif;
+      font-size: 31px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #444444;
+      white-space: nowrap;
+    }
+  </style>
+  <div data-hf-id="hf-fmjk" id="root" data-composition-id="05-find-your-silhouette" data-start="0" data-duration="3.6" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-41jv" id="f05-find-your-silhouette-ground" class="clip" data-start="0" data-duration="3.6" data-track-index="0"></div>
+    <div data-hf-id="hf-kfbp" id="f05-find-your-silhouette-stage" class="clip" data-start="0" data-duration="3.6" data-track-index="1">
+      <div data-hf-id="hf-hepw" id="f05-find-your-silhouette-opening">
+        <img data-hf-id="hf-n6q9" id="f05-find-your-silhouette-collection" src="assets/landscape-01-collection-hero-1200x628.jpg" alt="Velantra handbag collection">
+        <div data-hf-id="hf-8am9" id="f05-find-your-silhouette-collection-label">One collection · three moments</div>
+      </div>
+      <div data-hf-id="hf-f4oq" id="f05-find-your-silhouette-lockup">
+        <img data-hf-id="hf-am1d" id="f05-find-your-silhouette-logo" src="assets/logo-horizontal-velantra-1200x300.png" alt="Velantra">
+        <div data-hf-id="hf-2ks6" id="f05-find-your-silhouette-rule"></div>
+        <div data-hf-id="hf-gogw" id="f05-find-your-silhouette-cta">Find your silhouette.</div>
+        <div data-hf-id="hf-72lg" id="f05-find-your-silhouette-url-wrap"><div data-hf-id="hf-9a8l" id="f05-find-your-silhouette-url">velantrafashion.com</div></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script>
+    window.__timelines = window.__timelines || {};
+    const tl = gsap.timeline({ paused: true });
+    gsap.set(["#f05-find-your-silhouette-lockup", "#f05-find-your-silhouette-logo", "#f05-find-your-silhouette-rule", "#f05-find-your-silhouette-cta", "#f05-find-your-silhouette-url"], { autoAlpha: 0 });
+    tl.fromTo("#f05-find-your-silhouette-collection-label", { autoAlpha: 0, y: -12 }, { autoAlpha: 1, y: 0, duration: 0.4, ease: "power3.out" }, 0.08);
+    tl.to("#f05-find-your-silhouette-opening", { scale: 0.76, autoAlpha: 0, duration: 0.56, ease: "power2.in" }, 1.0);
+    tl.set("#f05-find-your-silhouette-lockup", { autoAlpha: 1 }, 1.45);
+    tl.fromTo("#f05-find-your-silhouette-logo", { autoAlpha: 0, scale: 0.92 }, { autoAlpha: 1, scale: 1, duration: 0.52, ease: "power3.out" }, 1.48);
+    tl.fromTo("#f05-find-your-silhouette-rule", { autoAlpha: 0, scaleX: 0 }, { autoAlpha: 1, scaleX: 1, duration: 0.42, ease: "power3.out" }, 1.76);
+    tl.fromTo("#f05-find-your-silhouette-cta", { autoAlpha: 0, y: 22 }, { autoAlpha: 1, y: 0, duration: 0.48, ease: "power3.out" }, 2.02);
+    tl.fromTo("#f05-find-your-silhouette-url", { autoAlpha: 1, clipPath: "inset(0 100% 0 0)" }, { autoAlpha: 1, clipPath: "inset(0 0% 0 0)", duration: 0.42, ease: "power3.out" }, 2.6);
+    window.__timelines["05-find-your-silhouette"] = tl;
+  </script>
+</template>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      .broll { position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      .cap {
+        position: absolute; left: 50%; top: 66%; transform: translateX(-50%);
+        width: 920px; text-align: center;
+        font-family: "Inter", sans-serif; font-weight: 800; font-size: 58px;
+        line-height: 1.18; color: #ffffff; letter-spacing: 0.2px;
+        text-shadow: -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000,
+                     0 -5px 0 #000, 0 5px 0 #000, -5px 0 0 #000, 5px 0 0 #000,
+                     0 10px 24px rgba(0,0,0,0.55);
+      }
+      #fadein { position: absolute; inset: 0; background: #000; pointer-events: none; z-index: 50; }
+
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="28.418"
+         data-width="1080" data-height="1920">
+      <video id="b0" class="clip broll" data-start="0.0" data-duration="2.318" data-media-start="0.2" data-track-index="0" src="K01.mp4" muted playsinline></video>
+      <img id="b1" class="clip broll" data-start="2.318" data-duration="2.318" data-track-index="0" src="K02.png" style="transform-origin: 50% 45%;" />
+      <video id="b2" class="clip broll" data-start="4.636" data-duration="2.318" data-media-start="0.2" data-track-index="0" src="K03.mp4" muted playsinline></video>
+      <img id="b3" class="clip broll" data-start="6.954" data-duration="2.319" data-track-index="0" src="K09.png" style="transform-origin: 50% 45%;" />
+      <video id="b4" class="clip broll" data-start="9.273" data-duration="2.318" data-media-start="0.2" data-track-index="0" src="K04.mp4" muted playsinline></video>
+      <img id="b5" class="clip broll" data-start="11.591" data-duration="2.318" data-track-index="0" src="K05.png" style="transform-origin: 50% 45%;" />
+      <video id="b6" class="clip broll" data-start="13.909" data-duration="2.318" data-media-start="0.2" data-track-index="0" src="K13.mp4" muted playsinline></video>
+      <video id="b7" class="clip broll" data-start="16.227" data-duration="2.318" data-media-start="0.2" data-track-index="0" src="K07.mp4" muted playsinline></video>
+      <video id="b8" class="clip broll" data-start="18.545" data-duration="2.318" data-media-start="0.2" data-track-index="0" src="K06.mp4" muted playsinline></video>
+      <img id="b9" class="clip broll" data-start="20.863" data-duration="2.318" data-track-index="0" src="K08.png" style="transform-origin: 50% 45%;" />
+      <video id="b10" class="clip broll" data-start="23.181" data-duration="2.318" data-media-start="0.2" data-track-index="0" src="K11.mp4" muted playsinline></video>
+      <video id="b11" class="clip broll" data-start="25.499" data-duration="2.919" data-media-start="0.2" data-track-index="0" src="K10.mp4" muted playsinline></video>
+      <div id="c0" class="clip cap" data-start="0.0" data-duration="0.96" data-track-index="1">Everyone assumes I spent</div>
+      <div id="c1" class="clip cap" data-start="0.98" data-duration="0.82" data-track-index="1">a fortune on this</div>
+      <div id="c2" class="clip cap" data-start="1.82" data-duration="0.84" data-track-index="1">bag Not even close</div>
+      <div id="c3" class="clip cap" data-start="2.68" data-duration="0.76" data-track-index="1">And the story is</div>
+      <div id="c4" class="clip cap" data-start="3.46" data-duration="0.86" data-track-index="1">even better than the</div>
+      <div id="c5" class="clip cap" data-start="4.34" data-duration="0.96" data-track-index="1">price I was up</div>
+      <div id="c6" class="clip cap" data-start="5.32" data-duration="0.94" data-track-index="1">in Nantucket last week</div>
+      <div id="c7" class="clip cap" data-start="6.28" data-duration="0.66" data-track-index="1">and I actually met</div>
+      <div id="c8" class="clip cap" data-start="6.96" data-duration="0.98" data-track-index="1">the founder She walked</div>
+      <div id="c9" class="clip cap" data-start="7.96" data-duration="0.72" data-track-index="1">me through how it&#x27;s</div>
+      <div id="c10" class="clip cap" data-start="8.7" data-duration="0.92" data-track-index="1">made It&#x27;s hand woven</div>
+      <div id="c11" class="clip cap" data-start="9.64" data-duration="1.22" data-track-index="1">seagrass and the leather&#x27;s</div>
+      <div id="c12" class="clip cap" data-start="10.88" data-duration="0.88" data-track-index="1">all hand set No</div>
+      <div id="c13" class="clip cap" data-start="11.78" data-duration="0.7" data-track-index="1">two bags are even</div>
+      <div id="c14" class="clip cap" data-start="12.5" data-duration="1.08" data-track-index="1">the same It&#x27;s structured</div>
+      <div id="c15" class="clip cap" data-start="13.62" data-duration="0.78" data-track-index="1">so it holds its</div>
+      <div id="c16" class="clip cap" data-start="14.42" data-duration="0.8" data-track-index="1">shape but it&#x27;s not</div>
+      <div id="c17" class="clip cap" data-start="15.24" data-duration="1.2" data-track-index="1">precious at all You</div>
+      <div id="c18" class="clip cap" data-start="16.46" data-duration="1.06" data-track-index="1">just throw everything in</div>
+      <div id="c19" class="clip cap" data-start="17.54" data-duration="1.3" data-track-index="1">and go Beach errands</div>
+      <div id="c20" class="clip cap" data-start="18.92" data-duration="1.28" data-track-index="1">dinner whatever Honestly it&#x27;s</div>
+      <div id="c21" class="clip cap" data-start="20.22" data-duration="0.66" data-track-index="1">the new Boken for</div>
+      <div id="c22" class="clip cap" data-start="20.9" data-duration="1.14" data-track-index="1">summer 2026 and it</div>
+      <div id="c23" class="clip cap" data-start="22.06" data-duration="1.04" data-track-index="1">comes in basically every</div>
+      <div id="c24" class="clip cap" data-start="23.12" data-duration="0.64" data-track-index="1">color This is the</div>
+      <div id="c25" class="clip cap" data-start="23.78" data-duration="1.14" data-track-index="1">caramel They&#x27;re running a</div>
+      <div id="c26" class="clip cap" data-start="24.94" data-duration="0.78" data-track-index="1">summer sale right now</div>
+      <div id="c27" class="clip cap" data-start="25.74" data-duration="0.84" data-track-index="1">and the link is</div>
+      <div id="c28" class="clip cap" data-start="26.6" data-duration="1.1" data-track-index="1">below Go get it</div>
+      <div id="fadein" class="clip" data-start="0" data-duration="0.5" data-track-index="3"></div>
+      <audio id="vo" data-start="0.1" data-duration="27.818" data-track-index="2" src="vo.mp3" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.to("#fadein", { opacity: 0, duration: 0.45, ease: "power1.out" }, 0.05);
+      tl.fromTo("#b1", { scale: 1.03 }, { scale: 1.09, duration: 2.318, ease: "none" }, 2.318);
+      tl.fromTo("#b3", { scale: 1.03 }, { scale: 1.09, duration: 2.319, ease: "none" }, 6.954);
+      tl.fromTo("#b5", { scale: 1.03 }, { scale: 1.09, duration: 2.318, ease: "none" }, 11.591);
+      tl.fromTo("#b9", { scale: 1.03 }, { scale: 1.09, duration: 2.318, ease: "none" }, 20.863);
+      tl.from("#c0", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 0.0);
+      tl.from("#c1", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 0.98);
+      tl.from("#c2", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 1.82);
+      tl.from("#c3", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 2.68);
+      tl.from("#c4", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 3.46);
+      tl.from("#c5", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 4.34);
+      tl.from("#c6", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 5.32);
+      tl.from("#c7", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 6.28);
+      tl.from("#c8", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 6.96);
+      tl.from("#c9", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 7.96);
+      tl.from("#c10", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 8.7);
+      tl.from("#c11", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 9.64);
+      tl.from("#c12", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 10.88);
+      tl.from("#c13", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 11.78);
+      tl.from("#c14", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 12.5);
+      tl.from("#c15", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 13.62);
+      tl.from("#c16", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 14.42);
+      tl.from("#c17", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 15.24);
+      tl.from("#c18", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 16.46);
+      tl.from("#c19", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 17.54);
+      tl.from("#c20", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 18.92);
+      tl.from("#c21", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 20.22);
+      tl.from("#c22", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 20.9);
+      tl.from("#c23", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 22.06);
+      tl.from("#c24", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 23.12);
+      tl.from("#c25", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 23.78);
+      tl.from("#c26", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 24.94);
+      tl.from("#c27", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 25.74);
+      tl.from("#c28", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 26.6);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

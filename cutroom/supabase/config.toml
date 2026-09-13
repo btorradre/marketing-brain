@@ -1,0 +1,10 @@
+# Cutroom — Supabase CLI config.
+# `project_id` is only the local/Docker project name. The remote project the CI
+# workflow deploys to comes from the SUPABASE_PROJECT_REF GitHub secret, so this
+# file carries no account identifiers.
+#
+# No [db] major_version is pinned: it only matters for local `supabase start`,
+# and pinning it wrong makes `supabase link` warn on every CI run. Add it if you
+# start running the stack locally.
+
+project_id = "cutroom"

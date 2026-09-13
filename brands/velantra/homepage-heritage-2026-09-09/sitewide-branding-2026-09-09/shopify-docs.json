@@ -1,0 +1,16 @@
+[
+  {
+    "score": 0.81568205,
+    "content": "Templates using product Theme architecture product template",
+    "url": "https://shopify.dev/docs/api/liquid/objects/product",
+    "title": "Liquid objects: product",
+    "domain": "liquid"
+  },
+  {
+    "score": 0.78501105,
+    "content": "Supporting assets You can add supporting assets to your theme to control the presentation of components and features, or to store reusable pieces of code that can be used across components. For example, you need to add assets to style the theme. These resources help to define the aesthetic of the online store and how content sections are styled to express the merchant’s brand. The style of a theme is defined by the CSS and JavaScript applied to layout, template, and section files. Liquid and HTML that you want to reuse across your theme can be stored in snippets. Theme CSS and JavaScript is stored in the assets directory of the theme. In addition, you can translate your theme into different languages using locale files. Locale files contain a set of translations for text strings that are used throughout the theme, and are stored in the locales directory of the theme. Directory structure and component types Themes must use the following directory structure: Shopify theme directory structure . ├── assets ├── blocks ├── config ├── layout ├── locales ├── sections ├── snippets └── templates └── customers └── metaobject Subdirectories, other than the ones listed, aren't supported. To see an example of a complete theme directory structure, and the various component types, explore the Dawn GitHub repository. Note: Only a layout directory containing a theme.liquid file is required for the theme to be uploaded to Shopify.",
+    "url": "https://shopify.dev/docs/storefronts/themes/architecture",
+    "title": "Theme architecture",
+    "domain": "liquid"
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "family": "juliette",
+  "attempt": "v2",
+  "status": "rejected",
+  "model": "gemini-omni-1.1-flash",
+  "provider": "Google Gemini Interactions API",
+  "previous_interaction_id": "v1_ChZNNkNjYXJudkJKT29qckVQdl9MbktBEhZNNkNjYXJudkJKT29qckVQdl9MbktB",
+  "source_video": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/pdp-handbags-followup-2026-09-05/juliette/exports/v2/juliette-detail-stage-1.mp4",
+  "source_sha256": "5326c5bd824e7d97cb2eae8e5ddfd5c5b5b0a2ac1dde4e5eca1f8df49e5dc1e2",
+  "expected_duration": 9.0,
+  "expected_shots": 5,
+  "prompt": "Remove the artificial squiggly lines, stray hairlike strands and etched worm-like marks from the bag surfaces throughout this existing film. Restore soft natural suede nap and leather trim with natural fine texture. Preserve real stitching, seams and panel edges. Keep everything else exactly the same, including all 5 shots, their original cut times, the full 9.0-second duration, camera motion, framing, lighting, colors, bag shape, handles and hardware. Do not blur the surfaces or smooth them into plastic.",
+  "created_utc": "2026-09-06T06:30:10.704642+00:00",
+  "processing": "Original provider bytes, decoded only. No local video editing.",
+  "physical_scale_verified": false,
+  "generation_config": {
+    "video_config": {
+      "task": "edit"
+    }
+  },
+  "source_mode": "inline_original_video",
+  "interaction_id": "v1_ChdkQWlkYXFIWElOZlZfdU1QMlktYy1BSRIXZEFpZGFxSFhJTmZWX3VNUDJZLWMtQUk",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/artifact-cleanup-2026-09-06/juliette/v2/juliette-detail-clean.mp4",
+  "bytes": 11509317,
+  "sha256": "f416f43184bc48fcc1ed38948b9ce52e586b1cf8546310cb32a3a4f28e64d46d",
+  "video_duration": 9.0,
+  "frames": 216,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": "24/1",
+  "usage": {
+    "total_tokens": 111126,
+    "total_input_tokens": 51946,
+    "input_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 51840
+      },
+      {
+        "modality": "text",
+        "tokens": 106
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58727,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 453,
+    "raw_prompt_token": 38744,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1935
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 813
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 453
+          }
+        ]
+      },
+      {},
+      {}
+    ]
+  },
+  "finished_utc": "2026-09-06T06:32:34.339537+00:00",
+  "rejection_reasons": [
+    "Last handle-only shot changed to the upper front panel",
+    "Cut timing drifted from the original sequence",
+    "Overdrawn squiggly leather texture remains in final shot"
+  ]
+}

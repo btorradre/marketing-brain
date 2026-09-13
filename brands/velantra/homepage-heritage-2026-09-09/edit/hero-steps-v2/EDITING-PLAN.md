@@ -1,0 +1,24 @@
+# Hero revision 2 — stone steps editorial
+
+User request: replace the overly synthetic country-house hero with a new Vivienne photograph using the supplied seated-woman reference's exact situation, mood and lighting.
+
+Observed reference: portrait 640 × 800; adult woman seated with knees apart on worn pale limestone entry steps, torso leaning forward, one elbow resting on a knee and hand supporting cheek, other hand loosely holding a brown handbag standing on a lower step between her feet. Long loose dark curls, tortoiseshell sunglasses, camel fine-gauge turtleneck, ivory tailored shorts, narrow brown belt and cream lace-up espadrilles. Weathered greige paneled double doors stand open behind her. Broad directional daylight from image-left, open shade over face and torso, softly defined architectural shadows, restrained warm-neutral color, fine skin and stone texture. No reference motion, narration or transitions exist. Camera/lens details are inferred art direction.
+
+Production: GPT Image 2 using user photograph as scene/style reference and September 3 Chocolate Vivienne master as the only bag construction authority. No new shoot location, autumn foliage, blazer, trousers, glowing sunset or cinematic blur. Preserve relaxed human asymmetry, realistic curls, pores, cloth folds, scuffed steps and restrained photographic contrast. Replace the reference handbag completely; use a plain non-logo belt buckle.
+
+Composition and placement: wide 16:9 homepage hero, complete seated model and bag grouped on right half, architectural/step space on left for existing HTML heading and CTA. Bag rests naturally on lower step, gripped loosely by a rolled handle; fully visible, source-supported frontal/slightly elevated view. Head, hands, shoes and bag stay inside frame. Natural straight perspective, coherent contact shadows. No typography baked into image. Source target is Chocolate Vivienne variant 44462686830657, soft dark grained body, warmer smooth trim, braid, rolled handles, horizontal gold oval center, parallel bar fittings, inward belt ends and one key bell. Physical scale uncalibrated; do not certify measurements.
+
+Editorial sequence: new still replaces only the opening picture; existing heading A Life Well Carried and two shopping links remain HTML. Opening continues by normal page scroll into Colette autumn campaign; no transition effect, audio, animation, captions or video render. Produce one landscape master, inspect whole frame and bag detail before selecting it. If needed for mobile, generate a faithful portrait reframe from the accepted master. Preserve old hero assets and keep changes in the existing unpublished draft. Verify new image crops, copy clearance and loading at desktop/tablet/mobile. Deliver image plus saved prompt and preview link.
+
+
+Provider correction: user explicitly requested GPT Image 2.5 through Kie.ai. This overrides the prior GPT Image 2 route for this hero. Use Kie image-to-image with the original user reference and Vivienne master. The preliminary built-in output is superseded and will not be used as the image reference.
+
+QA revision: first Kie output retains a letter-shaped waist-belt buckle from the style reference. Request a localized plain rectangular buckle replacement while preserving all bag hardware and scene details. Generate the mobile 9:16 companion from that same landscape scene, preserving model/product identity and reserving the lower quarter for HTML copy. Both follow-up jobs use Kie GPT Image 2.5 Sunburst and retain all safety defaults.
+
+Second belt correction: the localized buckle edit did not remove the RL shape. Remove the waist belt entirely, leaving plain ivory tailored shorts, while preserving handbag straps/hardware. Apply consistently to desktop and portrait. This small wardrobe departure removes reference branding without further changing scene or pose.
+
+Final photography pass: successive local corrections visibly degraded fine stone/skin texture. Reject those outputs. Regenerate landscape and portrait directly from the original two references, with plain ivory shorts and no waist belt specified at the start. Review photographic texture at full size before delivery.
+
+Selected fresh Kie landscape and portrait pass whole-frame review. Mobile portrait has insufficient negative space for the existing overlaid HTML heading without covering the bag. Place mobile hero copy below the full portrait in the established navy panel treatment; keep desktop overlay and tablet panel. This preserves natural light and complete product visibility.
+
+Exact aspect correction requested by user: Kie returned 2736 × 1536 for its 16:9 setting. Preserve that native output, and center-crop 8 pixels per side and 3 pixels top/bottom to 2720 × 1530 for exact 16:9 delivery. No regeneration, stretching, relighting or product changes. Replace only the desktop draft hero asset reference; retain the separate mobile portrait.

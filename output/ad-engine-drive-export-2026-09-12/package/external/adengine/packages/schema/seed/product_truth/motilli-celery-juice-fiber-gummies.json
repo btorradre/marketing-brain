@@ -1,0 +1,146 @@
+{
+  "name": "Motilli Celery Juice Fiber Gummies",
+  "slug": "celery-juice-fiber-gummies",
+  "brand_slug": "motilli",
+  "category": "Health supplement (gummies)",
+  "positioning": null,
+  "price": null,
+  "identity_block": "Container: Clear plastic jar/bottle, cylindrical, white screw-top lid\nLabel: Green/lime gradient background with white \"motilli\" wordmark at top\nSublabel: \"CELERY JUICE FIBER GUMMIES\" in white text below brand name\nClaims on label: \"Verified Clean\", \"5g\" dosage callout, \"GREEN APPLE\" flavor\nGummies: Dark green, heart-shaped, translucent/jewel-toned\nOverall palette: Green (lime to forest green), white, clean/clinical aesthetic\nCount: 60 gummies per bottle",
+  "mechanism_block": null,
+  "extra_blocks": [],
+  "colorways": [],
+  "dimensions": {
+    "count": "60 gummies per bottle"
+  },
+  "materials": [
+    "plastic"
+  ],
+  "banned_terms": [],
+  "required_phrases": [],
+  "claims": [
+    {
+      "claim": "Verified Clean",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/motilli/SKILL.md#L24"
+    },
+    {
+      "claim": "5g",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/motilli/SKILL.md#L24"
+    },
+    {
+      "claim": "GREEN APPLE",
+      "verified": true,
+      "source": "/Users/brooksorradre2/.claude/skills/motilli/SKILL.md#L24"
+    }
+  ],
+  "engine_notes": [],
+  "reference_assets": [
+    {
+      "role": "master_seed",
+      "asset_id": null,
+      "source_path_original": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/brand/website-assets/product reference.png",
+      "note": "hardcoded primary reference",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/motilli product reference.png",
+      "note": "Hero product shot — clear jar, green label, front-facing (PRIMARY)",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/product reference.png",
+      "note": "Additional product reference",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/gummy.png",
+      "note": "Single heart-shaped green gummy, close-up, transparent background",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/label 1.png",
+      "note": "Label close-up",
+      "colorway": null
+    },
+    {
+      "role": "detail",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/label 2.jpg",
+      "note": "Label close-up alternate",
+      "colorway": null
+    },
+    {
+      "role": "lifestyle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/hand holding gummies.jpeg",
+      "note": "Lifestyle — hand holding gummies",
+      "colorway": null
+    },
+    {
+      "role": "lifestyle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/dr holding gummies .jpg",
+      "note": "Authority — doctor holding product",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/gummies 2.jpeg",
+      "note": "Multiple gummies shot",
+      "colorway": null
+    },
+    {
+      "role": "angle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/M.png",
+      "note": "Brand mark",
+      "colorway": null
+    },
+    {
+      "role": "lifestyle",
+      "asset_id": null,
+      "source_path_original": "~/Documents/marketing brain/brands/motilli/brand/website-assets/motilli-topaz-upscale-4x Medium.jpeg",
+      "note": "Upscaled product image",
+      "colorway": null
+    }
+  ],
+  "qa_checklist": [],
+  "version": 1,
+  "extracted_from": {
+    "path": "/Users/brooksorradre2/.claude/skills/motilli/SKILL.md",
+    "sha256": "153d4bd8d5d2b2d08632057bca592dc6b024318c952e41baf2a368660a967c68",
+    "extracted_at": "2026-09-03T00:05:43+00:00",
+    "extractor": "scripts/extract_product_truth.py"
+  },
+  "extraction": {
+    "confidence": {
+      "name": "high",
+      "identity_block": "low",
+      "mechanism_block": "none",
+      "extra_blocks": "none",
+      "colorways": "none",
+      "dimensions": "medium",
+      "materials": "low",
+      "banned_terms": "none",
+      "required_phrases": "none",
+      "claims": "medium",
+      "engine_notes": "none",
+      "reference_assets": "medium",
+      "qa_checklist": "none"
+    },
+    "notes": [
+      "no VERBATIM IDENTITY BLOCK; identity_block assembled from Visual Description bullets",
+      "no MECHANISM/FLAP/OPENING block found; mechanism_block=null"
+    ]
+  }
+}

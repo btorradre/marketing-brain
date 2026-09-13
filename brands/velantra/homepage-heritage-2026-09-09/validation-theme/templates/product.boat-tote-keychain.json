@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>A favorite shape, made small. The Boat Tote Keychain carries the familiar contrast trim and belted front of a tote into a playful everyday keepsake. Add it to your keys or a bag for a little character that travels with you.<\/p>",
+        "fact_material": "Textured body; contrast trim",
+        "fact_detail": "Tiny handles, a textured body and contrast trim give the miniature its charm, finished with a short chain and a gold-tone ring.",
+        "preorder_lead_time": "10 days before dispatch",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": false,
+        "fact_carry": "10 days before dispatch",
+        "lead_time": "10 days before dispatch",
+        "hide_unassigned_media": true
+      },
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>A miniature tote charm attached by a short chain to a round key ring. Its small belt, handles and fittings belong to the miniature design.<\/p>",
+            "open": false
+          }
+        },
+        "tab_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>Wipe gently with a soft, dry cloth. Keep it away from prolonged moisture and avoid pulling on the miniature handles.<\/p>",
+            "open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Shipping & delivery",
+            "content": "<p>Please allow 10 days from your order to dispatch. Delivery time is additional and varies by destination. You will receive tracking details when your order ships. See our <a href=\"\/policies\/shipping-policy\">shipping policy<\/a> for delivery information.<\/p>",
+            "open": false
+          }
+        },
+        "tab_returns": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Returns are accepted within 30 days of delivery for unused items in their original packaging with tags attached. To arrange a return, contact <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com<\/a>. See our <a href=\"\/policies\/refund-policy\">return policy<\/a> for full conditions.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_care",
+        "tab_shipping",
+        "tab_returns"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

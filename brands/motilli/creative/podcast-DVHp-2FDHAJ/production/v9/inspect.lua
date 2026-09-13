@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local p=r:GetProjectManager():GetCurrentProject();print("PROJECT",p:GetName(),"RENDERING",p:IsRenderingInProgress());local t=p:GetCurrentTimeline();print("CURRENT",t:GetName());for j=1,p:GetTimelineCount() do local x=p:GetTimelineByIndex(j);if string.find(x:GetName(),"v8") then print("TIMELINE",x:GetName(),x:GetEndFrame()) end end

@@ -1,0 +1,106 @@
+{
+  "rubric_id": "storyboard",
+  "rubric_version": "0.1.0",
+  "artifact_hash": "f1b50afab7e433f11331bff4c6ba630edb05e089401b92929e2dee23fbbbbb4e",
+  "packet_hash": "af64c0c995f2d0cc16b7a86d6031ec0d12cea3fd5142b07238dbbe73c4693470",
+  "reviewer_id": "vivienne-independent-storyboard",
+  "scope": "Independent round-2 preproduction review. Source image hashes match the product master and presenter portrait visually inspected in round 1. Reviewed the current pinned board and unchanged script. No final voiceover, presenter motion, captions or rendered composite is graded.",
+  "reviewed_script": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/db0c28b6679fd99ce55fd7546dd18198d95ed50a62a0ce693e4c3f481c36d545.md",
+  "criteria": {
+    "script_coverage": {
+      "score": 4,
+      "critical_failure": false,
+      "feedback": "The six spoken beats are fully mapped and the formerly missing graphic schedule now covers the hook, name, offer and CTA with explicit frame intervals. Planned 24-second pacing allows the product-detail beat six seconds and preserves the practical shipping qualification. Keep the frame map provisional until the recorded words are aligned; this score concerns plan completeness, not observed delivery.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/f1b50afab7e433f11331bff4c6ba630edb05e089401b92929e2dee23fbbbbb4e.json",
+          "locator": "timelines[1].beats[V01..V06]; production.graphic_cues",
+          "observation": "Contiguous 0-720 frame spoken map at 30fps; opening [0,120), name [120,720), qualified offer [0,720), CTA [660,720). All script lines and core screen messages are mapped."
+        }
+      ]
+    },
+    "broll_relevance": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The stable product still supports this reference-matched collage format and the visible-trim/no-front-logo line. No irrelevant stock footage, other bag or invented functional demonstration is planned. It is clear, suitable coverage; compelling phone-size emphasis and viewer comprehension are not yet demonstrated, so I do not score it exemplary.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/f1b50afab7e433f11331bff4c6ba630edb05e089401b92929e2dee23fbbbbb4e.json",
+          "locator": "V03.script; all six beat frame/visual entries",
+          "observation": "Same approved Chocolate still carries every beat; only observable appearance is attributed to its visual proof."
+        },
+        {
+          "kind": "product_truth",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/acc65bc39f62aec1a96323e0f793cd72fe90aaa729c2729dd142af38b01f244b.json",
+          "locator": "claims[visible_features]; assets.edit_evidence_rule",
+          "observation": "Ledger supports appearance and restricts beauty-shot evidence from proving function, capacity or durability."
+        },
+        {
+          "kind": "product_master",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/2dcbee2ac61a72b87df14e1f8afb179ff070dc00005b25854987d8d03e33f325.png",
+          "locator": "entire image; braided upper edge and front body",
+          "observation": "Previously directly inspected image has the stated braid and no visible front logo; current pinned SHA256 is unchanged."
+        }
+      ]
+    },
+    "product_continuity": {
+      "score": 4,
+      "critical_failure": false,
+      "feedback": "The fixed master, full-image contain treatment, separated presenter and explicit handle/strap/closure constraints preserve identity throughout this simple plan. No new product generation, interaction, crop or angle is required. Retain these constraints in assembly.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/f1b50afab7e433f11331bff4c6ba630edb05e089401b92929e2dee23fbbbbb4e.json",
+          "locator": "notes[EDITING CONTRACT]; production.source_assets[0]; V01..V06",
+          "observation": "One master throughout, preserved silhouette and handle/closure details, no interior/capacity demonstration or substitutions."
+        },
+        {
+          "kind": "product_truth",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/acc65bc39f62aec1a96323e0f793cd72fe90aaa729c2729dd142af38b01f244b.json",
+          "locator": "sources[master]; precedence_and_conflicts; assets.approved_master",
+          "observation": "The latest owner-selected Chocolate master governs identity and is explicitly a generated visual source."
+        },
+        {
+          "kind": "product_master",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/2dcbee2ac61a72b87df14e1f8afb179ff070dc00005b25854987d8d03e33f325.png",
+          "locator": "handles, inward strap tips, oval closure and overall silhouette",
+          "observation": "Current hash matches inspected master; the constraints accurately describe the source."
+        }
+      ]
+    },
+    "edit_spec": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The two v2 blockers are resolved: offer/preorder starts at frame zero, and caption/presenter rectangles no longer intersect. Graphic timing and continuous-take intent are executable. Before assembly, validate actual typography: the caption box is only 90px tall while allowing two 54px lines, so use a single fitting line or a tested line-height/box height that avoids clipping. This is a production fit check, not evidence of a defect in an existing render. Final word timing remains a stated dependency.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/f1b50afab7e433f11331bff4c6ba630edb05e089401b92929e2dee23fbbbbb4e.json",
+          "locator": "production.graphic_cues; caption_plan; disclosure_plan; source_assets[1].use",
+          "observation": "Offer [0,720) has exact price and preorder/expected October; captions occupy y1120..1210 while presenter starts y1260; offer and CTA end x600 while presenter starts x660. Captions specify max two lines at 54px in height90."
+        }
+      ]
+    },
+    "production_feasibility": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The existing two-image inventory, one planned presenter take, zero new product generations and explicit pending assets are consistent and feasible. The board now provides concrete layout and graphic cues. Keep pronunciation, narration timing, key quality and typography as verification tasks for production; those outcomes remain unavailable and should not be claimed as completed.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/f1b50afab7e433f11331bff4c6ba630edb05e089401b92929e2dee23fbbbbb4e.json",
+          "locator": "production.source_assets; pending_assets; generated_video_scene_count; new_product_generation_count; audio_plan; final_verification",
+          "observation": "Two available source images; one new presenter scene; narration, lip-sync, aligned captions and final composite are explicitly pending."
+        },
+        {
+          "kind": "presenter_portrait",
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state/503c66b832d341ca90a29f750cc44298/round-2-71bd35f9/658de7eaaaae0e07cb4eb5d81b0df2873d8b689e8cb7d7629921eb82b1dbf33d.png",
+          "locator": "hair edges, raised hand, green background",
+          "observation": "Unchanged portrait was visually inspected in round1; the source needs chroma removal and new lip-sync, whose resulting quality is not observable yet."
+        }
+      ]
+    }
+  }
+}

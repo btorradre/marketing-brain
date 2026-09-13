@@ -1,0 +1,23 @@
+<section class="page-width">{{ section.settings.custom_liquid }}{% for block in section.blocks %}{% render block %}{% endfor %}</section>
+{% schema %}
+{
+  "name": "Custom Liquid and apps",
+  "settings": [
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "Custom Liquid"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Liquid and apps"
+    }
+  ]
+}
+{% endschema %}

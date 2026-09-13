@@ -1,0 +1,145 @@
+{
+  "run_id": "93177a373a644c49898f0d8d3685a767",
+  "status": "awaiting_reviews",
+  "state_dir": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state-v5-corrected",
+  "packet_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/packet-storyboard-v5.json",
+  "packet_hash": "c2c64af123c013c0c534cdc003f71e1f75bfc1fc6cc071e18c846b7d12b1e1a6",
+  "schema_blockers": [],
+  "snapshot_integrity": "pass",
+  "provider_calls": 0,
+  "spent_usd": 0,
+  "final_delivery_ready": false,
+  "rubrics": {
+    "copy": {
+      "version": "0.1.2",
+      "sha256": "1381bf8715aac390f87362196e5f752a6ac626b5e128edeb05a05fc916e2b12a",
+      "missing_evidence_roles": []
+    },
+    "storyboard": {
+      "version": "0.1.0",
+      "sha256": "c960d8c68733452ba31cca1ad428c44609f7b79a30d8d1320b66aa0a0db696c9",
+      "missing_evidence_roles": []
+    }
+  },
+  "pinned_artifact_count": 2,
+  "pinned_context_count": 19,
+  "embedded_frame_references": [
+    {
+      "beat": "0:00\u20130:05",
+      "timeline_role": "reference",
+      "exists": true,
+      "pinned_in_packet": false,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/ad-engine/data/watch/job_cc6efc9d4bef/frames/beat_001.jpg"
+    },
+    {
+      "beat": "0:05\u20130:10",
+      "timeline_role": "reference",
+      "exists": true,
+      "pinned_in_packet": false,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/ad-engine/data/watch/job_cc6efc9d4bef/frames/beat_003.jpg"
+    },
+    {
+      "beat": "0:10\u20130:17.5",
+      "timeline_role": "reference",
+      "exists": true,
+      "pinned_in_packet": false,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/ad-engine/data/watch/job_cc6efc9d4bef/frames/beat_006.jpg"
+    },
+    {
+      "beat": "0:17.5\u20130:19.3",
+      "timeline_role": "reference",
+      "exists": true,
+      "pinned_in_packet": false,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/_engine/mcp/ad-engine/data/watch/job_cc6efc9d4bef/frames/beat_008.jpg"
+    },
+    {
+      "beat": "V01",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/01-hook.jpg"
+    },
+    {
+      "beat": "V02",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/02-desire.jpg"
+    },
+    {
+      "beat": "V03",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/03-frustration.jpg"
+    },
+    {
+      "beat": "V04",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/04-reveal.jpg"
+    },
+    {
+      "beat": "V05",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/05-details.jpg"
+    },
+    {
+      "beat": "V06",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/06-proof.jpg"
+    },
+    {
+      "beat": "V07",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/07-preorder.jpg"
+    },
+    {
+      "beat": "V08",
+      "timeline_role": "ours",
+      "exists": true,
+      "pinned_in_packet": true,
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/visuals/storyboard/08-cta.jpg"
+    }
+  ],
+  "timing_findings": [],
+  "commands": [
+    [
+      "/Users/brooksorradre2/Documents/marketing-apps/adengine/services/engine/.venv/bin/python",
+      "-m",
+      "adengine.harness",
+      "--state",
+      "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state-v5-corrected",
+      "start",
+      "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/packet-storyboard-v5.json",
+      "--max-rounds",
+      "3",
+      "--max-budget-usd",
+      "0.01"
+    ]
+  ],
+  "duration_seconds": 33.75,
+  "our_storyboard_frames": {
+    "count": 8,
+    "all_exist": true,
+    "all_pinned": true
+  },
+  "reference_analysis_frames": {
+    "count": 4,
+    "all_exist": true,
+    "all_pinned": false
+  },
+  "contact_sheet_pinned": true,
+  "source_files_unchanged": true,
+  "pending_reviews": [
+    "copy",
+    "storyboard"
+  ]
+}

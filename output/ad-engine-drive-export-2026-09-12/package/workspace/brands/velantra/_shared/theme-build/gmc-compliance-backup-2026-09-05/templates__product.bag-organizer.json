@@ -1,0 +1,201 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "size_chart": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "size-chart"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A felt insert that turns any open-top tote into a structured commute bag. Drop in, pull out, move between bags.<\/p>"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        },
+        "in_store": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-in-store' %}"
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Bring order to your favorite tote. The Velantra Bag Organizer drops straight into Speedy, Neverfull, Bogg and more &mdash; removable dividers and multiple pockets keep everything findable, then lift out in one piece when you switch bags.<\/p>"
+          }
+        },
+        "tab_materials": {
+          "type": "tab",
+          "settings": {
+            "title": "Materials &amp; Care",
+            "content": "<p><strong>Material<\/strong><br>Premium structured felt with removable dividers.<\/p><p><strong>Care<\/strong><br>Spot clean with a damp cloth and air dry. Remove the dividers to reshape or store flat.<\/p>"
+          }
+        },
+        "tab_dimensions": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions",
+            "content": "<p><strong>Size<\/strong><br>11.4&quot; L &times; 5.5&quot; W &times; 7.1&quot; H (29 &times; 14 &times; 18 cm). Also available in multiple sizes &mdash; see the size selector.<\/p><p>Removable dividers &middot; multiple interior pockets &middot; lightweight, portable design.<\/p>"
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free. If something isn&rsquo;t right, reach out &mdash; we&rsquo;ll make it right.<\/p>"
+          }
+        },
+        "tab_warranty": {
+          "type": "tab",
+          "settings": {
+            "title": "Two Year Warranty",
+            "content": "<p>Every Velantra piece is covered for two years against defects in materials and construction. If anything goes wrong in normal use, we&rsquo;ll repair or replace it.<\/p><p>After two years, we continue to offer repair service for the cost of materials. Designed to last decades, not seasons.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "size_chart",
+        "reviews",
+        "tab_details",
+        "tab_materials",
+        "tab_dimensions",
+        "tab_ship",
+        "tab_warranty",
+        "hint",
+        "inline_acc",
+        "in_store"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we&rsquo;ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "DESIGN",
+            "headline": "Six Pockets, Free-Standing",
+            "body": "<p>A felt insert that holds a laptop, a water bottle, a phone, keys, and the small things that get lost.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "CRAFT",
+            "headline": "Pressed Wool Felt",
+            "body": "<p>Holds its shape inside any bag. Moves between bags without sagging.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "eyebrow": "LONGEVITY",
+            "headline": "70% Recycled Wool",
+            "body": "<p>Compostable at the end of its life. Built to last long enough that it won&rsquo;t be.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "warranty",
+    "icon_bar",
+    "recently_viewed"
+  ]
+}

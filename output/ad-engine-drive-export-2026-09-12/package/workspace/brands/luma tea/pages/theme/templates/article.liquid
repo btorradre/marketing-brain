@@ -1,0 +1,6 @@
+<article>
+  <a href="{{ blog.url }}" style="font-size:12px; letter-spacing: 0.18em; text-transform: uppercase; text-decoration:none;">&larr; {{ blog.title }}</a>
+  <h1 class="lt-min-title" style="margin-top:14px;">{{ article.title }}</h1>
+  <div style="font-size:12px; color: var(--lt-muted); letter-spacing: 0.12em; text-transform:uppercase; margin-bottom:24px;">{{ article.published_at | date: "%B %e, %Y" }} &middot; {{ article.author }}</div>
+  <div class="lt-article-body">{{ article.content }}</div>
+</article>

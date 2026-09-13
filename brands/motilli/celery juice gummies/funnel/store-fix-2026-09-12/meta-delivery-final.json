@@ -1,0 +1,133 @@
+{
+  "synthetic_test": true,
+  "events": [
+    {
+      "method": "POST",
+      "status": 200,
+      "content_type": "multipart/form-data; boundary=----WebKitFormBoundaryRVrWfukqIYspEiwh",
+      "keys": [
+        "id",
+        "ev",
+        "dl",
+        "rl",
+        "if",
+        "ts",
+        "iw",
+        "cd[content_ids]",
+        "cd[content_type]",
+        "cd[content_name]",
+        "cd[content_category]",
+        "cd[currency]",
+        "cd[value]",
+        "sw",
+        "sh"
+      ],
+      "event": [
+        "ViewContent"
+      ],
+      "pixel": [
+        "1536431777433131"
+      ],
+      "value": [
+        "29.99"
+      ],
+      "currency": [
+        "USD"
+      ]
+    },
+    {
+      "method": "POST",
+      "status": 200,
+      "content_type": "multipart/form-data; boundary=----WebKitFormBoundary4Vos8qN1mXJAMBQs",
+      "keys": [
+        "id",
+        "ev",
+        "dl",
+        "rl",
+        "if",
+        "ts",
+        "iw",
+        "sw",
+        "sh",
+        "v",
+        "r",
+        "a",
+        "ec",
+        "o",
+        "aems"
+      ],
+      "event": [
+        "PageView"
+      ],
+      "pixel": [
+        "1536431777433131"
+      ],
+      "value": null,
+      "currency": null
+    },
+    {
+      "method": "POST",
+      "status": 200,
+      "content_type": "multipart/form-data; boundary=----WebKitFormBoundary7EkIM64Y9Kh2Ngvu",
+      "keys": [
+        "id",
+        "ev",
+        "dl",
+        "rl",
+        "if",
+        "ts",
+        "iw",
+        "cd[buttonFeatures]",
+        "cd[buttonText]",
+        "cd[formFeatures]",
+        "cd[pageFeatures]",
+        "sw",
+        "sh",
+        "v",
+        "r"
+      ],
+      "event": [
+        "SubscribedButtonClick"
+      ],
+      "pixel": [
+        "1536431777433131"
+      ],
+      "value": null,
+      "currency": null
+    },
+    {
+      "method": "POST",
+      "status": 200,
+      "content_type": "multipart/form-data; boundary=----WebKitFormBoundarykABH4AySOZSk4edk",
+      "keys": [
+        "id",
+        "ev",
+        "dl",
+        "rl",
+        "if",
+        "ts",
+        "iw",
+        "cd[content_ids]",
+        "cd[content_type]",
+        "cd[content_name]",
+        "cd[content_category]",
+        "cd[currency]",
+        "cd[value]",
+        "cd[num_items]",
+        "sw"
+      ],
+      "event": [
+        "AddToCart"
+      ],
+      "pixel": [
+        "1536431777433131"
+      ],
+      "value": [
+        "29.99"
+      ],
+      "currency": [
+        "USD"
+      ]
+    }
+  ]
+}

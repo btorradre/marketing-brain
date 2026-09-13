@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "MERIDIAN",
+        "description_override": "<p>Grained leather gives the Meridian its depth and gently structured shape. The wide body is framed by short, flat handles and folded side panels, with polished silver-tone fittings providing a quiet point of contrast. A narrow belted front keeps the design precise, while the open top and central zipped compartment bring order to the day. Carried in the hand or worn with its detachable strap, the Meridian moves easily between the practical and the considered.</p>",
+        "fact_material": "Grained leather",
+        "fact_detail": "Polished silver-tone fittings",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Approximate dimensions: 37 × 24 × 15 cm (W × H × D). Short, flat top handles and a detachable adjustable strap. Open top, folded side panels and a central zipped compartment between two open sections.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Grained leather with silver-tone fittings. Wipe with a soft, dry cloth. Keep away from prolonged moisture, direct heat and sunlight. Test any suitable leather conditioner on a discreet area first and store lightly filled.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "detailfilm": {
+      "type": "detail-film",
+      "settings": {
+        "description": "A multi-angle detail film of the Meridian in Brown: its silhouette, material, handles and finishing.",
+        "vertical_position": 65,
+        "video": "shopify://files/videos/velantra-meridian-detail-surface-clean-2026-09-06-v2.mp4",
+        "poster": "shopify://shop_images/velantra-meridian-detail-surface-clean-poster-2026-09-06.jpg"
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "THE RHYTHM OF MAKING",
+        "text": "<p>A closer look at the textures, seams and finishing details that give the Meridian its character.</p><p>Brown shown.</p>"
+      },
+      "blocks": {
+        "material": {
+          "type": "stage",
+          "settings": {
+            "day": "Material",
+            "heading": "Pebbled leather",
+            "default_asset": "meridian-craft-material.jpg",
+            "alt": "Close-up of the Meridian Brown leather grain and natural front-body fold.",
+            "text": "<p>The Meridian Brown leather grain and natural front-body fold.</p>"
+          }
+        },
+        "stitching": {
+          "type": "stage",
+          "settings": {
+            "day": "Stitching",
+            "heading": "Tonal stitching",
+            "default_asset": "meridian-craft-stitching.jpg",
+            "alt": "Detail of the Meridian’s stitched front edge in Brown.",
+            "text": "<p>The Meridian’s stitched front edge in Brown.</p>"
+          }
+        },
+        "finishing": {
+          "type": "stage",
+          "settings": {
+            "day": "Finishing",
+            "heading": "Finished edges",
+            "default_asset": "meridian-craft-finishing.jpg",
+            "alt": "Close-up of the Meridian’s curved side gusset and finished leather edge.",
+            "text": "<p>The Meridian’s curved side gusset and finished leather edge.</p>"
+          }
+        },
+        "hardware": {
+          "type": "stage",
+          "settings": {
+            "day": "Details",
+            "heading": "Silver details",
+            "default_asset": "meridian-craft-hardware.jpg",
+            "alt": "Detail of the Meridian’s silver center fitting and slotted belt ends.",
+            "text": "<p>The Meridian’s silver center fitting and slotted belt ends.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "material",
+        "stitching",
+        "finishing",
+        "hardware"
+      ]
+    },
+    "value": {
+      "type": "value-breakdown",
+      "settings": {
+        "default_asset": "r40-40589715112001-white-studio.webp",
+        "image_description": "The Meridian in Brown, photographed in a white studio",
+        "image_fit": "contain",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "copy": "<p>The character is in the texture, the shape and the details.</p><p>Brown shown.</p>",
+        "table_caption": "The Meridian in Brown: visible design details",
+        "detail_heading": "Detail",
+        "product_heading": "The Meridian",
+        "purpose_heading": "The purpose",
+        "sticky_content": true
+      },
+      "blocks": {
+        "detail1": {
+          "type": "detail",
+          "settings": {
+            "detail": "Surface",
+            "product_detail": "Visible pebbled grain",
+            "purpose": "Tactile character"
+          }
+        },
+        "detail2": {
+          "type": "detail",
+          "settings": {
+            "detail": "Handles",
+            "product_detail": "Short, flat leather handles",
+            "purpose": "A clean outline"
+          }
+        },
+        "detail3": {
+          "type": "detail",
+          "settings": {
+            "detail": "Silhouette",
+            "product_detail": "Wide body with folded sides",
+            "purpose": "A sculpted shape"
+          }
+        },
+        "detail4": {
+          "type": "detail",
+          "settings": {
+            "detail": "Upper edge",
+            "product_detail": "Open-top profile",
+            "purpose": "An uncluttered line"
+          }
+        },
+        "detail5": {
+          "type": "detail",
+          "settings": {
+            "detail": "Hardware",
+            "product_detail": "Silver tone",
+            "purpose": "A cool accent"
+          }
+        },
+        "detail6": {
+          "type": "detail",
+          "settings": {
+            "detail": "Identity",
+            "product_detail": "Logo-free exterior",
+            "purpose": "The bag comes first"
+          }
+        }
+      },
+      "block_order": [
+        "detail1",
+        "detail2",
+        "detail3",
+        "detail4",
+        "detail5",
+        "detail6"
+      ]
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "detailfilm",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

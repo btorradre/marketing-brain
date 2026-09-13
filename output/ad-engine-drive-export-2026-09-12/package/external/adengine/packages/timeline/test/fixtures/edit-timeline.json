@@ -1,0 +1,202 @@
+{
+  "id": "style-test-project",
+  "version": 1,
+  "tickRate": 6000,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 24000,
+  "tracks": [
+    {
+      "id": "main",
+      "kind": "video",
+      "name": "main",
+      "locked": false,
+      "muted": false,
+      "clips": [
+        {
+          "id": "opening",
+          "kind": "video",
+          "start": 0,
+          "duration": 12000,
+          "in": 6000,
+          "out": 18000,
+          "speed": 1,
+          "reverse": false,
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "scale": 1,
+            "rotation": 0,
+            "opacity": 1,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "blend": "normal",
+          "keyframes": {
+            "scale": [
+              {
+                "at": 0,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "at": 10800,
+                "value": 1.1,
+                "easing": "hold"
+              }
+            ]
+          },
+          "effects": [],
+          "assetId": "asset_a",
+          "name": "Open on the usable action",
+          "transitionOut": {
+            "kind": "dissolve",
+            "duration": 1200
+          }
+        },
+        {
+          "id": "detail",
+          "kind": "video",
+          "start": 12000,
+          "duration": 12000,
+          "in": 30000,
+          "out": 54000,
+          "speed": 2,
+          "reverse": false,
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "scale": 1,
+            "rotation": 0,
+            "opacity": 1,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "blend": "normal",
+          "keyframes": {},
+          "effects": [],
+          "assetId": "asset_a",
+          "name": "Open on the usable action"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "kind": "audio",
+      "name": "audio",
+      "locked": false,
+      "muted": false,
+      "clips": [
+        {
+          "id": "sound",
+          "kind": "audio",
+          "start": 0,
+          "duration": 24000,
+          "in": 0,
+          "out": 24000,
+          "speed": 1,
+          "reverse": false,
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "scale": 1,
+            "rotation": 0,
+            "opacity": 1,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "blend": "normal",
+          "keyframes": {},
+          "effects": [],
+          "assetId": "asset_a",
+          "name": "Open on the usable action",
+          "audio": {
+            "gain": -6,
+            "fadeIn": 600,
+            "fadeOut": 1200
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_a",
+      "kind": "video",
+      "url": "https://example.test/source.mp4",
+      "duration": 72000
+    }
+  ],
+  "markers": [
+    {
+      "id": "marker_a005af1e-253c-4cd1-b376-8344f66317ae",
+      "at": 0,
+      "kind": "review",
+      "author": {
+        "kind": "agent",
+        "id": "editor"
+      },
+      "clipId": "opening",
+      "body": "{\"rationale\":\"Open on the usable action\",\"evidence\":[{\"reference_id\":\"ref_a\",\"observation_id\":\"rushes-1\"}],\"qa_checks\":[\"Action begins on first displayed frame\"]}"
+    },
+    {
+      "id": "marker_323bb468-914c-4f08-a1d7-deb3996fb284",
+      "at": 0,
+      "kind": "review",
+      "author": {
+        "kind": "agent",
+        "id": "editor"
+      },
+      "clipId": "sound",
+      "body": "{\"rationale\":\"Open on the usable action\",\"evidence\":[{\"reference_id\":\"ref_a\",\"observation_id\":\"rushes-1\"}],\"qa_checks\":[\"Action begins on first displayed frame\"]}"
+    },
+    {
+      "id": "marker_1ce2b2ee-1b20-42fe-8cb5-0288f8ef4a21",
+      "at": 12000,
+      "kind": "review",
+      "author": {
+        "kind": "agent",
+        "id": "editor"
+      },
+      "clipId": "detail",
+      "body": "{\"rationale\":\"Open on the usable action\",\"evidence\":[{\"reference_id\":\"ref_a\",\"observation_id\":\"rushes-1\"}],\"qa_checks\":[\"Action begins on first displayed frame\"]}"
+    },
+    {
+      "id": "marker_f3534c8f-9517-445f-943e-4c925fc140fb",
+      "at": 0,
+      "kind": "review",
+      "author": {
+        "kind": "agent",
+        "id": "editor"
+      },
+      "body": "{\"analysis_to_edit\":{\"rushes\":\"Proposed rushes decision based on source observations\",\"cuts\":\"Proposed cuts decision based on source observations\",\"transitions\":\"Proposed transitions decision based on source observations\",\"pacing\":\"Proposed pacing decision based on source observations\",\"animations\":\"Proposed animations decision based on source observations\"},\"acceptance_checks\":[\"Compare rendered timing against the source ledger\"]}"
+    }
+  ],
+  "captions": [],
+  "name": "Synthetic handoff test"
+}

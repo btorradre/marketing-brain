@@ -1,0 +1,1160 @@
+{
+  "jsonrpc": "2.0",
+  "id": "scan-C198",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Creative Collation Scan: The Comfort Lab\n\n## Scan scope\n\nCreative collation: 1854098946036585\nRepresentative ad: facebook_4390285201259679\nActive ads: 1 / 3\nMember ad IDs: facebook_1806108357241717, facebook_1813291373164772, facebook_4390285201259679\n\n## 1. Hook / opening creative text\n\n> Look, if you're a side sleeper and you keep waking up with\n\nSource: Existing completed ad transcript hook.\nPattern: unclassified.\nPattern reason: No supported hook-pattern heuristic matched the hook text.\n\n## 2. Copy framing\n\n😴 Are you tired of waking up with neck pain and stiffness?\n\nYour pillow could be the reason. Most pillows lose their shape overnight, leaving your neck unsupported for hours while you sleep.\n\nMeet the ComfortLab™ Orthopaedic Pillow: made with AirFlex™ memory foam, it contours to your head and neck to provide ergonomic support and help you wake up feeling refreshed.\n\n✔ Relieve Neck Pressure – Wake up without neck pain and morning stiffness\n✔ Ergonomic Support – Helps keep your head, neck & spine comfortably aligned\n✔ Perfect for Side, Front & Back Sleepers – Ergonomic support that adapts to your sleeping position all night.\n\n👉 Shop now at thecomfortlab.co\n\n50% OFF TODAY\n\n## 3. Creative structure\n\nFormat: **video**\nCTA: **SHOP NOW** — Free Shipping On All Orders\nMedia URL: https://medias.trendtrack.io/facebook/video/6b19783f78e155df20f6eff02cc93a214b5e4bcdf559626083559d643e667350.mp4\nThumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/c529f285fa0db53a8550dc51ee1015fad20919d2145df5ebe02b3ac073997b79.jpg\n\n## 4. Landing page\n\nhttps://www.thecomfortlab.co/products/orthopaedic-neck-pillow _(domain: thecomfortlab.co)_\n\n## 5. Performance signals\n\nReach: 4,538,782\nEstimated spend: €40,849\nAdvertiser reach (30d): 4,428,024\nLaunched: 2026-07-10\nStill live: Yes (62 days running)\nRank trajectory: improving\n\n## 6. Verdict\n\n**Scaling hard — worth modeling.**\n\n---\nCredits used: 3 | Remaining: 7395 | Source: recurring\nBreakdown: ad_detail:1(success), reach_history:1(success)"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "f9617c06-ca89-4957-a63c-68fa236a343e",
+      "scope": "collation",
+      "adId": "facebook_4390285201259679",
+      "collationId": "1854098946036585",
+      "representativeAdId": "facebook_4390285201259679",
+      "memberAdIds": [
+        "facebook_1806108357241717",
+        "facebook_1813291373164772",
+        "facebook_4390285201259679"
+      ],
+      "activeAdIds": [
+        "facebook_1806108357241717"
+      ],
+      "memberAdsCount": 3,
+      "activeAdsCount": 1,
+      "memberAdIdsTruncated": false,
+      "warnings": [],
+      "analysis": {
+        "hook": {
+          "text": "Look, if you're a side sleeper and you keep waking up with",
+          "source": "ad_transcripts_hook",
+          "sourceDescription": "Existing completed ad transcript hook.",
+          "isFallback": false
+        },
+        "hookPattern": "unclassified",
+        "hookPatternReason": "No supported hook-pattern heuristic matched the hook text.",
+        "trajectory": "improving",
+        "verdict": "**Scaling hard — worth modeling.**"
+      },
+      "data": {
+        "id": "facebook_4390285201259679",
+        "collationId": "1854098946036585",
+        "platform": "facebook",
+        "status": "active",
+        "createdAt": "2026-07-15T02:21:28.434Z",
+        "firstSeenAt": "2026-07-10T07:00:00.000Z",
+        "lastSeenAt": null,
+        "daysRunning": 62,
+        "media": {
+          "type": "video",
+          "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/c529f285fa0db53a8550dc51ee1015fad20919d2145df5ebe02b3ac073997b79.jpg",
+          "mediaUrl": "https://medias.trendtrack.io/facebook/video/6b19783f78e155df20f6eff02cc93a214b5e4bcdf559626083559d643e667350.mp4"
+        },
+        "advertiser": {
+          "id": "1179156088615485",
+          "name": "The Comfort Lab",
+          "logoUrl": "https://medias.trendtrack.io/profile_picture/1179156088615485.jpg",
+          "facebookPageId": "1179156088615485",
+          "liveAdsCount": 49,
+          "reach30d": 4428024,
+          "totalReach": 7077574,
+          "countriesCount": null,
+          "facebookLikes": 3854,
+          "instagramFollowers": 8123
+        },
+        "content": {
+          "title": null,
+          "body": "😴 Are you tired of waking up with neck pain and stiffness?\n\nYour pillow could be the reason. Most pillows lose their shape overnight, leaving your neck unsupported for hours while you sleep.\n\nMeet the ComfortLab™ Orthopaedic Pillow: made with AirFlex™ memory foam, it contours to your head and neck to provide ergonomic support and help you wake up feeling refreshed.\n\n✔ Relieve Neck Pressure – Wake up without neck pain and morning stiffness\n✔ Ergonomic Support – Helps keep your head, neck & spine comfortably aligned\n✔ Perfect for Side, Front & Back Sleepers – Ergonomic support that adapts to your sleeping position all night.\n\n👉 Shop now at thecomfortlab.co",
+          "transcript": null,
+          "callToAction": "SHOP NOW",
+          "landingPageUrl": "https://www.thecomfortlab.co/products/orthopaedic-neck-pillow",
+          "landingPageDomain": "thecomfortlab.co",
+          "ctaDescription": "50% OFF TODAY",
+          "ctaLinkDescription": "Free Shipping On All Orders"
+        },
+        "metrics": {
+          "reach": 4538782,
+          "aggregatedReach": null,
+          "estimatedSpend": 40849,
+          "duplicates": 3,
+          "reachDelta1d": 4061171,
+          "reachDelta7d": 4061171,
+          "reachDelta30d": 1338469
+        },
+        "audience": {
+          "targetedCountries": [
+            "GB"
+          ],
+          "mainCountry": "GB",
+          "gender": null,
+          "ageMin": 18,
+          "ageMax": 65
+        },
+        "rank": {
+          "positionInPage": 10,
+          "currentRank": 10,
+          "rankDelta": 5,
+          "improvementPct": 20.41
+        },
+        "flags": {
+          "isEuAd": true,
+          "isLowReach": false,
+          "isMediaChanged": true,
+          "hasPartnerBadge": false
+        },
+        "transcript": {
+          "language": "en",
+          "languageConfidence": 0.99958414,
+          "segments": [
+            {
+              "start": 0,
+              "end": 2.56,
+              "text": "Look, if you're a side sleeper and you keep waking up with"
+            },
+            {
+              "start": 2.56,
+              "end": 6.72,
+              "text": "pain here along the mid back, along the neck, the shoulders, sometimes"
+            },
+            {
+              "start": 6.72,
+              "end": 10,
+              "text": "even waking up with a headache, you need to understand that it"
+            },
+            {
+              "start": 10,
+              "end": 12.24,
+              "text": "all stems from the position that you're sleeping in."
+            },
+            {
+              "start": 13.04,
+              "end": 15.67,
+              "text": "In this position, you are putting a lot of pressure here along"
+            },
+            {
+              "start": 15.67,
+              "end": 18.15,
+              "text": "the shoulder joint which means that when you wake up in the"
+            },
+            {
+              "start": 18.15,
+              "end": 22.31,
+              "text": "morning, these muscles, the rotator cuff muscles, they're going to be really"
+            },
+            {
+              "start": 22.31,
+              "end": 23.52,
+              "text": "tired and fatigued."
+            },
+            {
+              "start": 23.92,
+              "end": 26.58,
+              "text": "A lot of times you'll even feel pain here along the top"
+            },
+            {
+              "start": 26.58,
+              "end": 29.94,
+              "text": "rotator cuff muscle here underneath the top of your shoulder."
+            },
+            {
+              "start": 30.82,
+              "end": 33.62,
+              "text": "That is a big trigger point because of that compression that you're"
+            },
+            {
+              "start": 33.62,
+              "end": 35.22,
+              "text": "putting on your shoulder all night."
+            },
+            {
+              "start": 36.1,
+              "end": 39.3,
+              "text": "And when these muscles are tired and fatigued throughout the day, well,"
+            },
+            {
+              "start": 39.3,
+              "end": 39.78,
+              "text": "guess what?"
+            },
+            {
+              "start": 40.35,
+              "end": 42.51,
+              "text": "Now the other muscles of the neck and the muscles of the"
+            },
+            {
+              "start": 42.51,
+              "end": 45.23,
+              "text": "mid to low back are going to have to compensate for what"
+            },
+            {
+              "start": 45.23,
+              "end": 46.43,
+              "text": "these aren't doing."
+            },
+            {
+              "start": 46.51,
+              "end": 49.07,
+              "text": "That will lead to pain here along the base of the skull,"
+            },
+            {
+              "start": 49.07,
+              "end": 52.59,
+              "text": "sometimes even pain along the low back because they're compensating for what's"
+            },
+            {
+              "start": 52.59,
+              "end": 53.07,
+              "text": "going on here."
+            },
+            {
+              "start": 53.36,
+              "end": 55.36,
+              "text": "So what is the fix?"
+            },
+            {
+              "start": 55.36,
+              "end": 58.48,
+              "text": "If if you're a side sleeper, obviously, you enjoy that position."
+            },
+            {
+              "start": 58.48,
+              "end": 59.68,
+              "text": "You don't want to get out of it."
+            },
+            {
+              "start": 59.68,
+              "end": 61.52,
+              "text": "Well, there's another thing to this position."
+            },
+            {
+              "start": 61.52,
+              "end": 64.32,
+              "text": "In this position, you have a pillow that is likely not supporting"
+            },
+            {
+              "start": 64.32,
+              "end": 64.8,
+              "text": "your neck."
+            },
+            {
+              "start": 64.8,
+              "end": 66.88,
+              "text": "You can see that there's a position here that your neck is"
+            },
+            {
+              "start": 66.88,
+              "end": 67.68,
+              "text": "relatively floating."
+            },
+            {
+              "start": 67.68,
+              "end": 68.96,
+              "text": "It's not having that proper support."
+            },
+            {
+              "start": 69.33,
+              "end": 72.38,
+              "text": "And again, that leads to more pain and tension in the muscles"
+            },
+            {
+              "start": 72.38,
+              "end": 74.94,
+              "text": "along the sides of your neck and across the tops of your"
+            },
+            {
+              "start": 74.94,
+              "end": 75.49,
+              "text": "shoulders."
+            },
+            {
+              "start": 75.97,
+              "end": 78.94,
+              "text": "These muscles of the neck that aren't getting that proper sleep and"
+            },
+            {
+              "start": 78.94,
+              "end": 80.06,
+              "text": "rest and recovery."
+            },
+            {
+              "start": 80.45,
+              "end": 83.17,
+              "text": "So when those muscles are tight throughout the day, you're not only"
+            },
+            {
+              "start": 83.17,
+              "end": 85.62,
+              "text": "going to have that fatigue, but when you go to sleep, you're"
+            },
+            {
+              "start": 85.62,
+              "end": 87.94,
+              "text": "going to make it even worse when you're thinking you're making it"
+            },
+            {
+              "start": 87.94,
+              "end": 88.34,
+              "text": "better."
+            },
+            {
+              "start": 88.34,
+              "end": 90.18,
+              "text": "So what do we need to do to fix this?"
+            },
+            {
+              "start": 90.58,
+              "end": 93.22,
+              "text": "Well, first of all, you need to get rid of these pillows"
+            },
+            {
+              "start": 93.22,
+              "end": 93.46,
+              "text": "here."
+            },
+            {
+              "start": 93.46,
+              "end": 96.02,
+              "text": "These standard pillows do not provide your body with the proper neck"
+            },
+            {
+              "start": 96.02,
+              "end": 98.34,
+              "text": "support and the proper head support when you are sleeping like this"
+            },
+            {
+              "start": 98.34,
+              "end": 99.22,
+              "text": "with that floating neck."
+            },
+            {
+              "start": 99.26,
+              "end": 101.98,
+              "text": "So when I worked as a physical therapist assistant, I would recommend"
+            },
+            {
+              "start": 101.98,
+              "end": 104.53,
+              "text": "these a lot to my patients that were dealing with those pain"
+            },
+            {
+              "start": 104.53,
+              "end": 107.74,
+              "text": "points because with these, you have ergonomic pillows that have a ramp"
+            },
+            {
+              "start": 107.74,
+              "end": 109.02,
+              "text": "here for your neck support."
+            },
+            {
+              "start": 109.34,
+              "end": 112.11,
+              "text": "They've got a little divot here for your head support and they've"
+            },
+            {
+              "start": 112.11,
+              "end": 115.23,
+              "text": "even got flaps here for you to place your arms into that"
+            },
+            {
+              "start": 115.23,
+              "end": 118.27,
+              "text": "externally rotated position and give those muscles proper rest."
+            },
+            {
+              "start": 118.27,
+              "end": 119.95,
+              "text": "Well, I've bought these for family members."
+            },
+            {
+              "start": 119.95,
+              "end": 122.44,
+              "text": "I give them as gifts And everyone who switched says the same"
+            },
+            {
+              "start": 122.44,
+              "end": 124.04,
+              "text": "thing, they wish they'd done it sooner."
+            },
+            {
+              "start": 124.04,
+              "end": 126.36,
+              "text": "Right now, they're 50% off from the comfort lab."
+            },
+            {
+              "start": 126.36,
+              "end": 129.4,
+              "text": "If you're tired of waking up sore every morning, now's probably the"
+            },
+            {
+              "start": 129.4,
+              "end": 130.6,
+              "text": "best time to give one a try."
+            },
+            {
+              "start": 130.6,
+              "end": 131.72,
+              "text": "And I'll leave the link below."
+            }
+          ],
+          "fullText": "Look, if you're a side sleeper and you keep waking up with pain here along the mid back, along the neck, the shoulders, sometimes even waking up with a headache, you need to understand that it all stems from the position that you're sleeping in. In this position, you are putting a lot of pressure here along the shoulder joint which means that when you wake up in the morning, these muscles, the rotator cuff muscles, they're going to be really tired and fatigued. A lot of times you'll even feel pain here along the top rotator cuff muscle here underneath the top of your shoulder. That is a big trigger point because of that compression that you're putting on your shoulder all night. And when these muscles are tired and fatigued throughout the day, well, guess what? Now the other muscles of the neck and the muscles of the mid to low back are going to have to compensate for what these aren't doing. That will lead to pain here along the base of the skull, sometimes even pain along the low back because they're compensating for what's going on here. So what is the fix? If if you're a side sleeper, obviously, you enjoy that position. You don't want to get out of it. Well, there's another thing to this position. In this position, you have a pillow that is likely not supporting your neck. You can see that there's a position here that your neck is relatively floating. It's not having that proper support. And again, that leads to more pain and tension in the muscles along the sides of your neck and across the tops of your shoulders. These muscles of the neck that aren't getting that proper sleep and rest and recovery. So when those muscles are tight throughout the day, you're not only going to have that fatigue, but when you go to sleep, you're going to make it even worse when you're thinking you're making it better. So what do we need to do to fix this? Well, first of all, you need to get rid of these pillows here. These standard pillows do not provide your body with the proper neck support and the proper head support when you are sleeping like this with that floating neck. So when I worked as a physical therapist assistant, I would recommend these a lot to my patients that were dealing with those pain points because with these, you have ergonomic pillows that have a ramp here for your neck support. They've got a little divot here for your head support and they've even got flaps here for you to place your arms into that externally rotated position and give those muscles proper rest. Well, I've bought these for family members. I give them as gifts And everyone who switched says the same thing, they wish they'd done it sooner. Right now, they're 50% off from the comfort lab. If you're tired of waking up sore every morning, now's probably the best time to give one a try. And I'll leave the link below."
+        },
+        "creativeAnalysis": {
+          "hook": {
+            "text": "Look, if you're a side sleeper and you keep waking up with",
+            "source": "ad_transcripts_hook",
+            "sourceDescription": "Existing completed ad transcript hook.",
+            "isFallback": false
+          }
+        },
+        "links": {
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?view_all_page_id=1179156088615485&id=4390285201259679",
+          "landingPageUrl": "https://www.thecomfortlab.co/products/orthopaedic-neck-pillow"
+        },
+        "shops": [
+          {
+            "shopId": "a0801152-4f7d-4533-a7b8-fcec9cfe928d",
+            "domain": "thecomfortlab.co",
+            "name": "ComfortLab",
+            "isPrimary": true,
+            "traffic": 5831,
+            "categories": null
+          }
+        ],
+        "pageAnalytics": {
+          "impressionsHistory": [
+            {
+              "date": "2026-07-15",
+              "totalImpressions": 0
+            },
+            {
+              "date": "2026-07-16",
+              "totalImpressions": 0
+            },
+            {
+              "date": "2026-07-17",
+              "totalImpressions": 47119
+            },
+            {
+              "date": "2026-07-18",
+              "totalImpressions": 104580
+            },
+            {
+              "date": "2026-07-19",
+              "totalImpressions": 166809
+            },
+            {
+              "date": "2026-07-20",
+              "totalImpressions": 245842
+            },
+            {
+              "date": "2026-07-21",
+              "totalImpressions": 346091
+            },
+            {
+              "date": "2026-07-22",
+              "totalImpressions": 447873
+            },
+            {
+              "date": "2026-07-23",
+              "totalImpressions": 555820
+            },
+            {
+              "date": "2026-07-24",
+              "totalImpressions": 680827
+            },
+            {
+              "date": "2026-07-25",
+              "totalImpressions": 751347
+            },
+            {
+              "date": "2026-07-26",
+              "totalImpressions": 800530
+            },
+            {
+              "date": "2026-07-27",
+              "totalImpressions": 905075
+            },
+            {
+              "date": "2026-07-28",
+              "totalImpressions": 1026670
+            },
+            {
+              "date": "2026-07-29",
+              "totalImpressions": 1026670
+            },
+            {
+              "date": "2026-07-30",
+              "totalImpressions": 1323199
+            },
+            {
+              "date": "2026-07-31",
+              "totalImpressions": 1460950
+            },
+            {
+              "date": "2026-08-01",
+              "totalImpressions": 1653784
+            },
+            {
+              "date": "2026-08-02",
+              "totalImpressions": 1791329
+            },
+            {
+              "date": "2026-08-03",
+              "totalImpressions": 3524153
+            },
+            {
+              "date": "2026-08-04",
+              "totalImpressions": 3652202
+            },
+            {
+              "date": "2026-08-05",
+              "totalImpressions": 3652202
+            },
+            {
+              "date": "2026-08-06",
+              "totalImpressions": 3837311
+            },
+            {
+              "date": "2026-08-07",
+              "totalImpressions": 3966198
+            },
+            {
+              "date": "2026-08-08",
+              "totalImpressions": 3966198
+            },
+            {
+              "date": "2026-08-09",
+              "totalImpressions": 4290741
+            },
+            {
+              "date": "2026-08-10",
+              "totalImpressions": 4536131
+            },
+            {
+              "date": "2026-08-11",
+              "totalImpressions": 4850265
+            },
+            {
+              "date": "2026-08-12",
+              "totalImpressions": 5014406
+            },
+            {
+              "date": "2026-08-13",
+              "totalImpressions": 5253294
+            },
+            {
+              "date": "2026-08-14",
+              "totalImpressions": 5453456
+            },
+            {
+              "date": "2026-08-15",
+              "totalImpressions": 5637022
+            },
+            {
+              "date": "2026-08-16",
+              "totalImpressions": 5829999
+            },
+            {
+              "date": "2026-08-17",
+              "totalImpressions": 5889139
+            },
+            {
+              "date": "2026-08-18",
+              "totalImpressions": 6032246
+            },
+            {
+              "date": "2026-08-19",
+              "totalImpressions": 6240646
+            },
+            {
+              "date": "2026-08-20",
+              "totalImpressions": 6417523
+            },
+            {
+              "date": "2026-08-21",
+              "totalImpressions": 6603063
+            },
+            {
+              "date": "2026-08-22",
+              "totalImpressions": 6757663
+            },
+            {
+              "date": "2026-08-23",
+              "totalImpressions": 6905334
+            },
+            {
+              "date": "2026-08-24",
+              "totalImpressions": 7071698
+            },
+            {
+              "date": "2026-08-25",
+              "totalImpressions": 7237292
+            },
+            {
+              "date": "2026-08-26",
+              "totalImpressions": 7365044
+            },
+            {
+              "date": "2026-08-27",
+              "totalImpressions": 7506542
+            },
+            {
+              "date": "2026-08-28",
+              "totalImpressions": 7598932
+            },
+            {
+              "date": "2026-08-29",
+              "totalImpressions": 7787567
+            },
+            {
+              "date": "2026-08-30",
+              "totalImpressions": 8026997
+            },
+            {
+              "date": "2026-08-31",
+              "totalImpressions": 8179793
+            },
+            {
+              "date": "2026-09-01",
+              "totalImpressions": 8317384
+            },
+            {
+              "date": "2026-09-02",
+              "totalImpressions": 8469453
+            },
+            {
+              "date": "2026-09-03",
+              "totalImpressions": 8572179
+            },
+            {
+              "date": "2026-09-04",
+              "totalImpressions": 8583034
+            },
+            {
+              "date": "2026-09-05",
+              "totalImpressions": 8611137
+            },
+            {
+              "date": "2026-09-06",
+              "totalImpressions": 8635101
+            },
+            {
+              "date": "2026-09-07",
+              "totalImpressions": 8661628
+            },
+            {
+              "date": "2026-09-08",
+              "totalImpressions": 8690466
+            },
+            {
+              "date": "2026-09-09",
+              "totalImpressions": 8718765
+            },
+            {
+              "date": "2026-09-10",
+              "totalImpressions": 8746059
+            }
+          ],
+          "facebookLikesHistory": [
+            {
+              "date": "2026-07-15",
+              "value": 3114
+            },
+            {
+              "date": "2026-07-16",
+              "value": 3114
+            },
+            {
+              "date": "2026-07-17",
+              "value": 3113
+            },
+            {
+              "date": "2026-07-18",
+              "value": 3112
+            },
+            {
+              "date": "2026-07-19",
+              "value": 3113
+            },
+            {
+              "date": "2026-07-20",
+              "value": 3115
+            },
+            {
+              "date": "2026-07-21",
+              "value": 3116
+            },
+            {
+              "date": "2026-07-22",
+              "value": 3117
+            },
+            {
+              "date": "2026-07-23",
+              "value": 3118
+            },
+            {
+              "date": "2026-07-24",
+              "value": 3121
+            },
+            {
+              "date": "2026-07-25",
+              "value": 3124
+            },
+            {
+              "date": "2026-07-26",
+              "value": 3128
+            },
+            {
+              "date": "2026-07-27",
+              "value": 3135
+            },
+            {
+              "date": "2026-07-28",
+              "value": 3145
+            },
+            {
+              "date": "2026-07-29",
+              "value": 3155
+            },
+            {
+              "date": "2026-07-30",
+              "value": 3159
+            },
+            {
+              "date": "2026-07-31",
+              "value": 3167
+            },
+            {
+              "date": "2026-08-01",
+              "value": 3182
+            },
+            {
+              "date": "2026-08-02",
+              "value": 3201
+            },
+            {
+              "date": "2026-08-03",
+              "value": 3210
+            },
+            {
+              "date": "2026-08-04",
+              "value": 3222
+            },
+            {
+              "date": "2026-08-05",
+              "value": 3232
+            },
+            {
+              "date": "2026-08-06",
+              "value": 3251
+            },
+            {
+              "date": "2026-08-07",
+              "value": 3266
+            },
+            {
+              "date": "2026-08-08",
+              "value": 3277
+            },
+            {
+              "date": "2026-08-09",
+              "value": 3303
+            },
+            {
+              "date": "2026-08-10",
+              "value": 3342
+            },
+            {
+              "date": "2026-08-11",
+              "value": 3374
+            },
+            {
+              "date": "2026-08-12",
+              "value": 3397
+            },
+            {
+              "date": "2026-08-13",
+              "value": 3416
+            },
+            {
+              "date": "2026-08-14",
+              "value": 3439
+            },
+            {
+              "date": "2026-08-15",
+              "value": 3477
+            },
+            {
+              "date": "2026-08-16",
+              "value": 3509
+            },
+            {
+              "date": "2026-08-17",
+              "value": 3521
+            },
+            {
+              "date": "2026-08-18",
+              "value": 3538
+            },
+            {
+              "date": "2026-08-19",
+              "value": 3565
+            },
+            {
+              "date": "2026-08-20",
+              "value": 3582
+            },
+            {
+              "date": "2026-08-21",
+              "value": 3610
+            },
+            {
+              "date": "2026-08-22",
+              "value": 3636
+            },
+            {
+              "date": "2026-08-23",
+              "value": 3661
+            },
+            {
+              "date": "2026-08-24",
+              "value": 3694
+            },
+            {
+              "date": "2026-08-25",
+              "value": 3716
+            },
+            {
+              "date": "2026-08-26",
+              "value": 3726
+            },
+            {
+              "date": "2026-08-27",
+              "value": 3744
+            },
+            {
+              "date": "2026-08-28",
+              "value": 3768
+            },
+            {
+              "date": "2026-08-29",
+              "value": 3784
+            },
+            {
+              "date": "2026-08-30",
+              "value": 3791
+            },
+            {
+              "date": "2026-08-31",
+              "value": 3805
+            },
+            {
+              "date": "2026-09-01",
+              "value": 3819
+            },
+            {
+              "date": "2026-09-02",
+              "value": 3832
+            },
+            {
+              "date": "2026-09-03",
+              "value": 3843
+            },
+            {
+              "date": "2026-09-04",
+              "value": 3845
+            },
+            {
+              "date": "2026-09-05",
+              "value": 3848
+            },
+            {
+              "date": "2026-09-06",
+              "value": 3849
+            },
+            {
+              "date": "2026-09-07",
+              "value": 3851
+            },
+            {
+              "date": "2026-09-08",
+              "value": 3853
+            },
+            {
+              "date": "2026-09-09",
+              "value": 3854
+            },
+            {
+              "date": "2026-09-10",
+              "value": 3858
+            }
+          ],
+          "instagramFollowersHistory": null
+        }
+      },
+      "reachHistory": [
+        {
+          "date": "2026-07-15",
+          "reach": 48886
+        },
+        {
+          "date": "2026-07-16",
+          "reach": 67567
+        },
+        {
+          "date": "2026-07-17",
+          "reach": 95809
+        },
+        {
+          "date": "2026-07-18",
+          "reach": 124896
+        },
+        {
+          "date": "2026-07-19",
+          "reach": 157906
+        },
+        {
+          "date": "2026-07-20",
+          "reach": 203584
+        },
+        {
+          "date": "2026-07-21",
+          "reach": 257337
+        },
+        {
+          "date": "2026-07-22",
+          "reach": 304636
+        },
+        {
+          "date": "2026-07-23",
+          "reach": 364497
+        },
+        {
+          "date": "2026-07-24",
+          "reach": 428446
+        },
+        {
+          "date": "2026-07-25",
+          "reach": 497477
+        },
+        {
+          "date": "2026-07-26",
+          "reach": 543308
+        },
+        {
+          "date": "2026-07-27",
+          "reach": 630248
+        },
+        {
+          "date": "2026-07-28",
+          "reach": 739512
+        },
+        {
+          "date": "2026-07-30",
+          "reach": 1032197
+        },
+        {
+          "date": "2026-07-31",
+          "reach": 1163685
+        },
+        {
+          "date": "2026-08-01",
+          "reach": 1355984
+        },
+        {
+          "date": "2026-08-02",
+          "reach": 1491169
+        },
+        {
+          "date": "2026-08-03",
+          "reach": 1672873
+        },
+        {
+          "date": "2026-08-04",
+          "reach": 1792619
+        },
+        {
+          "date": "2026-08-05",
+          "reach": 1902342
+        },
+        {
+          "date": "2026-08-06",
+          "reach": 2052290
+        },
+        {
+          "date": "2026-08-07",
+          "reach": 2149526
+        },
+        {
+          "date": "2026-08-08",
+          "reach": 2263056
+        },
+        {
+          "date": "2026-08-09",
+          "reach": 2377741
+        },
+        {
+          "date": "2026-08-10",
+          "reach": 2533295
+        },
+        {
+          "date": "2026-08-11",
+          "reach": 2722702
+        },
+        {
+          "date": "2026-08-12",
+          "reach": 2822744
+        },
+        {
+          "date": "2026-08-13",
+          "reach": 2967629
+        },
+        {
+          "date": "2026-08-14",
+          "reach": 3108383
+        },
+        {
+          "date": "2026-08-15",
+          "reach": 3217426
+        },
+        {
+          "date": "2026-08-16",
+          "reach": 3296711
+        },
+        {
+          "date": "2026-08-17",
+          "reach": 3316116
+        },
+        {
+          "date": "2026-08-18",
+          "reach": 3376525
+        },
+        {
+          "date": "2026-08-19",
+          "reach": 3485489
+        },
+        {
+          "date": "2026-08-20",
+          "reach": 3544973
+        },
+        {
+          "date": "2026-08-21",
+          "reach": 3617847
+        },
+        {
+          "date": "2026-08-22",
+          "reach": 3660568
+        },
+        {
+          "date": "2026-08-23",
+          "reach": 3718194
+        },
+        {
+          "date": "2026-08-24",
+          "reach": 3781249
+        },
+        {
+          "date": "2026-08-25",
+          "reach": 3879291
+        },
+        {
+          "date": "2026-08-26",
+          "reach": 3953906
+        },
+        {
+          "date": "2026-08-27",
+          "reach": 4029481
+        },
+        {
+          "date": "2026-08-28",
+          "reach": 4066079
+        },
+        {
+          "date": "2026-08-29",
+          "reach": 58743
+        },
+        {
+          "date": "2026-08-30",
+          "reach": 129495
+        },
+        {
+          "date": "2026-08-31",
+          "reach": 216389
+        },
+        {
+          "date": "2026-09-01",
+          "reach": 304187
+        },
+        {
+          "date": "2026-09-02",
+          "reach": 394506
+        },
+        {
+          "date": "2026-09-03",
+          "reach": 451627
+        },
+        {
+          "date": "2026-09-04",
+          "reach": 455204
+        },
+        {
+          "date": "2026-09-05",
+          "reach": 3494
+        },
+        {
+          "date": "2026-09-06",
+          "reach": 8242
+        },
+        {
+          "date": "2026-09-07",
+          "reach": 13632
+        },
+        {
+          "date": "2026-09-08",
+          "reach": 19176
+        },
+        {
+          "date": "2026-09-09",
+          "reach": 23400
+        },
+        {
+          "date": "2026-09-10",
+          "reach": 24794
+        }
+      ],
+      "credits": {
+        "requestedUnits": 2,
+        "effectiveUnits": 2,
+        "actualUnits": 2,
+        "costUnits": 3,
+        "recurringUnits": 3,
+        "topupUnits": 0,
+        "creditsRemaining": 7395,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null,
+        "breakdown": [
+          {
+            "key": "ad_detail",
+            "endpointKey": "public_api.ads.detail.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          },
+          {
+            "key": "reach_history",
+            "endpointKey": "public_api.ads.reach_history.get",
+            "plannedUnits": 1,
+            "actualUnits": 1,
+            "status": "success"
+          }
+        ]
+      }
+    },
+    "isError": false
+  }
+}

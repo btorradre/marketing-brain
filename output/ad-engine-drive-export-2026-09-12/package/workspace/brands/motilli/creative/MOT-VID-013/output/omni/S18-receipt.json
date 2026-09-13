@@ -1,0 +1,73 @@
+{
+  "shot": "S18",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "A slow camera drift follows the connected digestive tract downward, with the existing warm highlights remaining restrained. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S18.png",
+  "reference_sha256": "b805dd0177a6120a0a45fc6ea54319275c3b4c3ca3c05af56fb962cd2f4a9942",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdVck9nYXRMUks1bXN6N0lQNWU3QnlBcxIXVXJPZ2F0TFJLNW1zejdJUDVlN0J5QXM",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S18.mp4",
+  "sha256": "b9e01f646671f80bdb1790e93d21225e7ced9c3f7444c8de8ca3f6c7978beb70",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59754,
+    "total_input_tokens": 1151,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 51
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58391,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 212,
+    "raw_prompt_token": 31048,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1844
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 477
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 212
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

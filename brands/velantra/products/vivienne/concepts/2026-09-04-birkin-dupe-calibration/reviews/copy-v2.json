@@ -1,0 +1,123 @@
+{
+  "rubric_id": "copy",
+  "rubric_version": "0.1.0",
+  "artifact_hash": "db0c28b6679fd99ce55fd7546dd18198d95ed50a62a0ce693e4c3f481c36d545",
+  "reviewer_id": "vivienne-independent-copy",
+  "packet_hash": "323db5cf1b94158c6b99bcd0d01cd1c4672f4c955f512bfc9cb5801044305328",
+  "criteria": {
+    "claim_truth": {
+      "score": 4,
+      "critical_failure": false,
+      "feedback": "The revised claim set is narrow and fully traceable: visible braided trim and front logo absence, actual price, and qualified pre-order timing. Removing tactile softness and narrowing logo scope preserves the limitations of generated reference imagery. Preserve this ledger in production; no stronger manufacturing, equivalence or use claim is needed.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v2.md",
+          "locator": "Spoken script; Screen text; Claims and source limitations",
+          "observation": "Spoken under-$150 wording agrees with $149.99 screen text. The visible front design and braided trim are sourced, and October is expected shipment rather than guaranteed arrival. No personal experience is invented."
+        },
+        {
+          "kind": "product_truth",
+          "path": "evidence/product-truth-evidence.json",
+          "locator": "claims[price, fulfillment, visible_features]; sources[master]",
+          "observation": "The evidence supports the exact offer and visible features while identifying the master as visual evidence, not physical product testing."
+        }
+      ]
+    },
+    "customer_voice": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The preference-first hook and Look at phrasing now sound like one shopper pointing out a find. Price and no-logo appeal fit the documented category register without borrowing another buyer testimonial. This is acceptable category-informed voice, not yet distinctive or validated Vivienne voice. A future calibration input should be genuine shopper reactions to this concept; adding forced slang or more adjectives would not improve evidence.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v2.md",
+          "locator": "Spoken script, first four sentences",
+          "observation": "Love the Birkin shape, but not the price leads with a shopper preference; the reveal and a specific visible detail follow in plain language."
+        },
+        {
+          "kind": "customer_voice",
+          "path": "evidence/customer-voice-evidence.json",
+          "locator": "voice_evidence[voc-value, voc-vibe, voc-no-logo]; evidence_tier",
+          "observation": "Category evidence supports price justification, desired style and no-logo preferences. It explicitly does not establish a Vivienne customer sample or conversion response."
+        }
+      ]
+    },
+    "spoken_naturalness": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "Text read-through only; no audio was heard and no acoustic timing was measured. The missing-verb attribute fragment and duplicated full price are fixed. The syntax is speakable, with a clear progression. Three consecutive sentence starts using This is / It is / It is keep the cadence functional rather than exemplary. Optionally join the offer as Under a hundred and fifty dollars, on pre-order, expected to ship in October if the actual performance can handle the breath group. Do not lengthen this solely to raise a score; confirm cadence in the audio review.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v2.md",
+          "locator": "Spoken script, complete paragraph; Format",
+          "observation": "The script moves through shopper question, reveal, detail, price, condition and CTA. Complete sentences replace the v1 attribute fragment. The stated 23\u201325 seconds is a plan; delivery is unverified."
+        }
+      ]
+    },
+    "avatar_fit": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The script fits the supplied bag-aware shopper hypothesis and avoids demographic assumptions, status shaming and fictional ownership. It is specific enough to test. A stronger emotional-relevance score would require evidence about the customer situation or an observed reaction; the broad taste-and-price hypothesis alone does not establish exemplary resonance.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v2.md",
+          "locator": "Target; Spoken script hook and visual-detail sentence",
+          "observation": "The script explicitly addresses liking the recognizable shape and wanting a lower price, then draws attention to trim and absence of a front logo."
+        },
+        {
+          "kind": "avatar_brief",
+          "path": "avatar-brief.json",
+          "locator": "description; angle_fit; exclude_assumptions",
+          "observation": "The supplied brief prioritizes recognizable styling, a justifiable price and practical purchase conditions, while excluding invented demographics and ownership."
+        },
+        {
+          "kind": "customer_voice",
+          "path": "evidence/customer-voice-evidence.json",
+          "locator": "working_avatar; calibration_limitations",
+          "observation": "The avatar remains a category-informed test hypothesis. The evidence calls for actual human judgments and later measured outcomes rather than inference from agent grades."
+        }
+      ]
+    },
+    "hook_argument": {
+      "score": 3,
+      "critical_failure": false,
+      "feedback": "The hook now states a recognizable preference and resolves the price objection with a verified offer. The product detail makes the reveal concrete, and pre-order disclosure honestly replaces unsupported reference endorsement. The argument is clear and acceptable; it has one modest visual reason to care rather than an exemplary series of increasingly persuasive proof beats. In this short format, a matched close view of the actual trim is the next meaningful improvement, subject to storyboard and render QA. This review uses the supplied reference analysis; the reel itself was not independently watched here.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v2.md",
+          "locator": "Spoken script, hook through CTA",
+          "observation": "The find is identified as Vivienne, a visible styling detail is named, under-$150 price supplies the promised payoff, and the viewer is given a next action."
+        },
+        {
+          "kind": "reference",
+          "path": "reference-analysis.md",
+          "locator": "Persuasive sequence; Adaptation",
+          "observation": "The reference analysis identifies luxury-reference hook, reveal, product/price information and CTA. It authorizes replacing unsourced endorsement and comment automation with factual preorder information and tap-through action."
+        }
+      ]
+    },
+    "cta_offer": {
+      "score": 4,
+      "critical_failure": false,
+      "feedback": "The shortened offer is accurate and efficient: one price statement, an immediately adjacent preorder/expected-shipment qualification, and one proportionate tap-through action. The on-screen exact price and continuing preorder notice preserve clarity. Retain the qualifier through the final frame and recheck the live offer before publication.",
+      "evidence": [
+        {
+          "kind": "artifact",
+          "path": "script-v2.md",
+          "locator": "Spoken script final three sentences; Screen text",
+          "observation": "The offer progresses directly from under-$150 price to expected October preorder shipment to see the colors. Screen text supplies $149.99 and requires the condition throughout the offer and CTA."
+        },
+        {
+          "kind": "product_truth",
+          "path": "evidence/product-truth-evidence.json",
+          "locator": "sources[pdp].observations; claims[price, fulfillment]",
+          "observation": "Live-verified evidence records $149.99, available listed colorways and pre-order expected October; no urgency or immediate fulfillment is supported."
+        }
+      ]
+    }
+  }
+}

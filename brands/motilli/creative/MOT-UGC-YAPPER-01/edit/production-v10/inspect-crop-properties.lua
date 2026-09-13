@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('LIVE',p:GetName(),t:GetName(),t:GetEndFrame(),p:IsRenderingInProgress());for _,c in ipairs(t:GetItemListInTrack('video',2)) do if c:GetStart()==4197 then for k,v in pairs(c:GetProperty()) do print(k,v) end end end

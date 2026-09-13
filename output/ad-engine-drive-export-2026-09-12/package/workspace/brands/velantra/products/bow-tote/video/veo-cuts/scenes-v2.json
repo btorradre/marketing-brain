@@ -1,0 +1,31 @@
+{
+  "defaults": {
+    "model": "veo-3.1-fast-generate-preview",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration_seconds": 4,
+    "negative_prompt": "dialogue, voices, narration, on-screen text, watermark, logo, fast motion, camera shake, warped hands, extra fingers, morphing, bag changing shape"
+  },
+  "scenes": [
+    {
+      "image": "v2-frames/v2-frame-1-tying.jpeg",
+      "prompt": "Her fingers gently finish tying the beige ribbon bow on the ivory canvas tote, giving one soft final pull so the loops sit perfectly, then her hands withdraw slowly. The bag stays still on the linen table, soft morning bedroom light. Very slow subtle push-in, intimate and calm, no camera shake. Quiet room tone only.",
+      "output": "bowtote-v2-cut-1-tying.mp4"
+    },
+    {
+      "image": "v2-frames/v2-frame-2-cabana.jpeg",
+      "prompt": "Poolside stillness: the fringed straw umbrella sways gently in the breeze, sunlight ripples across the turquoise pool water behind, condensation glistens on the glass. The ivory bow tote stays perfectly still and crisp on the striped lounger. Very slow drift upward, serene resort morning. Soft water ambience, no voices.",
+      "output": "bowtote-v2-cut-2-cabana.mp4"
+    },
+    {
+      "image": "v2-frames/v2-frame-3-doorway.jpeg",
+      "prompt": "She lifts the ivory bow tote off the console table by its white handles in one smooth graceful motion and turns toward the open sunlit door, her linen dress swaying softly. Natural relaxed pace, the bag keeps its exact shape and bow. Slow gentle camera follow, warm coastal morning light. Soft footsteps and breeze, no dialogue.",
+      "output": "bowtote-v2-cut-3-doorway.mp4"
+    },
+    {
+      "image": "v2-frames/v2-frame-4-picnic.jpeg",
+      "prompt": "Overhead picnic tableau: a soft breeze flutters the open book's page and stirs the peony petals slightly, dappled light shifting across the linen blanket. The open bow tote stays perfectly still at center showing its floral lining. Very slow overhead drift, golden hour, romantic and calm. Gentle outdoor ambience, no voices.",
+      "output": "bowtote-v2-cut-4-picnic.mp4"
+    }
+  ]
+}

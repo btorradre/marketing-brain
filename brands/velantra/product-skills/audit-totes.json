@@ -1,0 +1,2288 @@
+{
+  "as_of": "2026-09-04",
+  "purpose": "Product-specific fidelity skill evidence audit for Colette, Meridian, Camille and Sofia, covering ten catalog listings.",
+  "scope": {
+    "shopify_access": "read_only",
+    "shopify_mutations": false,
+    "image_generation_performed": false,
+    "historical_source_snapshots_modified": false,
+    "tools_for_future_stills": "GPT Image 2",
+    "tools_for_future_video": "Google Omni",
+    "hyperframes": "banned"
+  },
+  "shared_protocol": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/SCALE-AND-FIDELITY.md",
+  "overall_metric_scale_status": "Not physically certified for any of these four product families.",
+  "products": [
+    {
+      "family": "colette",
+      "canonical_name": "Colette Wool Tote",
+      "local_product_folder": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote",
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-colette-product/SKILL.md",
+      "evidence_ledger": "/Users/brooksorradre2/.codex/skills/velantra-colette-product/references/evidence.md",
+      "aliases": [
+        {
+          "handle": "the-colette-wool-tote",
+          "product_id": "gid://shopify/Product/7995691106369",
+          "status": "ACTIVE",
+          "title": "The Colette Wool Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/44263482425409",
+            "gid://shopify/ProductVariant/44263482458177"
+          ],
+          "colors": [
+            "Caramel",
+            "Espresso"
+          ],
+          "image_count": 10
+        }
+      ],
+      "dimension_rows": [
+        {
+          "measurement": "front_width",
+          "value": 50,
+          "unit": "cm",
+          "status": "catalog_only",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "Top versus base width is unspecified. No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "body_height",
+          "value": 26,
+          "unit": "cm",
+          "status": "catalog_only",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "depth",
+          "value": 18,
+          "unit": "cm",
+          "status": "catalog_only",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "Maximum/base depth unspecified. No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "handle_drop",
+          "value": 16,
+          "unit": "cm",
+          "status": "catalog_only",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "No verified rim-to-inside-apex sample measurement."
+        },
+        {
+          "measurement": "usable_opening_and_laptop_fit",
+          "value": null,
+          "unit": null,
+          "status": "unknown",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "Unknown laptop props and nominal body dimensions cannot certify fit."
+        },
+        {
+          "measurement": "weight",
+          "value": null,
+          "unit": "g",
+          "status": "unknown",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "No weighed sample found."
+        }
+      ],
+      "physically_measured_dimension_found": false,
+      "supplier_documented_dimension_found": false,
+      "numeric_owner_approved_dimension_found": false,
+      "owner_approved_appearance_target": null,
+      "material_limitations": [
+        "Cashmere-feel is not evidence of cashmere content or wool percentage.",
+        "Trim grade, lining composition, anti-pill and waterproof claims unverified."
+      ],
+      "viewed_contact_sheets": [
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-colette-product/references/angle-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-colette-product/references/angle-evidence.json",
+          "source_count": 13
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-colette-product/references/r40-source-comparison.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-colette-product/references/r40-source-comparison.json",
+          "source_count": 12
+        }
+      ],
+      "viewed_full_resolution_paths": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-references/colette-canonical-caramel-v3.png"
+      ],
+      "viewed_source_paths": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v3-espresso-interior.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-caramel-model.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v4-caramel-side.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-espresso-model.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v3-caramel-side.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v4-espresso-side.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v3-espresso-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v3-espresso-side.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v3-espresso-front.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v3-caramel-front.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-images/square-1to1-2026-08-16/colette-v3-caramel-interior.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-references/colette-canonical-caramel.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/product-references/colette-canonical-caramel-v3.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/01-41003381522497.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381522497-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/04-41052385640513.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41052385640513-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/05-41003381653569.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381653569-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/06-41003381686337.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381686337-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/09-41052385673281.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41052385673281-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/10-41003381817409.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381817409-white-studio.webp"
+      ],
+      "review_method_note": "Indexed sources were actually viewed via contact sheets; only individually listed full-resolution paths were additionally inspected alone. No claim every source was inspected individually.",
+      "sources": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/catalog-full-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/SCALE-AND-FIDELITY.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/fulfillment-sheet-evidence.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/README.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/velantra_sku_list.csv",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/ops/kanary-sourcing-2026-08/kanary_data.py",
+        "/Users/brooksorradre2/.codex/skills/velantra-colette-product/references/catalog-snapshot.json",
+        "/Users/brooksorradre2/.codex/skills/velantra-colette-product/references/live-theme-template-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/concepts/2026-07-27-colette-pdp-copy.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/cashmere-tote/broll/organic-library-2026-09/research/product_visual_reference_model.md"
+      ],
+      "source_image_urls": [
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915641921",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-canonical-caramel-v3_a1e876c9-7fcc-4151-bc38-e0bb24274f9b.png?v=1786944678"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915674689",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-caramel-model_ff3c810a-4f0e-41af-95a1-ef8bbb9b5da3.png?v=1786944679"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915707457",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-v3-caramel-front_7a8bd4af-2acc-4401-9396-0e8d1dab93eb.png?v=1786944679"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30649182748737",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-v4-caramel-side.png?v=1787242732"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915772993",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-v3-caramel-interior_86825e47-4b12-454b-921a-eb902d958fb3.png?v=1786944680"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915805761",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-v3-espresso-hero_56a37375-a942-4f71-961b-c67bb0f1511b.png?v=1786944679"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915838529",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-espresso-model_159704dd-a97f-43e6-a349-d4f8f7bf029e.png?v=1786944679"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915871297",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-v3-espresso-front_5114feed-eb3b-4d48-b311-6dd7c44258f0.png?v=1786944679"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30649182781505",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-v4-espresso-side.png?v=1787242733"
+        },
+        {
+          "handle": "the-colette-wool-tote",
+          "media_id": "gid://shopify/MediaImage/30609915936833",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sq-colette-v3-espresso-interior_e671f8fd-fccd-4345-84ee-2587b8dad535.png?v=1786944680"
+        }
+      ],
+      "missing_evidence": [
+        "Measured Wtop/Wbase/H/D/drop on current sample.",
+        "Direct back and underside masters.",
+        "Fiber composition and matching supplier evidence.",
+        "Measured usable opening / actual laptop-fit test."
+      ],
+      "image_qa": {
+        "current_r40_applicable": true,
+        "review_scope": "representative source/output pairs; not exhaustive image certification",
+        "reviewed_pair_count": 6,
+        "pairs": [
+          {
+            "source_image_id": "41003381522497",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/01-41003381522497.png",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381522497-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "41052385640513",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/04-41052385640513.png",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41052385640513-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "41003381653569",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/05-41003381653569.png",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381653569-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "41003381686337",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/06-41003381686337.png",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381686337-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "41052385673281",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/09-41052385673281.png",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41052385673281-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "41003381817409",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/the-colette-wool-tote/10-41003381817409.png",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-41003381817409-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          }
+        ],
+        "observed_findings": [
+          "Matte pale felt-like body; leather upper handle wraps and two front felt strips.",
+          "Two separate curved gold-capped belt ends; current v4 sides retain separation and central gusset seam.",
+          "Both interiors retain open felt-like surface and small rim snap details."
+        ],
+        "inherited_source_conflicts": [
+          "Old v3 side joins belt ends into a V; current v4 side differs.",
+          "Old v1 front has different belt termination; back cannot be synthesized from it."
+        ],
+        "construction_drift_verdict": "No obvious new construction-changing drift identified in the sampled current outputs.",
+        "minor_variation": "Background, frame occupancy, shadows, small surface/reflection details can change; no claim of pixel identity.",
+        "metric_scale_verdict": "unverified",
+        "metric_reason": "No calibrated source anchor or physically measured current sample; matching relative geometry does not certify cm/inches. Never stretch a source to fit nominal catalog numbers."
+      }
+    },
+    {
+      "family": "meridian",
+      "canonical_name": "Meridian / Margot Leather Tote",
+      "local_product_folder": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot",
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/SKILL.md",
+      "evidence_ledger": "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/references/evidence.md",
+      "aliases": [
+        {
+          "handle": "velantra-margot-tote",
+          "product_id": "gid://shopify/Product/7648515031105",
+          "status": "ACTIVE",
+          "title": "The Meridian Leather Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/42492796174401",
+            "gid://shopify/ProductVariant/42492796207169",
+            "gid://shopify/ProductVariant/42492796239937",
+            "gid://shopify/ProductVariant/42492796272705",
+            "gid://shopify/ProductVariant/42492796305473",
+            "gid://shopify/ProductVariant/42827787173953"
+          ],
+          "colors": [
+            "Brown",
+            "Midnight Black",
+            "Coffee Brown",
+            "Cream",
+            "Taupe",
+            "Burgundy"
+          ],
+          "image_count": 24
+        }
+      ],
+      "dimension_rows": [
+        {
+          "measurement": "front_width",
+          "value": 37,
+          "unit": "cm",
+          "status": "catalog_only",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "Older theme W/H labels conflict; local wide-photo interpretation supplies label correction, not a measurement. No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "body_height",
+          "value": 24,
+          "unit": "cm",
+          "status": "catalog_only",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "Historic W/H relabeling has inferred axis provenance. No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "depth",
+          "value": 15,
+          "unit": "cm",
+          "status": "catalog_only",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "historical_photogrammetry_W_H_D",
+          "value": [
+            34,
+            25,
+            15
+          ],
+          "unit": "cm",
+          "status": "inferred",
+          "scope": "current active listing",
+          "source": "products/margot/PRODUCT-TRUTH.md",
+          "limitations": "Approximate estimate without calibrated anchor; not a separate current size."
+        },
+        {
+          "measurement": "handle_drop",
+          "value": null,
+          "unit": "cm",
+          "status": "unknown",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "No numeric evidence."
+        },
+        {
+          "measurement": "detachable_strap_range",
+          "value": null,
+          "unit": "cm",
+          "status": "unknown",
+          "scope": "current active listing",
+          "source": "current_template",
+          "limitations": "No numeric evidence."
+        },
+        {
+          "measurement": "weight",
+          "value": {
+            "later_local_csv_g": 500,
+            "historical_lb": 2,
+            "fresh_fulfillment": "TBC"
+          },
+          "unit": null,
+          "status": "conflicting",
+          "scope": "current active listing",
+          "source": "local product truth / fulfillment evidence",
+          "limitations": "No accepted sample scale reading; do not select a convenient value."
+        }
+      ],
+      "physically_measured_dimension_found": false,
+      "supplier_documented_dimension_found": false,
+      "numeric_owner_approved_dimension_found": false,
+      "owner_approved_appearance_target": null,
+      "material_limitations": [
+        "Pebbled appearance cannot certify full-grain/calfskin/Italian origin or lining fiber.",
+        "Kanary asks for current material and separate cowhide/PU quotes; requested upgrades are not current unit facts."
+      ],
+      "viewed_contact_sheets": [
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/references/angle-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/references/angle-evidence.json",
+          "source_count": 15
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/references/r40-source-comparison.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/references/r40-source-comparison.json",
+          "source_count": 12
+        }
+      ],
+      "viewed_full_resolution_paths": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/coffee brown 7.webp"
+      ],
+      "viewed_source_paths": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/brown 1.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/black 1.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/coffee brow n1.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/gray 1.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/white 1.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/burgundy 1.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/black 8.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/black 9.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/black 3.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/coffee brown 7.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/black 7.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/white 5.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/green.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/light blue 1.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/product-references/meridian/ultra light blue 1.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/01-40589715112001.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715112001-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/03-40589715177537.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715177537-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/04-40589715210305.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715210305-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/09-40589715374145.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715374145-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/19-40589715701825.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715701825-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/24-40589715865665.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715865665-white-studio.webp"
+      ],
+      "review_method_note": "Indexed sources were actually viewed via contact sheets; only individually listed full-resolution paths were additionally inspected alone. No claim every source was inspected individually.",
+      "sources": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/catalog-full-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/SCALE-AND-FIDELITY.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/fulfillment-sheet-evidence.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/README.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/velantra_sku_list.csv",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/ops/kanary-sourcing-2026-08/kanary_data.py",
+        "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/references/catalog-snapshot.json",
+        "/Users/brooksorradre2/.codex/skills/velantra-meridian-product/references/live-theme-template-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/margot/PRODUCT-TRUTH.md"
+      ],
+      "source_image_urls": [
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227399901249",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-brown-hero.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227399934017",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-brown-onmodel.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227399966785",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-brown-straighton.jpg?v=1784826552"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227399999553",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-brown-interior.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400032321",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-black-hero.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400065089",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-black-onmodel.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400097857",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-black-straighton.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400130625",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-black-interior.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400163393",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-coffee-brown-hero.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400196161",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-coffee-brown-onmodel.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400228929",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-coffee-brown-straighton.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400261697",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-coffee-brown-interior.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400294465",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-cream-hero.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400327233",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-cream-onmodel.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400360001",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-cream-straighton.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400392769",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-cream-interior.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400425537",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-taupe-hero.jpg?v=1784826552"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400458305",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-taupe-onmodel.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400491073",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-taupe-straighton.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400523841",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-taupe-interior.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400556609",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-burgundy-hero.jpg?v=1784826552"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400589377",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-burgundy-onmodel.jpg?v=1784826552"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400622145",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-burgundy-straighton.jpg?v=1784826551"
+        },
+        {
+          "handle": "velantra-margot-tote",
+          "media_id": "gid://shopify/MediaImage/30227400654913",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/margot-burgundy-interior.jpg?v=1784826551"
+        }
+      ],
+      "missing_evidence": [
+        "Measured current Wtop/Wbase/H/D and handle drop.",
+        "Detachable strap adjustment range and actual included strap color per variant.",
+        "Matched rear/base series per color.",
+        "Material specification, sample weight and calibrated fit."
+      ],
+      "image_qa": {
+        "current_r40_applicable": true,
+        "review_scope": "representative source/output pairs; not exhaustive image certification",
+        "reviewed_pair_count": 6,
+        "pairs": [
+          {
+            "source_image_id": "40589715112001",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/01-40589715112001.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715112001-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "40589715177537",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/03-40589715177537.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715177537-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "40589715210305",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/04-40589715210305.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715210305-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "40589715374145",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/09-40589715374145.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715374145-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "40589715701825",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/19-40589715701825.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715701825-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "40589715865665",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-margot-tote/24-40589715865665.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-40589715865665-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          }
+        ],
+        "observed_findings": [
+          "Wide body, flat short handles, silver center plate and exact strap ends preserved in sampled heroes/fronts.",
+          "No added broad flap, rolled handle or gold hardware identified.",
+          "Sampled interiors preserve central zipper, open sections and side snaps."
+        ],
+        "inherited_source_conflicts": [
+          "Brown and Burgundy catalog overheads already contain a loose black strap; shipped strap color is unverified per variant.",
+          "Historical green/blue references have inconsistent closure and are not current offered colors.",
+          "Old full-flap/nine-color skill conflicts with current references."
+        ],
+        "construction_drift_verdict": "No obvious new construction-changing drift identified in the sampled current outputs.",
+        "minor_variation": "Background, frame occupancy, shadows, small surface/reflection details can change; no claim of pixel identity.",
+        "metric_scale_verdict": "unverified",
+        "metric_reason": "No calibrated source anchor or physically measured current sample; matching relative geometry does not certify cm/inches. Never stretch a source to fit nominal catalog numbers."
+      }
+    },
+    {
+      "family": "camille",
+      "canonical_name": "Camille / Boat Tote",
+      "local_product_folder": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote",
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/SKILL.md",
+      "evidence_ledger": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/evidence.md",
+      "aliases": [
+        {
+          "handle": "velantra-boat-tote-2",
+          "product_id": "gid://shopify/Product/7694299856961",
+          "status": "ACTIVE",
+          "title": "The Camille Boat Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/43016822292545",
+            "gid://shopify/ProductVariant/43016822358081",
+            "gid://shopify/ProductVariant/43016822489153",
+            "gid://shopify/ProductVariant/43016822554689",
+            "gid://shopify/ProductVariant/43016822587457",
+            "gid://shopify/ProductVariant/43016822652993",
+            "gid://shopify/ProductVariant/43783537295425",
+            "gid://shopify/ProductVariant/43783537328193",
+            "gid://shopify/ProductVariant/43792349167681",
+            "gid://shopify/ProductVariant/43792349397057",
+            "gid://shopify/ProductVariant/43792349823041",
+            "gid://shopify/ProductVariant/43792350707777",
+            "gid://shopify/ProductVariant/43792350904385"
+          ],
+          "colors": [
+            "Navy",
+            "Emerald Green",
+            "Lineman",
+            "Solid Navy (Limited Edition)",
+            "Solid Olive Green (Limited Edition)",
+            "Solid Red (Limited Edition)",
+            "Lady Pink",
+            "Light Grey",
+            "Red",
+            "Sunny Yellow",
+            "Solid Green (Limited Edition)",
+            "Solid Pink (Limited Edition)",
+            "Solid Orange (Limited Edition)"
+          ],
+          "image_count": 13
+        },
+        {
+          "handle": "velantra-boat-tote",
+          "product_id": "gid://shopify/Product/7585764835393",
+          "status": "DRAFT",
+          "title": "Velantra Boat Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/42238356750401",
+            "gid://shopify/ProductVariant/42238356783169",
+            "gid://shopify/ProductVariant/42238356815937",
+            "gid://shopify/ProductVariant/42238356848705",
+            "gid://shopify/ProductVariant/42238356881473",
+            "gid://shopify/ProductVariant/42238356914241"
+          ],
+          "colors": [
+            "Navy",
+            "Red",
+            "Emerald Green",
+            "Lady Pink",
+            "Lineman",
+            "Faded Blue"
+          ],
+          "image_count": 6
+        },
+        {
+          "handle": "boat-tote",
+          "product_id": "gid://shopify/Product/7661611679809",
+          "status": "DRAFT",
+          "title": "Velantra Boat Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/42831308980289",
+            "gid://shopify/ProductVariant/42831309013057",
+            "gid://shopify/ProductVariant/42831309045825",
+            "gid://shopify/ProductVariant/42831309078593",
+            "gid://shopify/ProductVariant/42831309111361",
+            "gid://shopify/ProductVariant/42969289982017",
+            "gid://shopify/ProductVariant/42831309144129",
+            "gid://shopify/ProductVariant/42969290014785",
+            "gid://shopify/ProductVariant/42969290047553",
+            "gid://shopify/ProductVariant/42969290080321",
+            "gid://shopify/ProductVariant/42969290113089",
+            "gid://shopify/ProductVariant/42969290145857",
+            "gid://shopify/ProductVariant/42969290178625",
+            "gid://shopify/ProductVariant/42969290211393"
+          ],
+          "colors": [
+            "Navy",
+            "Red",
+            "Emerald Green",
+            "Lady Pink",
+            "Light Grey",
+            "Sunny Yellow",
+            "Lineman",
+            "Solid Green (Limited Edition)",
+            "Solid Navy (Limited Edition)",
+            "Solid Olive Green (Limited Edition)",
+            "Solid Pink (Limited Edition)",
+            "Solid Red (Limited Edition)",
+            "Solid Orange (Limited Edition)",
+            "Solid Yellow (Limited Edition)"
+          ],
+          "image_count": 20
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "product_id": "gid://shopify/Product/7688698101825",
+          "status": "DRAFT",
+          "title": "Velantra Boat Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/42990477180993",
+            "gid://shopify/ProductVariant/42990477213761",
+            "gid://shopify/ProductVariant/42990477246529",
+            "gid://shopify/ProductVariant/42990477279297",
+            "gid://shopify/ProductVariant/42990477312065",
+            "gid://shopify/ProductVariant/42990477344833",
+            "gid://shopify/ProductVariant/42990477377601",
+            "gid://shopify/ProductVariant/42990477410369",
+            "gid://shopify/ProductVariant/42990477443137",
+            "gid://shopify/ProductVariant/42990477475905",
+            "gid://shopify/ProductVariant/42990477508673",
+            "gid://shopify/ProductVariant/42990477541441",
+            "gid://shopify/ProductVariant/42990477574209",
+            "gid://shopify/ProductVariant/42990477606977"
+          ],
+          "colors": [
+            "Navy",
+            "Red",
+            "Emerald Green",
+            "Lady Pink",
+            "Light Grey",
+            "Sunny Yellow",
+            "Lineman",
+            "Solid Green (Limited Edition)",
+            "Solid Navy (Limited Edition)",
+            "Solid Olive Green (Limited Edition)",
+            "Solid Pink (Limited Edition)",
+            "Solid Red (Limited Edition)",
+            "Solid Orange (Limited Edition)",
+            "Solid Yellow (Limited Edition)"
+          ],
+          "image_count": 24
+        }
+      ],
+      "dimension_rows": [
+        {
+          "measurement": "body_W_H_D",
+          "value": [
+            20,
+            14,
+            8
+          ],
+          "unit": "in",
+          "status": "catalog_only",
+          "scope": "ACTIVE velantra-boat-tote-2 only",
+          "source": "current_template",
+          "limitations": "Rounded cm catalog tuple is 51 x 36 x 20. Top/base width and loading state unspecified."
+        },
+        {
+          "measurement": "handle_or_strap_drop",
+          "value": 10,
+          "unit": "in",
+          "status": "catalog_only",
+          "scope": "ACTIVE velantra-boat-tote-2 only",
+          "source": "current_template",
+          "limitations": "25.4 cm arithmetic conversion, no measured rim-to-inside-apex sample."
+        },
+        {
+          "measurement": "historical_body_tuple",
+          "value": [
+            40,
+            30,
+            20
+          ],
+          "unit": "cm",
+          "status": "conflicting",
+          "scope": "older boat-tote template lineage",
+          "source": "products/boat-tote/PRODUCT-TRUTH-dimensions.md",
+          "limitations": "Inconsistent W/H inch labels; cannot assign confirmed axes or map to every draft."
+        },
+        {
+          "measurement": "earlier_body_tuple",
+          "value": [
+            14,
+            13,
+            8
+          ],
+          "unit": "in",
+          "status": "conflicting",
+          "scope": "historical unspecified alias",
+          "source": "products/boat-tote/PRODUCT-TRUTH-dimensions.md",
+          "limitations": "No established link to a current manufactured model or draft alias."
+        },
+        {
+          "measurement": "draft_confirmed_dimensions",
+          "value": null,
+          "unit": null,
+          "status": "unknown",
+          "scope": "velantra-boat-tote, boat-tote, velantra-boat-tote-1",
+          "source": "current_template",
+          "limitations": "Do not backfill active Camille dimensions onto the three drafts."
+        },
+        {
+          "measurement": "sample_weight_estimate",
+          "value": [
+            500,
+            600
+          ],
+          "unit": "g",
+          "status": "inferred",
+          "scope": "current active listing",
+          "source": "fulfillment README",
+          "limitations": "Local agent range; no accepted scale evidence per construction."
+        }
+      ],
+      "physically_measured_dimension_found": false,
+      "supplier_documented_dimension_found": false,
+      "numeric_owner_approved_dimension_found": false,
+      "owner_approved_appearance_target": null,
+      "material_limitations": [
+        "Canvas-like texture does not prove cotton percentage or ounces.",
+        "Leather-like trim does not prove full-grain/cowhide grade; Kanary upgrade request is not shipped specification."
+      ],
+      "viewed_contact_sheets": [
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/angle-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/angle-evidence.json",
+          "source_count": 14
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-alias-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-alias-evidence.json",
+          "source_count": 8
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/color-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/color-evidence.json",
+          "source_count": 14
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/current-color-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/current-color-evidence.json",
+          "source_count": 13
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/r40-source-comparison.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/r40-source-comparison.json",
+          "source_count": 8
+        }
+      ],
+      "viewed_full_resolution_paths": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/08.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/07-36425574875201.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425574875201-white-studio.webp"
+      ],
+      "viewed_source_paths": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/07.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/08.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/09.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/10.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/11.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/12.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Navy/13.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Navy/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Navy/08.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Navy/09.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Navy/10.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Navy/11.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Navy/12.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Navy/13.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-velantra-boat-tote-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-velantra-boat-tote-2.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-boat-tote-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-boat-tote-2.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-velantra-boat-tote-1-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-velantra-boat-tote-1-2.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-velantra-boat-tote-2-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-velantra-boat-tote-2-2.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Emerald Green/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Lady Pink/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Light Grey/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Lineman/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Red/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Green/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Olive Green/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Orange/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Pink/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Red/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Solid Yellow/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/product-references/boat tote/colors/Sunny Yellow/07.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/01-36425574940737.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/02-36425574907969.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/03-36425574842433.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/04-36425575039041.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/05-36425575104577.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/06-36425575235649.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/07-36425574875201.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/08-36425574809665.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/09-36425574776897.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/10-36425575202881.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/11-36425575006273.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/12-36425575268417.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/13-36425575137345.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425574940737-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425574907969-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425575039041-white-studio.webp",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425574875201-white-studio.webp"
+      ],
+      "review_method_note": "Indexed sources were actually viewed via contact sheets; only individually listed full-resolution paths were additionally inspected alone. No claim every source was inspected individually.",
+      "sources": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/catalog-full-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/SCALE-AND-FIDELITY.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/fulfillment-sheet-evidence.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/README.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/velantra_sku_list.csv",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/ops/kanary-sourcing-2026-08/kanary_data.py",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/catalog-snapshot.json",
+        "/Users/brooksorradre2/.codex/skills/velantra-camille-product/references/live-theme-template-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/boat-tote/PRODUCT-TRUTH-dimensions.md"
+      ],
+      "source_image_urls": [
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444512833",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/01_9646591c-8d25-4eb1-b49d-2e477a5534e9.jpg?v=1763010068"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444480065",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/06_0c66df7a-34f1-4429-933c-081c5989c6f2.jpg?v=1775675455"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444414529",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/05_ef646075-79b4-49ec-a6e1-f4695b80a5e5.jpg?v=1775675457"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444611137",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/navy_blue_53d5815b-0314-40bf-805a-f2472969bb96.webp?v=1775676803"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444676673",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/olive_green_17312b00-3ff8-4f2e-ba92-05f013b0f498.webp?v=1775676803"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444807745",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/red_1356bd3e-1f3d-4348-84e1-71a3f2df6324.webp?v=1775676803"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444447297",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/03_5bc60b21-15d0-4c87-bed2-592fd29c7c9f.jpg?v=1775675456"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444381761",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/04_c3367773-1309-45ae-b592-f6c10162d907.jpg?v=1775675456"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444348993",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/02_aad8e48f-e49e-44f7-8071-3a0823d2ce21.jpg?v=1775675454"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444774977",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sunny_yellow_649c87ea-5552-4bbf-ad6b-1d8adeb3e83e.webp?v=1775675458"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444578369",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/dark_green_20e33b77-f7fa-43a3-81ee-2a673a4fa21c.webp?v=1775676803"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444840513",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/pink_c374d455-41b5-412d-aaf8-6c61f8ad578f.webp?v=1775676803"
+        },
+        {
+          "handle": "velantra-boat-tote-2",
+          "media_id": "gid://shopify/MediaImage/28007444709441",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/orange_da2c2225-4955-4460-94fa-493ec63e0383.webp?v=1775676803"
+        },
+        {
+          "handle": "velantra-boat-tote",
+          "media_id": "gid://shopify/MediaImage/27263397920833",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boatkin_navy.png?v=1750952124"
+        },
+        {
+          "handle": "velantra-boat-tote",
+          "media_id": "gid://shopify/MediaImage/27263397855297",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boatkin_lineman.png?v=1750952124"
+        },
+        {
+          "handle": "velantra-boat-tote",
+          "media_id": "gid://shopify/MediaImage/27263397888065",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boatkin_pink.png?v=1750952107"
+        },
+        {
+          "handle": "velantra-boat-tote",
+          "media_id": "gid://shopify/MediaImage/27263397953601",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boatkin_green.png?v=1750952107"
+        },
+        {
+          "handle": "velantra-boat-tote",
+          "media_id": "gid://shopify/MediaImage/27263419023425",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boatkin_red_-_Edited.png?v=1750952520"
+        },
+        {
+          "handle": "velantra-boat-tote",
+          "media_id": "gid://shopify/MediaImage/27263405654081",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boatkin_faded_blue.png?v=1750952250"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27513081757761",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/01.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27781418090561",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/01_645e5908-644a-4c72-9545-6cdd022b58db.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27513081954369",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/02.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27781418123329",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/03_9477a4b2-8661-4666-b5b4-940b64a3f54e.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27513081921601",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/06.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27781418188865",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/05_dedda37e-c640-4163-a179-c56943d4cf9f.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27513081987137",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/03.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27781418156097",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/04_08f69701-2c3a-4d11-a237-7cff9f1beac0.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27513081888833",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/04.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27781418057793",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/02_a0173279-dbdb-4403-a8c1-0b99496f44b9.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27513081823297",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/05.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27781418025025",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/06_19168f42-b767-419a-8d52-4b48fa565c41.jpg?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940337057857",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sunny_yellow.webp?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940258283585",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/dark_green.webp?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940258152513",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/navy_blue.webp?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940258185281",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/olive_green.webp?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940258316353",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/pink_e7732a2e-3389-4757-9aee-1c5abdf7a173.webp?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940258250817",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/red.webp?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940258119745",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/orange_9374beec-24d8-45fa-918f-51afbecf45a2.webp?v=1761169827"
+        },
+        {
+          "handle": "boat-tote",
+          "media_id": "gid://shopify/MediaImage/27940258349121",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/yellow.webp?v=1761169827"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966175838273",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/01_e7d9bc7f-795b-489d-92c5-0e97fac86186.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966185504833",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/01_70c3f9b1-466f-43f4-9b13-a1222889ad8b.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966175871041",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/02_5619e191-ea45-47dc-b342-3b142a47fcce.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966185570369",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/03_e047cce6-8513-4feb-a45d-804206323c4f.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966176002113",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/06_23036c2d-a548-4479-a643-bbf5b5b76c74.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966185668673",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/05_5c67fe9c-2f92-4872-ae7d-9599504025a1.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966175903809",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/03_5f1b2ca7-25ae-4e35-9b87-6090ac107256.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966185603137",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/04_7d6396c3-1cd0-4931-acb2-6980315513d9.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966175936577",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/04_39648a05-8b89-496d-a66e-cb511220ce34.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966185537601",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/02_c01aafa3-105f-4f25-98a1-1415e93976c0.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186291265",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sunny_yellow_0c3174c6-f672-4f26-82d0-bbc30150979b.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966175969345",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/05_15702b52-16fa-49ab-96f4-55b4200b46a3.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966185635905",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/06_4fb41375-a04e-4e38-933d-1a57dffbb247.jpg?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186520641",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/dark_green_cd764725-75b9-489a-a28f-480fa0ee2da1.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186356801",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/olive_green_e61f4865-e8db-4090-8397-a977eed5ddd1.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186389569",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/pink_76ce0e48-ad97-4395-a2a7-8bd8c0b38ec5.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186422337",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/red_017bf88e-0464-49e1-befb-e841b318880e.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186455105",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/orange_bc162d22-0dcb-4207-863a-552ec6a35487.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186487873",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/yellow_84bf1efc-83bd-4758-8d48-353374dbb46c.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/27966186324033",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/navy_blue_f0eb37c8-083d-45f0-9849-9219c24445b4.webp?v=1761683510"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/29036254298177",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boat_tote_navy_hero.png?v=1772684676"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/29036255739969",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boat_tote_red_hero.png?v=1772684709"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/29036258033729",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boat_tote_emerald_hero.png?v=1772684748"
+        },
+        {
+          "handle": "velantra-boat-tote-1",
+          "media_id": "gid://shopify/MediaImage/29036260687937",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/boat_tote_pink_hero.png?v=1772684788"
+        }
+      ],
+      "missing_evidence": [
+        "Measured two-tone and solid samples including drop and opening.",
+        "Resolve model/dimensions per each of three draft aliases.",
+        "Supplier-matched side/back/base/interior evidence per active color.",
+        "Material and load/fit evidence."
+      ],
+      "image_qa": {
+        "current_r40_applicable": true,
+        "review_scope": "representative source/output pairs; not exhaustive image certification",
+        "reviewed_pair_count": 4,
+        "pairs": [
+          {
+            "source_image_id": "36425574940737",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/01-36425574940737.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425574940737-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "36425574907969",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/02-36425574907969.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425574907969-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "36425575039041",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/04-36425575039041.webp",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425575039041-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          },
+          {
+            "source_image_id": "36425574875201",
+            "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-boat-tote-2/07-36425574875201.jpg",
+            "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/theme/assets/r40-36425574875201-white-studio.webp",
+            "review_method": "contact_sheet_visual; Camille Lady Pink pair additionally full original resolution",
+            "source_fidelity_verdict": "No obvious construction-changing drift identified in representative visual review.",
+            "metric_scale_verdict": "unverified"
+          }
+        ],
+        "observed_findings": [
+          "Navy, Emerald and Lady Pink preserve cream canvas upper edge, flat colored handles, front strips, belt, gold-tone closure/keepers and lower border.",
+          "Solid Navy preserves its fuller dark upper panel and rounder handles rather than adopting two-tone geometry.",
+          "No extra padlock, Sample lettering, pocket or shoulder strap identified in sampled outputs."
+        ],
+        "inherited_source_conflicts": [
+          "Current solid and two-tone heroes have distinct construction, not simple recolors.",
+          "Oldest draft has weathered-canvas/handle/closure assembly different from active Camille.",
+          "Local Solid Navy angle set includes hanging padlock absent current hero.",
+          "Local color 07 images are group compositions; drafts include Sample embroidery."
+        ],
+        "construction_drift_verdict": "No obvious new construction-changing drift identified in the sampled current outputs.",
+        "minor_variation": "Background, frame occupancy, shadows, small surface/reflection details can change; no claim of pixel identity.",
+        "metric_scale_verdict": "unverified",
+        "metric_reason": "No calibrated source anchor or physically measured current sample; matching relative geometry does not certify cm/inches. Never stretch a source to fit nominal catalog numbers."
+      }
+    },
+    {
+      "family": "sofia",
+      "canonical_name": "Sofia Woven / Straw Tote",
+      "local_product_folder": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven",
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/SKILL.md",
+      "evidence_ledger": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/evidence.md",
+      "aliases": [
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "product_id": "gid://shopify/Product/7985943019585",
+          "status": "DRAFT",
+          "title": "The Sofia Woven Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/44220553789505",
+            "gid://shopify/ProductVariant/44220553855041",
+            "gid://shopify/ProductVariant/44220553887809",
+            "gid://shopify/ProductVariant/44220553920577",
+            "gid://shopify/ProductVariant/44220553953345",
+            "gid://shopify/ProductVariant/44220553986113",
+            "gid://shopify/ProductVariant/44244386414657",
+            "gid://shopify/ProductVariant/44220554051649"
+          ],
+          "colors": [
+            "Caramel",
+            "Sky Blue",
+            "Lightning Orange",
+            "Light Chocolate",
+            "Lady Pink",
+            "Cream",
+            "Sunny Yellow",
+            "Caban Black"
+          ],
+          "image_count": 32
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "product_id": "gid://shopify/Product/7996763635777",
+          "status": "DRAFT",
+          "title": "The Sofia Woven Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/44268202065985",
+            "gid://shopify/ProductVariant/44268202098753",
+            "gid://shopify/ProductVariant/44268202131521",
+            "gid://shopify/ProductVariant/44268202164289",
+            "gid://shopify/ProductVariant/44268202197057",
+            "gid://shopify/ProductVariant/44268202229825",
+            "gid://shopify/ProductVariant/44268202262593",
+            "gid://shopify/ProductVariant/44268202295361"
+          ],
+          "colors": [
+            "Caramel",
+            "Sky Blue",
+            "Lightning Orange",
+            "Light Chocolate",
+            "Lady Pink",
+            "Cream",
+            "Sunny Yellow",
+            "Caban Black"
+          ],
+          "image_count": 32
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "product_id": "gid://shopify/Product/8005238128705",
+          "status": "DRAFT",
+          "title": "The Sofia Woven Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/44308743487553",
+            "gid://shopify/ProductVariant/44308743520321",
+            "gid://shopify/ProductVariant/44308743553089",
+            "gid://shopify/ProductVariant/44308743585857",
+            "gid://shopify/ProductVariant/44308743618625",
+            "gid://shopify/ProductVariant/44308743651393",
+            "gid://shopify/ProductVariant/44308743684161",
+            "gid://shopify/ProductVariant/44308743716929"
+          ],
+          "colors": [
+            "Caramel",
+            "Sky Blue",
+            "Lightning Orange",
+            "Light Chocolate",
+            "Lady Pink",
+            "Cream",
+            "Sunny Yellow",
+            "Caban Black"
+          ],
+          "image_count": 38
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "product_id": "gid://shopify/Product/7928961957953",
+          "status": "DRAFT",
+          "title": "Velantra Straw Tote",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/44051158892609",
+            "gid://shopify/ProductVariant/44051158925377",
+            "gid://shopify/ProductVariant/44051158958145",
+            "gid://shopify/ProductVariant/44051158990913",
+            "gid://shopify/ProductVariant/44051159023681",
+            "gid://shopify/ProductVariant/44051159056449",
+            "gid://shopify/ProductVariant/44051171999809",
+            "gid://shopify/ProductVariant/44115792691265"
+          ],
+          "colors": [
+            "Caramel",
+            "Sky Blue",
+            "Lightning Orange",
+            "Light Chocolate",
+            "Lady Pink",
+            "Cream",
+            "Sunny Yellow",
+            "Caban Black"
+          ],
+          "image_count": 26
+        }
+      ],
+      "dimension_rows": [
+        {
+          "measurement": "front_width",
+          "value": 12,
+          "unit": "in",
+          "status": "catalog_only",
+          "scope": "current straw-birkin template; manufactured revision unverified",
+          "source": "current_template",
+          "limitations": "No endpoint or source-scale calibration."
+        },
+        {
+          "measurement": "body_height",
+          "value": 9.5,
+          "unit": "in",
+          "status": "catalog_only",
+          "scope": "current straw-birkin template; manufactured revision unverified",
+          "source": "current_template",
+          "limitations": "No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "depth",
+          "value": 6,
+          "unit": "in",
+          "status": "catalog_only",
+          "scope": "current straw-birkin template; manufactured revision unverified",
+          "source": "current_template",
+          "limitations": "No ruler photograph or confirmed supplier dimensional drawing; endpoint and sample loading state unspecified."
+        },
+        {
+          "measurement": "handle_drop",
+          "value": 4,
+          "unit": "in",
+          "status": "catalog_only",
+          "scope": "current straw-birkin template; manufactured revision unverified",
+          "source": "current_template",
+          "limitations": "No verified rim-to-inside-apex measurement."
+        },
+        {
+          "measurement": "older_W_H_D",
+          "value": [
+            13,
+            10,
+            6
+          ],
+          "unit": "in",
+          "status": "conflicting",
+          "scope": "older product.straw-birkin backups",
+          "source": "products/sofia-woven/product-images/system-oat-greige/pdp and template-backups",
+          "limitations": "No verified reason for dimensions revision; do not stretch references to reconcile."
+        },
+        {
+          "measurement": "older_handle_drop",
+          "value": 5.5,
+          "unit": "in",
+          "status": "conflicting",
+          "scope": "older product.straw-birkin backups",
+          "source": "products/sofia-woven/product-images/system-oat-greige/pdp and template-backups",
+          "limitations": "Conflicts with current 4-inch nominal drop."
+        },
+        {
+          "measurement": "confirmed_revision_usable_opening_weight",
+          "value": null,
+          "unit": null,
+          "status": "unknown",
+          "scope": "all four draft aliases",
+          "source": "current_template",
+          "limitations": "Unknown people and laptops are not calibrated anchors."
+        }
+      ],
+      "physically_measured_dimension_found": false,
+      "supplier_documented_dimension_found": false,
+      "numeric_owner_approved_dimension_found": false,
+      "owner_approved_appearance_target": "Historical v5 warm Caramel / denser weave / pale stitch correction; creative direction only, not proof of a manufactured SKU.",
+      "material_limitations": [
+        "Natural woven appearance does not certify straw species, hand-weaving, trim leather grade, lining or load capacity.",
+        "Proposed stiffening, full lining and hardware upgrades are not photographed current facts."
+      ],
+      "viewed_contact_sheets": [
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-alias-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-alias-evidence.json",
+          "source_count": 8
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-color-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-color-evidence.json",
+          "source_count": 8
+        },
+        {
+          "sheet": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/generation-lineage-evidence.jpg",
+          "index": "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/generation-lineage-evidence.json",
+          "source_count": 12
+        }
+      ],
+      "viewed_full_resolution_paths": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/_REF-product.jpg"
+      ],
+      "viewed_source_paths": [
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-velantra-straw-tote-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-velantra-straw-tote-2.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-copy-of-velantra-straw-tote-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-copy-of-velantra-straw-tote-2.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-the-sofia-woven-tote-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-the-sofia-woven-tote-2.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-sofia-woven-tote-1.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-sofia-woven-tote-2.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-caramel.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-sky-blue.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-lightning-orange.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-light-chocolate.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-lady-pink.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-cream.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-sunny-yellow.png",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/current-caban-black.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/_REF-product.jpg",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-caban-black-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-caramel-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-cream-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-lady-pink-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-light-chocolate-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-lightning-orange-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-sky-blue-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-sunny-yellow-hero.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-caramel-interior.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/sofia-caramel-onmodel.png",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/_v4-canon-v1.png"
+      ],
+      "review_method_note": "Indexed sources were actually viewed via contact sheets; only individually listed full-resolution paths were additionally inspected alone. No claim every source was inspected individually.",
+      "sources": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/catalog-full-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/SCALE-AND-FIDELITY.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/product-skills/fulfillment-sheet-evidence.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/README.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ecomflow-3pl/velantra_sku_list.csv",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/ops/kanary-sourcing-2026-08/kanary_data.py",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/catalog-snapshot.json",
+        "/Users/brooksorradre2/.codex/skills/velantra-sofia-product/references/live-theme-template-2026-09-04.json",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/README.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/sofia-woven/product-images/system-oat-greige/_build_jobs_v5.py"
+      ],
+      "source_image_urls": [
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413176897",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_0158b8ee-96cd-49da-8120-df74d5cadd50.png?v=1784300531"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413209665",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_18f99d4f-c623-42e0-9a86-09a64bf4c516.png?v=1784300531"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413242433",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_a42fe344-fcaf-408a-b49e-381b168592d3.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413275201",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_914025e8-2ad8-4882-8759-8bb4b98e7c33.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413307969",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_3934e460-7b85-412a-9ccb-66a233000a3e.png?v=1784300531"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216473083969",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_0d3648ee-a11c-4bf3-9b0d-208d6c2e2ea4.png?v=1784732566"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413340737",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_84b2c74f-1ec4-4a78-bda5-15a6c5696286.png?v=1784300533"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413373505",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_3b9f5a51-64bc-4b7f-8beb-01aa6293d813.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413406273",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_e0dbe9b0-22b0-484c-992d-f7841eee11ab.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216474034241",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_de9301bb-bd9c-46ed-a382-4e800b292e73.png?v=1784732571"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413439041",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_cb4f91d5-c3dd-4d1e-89e4-19597a531e77.png?v=1784300533"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413471809",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_fc696d9d-e0f2-46eb-8060-eaf7c70d233d.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413504577",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_f0b4b773-6412-4774-bd69-ce6748fffdfd.png?v=1784300531"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216474755137",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_fca24d2b-ee12-4923-a6d8-26297cc451f4.png?v=1784732576"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413537345",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_00e03ceb-0981-49d9-b001-bf832b1e7966.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413570113",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_35bb3c2d-6cb9-4d5b-8db2-a193aab48ccb.png?v=1784300533"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413602881",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_b56b0a6d-0d23-4c13-b77a-b32b023a190a.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216475705409",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_09c4a767-cbcd-4569-a434-2f4d6f7de1c3.png?v=1784732581"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413635649",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_44090fc5-ab11-46d4-acc4-bbbc5de5eb73.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413668417",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_176cf8a8-5eac-440e-9cc6-ee30933ac967.png?v=1784300533"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413701185",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_7f945c34-2d10-4639-98e0-a7387259f43b.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216476917825",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_43eb8071-8954-4178-bf92-9bd06322174f.png?v=1784732585"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413733953",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_c5bdbb69-8204-4dbc-bbb2-c587550f0e7e.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413766721",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_c7ddd692-a920-4df8-bdb9-042f5bc38cdb.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216041594945",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_a9d63592-fecb-46e2-86c7-d1dd1ece9b29.png?v=1784730865"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216477868097",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_af10b3e8-17db-47cf-8765-018b5b4b8391.png?v=1784732590"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216050344001",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_ff95bd58-6f62-48f5-9b3c-7d4cd03f1c3b.png?v=1784730891"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30216052277313",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_9151e8e7-35e9-42ec-a815-b82fd331969a.png?v=1784730903"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413897793",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/black-tote-1_1800fa94-c358-447a-90a0-2f955d5b7695.jpg?v=1784300531"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413930561",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_78e3c918-c81e-4272-946e-727a5e09190b.png?v=1784300532"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413963329",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw-tote-caban-black-coastal-outdoor_f6257264-d361-4c80-905c-79f9b582f1ab.jpg?v=1784300531"
+        },
+        {
+          "handle": "copy-of-velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/30142413996097",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw-tote-caban-black-dock-side_364b6a19-40a1-4900-b444-4cfd72aae5fa.jpg?v=1784300531"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671666417729",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front.png?v=1781612350"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292279787585",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside.jpg?v=1785267995"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671669792833",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor.png?v=1781612396"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671671332929",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side.png?v=1781612437"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671674478657",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_2363516d-3eab-4550-aaa4-0a9d926ee614.png?v=1781612478"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292280213569",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside_e21205f0-cc73-40b3-b7d0-3a73d3003619.jpg?v=1785268001"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671676969025",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_5a497c4e-b0b2-40fc-a13c-de7ea5976e0f.png?v=1781612516"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671680409665",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_3725821d-515c-45b6-afb4-d97c4926ed9e.png?v=1781612559"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671683522625",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_e570b2b6-4cf4-4cf3-bc32-b6dd37fa3497.png?v=1781612607"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292280246337",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside_12794317-4a79-4898-a856-88409a28d44d.jpg?v=1785268002"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671685652545",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_38ac840e-415c-4804-b4a9-82a495bdc927.png?v=1781612640"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671687389249",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_e8af4d16-642b-43da-bed6-8919ddd60403.png?v=1781612676"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671689781313",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_33e6352b-54a4-414c-9122-9b4356d196d5.png?v=1781612717"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292280279105",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside_5b5c04e9-624f-4a02-9ec7-6016ff8087f4.jpg?v=1785268002"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671691157569",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_a79278f3-f47b-43bc-9e97-c074b486b496.png?v=1781612751"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671692959809",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_6fb8192e-63d5-40cd-aa95-2a58cfe2f17c.png?v=1781612790"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671694696513",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_bbd53379-e309-4688-8308-6bc2ad6b3252.png?v=1781612828"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292280311873",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside_ed79d967-e380-4d4b-b40a-7f5de6a63ba0.jpg?v=1785268001"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671695581249",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_ee7ee99f-88fc-471f-8216-368b0e6d69c5.png?v=1781612862"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671696400449",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_f60dba9d-e854-4b18-ae5c-d39cef2647a5.png?v=1781612898"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671697711169",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_6cbe98ca-1676-49d7-9f21-6721766df894.png?v=1781612930"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292280344641",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside_7161d302-2736-4c8d-a9ee-7bdd8b5b45f4.jpg?v=1785268001"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671699316801",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_c124c8e6-872e-4c37-8de3-dbac4879457b.png?v=1781612966"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671700987969",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_a6c28661-7fba-49b1-8c0e-3363b081b7ec.png?v=1781613010"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671702265921",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_987f32f5-c61c-4416-8439-d6aa0c2a4957.png?v=1781613044"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292280377409",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside_9e164543-66ea-46f9-b947-2ab06c5792b0.jpg?v=1785268001"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671704461377",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_71363039-c085-4968-bbf5-cd4f315afe40.png?v=1781613081"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29671706460225",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_b67717c7-db9b-4d16-b106-16d2f035e114.png?v=1781613121"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29853115678785",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/black-tote-1.jpg?v=1783009419"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30292280410177",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-inside_4da6c740-0ed5-4d16-bf17-cd29addf47cf.jpg?v=1785268001"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29853115646017",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/black-tote-2.jpg?v=1783009419"
+        },
+        {
+          "handle": "the-sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/29853115940929",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/black-tote-3.jpg?v=1783009420"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430125228097",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/caramel_af9d6fe1-50c9-41dc-b899-2f194aaf3726.png?v=1786227448"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30545466982465",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-caramel-coastal-terrace.png?v=1786677014"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30545467015233",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-caramel-marina-boardwalk.png?v=1786677014"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30547571277889",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-caramel-onmodel-poolside-v2.png?v=1786679693"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411970379841",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_935c79aa-bfdc-4b09-8c5b-ccd64beb5d2c.png?v=1786165401"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430085709889",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sky-blue_9e1106d6-0285-4194-8343-774a7fdef489.png?v=1786227358"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546851921985",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-sky-blue-terrace.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546851954753",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-sky-blue-boardwalk.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30429892706369",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-sky-blue-onmodel-original.webp?v=1786226855"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411970510913",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_fb4a3407-49c4-4962-ba29-805a7295d392.png?v=1786165402"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430090854465",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/lightning-orange_c9fe762d-0fce-481f-9272-1489b0c77b74.png?v=1786227371"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546851987521",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-lightning-orange-terrace.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852020289",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-lightning-orange-boardwalk.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30429892739137",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-lightning-orange-onmodel-original.webp?v=1786226855"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411970707521",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_0ebf62d4-4935-44f5-89f8-b1279075f337.png?v=1786165403"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430095867969",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/light-chocolate_b1a485fd-efa8-4f8d-a767-98cb80a91f2d.png?v=1786227382"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852053057",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-light-chocolate-terrace.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852085825",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-light-chocolate-boardwalk.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30429892771905",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-light-chocolate-onmodel-original.webp?v=1786226855"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411970871361",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_d19de868-2838-4125-ab7e-63b17e764449.png?v=1786165404"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430102224961",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/lady-pink_c476c79e-4e36-447d-8a2d-866d44fc2489.png?v=1786227395"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852118593",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-lady-pink-terrace.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852151361",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-lady-pink-boardwalk.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30429892804673",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-lady-pink-onmodel-original.webp?v=1786226855"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411970969665",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_b33f04a0-7b00-41e5-9ad8-89e528e296d0.png?v=1786165405"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430107467841",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/cream_bc983e5d-19c2-4243-b8eb-e08daea43415.png?v=1786227407"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852184129",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-cream-terrace.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852216897",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-cream-boardwalk.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30429892837441",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-cream-onmodel-original.webp?v=1786226855"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411971100737",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_93ba36d4-75f0-4cb5-acfd-cb25ecead7da.png?v=1786165406"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430112219201",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sunny-yellow_38fd994d-b8f8-4674-b7bc-a90bf9e3620b.png?v=1786227419"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852249665",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-sunny-yellow-terrace.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852282433",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-sunny-yellow-boardwalk.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411971362881",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_3c80245c-dc8e-4fdb-b227-e9c9119ccbaf.png?v=1786165407"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30430116937793",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/caban-black_427355bb-d519-46a2-8e3f-c480d514ff5f.jpg?v=1786227429"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852315201",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-caban-black-terrace.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30546852347969",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/sofia-caban-black-boardwalk.png?v=1786678755"
+        },
+        {
+          "handle": "sofia-woven-tote",
+          "media_id": "gid://shopify/MediaImage/30411971493953",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_91bd225c-2d14-46c7-8917-23dc996d2054.png?v=1786165409"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671666417729",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front.png?v=1781612350"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29819261845569",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened.png?v=1782794050"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671669792833",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor.png?v=1781612396"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671671332929",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side.png?v=1781612437"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671674478657",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_2363516d-3eab-4550-aaa4-0a9d926ee614.png?v=1781612478"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671676969025",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_5a497c4e-b0b2-40fc-a13c-de7ea5976e0f.png?v=1781612516"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671680409665",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_3725821d-515c-45b6-afb4-d97c4926ed9e.png?v=1781612559"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671683522625",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_e570b2b6-4cf4-4cf3-bc32-b6dd37fa3497.png?v=1781612607"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671685652545",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_38ac840e-415c-4804-b4a9-82a495bdc927.png?v=1781612640"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671687389249",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_e8af4d16-642b-43da-bed6-8919ddd60403.png?v=1781612676"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671689781313",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_33e6352b-54a4-414c-9122-9b4356d196d5.png?v=1781612717"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671691157569",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_a79278f3-f47b-43bc-9e97-c074b486b496.png?v=1781612751"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671692959809",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_6fb8192e-63d5-40cd-aa95-2a58cfe2f17c.png?v=1781612790"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671694696513",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_bbd53379-e309-4688-8308-6bc2ad6b3252.png?v=1781612828"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671695581249",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_ee7ee99f-88fc-471f-8216-368b0e6d69c5.png?v=1781612862"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671696400449",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_f60dba9d-e854-4b18-ae5c-d39cef2647a5.png?v=1781612898"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671697711169",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_6cbe98ca-1676-49d7-9f21-6721766df894.png?v=1781612930"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671699316801",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_c124c8e6-872e-4c37-8de3-dbac4879457b.png?v=1781612966"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671700987969",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_a6c28661-7fba-49b1-8c0e-3363b081b7ec.png?v=1781613010"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671702265921",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot1_handheld_front_987f32f5-c61c-4416-8439-d6aa0c2a4957.png?v=1781613044"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671704461377",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot2_coastal_outdoor_71363039-c085-4968-bbf5-cd4f315afe40.png?v=1781613081"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29671706460225",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/shot3_dock_side_b67717c7-db9b-4d16-b106-16d2f035e114.png?v=1781613121"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29853115678785",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/black-tote-1.jpg?v=1783009419"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29853304619073",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw_birkin_opened_e86bb1b7-b8ac-42cd-a51e-9c950a008f8a.png?v=1783010404"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29853231906881",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw-tote-caban-black-coastal-outdoor.jpg?v=1783009958"
+        },
+        {
+          "handle": "velantra-straw-tote",
+          "media_id": "gid://shopify/MediaImage/29853231939649",
+          "url": "https://cdn.shopify.com/s/files/1/0627/4092/2433/files/straw-tote-caban-black-dock-side.jpg?v=1783009958"
+        }
+      ],
+      "missing_evidence": [
+        "Identify actual manufactured revision and measure body/drop/usable opening.",
+        "Resolve construction-master versus color-source conflicts before a uniform creative set.",
+        "Supplier-matched full side/back/base series.",
+        "Material and fit evidence."
+      ],
+      "image_qa": {
+        "current_r40_applicable": false,
+        "review_scope": "representative source/output pairs; not exhaustive image certification",
+        "reviewed_pair_count": 0,
+        "pairs": [],
+        "observed_findings": [
+          "No R40 production outputs for the four draft listings.",
+          "Historical v4 generated set differs from current source in coarser weave, greige Caramel/tonal stitching and magenta Lady Pink.",
+          "Later v5 owner-recorded correction asks for warm Caramel, contrast stitching and denser gently structured basketry."
+        ],
+        "inherited_source_conflicts": [
+          "Current color heroes differ in strap crossover, handle/body proportions and woven body/edge texture.",
+          "Source-only poolside/white-dress compositions carry recorded reuse restrictions.",
+          "Current and older size records disagree without a verified manufactured-revision mapping."
+        ],
+        "construction_drift_verdict": "Not applicable to R40; historical generations and source-color geometry conflict.",
+        "minor_variation": "Background, frame occupancy, shadows, small surface/reflection details can change; no claim of pixel identity.",
+        "metric_scale_verdict": "unverified",
+        "metric_reason": "No calibrated source anchor or physically measured current sample; matching relative geometry does not certify cm/inches. Never stretch a source to fit nominal catalog numbers."
+      }
+    }
+  ],
+  "validation": {
+    "quick_validate": {
+      "colette": "passed",
+      "meridian": "passed",
+      "camille": "passed",
+      "sofia": "passed"
+    },
+    "local_markdown_link_check": "passed; zero missing links",
+    "alias_count": 10,
+    "reviewed_current_r40_pair_count": 16
+  }
+}

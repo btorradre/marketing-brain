@@ -1,0 +1,763 @@
+[
+  {
+    "shot": "HA1",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman looks down at the shelf, raises her gaze slightly to scan, and places her hand flat against the cabinet door edge before looking down again with a tired expression. The cabinet door remains largely stationary rather than swinging farther open.",
+    "issues": [
+      {
+        "time_s": 1.5,
+        "description": "Cabinet door position remains static rather than noticeably easing farther open as intended.",
+        "severity": "minor"
+      },
+      {
+        "time_s": 1.75,
+        "description": "Slight sliding and unnatural repositioning of fingers as the hand moves up the door surface.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HA1-4fps.jpg"
+  },
+  {
+    "shot": "HA2",
+    "verdict": "pass",
+    "observed_motion": "The woman's hand hovers and rests gently over the central container lid before pulling back and lowering down out of frame. She blinks and exhales softly while the medicine bottles and shelf items remain stable.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.75,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HA2-4fps.jpg"
+  },
+  {
+    "shot": "HB1",
+    "verdict": "minor_issue",
+    "observed_motion": "Minimal camera movement with near-static foreground packages and subtle organic background pulsing, showing limited parallax.",
+    "issues": [
+      {
+        "time_s": 1.25,
+        "description": "Subtle text softening and geometry wobble on the MiraLAX bottle label.",
+        "severity": "minor"
+      },
+      {
+        "time_s": 2.0,
+        "description": "Camera drift is extremely subtle, yielding negligible parallax separation between foreground and anatomy.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.7,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HB1-4fps.jpg"
+  },
+  {
+    "shot": "HB2",
+    "verdict": "revise",
+    "observed_motion": "The camera slowly drifts upward, while the amber locator shifts downward along the colon before disappearing. Significant ghosting and anatomical doubling occur midway through the clip.",
+    "issues": [
+      {
+        "time_s": 2.25,
+        "description": "Amber locator migrates downwards along the colon rather than remaining stationary, then disappears.",
+        "severity": "moderate"
+      },
+      {
+        "time_s": 3.0,
+        "description": "Noticeable ghosting and double-exposure artifact distorting the stomach and upper torso geometry.",
+        "severity": "severe"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 2.0,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HB2-4fps.jpg"
+  },
+  {
+    "shot": "HC1",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman stirs the liquid continuously throughout the entire shot rather than making a single stir and stopping. The bottles and background remain stable.",
+    "issues": [
+      {
+        "time_s": 0.5,
+        "description": "Mild optical distortion and turbulence around the spoon within the cloudy liquid.",
+        "severity": "low"
+      },
+      {
+        "time_s": 1.25,
+        "description": "Stirring motion continues persistently through the duration instead of coming to a stop.",
+        "severity": "medium"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 2.0,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HC1-4fps.jpg"
+  },
+  {
+    "shot": "HC2",
+    "verdict": "pass",
+    "observed_motion": "The subject unclasps her hands and places them on her knees, exhales softly, and lowers her eyes while maintaining consistent posture and environment.",
+    "issues": [
+      {
+        "time_s": 0.75,
+        "description": "Product label typography on the background bottles softens and loses fine detail as motion begins.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 4,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HC2-4fps.jpg"
+  },
+  {
+    "shot": "S03",
+    "verdict": "pass",
+    "observed_motion": "The woman remains seated looking down at her abdomen, resting her hands on her lower stomach with a gentle inward press and a soft worried exhale.",
+    "issues": [
+      {
+        "time_s": 2.25,
+        "description": "Mild, subtle compression warping along the fingers and abdomen skin.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.74,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S03-4fps.jpg"
+  },
+  {
+    "shot": "S04",
+    "verdict": "pass",
+    "observed_motion": "Subtle organic pulsation across digestive organs with gentle camera push towards the stomach, maintaining anatomical consistency and stable amber highlight.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.78,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S04-4fps.jpg"
+  },
+  {
+    "shot": "S05",
+    "verdict": "pass",
+    "observed_motion": "The woman exhales slowly with parted lips, lowers her head and gaze slightly, and maintains a stable seated posture on the bathtub ledge throughout.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.75,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S05-4fps.jpg"
+  },
+  {
+    "shot": "S06",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman looks downward with subtle head movement and occasional blinking, while the bottles stay static on the counter. The camera remains largely fixed rather than executing a noticeable sideways slide.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Camera remains nearly static throughout the clip rather than sliding sideways across the containers.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S06-4fps.jpg"
+  },
+  {
+    "shot": "S07",
+    "verdict": "pass",
+    "observed_motion": "The camera maintains a stable frame on the digestive tract while the amber highlight along the colon dims slightly and pulses brighter around 1.50s to 1.75s before settling. Anatomical structures remain consistent and connected.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.78,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S07-4fps.jpg"
+  },
+  {
+    "shot": "S08",
+    "verdict": "minor_issue",
+    "observed_motion": "Extremely minimal to near-static motion across the duration, with little perceptible camera drift or tissue movement.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Motion is virtually imperceptible with minimal organic drift or zoom.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S08-4fps.jpg"
+  },
+  {
+    "shot": "S09",
+    "verdict": "minor_issue",
+    "observed_motion": "Camera slightly pans upward focusing on the stomach, which illuminates brightly around 1.75s, dims by 3.0s, and pulses with a secondary glow around 4.0s.",
+    "issues": [
+      {
+        "time_s": 3.75,
+        "description": "Secondary brightening pulse occurs instead of a single highlight.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.25,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S09-4fps.jpg"
+  },
+  {
+    "shot": "S10",
+    "verdict": "pass",
+    "observed_motion": "The food contents gently churn and settle within the stomach basin while the anatomical structures and cross-section cutaway boundaries remain stable throughout.",
+    "issues": [
+      {
+        "time_s": 0.5,
+        "description": "Clear gastric fluid along upper surface dissipates quickly rather than churning naturally.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.75,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.74,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S10-4fps.jpg"
+  },
+  {
+    "shot": "S11",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman shifts from a subtle hopeful smile into a reflective, serious expression while lightly adjusting her hands on her stomach. The cut to the following morning is omitted.",
+    "issues": [
+      {
+        "time_s": 2.25,
+        "description": "Subtle warping around the fingertips and abdomen as the hands shift positions.",
+        "severity": "moderate"
+      },
+      {
+        "time_s": 3.0,
+        "description": "Omission of the cut to returning to the counter.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 2.0,
+    "confidence": 7,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S11-4fps.jpg"
+  },
+  {
+    "shot": "S12",
+    "verdict": "pass",
+    "observed_motion": "The woman adjusts her waistband with her right hand before resting it down on her lap, while remaining seated with the breakfast bowl untouched.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.76,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S12-4fps.jpg"
+  },
+  {
+    "shot": "S13",
+    "verdict": "pass",
+    "observed_motion": "Woman holds fist to mouth, turns head slightly aside, then lowers her hand to her lap while looking downward.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.78,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S13-4fps.jpg"
+  },
+  {
+    "shot": "S14",
+    "verdict": "pass",
+    "observed_motion": "The woman gently opens her mouth to take a soft breath, lowers her gaze slightly, relaxes her posture, and returns to a closed-mouth thoughtful expression.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.8,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S14-4fps.jpg"
+  },
+  {
+    "shot": "S15",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman gently adjusts the capped medication pen on the counter beside its box, experiences brief finger hesitation, and fully withdraws her hand by her side.",
+    "issues": [
+      {
+        "time_s": 2.5,
+        "description": "Slight jitter and repetitive tapping of fingers on the pen before withdrawal.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.76,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S15-4fps.jpg"
+  },
+  {
+    "shot": "S16",
+    "verdict": "minor_issue",
+    "observed_motion": "Static anatomical frame with minimal to no perceptible camera drift or tissue movement across the duration.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Lacks the intended gentle camera drift connecting the stomach and colon.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S16-4fps.jpg"
+  },
+  {
+    "shot": "S17",
+    "verdict": "pass",
+    "observed_motion": "The warm highlight on the stomach gently intensifies, peaks around 2.0s to 2.5s, and softly fades back down while anatomical structures remain geometrically stable.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.76,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S17-4fps.jpg"
+  },
+  {
+    "shot": "S18",
+    "verdict": "minor_issue",
+    "observed_motion": "The camera executes a subtle downward reframe during the first second, after which the frame remains nearly static with gentle ambient pulsation on the existing highlights.",
+    "issues": [
+      {
+        "time_s": 1.25,
+        "description": "Downward camera drift largely halts, resulting in an almost static hold rather than continuous downward progression.",
+        "severity": "mild"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.74,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S18-4fps.jpg"
+  },
+  {
+    "shot": "S19",
+    "verdict": "minor_issue",
+    "observed_motion": "The shot is almost entirely static with virtually no perceptible camera translation or parallax movement across the frame.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Requested lateral camera move and parallax are missing; objects remain stationary with minimal to no camera motion.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S19-4fps.jpg"
+  },
+  {
+    "shot": "S20",
+    "verdict": "minor_issue",
+    "observed_motion": "The celery stalks remain mostly static while a thumb morphs into view on the left stalk around 1.25s, adjusts position, and retracts toward the end.",
+    "issues": [
+      {
+        "time_s": 1.25,
+        "description": "Thumb morphs into view from behind the stalk unnaturally.",
+        "severity": "moderate"
+      },
+      {
+        "time_s": 3.0,
+        "description": "Thumb retracts and partially disappears along the stalk edge.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 1.0,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S20-4fps.jpg"
+  },
+  {
+    "shot": "S21",
+    "verdict": "pass",
+    "observed_motion": "The anatomical structures remain completely stable throughout the clip, while the glowing wave lines over the stomach pulse and travel gently across their path as intended.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.78,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S21-4fps.jpg"
+  },
+  {
+    "shot": "S23",
+    "verdict": "pass",
+    "observed_motion": "Water droplets and fluid drift downward through the descending colon cutaway while organ anatomy and stool geometry remain stable.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.75,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S23-4fps.jpg"
+  },
+  {
+    "shot": "S24",
+    "verdict": "minor_issue",
+    "observed_motion": "The shot remains virtually static with little to no visible camera translation or parallax across the entire sequence.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Intended camera slide is absent or imperceptible, resulting in an essentially static frame.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S24-4fps.jpg"
+  },
+  {
+    "shot": "S25",
+    "verdict": "pass",
+    "observed_motion": "The hand steadily supports the glass bowl containing green powder with subtle, natural micro-movements while preserving object and hand geometry.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.78,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S25-4fps.jpg"
+  },
+  {
+    "shot": "S26",
+    "verdict": "pass",
+    "observed_motion": "The woman adjusts the mint packet across the table surface before fully releasing it and retracting her hand to her lap, maintaining a neutral demeanor throughout.",
+    "issues": [
+      {
+        "time_s": 0.5,
+        "description": "Slight slide and hesitation with the packet before setting it down fully.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 3.6,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S26-4fps.jpg"
+  },
+  {
+    "shot": "S27",
+    "verdict": "minor_issue",
+    "observed_motion": "A subtle camera orbit with shifting lens flares and surface reflections across the jar; the bottle, gummies, and surrounding ingredients stay stationary.",
+    "issues": [
+      {
+        "time_s": 1.75,
+        "description": "Bright flare sweep temporarily lowers contrast on the upper brand typography.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S27-4fps.jpg"
+  },
+  {
+    "shot": "S28",
+    "verdict": "revise",
+    "observed_motion": "The camera pans and rotates around the jar until around 3.50s, where the bottle unnaturally snaps and morphs from a tilted orientation into an upright vertical position.",
+    "issues": [
+      {
+        "time_s": 1.5,
+        "description": "Label text loses legibility due to lighting glare and angular distortion during rotation.",
+        "severity": "moderate"
+      },
+      {
+        "time_s": 3.5,
+        "description": "Unnatural jump and morphing transition as the jar flips from a diagonal resting position to standing upright.",
+        "severity": "high"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 1.25,
+    "confidence": 3,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S28-4fps.jpg"
+  },
+  {
+    "shot": "S29",
+    "verdict": "minor_issue",
+    "observed_motion": "Woman holds the mug steadily on the counter, breathing gently and looking forward with intermittent blinking and smiling.",
+    "issues": [
+      {
+        "time_s": 2.25,
+        "description": "Prolonged eye closure across multiple consecutive frames.",
+        "severity": "low"
+      },
+      {
+        "time_s": 3.5,
+        "description": "Repeated unnatural squinting and fluttering blinks.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 2.0,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S29-4fps.jpg"
+  },
+  {
+    "shot": "S30",
+    "verdict": "pass",
+    "observed_motion": "The woman gently shifts her posture and weight within the doorway, relaxing her smile into a calm, closed-mouth expression while maintaining stable footing and hand placement.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 7,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S30-4fps.jpg"
+  },
+  {
+    "shot": "S31",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman lifts the keys from the table and raises them toward chest height while holding the tote bag handle.",
+    "issues": [
+      {
+        "time_s": 1.5,
+        "description": "The black electronic key fob disappears, leaving only metal keys dangling in hand.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 1.25,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S31-4fps.jpg"
+  },
+  {
+    "shot": "S32",
+    "verdict": "pass",
+    "observed_motion": "The woman remains seated upright in bed, smoothly turning her head slightly further toward the window on the left while maintaining a calm expression. Hands and background elements remain stable.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.76,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S32-4fps.jpg"
+  },
+  {
+    "shot": "S33",
+    "verdict": "minor_issue",
+    "observed_motion": "The subject adjusts the sleeve of her cardigan before shifting her posture; around the three-second mark, the tote bag abruptly switches from her left shoulder to her right shoulder.",
+    "issues": [
+      {
+        "time_s": 3.0,
+        "description": "The black tote bag unnaturally teleports from the viewer's right shoulder to the viewer's left shoulder between 2.75s and 3.25s.",
+        "severity": "moderate"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 2.5,
+    "confidence": 0.78,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S33-4fps.jpg"
+  },
+  {
+    "shot": "S34",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman remains mostly stationary holding the phone with minimal finger motion; no clear tap motion or cut occurs.",
+    "issues": [
+      {
+        "time_s": 0.0,
+        "description": "Phone screen content becomes blown out and loses initial UI details present in the still.",
+        "severity": "low"
+      },
+      {
+        "time_s": 1.0,
+        "description": "Motion is largely static with negligible finger tapping action.",
+        "severity": "medium"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 4.75,
+    "confidence": 0.72,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 20,
+    "native_duration_s": 5.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S34-4fps.jpg"
+  },
+  {
+    "shot": "S35",
+    "verdict": "pass",
+    "observed_motion": "The subject looks downward with eyes softly closed before looking back toward the camera with a gentle closed-lip smile. Subtle breathing movement and gentle hair shifting are visible throughout.",
+    "issues": [
+      {
+        "time_s": 0.25,
+        "description": "Prolonged downward glance and eye closure before returning gaze to camera.",
+        "severity": "low"
+      }
+    ],
+    "safe_window_start_s": 1.0,
+    "safe_window_end_s": 3.75,
+    "confidence": 0.76,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S35-4fps.jpg"
+  },
+  {
+    "shot": "S36",
+    "verdict": "minor_issue",
+    "observed_motion": "The woman walks through the doorway and continues down the garden path with the camera drifting slightly forward.",
+    "issues": [
+      {
+        "time_s": 1.75,
+        "description": "Foot contact slightly slips on the threshold and pavement during forward stride.",
+        "severity": "minor"
+      }
+    ],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 3.5,
+    "confidence": 0.7,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 16,
+    "native_duration_s": 4.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S36-4fps.jpg"
+  },
+  {
+    "shot": "S37",
+    "verdict": "pass",
+    "observed_motion": "Subtle camera stability with consistent lighting across the product jar and two heart-shaped gummies, maintaining clean visual elements throughout.",
+    "issues": [],
+    "safe_window_start_s": 0.0,
+    "safe_window_end_s": 5.75,
+    "confidence": 0.8,
+    "review_model": "gemini-3.8-flash",
+    "sample_rate_fps": 4,
+    "frames_sampled": 24,
+    "native_duration_s": 6.0,
+    "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S37-4fps.jpg"
+  }
+]

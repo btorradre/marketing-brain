@@ -1,0 +1,30 @@
+{%- comment -%}
+  Clean Cuyana-style price block.
+  Just price (compare-at strikethrough only if actually on sale, no "Save X" badge, no shipping note).
+{%- endcomment -%}
+
+{%- assign v = product.selected_or_first_available_variant -%}
+{%- assign p = v.price | default: product.price -%}
+{%- assign cap = v.compare_at_price | default: product.compare_at_price -%}
+
+<div class="pdp-price">
+  {%- if cap and cap > p -%}
+    <span class="pdp-price__compare"><s>{{ cap | money }}</s></span>
+  {%- endif -%}
+  <span class="pdp-price__current">{{ p | money }}</span>
+</div>
+
+<style>
+  .pdp-price {
+    display: flex; align-items: baseline; gap: 12px;
+    margin: 14px 0 4px;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+  }
+  .pdp-price__current {
+    font-size: 22px; font-weight: 400; letter-spacing: 0.005em; color: #1a1a1a;
+  }
+  .pdp-price__compare {
+    font-size: 16px; color: #8a8a8a; font-weight: 400;
+  }
+  .pdp-price__compare s { text-decoration: line-through; }
+</style>

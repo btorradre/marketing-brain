@@ -1,0 +1,20 @@
+{
+  "queried_at": "2026-09-13T18:56:51.294650+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT customer.id, customer.descriptive_name, customer.currency_code, customer.time_zone, customer.auto_tagging_enabled, customer.conversion_tracking_setting.google_ads_conversion_customer FROM customer",
+  "results": [
+    {
+      "customer": {
+        "resourceName": "customers/9348603597",
+        "conversionTrackingSetting": {
+          "googleAdsConversionCustomer": "customers/9348603597"
+        },
+        "id": "9348603597",
+        "descriptiveName": "Velantra",
+        "currencyCode": "USD",
+        "timeZone": "America/New_York",
+        "autoTaggingEnabled": true
+      }
+    }
+  ]
+}

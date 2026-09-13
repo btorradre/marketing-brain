@@ -1,0 +1,73 @@
+{
+  "shot": "HC1",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "Her hand makes one gentle stir in the existing glass and stops, while the containers remain motionless with unchanged labels. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/HC1.png",
+  "reference_sha256": "ff0286f4db6dcc721b47a41b13bce2d30964fe588306f8baedac0374e9e01ea8",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chc0N0tnYXVlQ0c5S2h6N0lQbk5hS3lBZxIXNDdLZ2F1ZUNHOUtoejdJUG5OYUt5QWc",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/HC1.mp4",
+  "sha256": "890ee0ac6cd93af3990567bbf6ebaeb4a1dea4ee85905ea94dc1bd9c4e62b16c",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 59813,
+    "total_input_tokens": 1154,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 54
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58470,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 189,
+    "raw_prompt_token": 31297,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1847
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 556
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 189
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

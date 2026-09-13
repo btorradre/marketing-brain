@@ -1,0 +1,58 @@
+# Editing plan v1 — Motilli / “You're fiber too?”
+
+September 11, 2026. Planning-only deliverable accompanying reference analysis and a new script. Timing provisional until final voice alignment. This is an editorial specification, not a delivered storyboard.
+
+## Brief and inputs
+
+- Audience: solution-aware GLP-1 users disappointed with incomplete digestive comfort after trying familiar constipation remedies.
+- Objective: curiosity-driven product-page visit through an animated character conversation. Hook-rate improvement is an objective, not a measured result.
+- Exact draft: `../script-v1.md`. Source audit: `reference-analysis/breakdown.md`; reference media preserved beside it.
+- Treatment: original expressive 3D anatomical comedy, consistent with the reference's fleshy dimensional world and exaggerated facial acting. Original character designs; reference footage is analysis material only.
+- Provisional format: 9:16, approximately 45–50 seconds, 1080 × 1920 eventual delivery. Estimated read needs more room than the source's 28.4 seconds because it explains two alternatives plus a product.
+- Emotion: restrained disappointment and skepticism. MiraLAX and psyllium are well-meaning helpers; Motilli earns attention through ingredient transparency. No rage, microbial destruction or dangerous blockage.
+- Production tools if later commissioned: GPT Image 2 first images, Google Omni movement, DaVinci Resolve editing. Verify live editor connection then and create an isolated project/timeline. No current editor operation or generated asset is claimed.
+
+## Strategy
+
+Begin with the gut's large, instantly readable exasperated face and an arrival already in motion; show the context label “GLP-1 GUT.” This is the intense visual hook within the reference's comic treatment. Use a rapid eye-widen/sagging-eyebrow reaction, not distress suggesting an emergency. Product characters do not need to look physically like objects that enter the colon: their personification is a teaching convention, visibly illustrative.
+
+The water/stool demonstration and psyllium hydration demonstration each visibly accomplish their described action. The subsequent unresolved-fullness line distinguishes symptoms rather than erasing those actions. Show stomach and colon as separate locations, with no closed valve, backed-up toilet or single obstructed pipe metaphor. Product does not restart the stomach or flush the scene clean. Motilli's FOS beat shows feeding microbes; avoid a healthy/unhealthy transformation claiming a clinical result.
+
+Use direct cuts at meaning changes as in the reference. Preserve movement and facial reactions within shots instead of adding arbitrary punch-ins. Later return to the same gut character in a genuinely new composition/action; do not reuse the opening source or crop it into a purported new scene. The product fiber objection supplies the late reversal. Close on an inspectable label and the actual destination.
+
+## Visual and cut schedule
+
+Every asset below is a gap; no selected generated images yet. Each is planned as a distinct composition and action. All times are provisional target times, not source timing. Shared transition T1 is a hard cut at the next listed cue, with continuous dialogue/audio bed. Do not apply a second transition from the adjacent row.
+
+| Beat | Exact narration | Time | Visual/action and source gap | Entry / exit and movement | Why this scene and edit, here |
+|---|---|---|---|---|---|
+| M01 | GUT: “MiraLAX? I tried you already.” | 0–3s | Wide organ character; a personified MiraLAX sign/mascot slides into the edge of the frame as gut snaps its eyes toward it, then visibly deflates. Need original gut design and readable medicine identification. | Start action f0. Hold wide enough to read both parties. T1 on “I draw.” Context label upper safe area; short spoken captions below face. | Recognition of a previous attempt is immediate. A large disappointed reaction embodies the user's corrected emotion and invites the helper's answer. |
+| M02 | MIRALAX: “I draw water into your colon to soften your stool.” | 3–8s | Colon cross-section, droplets enter and stool visibly softens. Medicine character at edge points to the change. New cross-sectional scene. | T1 into specific colon location. Hold through softening; no flood/explosion. T1 on “And.” Quiet water effect under speech. | Shows the real job rather than depicting universal failure. Location label prevents confusing the colon with the stomach shown later. |
+| M03 | PSYLLIUM FIBER: “And I hold water and add bulk to help it pass.” | 8–13s | Close macro illustration of hydrated psyllium material retaining water with a gentle increase in stool volume. Distinct camera scale, prop and action. | T1 at speaker entrance; use one restrained lateral move to follow the water retention. Exit T1 on “Then why.” Label “Psyllium fiber.” | Gives this particular fiber a fair, observable role. This is necessary setup for the later distinction between fiber types. No depiction of concrete, glue or obstruction. |
+| M04 | GUT: “Then why do I still feel so full?” | 13–16s | New medium view of stomach character; looks down at its contents, then toward the helpers offscreen. New staging, not replay of M01. | T1 to reaction and hold after “full.” Reduce effects briefly for the question. | The unresolved subjective symptom is the emotional hinge; staying on a face gives disappointment time to register. |
+| M05 | NARRATOR: “GLP-1s can slow stomach emptying. Helping constipation doesn't necessarily fix that full feeling.” | 16–22s | Clear two-location digestive diagram with the stomach gently emptying and colon identified below, separated by normal anatomy. No jam or closed outlet. | T1 into system view; a single guided move toward the stomach on its name. Keep both organ labels legible. T1 on “I'm Motilli.” | Separates stomach emptying from stool management. Clarifies the previous reaction without falsely blaming the helpers or claiming the stomach is every patient's only issue. |
+| M06 | MOTILLI: “I'm Motilli. My prebiotic fiber feeds beneficial gut bacteria.” | 22–27s | First visible Motilli identity at first spoken name: accurate heart-shaped gummy mascot beside verified pack, then an inset showing microbes using FOS. Need current package/label reference and new microbial scene. | T1 at introduction. Keep brand/pack readable; microbial inset is an overlay, not a separate base shot. T1 on “Wait.” | Introduces a supported ingredient job and gives a concrete reason to inspect the product. Does not imply that feeding bacteria reverses the slowdown shown in M05. |
+| M07 | GUT: “Wait. You're fiber too?” | 27–30s | Tight three-quarter gut face; eyebrow rises and gaze shifts to the gummy. Deliberate new reaction staging. | T1 for the objection; brief pause between the two clauses. No music sting suggesting danger. T1 on “Yes.” | Uses the reference's late-surprise device to voice the objection a skeptical viewer is likely to have. |
+| M08 | MOTILLI: “Yes. Different fibers have different properties. Mine is FOS, combined with celery juice powder and chlorophyllin in two daily gummies.” | 30–40s | New tabletop-like display in the same animated world. FOS identifier, celery juice powder and chlorophyllin are placed beside the accurate bottle; two gummies become the final focal point. No invented ingredient actions. | T1 into explanation; reveal ingredients on their names with simple appearances, not extra full-frame cuts. Hold ingredient list sufficiently to read. T1 on “Okay.” | Pays off the objection with concrete composition and routine. The extra hold accommodates the unfamiliar terms instead of speeding the voice. Presence does not establish superiority or efficacy. |
+| M09 | GUT: “Okay. Show me what's in it.” | 40–43s | New over-shoulder gut/gummy composition; gut leans toward an ingredient panel. | T1 into a visible inspection gesture; eye movement leads into next card. | Curiosity is the emotional payoff supported by this draft. Do not show a flat belly, bathroom result or immediate disappearance of discomfort. |
+| M10 | NARRATOR: “Meet Motilli. Explore the ingredients at getmotilli.com.” | 43–48s including 2s end hold | Clean pack and readable ingredient-page invitation, exact URL, two gummies. Current assets/label verification needed. | T1 into product card; no further cuts. Keep CTA through final silent hold. | Completes the requested inspection action and provides a specific destination. Avoid unverified discounts, countdowns, testimonials or relief timelines. |
+
+## Voice, captions and sound
+
+Original voices: expressive, mildly weary gut; steady practical MiraLAX; earnest psyllium; calm transparent Motilli; brief clear narrator. No borrowed speaker identity or clinical credentials. Pronounce GLP-1 as individual letters and “one”; FOS as letters for clarity unless the brand has an approved reading. Fresh word alignment is required before production timing is locked.
+
+Use one short caption phrase at a time, high contrast, lower-middle inside platform-safe areas. Reference-inspired condensed bold lettering may be used, but readability governs. Keep dialogue captions separate from persistent identity/location labels. Reserve clear pauses for M04 and M07. No caption event counts as a new scene.
+
+Original quiet playful underscore, dialogue dominant; soft water effects for M02/M03 and restrained movements on character arrivals. No antibiotic attack sounds. Provisional finished mix target around -16 LUFS integrated, maximum -1 dBTP, adjusted after listening for dialogue clarity. These are proposed settings, not measurements of the reel. Reference audio textures need direct audition before any claim of a close sound match.
+
+## Evidence and production QA
+
+Before any stronger solution claim: verify finished-product evidence for the exact claimed population/outcome/dose. Existing local review finds no established Motilli reversal of GLP-1 delayed gastric emptying; do not invent one to complete the dramatic arc. This draft offers general ingredient information and an inspection CTA, not proof of superior symptom relief.
+
+Check current declared ingredients/dose and pack against the actual label before image generation. The retrieved seller listing confirms celery, chlorophyllin and prebiotic fiber; prior captured listing specifies FOS and two gummies. Website sales claims are not independent clinical evidence.
+
+If storyboard/production is requested later: read the Cut Room skill; deliver the board in Motilli's project with the actual selected GPT Image 2 first asset set and a separate reference lane. Show M01 hook asset explicitly, inspect every image, verify working URL. Then generate Google Omni clips from approved identities, report any provider duration constraint, align original narration and assemble in isolated DaVinci Resolve work.
+
+Whole-ad variety check before generation and export: M01 entrance, M02 colon section, M03 fiber macro, M04 fullness reaction, M05 system geography, M06 pack/microbe explanation, M07 skeptical close-up, M08 ingredient display, M09 inspection gesture, M10 CTA. Recurrent organ identity is intentional; clips, compositions and actions are distinct. Audit actual outputs, not filenames alone.
+
+Inspect the full finished cut with sound, cut-boundary frames, caption sync, anatomy, readable product identity, complete spoken words and end hold. Ensure no visual suggests that MiraLAX is a stimulant, psyllium causes a blockage, FOS is gas-free, or Motilli rapidly fixes the GLP-1 stomach. No generation, timeline assembly or export is part of this completed writing phase.

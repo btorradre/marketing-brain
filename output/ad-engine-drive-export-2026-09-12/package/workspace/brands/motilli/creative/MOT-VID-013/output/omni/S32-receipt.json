@@ -1,0 +1,73 @@
+{
+  "shot": "S32",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "Sitting up in bed, she turns gently toward the morning window and smiles faintly with her hands resting on the blanket. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S32-v2.png",
+  "reference_sha256": "606378ababbfec64f9bd4c88c9765e66c6858cebd0ffe098a489442732c44470",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_Chd3TE9nYXVTMkVfZlF6N0lQdzhmaHlROBIXd0xPZ2F1UzJFX2ZRejdJUHc4Zmh5UTg",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S32.mp4",
+  "sha256": "1361861e03449e761d2d9575ba6c66fa5acb160710126946169f35e594abd5a6",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60141,
+    "total_input_tokens": 1155,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 55
+      },
+      {
+        "modality": "image",
+        "tokens": 1100
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58618,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 368,
+    "raw_prompt_token": 31741,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1848
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 704
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 368
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

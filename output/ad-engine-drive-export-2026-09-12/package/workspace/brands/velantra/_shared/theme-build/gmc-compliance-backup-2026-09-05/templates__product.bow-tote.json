@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A structured ivory canvas mini tote finished with a hand-tied ribbon bow and warm gold hardware. The little carryall that makes a linen dress, a boat day, or a Saturday market run feel considered.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Made for the woman who wants her everyday bag to feel like an occasion, the Bow Tote is built from structured, reinforced cotton canvas and finished with a signature ribbon bow threaded through four gold-tone grommets. The body holds its shape from the morning market to an evening out, while the short rolled handles sit easily in the hand or over the arm. Inside, a printed lining with an open pocket and a zippered pocket keeps the small things findable. Loosen the bow, re-tie it, or swap the mood entirely &mdash; it's the rare little tote that reads finished with nothing else added.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_materials": {
+          "type": "tab",
+          "settings": {
+            "title": "Materials & Care",
+            "content": "<p><strong>Exterior:<\/strong> Reinforced heavyweight cotton canvas.<br\/><strong>Bow &amp; Trim:<\/strong> Woven fabric ribbon with gold-tone grommets, feet and hardware.<br\/><strong>Interior:<\/strong> Fully lined and reinforced, with one open pocket and one zippered pocket.<\/p><p><strong>Care:<\/strong> Spot clean with a soft, damp cloth and mild soap; air dry away from direct heat. Keep the gold-tone hardware dry and buff gently with a soft cloth. Avoid prolonged moisture &mdash; canvas is durable but not waterproof.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_dimensions": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Fit",
+            "content": "<p><strong>Height:<\/strong> 8.5&quot; &nbsp;|&nbsp; <strong>Width:<\/strong> 14.75&quot; at top, 10.75&quot; at base &nbsp;|&nbsp; <strong>Depth:<\/strong> 5.5&quot; &nbsp;|&nbsp; <strong>Handle Drop:<\/strong> 5.5&quot;<\/p><p><strong>What it fits:<\/strong> phone, cardholder or slim wallet, sunglasses, keys, lip balm and your daily essentials.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>New colors release in limited quantities &mdash; sold-out shades may take 4 to 8 weeks to restock.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_warranty": {
+          "type": "tab",
+          "settings": {
+            "title": "Two Year Warranty",
+            "content": "<p>Every Velantra bag is covered for two years against defects in materials and construction. If anything goes wrong in normal use, we&rsquo;ll repair or replace it.<\/p><p>After two years, we continue to offer repair service for the cost of materials. Designed to last decades, not seasons.<\/p>",
+            "page": ""
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "reviews",
+        "tab_details",
+        "tab_materials",
+        "tab_dimensions",
+        "tab_ship",
+        "tab_warranty",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Bow Tote",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag &mdash; all designed to match.<\/p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "video_text": {
+      "type": "pdp-video-text",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "SEE IT IN MOTION",
+        "headline": "Tied by Hand, Made to Move",
+        "body": "<p>Watch how the Bow Tote moves through the day. The reinforced canvas holds a structured shape whether the bag is full or empty, and the ribbon bow catches the light with every step. It's the kind of little bag that draws a second look &mdash; and a question about where you found it.<\/p><p>A coastal classic, finished with a bow. Refined enough for evening, easy enough for every day.<\/p>",
+        "cta_label": "Shop the Bow Tote",
+        "cta_url": "\/products\/velantra-bow-tote",
+        "media_position": "left",
+        "video_url": "",
+        "autoplay": true,
+        "show_controls": false,
+        "show_play_overlay": true,
+        "bg_color": "#ffffff"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we’ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "MATERIAL",
+            "headline": "Structured Cotton Canvas",
+            "body": "<p>Heavyweight canvas with a fully reinforced body, so it stands on its own &mdash; on the table, the sand, or the passenger seat.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "HARDWARE",
+            "headline": "Warm Gold-Tone Fittings",
+            "body": "<p>Four gold-tone grommets and protective base feet, chosen to warm with wear instead of flaking.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "THE BOW",
+            "headline": "Tie It, Re-Tie It",
+            "body": "<p>The ribbon threads through the front grommets and ties in a soft bow &mdash; loosen it, cinch it, or change the mood entirely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Small outside, roomy where it counts",
+            "body": "<p>Phone, sunglasses, cardholder, keys and a lip balm slip in easily &mdash; with an open pocket for the things you reach for most.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "ORGANIZED",
+            "headline": "One open pocket, one zip pocket",
+            "body": "<p>A zippered interior pocket keeps cards and cash secure while the open pocket holds the essentials.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE BASE",
+            "headline": "Gold feet that keep it off the ground",
+            "body": "<p>Protective gold-tone feet lift the canvas base off caf&eacute; floors, boat decks, and beach sand.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "FINISHED",
+            "headline": "Lined and reinforced, inside and out",
+            "body": "<p>A pretty printed lining and reinforced interior mean it looks as considered open as it does closed.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pdp-velantra-bow-tote-scene-1.png",
+            "image_position": "left",
+            "eyebrow": "MADE FOR THE COAST",
+            "headline": "The Bag That Packs Its Own Charm",
+            "body": "<p>No styling required. The bow does the work &mdash; knot it once and the Bow Tote reads finished from the marina to the market. We took the structured mini-tote silhouette and gave it a ribbon bow through gold grommets, so the little bag you carry feels like a piece people ask about.<\/p><p>Released in limited colors each season, and designed to be the one you reach for long after summer ends.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered. Lifetime in our shop.",
+            "body": "<p>Two-year warranty on materials and stitching. After that, we repair anything for the cost of materials. Send it back. Get it back better than you sent it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "video_text",
+    "warranty",
+    "icon_bar",
+    "editorial",
+    "benefits",
+    "recently_viewed"
+  ]
+}

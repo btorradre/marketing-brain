@@ -1,0 +1,97 @@
+## Validation Summary
+
+**Overall Status:** ❌ INVALID
+**Total Files:** 4
+
+## Detailed Results
+
+### File 1
+**Artifact ID:** motilli-store-repair-20260912-theme
+**Revision:** 1
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** sections/motilli-regularity-product.liquid:
+ERROR [line 261, col 11]: Schema name 'Motilli regularity product' is too long (max 25 characters)
+ERROR [line 269, col 15]: Theme block 'blocks/custom-liquid.liquid' does not exist.
+ERROR [line 272, col 15]: Theme block 'blocks/image.liquid' does not exist.
+ERROR [line 275, col 15]: Theme block 'blocks/divider.liquid' does not exist.
+ERROR [line 278, col 15]: Theme block 'blocks/button.liquid' does not exist.
+ERROR [line 281, col 15]: Theme block 'blocks/atc-button.liquid' does not exist.
+ERROR [line 284, col 15]: Theme block 'blocks/heading.liquid' does not exist.
+ERROR [line 287, col 15]: Theme block 'blocks/text.liquid' does not exist.
+ERROR [line 290, col 15]: Theme block 'blocks/product_title.liquid' does not exist.
+ERROR [line 293, col 15]: Theme block 'blocks/rating-stars.liquid' does not exist.
+ERROR [line 296, col 15]: Theme block 'blocks/product_clickable-discount.liquid' does not exist.
+ERROR [line 299, col 15]: Theme block 'blocks/product_price.liquid' does not exist.
+ERROR [line 302, col 15]: Theme block 'blocks/product_subscription.liquid' does not exist.
+ERROR [line 305, col 15]: Theme block 'blocks/product_quantity-selector.liquid' does not exist.
+ERROR [line 311, col 15]: Theme block 'blocks/product_product-variant-picker-block.liquid' does not exist.
+ERROR [line 317, col 15]: Theme block 'blocks/product_description.liquid' does not exist.
+ERROR [line 320, col 15]: Theme block 'blocks/product_tabs.liquid' does not exist.
+ERROR [line 323, col 15]: Theme block 'blocks/product_estimated-shipping.liquid' does not exist.
+ERROR [line 326, col 15]: Theme block 'blocks/product_shipping-checkpoints.liquid' does not exist.
+ERROR [line 329, col 15]: Theme block 'blocks/countdown-timer.liquid' does not exist.
+ERROR [line 332, col 15]: Theme block 'blocks/product_inventory.liquid' does not exist.
+ERROR [line 335, col 15]: Theme block 'blocks/collapsible-row.liquid' does not exist.
+ERROR [line 338, col 15]: Theme block 'blocks/video.liquid' does not exist.
+ERROR [line 341, col 15]: Theme block 'blocks/slider.liquid' does not exist.
+ERROR [line 344, col 15]: Theme block 'blocks/container--product.liquid' does not exist.
+ERROR [line 347, col 15]: Theme block 'blocks/media-slider.liquid' does not exist.
+ERROR [line 350, col 15]: Theme block 'blocks/trustpilot-stars.liquid' does not exist.
+ERROR [line 353, col 15]: Theme block 'blocks/product_sku.liquid' does not exist.
+ERROR [line 356, col 15]: Theme block 'blocks/product_share-button.liquid' does not exist.
+ERROR [line 359, col 15]: Theme block 'blocks/product_popup.liquid' does not exist.
+ERROR [line 362, col 15]: Theme block 'blocks/product_sizing-chart.liquid' does not exist.
+ERROR [line 365, col 15]: Theme block 'blocks/product_upsell-block--product-info.liquid' does not exist.
+ERROR [line 368, col 15]: Theme block 'blocks/payment-badges.liquid' does not exist.
+ERROR [line 371, col 15]: Theme block 'blocks/product_urgency.liquid' does not exist.
+ERROR [line 374, col 15]: Theme block 'blocks/product_emoji-benefits.liquid' does not exist.
+ERROR [line 377, col 15]: Theme block 'blocks/product_bundle-offer.liquid' does not exist.
+ERROR [line 380, col 15]: Theme block 'blocks/product_quantity-gifts.liquid' does not exist.
+ERROR [line 383, col 15]: Theme block 'blocks/product_scroll-buttons.liquid' does not exist.
+ERROR [line 386, col 15]: Theme block 'blocks/review-avatars.liquid' does not exist.
+ERROR [line 389, col 15]: Theme block 'blocks/icon-with-content.liquid' does not exist.
+ERROR [line 392, col 15]: Theme block 'blocks/text-with-icon.liquid' does not exist.
+ERROR [line 395, col 15]: Theme block 'blocks/icon-with-text.liquid' does not exist.
+ERROR [line 398, col 15]: Theme block 'blocks/product_complementary.liquid' does not exist.
+ERROR [line 401, col 15]: Theme block 'blocks/reviews.liquid' does not exist.
+ERROR [line 404, col 15]: Theme block 'blocks/product-rating.liquid' does not exist.
+ERROR [line 407, col 15]: Theme block 'blocks/product_custom-product-field.liquid' does not exist.
+ERROR [line 39, col 49]: 'assets/magnify.js' does not exist
+ERROR [line 156, col 21]: 'snippets/icon-close.liquid' does not exist
+ERROR [line 42, col 21]: 'assets/theme-editor.js' does not exist
+ERROR [line 47, col 8]: 'assets/component-product-model.css' does not exist
+ERROR [line 58, col 16]: 'assets/component-model-viewer-ui.css' does not exist
+ERROR [line 167, col 21]: 'assets/product-modal.js' does not exist
+ERROR [line 168, col 21]: 'assets/media-gallery.js' does not exist
+ERROR [line 175, col 21]: 'assets/product-model.js' does not exist
+
+### File 2
+**Artifact ID:** motilli-store-repair-20260912-theme
+**Revision:** 1
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/motilli-regularity-details.liquid passed all checks.
+
+### File 3
+**Artifact ID:** motilli-store-repair-20260912-theme
+**Revision:** 1
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/motilli-store-home.liquid passed all checks.
+
+### File 4
+**Artifact ID:** motilli-store-repair-20260912-theme
+**Revision:** 1
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ❌ FAILED
+**Details:** templates/product.motilli-regularity.json:
+ERROR [line 7, col 19]: Theme block 'blocks/custom-liquid.liquid' does not exist.
+ERROR [line 41, col 19]: Theme block 'blocks/custom-liquid.liquid' does not exist.
+ERROR [line 48, col 19]: Theme block 'blocks/custom-liquid.liquid' does not exist.
+
+

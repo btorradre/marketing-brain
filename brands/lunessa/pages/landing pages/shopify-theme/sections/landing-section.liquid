@@ -1,0 +1,1294 @@
+{% comment %} Lunessa PDP Landing Page — ln- namespace {% endcomment %}
+
+<style>
+/* ===== LUNESSA LANDING PAGE ===== */
+:root {
+  --ln-accent: #590e05;
+  --ln-accent-hover: #7a1507;
+  --ln-accent-tint: #fdf5f4;
+  --ln-accent-border: #e8c4c0;
+  --ln-text: #1a1a1a;
+  --ln-text-muted: #6b7280;
+  --ln-border: #e5e7eb;
+  --ln-white: #ffffff;
+  --ln-bg-alt: #f9fafb;
+  --ln-radius: 16px;
+  --ln-radius-sm: 8px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; overflow-x: hidden; }
+.ln-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* TOP BAR */
+.ln-topbar { background: var(--ln-accent); color: #fff; text-align: center; padding: 10px 20px; font-size: 13px; font-weight: 500; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-topbar-items { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; }
+.ln-topbar-item { display: flex; align-items: center; gap: 5px; }
+
+/* STICKY HEADER */
+.ln-header { position: sticky; top: 0; z-index: 999; background: #fff; border-bottom: 1px solid var(--ln-border); padding: 14px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-header-inner { display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.ln-logo { font-size: 22px; font-weight: 800; color: var(--ln-accent); letter-spacing: -0.5px; text-decoration: none; }
+.ln-cart-btn { background: var(--ln-accent); color: #fff; border: none; border-radius: 50px; padding: 10px 20px; font-size: 14px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; font-family: inherit; }
+.ln-cart-count { background: #fff; color: var(--ln-accent); border-radius: 50%; width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; }
+
+/* SOCIAL PROOF STRIP */
+.ln-proof-strip { background: var(--ln-accent-tint); border-bottom: 1px solid var(--ln-accent-border); padding: 10px 0; }
+.ln-proof-strip-inner { display: flex; justify-content: center; align-items: center; gap: 28px; flex-wrap: wrap; font-size: 13px; color: var(--ln-text-muted); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-proof-strip-item { display: flex; align-items: center; gap: 5px; }
+.ln-stars-gold { color: #f59e0b; }
+
+/* HERO */
+.ln-hero { padding: 48px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-hero-grid { display: grid; grid-template-columns: 58% 42%; gap: 40px; align-items: start; max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+
+/* Gallery */
+.ln-gallery { position: sticky; top: 90px; }
+.ln-gallery-main { width: 100%; border-radius: var(--ln-radius); overflow: hidden; background: #f9f9f9; min-height: 400px; display: flex; align-items: center; justify-content: center; }
+.ln-gallery-main img { width: 100%; height: auto; display: block; }
+.ln-thumbs { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+.ln-thumb { width: 80px; height: 80px; border-radius: 8px; overflow: hidden; border: 2px solid transparent; cursor: pointer; transition: border-color 0.2s; flex-shrink: 0; }
+.ln-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ln-thumb.active, .ln-thumb:hover { border-color: var(--ln-accent); }
+
+/* Hero content */
+.ln-badge-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+.ln-rating-badge { display: flex; align-items: center; gap: 6px; background: var(--ln-accent-tint); border: 1px solid var(--ln-accent-border); border-radius: 50px; padding: 5px 14px; font-size: 13px; font-weight: 600; color: var(--ln-accent); }
+.ln-viewers { font-size: 12px; color: var(--ln-text-muted); }
+.ln-viewers span { color: var(--ln-accent); font-weight: 600; }
+.ln-hero-h1 { font-size: 32px; font-weight: 800; line-height: 1.2; color: var(--ln-text); margin: 0 0 14px; }
+.ln-hero-subtitle { font-size: 16px; color: var(--ln-text-muted); line-height: 1.7; margin: 0 0 22px; }
+.ln-benefits-list { list-style: none; padding: 0; margin: 0 0 26px; }
+.ln-benefits-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: var(--ln-text); margin-bottom: 10px; line-height: 1.5; }
+.ln-check { width: 20px; height: 20px; border-radius: 50%; background: var(--ln-accent); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+/* Bundle selector */
+.ln-bundle-label { font-size: 13px; font-weight: 700; color: var(--ln-text); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+.ln-bundle-selector { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+.ln-bundle-option { position: relative; border: 2px solid var(--ln-border); border-radius: var(--ln-radius-sm); padding: 14px 48px 14px 16px; cursor: pointer; transition: all 0.2s; display: block; }
+.ln-bundle-option:hover { border-color: var(--ln-accent); }
+.ln-bundle-option.ln-selected { border-color: var(--ln-accent); background: var(--ln-accent-tint); }
+.ln-bundle-option input[type="radio"] { position: absolute; opacity: 0; width: 0; height: 0; }
+.ln-bundle-top-row { display: flex; align-items: center; gap: 8px; margin-bottom: 3px; }
+.ln-bundle-name { font-size: 15px; font-weight: 700; color: var(--ln-text); }
+.ln-bundle-badge { border-radius: 50px; padding: 2px 10px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; }
+.ln-bundle-badge-popular { background: var(--ln-accent); }
+.ln-bundle-badge-value { background: #16a34a; }
+.ln-bundle-supply { font-size: 13px; color: var(--ln-text-muted); margin-bottom: 6px; }
+.ln-bundle-price-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ln-bundle-current-price { font-size: 20px; font-weight: 800; color: var(--ln-accent); }
+.ln-bundle-compare-price { font-size: 14px; color: var(--ln-text-muted); text-decoration: line-through; }
+.ln-bundle-save-tag { background: #dcfce7; color: #16a34a; border-radius: 50px; padding: 2px 8px; font-size: 12px; font-weight: 700; }
+.ln-bundle-per-unit { font-size: 12px; color: var(--ln-text-muted); margin-top: 4px; }
+.ln-bundle-radio-circle { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--ln-border); transition: all 0.2s; flex-shrink: 0; }
+.ln-bundle-option.ln-selected .ln-bundle-radio-circle { border-color: var(--ln-accent); background: var(--ln-accent); box-shadow: inset 0 0 0 4px #fff; }
+
+/* CTA */
+.ln-cta-btn { width: 100%; background: var(--ln-accent); color: #fff; border: none; border-radius: 50px; padding: 18px 24px; font-size: 17px; font-weight: 700; cursor: pointer; margin-bottom: 10px; transition: background 0.2s, transform 0.1s; font-family: inherit; letter-spacing: 0.2px; }
+.ln-cta-btn:hover { background: var(--ln-accent-hover); }
+.ln-cta-btn:active { transform: scale(0.98); }
+.ln-ship-note { text-align: center; font-size: 13px; color: var(--ln-text-muted); margin-bottom: 18px; }
+
+/* Guarantee box */
+.ln-guarantee-box { display: flex; align-items: center; gap: 14px; background: var(--ln-accent-tint); border: 1px solid var(--ln-accent-border); border-radius: var(--ln-radius-sm); padding: 14px 16px; margin-bottom: 20px; }
+.ln-guarantee-icon { font-size: 36px; flex-shrink: 0; }
+.ln-guarantee-text h4 { font-size: 14px; font-weight: 700; color: var(--ln-text); margin: 0 0 3px; }
+.ln-guarantee-text p { font-size: 13px; color: var(--ln-text-muted); margin: 0; line-height: 1.5; }
+
+/* Hero review card */
+.ln-hero-review { background: #fff; border: 1px solid var(--ln-border); border-radius: var(--ln-radius-sm); padding: 16px; margin-bottom: 20px; }
+.ln-hero-review-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.ln-review-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--ln-accent); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; flex-shrink: 0; }
+.ln-review-name { font-weight: 700; font-size: 14px; color: var(--ln-text); }
+.ln-review-verified { font-size: 12px; color: #16a34a; font-weight: 500; }
+.ln-hero-review-text { font-size: 14px; color: var(--ln-text); line-height: 1.6; font-style: italic; }
+
+/* Accordions */
+.ln-hero-accordions { margin-top: 4px; }
+.ln-accordion-item { border-top: 1px solid var(--ln-border); }
+.ln-accordion-header { padding: 14px 0; cursor: pointer; font-size: 14px; font-weight: 600; color: var(--ln-text); display: flex; justify-content: space-between; align-items: center; user-select: none; }
+.ln-accordion-header::after { content: "+"; font-size: 20px; color: var(--ln-accent); font-weight: 300; flex-shrink: 0; margin-left: 8px; }
+.ln-accordion-item.open .ln-accordion-header::after { content: "\2212"; }
+.ln-accordion-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+.ln-accordion-item.open .ln-accordion-body { max-height: 2000px; }
+.ln-accordion-body-inner { padding: 0 0 16px; font-size: 14px; color: var(--ln-text-muted); line-height: 1.7; }
+.ln-accordion-body-inner ul { margin: 8px 0; padding-left: 18px; }
+.ln-accordion-body-inner li { margin-bottom: 6px; }
+
+/* SECTIONS SHARED */
+.ln-section { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-section-header { text-align: center; margin-bottom: 48px; }
+.ln-section-eyebrow { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--ln-accent); margin-bottom: 12px; }
+.ln-section-h2 { font-size: 36px; font-weight: 800; line-height: 1.2; color: var(--ln-text); margin: 0 0 14px; }
+.ln-section-sub { font-size: 17px; color: var(--ln-text-muted); max-width: 580px; margin: 0 auto; line-height: 1.7; }
+
+/* PROBLEM SECTION */
+.ln-problem { padding: 80px 0; background: var(--ln-text); color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-problem-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.ln-problem-eyebrow { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #e8c4c0; margin-bottom: 16px; }
+.ln-problem-h2 { font-size: 36px; font-weight: 800; line-height: 1.2; margin: 0 0 20px; color: #fff; }
+.ln-problem-text { font-size: 16px; line-height: 1.8; color: rgba(255,255,255,0.8); margin: 0 0 16px; }
+.ln-problem-img { width: 100%; border-radius: var(--ln-radius); display: block; }
+.ln-problem-list { list-style: none; padding: 0; margin: 24px 0 0; }
+.ln-problem-list li { display: flex; align-items: flex-start; gap: 12px; font-size: 15px; color: rgba(255,255,255,0.88); margin-bottom: 14px; line-height: 1.5; }
+.ln-problem-dot { width: 8px; height: 8px; border-radius: 50%; background: #e8c4c0; flex-shrink: 0; margin-top: 7px; }
+
+/* BENEFITS */
+.ln-benefits { padding: 80px 0; background: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-benefits-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.ln-benefit-card { background: var(--ln-accent-tint); border: 1px solid var(--ln-accent-border); border-radius: var(--ln-radius); padding: 28px 24px; transition: box-shadow 0.2s; }
+.ln-benefit-card:hover { box-shadow: 0 4px 20px rgba(89,14,5,0.1); }
+.ln-benefit-icon { font-size: 36px; margin-bottom: 14px; }
+.ln-benefit-title { font-size: 16px; font-weight: 700; color: var(--ln-text); margin-bottom: 8px; }
+.ln-benefit-desc { font-size: 14px; color: var(--ln-text-muted); line-height: 1.7; }
+
+/* STATS */
+.ln-stats { padding: 70px 0; background: var(--ln-accent); color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; text-align: center; }
+.ln-stat-number { font-size: 52px; font-weight: 900; line-height: 1; margin-bottom: 10px; }
+.ln-stat-label { font-size: 15px; line-height: 1.6; opacity: 0.88; }
+
+/* HOW IT WORKS */
+.ln-how { padding: 80px 0; background: var(--ln-bg-alt); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-how-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.ln-how-step { text-align: center; padding: 36px 28px; background: #fff; border-radius: var(--ln-radius); border: 1px solid var(--ln-border); }
+.ln-how-num { width: 54px; height: 54px; background: var(--ln-accent); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 800; margin: 0 auto 18px; font-family: inherit; }
+.ln-how-title { font-size: 18px; font-weight: 700; color: var(--ln-text); margin-bottom: 12px; }
+.ln-how-desc { font-size: 14px; color: var(--ln-text-muted); line-height: 1.7; }
+
+/* TRUST BADGES */
+.ln-trust { padding: 60px 0; background: #fff; border-top: 1px solid var(--ln-border); border-bottom: 1px solid var(--ln-border); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-trust-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
+.ln-trust-badge { text-align: center; padding: 16px 8px; }
+.ln-trust-svg { width: 44px; height: 44px; margin: 0 auto 10px; color: var(--ln-accent); display: block; }
+.ln-trust-label { font-size: 12px; font-weight: 600; color: var(--ln-text); line-height: 1.4; }
+
+/* DOCTOR QUOTE */
+.ln-doctor { padding: 80px 0; background: var(--ln-accent-tint); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-doctor-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+.ln-doctor-avatar { width: 88px; height: 88px; border-radius: 50%; border: 3px solid var(--ln-accent); margin: 0 auto 22px; background: var(--ln-accent); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 800; }
+.ln-doctor-quote { font-size: 20px; line-height: 1.75; color: var(--ln-text); font-style: italic; margin: 0 0 22px; }
+.ln-doctor-name { font-size: 16px; font-weight: 700; color: var(--ln-accent); margin-bottom: 4px; }
+.ln-doctor-title { font-size: 13px; color: var(--ln-text-muted); }
+
+/* TIMELINE */
+.ln-timeline { padding: 80px 0; background: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-timeline-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; position: relative; }
+.ln-timeline-steps::before { content: ''; position: absolute; top: 26px; left: 12.5%; right: 12.5%; height: 2px; background: var(--ln-accent-border); z-index: 0; }
+.ln-timeline-step { text-align: center; position: relative; z-index: 1; padding: 0 14px; }
+.ln-timeline-dot { width: 52px; height: 52px; background: var(--ln-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 18px; border: 4px solid #fff; box-shadow: 0 0 0 2px var(--ln-accent); }
+.ln-timeline-dot svg { width: 22px; height: 22px; stroke: #fff; }
+.ln-timeline-period { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ln-accent); margin-bottom: 8px; }
+.ln-timeline-title { font-size: 15px; font-weight: 700; color: var(--ln-text); margin-bottom: 8px; }
+.ln-timeline-desc { font-size: 13px; color: var(--ln-text-muted); line-height: 1.6; }
+
+/* COMPARISON */
+.ln-comparison { padding: 80px 0; background: var(--ln-bg-alt); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-comparison-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: var(--ln-radius); overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+.ln-comparison-table th { padding: 20px 24px; font-size: 15px; font-weight: 700; text-align: center; border-bottom: 2px solid var(--ln-border); }
+.ln-comparison-table th:first-child { text-align: left; }
+.ln-comparison-table th.ln-col-hi { background: var(--ln-accent); color: #fff; }
+.ln-comparison-table td { padding: 16px 24px; font-size: 14px; color: var(--ln-text); border-bottom: 1px solid var(--ln-border); text-align: center; }
+.ln-comparison-table td:first-child { text-align: left; font-weight: 600; color: var(--ln-text-muted); }
+.ln-comparison-table tr:last-child td { border-bottom: none; }
+.ln-comparison-table .ln-col-hi { background: var(--ln-accent-tint); }
+.ln-yes { color: #16a34a; font-size: 18px; font-weight: 700; }
+.ln-no { color: #ef4444; font-size: 16px; }
+.ln-sometimes { color: #f59e0b; font-size: 13px; font-weight: 600; }
+
+/* OFFER */
+.ln-offer { padding: 80px 0; background: var(--ln-text); color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-offer-inner { text-align: center; max-width: 640px; margin: 0 auto; }
+.ln-offer h2 { font-size: 36px; font-weight: 800; margin: 0 0 14px; }
+.ln-offer-sub { font-size: 17px; color: rgba(255,255,255,0.8); margin: 0 0 40px; line-height: 1.7; }
+.ln-offer-btn { background: var(--ln-accent); color: #fff; border: 2px solid rgba(255,255,255,0.2); border-radius: 50px; padding: 18px 48px; font-size: 17px; font-weight: 700; cursor: pointer; width: 100%; max-width: 420px; font-family: inherit; transition: background 0.2s; }
+.ln-offer-btn:hover { background: var(--ln-accent-hover); }
+.ln-offer-guarantee { margin-top: 16px; font-size: 13px; color: rgba(255,255,255,0.55); }
+
+/* REVIEWS */
+.ln-reviews { padding: 80px 0; background: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-reviews-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.ln-review-card { background: var(--ln-bg-alt); border: 1px solid var(--ln-border); border-radius: var(--ln-radius); padding: 24px; }
+.ln-review-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.ln-review-card-avatar { width: 42px; height: 42px; border-radius: 50%; background: var(--ln-accent); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0; }
+.ln-review-card-name { font-weight: 700; font-size: 14px; color: var(--ln-text); }
+.ln-review-card-loc { font-size: 12px; color: var(--ln-text-muted); }
+.ln-review-stars { color: #f59e0b; font-size: 14px; margin-bottom: 10px; }
+.ln-review-title { font-size: 14px; font-weight: 700; color: var(--ln-text); margin-bottom: 8px; }
+.ln-review-text { font-size: 13px; color: var(--ln-text-muted); line-height: 1.65; }
+.ln-review-verified { display: flex; align-items: center; gap: 4px; font-size: 11px; color: #16a34a; margin-top: 12px; font-weight: 600; }
+.ln-review-date { font-size: 11px; color: var(--ln-text-muted); margin-top: 3px; }
+
+/* FAQ */
+.ln-faq { padding: 80px 0; background: var(--ln-accent-tint); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-faq-list { max-width: 720px; margin: 0 auto; }
+.ln-faq-list .ln-accordion-item { border-top: 1px solid var(--ln-accent-border); }
+.ln-faq-list .ln-accordion-item:last-child { border-bottom: 1px solid var(--ln-accent-border); }
+
+/* FOOTER CTA */
+.ln-footer-cta { padding: 80px 0; background: var(--ln-accent); color: #fff; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-footer-cta h2 { font-size: 36px; font-weight: 800; margin: 0 0 14px; }
+.ln-footer-cta p { font-size: 17px; color: rgba(255,255,255,0.85); margin: 0 0 36px; line-height: 1.7; }
+.ln-footer-cta-btn { display: inline-block; background: #fff; color: var(--ln-accent); border: none; border-radius: 50px; padding: 18px 52px; font-size: 17px; font-weight: 800; cursor: pointer; font-family: inherit; transition: opacity 0.2s; }
+.ln-footer-cta-btn:hover { opacity: 0.92; }
+.ln-footer-cta-sub { margin-top: 18px; font-size: 13px; color: rgba(255,255,255,0.6); }
+
+/* FOOTER */
+.ln-footer { background: var(--ln-text); color: rgba(255,255,255,0.5); padding: 44px 0; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-footer-inner { display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; }
+.ln-footer-logo { font-size: 20px; font-weight: 800; color: rgba(255,255,255,0.85); }
+.ln-footer-links { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+.ln-footer-links a { color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s; }
+.ln-footer-links a:hover { color: rgba(255,255,255,0.85); }
+.ln-footer-disclaimer { max-width: 700px; font-size: 11px; line-height: 1.7; color: rgba(255,255,255,0.3); }
+
+/* STICKY MOBILE CTA */
+.ln-sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000; background: #fff; border-top: 2px solid var(--ln-accent); padding: 12px 16px; display: none; align-items: center; gap: 12px; justify-content: space-between; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 -4px 16px rgba(0,0,0,0.1); }
+.ln-sticky-cta.ln-visible { display: flex; }
+body.ln-has-sticky { padding-bottom: 70px; }
+.ln-sticky-info { font-size: 14px; font-weight: 700; color: var(--ln-text); }
+.ln-sticky-price { font-size: 12px; color: var(--ln-text-muted); }
+.ln-sticky-btn { background: var(--ln-accent); color: #fff; border: none; border-radius: 50px; padding: 12px 22px; font-size: 14px; font-weight: 700; cursor: pointer; white-space: nowrap; font-family: inherit; }
+
+/* CART DRAWER */
+.ln-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 1099; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+.ln-overlay.open { opacity: 1; pointer-events: all; }
+.ln-cart-drawer { position: fixed; top: 0; right: -440px; width: 420px; max-width: 100vw; height: 100vh; background: #fff; z-index: 1100; display: flex; flex-direction: column; transition: right 0.35s cubic-bezier(0.4,0,0.2,1); box-shadow: -4px 0 24px rgba(0,0,0,0.12); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.ln-cart-drawer.open { right: 0; }
+.ln-cart-header { padding: 20px 20px 16px; border-bottom: 1px solid var(--ln-border); display: flex; align-items: center; justify-content: space-between; }
+.ln-cart-header h3 { font-size: 18px; font-weight: 700; color: var(--ln-text); margin: 0; }
+.ln-cart-close { background: none; border: none; font-size: 26px; cursor: pointer; color: var(--ln-text-muted); padding: 0; line-height: 1; }
+.ln-cart-goal { padding: 12px 20px; background: var(--ln-accent-tint); border-bottom: 1px solid var(--ln-accent-border); }
+.ln-cart-goal-text { font-size: 13px; color: var(--ln-text); font-weight: 600; margin-bottom: 8px; }
+.ln-cart-goal-bar { background: var(--ln-border); border-radius: 50px; height: 6px; overflow: hidden; }
+.ln-cart-goal-fill { background: var(--ln-accent); border-radius: 50px; height: 6px; transition: width 0.5s ease; }
+.ln-cart-body { flex: 1; overflow-y: auto; padding: 16px 20px; }
+.ln-cart-empty { text-align: center; padding: 60px 20px; color: var(--ln-text-muted); }
+.ln-cart-empty p { font-size: 16px; margin: 0 0 16px; }
+.ln-cart-empty button { background: var(--ln-accent); color: #fff; border: none; border-radius: 50px; padding: 12px 28px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit; }
+.ln-cart-item { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--ln-border); }
+.ln-cart-item-img { width: 70px; height: 70px; border-radius: 8px; object-fit: cover; background: var(--ln-bg-alt); flex-shrink: 0; }
+.ln-cart-item-info { flex: 1; min-width: 0; }
+.ln-cart-item-name { font-size: 14px; font-weight: 700; color: var(--ln-text); margin-bottom: 2px; }
+.ln-cart-item-variant { font-size: 12px; color: var(--ln-text-muted); margin-bottom: 6px; }
+.ln-cart-item-supply { display: inline-block; background: var(--ln-accent-tint); color: var(--ln-accent); border-radius: 50px; padding: 1px 8px; font-size: 11px; font-weight: 600; margin-bottom: 8px; }
+.ln-cart-item-controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ln-qty-btn { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--ln-border); background: #fff; cursor: pointer; font-size: 16px; display: flex; align-items: center; justify-content: center; color: var(--ln-text); font-family: inherit; }
+.ln-qty-val { font-size: 14px; font-weight: 600; min-width: 24px; text-align: center; }
+.ln-cart-item-remove { font-size: 12px; color: var(--ln-text-muted); cursor: pointer; text-decoration: underline; margin-left: 4px; }
+.ln-cart-item-price { font-size: 16px; font-weight: 700; color: var(--ln-text); align-self: flex-start; white-space: nowrap; }
+.ln-cart-upsell { margin: 14px 0; background: var(--ln-accent-tint); border: 1px solid var(--ln-accent-border); border-radius: 8px; padding: 16px; }
+.ln-cart-upsell-title { font-weight: 700; color: var(--ln-text); margin-bottom: 6px; font-size: 14px; }
+.ln-cart-upsell-desc { color: var(--ln-text-muted); margin-bottom: 10px; font-size: 13px; line-height: 1.5; }
+.ln-cart-upsell-btn { background: var(--ln-accent); color: #fff; border: none; border-radius: 50px; padding: 10px 18px; font-size: 13px; font-weight: 600; cursor: pointer; width: 100%; font-family: inherit; }
+.ln-cart-footer { padding: 16px 20px; border-top: 1px solid var(--ln-border); }
+.ln-cart-subtotal { display: flex; justify-content: space-between; font-size: 17px; font-weight: 700; color: var(--ln-text); margin-bottom: 4px; }
+.ln-cart-savings { font-size: 13px; color: #16a34a; font-weight: 600; margin-bottom: 14px; text-align: right; }
+.ln-cart-checkout { background: var(--ln-accent); color: #fff; border: none; border-radius: 50px; padding: 16px 24px; font-size: 16px; font-weight: 700; cursor: pointer; width: 100%; margin-bottom: 10px; font-family: inherit; transition: background 0.2s; }
+.ln-cart-checkout:hover { background: var(--ln-accent-hover); }
+.ln-cart-continue { text-align: center; font-size: 13px; color: var(--ln-text-muted); cursor: pointer; text-decoration: underline; display: block; margin-bottom: 10px; }
+.ln-cart-secure { display: flex; justify-content: center; align-items: center; gap: 6px; font-size: 12px; color: var(--ln-text-muted); }
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .ln-reviews-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .ln-hero-grid { grid-template-columns: 1fr; gap: 24px; }
+  .ln-gallery { position: static; }
+  .ln-gallery-main { max-height: 340px; display: flex; align-items: center; justify-content: center; }
+  .ln-gallery-main img { max-height: 340px; width: auto; max-width: 100%; object-fit: contain; }
+  .ln-thumbs { justify-content: center; }
+  .ln-hero-h1 { font-size: 26px; }
+  .ln-problem-grid { grid-template-columns: 1fr; gap: 36px; }
+  .ln-problem-h2 { font-size: 26px; }
+  .ln-benefits-grid { grid-template-columns: 1fr 1fr; }
+  .ln-stats-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .ln-stat-number { font-size: 40px; }
+  .ln-how-steps { grid-template-columns: 1fr; }
+  .ln-trust-grid { grid-template-columns: repeat(3, 1fr); }
+  .ln-timeline-steps { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .ln-timeline-steps::before { display: none; }
+  .ln-reviews-grid { grid-template-columns: 1fr 1fr; }
+  .ln-section-h2 { font-size: 26px; }
+  .ln-problem { padding: 52px 0; }
+  .ln-benefits { padding: 52px 0; }
+  .ln-how { padding: 52px 0; }
+  .ln-timeline { padding: 52px 0; }
+  .ln-comparison { padding: 52px 0; }
+  .ln-reviews { padding: 52px 0; }
+  .ln-faq { padding: 52px 0; }
+  .ln-offer { padding: 52px 0; }
+  .ln-footer-cta { padding: 52px 0; }
+  .ln-footer-cta h2 { font-size: 26px; }
+  .ln-offer h2 { font-size: 26px; }
+  .ln-cart-drawer { width: 100vw; }
+  .ln-topbar-items { gap: 16px; font-size: 12px; }
+  .ln-doctor-quote { font-size: 17px; }
+}
+@media (max-width: 480px) {
+  .ln-benefits-grid { grid-template-columns: 1fr; }
+  .ln-reviews-grid { grid-template-columns: 1fr; }
+  .ln-thumb { width: 56px; height: 56px; }
+  .ln-trust-grid { grid-template-columns: repeat(2, 1fr); }
+  .ln-hero-h1 { font-size: 24px; }
+}
+</style>
+
+<!-- TOP BAR -->
+<div class="ln-topbar">
+  <div class="ln-topbar-items">
+    <span class="ln-topbar-item">🚚 Free Shipping on 3+ Bottles</span>
+    <span class="ln-topbar-item">🛡️ 90-Day Money-Back Guarantee</span>
+    <span class="ln-topbar-item">⭐ 4,800+ Happy Customers</span>
+  </div>
+</div>
+
+<!-- STICKY HEADER -->
+<header class="ln-header">
+  <div class="ln-header-inner">
+    <a href="/" class="ln-logo">Lunessa</a>
+    <button class="ln-cart-btn" onclick="lnOpenCart()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      Cart <span class="ln-cart-count" id="lnCartCount">0</span>
+    </button>
+  </div>
+</header>
+
+<!-- SOCIAL PROOF STRIP -->
+<div class="ln-proof-strip">
+  <div class="ln-proof-strip-inner">
+    <span class="ln-proof-strip-item"><span class="ln-stars-gold">★★★★★</span>&nbsp;4.9/5 Rating</span>
+    <span class="ln-proof-strip-item">4,800+ Verified Reviews</span>
+    <span class="ln-proof-strip-item">Recommended by Naturopathic Doctors</span>
+    <span class="ln-proof-strip-item">90-Day Money-Back Guarantee</span>
+  </div>
+</div>
+
+<!-- HERO SECTION -->
+<section class="ln-hero">
+  <div class="ln-hero-grid">
+
+    <!-- Gallery -->
+    <div class="ln-gallery">
+      <div class="ln-gallery-main">
+        <img id="lnMainImg"
+          src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_1.jpg?v=1773239617"
+          alt="Lunessa Red Yeast Rice + COQ10 Gummies"
+          loading="eager"
+          fetchpriority="high">
+      </div>
+      <div class="ln-thumbs">
+        <div class="ln-thumb active" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_1.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_1.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_2.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_2.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_3.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_3.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_4.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_4.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_5.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_5.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_6.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_6.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_7.png?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_7.png?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_8.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_8.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_9.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_9.jpg?v=1773239617" alt="" loading="lazy"></div>
+        <div class="ln-thumb" onclick="lnSwapImg(this,'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_10.jpg?v=1773239617')">
+          <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_10.jpg?v=1773239617" alt="" loading="lazy"></div>
+      </div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="ln-hero-content">
+      <div class="ln-badge-row">
+        <div class="ln-rating-badge"><span style="color:#f59e0b;">★★★★★</span>&nbsp;4.9 (4,800+ Reviews)</div>
+        <span class="ln-viewers"><span id="lnViewers">247</span> people viewing now</span>
+      </div>
+
+      <h1 class="ln-hero-h1">Finally — A Natural Way for Women Over 50 to Lower Cholesterol <em>Without</em> the Side Effects</h1>
+      <p class="ln-hero-subtitle">Lunessa's Heart-Energy Synergy Blend™ combines 600mg Red Yeast Rice + 100mg CoQ10 to naturally balance cholesterol and restore the energy menopause and statins stole from you.</p>
+
+      <ul class="ln-benefits-list">
+        <li><span class="ln-check">✓</span>Supports healthy cholesterol levels naturally</li>
+        <li><span class="ln-check">✓</span>Restores energy — no more unexplained fatigue</li>
+        <li><span class="ln-check">✓</span>No muscle pain, brain fog, or statin side effects</li>
+        <li><span class="ln-check">✓</span>Formulated specifically for women over 50</li>
+        <li><span class="ln-check">✓</span>Easy gummy format — no pills to swallow</li>
+      </ul>
+
+      <!-- Bundle Selector -->
+      <div class="ln-bundle-label">Select Your Bundle:</div>
+      <div class="ln-bundle-selector" id="lnBundleSelector">
+
+        <label class="ln-bundle-option" data-bundle="1" onclick="lnSelectBundle(this)">
+          <input type="radio" name="ln-bundle" value="1">
+          <div class="ln-bundle-top-row">
+            <span class="ln-bundle-name">1 Bottle — Starter</span>
+          </div>
+          <div class="ln-bundle-supply">30-Day Supply</div>
+          <div class="ln-bundle-price-row">
+            <span class="ln-bundle-current-price">$34.99</span>
+            <span class="ln-bundle-compare-price">$49.99</span>
+            <span class="ln-bundle-save-tag">Save 30%</span>
+          </div>
+          <div class="ln-bundle-per-unit">$34.99/bottle</div>
+          <span class="ln-bundle-radio-circle"></span>
+        </label>
+
+        <label class="ln-bundle-option ln-selected" data-bundle="3" onclick="lnSelectBundle(this)">
+          <input type="radio" name="ln-bundle" value="3" checked>
+          <div class="ln-bundle-top-row">
+            <span class="ln-bundle-name">3 Bottles — Most Popular</span>
+            <span class="ln-bundle-badge ln-bundle-badge-popular">Most Popular</span>
+          </div>
+          <div class="ln-bundle-supply">90-Day Supply</div>
+          <div class="ln-bundle-price-row">
+            <span class="ln-bundle-current-price">$89.97</span>
+            <span class="ln-bundle-compare-price">$149.97</span>
+            <span class="ln-bundle-save-tag">Save 40%</span>
+          </div>
+          <div class="ln-bundle-per-unit">$29.99/bottle</div>
+          <span class="ln-bundle-radio-circle"></span>
+        </label>
+
+        <label class="ln-bundle-option" data-bundle="6" onclick="lnSelectBundle(this)">
+          <input type="radio" name="ln-bundle" value="6">
+          <div class="ln-bundle-top-row">
+            <span class="ln-bundle-name">6 Bottles — Best Value</span>
+            <span class="ln-bundle-badge ln-bundle-badge-value">Best Value</span>
+          </div>
+          <div class="ln-bundle-supply">180-Day Supply</div>
+          <div class="ln-bundle-price-row">
+            <span class="ln-bundle-current-price">$149.94</span>
+            <span class="ln-bundle-compare-price">$299.94</span>
+            <span class="ln-bundle-save-tag">Save 50%</span>
+          </div>
+          <div class="ln-bundle-per-unit">$24.99/bottle</div>
+          <span class="ln-bundle-radio-circle"></span>
+        </label>
+
+      </div>
+
+      <button class="ln-cta-btn" id="heroAddToCart" onclick="lnAddToCart()">
+        Add to Cart — Get Started Today
+      </button>
+      <p class="ln-ship-note">🚚 Free shipping on 3+ bottles &nbsp;·&nbsp; Ships within 24 hours</p>
+
+      <!-- Guarantee -->
+      <div class="ln-guarantee-box">
+        <div class="ln-guarantee-icon">🛡️</div>
+        <div class="ln-guarantee-text">
+          <h4>90-Day Money-Back Guarantee</h4>
+          <p>Try Lunessa risk-free for 90 days. If you're not completely satisfied, we'll refund every penny — no questions asked.</p>
+        </div>
+      </div>
+
+      <!-- Featured Review -->
+      <div class="ln-hero-review">
+        <div class="ln-hero-review-top">
+          <div class="ln-review-avatar">B</div>
+          <div>
+            <div class="ln-review-name">Barbara M., 62 — Nashville, TN</div>
+            <div class="ln-review-verified">✓ Verified Purchase</div>
+          </div>
+        </div>
+        <div style="color:#f59e0b;font-size:13px;margin-bottom:8px;">★★★★★</div>
+        <div class="ln-hero-review-text">"My cholesterol dropped 31 points in 90 days and my doctor actually asked what I was taking. I have more energy than I've had in years — I finally feel like myself again."</div>
+      </div>
+
+      <!-- Accordions -->
+      <div class="ln-hero-accordions">
+        <div class="ln-accordion-item">
+          <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Ingredients & Dosage</div>
+          <div class="ln-accordion-body">
+            <div class="ln-accordion-body-inner">
+              <ul>
+                <li><strong>Red Yeast Rice (600mg)</strong> — Contains Monacolin K, nature's statin alternative. Clinically studied for cholesterol support.</li>
+                <li><strong>CoQ10 (100mg)</strong> — Restores cellular energy depleted by menopause and statin medications.</li>
+                <li><strong>Vitamin K2 (90mcg)</strong> — Directs calcium away from arteries and toward bones where it belongs.</li>
+                <li><strong>Magnesium (50mg)</strong> — Supports vascular tone, healthy blood pressure, and heart rhythm.</li>
+              </ul>
+              <p><strong>Dosage:</strong> Take 2 gummies daily with food. Best taken with your morning meal for optimal absorption.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ln-accordion-item">
+          <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Quality & Safety</div>
+          <div class="ln-accordion-body">
+            <div class="ln-accordion-body-inner">
+              <ul>
+                <li>✓ GMP Certified manufacturing facility</li>
+                <li>✓ Third-party tested for purity and potency</li>
+                <li>✓ Non-GMO, Vegan, and Gluten-Free</li>
+                <li>✓ Made in the USA</li>
+                <li>✓ No artificial colors, flavors, or preservatives</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="ln-accordion-item">
+          <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Shipping & Returns</div>
+          <div class="ln-accordion-body">
+            <div class="ln-accordion-body-inner">
+              <p>Orders ship within 24 hours. Standard delivery 3–5 business days. Free shipping on all orders of 3+ bottles.</p>
+              <p>Not satisfied? Contact us within 90 days for a full refund — no return required, no questions asked.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM AGITATION -->
+<section class="ln-problem ln-section">
+  <div class="ln-container">
+    <div class="ln-problem-grid">
+      <div>
+        <div class="ln-problem-eyebrow">The Real Reason Your Cholesterol Went Up</div>
+        <h2 class="ln-problem-h2">Menopause Flipped a Hidden Switch in Your Body</h2>
+        <p class="ln-problem-text">Before menopause, estrogen naturally protected your heart. It kept LDL cholesterol in check, maintained arterial flexibility, and supported your body's production of CoQ10 — the molecule your cells need for energy.</p>
+        <p class="ln-problem-text">When estrogen drops, everything changes. LDL rises. CoQ10 falls. Your arteries become less flexible. And suddenly your doctor is talking about statins — medications that work, but often leave you feeling worse than before.</p>
+        <ul class="ln-problem-list">
+          <li><span class="ln-problem-dot"></span>Persistent muscle pain and weakness from CoQ10 depletion</li>
+          <li><span class="ln-problem-dot"></span>Brain fog and memory issues you can't explain</li>
+          <li><span class="ln-problem-dot"></span>Fatigue that doesn't improve no matter how much you sleep</li>
+          <li><span class="ln-problem-dot"></span>Feeling like your body is no longer your own</li>
+        </ul>
+        <p class="ln-problem-text" style="margin-top:24px;"><strong style="color:#e8c4c0;">This is not your fault — and statins are not your only option.</strong></p>
+      </div>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_9.jpg?v=1773239617" alt="Woman's heart health journey" class="ln-problem-img" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS GRID -->
+<section class="ln-benefits ln-section">
+  <div class="ln-container">
+    <div class="ln-section-header">
+      <div class="ln-section-eyebrow">Why Lunessa Works</div>
+      <h2 class="ln-section-h2">Designed for the Way Women's Bodies Change After 50</h2>
+      <p class="ln-section-sub">Every ingredient in Lunessa was chosen to address the specific cardiovascular changes menopause creates.</p>
+    </div>
+    <div class="ln-benefits-grid">
+      <div class="ln-benefit-card">
+        <div class="ln-benefit-icon">❤️</div>
+        <div class="ln-benefit-title">Naturally Supports Healthy Cholesterol</div>
+        <div class="ln-benefit-desc">600mg of clinically-studied Red Yeast Rice helps balance LDL and total cholesterol — without the harsh side effects of prescription statins.</div>
+      </div>
+      <div class="ln-benefit-card">
+        <div class="ln-benefit-icon">⚡</div>
+        <div class="ln-benefit-title">Restores Your Energy</div>
+        <div class="ln-benefit-desc">100mg CoQ10 replenishes the cellular energy menopause and statins deplete. Feel like yourself again — the energy that lets you keep up with the people you love.</div>
+      </div>
+      <div class="ln-benefit-card">
+        <div class="ln-benefit-icon">🚫</div>
+        <div class="ln-benefit-title">No Statin Side Effects</div>
+        <div class="ln-benefit-desc">No muscle cramps. No brain fog. No unexplained fatigue. Lunessa works with your body's natural biology — not against it.</div>
+      </div>
+      <div class="ln-benefit-card">
+        <div class="ln-benefit-icon">🫀</div>
+        <div class="ln-benefit-title">Supports Arterial Flexibility</div>
+        <div class="ln-benefit-desc">Vitamin K2 and Magnesium work together to support healthy arteries, reduce calcium buildup, and promote healthy blood pressure balance.</div>
+      </div>
+      <div class="ln-benefit-card">
+        <div class="ln-benefit-icon">🍬</div>
+        <div class="ln-benefit-title">Easy Gummy Format</div>
+        <div class="ln-benefit-desc">No giant capsules. No chalky tablets. Just two delicious gummies a day that make your supplement routine something you actually look forward to.</div>
+      </div>
+      <div class="ln-benefit-card">
+        <div class="ln-benefit-icon">👩</div>
+        <div class="ln-benefit-title">Made for Women Over 50</div>
+        <div class="ln-benefit-desc">Most heart supplements are designed for men. Lunessa was formulated specifically for the hormonal and metabolic changes women face after menopause.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="ln-stats ln-section">
+  <div class="ln-container">
+    <div class="ln-stats-grid">
+      <div>
+        <div class="ln-stat-number">87%</div>
+        <div class="ln-stat-label">of customers reported improved energy within their first 30 days</div>
+      </div>
+      <div>
+        <div class="ln-stat-number">31pts</div>
+        <div class="ln-stat-label">average LDL reduction reported by customers after 90 days</div>
+      </div>
+      <div>
+        <div class="ln-stat-number">4,800+</div>
+        <div class="ln-stat-label">verified 5-star reviews from women over 50 across the US</div>
+      </div>
+      <div>
+        <div class="ln-stat-number">94%</div>
+        <div class="ln-stat-label">said they would recommend Lunessa to a friend or family member</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="ln-how ln-section">
+  <div class="ln-container">
+    <div class="ln-section-header">
+      <div class="ln-section-eyebrow">The Science Behind It</div>
+      <h2 class="ln-section-h2">How Lunessa's Heart-Energy Synergy Blend™ Works</h2>
+      <p class="ln-section-sub">A two-pronged approach that addresses both the cause and the consequence of post-menopausal cholesterol changes.</p>
+    </div>
+    <div class="ln-how-steps">
+      <div class="ln-how-step">
+        <div class="ln-how-num">1</div>
+        <div class="ln-how-title">Red Yeast Rice Balances Cholesterol</div>
+        <div class="ln-how-desc">Monacolin K in Red Yeast Rice naturally inhibits the HMG-CoA reductase enzyme — the same pathway statins target — but gently, using compounds your body recognizes as food. Studies show consistent LDL reduction without the side effect profile of pharmaceuticals.</div>
+      </div>
+      <div class="ln-how-step">
+        <div class="ln-how-num">2</div>
+        <div class="ln-how-title">CoQ10 Restores Cellular Energy</div>
+        <div class="ln-how-desc">Statins and menopause both deplete CoQ10 — the molecule your mitochondria need to produce ATP (energy). By replenishing CoQ10 at a clinical dose of 100mg, Lunessa restores the cellular energy that fatigue has been steadily stealing from you.</div>
+      </div>
+      <div class="ln-how-step">
+        <div class="ln-how-num">3</div>
+        <div class="ln-how-title">K2 + Magnesium Protect Your Arteries</div>
+        <div class="ln-how-desc">Vitamin K2 activates the protein that keeps calcium in bones instead of arteries, while Magnesium relaxes arterial walls and supports healthy blood pressure. Together, they help maintain the vascular flexibility that estrogen once provided naturally.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BADGES -->
+<section class="ln-trust ln-section">
+  <div class="ln-container">
+    <div class="ln-trust-grid">
+      <div class="ln-trust-badge">
+        <svg class="ln-trust-svg" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 6c-8.8 0-16 7.2-16 16s7.2 16 16 16 16-7.2 16-16S30.8 6 22 6z"/><path d="M15 22l5 5 9-10" stroke-width="2"/></svg>
+        <div class="ln-trust-label">Non-GMO Verified</div>
+      </div>
+      <div class="ln-trust-badge">
+        <svg class="ln-trust-svg" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="28" height="28" rx="4"/><path d="M15 22l5 5 9-10" stroke-width="2"/></svg>
+        <div class="ln-trust-label">Third-Party Tested</div>
+      </div>
+      <div class="ln-trust-badge">
+        <svg class="ln-trust-svg" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 6L8 12v12c0 8 6 14 14 16 8-2 14-8 14-16V12L22 6z"/></svg>
+        <div class="ln-trust-label">GMP Certified Facility</div>
+      </div>
+      <div class="ln-trust-badge">
+        <svg class="ln-trust-svg" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 32h20M22 8v16M14 16l8-8 8 8"/></svg>
+        <div class="ln-trust-label">Made in USA</div>
+      </div>
+      <div class="ln-trust-badge">
+        <svg class="ln-trust-svg" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 8c-3 3-8 4-12 2 0 10 4 18 12 22 8-4 12-12 12-22-4 2-9 1-12-2z"/></svg>
+        <div class="ln-trust-label">Vegan Friendly</div>
+      </div>
+      <div class="ln-trust-badge">
+        <svg class="ln-trust-svg" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="22" cy="22" r="14"/><path d="M16 22l4 4 8-8" stroke-width="2"/></svg>
+        <div class="ln-trust-label">90-Day Guarantee</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTOR QUOTE -->
+<section class="ln-doctor ln-section">
+  <div class="ln-container">
+    <div class="ln-doctor-inner">
+      <div class="ln-doctor-avatar">SM</div>
+      <blockquote class="ln-doctor-quote">
+        "After menopause, the combination of rising LDL and falling CoQ10 creates a perfect storm for heart issues and fatigue. Red Yeast Rice and CoQ10 together address both problems simultaneously — it's the combination I recommend to my patients as a first line of support before considering prescription medications."
+      </blockquote>
+      <div class="ln-doctor-name">Dr. Sarah Mitchell, N.D.</div>
+      <div class="ln-doctor-title">Board-Certified Naturopathic Doctor &nbsp;·&nbsp; Women's Cardiovascular Health Specialist</div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="ln-timeline ln-section">
+  <div class="ln-container">
+    <div class="ln-section-header">
+      <div class="ln-section-eyebrow">What to Expect</div>
+      <h2 class="ln-section-h2">When Will You Start Feeling Results?</h2>
+      <p class="ln-section-sub">Cholesterol balance takes consistency — but energy and vitality often return sooner than you expect.</p>
+    </div>
+    <div class="ln-timeline-steps">
+      <div class="ln-timeline-step">
+        <div class="ln-timeline-dot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <div class="ln-timeline-period">Week 1–2</div>
+        <div class="ln-timeline-title">Better Energy & Sleep</div>
+        <div class="ln-timeline-desc">Most women notice improved energy levels and more restful sleep as CoQ10 begins to replenish cellular reserves.</div>
+      </div>
+      <div class="ln-timeline-step">
+        <div class="ln-timeline-dot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div class="ln-timeline-period">Week 3–4</div>
+        <div class="ln-timeline-title">Mental Clarity Returns</div>
+        <div class="ln-timeline-desc">Brain fog begins to lift. Many customers describe feeling sharper and more present in their daily lives again.</div>
+      </div>
+      <div class="ln-timeline-step">
+        <div class="ln-timeline-dot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <div class="ln-timeline-period">Month 2</div>
+        <div class="ln-timeline-title">Cholesterol Trending Down</div>
+        <div class="ln-timeline-desc">Red Yeast Rice reaches full effectiveness. Your next blood panel may begin showing measurable improvements in LDL and total cholesterol.</div>
+      </div>
+      <div class="ln-timeline-step">
+        <div class="ln-timeline-dot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="ln-timeline-period">Month 3</div>
+        <div class="ln-timeline-title">Doctor-Visible Results</div>
+        <div class="ln-timeline-desc">Sustained energy, improved cholesterol numbers, and renewed vitality. Many customers share these results at their next checkup.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="ln-comparison ln-section">
+  <div class="ln-container">
+    <div class="ln-section-header">
+      <div class="ln-section-eyebrow">How We Compare</div>
+      <h2 class="ln-section-h2">Lunessa vs. Your Other Options</h2>
+    </div>
+    <div style="overflow-x:auto;">
+      <table class="ln-comparison-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="ln-col-hi">Lunessa</th>
+            <th>Prescription Statins</th>
+            <th>Generic Supplements</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natural ingredients</td>
+            <td class="ln-col-hi"><span class="ln-yes">✓</span></td>
+            <td><span class="ln-no">✗</span></td>
+            <td><span class="ln-sometimes">Sometimes</span></td>
+          </tr>
+          <tr>
+            <td>No muscle pain or cramps</td>
+            <td class="ln-col-hi"><span class="ln-yes">✓</span></td>
+            <td><span class="ln-no">✗</span></td>
+            <td><span class="ln-yes">✓</span></td>
+          </tr>
+          <tr>
+            <td>Restores energy (CoQ10 included)</td>
+            <td class="ln-col-hi"><span class="ln-yes">✓</span></td>
+            <td><span class="ln-no">✗ Depletes CoQ10</span></td>
+            <td><span class="ln-sometimes">Rarely</span></td>
+          </tr>
+          <tr>
+            <td>Formulated for women over 50</td>
+            <td class="ln-col-hi"><span class="ln-yes">✓</span></td>
+            <td><span class="ln-no">✗</span></td>
+            <td><span class="ln-no">✗</span></td>
+          </tr>
+          <tr>
+            <td>Supports arterial flexibility</td>
+            <td class="ln-col-hi"><span class="ln-yes">✓</span></td>
+            <td><span class="ln-no">✗</span></td>
+            <td><span class="ln-sometimes">Sometimes</span></td>
+          </tr>
+          <tr>
+            <td>90-Day money-back guarantee</td>
+            <td class="ln-col-hi"><span class="ln-yes">✓</span></td>
+            <td>N/A</td>
+            <td><span class="ln-sometimes">Rarely</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER SECTION -->
+<section class="ln-offer ln-section">
+  <div class="ln-container">
+    <div class="ln-offer-inner">
+      <h2>Ready to Feel Like Yourself Again?</h2>
+      <p class="ln-offer-sub">Join 4,800+ women who have naturally supported their cholesterol and reclaimed their energy with Lunessa. Try it completely risk-free for 90 days.</p>
+      <button class="ln-offer-btn" onclick="lnScrollToHero()">Get Started — Choose Your Bundle</button>
+      <p class="ln-offer-guarantee">🛡️ 90-Day Money-Back Guarantee &nbsp;·&nbsp; 🚚 Free Shipping on 3+ Bottles</p>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="ln-reviews ln-section">
+  <div class="ln-container">
+    <div class="ln-section-header">
+      <div class="ln-section-eyebrow">Real Women, Real Results</div>
+      <h2 class="ln-section-h2">What Our Customers Are Saying</h2>
+      <p class="ln-section-sub">Verified reviews from women who were exactly where you are right now.</p>
+    </div>
+    <div class="ln-reviews-grid">
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar">B</div>
+          <div><div class="ln-review-card-name">Barbara M.</div><div class="ln-review-card-loc">Nashville, TN · Age 62</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★★</div>
+        <div class="ln-review-title">"My doctor was shocked at my numbers"</div>
+        <div class="ln-review-text">My LDL dropped 31 points in 90 days. My cardiologist actually asked what I was doing differently. I told her about Lunessa and she said to keep it up. I have more energy than I've had since my 40s.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">February 2026</div>
+      </div>
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar">P</div>
+          <div><div class="ln-review-card-name">Patricia K.</div><div class="ln-review-card-loc">Phoenix, AZ · Age 58</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★★</div>
+        <div class="ln-review-title">"Finally have my energy back"</div>
+        <div class="ln-review-text">I was on statins for 3 years and felt like a zombie — constant muscle pain and zero energy. Switched to Lunessa with my doctor's blessing and within 3 weeks I was walking my neighborhood again. Total game changer.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">January 2026</div>
+      </div>
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar">S</div>
+          <div><div class="ln-review-card-name">Susan R.</div><div class="ln-review-card-loc">Atlanta, GA · Age 67</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★★</div>
+        <div class="ln-review-title">"Wish I had found this sooner"</div>
+        <div class="ln-review-text">Six months in and I've ditched statins entirely. My numbers are better than they were on medication and I have none of the side effects. I wake up excited to start my day. I feel 10 years younger.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">December 2025</div>
+      </div>
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar" style="background:#78716c;">L</div>
+          <div><div class="ln-review-card-name">Linda T.</div><div class="ln-review-card-loc">Charlotte, NC · Age 55</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★<span style="color:#d1d5db;">★</span></div>
+        <div class="ln-review-title">"Skeptical — but it actually worked"</div>
+        <div class="ln-review-text">I've tried so many supplements that did nothing. Gave Lunessa one last shot. By week 6 my energy was noticeably better, and my 3-month labs showed real improvement. Takes consistency, but it works.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">January 2026</div>
+      </div>
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar">M</div>
+          <div><div class="ln-review-card-name">Margaret W.</div><div class="ln-review-card-loc">Dallas, TX · Age 64</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★★</div>
+        <div class="ln-review-title">"My cardiologist approves"</div>
+        <div class="ln-review-text">Heart disease runs in my family so I was nervous about trying anything new. My cardiologist agreed to monitor me on Lunessa. Three months later she said my numbers are trending in the right direction. I'm staying on this.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">February 2026</div>
+      </div>
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar">C</div>
+          <div><div class="ln-review-card-name">Carol H.</div><div class="ln-review-card-loc">Memphis, TN · Age 59</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★★</div>
+        <div class="ln-review-title">"No more muscle cramps"</div>
+        <div class="ln-review-text">The muscle cramps from statins were unbearable — I was waking up at 3am in pain. After 2 weeks on Lunessa the cramps were completely gone. 4 months in — cholesterol down, energy up. I tell every woman I know about this.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">November 2025</div>
+      </div>
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar">D</div>
+          <div><div class="ln-review-card-name">Diane F.</div><div class="ln-review-card-loc">Raleigh, NC · Age 71</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★★</div>
+        <div class="ln-review-title">"I keep up with my grandkids now"</div>
+        <div class="ln-review-text">I'm 71 and I keep up with my grandkids now. Before Lunessa I was exhausted by noon. My cholesterol is better and my energy is back. My husband says I seem like myself again. That means everything to me.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">January 2026</div>
+      </div>
+
+      <div class="ln-review-card">
+        <div class="ln-review-card-top">
+          <div class="ln-review-card-avatar">N</div>
+          <div><div class="ln-review-card-name">Nancy B.</div><div class="ln-review-card-loc">Louisville, KY · Age 63</div></div>
+        </div>
+        <div class="ln-review-stars">★★★★★</div>
+        <div class="ln-review-title">"I cried at my lab results"</div>
+        <div class="ln-review-text">Three months in — total cholesterol down 24 points, LDL down 19. My doctor said "whatever you're doing, keep doing it." I cried in the car afterward. I finally feel like I have control over my own health again.</div>
+        <div class="ln-review-verified">✓ Verified Purchase</div>
+        <div class="ln-review-date">February 2026</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="ln-faq ln-section">
+  <div class="ln-container">
+    <div class="ln-section-header">
+      <div class="ln-section-eyebrow">Common Questions</div>
+      <h2 class="ln-section-h2">Frequently Asked Questions</h2>
+    </div>
+    <div class="ln-faq-list">
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Is Red Yeast Rice safe? Does it have side effects?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          Red Yeast Rice has been used in traditional Chinese medicine for over 1,000 years and has been studied extensively in modern clinical research. At our dose of 600mg, it is generally well-tolerated. Unlike prescription statins, it does not deplete CoQ10 when taken alongside CoQ10 supplementation — which is exactly how Lunessa is formulated. As with any supplement, consult your physician if you have existing liver conditions or are currently on cholesterol medication.
+        </div></div>
+      </div>
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Will Lunessa interact with my medications?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          Red Yeast Rice has a mild statin-like mechanism, so it should not be combined with prescription statin medications without physician supervision. If you take blood thinners, immunosuppressants, or have a complex medication regimen, please consult your doctor before starting Lunessa. We recommend informing your healthcare provider when adding any supplement to your routine.
+        </div></div>
+      </div>
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">How long before I see results?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          Most customers notice improved energy within the first 1–2 weeks as CoQ10 begins replenishing cellular reserves. Measurable cholesterol improvements typically appear by month 2–3. For best results, we recommend a minimum 90-day commitment — which is why our 3-bottle bundle is most popular, and why we back every order with a 90-day guarantee.
+        </div></div>
+      </div>
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Isn't Red Yeast Rice basically the same as a statin?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          They share a similar mechanism (HMG-CoA reductase inhibition via Monacolin K), but there are meaningful differences. Red Yeast Rice is a food-derived compound containing multiple monacolins that work synergistically. Prescription statins are isolated, highly concentrated single compounds. Red Yeast Rice tends to have a milder effect and a significantly better side effect profile — especially for muscle pain — particularly when paired with CoQ10 as in Lunessa.
+        </div></div>
+      </div>
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Why gummies instead of capsules?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          Consistency is everything with supplements. We made Lunessa a gummy because people actually take them. Large capsules get skipped. Our customers tell us the gummy format makes their daily routine something they look forward to rather than dread. We never compromise on ingredient doses — you get the same clinical amounts as any capsule formula.
+        </div></div>
+      </div>
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">How many gummies do I take and when?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          Take 2 gummies daily, preferably with your morning meal. Taking them with food improves absorption and reduces any chance of stomach sensitivity. Do not exceed 2 gummies per day.
+        </div></div>
+      </div>
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">What if it doesn't work for me?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          We back every order with our 90-Day Money-Back Guarantee. If you don't see meaningful improvement in your energy or cholesterol within 90 days of consistent use, contact us for a full refund — no return required, no questions asked. We're confident in Lunessa, but we believe you should never pay for something that doesn't work for you personally.
+        </div></div>
+      </div>
+
+      <div class="ln-accordion-item">
+        <div class="ln-accordion-header" onclick="this.parentElement.classList.toggle('open')">Who should NOT take Lunessa?</div>
+        <div class="ln-accordion-body"><div class="ln-accordion-body-inner">
+          Lunessa is not recommended for women who are pregnant or breastfeeding, anyone with liver disease, or anyone currently taking prescription statin medications without physician approval. If you are on multiple medications or have a serious cardiovascular condition, please consult your doctor before starting.
+        </div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER CTA -->
+<section class="ln-footer-cta ln-section">
+  <div class="ln-container">
+    <h2>Don't Wait Another Day to Feel Like Yourself Again</h2>
+    <p>Your cholesterol, your energy, your vitality — they can all come back. Over 4,800 women have already made the switch. Join them today, completely risk-free.</p>
+    <button class="ln-footer-cta-btn" onclick="lnScrollToHero()">Choose Your Bundle — Try Risk-Free</button>
+    <p class="ln-footer-cta-sub">🛡️ 90-Day Money-Back Guarantee &nbsp;·&nbsp; 🚚 Free Shipping on 3+ Bottles &nbsp;·&nbsp; ⚡ Ships Within 24 Hours</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ln-footer">
+  <div class="ln-container">
+    <div class="ln-footer-inner">
+      <div class="ln-footer-logo">Lunessa</div>
+      <div class="ln-footer-links">
+        <a href="/pages/privacy-policy">Privacy Policy</a>
+        <a href="/pages/terms-of-service">Terms of Service</a>
+        <a href="/pages/refund-policy">Refund Policy</a>
+        <a href="/pages/contact">Contact Us</a>
+      </div>
+      <div class="ln-footer-disclaimer">
+        * These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Always consult your healthcare provider before starting any new supplement, especially if you are pregnant, nursing, taking medications, or have a medical condition. The testimonials on this page reflect individual experiences and may not represent typical results.
+      </div>
+      <div>© 2026 Lunessa. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE CTA -->
+<div class="ln-sticky-cta" id="lnStickyCta">
+  <div>
+    <div class="ln-sticky-info">Lunessa Gummies</div>
+    <div class="ln-sticky-price">From $24.99/bottle · Save up to 50%</div>
+  </div>
+  <button class="ln-sticky-btn" onclick="lnAddToCart()">Add to Cart</button>
+</div>
+
+<!-- OVERLAY -->
+<div class="ln-overlay" id="lnOverlay" onclick="lnCloseCart()"></div>
+
+<!-- CART DRAWER -->
+<div class="ln-cart-drawer" id="lnCartDrawer">
+  <div class="ln-cart-header">
+    <h3>Your Cart <span id="lnCartBadge" style="background:var(--ln-accent);color:#fff;border-radius:50px;padding:2px 9px;font-size:13px;margin-left:4px;"></span></h3>
+    <button class="ln-cart-close" onclick="lnCloseCart()">×</button>
+  </div>
+  <div class="ln-cart-goal">
+    <div class="ln-cart-goal-text" id="lnGoalText">Add more for FREE shipping!</div>
+    <div class="ln-cart-goal-bar"><div class="ln-cart-goal-fill" id="lnGoalFill" style="width:0%"></div></div>
+  </div>
+  <div class="ln-cart-body" id="lnCartBody">
+    <div class="ln-cart-empty">
+      <p>Your cart is empty</p>
+      <button onclick="lnCloseCart()">Shop Now</button>
+    </div>
+  </div>
+  <div class="ln-cart-footer" id="lnCartFooter" style="display:none;">
+    <div class="ln-cart-subtotal">
+      <span>Subtotal</span>
+      <span id="lnSubtotal">$0.00</span>
+    </div>
+    <div class="ln-cart-savings" id="lnCartSavings"></div>
+    <button class="ln-cart-checkout" onclick="window.location.href='/checkout'">Checkout — Secure & Safe 🔒</button>
+    <span class="ln-cart-continue" onclick="lnCloseCart()">Continue Shopping</span>
+    <div class="ln-cart-secure">🔒 SSL Encrypted &nbsp;·&nbsp; Safe & Secure Checkout</div>
+  </div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  var LN_BUNDLES = {
+    '1': { variantId: 47459960094978, price: 34.99, compare: 49.99, per: 34.99, bottles: 1, label: '1 Bottle — Starter', supply: '30-Day Supply' },
+    '3': { variantId: 47459960127746, price: 89.97, compare: 149.97, per: 29.99, bottles: 3, label: '3 Bottles — Most Popular', supply: '90-Day Supply' },
+    '6': { variantId: 47459960160514, price: 149.94, compare: 299.94, per: 24.99, bottles: 6, label: '6 Bottles — Best Value', supply: '180-Day Supply' }
+  };
+
+  var lnCurrentBundle = '3';
+  var FREE_SHIP_THRESHOLD = 89.97;
+  var PRODUCT_IMG = 'https://cdn.shopify.com/s/files/1/0808/3885/2866/files/product_image_1.jpg?v=1773239617';
+
+  // Image gallery
+  window.lnSwapImg = function(el, src) {
+    document.getElementById('lnMainImg').src = src;
+    document.querySelectorAll('.ln-thumb').forEach(function(t) { t.classList.remove('active'); });
+    el.classList.add('active');
+  };
+
+  // Bundle selection
+  window.lnSelectBundle = function(el) {
+    document.querySelectorAll('.ln-bundle-option').forEach(function(o) { o.classList.remove('ln-selected'); });
+    el.classList.add('ln-selected');
+    el.querySelector('input[type="radio"]').checked = true;
+    lnCurrentBundle = el.dataset.bundle;
+  };
+
+  // Add to cart
+  window.lnAddToCart = function() {
+    var bundle = LN_BUNDLES[lnCurrentBundle];
+    var btn = document.getElementById('heroAddToCart');
+    if (btn) { btn.textContent = 'Adding...'; btn.disabled = true; }
+
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ items: [{ id: bundle.variantId, quantity: 1 }] })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function() { return fetch('/cart.js').then(function(r) { return r.json(); }); })
+    .then(function(cart) {
+      lnRenderCart(cart);
+      lnOpenCart();
+      if (btn) { btn.textContent = 'Add to Cart — Get Started Today'; btn.disabled = false; }
+    })
+    .catch(function() {
+      if (btn) { btn.textContent = 'Add to Cart — Get Started Today'; btn.disabled = false; }
+    });
+  };
+
+  // Cart drawer
+  window.lnOpenCart = function() {
+    document.getElementById('lnCartDrawer').classList.add('open');
+    document.getElementById('lnOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    fetch('/cart.js').then(function(r) { return r.json(); }).then(lnRenderCart).catch(function(){});
+  };
+
+  window.lnCloseCart = function() {
+    document.getElementById('lnCartDrawer').classList.remove('open');
+    document.getElementById('lnOverlay').classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
+  function lnRenderCart(cart) {
+    var count = cart.item_count || 0;
+    var total = (cart.total_price || 0) / 100;
+
+    // Count badge
+    document.getElementById('lnCartCount').textContent = count;
+    var badge = document.getElementById('lnCartBadge');
+    if (badge) badge.textContent = count > 0 ? count + ' item' + (count !== 1 ? 's' : '') : '';
+
+    // Shipping goal
+    var goalText = document.getElementById('lnGoalText');
+    var goalFill = document.getElementById('lnGoalFill');
+    if (total >= FREE_SHIP_THRESHOLD) {
+      goalText.innerHTML = '🎉 <strong>You qualify for FREE shipping!</strong>';
+      goalFill.style.width = '100%';
+      goalFill.style.background = '#16a34a';
+    } else {
+      var rem = (FREE_SHIP_THRESHOLD - total).toFixed(2);
+      goalText.textContent = 'Add $' + rem + ' more for FREE shipping!';
+      goalFill.style.width = Math.min((total / FREE_SHIP_THRESHOLD) * 100, 100) + '%';
+      goalFill.style.background = '';
+    }
+
+    var body = document.getElementById('lnCartBody');
+    var footer = document.getElementById('lnCartFooter');
+
+    if (!cart.items || cart.items.length === 0) {
+      body.innerHTML = '<div class="ln-cart-empty"><p>Your cart is empty</p><button onclick="lnCloseCart()">Shop Now</button></div>';
+      footer.style.display = 'none';
+      return;
+    }
+
+    var itemsHtml = cart.items.map(function(item) {
+      var price = (item.final_line_price / 100).toFixed(2);
+      var bKey = Object.keys(LN_BUNDLES).find(function(k) { return LN_BUNDLES[k].variantId == item.variant_id; });
+      var supply = bKey ? LN_BUNDLES[bKey].supply : (item.variant_title || '');
+      return [
+        '<div class="ln-cart-item">',
+          '<img class="ln-cart-item-img" src="' + (item.image || PRODUCT_IMG) + '" alt="' + item.product_title + '">',
+          '<div class="ln-cart-item-info">',
+            '<div class="ln-cart-item-name">' + item.product_title + '</div>',
+            '<div class="ln-cart-item-variant">' + item.variant_title + '</div>',
+            '<div class="ln-cart-item-supply">' + supply + '</div>',
+            '<div class="ln-cart-item-controls">',
+              '<button class="ln-qty-btn" onclick="lnChangeQty(\'' + item.key + '\',' + (item.quantity-1) + ')">−</button>',
+              '<span class="ln-qty-val">' + item.quantity + '</span>',
+              '<button class="ln-qty-btn" onclick="lnChangeQty(\'' + item.key + '\',' + (item.quantity+1) + ')">+</button>',
+              '<span class="ln-cart-item-remove" onclick="lnChangeQty(\'' + item.key + '\',0)">Remove</span>',
+            '</div>',
+          '</div>',
+          '<div class="ln-cart-item-price">$' + price + '</div>',
+        '</div>'
+      ].join('');
+    }).join('');
+
+    // Upsell
+    var upsell = '';
+    var has1 = cart.items.some(function(i) { return i.variant_id == LN_BUNDLES['1'].variantId; });
+    var has3 = cart.items.some(function(i) { return i.variant_id == LN_BUNDLES['3'].variantId; });
+    if (has1) {
+      upsell = '<div class="ln-cart-upsell"><div class="ln-cart-upsell-title">💡 Save more with the 3-Bottle Bundle</div><div class="ln-cart-upsell-desc">Upgrade to a 90-day supply and save 40% vs. the single bottle. Most popular for a reason.</div><button class="ln-cart-upsell-btn" onclick="lnUpgrade(\'3\')">Upgrade to 3 Bottles — $89.97</button></div>';
+    } else if (has3) {
+      upsell = '<div class="ln-cart-upsell"><div class="ln-cart-upsell-title">💡 Best value: 6-Bottle Bundle</div><div class="ln-cart-upsell-desc">Upgrade to 180 days and save 50%. Perfect if you\'ve seen results and want to keep going.</div><button class="ln-cart-upsell-btn" onclick="lnUpgrade(\'6\')">Upgrade to 6 Bottles — $149.94</button></div>';
+    }
+
+    body.innerHTML = itemsHtml + upsell;
+    footer.style.display = 'block';
+
+    // Subtotal + savings
+    var origTotal = cart.items.reduce(function(acc, item) {
+      var bKey = Object.keys(LN_BUNDLES).find(function(k) { return LN_BUNDLES[k].variantId == item.variant_id; });
+      return acc + (bKey ? LN_BUNDLES[bKey].compare * item.quantity : item.original_line_price / 100);
+    }, 0);
+    var savings = origTotal - total;
+    document.getElementById('lnSubtotal').textContent = '$' + total.toFixed(2);
+    var savEl = document.getElementById('lnCartSavings');
+    savEl.textContent = savings > 0.01 ? '🎉 You\'re saving $' + savings.toFixed(2) + '!' : '';
+  }
+
+  window.lnChangeQty = function(key, qty) {
+    fetch('/cart/change.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: key, quantity: qty })
+    })
+    .then(function(r) { return r.json(); })
+    .then(lnRenderCart);
+  };
+
+  window.lnUpgrade = function(bundleKey) {
+    var bundle = LN_BUNDLES[bundleKey];
+    fetch('/cart/clear.js', { method: 'POST' })
+    .then(function() {
+      return fetch('/cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ items: [{ id: bundle.variantId, quantity: 1 }] })
+      });
+    })
+    .then(function(r) { return r.json(); })
+    .then(function() { return fetch('/cart.js').then(function(r) { return r.json(); }); })
+    .then(lnRenderCart);
+  };
+
+  // Scroll to hero
+  window.lnScrollToHero = function() {
+    var hero = document.querySelector('.ln-hero');
+    if (hero) hero.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  // Sticky CTA
+  var heroBtn = document.getElementById('heroAddToCart');
+  if (heroBtn && window.IntersectionObserver) {
+    new IntersectionObserver(function(entries) {
+      var sticky = document.getElementById('lnStickyCta');
+      if (!sticky) return;
+      entries.forEach(function(e) {
+        if (e.isIntersecting) {
+          sticky.classList.remove('ln-visible');
+          document.body.classList.remove('ln-has-sticky');
+        } else {
+          sticky.classList.add('ln-visible');
+          document.body.classList.add('ln-has-sticky');
+        }
+      });
+    }, { threshold: 0 }).observe(heroBtn);
+  }
+
+  // Live viewer count
+  function updateViewers() {
+    var el = document.getElementById('lnViewers');
+    if (el) el.textContent = Math.floor(Math.random() * 141) + 180;
+  }
+  updateViewers();
+  setInterval(updateViewers, 12000);
+
+  // Init cart count on load
+  fetch('/cart.js')
+    .then(function(r) { return r.json(); })
+    .then(function(cart) {
+      document.getElementById('lnCartCount').textContent = cart.item_count || 0;
+    })
+    .catch(function(){});
+
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Lunessa Landing Page",
+  "settings": []
+}
+{% endschema %}

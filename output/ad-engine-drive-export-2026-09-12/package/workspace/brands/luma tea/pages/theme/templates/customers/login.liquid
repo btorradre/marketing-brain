@@ -1,0 +1,13 @@
+<h1 class="lt-min-title">Sign In</h1>
+<div style="max-width: 420px;">
+  {% form 'customer_login' %}
+    {{ form.errors | default_errors }}
+    <label style="display:block; font-size:12px; letter-spacing:0.18em; text-transform:uppercase; margin-bottom:6px;">Email</label>
+    <input type="email" name="customer[email]" required style="width:100%; padding:14px 18px; border:1px solid var(--lt-line); border-radius:10px; background: var(--lt-cream-2); font-size: 15px; margin-bottom: 16px;">
+    <label style="display:block; font-size:12px; letter-spacing:0.18em; text-transform:uppercase; margin-bottom:6px;">Password</label>
+    <input type="password" name="customer[password]" required style="width:100%; padding:14px 18px; border:1px solid var(--lt-line); border-radius:10px; background: var(--lt-cream-2); font-size: 15px; margin-bottom: 20px;">
+    <button type="submit" style="display:block; width:100%; background: var(--lt-gold-deep); color:white; border:none; border-radius: 10px; padding: 16px; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; cursor: pointer;">Sign In</button>
+  {% endform %}
+  <p style="margin-top:24px; font-size: 14px;"><a href="/account/recover">Forgot password?</a></p>
+  <p style="font-size: 14px;">New here? <a href="/account/register">Create an account</a></p>
+</div>

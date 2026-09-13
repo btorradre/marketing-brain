@@ -1,0 +1,25 @@
+{
+  "shot": "HB2",
+  "verdict": "revise",
+  "observed_motion": "The camera slowly drifts upward, while the amber locator shifts downward along the colon before disappearing. Significant ghosting and anatomical doubling occur midway through the clip.",
+  "issues": [
+    {
+      "time_s": 2.25,
+      "description": "Amber locator migrates downwards along the colon rather than remaining stationary, then disappears.",
+      "severity": "moderate"
+    },
+    {
+      "time_s": 3.0,
+      "description": "Noticeable ghosting and double-exposure artifact distorting the stomach and upper torso geometry.",
+      "severity": "severe"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 2.0,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 20,
+  "native_duration_s": 5.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/HB2-4fps.jpg"
+}

@@ -1,0 +1,80 @@
+{
+  "job": "delphine-scene-seeds-2026-08-20",
+  "brand": "velantra",
+  "brand_context": "Velantra Delphine: 25cm structured top-handle handbag, leather flap + canvas body. We are sourcing SCENE references (frames) from real organic creator footage — any small/medium handbag is fine, the bag gets swapped later. Reject brand-ad/studio/AI-looking footage. Avoid large central luxury monograms.",
+  "engine": "apify",
+  "slots": [
+    {
+      "slot_id": "S01_cafe",
+      "script_line": "scene seed: handbag set down in a cafe interior",
+      "emotion": "casual, unposed, everyday",
+      "action": "handbag sitting on a cafe chair, table, or floor beside a table leg inside a coffee shop",
+      "mode": "search",
+      "search_terms": ["bag of the day cafe", "handbag cafe", "coffee run bag"],
+      "per_term_count": 7,
+      "min_duration_s": 3,
+      "max_duration_s": 120,
+      "duration_needs_s": 2
+    },
+    {
+      "slot_id": "S02_car",
+      "script_line": "scene seed: handbag in a car",
+      "emotion": "casual, phone-shot",
+      "action": "handbag on a car passenger seat, in a lap in the car, or car door open with bag visible",
+      "mode": "search",
+      "search_terms": ["passenger princess bag", "whats in my bag car", "bag on car seat"],
+      "per_term_count": 7,
+      "min_duration_s": 3,
+      "max_duration_s": 120,
+      "duration_needs_s": 2
+    },
+    {
+      "slot_id": "S03_home",
+      "script_line": "scene seed: handbag set down at home",
+      "emotion": "casual phone lighting",
+      "action": "handbag set down on a kitchen counter, entry console, or bench at home",
+      "mode": "search",
+      "search_terms": ["new bag haul", "handbag unboxing", "grwm bag"],
+      "per_term_count": 7,
+      "min_duration_s": 3,
+      "max_duration_s": 120,
+      "duration_needs_s": 2
+    },
+    {
+      "slot_id": "S04_flatlay",
+      "script_line": "scene seed: whats-in-my-bag overhead flatlay",
+      "emotion": "organized, casual",
+      "action": "overhead flatlay of handbag with wallet, keys, lip balm laid out on a bed or floor",
+      "mode": "search",
+      "search_terms": ["whats in my bag flatlay", "whats in my purse"],
+      "per_term_count": 7,
+      "min_duration_s": 3,
+      "max_duration_s": 120,
+      "duration_needs_s": 2
+    },
+    {
+      "slot_id": "S05_street",
+      "script_line": "scene seed: carrying a structured bag on the street",
+      "emotion": "candid street style",
+      "action": "waist-down or behind shot of a woman carrying a structured top-handle bag on a sidewalk, crosswalk, or shop doorway",
+      "mode": "search",
+      "search_terms": ["street style handbag", "work bag outfit", "top handle bag outfit"],
+      "per_term_count": 7,
+      "min_duration_s": 3,
+      "max_duration_s": 120,
+      "duration_needs_s": 2
+    },
+    {
+      "slot_id": "S06_checkout",
+      "script_line": "scene seed: bag at a bakery or cafe counter while paying",
+      "emotion": "everyday errand",
+      "action": "handbag on a counter or in hand at a bakery or coffee shop counter while ordering or paying",
+      "mode": "search",
+      "search_terms": ["bakery run", "coffee shop counter", "morning coffee run"],
+      "per_term_count": 7,
+      "min_duration_s": 3,
+      "max_duration_s": 120,
+      "duration_needs_s": 2
+    }
+  ]
+}

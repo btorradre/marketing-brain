@@ -1,0 +1,89 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "motilli-l1",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8091", "--directory", "motilli-l1"],
+      "port": 8091
+    },
+    {
+      "name": "glp1-v7",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8092", "--directory", "glp1-v7"],
+      "port": 8092
+    },
+    {
+      "name": "coravita-v2",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8093", "--directory", "coravita-v2"],
+      "port": 8093
+    },
+    {
+      "name": "coravita-v3",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8094", "--directory", "coravita-v3"],
+      "port": 8094
+    },
+    {
+      "name": "coravita-a3",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8095", "--directory", "coravita-a3"],
+      "port": 8095
+    },
+    {
+      "name": "motilli-l2",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8096", "--directory", "motilli-l2"],
+      "port": 8096
+    },
+    {
+      "name": "motilli-pdp",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8097", "--directory", "motilli-pdp"],
+      "port": 8097
+    },
+    {
+      "name": "listicles-landing",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8098", "--directory", "/Users/brooksorradre2/Documents/Ecommerce/listicles"],
+      "port": 8098
+    },
+    {
+      "name": "motilli-d1",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8099", "--directory", "motilli-d1"],
+      "port": 8099
+    },
+    {
+      "name": "motilli-a3",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8100", "--directory", "motilli-a3"],
+      "port": 8100
+    },
+    {
+      "name": "lunessa-v1",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8101", "--directory", "lunessa-v1"],
+      "port": 8101
+    },
+    {
+      "name": "lunessa-v2",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8102", "--directory", "lunessa-v2"],
+      "port": 8102
+    },
+    {
+      "name": "lunessa-v3",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8103", "--directory", "lunessa-v3"],
+      "port": 8103
+    },
+    {
+      "name": "motilli-a4",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8104", "--directory", "motilli-a4"],
+      "port": 8104
+    }
+  ]
+}

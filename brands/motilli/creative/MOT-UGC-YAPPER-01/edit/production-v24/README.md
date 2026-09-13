@@ -1,0 +1,11 @@
+# Motilli V24 — cleaned narration complete; HeyGen blocked by API credit
+
+Selected clean MP3 and lossless WAV files are in deliverables, with exact scripts, native DRTs and project DRP. H1 219.266667s (25.053333s removed), H2 223.533333s (31.186667s removed), H3 216.833333s (26.526667s removed). Michelle / Eleven v3 Natural / original 1.2× speaking rate preserved; only quiet intervals removed.
+
+Native final audio timelines: v24 H1 Natural - final quiet-gap cleanup; v24 H2 Natural - waveform cleaned; v24 H3 Natural - waveform cleaned. Source V23 and earlier Motilli video timelines preserved. Project MOT-UGC-YAPPER-01 v7 V3 20260910.
+
+QA: final native PCM matches concatenated retained source spans at correlation >0.99999997, full durations correct, no clipping, no detected -40dB silences >=0.35s. Independent full Scribe before/after transcripts match exactly after spelling normalization. Word timestamps refreshed in H1/H2/H3-clean-aligned-words.json. Whole-input model reviews for H1/H2 claimed periodic 30-second dropouts; objective waveform and short reviews at alleged intervals disproved them. Original reviews preserved. H3 full listening review passed. Final H1/H2 targeted reviews passed, with truncation only at extracted sample edges.
+
+HeyGen: same mature car-presenter look and Avatar V, 9:16 1080p, verified ready. Final H3 job failed: MOVIO_PAYMENT_INSUFFICIENT_CREDIT — operation requires API credits. H1/H2 final cleaned audio staged with exact requests but not generated after credit failure. H3 first-pass job a291682367f11ccf0a1cc4374c504995 is a superseded draft submitted before waveform cleanup; never deliver it as final. Local polling stopped, remote may still complete. No final avatar outputs delivered and no full ad rebuild claimed.
+
+Resume after API credits available: preserve failed H3-r2 job/status under a failed-attempt subfolder and resubmit only that failed final job using the same uploaded final cleaned audio (request already saved). Run render_avatars_r2.py H1 H2 H3, which resumes existing successful/pending jobs without duplication. Verify actual provider audio matches exact uploaded final files; check duration and beginning/middle/end lip sync/identity; save actual assets and deliver full MP4 paths. Do not use the superseded first-pass H3 output.

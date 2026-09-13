@@ -1,0 +1,2072 @@
+{
+  "version": 1,
+  "audit_date": "2026-09-04",
+  "reviewer": "hero_video subagent",
+  "scope": "Four core bag families, five active listings; 76 unique current gallery views inspected in eight contact sheets, selected critical outputs and actual sources individually. This is a source-authority/dimension review, not complete pixel QA of every full-resolution file.",
+  "method": "Local documents + view_image inspection; no media generation, media edits, store writes or physical measurements.",
+  "overall_physical_measurement_verified": false,
+  "prior_media_approval_limit": "Old white-studio QA compared output to old catalog source. It did not certify physical scale or reconcile newer real-product corrections.",
+  "products": {
+    "vivienne": {
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-vivienne-product/SKILL.md",
+      "handles": [
+        "velantra-vivienne"
+      ],
+      "catalog_products": [
+        {
+          "handle": "velantra-vivienne",
+          "id": "gid://shopify/Product/8050561876033",
+          "colors": [
+            "Chocolate",
+            "Cognac",
+            "Black",
+            "Olive"
+          ],
+          "image_count": 12
+        }
+      ],
+      "dimension_rows": [
+        {
+          "field": "top_width",
+          "value": 38,
+          "unit": "cm",
+          "status": "owner_approved",
+          "origin_status": "inferred_from_listing_slug",
+          "physical_measurement": false,
+          "note": "Width 38 from dead supplier listing slug, accepted August 22; across-top endpoint intended."
+        },
+        {
+          "field": "body_height",
+          "value": 27,
+          "unit": "cm",
+          "status": "owner_approved",
+          "origin_status": "inferred",
+          "physical_measurement": false,
+          "note": "Reference ratio/similar-bag inference then approved August 27; no supplier sheet."
+        },
+        {
+          "field": "depth",
+          "value": 20,
+          "unit": "cm",
+          "status": "owner_approved",
+          "origin_status": "inferred",
+          "physical_measurement": false,
+          "note": "Foreshortened reference and similar-bag inference, then approved."
+        },
+        {
+          "field": "handle_drop",
+          "value": 10,
+          "unit": "cm",
+          "status": "owner_approved",
+          "origin_status": "inferred",
+          "physical_measurement": false
+        },
+        {
+          "field": "strap_length",
+          "value": [
+            100,
+            115
+          ],
+          "unit": "cm",
+          "status": "owner_approved",
+          "origin_status": "inferred",
+          "physical_measurement": false,
+          "note": "Adjustment endpoints not measured."
+        }
+      ],
+      "physical_measurement_verified": false,
+      "viewed_images": [
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png",
+          "method": "view_image",
+          "authority": "owner_approved_creative",
+          "notes": "Selected September 3 master; soft body, contrast trim, horizontal oval, inward tails.",
+          "sha256": "2dcbee2ac61a72b87df14e1f8afb179ff070dc00005b25854987d8d03e33f325"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/source/tiktok/SEED-real-bag.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Different rectangular hardware; actual soft leather behavior, not Velantra final SKU.",
+          "sha256": "440d17ca9c73bcde17a82590de14962233bdf871f363d58bb74f4d2c2dac3554"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/source/tiktok/SEED-real-hardware.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Rectangular center/side plates, partly blurred; not approved oval construction.",
+          "sha256": "c7b87743a064135c47962349c84ce72b21376bc75b46ddb9a9ffd5d57e159a0f"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/source/images/ref-tan-onbody.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Tan leather and long shoulder strap; uncalibrated person/size, different hardware.",
+          "sha256": "4b555707f098be3ca6b02664687a039c63db5cc15d010122f6f8e9836b0326cb"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-vivienne-1.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        }
+      ],
+      "source_documents": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/PRODUCT-TRUTH.md"
+      ],
+      "current_output_audit": [
+        {
+          "job": 16,
+          "source_image_id": 41079930191937,
+          "position": 1,
+          "historical_color_label": "Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/01-41079930191937.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/01-41079930191937-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 17,
+          "source_image_id": 41079930224705,
+          "position": 2,
+          "historical_color_label": "Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/02-41079930224705.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/02-41079930224705-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 18,
+          "source_image_id": 41079930257473,
+          "position": 3,
+          "historical_color_label": "Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/03-41079930257473.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/03-41079930257473-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 19,
+          "source_image_id": 41079930323009,
+          "position": 4,
+          "historical_color_label": "Cognac",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/04-41079930323009.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/04-41079930323009-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 20,
+          "source_image_id": 41079930355777,
+          "position": 5,
+          "historical_color_label": "Cognac",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/05-41079930355777.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/05-41079930355777-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 21,
+          "source_image_id": 41079930388545,
+          "position": 6,
+          "historical_color_label": "Cognac",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/06-41079930388545.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/06-41079930388545-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 22,
+          "source_image_id": 41079930454081,
+          "position": 7,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/07-41079930454081.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/07-41079930454081-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 23,
+          "source_image_id": 41079930486849,
+          "position": 8,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/08-41079930486849.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/08-41079930486849-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 24,
+          "source_image_id": 41079930585153,
+          "position": 9,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/09-41079930585153.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/09-41079930585153-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 25,
+          "source_image_id": 41079930650689,
+          "position": 10,
+          "historical_color_label": "Olive",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/10-41079930650689.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/10-41079930650689-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 26,
+          "source_image_id": 41079930683457,
+          "position": 11,
+          "historical_color_label": "Olive",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/11-41079930683457.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/11-41079930683457-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        },
+        {
+          "job": 27,
+          "source_image_id": 41079930716225,
+          "position": 12,
+          "historical_color_label": "Olive",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-vivienne/12-41079930716225.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-vivienne/12-41079930716225-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "VIV-DIM"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "VIV-DIM",
+          "severity": "hold_metric_claims",
+          "jobs": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "finding": "Approved estimates, not physical measurements; no model/camera calibration or verified depth."
+        },
+        {
+          "id": "VIV-HARDWARE",
+          "severity": "source_authority",
+          "finding": "Third-party rectangular plates differ from owner-selected oval/bar design; same model family is not same final SKU."
+        },
+        {
+          "id": "VIV-TRIM",
+          "severity": "unresolved",
+          "finding": "Approved Chocolate contrast finish differs from current one-hide/one-finish copy; final Black/Olive trim unresolved."
+        },
+        {
+          "id": "VIV-OPEN",
+          "severity": "hold_new_hidden_views",
+          "finding": "Selected raised-panel image and old one-plate-on-flap prose do not establish complete matching-SKU mechanism/interior."
+        }
+      ],
+      "measurement_and_evidence_gaps": [
+        "Dated finished-SKU W/H/D measurements with endpoints and fill state",
+        "Handle drop and strap adjustment range",
+        "Final Black/Olive trim and calibrated color swatches",
+        "Matching SKU interior/back/base and opening mechanism",
+        "Supplier composition and real capacity test"
+      ]
+    },
+    "weekender": {
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-weekender-product/SKILL.md",
+      "handles": [
+        "velantra-weekender",
+        "the-eleanor-weekender"
+      ],
+      "catalog_products": [
+        {
+          "handle": "velantra-weekender",
+          "id": "gid://shopify/Product/7971794747457",
+          "colors": [
+            "Cognac",
+            "Army Green",
+            "Espresso",
+            "Black"
+          ],
+          "image_count": 33
+        },
+        {
+          "handle": "the-eleanor-weekender",
+          "id": "gid://shopify/Product/8034689122369",
+          "colors": [
+            "Cognac",
+            "Army Green",
+            "Espresso",
+            "Black"
+          ],
+          "image_count": 33
+        }
+      ],
+      "dimension_rows": [
+        {
+          "field": "width",
+          "value": 18,
+          "unit": "in",
+          "cm_conversion": 45.72,
+          "status": "owner_approved",
+          "physical_measurement": false,
+          "note": "Intended nominal correct-size run; no measured sample tied to source photo revision."
+        },
+        {
+          "field": "body_height",
+          "value": 14.5,
+          "unit": "in",
+          "cm_conversion": 36.83,
+          "status": "owner_approved",
+          "physical_measurement": false,
+          "note": "Intended nominal correct-size run; no measured sample tied to source photo revision."
+        },
+        {
+          "field": "depth",
+          "value": 7,
+          "unit": "in",
+          "cm_conversion": 17.78,
+          "status": "owner_approved",
+          "physical_measurement": false,
+          "note": "Intended nominal correct-size run; no measured sample tied to source photo revision."
+        }
+      ],
+      "physical_measurement_verified": false,
+      "viewed_images": [
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-closed-front-unfastened.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Horizontal oval flap plate, cream flecked canvas, smooth leather.",
+          "sha256": "707a07e0a777fbe303cb006a1ba9c89ea51d7023e616acc880ede26c995c4222"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-open-interior-slip-pocket.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Smooth caramel interior, slip pocket; no cream fabric or zip.",
+          "sha256": "356a4b3962c9bddbf4d66176c432b6c670749cb8f6d71fea0faf9d29cd76c109"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-closed-side-strap-detail.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Loose belt tail near side edge; flat paired bars; woven canvas.",
+          "sha256": "6b0bdb7acbf09dbc21a168663433bf2a47b58b92ea81e0ba99abb45170575698"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-hand-scale-front.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Hand unmeasured; cannot verify 18-inch sample dimensions.",
+          "sha256": "fd613f50ab3acf374427bbdac28ccbf7678484594a16b57475ab61ac4290df3e"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/AG-still-closed-front.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Dark olive canvas, tan leather, contoured flap and horizontal oval.",
+          "sha256": "be5503d2e7b9e55951fdac7bb7adeccf17597a47f0bb3601bfe89629a6c8aa99"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/XX-DARK-still-closed-front.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Dark trim on cream canvas; exact current variant identity unresolved.",
+          "sha256": "2b8a49840d8dda519b3375a585177624fff507a98e6b2da19b30af7c74eed275"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/XX-DARK-still-back.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Plain back band with handle bases/strap anchors, no lock; canvas side panels.",
+          "sha256": "a07a7bc6bdb6a0d86949d7d317a82e503969181b5bf49d12bf2c3ee31ef7465c"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/XX-DARK-closed-side.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "Close frontal-side edge, smooth dark leather/canvas, horizontal strap state.",
+          "sha256": "eb2eaa80a0a8265dfbdc526749caa37592f0dba6e05821612ccef99e0156fdbe"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-references/real-product-2026-08-08/LC-open-flap-foldback-front.jpg",
+          "method": "view_image",
+          "authority": "owner_physical_footage",
+          "notes": "One attached flap folds back; front band has bare knurled post, caramel interior.",
+          "sha256": "40a884ac36b6f98ea644b2b8aa843d25b9c71b37c59f0616b56cac1eaf1e5c2b"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-images/black/original-iphone-photos/black-01.png",
+          "method": "view_image",
+          "authority": "historically_labeled_physical_provenance_unverified",
+          "notes": "Black leather, horizontal plate; README claims real but no original capture lineage independently established.",
+          "sha256": "65accec87d4084c3ebfaa5974050ba996cc3687c9c970c5adde9f52bc212237a"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-images/black/original-iphone-photos/black-03.png",
+          "method": "view_image",
+          "authority": "historically_labeled_physical_conflicting_geometry",
+          "notes": "Open image repeats front flap-like panel/oval while flap raised; unsuitable mechanism proof despite README label.",
+          "sha256": "e78de7d004cd61e14805f3bd57f6e51f1c33bb01240c3bbd2d40efb270f02d41"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-weekender-1.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-weekender-2.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-weekender-3.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/07-40262817972289-white-studio.png",
+          "method": "view_image",
+          "authority": "generated_current_output",
+          "notes": "Individual interior confirms cream fabric and altered band/flap versus caramel physical footage."
+        }
+      ],
+      "source_documents": [
+        "/Users/brooksorradre2/.claude/skills/velantra-weekender/SKILL.md",
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/weekender-wrong-size-apology-email.md"
+      ],
+      "current_output_audit": [
+        {
+          "job": 53,
+          "source_image_id": 40262817873985,
+          "position": 1,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/01-40262817873985.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/01-40262817873985-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 54,
+          "source_image_id": 40841854746689,
+          "position": 2,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/02-40841854746689.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/02-40841854746689-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 55,
+          "source_image_id": 40262817939521,
+          "position": 3,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/03-40262817939521.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/03-40262817939521-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-INTERIOR"
+          ]
+        },
+        {
+          "job": 56,
+          "source_image_id": 40289819394113,
+          "position": 4,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/04-40289819394113.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/04-40289819394113-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 57,
+          "source_image_id": 40841856680001,
+          "position": 5,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/05-40841856680001.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/05-40841856680001-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 58,
+          "source_image_id": 40262817906753,
+          "position": 6,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/06-40262817906753.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/06-40262817906753-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 59,
+          "source_image_id": 40262817972289,
+          "position": 7,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/07-40262817972289.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/07-40262817972289-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-INTERIOR"
+          ]
+        },
+        {
+          "job": 60,
+          "source_image_id": 40262818005057,
+          "position": 8,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/08-40262818005057.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/08-40262818005057-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 61,
+          "source_image_id": 40841858449473,
+          "position": 9,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/09-40841858449473.jpg",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/09-40841858449473-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 62,
+          "source_image_id": 40262817710145,
+          "position": 10,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/10-40262817710145.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/10-40262817710145-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 63,
+          "source_image_id": 40289710112833,
+          "position": 11,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/11-40289710112833.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/11-40289710112833-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 64,
+          "source_image_id": 40262817808449,
+          "position": 12,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/12-40262817808449.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/12-40262817808449-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-INTERIOR"
+          ]
+        },
+        {
+          "job": 65,
+          "source_image_id": 40841861300289,
+          "position": 13,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/13-40841861300289.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/13-40841861300289-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 66,
+          "source_image_id": 40262817742913,
+          "position": 14,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/14-40262817742913.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/14-40262817742913-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 67,
+          "source_image_id": 40263014973505,
+          "position": 15,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/15-40263014973505.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/15-40263014973505-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-INTERIOR"
+          ]
+        },
+        {
+          "job": 68,
+          "source_image_id": 40262817775681,
+          "position": 16,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/16-40262817775681.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/16-40262817775681-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 69,
+          "source_image_id": 40262817841217,
+          "position": 17,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/17-40262817841217.webp",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/17-40262817841217-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 70,
+          "source_image_id": 40818990252097,
+          "position": 18,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/18-40818990252097.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/18-40818990252097-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 71,
+          "source_image_id": 40843125751873,
+          "position": 19,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/19-40843125751873.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/19-40843125751873-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 72,
+          "source_image_id": 40818990317633,
+          "position": 20,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/20-40818990317633.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/20-40818990317633-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-INTERIOR"
+          ]
+        },
+        {
+          "job": 73,
+          "source_image_id": 40843128766529,
+          "position": 21,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/21-40843128766529.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/21-40843128766529-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 74,
+          "source_image_id": 40818990383169,
+          "position": 22,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/22-40818990383169.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/22-40818990383169-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 75,
+          "source_image_id": 40818990415937,
+          "position": 23,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/23-40818990415937.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/23-40818990415937-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-INTERIOR"
+          ]
+        },
+        {
+          "job": 76,
+          "source_image_id": 40818990448705,
+          "position": 24,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/24-40818990448705.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/24-40818990448705-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 77,
+          "source_image_id": 40843134337089,
+          "position": 25,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/25-40843134337089.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/25-40843134337089-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 78,
+          "source_image_id": 40845607796801,
+          "position": 26,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/26-40845607796801.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/26-40845607796801-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 79,
+          "source_image_id": 40845609762881,
+          "position": 27,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/27-40845609762881.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/27-40845609762881-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 80,
+          "source_image_id": 40845610516545,
+          "position": 28,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/28-40845610516545.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/28-40845610516545-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 81,
+          "source_image_id": 40845612515393,
+          "position": 29,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/29-40845612515393.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/29-40845612515393-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 82,
+          "source_image_id": 40845613236289,
+          "position": 30,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/30-40845613236289.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/30-40845613236289-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-FRONT"
+          ]
+        },
+        {
+          "job": 83,
+          "source_image_id": 40845614710849,
+          "position": 31,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/31-40845614710849.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/31-40845614710849-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        },
+        {
+          "job": 84,
+          "source_image_id": 40845616087105,
+          "position": 32,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/32-40845616087105.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/32-40845616087105-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM",
+            "WK-BLACK32"
+          ]
+        },
+        {
+          "job": 85,
+          "source_image_id": 40845616283713,
+          "position": 33,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-weekender/33-40845616283713.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-weekender/33-40845616283713-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "WK-DIM"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "WK-DIM",
+          "severity": "hold_metric_claims",
+          "jobs": [
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "finding": "18-inch target not tied to measured sample; known wrong-size run makes photo identity important."
+        },
+        {
+          "id": "WK-FRONT",
+          "severity": "hold_revision_dependent_replacement",
+          "jobs": [
+            53,
+            58,
+            62,
+            66,
+            70,
+            74,
+            78,
+            82
+          ],
+          "finding": "Current vertical ovals and added side buckles conflict with August 8 horizontal oval/plain side physical sources."
+        },
+        {
+          "id": "WK-INTERIOR",
+          "severity": "hold_revision_dependent_claims",
+          "jobs": [
+            55,
+            59,
+            64,
+            67,
+            72,
+            75
+          ],
+          "finding": "Current cream fabric interiors conflict with physical smooth caramel/slip pocket; open band/flap also changed."
+        },
+        {
+          "id": "WK-BLACK32",
+          "severity": "unresolved_source_disagreement",
+          "jobs": [
+            84
+          ],
+          "source_image_id": 40845616087105,
+          "finding": "Horizontal oval, contoured flap, horizontal tails differ from most Black catalog; preserve source pending matching revision."
+        },
+        {
+          "id": "WK-BLACK-PROVENANCE",
+          "severity": "unverified",
+          "finding": "Black original-iphone-photos label claims real, but open black-03 repeats flap/plate and cannot serve as reliable mechanism proof."
+        },
+        {
+          "id": "WK-DARK",
+          "severity": "unverified_variant",
+          "finding": "XX-DARK physical sample not independently mapped to current Espresso SKU."
+        }
+      ],
+      "measurement_and_evidence_gaps": [
+        "Current 18-inch production revision tied to a measured sample",
+        "Confirm current flap hardware, side buckles, lining and underside",
+        "Map XX-DARK sample to actual current variant or leave unassigned",
+        "Handle drop, detachable-strap attachments/range",
+        "Actual internal dimensions and packed/carry-on test; current generated trolley is not proof"
+      ]
+    },
+    "delphine": {
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-delphine-product/SKILL.md",
+      "handles": [
+        "velantra-delphine"
+      ],
+      "catalog_products": [
+        {
+          "handle": "velantra-delphine",
+          "id": "gid://shopify/Product/8041821143105",
+          "colors": [
+            "Light Chocolate",
+            "Dark Chocolate",
+            "Army Green"
+          ],
+          "image_count": 15
+        }
+      ],
+      "dimension_rows": [
+        {
+          "field": "body_width",
+          "value": 25,
+          "unit": "cm",
+          "status": "supplier_documented",
+          "physical_measurement": false,
+          "note": "Printed supplier dimensioned image; height excludes handle arches; not independent measurement of shipped units."
+        },
+        {
+          "field": "body_height",
+          "value": 22,
+          "unit": "cm",
+          "status": "supplier_documented",
+          "physical_measurement": false,
+          "note": "Printed supplier dimensioned image; height excludes handle arches; not independent measurement of shipped units."
+        },
+        {
+          "field": "depth",
+          "value": 14,
+          "unit": "cm",
+          "status": "supplier_documented",
+          "physical_measurement": false,
+          "note": "Printed supplier dimensioned image; height excludes handle arches; not independent measurement of shipped units."
+        }
+      ],
+      "physical_measurement_verified": false,
+      "viewed_images": [
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/LC-06-dimensions.png",
+          "method": "view_image",
+          "authority": "supplier_documented",
+          "notes": "25W/22H/14D printed; body-height arrow excludes handles.",
+          "sha256": "af792245d6578a34929c5cdfa5d695e97c912d8fa180046a7e6547f45ebcc246"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/DC-06-dimensions.png",
+          "method": "view_image",
+          "authority": "supplier_documented",
+          "notes": "Same printed dimensions, DC color; shallower base arch than AG.",
+          "sha256": "1353d1ca3655dcdd36873c7b33484176687e91cd06f29b28697421fbf96c3063"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/AG-06-dimensions.png",
+          "method": "view_image",
+          "authority": "supplier_documented",
+          "notes": "25W/22H/14D; concave base and dark olive body.",
+          "sha256": "45a89fc91f668331c57b2a2856cf56c2930a6e9c90f048b61d23b196f613a389"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/AG-01-front-1x1.png",
+          "method": "view_image",
+          "authority": "supplier_documented",
+          "notes": "Authoritative frontal silhouette named August 30; concave base, long plates, coarse twill.",
+          "sha256": "641b999d2396ba4b4e9bcd6d40d9b54040d5efb01029fd3642a872875750f9c9"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/LC-01.png",
+          "method": "view_image",
+          "authority": "supplier_photo_processed_copy",
+          "notes": "Older perspective photo/copy; cannot override later frontal source on silhouette.",
+          "sha256": "9f7a45b8fde741a0bb60099eda6ada382c0fc5e2daf35796e79682a7d66f581a"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/LC-03.png",
+          "method": "view_image",
+          "authority": "supplier_photo_processed_copy",
+          "notes": "Open angle shows square mounting plate; conflicts with simplified old bare-post prose.",
+          "sha256": "c89b1119dfd129977142f0ef46079e0d040a8af42a40bc00c89abf44ff8efc4a"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/LC-05.png",
+          "method": "view_image",
+          "authority": "supplier_photo_processed_copy",
+          "notes": "Black woven fabric and brass zip with leather pull.",
+          "sha256": "6b15f26bd3bf60f0862621b73ff273169f4515fb21067365d2102e64dd95eb39"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/real-product/DC-05.png",
+          "method": "view_image",
+          "authority": "supplier_photo_processed_copy",
+          "notes": "Olive woven fabric and zip; does not establish suede.",
+          "sha256": "824cb9bfb078b81043d340de7c58f025427f95a2759009ee7be415e1baa1f02f"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/ad-teardown-2026-08-30/zoom/t14.0.png",
+          "method": "view_image",
+          "authority": "real_creator_footage",
+          "notes": "Compact bag in hand; no measured model/anchor.",
+          "sha256": "eb37e077853ea6671627bfd8b7c0fa3cff5b7ed480ede45f27f9240592726c34"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/ad-teardown-2026-08-30/zoom/t27.5.png",
+          "method": "view_image",
+          "authority": "real_creator_footage",
+          "notes": "Long leather strap and upper-side attachment visible.",
+          "sha256": "a11d3d2934446b0f4b5132c0d05e0b47586fa1d2e0e3b5d62f1f33facb08000e"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/ad-teardown-2026-08-30/zoom/t35.0.png",
+          "method": "view_image",
+          "authority": "real_creator_footage",
+          "notes": "Long strap worn across body; short handles remain, front band exposed.",
+          "sha256": "3a5263bf4eff4bc654d85fba3bfa3362d2f8893f68b2c001ee203ce7d8b1996b"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/approved/LC-master.png",
+          "method": "view_image",
+          "authority": "owner_approved_generated",
+          "notes": "Burnished cognac, textured ivory twill, slight concave base; approved record gen_gallery.py.",
+          "sha256": "076800e1a99dcb062d8338321ce6b5bb9d2d07ce9c38b162c8ee991452526c75"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/approved/DC-master.png",
+          "method": "view_image",
+          "authority": "owner_approved_generated",
+          "notes": "Dark leather/ivory twill, different color-specific small hardware; not independent supplier truth.",
+          "sha256": "678aeac5b72443b73a42574f0bb760286121f91e5b92f864256b30415394437f"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/approved/AG-master.png",
+          "method": "view_image",
+          "authority": "owner_approved_generated",
+          "notes": "Dark coarse twill, concave base, low plates; better tied to August 30 correction.",
+          "sha256": "9e56c32ebec64c10447d9b7212f7661f9805700068c10e73108b5620f8c933d4"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/QA_FINAL.jpg",
+          "method": "view_image",
+          "authority": "generated_contact_sheet",
+          "notes": "20 candidates incl crossbody; AG interior absent; DC interior looks suede-like, conflicts with woven source.",
+          "sha256": "a18a3ec2ab8b6915bd4643bad805854fdabd38a6ed750784874d228bdd902e55"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-delphine-1.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-delphine-2.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/11-40990963925057-white-studio.png",
+          "method": "view_image",
+          "authority": "generated_current_output",
+          "notes": "Individual AG front confirms flat base, fine canvas and high plates versus corrected physical source."
+        }
+      ],
+      "source_documents": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/PRODUCT-TRUTH.md"
+      ],
+      "current_output_audit": [
+        {
+          "job": 28,
+          "source_image_id": 40990963531841,
+          "position": 1,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/01-40990963531841.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/01-40990963531841-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 29,
+          "source_image_id": 40990963564609,
+          "position": 2,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/02-40990963564609.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/02-40990963564609-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 30,
+          "source_image_id": 40990963597377,
+          "position": 3,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/03-40990963597377.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/03-40990963597377-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 31,
+          "source_image_id": 40990963630145,
+          "position": 4,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/04-40990963630145.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/04-40990963630145-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM"
+          ]
+        },
+        {
+          "job": 32,
+          "source_image_id": 40990963695681,
+          "position": 5,
+          "historical_color_label": "Light Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/05-40990963695681.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/05-40990963695681-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 33,
+          "source_image_id": 40990963728449,
+          "position": 6,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/06-40990963728449.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/06-40990963728449-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 34,
+          "source_image_id": 40990963761217,
+          "position": 7,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/07-40990963761217.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/07-40990963761217-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 35,
+          "source_image_id": 40990963793985,
+          "position": 8,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/08-40990963793985.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/08-40990963793985-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 36,
+          "source_image_id": 40990963826753,
+          "position": 9,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/09-40990963826753.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/09-40990963826753-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-DC-LINING"
+          ]
+        },
+        {
+          "job": 37,
+          "source_image_id": 40990963892289,
+          "position": 10,
+          "historical_color_label": "Dark Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/10-40990963892289.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/10-40990963892289-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 38,
+          "source_image_id": 40990963925057,
+          "position": 11,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/11-40990963925057.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/11-40990963925057-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 39,
+          "source_image_id": 40990963957825,
+          "position": 12,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/12-40990963957825.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/12-40990963957825-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 40,
+          "source_image_id": 40990963990593,
+          "position": 13,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/13-40990963990593.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/13-40990963990593-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        },
+        {
+          "job": 41,
+          "source_image_id": 40990964023361,
+          "position": 14,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/14-40990964023361.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/14-40990964023361-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-AG-INTERIOR"
+          ]
+        },
+        {
+          "job": 42,
+          "source_image_id": 40990964088897,
+          "position": 15,
+          "historical_color_label": "Army Green",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-delphine/15-40990964088897.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/15-40990964088897-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "DEL-DIM",
+            "DEL-STALE"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "DEL-DIM",
+          "severity": "hold_metric_certification",
+          "jobs": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "finding": "25x22x14 supplier dimensions; no independent measured product or calibrated person. Old25x20x10 rejected."
+        },
+        {
+          "id": "DEL-STALE",
+          "severity": "correction_supported_candidates_need_QA",
+          "jobs": [
+            28,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35,
+            37,
+            38,
+            39,
+            40,
+            42
+          ],
+          "finding": "Current catalog predates August 30 owner correction: flat base, finer weave, high plates, canvas side gussets and missing long-strap view."
+        },
+        {
+          "id": "DEL-DC-LINING",
+          "severity": "hold_generated_replacement",
+          "jobs": [
+            36
+          ],
+          "finding": "Supplier DC-05 shows olive woven fabric; current gray image is wrong; Aug30 final/script suede interpretation also unsupported."
+        },
+        {
+          "id": "DEL-AG-INTERIOR",
+          "severity": "hold_unsupported_view",
+          "jobs": [
+            41
+          ],
+          "finding": "No real AG interior. Current generated image is unsupported. Do not replace with recolored LC interior."
+        },
+        {
+          "id": "DEL-STRAP",
+          "severity": "confirmed_feature",
+          "finding": "Real creator at t27.5/t35.0 shows fitted long leather strap; supersedes historical no-strap ban. Length/adjustment remains unknown."
+        },
+        {
+          "id": "DEL-COLOR-HARDWARE",
+          "severity": "requires_candidate_QA",
+          "finding": "Aug30 approved color masters/final have differing small hardware and front geometry; not a fully verified replacement set."
+        }
+      ],
+      "measurement_and_evidence_gaps": [
+        "Dated independent ruler/side measurement of 25cm current unit",
+        "Army Green interior photo",
+        "Handle drop and strap range/endpoints",
+        "DC lining composition: woven fabric source versus suede candidate conflict",
+        "Individual QA of each August30 candidate/color; not all approved-file pixels established real",
+        "Actual device/capacity fit test"
+      ],
+      "replacement_readiness": {
+        "fully_evidenced_complete_replacement_set": false,
+        "approved_master_paths": [
+          "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/approved/LC-master.png",
+          "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/approved/DC-master.png",
+          "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/approved/AG-master.png"
+        ],
+        "mapping": [
+          {
+            "current_position": 1,
+            "job": 28,
+            "source_image_id": 40990963531841,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/01-40990963531841-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/LC-01-front.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 2,
+            "job": 29,
+            "source_image_id": 40990963564609,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/02-40990963564609-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/LC-06-onarm.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 3,
+            "job": 30,
+            "source_image_id": 40990963597377,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/03-40990963597377-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/LC-02-threequarter.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 4,
+            "job": 31,
+            "source_image_id": 40990963630145,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/04-40990963630145-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/LC-03-interior.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 5,
+            "job": 32,
+            "source_image_id": 40990963695681,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/05-40990963695681-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/LC-07-modelcarry.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 6,
+            "job": 33,
+            "source_image_id": 40990963728449,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/06-40990963728449-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/DC-01-front.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 7,
+            "job": 34,
+            "source_image_id": 40990963761217,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/07-40990963761217-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/DC-06-onarm.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 8,
+            "job": 35,
+            "source_image_id": 40990963793985,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/08-40990963793985-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/DC-02-threequarter.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 9,
+            "job": 36,
+            "source_image_id": 40990963826753,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/09-40990963826753-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/DC-03-interior.png",
+            "candidate_status": "hold_lining_material_conflict",
+            "notes": "DC source is olive woven fabric; generated candidate looks suede-like."
+          },
+          {
+            "current_position": 10,
+            "job": 37,
+            "source_image_id": 40990963892289,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/10-40990963892289-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/DC-07-modelcarry.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 11,
+            "job": 38,
+            "source_image_id": 40990963925057,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/11-40990963925057-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/AG-01-front.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 12,
+            "job": 39,
+            "source_image_id": 40990963957825,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/12-40990963957825-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/AG-06-onarm.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 13,
+            "job": 40,
+            "source_image_id": 40990963990593,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/13-40990963990593-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/AG-02-threequarter.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          },
+          {
+            "current_position": 14,
+            "job": 41,
+            "source_image_id": 40990964023361,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/14-40990964023361-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/AG-04-hardware.png",
+            "candidate_status": "different_view_instead_of_unsupported_interior",
+            "notes": "AG interior absent; verified hardware alternative changes the view, not a lining correction."
+          },
+          {
+            "current_position": 15,
+            "job": 42,
+            "source_image_id": 40990964088897,
+            "current_output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-delphine/15-40990964088897-white-studio.png",
+            "candidate_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/AG-07-modelcarry.png",
+            "candidate_status": "candidate_requires_individual_product_QA",
+            "notes": "Based on corrected Aug30 design; uncalibrated generated model images do not establish centimeters."
+          }
+        ],
+        "additional_confirmed_feature_candidates": [
+          "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/LC-05-crossbody.png",
+          "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/DC-05-crossbody.png",
+          "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/delphine/regen-2026-08-30/final/AG-05-crossbody.png"
+        ],
+        "holds": [
+          "No Army Green real interior",
+          "DC candidate lining looks suede-like while real source is woven",
+          "Color-specific hardware requires individual comparison",
+          "All physical scale still unverified; supplier dimensions are not actual unit measurements"
+        ]
+      }
+    },
+    "juliette": {
+      "skill_path": "/Users/brooksorradre2/.codex/skills/velantra-juliette-product/SKILL.md",
+      "handles": [
+        "velantra-juliette"
+      ],
+      "catalog_products": [
+        {
+          "handle": "velantra-juliette",
+          "id": "gid://shopify/Product/8053052178497",
+          "colors": [
+            "Camel",
+            "Stone",
+            "Chocolate",
+            "Black"
+          ],
+          "image_count": 16
+        }
+      ],
+      "dimension_rows": [
+        {
+          "field": "width",
+          "value": 18.5,
+          "unit": "in",
+          "cm_conversion": 46.99,
+          "status": "owner_approved",
+          "physical_measurement": false,
+          "note": "Owner nominal spec; no Velantra supplier/ruler sample recovered."
+        },
+        {
+          "field": "height",
+          "value": 18.5,
+          "unit": "in",
+          "cm_conversion": 46.99,
+          "status": "owner_approved",
+          "physical_measurement": false,
+          "note": "Owner approved August 24; height endpoint/body versus total distinction unresolved."
+        },
+        {
+          "field": "depth",
+          "value": 8,
+          "unit": "in",
+          "cm_conversion": 20.32,
+          "status": "owner_approved",
+          "physical_measurement": false,
+          "note": "Owner nominal spec; no Velantra supplier/ruler sample recovered."
+        }
+      ],
+      "physical_measurement_verified": false,
+      "viewed_images": [
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/source/images/src-00.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "On-body; uncalibrated oversized suede bag; different segmented flap construction.",
+          "sha256": "9cb8c197e1b6847f1455aa152ff9c932b6f9cca6e2c410b99c731eb0d6f410f1"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/source/images/src-01.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "On stool elevated view; slouch and suede edge; no verified Velantra lining.",
+          "sha256": "13f1a32c3e4feca1894cbd238f8f255c6539d2776c7c659ebc63a023ddaa4b50"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/source/images/src-02.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Hand carry, directional sun shows nap/leather response and different flap.",
+          "sha256": "5bf41c1db9861f4e6e4aa988dc721528a0387b2e3383f03ef4aa8dace5b94772"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/source/images/src-03.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Flat-lay front; soft suede and decorative strap arrangement differs from approved target.",
+          "sha256": "8a99da2f81f2036abf87de181eb9547742331af6aedf0fcfd1962be5e4637ff3"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/source/images/src-04.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Base view; corner caps/studs and suede bottom; third-party unit only.",
+          "sha256": "99b5d9f708b2b7754e00c8e47b2df08a892002b49c2a1fcf7916b52ea6f761f4"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/source/images/src-05.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Macro leather/strap/fittings; different keeper/flap geometry from current Velantra target.",
+          "sha256": "4aff2cb481c5f133479357decf12fbda54835878b7186e49e281b9d93da138c4"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/source/images/src-06.jpg",
+          "method": "view_image",
+          "authority": "third_party_physical_reference",
+          "notes": "Hanging front; soft nearly square body, variable fall, no measured size anchor.",
+          "sha256": "e9723a5a30da3f58b524a65c4ca883e9b5cad1c4175c53e37bd49582b40cf936"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/product-images/colors/Camel/front.png",
+          "method": "view_image",
+          "authority": "owner_approved_generated",
+          "notes": "Current creative design: three visible leather keeper tabs, two brass bars, open-top collar, two front corner studs.",
+          "sha256": "5fe9067dc065947842df61eecf5a32f3097879be3ff4d5deeaccfee74f57dc37"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/product-images/master/v3/sheet_camel_new.png",
+          "method": "view_image",
+          "authority": "generated_contact_sheet",
+          "notes": "Open interior/lifestyle/macro/capacity creative set; no physical lining or fit proof.",
+          "sha256": "2a5e4d0dd9e31baf56c0b0c61cf9971178c2f73c38a0fb80e6d044ec6d3744ed"
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-juliette-1.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        },
+        {
+          "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/qa/generated-velantra-juliette-2.jpg",
+          "method": "view_image_contact_sheet",
+          "authority": "generated_catalog_derivatives",
+          "notes": "All visible current color/view tiles inspected; not a physical dimension measurement."
+        }
+      ],
+      "source_documents": [
+        "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/PRODUCT-TRUTH.md"
+      ],
+      "current_output_audit": [
+        {
+          "job": 0,
+          "source_image_id": 41101116506177,
+          "position": 1,
+          "historical_color_label": "Camel",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/01-41101116506177.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/01-41101116506177-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 1,
+          "source_image_id": 41101116538945,
+          "position": 2,
+          "historical_color_label": "Camel",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/02-41101116538945.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/02-41101116538945-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM",
+            "JUL-INTERIOR"
+          ]
+        },
+        {
+          "job": 2,
+          "source_image_id": 41101116571713,
+          "position": 3,
+          "historical_color_label": "Camel",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/03-41101116571713.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/03-41101116571713-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 3,
+          "source_image_id": 41101116604481,
+          "position": 4,
+          "historical_color_label": "Camel",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/04-41101116604481.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/04-41101116604481-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 4,
+          "source_image_id": 41101116637249,
+          "position": 5,
+          "historical_color_label": "Stone",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/05-41101116637249.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/05-41101116637249-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 5,
+          "source_image_id": 41101116670017,
+          "position": 6,
+          "historical_color_label": "Stone",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/06-41101116670017.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/06-41101116670017-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM",
+            "JUL-INTERIOR"
+          ]
+        },
+        {
+          "job": 6,
+          "source_image_id": 41101116702785,
+          "position": 7,
+          "historical_color_label": "Stone",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/07-41101116702785.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/07-41101116702785-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 7,
+          "source_image_id": 41101116735553,
+          "position": 8,
+          "historical_color_label": "Stone",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/08-41101116735553.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/08-41101116735553-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 8,
+          "source_image_id": 41101116768321,
+          "position": 9,
+          "historical_color_label": "Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/09-41101116768321.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/09-41101116768321-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 9,
+          "source_image_id": 41101116801089,
+          "position": 10,
+          "historical_color_label": "Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/10-41101116801089.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/10-41101116801089-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM",
+            "JUL-INTERIOR"
+          ]
+        },
+        {
+          "job": 10,
+          "source_image_id": 41101116833857,
+          "position": 11,
+          "historical_color_label": "Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/11-41101116833857.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/11-41101116833857-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 11,
+          "source_image_id": 41101116866625,
+          "position": 12,
+          "historical_color_label": "Chocolate",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/12-41101116866625.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/12-41101116866625-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 12,
+          "source_image_id": 41101116899393,
+          "position": 13,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/13-41101116899393.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/13-41101116899393-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 13,
+          "source_image_id": 41101116932161,
+          "position": 14,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/14-41101116932161.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/14-41101116932161-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM",
+            "JUL-INTERIOR"
+          ]
+        },
+        {
+          "job": 14,
+          "source_image_id": 41101116964929,
+          "position": 15,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/15-41101116964929.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/15-41101116964929-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        },
+        {
+          "job": 15,
+          "source_image_id": 41101116997697,
+          "position": 16,
+          "historical_color_label": "Black",
+          "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/sources/velantra-juliette/16-41101116997697.png",
+          "output_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/generated/velantra-juliette/16-41101116997697-white-studio.png",
+          "review_method": "contact_sheet_overview; individually viewed only when separately listed",
+          "dimension_accuracy": "not_verifiable",
+          "issue_ids": [
+            "JUL-DIM"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "JUL-DIM",
+          "severity": "hold_metric_claims",
+          "jobs": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "finding": "Owner nominal18.5x18.5x8in; no measured unit; height endpoint and drop unconfirmed."
+        },
+        {
+          "id": "JUL-KEEPERS",
+          "severity": "source_conflict",
+          "finding": "Current Camel front has3 visible leather tabs plus2brass bars; old prose says4 leather tabs. Preserve observed current design, do not add a tab."
+        },
+        {
+          "id": "JUL-SIDES",
+          "severity": "hold_hidden_geometry",
+          "finding": "Old spec/QA conflict over side snaps; current front does not establish unseen sides."
+        },
+        {
+          "id": "JUL-INTERIOR",
+          "severity": "hold_material_claims",
+          "jobs": [
+            1,
+            5,
+            9,
+            13
+          ],
+          "finding": "Generated suede interior not proof of actual lining; no verified Velantra interior reference."
+        },
+        {
+          "id": "JUL-MASTER",
+          "severity": "source_authority",
+          "finding": "Current open-top generated design differs from competitor segmented flap. Historical m2 versus v3 approval notes conflict."
+        }
+      ],
+      "measurement_and_evidence_gaps": [
+        "Dated finished Velantra sample dimensions and body/total-height definition",
+        "Actual lining and pockets if any",
+        "Side/base hardware and keeper-count confirmation",
+        "Handle drop and material specification",
+        "Actual capacity; no inferred laptop claim"
+      ]
+    }
+  },
+  "unreadable_images": [
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/juliette/product-images/master/v3/camel/ed-corner.png",
+      "bytes": 111,
+      "viewed": false,
+      "reason": "view_image invalid/unsupported; not counted as evidence"
+    }
+  ],
+  "validation": {
+    "quick_validate": {
+      "velantra-vivienne-product": "passed",
+      "velantra-weekender-product": "passed",
+      "velantra-delphine-product": "passed",
+      "velantra-juliette-product": "passed"
+    },
+    "markdown_local_links_checked": 76,
+    "missing_markdown_links": 0,
+    "installed_files_per_skill": [
+      "SKILL.md",
+      "references/product-reference.md",
+      "agents/openai.yaml"
+    ],
+    "physical_scale_certified": false
+  }
+}

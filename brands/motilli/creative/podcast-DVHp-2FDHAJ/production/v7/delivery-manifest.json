@@ -1,0 +1,100 @@
+{
+  "version": "v7 110 percent playback",
+  "source": "v6 approved final render",
+  "additional_speed_multiplier": 1.1,
+  "duration_seconds": 179.3,
+  "frames": 5379,
+  "fps": 30,
+  "pitch_correction": true,
+  "project": "Motilli Podcast DVHp v5 20260909",
+  "timeline": "Motilli Podcast v7 110 percent Final",
+  "native_render_job": "ecc08d27-980f-451a-9a0f-9eaf04e903f5",
+  "files": [
+    {
+      "name": "Motilli-Podcast-110-percent.drp",
+      "bytes": 625854,
+      "sha256": "5b08cda5f9714c938674eb8c4ce1b88f15ab649ee8172c2ef16e41781cd4d94c"
+    },
+    {
+      "name": "podcast-captions-110-percent.srt",
+      "bytes": 6152,
+      "sha256": "a92adc58dd04309ef2a3338bf0380c2b9b8d8f69d3ff33e36cd6b0678286512d"
+    },
+    {
+      "name": "Motilli-Podcast-110-percent.drt",
+      "bytes": 34351,
+      "sha256": "0bd6d541e0d609282ae51f4ba68c373f125a71c155f6faca533bf4736ab18eb2"
+    },
+    {
+      "name": "Motilli-Podcast-110-percent.mp4",
+      "bytes": 320867688,
+      "sha256": "3231c5f50b7eb525f538b6c8c1717047cb8453aa47db40592c7569aa961008d6"
+    }
+  ],
+  "audio_qa": {
+    "expected_speed_multiplier": 1.1,
+    "pitch_correction": "Native Resolve GetSpeed readback true on both linked tracks",
+    "audio_sync_windows": [
+      {
+        "window_seconds": [
+          0,
+          40
+        ],
+        "envelope_correlation": 0.9882912813684416,
+        "lag_seconds": 0.0
+      },
+      {
+        "window_seconds": [
+          60,
+          110
+        ],
+        "envelope_correlation": 0.9904549271627873,
+        "lag_seconds": 0.0
+      },
+      {
+        "window_seconds": [
+          130,
+          178
+        ],
+        "envelope_correlation": 0.9903786353973155,
+        "lag_seconds": 0.0
+      }
+    ],
+    "duration_seconds": 179.32675,
+    "source_duration_seconds": 197.268
+  },
+  "frame_qa": [
+    {
+      "output_time": 2.0,
+      "matched_v6_time": 2.2,
+      "ssim": 0.9999566937773354
+    },
+    {
+      "output_time": 28.933333333333334,
+      "matched_v6_time": 31.8,
+      "ssim": 0.999938191536113
+    },
+    {
+      "output_time": 45.8,
+      "matched_v6_time": 50.36666666666667,
+      "ssim": 0.9999152481385738
+    },
+    {
+      "output_time": 89.5,
+      "matched_v6_time": 98.43333333333334,
+      "ssim": 0.9999054653720578
+    },
+    {
+      "output_time": 135.0,
+      "matched_v6_time": 148.5,
+      "ssim": 0.9999154449420615
+    },
+    {
+      "output_time": 177.5,
+      "matched_v6_time": 195.23333333333332,
+      "ssim": 0.9999289704743299
+    }
+  ],
+  "board_url": "http://localhost:8765/b/motilli-podcast-dvhp-storyboard",
+  "note": "Speed applied once to linked full-ad video/audio in native Resolve. Initial isolated speed trial was not delivered. Original approved v6 and earlier timelines preserved."
+}

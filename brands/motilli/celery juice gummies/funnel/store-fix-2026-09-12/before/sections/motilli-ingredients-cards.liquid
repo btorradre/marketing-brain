@@ -1,0 +1,72 @@
+{%- comment -%}Motilli — ingredient cards (image-top, name, description){%- endcomment -%}
+<section class="mtic" style="background:{{ section.settings.bg_color }};">
+  <div class="mtic__inner">
+    <h2 class="mtic__h2">{{ section.settings.heading }}</h2>
+    <div class="mtic__grid">
+      {% for block in section.blocks %}
+        {% if block.type == 'ingredient' %}
+          <div class="mtic__card" {{ block.shopify_attributes }}>
+            <div class="mtic__media" style="{% if block.settings.image %}background-image:url('{{ block.settings.image | image_url: width: 600 }}');{% elsif block.settings.image_url != blank %}background-image:url('{{ block.settings.image_url }}');{% else %}background:{{ block.settings.fallback_color | default: '#94c218' }};{% endif %}"></div>
+            <div class="mtic__body">
+              <h3 class="mtic__name">{{ block.settings.name }}</h3>
+              <p class="mtic__desc">{{ block.settings.description }}</p>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<style>
+  .mtic { padding: 56px 24px 64px; }
+  .mtic__inner { max-width: 1200px; margin: 0 auto; }
+  .mtic__h2 { font: 700 32px/1.2 'Cormorant Garamond', Georgia, serif; color: #6b8a17; text-align: center; margin: 0 0 36px; letter-spacing: -0.5px; }
+  .mtic__grid { display: grid; grid-template-columns: repeat({{ section.blocks.size | default: 3 }}, 1fr); gap: 20px; }
+  .mtic__card { background: #ffffff; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 6px rgba(31, 58, 43, 0.06); border: 1px solid rgba(148, 194, 24, 0.18); display: flex; flex-direction: column; }
+  .mtic__media { width: 100%; padding-bottom: 100%; height: 0; background-size: cover; background-position: center; background-repeat: no-repeat; border-bottom: 3px solid #94c218; }
+  .mtic__body { padding: 24px 20px 28px; text-align: center; }
+  .mtic__name { font: 700 20px/1.2 Inter, system-ui, sans-serif; color: #1f3a2b; margin: 0 0 12px; }
+  .mtic__desc { font: 400 14px/1.55 Inter, system-ui, sans-serif; color: #4a5159; margin: 0; }
+  @media (max-width: 800px) {
+    .mtic__grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+    .mtic__h2 { font-size: 24px; margin-bottom: 24px; }
+  }
+  @media (max-width: 480px) {
+    .mtic__grid { grid-template-columns: 1fr; }
+  }
+</style>
+{% schema %}
+{
+  "name": "Motilli Ingredient Cards",
+  "tag": "section",
+  "class": "motilli-bf-section",
+  "settings": [
+    { "type": "color", "id": "bg_color", "label": "Background color", "default": "#f4f8ea" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "3 Super-Ingredients Hidden Inside Motilli" }
+  ],
+  "blocks": [
+    {
+      "type": "ingredient",
+      "name": "Ingredient card",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image (Files)" },
+        { "type": "url", "id": "image_url", "label": "Image URL (if not using Files)" },
+        { "type": "color", "id": "fallback_color", "label": "Fallback color block", "default": "#94c218" },
+        { "type": "text", "id": "name", "label": "Ingredient name", "default": "Apigenin" },
+        { "type": "textarea", "id": "description", "label": "Description", "default": "Description of what this ingredient does." }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "Motilli Ingredient Cards",
+      "blocks": [
+        { "type": "ingredient", "settings": { "name": "Apigenin (Celery Juice Extract)", "fallback_color": "#7fa84a", "description": "The active flavonoid in celery juice. Relaxes the smooth muscle in your stomach and reduces inflammation — restoring the natural motility your GLP-1 quieted down." } },
+        { "type": "ingredient", "settings": { "name": "Chlorophyll & Chlorophyllin", "fallback_color": "#1f3a2b", "description": "Binds the sulfur compounds bacteria produce when food sits too long. Most women report rotten-egg burps fading inside 48 hours." } },
+        { "type": "ingredient", "settings": { "name": "Soluble Prebiotic Fiber (Inulin)", "fallback_color": "#e8dfc7", "description": "Not the bulky fiber that makes bloating worse. Feeds the good bacteria your gut needs to keep moving smoothly — no cramping, no urgency." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

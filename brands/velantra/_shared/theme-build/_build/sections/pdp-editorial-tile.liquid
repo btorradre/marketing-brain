@@ -1,0 +1,126 @@
+{% comment %}
+  PDP — Editorial 50/50 tile (image + text, alternating)
+{% endcomment %}
+
+<section
+  class="pdp-editorial pdp-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="pdp-editorial"
+  style="--pdp-bg: {{ section.settings.bg_color }};"
+>
+  <div class="pdp-editorial__inner">
+    {%- for block in section.blocks -%}
+      <article class="pdp-editorial__tile" data-position="{{ block.settings.image_position }}" {{ block.shopify_attributes }}>
+        <div class="pdp-editorial__media">
+          {%- if block.settings.image != blank -%}
+            {{ block.settings.image | image_url: width: 1400 | image_tag:
+              loading: 'lazy',
+              widths: '480, 720, 960, 1200, 1400',
+              sizes: '(min-width: 768px) 50vw, 100vw',
+              alt: block.settings.headline,
+              class: 'pdp-editorial__img' }}
+          {%- endif -%}
+        </div>
+        <div class="pdp-editorial__text">
+          <div class="pdp-editorial__text-inner">
+            {%- if block.settings.eyebrow != blank -%}
+              <p class="pdp-editorial__eyebrow">{{ block.settings.eyebrow }}</p>
+            {%- endif -%}
+            {%- if block.settings.headline != blank -%}
+              <h2 class="pdp-editorial__headline">{{ block.settings.headline }}</h2>
+            {%- endif -%}
+            {%- if block.settings.body != blank -%}
+              <div class="pdp-editorial__body rte">{{ block.settings.body }}</div>
+            {%- endif -%}
+            {%- if block.settings.link_url != blank and block.settings.link_label != blank -%}
+              <a class="pdp-editorial__link" href="{{ block.settings.link_url }}">{{ block.settings.link_label }} →</a>
+            {%- endif -%}
+          </div>
+        </div>
+      </article>
+    {%- endfor -%}
+  </div>
+</section>
+
+<style>
+  #shopify-section-{{ section.id }} .pdp-editorial {
+    background: var(--pdp-bg, #ffffff);
+    padding: clamp(48px, 6vw, 80px) 0;
+  }
+  #shopify-section-{{ section.id }} .pdp-editorial__inner { max-width: 1440px; margin: 0 auto; display: grid; gap: clamp(48px, 6vw, 80px); }
+  #shopify-section-{{ section.id }} .pdp-editorial__tile {
+    display: grid; gap: clamp(24px, 3vw, 48px); grid-template-columns: 1fr;
+  }
+  @media (min-width: 768px) {
+    #shopify-section-{{ section.id }} .pdp-editorial__tile { grid-template-columns: 1fr 1fr; align-items: center; }
+    #shopify-section-{{ section.id }} .pdp-editorial__tile[data-position="right"] .pdp-editorial__media { order: 2; }
+  }
+  #shopify-section-{{ section.id }} .pdp-editorial__img {
+    width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; display: block;
+  }
+  #shopify-section-{{ section.id }} .pdp-editorial__text { padding: 0 clamp(20px, 4vw, 56px); }
+  #shopify-section-{{ section.id }} .pdp-editorial__text-inner { max-width: 480px; margin: 0 auto; }
+  #shopify-section-{{ section.id }} .pdp-editorial__eyebrow {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    opacity: 0.6; margin: 0 0 14px;
+  }
+  #shopify-section-{{ section.id }} .pdp-editorial__headline {
+    font-family: var(--font-stack-header, 'Cormorant', serif);
+    font-weight: 400; font-size: clamp(28px, 3.4vw, 44px);
+    line-height: 1.15; letter-spacing: -0.015em; margin: 0 0 20px;
+  }
+  #shopify-section-{{ section.id }} .pdp-editorial__body {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 15px; line-height: 1.65; color: #2a2a2a;
+  }
+  #shopify-section-{{ section.id }} .pdp-editorial__link {
+    display: inline-block; margin-top: 20px;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 13px; letter-spacing: 0.04em;
+    color: #1a1a1a; text-decoration: underline; text-underline-offset: 4px;
+  }
+  #shopify-section-{{ section.id }} .pdp-editorial__link:hover { opacity: 0.7; }
+</style>
+
+{% schema %}
+{
+  "name": "PDP · Editorial Tile",
+  "tag": "section",
+  "class": "shopify-section--pdp-editorial",
+  "settings": [
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#ffffff" }
+  ],
+  "blocks": [
+    {
+      "type": "tile",
+      "name": "Editorial tile",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "select", "id": "image_position", "label": "Image position (desktop)", "default": "left",
+          "options": [
+            { "value": "left", "label": "Image left" },
+            { "value": "right", "label": "Image right" }
+          ]
+        },
+        { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "ITALIAN LEATHER" },
+        { "type": "text", "id": "headline", "label": "Headline", "default": "Tanned the slow way" },
+        { "type": "richtext", "id": "body", "label": "Body", "default": "<p>Vegetable-tanned in family-run tanneries that have refined the craft for generations.</p>" },
+        { "type": "url", "id": "link_url", "label": "Link URL" },
+        { "type": "text", "id": "link_label", "label": "Link label", "default": "Read the story" }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "PDP · Editorial Tile",
+      "blocks": [
+        { "type": "tile", "settings": { "image_position": "left" } },
+        { "type": "tile", "settings": { "image_position": "right" } }
+      ]
+    }
+  ],
+  "disabled_on": { "groups": ["header", "footer", "aside"] }
+}
+{% endschema %}

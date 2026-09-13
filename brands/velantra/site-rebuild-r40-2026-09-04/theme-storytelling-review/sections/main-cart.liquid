@@ -1,0 +1,43 @@
+<section class="cart-page page-width" id="Cart-{{ section.id }}">
+  <header class="collection-heading"><h1>{{ 'commerce.cart.title' | t }}</h1><a class="eyebrow" href="{{ routes.all_products_collection_url }}">{{ 'commerce.cart.continue' | t }}</a></header>
+  {%- if cart.item_count == 0 -%}<div class="commerce-empty"><p>{{ 'commerce.cart.empty' | t }}</p><a class="button" href="{{ routes.all_products_collection_url }}">{{ 'commerce.cart.discover' | t }}</a></div>
+  {%- else -%}
+    <form action="{{ routes.cart_url }}" method="post" id="CartForm-{{ section.id }}" class="cart-form">
+      <div class="cart-lines">
+        {%- for item in cart.items -%}
+          <article class="cart-line">
+            <a class="cart-line__image" href="{{ item.url }}">
+              {%- capture cart_studio -%}{%- render 'studio-image-url', image: item.image, product: item.product -%}{%- endcapture -%}{%- assign cart_studio = cart_studio | strip -%}
+              {%- if cart_studio != blank -%}<img src="{{ cart_studio }}" alt="{{ item.product.title | escape }}" width="360" height="450" loading="lazy">{%- elsif item.image -%}{{ item.image | image_url: width: 360 | image_tag: loading: 'lazy', alt: item.product.title }}{%- endif -%}
+            </a>
+            <div class="cart-line__details"><h2><a href="{{ item.url }}">{{ item.product.title | escape }}</a></h2>{% unless item.product.has_only_default_variant %}<p>{{ item.variant.title | escape }}</p>{% endunless %}{% if item.selling_plan_allocation %}<p>{{ item.selling_plan_allocation.selling_plan.name | escape }}</p>{% endif %}
+              {%- for property in item.properties -%}{% assign first_character = property.first | slice: 0 %}{% if property.last != blank and first_character != '_' %}<p>{{ property.first | escape }}: {% if property.last contains '/uploads/' %}<a href="{{ property.last }}">{{ property.last | split: '/' | last | escape }}</a>{% else %}{{ property.last | escape }}{% endif %}</p>{% endif %}{%- endfor -%}
+              {%- assign line_preorder_message = '' -%}
+              {%- case item.product.handle -%}
+                {%- when 'velantra-vivienne' -%}{% if settings.vivienne_preorder != false %}{% assign line_preorder_message = 'commerce.product.preorder_october' | t %}{% assign line_preorder_message = settings.vivienne_preorder_message | default: line_preorder_message %}{% endif %}
+                {%- when 'the-colette-wool-tote' -%}{% if settings.colette_preorder != false %}{% assign line_preorder_message = 'commerce.product.preorder_early_october' | t %}{% assign line_preorder_message = settings.colette_preorder_message | default: line_preorder_message %}{% endif %}
+                {%- when 'velantra-weekender', 'the-eleanor-weekender' -%}{% if settings.weekender_black_preorder != false and item.variant.option1 == 'Black' %}{% assign line_preorder_message = 'commerce.product.preorder_black_september' | t %}{% assign line_preorder_message = settings.weekender_black_preorder_message | default: line_preorder_message %}{% endif %}
+              {%- endcase -%}
+              {% if line_preorder_message != blank %}<p class="cart-line__preorder">{{ line_preorder_message | escape }}</p>{% endif %}
+              <p>{% if item.original_price != item.final_price %}<s>{{ item.original_price | money }}</s> {% endif %}{{ item.final_price | money }}</p>
+              {%- for discount in item.line_level_discount_allocations -%}<p class="cart-line__discount">{{ discount.discount_application.title | escape }} (−{{ discount.amount | money }})</p>{%- endfor -%}
+              <div class="cart-line__quantity"><label class="visually-hidden" for="Quantity-{{ section.id }}-{{ forloop.index }}">{{ 'commerce.cart.quantity_for' | t: product: item.product.title | escape }}</label><input id="Quantity-{{ section.id }}-{{ forloop.index }}" type="number" name="updates[]" value="{{ item.quantity }}" min="0" step="1"><a href="{{ item.url_to_remove }}" class="eyebrow">{{ 'commerce.cart.remove' | t }}</a></div>
+            </div>
+            <p class="cart-line__total">{{ item.final_line_price | money }}</p>
+          </article>
+        {%- endfor -%}
+        <button type="submit" name="update" class="button button--outline cart-update">{{ 'commerce.cart.update' | t }}</button>
+      </div>
+      <aside class="cart-summary">
+        {%- if section.settings.show_note -%}<label for="CartNote-{{ section.id }}" class="eyebrow">{{ 'commerce.cart.note' | t }}</label><textarea id="CartNote-{{ section.id }}" name="note" rows="3">{{ cart.note | escape }}</textarea>{%- endif -%}
+        {%- for discount in cart.cart_level_discount_applications -%}<div class="cart-summary__row"><span>{{ discount.title | escape }}</span><span>−{{ discount.total_allocated_amount | money }}</span></div>{%- endfor -%}
+        <div class="cart-summary__row"><h2>{{ 'commerce.cart.subtotal' | t }}</h2><p>{{ cart.total_price | money_with_currency }}</p></div>
+        <p class="cart-summary__tax">{% if cart.taxes_included %}{{ 'commerce.product.tax_included' | t }} {% endif %}{{ 'commerce.cart.shipping_checkout' | t }}</p>
+        <button type="submit" name="checkout" value="checkout"{% if request.design_mode %} formtarget="_blank"{% endif %} class="button cart-checkout">{{ 'commerce.cart.checkout' | t }}</button>
+      </aside>
+    </form>
+  {%- endif -%}
+</section>
+{% schema %}
+{"name":"Cart","settings":[{"type":"checkbox","id":"show_note","label":"Show order note","default":true}]}
+{% endschema %}

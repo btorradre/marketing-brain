@@ -1,0 +1,142 @@
+{
+  "jsonrpc": "2.0",
+  "id": "domain-avaroot",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Meta ad search — \"avaroot.com\"\n\n## Results (0)\n\n_No Meta ads returned. Try broader keywords, removing filters, or a smaller trend constraint._\n\n---\n\nFilters applied: search=[\"avaroot.com\"], searchType=\"domain\", keywordMode=\"any\", sortBy=\"reach\", order=\"desc\", page=1, limit=20, platforms=[\"facebook\"], mediaType=\"video\", status=\"active\", minVideoDuration=35, adLanguage=[\"en\"]\n\n---\nCredits used: 0 | Remaining: 7467"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "8cac8735-7db8-490e-a824-f8a37cfd05b9",
+      "data": [],
+      "pagination": {
+        "page": 1,
+        "limit": 20,
+        "total": 0,
+        "totalPages": 0,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "query": "avaroot.com",
+        "keywords": [],
+        "searchIn": "domain",
+        "categoryIds": [],
+        "country": null,
+        "countryFilterKind": "audienceCountry",
+        "adCountries": null,
+        "mainCountries": [],
+        "trendSignal": "reach_growth_7d",
+        "sortBy": "reach",
+        "order": "desc",
+        "requestedLimit": 20,
+        "effectiveLimit": 20,
+        "activeOnly": true,
+        "status": "active",
+        "page": 1,
+        "minTrafficGrowthPercent": null,
+        "trafficGrowthPeriod": null,
+        "trafficGrowth": null,
+        "adsGrowth": null,
+        "pageReachGrowth": null,
+        "adReachGrowth": null,
+        "language": "en",
+        "adLanguages": [
+          "en"
+        ],
+        "cta": [],
+        "currency": null,
+        "currencies": [],
+        "shopifyAppIds": [],
+        "excludeShopifyAppIds": [],
+        "pixelIds": [],
+        "excludePixelIds": [],
+        "themeIds": [],
+        "filters": {
+          "search": [
+            "avaroot.com"
+          ],
+          "searchType": "domain",
+          "keywordMode": "any",
+          "sortBy": "reach",
+          "order": "desc",
+          "page": 1,
+          "limit": 20,
+          "platforms": [
+            "facebook"
+          ],
+          "mediaType": "video",
+          "status": "active",
+          "minVideoDuration": 35,
+          "adLanguage": [
+            "en"
+          ]
+        },
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "countryBreakdowns": [
+          {
+            "path": "data[].audience.targetedCountries",
+            "meaning": "Full ad targeting country list, including non-EU markets such as US."
+          },
+          {
+            "path": "data[].audience.mainCountry",
+            "meaning": "Primary audience country from Meta's EU/UK ad transparency data; null for ads outside that scope, even when the ad targets those markets."
+          },
+          {
+            "path": "data[].advertiser.countriesCount",
+            "meaning": "Number of advertiser countries detected; not a country split."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].collationId",
+            "meaning": "Identifier of the combined creative represented by this search result. Pass it as scan_ad.collation_id to scan the same aggregate instead of only the representative ad."
+          },
+          {
+            "path": "data[].advertiser",
+            "meaning": "Facebook page identity, reach, followers, and live ads."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnails, and media URLs."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].audience",
+            "meaning": "Country, gender, and age targeting fields."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 20,
+        "effectiveUnits": 20,
+        "actualUnits": 0,
+        "costUnits": 0,
+        "recurringUnits": 0,
+        "topupUnits": 0,
+        "creditsRemaining": 7467,
+        "creditsSourceHeader": null,
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>Two cherries and a small leaf bring a bright, playful detail to the Cherry Charm. The rounded forms and considered color combinations create a lively contrast beside a simple tote or top-handle bag. Each colorway has its own surface finish and construction, with metal fittings completing the attachment. A small accent for making an everyday bag feel more like your own.</p>",
+        "fact_material": "Decorative finish with metal fittings",
+        "fact_detail": "Cherry-shaped accent",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true,
+        "hide_unassigned_media": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Decorative cherry-shaped charm with a leaf detail and bag attachment. Construction and finish vary by colorway; use the selected color’s photographs as your guide.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Decorative body with metal fittings; surface finish varies by colorway. Wipe gently with a soft, dry cloth. Avoid soaking, abrasive cleaners and prolonged direct sunlight.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

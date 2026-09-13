@@ -1,0 +1,144 @@
+[
+  {
+    "id": "guarantee-90-not-30",
+    "law": "motilli guarantee is 90 days, not 30 -- verify the live policy page",
+    "severity": "warning",
+    "regex": "\\b30[-\\s]?day\\b[^.\\n]{0,30}\\b(?:guarantee|money[-\\s]?back|refund)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "This brand's guarantee is 90 days. A 30-day claim is stale copy; verify the live policy page."
+  },
+  {
+    "id": "dose-two-gummies",
+    "law": "Motilli dose is TWO gummies before bed (LAW 2026-08-25)",
+    "severity": "blocker",
+    "regex": "\\b(?:one|1|three|3|four|4)\\s+gumm(?:y|ies)\\s+(?:a\\s+day|per\\s+day|daily|nightly|each\\s+night|every\\s+night|before\\s+bed|at\\s+bedtime|with\\s+(?:a\\s+)?(?:full\\s+)?glass)\\b|\\b(?:one|1|three|3|four|4)\\s+before\\s+bed\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "The dose is TWO gummies before bed with a full glass of water; 60 per bottle = 30-day supply. The old mechanism bible said three and poisoned the library. Every format, on-image and in body copy; on statics use the numeral: '2 GUMMIES BEFORE BED'.",
+    "scope": "copy",
+    "source": "feedback_motilli_dose_two_gummies"
+  },
+  {
+    "id": "no-wrong-gummy-color",
+    "law": "Motilli gummies are dark forest green (never orange/peach/pink/yellow/red)",
+    "severity": "blocker",
+    "regex": "\\b(?:orange|peach|pink|yellow|red|amber|coral)(?:[-/](?:orange|peach|pink|yellow|red))?\\s+(?:heart[-\\s]shaped\\s+|colou?red\\s+)?gumm(?:y|ies)\\b|\\bgumm(?:y|ies)\\s+(?:are|is|look|looks|in)\\s+(?:a\\s+)?(?:pale\\s+|bright\\s+|soft\\s+)?(?:orange|peach|pink|yellow|red|amber|coral)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Every Motilli image prompt showing the gummies specifies 'dark forest green heart-shaped Motilli gummies, Green Apple flavor'. Clear jar, white cap, green wrap-around label. Trust the canonical hero image for anything else.",
+    "scope": "prompt",
+    "source": "feedback_motilli_gummy_color"
+  },
+  {
+    "id": "no-colon-butyrate-frame",
+    "law": "mechanism must match landing page: TOP-NOT-BOTTOM, colon/butyrate frame retired",
+    "severity": "warning",
+    "regex": "\\bbutyrate\\b|\\b(?:stays?|staying|works?|working|acts?|acting|lands?|landing|released?)\\s+(?:down\\s+)?in\\s+(?:the|your|her)\\s+colon\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "The live destination (getmotilli.com/pages/adv-1) argues the problem starts in the stomach, six feet upstream from the colon, and that Miralax/magnesium/fiber failed BECAUSE they work on the colon. Copy saying the product works or stays in the colon argues the landing page's villain position. Warning because 'colon' itself is used legitimately in the top-not-bottom teach.",
+    "scope": "copy",
+    "source": "feedback_motilli_mechanism_must_match_landing_page"
+  },
+  {
+    "id": "no-return-required-claim",
+    "law": "guarantee: never 'no return required'",
+    "severity": "blocker",
+    "regex": "\\bno\\s+return\\s+(?:required|needed|necessary)\\b|\\b(?:don['’]?t|do\\s+not|never)\\s+(?:even\\s+)?(?:have\\s+to|need\\s+to)\\s+(?:send|ship|mail)\\s+(?:it|anything|the\\s+bottle)\\s+back\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Guarantee is 90 days, one email, every dollar back, counts on an opened bottle. The policy reserves the right to request a return with a prepaid label, so 'no return required' is a false offer.",
+    "scope": "copy",
+    "source": "feedback_motilli_mechanism_must_match_landing_page"
+  },
+  {
+    "id": "no-enzyme-claims",
+    "law": "UMS must match product truth: no enzymes in the formula",
+    "severity": "warning",
+    "regex": "\\benzymes?\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Sculptique repl claimed 'digestive enzyme support'; there are no enzymes in the formula. Three ingredients per 2-gummy dose: Celery Juice Powder 50mg (apigenin source), Chlorophyll 540mcg (sodium copper chlorophyllin), Low-Viscosity Soluble Prebiotic Fiber 3g (FOS).",
+    "scope": "copy",
+    "source": "feedback_celery_ad_flop_postmortem"
+  },
+  {
+    "id": "fiber-is-3g-not-5g",
+    "law": "product truth: 3g soluble prebiotic fiber",
+    "severity": "warning",
+    "regex": "\\b(?:5|five)\\s?g(?:rams)?\\s+(?:of\\s+)?(?:prebiotic\\s+|soluble\\s+)?fiber\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Nurse Pebble headlined '5g fiber'; the live page says 3g Low-Viscosity Soluble Prebiotic Fiber (FOS, dissolves clear, no bulk).",
+    "scope": "copy",
+    "source": "feedback_motilli_mechanism_must_match_landing_page"
+  },
+  {
+    "id": "no-fiber-category-dismissal",
+    "law": "celery-flop kill-pattern: never dismiss fiber as a category",
+    "severity": "warning",
+    "regex": "\\bfiber\\s+(?:gummies\\s+|supplements\\s+)?(?:doesn['’]?t|don['’]?t|didn['’]?t|never)\\s+work(?:s|ed)?\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Fiber dismissal requires the bulk-vs-soluble wedge. Dismiss coarse BULK fiber ('fiber just adds more bulk to the backup') and position ours as the opposite kind (low-bulk soluble). Nurse Pebble dismissed 'fiber gummies' then sold a fiber gummy.",
+    "scope": "copy",
+    "source": "feedback_celery_ad_flop_postmortem"
+  },
+  {
+    "id": "no-wrong-end-phrasing",
+    "law": "simple relatable language: 'wrong end of your body' banned pre-reframe",
+    "severity": "warning",
+    "regex": "\\bwrong\\s+(?:end|part|side)\\s+of\\s+(?:your|my|her|the)\\s+body\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'Wrong part of your body' and kin are awkward and mean nothing before the reframe is taught. Spatial-frame language (the bottom / the top / wrong end) is earned mid-ad by the mechanism teach and only used AFTER it. Hooks use only nouns already in her world (the shot, the Miralax, her stomach, her bathroom) or pure curiosity.",
+    "scope": "copy",
+    "source": "feedback_oblique_not_literal"
+  },
+  {
+    "id": "no-gut-doctor-gloss",
+    "law": "ad-script-simplicity: keep 'gastroenterologist', don't gloss it",
+    "severity": "warning",
+    "regex": "\\bgut\\s+doctor\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Simple and conversational, but don't dumb it down. Recognizable terms add credibility: keep 'gastroenterologist', 'apigenin', 'chlorophyll'. One actor, one plainly stated job.",
+    "scope": "copy",
+    "source": "feedback_ad_script_simplicity"
+  },
+  {
+    "id": "no-anger-register",
+    "law": "Motilli VSL law 1: evoke HOPE, not anger",
+    "severity": "warning",
+    "regex": "\\bfurious\\b|\\bmake\\s+you\\s+angry\\b|\\bpissed\\s+(?:off)?\\b|\\bshould\\s+make\\s+you\\s+angry\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'I was honestly furious' is forced and general; the avatar's emotion is hope. Hook shape: 'Here's how I went from bloated to [X] without MiraLAX' plus an emotional payoff promise. The MOT-VID-009 '$300 Cabinet (Furious)' concept is DROPPED.",
+    "scope": "copy",
+    "source": "feedback_motilli_vsl_copy_breakdown"
+  },
+  {
+    "id": "signal-is-nerve-not-bacteria",
+    "law": "swipe hygiene: Motilli signal = nerve, never bacteria",
+    "severity": "warning",
+    "regex": "\\b(?:gut\\s+)?bacteria\\b|\\bmicrobiome\\b|\\bprobiotics?\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Hook-bank swipe-hygiene rule: never copy competitor proof numbers, and the Motilli mechanism is the stomach's own signal/squeeze, never a bacteria/microbiome story. Warning: verify against the live landing page mechanism before cutting.",
+    "scope": "copy",
+    "source": "feedback_soft_closes_hook_bank"
+  }
+]

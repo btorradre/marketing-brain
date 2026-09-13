@@ -1,0 +1,133 @@
+{
+  "session": "20260907_161608_e1287b",
+  "model": "gpt-6-astra",
+  "toolCallCount": 19,
+  "calls": [
+    {
+      "tool": "skill_view",
+      "arguments": {
+        "name": "ai-ugc-vsl-swipe-copywriting"
+      }
+    },
+    {
+      "tool": "skill_view",
+      "arguments": {
+        "name": "dtc-marketing-operating-system"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nfor s in ['HERMES-KNOWLEDGE-INDEX.md','AGENTS.md','/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/SKILL.md','/opt/vault/agents/hermes/shared-skills/dtc-marketing-operating-system/SKILL.md']:\n p=Path(s);print('\\n===== '+str(p)+' =====\\n');print(p.read_text() if p.exists() else 'MISSING')\nPY",
+        "timeout": 60
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting')\nfor f in ['references/hook-patterns.md','references/psychology-and-marketing-triggers.md','references/structures-and-bridges.md','references/sentence-workshop.md','references/case-index.md']:\n print('\\n===== '+f+' =====\\n'+(r/f).read_text())\nPY",
+        "timeout": 60
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting')\nfor d in [r/'references',r/'references/nuora-study',Path('_engine/research/nuora-trendtrack-2026-09-07'),Path('brands')]:\n print('\\nDIRECTORY',d)\n for p in sorted(d.iterdir()): print(p.name, 'DIR' if p.is_dir() else p.stat().st_size)\nfor f in ['references/corpus-manifest.json','references/research-basis.md','scripts/find_swipes.py']:\n print('\\n===== '+f+' =====\\n'+(r/f).read_text())\nPY",
+        "timeout": 60
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/references')\nfor f in ['nuora-study/NUORA-ANALYSIS.md','nuora-study/coverage.json','nuora-study/variant-similarity.json']:\n print('\\n===== '+str(r/f)+' =====\\n'+(r/f).read_text())\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/references')\nprint((r/'psychology-and-marketing-triggers.md').read_text())\nprint('\\nREVIEW RUBRIC\\n'+(r/'review-rubric.md').read_text())\nfor p in [r/'transcripts.jsonl',r/'cases.json',Path('_engine/research/nuora-trendtrack-2026-09-07/transcripts.json'),Path('_engine/research/nuora-trendtrack-2026-09-07/annotated-transcripts.json')]:\n data= [json.loads(l) for l in p.read_text().splitlines()] if p.suffix=='.jsonl' else json.loads(p.read_text())\n print('\\nSCHEMA',str(p), type(data).__name__,len(data)); sample=data[0] if isinstance(data,list) else data\n print({k:(type(v).__name__,len(v) if isinstance(v,(list,dict,str)) else v) for k,v in sample.items()})\nprint('\\nBRAND ROUTING\\n'+Path('brands/README.md').read_text())\nfor d in ['brands/wend','brands/motilli','brands/velantra','_engine/copywriting/updated skills','_engine/research/trendtrack-ai-ugc-vsls-2026-09-06']:\n print('\\nDIRECTORY',d)\n for p in sorted(Path(d).iterdir()):\n  print(p.name, 'DIR' if p.is_dir() else p.stat().st_size)\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,hashlib,re,collections\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/references'); o=Path('_engine/research/nuora-trendtrack-2026-09-07')\nt=[json.loads(l) for l in (r/'transcripts.jsonl').read_text().splitlines()];c=json.loads((r/'cases.json').read_text());p=json.loads((r/'patterns.json').read_text());n=json.loads((o/'transcripts.json').read_text());a=json.loads((o/'annotated-transcripts.json').read_text())\nnu=[x for x in t if x['brand']=='Nuora']; old=[x for x in nu if x.get('groupedCorpus') or not x.get('nuoraStudyId')];nh={x['sha256'] for x in n};oh={x['sha256'] for x in old}\nprint('ACTUAL INVENTORY',json.dumps({'transcript_rows':len(t),'distinct_within_brand_texts':len({(x['brandtrackerId'],x['fullText']) for x in t}),'Nuora_texts':len(nu),'patterns':len(p),'case_entries':len(c),'case_distinct_transcriptIds':len({x['transcriptId'] for x in c}),'new_fetch_rows':len(n),'new_fetch_exact_texts':len({x['fullText'] for x in n}),'normalized_word_sequences':len({tuple(re.findall(r\"\\b[\\w\u2019\\'-]+\\b\",x['fullText'].lower())) for x in n}),'new_fetch_word_count_whitespace':sum(len(x['fullText'].split()) for x in n),'annotated_full_reviews':sum(x['fullTranscriptReviewed'] for x in a),'execution_family_count':len({x['executionFamily'] for x in a}),'review_levels':dict(collections.Counter(x['reviewLevel'] for x in a))},indent=2))\nprint('Nuora corpus metadata example', {k:v for k,v in nu[0].items() if k not in ['fullText','sources']})\nerrors=[]\nfor x in t:\n f=r/x['transcriptPath']; b=x['fullText'].encode()\n if not f.exists():errors.append(('missing',str(f)))\n elif f.read_bytes()!=b:errors.append(('text_mismatch',str(f)))\n if hashlib.sha256(b).hexdigest()!=x['sha256']:errors.append(('hash_mismatch',x['transcriptId']))\nfor x in c:\n if not (r/x['analysisPath']).exists():errors.append(('missing_analysis',x['caseId']))\nfor x in n:\n for f in [o/'transcripts'/f\"{x['id']}.txt\",r/'nuora-study/transcripts'/f\"{x['id']}.txt\"]:\n  if not f.exists() or f.read_text()!=x['fullText']:errors.append(('nuora_mismatch_or_missing',str(f)))\nprint('ALL TRANSCRIPT FILE / HASH / CASE FILE CHECK ERRORS:',errors)\nfor f in ['NUORA-ANALYSIS.md','TRANSCRIPT-INDEX.md','coverage.json','execution-families.json','variant-similarity.json']:\n print('ORIGINAL = SHARED',f,(o/f).read_bytes()==(r/'nuora-study'/f).read_bytes())\nprint('DUPLICATED CASE TEXTS', [v for v in (lambda d:d.values())(dict((tid,[x['caseId'] for x in c if x['transcriptId']==tid]) for tid in {x['transcriptId'] for x in c})) if len(v)>1])\nprint('\\nORIGINAL COVERAGE\\n'+(o/'coverage.json').read_text())\nprint('\\nEXECUTION FAMILIES\\n'+(o/'execution-families.json').read_text())\nprint('\\nORIGINAL TRANSCRIPT INDEX (first 24 lines)\\n'+'\\n'.join((o/'TRANSCRIPT-INDEX.md').read_text().splitlines()[:24]))\nprint('\\nANALYSIS original read confirmation:',len((o/'NUORA-ANALYSIS.md').read_text()),'characters; exact match above establishes same text as fully displayed shared analysis')\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nfor f in ['brands/wend/00-brief.md','brands/wend/README.md','brands/velantra/product-skills/registry.json','_engine/copywriting/updated skills/README.md','_engine/copywriting/updated skills/copy-strategy.md','/opt/vault/agents/hermes/shared-skills/dtc-marketing-operating-system/references/truth-evidence-and-compliance.md']:\n p=Path(f);print('\\n===== '+str(p)+' =====\\n'+p.read_text())\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport subprocess,json\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting')\nqueries=[['--pattern','recognition-and-validation','--limit','3'],['--pattern','preserve-the-gain'],['--pattern','buyer-inspection','--limit','3'],['--pattern','objection-dialogue','--limit','3'],['--pattern','article-curiosity'],['--pattern','price-concession-and-specification'],['--nuora-id','NU136'],['--pattern','skeptic-aligned-explanation'],['--pattern','reason-why-offer']]\nfor q in queries:\n out=subprocess.run(['python3',str(r/'scripts/find_swipes.py'),*q],capture_output=True,text=True,check=True);d=json.loads(out.stdout)\n print('\\nSEARCH',' '.join(q),'MATCHES',d['matches'])\n for x in d['results']: print(json.dumps({k:x[k] for k in ['transcriptId','caseIds','patterns','opening','transcriptFile','analysisFiles']},ensure_ascii=False))\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,subprocess\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting')\nfor cid in ['N1','N5','L2','G2','Z2']:\n d=json.loads(subprocess.check_output(['python3',str(r/'scripts/find_swipes.py'),'--case',cid],text=True));x=d['results'][0]\n print('\\n===== FULL SOURCE',cid,x['transcriptId'],x['transcriptFile'],'=====\\n'+Path(x['transcriptFile']).read_text())\n for f in x['analysisFiles']:print('\\n===== ANALYSIS '+f+' =====\\n'+Path(f).read_text())\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,subprocess\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting')\nfor cid in ['U3','A2','R2','F4','F1','B1']:\n d=json.loads(subprocess.check_output(['python3',str(r/'scripts/find_swipes.py'),'--case',cid],text=True));x=d['results'][0]\n print('\\n===== FULL SOURCE',cid,x['transcriptId'],x['transcriptFile'],'=====\\n'+Path(x['transcriptFile']).read_text())\n for f in x['analysisFiles']:print('\\n===== ANALYSIS '+f+' =====\\n'+Path(f).read_text())\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,subprocess\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting')\nfor cid in ['NU136','NU048','NU121','NU012','NU069']:\n d=json.loads(subprocess.check_output(['python3',str(r/'scripts/find_swipes.py'),'--case',cid],text=True));x=d['results'][0]\n f=Path('/opt/vault/marketing-brain/_engine/research/nuora-trendtrack-2026-09-07/transcripts')/(cid+'.txt')\n print('\\n===== FULL ORIGINAL SOURCE',cid,x['transcriptId'],f,'=====\\n'+f.read_text())\n for f in x['analysisFiles']:print('\\n===== ANALYSIS '+f+' =====\\n'+Path(f).read_text())\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,subprocess\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting')\nfor cid in ['NU002','NU117','NU129','NU001','NU141','NU046']:\n d=json.loads(subprocess.check_output(['python3',str(r/'scripts/find_swipes.py'),'--case',cid],text=True));x=d['results'][0]\n f=Path('/opt/vault/marketing-brain/_engine/research/nuora-trendtrack-2026-09-07/transcripts')/(cid+'.txt')\n print('\\n===== FULL ORIGINAL SOURCE',cid,x['transcriptId'],f,'=====\\n'+f.read_text())\n for f in x['analysisFiles']:print('\\n===== ANALYSIS '+f+' =====\\n'+Path(f).read_text())\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,hashlib,collections\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/references');o=Path('_engine/research/nuora-trendtrack-2026-09-07'); b=Path('_engine/research/trendtrack-ai-ugc-vsls-2026-09-06')\nt=[json.loads(l) for l in (r/'transcripts.jsonl').read_text().splitlines()];nu=[x for x in t if x['brand']=='Nuora'];n=json.loads((o/'transcripts.json').read_text())\nprint('NUORA groupedCorpus FLAGS',dict(collections.Counter(x.get('groupedCorpus') for x in nu)))\nfor f in sorted((b/'raw').iterdir()):\n if f.name.startswith('8bff2239'):\n  data=json.loads(f.read_text());print('OLD NUORA RAW SCHEMA',f.name,type(data).__name__,list(data)[:12] if isinstance(data,dict) else len(data))\nprint('SOURCE HASH CHECKS')\nm=json.loads((r/'corpus-manifest.json').read_text());errors=[]\nfor name,h in m['sources'].items():\n f=b/'raw'/name\n if not f.exists():errors.append(('missing',str(f)))\n elif hashlib.sha256(f.read_bytes()).hexdigest()!=h:errors.append(('hash_mismatch',str(f)))\nfor name,h in m['supplementSourceHashes'].items():\n f=o/name\n if not f.exists() or hashlib.sha256(f.read_bytes()).hexdigest()!=h:errors.append(('missing_or_mismatch',str(f)))\nprint(errors)\nprint('BRAND / STRATEGY PATH LIMITATIONS')\nfor s in ['brands/renavita','brands/motilli/00-brief.md','brands/wend/ops/suppliers/formula-spec.md','brands/wend/research/Wend Voice-of-Customer Report.md','_engine/copywriting/updated skills/skills/copy-strategy.md','_engine/copywriting/updated skills/swipe-adaptation.md']:\n print(s,Path(s).exists())\nprint('VELANTRA DEDICATED LOCAL SKILL PATH CANDIDATES')\nfor p in Path('brands/velantra/product-skills').iterdir():print(p.name)\nids=['N1','N5','L2','G2','Z2','U3','A2','R2','F4','F1','B1','NU136','NU048','NU121','NU012','NU069','NU002','NU117','NU129','NU001','NU141','NU046'];c=json.loads((r/'cases.json').read_text());chosen=[x for x in c if x['caseId'] in ids]\nprint('FULL SOURCES READ',len(chosen),'DISTINCT TEXTS',len({x['transcriptId'] for x in chosen}),'WORDS',sum(x['wordCount'] for x in chosen))\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\np=Path('_engine/research/trendtrack-ai-ugc-vsls-2026-09-06/AI-UGC-VSL-BREAKDOWN.md');s=p.read_text();lines=s.splitlines()\nprint('ORIGINAL CROSS-BRAND STUDY HEADINGS')\nfor i,l in enumerate(lines):\n if l.startswith('#'):print(i+1,l)\nprint('\\nORIGINAL CROSS-BRAND STUDY INTRODUCTION\\n'+'\\n'.join(lines[:160]))\nPY"
+      }
+    },
+    {
+      "tool": "memory",
+      "arguments": {
+        "target": "memory",
+        "action": "add",
+        "content": "User-authorized AI UGC/VSL knowledge workflow: index /opt/vault/marketing-brain/HERMES-KNOWLEDGE-INDEX.md; specialist /opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/SKILL.md, governed by dtc-marketing-operating-system. Substantial drafts use current brand/product/offer evidence and customer language first, then scripts/find_swipes.py and relevant FULL source transcripts/case analyses; transfer structure, not competitor claims/testimonials. Current user instructions and verified product truth override archives. Corpus is retrieval-based, not fine-tuning or whole-corpus retention; review coverage differs from inventory and reuse is not conversion proof."
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,hashlib\nb=Path('_engine/research/trendtrack-ai-ugc-vsls-2026-09-06/raw');o=Path('_engine/research/nuora-trendtrack-2026-09-07');r=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/references')\ndef texts(v):\n out=[]\n if isinstance(v,dict):\n  if isinstance(v.get('fullText'),str):out.append(v['fullText'])\n  for x in v.values():out.extend(texts(x))\n elif isinstance(v,list):\n  for x in v:out.extend(texts(x))\n elif isinstance(v,str) and v.lstrip().startswith(('{','[')):\n  try:out.extend(texts(json.loads(v)))\n  except (ValueError,RecursionError):pass\n return out\nold=set()\nfor suffix in ['usage','longest','current-video']:\n f=b/f'8bff2239-0790-4f87-a97e-15434c0fc9b6-{suffix}.json';found=texts(json.loads(f.read_text()));old.update(found);print(suffix,'fullText occurrences',len(found))\nnew={x['fullText'] for x in json.loads((o/'transcripts.json').read_text())}\nprint('RECOMPUTED OLD/NEW OVERLAP',json.dumps({'prior_exact_texts':len(old),'new_fetch_exact_texts':len(new),'overlap':len(old&new),'new_to_library':len(new-old),'prior_absent_from_fetch':len(old-new),'combined_Nuora':len(old|new)}))\nprint('SAVED NOTE PHYSICAL LOCATION: memory API exposes target=memory only; no filesystem path returned.')\nPY"
+      }
+    },
+    {
+      "tool": "terminal",
+      "arguments": {
+        "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json\nr=Path('/opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/references');o=Path('_engine/research/nuora-trendtrack-2026-09-07')\nt=[json.loads(l) for l in (r/'transcripts.jsonl').read_text().splitlines()]; c=json.loads((r/'cases.json').read_text());u=next(x for x in c if x['caseId']=='U3');supp=next(x for x in t if x['transcriptId']==u['transcriptId']);old={x['fullText'] for x in t if x['brand']=='Nuora' and x.get('groupedCorpus')};old.add(supp['fullText']);new={x['fullText'] for x in json.loads((o/'transcripts.json').read_text())}\nprint('RECONCILED INCLUDING SEPARATE CURRENT-VIDEO CASE U3',json.dumps({'prior_grouped_exact_texts':len(old)-1,'supplemental_current_video_texts':1,'prior_total':len(old),'new_fetch':len(new),'overlap':len(old&new),'new_to_library':len(new-old),'prior_absent_from_fetch':len(old-new),'combined_Nuora':len(old|new),'combined_all_brands':len(t)}))\nprint('Supplement provenance:',supp['sources'])\nPY"
+      }
+    }
+  ],
+  "memoryResults": [
+    "{\"success\": true, \"done\": true, \"target\": \"memory\", \"usage\": \"30% \u2014 680/2,200 chars\", \"entry_count\": 1, \"message\": \"Entry added.\", \"note\": \"Write saved. This update is complete \u2014 do not repeat it.\"}"
+  ],
+  "memoryPath": "/root/.hermes-paperclip/memories/MEMORY.md",
+  "savedCopywritingEntries": [
+    "User-authorized AI UGC/VSL knowledge workflow: index /opt/vault/marketing-brain/HERMES-KNOWLEDGE-INDEX.md; specialist /opt/vault/agents/hermes/shared-skills/ai-ugc-vsl-swipe-copywriting/SKILL.md, governed by dtc-marketing-operating-system. Substantial drafts use current brand/product/offer evidence and customer language first, then scripts/find_swipes.py and relevant FULL source transcripts/case analyses; transfer structure, not competitor claims/testimonials. Current user instructions and verified product truth override archives. Corpus is retrieval-based, not fine-tuning or whole-corpus retention; review coverage differs from inventory and reuse is not conversion proof."
+  ]
+}

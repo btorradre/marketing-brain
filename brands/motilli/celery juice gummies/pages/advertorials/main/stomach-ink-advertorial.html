@@ -1,0 +1,401 @@
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+header, nav, footer, #shopify-section-header, #shopify-section-announcement-bar, #shopify-section-footer, [id^="shopify-section-header"], [id^="shopify-section-footer"], [id^="shopify-section-announcement"], .site-header, .site-nav, .site-footer, .main-header, .page-header, .global-header, .sticky-header, .mobile-nav, .top-bar, .topbar, .announcement-bar, .announcement__bar, .cart-notification, .cart-notification-wrapper, .disclosure, .skip-to-content, #CartDrawer, #MobileMenu, #shopify-section-cart-notification, .predictive-search, #header-group, .newsletter, .footer, [id*="footer"], [id*="newsletter"] { display: none !important; }
+body, html { padding-top: 0 !important; margin-top: 0 !important; }
+main, #MainContent, .main-content, #main-content, [role="main"] { padding-top: 0 !important; margin-top: 0 !important; }
+:root { --fb-bg: #f0f2f5; --fb-card: #ffffff; --fb-blue: #1877f2; --fb-blue-h: #166fe5; --fb-text: #050505; --fb-mid: #65676b; --fb-div: #e4e6eb; --fb-lite: #e7f3ff; --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+html, body { background: var(--fb-bg); color: var(--fb-text); font-family: var(--font); font-size: 15px; line-height: 1.4; -webkit-font-smoothing: antialiased; }
+.page { max-width: 680px; margin: 0 auto; }
+.article { background: var(--fb-card); margin-bottom: 8px; }
+.article-top { padding: 20px 16px 14px; border-bottom: 1px solid var(--fb-div); }
+.adv-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fb-mid); margin-bottom: 14px; }
+.kicker { font-size: 15px; font-weight: 700; color: var(--fb-blue); line-height: 1.3; margin-bottom: 14px; }
+.main-title { font-size: 26px; font-weight: 800; line-height: 1.2; color: var(--fb-text); margin-bottom: 14px; }
+.sub-title { font-size: 19px; font-weight: 700; line-height: 1.3; color: var(--fb-text); margin-bottom: 12px; }
+.sub-italic { font-size: 16px; font-style: italic; font-weight: 400; color: var(--fb-mid); line-height: 1.4; margin-bottom: 12px; }
+.byline { font-size: 13px; color: var(--fb-mid); }
+.byline strong { color: var(--fb-text); }
+.body { padding: 14px 16px; }
+.body p { font-size: 17px; line-height: 1.65; color: var(--fb-text); margin-bottom: 16px; font-weight: 400; }
+.body p:last-child { margin-bottom: 0; }
+.body p strong { font-weight: 700; }
+.body p em { font-style: italic; }
+.body h2 { font-size: 21px; font-weight: 800; color: var(--fb-text); line-height: 1.2; margin: 26px 0 12px; }
+.body h2:first-child { margin-top: 0; }
+.body h3 { font-size: 18px; font-weight: 700; color: var(--fb-text); line-height: 1.3; margin: 20px 0 8px; }
+.full-img { width: 100%; line-height: 0; }
+.full-img img { width: 100%; display: block; }
+.pull { border-left: 3px solid var(--fb-blue); padding: 10px 14px; margin: 18px 0; background: var(--fb-lite); border-radius: 0 6px 6px 0; }
+.pull p { font-size: 16px !important; font-style: italic; color: var(--fb-text) !important; line-height: 1.55 !important; margin-bottom: 0 !important; }
+.pull p + p { margin-top: 10px !important; }
+.pull cite { display: block; font-size: 13px; color: var(--fb-mid); font-style: normal; font-weight: 600; margin-top: 8px; }
+.callout { background: var(--fb-bg); border-radius: 8px; padding: 14px 16px; margin: 16px 0; border: 1px solid var(--fb-div); text-align: center; }
+.callout p { font-size: 16px !important; font-weight: 700 !important; color: var(--fb-text) !important; margin: 0 !important; line-height: 1.4 !important; }
+.sym-list { list-style: none; padding: 0; margin: 10px 0 18px; }
+.sym-list li { padding: 10px 0 10px 26px; position: relative; border-bottom: 1px solid var(--fb-div); font-size: 17px; line-height: 1.5; color: var(--fb-text); }
+.sym-list li:last-child { border-bottom: none; }
+.sym-list li::before { content: "\2713"; position: absolute; left: 0; top: 11px; color: var(--fb-blue); font-weight: 700; font-size: 14px; }
+.ingredient { border-top: 1px solid var(--fb-div); padding: 16px 0 4px; }
+.ingredient:first-of-type { border-top: none; padding-top: 4px; }
+.ingredient .ing-img { margin-bottom: 12px; }
+.ingredient .ing-img img { width: 100%; display: block; }
+.ingredient h3 { margin-top: 0; }
+.ingredient p { font-size: 17px !important; }
+.testi { background: var(--fb-bg); border-radius: 8px; padding: 14px; margin: 14px 0; border: 1px solid var(--fb-div); }
+.testi-top { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.testi-av { width: 36px; height: 36px; border-radius: 50%; background: var(--fb-blue); color: #fff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.testi-name { font-size: 14px; font-weight: 700; color: var(--fb-text); }
+.testi-sub { font-size: 12px; color: var(--fb-mid); margin-top: 1px; }
+.testi-text { font-size: 15px; color: var(--fb-text); line-height: 1.5; }
+.testi-actions { display: flex; gap: 16px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--fb-div); font-size: 13px; font-weight: 600; color: var(--fb-mid); }
+.testi-actions .like { color: var(--fb-blue); }
+.guarantee { background: #1c1c1e; color: #fff; padding: 28px 16px; text-align: center; }
+.guar-badge { width: 72px; height: 72px; background: var(--fb-blue); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 16px; }
+.guar-badge .days { font-size: 24px; font-weight: 800; color: #fff; line-height: 1; }
+.guar-badge .label { font-size: 10px; color: rgba(255,255,255,0.75); text-transform: uppercase; letter-spacing: 0.06em; }
+.guarantee h2 { font-size: 18px; font-weight: 800; color: #fff; margin: 0 0 10px; line-height: 1.3; }
+.guarantee p { font-size: 15px; color: rgba(255,255,255,0.8); line-height: 1.5; margin: 0; }
+.cta-wrap { padding: 16px; background: var(--fb-card); }
+.btn { display: block; width: 100%; background: #16a34a; color: #fff; text-decoration: none; font-family: var(--font); font-size: 17px; font-weight: 700; padding: 14px 24px; border-radius: 6px; text-align: center; transition: background 0.15s; }
+.btn:hover { background: #15803d; }
+.ps-block { padding: 12px 16px; background: var(--fb-bg); font-size: 14px; color: var(--fb-mid); line-height: 1.55; border-top: 1px solid var(--fb-div); }
+.ps-block strong { color: var(--fb-text); }
+.foot { padding: 16px; font-size: 12px; color: var(--fb-mid); line-height: 1.6; background: var(--fb-card); border-top: 1px solid var(--fb-div); }
+.foot p { margin-bottom: 5px; font-size: 12px; color: var(--fb-mid); }
+.foot a { color: var(--fb-mid); text-decoration: underline; }
+.page-title { display: none !important; }
+h1.page__title { display: none !important; }
+.page__title { display: none !important; }
+</style>
+
+<div class="page">
+<div class="article">
+
+<!-- TITLE BLOCK -->
+<div class="article-top">
+<div class="adv-label">Special Advertorial by Dr. Patricia Langford, Gastroenterologist &middot; March 2026</div>
+<div class="kicker">Board-Certified Gastroenterologist Breaks Silence About the Hidden Substance Forming Inside GLP-1 Users' Stomachs</div>
+<div class="main-title">Dr. Langford Reveals: Why Ozempic, Wegovy &amp; Mounjaro Users Can't Go to the Bathroom &mdash; And Why Every Laxative, Fiber Supplement &amp; Home Remedy They've Tried Has Been Targeting the Wrong Organ</div>
+<div class="sub-title">"The Problem Isn't Your Colon. It's a Thick, Dark Substance Forming in Your Stomach That No Laxative on Earth Can Reach."</div>
+<div class="sub-italic">If you've been on a GLP-1 medication and haven't had a normal bowel movement in days &mdash; maybe weeks &mdash; this may finally explain why.</div>
+<div class="byline">By <strong>Dr. Patricia Langford</strong>, MD, Board-Certified Gastroenterologist &middot; Advertorial</div>
+</div>
+
+<!-- HERO IMAGE PLACEHOLDER -->
+<div class="full-img">
+<img src="https://cdn.shopify.com/s/files/1/0917/4630/2396/files/doctor-authority-hero.jpg?v=1" alt="Dr. Patricia Langford, Board-Certified Gastroenterologist" />
+</div>
+
+<!-- OPENING -->
+<div class="body">
+
+<div class="pull">
+<p>"I've spent 22 years as a gastroenterologist. I've performed thousands of endoscopies. And I can tell you &mdash; what I'm seeing inside the stomachs of GLP-1 patients is something I was never trained for.</p>
+<p>It's not food. Not in any recognizable form. It's a thick, dark, ink-like sludge sitting in the stomach &mdash; sometimes for days. And every laxative, fiber powder, and stool softener these women are taking? It never reaches it. Not even close."</p>
+<cite>&mdash; Dr. Patricia Langford, MD, Board-Certified Gastroenterologist</cite>
+</div>
+
+<p>I need to be honest with you about something that's been keeping me up at night.</p>
+
+<p>In 22 years of practicing gastroenterology &mdash; seeing patients with Crohn's, colitis, IBS, diverticulitis &mdash; I thought I'd seen every kind of digestive dysfunction there is.</p>
+
+<p>Then GLP-1 medications exploded. Ozempic. Wegovy. Mounjaro. Zepbound.</p>
+
+<p>And suddenly, my waiting room filled with a new kind of patient.</p>
+
+<p>Women in their 50s, 60s, 70s. Educated. Put-together. <strong>Losing weight beautifully.</strong> Scale going down every week. Clothes fitting again for the first time in decades. Compliments coming from every direction.</p>
+
+<p>But privately? <strong>They were falling apart.</strong></p>
+
+<p>Five days without a bowel movement. Seven days. <em>Eleven days.</em></p>
+
+<p>Bloating so severe they looked six months pregnant &mdash; which defeats the entire purpose of losing weight.</p>
+
+<p>Sulfur burps so foul they were terrified to open their mouths in meetings, in cars, at dinner with their husbands.</p>
+
+<p>And every single one of them said the same thing:</p>
+
+<div class="callout">
+<p>"I've tried EVERYTHING. Miralax. Dulcolax. Fiber. Magnesium. Enemas. Smooth Move tea. Nothing works."</p>
+</div>
+
+<p>And they were right. Nothing they tried <em>could</em> work.</p>
+
+<p>Because every single product they were taking was designed to work on the <strong>colon</strong> &mdash; the very end of the digestive tract.</p>
+
+<p>But the problem wasn't in their colon.</p>
+
+<p>The problem was something I'd never seen at this scale before. Something forming in their <strong>stomachs</strong>. Something I now call:</p>
+
+<h2>"Stomach Ink" &mdash; The Hidden Reason Nothing You've Tried Has Worked</h2>
+
+<p>Let me explain what's actually happening inside your body right now &mdash; because your doctor almost certainly hasn't.</p>
+
+<p>When you take Ozempic, Wegovy, Mounjaro, or any GLP-1 medication, it works by <strong>slowing your stomach's emptying rate by up to 70%.</strong></p>
+
+<p>That's the entire mechanism. Slow stomach = feel full = eat less = lose weight.</p>
+
+<p>And it works. Brilliantly.</p>
+
+<p>But here's what the prescribing information glosses over in one line of fine print:</p>
+
+<p><strong>When food sits in your stomach 2-3 times longer than normal, it doesn't just "wait there."</strong></p>
+
+<p>Your digestive acids keep working on it. Bacteria begin fermenting it. Proteins break down and release hydrogen sulfide gas &mdash; that's the rotten-egg sulfur burps.</p>
+
+<p>And the mixture itself? It <strong>thickens.</strong> Darkens. Becomes viscous.</p>
+
+<p>It turns into a thick, dark, ink-like sludge that your now-weakened stomach muscles simply cannot push forward.</p>
+
+<div class="pull">
+<p>"Think of it this way: your stomach is a muscular bag that's supposed to churn food and push it into your small intestine every 4-5 hours. GLP-1 medications tell those muscles to slow to a crawl. So the food sits. Ferments. Hardens. After 12, 18, 24 hours, what was once a normal meal has become something closer to wet concrete. I call it 'Stomach Ink' &mdash; because that's what it looks like on endoscopy. Dark, thick, and stuck."</p>
+<cite>&mdash; Dr. Patricia Langford</cite>
+</div>
+
+<p>And here's the part that explains <strong>everything</strong> you've been through:</p>
+
+<h2>Why Miralax, Dulcolax, Fiber, Enemas &mdash; Everything in Your Medicine Cabinet &mdash; Can Never Fix This</h2>
+
+<p>Look at every remedy you've tried. Every single one:</p>
+
+<ul class="sym-list">
+<li><strong>Miralax</strong> &mdash; osmotic laxative. Pulls water into the <em>colon</em>.</li>
+<li><strong>Dulcolax</strong> &mdash; stimulant laxative. Forces <em>colon</em> muscles to contract.</li>
+<li><strong>Fiber supplements</strong> &mdash; adds bulk to stool in the <em>colon</em>.</li>
+<li><strong>Stool softeners (Colace)</strong> &mdash; softens stool in the <em>colon</em>.</li>
+<li><strong>Enemas</strong> &mdash; reaches the <em>colon</em>.</li>
+<li><strong>Magnesium citrate</strong> &mdash; pulls water into the <em>colon</em>.</li>
+<li><strong>Smooth Move tea / Senna</strong> &mdash; stimulates the <em>colon</em>.</li>
+</ul>
+
+<p>Do you see the pattern?</p>
+
+<div class="callout">
+<p>Every single remedy targets the COLON &mdash; the last 5 feet of your digestive tract. But the Stomach Ink is sitting in your STOMACH &mdash; the first organ in the chain. You're trying to unclog a backed-up sink by mopping the floor.</p>
+</div>
+
+<p>The colon is the <strong>end</strong> of digestion. Your problem is at the <strong>beginning.</strong></p>
+
+<p>The Stomach Ink has to move out of your stomach <em>first</em>. Until it does, nothing downstream matters. You can take every laxative on the pharmacy shelf &mdash; the ink sits there, fermenting, producing gas, hardening further, while you suffer.</p>
+
+<p>This is why you can drink an entire bottle of Miralax over a weekend and <em>nothing happens.</em></p>
+
+<p>This is why you've sat on the toilet for twenty minutes, pushing, and gotten nothing but rabbit pellets.</p>
+
+<p>This is why the food you ate Tuesday is still sitting there Thursday &mdash; and you can <em>taste it</em> when you burp.</p>
+
+<p><strong>It was never about your colon. It was always about the ink.</strong></p>
+
+<h2>So What Actually Dissolves "Stomach Ink"?</h2>
+
+<p>Once I understood what was happening, the question became obvious: how do you get the stomach moving again?</p>
+
+<p>Not the colon. <strong>The stomach.</strong></p>
+
+<p>The answer, it turns out, has been hiding in a vegetable that millions of women were already juicing &mdash; without knowing exactly why it helped.</p>
+
+<p><strong>Celery.</strong></p>
+
+<p>Now, before you roll your eyes &mdash; I'm not talking about the TikTok celery juice trend. I'm talking about a specific compound inside celery called <strong>apigenin</strong> that has a very specific pharmacological effect:</p>
+
+<div class="pull">
+<p>"Apigenin is a natural prokinetic. That means it gently stimulates the smooth muscle contractions of the stomach wall &mdash; the exact contractions that GLP-1 medications suppress. Think of it as physical therapy for a paralyzed gut. You're not forcing anything. You're waking up the muscles so they can do what they're designed to do: push food forward."</p>
+<cite>&mdash; Dr. Patricia Langford</cite>
+</div>
+
+<p>This is fundamentally different from every laxative on the market.</p>
+
+<p>Laxatives force the colon to purge. <strong>Prokinetics wake up the stomach so it can push.</strong></p>
+
+<p>One is downstream brute force. The other is upstream rehabilitation.</p>
+
+<p>And here's what gets me the most frustrated as a clinician:</p>
+
+<p><strong>The research on apigenin and gastric motility has existed for years.</strong> We've known that natural prokinetic compounds can support stomach emptying. But there was never a product designed specifically for GLP-1 users &mdash; because the pharmaceutical industry makes more money selling you Linzess at $600/month or Zofran at $15 a pill than telling you about a compound from celery.</p>
+
+<h2>The First Prokinetic Formula Designed Specifically for GLP-1 Digestive Issues</h2>
+
+<p>When a colleague showed me what a small supplement company had put together, I was skeptical. I've seen too many "digestive support" products that are just repackaged fiber or generic probiotics.</p>
+
+<p>But this one was different.</p>
+
+<p>It wasn't targeting the colon. It wasn't another fiber gummy. It was built around the <strong>upstream mechanism</strong> &mdash; getting the stomach itself to start moving again.</p>
+
+<p>The product is called <strong>Motilli</strong>, and here's what caught my attention as a gastroenterologist:</p>
+
+</div>
+
+<!-- INGREDIENT SECTION -->
+<div class="body">
+
+<div class="ingredient">
+<h3>Celery Juice Extract (Apigenin)</h3>
+<p>The core prokinetic compound. Gently stimulates the stomach's smooth muscle contractions &mdash; the exact contractions that GLP-1 medications suppress. This is the "upstream fix." It doesn't force your colon to purge. It wakes up your stomach so the Stomach Ink can finally move forward. This is what separates Motilli from every laxative and fiber supplement on the market.</p>
+</div>
+
+<div class="ingredient">
+<h3>Chlorophyll</h3>
+<p>Nature's internal deodorant. Chlorophyll binds to hydrogen sulfide gas &mdash; the compound responsible for those horrifying sulfur burps &mdash; and neutralizes it at the source. Not masking it. Not covering it with mint. <strong>Eliminating the gas itself</strong> before it can travel up your esophagus and announce your prescription to the room.</p>
+</div>
+
+<div class="ingredient">
+<h3>Prebiotic Fiber (Micro-Dose)</h3>
+<p>Most fiber supplements give you 5-10 grams and expect your suppressed appetite to handle it. Motilli uses a <strong>gentle micro-dose</strong> of prebiotic fiber &mdash; just enough to feed your good bacteria without the bloating, gas, or "cement stomach" feeling that full-dose fiber creates in GLP-1 users. Because when you can barely eat 800 calories a day, the last thing you need is 16 ounces of fiber sludge.</p>
+</div>
+
+<div class="ingredient">
+<h3>Vitamins A, C, K, B6, Folate</h3>
+<p>Here's what nobody mentions: when you're eating 800-1,200 calories a day on a GLP-1, you're not getting <em>nearly</em> enough essential nutrients. Your hair thins. Your skin dulls. You feel exhausted. Motilli replaces the specific vitamins that restricted eating depletes &mdash; without adding volume your stomach can't handle.</p>
+</div>
+
+<p>And the delivery format matters enormously: <strong>pectin-based gummies</strong> that melt in your mouth. No pills to swallow. No powders to mix. No 16-ounce drinks that trigger nausea. Two small gummies. That's it.</p>
+
+<h2>"I Stopped Believing Anything Could Work. Then I Tried This."</h2>
+
+<p>I want to be careful here. I'm a gastroenterologist, not a salesperson. But what my patients started reporting was hard to ignore.</p>
+
+</div>
+
+<!-- TESTIMONIALS -->
+<div class="body">
+
+<div class="testi">
+<div class="testi-top">
+<div class="testi-av">D</div>
+<div>
+<div class="testi-name">Diane M.</div>
+<div class="testi-sub">Verified Buyer &middot; On Wegovy 8 months</div>
+</div>
+</div>
+<div class="testi-text">"I'm 62 years old and I haven't had a normal bowel movement in THREE MONTHS. I'd tried Miralax every day, Dulcolax when it got desperate, two different fiber supplements, magnesium, and Smooth Move tea. Nothing. My daughter found Motilli and I honestly took them just to prove her wrong. By day 5 I went to the bathroom &mdash; normally &mdash; for the first time since starting Wegovy. I sat there and cried. I'm on week 6 now and I go every single morning. The sulfur burps are GONE. My husband noticed before I even told him."</div>
+<div class="testi-actions"><span class="like">&#128077; Like</span> <span>&#128172; Reply</span> <span>&#8599; Share</span></div>
+</div>
+
+<div class="testi">
+<div class="testi-top">
+<div class="testi-av">S</div>
+<div>
+<div class="testi-name">Sandra T.</div>
+<div class="testi-sub">Verified Buyer &middot; On Mounjaro 5 months</div>
+</div>
+</div>
+<div class="testi-text">"11 days. That's how long I went without going to the bathroom after my dose increase. I was in so much pain I almost went to the ER. My nightstand looked like a pharmacy &mdash; Colace, Miralax, Mag07, fiber gummies, probiotics. NOTHING touched it. Motilli was the first thing I tried that actually got things moving without the cramping. It was gentle. Like things just... started working again. I threw out every laxative in my medicine cabinet two weeks later."</div>
+<div class="testi-actions"><span class="like">&#128077; Like</span> <span>&#128172; Reply</span> <span>&#8599; Share</span></div>
+</div>
+
+<div class="testi">
+<div class="testi-top">
+<div class="testi-av">K</div>
+<div>
+<div class="testi-name">Karen L.</div>
+<div class="testi-sub">Verified Buyer &middot; On Ozempic 1 year</div>
+</div>
+</div>
+<div class="testi-text">"The sulfur burps were ruining my life. I teach third grade. Imagine standing in front of 25 eight-year-olds terrified you're going to burp rotten eggs. I was chewing gum constantly, keeping my distance, making excuses to step into the hallway. Within two weeks of Motilli the burps just... stopped. My stomach stopped feeling like I'd swallowed a bag of cement. I can eat a small dinner and actually feel it MOVE. I didn't know that was possible anymore."</div>
+<div class="testi-actions"><span class="like">&#128077; Like</span> <span>&#128172; Reply</span> <span>&#8599; Share</span></div>
+</div>
+
+<div class="testi">
+<div class="testi-top">
+<div class="testi-av">P</div>
+<div>
+<div class="testi-name">Patricia R.</div>
+<div class="testi-sub">Verified Buyer &middot; On Zepbound 4 months</div>
+</div>
+</div>
+<div class="testi-text">"I'm 58 and I've been on every diet since Jane Fonda. When my doctor put me on Zepbound I was thrilled &mdash; 14 pounds in the first month. Then the constipation hit like a freight train. Rabbit pellets. Concrete. Days and days of nothing. I found Motilli after reading about it in a Facebook group and I cannot overstate this: it gave me my life back. I go to the bathroom every morning like a normal person. My bloating is gone. I lost ANOTHER 6 pounds once things started moving because the inflammation went down. This should come with the prescription."</div>
+<div class="testi-actions"><span class="like">&#128077; Like</span> <span>&#128172; Reply</span> <span>&#8599; Share</span></div>
+</div>
+
+</div>
+
+<!-- OBJECTION HANDLING -->
+<div class="body">
+
+<h2>What I Tell My Patients Who Are Skeptical</h2>
+
+<p>I understand the skepticism. After trying 5, 8, 10 different products that all failed &mdash; why would this one be different?</p>
+
+<p>Here's why, in clinical terms:</p>
+
+<p><strong>Every product you've tried works on your colon.</strong> Motilli works on your <strong>stomach.</strong> It is a fundamentally different mechanism of action. That's not a marketing claim. That's anatomy.</p>
+
+<p>Your stomach muscles are suppressed by GLP-1 medication. Apigenin from celery juice extract gently stimulates those specific muscles. Chlorophyll neutralizes the hydrogen sulfide gas that's producing your sulfur burps. And the micro-dose prebiotic fiber feeds your gut bacteria without the bulk that makes fullness worse.</p>
+
+<p>It's three problems &mdash; motility, odor, and malnutrition &mdash; addressed by one small gummy. Taken twice a day.</p>
+
+<p><strong>"Will this interfere with my medication?"</strong></p>
+<p>No. Motilli contains food-based ingredients &mdash; celery juice extract, chlorophyll, vitamins. It's not a pharmaceutical. It's not a stimulant. It doesn't counteract your GLP-1. If anything, it <em>supports</em> it &mdash; because when your stomach can actually process food, you absorb more nutrients from what little you're eating, which means less fatigue, less hair loss, less "Ozempic Face."</p>
+
+<p><strong>"Is this just another fiber supplement?"</strong></p>
+<p>Absolutely not. Fiber adds bulk to your colon. Motilli wakes up your stomach. If fiber worked, you wouldn't still be suffering. The fact that you've tried fiber and it failed is actually <em>proof</em> that your problem is upstream &mdash; exactly where Motilli works.</p>
+
+<p><strong>"I've been like this for months. Is it too late?"</strong></p>
+<p>No. The stomach muscles haven't been damaged. They've been suppressed. The prokinetic compounds in celery juice extract don't rebuild muscle &mdash; they <strong>reactivate</strong> it. Like an alarm clock for a muscle that's been told to sleep. Most of my patients who've tried Motilli report noticeable changes within the first 1-2 weeks.</p>
+
+<p><strong>"Can a gummy really fix stomach paralysis?"</strong></p>
+<p>The celery juice community has been drinking 16 ounces of fresh celery juice every morning for years, reporting the same digestive benefits. Motilli concentrates the active compound &mdash; apigenin &mdash; into two small gummies. Same mechanism. Concentrated delivery. Without the 16 ounces of liquid that would make a GLP-1 user nauseous.</p>
+
+</div>
+
+<!-- GUARANTEE -->
+<div class="guarantee">
+<div class="guar-badge">
+<div class="days">60</div>
+<div class="label">Day Guarantee</div>
+</div>
+<h2>Every Order Comes With a 60-Day "Finally Going &mdash; Or Your Money Back" Guarantee</h2>
+<p>If you don't feel a real, meaningful difference in your digestion within 60 days, you get a full refund. No argument. No "customer service runaround." You have two full months to see if waking up your stomach is the missing piece &mdash; with zero financial risk.</p>
+</div>
+
+<!-- CTA -->
+<div class="cta-wrap">
+<a class="btn" href="https://trymotilli.co/products/motilli-digestive-health-gummies">CHECK AVAILABILITY &rarr;</a>
+</div>
+
+<!-- CLOSE -->
+<div class="body">
+
+<h2>Here's What I'd Tell You If You Were Sitting in My Office Right Now</h2>
+
+<p>You've been suffering in silence. You've been told it's "just a side effect." You've spent more money on laxatives and fiber supplements than you care to admit. And every morning, you sit on that toilet, hoping today is different &mdash; and it isn't.</p>
+
+<p>The reason nothing has worked is not because your body is broken. It's not because you're not drinking enough water. It's not because you haven't found the right fiber.</p>
+
+<p><strong>It's because every remedy you've tried has been working on the wrong organ.</strong></p>
+
+<p>The Stomach Ink &mdash; that thick, dark, fermented sludge sitting in your GLP-1-slowed stomach &mdash; has been the problem this entire time. And until you address it <em>at the source</em>, no amount of downstream intervention will give you relief.</p>
+
+<p>Motilli is the first product I've seen that targets the actual mechanism: gentle prokinetic stimulation of the stomach muscles, hydrogen sulfide neutralization for the burps, and targeted nutrition for everything you're missing because you can barely eat.</p>
+
+<p>It costs less than one month of Miralax. It comes as two small gummies per day. And it's backed by a 60-day money-back guarantee.</p>
+
+<p>I recommend starting with at least a 60-day supply so you give your stomach enough time to fully respond &mdash; and so you're covered by the guarantee for the entire period.</p>
+
+<p>Because you've already spent months suffering. You've already spent hundreds on products that can't reach the problem. <strong>You deserve to know what it feels like when your stomach actually wakes up.</strong></p>
+
+</div>
+
+<!-- CTA -->
+<div class="cta-wrap">
+<a class="btn" href="https://trymotilli.co/products/motilli-digestive-health-gummies">CHECK AVAILABILITY &rarr;</a>
+</div>
+
+<!-- PS -->
+<div class="ps-block">
+<p><strong>P.S.</strong> If you've read this far, you already know more about what's happening in your stomach than most doctors will ever explain to you. Motilli is currently available at a special introductory price &mdash; but the celery juice extract they use requires a specific growing season, and previous batches have sold out. If you know another woman on Ozempic, Wegovy, or Mounjaro who's been silently suffering with constipation &mdash; please share this page with her. Because what she thinks is a "colon problem" is almost certainly a stomach problem. And she deserves to know.</p>
+</div>
+
+<!-- CTA -->
+<div class="cta-wrap">
+<a class="btn" href="https://trymotilli.co/products/motilli-digestive-health-gummies">CHECK AVAILABILITY &rarr;</a>
+</div>
+
+<!-- FOOTER -->
+<div class="foot">
+<p>The statements made on this page are for educational purposes only and are not intended to replace the advice of your physician or healthcare provider. Individual results vary. Motilli Celery Juice Fiber Gummies are a dietary supplement and are not intended to diagnose, treat, cure or prevent any disease or health condition. Consult your healthcare provider before starting any new supplement regimen. Results portrayed are illustrative and based on individual customer experiences.</p>
+<p>&copy; 2026 Motilli. All Rights Reserved. <a href="/policies/terms-of-service">Terms</a> &middot; <a href="/policies/privacy-policy">Privacy</a> &middot; <a href="/policies/refund-policy">Returns</a></p>
+</div>
+
+</div><!-- /article -->
+</div><!-- /page -->

@@ -1,0 +1,157 @@
+{
+  "fetched_at_utc": "2026-09-13T16:48:15.310724+00:00",
+  "query": "FROM sessions SHOW sessions, online_store_visitors, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate, bounce_rate WHERE landing_page_path IN ('/products/velantra-weekender', '/products/the-eleanor-weekender') GROUP BY referrer_source, referrer_name SINCE 2026-09-07 UNTIL 2026-09-13 ORDER BY sessions DESC",
+  "status": 200,
+  "response": {
+    "data": {
+      "shopifyqlQuery": {
+        "tableData": {
+          "columns": [
+            {
+              "name": "referrer_source",
+              "dataType": "STRING",
+              "displayName": "Referrer source"
+            },
+            {
+              "name": "referrer_name",
+              "dataType": "STRING",
+              "displayName": "Referrer name"
+            },
+            {
+              "name": "sessions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions"
+            },
+            {
+              "name": "online_store_visitors",
+              "dataType": "INTEGER",
+              "displayName": "Online store visitors"
+            },
+            {
+              "name": "sessions_with_cart_additions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions with cart additions"
+            },
+            {
+              "name": "sessions_that_reached_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that reached checkout"
+            },
+            {
+              "name": "sessions_that_completed_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that completed checkout"
+            },
+            {
+              "name": "conversion_rate",
+              "dataType": "PERCENT",
+              "displayName": "Conversion rate"
+            },
+            {
+              "name": "bounce_rate",
+              "dataType": "PERCENT",
+              "displayName": "Bounce rate"
+            }
+          ],
+          "rows": [
+            {
+              "referrer_source": "direct",
+              "referrer_name": null,
+              "sessions": "133",
+              "online_store_visitors": "100",
+              "sessions_with_cart_additions": "5",
+              "sessions_that_reached_checkout": "3",
+              "sessions_that_completed_checkout": "2",
+              "conversion_rate": "0.015037593984962405",
+              "bounce_rate": "0.7894736842105263"
+            },
+            {
+              "referrer_source": "social",
+              "referrer_name": "instagram",
+              "sessions": "37",
+              "online_store_visitors": "36",
+              "sessions_with_cart_additions": "5",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7297297297297297"
+            },
+            {
+              "referrer_source": "social",
+              "referrer_name": "facebook",
+              "sessions": "36",
+              "online_store_visitors": "35",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.027777777777777776",
+              "bounce_rate": "0.6388888888888888"
+            },
+            {
+              "referrer_source": "search",
+              "referrer_name": "google",
+              "sessions": "8",
+              "online_store_visitors": "8",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.625"
+            },
+            {
+              "referrer_source": "unknown",
+              "referrer_name": "dianxiaomi",
+              "sessions": "3",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.0"
+            },
+            {
+              "referrer_source": "unknown",
+              "referrer_name": "elfster",
+              "sessions": "2",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "referrer_source": "unknown",
+              "referrer_name": "chatgpt",
+              "sessions": "1",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.0"
+            }
+          ]
+        },
+        "parseErrors": []
+      }
+    },
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 3,
+        "actualQueryCost": 3,
+        "throttleStatus": {
+          "maximumAvailable": 4000.0,
+          "currentlyAvailable": 3997,
+          "restoreRate": 200.0
+        }
+      },
+      "shopifyqlCost": {
+        "requestedQueryCost": 38,
+        "maximumAvailable": 1000,
+        "currentlyAvailable": 902,
+        "windowResetAt": "2026-09-13T16:49:00+00:00"
+      }
+    }
+  }
+}

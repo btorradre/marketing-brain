@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_content_dWEPqQ": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_CdNmVG": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"vh-contact-header\" role=\"region\" aria-labelledby=\"vh-contact-title\"> \n  <h2 id=\"vh-contact-title\">Contact Us<\/h2>\n  <p class=\"vh-contact-sub\">Our customer service is available from Monday to Friday between 9:00 am to 5:00 pm.<\/p>\n\n  <div class=\"vh-contact-details\" aria-label=\"Customer service contact information\">\n    <p class=\"vh-contact-line\">\n      <strong>Email:<\/strong>\n      <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com<\/a>\n    <\/p>\n    <p class=\"vh-contact-line\">\n      <strong>Phone:<\/strong>\n      <a href=\"tel:+15550123478\">+1 (555) 012-3478<\/a>\n    <\/p>\n    <p class=\"vh-contact-line\">\n      <strong>Address:<\/strong>\n      259 Spring Street, Mooresville, NC, 28115, United States\n    <\/p>\n  <\/div>\n<\/div>\n\n<style>\n  \/* Scope everything to THIS custom-liquid section *\/\n  #shopify-section-{{ section.id }}{\n    padding-top:0 !important;\n    padding-bottom:0 !important;\n    margin:0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .vh-contact-header{\n    margin:0 0 8px 0; \/* small breathing room before the form *\/\n    text-align:center;\n  }\n\n  #shopify-section-{{ section.id }} .vh-contact-header h2{\n    margin:0;                \/* kill default heading margins *\/\n    line-height:1.1;\n    font-size:clamp(22px, 2.2vw, 32px);\n    letter-spacing:.02em;\n    font-weight:600;\n  }\n\n  #shopify-section-{{ section.id }} .vh-contact-header .vh-contact-sub{\n    margin:6px 0 0 0;        \/* minimal space under the title *\/\n    font-size:clamp(14px, 1.3vw, 16px);\n    color:rgba(0,0,0,.65);\n  }\n\n  #shopify-section-{{ section.id }} .vh-contact-details{\n    margin:10px auto 0;\n    max-width:780px;\n    text-align:center;\n    font-size:clamp(14px, 1.3vw, 16px);\n    color:rgba(0,0,0,.80);\n  }\n\n  #shopify-section-{{ section.id }} .vh-contact-details .vh-contact-line{\n    margin:4px 0;\n  }\n\n  #shopify-section-{{ section.id }} .vh-contact-details a{\n    text-decoration:underline;\n  }\n\n  \/* Remove any top gap on the NEXT section (your contact form) *\/\n  #shopify-section-{{ section.id }} + .shopify-section{\n    padding-top:0 !important;\n    margin-top:0 !important;\n  }\n\n  \/* Optional: align to left instead of center\n  #shopify-section-{{ section.id }} .vh-contact-header{ text-align:left; }\n  *\/\n<\/style>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_CdNmVG"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_content_dWEPqQ",
+    "form"
+  ]
+}

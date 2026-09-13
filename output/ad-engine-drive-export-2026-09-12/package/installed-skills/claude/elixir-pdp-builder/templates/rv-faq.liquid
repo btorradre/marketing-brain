@@ -1,0 +1,28 @@
+<section class="rvfaq">
+  <p class="rvfaq-eyebrow">Frequently Asked Questions</p>
+  <h2 class="rvfaq-h2">Common questions we hear from customers</h2>
+  <div class="rvfaq-grid">
+    <details class="rvfaq-item"><summary>Will this Apple Pie gummy spike my morning glucose?</summary><div>It's sweetened with stevia and monk fruit on a pectin base — zero sugar, zero maltitol, zero sugar alcohols. The apple-pie is flavor, not sugar.</div></details>
+    <details class="rvfaq-item"><summary>Why a gummy instead of a capsule?</summary><div>Because you chew it. A capsule is swallowed whole into stomach acid that destroys most of the active. Chewing starts the breakdown in your mouth — and it's gentle on a metformin-irritated stomach.</div></details>
+    <details class="rvfaq-item"><summary>Is this real Ceylon or cheap Cassia?</summary><div>Made with true Ceylon — Cinnamomum verum — and third-party tested. Cassia can carry far more coumarin, a burden on the liver at meaningful doses.</div></details>
+    <details class="rvfaq-item"><summary>Is 2,000mg enough? Other brands say 7,200mg.</summary><div>The number on the label isn't the number that reaches your cells. A capsule swallowed whole is mostly flushed. Chewed and pre-digested, 2,000mg of true Ceylon absorbs where digestion begins.</div></details>
+    <details class="rvfaq-item"><summary>Is this one of those autoship traps?</summary><div>No hidden subscriptions and no surprise charges. Buy once, or subscribe to save and pause, skip, or cancel anytime — backed by a 90-day money-back guarantee.</div></details>
+    <details class="rvfaq-item"><summary>How do I take it?</summary><div>Chew two gummies daily, ideally in the morning. Each bottle is a 30-day supply (60 gummies). Take it consistently — it's a daily antioxidant ritual, not a quick fix.</div></details>
+    <details class="rvfaq-item"><summary>Is it third-party tested and made in the USA?</summary><div>Yes — manufactured in a GMP-certified facility in the USA and third-party tested for purity. Vegan, gluten-free, and non-GMO.</div></details>
+    <details class="rvfaq-item"><summary>How fast is shipping?</summary><div>Standard shipping is typically 3–5 business days in the continental US. Orders of 3+ bottles ship free.</div></details>
+  </div>
+</section>
+<style>
+.rvfaq{max-width:980px;margin:0 auto;padding:60px 22px;text-align:center;}
+.rvfaq-eyebrow{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:__BRAND__;margin:0 0 8px;}
+.rvfaq-h2{font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:30px;font-weight:800;color:__INK__;margin:0 0 32px;}
+.rvfaq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left;}
+.rvfaq-item{background:__OFF__;border:1px solid __LINE__;border-radius:12px;padding:0 18px;}
+.rvfaq-item summary{list-style:none;cursor:pointer;padding:18px 0;font-size:15.5px;font-weight:700;color:__INK__;display:flex;justify-content:space-between;align-items:center;}
+.rvfaq-item summary::-webkit-details-marker{display:none;}
+.rvfaq-item summary::after{content:"+";color:__BRAND__;font-size:22px;font-weight:400;margin-left:12px;}
+.rvfaq-item[open] summary::after{content:"\2212";}
+.rvfaq-item div{padding:0 0 18px;font-size:14.5px;line-height:1.55;color:__MUTED__;}
+@media(max-width:820px){.rvfaq{padding:44px 18px;}.rvfaq-grid{grid-template-columns:1fr;}.rvfaq-h2{font-size:24px;}}
+</style>
+{% schema %}{"name":"RV FAQ","settings":[],"presets":[{"name":"RV FAQ"}]}{% endschema %}

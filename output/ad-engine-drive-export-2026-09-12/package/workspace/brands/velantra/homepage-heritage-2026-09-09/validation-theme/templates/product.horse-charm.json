@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>A playful nod to equestrian style. The Horse Charm adds a little movement and personality to a favorite bag, with a familiar silhouette that feels collected rather than formal. A small detail for the woman who always makes a look her own.<\/p>",
+        "fact_material": "Smooth finish; padded shape",
+        "fact_detail": "A softly padded profile and carefully shaped details give the little horse its character.",
+        "preorder_lead_time": "10 days before dispatch",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": false,
+        "fact_carry": "10 days before dispatch",
+        "lead_time": "10 days before dispatch",
+        "hide_unassigned_media": true
+      },
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>A horse-shaped bag charm with attachment and decorative details that vary by colorway. Follow the selected color’s photographs for the exact finish and shape.<\/p>",
+            "open": false
+          }
+        },
+        "tab_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>Wipe gently with a soft, dry cloth. Avoid prolonged moisture and store without compressing the padded shape.<\/p>",
+            "open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Shipping & delivery",
+            "content": "<p>Please allow 10 days from your order to dispatch. Delivery time is additional and varies by destination. You will receive tracking details when your order ships. See our <a href=\"\/policies\/shipping-policy\">shipping policy<\/a> for delivery information.<\/p>",
+            "open": false
+          }
+        },
+        "tab_returns": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Returns are accepted within 30 days of delivery for unused items in their original packaging with tags attached. To arrange a return, contact <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com<\/a>. See our <a href=\"\/policies\/refund-policy\">return policy<\/a> for full conditions.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_care",
+        "tab_shipping",
+        "tab_returns"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

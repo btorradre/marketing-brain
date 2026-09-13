@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 4,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "VEL-COL-015-street-phone-check.mp4",
+        "size": 2622244,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "VEL-COL-015-street-phone-check.mp4",
+        "uploadPath": "broll/library-2026-08/clips/VEL-COL-015-street-phone-check.mp4",
+        "durationInSeconds": 10.005,
+        "height": 1280,
+        "width": 720,
+        "hasAudioTrack": true,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 2,
+          "sampleRate": 48000,
+          "integratedLufs": -58.8
+        },
+        "sourceManifest": {
+          "audioChannels": 2,
+          "audioSampleRate": 48000,
+          "audioStartOffsetInSeconds": 0,
+          "audioStreamDurationInSeconds": 10.005,
+          "originalFilename": "VEL-COL-015-street-phone-check.mp4",
+          "videoStreamDurationInSeconds": 10
+        }
+      },
+      "result": {
+        "assetId": "45588691-7a9e-4222-a63f-20ca7655c657",
+        "assetType": "video",
+        "filename": "VEL-COL-015-street-phone-check.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/45588691-7a9e-4222-a63f-20ca7655c657/VEL-COL-015-street-phone-check.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/45588691-7a9e-4222-a63f-20ca7655c657/VEL-COL-015-street-phone-check.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/45588691-7a9e-4222-a63f-20ca7655c657/VEL-COL-015-street-phone-check.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/video/45588691-7a9e-4222-a63f-20ca7655c657/VEL-COL-015-street-phone-check.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "broll/library-2026-08/clips/VEL-COL-015-street-phone-check.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "audio",
+        "contentType": "audio/ogg",
+        "filename": "VO-A-w40.ogg",
+        "size": 580278,
+        "sourceType": "audio",
+        "transcodeReason": "audio assets follow the frontend Ogg/Opus upload path",
+        "transcoded": true,
+        "uploadFilename": "VO-A-w40.ogg",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-VO-A-w40-audio-94041-2.ogg",
+        "durationInSeconds": 28.989388,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 1,
+          "sampleRate": 48000,
+          "integratedLufs": -29.3
+        },
+        "sourceManifest": {
+          "audioStartOffsetInSeconds": 0.025057,
+          "audioStreamDurationInSeconds": 28.989388,
+          "channels": 1,
+          "originalFilename": "VO-A-w40.mp3",
+          "sampleRate": 44100
+        }
+      },
+      "result": {
+        "assetId": "fc105d64-18d2-4a9e-aa8d-a6e69773a61a",
+        "assetType": "audio",
+        "filename": "VO-A-w40.ogg",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/fc105d64-18d2-4a9e-aa8d-a6e69773a61a/VO-A-w40.ogg",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/fc105d64-18d2-4a9e-aa8d-a6e69773a61a/VO-A-w40.ogg",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/fc105d64-18d2-4a9e-aa8d-a6e69773a61a/VO-A-w40.ogg",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/fc105d64-18d2-4a9e-aa8d-a6e69773a61a/VO-A-w40.ogg",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/vo/w40/VO-A-w40.mp3"
+    },
+    {
+      "metadata": {
+        "assetType": "audio",
+        "contentType": "audio/ogg",
+        "filename": "VO-B-w40.ogg",
+        "size": 576976,
+        "sourceType": "audio",
+        "transcodeReason": "audio assets follow the frontend Ogg/Opus upload path",
+        "transcoded": true,
+        "uploadFilename": "VO-B-w40.ogg",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-VO-B-w40-audio-94041-3.ogg",
+        "durationInSeconds": 28.060408,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 1,
+          "sampleRate": 48000,
+          "integratedLufs": -27.3
+        },
+        "sourceManifest": {
+          "audioStartOffsetInSeconds": 0.025057,
+          "audioStreamDurationInSeconds": 28.060408,
+          "channels": 1,
+          "originalFilename": "VO-B-w40.mp3",
+          "sampleRate": 44100
+        }
+      },
+      "result": {
+        "assetId": "078aaad8-0fd6-4de6-bc31-7efb0af565ce",
+        "assetType": "audio",
+        "filename": "VO-B-w40.ogg",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/078aaad8-0fd6-4de6-bc31-7efb0af565ce/VO-B-w40.ogg",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/078aaad8-0fd6-4de6-bc31-7efb0af565ce/VO-B-w40.ogg",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/078aaad8-0fd6-4de6-bc31-7efb0af565ce/VO-B-w40.ogg",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/078aaad8-0fd6-4de6-bc31-7efb0af565ce/VO-B-w40.ogg",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/vo/w40/VO-B-w40.mp3"
+    },
+    {
+      "metadata": {
+        "assetType": "audio",
+        "contentType": "audio/ogg",
+        "filename": "VO-C-w40.ogg",
+        "size": 580755,
+        "sourceType": "audio",
+        "transcodeReason": "audio assets follow the frontend Ogg/Opus upload path",
+        "transcoded": true,
+        "uploadFilename": "VO-C-w40.ogg",
+        "uploadPath": "/var/folders/6s/1n0789r93311dlllbrmg9v980000gq/T/chatcut-VO-C-w40-audio-94041-4.ogg",
+        "durationInSeconds": 28.617143,
+        "startTranscription": true,
+        "loudness": {
+          "channelCount": 1,
+          "sampleRate": 48000,
+          "integratedLufs": -27.2
+        },
+        "sourceManifest": {
+          "audioStartOffsetInSeconds": 0.025057,
+          "audioStreamDurationInSeconds": 28.617143,
+          "channels": 1,
+          "originalFilename": "VO-C-w40.mp3",
+          "sampleRate": 44100
+        }
+      },
+      "result": {
+        "assetId": "84d727db-9f55-421f-9816-0b839d4b72b2",
+        "assetType": "audio",
+        "filename": "VO-C-w40.ogg",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/84d727db-9f55-421f-9816-0b839d4b72b2/VO-C-w40.ogg",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/84d727db-9f55-421f-9816-0b839d4b72b2/VO-C-w40.ogg",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/84d727db-9f55-421f-9816-0b839d4b72b2/VO-C-w40.ogg",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/56eb1025-80f0-418b-8b86-863783f416b4/assets/audio/84d727db-9f55-421f-9816-0b839d4b72b2/VO-C-w40.ogg",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "concepts/2026-08-21 - perfect fall bag greenscreen x3/vo/w40/VO-C-w40.mp3"
+    }
+  ]
+}

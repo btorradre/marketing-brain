@@ -1,0 +1,16 @@
+[
+  {
+    "score": 0.77343386,
+    "content": "Hero with art direction and position-aware loading {%- liquid # Test the below-the-fold case positively so a nil section.index stays eager. if section.index > 2 assign hero_loading = 'lazy' assign hero_fetchpriority = 'auto' else assign hero_loading = 'eager' assign hero_fetchpriority = 'high' endif -%} <picture> <source media=\"(max-width: 749px)\" srcset=\" {{ section.settings.mobile_image | image_url: width: 400 }} 400w, {{ section.settings.mobile_image | image_url: width: 600 }} 600w, {{ section.settings.mobile_image | image_url: width: 800 }} 800w \" sizes=\"100vw\" width=\"{{ section.settings.mobile_image.width }}\" height=\"{{ section.settings.mobile_image.height }}\" > {{ section.settings.desktop_image | image_url: width: 1600 | image_tag: loading: hero_loading, fetchpriority: hero_fetchpriority, widths: '800, 1200, 1600', sizes: '100vw' }} </picture> Testing Responsive Image Linter (browser extension): highlights images where sizes doesn't match the actual rendered size, showing exactly how much bandwidth is wasted. DevTools Network panel at different viewports: resize the viewport and reload. Check that the image URLs change and that smaller images are requested at narrower widths. DevTools device mode: throttle the connection to 3G and test on a phone-sized viewport. Oversized images become obvious when load times spike. Lighthouse: run audits in both mobile and desktop mode. The Properly size images audit flags images where the downloaded size exceeds the rendered size.",
+    "url": "https://shopify.dev/docs/storefronts/themes/best-practices/performance/implement-responsive-design",
+    "title": "Build responsive layouts that perform well on mobile",
+    "domain": "liquid"
+  },
+  {
+    "score": 0.76992685,
+    "content": "References image_tag filter image_url filter section.index Use responsive images Use section.index for position-aware optimizations Reduce mega-menu DOM overhead Never lazy-load the LCP image Prevent image layout shift Use the <picture> element when you have separate mobile and desktop images Section Rendering API",
+    "url": "https://shopify.dev/docs/storefronts/themes/best-practices/performance/implement-responsive-design",
+    "title": "Build responsive layouts that perform well on mobile",
+    "domain": "liquid"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "shot": "S11",
+  "verdict": "minor_issue",
+  "observed_motion": "The woman shifts from a subtle hopeful smile into a reflective, serious expression while lightly adjusting her hands on her stomach. The cut to the following morning is omitted.",
+  "issues": [
+    {
+      "time_s": 2.25,
+      "description": "Subtle warping around the fingertips and abdomen as the hands shift positions.",
+      "severity": "moderate"
+    },
+    {
+      "time_s": 3.0,
+      "description": "Omission of the cut to returning to the counter.",
+      "severity": "moderate"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 2.0,
+  "confidence": 7,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S11-4fps.jpg"
+}

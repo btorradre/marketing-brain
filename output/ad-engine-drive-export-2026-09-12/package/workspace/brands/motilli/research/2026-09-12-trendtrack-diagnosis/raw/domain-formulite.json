@@ -1,0 +1,135 @@
+{
+  "jsonrpc": "2.0",
+  "id": "domain-formulite",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Meta ad search — \"formulite.com.au\"\n\n## Results (0)\n\n_No Meta ads returned. Try broader keywords, removing filters, or a smaller trend constraint._\n\n---\n\nFilters applied: search=[\"formulite.com.au\"], searchType=\"domain\", keywordMode=\"any\", sortBy=\"longestRunning\", order=\"desc\", page=1, limit=8, platforms=[\"facebook\"], status=\"active\"\n\n---\nCredits used: 0 | Remaining: 7278"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "9cd3f7a8-e3ab-4fa3-ba37-f7a77653d905",
+      "data": [],
+      "pagination": {
+        "page": 1,
+        "limit": 8,
+        "total": 0,
+        "totalPages": 0,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "query": "formulite.com.au",
+        "keywords": [],
+        "searchIn": "domain",
+        "categoryIds": [],
+        "country": null,
+        "countryFilterKind": "audienceCountry",
+        "adCountries": null,
+        "mainCountries": [],
+        "trendSignal": "reach_growth_7d",
+        "sortBy": "longestRunning",
+        "order": "desc",
+        "requestedLimit": 8,
+        "effectiveLimit": 8,
+        "activeOnly": true,
+        "status": "active",
+        "page": 1,
+        "minTrafficGrowthPercent": null,
+        "trafficGrowthPeriod": null,
+        "trafficGrowth": null,
+        "adsGrowth": null,
+        "pageReachGrowth": null,
+        "adReachGrowth": null,
+        "language": null,
+        "adLanguages": [],
+        "cta": [],
+        "currency": null,
+        "currencies": [],
+        "shopifyAppIds": [],
+        "excludeShopifyAppIds": [],
+        "pixelIds": [],
+        "excludePixelIds": [],
+        "themeIds": [],
+        "filters": {
+          "search": [
+            "formulite.com.au"
+          ],
+          "searchType": "domain",
+          "keywordMode": "any",
+          "sortBy": "longestRunning",
+          "order": "desc",
+          "page": 1,
+          "limit": 8,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active"
+        },
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "countryBreakdowns": [
+          {
+            "path": "data[].audience.targetedCountries",
+            "meaning": "Full ad targeting country list, including non-EU markets such as US."
+          },
+          {
+            "path": "data[].audience.mainCountry",
+            "meaning": "Primary audience country from Meta's EU/UK ad transparency data; null for ads outside that scope, even when the ad targets those markets."
+          },
+          {
+            "path": "data[].advertiser.countriesCount",
+            "meaning": "Number of advertiser countries detected; not a country split."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].collationId",
+            "meaning": "Identifier of the combined creative represented by this search result. Pass it as scan_ad.collation_id to scan the same aggregate instead of only the representative ad."
+          },
+          {
+            "path": "data[].advertiser",
+            "meaning": "Facebook page identity, reach, followers, and live ads."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnails, and media URLs."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].audience",
+            "meaning": "Country, gender, and age targeting fields."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 8,
+        "effectiveUnits": 8,
+        "actualUnits": 0,
+        "costUnits": 0,
+        "recurringUnits": 0,
+        "topupUnits": 0,
+        "creditsRemaining": 7278,
+        "creditsSourceHeader": null,
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

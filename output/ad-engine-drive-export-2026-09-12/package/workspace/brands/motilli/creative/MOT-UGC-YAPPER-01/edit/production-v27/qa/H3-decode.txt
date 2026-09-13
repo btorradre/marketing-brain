@@ -1,0 +1,50 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/deliverables/Motilli-VSL-V27-H3-1.1x.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    creation_time   : 2026-09-12T00:10:11.000000Z
+    encoder         : Blackmagic Design DaVinci Resolve
+  Duration: 00:03:50.44, start: 0.000000, bitrate: 16344 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920, 16024 kb/s, SAR 1:1 DAR 9:16, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      creation_time   : 2026-09-12T00:10:11.000000Z
+      handler_name    : VideoHandler
+      encoder         : H.264
+      timecode        : 00:00:00:00
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 319 kb/s (default)
+    Metadata:
+      creation_time   : 2026-09-12T00:10:11.000000Z
+      handler_name    : SoundHandler
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74) (default)
+    Metadata:
+      creation_time   : 2026-09-12T00:10:11.000000Z
+      handler_name    : TimeCodeHandler
+      timecode        : 00:00:00:00
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 270x480 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.102 wrapped_avframe
+      creation_time   : 2026-09-12T00:10:11.000000Z
+      handler_name    : VideoHandler
+      timecode        : 00:00:00:00
+frame=  608 fps=0.0 q=-0.0 size=N/A time=00:00:20.26 bitrate=N/A speed=40.3x elapsed=0:00:00.50    
+frame= 1266 fps=1256 q=-0.0 size=N/A time=00:00:42.20 bitrate=N/A speed=41.9x elapsed=0:00:01.00    
+frame= 1938 fps=1281 q=-0.0 size=N/A time=00:01:04.60 bitrate=N/A speed=42.7x elapsed=0:00:01.51    
+frame= 2624 fps=1300 q=-0.0 size=N/A time=00:01:27.46 bitrate=N/A speed=43.3x elapsed=0:00:02.01    
+frame= 3270 fps=1298 q=-0.0 size=N/A time=00:01:49.00 bitrate=N/A speed=43.3x elapsed=0:00:02.51    
+frame= 3927 fps=1299 q=-0.0 size=N/A time=00:02:10.90 bitrate=N/A speed=43.3x elapsed=0:00:03.02    
+frame= 4544 fps=1288 q=-0.0 size=N/A time=00:02:31.46 bitrate=N/A speed=42.9x elapsed=0:00:03.52    
+frame= 5197 fps=1288 q=-0.0 size=N/A time=00:02:53.23 bitrate=N/A speed=42.9x elapsed=0:00:04.03    
+frame= 5847 fps=1289 q=-0.0 size=N/A time=00:03:14.90 bitrate=N/A speed=  43x elapsed=0:00:04.53    
+frame= 6444 fps=1279 q=-0.0 size=N/A time=00:03:34.80 bitrate=N/A speed=42.6x elapsed=0:00:05.04    
+[out#0/null @ 0x88101c300] video:2862KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 6911 fps=1281 q=-0.0 Lsize=N/A time=00:03:50.36 bitrate=N/A speed=42.7x elapsed=0:00:05.39    

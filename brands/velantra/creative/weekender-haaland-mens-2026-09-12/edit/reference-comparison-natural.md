@@ -1,0 +1,17 @@
+# Reference comparison — Natural voice revision
+
+Reference: Alec Grawe FTL Pro, DbdW5anAxg5.mp4,41.7667s,30fps,720×1280. Re-inspected the actual 30 consecutive candidate pairs in boundaries-0/1/2/3.jpg and chronological contact. Prior candidate timings verified against source; reference cut-map.csv remains the authoritative measured picture map. Reference sound/cadence additionally compared to newly generated audio with an audio-capable model; that is not a human listening claim.
+
+| Observed reference choice | Revised Weekender implementation and reason |
+|---|---|
+| Athlete photo handoffs0.80,1.63,2.53s; continuing large microphone presenter and red/white headline | Two hook photos at0/0.83, third at2.27 on “The guy”; larger presenter on first two. Keep athlete recognition but use exact approved Haaland sentence rather than inventing another athlete name to force four photos. |
+| Product split view4.17s, athlete red outfit6.40s, organization demo8.13s | Distinct Weekender reveal6.60s on buying bridge, product split11.63s on construction. The exact script and clear separation from celebrity styling govern reveal time. |
+| Direct picture changes; internal foldout action holds16.37–20.87s, then named feature demos20.87/24.70/27.47/29.40 | Direct cuts on named material/outfit/pocket cues; hold completed restrained gesture through each phrase. No synthetic transition or repeated crop counts as a new scene. |
+| Presenter moves to avoid the active demonstration; compact white all-caps phrase bars; source inset does not fill the screen | Same original presenter remains an anchor through S12; smaller keyed inset after hook. Pocket inset moves right; S07 captions below inset, hardware remains clear. All text/background frame dimensions explicitly equal and each rendered glyph center measured. |
+| Late use-case montage30.70/33.40/34.97/35.87/37.90s; skyline hero39.80s | Three distinct named wardrobe looks26.83/29.10/29.77, supported pocket31.37, hotel payoff36.20, skyline bag hero40.47. Preserve fashion aspiration and exact Weekender facts, omit unsupported reference luggage/fee claims. |
+| Closing product retains reference presenter/caption | Deliberate user-directed difference: bag-only hero, spoken CTA, two-second clean end hold; no text or presenter on S13. |
+| Fast peer delivery, natural face performance | Fresh permitted reference clone, Eleven v3 Natural0.5, no post speed change; regenerate original presenter with explicitly selected Avatar V. Output quality checked separately from model-name evidence. |
+
+Target45.70s is longer than reference41.77s because selected Natural narration ends43.68s and the requested clean hold follows. Do not force reference length by speeding or dropping words. Both use an opening photo run, early named reveal, longer detail demonstrations and faster named list. Main target picture count13 differs from reference21; the reference includes more feature claims and a problem montage that this approved aspirational script intentionally omits.
+
+Final S11 uses actual owner-shot IMG_4051.MOV8.50–13.333s, finishing the opening then showing the physical wide slip pocket. The generated substitute was rejected for an invented zipper. Current pocket captions sit above the opening and presenter below it. All12final picture cut pairs inspected, including the revised S11 boundaries; all31phrase captions and4hook labels measured centered within2.5px horizontal/2.1px vertical. Final current evidence and review limits: production/qa-natural/final-review.md.

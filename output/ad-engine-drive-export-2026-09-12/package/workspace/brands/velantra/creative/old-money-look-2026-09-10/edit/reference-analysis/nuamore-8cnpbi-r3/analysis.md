@@ -1,0 +1,9 @@
+# Nuamore 8cnpbi — frame audit
+
+Actual linked media downloaded: 360×640, 30/1 fps, 738 frames / 24.600s; audio stream 24.638s. Source and hash in provenance.json. All 738 frames visually inspected consecutively in 21 sheets; all ten picture interval boundaries checked on consecutive frames, with native-size pairs in details/. This is full consecutive visual coverage at sheet resolution plus native boundary inspection, not every frame at native size.
+
+The defining layout is one continuously visible keyed presenter in the lower-left from frame zero. Behind her: one long raw phone action with a same-setup jump at frame 172, two held style photos, then a screen-recorded product gallery with direct image changes and a final scroll. No presenter entrance/exit, rectangular frame, dissolve, automated photo zoom or full-screen presenter bridge observed. Pacing changes by section: 11.5s native action; 2.27s and 2.6s style-photo holds; shorter gallery examples, then a 2.63s final product view/scroll.
+
+White outlined phrase captions sit near the lower center and change independently of picture cuts. Native smartphone capture hardware and precise font/preset are unverified. Music: separate machine audio review reports a continuous light electronic/pop instrumental beneath clear speech; no distinct SFX detected. This is model perceptual evidence, not manual audible listening. No exact soundtrack/mix-level claim.
+
+Transfer: preserve the persistent lower-left guide, simple phrase captions and direct visual changes. Preserve the approved Eleanor copy, corrected bag images and reveal on its name. Do not import celebrity endorsement, watch features, source offer or price claims. Keep varied product/outfit scenes; a gallery-like series of clean product photos can carry the close without fabricating a storefront.

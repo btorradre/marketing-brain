@@ -1,0 +1,232 @@
+{
+  "id": "Ocl2GtzjeQQwX8AcA",
+  "actId": "GdWCkxBtKWOsKjdch",
+  "userId": "s8Vnd3fTfZNdO5yod",
+  "startedAt": "2026-09-11T20:29:19.367Z",
+  "finishedAt": "2026-09-11T20:30:12.535Z",
+  "status": "SUCCEEDED",
+  "statusMessage": "Scraped 8/8 search queries",
+  "isStatusMessageTerminal": true,
+  "meta": {
+    "origin": "API",
+    "userAgent": "python-requests/2.34.2"
+  },
+  "stats": {
+    "inputBodyLen": 843,
+    "migrationCount": 0,
+    "rebootCount": 0,
+    "restartCount": 0,
+    "durationMillis": 52980,
+    "resurrectCount": 0,
+    "runTimeSecs": 52.98,
+    "metamorph": 0,
+    "computeUnits": 0.058866666666666664,
+    "memAvgBytes": 373783983.6736988,
+    "memMaxBytes": 394289152,
+    "memCurrentBytes": 0,
+    "cpuAvgUsage": 20.073821220537553,
+    "cpuMaxUsage": 265.2562051282051,
+    "cpuCurrentUsage": 0,
+    "netRxBytes": 2667184,
+    "netTxBytes": 1204229
+  },
+  "options": {
+    "build": "latest",
+    "timeoutSecs": 1800,
+    "memoryMbytes": 4096,
+    "maxTotalChargeUsd": 2,
+    "maxItems": null,
+    "isMaxTotalChargeUsdSetByUser": true,
+    "diskMbytes": 8192
+  },
+  "buildId": "uh9T0dMQUsVjlQ2oU",
+  "exitCode": 0,
+  "defaultKeyValueStoreId": "[REDACTED_SECRET]",
+  "defaultDatasetId": "nypoY845MAFWh4RUj",
+  "defaultRequestQueueId": "Qe30zXKTDO5bzoEgv",
+  "storageIds": {
+    "keyValueStores": {
+      "default": "[REDACTED_SECRET]"
+    },
+    "datasets": {
+      "default": "nypoY845MAFWh4RUj"
+    },
+    "requestQueues": {
+      "default": "Qe30zXKTDO5bzoEgv"
+    }
+  },
+  "pricingInfo": {
+    "minimalMaxTotalChargeUsd": 0.5,
+    "pricingModel": "PAY_PER_EVENT",
+    "isPriceChangeNotificationSuppressed": false,
+    "createdAt": "2026-08-18T07:19:07.761Z",
+    "startedAt": "2026-08-18T07:19:07.761Z",
+    "apifyMarginPercentage": 0.2,
+    "notifiedAboutChangeAt": "2026-08-19T08:06:30.611Z",
+    "pricingPerEvent": {
+      "actorChargeEvents": {
+        "result": {
+          "eventTitle": "Result",
+          "eventDescription": "Cost per result returned.",
+          "isOneTimeEvent": false,
+          "isPrimaryEvent": true,
+          "eventPriceUsd": 0.003
+        },
+        "filter-applied": {
+          "eventTitle": "Add-on: Date filter",
+          "eventDescription": "Extra cost when date filtering is used.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "popularity-filter-applied": {
+          "eventTitle": "Add-on: Popularity filter",
+          "eventDescription": "Extra cost when filtering by popularity is used.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "follower-dataset-item": {
+          "eventTitle": "Add-on: Follower / Following",
+          "eventDescription": "Extra cost per follower / following profile returned.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.003
+        },
+        "mobile-filter-sorting-applied": {
+          "eventTitle": "Add-on: Search video sorting",
+          "eventDescription": "Extra cost for scraping the sorted videos.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "video-download": {
+          "eventTitle": "Add-on: video download",
+          "eventDescription": "Extra cost when downloading video is enabled.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "comment-dataset-item": {
+          "eventTitle": "Add-on: Comment",
+          "eventDescription": "Extra cost per comment returned.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "scrape-as-in-country": {
+          "eventTitle": "Add-on: Scrape as in country",
+          "eventDescription": "Extra cost for scraping as if in a specific country.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "transcription-minute": {
+          "eventTitle": "Add-on: Transcript",
+          "eventDescription": "Extra cost charged per started minute per video.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.041
+        },
+        "ai-video-description": {
+          "eventTitle": "Add-on: AI Description",
+          "eventDescription": "Extra cost for timestamped AI description of a video per second.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "ai-video-summary": {
+          "eventTitle": "Add-on: AI Summary",
+          "eventDescription": "Extra cost for AI summary of a video per second.",
+          "isOneTimeEvent": false,
+          "eventPriceUsd": 0.001
+        },
+        "actor-start": {
+          "eventTitle": "Actor start",
+          "eventDescription": "Flat fee for starting an Actor run.",
+          "isOneTimeEvent": true,
+          "eventPriceUsd": 0.001
+        }
+      }
+    }
+  },
+  "chargedEventCounts": {
+    "result": 120,
+    "filter-applied": 0,
+    "popularity-filter-applied": 0,
+    "follower-dataset-item": 0,
+    "mobile-filter-sorting-applied": 0,
+    "video-download": 0,
+    "comment-dataset-item": 0,
+    "scrape-as-in-country": 0,
+    "transcription-minute": 0,
+    "ai-video-description": 0,
+    "ai-video-summary": 0,
+    "actor-start": 1
+  },
+  "platformUsageBillingModel": "DEVELOPER",
+  "accountedChargedEventCounts": {
+    "result": 120,
+    "filter-applied": 0,
+    "popularity-filter-applied": 0,
+    "follower-dataset-item": 0,
+    "mobile-filter-sorting-applied": 0,
+    "video-download": 0,
+    "comment-dataset-item": 0,
+    "scrape-as-in-country": 0,
+    "transcription-minute": 0,
+    "ai-video-description": 0,
+    "ai-video-summary": 0,
+    "actor-start": 1
+  },
+  "standby": null,
+  "generalAccess": "FOLLOW_USER_SETTING",
+  "buildNumber": "0.0.606",
+  "containerUrl": "https://5ubyenvibavy.runs.apify.net",
+  "usageTotalUsd": 0.361,
+  "consoleUrl": "https://console.apify.com/view/runs/Ocl2GtzjeQQwX8AcA",
+  "eventUsage": {
+    "result": {
+      "eventTitle": "Result",
+      "eventTotalUsd": 0.36
+    },
+    "filter-applied": {
+      "eventTitle": "Add-on: Date filter",
+      "eventTotalUsd": 0
+    },
+    "popularity-filter-applied": {
+      "eventTitle": "Add-on: Popularity filter",
+      "eventTotalUsd": 0
+    },
+    "follower-dataset-item": {
+      "eventTitle": "Add-on: Follower / Following",
+      "eventTotalUsd": 0
+    },
+    "mobile-filter-sorting-applied": {
+      "eventTitle": "Add-on: Search video sorting",
+      "eventTotalUsd": 0
+    },
+    "video-download": {
+      "eventTitle": "Add-on: video download",
+      "eventTotalUsd": 0
+    },
+    "comment-dataset-item": {
+      "eventTitle": "Add-on: Comment",
+      "eventTotalUsd": 0
+    },
+    "scrape-as-in-country": {
+      "eventTitle": "Add-on: Scrape as in country",
+      "eventTotalUsd": 0
+    },
+    "transcription-minute": {
+      "eventTitle": "Add-on: Transcript",
+      "eventTotalUsd": 0
+    },
+    "ai-video-description": {
+      "eventTitle": "Add-on: AI Description",
+      "eventTotalUsd": 0
+    },
+    "ai-video-summary": {
+      "eventTitle": "Add-on: AI Summary",
+      "eventTotalUsd": 0
+    },
+    "actor-start": {
+      "eventTitle": "Actor start",
+      "eventTotalUsd": 0.001
+    }
+  },
+  "output": {
+    "dataset": "https://api.apify.com/v2/datasets/nypoY845MAFWh4RUj/items"
+  }
+}

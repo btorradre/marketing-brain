@@ -1,0 +1,65 @@
+[
+  [
+    "scan_ad",
+    {
+      "ad_identifier": "24781784614835674"
+    },
+    "scan-sowell-fiber"
+  ],
+  [
+    "scan_ad",
+    {
+      "ad_identifier": "1313972990318526"
+    },
+    "scan-formulite"
+  ],
+  [
+    "scan_ad",
+    {
+      "collation_id": "818433794685137"
+    },
+    "scan-sos-main"
+  ],
+  [
+    "get_brandtracker_transcripts",
+    {
+      "brandtracker_id": "9e7b452e-16f4-4f8c-bc30-38da414bf6b7",
+      "time_period": "last6m",
+      "limit": 15,
+      "sort_by": "usageCount",
+      "order": "desc"
+    },
+    "sos-transcripts"
+  ],
+  [
+    "get_brandtracker_scaling_ads",
+    {
+      "brand": "GLP-1 SOS",
+      "limit": 10,
+      "status": "active"
+    },
+    "sos-current"
+  ],
+  [
+    "search_ads",
+    {
+      "query": "SoWell",
+      "search_in": "brand",
+      "status": "active",
+      "sort_by": "longestRunning",
+      "limit": 10
+    },
+    "brand-search-sowell"
+  ],
+  [
+    "search_ads",
+    {
+      "query": "Formulite",
+      "search_in": "brand",
+      "status": "active",
+      "sort_by": "longestRunning",
+      "limit": 10
+    },
+    "brand-search-formulite"
+  ]
+]

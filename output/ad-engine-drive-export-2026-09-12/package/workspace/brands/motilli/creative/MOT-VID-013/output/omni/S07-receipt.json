@@ -1,0 +1,73 @@
+{
+  "shot": "S07",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The camera settles toward the colon as its existing amber locator softly brightens once; keep the stomach visible and the digestive tract connected. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S07-v2.png",
+  "reference_sha256": "5bc9cfa366534242ea04ced83f5bd7de15d942f3f4d704de49fe1f87303f6dd3",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdDTE9nYXV1T0hQWHN6N0lQLXUyaXFRMBIXQ0xPZ2F1dU9IUFhzejdJUC11MmlxUTA",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/S07.mp4",
+  "sha256": "ac8a9c30f7558850fe57bd2816bd6e7583c29728e544bed80e226db1d5ae6567",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60552,
+    "total_input_tokens": 1158,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 58
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58478,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 916,
+    "raw_prompt_token": 31345,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1851
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 564
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 916
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

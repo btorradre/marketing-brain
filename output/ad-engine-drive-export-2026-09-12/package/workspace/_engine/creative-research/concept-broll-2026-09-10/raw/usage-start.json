@@ -1,0 +1,50 @@
+{
+  "jsonrpc": "2.0",
+  "id": "usage-start",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# TrendTrack credits\n\n- Remaining: 8,030\n- Used this period: 1,970\n- Limit: 10,000\n- Period resets: 2026-10-01\n- Plan: professional"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "e57ad663-fa54-4213-8efe-09f3565a040b",
+      "workspace": {
+        "id": "6482650d-6886-4b25-b2cb-38fb7320af2c",
+        "slug": "w-brookss-workspace-OrIOUrb",
+        "name": "Brooks's Workspace"
+      },
+      "credential": {
+        "id": "96a1ab2c-7f93-40fb-b3be-1bcd98096ced",
+        "accessLevel": "delegated_user",
+        "lastUsedAt": "2026-09-10T17:52:05.248Z"
+      },
+      "billing": {
+        "configured": true,
+        "planCode": "professional",
+        "currentPeriodStart": "2026-09-01T00:42:08.000Z",
+        "currentPeriodEnd": "2026-10-01T00:42:08.000Z",
+        "updatedAt": "2026-09-09T19:52:24.061Z"
+      },
+      "includedQuota": {
+        "limit": 10000,
+        "used": 1970,
+        "remaining": 8030
+      },
+      "credits": {
+        "balance": 0,
+        "recurring": {
+          "limit": 10000,
+          "used": 1970,
+          "remaining": 8030
+        },
+        "topup": {
+          "balance": 0
+        },
+        "totalRemaining": 8030
+      }
+    },
+    "isError": false
+  }
+}

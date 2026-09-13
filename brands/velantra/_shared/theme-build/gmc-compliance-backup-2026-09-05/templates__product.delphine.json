@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A structured top-handle bag that goes from desk to dinner without a bag swap. Full-grain leather over heavyweight woven canvas, in three colors built for fall.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        },
+        "assurance": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free U.S. shipping · 30-day returns &amp; free exchanges · Two-year warranty<\/p>"
+          }
+        },
+        "perks": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"wknd-perks\">\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"\/><path d=\"M3 9h18M8 3v4M16 3v4\"\/><path d=\"M7.5 13.5h3M7.5 17h3M13.5 13.5h3M13.5 17h3\"\/><\/svg>\n    <span>Day to night, no swap<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 17h18M5 17V9a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8\"\/><path d=\"M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7\"\/><path d=\"M8 21h.01M16 21h.01\"\/><\/svg>\n    <span>Stands open on a table<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><ellipse cx=\"12\" cy=\"12\" rx=\"4.5\" ry=\"6\"\/><path d=\"M12 9.5v3.5l1.8 1.2\"\/><\/svg>\n    <span>Working gold turn-lock<\/span>\n  <\/div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 9c2.5-2 5-3 8-3s5.5 1 8 3\"\/><path d=\"M4 9v7c2.5 2 5 3 8 3s5.5-1 8-3V9\"\/><path d=\"M4 13c2.5 2 5 3 8 3s5.5-1 8-3\"\/><\/svg>\n    <span>Full-grain leather &amp; canvas<\/span>\n  <\/div>\n<\/div>\n<style>\n.wknd-perks{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;background:#faf8f4;border-radius:12px;padding:20px 22px;margin:14px 0 4px;}\n.wknd-perk{display:flex;align-items:center;gap:12px;font-size:14px;line-height:1.35;color:#1a1a1a;}\n.wknd-perk svg{width:30px;height:30px;flex:0 0 30px;}\n@media (max-width:480px){.wknd-perks{grid-template-columns:1fr 1fr;gap:12px 12px;padding:16px 16px;}.wknd-perk{font-size:13px;gap:9px;}.wknd-perk svg{width:26px;height:26px;flex-basis:26px;}}\n<\/style>"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p><strong>One size, 25 &times; 22 &times; 14 cm (approx. 10&quot; W &times; 8.5&quot; H &times; 5.5&quot; D).<\/strong> A real wallet, your cards, a lip color and your keys, with room for a slim pouch alongside them.<\/p><p><strong>Inside:<\/strong> fully lined with a zipped interior pocket. Structured walls mean it holds its shape and stands up on its own.<\/p><p><strong>Carry:<\/strong> short rolled leather top handles, made for the hand or the crook of the elbow.<\/p><p><strong>Base:<\/strong> rounded leather corner patches and small metal feet, so the canvas never sits on the ground.<\/p>"
+          }
+        },
+        "tab_delivery": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>Because each bag is made in limited production runs, sold-out colors may take 4 to 8 weeks to restock.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free.<\/p>"
+          }
+        },
+        "tab_care": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "<p><strong>Body:<\/strong> Tightly woven heavyweight canvas.<br\/><strong>Flap, Handles &amp; Trim:<\/strong> Full-grain leather with burnished edges and visible stitching.<br\/><strong>Hardware:<\/strong> Gold-tone turn-lock, clasp plates, side buckles and base feet.<br\/><strong>Interior:<\/strong> Fully lined with a zipped pocket.<\/p><p><strong>Care:<\/strong> Spot-clean the canvas with a soft, damp cloth. Wipe the leather with a clean, dry cloth and condition it every few months. It will darken and gain character with wear. Store stuffed and away from direct sunlight.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "assurance",
+        "perks",
+        "description",
+        "tab_details",
+        "tab_delivery",
+        "tab_care",
+        "reviews",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Delphine",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag, all designed to match.<\/p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "video_text": {
+      "type": "pdp-video-text",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "SEE IT IN MOTION",
+        "headline": "Structured Enough To Stand On Its Own",
+        "body": "<p>The structured body holds its shape full or nearly empty. The short rolled handles sit easily in the hand, and the turn-lock and belted straps close it properly.<\/p>",
+        "cta_label": "Shop the Delphine",
+        "cta_url": "\/products\/velantra-delphine",
+        "media_position": "left",
+        "video_url": "",
+        "autoplay": true,
+        "show_controls": false,
+        "show_play_overlay": true,
+        "bg_color": "#ffffff"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we’ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "MATERIAL",
+            "headline": "Full-Grain Leather and Heavyweight Canvas",
+            "body": "<p>A full-grain leather flap, handles and trim over tightly woven heavyweight canvas. Structured on the shelf, and it softens and deepens in color with the years instead of wearing out.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CRAFT",
+            "headline": "Hardware That Does a Job",
+            "body": "<p>A gold turn-lock that actually turns, two belted straps that cinch to a buckle on each side, and reinforced leather corners at every point that takes a knock. No logo anywhere, inside or out.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "EXCLUSIVE",
+            "headline": "Made in Limited Runs",
+            "body": "<p>Produced in small quantities. When a color sells out, it can be weeks before it returns.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Lined, with a zipped pocket",
+            "body": "<p>A full lining and a zipped interior pocket for the things you would rather not have loose in the bag.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE HANDLES",
+            "headline": "Rolled leather top handles",
+            "body": "<p>Full-grain leather, rolled and hand-finished, sized for the hand and the crook of the elbow.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE HARDWARE",
+            "headline": "A turn-lock that actually turns",
+            "body": "<p>A working gold turn-lock and two belted straps that cinch to a buckle on each side. It closes properly over a full bag, every time.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE BASE",
+            "headline": "Corner patches and metal feet",
+            "body": "<p>Rounded leather corners at every point of contact and small metal feet underneath, so the canvas never touches the ground. Set it down anywhere.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image_position": "left",
+            "eyebrow": "DAY TO NIGHT",
+            "headline": "The Bag You Don't Have To Swap",
+            "body": "<p>Most days end with a bag change. What you carried since morning is too much for dinner, and what you swap into is small enough that half of it gets left behind on the bed.<\/p><p>The Delphine is built to skip that step. Structured walls and a full-grain leather flap give it the presence to walk into a restaurant, and ten inches across takes a real wallet, your cards, a lip color and your keys, with the turn-lock closing properly over all of it. Set it on the table beside you and it stands up on its own, so nothing slides to the bottom and disappears.<\/p><p>Light Chocolate, Dark Chocolate and Army Green. No logo anywhere, inside or out.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story",
+            "image": "shopify:\/\/shop_images\/delphine-day-to-night-lc-threequarter.png"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered. Lifetime in our shop.",
+            "body": "<p>Two-year warranty on materials and stitching. After that, we repair anything for the cost of materials. Send it back. Get it back better than you sent it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "video_text",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "editorial",
+    "recently_viewed"
+  ]
+}

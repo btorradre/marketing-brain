@@ -1,0 +1,375 @@
+{
+  "fetched_at_utc": "2026-09-13T16:48:14.906114+00:00",
+  "query": "FROM sessions SHOW sessions, online_store_visitors, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate, bounce_rate TIMESERIES day SINCE 2026-08-15 UNTIL 2026-09-13 ORDER BY day ASC",
+  "status": 200,
+  "response": {
+    "data": {
+      "shopifyqlQuery": {
+        "tableData": {
+          "columns": [
+            {
+              "name": "day",
+              "dataType": "DAY_TIMESTAMP",
+              "displayName": "Day"
+            },
+            {
+              "name": "sessions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions"
+            },
+            {
+              "name": "online_store_visitors",
+              "dataType": "INTEGER",
+              "displayName": "Online store visitors"
+            },
+            {
+              "name": "sessions_with_cart_additions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions with cart additions"
+            },
+            {
+              "name": "sessions_that_reached_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that reached checkout"
+            },
+            {
+              "name": "sessions_that_completed_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that completed checkout"
+            },
+            {
+              "name": "conversion_rate",
+              "dataType": "PERCENT",
+              "displayName": "Conversion rate"
+            },
+            {
+              "name": "bounce_rate",
+              "dataType": "PERCENT",
+              "displayName": "Bounce rate"
+            }
+          ],
+          "rows": [
+            {
+              "day": "2026-08-15",
+              "sessions": "1365",
+              "online_store_visitors": "1200",
+              "sessions_with_cart_additions": "90",
+              "sessions_that_reached_checkout": "51",
+              "sessions_that_completed_checkout": "33",
+              "conversion_rate": "0.024175824175824177",
+              "bounce_rate": "0.7098901098901099"
+            },
+            {
+              "day": "2026-08-16",
+              "sessions": "637",
+              "online_store_visitors": "545",
+              "sessions_with_cart_additions": "40",
+              "sessions_that_reached_checkout": "22",
+              "sessions_that_completed_checkout": "7",
+              "conversion_rate": "0.01098901098901099",
+              "bounce_rate": "0.6718995290423861"
+            },
+            {
+              "day": "2026-08-17",
+              "sessions": "900",
+              "online_store_visitors": "787",
+              "sessions_with_cart_additions": "31",
+              "sessions_that_reached_checkout": "24",
+              "sessions_that_completed_checkout": "8",
+              "conversion_rate": "0.008888888888888889",
+              "bounce_rate": "0.7388888888888889"
+            },
+            {
+              "day": "2026-08-18",
+              "sessions": "1260",
+              "online_store_visitors": "1115",
+              "sessions_with_cart_additions": "64",
+              "sessions_that_reached_checkout": "39",
+              "sessions_that_completed_checkout": "19",
+              "conversion_rate": "0.01507936507936508",
+              "bounce_rate": "0.6936507936507936"
+            },
+            {
+              "day": "2026-08-19",
+              "sessions": "513",
+              "online_store_visitors": "412",
+              "sessions_with_cart_additions": "7",
+              "sessions_that_reached_checkout": "9",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.001949317738791423",
+              "bounce_rate": "0.6939571150097466"
+            },
+            {
+              "day": "2026-08-20",
+              "sessions": "1850",
+              "online_store_visitors": "1640",
+              "sessions_with_cart_additions": "152",
+              "sessions_that_reached_checkout": "74",
+              "sessions_that_completed_checkout": "31",
+              "conversion_rate": "0.016756756756756756",
+              "bounce_rate": "0.7135135135135136"
+            },
+            {
+              "day": "2026-08-21",
+              "sessions": "1916",
+              "online_store_visitors": "1723",
+              "sessions_with_cart_additions": "159",
+              "sessions_that_reached_checkout": "109",
+              "sessions_that_completed_checkout": "38",
+              "conversion_rate": "0.019832985386221295",
+              "bounce_rate": "0.6717118997912317"
+            },
+            {
+              "day": "2026-08-22",
+              "sessions": "1435",
+              "online_store_visitors": "1290",
+              "sessions_with_cart_additions": "108",
+              "sessions_that_reached_checkout": "72",
+              "sessions_that_completed_checkout": "27",
+              "conversion_rate": "0.018815331010452963",
+              "bounce_rate": "0.705226480836237"
+            },
+            {
+              "day": "2026-08-23",
+              "sessions": "1189",
+              "online_store_visitors": "1063",
+              "sessions_with_cart_additions": "83",
+              "sessions_that_reached_checkout": "48",
+              "sessions_that_completed_checkout": "16",
+              "conversion_rate": "0.01345668629100084",
+              "bounce_rate": "0.7468460891505467"
+            },
+            {
+              "day": "2026-08-24",
+              "sessions": "776",
+              "online_store_visitors": "675",
+              "sessions_with_cart_additions": "51",
+              "sessions_that_reached_checkout": "36",
+              "sessions_that_completed_checkout": "11",
+              "conversion_rate": "0.014175257731958763",
+              "bounce_rate": "0.711340206185567"
+            },
+            {
+              "day": "2026-08-25",
+              "sessions": "1020",
+              "online_store_visitors": "907",
+              "sessions_with_cart_additions": "103",
+              "sessions_that_reached_checkout": "58",
+              "sessions_that_completed_checkout": "24",
+              "conversion_rate": "0.023529411764705882",
+              "bounce_rate": "0.7088235294117647"
+            },
+            {
+              "day": "2026-08-26",
+              "sessions": "1182",
+              "online_store_visitors": "1046",
+              "sessions_with_cart_additions": "116",
+              "sessions_that_reached_checkout": "67",
+              "sessions_that_completed_checkout": "33",
+              "conversion_rate": "0.027918781725888325",
+              "bounce_rate": "0.7064297800338409"
+            },
+            {
+              "day": "2026-08-27",
+              "sessions": "2363",
+              "online_store_visitors": "2084",
+              "sessions_with_cart_additions": "243",
+              "sessions_that_reached_checkout": "152",
+              "sessions_that_completed_checkout": "79",
+              "conversion_rate": "0.03343207786711807",
+              "bounce_rate": "0.71688531527719"
+            },
+            {
+              "day": "2026-08-28",
+              "sessions": "3941",
+              "online_store_visitors": "3562",
+              "sessions_with_cart_additions": "505",
+              "sessions_that_reached_checkout": "324",
+              "sessions_that_completed_checkout": "127",
+              "conversion_rate": "0.03222532352194874",
+              "bounce_rate": "0.69449378330373"
+            },
+            {
+              "day": "2026-08-29",
+              "sessions": "5260",
+              "online_store_visitors": "4770",
+              "sessions_with_cart_additions": "592",
+              "sessions_that_reached_checkout": "386",
+              "sessions_that_completed_checkout": "131",
+              "conversion_rate": "0.024904942965779466",
+              "bounce_rate": "0.7106463878326996"
+            },
+            {
+              "day": "2026-08-30",
+              "sessions": "5223",
+              "online_store_visitors": "4789",
+              "sessions_with_cart_additions": "580",
+              "sessions_that_reached_checkout": "345",
+              "sessions_that_completed_checkout": "113",
+              "conversion_rate": "0.021635075627034272",
+              "bounce_rate": "0.7095538962282213"
+            },
+            {
+              "day": "2026-08-31",
+              "sessions": "3014",
+              "online_store_visitors": "2690",
+              "sessions_with_cart_additions": "273",
+              "sessions_that_reached_checkout": "207",
+              "sessions_that_completed_checkout": "76",
+              "conversion_rate": "0.025215660252156602",
+              "bounce_rate": "0.7289316522893166"
+            },
+            {
+              "day": "2026-09-01",
+              "sessions": "2840",
+              "online_store_visitors": "2572",
+              "sessions_with_cart_additions": "360",
+              "sessions_that_reached_checkout": "231",
+              "sessions_that_completed_checkout": "106",
+              "conversion_rate": "0.03732394366197183",
+              "bounce_rate": "0.7105633802816902"
+            },
+            {
+              "day": "2026-09-02",
+              "sessions": "550",
+              "online_store_visitors": "408",
+              "sessions_with_cart_additions": "20",
+              "sessions_that_reached_checkout": "26",
+              "sessions_that_completed_checkout": "11",
+              "conversion_rate": "0.02",
+              "bounce_rate": "0.6890909090909091"
+            },
+            {
+              "day": "2026-09-03",
+              "sessions": "690",
+              "online_store_visitors": "571",
+              "sessions_with_cart_additions": "41",
+              "sessions_that_reached_checkout": "25",
+              "sessions_that_completed_checkout": "14",
+              "conversion_rate": "0.020289855072463767",
+              "bounce_rate": "0.6608695652173913"
+            },
+            {
+              "day": "2026-09-04",
+              "sessions": "770",
+              "online_store_visitors": "659",
+              "sessions_with_cart_additions": "46",
+              "sessions_that_reached_checkout": "37",
+              "sessions_that_completed_checkout": "16",
+              "conversion_rate": "0.02077922077922078",
+              "bounce_rate": "0.6142857142857143"
+            },
+            {
+              "day": "2026-09-05",
+              "sessions": "1489",
+              "online_store_visitors": "1284",
+              "sessions_with_cart_additions": "155",
+              "sessions_that_reached_checkout": "91",
+              "sessions_that_completed_checkout": "41",
+              "conversion_rate": "0.027535258562793822",
+              "bounce_rate": "0.4016118200134318"
+            },
+            {
+              "day": "2026-09-06",
+              "sessions": "1110",
+              "online_store_visitors": "939",
+              "sessions_with_cart_additions": "55",
+              "sessions_that_reached_checkout": "32",
+              "sessions_that_completed_checkout": "10",
+              "conversion_rate": "0.009009009009009009",
+              "bounce_rate": "0.6"
+            },
+            {
+              "day": "2026-09-07",
+              "sessions": "763",
+              "online_store_visitors": "617",
+              "sessions_with_cart_additions": "19",
+              "sessions_that_reached_checkout": "14",
+              "sessions_that_completed_checkout": "4",
+              "conversion_rate": "0.005242463958060288",
+              "bounce_rate": "0.6592398427260813"
+            },
+            {
+              "day": "2026-09-08",
+              "sessions": "631",
+              "online_store_visitors": "501",
+              "sessions_with_cart_additions": "12",
+              "sessions_that_reached_checkout": "14",
+              "sessions_that_completed_checkout": "5",
+              "conversion_rate": "0.00792393026941363",
+              "bounce_rate": "0.6434231378763867"
+            },
+            {
+              "day": "2026-09-09",
+              "sessions": "862",
+              "online_store_visitors": "707",
+              "sessions_with_cart_additions": "27",
+              "sessions_that_reached_checkout": "10",
+              "sessions_that_completed_checkout": "3",
+              "conversion_rate": "0.0034802784222737818",
+              "bounce_rate": "0.6310904872389791"
+            },
+            {
+              "day": "2026-09-10",
+              "sessions": "597",
+              "online_store_visitors": "458",
+              "sessions_with_cart_additions": "16",
+              "sessions_that_reached_checkout": "12",
+              "sessions_that_completed_checkout": "3",
+              "conversion_rate": "0.005025125628140704",
+              "bounce_rate": "0.661641541038526"
+            },
+            {
+              "day": "2026-09-11",
+              "sessions": "523",
+              "online_store_visitors": "395",
+              "sessions_with_cart_additions": "11",
+              "sessions_that_reached_checkout": "8",
+              "sessions_that_completed_checkout": "3",
+              "conversion_rate": "0.0057361376673040155",
+              "bounce_rate": "0.7055449330783938"
+            },
+            {
+              "day": "2026-09-12",
+              "sessions": "750",
+              "online_store_visitors": "627",
+              "sessions_with_cart_additions": "35",
+              "sessions_that_reached_checkout": "23",
+              "sessions_that_completed_checkout": "12",
+              "conversion_rate": "0.016",
+              "bounce_rate": "0.712"
+            },
+            {
+              "day": "2026-09-13",
+              "sessions": "282",
+              "online_store_visitors": "262",
+              "sessions_with_cart_additions": "17",
+              "sessions_that_reached_checkout": "13",
+              "sessions_that_completed_checkout": "5",
+              "conversion_rate": "0.01773049645390071",
+              "bounce_rate": "0.723404255319149"
+            }
+          ]
+        },
+        "parseErrors": []
+      }
+    },
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 3,
+        "actualQueryCost": 3,
+        "throttleStatus": {
+          "maximumAvailable": 4000.0,
+          "currentlyAvailable": 3995,
+          "restoreRate": 200.0
+        }
+      },
+      "shopifyqlCost": {
+        "requestedQueryCost": 26,
+        "maximumAvailable": 1000,
+        "currentlyAvailable": 940,
+        "windowResetAt": "2026-09-13T16:49:00+00:00"
+      }
+    }
+  }
+}

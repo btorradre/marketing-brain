@@ -1,0 +1,301 @@
+{
+  "jsonrpc": "2.0",
+  "id": "go-blymeskinsystems-com-ads",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — go.blymeskinsystems.com\n\nWindow: 7d | Sort: current_rank | Results: 1\n\nAssistant instruction: when you show returned ads to the user, include the Media URL for each ad, or the Thumbnail URL fallback if Media URL is unavailable.\n\n### 1. Hey Bliss Cosmetics\n- Ad id: facebook_1065733625710875\n- Rank: current 1 | delta 0 | improvement 57%\n- Status: active | Media: image | Days running: 409\n- Reach: 353 | Duplicates: 504\n- First seen: 2025-07-30 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/image/bc7966461541a42761d68e7118ff00b087ff4cddc3a8b8c4c0c05168044dc2fc.jpg\n- Landing page: https://www.facebook.com/110473888334704\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":6,\"platforms\":[\"facebook\"],\"status\":\"active\",\"trackedPages\":[\"110473888334704\"],\"rankDeltaWindow\":\"7d\"}\n\n---\nCredits used: 2 | Remaining: 6619 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "c1e484f2-e382-4b9c-9b2b-42eecd03cca4",
+      "data": [
+        {
+          "id": "facebook_1065733625710875",
+          "collationId": "1297248338409438",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2025-08-05T20:15:42.083Z",
+          "firstSeenAt": "2025-07-30T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 409,
+          "media": {
+            "type": "image",
+            "thumbnailUrl": null,
+            "mediaUrl": "https://medias.trendtrack.io/facebook/image/bc7966461541a42761d68e7118ff00b087ff4cddc3a8b8c4c0c05168044dc2fc.jpg"
+          },
+          "advertiser": {
+            "id": "110473888334704",
+            "name": "Hey Bliss Cosmetics",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/110473888334704.jpg",
+            "facebookPageId": "110473888334704",
+            "liveAdsCount": 176,
+            "reach30d": 35,
+            "totalReach": 3639,
+            "countriesCount": 116,
+            "facebookLikes": 107760,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": null,
+            "transcript": null,
+            "callToAction": "LIKE PAGE",
+            "landingPageUrl": "https://www.facebook.com/110473888334704",
+            "landingPageDomain": "facebook.com",
+            "ctaDescription": "Hey Bliss Cosmetics",
+            "ctaLinkDescription": null
+          },
+          "metrics": {
+            "reach": 353,
+            "aggregatedReach": null,
+            "estimatedSpend": 3,
+            "duplicates": 504,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "CA",
+              "AU",
+              "BD",
+              "DZ",
+              "IN",
+              "IQ",
+              "AF",
+              "EG",
+              "ET",
+              "ID",
+              "GN",
+              "BJ",
+              "AO",
+              "CD",
+              "KE",
+              "BW",
+              "CI",
+              "GH",
+              "BF",
+              "BI",
+              "BR",
+              "HT",
+              "FJ",
+              "GM",
+              "CM",
+              "LA",
+              "CO",
+              "KH",
+              "KM",
+              "BO",
+              "CF",
+              "GW",
+              "JO",
+              "BT",
+              "KW",
+              "DO",
+              "LB",
+              "CG",
+              "AR",
+              "EC",
+              "GA",
+              "GT",
+              "CV",
+              "BH",
+              "GQ",
+              "HN",
+              "DJ",
+              "BZ",
+              "GY",
+              "KI",
+              "CL",
+              "JM",
+              "AE",
+              "CR",
+              "GE",
+              "BS",
+              "YT",
+              "FM",
+              "CN",
+              "LC",
+              "AZ",
+              "AM",
+              "CW",
+              "GR",
+              "PT",
+              "KG",
+              "AG",
+              "BN",
+              "ER",
+              "GU",
+              "GD",
+              "BG",
+              "AS",
+              "AI",
+              "RO",
+              "BB",
+              "ES",
+              "GF",
+              "IL",
+              "KR",
+              "KZ",
+              "AW",
+              "DM",
+              "KN",
+              "MQ",
+              "HU",
+              "IT",
+              "JP",
+              "RE",
+              "FR",
+              "SK",
+              "PL",
+              "CK",
+              "HR",
+              "LT",
+              "NL",
+              "CZ",
+              "IE",
+              "MF",
+              "DE",
+              "DK",
+              "FK",
+              "GP",
+              "KY",
+              "LV",
+              "SE",
+              "AT",
+              "BE",
+              "EE",
+              "GL",
+              "HK",
+              "FI",
+              "GB",
+              "GI",
+              "MT",
+              "SI"
+            ],
+            "mainCountry": "YT",
+            "gender": "all",
+            "ageMin": 18,
+            "ageMax": 65
+          },
+          "rank": {
+            "positionInPage": 1,
+            "currentRank": 1,
+            "rankDelta": 0,
+            "improvementPct": 0.57
+          },
+          "flags": {
+            "isEuAd": true,
+            "isLowReach": false,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 6,
+        "total": 1,
+        "totalPages": 1,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "1b605f19-96b9-463c-b10c-e47295fb5f51",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "1b605f19-96b9-463c-b10c-e47295fb5f51",
+          "resolvedBrandName": "go.blymeskinsystems.com",
+          "facebookPageId": "110473888334704",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "110473888334704"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 6,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active",
+          "trackedPages": [
+            "110473888334704"
+          ],
+          "rankDeltaWindow": "7d"
+        },
+        "requestedLimit": 6,
+        "effectiveLimit": 6,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 6,
+        "effectiveUnits": 6,
+        "actualUnits": 1,
+        "costUnits": 2,
+        "recurringUnits": 2,
+        "topupUnits": 0,
+        "creditsRemaining": 6619,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

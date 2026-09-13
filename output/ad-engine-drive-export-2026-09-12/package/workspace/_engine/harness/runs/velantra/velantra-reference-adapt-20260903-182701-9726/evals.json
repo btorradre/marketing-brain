@@ -1,0 +1,47 @@
+[
+  {
+    "run_id": "velantra-reference-adapt-20260903-182701-9726",
+    "check_name": "cost_usd",
+    "kind": "deterministic",
+    "score": 3.90307975,
+    "passed": null,
+    "detail": "turns=29",
+    "ts": 1788479035.462539
+  },
+  {
+    "run_id": "velantra-reference-adapt-20260903-182701-9726",
+    "check_name": "lawgate_artifacts",
+    "kind": "deterministic",
+    "score": 5.0,
+    "passed": 1,
+    "detail": "5 artifacts, 0 blockers, 0 warnings",
+    "ts": 1788479035.4602392
+  },
+  {
+    "run_id": "velantra-reference-adapt-20260903-182701-9726",
+    "check_name": "lawgate_report",
+    "kind": "deterministic",
+    "score": null,
+    "passed": 1,
+    "detail": "0 blockers, 0 warnings",
+    "ts": 1788479035.461705
+  },
+  {
+    "run_id": "velantra-reference-adapt-20260903-182701-9726",
+    "check_name": "report_written",
+    "kind": "deterministic",
+    "score": null,
+    "passed": 1,
+    "detail": "",
+    "ts": 1788479035.4619389
+  },
+  {
+    "run_id": "velantra-reference-adapt-20260903-182701-9726",
+    "check_name": "stop_condition",
+    "kind": "deterministic",
+    "score": null,
+    "passed": 1,
+    "detail": "mcp__dr-os__dr_push_brief_board returned [{\"type\": \"text\", \"text\": \"{\\n  \\\"slug\\\": \\\"vel-weekender-onebag-01\\\",\\n  \\\"url\\\": \\\"http://localhost:8765/b/vel-weekender-onebag-01\\\",\\n  \\\"server_up\\\": true,\\",
+    "ts": 1788479035.462225
+  }
+]

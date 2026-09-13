@@ -1,0 +1,99 @@
+{
+  "id": "Qaq9hjDYLZfHtsfAL",
+  "actId": "shu8hvrXbJbY3Eb9W",
+  "userId": "s8Vnd3fTfZNdO5yod",
+  "startedAt": "2026-09-11T20:28:32.752Z",
+  "finishedAt": "2026-09-11T20:29:03.946Z",
+  "status": "SUCCEEDED",
+  "statusMessage": "Crawled 279/285 pages, 0 failed requests, desired concurrency 160.",
+  "isStatusMessageTerminal": null,
+  "meta": {
+    "origin": "API",
+    "userAgent": "python-requests/2.34.2"
+  },
+  "stats": {
+    "inputBodyLen": 7508,
+    "migrationCount": 0,
+    "rebootCount": 0,
+    "restartCount": 0,
+    "durationMillis": 31042,
+    "resurrectCount": 0,
+    "runTimeSecs": 31.042,
+    "metamorph": 0,
+    "computeUnits": 0.03449111111111111,
+    "memAvgBytes": 307319984.03906816,
+    "memMaxBytes": 368476160,
+    "memCurrentBytes": 0,
+    "cpuAvgUsage": 30.24764484929114,
+    "cpuMaxUsage": 143.09174984207203,
+    "cpuCurrentUsage": 0,
+    "netRxBytes": 12388636,
+    "netTxBytes": 3784370
+  },
+  "options": {
+    "build": "latest",
+    "timeoutSecs": 1800,
+    "memoryMbytes": 4096,
+    "maxTotalChargeUsd": 3,
+    "maxItems": null,
+    "isMaxTotalChargeUsdSetByUser": true,
+    "diskMbytes": 2048
+  },
+  "buildId": "Yo3Xy6MICBnbclfWT",
+  "exitCode": 0,
+  "defaultKeyValueStoreId": "[REDACTED_SECRET]",
+  "defaultDatasetId": "zaCSd4HYAtZlVsaAH",
+  "defaultRequestQueueId": "ZS86fTTMR0ogwhlho",
+  "storageIds": {
+    "keyValueStores": {
+      "default": "[REDACTED_SECRET]"
+    },
+    "datasets": {
+      "default": "zaCSd4HYAtZlVsaAH"
+    },
+    "requestQueues": {
+      "default": "ZS86fTTMR0ogwhlho"
+    }
+  },
+  "pricingInfo": {
+    "minimalMaxTotalChargeUsd": 0.0027,
+    "pricingModel": "PAY_PER_EVENT",
+    "isPriceChangeNotificationSuppressed": true,
+    "createdAt": "2026-02-20T12:24:59.754Z",
+    "startedAt": "2026-02-20T12:24:59.754Z",
+    "apifyMarginPercentage": 0.2,
+    "pricingPerEvent": {
+      "actorChargeEvents": {
+        "result": {
+          "eventTitle": "Result",
+          "eventDescription": "Each result written to the dataset",
+          "isOneTimeEvent": false,
+          "isPrimaryEvent": true,
+          "eventPriceUsd": 0.0023
+        }
+      }
+    }
+  },
+  "chargedEventCounts": {
+    "result": 164
+  },
+  "platformUsageBillingModel": "DEVELOPER",
+  "accountedChargedEventCounts": {
+    "result": 164
+  },
+  "standby": null,
+  "generalAccess": "FOLLOW_USER_SETTING",
+  "buildNumber": "0.0.781",
+  "containerUrl": "https://btt7beklmihz.runs.apify.net",
+  "usageTotalUsd": 0.3772,
+  "consoleUrl": "https://console.apify.com/view/runs/Qaq9hjDYLZfHtsfAL",
+  "eventUsage": {
+    "result": {
+      "eventTitle": "Result",
+      "eventTotalUsd": 0.3772
+    }
+  },
+  "output": {
+    "dataset": "https://api.apify.com/v2/datasets/zaCSd4HYAtZlVsaAH/items"
+  }
+}

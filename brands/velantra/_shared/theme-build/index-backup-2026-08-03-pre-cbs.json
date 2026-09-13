@@ -1,0 +1,175 @@
+{
+  "sections": {
+    "hero": {
+      "type": "advanced-content",
+      "blocks": {
+        "liq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"v-hero\">\n  <img class=\"v-hero-img\" src=\"{{ 'velantra-sofia-hero.jpg' | asset_url }}\" alt=\"The Sofia Woven Tote\">\n  <div class=\"v-hero-overlay\">\n    <p class=\"v-hero-eyebrow\">The Sofia Woven Tote</p>\n    <h1 class=\"v-hero-title\">Vacation Ready</h1>\n    <p class=\"v-hero-sub\">Hand-woven straw, structured to hold its shape from the market to the marina.</p>\n    <a class=\"v-hero-btn\" href=\"/products/the-sofia-woven-tote\">Shop the Sofia</a>\n  </div>\n</div>\n\n<style>\n  .v-hero { position: relative; width: 100%; overflow: hidden; }\n  .v-hero-img { width: 100%; height: min(84vh, 760px); object-fit: cover; object-position: 60% center; display: block; }\n  .v-hero-overlay {\n    position: absolute; left: 6%; bottom: 10%; max-width: 440px;\n    color: #fff; text-shadow: 0 1px 18px rgba(0,0,0,0.28);\n  }\n  .v-hero-eyebrow { font-size: 0.82rem; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 12px; opacity: 0.95; }\n  .v-hero-title { font-size: clamp(40px, 7vw, 76px); font-weight: 600; line-height: 1.02; margin-bottom: 16px; }\n  .v-hero-sub { font-size: clamp(15px, 1.6vw, 19px); line-height: 1.5; margin-bottom: 26px; opacity: 0.96; }\n  .v-hero-btn {\n    display: inline-block; background: #fff; color: #1a1a1a; text-decoration: none;\n    font-size: 0.95rem; font-weight: 600; letter-spacing: 0.02em;\n    padding: 14px 30px; border-radius: 2px;\n  }\n  .v-hero-btn:hover { background: # efe9e2; }\n  @media (max-width: 700px) {\n    .v-hero-img { height: 78vh; object-position: 64% center; }\n    .v-hero-overlay { left: 6%; right: 6%; bottom: 8%; max-width: none; }\n  }\n</style>\n",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liq"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "meet_the_women": {
+      "type": "advanced-content",
+      "blocks": {
+        "liq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"v-women\">\n  <div class=\"v-women-head\">\n    <p class=\"v-women-sub\">Designed one at a time, for one woman with somewhere to be.</p>\n  </div>\n  <div class=\"v-women-grid\">\n    {%- assign s = all_products['the-sofia-woven-tote'] -%}\n    <a class=\"v-woman-card\" href=\"{{ s.url }}\">\n      <div class=\"v-woman-img\">{{ s.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: s.title }}</div>\n      <h3 class=\"v-woman-name\">{{ s.title }}</h3>\n      <p class=\"v-woman-epithet\">the summer one</p>\n      <p class=\"v-woman-line\">Harbor walks and golden-hour dinners.</p>\n    </a>\n    {%- assign e = all_products['velantra-weekender'] -%}\n    <a class=\"v-woman-card\" href=\"{{ e.url }}\">\n      <div class=\"v-woman-img\">{{ e.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: e.title }}</div>\n      <h3 class=\"v-woman-name\">{{ e.title }}</h3>\n      <p class=\"v-woman-epithet\">the one that never checks a bag</p>\n      <p class=\"v-woman-line\">Three days. One carry-on. Gone by noon.</p>\n    </a>\n    {%- assign c = all_products['velantra-boat-tote-2'] -%}\n    <a class=\"v-woman-card\" href=\"{{ c.url }}\">\n      <div class=\"v-woman-img\">{{ c.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: c.title }}</div>\n      <h3 class=\"v-woman-name\">{{ c.title }}</h3>\n      <p class=\"v-woman-epithet\">the everyday one</p>\n      <p class=\"v-woman-line\">The farmers market, the office, the boat.</p>\n    </a>\n    {%- assign m = all_products['velantra-meridian-tote'] -%}\n    <a class=\"v-woman-card\" href=\"{{ m.url }}\">\n      <div class=\"v-woman-img\">{{ m.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: m.title }}</div>\n      <h3 class=\"v-woman-name\">{{ m.title }}</h3>\n      <p class=\"v-woman-epithet\">the polished one</p>\n      <p class=\"v-woman-line\">From the 8 a.m. meeting to the dinner after.</p>\n    </a>\n  </div>\n</div>\n\n<style>\n  .v-women { max-width: 1200px; margin: 0 auto; padding: 56px 20px; }\n  .v-women-head { text-align: center; max-width: 640px; margin: 0 auto 40px; }\n  .v-women-sub { font-size: 1.02rem; line-height: 1.6; opacity: 0.85; }\n  .v-women-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }\n  .v-woman-card { text-decoration: none; color: inherit; display: block; }\n  .v-woman-img img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; }\n  .v-woman-name { font-size: 1.15rem; font-weight: 600; margin: 14px 0 2px; }\n  .v-woman-epithet { font-style: italic; opacity: 0.7; margin-bottom: 8px; }\n  .v-woman-line { font-size: 0.95rem; line-height: 1.5; opacity: 0.85; }\n  @media (max-width: 900px) { .v-women-grid { grid-template-columns: repeat(2, 1fr); } }\n  @media (max-width: 520px) { .v-women-grid { grid-template-columns: 1fr; gap: 32px; } }\n</style>\n",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liq"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "sofia_feature": {
+      "type": "advanced-content",
+      "blocks": {
+        "liq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"v-split\">\n  <div class=\"v-split-img\">\n    <img src=\"{{ 'velantra-sofia-feature.jpg' | asset_url }}\" alt=\"The Sofia Woven Tote\" loading=\"lazy\">\n  </div>\n  <div class=\"v-split-text\">\n    <div class=\"v-split-inner\">\n      <p class=\"v-split-eyebrow\">The summer one</p>\n      <h2 class=\"v-split-title\">The Sofia Woven Tote</h2>\n      <p class=\"v-split-tagline\">Structured straw that actually holds its shape.</p>\n      <p class=\"v-split-body\">Hand-woven straw with a smooth leather flap and a structured body that stands on its own \u2014 no slouch, no sag. Built to hold a full day and stay composed from the market to the marina, season after season.</p>\n      <a class=\"v-split-btn\" href=\"/products/the-sofia-woven-tote\">Discover the Sofia</a>\n    </div>\n  </div>\n</div>\n\n<style>\n  .v-split { display: grid; grid-template-columns: 1fr 1fr; width: 100%; align-items: stretch; }\n  .v-split-img { min-height: 0; }\n  .v-split-img img { width: 100%; height: 100%; object-fit: cover; display: block; }\n  .v-split-text { display: flex; align-items: center; justify-content: center; padding: 64px 40px; }\n  .v-split-inner { max-width: 440px; text-align: center; }\n  .v-split-eyebrow { font-size: 0.8rem; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.6; margin-bottom: 18px; }\n  .v-split-title { font-size: clamp(28px, 3.2vw, 42px); font-weight: 600; margin-bottom: 16px; line-height: 1.1; }\n  .v-split-tagline { font-size: 1.05rem; margin-bottom: 18px; }\n  .v-split-body { font-size: 1rem; line-height: 1.65; opacity: 0.85; margin-bottom: 30px; }\n  .v-split-btn { display: inline-block; border: 1px solid currentColor; padding: 14px 34px; font-size: 0.82rem; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; color: inherit; }\n  .v-split-btn:hover { background: currentColor; }\n  .v-split-btn:hover { color: #fff; }\n  @media (max-width: 780px) {\n    .v-split { grid-template-columns: 1fr; }\n    .v-split-img img { height: 460px; }\n    .v-split-text { padding: 48px 24px; }\n  }\n</style>\n",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liq"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "craft_promises": {
+      "type": "advanced-content",
+      "blocks": {
+        "liq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"v-craft\">\n  <div class=\"v-craft-grid\">\n    <div class=\"v-craft-col\">\n      <h3 class=\"v-craft-title\">Decades, not seasons</h3>\n      <p class=\"v-craft-text\">Reinforced stitching. Solid brass hardware. Materials that earn character instead of losing it.</p>\n    </div>\n    <div class=\"v-craft-col\">\n      <h3 class=\"v-craft-title\">A two-year promise</h3>\n      <p class=\"v-craft-text\">Every bag is covered for two years. If it ever fails you, we make it right.</p>\n    </div>\n    <div class=\"v-craft-col\">\n      <h3 class=\"v-craft-title\">Quiet by design</h3>\n      <p class=\"v-craft-text\">No logos. No badges. The craftsmanship speaks first, and strangers ask where it's from.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .v-craft { max-width: 1100px; margin: 0 auto; padding: 48px 20px; }\n  .v-craft-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; text-align: center; }\n  .v-craft-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 10px; }\n  .v-craft-text { font-size: 0.98rem; line-height: 1.6; opacity: 0.85; }\n  @media (max-width: 760px) { .v-craft-grid { grid-template-columns: 1fr; gap: 28px; } }\n</style>\n",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liq"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "ourstory": {
+      "type": "advanced-content",
+      "blocks": {
+        "liq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"v-split v-split-story\">\n  <div class=\"v-split-img\">\n    <img src=\"{{ 'velantra-ourstory.jpg' | asset_url }}\" alt=\"Velantra\" loading=\"lazy\">\n  </div>\n  <div class=\"v-split-text\">\n    <div class=\"v-split-inner v-split-inner-left\">\n      <p class=\"v-split-eyebrow\">Built to last decades, not seasons</p>\n      <h2 class=\"v-split-title\">Our Story</h2>\n      <p class=\"v-split-body\">Velantra started with a refusal: that a woman should have to choose between a bag she loves and a bag she can actually live in. So we build structured, considered pieces \u2014 reinforced stitching, solid brass, materials that earn character instead of losing it \u2014 made to last decades, not seasons. Designed with you in mind, and named for the women who inspired them.</p>\n      <a class=\"v-split-link\" href=\"/pages/about-us-1\">Read the founder's letter &rarr;</a>\n    </div>\n  </div>\n</div>\n\n<style>\n  .v-split-story .v-split-inner-left { text-align: left; max-width: 460px; }\n  .v-split-story .v-split-link { display: inline-block; font-size: 0.95rem; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; color: inherit; }\n  @media (max-width: 780px) { .v-split-story .v-split-text { padding: 48px 24px; } }\n</style>\n",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liq"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "bags_accessories": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_gnzTTq": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "The Bags",
+            "heading_size": "h2",
+            "textarea": "Built for decades, not seasons.",
+            "cta_text1": "SHOP NOW",
+            "cta_link1": "shopify://collections/handbags",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/hero-studio-plinth.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_hCD3yy": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "The Finishing Touches",
+            "heading_size": "h2",
+            "textarea": "Make your bag yours.",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify://collections/accessories",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/caramel-tote-scarf.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_gnzTTq",
+        "advanced_hCD3yy"
+      ],
+      "name": "t:sections.promo-grid.presets.promotional_grid.name",
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "meet_the_women",
+    "sofia_feature",
+    "craft_promises",
+    "bags_accessories",
+    "ourstory"
+  ]
+}

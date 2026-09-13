@@ -1,0 +1,102 @@
+{
+  "_comment": "Local snapshot of hooks/settings + brand defaults for aiugc-infinite. Source of truth for product IDs is ../higgsfield-replicator/products.json — this file references it.",
+  "_workspace_id": "7185c910-9954-4029-9d11-0fde8ed1a767",
+  "products_json_path": "../higgsfield-replicator/products.json",
+  "hooks": {
+    "product_hit": "3d45fb46-254f-4c83-9685-8e3d28945a67",
+    "spicy": "75b6d501-be0e-4416-a7ed-52f04f180574",
+    "interview": "26cac2dd-99cb-4818-a678-509b0dab2c32",
+    "random_object_mic": "d50eb41c-fcfa-4f4d-93aa-473cdc6bc3b2",
+    "product_crash": "8101cd3e-3cc9-4607-a171-3582daa2f6ee",
+    "blizzard": "31976cc7-e597-4be2-9753-4a80153b0cc7",
+    "camera_bump": "2db84ed8-7082-4981-9c9c-9d61b3c28668",
+    "product_dodge": "5443eff1-d940-4ad3-9413-957bb048a6b0",
+    "epic_fail": "ec9fdf99-314d-480d-a656-10d9861341e7"
+  },
+  "settings": {
+    "bedroom": "b8368076-35eb-4045-b33b-74b2646d9863",
+    "bathroom": "189fa1ac-1fdc-44f4-bdea-8804a76f0659",
+    "kitchen": "a0eb0be9-f0ff-4aee-9dee-69d9fd20110a",
+    "gym": "6bfbe372-e50a-4900-adee-d4cbd0db8a2f",
+    "office": "d39dda10-643c-44e2-bfc8-2451dddde7d9",
+    "in_car": "fdfa032c-801f-4602-8dfd-1162b0f8c9c9",
+    "street": "8c95f9ba-5849-44b1-82d0-9f6b33240758",
+    "nature": "10f47b85-abd7-4899-b6b6-91ff2969d3bf",
+    "airplane_wing": "b03705e5-bbed-4d83-8d29-3bc2101cd14f",
+    "roofing": "3cf2164e-ffac-4867-9c43-1d673a5cb28a",
+    "volcano_rim": "e99c2ee8-3c4a-4697-9a58-908e73c9ad38",
+    "tiny_reviewer": "f495493f-0251-4bd7-afc0-90bc6a862e04",
+    "car_roof": "d6992aea-4521-4606-9e4f-8c766e12622c",
+    "train_surf": "71f61bb0-dfd9-459b-a220-0dd468b977d5"
+  },
+  "brand_defaults": {
+    "motilli": {
+      "rotation_pool": [
+        {"hook": "interview", "setting": "kitchen"},
+        {"hook": "spicy", "setting": "kitchen"},
+        {"hook": "interview", "setting": "bedroom"},
+        {"hook": "spicy", "setting": "bathroom"}
+      ],
+      "vault_path": "brands/motilli",
+      "hero_image": "brands/motilli/brand/website-assets/motilli product reference.png",
+      "product_context": "Celery juice fiber gummies for GLP-1 users. DARK FOREST GREEN heart-shaped gummies, square jar with white cap. Never render gummies as orange/peach/pink."
+    },
+    "lunessa": {
+      "rotation_pool": [
+        {"hook": "interview", "setting": "kitchen"},
+        {"hook": "interview", "setting": "nature"},
+        {"hook": "interview", "setting": "bedroom"},
+        {"hook": "spicy", "setting": "kitchen"}
+      ],
+      "vault_path": "brands/lunessa",
+      "hero_image": "brands/lunessa/brand/website assets/lunessa spelling corrected .jpg",
+      "product_context": "Red Yeast Rice + CoQ10 heart health supplement for women 50+"
+    },
+    "velantra-boat-tote": {
+      "rotation_pool": [
+        {"hook": "camera_bump", "setting": "street"},
+        {"hook": "spicy", "setting": "street"},
+        {"hook": "camera_bump", "setting": "nature"}
+      ],
+      "vault_path": "brands/velantra/products/boat-tote",
+      "hero_image": null,
+      "product_context": "Canvas + leather boat tote with gold hardware, Birkin-inspired"
+    },
+    "velantra-meridian": {
+      "rotation_pool": [
+        {"hook": "spicy", "setting": "street"},
+        {"hook": "spicy", "setting": "office"}
+      ],
+      "vault_path": "brands/velantra/products/meridian",
+      "hero_image": null,
+      "product_context": "Premium leather handbag with silver hardware"
+    },
+    "velantra-weekender": {
+      "rotation_pool": [
+        {"hook": "spicy", "setting": "in_car"},
+        {"hook": "spicy", "setting": "nature"}
+      ],
+      "vault_path": "brands/velantra/products/weekender",
+      "hero_image": null,
+      "product_context": "Canvas + leather weekender travel bag"
+    },
+    "avelle": {
+      "rotation_pool": [
+        {"hook": "interview", "setting": "kitchen"},
+        {"hook": "spicy", "setting": "bathroom"}
+      ],
+      "vault_path": "brands/avelle",
+      "hero_image": null,
+      "product_context": null
+    },
+    "solorna": {
+      "rotation_pool": [
+        {"hook": "spicy", "setting": "street"},
+        {"hook": "interview", "setting": "bedroom"}
+      ],
+      "vault_path": "brands/solorna",
+      "hero_image": null,
+      "product_context": null
+    }
+  }
+}

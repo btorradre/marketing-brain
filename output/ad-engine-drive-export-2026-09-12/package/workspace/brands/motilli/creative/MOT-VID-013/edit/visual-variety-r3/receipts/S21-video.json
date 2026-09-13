@@ -1,0 +1,42 @@
+{
+  "id": "S21",
+  "kind": "video",
+  "model": "google/gemini-omni-flash-1-1",
+  "duration": 4,
+  "edit_duration": 2.766666666666673,
+  "input": {
+    "prompt": "Create one continuous silent vertical shot starting exactly from the supplied keyframe. A restrained contraction passes along adjacent smooth-muscle cells. Preserve the diagonal cellular arrangement and nuclei; do not generate new cells or show an ingredient activating them. Restrained realistic motion. No new captions, watermarks, logos, speech, music, scene cuts, transition, zoom jump, morphing or before/after comparison. Preserve this scene composition throughout. Educational illustrations must not become simulated treatment evidence. Render a 4-second 9:16 1080p source clip for an existing ad edit.",
+    "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788976915566-lr6yovjf8p.png",
+    "duration": "4",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p"
+  },
+  "job": {
+    "id": "job_00234b550037",
+    "engine": "kie",
+    "kind": "generate",
+    "model": "google/gemini-omni-flash-1-1",
+    "status": "success",
+    "external_task_id": "55c4afe74245fca70c4ab83b3bf43bf0",
+    "brand": "motilli",
+    "concept": "MOT-VID-013-visual-variety-r3",
+    "error": null,
+    "created_at": "2026-09-09T18:26:58.217069+00:00",
+    "updated_at": "2026-09-09T18:30:54.257764+00:00",
+    "input": {
+      "prompt": "Create one continuous silent vertical shot starting exactly from the supplied keyframe. A restrained contraction passes along adjacent smooth-muscle cells. Preserve the diagonal cellular arrangement and nuclei; do not generate new cells or show an ingredient activating them. Restrained realistic motion. No new captions, watermarks, logos, speech, music, scene cuts, transition, zoom jump, morphing or before/after comparison. Preserve this scene composition throughout. Educational illustrations must not become simulated treatment evidence. Render a 4-second 9:16 1080p source clip for an existing ad edit.",
+      "first_frame_url": "https://tempfile.aiquickdraw.com/gpt-image-2-5/1788976915566-lr6yovjf8p.png",
+      "duration": "4",
+      "aspect_ratio": "9:16",
+      "resolution": "1080p"
+    },
+    "output": {
+      "asset_ids": [
+        "asset_9e21b75bf8a3"
+      ],
+      "credits_consumed": 63.0
+    }
+  },
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/edit/visual-variety-r3/motion/S21.mp4",
+  "source_url": "https://tempfile.aiquickdraw.com/v/55c4afe74245fca70c4ab83b3bf43bf0_1788978594.mp4"
+}

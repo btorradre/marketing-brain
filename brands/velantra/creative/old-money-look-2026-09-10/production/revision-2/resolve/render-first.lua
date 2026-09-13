@@ -1,0 +1,4 @@
+local pm=r:GetProjectManager() local p=pm:GetCurrentProject() assert(p:GetName()=="VEL_Eleanor_OldMoney_RawPhone_R2_2026-09-11") local t=p:GetCurrentTimeline() assert(t:GetName()=="VEL-OM-H1-A1-R2")
+assert(p:SetCurrentRenderFormatAndCodec("mp4","H264")) assert(p:SetCurrentRenderMode(1))
+assert(p:SetRenderSettings({SelectAllFrames=true,TargetDir=[=[/Users/brooksorradre2/Documents/marketing brain/brands/velantra/creative/old-money-look-2026-09-10/production/revision-2/exports]=],CustomName=t:GetName(),ExportVideo=true,ExportAudio=true,FormatWidth=1080,FormatHeight=1920,FrameRate=30,VideoQuality=12000,AudioCodec="aac",AudioSampleRate=48000,NetworkOptimization=true}))
+local id=p:AddRenderJob() assert(id) assert(pm:SaveProject()) local started=p:StartRendering({id}) return {job=id,started=started}

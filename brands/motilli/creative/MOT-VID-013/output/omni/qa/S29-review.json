@@ -1,0 +1,25 @@
+{
+  "shot": "S29",
+  "verdict": "minor_issue",
+  "observed_motion": "Woman holds the mug steadily on the counter, breathing gently and looking forward with intermittent blinking and smiling.",
+  "issues": [
+    {
+      "time_s": 2.25,
+      "description": "Prolonged eye closure across multiple consecutive frames.",
+      "severity": "low"
+    },
+    {
+      "time_s": 3.5,
+      "description": "Repeated unnatural squinting and fluttering blinks.",
+      "severity": "low"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 2.0,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/qa/S29-4fps.jpg"
+}

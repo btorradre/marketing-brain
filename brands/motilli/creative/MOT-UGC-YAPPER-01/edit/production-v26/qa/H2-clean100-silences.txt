@@ -1,0 +1,26 @@
+Input #0, mp3, from 'brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v26/deliverables/Motilli-V26-H2-Woman-Over-40-Natural-clean-1x.mp3':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    timecode        : 00:00:00:00
+    encoder         : Lavf62.12.102
+  Duration: 00:04:11.40, start: 0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 192 kb/s, start 0.025057
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    timecode        : 00:00:00:00
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, mono, s16, 705 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+[Parsed_silencedetect_0 @ 0xa6f044900] silence_start: 222.846984
+[Parsed_silencedetect_0 @ 0xa6f044900] silence_end: 223.279002 | silence_duration: 0.432018
+[out#0/null @ 0xa6f044180] video:0KiB audio:21654KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:04:11.40 bitrate=N/A speed=2.19e+03x elapsed=0:00:00.11    

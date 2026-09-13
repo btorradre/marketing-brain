@@ -1,0 +1,19 @@
+{
+  "error": "invalid_request",
+  "error_description": "GraphQL errors occurred: access denied",
+  "graphql_errors": [
+    {
+      "message": "access denied",
+      "path": [
+        "appInstallations"
+      ],
+      "locations": [
+        {
+          "line": 1,
+          "column": 20
+        }
+      ]
+    }
+  ],
+  "error_code": "INVALID_ARGUMENT"
+}

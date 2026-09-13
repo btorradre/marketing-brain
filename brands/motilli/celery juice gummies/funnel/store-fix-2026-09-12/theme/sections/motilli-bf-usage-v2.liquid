@@ -1,0 +1,92 @@
+{%- comment -%}cb-motilli-usage{%- endcomment -%}
+{% comment %} Motilli PDP — Usage: Simple. 2 Capsules. With Dinner. {% endcomment %}
+<section class="mtbfus">
+  <div class="mtbfus__inner">
+    <h2 class="mtbfus__h2">{{ section.settings.heading }}</h2>
+    <p class="mtbfus__sub">{{ section.settings.subtext }}</p>
+    <ul class="mtbfus__steps">
+      {% for block in section.blocks %}
+        {% if block.type == 'step' %}
+          <li class="mtbfus__step" {{ block.shopify_attributes }}>
+            <span class="mtbfus__icon" aria-hidden="true">
+              {% case block.settings.icon %}
+                {% when 'pill' %}
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="8" width="20" height="8" rx="4" stroke="#1a2420" stroke-width="1.6"/><line x1="12" y1="8" x2="12" y2="16" stroke="#1a2420" stroke-width="1.6"/></svg>
+                {% when 'water' %}
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3 C8 9 6 13 6 16 a6 6 0 0 0 12 0 C18 13 16 9 12 3 Z" stroke="#1a2420" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                {% when 'calendar' %}
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="16" rx="2" stroke="#1a2420" stroke-width="1.6"/><line x1="3" y1="10" x2="21" y2="10" stroke="#1a2420" stroke-width="1.6"/><line x1="8" y1="3" x2="8" y2="7" stroke="#1a2420" stroke-width="1.6" stroke-linecap="round"/><line x1="16" y1="3" x2="16" y2="7" stroke="#1a2420" stroke-width="1.6" stroke-linecap="round"/></svg>
+                {% when 'refresh' %}
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 12 a8 8 0 0 1 14-5 M20 12 a8 8 0 0 1 -14 5" stroke="#1a2420" stroke-width="1.6" stroke-linecap="round" fill="none"/><polyline points="18,3 18,7 14,7" stroke="#1a2420" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><polyline points="6,21 6,17 10,17" stroke="#1a2420" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                {% else %}
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#1a2420" stroke-width="1.6"/></svg>
+              {% endcase %}
+            </span>
+            <div class="mtbfus__copy">
+              <strong class="mtbfus__title">{{ block.settings.title }}</strong>
+              <span class="mtbfus__body">— {{ block.settings.body }}</span>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<style>
+.mtbfus { padding: 48px 24px 56px; background: #ffffff; color: #1a2420; }
+.mtbfus__inner { max-width: 760px; margin: 0 auto; text-align: center; }
+.mtbfus__h2 { font: 700 34px/1.15 'Cormorant Garamond', Georgia, serif; margin: 0 0 14px; letter-spacing: -0.5px; }
+.mtbfus__sub { font: 400 15px/1.6 Inter, system-ui, sans-serif; color: #555; margin: 0 auto 32px; max-width: 600px; }
+.mtbfus__steps { list-style: none; padding: 0; margin: 0; text-align: left; display: flex; flex-direction: column; gap: 16px; }
+.mtbfus__step { display: flex; align-items: flex-start; gap: 14px; }
+.mtbfus__icon { flex: 0 0 28px; display: inline-flex; align-items: center; justify-content: center; margin-top: 2px; }
+.mtbfus__copy { font: 400 15px/1.55 Inter, system-ui, sans-serif; color: #2a2f33; }
+.mtbfus__title { font-weight: 700; color: #1a2420; }
+.mtbfus__body { color: #4a5159; }
+@media (max-width: 600px) {
+  .mtbfus__h2 { font-size: 26px; }
+  .mtbfus__sub { font-size: 14px; }
+  .mtbfus__copy { font-size: 14px; }
+}
+</style>
+{% schema %}
+{
+  "name": "Motilli Usage Steps V2",
+  "tag": "section",
+  "class": "motilli-bf-section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Simple. 2 Capsules. With Dinner. That's It." },
+    { "type": "textarea", "id": "subtext", "label": "Subtext", "default": "No powders to mix. No fiber drinks to choke down. No timing 30 minutes before meals. Just two capsules with dinner and a glass of water — and let the clinical-strength formula do the rest." }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Usage step",
+      "settings": [
+        { "type": "select", "id": "icon", "label": "Icon", "default": "pill",
+          "options": [
+            { "value": "pill", "label": "Pill" },
+            { "value": "water", "label": "Water drop" },
+            { "value": "calendar", "label": "Calendar" },
+            { "value": "refresh", "label": "Refresh" }
+          ]
+        },
+        { "type": "text", "id": "title", "label": "Step title", "default": "Take 2 Capsules With Dinner" },
+        { "type": "textarea", "id": "body", "label": "Step body", "default": "two clinical-strength capsules with your evening meal, no fillers, no fluff." }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Motilli Usage Steps V2",
+      "blocks": [
+        { "type": "step", "settings": { "icon": "pill", "title": "Take 2 Capsules With Dinner", "body": "two clinical-strength capsules with your evening meal, no fillers, no fluff." } },
+        { "type": "step", "settings": { "icon": "water", "title": "Drink Them With a Full Glass of Water", "body": "helps the apigenin and celery fiber get to work right where you need them." } },
+        { "type": "step", "settings": { "icon": "calendar", "title": "Stay Consistent for 30 Days", "body": "most feel relief within days, full benefits build over 3–4 weeks." } },
+        { "type": "step", "settings": { "icon": "refresh", "title": "Feel the Difference", "body": "or get your money back. 90-day guarantee, no questions asked." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

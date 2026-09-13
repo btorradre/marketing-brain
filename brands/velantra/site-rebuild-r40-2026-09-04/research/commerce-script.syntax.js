@@ -1,0 +1,223 @@
+
+(() => {
+  const copy = {
+    add: "Liquid value",
+    preorder: "Liquid value",
+    soldOut: "Liquid value",
+    unavailable: "Liquid value",
+    contact: "Liquid value",
+    adding: "Liquid value",
+    error: "Liquid value"
+  };
+  const root = window.Shopify?.routes?.root || "Liquid value";
+  const route = path => `${root.endsWith('/') ? root : `${root}/`}${path}`;
+  const handle = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  function initializeProduct(section) {
+    if (section.dataset.commerceReady) return;
+    const variantsNode = section.querySelector('[data-product-variants]');
+    const form = section.querySelector('[data-product-form]');
+    if (!variantsNode || !form) return;
+    let variants;
+    try { variants = JSON.parse(variantsNode.textContent); } catch { return; }
+    section.dataset.commerceReady = 'true';
+    const select = form.querySelector('[data-variant-select]');
+    const picker = form.querySelector('[data-option-picker]');
+    const button = form.querySelector('[data-add-button]');
+    const label = form.querySelector('[data-add-label]');
+    const error = form.querySelector('[data-product-error]');
+    const gallery = section.querySelector('[data-gallery]');
+    const viewport = section.querySelector('[data-gallery-viewport]');
+    const mediaNodes = gallery ? [...gallery.querySelectorAll('[data-media-id]')] : [];
+    const sticky = section.querySelector('[data-product-sticky]');
+    const stickyButton = section.querySelector('[data-sticky-add]');
+    let selected = variants.find(variant => String(variant.id) === select.value);
+    let visibleMedia = [];
+    let previousZoomTarget;
+    let submitting = false;
+    let updatingNativeVariant = false;
+    picker.hidden = false;
+    form.querySelector('[data-variant-fallback]').hidden = true;
+    function preorder(variant) {
+      if (!variant) return false;
+      const kind = section.dataset.preorderKind;
+      return kind === 'october' || kind === 'early_october' || (kind === 'black_september' && variant.options[0] === 'Black');
+    }
+    function updateGalleryCount() {
+      if (!viewport || !visibleMedia.length) return;
+      const offset = viewport.getBoundingClientRect().left;
+      const index = visibleMedia.reduce((best, item, current) => Math.abs(item.getBoundingClientRect().left - offset) < Math.abs(visibleMedia[best].getBoundingClientRect().left - offset) ? current : best, 0);
+      const count = section.querySelector('[data-gallery-count]');
+      if (count) count.textContent = `${index + 1} / ${visibleMedia.length}`;
+      const previous = section.querySelector('[data-gallery-prev]');
+      const next = section.querySelector('[data-gallery-next]');
+      if (previous) previous.disabled = index === 0;
+      if (next) next.disabled = index === visibleMedia.length - 1;
+    }
+    function filterGallery(variant) {
+      if (!gallery) return;
+      const colorOption = picker.querySelector('[data-color-option]');
+      const color = colorOption && variant ? handle(variant.options[Number(colorOption.dataset.optionPosition)]) : '';
+      const media = mediaNodes;
+      const hasColor = color && media.some(item => item.dataset.color === color);
+      media.forEach(item => {
+        item.hidden = !!(hasColor && item.dataset.color && item.dataset.color !== color);
+        delete item.dataset.firstVisible;
+        item.style.order = '';
+        if (item.hidden) item.querySelectorAll('video').forEach(video => video.pause());
+      });
+      visibleMedia = media.filter(item => !item.hidden).sort((a, b) => Number(b.dataset.mediaId === String(variant?.featured_media_id)) - Number(a.dataset.mediaId === String(variant?.featured_media_id)));
+      if (viewport) {
+        const orderedMedia = document.createDocumentFragment();
+        visibleMedia.forEach(item => orderedMedia.appendChild(item));
+        viewport.appendChild(orderedMedia);
+      }
+      if (visibleMedia[0]) visibleMedia[0].dataset.firstVisible = 'true';
+      if (viewport) viewport.scrollLeft = 0;
+      const controls = section.querySelector('[data-gallery-controls]');
+      if (controls) controls.hidden = visibleMedia.length < 2;
+      updateGalleryCount();
+    }
+    function renderVariant(variant, updateUrl = true) {
+      selected = variant;
+      const canPurchase = !!variant?.available && variant.price > 0;
+      const buttonText = !variant ? copy.unavailable : variant.price === 0 ? copy.contact : !variant.available ? copy.soldOut : preorder(variant) ? copy.preorder : copy.add;
+      const nativeVariantChanged = select.value !== (variant ? String(variant.id) : '');
+      select.value = variant ? String(variant.id) : '';
+      if (nativeVariantChanged) {
+        updatingNativeVariant = true;
+        select.dispatchEvent(new Event('change', {bubbles: true}));
+        updatingNativeVariant = false;
+      }
+      button.disabled = !canPurchase;
+      label.textContent = buttonText;
+      if (stickyButton) { stickyButton.disabled = !canPurchase; stickyButton.textContent = buttonText; }
+      const formattedPrice = !variant ? copy.unavailable : variant.price === 0 ? copy.contact : variant.formatted_price;
+      section.querySelectorAll('[data-product-price], [data-sticky-price]').forEach(node => { node.textContent = formattedPrice; });
+      const preorderNotice = section.querySelector('[data-preorder-notice]');
+      if (preorderNotice) preorderNotice.hidden = !preorder(variant);
+      const contact = section.querySelector('[data-contact-availability]');
+      if (contact) contact.hidden = !variant || variant.price !== 0;
+      const dynamic = section.querySelector('[data-dynamic-checkout]');
+      if (dynamic) dynamic.hidden = !canPurchase;
+      error.hidden = true;
+      error.textContent = '';
+      picker.querySelectorAll('[data-option-position]').forEach(fieldset => {
+        const input = fieldset.querySelector('input:checked');
+        const selectedText = fieldset.querySelector('[data-selected-option]');
+        if (selectedText) selectedText.textContent = input?.value || '';
+        fieldset.querySelectorAll('input').forEach(inputOption => {
+          const position = Number(fieldset.dataset.optionPosition);
+          const isAvailable = variants.some(candidate => candidate.available && candidate.options[position] === inputOption.value && [...picker.querySelectorAll('[data-option-position]')].every(other => Number(other.dataset.optionPosition) === position || candidate.options[Number(other.dataset.optionPosition)] === other.querySelector('input:checked')?.value));
+          inputOption.closest('.product-option__value').classList.toggle('is-unavailable', !isAvailable);
+        });
+      });
+      filterGallery(variant);
+      if (variant && updateUrl) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('variant', variant.id);
+        window.history.replaceState({}, '', url);
+      }
+      section.dispatchEvent(new CustomEvent('variant:change', {bubbles: true, detail: {variant}}));
+    }
+    picker.addEventListener('change', () => {
+      if (submitting) return;
+      const values = [...picker.querySelectorAll('[data-option-position]')].map(fieldset => fieldset.querySelector('input:checked')?.value);
+      const match = variants.find(variant => variant.options.every((value, index) => value === values[index]));
+      renderVariant(match);
+    });
+    select.addEventListener('change', () => {
+      if (updatingNativeVariant) return;
+      const match = variants.find(variant => String(variant.id) === select.value);
+      if (match) picker.querySelectorAll('[data-option-position]').forEach(fieldset => fieldset.querySelectorAll('input').forEach(input => { input.checked = input.value === match.options[Number(fieldset.dataset.optionPosition)]; }));
+      renderVariant(match);
+    });
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      if (submitting || !selected?.available || selected.price <= 0) return;
+      if (!form.reportValidity()) return;
+      submitting = true;
+      error.hidden = true;
+      error.textContent = '';
+      button.disabled = true;
+      button.setAttribute('aria-busy', 'true');
+      label.textContent = copy.adding;
+      if (stickyButton) { stickyButton.disabled = true; stickyButton.textContent = copy.adding; }
+      picker.querySelectorAll('input').forEach(input => { input.disabled = true; });
+      try {
+        const body = new FormData(form);
+        body.set('id', selected.id);
+        const response = await fetch(route('cart/add.js'), {method: 'POST', headers: {'Accept': 'application/json', 'X-Requested-With': 'XMLHttpRequest'}, body});
+        const result = await response.json();
+        if (!response.ok || result.status) throw new Error(result.description || result.message || copy.error);
+        const cartResponse = await fetch(route('cart.js'), {headers: {'Accept': 'application/json'}, cache: 'no-store'});
+        if (!cartResponse.ok) { window.location.assign(route('cart')); return; }
+        const cart = await cartResponse.json();
+        document.dispatchEvent(new CustomEvent('cart:updated', {detail: cart}));
+        document.dispatchEvent(new CustomEvent('cart:open'));
+        if (!document.querySelector('[data-cart-drawer], #CartDrawer, cart-drawer')) window.location.assign(route('cart'));
+      } catch (failure) {
+        error.textContent = failure.message || copy.error;
+        error.hidden = false;
+        error.scrollIntoView({block: 'nearest', behavior: 'auto'});
+      } finally {
+        submitting = false;
+        button.removeAttribute('aria-busy');
+        picker.querySelectorAll('input').forEach(input => { input.disabled = false; });
+        const hadError = !error.hidden;
+        const message = error.textContent;
+        renderVariant(selected, false);
+        if (hadError) { error.textContent = message; error.hidden = false; }
+      }
+    });
+    if (viewport) {
+      viewport.addEventListener('scroll', updateGalleryCount, {passive: true});
+      const move = direction => {
+        const left = viewport.getBoundingClientRect().left;
+        const index = visibleMedia.reduce((best, item, current) => Math.abs(item.getBoundingClientRect().left - left) < Math.abs(visibleMedia[best].getBoundingClientRect().left - left) ? current : best, 0);
+        const target = visibleMedia[Math.max(0, Math.min(visibleMedia.length - 1, index + direction))];
+        if (target) viewport.scrollTo({left: target.offsetLeft - viewport.offsetLeft, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+      };
+      section.querySelector('[data-gallery-prev]')?.addEventListener('click', () => move(-1));
+      section.querySelector('[data-gallery-next]')?.addEventListener('click', () => move(1));
+      viewport.addEventListener('keydown', event => { if (event.target === viewport && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) { event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1); } });
+    }
+    const lightbox = section.querySelector('[data-product-lightbox]');
+    if (lightbox?.showModal) {
+      section.querySelectorAll('[data-zoom-image]').forEach(link => link.addEventListener('click', event => {
+        event.preventDefault();
+        previousZoomTarget = link;
+        const image = lightbox.querySelector('[data-lightbox-image]');
+        image.src = link.href;
+        image.alt = link.querySelector('img')?.alt || '';
+        lightbox.showModal();
+        document.documentElement.style.overflow = 'hidden';
+      }));
+      lightbox.querySelector('[data-lightbox-close]').addEventListener('click', () => lightbox.close());
+      lightbox.addEventListener('close', () => { document.documentElement.style.overflow = ''; previousZoomTarget?.focus({preventScroll: true}); });
+    }
+    if (sticky && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => { sticky.hidden = entries[0].isIntersecting || entries[0].boundingClientRect.top > 0; }, {threshold: 0});
+      observer.observe(button);
+    }
+    renderVariant(selected, false);
+  }
+  function initializeRecommendations(node) {
+    if (node.dataset.loaded || node.querySelector('.product-grid')) return;
+    node.dataset.loaded = 'true';
+    fetch(node.dataset.url, {headers: {'Accept': 'text/html'}})
+      .then(response => { if (!response.ok) throw new Error('Recommendations unavailable'); return response.text(); })
+      .then(html => { const next = new DOMParser().parseFromString(html, 'text/html').querySelector('[data-product-recommendations]'); if (next?.querySelector('.product-grid')) node.innerHTML = next.innerHTML; })
+      .catch(() => {});
+  }
+  function initialize(scope = document) {
+    scope.querySelectorAll('[data-product-section]').forEach(initializeProduct);
+    scope.querySelectorAll('[data-auto-submit]').forEach(select => { if (!select.dataset.ready) { select.dataset.ready = 'true'; select.addEventListener('change', () => select.form.requestSubmit()); } });
+    scope.querySelectorAll('[data-product-recommendations]').forEach(node => {
+      if ('IntersectionObserver' in window) { const observer = new IntersectionObserver(entries => { if (entries[0].isIntersecting) { observer.disconnect(); initializeRecommendations(node); } }, {rootMargin: '500px'}); observer.observe(node); }
+      else initializeRecommendations(node);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => initialize());
+  else initialize();
+  document.addEventListener('shopify:section:load', event => initialize(event.target));
+})();

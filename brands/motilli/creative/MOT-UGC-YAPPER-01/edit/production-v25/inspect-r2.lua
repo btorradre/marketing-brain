@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();for i=1,p:GetTimelineCount() do local t=p:GetTimelineByIndex(i);if t:GetName()=='v25 H1 Woman Over 40 Natural - final r2' then print('R2',t:GetSetting('timelineFrameRate'));for n,c in ipairs(t:GetItemListInTrack('audio',1)) do print(n,c:GetName(),c:GetStart(),c:GetEnd(),c:GetLeftOffset()) end end end

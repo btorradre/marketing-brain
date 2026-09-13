@@ -1,0 +1,57 @@
+{
+  "_comment": "Cache of brand → Higgsfield product entity IDs, Soul Character IDs, and winning generation IDs. Populated on first run per brand. The skill reads this before every generation; if a key is missing it triggers the setup flow (upload hero image → show_marketing_studio action='create' → save id back here).",
+  "_workspace_id": "7185c910-9954-4029-9d11-0fde8ed1a767",
+  "_workspace_name": "retail_guinea_pig_2000",
+  "brands": {
+    "motilli": {
+      "higgsfield_product_id": "40d452a6-d7d0-440a-866c-61c25caa581d",
+      "hero_image": "brands/motilli/brand/website-assets/motilli product reference.png",
+      "default_product_context": "Celery juice fiber gummies for GLP-1 users",
+      "soul_characters": {},
+      "winning_refs": {}
+    },
+    "lunessa": {
+      "higgsfield_product_id": null,
+      "hero_image": "brands/lunessa/brand/website assets/lunessa spelling corrected .jpg",
+      "default_product_context": "Red yeast rice + CoQ10 heart health supplement for women 50+",
+      "soul_characters": {},
+      "winning_refs": {},
+      "higgsfield_upload_id": "4a95bf3e-cef5-4720-91ec-e607e4b3380c"
+    },
+    "velantra-boat-tote": {
+      "higgsfield_product_id": null,
+      "hero_image": null,
+      "default_product_context": "Canvas + leather boat tote with gold hardware, Birkin-inspired",
+      "soul_characters": {},
+      "winning_refs": {}
+    },
+    "velantra-meridian": {
+      "higgsfield_product_id": null,
+      "hero_image": null,
+      "default_product_context": "Premium leather handbag with silver hardware",
+      "soul_characters": {},
+      "winning_refs": {}
+    },
+    "velantra-weekender": {
+      "higgsfield_product_id": null,
+      "hero_image": null,
+      "default_product_context": "Canvas + leather weekender travel bag",
+      "soul_characters": {},
+      "winning_refs": {}
+    },
+    "avelle": {
+      "higgsfield_product_id": null,
+      "hero_image": null,
+      "default_product_context": null,
+      "soul_characters": {},
+      "winning_refs": {}
+    },
+    "solorna": {
+      "higgsfield_product_id": null,
+      "hero_image": null,
+      "default_product_context": null,
+      "soul_characters": {},
+      "winning_refs": {}
+    }
+  }
+}

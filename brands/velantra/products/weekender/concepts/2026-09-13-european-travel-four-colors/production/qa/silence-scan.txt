@@ -1,0 +1,41 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/2026-09-13-european-travel-four-colors/production/exports/Eleanor-EuropeanTravel-FourColors-Final.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    creation_time   : 2026-09-13T06:39:14.000000Z
+    encoder         : Blackmagic Design DaVinci Resolve
+  Duration: 00:01:10.74, start: 0.000000, bitrate: 15874 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920, 15566 kb/s, SAR 1:1 DAR 9:16, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      creation_time   : 2026-09-13T06:39:14.000000Z
+      handler_name    : VideoHandler
+      encoder         : H.264
+      timecode        : 00:00:00:00
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 319 kb/s (default)
+    Metadata:
+      creation_time   : 2026-09-13T06:39:14.000000Z
+      handler_name    : SoundHandler
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74) (default)
+    Metadata:
+      creation_time   : 2026-09-13T06:39:14.000000Z
+      handler_name    : TimeCodeHandler
+      timecode        : 00:00:00:00
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+      creation_time   : 2026-09-13T06:39:14.000000Z
+      handler_name    : SoundHandler
+[Parsed_silencedetect_0 @ 0xbc6c05080] silence_start: 70.430146
+[Parsed_silencedetect_0 @ 0xbc6c05080] silence_end: 70.697333 | silence_duration: 0.267187
+[out#0/null @ 0xbc6c04780] video:0KiB audio:13256KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:10.69 bitrate=N/A speed=1.6e+03x elapsed=0:00:00.04    

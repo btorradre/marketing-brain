@@ -1,0 +1,99 @@
+{
+  "voice_description": {
+    "gender": "male",
+    "accent": "General American",
+    "pitch": "medium-low, resonant and controlled",
+    "texture": "clear, smooth, polished studio vocal with crisp high-end presence and zero rasp",
+    "emotional_tone": "problem-solving, informative, authoritative yet empathetic in the problem setup, transitioning to reassuring, confident, and direct for the CTA",
+    "delivery_pace": "moderate and articulate commercial pace (around 160-170 words per minute), featuring deliberate punchy phrasing and rhythmic cadences"
+  },
+  "music": {
+    "audible": true,
+    "confidence": 1.0,
+    "description": "Modern commercial underscore consisting of synth pulses, subtle sub-bass drops, electronic percussion, and airy melodic pads.",
+    "timeline": [
+      {
+        "timestamp_range": "00:00 - 00:27",
+        "description": "Tense, investigative bed with muted rhythmic synth pulses, subtle deep bass thumps, and low atmospheric drones matching the problem-agitation script."
+      },
+      {
+        "timestamp_range": "00:27 - 00:45",
+        "description": "Uplifting transition with an ambient riser into an optimistic, rhythmic corporate electronic bed featuring light synth plucks and steady mid-tempo pulsing."
+      },
+      {
+        "timestamp_range": "00:45 - 01:00",
+        "description": "Sustained driving electronic pulse maintaining momentum and clarity behind product benefits."
+      },
+      {
+        "timestamp_range": "01:00 - 01:06",
+        "description": "Resolution riser leading to a clean, punctuated outro bass pad and synth chime tail fading out."
+      }
+    ]
+  },
+  "sound_effects": [
+    {
+      "timestamp": "00:00.0 - 00:00.5",
+      "description": "Low sub-bass boom / impact hit on opening beat."
+    },
+    {
+      "timestamp": "00:04.2 - 00:04.7",
+      "description": "Quick whoosh / swish transition into 'Here's the trap...'"
+    },
+    {
+      "timestamp": "00:10.0 - 00:10.8",
+      "description": "Subtle bass drop / impact accentuating 'It works... for a day.'"
+    },
+    {
+      "timestamp": "00:27.5 - 00:28.4",
+      "description": "Swoosh riser accentuating 'That's the loop' into the product reveal."
+    },
+    {
+      "timestamp": "01:00.2 - 01:01.0",
+      "description": "Impact hit / transition sweep underneath the final 'GLP-1 SOS' product name."
+    },
+    {
+      "timestamp": "01:03.9 - 01:04.5",
+      "description": "Clean digital UI tap / click SFX on 'Tap below.'"
+    }
+  ],
+  "pauses_and_emphasis": [
+    {
+      "timestamp_range": "00:00.0 - 00:04.3",
+      "phrase": "On a GLP-1, the harder you push your gut with laxatives, the more stuck you get.",
+      "notes": "Strong emphasis on 'harder', 'gut', and 'stuck'."
+    },
+    {
+      "timestamp_range": "00:04.4 - 00:05.7",
+      "phrase": "Here's the trap no one warns you about.",
+      "notes": "Clear pause before, stressed 'trap' and 'no one'."
+    },
+    {
+      "timestamp_range": "00:09.8 - 00:11.3",
+      "phrase": "It works... for a day.",
+      "notes": "Dramatic micro-pause between 'works' and 'for a day' to undercut temporary relief."
+    },
+    {
+      "timestamp_range": "00:27.0 - 00:28.2",
+      "phrase": "That's the loop.",
+      "notes": "Standalone concluding phrase followed by a brief pause before introducing the solution."
+    },
+    {
+      "timestamp_range": "00:36.4 - 00:38.2",
+      "phrase": "Nothing to force, nothing to get hooked on.",
+      "notes": "Symmetrical rhythmic stress on 'Nothing to force' and 'hooked on'."
+    },
+    {
+      "timestamp_range": "01:00.6 - 01:04.4",
+      "phrase": "GLP-1 SOS. 60-day money-back guarantee. Tap below.",
+      "notes": "Segmented, punchy call-to-action cadence with clear silence separating each statement."
+    }
+  ],
+  "voice_continuity": "Consistent studio mic placement and proximity effect throughout; seamless vocal chain with transparent compression, tight gating/de-breathing, and steady gain structure across all edits.",
+  "ending": {
+    "last_spoken_words": "Tap below.",
+    "narration_end_time": "01:04.4",
+    "audio_tail": "Music decay and synth tail ring out cleanly until final fade-out at 01:05.8 - 01:06.0."
+  },
+  "practical_narration_direction": "Deliver the opening warning with measured, conspiratorial authority\u2014do not rush the negative diagnosis. Use distinct micro-pauses around contrasting phrases ('It works... for a day') to let the frustration land. Pivot at 'GLP-1 SOS' into a lighter, solution-oriented clinical tone that feels reassuring rather than aggressive, ending with brisk, definitive punch on the offer and call-to-action.",
+  "model": "gemini-3.8-flash"
+}

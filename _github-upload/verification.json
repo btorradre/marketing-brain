@@ -1,0 +1,13 @@
+{
+  "prepared_at": "2026-09-13T19:20:45.007181+00:00",
+  "source_files": 31041,
+  "sanitized_files": 526,
+  "credential_scanner": "Gitleaks 8.30.1",
+  "scanned_source_text_remaining_findings": 0,
+  "scope": "Source text plus HTML text. Embedded image/audio/video data URI payloads were omitted from temporary HTML scan copies; the corresponding upload documents retain their media. Non-text binaries remain pending and have not been credential-audited for upload.",
+  "verification_method": "Full source and HTML scans followed by scans of all changed files resolving remaining findings; added authentication application routes checked separately.",
+  "original_working_files_preserved": true,
+  "nested_git_histories_included": false,
+  "media_upload_complete": false,
+  "automatic_sync_enabled": false
+}

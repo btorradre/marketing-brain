@@ -1,0 +1,144 @@
+{
+  "reviewer": "commerce_theme independent visual review",
+  "status": "accepted_native_film_sample_review",
+  "identity": {
+    "handle": "velantra-vivienne",
+    "variant": "Chocolate",
+    "variant_id": "44462686830657",
+    "reference": "brands/velantra/products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png",
+    "reference_status": "Owner-selected intended visual design; not a measured production sample",
+    "skill": "/Users/brooksorradre2/.codex/skills/velantra-vivienne-product/SKILL.md"
+  },
+  "metric_scale": "not_verifiable: nominal38\u00d727\u00d720cm are owner-approved targets with inferred provenance; no calibrated physical anchor",
+  "shot_plan_review": "Planned substitutions avoid unsupported interiors, zipper, rear and final clip assembly.",
+  "draft_reviews": [
+    {
+      "version": "v2-stage-1",
+      "decision": "reject",
+      "viewed": [
+        "qa/v2-stage-1/contact.jpg",
+        "qa/v2-stage-1/frame-09-7.300.jpg",
+        "qa/v2-stage-1/frame-10-7.900.jpg",
+        "qa/v2-stage-1/frame-03-2.300.jpg"
+      ],
+      "observed_failures": [
+        {
+          "time_seconds": 7.3,
+          "issue": "Added upright gold keeper crossing a bare leather tip with two punched slots; approved master instead has a complete slotted gold end plate and no keeper at this position."
+        },
+        {
+          "time_seconds": 7.9,
+          "issue": "Left inward-falling belt shortened into straight stub terminating before paired side bars; master has longer diagonal tail."
+        }
+      ],
+      "retained_observations": [
+        "Opening0\u20131.8s preserves the diagonal slotted gold end.",
+        "Complete2.3s view retains two near-overlapped upright handle arches, one key bell, diagonal tails, horizontal center oval, contrast trim, corner caps and soft body."
+      ],
+      "recommended_revision": "Replace handle-base hardware/elevated belt views with supported shaft-only and attached braid close-ups; review new complete film and crop coverage."
+    },
+    {
+      "version": "v3-stage-1",
+      "decision": "accept_reference_relative_stage_only",
+      "viewed": [
+        "qa/v3-stage-1/contact.jpg",
+        "qa/v3-stage-1/frame-03-2.300.jpg",
+        "qa/v3-stage-1/frame-09-7.300.jpg",
+        "qa/v3-stage-1/frame-11-8.958.jpg"
+      ],
+      "observed_failures": [],
+      "retained_observations": [
+        "Opening long diagonal slotted gold end and paired side bars preserved.",
+        "Complete2.3s view retains two distinct upright rolled handles, one key bell, horizontal oval center fitting, inward diagonal tails, raised braided panel, contrast trim, corner caps and soft body.",
+        "Replacement shaft-only and braid details avoid the prior invented keeper/routing.",
+        "No unsupported rear or interior appears in this stage."
+      ],
+      "limitations": "Sampled-frame visual review of stage1; final extensions, native crop coverage and temporal transitions pending. Physical size not verifiable."
+    },
+    {
+      "version": "v3-stage-2",
+      "decision": "hold_one_shot",
+      "viewed": [
+        "qa/v3-stage-2/contact.jpg",
+        "qa/v3-stage-2/frame-06-12.100.jpg",
+        "qa/v3-stage-2/frame-14-16.800.jpg",
+        "qa/v3-stage-2/frame-04-11.100.jpg",
+        "qa/v3-stage-2/frame-09-13.600.jpg",
+        "qa/v3-stage-2/mobile-crop-contact.jpg",
+        "qa/v3-stage-2/desktop-crop-contact.jpg"
+      ],
+      "observed_failures": [
+        {
+          "time_seconds": [
+            11.1,
+            11.7
+          ],
+          "issue": "Cognac strip has conspicuous stitch rows on both long edges, absent from the master inward belt tails and inconsistent with the plain belt in stage2 key-bell frame13.6."
+        }
+      ],
+      "retained_observations": [
+        "Rear handle contour remains visible around left/top of front handle at12.1; close overlap is plausible occlusion, not a proven deleted handle.",
+        "Key bell, center oval and slotted tails in13.6s macro retain source construction.",
+        "Lower-right front/gusset at16.8 retains corner reinforcement and does not show a new keeper.",
+        "Full-bag frames remain visible in supplied mobile390/340 and desktop1434/726 crop samples; macro subjects remain legible.",
+        "No unsupported rear/interior appears."
+      ],
+      "recommended_revision": "Replace11.1\u201311.7s stitched-strip shot with source-anchored plain trim or body-grain view; retain other accepted source-relative views subject to final temporal/crop check."
+    },
+    {
+      "version": "v4-stage-2",
+      "decision": "hold_key_bell_shot",
+      "viewed": [
+        "qa/v4-stage-2/contact.jpg",
+        "qa/v4-stage-2/frame-04-11.100.jpg",
+        "qa/v4-stage-2/frame-09-13.600.jpg"
+      ],
+      "observed_failures": [
+        {
+          "time_seconds": 13.6,
+          "issue": "Isolated key bell has a new conspicuous stitch row on hanging cord and a protruding gold key/tongue below the bell, absent from the approved master and accepted v3 key-bell view."
+        }
+      ],
+      "retained_observations": [
+        "Body-fold replacement removes stitched cognac strap error.",
+        "Complete front has two clearly visible rolled handles.",
+        "Other viewed exterior/gusset details retain expected construction."
+      ],
+      "recommended_revision": "Retain source-faithful body-fold view and restore accepted v3 key-bell interval through the authorized internal editor, if supported; otherwise generate a source-anchored on-bag bell view without added key/cord details."
+    }
+  ],
+  "final_native_review": {
+    "theme_id": 151364960321,
+    "video_url": "https://velantrafashion.com/cdn/shop/videos/c/vp/1ad14d0997474e428fa2c952b9d97554/1ad14d0997474e428fa2c952b9d97554.HD-1080p-7.2Mbps-93603160.mp4?v=0",
+    "duration_seconds": 21.674667,
+    "sampled_seconds": [
+      0.6,
+      2.4,
+      4.2,
+      6.2,
+      8.4,
+      10.5,
+      12.5,
+      14.5,
+      16.8,
+      19.7,
+      21.2
+    ],
+    "viewed_contact_sheets": [
+      "research/home-independent-film-1440-contact.jpg",
+      "research/home-independent-film-390-contact.jpg"
+    ],
+    "decision": "accept source-relative sampled product fidelity; no metric certification",
+    "findings": [
+      "The seeded slotted belt tip remains diagonal in the opening macro.",
+      "Complete front views retain two handle contours, braided upper edge, warm contrasting trim, horizontal center fitting, diagonal front belts, left key bell and soft grained body.",
+      "Later corner/trim and grain macros avoid the rejected isolated key bell and invented stitched belt edge.",
+      "No fabricated rear, interior, zipper or mechanism demonstration appears in the reviewed sample.",
+      "Complete-bag views fit both native homepage crops at sampled times; detail macros deliberately crop to their subjects."
+    ],
+    "limits": [
+      "Sampled-frame visual review, not proof of physical manufacture or measured scale.",
+      "PDP mobile crop is taller than homepage and is reviewed separately in PDP QA."
+    ]
+  }
+}

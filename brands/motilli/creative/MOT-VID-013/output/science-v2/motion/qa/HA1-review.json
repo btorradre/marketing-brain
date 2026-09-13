@@ -1,0 +1,25 @@
+{
+  "shot": "HA1",
+  "verdict": "minor_issue",
+  "observed_motion": "The camera performs a very slight vertical drift rather than tracking smoothly past the remedy bottles, leaving the composition largely stationary.",
+  "issues": [
+    {
+      "time_s": 0.0,
+      "description": "Lateral motion past the containers is minimal, resulting in an almost static perspective.",
+      "severity": "moderate"
+    },
+    {
+      "time_s": 2.75,
+      "description": "Subtle downward framing shift introduces the upper cabinet edge into the top of the frame.",
+      "severity": "low"
+    }
+  ],
+  "safe_window_start_s": 0.0,
+  "safe_window_end_s": 3.75,
+  "confidence": 0.72,
+  "review_model": "gemini-3.8-flash",
+  "sample_rate_fps": 4,
+  "frames_sampled": 16,
+  "native_duration_s": 4.0,
+  "evidence": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/science-v2/motion/qa/HA1-4fps.jpg"
+}

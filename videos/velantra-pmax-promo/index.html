@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #F6F1EB;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-kbh8" id="root" data-composition-id="main" data-start="0" data-duration="15" data-width="1920" data-height="1080">
+      <div data-hf-id="hf-baft" id="el-01-craft-over-label" class="scene" data-composition-id="01-craft-over-label" data-composition-src="compositions/frames/01-craft-over-label.html" data-start="0" data-duration="2.95" data-track-index="0"></div>
+
+      <div data-hf-id="hf-jkeb" id="el-02-the-workday" class="scene" data-composition-id="02-the-workday" data-composition-src="compositions/frames/02-the-workday.html" data-start="2.6" data-duration="3.4" data-track-index="1"></div>
+
+      <div data-hf-id="hf-fq6b" id="el-03-the-getaway" class="scene" data-composition-id="03-the-getaway" data-composition-src="compositions/frames/03-the-getaway.html" data-start="5.6" data-duration="3.35" data-track-index="0"></div>
+
+      <div data-hf-id="hf-s4ox" id="el-04-the-evening" class="scene" data-composition-id="04-the-evening" data-composition-src="compositions/frames/04-the-evening.html" data-start="8.6" data-duration="3.25" data-track-index="1"></div>
+
+      <div data-hf-id="hf-ccbn" id="el-05-find-your-silhouette" class="scene" data-composition-id="05-find-your-silhouette" data-composition-src="compositions/frames/05-find-your-silhouette.html" data-start="11.399999999999999" data-duration="3.6" data-track-index="0"></div>
+
+      <!-- BGM -->
+      <audio data-hf-id="hf-ayyb" id="el-bgm" src="assets/bgm/velantra-editorial-15s.wav" data-start="0" data-duration="15" data-track-index="11" data-volume="0.55"></audio>
+
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+      // ── frame transitions (injected by transitions.mjs) ──
+      (function () { var tl = window.__timelines["main"];
+        tl.to("#el-01-craft-over-label", { opacity: 0, duration: 0.35, ease: "power2.inOut" }, 2.6);
+        tl.fromTo("#el-02-the-workday", { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.inOut" }, 2.6);
+        tl.to("#el-02-the-workday", { x: -1920, duration: 0.4, ease: "power3.inOut" }, 5.6);
+        tl.fromTo("#el-03-the-getaway", { x: 1920, opacity: 1 }, { x: 0, duration: 0.4, ease: "power3.inOut" }, 5.6);
+        tl.to("#el-03-the-getaway", { opacity: 0, duration: 0.35, ease: "power2.inOut" }, 8.6);
+        tl.fromTo("#el-04-the-evening", { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.inOut" }, 8.6);
+        tl.to("#el-04-the-evening", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 0.45, ease: "power2.inOut" }, 11.4);
+        tl.fromTo("#el-05-find-your-silhouette", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 0.45, ease: "power2.inOut" }, 11.4);
+        tl.to({}, { duration: 15 }, 0); // full-span anchor — main.duration() == composition total (Studio master duration)
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "score": 0.7661178,
+    "content": "Use proper accordion implementation Accessible, indexable accordion: {%- comment -%} Content is in the DOM and indexable, but visually collapsed. {%- endcomment -%} <div class=\"accordion\"> <h3> <button class=\"accordion-header\" aria-expanded=\"true\" aria-controls=\"panel1\"> Product details <span class=\"accordion-icon\">−</span> </button> </h3> <div id=\"panel1\" class=\"accordion-panel\"> {{ product.description }} </div> <h3> <button class=\"accordion-header\" aria-expanded=\"false\" aria-controls=\"panel2\"> Shipping information <span class=\"accordion-icon\">+</span> </button> </h3> <div id=\"panel2\" class=\"accordion-panel\" hidden> {{ section.settings.shipping_info }} </div> </div> <style> .accordion-panel { /* Content is in the DOM, just visually hidden when collapsed */ overflow: hidden; transition: max-height 0.3s; } .accordion-panel[hidden] { display: block; /* Keep in the DOM for indexing */ max-height: 0; visibility: hidden; } .accordion-header[aria-expanded=\"true\"] + .accordion-panel { max-height: 2000px; visibility: visible; } </style> <script> document.querySelectorAll('.accordion-header').forEach(button => { button.addEventListener('click', function() { const expanded = this.getAttribute('aria-expanded') === 'true'; this.setAttribute('aria-expanded', !expanded); const panel = document.getElementById(this.getAttribute('aria-controls')); panel.hidden = expanded; this.querySelector('.accordion-icon').textContent = expanded ? '+' : '−'; }); }); </script>",
+    "url": "https://shopify.dev/docs/storefronts/themes/best-practices/performance/ensure-content-parity-mobile-desktop",
+    "title": "Ensure content parity between mobile and desktop",
+    "domain": "liquid"
+  },
+  {
+    "score": 0.75632584,
+    "content": "Output productlist setting When accessing the value of a product_list type setting, data is returned in one of the following formats: An array of product objects The array supports pagination using the paginate tag. You can also append .count to the setting key to return the number of products in the array. blank if no selection has been made, the selection isn't visible, or the selection no longer exists richtext A setting of type richtext outputs a multi-line text field with the following basic formatting options: Bold Italic Underline Link Paragraph Unordered list Note: No underline option appears in the rich text component. Merchants can underline text using the Command+U or Control+U keyboard shortcut. You can use this setting type to capture formatted text content, such as introductory brand content on the homepage. For example, the following setting generates the following output: Setting { \"type\": \"richtext\", \"id\": \"paragraph\", \"label\": \"Paragraph\" } Output richtext setting When accessing the value of a richtext type setting, data is returned in one of the following formats: A string that contains the entered content. An empty object, if nothing has been entered.",
+    "url": "https://shopify.dev/docs/storefronts/themes/architecture/settings/input-settings",
+    "title": "Input settings",
+    "domain": "liquid"
+  }
+]

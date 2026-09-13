@@ -1,0 +1,343 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "disabled": true,
+      "settings": {
+        "collection": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The structured top-handle bag, in premium top-grain leather with gold-tone hardware. Three sizes, forty colors — carried by hand or on the shoulder.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Designed for the woman who wants the look of a five-figure bag without the five figures, the Leather Handbag is built from premium top-grain leather in the structured silhouette that has defined modern luxury for decades. The iconic gold-tone twist lock and double rolled handles do the talking, while an adjustable shoulder strap lets you carry it by hand or on the shoulder. Inside, a spacious main compartment with a zip pocket and a slip pocket keeps cards, phone, and everyday essentials in order. Lightweight, durable, and quietly expensive-looking, it carries from the office to dinner to the weekend. Choose from three sizes and forty colors — there's one for every outfit, and a few you'll want to collect.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_materials": {
+          "type": "tab",
+          "settings": {
+            "title": "Materials & Care",
+            "content": "<p><strong>Leather:<\/strong> Premium top-grain leather with a natural pebbled grain.<br\/><strong>Hardware:<\/strong> Gold-tone twist lock with protective metal base feet.<br\/><strong>Handles:<\/strong> Double rolled top handles, plus an adjustable shoulder strap.<br\/><strong>Interior:<\/strong> One main compartment, one zip pocket, one slip pocket.<\/p><p><strong>Care:<\/strong> Wipe with a soft, dry cloth and condition occasionally with a leather balm. Avoid prolonged moisture and direct heat. Store stuffed and upright to hold its shape.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_dimensions": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions & Fit",
+            "content": "<p>Width measured across the base:<\/p><p><strong>Mini:<\/strong> 20 cm (7.9&quot;) &nbsp;|&nbsp; <strong>Small:<\/strong> 25 cm (9.8&quot;) &nbsp;|&nbsp; <strong>Medium:<\/strong> 30 cm (11.8&quot;)<\/p><p><strong>What fits:<\/strong> the Mini holds phone, cardholder, and keys; the Small adds a compact wallet and sunglasses; the Medium carries a tablet and your everyday essentials with room to spare. All three include an adjustable shoulder strap.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_ship": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>Free shipping on all orders over $75. Once your order is placed, it ships and arrives within 7 to 10 business days.<\/p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_warranty": {
+          "type": "tab",
+          "settings": {
+            "title": "Two Year Warranty",
+            "content": "<p>Every Velantra bag is covered for two years against defects in materials and construction. If anything goes wrong in normal use, we&rsquo;ll repair or replace it.<\/p><p>After two years, we continue to offer repair service for the cost of materials. Designed to last decades, not seasons.<\/p>",
+            "page": ""
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "reviews",
+        "tab_details",
+        "tab_materials",
+        "tab_dimensions",
+        "tab_ship",
+        "tab_warranty",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "customize": {
+      "type": "pdp-customize-grid",
+      "blocks": {
+        "item_0": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-organizer",
+            "tagline": "Slip inside"
+          }
+        },
+        "item_1": {
+          "type": "companion",
+          "settings": {
+            "product": "boat-tote-keychain",
+            "tagline": ""
+          }
+        },
+        "item_2": {
+          "type": "companion",
+          "settings": {
+            "product": "bag-scarf",
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_0",
+        "item_1",
+        "item_2"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "MAKE IT YOURS",
+        "heading": "Customize Your Leather Handbag",
+        "intro": "<p>Add an organizer, charm, or scarf to complete your bag — all designed to match.<\/p>",
+        "bg_color": "#faf8f4"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra bag is built to last. If anything fails in normal use, we’ll repair or replace it.<\/p>",
+        "link_url": "\/pages\/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "blocks": {
+        "pillar_0": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "LEATHER",
+            "headline": "Premium Top-Grain Leather",
+            "body": "<p>A natural pebbled grain that only looks richer with age. Light in the hand, structured on the arm.<\/p>"
+          }
+        },
+        "pillar_1": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "HARDWARE",
+            "headline": "Gold-Tone Twist Lock",
+            "body": "<p>The turn-lock closure and double rolled handles — the details that make the silhouette instantly recognizable.<\/p>"
+          }
+        },
+        "pillar_2": {
+          "type": "pillar",
+          "settings": {
+            "icon": "",
+            "eyebrow": "CHOICE",
+            "headline": "Three Sizes, Forty Colors",
+            "body": "<p>From a 20 cm Mini to a 30 cm Medium, in everything from Black to Rouge to deep green. Find yours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_0",
+        "pillar_1",
+        "pillar_2"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "benefits": {
+      "type": "pdp-benefit-blocks",
+      "blocks": {
+        "benefit_0": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "INSIDE",
+            "headline": "Organized interior",
+            "body": "<p>One main compartment, a zip pocket, and a slip pocket for the everyday.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "CARRY",
+            "headline": "Hand or shoulder",
+            "body": "<p>Double rolled handles plus an adjustable strap — carry it your way.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE LOCK",
+            "headline": "Gold twist lock",
+            "body": "<p>The turn-lock closure that defines the silhouette.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "eyebrow_small": "THE LEATHER",
+            "headline": "Top-grain leather",
+            "body": "<p>Structured, durable, and quietly expensive-looking.<\/p>",
+            "linked_product": "",
+            "link_url": "",
+            "link_label": "Shop"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_0",
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "eyebrow": "BUILT-IN BENEFITS",
+        "heading": "Made with intention",
+        "layout": "stack",
+        "bg_color": "#ffffff"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "blocks": {
+        "tile_0": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/leather-handbag-lifestyle-1.jpg",
+            "image_position": "left",
+            "eyebrow": "THE LOOK FOR LESS",
+            "headline": "The Icon, in Leather You Can Actually Afford",
+            "body": "<p>We took the structured top-handle silhouette that's defined luxury for half a century and rebuilt it in premium top-grain leather with gold-tone hardware — for a fraction of what the designer originals command. It carries with the same presence, minus the four-figure price tag.<\/p><p>Available in three sizes and forty colors, from timeless Black to Rouge to deep green. Quietly expensive-looking, and entirely yours.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        },
+        "tile_1": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "image_position": "right",
+            "eyebrow": "THE PROMISE",
+            "headline": "Two years covered. Lifetime in our shop.",
+            "body": "<p>Two-year warranty on materials and stitching. After that, we repair anything for the cost of materials. Send it back. Get it back better than you sent it.<\/p>",
+            "link_url": "",
+            "link_label": "Read the story"
+          }
+        }
+      },
+      "block_order": [
+        "tile_0",
+        "tile_1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "customize",
+    "warranty",
+    "icon_bar",
+    "benefits",
+    "editorial",
+    "recently_viewed"
+  ]
+}

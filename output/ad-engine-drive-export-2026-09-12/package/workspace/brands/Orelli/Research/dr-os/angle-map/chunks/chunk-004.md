@@ -1,0 +1,94 @@
+<!-- CHUNK 004 | source: brands/Orelli/Research/ICP Research/bloom_strawberry_rose_ig_comments_raw.csv | lines 1-91
+     Cite anything you pull from here as brands/Orelli/Research/ICP Research/bloom_strawberry_rose_ig_comments_raw.csv#L<line>. -->
+
+username,likes,text,reply_to,timestamp
+oskkarmendozza,12,I don’t really like it’s just marketing,,2026-01-31T02:04:11.000Z
+lilllssxo,9,neeeeeed this in my veins,,2026-01-30T23:26:04.000Z
+blaze_of_elements,6,😮🔥👏,,2026-01-30T22:54:03.000Z
+leenarammal,6,Fit goes crazy 😍 & I need that flavor ASAP,,2026-01-30T23:05:30.000Z
+memisevic91,6,"I like your outfit, ma shaa Allah 😍🌷",,2026-01-30T22:54:51.000Z
+yayatshuma,4,so gorg😍,,2026-01-30T22:57:04.000Z
+leanadeebb,4,@lilllssxo ❤️❤️❤️,,2026-01-30T23:42:15.000Z
+itisamyk,3,yess😍😍😍,,2026-01-31T00:13:02.000Z
+greglav,3,this can is too much 😍,,2026-01-30T23:06:41.000Z
+douniacoach,2,🔥❤️,,2026-01-30T22:57:53.000Z
+familyoffaith_,2,Looks so beautiful and gym! Do we have it in dubai? 😍,,2026-01-31T17:29:50.000Z
+mzemendoza,2,Where is your sweater from,,2026-01-31T02:44:50.000Z
+leanadeebb,2,@leenarammal come over,,2026-01-30T23:42:11.000Z
+mohammedniazhaneef,1,❤️❤️❤️❤️❤️😍😍😍😍😍,,2026-01-30T23:29:51.000Z
+liaveroon,1,😍😍😍,,2026-01-31T04:31:15.000Z
+aliceandradee._,1,😍😍😍,,2026-01-31T19:47:18.000Z
+khairodivaio,1,😍😍😍,,2026-01-31T13:37:54.000Z
+hadiyaa__manzoor9,1,❤️,,2026-02-01T07:01:50.000Z
+ghannoobie,1,Berry flavored anything has my heart OMG PLEASE,,2026-01-31T03:46:17.000Z
+bdllhbdr2465,1,I love you leana deeb 😘😍😘😍,,2026-01-30T23:30:50.000Z
+helos.s,1,Bring to Brazil 🇧🇷 Pleaseaa 🙏🏻🤩 I love it,,2026-01-31T21:06:45.000Z
+yayatshuma,1,Need to try ASAP!!,,2026-01-30T22:57:00.000Z
+leanadeebb,1,@yayatshuma thanks queen ❤️,,2026-01-30T23:41:10.000Z
+alaaabdelfattah,1,It looks so yummy and the pink is just wow,,2026-01-31T05:18:21.000Z
+laurennleanne,1,Cannot wait !,,2026-01-31T09:30:04.000Z
+zahrarosea,1,Looks delicious 😍,,2026-01-31T06:26:13.000Z
+a.irisalexander,1,"Equis yo la amo esta preciosisima, mi gran inspiración 👏😍❤️",,2026-01-31T13:01:56.000Z
+rmosad13,1,Omg this colour suits you ❤️,,2026-01-31T04:00:11.000Z
+sbittercookies,1,never tried anything from bloom and will be doing so js cuz of u 🫵🏻🫵🏻,,2026-02-01T06:12:39.000Z
+sovereignsoul111,1,Are these HALAL?,,2026-01-30T22:54:48.000Z
+_girlmeetsw0rld,1,It doesnt ship for 1-2 months😢,,2026-01-31T04:17:15.000Z
+zainab.nabil19,1,They said it is not healthy is that true,,2026-01-31T12:22:11.000Z
+leanadeebb,1,@memisevic91 thanks love,,2026-01-30T23:41:27.000Z
+nmalkhatib,0,❤️,,2026-06-14T05:09:13.000Z
+eliseo.jr_,0,🔥🔥,,2026-06-08T17:02:20.000Z
+rosanashqiptar,0,Need this in 🇨🇦,,2026-03-31T06:11:31.000Z
+layda_reader,0,@leanadeebb mais ça reste une boisson énergétique j’étais fan mais quand je vois que beaucoup de gens qui ont fait une chirurgie vasculaire à cause de ces boissons j’ai peur 😢,,2026-02-20T14:28:18.000Z
+fatimanaji83,0,👏👏👏,,2026-02-12T17:58:27.000Z
+striving_muslimxhhh,0,i love your sweater! where’s it from?,,2026-02-11T20:43:55.000Z
+abdo.lmalk404,0,Valentin is haram,,2026-02-09T06:15:04.000Z
+crescentkunoichi,0,Gives me a tummy ache as opposed to the powder 😢,,2026-02-07T19:07:10.000Z
+madeline_smith03,0,I need to try this flavor 💖💖💖💖💖,,2026-02-07T04:56:43.000Z
+emmanuel.chazaro.9,0,I´ll love to share one with u 😊,,2026-02-03T15:48:47.000Z
+haya.issaa,0,Where is your sweater from love ?,,2026-02-03T08:31:27.000Z
+brandmarketing94,0,Don't promote Valentine's Day because you are a Muslim,,2026-02-02T20:30:02.000Z
+danamarielg,0,I’m trying so hard to not drink my case 😭😭,,2026-02-02T19:57:56.000Z
+parsley.1237,0,Ya Allah 💚💐,,2026-02-02T11:17:40.000Z
+herinnerworld__,0,👌🏼👌🏼💐,,2026-02-02T08:13:39.000Z
+angel.spike19,0,Princesa 🩷🩷🩷,,2026-02-01T23:43:09.000Z
+bilalsahak21,0,Are you Muslim my sister?,,2026-02-01T23:28:31.000Z
+alexiajduran,0,I need your pre work to come back!!! PLEASEEEE! 😭🙏🏽,,2026-02-01T02:33:20.000Z
+ikrom_jumayiv,0,❤️❤️❤️❤️❤️❤️❤️😍😍😍😍👍👍👍👍👍👍👍👍,,2026-02-01T00:08:56.000Z
+heartlikekhadija,0,does anyone know if it has stevia in it? i want to try but stevia is a migraine trigger for me,,2026-01-31T15:56:56.000Z
+julianeishere,0,when are they finally coming to Europppppeeeee 😍😍😍,,2026-01-31T13:45:05.000Z
+shazy_brand,0,Salam alaikum,,2026-01-31T10:03:00.000Z
+sediqi1989,0,بسم الله @leanadeebb,,2026-01-31T08:35:13.000Z
+mohammad._.juma,0,😍😍😍,,2026-01-31T07:49:58.000Z
+mohammad._.juma,0,❤️❤️❤️❤️❤️❤️,,2026-01-31T07:49:56.000Z
+fardeenxm,0,🤍,,2026-01-31T07:33:45.000Z
+malak_elkurdi,0,❤️,,2026-01-31T06:44:21.000Z
+cuerrooalex,0,"Se. Ve súper , pero cuidado mucha bebida  energética altera los riñones oka",,2026-01-31T05:56:25.000Z
+imamhabiebie25,0,Pink🥤 so sweet 🤗🤍,,2026-01-31T04:48:45.000Z
+kaaique_feitosa,0,"May God give you much joy, Leana.❤️🙌",,2026-01-31T04:18:44.000Z
+samahalmaalh,0,❤️❤️❤️,,2026-01-31T03:33:26.000Z
+yousuf_mh1,0,Allaha humma Barik,,2026-01-31T03:11:17.000Z
+billykrawiecki_,0,Looks so good!,,2026-01-31T02:51:49.000Z
+shah.zeb5757,0,I am only used Instagram for you MashahALLAH,,2026-01-31T02:38:54.000Z
+garti_solo,0,🍓🍓🍓🍓😋😋😋😻,,2026-01-31T02:35:43.000Z
+zoz_speaks,0,😍,,2026-01-31T02:33:23.000Z
+j.rivera.25,0,👑,,2026-01-31T02:12:26.000Z
+sadiie_clarrk,0,❤️❤️,,2026-01-31T01:58:17.000Z
+2caanjin,0,Where can I get that,,2026-01-31T01:48:56.000Z
+hhaxel1,0,When would they be releasing them in stores ? 😅 this is a MUST idk if it’ll be better than apple crisp though that’s a STAPLE 🤌🏼,,2026-01-31T01:19:10.000Z
+justb.youfitness,0,😍😍😍😍😍,,2026-01-31T01:15:19.000Z
+betsysarairodriguez,0,😍😍😍😍😍😍😍😍,,2026-01-31T01:08:31.000Z
+summayahthompson,0,❤️❤️❤️❤️❤️,,2026-01-31T00:56:37.000Z
+wakil.mohammdi7,0,😍😍😍😍😍😍,,2026-01-31T00:43:19.000Z
+calisantoyo,0,You look more beautiful than usual,,2026-01-31T00:31:03.000Z
+fitnessfitdina,0,🔥,,2026-01-31T00:22:30.000Z
+reemnammari,0,😍😍😍,,2026-01-31T00:15:21.000Z
+soora_kawsar,0,❤️,,2026-01-31T00:10:17.000Z
+sarah_lifestylee_,0,❤️❤️❤️😍,,2026-01-30T23:25:23.000Z
+josephtohorres,0,😍😍😍❤️❤️,,2026-01-30T23:15:10.000Z
+a_sm.00s,0,😍,,2026-01-30T23:09:18.000Z
+akodzic,0,The best flavor 🤭,,2026-01-30T23:06:40.000Z
+ricardinaraujosantana,0,Quero comprar mais não manda pro Brasil 🇧🇷 😢😢,,2026-01-30T22:59:51.000Z
+am2.altaee,0,لياناااا❤️❤️,,2026-01-30T22:54:14.000Z
+aliwarraich.05,0,MashaAllah,,2026-01-30T22:54:11.000Z
+rosalieamongthestars_fl99,0,Gorgeous 💗✨,,2026-01-30T22:53:58.000Z
+hiba_alhamdulilah,0,😍,,2026-01-30T22:53:55.000Z

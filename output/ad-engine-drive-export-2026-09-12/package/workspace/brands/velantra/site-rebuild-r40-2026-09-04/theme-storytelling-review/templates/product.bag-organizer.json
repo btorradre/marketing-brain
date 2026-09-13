@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>Structured felt gives the Bag Organizer a soft touch and a shape that sits neatly inside a tote. Interior pockets and removable dividers create a place for the small things that tend to disappear, while the open top keeps them easy to find. The quiet neutral finish sits comfortably beside different bag interiors. A practical detail that brings a little more order to the everyday, and moves with you when it is time to change bags.</p>",
+        "fact_material": "Structured felt",
+        "fact_detail": "Removable dividers",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Choose a size to suit your bag’s interior. Approximate L × D × H: Small 8.66 × 4.5 × 5.3 in; Medium 9.25 × 5.1 × 5.9 in; Large 11.4 × 5.5 × 7.1 in. Multiple pockets and removable dividers. Pictured contents are not included.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Structured felt. Spot-clean gently with a barely damp cloth and air-dry completely. Reshape before storing.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

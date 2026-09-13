@@ -1,0 +1,81 @@
+<footer class="site-footer"><div class="footer-grid"><div class="footer-brand"><a class="wordmark" href="{{ routes.root_url }}">{{ section.settings.wordmark | escape }}</a><div class="rte">{{ section.settings.text }}</div><a class="footer-email" href="mailto:{{ shop.email }}">{{ shop.email }}</a></div>{% for block in section.blocks %}<div class="footer-column" {{ block.shopify_attributes }}><h2 class="micro">{{ block.settings.heading | escape }}</h2>{% if block.settings.menu != blank %}{% for link in block.settings.menu.links %}<a href="{{ link.url }}">{{ link.title | escape }}</a>{% endfor %}{% else %}{% case block.type %}{% when 'services' %}<a href="{{ pages['contact'].url }}">{{ 'general.contact_nav' | t }}</a><a href="{{ routes.root_url | append: 'apps/parcel' }}">{{ 'general.track_order' | t }}</a><a href="{{ shop.shipping_policy.url }}">{{ 'general.shipping' | t }}</a><a href="{{ shop.refund_policy.url }}">{{ 'general.returns' | t }}</a>{% when 'collection' %}<a href="{{ collections['handbags'].url }}">{{ 'general.all_bags' | t }}</a><a href="{{ collections['accessories'].url }}">{{ 'general.accessories' | t }}</a>{% when 'legal' %}<a href="{{ shop.privacy_policy.url }}">{{ 'newsletter.privacy' | t }}</a><a href="{{ shop.terms_of_service.url }}">{{ 'general.terms' | t }}</a>{% endcase %}{% endif %}</div>{% endfor %}</div><div class="footer-bottom"><div>{% if settings.instagram != blank %}<a href="{{ settings.instagram }}">Instagram</a>{% endif %}{% if settings.facebook != blank %}<a href="{{ settings.facebook }}">Facebook</a>{% endif %}</div><span>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</span>{% if section.settings.show_payments %}<ul class="payment-icons" role="list">{% for type in shop.enabled_payment_types %}<li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>{% endfor %}</ul>{% endif %}</div></footer>
+{% stylesheet %}.site-footer{border-top:1px solid var(--color-line);padding:64px 24px 20px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:55px;padding-bottom:64px}.footer-brand .wordmark{font-size:27px;letter-spacing:4px;display:inline-block;margin-bottom:24px}.footer-brand .rte{font-size:10px;max-width:320px;line-height:1.8}.footer-email{font-size:10px;text-decoration:underline;text-underline-offset:4px}.footer-column h2{font-family:var(--font-sans);font-size:9px;margin-bottom:24px}.footer-column>a{display:block;font-size:10px;color:var(--color-muted);padding:5px 0}.footer-bottom{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;padding-top:22px;border-top:1px solid var(--color-line);font-size:9px;text-transform:uppercase;letter-spacing:.5px}.footer-bottom>div{display:flex;gap:22px}.payment-icons{list-style:none;display:flex;justify-content:flex-end;flex-wrap:wrap;gap:4px;margin:0;padding:0}.payment-icon{width:28px;height:18px;filter:grayscale(1)}@media(max-width:767px){.site-footer{padding:48px 20px 20px}.footer-grid{grid-template-columns:1fr 1fr;gap:35px}.footer-brand{grid-column:1/-1}.footer-bottom{display:flex;flex-wrap:wrap;justify-content:space-between}.payment-icons{width:100%;justify-content:flex-start}}
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "wordmark",
+      "label": "Wordmark",
+      "default": "VELANTRA"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Brand statement",
+      "default": "<p>Luxury without the logo.<br>Considered bags for a life well carried.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payments",
+      "label": "Show payment icons",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "services",
+      "name": "Client services",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Client services"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu"
+        }
+      ]
+    },
+    {
+      "type": "collection",
+      "name": "The collection",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "The collection"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu"
+        }
+      ]
+    },
+    {
+      "type": "legal",
+      "name": "Legal and terms",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Legal and terms"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

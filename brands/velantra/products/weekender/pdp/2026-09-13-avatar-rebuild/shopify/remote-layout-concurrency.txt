@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#142238">
+<link rel="canonical" href="{{ canonical_url }}">
+<title>{{ product.title | escape }} · {{ 'wk_editorial.title_suffix' | t }} · Velantra</title>
+<meta name="description" content="{{ 'wk_editorial.meta_description' | t | escape }}">
+<meta property="og:title" content="{{ product.title | escape }} · Velantra">
+<meta property="og:type" content="product">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:description" content="{{ 'wk_editorial.meta_description' | t | escape }}">
+{% if template.suffix == 'wk-editorial-men' %}<meta property="og:image" content="https://cdn.shopify.com/s/files/1/0627/4092/2433/t/23/assets/wk-editorial-men-hero-v2.webp?v=1789322206">{% else %}<meta property="og:image" content="https://cdn.shopify.com/s/files/1/0627/4092/2433/t/23/assets/wk-editorial-women-hero-v2.webp?v=1789321762">{% endif %}
+{{ content_for_header }}
+</head>
+<body class="wk-editorial">
+<a class="wk-skip" href="#wk-main">{{ 'wk_editorial.skip' | t }}</a>
+<div class="wk-announcement">{{ 'wk_editorial.announcement' | t }}</div>
+<header class="wk-header">
+<a class="wk-wordmark" href="{{ routes.root_url }}" aria-label="{{ 'wk_editorial.home' | t }}">VELANTRA</a>
+<nav class="wk-desktop-nav" aria-label="{{ 'wk_editorial.navigation' | t }}">
+<a href="{{ product.url }}?view=wk-editorial-women" {% if template.suffix == 'wk-editorial-women' %}aria-current="page"{% endif %}>{{ 'wk_editorial.for_her' | t }}</a>
+<a href="{{ product.url }}?view=wk-editorial-men" {% if template.suffix == 'wk-editorial-men' %}aria-current="page"{% endif %}>{{ 'wk_editorial.for_him' | t }}</a>
+<a href="{{ routes.all_products_collection_url }}">{{ 'wk_editorial.all_bags' | t }}</a>
+<a href="/pages/contact">{{ 'wk_editorial.contact' | t }}</a>
+</nav>
+<button class="wk-cart-trigger" type="button" data-wk-cart-open aria-haspopup="dialog" aria-label="{{ 'wk_editorial.open_cart' | t }}">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 7.5h14l1 13H4l1-13Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg><span data-wk-cart-count>{{ cart.item_count }}</span>
+</button>
+</header>
+<nav class="wk-mobile-nav" aria-label="{{ 'wk_editorial.collections' | t }}">
+<a href="{{ product.url }}?view=wk-editorial-women" {% if template.suffix == 'wk-editorial-women' %}aria-current="page"{% endif %}>{{ 'wk_editorial.for_her' | t }}</a>
+<a href="{{ product.url }}?view=wk-editorial-men" {% if template.suffix == 'wk-editorial-men' %}aria-current="page"{% endif %}>{{ 'wk_editorial.for_him' | t }}</a>
+<a href="{{ routes.all_products_collection_url }}">{{ 'wk_editorial.all_bags' | t }}</a>
+</nav>
+<main id="wk-main" tabindex="-1">{{ content_for_layout }}</main>
+<footer class="wk-footer">
+<div class="wk-footer-top"><div><p class="wk-kicker">{{ 'wk_editorial.community_kicker' | t }}</p><h2>{{ 'wk_editorial.community_title' | t }}</h2><p>{{ 'wk_editorial.community_body' | t }}</p></div>
+{% form 'customer', id: 'wk-newsletter', class: 'wk-newsletter' %}
+<input type="hidden" name="contact[tags]" value="newsletter">
+{% if form.posted_successfully? %}<p role="status">{{ 'wk_editorial.newsletter_success' | t }}</p>{% endif %}
+{{ form.errors | default_errors }}
+<label for="wk-newsletter-email">{{ 'wk_editorial.email' | t }}</label>
+<div><input id="wk-newsletter-email" name="contact[email]" type="email" autocomplete="email" required><button type="submit">{{ 'wk_editorial.subscribe' | t }}</button></div>
+<label class="wk-consent"><input type="checkbox" required><span>{{ 'wk_editorial.newsletter_consent' | t }} <a href="/policies/privacy-policy">{{ 'wk_editorial.privacy' | t }}</a>.</span></label>
+{% endform %}</div>
+<div class="wk-footer-bottom"><a class="wk-wordmark" href="{{ routes.root_url }}">VELANTRA</a><nav aria-label="{{ 'wk_editorial.footer_navigation' | t }}"><a href="/policies/shipping-policy">{{ 'wk_editorial.shipping' | t }}</a><a href="/policies/refund-policy">{{ 'wk_editorial.returns' | t }}</a><a href="/pages/contact">{{ 'wk_editorial.contact' | t }}</a><a href="/policies/privacy-policy">{{ 'wk_editorial.privacy' | t }}</a><a href="/policies/terms-of-service">{{ 'wk_editorial.terms' | t }}</a></nav><small>© {{ 'now' | date: '%Y' }} Velantra</small></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why I Tell My GLP-1 Patients to Stop Treating Their Colon</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #222;
+      background: #fff;
+    }
+
+    /* ── STICKY TOP BAR ── */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background: #fff;
+      border-bottom: 1px solid #e5e5e5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      padding: 6px 12px;
+      flex-wrap: wrap;
+    }
+    .top-bar-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 16px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #222;
+      border-right: 1px solid #ddd;
+    }
+    .top-bar-item:last-child { border-right: none; }
+
+    /* ── HEADER ── */
+    .site-header {
+      text-align: center;
+      padding: 18px 20px 10px;
+      border-bottom: 1px solid #eee;
+    }
+    .site-name {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #111;
+    }
+    .advertorial-tag {
+      text-align: center;
+      padding: 10px 0 4px;
+    }
+    .advertorial-tag span {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #888;
+    }
+
+    /* ── ARTICLE ── */
+    .article {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+    .article h1 {
+      font-size: 28px;
+      line-height: 1.25;
+      font-weight: 800;
+      margin: 18px 0 16px;
+      color: #111;
+    }
+    .article h2 {
+      font-size: 22px;
+      line-height: 1.3;
+      font-weight: 800;
+      margin: 32px 0 14px;
+      color: #111;
+    }
+    .article h3 {
+      font-size: 18px;
+      line-height: 1.35;
+      font-weight: 700;
+      margin: 28px 0 10px;
+      color: #111;
+    }
+    .article p {
+      margin: 14px 0;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    /* Author row */
+    .author-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 20px;
+    }
+    .author-row img {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .author-name {
+      font-weight: 700;
+      font-size: 13px;
+      color: #111;
+    }
+    .author-date {
+      font-size: 12px;
+      color: #777;
+    }
+    .author-credentials {
+      font-size: 11px;
+      color: #666;
+      font-style: italic;
+    }
+
+    /* Images */
+    .article-img {
+      width: 100%;
+      border-radius: 4px;
+      margin: 16px 0;
+      display: block;
+    }
+    .img-caption {
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+      margin: -8px 0 16px;
+      font-style: italic;
+    }
+
+    /* Pull-quote */
+    .pull-quote {
+      border-left: 4px solid #1a7a3c;
+      background: #f8f9fa;
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-style: italic;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Stats / highlight box */
+    .stats-box {
+      background: #f5f7f5;
+      border-radius: 6px;
+      padding: 18px 22px;
+      margin: 22px 0;
+    }
+    .stats-box p {
+      margin: 8px 0;
+    }
+    .stats-box ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .stats-box li {
+      padding: 5px 0;
+      font-size: 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .stats-box li::before {
+      content: "\2022";
+      color: #1a7a3c;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 1.3;
+      flex-shrink: 0;
+    }
+
+    /* CTA button */
+    .cta-btn {
+      display: block;
+      width: 100%;
+      background: #1faf52;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: none;
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin: 22px 0;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: #178a3e; }
+    .cta-link {
+      display: block;
+      text-align: center;
+      font-weight: 800;
+      font-size: 15px;
+      color: #1a7a3c;
+      text-decoration: none;
+      margin: 14px 0;
+    }
+    .cta-link:hover { text-decoration: underline; }
+
+    /* Guarantee box */
+    .guarantee-box {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: #f8f9fa;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin: 22px 0;
+    }
+    .guarantee-box img {
+      width: 50px;
+      height: 50px;
+      flex-shrink: 0;
+    }
+    .guarantee-box p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 0;
+      color: #444;
+    }
+
+    /* Photo grid */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4px;
+      margin: 18px 0;
+    }
+    .photo-grid img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+
+    /* Side-by-side image */
+    .split-img {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      margin: 16px 0;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .split-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Sell-out risk */
+    .sell-out {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin: 8px 0 20px;
+    }
+
+    /* Bold/italic helpers */
+    .bold { font-weight: 700; }
+    .italic { font-style: italic; }
+
+    /* Money-back hero */
+    .money-back-hero {
+      background: #e8f5e9;
+      border-radius: 8px;
+      padding: 28px 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+    .money-back-hero img {
+      max-width: 280px;
+      margin: 0 auto;
+      display: block;
+    }
+    .money-back-hero .checklist {
+      text-align: left;
+      max-width: 340px;
+      margin: 16px auto 0;
+    }
+    .money-back-hero .checklist li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 0;
+      font-size: 15px;
+      font-weight: 700;
+      list-style: none;
+    }
+    .money-back-hero .checklist li::before {
+      content: "\2705";
+      font-size: 16px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .article h1 { font-size: 23px; }
+      .article h2 { font-size: 19px; }
+      .top-bar-item { font-size: 10px; padding: 4px 10px; }
+      .photo-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── STICKY TOP BAR ── -->
+  <div class="top-bar">
+    <div class="top-bar-item">GUT HEALTH REPORT</div>
+    <div class="top-bar-item">GLP-1 Side Effects</div>
+    <div class="top-bar-item">Expert Analysis</div>
+  </div>
+
+  <!-- ── HEADER ── -->
+  <header class="site-header">
+    <div class="site-name">Gut Health Brief</div>
+  </header>
+
+  <div class="advertorial-tag">
+    <span>Advertorial</span>
+  </div>
+
+  <!-- ── ARTICLE ── -->
+  <div class="article">
+
+    <h1>Why I Tell My GLP-1 Patients to Stop Treating Their Colon</h1>
+
+    <div class="author-row">
+      <img src="https://i.ibb.co/VcbFtNjk/dr-caldwell-new.jpg" alt="Dr. Sarah Caldwell">
+      <div>
+        <div class="author-name">By Dr. Sarah Caldwell, MD</div>
+        <div class="author-credentials">Board-Certified Gastroenterologist, Motility Specialist</div>
+        <div class="author-date">March 28, 2026</div>
+      </div>
+    </div>
+
+    <!-- HERO IMAGE: Digestive system -->
+    <img class="article-img" src="https://i.ibb.co/wN6QB7Hq/digestive-system.webp" alt="The digestive system — where GLP-1 medications cause the problem">
+
+    <div class="pull-quote">
+      <span>"I'm doing everything right and nothing is working." &mdash; What I hear from 15 to 20 GLP-1 patients every single week.</span>
+    </div>
+
+    <p>I specialize in motility disorders &mdash; conditions where the digestive system stops moving the way it should. For the last two years, one patient profile has taken over my practice: women on GLP-1 medications who can't get relief from constipation despite doing everything their doctor told them to do.</p>
+
+    <p>They come in exhausted. Most have been fighting it for four months or longer. Taking Miralax daily, with fiber, probiotics, magnesium, sometimes two or three other supplements stacked on top. Spending $80 to $120 a month. And their symptoms are the same or worse.</p>
+
+    <p>I see between 15 and 20 of these women every week. The conversation always begins with some version of: <em>"I'm doing everything right and nothing is working."</em></p>
+
+    <p>They're correct. They are doing everything right.</p>
+
+    <p><strong>For the wrong organ.</strong></p>
+
+    <!-- ── SECTION: The Mismatch ── -->
+    <h2>The Mismatch Your Doctor Hasn't Explained</h2>
+
+    <!-- MECHANISM IMAGE: Stomach vs Colon diagram -->
+    <img class="article-img" src="https://i.ibb.co/svfXSVzG/mechanism-diagram.jpg" alt="Diagram showing stomach problem vs colon treatments">
+    <p class="img-caption">The problem starts at the stomach. Every standard remedy targets the colon &mdash; six feet downstream.</p>
+
+    <p>If you're reading this, you likely already understand the core problem. GLP-1 medications slow gastric emptying &mdash; your stomach holds food far longer than it should, bacteria ferment that food, and the bloating, gas, and constipation follow. The blockage starts at the stomach.</p>
+
+    <p>Every standard constipation remedy your doctor prescribed &mdash; Miralax, bulk fiber, stool softeners, probiotics, magnesium &mdash; works at the colon. Six feet downstream from where the medication caused the problem.</p>
+
+    <p><strong>That's the mismatch. And it explains why months of compliance produced nothing.</strong></p>
+
+    <p>What I want to explain &mdash; from the clinical side &mdash; is why this keeps happening. Because the mismatch isn't random. It's structural.</p>
+
+    <!-- ── SECTION: Why the Protocol Hasn't Caught Up ── -->
+    <h2>Why the Protocol Hasn't Caught Up</h2>
+
+    <img class="article-img" src="https://i.ibb.co/TD3X1cqX/ref-001-adapted-v001.jpg" alt="Pharmacy aisle full of digestive health products — laxatives, fiber supplements, stool softeners">
+
+    <p>The standard constipation protocol in primary care was built for slow-transit colonic constipation. That's the most common form. Food arrives at the colon and the colon doesn't move it through efficiently. For that, Miralax and fiber are appropriate first-line treatments.</p>
+
+    <p><strong>GLP-1 constipation is a different condition.</strong> The delay starts at the stomach. Food ferments before it reaches the colon. By the time anything arrives downstream, the fermentation gas, distension, and disrupted motility have already done their damage.</p>
+
+    <p>The clinical guidelines for GLP-1 side effect management have not been updated to reflect this distinction.</p>
+
+    <div class="stats-box">
+      <ul>
+        <li><strong>GLP-1 prescriptions in the U.S. tripled between 2022 and 2024</strong></li>
+        <li>The gastroenterology research on delayed gastric emptying as the primary driver exists &mdash; it's published and peer-reviewed</li>
+        <li>But the practical guidelines your doctor follows still default to the colonic protocol</li>
+      </ul>
+    </div>
+
+    <p>That's not negligence. It's a lag. Research moves faster than clinical guidelines update. And in that gap, millions of women are cycling through products that were never designed for the problem they have.</p>
+
+    <p>This lag is what fills my practice. Women who followed the protocol for months, watched their symptoms compound, and ended up in a specialist's office as a last stop before quitting their medication.</p>
+
+    <!-- ── SECTION: What Keeps Me Up at Night ── -->
+    <h2>What Keeps Me Up at Night</h2>
+
+    <p>GLP-1 medications are among the most significant pharmacological tools in metabolic health in decades. For many of my patients, these drugs are reducing A1C, lowering cardiovascular risk markers, and producing sustained weight loss that years of dieting never achieved.</p>
+
+    <p><strong>And women are abandoning them because of constipation.</strong></p>
+
+    <p>The constipation was never the unsolvable part. Every product they were given just addressed the wrong organ. They spend months on Miralax and fiber. The symptoms worsen. Quality of life erodes. Eventually they make a rational decision: the side effects aren't worth it.</p>
+
+    <p>I have watched patients give up medications that were meaningfully improving their metabolic health &mdash; medications their endocrinologists spent months calibrating &mdash; because the digestive side effects were never properly managed.</p>
+
+    <div class="pull-quote">
+      <span>My own mother nearly became one of them. Eight months on Mounjaro, following every recommendation, getting worse every week. I drove three hours to explain what nobody had explained to her: the constipation was a stomach problem and everything she'd been given worked on her colon.</span>
+    </div>
+
+    <p>That's not a patient failure. That's a protocol failure. And I see it repeat fifteen to twenty times a week.</p>
+
+    <!-- ── SECTION: The Three Requirements ── -->
+    <h2>The stomach needs to move again.</h2>
+
+    <!-- STOMACH IMAGE: Delayed gastric emptying -->
+    <img class="article-img" src="https://i.ibb.co/vvrZzPXQ/stomach-delayed.jpg" alt="Stomach with delayed gastric emptying from GLP-1 medication">
+    <p class="img-caption">GLP-1 medications slow gastric emptying &mdash; food ferments in the stomach for 8+ hours instead of the normal 2-4.</p>
+
+    <p>In my clinical work with GLP-1 patients, I've identified three requirements for effectively addressing the digestive side effects. All three must be present. Partial approaches &mdash; addressing one or two &mdash; produce partial results that don't hold.</p>
+
+    <h3>1. The stomach's motility must be restored.</h3>
+
+    <p>The muscle contractions that push food out of the stomach and into the small intestine need help &mdash; not a bypass, not an override. The compound with the strongest published evidence for non-prescription gastric motility support is <strong>apigenin</strong>, a flavonoid concentrated in celery juice extract. Apigenin acts as a natural prokinetic on the smooth muscle of the stomach wall. It promotes the contractions the medication suppressed. It works at the on-ramp &mdash; the exact point of the delay.</p>
+
+    <p><em>One detail patients need to understand: celery juice extract is not interchangeable with celery powder, celery seed, or whole celery. The apigenin content varies by orders of magnitude depending on extraction and concentration. The compound is what matters. Not the vegetable.</em></p>
+
+    <h3>2. Fermentation gas has to be neutralized where it's produced.</h3>
+
+    <p>Even with improved motility, the extended gastric transit time produces sulfur compounds, methane, and hydrogen gas. These need to be neutralized in the stomach &mdash; where the fermentation happens &mdash; not downstream. <strong>Chlorophyllin</strong>, a stabilized chlorophyll derivative, binds to these compounds at the molecular level. Not a mask. Chlorophyllin eliminates sulfur compounds where they're produced &mdash; in the stomach.</p>
+
+    <h3>3. What happens downstream matters &mdash; but not the way your doctor thinks.</h3>
+
+    <p>Once the stomach empties more efficiently, the colon needs to be ready to process what arrives. But bulk-forming fiber &mdash; the kind your doctor recommended &mdash; adds volume to a system that's already distended. For most GLP-1 patients, that makes bloating worse. <strong>Soluble prebiotic fiber</strong> works differently: it feeds the bacteria that produce butyrate, a short-chain fatty acid that strengthens the colon wall and supports lower-GI motility. Downstream support, without the bulk that caused the flare.</p>
+
+    <p><strong>Three mechanisms. Two levels of the digestive system working in coordination. On-ramp and off-ramp addressed together.</strong></p>
+
+    <!-- ── SECTION: The Product ── -->
+    <h2>The Product I Recommend to My Patients</h2>
+
+    <p>Finding a single product that delivers all three at therapeutic concentrations &mdash; and doesn't depend on a delayed stomach to absorb &mdash; took me four months of evaluating formulations.</p>
+
+    <p>Most digestive supplements on the market are colon products. Probiotics. Bulk fiber. Magnesium. Senna. They were formulated for colonic constipation. They are not designed for this.</p>
+
+    <!-- PRODUCT IMAGE -->
+    <img class="article-img" src="https://i.ibb.co/7JHyNSVt/motilli-lifestyle.jpg" alt="Motilli Celery Juice Fiber Gummies">
+
+    <p><strong>Motilli</strong> delivers concentrated apigenin from celery juice extract, chlorophyllin, and soluble prebiotic fiber in a single daily dose. Two gummies a day.</p>
+
+    <div class="stats-box">
+      <ul>
+        <li><strong>Concentrated apigenin from celery juice extract</strong> &mdash; restores gastric motility at the on-ramp</li>
+        <li><strong>Chlorophyllin</strong> &mdash; neutralizes fermentation gas where it's produced, in the stomach</li>
+        <li><strong>Soluble prebiotic fiber</strong> &mdash; supports lower-GI motility without the bulk that causes flares</li>
+      </ul>
+    </div>
+
+    <p>The gummy format is a clinical detail worth understanding. If your stomach takes ten to twelve hours to empty on a GLP-1 medication, a capsule sitting in that environment faces an absorption problem. It may not dissolve and release its contents efficiently in a delayed, acidic stomach. A gummy begins absorbing in the oral cavity and upper GI tract &mdash; it doesn't depend on the system that's impaired to deliver the compounds designed to repair it.</p>
+
+    <p><strong>$29.99 for a thirty-day supply.</strong></p>
+
+    <p>I mention the price because I review my patients' supplement lists at intake. The average GLP-1 patient sitting across from me is spending $80 to $120 per month on Miralax, fiber supplements, probiotics, magnesium, and gas relief products. All of it targeting the off-ramp. One product that targets the on-ramp for less than a dollar a day is a straightforward clinical calculation.</p>
+
+    <a href="https://trymotilli.co/products/motilli-digestive-health-gummies" class="cta-btn">LEARN MORE ABOUT MOTILLI</a>
+
+    <!-- ── SECTION: What I Observe ── -->
+    <h2>What I Observe in Practice</h2>
+
+    <!-- DOCTOR WITH PRODUCT IMAGE -->
+    <img class="article-img" src="https://i.ibb.co/VcbFtNjk/dr-caldwell-new.jpg" alt="Dr. Sarah Caldwell holding Motilli gummies">
+
+    <p>I'm writing as a physician, not a brand representative. This is what I've observed across the patients I've recommended this protocol to over the past eight months.</p>
+
+    <p><strong>Weeks one through two:</strong> The most consistent early change is reduced abdominal pressure and bloating. That's the chlorophyllin neutralizing fermentation gas &mdash; the fastest-acting of the three components.</p>
+
+    <p><strong>Weeks three through four:</strong> Bowel regularity shifts. The pattern moves from every three to five days to daily or near-daily. That timing correlates with the apigenin building gastric motility &mdash; the stomach beginning to empty at something closer to its normal rate.</p>
+
+    <p><strong>By month two:</strong> I hear the same sentence in almost the same words from nearly every patient: <em>"I just stopped thinking about it."</em> The constant background tracking &mdash; where's the nearest bathroom, can I eat this, how bad will tonight be &mdash; fades. They're living on their medication instead of surviving it.</p>
+
+    <div class="pull-quote">
+      <span>"I just stopped thinking about it." &mdash; The sentence I hear from nearly every patient by month two. The constant background tracking fades. They're living on their medication instead of surviving it.</span>
+    </div>
+
+    <p>These are women who spent months on the standard protocol without improvement. The difference wasn't effort. Wasn't compliance. <strong>It was the organ being addressed.</strong></p>
+
+    <!-- ── SECTION: Why I Wrote This ── -->
+    <h2>Why I Wrote This</h2>
+
+    <p>I wrote this because the gap between the published research and the clinical protocol your doctor follows is costing women their medication, their progress, and their daily quality of life.</p>
+
+    <p><strong>If you've been spending $80 a month on constipation products that target the colon and you're still suffering on your GLP-1 &mdash; the answer is not a different laxative. It's a different organ.</strong></p>
+
+    <!-- PRODUCT HERO WITH BENEFITS -->
+    <div class="money-back-hero">
+      <img src="https://i.ibb.co/YB23832j/motilli-product-1.jpg" alt="Motilli Celery Juice Fiber Gummies" style="max-width: 360px;">
+      <ul class="checklist">
+        <li>Restores Gastric Motility</li>
+        <li>Neutralizes Fermentation Gas</li>
+        <li>Supports Lower-GI Function</li>
+        <li>Gummy Format &mdash; No Capsule Absorption Issues</li>
+      </ul>
+    </div>
+
+    <p><strong>Motilli. Two gummies a day. $29.99 a month.</strong></p>
+
+    <p>Sixty-day money-back guarantee &mdash; if you don't experience the pattern of improvement I've described, you pay nothing.</p>
+
+    <p>I recommend it to my patients. But the strongest endorsement I can give you is simpler than clinical data &mdash; <strong>I put my own mother on it.</strong></p>
+
+    <a href="https://trymotilli.co/products/motilli-digestive-health-gummies" class="cta-btn">LEARN MORE ABOUT MOTILLI</a>
+    <a href="https://trymotilli.co/products/motilli-digestive-health-gummies" class="cta-btn" style="background: #17c95b;">TRY MOTILLI RISK-FREE FOR 60 DAYS</a>
+
+    <div class="guarantee-box">
+      <div style="width:50px;height:50px;background:#1a7a3c;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:14px;flex-shrink:0;">60</div>
+      <p>Try It Risk-Free For 60 Days Or Your Money Back. If you don't experience meaningful improvement in bloating, regularity, and digestive comfort, we'll refund your purchase &mdash; no hassle, no questions asked.</p>
+    </div>
+
+    <p class="sell-out">Limited availability &mdash; produced in small batches</p>
+
+    <!-- FINAL PRODUCT IMAGE -->
+    <img class="article-img" src="https://i.ibb.co/fVcjc8HS/motilli-product-2.jpg" alt="Motilli Celery Juice Fiber Gummies">
+
+    <a href="https://trymotilli.co/products/motilli-digestive-health-gummies" class="cta-btn">LEARN MORE ABOUT MOTILLI</a>
+    <a href="https://trymotilli.co/products/motilli-digestive-health-gummies" class="cta-btn" style="background: #17c95b;">TRY MOTILLI RISK-FREE FOR 60 DAYS</a>
+
+    <p class="sell-out">Stock is limited &mdash; check availability now</p>
+
+  </div>
+
+</body>
+</html>

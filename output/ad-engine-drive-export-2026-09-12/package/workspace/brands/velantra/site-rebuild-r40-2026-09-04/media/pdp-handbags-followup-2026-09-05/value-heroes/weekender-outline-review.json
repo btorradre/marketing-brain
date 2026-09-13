@@ -1,0 +1,36 @@
+{
+  "measurement_type": "Manually selected image-landmark bounding boxes; relative apparent shape only, not physical measurement.",
+  "source_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/pdp-handbags-followup-2026-09-05/value-heroes/references/weekender-full-product-crop.png",
+  "source_crop_box_xyxy": [
+    35,
+    85,
+    3580,
+    2890
+  ],
+  "source_bbox_width_height_ratio": 1.2638,
+  "v1_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/pdp-handbags-followup-2026-09-05/value-heroes/final/weekender-value-hero.png",
+  "v1_bbox_xyxy": [
+    60,
+    430,
+    1940,
+    2135
+  ],
+  "v1_bbox_width_height_ratio": 1.1026,
+  "v1_ratio_difference_percent": -12.75,
+  "approximate_endpoint_uncertainty_px": {
+    "source": 40,
+    "generated": 15
+  },
+  "decision": "Reject v1 and accept v2 for source-relative silhouette: total width/height differs by about1.7 percent rather than minus12.8 percent, within approximate landmark uncertainty. Not physical-size verification.",
+  "v2_path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/media/pdp-handbags-followup-2026-09-05/value-heroes/final/weekender-value-hero-v2.png",
+  "v2_bbox_xyxy": [
+    52,
+    583,
+    1960,
+    2068
+  ],
+  "v2_bbox_width_height_ratio": 1.2848,
+  "v2_ratio_difference_percent": 1.66,
+  "v2_body_rim_y": 837,
+  "v2_body_width_height_ratio": 1.55
+}

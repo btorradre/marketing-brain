@@ -1,0 +1,15 @@
+{
+  "match": false,
+  "confidence": 100,
+  "best_segment": null,
+  "entry_EV": 5,
+  "peak_EV": 5,
+  "rawness": 4,
+  "action_match": "exact",
+  "text_status": "text present",
+  "visible_evidence": "The woman is visibly on the toilet and expressing significant abdominal distress from approximately 00:01.500 to the end of the video. However, the source text 'pregnancy constipation be like...' appears at 00:00.800 and remains visible throughout the entire duration of the relevant action.",
+  "flags": [
+    "text_present"
+  ],
+  "why": "The video fails the negative constraint regarding text. A source caption ('pregnancy constipation be like...') is present over all segments where the woman is visible on the toilet, and the prompt strictly requires an interval with no source captions, text, watermarks, or labels."
+}

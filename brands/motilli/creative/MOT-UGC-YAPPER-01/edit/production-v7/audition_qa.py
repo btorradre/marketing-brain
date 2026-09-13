@@ -1,0 +1,6 @@
+from voice_v3 import O,key,save
+import httpx,base64,json
+parts=[]
+for i in range(1,4):parts.extend([{'text':f'Candidate {i}'},{'inline_data':{'mime_type':'audio/mpeg','data':base64.b64encode((O/f'voice-preview-{i}.mp3').read_bytes()).decode()}}])
+parts.append({'text':'Compare these THREE actual audio previews critically. We need a natural American woman around 45-55 candidly talking to a friend, consistent with a mature car-selfie presenter. Prior voice was rejected as robotic. Rank by human conversational rhythm, warmth, realistic mature tone, connected speech, and lack of sing-song/announcer delivery. Identify concrete faults per candidate. Do not flatter; if all are robotic say so. Return JSON with candidates [{number,perceived_age,robotic_or_performance_faults,naturalness_score_1_10}], selected_number, rationale.'})
+r=httpx.post('https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent',headers={'x-goog-api-key':key('GEMINI_API_KEY')},json={'contents':[{'parts':parts}],'generationConfig':{'temperature':0.1,'responseMimeType':'application/json'}},timeout=300);r.raise_for_status();j=r.json();save('audition-qa-response.json',j);print(j['candidates'][0]['content']['parts'][0]['text'])

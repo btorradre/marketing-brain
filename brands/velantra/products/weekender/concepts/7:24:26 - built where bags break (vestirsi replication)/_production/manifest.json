@@ -1,0 +1,110 @@
+{
+  "concept": "VEL-WEEKENDER-BUILT-CRAFT-01",
+  "reference_ad": "Vestirsi Woven Collection (TrendTrack vestirsi-Sdk1ue), 20.9s",
+  "angle": "Built where bags break. Every craft beat is a reinforcement beat.",
+  "pipeline": "gpt-image-2-image-to-image (keyframes) -> kling-3.0/video (i2v, 6s) -> ElevenLabs single-track VO -> stitch",
+  "aspect_ratio": "9:16",
+  "image_resolution": "1K",
+  "kling_mode": "std",
+  "clip_duration": 6,
+
+  "refs": {
+    "hero": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/product-images/product images/light chocolate 1.webp"
+  },
+
+  "material_lock": "The leather in this image is the exact same leather as on the bag in the reference image: rich cognac brown full grain leather with a warm reddish tan tone and visible natural grain. Any canvas in this image is the exact same canvas as the reference bag body: cream ivory woven cotton canvas with a visible basket weave texture. Any metal hardware is warm GOLD brass, never silver, never chrome, never nickel. IMPORTANT: the finished weekend bag from the reference image does NOT appear anywhere in this scene. Do not draw a complete bag, a flap, a turn lock, belt straps or any finished product. Only the loose materials and the workshop parts described above are in frame.",
+
+  "product_lock": "The bag is the exact Velantra weekend bag from the reference image and every color matches that reference image exactly: a structured two tone weekend bag, wider than tall, rich cognac brown leather upper flap section and two rolled cognac leather top handles over a cream ivory woven canvas body, a small gold oval turn lock on the front, two flat gold clasp plates with cognac leather belt straps threaded through them, a small cognac leather key bell tied to the handle base, cognac leather corner patches at the bottom, visible stitching, gold hardware, no logos anywhere on the bag. The bag in frame is an exact copy of the bag in the reference image in silhouette, proportions, materials and details, the two rolled top handles are smooth simple leather tubes with no wrapping, no braiding and no woven texture. All metal hardware is warm gold brass, never silver. The bag has no shoulder strap and no crossbody strap, never add one.",
+
+  "closed_pin": "The bag is fully CLOSED in this shot. The cognac leather flap lies flat down over the front exactly as on the closed reference bag, both cognac leather belt straps are threaded through their gold clasp plates, and the gold oval turn lock is seated shut at the top center of the front. The bag never opens, the mouth is never visible, no interior and no lining is ever visible, and no hand ever touches the flap, the straps or the turn lock. There is no zipper anywhere on the bag, no zipper track, no zipper teeth and no zipper pull. No embossed text or lettering anywhere on the bag.",
+
+  "kling_closed_pin": "The bag stays fully closed the entire clip: the leather flap stays flat down over the front, the belt straps stay threaded through their gold clasp plates, the turn lock stays seated. The bag never opens, no interior is ever revealed, no zipper ever appears, and no hand ever touches the flap, straps or lock. All hardware stays warm gold brass. The bag holds its structured shape throughout and never sags, folds or deforms.",
+
+  "style_line": "Documentary macro photograph inside a quiet leather workshop, pale cream plaster wall behind, a worn pale wood worktable, soft diffused daylight falling from the left of frame, warm neutral slightly desaturated color, shallow depth of field, natural film grain, true to life color, vertical 9:16 framing. No faces, no heads, no shoulders, no eyes: only hands and forearms in a plain cream linen rolled sleeve are ever visible. No windows, no signage. Absolutely no text, captions, watermarks or logos anywhere in the image.",
+
+  "motion_footer": "The camera is locked off on a tripod and does not move at all, no pan, no tilt, no zoom, no push in. All motion in the frame comes from the hands. No faces, heads or shoulders ever enter the frame. Ambient workshop room tone, no cuts, no transitions, one continuous shot.",
+
+  "imperfections": "Subtle natural lens breathing, faint film grain, ambient light shifting very gently across the scene, tiny natural tremor in the working hands. No text or captions on screen.",
+
+  "script": [
+    {"line": 1, "vo": "Nobody looks at the corners of a bag. That's where they fail.", "clips": ["A", "B"]},
+    {"line": 2, "vo": "So the corners get a second layer of leather, set by hand.", "clips": ["C", "D", "E"]},
+    {"line": 3, "vo": "Leather across the top where the weight hangs. Canvas below, where it doesn't.", "clips": ["F", "G"]},
+    {"line": 4, "vo": "The handles root into leather, never into cloth.", "clips": ["H", "I"]},
+    {"line": 5, "vo": "More work than a bag needs, and exactly why the fourth trip looks like the first.", "clips": ["J", "K", "L"]},
+    {"line": 6, "vo": "The Weekender by Velantra. Discover yours.", "clips": ["M", "N"]}
+  ],
+
+  "shots": [
+    {
+      "id": "A", "time": "0.0-1.1", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Mid macro. A large piece of rich cognac brown full grain leather lies flat across the pale wood worktable, filling most of the frame. Two hands press down and smooth it flat from the center outward, cream linen sleeves rolled to the forearm. The natural grain and warm reddish tan tone of the leather catch the soft light.",
+      "motion_prompt": "The two hands press down on the cognac leather and smooth it flat, sweeping outward from the center toward the edges of the hide. The leather flattens slightly under the pressure."
+    },
+    {
+      "id": "B", "time": "1.1-2.2", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Extreme macro of a round headed leather knife cutting a smooth curved shape out of a piece of rich cognac brown leather on a pale cutting board. The blade is mid cut along the curve. One hand drives the knife, the other holds the leather steady. A cut curved corner piece already lies finished beside it.",
+      "motion_prompt": "The round knife draws steadily along the curve, slicing through the cognac leather, and the curved corner piece separates cleanly from the hide. The holding hand keeps the leather pinned flat."
+    },
+    {
+      "id": "C", "time": "2.2-3.3", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Macro of two hands laying a curved piece of cognac brown leather down onto the bottom corner of a panel of cream ivory woven cotton canvas on the worktable. The leather piece wraps the corner of the canvas. Fingertips press it into position. The canvas weave texture and the leather grain both read clearly.",
+      "motion_prompt": "The hands lower the curved cognac leather piece onto the corner of the cream canvas panel and press it down into position, fingertips smoothing it flat against the canvas so it sits exactly on the corner."
+    },
+    {
+      "id": "D", "time": "3.3-4.4", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Extreme macro of an industrial sewing machine needle and presser foot stitching a curved cognac brown leather corner patch onto the corner of a cream ivory woven canvas panel. The line of stitching follows the curve of the leather. Two hands rotate the work slowly to steer the curve under the needle. The stitched curve behind the needle is clean and even.",
+      "motion_prompt": "The needle rises and falls quickly while the two hands slowly rotate the panel to steer the curve of the leather patch under the presser foot. A line of stitching grows along the curved edge of the corner patch."
+    },
+    {
+      "id": "E", "time": "4.4-5.5", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Macro of a small wooden burnishing tool being run along the cut edge of the cognac leather corner patch where it meets the cream canvas. One hand works the burnisher in short strokes, the other holds the panel steady on the pale wood worktable.",
+      "motion_prompt": "The wooden burnisher runs back and forth along the cut edge of the leather corner patch in short firm strokes, and the edge takes on a smooth polished finish. The other hand holds the panel completely still."
+    },
+    {
+      "id": "F", "time": "5.5-6.6", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Extreme macro of an industrial sewing machine joining a wide band of rich cognac brown leather to a panel of cream ivory woven canvas along a long straight seam. A line of stitching runs behind the needle along the join. The cognac leather fills the upper part of frame, the cream canvas the lower part, meeting in a clean horizontal line. Two hands guide the work.",
+      "motion_prompt": "The needle rises and falls and the leather and canvas feed steadily to the left under the presser foot, a clean line of stitching growing behind the needle along the seam where the two materials meet. The hands make small steady corrections."
+    },
+    {
+      "id": "G", "time": "6.6-7.7", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Macro of the finished two tone seam lying flat on the worktable, the wide cognac brown leather band above and the cream ivory woven canvas below, joined by a clean line of stitching. One open hand rests on the seam, palm down, fingers running along the join. No complete bag, only the flat joined panel.",
+      "motion_prompt": "The open hand runs slowly along the finished seam from left to right, fingertips tracing the line of stitching where the leather meets the canvas. The panel stays flat and still."
+    },
+    {
+      "id": "H", "time": "7.7-8.8", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Macro of two hands rolling a long narrow strip of cognac brown leather into a smooth round handle tube on the pale wood worktable. The strip is partly rolled, the finished round section nearest the camera, the flat strip trailing away. Fingers press the roll closed along its length.",
+      "motion_prompt": "The hands roll the flat cognac leather strip over on itself into a smooth round tube, working along its length, fingers pressing the roll closed as it forms."
+    },
+    {
+      "id": "I", "time": "8.8-9.9", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Extreme macro of the flared leather base of a rolled cognac handle being stitched down onto a wide band of cognac brown leather. The needle is set at the edge of the handle base, stitching it into the leather band. Two hands hold the handle upright and steady. Cream canvas is visible far below at the bottom edge of frame, well away from the stitching.",
+      "motion_prompt": "The needle rises and falls, stitching the flared base of the rolled leather handle down into the wide leather band. The hands hold the handle upright and rotate it slightly to bring the next section of the base under the needle."
+    },
+    {
+      "id": "J", "time": "9.9-11.0", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Extreme macro of a small hand press setting a warm gold brass rivet into a piece of rich cognac brown leather. The press head is down on the rivet. Two hands work the press, one steadying the leather beneath. Two gold rivets are already set nearby. All metal is warm gold brass, never silver.",
+      "motion_prompt": "The hand press drives down onto the gold rivet with one firm push and releases, seating the rivet flush into the cognac leather. The steadying hand keeps the leather flat and does not move."
+    },
+    {
+      "id": "K", "time": "11.0-12.1", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Extreme macro of a flat warm gold brass clasp plate seated on a cognac brown leather belt strap, being polished with a soft cream cloth. Fingertips work the cloth across the gold face of the plate. The leather strap runs diagonally across frame on the pale wood worktable. All metal is warm gold brass, never silver.",
+      "motion_prompt": "The fingertips work the soft cloth back and forth across the face of the gold clasp plate, polishing it, and the gold brightens under the cloth. The leather strap stays still on the worktable."
+    },
+    {
+      "id": "L", "time": "12.1-13.2", "dur": 6, "subject": "material", "refs": ["hero"],
+      "keyframe_prompt": "Macro of two hands tying a small cognac brown leather key bell onto the base of a rolled cognac leather handle with a thin leather cord. The fingers are mid knot, drawing the cord tight. The small tapered leather bell hangs below. Soft light from the left of frame.",
+      "motion_prompt": "The fingers draw the thin leather cord tight around the base of the handle, completing the knot, and the small leather key bell settles and swings gently below."
+    },
+    {
+      "id": "M", "time": "13.2-14.3", "dur": 6, "subject": "product", "refs": ["hero"],
+      "keyframe_prompt": "Two hands draw a sheet of soft cream tissue paper up around the finished Velantra weekend bag, which stands fully upright and square on the pale wood worktable. CRITICAL: the bag stands on its flat base holding its rigid structured shape, never collapsed, never lying on its side, never folded or slumped. The tissue wraps only the lower canvas half of the bag. The entire upper half stays fully visible above the tissue: the closed cognac leather flap, the gold turn lock, the gold clasp plates and both rolled leather handles standing up.",
+      "motion_prompt": "The hands draw the cream tissue up around the lower half of the upright bag, then take hold of both rolled leather handles and lift the bag straight up clear of the tissue, the tissue falling away below. The bag stays rigid, upright and square the entire time."
+    },
+    {
+      "id": "N", "time": "14.3-16.0", "dur": 6, "subject": "product", "refs": ["hero"],
+      "keyframe_prompt": "The finished Velantra weekend bag held up by both rolled cognac leather handles, filling the center of frame, against a plain cream linen apron and the soft pale plaster wall behind. Shot straight on to the front face so the closed cognac leather flap, the gold turn lock, both gold clasp plates with their threaded leather straps, the leather key bell and the cream canvas body all read clearly. Framed from slightly below table height so the bag sits high in frame. Only the hands and forearms holding the handles are visible, no head, no shoulders, no face.",
+      "motion_prompt": "The hands lower the bag slowly and set it down onto the pale wood worktable. The bag settles and comes completely to rest. The hands then release the handles and withdraw out of frame, leaving the bag still and centered."
+    }
+  ]
+}

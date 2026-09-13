@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      .broll { position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      .cap {
+        position: absolute; left: 50%; top: 66%; transform: translateX(-50%);
+        width: 920px; text-align: center;
+        font-family: "Inter", sans-serif; font-weight: 800; font-size: 58px;
+        line-height: 1.18; color: #ffffff; letter-spacing: 0.2px;
+        text-shadow: -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000,
+                     0 -5px 0 #000, 0 5px 0 #000, -5px 0 0 #000, 5px 0 0 #000,
+                     0 10px 24px rgba(0,0,0,0.55);
+      }
+      #fadein { position: absolute; inset: 0; background: #000; pointer-events: none; z-index: 50; }
+
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="44.997"
+         data-width="1080" data-height="1920">
+      <video id="b0" class="clip broll" data-start="0.0" data-duration="2.775" data-media-start="0.2" data-track-index="0" src="K01.mp4" muted playsinline></video>
+      <img id="b1" class="clip broll" data-start="2.775" data-duration="2.775" data-track-index="0" src="K02.png" style="transform-origin: 50% 45%;" />
+      <video id="b2" class="clip broll" data-start="5.55" data-duration="2.774" data-media-start="0.2" data-track-index="0" src="K03.mp4" muted playsinline></video>
+      <img id="b3" class="clip broll" data-start="8.324" data-duration="2.775" data-track-index="0" src="K09.png" style="transform-origin: 50% 45%;" />
+      <video id="b4" class="clip broll" data-start="11.099" data-duration="2.775" data-media-start="0.2" data-track-index="0" src="K04.mp4" muted playsinline></video>
+      <img id="b5" class="clip broll" data-start="13.874" data-duration="2.775" data-track-index="0" src="K05.png" style="transform-origin: 50% 45%;" />
+      <video id="b6" class="clip broll" data-start="16.649" data-duration="2.774" data-media-start="0.2" data-track-index="0" src="K13.mp4" muted playsinline></video>
+      <video id="b7" class="clip broll" data-start="19.423" data-duration="2.775" data-media-start="0.2" data-track-index="0" src="K07.mp4" muted playsinline></video>
+      <video id="b8" class="clip broll" data-start="22.198" data-duration="2.775" data-media-start="0.2" data-track-index="0" src="K06.mp4" muted playsinline></video>
+      <img id="b9" class="clip broll" data-start="24.973" data-duration="2.775" data-track-index="0" src="K08.png" style="transform-origin: 50% 45%;" />
+      <video id="b10" class="clip broll" data-start="27.748" data-duration="2.775" data-media-start="0.2" data-track-index="0" src="K11.mp4" muted playsinline></video>
+      <video id="b11" class="clip broll" data-start="30.523" data-duration="2.774" data-media-start="0.2" data-track-index="0" src="K10.mp4" muted playsinline></video>
+      <video id="b12" class="clip broll" data-start="33.297" data-duration="2.775" data-media-start="0.2" data-track-index="0" src="K12.mp4" muted playsinline></video>
+      <video id="b13" class="clip broll" data-start="36.072" data-duration="2.775" data-media-start="3.13" data-track-index="0" src="K13.mp4" muted playsinline></video>
+      <img id="b14" class="clip broll" data-start="38.847" data-duration="2.775" data-track-index="0" src="K09.png" style="transform-origin: 50% 45%;" />
+      <video id="b15" class="clip broll" data-start="41.622" data-duration="3.375" data-media-start="2.53" data-track-index="0" src="K01.mp4" muted playsinline></video>
+      <div id="c0" class="clip cap" data-start="0.0" data-duration="1.0" data-track-index="1">My stylist friend told</div>
+      <div id="c1" class="clip cap" data-start="1.02" data-duration="1.1" data-track-index="1">me the It bag</div>
+      <div id="c2" class="clip cap" data-start="2.14" data-duration="1.84" data-track-index="1">of 2026 would</div>
+      <div id="c3" class="clip cap" data-start="4.0" data-duration="0.88" data-track-index="1">not come from a</div>
+      <div id="c4" class="clip cap" data-start="4.9" data-duration="1.02" data-track-index="1">big fashion house</div>
+      <div id="c5" class="clip cap" data-start="6.62" data-duration="1.16" data-track-index="1">She was right It</div>
+      <div id="c6" class="clip cap" data-start="7.8" data-duration="0.64" data-track-index="1">came from a tiny</div>
+      <div id="c7" class="clip cap" data-start="8.46" data-duration="1.32" data-track-index="1">brand I found in</div>
+      <div id="c8" class="clip cap" data-start="9.8" data-duration="1.52" data-track-index="1">Nantucket where I actually</div>
+      <div id="c9" class="clip cap" data-start="11.34" data-duration="1.08" data-track-index="1">met the founder</div>
+      <div id="c10" class="clip cap" data-start="12.94" data-duration="0.62" data-track-index="1">She showed me how</div>
+      <div id="c11" class="clip cap" data-start="13.58" data-duration="1.72" data-track-index="1">it&#x27;s made It&#x27;s hand</div>
+      <div id="c12" class="clip cap" data-start="15.32" data-duration="1.72" data-track-index="1">woven seagrass and the</div>
+      <div id="c13" class="clip cap" data-start="17.06" data-duration="1.26" data-track-index="1">leather&#x27;s all hand set</div>
+      <div id="c14" class="clip cap" data-start="18.68" data-duration="1.04" data-track-index="1">No two bags are</div>
+      <div id="c15" class="clip cap" data-start="19.74" data-duration="0.58" data-track-index="1">even the same</div>
+      <div id="c16" class="clip cap" data-start="20.88" data-duration="1.82" data-track-index="1">It&#x27;s structured so it</div>
+      <div id="c17" class="clip cap" data-start="22.72" data-duration="1.26" data-track-index="1">holds its shape But</div>
+      <div id="c18" class="clip cap" data-start="24.0" data-duration="1.18" data-track-index="1">it&#x27;s not precious at</div>
+      <div id="c19" class="clip cap" data-start="25.2" data-duration="1.02" data-track-index="1">all You just throw</div>
+      <div id="c20" class="clip cap" data-start="26.24" data-duration="1.64" data-track-index="1">everything in and go</div>
+      <div id="c21" class="clip cap" data-start="27.9" data-duration="1.84" data-track-index="1">Beach errands</div>
+      <div id="c22" class="clip cap" data-start="29.76" data-duration="1.08" data-track-index="1">dinner whatever</div>
+      <div id="c23" class="clip cap" data-start="31.7" data-duration="1.5" data-track-index="1">Honestly it&#x27;s the new</div>
+      <div id="c24" class="clip cap" data-start="33.22" data-duration="1.62" data-track-index="1">Boatkin for summer</div>
+      <div id="c25" class="clip cap" data-start="34.86" data-duration="1.74" data-track-index="1">2026 and it comes</div>
+      <div id="c26" class="clip cap" data-start="36.62" data-duration="1.92" data-track-index="1">in basically every color</div>
+      <div id="c27" class="clip cap" data-start="39.08" data-duration="1.06" data-track-index="1">This is the caramel</div>
+      <div id="c28" class="clip cap" data-start="40.22" data-duration="0.8" data-track-index="1">They&#x27;re running a summer</div>
+      <div id="c29" class="clip cap" data-start="41.04" data-duration="1.48" data-track-index="1">sale right now and</div>
+      <div id="c30" class="clip cap" data-start="42.54" data-duration="0.98" data-track-index="1">the link is below</div>
+      <div id="c31" class="clip cap" data-start="43.7" data-duration="0.56" data-track-index="1">Go get it</div>
+      <div id="fadein" class="clip" data-start="0" data-duration="0.5" data-track-index="3"></div>
+      <audio id="vo" data-start="0.1" data-duration="44.397" data-track-index="2" src="vo.mp3" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.to("#fadein", { opacity: 0, duration: 0.45, ease: "power1.out" }, 0.05);
+      tl.fromTo("#b1", { scale: 1.03 }, { scale: 1.09, duration: 2.775, ease: "none" }, 2.775);
+      tl.fromTo("#b3", { scale: 1.03 }, { scale: 1.09, duration: 2.775, ease: "none" }, 8.324);
+      tl.fromTo("#b5", { scale: 1.03 }, { scale: 1.09, duration: 2.775, ease: "none" }, 13.874);
+      tl.fromTo("#b9", { scale: 1.03 }, { scale: 1.09, duration: 2.775, ease: "none" }, 24.973);
+      tl.fromTo("#b14", { scale: 1.09 }, { scale: 1.03, duration: 2.775, ease: "none" }, 38.847);
+      tl.from("#c0", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 0.0);
+      tl.from("#c1", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 1.02);
+      tl.from("#c2", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 2.14);
+      tl.from("#c3", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 4.0);
+      tl.from("#c4", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 4.9);
+      tl.from("#c5", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 6.62);
+      tl.from("#c6", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 7.8);
+      tl.from("#c7", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 8.46);
+      tl.from("#c8", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 9.8);
+      tl.from("#c9", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 11.34);
+      tl.from("#c10", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 12.94);
+      tl.from("#c11", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 13.58);
+      tl.from("#c12", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 15.32);
+      tl.from("#c13", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 17.06);
+      tl.from("#c14", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 18.68);
+      tl.from("#c15", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 19.74);
+      tl.from("#c16", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 20.88);
+      tl.from("#c17", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 22.72);
+      tl.from("#c18", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 24.0);
+      tl.from("#c19", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 25.2);
+      tl.from("#c20", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 26.24);
+      tl.from("#c21", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 27.9);
+      tl.from("#c22", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 29.76);
+      tl.from("#c23", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 31.7);
+      tl.from("#c24", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 33.22);
+      tl.from("#c25", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 34.86);
+      tl.from("#c26", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 36.62);
+      tl.from("#c27", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 39.08);
+      tl.from("#c28", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 40.22);
+      tl.from("#c29", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 41.04);
+      tl.from("#c30", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 42.54);
+      tl.from("#c31", { opacity: 0, y: 14, scale: 0.96, duration: 0.16, ease: "power2.out" }, 43.7);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

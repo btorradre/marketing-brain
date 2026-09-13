@@ -1,0 +1,1 @@
+local pm=r:GetProjectManager() local p=pm:GetCurrentProject() return {version=r:GetVersionString(),project=p and p:GetName(),rendering=p and p:IsRenderingInProgress(),timelines=p and p:GetTimelineCount()}

@@ -1,0 +1,32 @@
+{
+  "actual_action": "A man walks towards the camera in an airport departures area, carrying a large travel bag with brown leather and off-white canvas sections. The video is a short, animated loop created from a single still photograph.",
+  "visible_identity_changes": "The video is a direct animation of the supplied first-frame image. The subject, his clothing, the bag, and the background are identical in appearance to the source image; the only change is the introduction of motion.",
+  "artifacts_with_times": [
+    {
+      "time_start": 0.0,
+      "time_end": 6.3,
+      "description": "Unnatural movement: The man's walking gait and the bag's swing are stiff and robotic, lacking the natural physics of weight and momentum. The entire figure looks like a 2D cutout moving across a static background."
+    },
+    {
+      "time_start": 0.0,
+      "time_end": 6.3,
+      "description": "Sliding shadow: The shadow cast by the man and the bag on the ground is a dark, poorly defined shape that slides unnaturally with the figure's movement instead of accurately reflecting the motion of his limbs."
+    },
+    {
+      "time_start": 0.0,
+      "time_end": 6.3,
+      "description": "Static hand grip: The man's right hand holding the bag handle is frozen in a single pose. It appears pasted onto the handle rather than realistically gripping it, and the fingers lack natural definition."
+    },
+    {
+      "time_start": 0.0,
+      "time_end": 6.3,
+      "description": "Flat lighting on bag: The gold hardware and leather surfaces of the bag show no change in lighting, highlights, or reflections as the bag moves, making it appear flat and unrealistic."
+    }
+  ],
+  "usable_interval_seconds": [
+    0,
+    6
+  ],
+  "pass_for_ad": false,
+  "limitations": "The analysis is based on a very short, silent video loop. It does not show the product from other angles, nor does it display the interior, straps, or any features in use. The instruction to check an open interior view was not applicable as the bag remains closed throughout."
+}

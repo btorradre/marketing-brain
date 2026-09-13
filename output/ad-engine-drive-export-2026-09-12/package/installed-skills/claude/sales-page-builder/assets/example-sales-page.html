@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renavita™ Thyroid &amp; Blood Sugar Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --red:#8A2718;
+    --red-deep:#6F1E12;
+    --brown:#3A1C14;
+    --cream:#FDF8EE;
+    --cream-2:#FAF1E0;
+    --cream-3:#FFFAF2;
+    --white:#FFFFFF;
+    --ink:#1a1411;
+    --ink-soft:#5b4f48;
+    --line:#e7dcc9;
+    --gold:#C99A2E;
+    --maxw:720px;
+    --radius:8px;
+  }
+  body{margin:0;}
+
+  /* ===== Shopify theme overrides (harmless in standalone preview) ===== */
+  #rv-adv{width:100vw;max-width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);overflow-x:hidden;}
+  .main-page-title{display:none!important;}
+  .shopify-section-group-header-group,.shopify-section-group-footer-group{display:none!important;}
+
+  /* ===== scoped base ===== */
+  #rv-adv{
+    font-family:'Inter',sans-serif;
+    color:var(--ink);
+    background:var(--white);
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  #rv-adv *{box-sizing:border-box;}
+  #rv-adv h1,#rv-adv h2,#rv-adv h3,#rv-adv h4,#rv-adv .display{
+    font-family:'Barlow Condensed','sans-serif';
+    font-weight:600;
+    color:var(--red);
+    line-height:1.08;
+    letter-spacing:.2px;
+    margin:0;
+  }
+  #rv-adv p{margin:0 0 1em;}
+  #rv-adv img{max-width:100%;display:block;}
+  #rv-adv a{color:var(--brown);}
+  #rv-adv .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px;}
+  #rv-adv .section{padding:54px 0;}
+  #rv-adv .center{text-align:center;}
+
+  /* shared image helper */
+  #rv-adv img.gen{width:100%;border-radius:var(--radius);object-fit:cover;}
+
+  /* ---- buttons ---- */
+  #rv-adv .cta{
+    display:inline-block;
+    background:var(--red);
+    color:#fff;
+    font-family:'Barlow Condensed',sans-serif;
+    font-weight:600;
+    font-size:18px;
+    letter-spacing:1.2px;
+    text-transform:uppercase;
+    text-decoration:none;
+    padding:17px 46px;
+    border-radius:40px;
+    border:none;
+    cursor:pointer;
+    transition:background .18s ease, transform .18s ease;
+  }
+  #rv-adv .cta:hover{background:var(--red-deep);transform:translateY(-1px);}
+  #rv-adv .cta-note{font-size:13px;color:var(--ink-soft);margin-top:10px;}
+
+  /* ---- top bar ---- */
+  #rv-adv .topbar{background:var(--red);}
+  #rv-adv .topbar .wrap{display:flex;align-items:center;height:54px;}
+  #rv-adv .brand{
+    font-family:'Barlow Condensed',sans-serif;
+    color:#fff;font-weight:600;font-size:24px;letter-spacing:.5px;
+  }
+  #rv-adv .brand sup{font-size:11px;top:-.8em;}
+
+  /* ---- hero ---- */
+  #rv-adv .hero{background:linear-gradient(180deg,var(--cream-2) 0%, #f6e9cf 100%);}
+  #rv-adv .hero .wrap{padding-top:46px;padding-bottom:46px;}
+  #rv-adv .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:start;}
+  #rv-adv .hero h1{font-size:30px;color:var(--brown);font-weight:600;}
+  #rv-adv .hero h1 em{font-style:italic;color:var(--red);font-family:'Barlow Condensed',sans-serif;}
+  #rv-adv .hero .lede{margin:16px 0 18px;font-size:15px;color:var(--ink);}
+  #rv-adv .hero .lede strong{color:var(--red);}
+  #rv-adv .checks{list-style:none;padding:0;margin:0 0 8px;display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;}
+  #rv-adv .checks li{position:relative;padding-left:26px;font-size:13.5px;line-height:1.35;color:var(--ink);}
+  #rv-adv .checks li::before{
+    content:"\2713";position:absolute;left:0;top:1px;width:17px;height:17px;border-radius:50%;
+    background:var(--red);color:#fff;font-size:10px;line-height:17px;text-align:center;font-weight:700;
+  }
+  #rv-adv .hero-cta{margin-top:22px;}
+  #rv-adv .hero-media{position:relative;}
+  #rv-adv .badge-clin{
+    position:absolute;left:14px;top:14px;z-index:2;
+    width:94px;height:94px;border-radius:50%;background:var(--red);color:#fff;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;font-size:10px;line-height:1.25;font-weight:600;padding:9px;
+    border:2px solid rgba(255,255,255,.9);box-shadow:0 5px 16px rgba(58,28,20,.28);
+  }
+  #rv-adv .badge-clin span{font-size:14px;display:block;margin-bottom:1px;line-height:1;}
+
+  /* ---- press row ---- */
+  #rv-adv .press .wrap{text-align:center;}
+  #rv-adv .press h4{color:var(--ink);font-family:'Inter',sans-serif;font-weight:600;font-size:15px;margin-bottom:16px;}
+  #rv-adv .press-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
+  #rv-adv .press-card{padding:6px 6px;display:flex;flex-direction:column;align-items:center;}
+  #rv-adv .press-logo{height:30px;display:flex;align-items:center;justify-content:center;margin-bottom:10px;}
+  #rv-adv .press-logo .plogo{display:block;height:22px;width:auto;max-width:100%;}
+  #rv-adv .press-quote{font-size:9.5px;color:var(--ink-soft);margin-top:6px;line-height:1.3;font-style:italic;}
+
+  /* ---- mechanism ---- */
+  #rv-adv .mech{background:var(--white);}
+  #rv-adv .mech .lead{font-size:14px;color:var(--ink-soft);max-width:560px;margin:0 auto 30px;}
+  #rv-adv .state{max-width:520px;margin:0 auto;}
+  #rv-adv .state svg{width:100%;height:auto;border-radius:var(--radius);background:var(--cream);}
+  #rv-adv .state img.gen-mech{width:100%;border-radius:var(--radius);display:block;}
+  #rv-adv .state h3{font-size:22px;margin:16px 0 8px;text-align:center;}
+  #rv-adv .state p{font-size:14.5px;color:var(--ink);text-align:center;}
+  #rv-adv .state.bad p{color:var(--red-deep);}
+  #rv-adv .state + .state{margin-top:44px;}
+
+  /* ---- formula ---- */
+  #rv-adv .formula{background:var(--white);border-top:1px solid var(--line);}
+  #rv-adv .formula-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;align-items:center;}
+  #rv-adv .feat{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:14px;}
+  #rv-adv .feat li{display:flex;gap:12px;align-items:center;}
+  #rv-adv .feat .ic{flex:0 0 46px;width:46px;height:46px;border-radius:50%;border:1.5px solid var(--red);display:flex;align-items:center;justify-content:center;color:var(--red);}
+  #rv-adv .feat b{font-family:'Barlow Condensed',sans-serif;font-weight:600;color:var(--red);font-size:17px;letter-spacing:.3px;display:block;}
+  #rv-adv .formula h2{font-size:26px;margin-bottom:14px;}
+  #rv-adv .formula p{font-size:14.5px;}
+  #rv-adv .nomore{list-style:none;padding:0;margin:14px 0 0;}
+  #rv-adv .nomore li{position:relative;padding-left:24px;font-size:14px;margin-bottom:9px;color:var(--ink);}
+  #rv-adv .nomore li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--red);font-weight:700;}
+
+  /* ---- comment proof ---- */
+  #rv-adv .proof{background:var(--white);}
+  #rv-adv .proof h2{font-size:30px;text-align:center;margin-bottom:8px;}
+  #rv-adv .proof .sub{text-align:center;color:var(--ink-soft);font-size:13px;margin-bottom:26px;}
+  #rv-adv .cmt-grid{column-count:2;column-gap:14px;}
+  #rv-adv .cmt{
+    break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:10px;
+    padding:13px 14px;margin-bottom:14px;
+  }
+  #rv-adv .cmt-head{display:flex;align-items:center;gap:9px;margin-bottom:7px;}
+  #rv-adv .av{width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:600;display:flex;align-items:center;justify-content:center;font-size:13px;flex:0 0 30px;}
+  #rv-adv .cmt-name{font-weight:600;font-size:13px;color:var(--ink);}
+  #rv-adv .cmt-body{font-size:12.5px;color:#33291f;line-height:1.5;}
+  #rv-adv .cmt-meta{font-size:11px;color:#9b8f84;margin-top:8px;}
+  #rv-adv .cmt-meta .react{color:var(--red);}
+
+  /* ---- benefits + women ---- */
+  #rv-adv .benefits{background:var(--cream);}
+  #rv-adv .ben-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;}
+  #rv-adv .benefits h2{font-size:26px;margin-bottom:14px;}
+  #rv-adv .benefits p{font-size:14.5px;}
+  #rv-adv .benrows{list-style:none;padding:0;margin:18px 0 0;}
+  #rv-adv .benrows li{display:flex;gap:13px;padding:13px 0;border-top:1px solid var(--line);}
+  #rv-adv .benrows li:last-child{border-bottom:1px solid var(--line);}
+  #rv-adv .benrows .ic{flex:0 0 30px;color:var(--red);}
+  #rv-adv .benrows b{font-family:'Barlow Condensed',sans-serif;color:var(--red);font-weight:600;font-size:16px;}
+  #rv-adv .benrows span{font-size:13px;color:var(--ink);}
+  #rv-adv .women{display:grid;gap:12px;}
+  #rv-adv .women img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);}
+
+  /* ---- timeline ---- */
+  #rv-adv .timeline{background:var(--white);}
+  #rv-adv .timeline h2{text-align:center;font-size:30px;margin-bottom:6px;}
+  #rv-adv .timeline .sub{text-align:center;color:var(--ink-soft);font-size:13px;margin-bottom:30px;}
+  #rv-adv .tl{max-width:520px;margin:0 auto;}
+  #rv-adv .tl-item{margin-bottom:20px;}
+  #rv-adv .tl-head{display:flex;align-items:center;gap:10px;color:var(--red);font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:20px;margin-bottom:8px;}
+  #rv-adv .tl-dot{width:18px;height:18px;border-radius:50%;background:var(--red);flex:0 0 18px;display:flex;align-items:center;justify-content:center;}
+  #rv-adv .tl-dot::after{content:"\2713";color:#fff;font-size:10px;font-weight:700;line-height:1;}
+  #rv-adv .tl-card{background:var(--cream-2);border-radius:8px;padding:14px 16px;font-size:13.5px;color:#4a3b2f;}
+
+  /* ---- marquee ---- */
+  #rv-adv .marquee{background:var(--red);color:#fff;overflow:hidden;padding:13px 0;}
+  #rv-adv .marquee-track{display:flex;gap:0;white-space:nowrap;animation:rvscroll 28s linear infinite;}
+  #rv-adv .marquee-track span{padding:0 26px;font-family:'Barlow Condensed',sans-serif;font-size:14px;letter-spacing:1px;text-transform:uppercase;}
+  @keyframes rvscroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+  @media(prefers-reduced-motion:reduce){#rv-adv .marquee-track{animation:none;}}
+
+  /* ---- buy box ---- */
+  #rv-adv .buy{background:var(--cream);}
+  #rv-adv .buy-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start;}
+  #rv-adv .stars{color:var(--gold);font-size:16px;letter-spacing:2px;}
+  #rv-adv .buy h2{font-size:26px;margin:6px 0 12px;}
+  #rv-adv .buy-bul{list-style:none;padding:0;margin:0 0 18px;}
+  #rv-adv .buy-bul li{position:relative;padding-left:26px;font-size:13.5px;margin-bottom:9px;}
+  #rv-adv .buy-bul li::before{content:"";position:absolute;left:0;top:1px;width:16px;height:16px;border-radius:50%;background:var(--red);}
+  #rv-adv .buy-bul li::after{content:"";position:absolute;left:4.5px;top:5px;width:6px;height:3px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg);}
+  #rv-adv .tiers-label{text-align:center;font-family:'Barlow Condensed',sans-serif;color:var(--red);font-weight:600;letter-spacing:1px;font-size:13px;margin-bottom:10px;}
+  #rv-adv .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px;}
+  #rv-adv .tier{border:1.5px solid var(--line);border-radius:8px;padding:12px 8px 14px;text-align:center;cursor:pointer;position:relative;background:#fff;transition:border-color .15s;}
+  #rv-adv .tier.sel{border-color:var(--red);box-shadow:0 0 0 1px var(--red) inset;}
+  #rv-adv .tier .tag{position:absolute;top:-9px;left:50%;transform:translateX(-50%);background:var(--gold);color:#fff;font-size:9px;font-weight:600;padding:2px 8px;border-radius:20px;letter-spacing:.5px;white-space:nowrap;}
+  #rv-adv .tier .qty{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:17px;color:var(--ink);}
+  #rv-adv .tier .supply{font-size:10.5px;color:var(--ink-soft);margin:1px 0 7px;}
+  #rv-adv .tier .per{font-family:'Barlow Condensed',sans-serif;font-weight:700;color:var(--red);font-size:17px;}
+  #rv-adv .tier .strike{font-size:11px;color:#b3a89c;text-decoration:line-through;}
+  #rv-adv .buy .cta{width:100%;text-align:center;border-radius:8px;}
+  #rv-adv .guar-row{display:flex;justify-content:center;gap:18px;font-size:11px;color:var(--ink-soft);margin-top:12px;flex-wrap:wrap;}
+  #rv-adv .guar-row span::before{content:"\25CF";color:var(--red);margin-right:5px;font-size:8px;vertical-align:middle;}
+  #rv-adv .scarcity{background:#fbeede;border:1px solid #f0d6b0;border-radius:8px;padding:12px 14px;margin-top:16px;font-size:12px;}
+  #rv-adv .scarcity .bar{display:flex;justify-content:space-between;padding:5px 0;border-top:1px dashed #e3c79a;}
+  #rv-adv .scarcity .bar:first-of-type{border-top:none;}
+  #rv-adv .scarcity .sold-out{color:#b3a89c;text-decoration:line-through;}
+  #rv-adv .featured-rev{border:1px solid var(--line);border-radius:8px;padding:13px;margin-top:14px;font-size:12.5px;}
+  #rv-adv .featured-rev .stars{font-size:13px;}
+  #rv-adv .accordions{margin-top:18px;}
+  #rv-adv details{border-bottom:1px solid var(--line);}
+  #rv-adv summary{list-style:none;cursor:pointer;padding:13px 2px;font-weight:600;font-size:14px;display:flex;justify-content:space-between;align-items:center;color:var(--ink);}
+  #rv-adv summary::-webkit-details-marker{display:none;}
+  #rv-adv summary::after{content:"+";color:var(--red);font-size:20px;font-weight:400;}
+  #rv-adv details[open] summary::after{content:"\2013";}
+  #rv-adv details .ans{padding:0 2px 14px;font-size:13.5px;color:var(--ink-soft);}
+  #rv-adv .gallery{display:flex;gap:6px;margin-top:10px;}
+  #rv-adv .gallery img{flex:1;min-width:0;aspect-ratio:1/1;object-fit:cover;border-radius:6px;border:1px solid var(--line);}
+
+  /* ---- before after ---- */
+  #rv-adv .ba{background:var(--white);}
+  #rv-adv .ba h2{text-align:center;font-size:26px;margin-bottom:26px;}
+  #rv-adv .ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  #rv-adv .ba-card img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius);}
+  #rv-adv .ba-cap{font-size:11.5px;color:var(--ink-soft);margin-top:8px;line-height:1.45;}
+  #rv-adv .ba-cap b{color:var(--ink);}
+
+  /* ---- research ---- */
+  #rv-adv .research{background:var(--white);}
+  #rv-adv .research-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;}
+  #rv-adv .res-card{background:var(--cream-2);border-radius:10px;padding:22px;text-align:center;}
+  #rv-adv .res-card img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;margin-bottom:14px;}
+  #rv-adv .res-big{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:62px;color:var(--red);line-height:.95;}
+  #rv-adv .res-sub{font-size:12px;color:var(--ink-soft);}
+  #rv-adv .res-quote{background:#fff;border-radius:8px;padding:11px 13px;margin-top:14px;font-size:11.5px;text-align:left;color:#3b2f25;}
+  #rv-adv .research h2{font-size:24px;margin-bottom:14px;}
+  #rv-adv .reslist{list-style:none;padding:0;margin:0 0 14px;}
+  #rv-adv .reslist li{position:relative;padding-left:24px;font-size:13.5px;margin-bottom:9px;}
+  #rv-adv .reslist li::before{content:"\2713";position:absolute;left:0;color:var(--red);font-weight:700;}
+
+  /* ---- trust badges ---- */
+  #rv-adv .trust{background:var(--cream);}
+  #rv-adv .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center;}
+  #rv-adv .tb-ic{width:56px;height:56px;border-radius:50%;background:var(--cream-2);border:1.5px solid var(--red);display:flex;align-items:center;justify-content:center;margin:0 auto 9px;color:var(--red);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;}
+  #rv-adv .tb b{display:block;font-family:'Barlow Condensed',sans-serif;color:var(--red);font-size:15px;font-weight:600;}
+  #rv-adv .tb span{font-size:11px;color:var(--ink-soft);}
+
+  /* ---- faq ---- */
+  #rv-adv .faq{background:var(--white);}
+  #rv-adv .faq h2{text-align:center;font-size:30px;margin-bottom:24px;}
+  #rv-adv .faq .inner{max-width:560px;margin:0 auto;}
+
+  /* ---- reviews ---- */
+  #rv-adv .reviews{background:var(--cream);}
+  #rv-adv .reviews h2{text-align:center;font-size:26px;font-family:'Inter',sans-serif;font-weight:700;color:var(--ink);margin-bottom:4px;}
+  #rv-adv .rev-score{text-align:center;font-family:'Barlow Condensed',sans-serif;font-size:34px;color:var(--ink);font-weight:700;}
+  #rv-adv .rev-count{text-align:center;font-size:12px;color:var(--ink-soft);margin-bottom:24px;}
+  #rv-adv .rev-grid{column-count:2;column-gap:18px;}
+  #rv-adv .rev{break-inside:avoid;background:#fff;border-radius:10px;padding:16px;margin-bottom:18px;border:1px solid var(--line);}
+  #rv-adv .rev-name{font-weight:600;font-size:13.5px;}
+  #rv-adv .rev .stars{font-size:12px;}
+  #rv-adv .verified{font-size:10.5px;color:#3a8a55;margin:3px 0 8px;}
+  #rv-adv .verified::before{content:"\2713 ";}
+  #rv-adv .rev-body{font-size:12.5px;color:#33291f;line-height:1.5;}
+  #rv-adv .rev img{margin-top:10px;width:100%;border-radius:8px;object-fit:cover;}
+
+  /* ---- footer ---- */
+  #rv-adv .footer{background:var(--cream-3);border-top:1px solid var(--line);}
+  #rv-adv .foot-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:30px 0;}
+  #rv-adv .foot-grid h5{font-family:'Inter',sans-serif;font-weight:600;font-size:13px;color:var(--ink);margin:0 0 12px;}
+  #rv-adv .foot-grid a, #rv-adv .foot-grid p{display:block;font-size:12px;color:var(--ink-soft);text-decoration:none;margin-bottom:7px;}
+  #rv-adv .disclaimer{font-size:10px;color:#9b8f84;line-height:1.5;}
+  #rv-adv .foot-legal{border-top:1px solid var(--line);padding:14px 0;font-size:10.5px;color:#9b8f84;}
+
+  @media(max-width:680px){
+    #rv-adv .hero-grid,#rv-adv .formula-grid,#rv-adv .ben-grid,#rv-adv .buy-grid,#rv-adv .research-grid{grid-template-columns:1fr;}
+    #rv-adv .press-row{grid-template-columns:repeat(3,1fr);}
+    #rv-adv .trust-grid{grid-template-columns:repeat(2,1fr);}
+    #rv-adv .foot-grid{grid-template-columns:1fr 1fr;}
+    #rv-adv .ba-grid{grid-template-columns:1fr;}
+    #rv-adv .hero h1{font-size:26px;}
+    #rv-adv .checks{grid-template-columns:1fr;}
+    #rv-adv .cmt-grid,#rv-adv .rev-grid{column-count:1;}
+  }
+</style>
+</head>
+<body>
+<div id="rv-adv">
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar"><div class="wrap"><span class="brand">Renavita<sup>&reg;</sup></span></div></div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>"My thyroid labs were 'normal.' My weight wouldn't budge&hellip; <em>here's what finally worked.</em>"</h1>
+        <p class="lede"><strong>Renavita</strong> is true Ceylon cinnamon that supports the one step your thyroid medication was never built to reach &mdash; so your body can finally <em>use</em> the energy it's making.</p>
+        <ul class="checks">
+          <li>Most women report steadier afternoon energy within the first few weeks*</li>
+          <li>Supports your body's natural insulin response &mdash; the step low T3 leaves behind</li>
+          <li>2,000mg true Ceylon (<em>Cinnamomum verum</em>) &mdash; not grocery-store Cassia</li>
+          <li>Made for Hashimoto's, hypothyroid &amp; post-thyroidectomy women</li>
+        </ul>
+        <div class="hero-cta">
+          <a href="#buy" class="cta">Try Renavita Now</a>
+          <p class="cta-note">Feel the difference or your money back &mdash; 90 days.</p>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="badge-clin"><span>&#9733;</span>Clinically<br>Studied<br>Ingredient</div>
+        <img class="gen" style="aspect-ratio:1/1;" src="generated-images/lp-hero-jar.png" alt="Renavita Ceylon Cinnamon Gummies jar">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AS SEEN IN ============ -->
+<section class="press section" style="padding:34px 0 18px;">
+  <div class="wrap">
+    <h4>As featured in&hellip;</h4>
+    <div class="press-row">
+      <div class="press-card"><div class="press-logo"><svg class="plogo"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  
+  
+   viewBox="0 0 158.75 23.766581"
+   version="1.1"
+   id="usatoday-svg49687"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="USA Today (2020-01-29).svg"><defs
+     id="usatoday-defs49681" /><sodipodi:namedview
+     id="usatoday-base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0066667"
+     inkscape:cx="300"
+     inkscape:cy="44.913225"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg49687"
+     showgrid="usatoday-false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" /><metadata
+     id="usatoday-metadata49684"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><path
+     inkscape:connector-curvature="0"
+     id="usatoday-path6918"
+     d="m 23.76791,11.88329 c 0,6.56297 -5.32032,11.88329 -11.88462,11.88329 C 5.32032,23.76658 0,18.44626 0,11.88329 0,5.32032 5.32032,0 11.88329,0 c 6.5643,0 11.88462,5.32032 11.88462,11.88329"
+     style="fill:#1a1411;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.33914411" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="m 34.87386,16.983412 c -1.87059,0 -2.91452,-1.14462 -2.91452,-3.16358 V 3.5713201 H 27.3226 V 13.793332 c 0,4.48836 2.73965,7.05314 7.55126,7.05314 4.81161,0 7.55126,-2.56478 7.55126,-7.05314 V 3.5713201 H 37.78838 V 13.819832 c 0,2.01896 -1.04393,3.16358 -2.91452,3.16358 z m 0,0"
+     id="usatoday-path42590" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="m 50.60903,20.846472 c 4.06443,0 6.729891,-2.16734 6.729891,-5.38391 0,-2.29452 -1.372471,-4.064431 -5.012971,-5.060662 l -1.27179,-0.34975 c -1.8176,-0.4981198 -2.49059,-1.0439299 -2.49059,-1.8441 0,-0.8478599 0.74717,-1.31948 2.06666,-1.31948 1.60034,0 3.317259,0.89555 4.51485,1.91829 L 57.460801,5.8923301 C 55.643201,4.2443001 53.2003,3.24807 50.60903,3.24807 c -3.91605,0 -6.6557,2.1196501 -6.6557,5.38392 0,2.517081 1.64272,4.165112 4.68443,4.959982 l 1.04923,0.27555 c 2.26802,0.5988 3.04169,1.04923 3.04169,1.94478 0,0.92205 -0.80016,1.39367 -2.14614,1.39367 -1.99248,0 -3.6405,-0.72068 -4.98649,-1.91828 l -2.24153,2.81914 c 1.8706,1.7434 4.48837,2.73964 7.25451,2.73964 z m 0,0"
+     id="usatoday-path42586" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="m 70.572069,20.523232 h 4.716212 L 69.077711,3.5713201 H 63.6938 L 57.488519,20.523232 h 4.58375 l 1.075711,-3.16359 h 6.353659 z M 64.3191,13.915212 66.338059,7.9854902 68.33054,13.915212 Z m 0,0"
+     id="usatoday-path42582" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="m 84.23257,20.523232 h 4.636736 V 7.3125 h 5.039471 V 3.5713201 H 79.198399 V 7.3125 h 5.034171 z m 0,0"
+     id="usatoday-path42578" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="m 102.59438,20.846472 c 5.08186,0 8.79655,-3.614 8.79655,-8.775361 0,-5.1560409 -3.71469,-8.823041 -8.79655,-8.823041 -5.087164,0 -8.801855,3.6670001 -8.801855,8.823041 0,5.161361 3.714691,8.775361 8.801855,8.775361 z m 0,-3.83657 c -2.4164,0 -4.090933,-1.99777 -4.090933,-4.938791 0,-2.9410108 1.674533,-4.9811709 4.090933,-4.9811709 2.4164,0 4.08562,2.0401601 4.08562,4.9811709 0,2.941021 -1.66922,4.938791 -4.08562,4.938791 z m 0,0"
+     id="usatoday-path42570" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="m 112.99441,20.523232 h 6.6769 c 5.01297,0 8.57928,-3.49213 8.57928,-8.473311 0,-4.986481 -3.56631,-8.4786009 -8.57928,-8.4786009 h -6.6769 z m 4.56255,-3.6617 V 7.23831 h 2.11435 c 2.44289,0 3.94255,1.9182901 3.94255,4.811611 0,2.888031 -1.49966,4.811611 -3.94255,4.811611 z m 0,0"
+     id="usatoday-path42566" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="m 140.47816,20.523232 h 4.71623 L 138.9838,3.5713201 h -5.3839 l -6.20528,16.9519119 h 4.58374 l 1.07572,-3.16359 h 6.35365 z m -6.25297,-6.60802 2.01897,-5.9297218 1.99247,5.9297218 z m 0,0"
+     id="usatoday-path42558" /><path
+     inkscape:connector-curvature="0"
+     style="fill:#1a1411;fill-opacity:1;stroke:none;stroke-width:0.33914408"
+     d="M 152.7461,14.418632 158.75,3.5713201 h -5.23023 L 150.40388,10.3012 147.2615,3.5713201 h -5.23554 l 6.00921,10.8473119 v 6.1046 h 4.71093 z m 0,0"
+     id="usatoday-path42562" /></svg></div><div class="press-quote">"Women with thyroid issues are finally feeling like themselves again"</div></div>
+      <div class="press-card"><div class="press-logo"><svg class="plogo"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="foxwordmark-Layer_1"
+   x="0px"
+   y="0px"
+  
+  
+   viewBox="0 0 999.99997 430.56899"
+   enable-background="new 0 0 566.929 243.378"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Fox.svg"><metadata
+   id="foxwordmark-metadata17"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="foxwordmark-defs15" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   id="foxwordmark-namedview13"
+   showgrid="foxwordmark-false"
+   inkscape:zoom="0.35355339"
+   inkscape:cx="1659.2385"
+   inkscape:cy="219.70678"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" /><g
+   id="foxwordmark-g3"
+   transform="matrix(1.7638893,0,0,1.7638893,0,9.4018555e-5)"
+   style="fill:#1a1411;fill-opacity:1"><g
+   id="foxwordmark-g5"
+   style="fill:#1a1411;fill-opacity:1"><path
+   d="m 68.868,66.704 0,31.729 67.064,0 0,66.345 -67.064,0 0,78.6 L 0,243.378 0,0 l 146.388,0 4.688,66.704 z"
+   id="foxwordmark-path7"
+   inkscape:connector-curvature="0"
+   style="fill:#1a1411;fill-opacity:1"
+   sodipodi:nodetypes="ccccccccccc" /><path
+   d="m 347.686,37.411 c 22.847,23.321 34.277,51.473 34.277,84.45 0,33.216 -11.431,61.483 -34.277,84.807 -22.851,23.32 -50.411,34.98 -82.682,34.98 -32.508,0 -60.191,-11.66 -83.037,-34.98 -22.852,-23.323 -34.275,-51.591 -34.275,-84.807 0,-32.978 11.423,-61.129 34.275,-84.45 22.846,-23.321 50.529,-34.982 83.037,-34.982 32.27,0 59.831,11.661 82.682,34.982 z m -102.47,133.212 c 0,5.423 1.999,10.132 6.007,14.135 4.002,4.008 8.834,6.008 14.487,6.008 5.654,0 10.424,-2 14.311,-6.008 3.888,-4.003 5.831,-8.712 5.831,-14.135 l 0,-98.584 c 0,-5.653 -1.943,-10.479 -5.831,-14.487 -3.886,-4.002 -8.656,-6.007 -14.311,-6.007 -5.653,0 -10.484,2.005 -14.487,6.007 -4.009,4.008 -6.007,8.834 -6.007,14.487 l 0,98.584 z"
+   id="foxwordmark-path9"
+   inkscape:connector-curvature="0"
+   style="fill:#1a1411;fill-opacity:1" /><path
+   d="m 489.407,244.102 -34.612,-61.658 -33.532,61.658 -75.718,0 L 417.658,117.904 349.511,0 427.393,0 455.878,52.642 484.722,0 l 75.356,0 -66.704,117.182 73.555,126.919 -77.522,0 z"
+   id="foxwordmark-path11"
+   inkscape:connector-curvature="0"
+   style="fill:#1a1411;fill-opacity:1" /></g></g></svg></div><div class="press-quote">"The cinnamon compound researchers say reaches what thyroid meds can&#39;t"</div></div>
+      <div class="press-card"><div class="press-logo"><svg class="plogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 106"><path d="M401.3 0h-19.4v36.5C379.1 9.2 369 0 354.2 0c-11.1 0-19.4 5.5-24.5 19.9C326 5.6 315.4 0 297.8 0h-19.4v36.5h-.5C275.1 9.2 265 0 250.2 0c-14.3 0-24.5 9.2-27.7 36.5h-.5V0h-25l-9.2 54.5h-.5L179.4 0h-25.9v20.8C151.2 8.3 143.8 0 129.9 0c-15.3 0-23.6 10.6-25 24C100.7 6 91.5 0 79.5 0 66.1 0 56.4 7.9 52.7 30.5 51.8 14.3 47.2 0 27.7 0 12.4 0 0 13.9 0 53.2c0 33.7 6.9 53.2 27.7 53.2 18.5 0 23.6-14.8 25-29.6 3.7 22.2 13.4 29.6 26.8 29.6 12.9 0 22.2-7.4 26.3-28.2.9 13.4 6 28.2 25 28.2 10.6 0 18.5-4.6 22.7-12.5v12h14.3V28.2h.5l12.9 77.7h10.6l12.9-77.7h.5v77.7h17.1V69.4h.5c2.8 27.3 12.9 36.5 27.7 36.5 14.3 0 24.5-9.2 27.7-36.5h.5v36.5h19.4V63.4h7.9c9.7 0 16.2-3.7 20.3-9.7 0 39.8 11.1 52.2 28.2 52.2 14.3 0 24.5-9.2 27.7-36.5v36.5h43.9V89.7h-24.5V0h-.3zM37.1 65.7c-.5 14.8-1.8 24-8.3 24-6 0-7.9-3.7-7.9-37.4 0-34.2 4.2-36.5 8.3-36.5 4.6 0 6.9 6.5 6.9 23.1l16.2-.5c-.5 4.6-.5 9.2-.5 14.8 0 5.1 0 9.7.5 13.9l-15.2-1.4zM87 63.8c0 22.2-2.8 26.3-6.9 26.3-4.6 0-6.9-4.6-6.9-26.3V42.1c0-22.2 2.8-26.3 6.9-26.3 4.6 0 6.9 4.6 6.9 26.3 0 0 0 21.7 0 21.7zm44.8 26.4c-8.3 0-8.3-10.2-8.3-15.7h-16.6c.9-6 1.4-13.4 1.4-21.7 0-4.2 0-8.3-.5-12 8.3 19 32.4 24.5 32.4 39.8 0 3.5-1.9 9.6-8.4 9.6zM122.6 25c0-5.5 2.8-9.2 7.4-9.2 7.9 0 7.9 9.7 7.9 15.3h16.2v31c-9.3-16.8-31.5-23.3-31.5-37.1zm135 38.8c0 22.2-2.8 26.8-6.9 26.8-4.6 0-6.9-4.6-6.9-26.8V42.1c0-22.2 2.8-26.8 6.9-26.8 4.6 0 6.9 4.6 6.9 26.8 0 0 0 21.7 0 21.7zm42-15.7h-1.8V16.2h1.4c6.5 0 12.5.5 12.5 15.7 0 13-4.2 16.2-12.1 16.2zm61.5 15.7c0 22.2-2.8 26.8-6.9 26.8-4.6 0-6.9-4.6-6.9-26.8V42.1c0-22.2 2.8-26.8 6.9-26.8 4.6 0 6.9 4.6 6.9 26.8v21.7zm68-63.8h19.4v105.9h-19.4V0zM504 0h-52.7v16.2h16.6v89.7h19.4V16.2h16.6V0m80 0v55.9h-.5L565.8 0h-19v92.5L535.2.1H507L492.2 106h16.2l2.8-23.6h15.9l2.8 23.6h33.7V41.7h.5l20.8 64.3h15.2V0h-16.2zm-70.2 67l6-50.8h.5l5.5 50.8h-12z" fill="#1a1411"/></svg></div><div class="press-quote">"A serious second look at Ceylon cinnamon for women&#39;s metabolism"</div></div>
+      <div class="press-card"><div class="press-logo"><svg class="plogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 54"><path fill="#1a1411" d="M113.3 18.2c0-5.8.1-11.2.4-16.2L98.4 4.9v1.4l1.5.2c1.1.1 1.8.5 2.2 1.1.4.7.7 1.7.9 3.2.2 2.9.4 9.5.3 19.9 0 10.3-.1 16.8-.3 19.3 5.5 1.2 9.8 1.7 13 1.7 6 0 10.7-1.7 14.1-5.2 3.4-3.4 5.2-8.2 5.2-14.1 0-4.7-1.3-8.6-3.9-11.7-2.6-3.1-5.9-4.6-9.8-4.6-2.6 0-5.3.7-8.3 2.1zm.3 30.8c-.2-3.2-.4-12.8-.4-28.5.9-.3 2.1-.5 3.6-.5 2.4 0 4.3 1.2 5.7 3.7 1.4 2.5 2.1 5.5 2.1 9.3 0 4.7-.8 8.5-2.4 11.7-1.6 3.1-3.6 4.7-6.1 4.7-.8-.2-1.6-.3-2.5-.4zM41 3H1v2l2.1.2c1.6.3 2.7.9 3.4 1.8.7 1 1.1 2.6 1.2 4.8.8 10.8.8 20.9 0 30.2-.2 2.2-.6 3.8-1.2 4.8-.7 1-1.8 1.6-3.4 1.8l-2.1.3v2h25.8v-2l-2.7-.2a4.9 4.9 0 0 1-3.4-1.8c-.7-1-1.1-2.6-1.2-4.8-.3-4-.5-8.6-.5-13.7l5.4.1c2.9.1 4.9 2.3 5.9 6.7h2V18.9h-2c-1 4.3-2.9 6.5-5.9 6.6l-5.4.1c0-9 .2-15.4.5-19.3h7.9c5.6 0 9.4 3.6 11.6 10.8l2.4-.7L41 3zm-4.7 30.8c0 5.2 1.5 9.5 4.4 12.9 2.9 3.4 7.2 5 12.6 5s9.8-1.7 13-5.2c3.2-3.4 4.7-7.7 4.7-12.9s-1.5-9.5-4.4-12.9c-2.9-3.4-7.2-5-12.6-5s-9.8 1.7-13 5.2c-3.2 3.4-4.7 7.7-4.7 12.9zm22.3-11.4c1.2 2.9 1.7 6.7 1.7 11.3 0 10.6-2.2 15.8-6.5 15.8-2.2 0-3.9-1.5-5.1-4.5-1.2-3-1.7-6.8-1.7-11.3C47 23.2 49.2 18 53.5 18c2.2-.1 3.9 1.4 5.1 4.4zm84.5 24.3c3.3 3.3 7.5 5 12.5 5 3.1 0 5.8-.6 8.2-1.9 2.4-1.2 4.3-2.7 5.6-4.5l-1-1.2c-2.2 1.7-4.7 2.5-7.6 2.5-4 0-7.1-1.3-9.2-4-2.2-2.7-3.2-6.1-3-10.5H170c0-4.8-1.2-8.7-3.7-11.8-2.5-3-6-4.5-10.5-4.5-5.6 0-9.9 1.8-13 5.3-3.1 3.5-4.6 7.8-4.6 12.9 0 5.2 1.6 9.4 4.9 12.7zm7.4-25.1c1.1-2.4 2.5-3.6 4.4-3.6 3 0 4.5 3.8 4.5 11.5l-10.6.2c.1-3 .6-5.7 1.7-8.1zm46.4-4c-2.7-1.2-6.1-1.9-10.2-1.9-4.2 0-7.5 1.1-10 3.2s-3.8 4.7-3.8 7.8c0 2.7.8 4.8 2.3 6.3 1.5 1.5 3.9 2.8 7 3.9 2.8 1 4.8 2 5.8 2.9 1 1 1.6 2.1 1.6 3.6 0 1.4-.5 2.7-1.6 3.7-1 1.1-2.4 1.6-4.2 1.6-4.4 0-7.7-3.2-10-9.6l-1.7.5.4 10c3.6 1.4 7.6 2.1 12 2.1 4.6 0 8.1-1 10.7-3.1 2.6-2 3.9-4.9 3.9-8.5 0-2.4-.6-4.4-1.9-5.9-1.3-1.5-3.4-2.8-6.4-4-3.3-1.2-5.6-2.3-6.8-3.3-1.2-1-1.8-2.2-1.8-3.7s.4-2.7 1.3-3.7 2-1.4 3.4-1.4c4 0 6.9 2.9 8.7 8.6l1.7-.5-.4-8.6zm-96.2-.9c-1.4-.7-2.9-1-4.6-1-1.7 0-3.4.7-5.3 2.1-1.9 1.4-3.3 3.3-4.4 5.9l.1-8-15.2 3v1.4l1.5.1c1.9.2 3 1.7 3.2 4.4.6 6.2.6 12.8 0 19.8-.2 2.7-1.3 4.1-3.2 4.4l-1.5.2v1.9h21.2V49l-2.7-.2c-1.9-.2-3-1.7-3.2-4.4-.6-5.8-.7-12-.2-18.4.6-1 1.9-1.6 3.9-1.8 2-.2 4.3.4 6.7 1.8l3.7-9.3z"/></svg></div><div class="press-quote">"I felt steady again &mdash; but don&#39;t take my word for it, read the research"</div></div>
+      <div class="press-card"><div class="press-logo"><svg class="plogo" xmlns="http://www.w3.org/2000/svg" viewBox="7139 174 209.555 43"><defs><style>
+      .cls-1 {
+        fill:#1a1411;
+      }
+    </style></defs><g id="womenshealth-WH_Logo" data-name="WH Logo" transform="translate(7139 174)"><path id="womenshealth-Pfad_1" data-name="Pfad 1" class="cls-1" d="M20.942,42.442,24.711,5.026c.14-1.955.558-2.234,1.256-2.234h.419V.7H20.244V2.792h.419c.838,0,1.256.558,1.117,2.234L19.545,27.364,17.032,5.026c-.279-1.815.14-2.234,1.117-2.234h.14V.7H9.773V2.792h.419c.838,0,.838.279.977,2.234l.7,5.724L9.773,28.9,7.539,5.026c-.279-1.955.14-2.234.977-2.234h.14V.7H0V2.792H.419c.977,0,.977.279,1.117,2.234L5.445,42.442h5.584l2.234-19.266,2.094,19.266ZM56.961,17.87c0-2.653,0-3.49,1.675-3.49,1.117,0,1.117.419,1.117,2.653V39.37c0,.838-.279.977-.7.977h-.279v2.094h8.516V40.347h-.419c-.558,0-.7-.279-.7-1.117V15.776c0-3.909-.838-5.305-4.607-5.305a4.482,4.482,0,0,0-4.747,3.071c-.419-2.094-1.536-3.071-4.468-3.071-2.373,0-3.63.7-4.607,3.071V10.471l-7.4.558v2.094h.279c.419,0,.838.419.838,1.536V39.091c0,.977-.279,1.256-.838,1.256h-.279v2.094h8.237V40.347h-.279c-.419,0-.558-.14-.558-.838V17.87c0-2.653,0-3.49,1.536-3.49,1.117,0,1.117.419,1.117,2.653V39.37c0,.838-.279.977-.7.977h-.419v2.094h8.377V40.347h-.14c-.558,0-.838-.279-.838-1.117V17.87Zm58.916,24.571h10.331V40.347h-.7c-.838,0-1.117-.419-1.117-2.234V21.919h5.445V37.974c0,1.815-.279,2.234-1.117,2.234h-.838V42.3h10.192V40.208h-.838c-.838,0-1.117-.419-1.117-2.234V5.026c0-1.955.14-2.234,1.117-2.234h.838V.7H127.883V2.792h.838c.838,0,1.117.279,1.117,2.234V19.545h-5.584V5.026c0-1.955.279-2.234,1.256-2.234h.7V.7H115.877V2.792h.838c.838,0,1.117.279,1.117,2.234V39.091c0,.838-.279,1.117-1.117,1.117h-.838Zm75.808,0h8.1V40.347H199.5c-.558,0-.558-.14-.558-.838V17.87c0-2.653,0-3.49,1.675-3.49,1.256,0,1.256.419,1.256,2.653V39.37c0,.838-.279.977-.558.977H200.9v2.094h8.656V40.347h-.419c-.558,0-.7-.279-.7-1.117V15.776c0-3.909-.977-5.305-4.747-5.305-2.513,0-3.909.7-4.886,3.071V0l-7.818.7V2.792h.838c.558,0,.838.279.838,1.536V39.091c0,.977-.14,1.256-.838,1.256h-.279v2.094ZM32.11,42.86c6.841,0,7.818-5.724,7.818-16.195s-.977-16.195-7.818-16.195-7.818,5.584-7.818,16.195c0,10.471.977,16.195,7.818,16.195Zm50.818-.419h8.237V40.347h-.419c-.419,0-.419-.14-.419-.838V17.87c0-2.653,0-3.49,1.675-3.49,1.117,0,1.257.419,1.257,2.653V39.37c0,.838-.279.977-.7.977h-.419v2.094H100.8V40.347h-.279c-.558,0-.7-.279-.7-1.117V15.776c0-3.909-.838-5.305-4.747-5.305-2.373,0-3.909.7-4.747,3.071V10.471l-7.958.558v2.094h.838c.419,0,.838.419.838,1.536V39.091c0,.977-.279,1.256-.838,1.256h-.279S82.929,42.442,82.929,42.442ZM157.481,43c2.792,0,3.909-1.4,4.468-3.071.558,2.513,1.117,3.071,4.328,3.071,3.769,0,4.188-2.234,4.188-6.562h-1.815c0,3.211,0,3.49-.7,3.49-.558,0-.558-.279-.558-2.094v-20.8c0-4.188-1.4-6.422-6.282-6.422-3.909,0-7.679,1.117-7.539,5.445.14,1.955.838,3.909,2.932,3.769,1.815-.14,2.653-1.117,2.653-2.653a5.5,5.5,0,0,0-2.094-3.769,5.046,5.046,0,0,1,2.513-.419c1.4,0,1.675,1.117,1.675,3.071v5.864c-7.12,2.373-8.516,3.351-8.516,12.286,0,6.282,1.675,8.8,4.747,8.8Zm-12.146,0c5.305,0,6.562-1.536,6.282-10.331h-2.234c0,6.981-.279,7.4-2.653,7.4-2.932,0-2.932-1.256-2.932-13.123v-.977h8.516c0-12.006-1.4-15.357-6.981-15.357-5.166,0-7.818,3.211-7.818,16.334C137.516,39.51,139.61,43,145.334,43Zm-69.805-.14c5.166,0,6.562-1.536,6.422-10.331H79.718c0,6.981-.279,7.4-2.792,7.4-3.211,0-2.932-1.256-2.932-13.123v-.977h8.237c0-12.006-1.117-15.357-6.7-15.357-5.166,0-7.818,3.211-7.818,16.334,0,12.7,2.094,16.055,7.818,16.055Zm95.354-.419H179.4V40.347h-.7c-.558,0-.7-.279-.7-1.117V0l-7.958.7V2.792h.838c.558,0,.7.279.7,1.117V39.37c0,.838,0,.977-.419.977h-.419v2.094Zm-61.149.419c3.909,0,5.864-2.513,5.864-6.422,0-9.075-8.1-14.24-8.1-20.662,0-1.955.7-2.513,2.094-2.513,2.094,0,2.373.838,2.653,3.909l.279,2.932H114.9V10.75h-1.815c-.14,1.117-.419,1.536-.419,1.4a5.47,5.47,0,0,0-4.328-1.675c-3.351,0-6.422,1.536-6.422,6.562,0,7.958,8.1,13.961,8.1,19.964,0,2.653-.558,3.071-2.513,3.071-1.815,0-2.373-.838-2.653-4.747l-.14-2.653h-2.513v9.773h2.094c.14-1.117.558-1.815.838-1.4.7.7,1.536,1.815,4.607,1.815ZM180.8,35.88c0,5.026.7,6.981,5.724,6.981,3.49,0,4.328-1.4,4.328-5.305V32.25h-2.094v5.584c0,1.815-.14,2.094-.838,2.094s-.838-.279-.838-1.815V13.123h3.909V10.75h-3.909V2.792h-2.234c-1.536,7.12-2.932,7.958-5.026,7.958h-.558v2.373h1.4V35.88ZM32.11,40.068c-1.536,0-1.536-.838-1.536-13.4,0-12.7,0-13.542,1.536-13.542,1.4,0,1.4.838,1.4,13.4,0,12.7,0,13.542-1.4,13.542Zm69.107-27.922c5.305-3.909,6.422-6.981,4.607-9.633C104.987.977,102.753,0,101.218,1.4c-1.955,1.536-1.4,4.328,2.094,6-.7.7-2.094,2.234-3.351,3.351Zm58.916,26.805c-1.257,0-1.257-1.4-1.257-5.584,0-7.679,0-8.656,2.513-10.052V36.438c0,2.094-.279,2.513-1.256,2.513Zm-86.14-15.5c.14-9.912.279-10.471,1.675-10.471s1.256.558,1.256,10.471Zm69.805,0c.14-9.912.279-10.471,1.675-10.471s1.117.558,1.117,10.471Z"/></g></svg></div><div class="press-quote">"My energy is back. And I feel like me again."</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MECHANISM ============ -->
+<section class="mech section" style="padding-top:26px;">
+  <div class="wrap center">
+    <h2 style="font-size:30px;">Why Nothing's Been Working <span style="font-weight:400;">(And What the Research Actually Shows)</span></h2>
+    <p class="lead">It's not that you're not trying hard enough. It's not that your body is broken. There's a specific step in the chain &mdash; one your doctor never checked &mdash; that explains all of it.</p>
+
+    <!-- STATE 1 -->
+    <div class="state good">
+      <img class="gen-mech" src="generated-images/lp-mech-open.png" alt="A healthy cell with open glucose doors letting sugar in">
+      <p style="font-family:'Barlow Condensed',sans-serif;font-size:13px;color:var(--ink-soft);text-align:center;margin:8px 0 0;letter-spacing:.3px;">Glucose flows in &middot; cells get fuel &middot; energy</p>
+      <h3>When the doors are open</h3>
+      <p>Your thyroid hormone, T3, does a quiet job nobody told you about: it tells your cells to build tiny doors &mdash; called GLUT4 &mdash; that let blood sugar in. When those doors are open, glucose moves out of your blood and into your cells. Steady energy. A mind that holds a thought. A body that lets go of weight the way it's supposed to.</p>
+    </div>
+
+    <!-- STATE 2 -->
+    <div class="state bad">
+      <img class="gen-mech" src="generated-images/lp-mech-locked.png" alt="A struggling cell with rusted closed doors and sugar backing up outside">
+      <p style="font-family:'Barlow Condensed',sans-serif;font-size:13px;color:var(--red-deep);text-align:center;margin:8px 0 0;letter-spacing:.3px;">Doors rusted shut &middot; sugar backs up in the blood &middot; cells starve</p>
+      <h3>When Hashimoto's locks the doors</h3>
+      <p>Years of low T3 means your cells stop building enough of those doors &mdash; and the ones you have rust shut from oxidative stress, the same chemical "rusting" that ages everything in the body. So the sugar can't get in. It backs up in your blood. That's the A1C creeping up while your doctor calls it "borderline." And your cells? They're starving in a bloodstream full of fuel they can't reach.</p>
+      <p>Here's the part that breaks people. Your levothyroxine restored the hormone &mdash; the key. But the key turns and the rusted doors don't open. So the energy your thyroid is finally making gets locked out. That's the 2pm wall. The fog. The weight that won't move no matter how clean you eat. The hair on the pillow. And your labs still say "normal," because they're measuring the key &mdash; not the doors.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORMULA ============ -->
+<section class="formula section">
+  <div class="wrap">
+    <div class="formula-grid">
+      <div>
+        <img class="gen" style="aspect-ratio:1/1;" src="generated-images/lp-formula-jar.png" alt="Renavita jar on display plinth">
+        <ul class="feat">
+          <li><span class="ic">&#9889;</span><div><b>Restores steady energy</b></div></li>
+          <li><span class="ic">&#128275;</span><div><b>Opens the glucose doors</b></div></li>
+          <li><span class="ic">&#129504;</span><div><b>Supports mental clarity</b></div></li>
+          <li><span class="ic">&#10084;</span><div><b>Feel like yourself again</b></div></li>
+        </ul>
+      </div>
+      <div>
+        <h2>The only formula built for the step your thyroid meds don't reach</h2>
+        <p>Renavita is 2,000mg of true Ceylon cinnamon (<em>Cinnamomum verum</em>) &mdash; standardized for MHCP, the specific compound shown in published research to open the GLUT4 doors through a pathway that doesn't wait on your thyroid. It works in a completely separate lane from your levothyroxine, so it doesn't compete with it &mdash; it completes it.</p>
+        <p>And because it's an antioxidant, it helps clear the oxidative "rust" jamming those doors in the first place. Chewed, not swallowed whole into stomach acid that destroys most of what you paid for &mdash; so it starts absorbing where digestion actually begins. Gentle on a metformin-raw stomach. Zero sugar, so it can't spike you.</p>
+        <p style="font-weight:600;color:var(--red);margin-bottom:6px;">The result?</p>
+        <ul class="nomore">
+          <li>No more dragging through the afternoon wishing you could lie down</li>
+          <li>No more walking into a room and forgetting why</li>
+          <li>No more weight that won't move no matter what you do</li>
+          <li>No more clumps of hair in the shower drain</li>
+          <li>No more lab results that say "fine" while you feel anything but</li>
+        </ul>
+      </div>
+    </div>
+    <div class="center" style="margin-top:30px;"><a href="#buy" class="cta">Try Renavita Now</a></div>
+  </div>
+</section>
+
+<!-- ============ COMMENT PROOF ============ -->
+<section class="proof section" style="background:var(--cream);">
+  <div class="wrap">
+    <h2>Real Women. Real Results.</h2>
+    <p class="sub">Pulled from our community. Names shortened for privacy.</p>
+    <div class="cmt-grid">
+      <div class="cmt"><div class="cmt-head"><span class="av">NW</span><span class="cmt-name">Nancy W.</span></div><div class="cmt-body">Good product. I think I can feel the difference, energy is better and I'm not crashing at 2 like clockwork anymore. Taking it with breakfast.</div><div class="cmt-meta"><span class="react">&hearts; 31</span> &middot; 2d &middot; Like &middot; Reply</div></div>
+      <div class="cmt"><div class="cmt-head"><span class="av">BT</span><span class="cmt-name">Barbara T.</span></div><div class="cmt-body">Wanted to share because I was so hesitant. Hashi for 9 years and I felt terrible the whole time. Started in September. Around the third week I noticed I wasn't dragging myself through the day the way I had been. Small thing but it's the first time in a long while.</div><div class="cmt-meta"><span class="react">&hearts; 47</span> &middot; 1d &middot; Like &middot; Reply</div></div>
+      <div class="cmt"><div class="cmt-head"><span class="av">AS</span><span class="cmt-name">Anne S.</span></div><div class="cmt-body">I'm 54, hypo since my 40s. Always tired, brain fog so bad I worried about my memory. The explanation here finally made sense to me. Clearer afternoons. Will keep going.</div><div class="cmt-meta"><span class="react">&hearts; 22</span> &middot; 3d &middot; Like &middot; Reply</div></div>
+      <div class="cmt"><div class="cmt-head"><span class="av">CD</span><span class="cmt-name">Carol D.</span></div><div class="cmt-body">First few weeks I didn't notice anything. Almost stopped. Then around week 5 I had a morning where I actually woke up rested for the first time in years. Post thyroidectomy, on Synthroid forever. First thing that's helped at all.</div><div class="cmt-meta"><span class="react">&hearts; 38</span> &middot; 1d &middot; Like &middot; Reply</div></div>
+      <div class="cmt"><div class="cmt-head"><span class="av">MC</span><span class="cmt-name">Mary Ellen C.</span></div><div class="cmt-body">Very happy with this. My energy is better and the puffiness in my face has gone down. Been taking about six weeks.</div><div class="cmt-meta"><span class="react">&hearts; 19</span> &middot; 4d &middot; Like &middot; Reply</div></div>
+      <div class="cmt"><div class="cmt-head"><span class="av">SM</span><span class="cmt-name">Sandra M.</span></div><div class="cmt-body">Can just say that the gummy form is so much better than pills. I have tried so many things, half of them I couldn't keep down on an empty stomach. These I take with my coffee. No issue.</div><div class="cmt-meta"><span class="react">&hearts; 26</span> &middot; 2d &middot; Like &middot; Reply</div></div>
+      <div class="cmt"><div class="cmt-head"><span class="av">NW</span><span class="cmt-name">Natalie W.</span></div><div class="cmt-body">Hesitated several times before I finally ordered. So glad I did. Six weeks in, energy is steadier and I'm not crashing in the afternoon. Pleasantly surprised.</div><div class="cmt-meta"><span class="react">&hearts; 15</span> &middot; 2d &middot; Like &middot; Reply</div></div>
+      <div class="cmt"><div class="cmt-head"><span class="av">JD</span><span class="cmt-name">Judith D.</span></div><div class="cmt-body">Don't normally write reviews but had to for this one. Energy to play with my grandkids after work, which I haven't had in 3 years.</div><div class="cmt-meta"><span class="react">&hearts; 29</span> &middot; 3d &middot; Like &middot; Reply</div></div>
+    </div>
+    <div class="center" style="margin-top:8px;"><a href="#buy" class="cta">Try Renavita Now</a></div>
+  </div>
+</section>
+
+<!-- ============ BENEFITS + WOMEN ============ -->
+<section class="benefits section">
+  <div class="wrap">
+    <div class="ben-grid">
+      <div>
+        <h2>You don't have to live with the 2pm wall, the fog, or weight that won't move</h2>
+        <p>And you don't have to keep switching medications, spending hundreds on functional-medicine protocols, or trying one more thyroid supplement that doesn't touch the real problem&hellip; just to feel like yourself again.</p>
+        <p>Because Renavita supports the one step your medication leaves behind &mdash; the cellular doors that let your energy in &mdash; so you can finally:</p>
+        <ul class="benrows">
+          <li><span class="ic">&#9728;</span><div><b>Wake up actually rested</b><br><span>No more hitting snooze five times or needing a nap just to make it to dinner.</span></div></li>
+          <li><span class="ic">&#129504;</span><div><b>Think clearly again</b><br><span>Finish sentences without losing the thread. Remember why you walked into the room.</span></div></li>
+          <li><span class="ic">&#9878;</span><div><b>See the scale move</b><br><span>Watch stubborn weight finally respond to the clean eating you were already doing.</span></div></li>
+          <li><span class="ic">&#10024;</span><div><b>Keep your hair</b><br><span>Fewer clumps in the drain. Thickness returning. The baby hairs growing back.</span></div></li>
+          <li><span class="ic">&#10084;</span><div><b>Recognize yourself</b><br><span>Not just surviving the day. Actually present for the people you love. The woman you used to be, back.</span></div></li>
+        </ul>
+        <div style="margin-top:22px;"><a href="#buy" class="cta">Try Renavita Now</a></div>
+      </div>
+      <div class="women">
+        <img src="generated-images/lp-women-serene.png" alt="Woman feeling calm and rested">
+        <img src="generated-images/lp-women-laughing.png" alt="Woman laughing outdoors">
+        <img src="generated-images/lp-women-smiling.png" alt="Woman smiling, feeling like herself again">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIMELINE ============ -->
+<section class="timeline section">
+  <div class="wrap">
+    <h2>What Most Women Experience (Week By Week)</h2>
+    <p class="sub">Everyone's different. But across our customers, we see a pattern.</p>
+    <div class="tl">
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot"></span>Days 1&ndash;7 (Quick Wins)</div><div class="tl-card">The gummy starts breaking down the moment you chew it. Most women notice the afternoon crash getting softer first &mdash; the small sign your cells are starting to take fuel again.</div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot"></span>Weeks 2&ndash;4 (The Shift)</div><div class="tl-card">The fog starts lifting. You finish sentences. You wake up without that lead-blanket heaviness. And the scale moves &mdash; for the first time in years.</div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot"></span>Months 2&ndash;3 (The New Normal)</div><div class="tl-card">Energy holds steady through the day. At your next blood test, the numbers start drifting the right direction. The conversation with your doctor goes a little differently this time.</div></div>
+      <div class="tl-item"><div class="tl-head"><span class="tl-dot"></span>Month 6+ (Why Women Stay)</div><div class="tl-card">You feel like yourself again. Not the surviving version. The real one. This is why most women reorder.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Safe &middot; natural &middot; effective</span><span>True Ceylon, not Cassia</span><span>Zero sugar</span><span>Made for thyroid women</span><span>Third-party tested</span>
+    <span>Safe &middot; natural &middot; effective</span><span>True Ceylon, not Cassia</span><span>Zero sugar</span><span>Made for thyroid women</span><span>Third-party tested</span>
+  </div>
+</div>
+
+<!-- ============ BUY BOX ============ -->
+<section class="buy section" id="buy">
+  <div class="wrap">
+    <div class="buy-grid">
+      <div>
+        <img class="gen" style="aspect-ratio:1/1;" src="generated-images/lp-buy-jar.png" alt="Renavita Ceylon Cinnamon Gummies">
+        <div class="gallery">
+          <img src="generated-images/lp-formula-jar.png" alt="Renavita jar">
+          <img src="generated-images/flatlay-ingredients.png" alt="Ceylon cinnamon ingredients">
+          <img src="generated-images/results-gummies.png" alt="Woman taking a Renavita gummy">
+          <img src="generated-images/three-bottles-t.png" alt="Three bottles of Renavita">
+        </div>
+      </div>
+      <div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span style="color:var(--ink);font-size:12px;font-family:Inter;">4.8/5 Excellent &middot; 2,470+ Reviews</span></div>
+        <h2>Renavita&trade; Thyroid &amp; Blood Sugar Support</h2>
+        <ul class="buy-bul">
+          <li>Join 40,000+ women with thyroid issues who finally feel like themselves again</li>
+          <li>Supports your body's natural insulin response &mdash; the step low T3 leaves behind</li>
+          <li>Supports steady energy, metabolism &amp; mental clarity</li>
+          <li>Feel comfortable and proud in your body again</li>
+        </ul>
+
+        <div class="tiers-label">Final Supersavings</div>
+        <div class="tiers" id="tiers">
+          <div class="tier" data-i="0"><div class="qty">1 Bottle</div><div class="supply">1 Month Supply</div><div class="per">$41.40</div><div class="strike">$69.00</div></div>
+          <div class="tier sel" data-i="1"><div class="tag">+ Free Shipping</div><div class="qty">2 Bottles</div><div class="supply">2 Month Supply</div><div class="per">$35.70</div><div class="strike">$69.00</div></div>
+          <div class="tier" data-i="2"><div class="tag">Best Value + Free Ship</div><div class="qty">3 Bottles</div><div class="supply">3 Month Supply</div><div class="per">$31.80</div><div class="strike">$69.00</div></div>
+        </div>
+
+        <a href="#" class="cta">Add To Cart</a>
+        <div class="guar-row"><span>Ships in 1&ndash;2 days</span><span>90-Day Money-Back Guarantee</span><span>Secure checkout</span></div>
+
+        <div class="scarcity">
+          <div style="font-weight:600;margin-bottom:4px;">Selling faster than expected. Order before this batch runs out.</div>
+          <div class="bar"><span>May</span><span class="sold-out">Sold Out (4,780 bottles)</span></div>
+          <div class="bar"><span>June</span><span style="color:var(--red);font-weight:600;">83% sold (4,512 of 5,400)</span></div>
+        </div>
+
+        <div class="featured-rev">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p style="margin:6px 0 4px;">"My A1C was 6.1 and my doctor was 'watching it.' Three months on these and at my last test it was 5.7. She asked what I changed. I told her. And honestly the afternoon energy alone is worth it."</p>
+          <div style="font-size:11px;color:var(--ink-soft);">&mdash; Rachel T., Verified Customer</div>
+        </div>
+
+        <div class="accordions">
+          <details><summary>What's inside (and why it works)</summary><div class="ans">2,000mg true Ceylon cinnamon (<em>Cinnamomum verum</em>), standardized for MHCP, in a chewable pectin gummy. Vegan, gluten-free, zero sugar (stevia + monk fruit). No Cassia, no fillers hiding behind a "proprietary blend."</div></details>
+          <details><summary>How does it work?</summary><div class="ans">Ceylon's MHCP compound supports the GLUT4 "doors" that let glucose into your cells &mdash; the step low T3 leaves behind &mdash; through a pathway separate from your thyroid hormone. Its antioxidant action helps clear the oxidative stress that jams those doors.</div></details>
+          <details><summary>Shipping information</summary><div class="ans">Orders ship within 1&ndash;2 business days from the US. Free shipping on 2+ bottles. 90-day money-back guarantee on every order.</div></details>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEFORE & AFTER ============ -->
+<section class="ba section">
+  <div class="wrap">
+    <h2>Real Stories, In Their Own Words</h2>
+    <div class="ba-grid">
+      <div class="ba-card"><img src="generated-images/lp-ba-1.png" alt="Barbara N. with Renavita"><p class="ba-cap"><b>Barbara N.</b> &mdash; "Honestly didn't expect this. Hashi for years and I've tried it all. The afternoon crash is the first thing that lifted. My energy is back."</p></div>
+      <div class="ba-card"><img src="generated-images/lp-ba-2.png" alt="Alicia V. with Renavita"><p class="ba-cap"><b>Alicia V.</b> &mdash; "The puffiness in my face is the first thing that went, my rings fit again. People keep asking if I did something different."</p></div>
+      <div class="ba-card"><img src="generated-images/lp-ba-3.png" alt="Lisa C. with Renavita"><p class="ba-cap"><b>Lisa C.</b> &mdash; "My sister had the same thyroid problems and put me onto these. Six weeks in and my A1C drifted down at my last check. It's the first thing I don't feel like I'm fighting."</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEARCH ============ -->
+<section class="research section" style="background:var(--cream);">
+  <div class="wrap">
+    <div class="research-grid">
+      <div class="res-card">
+        <img src="generated-images/lp-research-woman.png" alt="Woman holding Renavita">
+        <div class="res-sub">In a self-reported customer survey, women taking Renavita reported an average of</div>
+        <div class="res-big">11 lbs*</div>
+        <div class="res-sub">over their first 90 days</div>
+        <div class="res-quote">"I gained 30 pounds with Hashimoto's eating less than everyone around me. Three months in I'm down a dress size. I finally understand it was never my fault." &mdash; Karen M. &#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      </div>
+      <div>
+        <h2>Real Research. On a Mission to Help 100+ Million Women.</h2>
+        <ul class="reslist">
+          <li>Therapeutic doses &mdash; not the token amounts you see in most supplements</li>
+          <li>Third-party tested &mdash; what's on the label is what's in the bottle</li>
+          <li>Made in an FDA-registered, GMP-certified facility</li>
+          <li>Sugar-free, vegan &amp; gluten-free</li>
+        </ul>
+        <p style="font-size:13px;color:var(--ink-soft);">This isn't another "proprietary blend" hiding behind a vague label. The active is dosed on published research, and you deserve to know exactly what you're putting in your body.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST BADGES ============ -->
+<section class="trust section" style="padding:34px 0;background:var(--white);">
+  <div class="wrap">
+    <div class="trust-grid">
+      <div class="tb"><div class="tb-ic">FREE</div><b>Free Shipping</b><span>On orders of 2+ bottles</span></div>
+      <div class="tb"><div class="tb-ic">100%</div><b>True Ceylon</b><span>Verum species, lab verified</span></div>
+      <div class="tb"><div class="tb-ic">90</div><b>90-Day Guarantee</b><span>Try it risk-free. Full refund if it's not for you.</span></div>
+      <div class="tb"><div class="tb-ic">35+</div><b>Made For Women</b><span>Formulated for thyroid &amp; metabolic needs</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq section">
+  <div class="wrap">
+    <h2>FAQ</h2>
+    <div class="inner">
+      <details><summary>What exactly is Renavita?</summary><div class="ans">A chewable true Ceylon cinnamon gummy (2,000mg <em>Cinnamomum verum</em>) made to support your body's natural insulin response &mdash; the cellular step that low thyroid hormone tends to leave behind. Zero sugar, vegan, third-party tested.</div></details>
+      <details><summary>Will this really work for me?</summary><div class="ans">If your labs read "normal" but you're still exhausted, foggy, and stuck, you're exactly who we built this for. It doesn't replace your thyroid medication &mdash; it supports the downstream step your medication was never designed to reach. And it's backed by a 90-day guarantee, so you can find out with no risk.</div></details>
+      <details><summary>I'm on levothyroxine / Synthroid. Is it safe to take together?</summary><div class="ans">Ceylon cinnamon works through a completely separate pathway from levothyroxine &mdash; one is thyroid hormone, the other supports glucose uptake at the cell. There are no documented interactions in the research. Keep taking your levothyroxine on an empty stomach as directed; take your Renavita with a meal. As always, run any change past your doctor.</div></details>
+      <details><summary>Will this help my blood sugar / A1C?</summary><div class="ans">Renavita supports your body's natural insulin response and healthy blood sugar already in the normal range. It's not a diabetes treatment and it's not a substitute for medical care &mdash; it supports the cellular pathway (GLUT4) that a T3 deficit can quietly suppress.</div></details>
+      <details><summary>Isn't this just cinnamon? I can buy that at the grocery store.</summary><div class="ans">What's in your cabinet is almost certainly Cassia &mdash; a different plant, with up to 250 times the coumarin (hard on the liver) and far less of the MHCP compound that matters. Saying Ceylon is "just cinnamon" is like calling aspirin "just tree bark." The species and the compound are the whole point.</div></details>
+      <details><summary>I've tried cinnamon capsules before and they did nothing.</summary><div class="ans">Three reasons that happens: wrong species (Cassia, not Ceylon), wrong dose (most capsules are underdosed), and wrong delivery (a dry capsule swallowed whole gets wrecked by stomach acid before the active is released). You didn't try Ceylon in an absorbed form &mdash; you tried a label that said "cinnamon."</div></details>
+      <details><summary>My Hashimoto's is complex. Can a gummy really help?</summary><div class="ans">You're right that it's complex, and we'd never claim to fix Hashimoto's. We're specific: low T3 lowers GLUT4, GLUT4 lets glucose into cells, and Renavita supports that one downstream step through a non-thyroid pathway. It's a targeted nudge at one link in a well-documented chain &mdash; not a cure, and not a "wellness" catch-all.</div></details>
+      <details><summary>What would my doctor say?</summary><div class="ans">Most doctors treat within the protocol they know, and the thyroid-to-blood-sugar connection lags years behind the research in everyday practice. Ceylon cinnamon is a well-tolerated food compound with a strong safety profile. We'd always encourage you to share what you're taking with your doctor &mdash; you deserve a care team that's in the loop.</div></details>
+      <details><summary>How long until I feel something?</summary><div class="ans">Most women notice the afternoon crash softening in the first week or two, with a clearer shift around weeks 3&ndash;4. The deeper changes &mdash; steady energy, the scale moving, lab numbers drifting &mdash; tend to show across months 2&ndash;3. Give it the full bottle.</div></details>
+      <details><summary>Are there any side effects?</summary><div class="ans">Ceylon cinnamon is well tolerated at these doses. Because it's gentle on the stomach and sugar-free, most women take it with their morning coffee with no issue. If you're pregnant, nursing, or on medication, check with your doctor first.</div></details>
+      <details><summary>What does it taste like?</summary><div class="ans">Warm apple-pie cinnamon, lightly sweetened with stevia and monk fruit. No sugar, no chalky aftertaste. Women tell us it's the first supplement they don't dread taking.</div></details>
+      <details><summary>I'm scared to hope again.</summary><div class="ans">After enough "labs are normal" appointments and supplements that did nothing, that fear is earned &mdash; not a flaw. That's exactly why there's a 90-day money-back guarantee. The risk sits with us, not you. You're allowed to find out.</div></details>
+      <details><summary>What's your shipping and guarantee?</summary><div class="ans">Orders ship within 1&ndash;2 business days from the US. Free shipping on 2+ bottles. Every order is covered by a 90-day money-back guarantee &mdash; if it's not for you, we refund you.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="reviews section">
+  <div class="wrap">
+    <h2>Customer reviews</h2>
+    <div class="rev-score">4.8</div>
+    <div class="stars center" style="font-size:18px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+    <div class="rev-count">Based on 2,847 reviews</div>
+    <div class="rev-grid">
+      <div class="rev"><div class="rev-name">Karen M.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">I don't write reviews. But this earns one. Total thyroidectomy two years ago, on Synthroid the whole time, labs always "perfect." I could barely get off the couch by 2pm. Three weeks on these and my husband said "you look different." I DO look different. I'm not saying it's a miracle. I'm saying it's the first thing that's actually DONE something in four years.</div><img src="generated-images/lp-rev-karen.png" alt="Karen M."></div>
+      <div class="rev"><div class="rev-name">Deborah S.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">58 years old. No thyroid since 2019. I've tried every "thyroid support" formula on Amazon. Nothing. My daughter found this and I almost didn't order because I was so tired of being let down. Glad I did. The fog started lifting around day 10. I finished a crossword last week without quitting halfway through. Small, but if you know, you know.</div><img src="generated-images/lp-rev-deborah.png" alt="Deborah S."></div>
+      <div class="rev"><div class="rev-name">Patti W.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">THE HAIR. That's it. That's the review. Hashi's plus losing handfuls every morning for two years. Shower drain is finally clear.</div><img src="generated-images/lp-rev-patti.png" alt="Patti W."></div>
+      <div class="rev"><div class="rev-name">Tammy R.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">TSH 1.9. "Perfect" according to my endo. Meanwhile I couldn't get through a workday without wanting to lie down. Three weeks on Renavita and the fog started lifting. First thing that ever matched what I actually FEEL instead of what my labs say.</div><img src="generated-images/lp-rev-tammy.png" alt="Tammy R."></div>
+      <div class="rev"><div class="rev-name">Tracy L.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">Tried NDT, selenium, ashwagandha, B12, iron, AIP diet for six months. Nothing. Hypo four years. This is the first thing that addresses WHY nothing was working. Five weeks in. Will update at three months.</div><img src="generated-images/lp-rev-tracy.png" alt="Tracy L."></div>
+      <div class="rev"><div class="rev-name">Sandra J.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">Post-thyroidectomy. My energy has been the steadiest it's been in years after about five weeks. My endo asked what I changed. When I told her, she wrote it down. That tells you everything.</div></div>
+      <div class="rev"><div class="rev-name">Rhonda M.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">Best impulse purchase of my life. Saw the ad at midnight, hypothyroid and couldn't sleep as usual. Ordered at 12:47am. Six weeks later I'm sleeping through the night again. Never going back.</div></div>
+      <div class="rev"><div class="rev-name">Beth A.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">The 4am wired-but-tired wake-ups stopped. Just stopped. Thyroidectomy was two years ago and I thought that was just my new normal. It wasn't.</div></div>
+      <div class="rev"><div class="rev-name">Jackie B.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">Hashi's 10 years. Nothing else worked. Energy better, brain clearer, and the afternoon slump is gone. Ordered three more bottles.</div></div>
+      <div class="rev"><div class="rev-name">Paula T.</div><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="verified">Verified Customer</div><div class="rev-body">Finally a thyroid supplement that isn't just selenium in a capsule and a prayer. Hashi's for five years and this actually does something. Took about three weeks but once it kicked in, the difference is real.</div></div>
+    </div>
+    <div class="center" style="margin-top:6px;"><a href="#buy" class="cta">Try Renavita Now</a></div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h5>Information</h5>
+        <a href="#">Privacy Policy</a><a href="#">Refund Policy</a><a href="#">Shipping Policy</a><a href="#">Terms of Service</a><a href="#">Manage Subscription</a>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <a href="#">Home</a><a href="#">Contact</a><a href="#">Order Tracking</a>
+      </div>
+      <div>
+        <h5>Need to get in touch?</h5>
+        <p>Questions or comments? We'd love to hear from you.</p>
+        <p>support@renavita.co</p>
+        <p>+1 (000) 000-0000</p>
+      </div>
+      <div>
+        <h5>&nbsp;</h5>
+        <p class="disclaimer">These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Content on this site is not medical advice and should not replace consultation with a qualified healthcare provider. For medical concerns or emergencies, consult your provider immediately.</p>
+      </div>
+    </div>
+    <div class="foot-legal wrap" style="padding-left:0;padding-right:0;">&copy; 2026 Renavita. All rights reserved.</div>
+  </div>
+</footer>
+
+</div>
+<script>
+  document.querySelectorAll('#rv-adv #tiers .tier').forEach(function(t){
+    t.addEventListener('click',function(){
+      document.querySelectorAll('#rv-adv #tiers .tier').forEach(function(x){x.classList.remove('sel');});
+      t.classList.add('sel');
+    });
+  });
+</script>
+</body>
+</html>

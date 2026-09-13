@@ -1,0 +1,200 @@
+[chatcut-upload] using bundled ffprobe 8.1
+[chatcut-upload] using bundled ffmpeg 8.1
+[chatcut-upload] starting import for 3 file(s)
+[chatcut-upload] [1/3] probing pdp-swatches.mp4
+[chatcut-upload] [2/3] probing pdp-price.mp4
+[chatcut-upload] [3/3] probing pdp-cart.mp4
+[chatcut-upload] [3/3] registering asset placeholder for pdp-cart.mp4
+[chatcut-upload] waiting for endpoint response: registerAssetPlaceholderRequest
+[chatcut-upload] [2/3] registering asset placeholder for pdp-price.mp4
+[chatcut-upload] waiting for endpoint response: registerAssetPlaceholderRequest
+[chatcut-upload] [1/3] registering asset placeholder for pdp-swatches.mp4
+[chatcut-upload] waiting for endpoint response: registerAssetPlaceholderRequest
+[chatcut-upload] endpoint response received: registerAssetPlaceholderRequest
+[chatcut-upload] uploading chatcut-pdp-cart-thumbnail-42109-3.jpg
+[chatcut-upload] endpoint response received: registerAssetPlaceholderRequest
+[chatcut-upload] uploading chatcut-pdp-price-thumbnail-42109-2.jpg
+[chatcut-upload] endpoint response received: registerAssetPlaceholderRequest
+[chatcut-upload] uploading chatcut-pdp-swatches-thumbnail-42109-1.jpg
+[chatcut-upload] uploaded chatcut-pdp-cart-thumbnail-42109-3.jpg
+[chatcut-upload] uploaded chatcut-pdp-price-thumbnail-42109-2.jpg
+[chatcut-upload] uploaded chatcut-pdp-swatches-thumbnail-42109-1.jpg
+[chatcut-upload] [1/3] preparing pdp-swatches.mp4
+[chatcut-upload] [2/3] preparing pdp-price.mp4
+[chatcut-upload] [3/3] preparing pdp-cart.mp4
+[chatcut-upload] [3/3] requesting registered upload slots for pdp-cart.mp4
+[chatcut-upload] waiting for endpoint response: prepareRegisteredUploadRequest
+[chatcut-upload] [1/3] requesting registered upload slots for pdp-swatches.mp4
+[chatcut-upload] waiting for endpoint response: prepareRegisteredUploadRequest
+[chatcut-upload] [2/3] requesting registered upload slots for pdp-price.mp4
+[chatcut-upload] waiting for endpoint response: prepareRegisteredUploadRequest
+[chatcut-upload] endpoint response received: prepareRegisteredUploadRequest
+[chatcut-upload] [3/3] uploading asset bytes for pdp-cart.mp4
+[chatcut-upload] uploading pdp-cart.mp4
+[chatcut-upload] uploaded pdp-cart.mp4
+[chatcut-upload] uploading chatcut-pdp-cart-thumbnail-42109-3.jpg
+[chatcut-upload] uploaded chatcut-pdp-cart-thumbnail-42109-3.jpg
+[chatcut-upload] finalizing pdp-cart.mp4 with uploaded size 113117 bytes
+[chatcut-upload] waiting for endpoint response: finalizeAssetUploadRequest
+[chatcut-upload] endpoint response received: prepareRegisteredUploadRequest
+[chatcut-upload] [1/3] uploading asset bytes for pdp-swatches.mp4
+[chatcut-upload] uploading pdp-swatches.mp4
+[chatcut-upload] uploaded pdp-swatches.mp4
+[chatcut-upload] uploading chatcut-pdp-swatches-thumbnail-42109-1.jpg
+[chatcut-upload] uploaded chatcut-pdp-swatches-thumbnail-42109-1.jpg
+[chatcut-upload] finalizing pdp-swatches.mp4 with uploaded size 144617 bytes
+[chatcut-upload] waiting for endpoint response: finalizeAssetUploadRequest
+[chatcut-upload] endpoint response received: prepareRegisteredUploadRequest
+[chatcut-upload] [2/3] uploading asset bytes for pdp-price.mp4
+[chatcut-upload] uploading pdp-price.mp4
+[chatcut-upload] uploaded pdp-price.mp4
+[chatcut-upload] uploading chatcut-pdp-price-thumbnail-42109-2.jpg
+[chatcut-upload] uploaded chatcut-pdp-price-thumbnail-42109-2.jpg
+[chatcut-upload] finalizing pdp-price.mp4 with uploaded size 185707 bytes
+[chatcut-upload] waiting for endpoint response: finalizeAssetUploadRequest
+[chatcut-upload] endpoint response received: finalizeAssetUploadRequest
+[chatcut-upload] endpoint response received: finalizeAssetUploadRequest
+[chatcut-upload] endpoint response received: finalizeAssetUploadRequest
+{
+  "schemaVersion": 1,
+  "mode": "session-imported",
+  "agentNext": "Registered assetIds can be edited immediately. For most editing tasks, wait only for target=transcription before transcript/caption/script-aware work. For source-frame inspection, use each import's sourcePath locally when readable. Wait for target=upload only before byte-dependent work that requires ChatCut/cloud bytes, such as export/render, pull_asset, or remote inspect_asset when no local sourcePath is available.",
+  "count": 3,
+  "imports": [
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "pdp-swatches.mp4",
+        "size": 144617,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "pdp-swatches.mp4",
+        "uploadPath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/sources/pdp-swatches.mp4",
+        "durationInSeconds": 1.52,
+        "height": 1920,
+        "width": 1080,
+        "hasAudioTrack": false,
+        "transcriptionState": "no_audio",
+        "transcriptionSkipReason": "no_audio_track",
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "pdp-swatches.mp4",
+          "videoStreamDurationInSeconds": 1.52
+        }
+      },
+      "result": {
+        "assetId": "0a788c81-54f7-4806-a138-3ff0985a0449",
+        "assetType": "video",
+        "filename": "pdp-swatches.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0a788c81-54f7-4806-a138-3ff0985a0449/pdp-swatches.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0a788c81-54f7-4806-a138-3ff0985a0449/pdp-swatches.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0a788c81-54f7-4806-a138-3ff0985a0449/pdp-swatches.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0a788c81-54f7-4806-a138-3ff0985a0449/pdp-swatches.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/sources/pdp-swatches.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "pdp-price.mp4",
+        "size": 185707,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "pdp-price.mp4",
+        "uploadPath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/sources/pdp-price.mp4",
+        "durationInSeconds": 2.8,
+        "height": 1920,
+        "width": 1080,
+        "hasAudioTrack": false,
+        "transcriptionState": "no_audio",
+        "transcriptionSkipReason": "no_audio_track",
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "pdp-price.mp4",
+          "videoStreamDurationInSeconds": 2.8
+        }
+      },
+      "result": {
+        "assetId": "0d98e792-f92b-4702-85be-3119d79b368f",
+        "assetType": "video",
+        "filename": "pdp-price.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0d98e792-f92b-4702-85be-3119d79b368f/pdp-price.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0d98e792-f92b-4702-85be-3119d79b368f/pdp-price.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0d98e792-f92b-4702-85be-3119d79b368f/pdp-price.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/0d98e792-f92b-4702-85be-3119d79b368f/pdp-price.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/sources/pdp-price.mp4"
+    },
+    {
+      "metadata": {
+        "assetType": "video",
+        "contentType": "video/mp4",
+        "filename": "pdp-cart.mp4",
+        "size": 113117,
+        "sourceType": "video",
+        "transcodeReason": "source accepted",
+        "transcoded": false,
+        "uploadFilename": "pdp-cart.mp4",
+        "uploadPath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/sources/pdp-cart.mp4",
+        "durationInSeconds": 1.52,
+        "height": 1920,
+        "width": 1080,
+        "hasAudioTrack": false,
+        "transcriptionState": "no_audio",
+        "transcriptionSkipReason": "no_audio_track",
+        "sourceManifest": {
+          "audioChannels": null,
+          "audioSampleRate": null,
+          "audioStartOffsetInSeconds": null,
+          "audioStreamDurationInSeconds": null,
+          "originalFilename": "pdp-cart.mp4",
+          "videoStreamDurationInSeconds": 1.52
+        }
+      },
+      "result": {
+        "assetId": "30519be0-9089-490a-aa70-ed61381b7856",
+        "assetType": "video",
+        "filename": "pdp-cart.mp4",
+        "remoteFileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/30519be0-9089-490a-aa70-ed61381b7856/pdp-cart.mp4",
+        "remoteUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/30519be0-9089-490a-aa70-ed61381b7856/pdp-cart.mp4",
+        "transcription": {
+          "status": "skipped"
+        },
+        "action": "finalize_asset_upload",
+        "upload": {
+          "byteReady": true,
+          "fileKey": "users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/30519be0-9089-490a-aa70-ed61381b7856/pdp-cart.mp4",
+          "readUrl": "https://chatcut-production-mainbucketbucket-oxvbnfsx.s3.us-east-1.amazonaws.com/users/7MMgHHZVPKV6RxuChc6ygY4oe0Ukhywm/projects/a7a3baf3-079f-44e5-8b37-f09a48f2d354/assets/video/30519be0-9089-490a-aa70-ed61381b7856/pdp-cart.mp4",
+          "status": "ready"
+        }
+      },
+      "sourcePath": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/sources/pdp-cart.mp4"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "usable_1_to_5_seconds": false,
+  "issues": [
+    {
+      "timestamp": "0:02",
+      "issue": "A third gummy appears in the palm, violating the 'exactly two' count constraint."
+    },
+    {
+      "timestamp": "0:02-0:10",
+      "issue": "Object count remains incorrect for the duration of the clip."
+    }
+  ],
+  "recommended_source_window": "0:00-0:02",
+  "action_match": 2,
+  "rationale": "The video fails the primary constraint of maintaining exactly two gummies. A third gummy manifests at the two-second mark, breaking continuity. Only the initial segment adheres to the prompt."
+}

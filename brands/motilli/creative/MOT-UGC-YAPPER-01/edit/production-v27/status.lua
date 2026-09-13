@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('V27_STATUS',p:GetName(),p:IsRenderingInProgress());for _,j in ipairs(p:GetRenderJobList()) do if string.find(j.OutputFilename or '', 'voice110') then print(j.JobId,j.OutputFilename);dump(p:GetRenderJobStatus(j.JobId)) end end

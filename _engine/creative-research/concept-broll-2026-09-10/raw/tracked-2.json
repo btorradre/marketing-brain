@@ -1,0 +1,130 @@
+{
+  "jsonrpc": "2.0",
+  "id": "tracked-2",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Tracked brands (4 shown of 29)\n\nPage 2 · Limit 25\n\nUse the Brandtracker ID with `analyze_brand_changes` for recent-change analysis.\n\n| Brand | Brandtracker ID | Status | Active ads | New 1d | New 7d | New 30d | Domains | Added |\n| --- | --- | --- | ---: | ---: | ---: | ---: | --- | --- |\n| The Blood Pressure Journal | a3be841a-16ef-49da-8a25-2078d5db8def | active / new_ads_1d | 615 | 18 | 285 | 865 | alevia.com, getalevia.com, auniva.co | 2026-06-04 |\n| GLP-1 SOS Supplements | 9e7b452e-16f4-4f8c-bc30-38da414bf6b7 | active / new_ads_1d | 379 | 85 | 454 | 1,294 | infinitelove-bcn.com, glp1sos.com, glpgummies.co | 2026-06-01 |\n| go.blymeskinsystems.com | 1b605f19-96b9-463c-b10c-e47295fb5f51 | active / no_recent_ads | 176 | 0 | 0 | 0 | heyblisscosmetics.com, go.blymeskinsystems.com, learn.heyblisscosmetics.com | 2026-06-01 |\n| AuraVanna | 01d5d5ed-a75e-4a8e-8a36-9db40b284ed5 | active / new_ads_7d | 109 | 0 | 47 | 636 | bing.com, sunvanna.com, biovanna.com | 2026-06-01 |\n\n---\nCredits used: 6 | Remaining: 7837 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "f9fb0205-5ec9-4079-9109-4dd613151f49",
+      "query": {
+        "page": 2,
+        "limit": 25
+      },
+      "data": [
+        {
+          "id": "a3be841a-16ef-49da-8a25-2078d5db8def",
+          "name": "The Blood Pressure Journal",
+          "domain": "alevia.com",
+          "domains": [
+            "alevia.com",
+            "getalevia.com",
+            "auniva.co"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-04",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 615,
+            "newAdsLastDay": 18,
+            "newAdsLast7Days": 285,
+            "newAdsLast30Days": 865
+          }
+        },
+        {
+          "id": "9e7b452e-16f4-4f8c-bc30-38da414bf6b7",
+          "name": "GLP-1 SOS Supplements",
+          "domain": "infinitelove-bcn.com",
+          "domains": [
+            "infinitelove-bcn.com",
+            "glp1sos.com",
+            "glpgummies.co"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-01",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 379,
+            "newAdsLastDay": 85,
+            "newAdsLast7Days": 454,
+            "newAdsLast30Days": 1294
+          }
+        },
+        {
+          "id": "1b605f19-96b9-463c-b10c-e47295fb5f51",
+          "name": "go.blymeskinsystems.com",
+          "domain": "heyblisscosmetics.com",
+          "domains": [
+            "heyblisscosmetics.com",
+            "go.blymeskinsystems.com",
+            "learn.heyblisscosmetics.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-06-01",
+          "status": {
+            "advertising": "active",
+            "freshness": "no_recent_ads"
+          },
+          "counts": {
+            "activeAds": 176,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 0,
+            "newAdsLast30Days": 0
+          }
+        },
+        {
+          "id": "01d5d5ed-a75e-4a8e-8a36-9db40b284ed5",
+          "name": "AuraVanna",
+          "domain": "bing.com",
+          "domains": [
+            "bing.com",
+            "sunvanna.com",
+            "biovanna.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-06-01",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_7d"
+          },
+          "counts": {
+            "activeAds": 109,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 47,
+            "newAdsLast30Days": 636
+          }
+        }
+      ],
+      "pagination": {
+        "page": 2,
+        "limit": 25,
+        "total": 29,
+        "totalPages": 2
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 25,
+        "effectiveUnits": 25,
+        "actualUnits": 4,
+        "costUnits": 6,
+        "recurringUnits": 6,
+        "topupUnits": 0,
+        "creditsRemaining": 7837,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

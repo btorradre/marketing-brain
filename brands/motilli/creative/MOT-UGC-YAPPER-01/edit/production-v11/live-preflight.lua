@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('V11_PREFLIGHT',p:GetName(),t:GetName(),p:IsRenderingInProgress())

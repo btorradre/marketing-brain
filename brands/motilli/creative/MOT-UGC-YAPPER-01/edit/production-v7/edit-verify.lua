@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();local t=p:GetCurrentTimeline();print('EDIT_VERIFY',p:GetName(),t:GetName(),t:GetEndFrame());for i=1,3 do print('V',i,#t:GetItemListInTrack('video',i)) end;print('A',#t:GetItemListInTrack('audio',1))

@@ -1,0 +1,139 @@
+{
+  "run_id": "143fce577dfc46d289d4fce290d298b2",
+  "status": "awaiting_reviews",
+  "state_dir": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state-v5-final",
+  "packet_hash": "2cd9c27c822622b66a2c5709ffacc20f25838014e1f0be7618335d00d01c60a1",
+  "schema_blockers": [],
+  "snapshot_integrity": "pass",
+  "source_hashes": [
+    {
+      "role": "script",
+      "sha256": "19df686ef1ab5405cf7f2a1e31c3cee7fd687944b7cd95dc0571c229ed2104db",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard",
+      "sha256": "511cb3bd0db3c0788392930c9f2591725394edc7381dc887ba1fb2369d156586",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "product_truth",
+      "sha256": "acc65bc39f62aec1a96323e0f793cd72fe90aaa729c2729dd142af38b01f244b",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "customer_voice",
+      "sha256": "8db6251942c2d95be8d8ce4a07787fc01014e176c912c21c77d57fc6d07af5a6",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "avatar_brief",
+      "sha256": "8f2972c5fd38f7b3c57230527d38b549c3e636f644f3d898b7a6255b34746853",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "reference",
+      "sha256": "1aedb85842673ec336dd1b171d177b786de29d7c9a4904dd70f26580d52dfb6f",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "reference_watch",
+      "sha256": "d937987e85ea843e5f2f48d122c907e0e2ec303c02b2cab41782f9f2625f94ee",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "product_master",
+      "sha256": "2dcbee2ac61a72b87df14e1f8afb179ff070dc00005b25854987d8d03e33f325",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "presenter_reference",
+      "sha256": "44c20e4bd84f6946371e0e73d91d0152db8ce5473f41c4ee7fbdcf6c3d5cbefd",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "generated_hero",
+      "sha256": "8dcc89cd28a9a0571c51e0a4366f11573dbfa68cd5698b23671ecada4fe9dbf5",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "generated_detail",
+      "sha256": "923f793cfe6732ee102e683a665a46a8511597af7a90aadfe244da3950f5120b",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "generated_daily_driver",
+      "sha256": "97b84516a874b0bc4d5d0f1fd63faaa329f54c1cdfda5354bd30aa88e96b8bf4",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_contact_sheet",
+      "sha256": "cea360ebd67cce7afda4f8ea19a1df5351882456c6099b974a4c824966af488a",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_01",
+      "sha256": "c3896f6fb5ebe32d998aac24bba10eb90b0c37dc44c954d95cb0d39417a80389",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_02",
+      "sha256": "0c62067ef9e0dbd9a9b2f62eebdbfbac478a8ba3089784e1ed4e5b26a6b2e3cd",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_03",
+      "sha256": "e37e489dff6c1a26c966ff89171ab86e888ba1fd9450a70effa8a3160f75e205",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_04",
+      "sha256": "53bcc3bad69d0feb13acb13203fbf74515d661e285055ee93ccb57c286bd650f",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_05",
+      "sha256": "fe99bfc2b5d748cf4a43e15424a419fa93390c5d022ef1b6d6833ac79f1bfc58",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_06",
+      "sha256": "8641cd31d4f2562f513499320520c5ad99ffa1dab716ea73b9825cb0b0d89004",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_07",
+      "sha256": "37dd641fa16246786a21ccea1f5b8130f406a700920d6e751122bc9e81655c8f",
+      "source_matches_snapshot": true
+    },
+    {
+      "role": "storyboard_frame_08",
+      "sha256": "b57b41781652b374cf6f95691b252dcf3d11a2e6f51807c65fa1f0d4aca1877c",
+      "source_matches_snapshot": true
+    }
+  ],
+  "all_current_sources_match_snapshot": true,
+  "rubrics": {
+    "copy": "0.1.2",
+    "storyboard": "0.1.0"
+  },
+  "timing_findings": [],
+  "beat_count": 8,
+  "duration_seconds": 33.75,
+  "provider_calls": 0,
+  "spent_usd": 0.0,
+  "final_delivery_ready": false,
+  "command": [
+    "/Users/brooksorradre2/Documents/marketing-apps/adengine/services/engine/.venv/bin/python",
+    "-m",
+    "adengine.harness",
+    "--state",
+    "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/harness-state-v5-final",
+    "start",
+    "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/packet-storyboard-v5.json",
+    "--max-rounds",
+    "3",
+    "--max-budget-usd",
+    "0.01"
+  ]
+}

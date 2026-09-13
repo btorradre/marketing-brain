@@ -1,0 +1,15 @@
+query FinalCraftsmanshipReadback($themeId: ID!, $after: String) {
+  draft: theme(id: $themeId) {
+    id
+    name
+    role
+    files(filenames: ["*.liquid", "*.json"], first: 12, after: $after) {
+      nodes { filename body { ... on OnlineStoreThemeFileBodyText { content } } }
+      pageInfo { hasNextPage endCursor }
+    }
+  }
+  main: themes(roles: [MAIN], first: 5) {
+    nodes { id name role }
+    pageInfo { hasNextPage endCursor }
+  }
+}

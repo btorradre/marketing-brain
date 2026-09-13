@@ -1,0 +1,358 @@
+[
+  {
+    "id": "S04",
+    "ref": {
+      "asset_id": "m2I4DxOQZj9vYzelxWxy",
+      "name": "S04-clean.png",
+      "mime_type": "image/png",
+      "size_bytes": 1935500,
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "node_id": "O9C2eVCfiSDUHQR71Ut9"
+    },
+    "node": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "success": true,
+      "node_ids": [
+        "rc3MoyOqJh402xRkxEhM"
+      ],
+      "created_nodes": [
+        {
+          "id": "rc3MoyOqJh402xRkxEhM",
+          "label": "New video-generation node",
+          "template_id": "bTNwJmMmdZKbo4jm8iko",
+          "position": {
+            "x": 0,
+            "y": 9100
+          },
+          "modified_by": "PORB6StInzPA2Wy3u1o5qZ94vgw2",
+          "modified_at_utc": "2026-09-13T03:28:34.402349Z",
+          "type": "generation",
+          "model_id": "gemini-omni-1.1-flash",
+          "prompt": "A restrained live-action fashion portrait at the airport: the man pauses in place and turns his head slightly toward the camera, breathing naturally with a subtle shift of posture. Keep the bag hanging nearly still, preserving its exact silhouette, two rolled handles, paired horizontal closure straps and gold hardware. Locked camera; no walking, overlays or dialogue.",
+          "model_parameters": {
+            "enhance_prompt": true,
+            "duration_secs": 6,
+            "aspect_ratio": "9:16",
+            "resolution": "1080p",
+            "generate_audio": true
+          }
+        }
+      ],
+      "canvas_summary": {
+        "total_nodes": 14,
+        "total_edges": 6,
+        "node_types": {
+          "video": 1,
+          "video-generation": 8,
+          "image": 5
+        }
+      }
+    },
+    "prompt": "A restrained live-action fashion portrait at the airport: the man pauses in place and turns his head slightly toward the camera, breathing naturally with a subtle shift of posture. Keep the bag hanging nearly still, preserving its exact silhouette, two rolled handles, paired horizontal closure straps and gold hardware. Locked camera; no walking, overlays or dialogue.",
+    "run": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko?vs=viewstate_01m2ccygsxfn48kv7msgqdgf0h",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "results": [
+        {
+          "success": true,
+          "node_id": "rc3MoyOqJh402xRkxEhM",
+          "session_id": "Cu94QSPk9EIIqaSKwO96"
+        }
+      ],
+      "summary": {
+        "nodes_run": 1,
+        "generations_started": 1,
+        "failed": 0,
+        "generations_by_node": {
+          "rc3MoyOqJh402xRkxEhM": 1
+        }
+      },
+      "session_ids": [
+        "Cu94QSPk9EIIqaSKwO96"
+      ],
+      "pending": [
+        {
+          "generation_id": "NziO0x43g07MIgAo9sQd",
+          "kind": "video",
+          "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=NziO0x43g07MIgAo9sQd",
+          "aspect_ratio": 0.5625
+        }
+      ],
+      "poll_after_seconds": 15,
+      "notes": "Not finished yet. If a generation view is shown it tracks progress and polls by itself, so there is nothing to do here. Only call creative_get_flow_run_status yourself if no view appeared: wait poll_after_seconds, then call it with this flow_id and session_ids, repeating until all_completed or has_failures is true.",
+      "view_state_id": "viewstate_01m2ccygsxfn48kv7msgqdgf0h"
+    }
+  },
+  {
+    "id": "S06",
+    "ref": {
+      "asset_id": "HRa5zb5R3uZye8U8JqHp",
+      "name": "S06-clean.png",
+      "mime_type": "image/png",
+      "size_bytes": 1961894,
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "node_id": "QQyQPbwTgyOHEedHEuEh"
+    },
+    "node": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "success": true,
+      "node_ids": [
+        "ps4GJdbcws32TQzu7xBz"
+      ],
+      "created_nodes": [
+        {
+          "id": "ps4GJdbcws32TQzu7xBz",
+          "label": "New video-generation node",
+          "template_id": "bTNwJmMmdZKbo4jm8iko",
+          "position": {
+            "x": 0,
+            "y": 9800
+          },
+          "modified_by": "PORB6StInzPA2Wy3u1o5qZ94vgw2",
+          "modified_at_utc": "2026-09-13T03:28:35.447225Z",
+          "type": "generation",
+          "model_id": "gemini-omni-1.1-flash",
+          "prompt": "A natural live-action street fashion portrait: the man pauses in his white T-shirt and jeans and casually glances to his left, keeping the weekender hanging quietly beside his leg. Subtle breathing and fabric movement, exact face and product details preserved, locked camera, no walking or text.",
+          "model_parameters": {
+            "enhance_prompt": true,
+            "duration_secs": 6,
+            "aspect_ratio": "9:16",
+            "resolution": "1080p",
+            "generate_audio": true
+          }
+        }
+      ],
+      "canvas_summary": {
+        "total_nodes": 15,
+        "total_edges": 7,
+        "node_types": {
+          "video": 1,
+          "video-generation": 9,
+          "image": 5
+        }
+      }
+    },
+    "prompt": "A natural live-action street fashion portrait: the man pauses in his white T-shirt and jeans and casually glances to his left, keeping the weekender hanging quietly beside his leg. Subtle breathing and fabric movement, exact face and product details preserved, locked camera, no walking or text.",
+    "run": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko?vs=viewstate_01m2ccyhy2fcbb8b3cje9wnemq",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "results": [
+        {
+          "success": true,
+          "node_id": "ps4GJdbcws32TQzu7xBz",
+          "session_id": "eHdCN1OQFdQZ0IrMRR7A"
+        }
+      ],
+      "summary": {
+        "nodes_run": 1,
+        "generations_started": 1,
+        "failed": 0,
+        "generations_by_node": {
+          "ps4GJdbcws32TQzu7xBz": 1
+        }
+      },
+      "session_ids": [
+        "eHdCN1OQFdQZ0IrMRR7A"
+      ],
+      "pending": [
+        {
+          "generation_id": "dPnr1eVZYuOSZNvKI7xs",
+          "kind": "video",
+          "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=dPnr1eVZYuOSZNvKI7xs",
+          "aspect_ratio": 0.5625
+        }
+      ],
+      "poll_after_seconds": 15,
+      "notes": "Not finished yet. If a generation view is shown it tracks progress and polls by itself, so there is nothing to do here. Only call creative_get_flow_run_status yourself if no view appeared: wait poll_after_seconds, then call it with this flow_id and session_ids, repeating until all_completed or has_failures is true.",
+      "view_state_id": "viewstate_01m2ccyhy2fcbb8b3cje9wnemq"
+    }
+  },
+  {
+    "id": "S11",
+    "ref": {
+      "asset_id": "wMMIxfWUKsQRpdpq14fc",
+      "name": "S11-clean.png",
+      "mime_type": "image/png",
+      "size_bytes": 1927965,
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "node_id": "j9y4UuyTVZqyiALtFl1c"
+    },
+    "node": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "success": true,
+      "node_ids": [
+        "WrDv96O2elp7FwyQKjfW"
+      ],
+      "created_nodes": [
+        {
+          "id": "WrDv96O2elp7FwyQKjfW",
+          "label": "New video-generation node",
+          "template_id": "bTNwJmMmdZKbo4jm8iko",
+          "position": {
+            "x": 0,
+            "y": 10500
+          },
+          "modified_by": "PORB6StInzPA2Wy3u1o5qZ94vgw2",
+          "modified_at_utc": "2026-09-13T03:28:36.576436Z",
+          "type": "generation",
+          "model_id": "gemini-omni-1.1-flash",
+          "prompt": "A steady live-action overhead product close-up. Keep the hand resting naturally on the rim with its fingers unchanged while gently holding the bag open; a very subtle camera drift reveals the existing wide interior slip pocket. Preserve the exact lining, pocket, flap and hardware, no additional gesture, no opening transition, no text.",
+          "model_parameters": {
+            "enhance_prompt": true,
+            "duration_secs": 6,
+            "aspect_ratio": "9:16",
+            "resolution": "1080p",
+            "generate_audio": true
+          }
+        }
+      ],
+      "canvas_summary": {
+        "total_nodes": 16,
+        "total_edges": 8,
+        "node_types": {
+          "video": 1,
+          "video-generation": 10,
+          "image": 5
+        }
+      }
+    },
+    "prompt": "A steady live-action overhead product close-up. Keep the hand resting naturally on the rim with its fingers unchanged while gently holding the bag open; a very subtle camera drift reveals the existing wide interior slip pocket. Preserve the exact lining, pocket, flap and hardware, no additional gesture, no opening transition, no text.",
+    "run": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko?vs=viewstate_01m2ccyjxhetftgphp4xmx8wa7",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "results": [
+        {
+          "success": true,
+          "node_id": "WrDv96O2elp7FwyQKjfW",
+          "session_id": "uyLnaLCJDz4rzvUpaN8F"
+        }
+      ],
+      "summary": {
+        "nodes_run": 1,
+        "generations_started": 1,
+        "failed": 0,
+        "generations_by_node": {
+          "WrDv96O2elp7FwyQKjfW": 1
+        }
+      },
+      "session_ids": [
+        "uyLnaLCJDz4rzvUpaN8F"
+      ],
+      "pending": [
+        {
+          "generation_id": "ZN6XXtB318ifvltzjbOO",
+          "kind": "video",
+          "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=ZN6XXtB318ifvltzjbOO",
+          "aspect_ratio": 0.5625
+        }
+      ],
+      "poll_after_seconds": 15,
+      "notes": "Not finished yet. If a generation view is shown it tracks progress and polls by itself, so there is nothing to do here. Only call creative_get_flow_run_status yourself if no view appeared: wait poll_after_seconds, then call it with this flow_id and session_ids, repeating until all_completed or has_failures is true.",
+      "view_state_id": "viewstate_01m2ccyjxhetftgphp4xmx8wa7"
+    }
+  },
+  {
+    "id": "S12",
+    "ref": {
+      "asset_id": "t2xL0E52ndfLULHY9udh",
+      "name": "S12-clean.png",
+      "mime_type": "image/png",
+      "size_bytes": 2106762,
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "node_id": "gmtDPLsM8u5mBpOneUdz"
+    },
+    "node": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "success": true,
+      "node_ids": [
+        "ycAyJpsF47Hn7buqGeTA"
+      ],
+      "created_nodes": [
+        {
+          "id": "ycAyJpsF47Hn7buqGeTA",
+          "label": "New video-generation node",
+          "template_id": "bTNwJmMmdZKbo4jm8iko",
+          "position": {
+            "x": 0,
+            "y": 11200
+          },
+          "modified_by": "PORB6StInzPA2Wy3u1o5qZ94vgw2",
+          "modified_at_utc": "2026-09-13T03:28:37.623202Z",
+          "type": "generation",
+          "model_id": "gemini-omni-1.1-flash",
+          "prompt": "A restrained live-action fashion portrait at the hotel entrance: the man pauses in place with the bag at his side and looks calmly toward the lobby. Only natural breathing and a slight head turn, with the bag held nearly still; preserve the exact silhouette, two rolled handles and both gold-fitted front closure straps. Locked camera, no walking or turning the body, no text overlays.",
+          "model_parameters": {
+            "enhance_prompt": true,
+            "duration_secs": 6,
+            "aspect_ratio": "9:16",
+            "resolution": "1080p",
+            "generate_audio": true
+          }
+        }
+      ],
+      "canvas_summary": {
+        "total_nodes": 17,
+        "total_edges": 9,
+        "node_types": {
+          "video": 1,
+          "video-generation": 11,
+          "image": 5
+        }
+      }
+    },
+    "prompt": "A restrained live-action fashion portrait at the hotel entrance: the man pauses in place with the bag at his side and looks calmly toward the lobby. Only natural breathing and a slight head turn, with the bag held nearly still; preserve the exact silhouette, two rolled handles and both gold-fitted front closure straps. Locked camera, no walking or turning the body, no text overlays.",
+    "run": {
+      "flow_id": "bTNwJmMmdZKbo4jm8iko",
+      "flow_created": false,
+      "url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko?vs=viewstate_01m2ccykzbfrwv9g424asf8pz8",
+      "flow_url": "https://elevenlabs.io/app/flows/bTNwJmMmdZKbo4jm8iko",
+      "results": [
+        {
+          "success": true,
+          "node_id": "ycAyJpsF47Hn7buqGeTA",
+          "session_id": "qVzCxjRVf3HaIMIEZhgH"
+        }
+      ],
+      "summary": {
+        "nodes_run": 1,
+        "generations_started": 1,
+        "failed": 0,
+        "generations_by_node": {
+          "ycAyJpsF47Hn7buqGeTA": 1
+        }
+      },
+      "session_ids": [
+        "qVzCxjRVf3HaIMIEZhgH"
+      ],
+      "pending": [
+        {
+          "generation_id": "CPutq43Ut0YjRxUnsEZ6",
+          "kind": "video",
+          "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=CPutq43Ut0YjRxUnsEZ6",
+          "aspect_ratio": 0.5625
+        }
+      ],
+      "poll_after_seconds": 15,
+      "notes": "Not finished yet. If a generation view is shown it tracks progress and polls by itself, so there is nothing to do here. Only call creative_get_flow_run_status yourself if no view appeared: wait poll_after_seconds, then call it with this flow_id and session_ids, repeating until all_completed or has_failures is true.",
+      "view_state_id": "viewstate_01m2ccykzbfrwv9g424asf8pz8"
+    }
+  }
+]

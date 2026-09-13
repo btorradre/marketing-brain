@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('WAV',p:SetCurrentRenderFormatAndCodec('wav',''));for k,v in pairs(p:GetCurrentRenderFormatAndCodec()) do print(k,v) end

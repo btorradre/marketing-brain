@@ -1,0 +1,465 @@
+{
+  "jsonrpc": "2.0",
+  "id": "tracked-brands",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Tracked brands (20 shown of 30)\n\nPage 1 · Limit 20\n\nUse the Brandtracker ID with `analyze_brand_changes` for recent-change analysis.\n\n| Brand | Brandtracker ID | Status | Active ads | New 1d | New 7d | New 30d | Domains | Added |\n| --- | --- | --- | ---: | ---: | ---: | ---: | --- | --- |\n| Arctic Goddess | a2d8eca8-96e6-4903-8cbb-437ed7689c9d | active / new_ads_1d | 1,814 | 25 | 159 | 1,757 | arcticgoddess.com | 2026-08-25 |\n| ZEDE Paris | 3d94c275-7773-4026-b505-89d00ac5cb13 | active / new_ads_7d | 279 | 0 | 38 | 185 | zede-paris.com, en.zede-paris.com | 2026-08-21 |\n| blog.zafiraorganics.com | eadeca8f-7822-4b9e-8c67-ca6734b8c2d4 | active / new_ads_1d | 460 | 12 | 70 | 237 | zafiraorganics.com, news.traditionalmedpub.com, blog.zafiraorganics.com | 2026-08-17 |\n| Verano Hill | 5e2180be-dafc-4b81-84d5-1a9e5902c574 | active / new_ads_1d | 818 | 15 | 72 | 503 | veranohill.com, veranohill.co.kr, veranohill.com.mx | 2026-08-17 |\n| Lymphoria | 684caee3-8ed4-4240-b2c5-45891a3784e6 | active / new_ads_1d | 4,554 | 506 | 2,825 | 8,837 | lymphoria.co, naturesunrise.com, buy.lymphoria.co | 2026-08-16 |\n| Sculptique | c2e19c1e-09a8-44ca-a253-ead337933a39 | active / new_ads_1d | 2,235 | 598 | 5,103 | 13,413 | trysculptique.com, pay.trysculptique.com, trysoluma.com | 2026-08-15 |\n| PiPi Tea | f7565ffd-e8a2-4d64-be93-a655f712cfd1 | active / new_ads_1d | 623 | 138 | 988 | 3,236 | pipitea.com, shop.pipitea.com, trynutrawell.com | 2026-08-11 |\n| Vellatini | 43c8a4ee-7d5f-469e-969f-800278b44bed | active / new_ads_7d | 271 | 0 | 56 | 247 | vellatini.com | 2026-08-10 |\n| Resilia | 122358d6-b0bf-4ce8-9d59-32bf43c136a3 | active / new_ads_1d | 7,587 | 556 | 3,347 | 15,134 | resilia.shop, try.resilia.shop, thehealthquiz.com | 2026-08-10 |\n| Nuora | 8bff2239-0790-4f87-a97e-15434c0fc9b6 | active / new_ads_1d | 1,196 | 4 | 76 | 243 | mynuora.com, trynuora.com | 2026-07-28 |\n| VESTIRSI | e5e46883-4c0a-4a37-be15-dd0172f5f72b | active / new_ads_1d | 265 | 55 | 149 | 436 | davidjones.com, fb.me, shopvestirsi.com | 2026-07-25 |\n| Bellaucci | 83be223a-02dd-46ed-883f-b3a18506c257 | active / new_ads_1d | 935 | 117 | 204 | 1,400 | bellaucci.com, floresdefides.com | 2026-07-22 |\n| Nivara Official | f63943a7-2978-4ece-90b2-386f0c561c89 | active / new_ads_1d | 825 | 52 | 499 | 1,277 | nivara-shop.com, try.nivara-shop.com | 2026-07-08 |\n| Lanural | fcc41353-8599-4f4f-8d10-52809fe8a797 | active / new_ads_1d | 365 | 35 | 1,128 | 2,530 | lanural.com, get.lanural.com, lanural.co | 2026-07-06 |\n| Sarah & Stone | 0f7df8bb-4a11-4aee-a028-aadb7db0600e | active / new_ads_7d | 109 | 0 | 6 | 97 | sarahandstone.com, sandsstudio.shop | 2026-06-23 |\n| Elvera | e7a0e1eb-5999-46e5-abf8-fa5a2c714cb5 | active / new_ads_1d | 383 | 51 | 160 | 809 | tryelvera.com | 2026-06-20 |\n| Nuamōre | 08caf4c0-ab91-497d-84a8-cf3919b5fc32 | active / new_ads_1d | 1,441 | 166 | 1,033 | 5,686 | nuamore.com, voguetalks.co | 2026-06-17 |\n| Lux Boat Tote | cd739e01-d5f6-4249-9760-54a7e7611497 | active / new_ads_1d | 21 | 2 | 3 | 44 | luxboattote.com | 2026-06-16 |\n| Neural Health Report | 3ef86095-deda-4f00-8a66-616bc5a5cc8c | inactive / no_recent_ads | 0 | 0 | 0 | 0 | sakureva.com, sanlava.com | 2026-06-14 |\n| CAVAÉ | c78c4d34-2df8-4524-b8b0-28f2139621b0 | active / new_ads_1d | 391 | 6 | 49 | 144 | shopcavae.com | 2026-06-12 |\n\n---\nCredits used: 30 | Remaining: 7336 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "6b07a0e5-aad3-444f-abfb-b064eeeb7317",
+      "query": {
+        "page": 1,
+        "limit": 20
+      },
+      "data": [
+        {
+          "id": "a2d8eca8-96e6-4903-8cbb-437ed7689c9d",
+          "name": "Arctic Goddess",
+          "domain": "arcticgoddess.com",
+          "domains": [
+            "arcticgoddess.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-08-25",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 1814,
+            "newAdsLastDay": 25,
+            "newAdsLast7Days": 159,
+            "newAdsLast30Days": 1757
+          }
+        },
+        {
+          "id": "3d94c275-7773-4026-b505-89d00ac5cb13",
+          "name": "ZEDE Paris",
+          "domain": "zede-paris.com",
+          "domains": [
+            "zede-paris.com",
+            "en.zede-paris.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-08-21",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_7d"
+          },
+          "counts": {
+            "activeAds": 279,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 38,
+            "newAdsLast30Days": 185
+          }
+        },
+        {
+          "id": "eadeca8f-7822-4b9e-8c67-ca6734b8c2d4",
+          "name": "blog.zafiraorganics.com",
+          "domain": "zafiraorganics.com",
+          "domains": [
+            "zafiraorganics.com",
+            "news.traditionalmedpub.com",
+            "blog.zafiraorganics.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-08-17",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 460,
+            "newAdsLastDay": 12,
+            "newAdsLast7Days": 70,
+            "newAdsLast30Days": 237
+          }
+        },
+        {
+          "id": "5e2180be-dafc-4b81-84d5-1a9e5902c574",
+          "name": "Verano Hill",
+          "domain": "veranohill.com",
+          "domains": [
+            "veranohill.com",
+            "veranohill.co.kr",
+            "veranohill.com.mx"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-08-17",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 818,
+            "newAdsLastDay": 15,
+            "newAdsLast7Days": 72,
+            "newAdsLast30Days": 503
+          }
+        },
+        {
+          "id": "684caee3-8ed4-4240-b2c5-45891a3784e6",
+          "name": "Lymphoria",
+          "domain": "lymphoria.co",
+          "domains": [
+            "lymphoria.co",
+            "naturesunrise.com",
+            "buy.lymphoria.co"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-08-16",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 4554,
+            "newAdsLastDay": 506,
+            "newAdsLast7Days": 2825,
+            "newAdsLast30Days": 8837
+          }
+        },
+        {
+          "id": "c2e19c1e-09a8-44ca-a253-ead337933a39",
+          "name": "Sculptique",
+          "domain": "trysculptique.com",
+          "domains": [
+            "trysculptique.com",
+            "pay.trysculptique.com",
+            "trysoluma.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-08-15",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 2235,
+            "newAdsLastDay": 598,
+            "newAdsLast7Days": 5103,
+            "newAdsLast30Days": 13413
+          }
+        },
+        {
+          "id": "f7565ffd-e8a2-4d64-be93-a655f712cfd1",
+          "name": "PiPi Tea",
+          "domain": "pipitea.com",
+          "domains": [
+            "pipitea.com",
+            "shop.pipitea.com",
+            "trynutrawell.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-08-11",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 623,
+            "newAdsLastDay": 138,
+            "newAdsLast7Days": 988,
+            "newAdsLast30Days": 3236
+          }
+        },
+        {
+          "id": "43c8a4ee-7d5f-469e-969f-800278b44bed",
+          "name": "Vellatini",
+          "domain": "vellatini.com",
+          "domains": [
+            "vellatini.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-08-10",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_7d"
+          },
+          "counts": {
+            "activeAds": 271,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 56,
+            "newAdsLast30Days": 247
+          }
+        },
+        {
+          "id": "122358d6-b0bf-4ce8-9d59-32bf43c136a3",
+          "name": "Resilia",
+          "domain": "resilia.shop",
+          "domains": [
+            "resilia.shop",
+            "try.resilia.shop",
+            "thehealthquiz.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-08-10",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 7587,
+            "newAdsLastDay": 556,
+            "newAdsLast7Days": 3347,
+            "newAdsLast30Days": 15134
+          }
+        },
+        {
+          "id": "8bff2239-0790-4f87-a97e-15434c0fc9b6",
+          "name": "Nuora",
+          "domain": "mynuora.com",
+          "domains": [
+            "mynuora.com",
+            "trynuora.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-07-28",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 1196,
+            "newAdsLastDay": 4,
+            "newAdsLast7Days": 76,
+            "newAdsLast30Days": 243
+          }
+        },
+        {
+          "id": "e5e46883-4c0a-4a37-be15-dd0172f5f72b",
+          "name": "VESTIRSI",
+          "domain": "davidjones.com",
+          "domains": [
+            "davidjones.com",
+            "fb.me",
+            "shopvestirsi.com"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-07-25",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 265,
+            "newAdsLastDay": 55,
+            "newAdsLast7Days": 149,
+            "newAdsLast30Days": 436
+          }
+        },
+        {
+          "id": "83be223a-02dd-46ed-883f-b3a18506c257",
+          "name": "Bellaucci",
+          "domain": "bellaucci.com",
+          "domains": [
+            "bellaucci.com",
+            "floresdefides.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-07-22",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 935,
+            "newAdsLastDay": 117,
+            "newAdsLast7Days": 204,
+            "newAdsLast30Days": 1400
+          }
+        },
+        {
+          "id": "f63943a7-2978-4ece-90b2-386f0c561c89",
+          "name": "Nivara Official",
+          "domain": "nivara-shop.com",
+          "domains": [
+            "nivara-shop.com",
+            "try.nivara-shop.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-07-08",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 825,
+            "newAdsLastDay": 52,
+            "newAdsLast7Days": 499,
+            "newAdsLast30Days": 1277
+          }
+        },
+        {
+          "id": "fcc41353-8599-4f4f-8d10-52809fe8a797",
+          "name": "Lanural",
+          "domain": "lanural.com",
+          "domains": [
+            "lanural.com",
+            "get.lanural.com",
+            "lanural.co"
+          ],
+          "domainsTruncated": true,
+          "addedAt": "2026-07-06",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 365,
+            "newAdsLastDay": 35,
+            "newAdsLast7Days": 1128,
+            "newAdsLast30Days": 2530
+          }
+        },
+        {
+          "id": "0f7df8bb-4a11-4aee-a028-aadb7db0600e",
+          "name": "Sarah & Stone",
+          "domain": "sarahandstone.com",
+          "domains": [
+            "sarahandstone.com",
+            "sandsstudio.shop"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-23",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_7d"
+          },
+          "counts": {
+            "activeAds": 109,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 6,
+            "newAdsLast30Days": 97
+          }
+        },
+        {
+          "id": "e7a0e1eb-5999-46e5-abf8-fa5a2c714cb5",
+          "name": "Elvera",
+          "domain": "tryelvera.com",
+          "domains": [
+            "tryelvera.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-20",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 383,
+            "newAdsLastDay": 51,
+            "newAdsLast7Days": 160,
+            "newAdsLast30Days": 809
+          }
+        },
+        {
+          "id": "08caf4c0-ab91-497d-84a8-cf3919b5fc32",
+          "name": "Nuamōre",
+          "domain": "nuamore.com",
+          "domains": [
+            "nuamore.com",
+            "voguetalks.co"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-17",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 1441,
+            "newAdsLastDay": 166,
+            "newAdsLast7Days": 1033,
+            "newAdsLast30Days": 5686
+          }
+        },
+        {
+          "id": "cd739e01-d5f6-4249-9760-54a7e7611497",
+          "name": "Lux Boat Tote",
+          "domain": "luxboattote.com",
+          "domains": [
+            "luxboattote.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-16",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 21,
+            "newAdsLastDay": 2,
+            "newAdsLast7Days": 3,
+            "newAdsLast30Days": 44
+          }
+        },
+        {
+          "id": "3ef86095-deda-4f00-8a66-616bc5a5cc8c",
+          "name": "Neural Health Report",
+          "domain": "sakureva.com",
+          "domains": [
+            "sakureva.com",
+            "sanlava.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-14",
+          "status": {
+            "advertising": "inactive",
+            "freshness": "no_recent_ads"
+          },
+          "counts": {
+            "activeAds": 0,
+            "newAdsLastDay": 0,
+            "newAdsLast7Days": 0,
+            "newAdsLast30Days": 0
+          }
+        },
+        {
+          "id": "c78c4d34-2df8-4524-b8b0-28f2139621b0",
+          "name": "CAVAÉ",
+          "domain": "shopcavae.com",
+          "domains": [
+            "shopcavae.com"
+          ],
+          "domainsTruncated": false,
+          "addedAt": "2026-06-12",
+          "status": {
+            "advertising": "active",
+            "freshness": "new_ads_1d"
+          },
+          "counts": {
+            "activeAds": 391,
+            "newAdsLastDay": 6,
+            "newAdsLast7Days": 49,
+            "newAdsLast30Days": 144
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 20,
+        "total": 30,
+        "totalPages": 2
+      },
+      "warnings": [],
+      "credits": {
+        "requestedUnits": 20,
+        "effectiveUnits": 20,
+        "actualUnits": 20,
+        "costUnits": 30,
+        "recurringUnits": 30,
+        "topupUnits": 0,
+        "creditsRemaining": 7336,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

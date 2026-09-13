@@ -1,0 +1,1246 @@
+{
+  "id": "Yo3Xy6MICBnbclfWT",
+  "actId": "shu8hvrXbJbY3Eb9W",
+  "userId": "ZscMwFR5H7eCtWtyh",
+  "startedAt": "2026-09-11T11:20:29.880Z",
+  "finishedAt": "2026-09-11T11:20:34.091Z",
+  "status": "SUCCEEDED",
+  "meta": {
+    "origin": "API"
+  },
+  "stats": {
+    "durationMillis": 4136,
+    "runTimeSecs": 4.136,
+    "computeUnits": 0.004595555555555556,
+    "imageSizeBytes": 374262784
+  },
+  "options": {
+    "useCache": true,
+    "betaPackages": false,
+    "memoryMbytes": 4096,
+    "diskMbytes": 8192
+  },
+  "exitCode": 0,
+  "inputSchema": "{\n  \"title\": \"Instagram Scraper\",\n  \"type\": \"object\",\n  \"description\": \"**Scrape public Instagram posts, reels, comments, profiles, mentions, and more. Add URLs, profile IDs, or search by hashtag, user, or place.**<br><br>**What you can scrape:**<ul><li><b>Posts</b> \u2192 from a profile URL/ID, post URL, or hashtag URL</li><li><b>Reels</b> \u2192 from a profile URL/ID, reel URL, or hashtag URL</li><li><b>Comments</b> \u2192 from a post or reel URL</li><li><b>Mentions</b> \u2192 from a profile URL</li><li><b>Profile info</b> \u2192 from a profile URL</li><li><b>Hashtag volume</b> \u2192 from a hashtag URL or search query</li><li><b>Place details</b> \u2192 from a location URL or search query</li><li><b>User search</b> \u2192 from a search query</li></ul>**Need more?** Try dedicated scrapers for <a href=\\\"https://console.apify.com/actors/JJghSZmShuco4j9gJ\\\">Instagram Ads</a>, <a href=\\\"https://console.apify.com/actors/xMc5Ga1oCONPmWJIa\\\">Reel downloads and transcripts</a>, or <a href=\\\"https://console.apify.com/actors/dSCLg0C3YEZ83HzYX\\\">profile location and verification data</a>. Browse all <a href=\\\"https://console.apify.com/collection/instagram-scrapers\\\">Instagram scrapers</a>.<br><br>**Before you start:**<ul><li>URLs always take priority over search queries \u2014 and they cannot be combined.</li><li>Use <code>/p/</code> for posts and comments and <code>/username/</code> for profiles.</li><li>For search queries, you can enter multiple terms separated by a comma.</li><li>Date filters use UTC, not local time.</li></ul>**Related:** Learn [How to scrape data from Instagram](https://blog.apify.com/scrape-instagram-posts-comments-and-more-21d05506aeb3/). Using the API? [Run Actor and retrieve data via API](https://docs.apify.com/academy/api/run-actor-and-retrieve-data-via-api/).\",\n  \"schemaVersion\": 1,\n  \"properties\": {\n    \"resultsType\": {\n      \"title\": \"Content to scrape\",\n      \"type\": \"string\",\n      \"description\": \"**Posts** returns a feed of content. **Profile, hashtag, or place details** returns metadata about the page: follower count, bio, post count, and profile picture.<br><br>Comments only work with post URLs, e.g. `instagram.com/p/ABC123xyz/` not `instagram.com/username/`.\",\n      \"editor\": \"select\",\n      \"enum\": [\n        \"posts\",\n        \"details\",\n        \"comments\",\n        \"reels\",\n        \"mentions\",\n        \"stories\"\n      ],\n      \"enumTitles\": [\n        \"Posts\",\n        \"Profile, hashtag, or place details\",\n        \"Comments\",\n        \"Reels\",\n        \"Mentions\",\n        \" \"\n      ],\n      \"default\": \"posts\",\n      \"prefill\": \"posts\"\n    },\n    \"directUrls\": {\n      \"title\": \"Instagram URLs based on content type\",\n      \"type\": \"array\",\n      \"description\": \"Add one or more Instagram URLs to scrape.<br><br>URL format must match your content type:<ul><li><code>/p/</code> for posts and comments</li><li><code>/reel/</code> for reels</li><li><code>/username/</code> for profile details</li></ul><br>Leave blank if using the search query instead.\",\n      \"editor\": \"stringList\",\n      \"prefill\": [\n        \"https://www.instagram.com/humansofny/\"\n      ],\n      \"items\": {\n        \"type\": \"string\",\n        \"pattern\": \"^(https:\\\\/\\\\/)?(www\\\\.)?instagram\\\\.com\\\\/[A-Za-z0-9._-]+(\\\\/.*)?$\"\n      },\n      \"uniqueItems\": true\n    },\n    \"resultsLimit\": {\n      \"title\": \"Results limit per URL\",\n      \"type\": \"integer\",\n      \"description\": \"Set how many posts or comments to scrape per Instagram URL. Higher values increase compute usage and cost.<br><br>\u26a0\ufe0f Free usage gets only the top 15 comments, sorted by newest, and around 21 mentions. Upgrade to <a href='https://console.apify.com/billing/subscription' target='_blank' rel='noopener'> Starter plan</a> for full access.<br><br>Use `1` to retrieve a single post per page.\",\n      \"editor\": \"number\",\n      \"prefill\": 100,\n      \"minimum\": 1\n    },\n    \"onlyPostsNewerThan\": {\n      \"title\": \"Filter by date\",\n      \"type\": \"string\",\n      \"description\": \"Limit how far back to scrape. Enter a date in `YYYY-MM-DD`, ISO format, or as a relative value, e.g. `1 day`, `2 months`, `3 years`.<br><br>Times are in UTC, not local time. New York is UTC-5 in winter, UTC-4 in summer. Pinned posts may still appear even with this filter set.\",\n      \"editor\": \"datepicker\",\n      \"dateType\": \"absoluteOrRelative\",\n      \"pattern\": \"^(\\\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\\\d|3[01])(T[0-2]\\\\d:[0-5]\\\\d(:[0-5]\\\\d)?(\\\\.\\\\d+)?Z?)?$|^(\\\\d+)\\\\s*(minute|hour|day|week|month|year)s?$\"\n    },\n    \"search\": {\n      \"title\": \"Search query\",\n      \"type\": \"string\",\n      \"description\": \"Search for Instagram hashtags, profiles, or places.<br>Use `#` for hashtags, e.g. `#travel`.\",\n      \"editor\": \"textfield\",\n      \"sectionCaption\": \"Search by query instead of URLs\",\n      \"sectionDescription\": \"Instagram search uses public Instagram data and Google search to find profiles, places, and hashtags.<br>**Results may differ from what you see in your personal feed when logged in.**\"\n    },\n    \"searchType\": {\n      \"title\": \"Search type\",\n      \"type\": \"string\",\n      \"description\": \"Hashtag search returns posts tagged with that term. Profile search returns matching accounts. Place search returns matching locations.\",\n      \"editor\": \"select\",\n      \"enum\": [\n        \"hashtag\",\n        \"profile\",\n        \"place\",\n        \"user\"\n      ],\n      \"enumTitles\": [\n        \"Hashtag\",\n        \"Profile\",\n        \"Place\",\n        \" \"\n      ],\n      \"default\": \"hashtag\",\n      \"prefill\": \"hashtag\"\n    },\n    \"searchLimit\": {\n      \"title\": \"Search results limit\",\n      \"type\": \"integer\",\n      \"description\": \"Set how many profiles, places, or hashtags to find.<br>To limit posts per result, use Results limit per URL.<br>Higher values increase compute usage and cost.\",\n      \"editor\": \"number\",\n      \"prefill\": 10,\n      \"minimum\": 1,\n      \"maximum\": 250\n    },\n    \"addParentData\": {\n      \"title\": \"Add metadata\",\n      \"type\": \"boolean\",\n      \"description\": \"This applies only to feed items. Adds a dataSource field to each result: profile posts are labeled `profile`, and tag posts are labeled `hashtag`.\",\n      \"editor\": \"hidden\",\n      \"default\": false\n    }\n  },\n  \"required\": []\n}",
+  "readme": "## What can Instagram Scraper do?\n\nInstagram Scraper **extracts public data from across Instagram** in a single tool: posts and reels from a profile, comments on a single video, mentions of a brand, profile details for a creator, place metadata for a city, or volume and reach for a hashtag. Add a URL match it with one of the 5 available content types and you can:\n\n<table>\n<tr>\n<th>\ud83d\udce6 What you can extract</th>\n<th>\u2699\ufe0f Features & integrations</th>\n</tr>\n<tr>\n<td valign=\"top\">\n\n\ud83d\udcf7 **Posts and carousels** from profiles, hashtagged posts, or tagged posts <br>\n\ud83c\udf9e\ufe0f **Reels** from profiles, hashtagged reels, or tagged reels <br>\n\ud83d\udcac **Comments and replies** from posts or reels <br>\n\ud83c\udff7\ufe0f **Mentions, tagged photos**, and collaborators <br>\n\ud83d\udc64 **Profiles**: bio, followers, websites <br>\n#\ufe0f\u20e3 **Hashtags**: volume, related tags, post count <br>\n\ud83d\udccd **Places**: coordinates, address, post count, category <br>\n\ud83d\uddbc\ufe0f **Media**: images, videos, thumbnails, profile pics\n\n</td>\n<td valign=\"top\">\n\n\ud83d\udd0e **Search** Instagram by user, hashtag, or place <br>\n\ud83d\udcc5 **Date filters and scheduling** to get only recent content <br>\n\u2b07\ufe0f **Export data** to JSON, CSV, Excel, or XML <br>\n\ud83e\uddbe **API access, webhooks**, Node.js & Python SDKs <br>\n\ud83e\udd16 **LLM-ready data** for MCP, Claude, Gemini, ChatGPT\n\n</td>\n</tr>\n</table>\n\nIf you're in the market for influencer discovery, trend tracking, competitor monitoring, local business discovery, content and image analysis, UGC discovery, sentiment analysis, campaign performance tracking, brand monitoring, and more, you can get it all from a single tool.\n\n## What data can I scrape from Instagram?\n\nInstagram Scraper is the **unofficial Instagram API that 300K+ users rely on** to pull the public data Instagram cut off from its official API in 2020. No Business or Creator account, no OAuth, no limits on public data. You get the **content, context, engagement metrics, and metadata** behind any social media insight:\n\n- **Posts and reels:** _what was posted, how it landed, who's around it_. Captions, hashtags, mentions, image and video URLs, carousel children, engagement (likes, comments, views, plays, first + latest comments), and context (location, owner, tagged users, co-authors, music). Plus `shortCode`, `url`, `type`, and `productType` for joining and filtering.\n\n- **Mentions:** _who's tagging you_. Same shape as a post, filtered to posts where a target profile is tagged. Drop in a profile URL, get every public post pointing at it.\n\n- **Comments:** _what people are saying_. Text, author identity (username, ID, profile pic, verified status), timestamp, likes, replies, and links to the comment and parent post.\n\n- **Profiles:** _who's behind the account_. Bio, full name, follower/following counts, posts and highlight reel counts, verified and business status.\n\n- **Hashtags:** _how big and how reachable_. Post count, posts per day, related-tag clusters bucketed by reach tier (frequent, average, rare). Useful for finding less-saturated adjacent tags.\n\n- **Places:** _where it happened_. Name, coordinates, address (city, country, category), post count, top and latest posts.\n\nYou can scrape from an **existing list of URLs** (profile, post, reel, hashtag, or place), or **discover and scrape** by running a search query for matching profiles, hashtags, or places.\n\n> Need more? Try these dedicated scrapers for features and data not covered by the main Instagram Scraper:\n>\n> - \ud83d\udce2 [Instagram Ads Scraper](https://apify.com/apify/facebook-ads-scraper): ads and creatives data with pricing enrichment\n> - \ud83c\udf9e\ufe0f [Instagram Reel Scraper](https://apify.com/apify/instagram-reel-scraper): reels with share counts and transcripts, plus a reels download option\n> - \ud83d\udc64 [Instagram Profile Scraper](https://apify.com/apify/instagram-profile-scraper): profile extraction with location and verification data\n> - \ud83e\udd1d [Brand Collaboration Scraper](https://apify.com/apify/brand-collaboration-scraper): find brand and influencer collaborations across Instagram\n> - \ud83d\udcac [Export Instagram Comments and Posts](https://apify.com/apify/export-instagram-comments-posts): scrape posts and their comments in one run\n\n## How much will scraping Instagram cost?\n\nInstagram Scraper uses a **pay-per-event (PPE)** pricing model, where one result equals one scraped item (a post, reel, comment, profile, hashtag, or place). On the Free plan, it costs **$2.70 per 1,000 results**, with no discount applied.\n\nPaid plans offer discounted rates and higher monthly credit. For example, the Starter plan charges $2.30 per 1,000 results, which allows you to **scrape over 16,900 results per month**. The Scale and Business plans reduce the price to **$1.90 with 104,700 results per month**, and **$1.50 with 666,000 results per month**, respectively. Check the [pricing tab](https://apify.com/apify/instagram-scraper/pricing) for full details.\n\n## How do I use Instagram Scraper?\n\nInstagram Scraper was designed to be easy to start with, even if you've never scraped a website before. Here's how to extract Instagram data with this tool:\n\n1. [Create](https://console.apify.com/sign-up) a free Apify account using your email.\n2. Open **[Instagram Scraper](https://console.apify.com/actors/shu8hvrXbJbY3Eb9W)** in Apify Console.\n3. Pick what you want to scrape under **Content to scrape**: Posts, Reels, Comments, Mentions, or Details for profiles, hashtags, or places.\n4. Paste one or more **Instagram URLs** matching that content type.\n5. Set how many results you want per URL under **Results limit**, and optionally filter by date.\n6. Alternatively, run a **search query**. Enter one or more keywords and pick a search type: hashtag, profile, or place.\n7. Click **Save & Start** and wait for the data to be extracted.\n8. Download your dataset in **JSON, CSV, Excel, or XML**, or pull it programmatically via the Apify API.\n\nFor a step-by-step walkthrough with screenshots, follow our [How to scrape Instagram tutorial](https://blog.apify.com/scrape-instagram-posts-comments-and-more-21d05506aeb3/) \ud83d\udcdd, or watch this video guide:\n\nhttps://www.youtube.com/watch?v=hz9tSv3CP6k\n\n## \u2b07\ufe0f Input\n\nInstagram Scraper has two input modes: **scrape by URL** when you already know which pages to scrape, or **discover by search query** when you don't. Pick one mode per run; you can't mix them, and URLs always take priority if both are filled in.\n\n### Mode 1: Scrape by URL\n\n- Paste one or more Instagram URLs (or profile IDs). Use **Bulk edit** to add many at once. Then choose:\n- **Content to scrape** \u2014 the result type (posts, reels, comments, mentions, or details)\n- **Results limit** \u2014 how many results per URL\n- **Filter by date** (optional) \u2014 only return content newer than a date or relative period (UTC)\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/39819ad7d7f8b81c2a313376237be123b1b1e22b/Screenshot%202026-06-23%20at%2010.26.43.png\" style=\"width:100%;\"></a>\n\nThe URL type drives what's returned:\n\n| Paste this URL            | And you can get                                    |\n| ------------------------- | -------------------------------------------------- |\n| Profile URL or Profile ID | Profile details, posts, reels, or profile mentions |\n| Post URL or Reel URL      | Post/reel details or its comments                  |\n| Hashtag URL               | Hashtagged posts or reels, or hashtag volume       |\n| Location URL or Audio URL | Place or audio details                             |\n\n### Mode 2: Discover by search query\n\nEnter one or more keywords (comma-separated, e.g. `travel, fitness`) and pick a search type. Enter hashtags as plaintext (`travel`, not `#travel`).\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/2e60e8b7c6c0221034bc36194be507b3cffdcab6/Screenshot%202026-06-23%20at%2010.27.02.png\" style=\"width:100%;\"></a>\n\n| Search type | What it returns                                         |\n| ----------- | ------------------------------------------------------- |\n| `hashtag`   | Hashtag volume and related hashtags matching your query |\n| `place`     | Tagged places and small businesses matching your query  |\n| `user`      | Users (and content from users) matching your query      |\n\n## \u2b06\ufe0f Output and setup\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/6026a46967b559d744283728b81ef1b86e76e0fc/What%20URL%20to%20input.jpg\" style=\"width:100%;\"></a>\n\nThe most important thing to know is that **URL type drives output schema.** Hashtag, location, audio, and explore URLs return their respective metadata even when paired with another content mode.\n\nResults land in a dataset in the **Storage** tab. View as a table, download in **JSON, CSV, Excel, or XML**, or pull via API. Note that different outputs cannot be combined in a single run. Each content type produces a different output schema. Samples below.\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/afcc6b03302916d82e5d3d53671acbb15187905c/Instagram%20Scraper_output%20data.png\" style=\"width:100%;\"></a>\n\n### \ud83d\udcf8 Posts and carousels\n\nPosts and carousels from a profile, hashtag, or place. Note: you can extract posts from a known list of profiles, or you can discover posts by hashtags and places.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/natgeo/` (profile)\n- `https://www.instagram.com/197622247/` (profile ID)\n- `https://www.instagram.com/p/DLNsnpUTdVS/` (post)\n- `https://www.instagram.com/explore/tags/crossfit/` (hashtag)\n- `https://www.instagram.com/explore/locations/7538318/copenhagen/` (place)\n\n**Posts data sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/p/DZxvMgyH8yR/\",\n    \"id\": \"3923124318436838545\",\n    \"type\": \"Image\",\n    \"shortCode\": \"DZxvMgyH8yR\",\n    \"caption\": \"In the Democratic Republic of the Congo, photographer @carstenpeter followed a team of scientists into the crater of Mount Nyiragongo, where they crossed the cooled surface of a lava lake that reached nearly 1,800\u00b0F (982\u00b0C). In 2021, an eruption sent a river of lava to the outskirts of nearby Goma, home to 1.5 million people.\\n\\nHead to the link in bio to uncover more iconic stories and images like this in our Nat Geo archive.\",\n    \"hashtags\": [],\n    \"mentions\": [\"carstenpeter\"],\n    \"url\": \"https://www.instagram.com/p/DZxvMgyH8yR/\",\n    \"commentsCount\": 110,\n    \"firstComment\": \"runnin up that hill\",\n    \"latestComments\": [\n        {\n            \"id\": \"18185100808388160\",\n            \"text\": \"runnin up that hill\",\n            \"ownerUsername\": \"liljuliff\",\n            \"timestamp\": \"2026-06-22T08:05:38.000Z\",\n            \"likesCount\": 1\n        },\n        {\n            \"id\": \"18107281966978531\",\n            \"text\": \"is bro in creative mode\",\n            \"ownerUsername\": \"csukitch\",\n            \"timestamp\": \"2026-06-22T07:57:01.000Z\",\n            \"likesCount\": 0\n        }\n    ],\n    \"dimensionsHeight\": 718,\n    \"dimensionsWidth\": 1080,\n    \"displayUrl\": \"https://scontent.cdninstagram.com/.../722859170_n.jpg\",\n    \"images\": [],\n    \"alt\": null,\n    \"likesCount\": 55952,\n    \"timestamp\": \"2026-06-20T10:00:04.000Z\",\n    \"childPosts\": [],\n    \"ownerFullName\": \"National Geographic\",\n    \"ownerUsername\": \"natgeo\",\n    \"ownerId\": \"787132\",\n    \"isCommentsDisabled\": false\n}\n```\n\n### \ud83c\udf9e\ufe0f Reels\n\nReels from a profile, hashtag, or reel page. Note: you can extract reels from a known list of profiles, or you can discover reels by hashtags and places.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/natgeo/` (profile)\n- `https://www.instagram.com/humansofny/reels/` (reels section)\n- `https://www.instagram.com/reel/CigMSGeD4Hd/` (single reel)\n- `https://www.instagram.com/reels/CigMSGeD4Hd/` (plural form)\n- `https://www.instagram.com/explore/tags/crossfit/` (hashtag)\n\n**Or a search query:**\n\n- `searchType: \"hashtag\"`, e.g. `\"travel\"` or `\"travel, fitness\"`\n\n**Reels data sample**\n\n```json\n{\n    \"id\": \"3913028191006298064\",\n    \"type\": \"Video\",\n    \"shortCode\": \"DZN3mhZBQ_Q\",\n    \"caption\": \"The universe is full of clues hidden in light, and Webb has tools to find them.\\n\\nIn this video, learn about some of the most exciting discoveries Webb has made through spectroscopy, from mapping carbon dioxide on Jupiter's moon Europa, to characterizing the earliest known galaxies, to measuring cloud cover on a distant exoplanet.\",\n    \"hashtags\": [],\n    \"mentions\": [],\n    \"url\": \"https://www.instagram.com/p/DZN3mhZBQ_Q/\",\n    \"commentsCount\": 92,\n    \"dimensionsHeight\": 1920,\n    \"dimensionsWidth\": 1080,\n    \"images\": [\"https://scontent.cdninstagram.com/.../715570175_n.jpg\"],\n    \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQNAWZ3Z8McL43Do9rcY6i8PMk.mp4\",\n    \"likesCount\": 11481,\n    \"timestamp\": \"2026-06-05T19:58:30.000Z\",\n    \"ownerFullName\": \"NASA Webb Telescope\",\n    \"ownerUsername\": \"nasawebb\",\n    \"ownerId\": \"549313808\",\n    \"isPinned\": true,\n    \"productType\": \"clips\",\n    \"videoDuration\": 228,\n    \"inputUrl\": \"https://www.instagram.com/nasawebb/reels/\",\n    \"firstComment\": \"hi :)\",\n    \"latestComments\": [\n        {\n            \"id\": \"18103001009006012\",\n            \"text\": \"hi :)\",\n            \"ownerUsername\": \"lina.mov1\",\n            \"timestamp\": \"2026-06-18T06:36:30.000Z\",\n            \"likesCount\": 1\n        }\n    ],\n    \"displayUrl\": \"https://scontent.cdninstagram.com/.../715570175_n.jpg\",\n    \"audioUrl\": \"https://scontent.cdninstagram.com/.../AQPKnYITuQNYL1nTDTxgShU8ZT.mp4\",\n    \"alt\": null,\n    \"videoViewCount\": 41365,\n    \"videoPlayCount\": 241820,\n    \"childPosts\": [],\n    \"musicInfo\": {\n        \"artist_name\": \"nasawebb\",\n        \"song_name\": \"Original audio\",\n        \"uses_original_audio\": true,\n        \"should_mute_audio\": false,\n        \"should_mute_audio_reason\": \"\",\n        \"audio_id\": \"27237433435884969\"\n    },\n    \"isCommentsDisabled\": false\n}\n```\n\n### \ud83d\udcac Comments\n\nComments from a single post or reel. **Search queries are not supported for comments**; only direct post or reel URLs.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/p/DN8-GjPkgjS/` (post, shortCode)\n- `https://www.instagram.com/p/3369450800358839406/` (post, ID)\n- `https://www.instagram.com/reel/CigMSGeD4Hd/` (reel, shortCode)\n- `https://www.instagram.com/reel/3515099125383817606/` (reel, ID)\n\n**Comments data sample**\n\n```json\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18093536360613690\",\n  \"id\": \"18093536360613690\",\n  \"text\": \"We love you NASA \ud83d\udc99\ud83c\udf0e\ud83c\udf0a\",\n  \"ownerUsername\": \"mavideniz5521__\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/410567170_365154746196531_3259133934415110146_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=9sOZurNh10wQ7kNvwH2lslG&_nc_oc=Adq1_pie8-u-2EtJYEl_qHGdbHVPEViwwdaNVTeRuVtcy0yVD-YcEBgzf7WOYwalh7E&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af_b-N0KUNf3uoWohP_2OjEfMwIGWeIIz9ADUutHKCs-Bg&oe=6A42E2E1\",\n  \"timestamp\": \"2026-06-22T17:24:20.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 4,\n  \"owner\": {\n    \"username\": \"mavideniz5521__\",\n    \"profile_pic_url\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/410567170_365154746196531_3259133934415110146_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=9sOZurNh10wQ7kNvwH2lslG&_nc_oc=Adq1_pie8-u-2EtJYEl_qHGdbHVPEViwwdaNVTeRuVtcy0yVD-YcEBgzf7WOYwalh7E&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af_b-N0KUNf3uoWohP_2OjEfMwIGWeIIz9ADUutHKCs-Bg&oe=6A42E2E1\",\n    \"is_verified\": false,\n    \"id\": \"51071346237\",\n    \"fbid_v2\": \"17841450947133918\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  }\n},\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18077796728279537\",\n  \"id\": \"18077796728279537\",\n  \"text\": \"\",\n  \"ownerUsername\": \"_.chun_chun_maru._\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.82787-19/726890359_18104011688095194_4173193513048581478_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=931kF_84KW0Q7kNvwHbqKVS&_nc_oc=AdozP0GFEU6uuF4FSGkA2UDIP66AFkSTgAkYspRYNcO-UkG5TPcuJOey5PziWM8LT5s&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-A4YjociKUQQgaHfcRx9rGPnqDu-SfoZPcF39IufFARA&oe=6A42EBDB\",\n  \"timestamp\": \"2026-06-22T17:23:24.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 220,\n  \"owner\": {\n    \"username\": \"_.chun_chun_maru._\",\n    \"profile_pic_url\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.82787-19/726890359_18104011688095194_4173193513048581478_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=931kF_84KW0Q7kNvwHbqKVS&_nc_oc=AdozP0GFEU6uuF4FSGkA2UDIP66AFkSTgAkYspRYNcO-UkG5TPcuJOey5PziWM8LT5s&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-A4YjociKUQQgaHfcRx9rGPnqDu-SfoZPcF39IufFARA&oe=6A42EBDB\",\n    \"is_verified\": false,\n    \"id\": \"32824791193\",\n    \"fbid_v2\": \"17841432855813098\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  },\n  \"media\": {\n    \"first_party_cdn_proxied_images\": {\n      \"fixed_height\": {\n        \"url\": \"https://cdn.fbsbx.com/v/t59.2708-21/540281769_1516894573012379_4776510866004392932_n.gif?_nc_cat=101&ccb=1-7&_nc_sid=9dcd69&_nc_ohc=iFOxjs_ckzoQ7kNvwEQgcdT&_nc_oc=AdqKXbOItAjaB9JcMhqx7MtzZOYpbYGT9SPmNuZg_VADfaE-CxwSLGtgXMkMJt3ahZc&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=03_Q7cD5gH7HrMkFlEK3VsYFNCeWhC8U-5B14403q6m_ejHgqPJWw&oe=6A3EE756\"\n      }\n    },\n    \"images\": {\n      \"fixed_height\": {\n        \"url\": \"https://static.cdninstagram.com/rsrc.php/v4/yr/r/xg_5YoVlvjp.gif\"\n      }\n    },\n    \"id\": \"1570703541415172\"\n  }\n},\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18119325979762265\",\n  \"id\": \"18119325979762265\",\n  \"text\": \"Anda el diablo, \ud83d\ude02\ud83d\ude02\",\n  \"ownerUsername\": \"mr_ventura.j\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-2.cdninstagram.com/v/t51.2885-19/482946673_610886311778265_2668206524915634709_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MjguQzMifQ%3D%3D&_nc_ohc=FIVuIcZTqkQQ7kNvwGW3APs&_nc_oc=AdrhdG57pw80dCHmaTX-MRdvfLX5iYJJ8oPnsao0wFImBqMfQn7RGFOY_shbwu7YrFI&_nc_zt=24&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af8niwMDCab4KfDLxkew8K3RP6dtHNLKaB4XWb7LQFvacw&oe=6A430456\",\n  \"timestamp\": \"2026-06-22T17:21:43.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 3,\n  \"owner\": {\n    \"username\": \"mr_ventura.j\",\n    \"profile_pic_url\": \"https://scontent-ord5-2.cdninstagram.com/v/t51.2885-19/482946673_610886311778265_2668206524915634709_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MjguQzMifQ%3D%3D&_nc_ohc=FIVuIcZTqkQQ7kNvwGW3APs&_nc_oc=AdrhdG57pw80dCHmaTX-MRdvfLX5iYJJ8oPnsao0wFImBqMfQn7RGFOY_shbwu7YrFI&_nc_zt=24&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af8niwMDCab4KfDLxkew8K3RP6dtHNLKaB4XWb7LQFvacw&oe=6A430456\",\n    \"is_verified\": false,\n    \"id\": \"4298523042\",\n    \"fbid_v2\": \"17841404171287315\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  }\n},\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18080756183267307\",\n  \"id\": \"18080756183267307\",\n  \"text\": \"Infinite space and yet we don\u2019t know half of our ocean. Stop wasting resources for wondrous shit\",\n  \"ownerUsername\": \"idlehandsoraidolshands\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/589085310_18161660818396753_1518200406298839070_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=d00l4vlIpGgQ7kNvwEBivSj&_nc_oc=AdozkM1zr_i2jPZsH2WSUT1OLakC7nzhCKKuD0_E7z9muVqYIAoAS_D-cPoPdPT9yTs&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-kGNEr1yj0T3kYro6HAF02e-2djfXgIZhezmZaJqxM3w&oe=6A42F8B1\",\n  \"timestamp\": \"2026-06-22T17:21:19.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 1,\n  \"owner\": {\n    \"username\": \"idlehandsoraidolshands\",\n    \"profile_pic_url\": \"https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/589085310_18161660818396753_1518200406298839070_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=d00l4vlIpGgQ7kNvwEBivSj&_nc_oc=AdozkM1zr_i2jPZsH2WSUT1OLakC7nzhCKKuD0_E7z9muVqYIAoAS_D-cPoPdPT9yTs&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-kGNEr1yj0T3kYro6HAF02e-2djfXgIZhezmZaJqxM3w&oe=6A42F8B1\",\n    \"is_verified\": false,\n    \"id\": \"11823308752\",\n    \"fbid_v2\": \"17841411902567913\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  }\n```\n\n### \ud83d\udc64 Profile details\n\nProfile metadata: bio, followers, posts count, verified status.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/nike/` (username)\n- `https://www.instagram.com/13460080/` (profile ID)\n- `https://www.instagram.com/humansofny/reels/` (reels section)\n\n**Profile data sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/humansofny/\",\n    \"id\": \"242598499\",\n    \"username\": \"humansofny\",\n    \"url\": \"https://www.instagram.com/humansofny\",\n    \"fullName\": \"Humans of New York\",\n    \"biography\": \"New York City, one story at a time.\\nCreated by Brandon Stanton\\nDear New York available wherever books are sold.\",\n    \"externalUrls\": [\n        {\n            \"title\": \"Join HONY's Patreon\",\n            \"url\": \"https://bit.ly/4tX4uZt\",\n            \"link_type\": \"external\"\n        }\n    ],\n    \"externalUrl\": \"https://bit.ly/4tX4uZt\",\n    \"followersCount\": 12613771,\n    \"followsCount\": 738,\n    \"highlightReelCount\": 1,\n    \"isBusinessAccount\": false,\n    \"joinedRecently\": false,\n    \"businessCategoryName\": null,\n    \"private\": false,\n    \"verified\": true,\n    \"profilePicUrl\": \"https://scontent.cdninstagram.com/.../488057622_n.jpg\",\n    \"profilePicUrlHD\": \"https://scontent.cdninstagram.com/.../488057622_n.jpg\",\n    \"igtvVideoCount\": 0,\n    \"postsCount\": 5863,\n    \"fbid\": \"17841401154973790\",\n    \"latestPosts\": [\n        {\n            \"id\": \"3741054891297971261\",\n            \"type\": \"Video\",\n            \"shortCode\": \"DPq5ZpJDZw9\",\n            \"caption\": \"Dear New York closes on October 19th. It's been the honor and joy of my life to see this take flight...\",\n            \"hashtags\": [],\n            \"mentions\": [],\n            \"url\": \"https://www.instagram.com/p/DPq5ZpJDZw9/\",\n            \"commentsCount\": 942,\n            \"dimensionsHeight\": 1136,\n            \"dimensionsWidth\": 640,\n            \"displayUrl\": \"https://scontent.cdninstagram.com/.../562558918_n.jpg\",\n            \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQOZS_IaHCgcUdg7VqoJnQrUb7g.mp4\",\n            \"likesCount\": 106869,\n            \"videoViewCount\": 1024817,\n            \"timestamp\": \"2025-10-11T13:27:07.000Z\",\n            \"ownerUsername\": \"humansofny\",\n            \"ownerId\": \"242598499\",\n            \"productType\": \"clips\",\n            \"isPinned\": true,\n            \"isCommentsDisabled\": false\n        }\n    ]\n}\n```\n\n### \ud83d\udccd Place details\n\nLocation metadata: name, coordinates, category, post count.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/explore/locations/7538318/copenhagen/` (with slug)\n- `https://www.instagram.com/explore/locations/7538318/` (ID only)\n\n**Place details sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/explore/locations/218622660/lucerna-music-bar/\",\n    \"name\": \"Lucerna Music Bar\",\n    \"phone\": \"\",\n    \"category\": \"Live Music Venue\",\n    \"media_count\": 41997,\n    \"price_range\": 0,\n    \"lat\": 50.081113650673,\n    \"lng\": 14.425622825572,\n    \"slug\": \"lucerna-music-bar\",\n    \"location_id\": \"218622660\",\n    \"location_address\": \"Vodi\u010dkova 36\",\n    \"location_city\": \"\",\n    \"location_zip\": \"110 00\",\n    \"ig_business\": {\n        \"profile\": {\n            \"profile_pic_url\": \"https://scontent.cdninstagram.com/.../711514083_n.jpg\",\n            \"username\": \"lucernamusicbar\",\n            \"id\": \"571745390\"\n        }\n    },\n    \"posts\": [\n        {\n            \"code\": \"DOyoz3eDwda\",\n            \"id\": \"3725219327902680922_2428242588\",\n            \"taken_at\": 1758300771,\n            \"product_type\": \"carousel_container\",\n            \"username\": \"rikafiorentina_ride\",\n            \"caption\": \"getting ready for #ridePRG #INTERPLAYeurope2025\\n3 May 2025\\nLucerna Music Bar, Prague \ud83c\udde8\ud83c\uddff\\n#rikafiorentina_ride\",\n            \"like_count\": 1,\n            \"comment_count\": 0,\n            \"location\": \"Lucerna Music Bar\",\n            \"carousel_media\": [\n                \"https://scontent.cdninstagram.com/.../551088079_n.jpg\",\n                \"https://scontent.cdninstagram.com/.../550191647_n.jpg\",\n                \"https://scontent.cdninstagram.com/.../551959801_n.jpg\"\n            ]\n        }\n    ],\n    \"hours\": {\n        \"status\": \"\"\n    }\n}\n```\n\n### \ud83c\udff7\ufe0f Mentions\n\nPosts where a profile is tagged. Requires a known profile URL or ID.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/nike/` (profile)\n- `https://www.instagram.com/197622247/` (profile ID)\n- `https://www.instagram.com/humansofny/reels/` (profile reels section)\n\n**Mentions data sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/humansofny/reels/\",\n    \"id\": \"3924787795441061311\",\n    \"type\": \"Sidecar\",\n    \"shortCode\": \"DZ3pbSeDY2_\",\n    \"caption\": \"Infinitely grateful to the @humansofny community for helping @stephen_james_campbell start his new life...\",\n    \"hashtags\": [\"gratefulthankfulblessed\", \"summersolsticeblessings\"],\n    \"mentions\": [\"humansofny\", \"stephen_james_campbell\"],\n    \"url\": \"https://www.instagram.com/p/DZ3pbSeDY2_/\",\n    \"commentsCount\": 1,\n    \"likesCount\": 14,\n    \"videoPlayCount\": 0,\n    \"timestamp\": \"2026-06-22T01:19:46.000Z\",\n    \"displayUrl\": \"https://scontent.cdninstagram.com/.../730022154_n.jpg\",\n    \"carouselImageCount\": 20,\n    \"carouselImages\": [\n        \"https://scontent.cdninstagram.com/.../730022154_n.jpg\",\n        \"https://scontent.cdninstagram.com/.../730083595_n.jpg\",\n        \"https://scontent.cdninstagram.com/.../729128221_n.jpg\"\n    ],\n    \"ownerFullName\": \"Jordan Moody\",\n    \"ownerUsername\": \"dexawild\",\n    \"ownerId\": \"6521170568\",\n    \"productType\": \"carousel_container\",\n    \"taggedUsers\": [\"humansofny\", \"stephen_james_campbell\"],\n    \"music\": { \"title\": \"Follow The Sun\", \"artist\": \"Xavier Rudd\" }\n}\n```\n\n### #\ufe0f\u20e3 Hashtag details\n\nHashtag metadata: name, post count, related tags, reach tiers.\n\n**Supported URL input:**\n\n- `https://www.instagram.com/explore/tags/crossfit/` (hashtag)\n\n**Hashtag details sample**\n\n```json\n{\n    \"searchSource\": \"instagram\",\n    \"name\": \"fathersday\",\n    \"postsCount\": 21310000,\n    \"url\": \"https://www.instagram.com/explore/tags/fathersday\",\n    \"id\": \"fathersday\",\n    \"posts\": \"21.31 M\",\n    \"postsPerDay\": \"\u2014\",\n    \"difficulty\": \"\",\n    \"related\": [\n        { \"hash\": \"#giftideas\", \"info\": \"51.58 m\" },\n        { \"hash\": \"#gifts\", \"info\": \"45.95 m\" },\n        { \"hash\": \"#mothersday\", \"info\": \"41.33 m\" },\n        { \"hash\": \"#anniversary\", \"info\": \"30.9 m\" },\n        { \"hash\": \"#happymothersday\", \"info\": \"16.07 m\" },\n        { \"hash\": \"#giftsforher\", \"info\": \"12.35 m\" },\n        { \"hash\": \"#birthdaygift\", \"info\": \"10.44 m\" },\n        { \"hash\": \"#happyfathersday\", \"info\": \"10.14 m\" },\n        { \"hash\": \"#giftsforhim\", \"info\": \"6.48 m\" }\n    ],\n    \"frequent\": [\n        { \"hash\": \"#fathersday\", \"info\": \"21.31 m\" },\n        { \"hash\": \"#happyfathersday\", \"info\": \"10.14 m\" },\n        { \"hash\": \"#fathersdaygifts\", \"info\": \"2.25 m\" },\n        { \"hash\": \"#fathersdaygift\", \"info\": \"1.01 m\" }\n    ],\n    \"average\": [{ \"hash\": \"#fathersdaygiftideas\", \"info\": \"529.04 k\" }],\n    \"rare\": [{ \"hash\": \"#fathersdaycard\", \"info\": \"93.89 k\" }],\n    \"relatedFrequent\": [\n        { \"hash\": \"#love\", \"info\": \"2.15 g\" },\n        { \"hash\": \"#dad\", \"info\": \"28.71 m\" },\n        { \"hash\": \"#family\", \"info\": \"475.12 m\" },\n        { \"hash\": \"#mothersday\", \"info\": \"41.33 m\" },\n        { \"hash\": \"#daddy\", \"info\": \"18.72 m\" },\n        { \"hash\": \"#instagood\", \"info\": \"2.02 g\" },\n        { \"hash\": \"#gift\", \"info\": \"91.25 m\" },\n        { \"hash\": \"#birthday\", \"info\": \"177.31 m\" },\n        { \"hash\": \"#giftideas\", \"info\": \"51.58 m\" }\n    ],\n    \"relatedAverage\": [{ \"hash\": \"#vatertag\", \"info\": \"656.9 k\" }],\n    \"relatedRare\": [{ \"hash\": \"#dietsantai\", \"info\": \"42.03 k\" }]\n}\n```\n\n### \ud83d\udc88 Place search\n\nDiscover Instagram places by keyword. Useful for small business discovery: the search query works best when it combines a city and a local business type, e.g. `vintage shop copenhagen`.\n\n**Search query format:**\n\n- Set `searchType` to `\"place\"`\n- Set `search` to one or more keywords (comma-separated for multiple)\n\n**Place search data sample**\n\n```json\n[\n    {\n        \"searchTerm\": \"vintage shop copenhagen\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/1016004479/fn92/\",\n        \"name\": \"FN92\",\n        \"phone\": \"+45 22 48 56 86\",\n        \"category\": \"Clothing store\",\n        \"media_count\": 9,\n        \"price_range\": 3,\n        \"lat\": 55.71375,\n        \"lng\": 12.56804,\n        \"slug\": \"fn92\",\n        \"location_id\": \"1016004479\",\n        \"location_address\": \"Bryggervangen 76\",\n        \"location_city\": \"\",\n        \"location_zip\": \"2100\",\n        \"ig_business\": { \"profile\": null },\n        \"hours\": { \"status\": \"\" }\n    },\n    {\n        \"searchTerm\": \"vintage shop copenhagen\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/334251990081960/jerome-vintage/\",\n        \"name\": \"JEROME VINTAGE\",\n        \"phone\": \"\",\n        \"category\": \"Vintage Store\",\n        \"media_count\": 582,\n        \"price_range\": 0,\n        \"lat\": 55.67437,\n        \"lng\": 12.54993,\n        \"slug\": \"jerome-vintage\",\n        \"location_id\": \"334251990081960\",\n        \"location_address\": \"Vesterbrogade 36\",\n        \"location_city\": \"\",\n        \"location_zip\": \"1620\",\n        \"ig_business\": {\n            \"profile\": {\n                \"profile_pic_url\": \"https://scontent.cdninstagram.com/.../350941664_n.jpg\",\n                \"username\": \"jerome_vintage\",\n                \"id\": \"1401828165\"\n            }\n        },\n        \"hours\": { \"status\": \"Closed\" }\n    },\n    {\n        \"searchTerm\": \"vintage shop copenhagen\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/318767455/robb-copenhagen-shop/\",\n        \"name\": \"Robb Copenhagen (Shop)\",\n        \"phone\": \"\",\n        \"category\": \"Local business\",\n        \"media_count\": 100,\n        \"price_range\": 0,\n        \"lat\": 55.67264,\n        \"lng\": 12.55788,\n        \"slug\": \"robb-copenhagen-shop\",\n        \"location_id\": \"318767455\",\n        \"location_address\": \"Vesterbrogade 35\",\n        \"location_city\": \"\",\n        \"location_zip\": \"1654\",\n        \"ig_business\": { \"profile\": null },\n        \"posts\": [\n            {\n                \"code\": \"vqBeQcAJg5\",\n                \"id\": \"858505156247984185_506605037\",\n                \"taken_at\": 1416561811,\n                \"product_type\": \"feed\",\n                \"username\": \"robbcopenhagen\",\n                \"caption\": \"A few vintage BARBAR left // perfect gift 250,- remember we ship to other countries as well \ud83d\udc18\ud83d\udc18 #robbcopenhagen #fashion #store #vesterbrogade35 #babarbar #vintage @robbcopenhagen\",\n                \"like_count\": 4,\n                \"comment_count\": 0,\n                \"location\": \"Robb Copenhagen (Shop)\",\n                \"image\": \"https://scontent.cdninstagram.com/.../632287548_n.jpg\"\n            }\n        ],\n        \"hours\": { \"status\": \"\" }\n    }\n]\n```\n\n### \ud83d\udc65 Profile search\n\nDiscover Instagram profiles by keyword. Returns matching users along with their recent posts.\n\n**Search query format:**\n\n- Set `searchType` to `\"profile\"`\n- Set `search` to one or more keywords, e.g. `\"nike\"` or `\"nike, adidas\"` (comma-separated for multiple)\n\n**Profile search data sample**\n\n```json\n[\n    {\n        \"id\": \"3924506097334912938\",\n        \"shortCode\": \"DZ2pYCqgIeq\",\n        \"type\": \"Sidecar\",\n        \"ownerUsername\": \"nikesportswear\",\n        \"ownerFullName\": \"Nike Sportswear\",\n        \"caption\": \"Bring the love.\\n\\n@arynasabalenka on set with Nike Court.\\n\\nAll Love collection available June 22.\",\n        \"url\": \"https://www.instagram.com/p/DZ2pYCqgIeq/\",\n        \"likesCount\": 39779,\n        \"commentsCount\": 135,\n        \"timestamp\": \"2026-06-21T16:00:05.000Z\",\n        \"taggedUsers\": [\"arynasabalenka\"],\n        \"carouselImageCount\": 5,\n        \"images\": [\n            \"https://scontent.cdninstagram.com/.../729869204_n.jpg\",\n            \"https://scontent.cdninstagram.com/.../729359762_n.jpg\"\n        ]\n    },\n    {\n        \"id\": \"3925170511466021648\",\n        \"shortCode\": \"DZ5AciixUMQ\",\n        \"type\": \"Video\",\n        \"ownerUsername\": \"nike\",\n        \"caption\": \"Time for liftoff @erling and @channingtatum\",\n        \"url\": \"https://www.instagram.com/p/DZ5AciixUMQ/\",\n        \"likesCount\": 10720,\n        \"commentsCount\": 64,\n        \"videoViewCount\": 83809,\n        \"videoPlayCount\": 506507,\n        \"videoDuration\": 44.75,\n        \"timestamp\": \"2026-06-22T14:01:05.000Z\",\n        \"taggedUsers\": [\"nikefootball\", \"erling\", \"channingtatum\"],\n        \"displayUrl\": \"https://scontent.cdninstagram.com/.../729747056_n.jpg\",\n        \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQPNH7ACF2tBTf.mp4\",\n        \"music\": \"Original audio - nike\"\n    },\n    {\n        \"id\": \"3912183471120209303\",\n        \"shortCode\": \"DZK3iOsRlWX\",\n        \"type\": \"Video\",\n        \"ownerUsername\": \"nike\",\n        \"caption\": \"It was all going to plan until instincts took over\u2026\\n\\nRip The Script\",\n        \"url\": \"https://www.instagram.com/p/DZK3iOsRlWX/\",\n        \"likesCount\": 2487337,\n        \"commentsCount\": 54939,\n        \"videoViewCount\": 14401109,\n        \"videoPlayCount\": 59671075,\n        \"videoDuration\": 359.75,\n        \"timestamp\": \"2026-06-04T15:59:27.000Z\",\n        \"isPinned\": true,\n        \"taggedUsers\": [\"nikefootball\"],\n        \"displayUrl\": \"https://scontent.cdninstagram.com/.../717154541_n.jpg\",\n        \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQNKUhlPLvsO.mp4\",\n        \"music\": \"Original audio - nike\"\n    }\n]\n```\n\n### \ud83d\udc41\ufe0f Hashtag search\n\nDiscover related hashtags by keyword. Useful for finding adjacent or less-saturated tags around a topic.\n\n**Search query format:**\n\n- Set `searchType` to `\"hashtag\"`\n- Set `search` to one or more keywords, e.g. `\"travel\"` or `\"travel, fitness\"` (comma-separated for multiple)\n\n**Hashtag search data sample**\n\n```json\n[\n    {\n        \"searchTerm\": \"fathersday\",\n        \"searchSource\": \"google\",\n        \"name\": \"raddad\",\n        \"postsCount\": 0,\n        \"url\": \"https://www.instagram.com/explore/tags/raddad\",\n        \"id\": \"raddad\"\n    },\n    {\n        \"searchTerm\": \"fathersday\",\n        \"searchSource\": \"google\",\n        \"name\": \"campdads\",\n        \"postsCount\": 117,\n        \"url\": \"https://www.instagram.com/explore/tags/campdads\",\n        \"id\": \"campdads\",\n        \"posts\": \"117\",\n        \"postsPerDay\": \"\u2014\",\n        \"difficulty\": \"\",\n        \"related\": [],\n        \"average\": [],\n        \"rare\": []\n    },\n    {\n        \"searchTerm\": \"fathersday\",\n        \"searchSource\": \"google\",\n        \"name\": \"happyfather\",\n        \"postsCount\": 25209000,\n        \"url\": \"https://www.instagram.com/explore/tags/happyfather\",\n        \"id\": \"happyfather\",\n        \"posts\": \"252.09 K\",\n        \"postsPerDay\": \"\u2014\",\n        \"difficulty\": \"\",\n        \"related\": [{ \"hash\": \"#happyfathersday\", \"info\": \"10.14 m\" }],\n        \"average\": [{ \"hash\": \"#happyfatherday\", \"info\": \"283.05 k\" }],\n        \"rare\": [{ \"hash\": \"#happyfathersdaydad\", \"info\": \"59.63 k\" }],\n        \"relatedFrequent\": [\n            { \"hash\": \"#happy\", \"info\": \"737.91 m\" },\n            { \"hash\": \"#father\", \"info\": \"46.02 m\" },\n            { \"hash\": \"#love\", \"info\": \"2.15 g\" }\n        ],\n        \"relatedAverage\": [{ \"hash\": \"#dadsday\", \"info\": \"386.01 k\" }],\n        \"relatedRare\": [{ \"hash\": \"#holidayphoto\", \"info\": \"74.76 k\" }]\n    }\n]\n```\n\n## Notes and exceptions\n\n- **URL type drives output schema.** Hashtag, location, audio, and explore URLs return their respective metadata even when paired with another content mode.\n- **URLs take priority over search queries**; they can't be combined.\n- Multiple search words are allowed; you just need to comma-separate them.\n- **Profile IDs are interchangeable with usernames** anywhere a profile URL is accepted.\n- **`_u` and `profilecard` segments are stripped automatically**, so `instagram.com/_u/natgeo/profilecard/` works as a profile URL.\n- **Story URLs** (`instagram.com/stories/emiliavizcarra/`) are reduced to the username before scraping.\n- **Share URLs** (`instagram.com/share/BAC6cDeb_-`) are resolved to the canonical post URL via a redirect.\n- **Location URLs accept the ID alone**, without the trailing slug: `instagram.com/explore/locations/7538318/` is valid.\n- Date filters use **UTC**.\n- **Not supported:** numeric post IDs in URL form (`instagram.com/p/3369450800358839406/`) for `posts`, `reels`, `mentions`, and `details` modes. Use the shortCode form. (This format works for `comments`.)\n\n## What can you do with data after scraping Instagram?\n\nInstagram Scraper is a very versatile tool that can handle hundreds of use cases. Here are a few tips on most common ways people get and interpret public Instagram data:\n\n### \ud83c\udfaf [Influencer vetting and partnership research](https://apify.com/use-cases/influencer-vetting)\n\nFollower count is a weak signal to find and filter influencer partnerships. Score creators on engagement quality, audience authenticity, and posting consistency instead. Here's how to find and vet Instagram creators using Instagram Scraper:\n\n**Recipe:**\n\n1. **Find creators in your niche.** Run `posts` or `reels` with a hashtag URL like `instagram.com/explore/tags/fitness/`. You'll get a pool of recent posts with creator usernames and engagement numbers.\n\n2. **Profile each candidate.** Run `details` on the profile URLs (or IDs) from step 1 to pull bios, follower counts, verified status, and business category.\n\n3. **Score real engagement.** Run `posts` or `reels` on the top 20\u201350 profile URLs to compare engagement rates, posting cadence, and format mix.\n\n4. **Audit audience sentiment.** Run `comments` on the top-performing post URLs from step 3 to read actual reactions and spot bot patterns.\n\nRe-run steps 2-3 weekly to catch follower drop-offs before signing. Send results to a creator CRM, Google Sheets, or your scoring dashboard.\n\n### \ud83d\udd25 [Trend tracking and UGC intelligence](https://apify.com/use-cases/instagram-trends-search)\n\nTrends move fast on Instagram, and the hashtags that drove reach last quarter rarely do today. Track what's gaining traction, which creators set the pace, and what's already saturated. Here's how to discover trends and UGC using Instagram Scraper:\n\n**Recipe:**\n\n1. **Monitor a target hashtag's content.** Run `posts` or `reels` with a hashtag URL like `instagram.com/explore/tags/cleanbeauty/` to see recent content under the tag and its engagement.\n\n2. **Measure hashtag size and reach.** Run `details` on the same hashtag URL to get post count, posts-per-day, and frequent/average/rare usage buckets.\n\n3. **Find adjacent, less-saturated tags.** Run `details` on the hashtag URL (or a hashtag search query) to surface related tags grouped by reach tier.\n\nDaily runs for fast-moving categories (fashion, beauty, fitness). Weekly runs for steadier verticals (B2B, home, finance). Send output to trend dashboards, content planning tools, or Slack for daily digests.\n\n### \ud83d\udcaf Competition or campaign monitoring\n\nTrack what your competitors post, when they post, and how their audience reacts. The same workflow applies to monitoring your own campaigns. Here's how to track competitors, influencers, or campaigns using Instagram Scraper:\n\n**Recipe:**\n\n1. **Track competitor stats.** Run `details` on a competitor profile URL like `instagram.com/competitor/` to capture follower growth, bio updates, and posts count.\n\n2. **Compare content output.** Run `posts` or `reels` on the same profile URL to see engagement rates, top-performing content, and format mix.\n\n3. **Read audience reactions.** Run `comments` on the top competitor post URLs from step 2 to hear what their audience actually says.\n\n4. **Map their hashtag strategy.** Run `details` on the hashtag URLs they use to see reach tier and related-tag clusters.\n\nRun weekly. Send results to a competitive intelligence dashboard, a shared sheet, or your strategy doc.\n\n### \ud83d\udd14 Brand monitoring and mentions\n\nInstagram doesn't expose comments to search, which makes true real-time brand monitoring harder than on Twitter or Reddit. Combine three angles to get as close as possible. Here's how to work with brand mentions using Instagram Scraper:\n\n**Recipe (run all three in parallel, then deduplicate):**\n\n1. **Catch caption mentions.** Run `posts` with a search query of your brand name (set `searchType` to `\"user\"`) to find posts where your brand appears in the caption text.\n\n2. **Track branded hashtag UGC.** Run `posts` or `reels` with a branded hashtag URL like `instagram.com/explore/tags/yourbrand/` to capture content from fans, customers, and creators who chose to tag you.\n\n3. **Capture @-tag mentions.** Run `mentions` on your own profile URL like `instagram.com/yourbrand/` to find posts where your account is @-tagged.\n\nCombine all three for the widest realistic net. Comments stay out of reach because Instagram doesn't expose comment text to search. Send results to a brand monitoring dashboard, your CRM, or Slack for daily alerts.\n\n### \ud83c\udfd9\ufe0f [Local business discovery and lead generation](https://apify.com/use-cases/local-businesses-discovery)\n\nMany local businesses (salons, restaurants, gyms, boutiques) are active on Instagram but missing from Google Maps, Yelp, and traditional B2B lists. Here's how to find local businesses using Instagram Scraper:\n\n**Recipe:**\n\n1. **Discover places by category and city.** Run `details` with a search query like `vintage shop copenhagen` (set `searchType` to `\"place\"`) to get a list of tagged Instagram places matching your query.\n\n2. **Get place data.** Run `details` on each place URL like `instagram.com/explore/locations/318767455/` to capture coordinates, category, post count, and the linked business profile.\n\n3. **Enrich with profile info.** Run `details` on the linked profile URL from step 2 to pull the business's bio, follower count, contact info, and recent posts.\n\nUse cases include market entry research, competitive mapping, hyper-local partnership prospecting, and CRM enrichment. Export to CSV or send to your CRM via API.\n\n## Want to get other data from Instagram?\n\nYou can use the other dedicated scrapers below if you want to scrape specific Instagram data:\n\n<table>\n<tr>\n<td>\ud83d\udcf7 <a href=\"https://apify.com/apify/instagram-post-scraper\">Instagram Post Scraper</a></td>\n<td>\ud83d\udcac <a href=\"https://apify.com/apify/instagram-comment-scraper\">Instagram Comments Scraper</a></td>\n</tr>\n<tr>\n<td>\ud83d\udc64 <a href=\"https://apify.com/apify/instagram-profile-scraper\">Instagram Profile Scraper</a></td>\n<td>\ud83c\udf9e\ufe0f <a href=\"https://apify.com/apify/instagram-reel-scraper\">Instagram Reel Scraper</a></td>\n</tr>\n<tr>\n<td>#\ufe0f\u20e3 <a href=\"https://apify.com/apify/instagram-hashtag-scraper\">Instagram Hashtag Scraper</a></td>\n<td>\ud83d\udcca <a href=\"https://apify.com/apify/instagram-hashtag-analytics-scraper\">Instagram Hashtag Analytics Scraper</a></td>\n</tr>\n<tr>\n<td>\ud83c\udff7\ufe0f <a href=\"https://apify.com/apify/instagram-tagged-scraper\">Instagram Mentions Scraper</a></td>\n<td>\ud83d\udc65 <a href=\"https://apify.com/apify/instagram-followers-count-scraper\">Instagram Followers Count Scraper</a></td>\n</tr>\n<tr>\n<td>\ud83d\udd0e <a href=\"https://apify.com/apify/instagram-search-scraper\">Instagram Search Scraper</a></td>\n<td>\ud83d\udcbe <a href=\"https://apify.com/apify/export-instagram-comments-posts\">Export Instagram Comments and Posts Tool</a></td>\n</tr>\n<tr>\n<td>\ud83d\udd2e <a href=\"https://apify.com/apify/brand-collaboration-scraper\">Instagram Influencer Collaboration Scraper</a></td>\n<td>\ud83d\udecd\ufe0f <a href=\"https://apify.com/apify/facebook-ads-scraper\">Instagram Ads Scraper</a></td>\n</tr>\n</table>\n\n> Want Threads data too? Instagram and Threads share usernames, so the [Threads Profile Scraper](https://apify.com/apify/threads-profile-api-scraper) works the same way.\n\n## \u2753 Frequently Asked Questions\n\n### Can I scrape multiple content types in a single run?\n\nNo. Each run produces one content type, controlled by the **Content to scrape** parameter. To collect both posts and comments, run the Actor twice or chain runs via webhooks ot using MCP.\n\n### Can I combine URLs and search queries?\n\nNo. **URLs always take priority over search queries**, and they cannot be combined in the same run.\n\n### What's the difference between Posts, Reels, and Mentions output?\n\nAll three return media items with the same schema. The difference is which items come back: **Posts** returns the feed of a profile/hashtag/place, **Reels** filters to reel content (`productType: \"clips\"`), and **Mentions** returns posts where the target profile is tagged.\n\n### How many results can I scrape?\n\nIt depends on the content type, input, and what Instagram exposes publicly. There's no fixed cap. Open the target URL in an incognito window to see what's available to logged-out users, and test with a small run first. **Free plan users are limited to one page of comments per post (~15 comments)**; paid plans don't have this restriction.\n\n### Can I scrape private Instagram profiles?\n\nIn general, no, you cannot scrape private Instagram profiles with Apify Actors. However, if the private profile is **tagged as a collaborator/co-author on a post**, and at least one of the other collaborators has a public profile, Instagram treats that post as public \u2014 regardless of the target account\u2019s own privacy setting. Because the Actor picks up whatever data Instagram\u2019s API hands back for that profile\u2019s content feed, those collaborative posts will get included even though the account itself is private.\n\n### Sometimes the scraped metrics (like, comment, and view counts) don\u2019t match with what is shown on Instagram. Why is that?\n\nIf you compare a post or reel side by side with the Actor's output, the numbers can differ. There are two common reasons, and neither means the data is wrong.\n\n1. The Actor sees the logged-out version of the page. The Actor scrapes public data, so it gets the same counts Instagram shows a visitor who isn't signed in. Instagram doesn't show logged-out visitors everything: engagement from private accounts, for example, is often hidden. That means the counts you see while logged into your own account can be higher than the ones the Actor returns.\n   To check what the Actor should see, open the post in a private/incognito browser window. The counts there should match the Actor's output. If they do, the Actor is working correctly.\n\n2. Counts are a snapshot from the moment of the run. Views, likes, and comments keep changing after the run finishes. A reel that returned 976 views in the morning can legitimately show 982 views when you check it in the afternoon. Always compare against the run's timestamp, not against the live page hours or days later. If the numbers still don't line up after both checks, contact support with the run ID and the post URL so we can look into it.\n\n### How do I exclude pinned posts?\n\nSet `\"skipPinnedPosts\": true` (works with `resultsType: \"posts\"`). Two useful combinations:\n\n- **Skip old pinned posts, keep recent ones:** `\"skipPinnedPosts\": true` + `\"onlyPostsNewerThan\": \"1 day\"` keeps pinned posts from the last day and skips older ones.\n- **Scrape only pinned posts:** `\"skipPinnedPosts\": false` + `\"onlyPostsNewerThan\": \"0 minutes\"`.\n\n### How do I scrape only recent posts?\n\nUse `\"onlyPostsNewerThan\"` with `resultsType: \"posts\"`. Accepted formats:\n\n- Relative: `\"1 day\"`, `\"2 months\"`, `\"3 years\"`\n- Date only: `\"2024-09-05\"`\n- Date with time: `\"2024-09-05T13:22:04\"`\n- Date with time in UTC: `\"2024-09-05T13:22:04Z\"` (the `Z` denotes UTC)\n- With milliseconds: `\"2024-09-05T13:22:04.123\"`\n\nInstagram applies UTC internally, so the filter compares against UTC regardless of your local timezone.\n\n### Can I scrape the newest comments first?\n\nYes. Set `\"isNewestComments\": true` when `resultsType: \"comments\"`. Free plans use the default order.\n\n### Can I get comment replies?\n\nYes, on paid plans. Set `\"includeNestedComments\": true` when `resultsType: \"comments\"`. Each reply is returned as a separate result, so the total count will exceed your `resultsLimit`.\n\n### Can I get extra profile statistics?\n\nSet `\"addProfileStatistics\": true` when `resultsType: \"details\"`. This adds a `statistics` object to each profile result with fields like account type (1 = Personal, 2 = Business, 3 = Creator) and other profile-level data. Works for private profiles too.\n\n### Why is `likesCount` sometimes `-1`?\n\nWhen a creator hides the like count on a reel or post, Instagram doesn't expose it. The scraper returns `-1` to indicate the value isn't publicly available.\n\n### Is it legal to scrape Instagram?\n\nOur [social media scrapers](https://apify.com/store/collections/instagram-facebook-scrapers) only collects data that is publicly available on Instagram. It does not access private content. You should be aware that some public data may be considered personal data under regulations like the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). Only scrape data if you have a legitimate reason. For guidance, see our blog on [the legality of web scraping](https://blog.apify.com/is-web-scraping-legal/).\n\n### Can I integrate Instagram data with other services?\n\nYes. Scraped Instagram data can be integrated with almost any cloud service or web app. Apify supports **Zapier, n8n, Slack, Make, Airbyte, Gumloop, CrewAI, IFTTT, Lindy, GitHub, Google Sheets, Google Drive**, [and more](https://apify.com/integrations). You can also use [webhooks](https://docs.apify.com/integrations/webhooks) to trigger actions whenever a run finishes, like sending notifications or syncing datasets.\n\n### Can I use Instagram Scraper with the Apify API?\n\nYes. The Apify API provides programmatic access to run Actors, fetch datasets, monitor performance, and manage tasks. For Node.js, use the `apify-client` [NPM package](https://apify.com/apify/instagram-scraper/api/javascript). For Python, use the `apify-client` [PyPI package](https://apify.com/apify/instagram-scraper/api/python). Full API docs are available in the [Apify API reference](https://docs.apify.com/api/v2).\n\n### Can I get Instagram data through an MCP server?\n\nYes. You can [connect](https://apify.com/apify/instagram-scraper/api/mcp) to an MCP server using clients like ClaudeDesktop or LibreChat, or build your own integration. For Instagram Scraper:\n\n1. Start a Server-Sent Events (SSE) session to receive a `sessionId`.\n2. Send API messages using that `sessionId` to trigger the scraper.\n3. The message starts the Instagram Scraper with the provided input.\n4. The response should be: Accepted.\n\nLearn more in the [MCP setup guide](https://blog.apify.com/how-to-use-mcp/).\n\n### Instagram Scraper not working?\n\nThe Apify team constantly improves Actor performance. If you find bugs or technical issues, please create an issue on the Actor's [Issues tab](https://apify.com/apify/instagram-scraper/issues/open).\n",
+  "changelog": "This changelog summarizes all changes of the Instagram actors provided by the [Apify organization](https://apify.com/store?search=instagram). The specific actors that are affected are listed for each change.\n\n## 2026-01-12\n\n_Fixes_\n\n- Fixed parsing of profile IDs with improved ID validation:\n    - Removed the restriction that only accepted IDs greater than 99999\n    - Now accepts all IDs greater than 2 (ID 3 resolves to https://www.instagram.com/kevin, inventor & former CEO of Instagram)\n    - Numeric profile names are now handled via the pattern https://www.instagram.com/_u/888 (which redirects to https://www.instagram.com/888)\n\n## 2025-12-10\n\n_Features_\n\n- The `isSponsored` output field is now deprecated as Instagram no longer provides this data (it always returns `false`).\n\n## 2025-12-08\n\n_Features_\n\n- Added transcript support for Instagram Reels as a paid add-on.\n    - Enable it by setting the input option `\"includeTranscript\": true` on [the reels\n      scraper](https://console.apify.com/actors/xMc5Ga1oCONPmWJIa).\n\n## 2025-12-08\n\n_Fixes_\n\n- Fixed parsing of profile IDs for restricted accounts\n\n## 2025-11-28\n\n_Fixes_\n\n- For hashtag details and instagram reels partial output was not provided when requests for extra details failed\n\n## 2025-11-26\n\n_Features_\n\n- Deprecate `\"resultsType\": \"stories\"` in favor of `\"resultsType\": \"reels\"` in all Instagram Actors\". Please update your tasks and integrations.\n\n## 2025-11-05\n\n_Fixes_\n\n- Reels: Some reels (e.g. https://www.instagram.com/reel/DGORdc8vJlM/) contains separate video fragments for each quality and a separate audio stream. Fixed videoUrl for these cases (before it failed with the error \"Invalid handle\") and added audioUrl.\n\n## 2025-11-03\n\n_Features_\n\n- Allows to skip pinned reels in the Instagram Reel Scraper\n\n## 2025-10-23\n\n_Fixes_\n\n- Hashtag reels scraper now outputs _way_ more results. Also includes slight improvements to keyword search posts and reels\n\n## 2025-08-19\n\n_Fixes_\n\n- Reparsing tagged users from child posts\n\n## 2025-08-12\n\n_Fixes_\n\n- Restored google search results\n\n## 2025-05-14\n\n_Fixes_\n\n- Restored resolving profile details by ID\n\n## 2024-12-19\n\n_Features_\n\n- Added support for comments just with animated GIFs (no text) saved as media dataset item property\n\n## 2024-11-23\n\n_Fixes_\n\n- Restored Instagram Hashtag Stats Scraper. Dataset now includes latestPosts and topPosts.\n\n## 2024-11-08\n\n_Fixes_\n\n- Restored Instagram Comments Scraper. Free users are now limited to maximum 20 results per post. No limit for paying users.\n\n## 2024-11-05\n\n_Fixes_\n\n- Restored Instagram Mentions Scraper. Free users are now limited to maximum 20 results per profile. No limit for paying users.\n\n## 2024-10-23\n\n_Fixes_\n\n- Instagram Hashtag Stats migrated to new format with rounded posts count and related-frequent tags instead latest-top posts.\n\n## 2024-10-22\n\n_Fixes_\n\n- Restored Instagram Hashtag Scraper after the data source was put down by Instagram today. Free users are now limited to maximum 20 results per hashtag. No limit for paying users.\n\n## 2024-10-18\n\n_Fixes_\n\n- Fixed issue that caused some runs to stall for a long time without getting results. This happened when the input of Instagram Scraper defined `\"search\": \"any_keyword\", \"searchType\": \"hashtag\"`. Since users only pay for results, there wasn't any extra cost for the user.\n- Fixed a very rare issue where some runs could stall and continue printing `RequestQueue2: The request queue seems to be stuck`. We reverted to the version of queue that doesn't have this issue.\n\n## 2024-10-15\n\n_Fixes_\n\n- Instagram Hashtag Scraper was fully restored to the same functionality as before 9th of October. You can again receive 100s of thousands of results per hashtag and the order is mostly sorted from newest to oldest.\n\n## 2024-10-11\n\n_Fixes_\n\n- Improved number of results for Instagram Hashtag Scraper, especially when `Number of posts per hashtag` (`resultsLimit`) was small.\n\n_Features_\n\n- Added `Only scrape posts with exact hashtag in` (`onlyPostsWithHashtagIn`) to Instagram Hashtag Scraper input. You can choose `hashtags` to require the exact hashtag be present or `hashtag-or-text` where the keyword can be in the caption of the post. `hashtags` is the default value and the previous behavior.\n\n## 2024-10-09\n\n_Fixes_\n\n- **Important**: Instagram put hashtag scraping fully behind login. To work around this issue, Instagram Hashtag Scraper now uses Google Search to find posts with specific hashtags. This means you will get different amount and order of results. The team is examining options to restore the original functionality.\n\n## 2024-10-03\n\n_Fixes_\n\n- Only comments available without login are `latestComments` from post details, so amount even more limited than before and comments scraper just forwarding latest comments as separate dataset items\n\n## 2024-08-05\n\n_Features_\n\n- Don't retry requests on removed profiles, improve speed\n\n## 2024-06-17\n\n_Features_\n\n- Restricted profiles resolved with partial details\n\n## 2024-04-23\n\n_Features_\n\n- Profile search results from ThreadsNet autocomplete appended to Facebook Ads results and continued by Google Search\n- Added value `searchSource` (`instagram`, `threads`, `facebook-ads` or `google`) to dataset items saved from search\n\n## 2024-04-02\n\n_Features_\n\n- New API format to parse reels like https://www.instagram.com/reel/C4rQqstCWTQ/\n\n## 2024-02-07\n\n_Features_\n\n- Added `coauthorProducers` to posts and reels, sample https://www.instagram.com/p/C2vSQcOPkf6/ - note that web page show only first coauthor i.e. \"lekkercoffee*rino\" but in fact it might be more, i.e. https://www.instagram.com/cocoffeeshops/ feed includes sample \"C2vSQcOPkf6\"\n  \\_Fixes*\n- Post-reel hashtags and mentions parsed from parent comment(s) by owner, i.e. https://www.instagram.com/p/C2vSQcOPkf6/ and https://www.instagram.com/p/C2P_5CLRgWS/\n\n## 2023-11-03\n\n_Features_\n\n- Added `enhanceUserSearchWithFacebookPage` that enables enhancing user search with Facebook data that sometimes contains business emails. Facebook data are added under `facebookPage` output field.\n- All search types are now enhanced with up to 200 extra search results from Google Search. This means:\n    - Hashtag (top 50 results via Instagram + up to 200 from Google Search)\n    - User (top 10 results via Facebook ads + up to 200 from Google Search)\n    - Location (up to 200 from Google Search)\n\n## 2023-10-30\n\n_Fixes_\n\n- Partially fixed search again after the previous solution stopped working\n    - Hashtag - fully restored\n    - User - 14 max results via Facebook Ads\n    - Location - found via Google Search\n\n## 2023-10-25\n\n_Fixes_\n\n- Fixed search after Instagram changed endpoints\n\n## 2023-10-17\n\n_Features_\n\n- Monorepo to get rid of internal actor metamorph and delay caused by it.\n\n## 2023-10-10\n\n_Fixes_\n\n- Search for hashtags and places was shortly not working for some inputs due to internal bug in the last day. It is fixed now.\n\n_Older changes were removed from the changelog as we changed reporting the format._\n",
+  "gitCommitId": "b7bb85c43e9decc6209dc98b94f3c607adb15b43",
+  "gitBranchName": "main",
+  "actorDefinition": {
+    "$schema": "https://apify.com/schemas/v1/actor.json",
+    "actorSpecification": 1,
+    "name": "instagram-scraper",
+    "title": "Instagram Scraper",
+    "description": "Scrape and download Instagram posts, profiles, places, hashtags, photos without login.",
+    "version": "0.0.1",
+    "dockerfile": "../../../Dockerfile",
+    "dockerContextDir": "../../..",
+    "changelog": "This changelog summarizes all changes of the Instagram actors provided by the [Apify organization](https://apify.com/store?search=instagram). The specific actors that are affected are listed for each change.\n\n## 2026-01-12\n\n_Fixes_\n\n- Fixed parsing of profile IDs with improved ID validation:\n    - Removed the restriction that only accepted IDs greater than 99999\n    - Now accepts all IDs greater than 2 (ID 3 resolves to https://www.instagram.com/kevin, inventor & former CEO of Instagram)\n    - Numeric profile names are now handled via the pattern https://www.instagram.com/_u/888 (which redirects to https://www.instagram.com/888)\n\n## 2025-12-10\n\n_Features_\n\n- The `isSponsored` output field is now deprecated as Instagram no longer provides this data (it always returns `false`).\n\n## 2025-12-08\n\n_Features_\n\n- Added transcript support for Instagram Reels as a paid add-on.\n    - Enable it by setting the input option `\"includeTranscript\": true` on [the reels\n      scraper](https://console.apify.com/actors/xMc5Ga1oCONPmWJIa).\n\n## 2025-12-08\n\n_Fixes_\n\n- Fixed parsing of profile IDs for restricted accounts\n\n## 2025-11-28\n\n_Fixes_\n\n- For hashtag details and instagram reels partial output was not provided when requests for extra details failed\n\n## 2025-11-26\n\n_Features_\n\n- Deprecate `\"resultsType\": \"stories\"` in favor of `\"resultsType\": \"reels\"` in all Instagram Actors\". Please update your tasks and integrations.\n\n## 2025-11-05\n\n_Fixes_\n\n- Reels: Some reels (e.g. https://www.instagram.com/reel/DGORdc8vJlM/) contains separate video fragments for each quality and a separate audio stream. Fixed videoUrl for these cases (before it failed with the error \"Invalid handle\") and added audioUrl.\n\n## 2025-11-03\n\n_Features_\n\n- Allows to skip pinned reels in the Instagram Reel Scraper\n\n## 2025-10-23\n\n_Fixes_\n\n- Hashtag reels scraper now outputs _way_ more results. Also includes slight improvements to keyword search posts and reels\n\n## 2025-08-19\n\n_Fixes_\n\n- Reparsing tagged users from child posts\n\n## 2025-08-12\n\n_Fixes_\n\n- Restored google search results\n\n## 2025-05-14\n\n_Fixes_\n\n- Restored resolving profile details by ID\n\n## 2024-12-19\n\n_Features_\n\n- Added support for comments just with animated GIFs (no text) saved as media dataset item property\n\n## 2024-11-23\n\n_Fixes_\n\n- Restored Instagram Hashtag Stats Scraper. Dataset now includes latestPosts and topPosts.\n\n## 2024-11-08\n\n_Fixes_\n\n- Restored Instagram Comments Scraper. Free users are now limited to maximum 20 results per post. No limit for paying users.\n\n## 2024-11-05\n\n_Fixes_\n\n- Restored Instagram Mentions Scraper. Free users are now limited to maximum 20 results per profile. No limit for paying users.\n\n## 2024-10-23\n\n_Fixes_\n\n- Instagram Hashtag Stats migrated to new format with rounded posts count and related-frequent tags instead latest-top posts.\n\n## 2024-10-22\n\n_Fixes_\n\n- Restored Instagram Hashtag Scraper after the data source was put down by Instagram today. Free users are now limited to maximum 20 results per hashtag. No limit for paying users.\n\n## 2024-10-18\n\n_Fixes_\n\n- Fixed issue that caused some runs to stall for a long time without getting results. This happened when the input of Instagram Scraper defined `\"search\": \"any_keyword\", \"searchType\": \"hashtag\"`. Since users only pay for results, there wasn't any extra cost for the user.\n- Fixed a very rare issue where some runs could stall and continue printing `RequestQueue2: The request queue seems to be stuck`. We reverted to the version of queue that doesn't have this issue.\n\n## 2024-10-15\n\n_Fixes_\n\n- Instagram Hashtag Scraper was fully restored to the same functionality as before 9th of October. You can again receive 100s of thousands of results per hashtag and the order is mostly sorted from newest to oldest.\n\n## 2024-10-11\n\n_Fixes_\n\n- Improved number of results for Instagram Hashtag Scraper, especially when `Number of posts per hashtag` (`resultsLimit`) was small.\n\n_Features_\n\n- Added `Only scrape posts with exact hashtag in` (`onlyPostsWithHashtagIn`) to Instagram Hashtag Scraper input. You can choose `hashtags` to require the exact hashtag be present or `hashtag-or-text` where the keyword can be in the caption of the post. `hashtags` is the default value and the previous behavior.\n\n## 2024-10-09\n\n_Fixes_\n\n- **Important**: Instagram put hashtag scraping fully behind login. To work around this issue, Instagram Hashtag Scraper now uses Google Search to find posts with specific hashtags. This means you will get different amount and order of results. The team is examining options to restore the original functionality.\n\n## 2024-10-03\n\n_Fixes_\n\n- Only comments available without login are `latestComments` from post details, so amount even more limited than before and comments scraper just forwarding latest comments as separate dataset items\n\n## 2024-08-05\n\n_Features_\n\n- Don't retry requests on removed profiles, improve speed\n\n## 2024-06-17\n\n_Features_\n\n- Restricted profiles resolved with partial details\n\n## 2024-04-23\n\n_Features_\n\n- Profile search results from ThreadsNet autocomplete appended to Facebook Ads results and continued by Google Search\n- Added value `searchSource` (`instagram`, `threads`, `facebook-ads` or `google`) to dataset items saved from search\n\n## 2024-04-02\n\n_Features_\n\n- New API format to parse reels like https://www.instagram.com/reel/C4rQqstCWTQ/\n\n## 2024-02-07\n\n_Features_\n\n- Added `coauthorProducers` to posts and reels, sample https://www.instagram.com/p/C2vSQcOPkf6/ - note that web page show only first coauthor i.e. \"lekkercoffee*rino\" but in fact it might be more, i.e. https://www.instagram.com/cocoffeeshops/ feed includes sample \"C2vSQcOPkf6\"\n  \\_Fixes*\n- Post-reel hashtags and mentions parsed from parent comment(s) by owner, i.e. https://www.instagram.com/p/C2vSQcOPkf6/ and https://www.instagram.com/p/C2P_5CLRgWS/\n\n## 2023-11-03\n\n_Features_\n\n- Added `enhanceUserSearchWithFacebookPage` that enables enhancing user search with Facebook data that sometimes contains business emails. Facebook data are added under `facebookPage` output field.\n- All search types are now enhanced with up to 200 extra search results from Google Search. This means:\n    - Hashtag (top 50 results via Instagram + up to 200 from Google Search)\n    - User (top 10 results via Facebook ads + up to 200 from Google Search)\n    - Location (up to 200 from Google Search)\n\n## 2023-10-30\n\n_Fixes_\n\n- Partially fixed search again after the previous solution stopped working\n    - Hashtag - fully restored\n    - User - 14 max results via Facebook Ads\n    - Location - found via Google Search\n\n## 2023-10-25\n\n_Fixes_\n\n- Fixed search after Instagram changed endpoints\n\n## 2023-10-17\n\n_Features_\n\n- Monorepo to get rid of internal actor metamorph and delay caused by it.\n\n## 2023-10-10\n\n_Fixes_\n\n- Search for hashtags and places was shortly not working for some inputs due to internal bug in the last day. It is fixed now.\n\n_Older changes were removed from the changelog as we changed reporting the format._\n",
+    "minMemoryMbytes": 128,
+    "maxMemoryMbytes": 4096,
+    "defaultMemoryMbytes": "i = max(get(input, 'directUrls.length', 1), 1); r = get(input, 'resultsLimit', 999999999); b = get(runOptions, 'maxTotalChargeUsd', 0) / 0.001; rt = get(input, 'resultsType', 'posts'); detailed = (compareText(rt, 'posts') == 0) or (compareText(rt, 'reels') == 0) or (compareText(rt, 'stories') == 0); ei = b > 0 ? min(i, b / r) : i; m = detailed ? r * 7 : min(ceil(r / 500), 30); n = ei * m; n > 199 ? 4096 : n > 59 ? 2048 : n > 29 ? 1024 : n > 9 ? 512 : n > 2 ? 256 : 128",
+    "storages": {
+      "dataset": {
+        "actorSpecification": 1,
+        "fields": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": [
+                "string",
+                "number",
+                "null"
+              ],
+              "examples": [
+                "1234567890123456789"
+              ],
+              "description": "Unique identifier of the post or user"
+            },
+            "type": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Image"
+              ],
+              "description": "Type of the post (Image, Video, Sidecar, etc.) \u2014 post results only"
+            },
+            "shortCode": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "ABCdef1234g"
+              ],
+              "description": "Short code used in the post URL \u2014 post results only"
+            },
+            "caption": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "This is an example caption for a post."
+              ],
+              "description": "Caption text of the post \u2014 post results only"
+            },
+            "hashtags": {
+              "examples": [
+                [
+                  "travel",
+                  "photography"
+                ]
+              ],
+              "description": "Hashtags extracted from the post caption \u2014 post results only",
+              "items": {
+                "type": "string"
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "mentions": {
+              "examples": [
+                [
+                  "exampleuser"
+                ]
+              ],
+              "description": "User mentions extracted from the post caption \u2014 post results only",
+              "items": {
+                "type": "string"
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://www.instagram.com/p/ABCdef1234g/"
+              ],
+              "description": "URL of the post or profile"
+            },
+            "commentsCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                42
+              ],
+              "description": "Number of comments on the post \u2014 post results only"
+            },
+            "firstComment": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Great post!"
+              ],
+              "description": "Text of the first comment on the post \u2014 post results only"
+            },
+            "latestComments": {
+              "examples": [
+                [
+                  {
+                    "id": "123456789",
+                    "text": "Great post!",
+                    "ownerUsername": "exampleuser"
+                  }
+                ]
+              ],
+              "description": "Array of the most recent comments on the post \u2014 post results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "dimensionsHeight": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                1080
+              ],
+              "description": "Height of the post image or video in pixels \u2014 post results only"
+            },
+            "dimensionsWidth": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                1080
+              ],
+              "description": "Width of the post image or video in pixels \u2014 post results only"
+            },
+            "originalHeight": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                2800
+              ],
+              "description": "Height of the originally uploaded photo in pixels, before Instagram's resize. Instagram serves images at most 1080px wide, so this may be larger than dimensionsHeight."
+            },
+            "originalWidth": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                2100
+              ],
+              "description": "Width of the originally uploaded photo in pixels, before Instagram's resize. Instagram serves images at most 1080px wide, so this may be larger than dimensionsWidth."
+            },
+            "displayUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com/post/image_thumbnail_123.jpg"
+              ],
+              "description": "URL of the post thumbnail image \u2014 post results only"
+            },
+            "images": {
+              "examples": [
+                [
+                  "https://example.com/post/image1.jpg"
+                ]
+              ],
+              "description": "URLs of all images in the post (carousel posts have multiple) \u2014 post results only",
+              "items": {
+                "type": "string"
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "videoUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com/post/video_123.mp4"
+              ],
+              "description": "URL of the post video file \u2014 post results only"
+            },
+            "audioUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com/post/audio_123.mp4"
+              ],
+              "description": "URL of the audio stream for reel posts with separate audio \u2014 post results only"
+            },
+            "alt": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "A photo of a sunset over the ocean."
+              ],
+              "description": "Accessibility caption (alt text) of the post image \u2014 post results only"
+            },
+            "likesCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                1234
+              ],
+              "description": "Number of likes on the post \u2014 post results only"
+            },
+            "videoViewCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                50000
+              ],
+              "description": "Number of views for video posts \u2014 post results only. Deprecated by Instagram; may be null or stale. Prefer videoPlayCount."
+            },
+            "videoPlayCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                48000
+              ],
+              "description": "Number of plays for video posts \u2014 post results only"
+            },
+            "igPlayCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                47500
+              ],
+              "description": "Instagram-specific play count for video posts \u2014 post results only"
+            },
+            "fbLikeCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                300
+              ],
+              "description": "Number of Facebook likes on the post \u2014 post results only"
+            },
+            "fbPlayCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                1500
+              ],
+              "description": "Number of Facebook plays for video posts \u2014 post results only"
+            },
+            "reshareCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                25
+              ],
+              "description": "Number of times the post was reshared \u2014 post results only"
+            },
+            "timestamp": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "2025-01-15T12:00:00.000Z"
+              ],
+              "description": "ISO 8601 timestamp when the post was published \u2014 post results only"
+            },
+            "childPosts": {
+              "examples": [
+                []
+              ],
+              "description": "Child posts in a carousel (sidecar) post \u2014 post results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "ownerUsername": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "exampleuser"
+              ],
+              "description": "Username of the post author \u2014 post results only"
+            },
+            "ownerId": {
+              "type": [
+                "string",
+                "number",
+                "null"
+              ],
+              "examples": [
+                "123456789"
+              ],
+              "description": "Instagram user ID of the post author \u2014 post results only"
+            },
+            "ownerFullName": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Example User"
+              ],
+              "description": "Full display name of the post author \u2014 post results only"
+            },
+            "isPinned": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the post is pinned to the top of the profile \u2014 post results only"
+            },
+            "productType": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "feed"
+              ],
+              "description": "Product type of the post (e.g., feed, clips, igtv) \u2014 post results only"
+            },
+            "videoDuration": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                30.5
+              ],
+              "description": "Duration of the video in seconds \u2014 post results only"
+            },
+            "paidPartnership": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the post is a paid partnership \u2014 post results only"
+            },
+            "affiliate": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the post contains affiliate content \u2014 post results only"
+            },
+            "sponsors": {
+              "examples": [
+                []
+              ],
+              "description": "Sponsors tagged in a paid partnership post \u2014 post results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "taggedUsers": {
+              "examples": [
+                [
+                  {
+                    "username": "taggeduser",
+                    "full_name": "Tagged User"
+                  }
+                ]
+              ],
+              "description": "Users tagged in the post by the author \u2014 post results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "musicInfo": {
+              "examples": [
+                {
+                  "artist_name": "Example Artist",
+                  "song_name": "Example Song"
+                }
+              ],
+              "description": "Music or audio attribution information for the post \u2014 post results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "coauthorProducers": {
+              "examples": [
+                []
+              ],
+              "description": "Co-author producers credited on the post \u2014 post results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "locationName": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "New York, New York"
+              ],
+              "description": "Name of the location tagged in the post \u2014 post results only"
+            },
+            "locationId": {
+              "type": [
+                "string",
+                "number",
+                "null"
+              ],
+              "examples": [
+                "213385402"
+              ],
+              "description": "ID of the location tagged in the post \u2014 post results only"
+            },
+            "pk": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "2841234567890123456"
+              ],
+              "description": "Primary key of the post from the Instagram API \u2014 post results only"
+            },
+            "redirectedFromUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://www.instagram.com/reel/ABCdef1234g/"
+              ],
+              "description": "Original URL that redirected to this post \u2014 post results only"
+            },
+            "isCommentsDisabled": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether comments are disabled on the post \u2014 post results only"
+            },
+            "username": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "exampleuser"
+              ],
+              "description": "Instagram username of the profile \u2014 profile results only"
+            },
+            "fullName": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Example User"
+              ],
+              "description": "Full display name of the user \u2014 profile results only"
+            },
+            "biography": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "This is an example biography."
+              ],
+              "description": "Profile biography text \u2014 profile results only"
+            },
+            "externalUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com"
+              ],
+              "description": "External URL linked in the profile bio \u2014 profile results only"
+            },
+            "externalUrlShimmed": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://l.instagram.com/?u=https%3A%2F%2Fexample.com"
+              ],
+              "description": "Shimmed version of the external URL \u2014 profile results only"
+            },
+            "externalUrls": {
+              "examples": [
+                [
+                  {
+                    "url": "https://example.com",
+                    "title": "My Website"
+                  }
+                ]
+              ],
+              "description": "All bio links added to the profile \u2014 profile results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "followersCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                50000
+              ],
+              "description": "Number of followers the profile has \u2014 profile results only"
+            },
+            "followsCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                500
+              ],
+              "description": "Number of accounts the profile follows \u2014 profile results only"
+            },
+            "hasChannel": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile has an Instagram broadcast channel \u2014 profile results only"
+            },
+            "highlightReelCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                5
+              ],
+              "description": "Number of highlight reels on the profile \u2014 profile results only"
+            },
+            "isBusinessAccount": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the account is a business account \u2014 profile results only"
+            },
+            "joinedRecently": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the account joined Instagram recently \u2014 profile results only"
+            },
+            "businessCategoryName": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Clothing (Brand)"
+              ],
+              "description": "Business category of the account \u2014 profile results only"
+            },
+            "private": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile is private \u2014 profile results only"
+            },
+            "verified": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile has a verified badge \u2014 profile results only"
+            },
+            "profilePicUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com/profile/pic/123456.jpg"
+              ],
+              "description": "URL of the profile picture \u2014 profile results only"
+            },
+            "profilePicUrlHD": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com/profile/pic/123456_hd.jpg"
+              ],
+              "description": "URL of the high-resolution profile picture \u2014 profile results only"
+            },
+            "igtvVideoCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                12
+              ],
+              "description": "Number of IGTV videos on the profile \u2014 profile results only"
+            },
+            "relatedProfiles": {
+              "examples": [
+                []
+              ],
+              "description": "Related Instagram profiles suggested by Instagram \u2014 profile results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "latestIgtvVideos": {
+              "examples": [
+                []
+              ],
+              "description": "Most recent IGTV videos from the profile \u2014 profile results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "postsCount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                150
+              ],
+              "description": "Total number of posts on the profile or for the hashtag \u2014 profile and hashtag results only"
+            },
+            "latestPosts": {
+              "examples": [
+                []
+              ],
+              "description": "Most recent posts from the profile, or latest hashtag posts (when enabled) \u2014 profile and hashtag results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "hasPublicStory": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile currently has a public story \u2014 profile results only"
+            },
+            "isRestrictedProfile": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "examples": [
+                false
+              ],
+              "description": "Whether the profile is restricted \u2014 profile results only"
+            },
+            "restrictionReason": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Age-restricted content"
+              ],
+              "description": "Reason the profile is restricted, if applicable \u2014 profile results only"
+            },
+            "businessAddress": {
+              "examples": [
+                {
+                  "street_address": "123 Example St",
+                  "city_name": "Example City"
+                }
+              ],
+              "description": "Business address associated with the profile \u2014 profile results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "fbid": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "17841400123456789"
+              ],
+              "description": "Facebook ID linked to the Instagram profile \u2014 profile results only"
+            },
+            "facebookPage": {
+              "examples": [
+                "examplefbpage"
+              ],
+              "description": "Connected Facebook page \u2014 profile results only (string) or search enrichment (object)",
+              "additionalProperties": {},
+              "type": [
+                "string",
+                "object"
+              ]
+            },
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Example Cafe"
+              ],
+              "description": "Name of the place or hashtag \u2014 location and hashtag results only"
+            },
+            "location_id": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "258096160"
+              ],
+              "description": "Unique identifier of the place \u2014 location results only"
+            },
+            "lat": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                40.748817
+              ],
+              "description": "Latitude coordinate of the place \u2014 location results only"
+            },
+            "lng": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "examples": [
+                -73.985428
+              ],
+              "description": "Longitude coordinate of the place \u2014 location results only"
+            },
+            "address": {
+              "examples": [
+                {
+                  "street_address": "123 Example St",
+                  "city_name": "Example City",
+                  "country_code": "US"
+                }
+              ],
+              "description": "Street address of the place \u2014 location results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "string"
+              ]
+            },
+            "website": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://example.com"
+              ],
+              "description": "Website URL of the place \u2014 location results only"
+            },
+            "phone": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "+1 555-123-4567"
+              ],
+              "description": "Phone number of the place \u2014 location results only"
+            },
+            "hours": {
+              "examples": [
+                {
+                  "monday": "9:00 AM - 9:00 PM",
+                  "tuesday": "9:00 AM - 9:00 PM"
+                }
+              ],
+              "description": "Opening hours of the place \u2014 location results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "posts": {
+              "examples": [
+                []
+              ],
+              "description": "Recent posts at the location \u2014 location results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "string"
+              ]
+            },
+            "related": {
+              "examples": [
+                [
+                  {
+                    "hash": "travelling",
+                    "info": "1B posts"
+                  }
+                ]
+              ],
+              "description": "Related hashtags \u2014 hashtag results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "frequent": {
+              "examples": [
+                [
+                  {
+                    "hash": "nature",
+                    "info": "900M posts"
+                  }
+                ]
+              ],
+              "description": "Frequently co-occurring hashtags \u2014 hashtag results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "topPosts": {
+              "examples": [
+                []
+              ],
+              "description": "Top posts for the hashtag (when includeTopPosts is enabled) \u2014 hashtag results only",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "inputUrl": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "https://www.instagram.com/p/ABCdef1234g/"
+              ],
+              "description": "Input URL that was used to find this item"
+            },
+            "searchTerm": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "travel photography"
+              ],
+              "description": "Search term used to find this item"
+            },
+            "searchSource": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "facebook-ads"
+              ],
+              "description": "Source of the search that found this item"
+            },
+            "threadsNetProfile": {
+              "examples": [
+                {
+                  "username": "exampleuser"
+                }
+              ],
+              "description": "Threads.net profile linked to this account \u2014 profile results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "metaData": {
+              "examples": [
+                {
+                  "id": "123456789",
+                  "username": "exampleuser"
+                }
+              ],
+              "description": "Additional metadata from the parent profile (present when addParentData is enabled) \u2014 post results only",
+              "additionalProperties": {},
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "error": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "not_found"
+              ],
+              "description": "Error code if the item could not be fully scraped"
+            },
+            "errorDescription": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Post does not exist"
+              ],
+              "description": "Human-readable description of the error"
+            },
+            "requestErrorMessages": {
+              "examples": [
+                [
+                  "Error: BLOCKED\n    at getRouteDefinition ..."
+                ]
+              ],
+              "description": "Array of error messages encountered during scraping",
+              "items": {
+                "type": "string"
+              },
+              "type": [
+                "array",
+                "null"
+              ]
+            }
+          }
+        },
+        "views": {},
+        "$schema": "https://apify.com/schemas/v1/dataset.json"
+      }
+    },
+    "output": {
+      "actorOutputSchemaVersion": 1,
+      "title": "Instagram scraped data",
+      "properties": {
+        "dataset": {
+          "type": "string",
+          "title": "Results",
+          "template": "{{links.apiDefaultDatasetUrl}}/items",
+          "description": "Dataset containing all scraped data"
+        }
+      },
+      "description": "Dataset containing scraped Instagram data including posts, profiles, places, and hashtags"
+    },
+    "readme": "## What can Instagram Scraper do?\n\nInstagram Scraper **extracts public data from across Instagram** in a single tool: posts and reels from a profile, comments on a single video, mentions of a brand, profile details for a creator, place metadata for a city, or volume and reach for a hashtag. Add a URL match it with one of the 5 available content types and you can:\n\n<table>\n<tr>\n<th>\ud83d\udce6 What you can extract</th>\n<th>\u2699\ufe0f Features & integrations</th>\n</tr>\n<tr>\n<td valign=\"top\">\n\n\ud83d\udcf7 **Posts and carousels** from profiles, hashtagged posts, or tagged posts <br>\n\ud83c\udf9e\ufe0f **Reels** from profiles, hashtagged reels, or tagged reels <br>\n\ud83d\udcac **Comments and replies** from posts or reels <br>\n\ud83c\udff7\ufe0f **Mentions, tagged photos**, and collaborators <br>\n\ud83d\udc64 **Profiles**: bio, followers, websites <br>\n#\ufe0f\u20e3 **Hashtags**: volume, related tags, post count <br>\n\ud83d\udccd **Places**: coordinates, address, post count, category <br>\n\ud83d\uddbc\ufe0f **Media**: images, videos, thumbnails, profile pics\n\n</td>\n<td valign=\"top\">\n\n\ud83d\udd0e **Search** Instagram by user, hashtag, or place <br>\n\ud83d\udcc5 **Date filters and scheduling** to get only recent content <br>\n\u2b07\ufe0f **Export data** to JSON, CSV, Excel, or XML <br>\n\ud83e\uddbe **API access, webhooks**, Node.js & Python SDKs <br>\n\ud83e\udd16 **LLM-ready data** for MCP, Claude, Gemini, ChatGPT\n\n</td>\n</tr>\n</table>\n\nIf you're in the market for influencer discovery, trend tracking, competitor monitoring, local business discovery, content and image analysis, UGC discovery, sentiment analysis, campaign performance tracking, brand monitoring, and more, you can get it all from a single tool.\n\n## What data can I scrape from Instagram?\n\nInstagram Scraper is the **unofficial Instagram API that 300K+ users rely on** to pull the public data Instagram cut off from its official API in 2020. No Business or Creator account, no OAuth, no limits on public data. You get the **content, context, engagement metrics, and metadata** behind any social media insight:\n\n- **Posts and reels:** _what was posted, how it landed, who's around it_. Captions, hashtags, mentions, image and video URLs, carousel children, engagement (likes, comments, views, plays, first + latest comments), and context (location, owner, tagged users, co-authors, music). Plus `shortCode`, `url`, `type`, and `productType` for joining and filtering.\n\n- **Mentions:** _who's tagging you_. Same shape as a post, filtered to posts where a target profile is tagged. Drop in a profile URL, get every public post pointing at it.\n\n- **Comments:** _what people are saying_. Text, author identity (username, ID, profile pic, verified status), timestamp, likes, replies, and links to the comment and parent post.\n\n- **Profiles:** _who's behind the account_. Bio, full name, follower/following counts, posts and highlight reel counts, verified and business status.\n\n- **Hashtags:** _how big and how reachable_. Post count, posts per day, related-tag clusters bucketed by reach tier (frequent, average, rare). Useful for finding less-saturated adjacent tags.\n\n- **Places:** _where it happened_. Name, coordinates, address (city, country, category), post count, top and latest posts.\n\nYou can scrape from an **existing list of URLs** (profile, post, reel, hashtag, or place), or **discover and scrape** by running a search query for matching profiles, hashtags, or places.\n\n> Need more? Try these dedicated scrapers for features and data not covered by the main Instagram Scraper:\n>\n> - \ud83d\udce2 [Instagram Ads Scraper](https://apify.com/apify/facebook-ads-scraper): ads and creatives data with pricing enrichment\n> - \ud83c\udf9e\ufe0f [Instagram Reel Scraper](https://apify.com/apify/instagram-reel-scraper): reels with share counts and transcripts, plus a reels download option\n> - \ud83d\udc64 [Instagram Profile Scraper](https://apify.com/apify/instagram-profile-scraper): profile extraction with location and verification data\n> - \ud83e\udd1d [Brand Collaboration Scraper](https://apify.com/apify/brand-collaboration-scraper): find brand and influencer collaborations across Instagram\n> - \ud83d\udcac [Export Instagram Comments and Posts](https://apify.com/apify/export-instagram-comments-posts): scrape posts and their comments in one run\n\n## How much will scraping Instagram cost?\n\nInstagram Scraper uses a **pay-per-event (PPE)** pricing model, where one result equals one scraped item (a post, reel, comment, profile, hashtag, or place). On the Free plan, it costs **$2.70 per 1,000 results**, with no discount applied.\n\nPaid plans offer discounted rates and higher monthly credit. For example, the Starter plan charges $2.30 per 1,000 results, which allows you to **scrape over 16,900 results per month**. The Scale and Business plans reduce the price to **$1.90 with 104,700 results per month**, and **$1.50 with 666,000 results per month**, respectively. Check the [pricing tab](https://apify.com/apify/instagram-scraper/pricing) for full details.\n\n## How do I use Instagram Scraper?\n\nInstagram Scraper was designed to be easy to start with, even if you've never scraped a website before. Here's how to extract Instagram data with this tool:\n\n1. [Create](https://console.apify.com/sign-up) a free Apify account using your email.\n2. Open **[Instagram Scraper](https://console.apify.com/actors/shu8hvrXbJbY3Eb9W)** in Apify Console.\n3. Pick what you want to scrape under **Content to scrape**: Posts, Reels, Comments, Mentions, or Details for profiles, hashtags, or places.\n4. Paste one or more **Instagram URLs** matching that content type.\n5. Set how many results you want per URL under **Results limit**, and optionally filter by date.\n6. Alternatively, run a **search query**. Enter one or more keywords and pick a search type: hashtag, profile, or place.\n7. Click **Save & Start** and wait for the data to be extracted.\n8. Download your dataset in **JSON, CSV, Excel, or XML**, or pull it programmatically via the Apify API.\n\nFor a step-by-step walkthrough with screenshots, follow our [How to scrape Instagram tutorial](https://blog.apify.com/scrape-instagram-posts-comments-and-more-21d05506aeb3/) \ud83d\udcdd, or watch this video guide:\n\nhttps://www.youtube.com/watch?v=hz9tSv3CP6k\n\n## \u2b07\ufe0f Input\n\nInstagram Scraper has two input modes: **scrape by URL** when you already know which pages to scrape, or **discover by search query** when you don't. Pick one mode per run; you can't mix them, and URLs always take priority if both are filled in.\n\n### Mode 1: Scrape by URL\n\n- Paste one or more Instagram URLs (or profile IDs). Use **Bulk edit** to add many at once. Then choose:\n- **Content to scrape** \u2014 the result type (posts, reels, comments, mentions, or details)\n- **Results limit** \u2014 how many results per URL\n- **Filter by date** (optional) \u2014 only return content newer than a date or relative period (UTC)\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/39819ad7d7f8b81c2a313376237be123b1b1e22b/Screenshot%202026-06-23%20at%2010.26.43.png\" style=\"width:100%;\"></a>\n\nThe URL type drives what's returned:\n\n| Paste this URL            | And you can get                                    |\n| ------------------------- | -------------------------------------------------- |\n| Profile URL or Profile ID | Profile details, posts, reels, or profile mentions |\n| Post URL or Reel URL      | Post/reel details or its comments                  |\n| Hashtag URL               | Hashtagged posts or reels, or hashtag volume       |\n| Location URL or Audio URL | Place or audio details                             |\n\n### Mode 2: Discover by search query\n\nEnter one or more keywords (comma-separated, e.g. `travel, fitness`) and pick a search type. Enter hashtags as plaintext (`travel`, not `#travel`).\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/2e60e8b7c6c0221034bc36194be507b3cffdcab6/Screenshot%202026-06-23%20at%2010.27.02.png\" style=\"width:100%;\"></a>\n\n| Search type | What it returns                                         |\n| ----------- | ------------------------------------------------------- |\n| `hashtag`   | Hashtag volume and related hashtags matching your query |\n| `place`     | Tagged places and small businesses matching your query  |\n| `user`      | Users (and content from users) matching your query      |\n\n## \u2b06\ufe0f Output and setup\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/6026a46967b559d744283728b81ef1b86e76e0fc/What%20URL%20to%20input.jpg\" style=\"width:100%;\"></a>\n\nThe most important thing to know is that **URL type drives output schema.** Hashtag, location, audio, and explore URLs return their respective metadata even when paired with another content mode.\n\nResults land in a dataset in the **Storage** tab. View as a table, download in **JSON, CSV, Excel, or XML**, or pull via API. Note that different outputs cannot be combined in a single run. Each content type produces a different output schema. Samples below.\n\n<a href=\"https://console.apify.com/actors/shu8hvrXbJbY3Eb9W/input\"><img src=\"https://raw.githubusercontent.com/apify-projects/actor-readme-images/afcc6b03302916d82e5d3d53671acbb15187905c/Instagram%20Scraper_output%20data.png\" style=\"width:100%;\"></a>\n\n### \ud83d\udcf8 Posts and carousels\n\nPosts and carousels from a profile, hashtag, or place. Note: you can extract posts from a known list of profiles, or you can discover posts by hashtags and places.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/natgeo/` (profile)\n- `https://www.instagram.com/197622247/` (profile ID)\n- `https://www.instagram.com/p/DLNsnpUTdVS/` (post)\n- `https://www.instagram.com/explore/tags/crossfit/` (hashtag)\n- `https://www.instagram.com/explore/locations/7538318/copenhagen/` (place)\n\n**Posts data sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/p/DZxvMgyH8yR/\",\n    \"id\": \"3923124318436838545\",\n    \"type\": \"Image\",\n    \"shortCode\": \"DZxvMgyH8yR\",\n    \"caption\": \"In the Democratic Republic of the Congo, photographer @carstenpeter followed a team of scientists into the crater of Mount Nyiragongo, where they crossed the cooled surface of a lava lake that reached nearly 1,800\u00b0F (982\u00b0C). In 2021, an eruption sent a river of lava to the outskirts of nearby Goma, home to 1.5 million people.\\n\\nHead to the link in bio to uncover more iconic stories and images like this in our Nat Geo archive.\",\n    \"hashtags\": [],\n    \"mentions\": [\"carstenpeter\"],\n    \"url\": \"https://www.instagram.com/p/DZxvMgyH8yR/\",\n    \"commentsCount\": 110,\n    \"firstComment\": \"runnin up that hill\",\n    \"latestComments\": [\n        {\n            \"id\": \"18185100808388160\",\n            \"text\": \"runnin up that hill\",\n            \"ownerUsername\": \"liljuliff\",\n            \"timestamp\": \"2026-06-22T08:05:38.000Z\",\n            \"likesCount\": 1\n        },\n        {\n            \"id\": \"18107281966978531\",\n            \"text\": \"is bro in creative mode\",\n            \"ownerUsername\": \"csukitch\",\n            \"timestamp\": \"2026-06-22T07:57:01.000Z\",\n            \"likesCount\": 0\n        }\n    ],\n    \"dimensionsHeight\": 718,\n    \"dimensionsWidth\": 1080,\n    \"displayUrl\": \"https://scontent.cdninstagram.com/.../722859170_n.jpg\",\n    \"images\": [],\n    \"alt\": null,\n    \"likesCount\": 55952,\n    \"timestamp\": \"2026-06-20T10:00:04.000Z\",\n    \"childPosts\": [],\n    \"ownerFullName\": \"National Geographic\",\n    \"ownerUsername\": \"natgeo\",\n    \"ownerId\": \"787132\",\n    \"isCommentsDisabled\": false\n}\n```\n\n### \ud83c\udf9e\ufe0f Reels\n\nReels from a profile, hashtag, or reel page. Note: you can extract reels from a known list of profiles, or you can discover reels by hashtags and places.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/natgeo/` (profile)\n- `https://www.instagram.com/humansofny/reels/` (reels section)\n- `https://www.instagram.com/reel/CigMSGeD4Hd/` (single reel)\n- `https://www.instagram.com/reels/CigMSGeD4Hd/` (plural form)\n- `https://www.instagram.com/explore/tags/crossfit/` (hashtag)\n\n**Or a search query:**\n\n- `searchType: \"hashtag\"`, e.g. `\"travel\"` or `\"travel, fitness\"`\n\n**Reels data sample**\n\n```json\n{\n    \"id\": \"3913028191006298064\",\n    \"type\": \"Video\",\n    \"shortCode\": \"DZN3mhZBQ_Q\",\n    \"caption\": \"The universe is full of clues hidden in light, and Webb has tools to find them.\\n\\nIn this video, learn about some of the most exciting discoveries Webb has made through spectroscopy, from mapping carbon dioxide on Jupiter's moon Europa, to characterizing the earliest known galaxies, to measuring cloud cover on a distant exoplanet.\",\n    \"hashtags\": [],\n    \"mentions\": [],\n    \"url\": \"https://www.instagram.com/p/DZN3mhZBQ_Q/\",\n    \"commentsCount\": 92,\n    \"dimensionsHeight\": 1920,\n    \"dimensionsWidth\": 1080,\n    \"images\": [\"https://scontent.cdninstagram.com/.../715570175_n.jpg\"],\n    \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQNAWZ3Z8McL43Do9rcY6i8PMk.mp4\",\n    \"likesCount\": 11481,\n    \"timestamp\": \"2026-06-05T19:58:30.000Z\",\n    \"ownerFullName\": \"NASA Webb Telescope\",\n    \"ownerUsername\": \"nasawebb\",\n    \"ownerId\": \"549313808\",\n    \"isPinned\": true,\n    \"productType\": \"clips\",\n    \"videoDuration\": 228,\n    \"inputUrl\": \"https://www.instagram.com/nasawebb/reels/\",\n    \"firstComment\": \"hi :)\",\n    \"latestComments\": [\n        {\n            \"id\": \"18103001009006012\",\n            \"text\": \"hi :)\",\n            \"ownerUsername\": \"lina.mov1\",\n            \"timestamp\": \"2026-06-18T06:36:30.000Z\",\n            \"likesCount\": 1\n        }\n    ],\n    \"displayUrl\": \"https://scontent.cdninstagram.com/.../715570175_n.jpg\",\n    \"audioUrl\": \"https://scontent.cdninstagram.com/.../AQPKnYITuQNYL1nTDTxgShU8ZT.mp4\",\n    \"alt\": null,\n    \"videoViewCount\": 41365,\n    \"videoPlayCount\": 241820,\n    \"childPosts\": [],\n    \"musicInfo\": {\n        \"artist_name\": \"nasawebb\",\n        \"song_name\": \"Original audio\",\n        \"uses_original_audio\": true,\n        \"should_mute_audio\": false,\n        \"should_mute_audio_reason\": \"\",\n        \"audio_id\": \"27237433435884969\"\n    },\n    \"isCommentsDisabled\": false\n}\n```\n\n### \ud83d\udcac Comments\n\nComments from a single post or reel. **Search queries are not supported for comments**; only direct post or reel URLs.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/p/DN8-GjPkgjS/` (post, shortCode)\n- `https://www.instagram.com/p/3369450800358839406/` (post, ID)\n- `https://www.instagram.com/reel/CigMSGeD4Hd/` (reel, shortCode)\n- `https://www.instagram.com/reel/3515099125383817606/` (reel, ID)\n\n**Comments data sample**\n\n```json\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18093536360613690\",\n  \"id\": \"18093536360613690\",\n  \"text\": \"We love you NASA \ud83d\udc99\ud83c\udf0e\ud83c\udf0a\",\n  \"ownerUsername\": \"mavideniz5521__\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/410567170_365154746196531_3259133934415110146_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=9sOZurNh10wQ7kNvwH2lslG&_nc_oc=Adq1_pie8-u-2EtJYEl_qHGdbHVPEViwwdaNVTeRuVtcy0yVD-YcEBgzf7WOYwalh7E&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af_b-N0KUNf3uoWohP_2OjEfMwIGWeIIz9ADUutHKCs-Bg&oe=6A42E2E1\",\n  \"timestamp\": \"2026-06-22T17:24:20.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 4,\n  \"owner\": {\n    \"username\": \"mavideniz5521__\",\n    \"profile_pic_url\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/410567170_365154746196531_3259133934415110146_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=9sOZurNh10wQ7kNvwH2lslG&_nc_oc=Adq1_pie8-u-2EtJYEl_qHGdbHVPEViwwdaNVTeRuVtcy0yVD-YcEBgzf7WOYwalh7E&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af_b-N0KUNf3uoWohP_2OjEfMwIGWeIIz9ADUutHKCs-Bg&oe=6A42E2E1\",\n    \"is_verified\": false,\n    \"id\": \"51071346237\",\n    \"fbid_v2\": \"17841450947133918\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  }\n},\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18077796728279537\",\n  \"id\": \"18077796728279537\",\n  \"text\": \"\",\n  \"ownerUsername\": \"_.chun_chun_maru._\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.82787-19/726890359_18104011688095194_4173193513048581478_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=931kF_84KW0Q7kNvwHbqKVS&_nc_oc=AdozP0GFEU6uuF4FSGkA2UDIP66AFkSTgAkYspRYNcO-UkG5TPcuJOey5PziWM8LT5s&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-A4YjociKUQQgaHfcRx9rGPnqDu-SfoZPcF39IufFARA&oe=6A42EBDB\",\n  \"timestamp\": \"2026-06-22T17:23:24.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 220,\n  \"owner\": {\n    \"username\": \"_.chun_chun_maru._\",\n    \"profile_pic_url\": \"https://scontent-ord5-3.cdninstagram.com/v/t51.82787-19/726890359_18104011688095194_4173193513048581478_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=931kF_84KW0Q7kNvwHbqKVS&_nc_oc=AdozP0GFEU6uuF4FSGkA2UDIP66AFkSTgAkYspRYNcO-UkG5TPcuJOey5PziWM8LT5s&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-A4YjociKUQQgaHfcRx9rGPnqDu-SfoZPcF39IufFARA&oe=6A42EBDB\",\n    \"is_verified\": false,\n    \"id\": \"32824791193\",\n    \"fbid_v2\": \"17841432855813098\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  },\n  \"media\": {\n    \"first_party_cdn_proxied_images\": {\n      \"fixed_height\": {\n        \"url\": \"https://cdn.fbsbx.com/v/t59.2708-21/540281769_1516894573012379_4776510866004392932_n.gif?_nc_cat=101&ccb=1-7&_nc_sid=9dcd69&_nc_ohc=iFOxjs_ckzoQ7kNvwEQgcdT&_nc_oc=AdqKXbOItAjaB9JcMhqx7MtzZOYpbYGT9SPmNuZg_VADfaE-CxwSLGtgXMkMJt3ahZc&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=03_Q7cD5gH7HrMkFlEK3VsYFNCeWhC8U-5B14403q6m_ejHgqPJWw&oe=6A3EE756\"\n      }\n    },\n    \"images\": {\n      \"fixed_height\": {\n        \"url\": \"https://static.cdninstagram.com/rsrc.php/v4/yr/r/xg_5YoVlvjp.gif\"\n      }\n    },\n    \"id\": \"1570703541415172\"\n  }\n},\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18119325979762265\",\n  \"id\": \"18119325979762265\",\n  \"text\": \"Anda el diablo, \ud83d\ude02\ud83d\ude02\",\n  \"ownerUsername\": \"mr_ventura.j\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-2.cdninstagram.com/v/t51.2885-19/482946673_610886311778265_2668206524915634709_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MjguQzMifQ%3D%3D&_nc_ohc=FIVuIcZTqkQQ7kNvwGW3APs&_nc_oc=AdrhdG57pw80dCHmaTX-MRdvfLX5iYJJ8oPnsao0wFImBqMfQn7RGFOY_shbwu7YrFI&_nc_zt=24&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af8niwMDCab4KfDLxkew8K3RP6dtHNLKaB4XWb7LQFvacw&oe=6A430456\",\n  \"timestamp\": \"2026-06-22T17:21:43.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 3,\n  \"owner\": {\n    \"username\": \"mr_ventura.j\",\n    \"profile_pic_url\": \"https://scontent-ord5-2.cdninstagram.com/v/t51.2885-19/482946673_610886311778265_2668206524915634709_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MjguQzMifQ%3D%3D&_nc_ohc=FIVuIcZTqkQQ7kNvwGW3APs&_nc_oc=AdrhdG57pw80dCHmaTX-MRdvfLX5iYJJ8oPnsao0wFImBqMfQn7RGFOY_shbwu7YrFI&_nc_zt=24&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ss=7ca8c&oh=00_Af8niwMDCab4KfDLxkew8K3RP6dtHNLKaB4XWb7LQFvacw&oe=6A430456\",\n    \"is_verified\": false,\n    \"id\": \"4298523042\",\n    \"fbid_v2\": \"17841404171287315\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  }\n},\n{\n  \"postUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/\",\n  \"commentUrl\": \"https://www.instagram.com/p/DZ5T2XPllXv/c/18080756183267307\",\n  \"id\": \"18080756183267307\",\n  \"text\": \"Infinite space and yet we don\u2019t know half of our ocean. Stop wasting resources for wondrous shit\",\n  \"ownerUsername\": \"idlehandsoraidolshands\",\n  \"ownerProfilePicUrl\": \"https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/589085310_18161660818396753_1518200406298839070_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=d00l4vlIpGgQ7kNvwEBivSj&_nc_oc=AdozkM1zr_i2jPZsH2WSUT1OLakC7nzhCKKuD0_E7z9muVqYIAoAS_D-cPoPdPT9yTs&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-kGNEr1yj0T3kYro6HAF02e-2djfXgIZhezmZaJqxM3w&oe=6A42F8B1\",\n  \"timestamp\": \"2026-06-22T17:21:19.000Z\",\n  \"repliesCount\": null,\n  \"replies\": null,\n  \"likesCount\": 1,\n  \"owner\": {\n    \"username\": \"idlehandsoraidolshands\",\n    \"profile_pic_url\": \"https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/589085310_18161660818396753_1518200406298839070_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=d00l4vlIpGgQ7kNvwEBivSj&_nc_oc=AdozkM1zr_i2jPZsH2WSUT1OLakC7nzhCKKuD0_E7z9muVqYIAoAS_D-cPoPdPT9yTs&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=WLZ1_bwBtUL2keja-Fk0pQ&_nc_ss=7ca8c&oh=00_Af-kGNEr1yj0T3kYro6HAF02e-2djfXgIZhezmZaJqxM3w&oe=6A42F8B1\",\n    \"is_verified\": false,\n    \"id\": \"11823308752\",\n    \"fbid_v2\": \"17841411902567913\",\n    \"full_name\": null,\n    \"is_mentionable\": null,\n    \"is_private\": null,\n    \"profile_pic_id\": null,\n    \"latest_reel_media\": null\n  }\n```\n\n### \ud83d\udc64 Profile details\n\nProfile metadata: bio, followers, posts count, verified status.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/nike/` (username)\n- `https://www.instagram.com/13460080/` (profile ID)\n- `https://www.instagram.com/humansofny/reels/` (reels section)\n\n**Profile data sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/humansofny/\",\n    \"id\": \"242598499\",\n    \"username\": \"humansofny\",\n    \"url\": \"https://www.instagram.com/humansofny\",\n    \"fullName\": \"Humans of New York\",\n    \"biography\": \"New York City, one story at a time.\\nCreated by Brandon Stanton\\nDear New York available wherever books are sold.\",\n    \"externalUrls\": [\n        {\n            \"title\": \"Join HONY's Patreon\",\n            \"url\": \"https://bit.ly/4tX4uZt\",\n            \"link_type\": \"external\"\n        }\n    ],\n    \"externalUrl\": \"https://bit.ly/4tX4uZt\",\n    \"followersCount\": 12613771,\n    \"followsCount\": 738,\n    \"highlightReelCount\": 1,\n    \"isBusinessAccount\": false,\n    \"joinedRecently\": false,\n    \"businessCategoryName\": null,\n    \"private\": false,\n    \"verified\": true,\n    \"profilePicUrl\": \"https://scontent.cdninstagram.com/.../488057622_n.jpg\",\n    \"profilePicUrlHD\": \"https://scontent.cdninstagram.com/.../488057622_n.jpg\",\n    \"igtvVideoCount\": 0,\n    \"postsCount\": 5863,\n    \"fbid\": \"17841401154973790\",\n    \"latestPosts\": [\n        {\n            \"id\": \"3741054891297971261\",\n            \"type\": \"Video\",\n            \"shortCode\": \"DPq5ZpJDZw9\",\n            \"caption\": \"Dear New York closes on October 19th. It's been the honor and joy of my life to see this take flight...\",\n            \"hashtags\": [],\n            \"mentions\": [],\n            \"url\": \"https://www.instagram.com/p/DPq5ZpJDZw9/\",\n            \"commentsCount\": 942,\n            \"dimensionsHeight\": 1136,\n            \"dimensionsWidth\": 640,\n            \"displayUrl\": \"https://scontent.cdninstagram.com/.../562558918_n.jpg\",\n            \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQOZS_IaHCgcUdg7VqoJnQrUb7g.mp4\",\n            \"likesCount\": 106869,\n            \"videoViewCount\": 1024817,\n            \"timestamp\": \"2025-10-11T13:27:07.000Z\",\n            \"ownerUsername\": \"humansofny\",\n            \"ownerId\": \"242598499\",\n            \"productType\": \"clips\",\n            \"isPinned\": true,\n            \"isCommentsDisabled\": false\n        }\n    ]\n}\n```\n\n### \ud83d\udccd Place details\n\nLocation metadata: name, coordinates, category, post count.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/explore/locations/7538318/copenhagen/` (with slug)\n- `https://www.instagram.com/explore/locations/7538318/` (ID only)\n\n**Place details sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/explore/locations/218622660/lucerna-music-bar/\",\n    \"name\": \"Lucerna Music Bar\",\n    \"phone\": \"\",\n    \"category\": \"Live Music Venue\",\n    \"media_count\": 41997,\n    \"price_range\": 0,\n    \"lat\": 50.081113650673,\n    \"lng\": 14.425622825572,\n    \"slug\": \"lucerna-music-bar\",\n    \"location_id\": \"218622660\",\n    \"location_address\": \"Vodi\u010dkova 36\",\n    \"location_city\": \"\",\n    \"location_zip\": \"110 00\",\n    \"ig_business\": {\n        \"profile\": {\n            \"profile_pic_url\": \"https://scontent.cdninstagram.com/.../711514083_n.jpg\",\n            \"username\": \"lucernamusicbar\",\n            \"id\": \"571745390\"\n        }\n    },\n    \"posts\": [\n        {\n            \"code\": \"DOyoz3eDwda\",\n            \"id\": \"3725219327902680922_2428242588\",\n            \"taken_at\": 1758300771,\n            \"product_type\": \"carousel_container\",\n            \"username\": \"rikafiorentina_ride\",\n            \"caption\": \"getting ready for #ridePRG #INTERPLAYeurope2025\\n3 May 2025\\nLucerna Music Bar, Prague \ud83c\udde8\ud83c\uddff\\n#rikafiorentina_ride\",\n            \"like_count\": 1,\n            \"comment_count\": 0,\n            \"location\": \"Lucerna Music Bar\",\n            \"carousel_media\": [\n                \"https://scontent.cdninstagram.com/.../551088079_n.jpg\",\n                \"https://scontent.cdninstagram.com/.../550191647_n.jpg\",\n                \"https://scontent.cdninstagram.com/.../551959801_n.jpg\"\n            ]\n        }\n    ],\n    \"hours\": {\n        \"status\": \"\"\n    }\n}\n```\n\n### \ud83c\udff7\ufe0f Mentions\n\nPosts where a profile is tagged. Requires a known profile URL or ID.\n\n**Supported URL inputs:**\n\n- `https://www.instagram.com/nike/` (profile)\n- `https://www.instagram.com/197622247/` (profile ID)\n- `https://www.instagram.com/humansofny/reels/` (profile reels section)\n\n**Mentions data sample**\n\n```json\n{\n    \"inputUrl\": \"https://www.instagram.com/humansofny/reels/\",\n    \"id\": \"3924787795441061311\",\n    \"type\": \"Sidecar\",\n    \"shortCode\": \"DZ3pbSeDY2_\",\n    \"caption\": \"Infinitely grateful to the @humansofny community for helping @stephen_james_campbell start his new life...\",\n    \"hashtags\": [\"gratefulthankfulblessed\", \"summersolsticeblessings\"],\n    \"mentions\": [\"humansofny\", \"stephen_james_campbell\"],\n    \"url\": \"https://www.instagram.com/p/DZ3pbSeDY2_/\",\n    \"commentsCount\": 1,\n    \"likesCount\": 14,\n    \"videoPlayCount\": 0,\n    \"timestamp\": \"2026-06-22T01:19:46.000Z\",\n    \"displayUrl\": \"https://scontent.cdninstagram.com/.../730022154_n.jpg\",\n    \"carouselImageCount\": 20,\n    \"carouselImages\": [\n        \"https://scontent.cdninstagram.com/.../730022154_n.jpg\",\n        \"https://scontent.cdninstagram.com/.../730083595_n.jpg\",\n        \"https://scontent.cdninstagram.com/.../729128221_n.jpg\"\n    ],\n    \"ownerFullName\": \"Jordan Moody\",\n    \"ownerUsername\": \"dexawild\",\n    \"ownerId\": \"6521170568\",\n    \"productType\": \"carousel_container\",\n    \"taggedUsers\": [\"humansofny\", \"stephen_james_campbell\"],\n    \"music\": { \"title\": \"Follow The Sun\", \"artist\": \"Xavier Rudd\" }\n}\n```\n\n### #\ufe0f\u20e3 Hashtag details\n\nHashtag metadata: name, post count, related tags, reach tiers.\n\n**Supported URL input:**\n\n- `https://www.instagram.com/explore/tags/crossfit/` (hashtag)\n\n**Hashtag details sample**\n\n```json\n{\n    \"searchSource\": \"instagram\",\n    \"name\": \"fathersday\",\n    \"postsCount\": 21310000,\n    \"url\": \"https://www.instagram.com/explore/tags/fathersday\",\n    \"id\": \"fathersday\",\n    \"posts\": \"21.31 M\",\n    \"postsPerDay\": \"\u2014\",\n    \"difficulty\": \"\",\n    \"related\": [\n        { \"hash\": \"#giftideas\", \"info\": \"51.58 m\" },\n        { \"hash\": \"#gifts\", \"info\": \"45.95 m\" },\n        { \"hash\": \"#mothersday\", \"info\": \"41.33 m\" },\n        { \"hash\": \"#anniversary\", \"info\": \"30.9 m\" },\n        { \"hash\": \"#happymothersday\", \"info\": \"16.07 m\" },\n        { \"hash\": \"#giftsforher\", \"info\": \"12.35 m\" },\n        { \"hash\": \"#birthdaygift\", \"info\": \"10.44 m\" },\n        { \"hash\": \"#happyfathersday\", \"info\": \"10.14 m\" },\n        { \"hash\": \"#giftsforhim\", \"info\": \"6.48 m\" }\n    ],\n    \"frequent\": [\n        { \"hash\": \"#fathersday\", \"info\": \"21.31 m\" },\n        { \"hash\": \"#happyfathersday\", \"info\": \"10.14 m\" },\n        { \"hash\": \"#fathersdaygifts\", \"info\": \"2.25 m\" },\n        { \"hash\": \"#fathersdaygift\", \"info\": \"1.01 m\" }\n    ],\n    \"average\": [{ \"hash\": \"#fathersdaygiftideas\", \"info\": \"529.04 k\" }],\n    \"rare\": [{ \"hash\": \"#fathersdaycard\", \"info\": \"93.89 k\" }],\n    \"relatedFrequent\": [\n        { \"hash\": \"#love\", \"info\": \"2.15 g\" },\n        { \"hash\": \"#dad\", \"info\": \"28.71 m\" },\n        { \"hash\": \"#family\", \"info\": \"475.12 m\" },\n        { \"hash\": \"#mothersday\", \"info\": \"41.33 m\" },\n        { \"hash\": \"#daddy\", \"info\": \"18.72 m\" },\n        { \"hash\": \"#instagood\", \"info\": \"2.02 g\" },\n        { \"hash\": \"#gift\", \"info\": \"91.25 m\" },\n        { \"hash\": \"#birthday\", \"info\": \"177.31 m\" },\n        { \"hash\": \"#giftideas\", \"info\": \"51.58 m\" }\n    ],\n    \"relatedAverage\": [{ \"hash\": \"#vatertag\", \"info\": \"656.9 k\" }],\n    \"relatedRare\": [{ \"hash\": \"#dietsantai\", \"info\": \"42.03 k\" }]\n}\n```\n\n### \ud83d\udc88 Place search\n\nDiscover Instagram places by keyword. Useful for small business discovery: the search query works best when it combines a city and a local business type, e.g. `vintage shop copenhagen`.\n\n**Search query format:**\n\n- Set `searchType` to `\"place\"`\n- Set `search` to one or more keywords (comma-separated for multiple)\n\n**Place search data sample**\n\n```json\n[\n    {\n        \"searchTerm\": \"vintage shop copenhagen\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/1016004479/fn92/\",\n        \"name\": \"FN92\",\n        \"phone\": \"+45 22 48 56 86\",\n        \"category\": \"Clothing store\",\n        \"media_count\": 9,\n        \"price_range\": 3,\n        \"lat\": 55.71375,\n        \"lng\": 12.56804,\n        \"slug\": \"fn92\",\n        \"location_id\": \"1016004479\",\n        \"location_address\": \"Bryggervangen 76\",\n        \"location_city\": \"\",\n        \"location_zip\": \"2100\",\n        \"ig_business\": { \"profile\": null },\n        \"hours\": { \"status\": \"\" }\n    },\n    {\n        \"searchTerm\": \"vintage shop copenhagen\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/334251990081960/jerome-vintage/\",\n        \"name\": \"JEROME VINTAGE\",\n        \"phone\": \"\",\n        \"category\": \"Vintage Store\",\n        \"media_count\": 582,\n        \"price_range\": 0,\n        \"lat\": 55.67437,\n        \"lng\": 12.54993,\n        \"slug\": \"jerome-vintage\",\n        \"location_id\": \"334251990081960\",\n        \"location_address\": \"Vesterbrogade 36\",\n        \"location_city\": \"\",\n        \"location_zip\": \"1620\",\n        \"ig_business\": {\n            \"profile\": {\n                \"profile_pic_url\": \"https://scontent.cdninstagram.com/.../350941664_n.jpg\",\n                \"username\": \"jerome_vintage\",\n                \"id\": \"1401828165\"\n            }\n        },\n        \"hours\": { \"status\": \"Closed\" }\n    },\n    {\n        \"searchTerm\": \"vintage shop copenhagen\",\n        \"searchSource\": \"google\",\n        \"inputUrl\": \"https://www.instagram.com/explore/locations/318767455/robb-copenhagen-shop/\",\n        \"name\": \"Robb Copenhagen (Shop)\",\n        \"phone\": \"\",\n        \"category\": \"Local business\",\n        \"media_count\": 100,\n        \"price_range\": 0,\n        \"lat\": 55.67264,\n        \"lng\": 12.55788,\n        \"slug\": \"robb-copenhagen-shop\",\n        \"location_id\": \"318767455\",\n        \"location_address\": \"Vesterbrogade 35\",\n        \"location_city\": \"\",\n        \"location_zip\": \"1654\",\n        \"ig_business\": { \"profile\": null },\n        \"posts\": [\n            {\n                \"code\": \"vqBeQcAJg5\",\n                \"id\": \"858505156247984185_506605037\",\n                \"taken_at\": 1416561811,\n                \"product_type\": \"feed\",\n                \"username\": \"robbcopenhagen\",\n                \"caption\": \"A few vintage BARBAR left // perfect gift 250,- remember we ship to other countries as well \ud83d\udc18\ud83d\udc18 #robbcopenhagen #fashion #store #vesterbrogade35 #babarbar #vintage @robbcopenhagen\",\n                \"like_count\": 4,\n                \"comment_count\": 0,\n                \"location\": \"Robb Copenhagen (Shop)\",\n                \"image\": \"https://scontent.cdninstagram.com/.../632287548_n.jpg\"\n            }\n        ],\n        \"hours\": { \"status\": \"\" }\n    }\n]\n```\n\n### \ud83d\udc65 Profile search\n\nDiscover Instagram profiles by keyword. Returns matching users along with their recent posts.\n\n**Search query format:**\n\n- Set `searchType` to `\"profile\"`\n- Set `search` to one or more keywords, e.g. `\"nike\"` or `\"nike, adidas\"` (comma-separated for multiple)\n\n**Profile search data sample**\n\n```json\n[\n    {\n        \"id\": \"3924506097334912938\",\n        \"shortCode\": \"DZ2pYCqgIeq\",\n        \"type\": \"Sidecar\",\n        \"ownerUsername\": \"nikesportswear\",\n        \"ownerFullName\": \"Nike Sportswear\",\n        \"caption\": \"Bring the love.\\n\\n@arynasabalenka on set with Nike Court.\\n\\nAll Love collection available June 22.\",\n        \"url\": \"https://www.instagram.com/p/DZ2pYCqgIeq/\",\n        \"likesCount\": 39779,\n        \"commentsCount\": 135,\n        \"timestamp\": \"2026-06-21T16:00:05.000Z\",\n        \"taggedUsers\": [\"arynasabalenka\"],\n        \"carouselImageCount\": 5,\n        \"images\": [\n            \"https://scontent.cdninstagram.com/.../729869204_n.jpg\",\n            \"https://scontent.cdninstagram.com/.../729359762_n.jpg\"\n        ]\n    },\n    {\n        \"id\": \"3925170511466021648\",\n        \"shortCode\": \"DZ5AciixUMQ\",\n        \"type\": \"Video\",\n        \"ownerUsername\": \"nike\",\n        \"caption\": \"Time for liftoff @erling and @channingtatum\",\n        \"url\": \"https://www.instagram.com/p/DZ5AciixUMQ/\",\n        \"likesCount\": 10720,\n        \"commentsCount\": 64,\n        \"videoViewCount\": 83809,\n        \"videoPlayCount\": 506507,\n        \"videoDuration\": 44.75,\n        \"timestamp\": \"2026-06-22T14:01:05.000Z\",\n        \"taggedUsers\": [\"nikefootball\", \"erling\", \"channingtatum\"],\n        \"displayUrl\": \"https://scontent.cdninstagram.com/.../729747056_n.jpg\",\n        \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQPNH7ACF2tBTf.mp4\",\n        \"music\": \"Original audio - nike\"\n    },\n    {\n        \"id\": \"3912183471120209303\",\n        \"shortCode\": \"DZK3iOsRlWX\",\n        \"type\": \"Video\",\n        \"ownerUsername\": \"nike\",\n        \"caption\": \"It was all going to plan until instincts took over\u2026\\n\\nRip The Script\",\n        \"url\": \"https://www.instagram.com/p/DZK3iOsRlWX/\",\n        \"likesCount\": 2487337,\n        \"commentsCount\": 54939,\n        \"videoViewCount\": 14401109,\n        \"videoPlayCount\": 59671075,\n        \"videoDuration\": 359.75,\n        \"timestamp\": \"2026-06-04T15:59:27.000Z\",\n        \"isPinned\": true,\n        \"taggedUsers\": [\"nikefootball\"],\n        \"displayUrl\": \"https://scontent.cdninstagram.com/.../717154541_n.jpg\",\n        \"videoUrl\": \"https://scontent.cdninstagram.com/.../AQNKUhlPLvsO.mp4\",\n        \"music\": \"Original audio - nike\"\n    }\n]\n```\n\n### \ud83d\udc41\ufe0f Hashtag search\n\nDiscover related hashtags by keyword. Useful for finding adjacent or less-saturated tags around a topic.\n\n**Search query format:**\n\n- Set `searchType` to `\"hashtag\"`\n- Set `search` to one or more keywords, e.g. `\"travel\"` or `\"travel, fitness\"` (comma-separated for multiple)\n\n**Hashtag search data sample**\n\n```json\n[\n    {\n        \"searchTerm\": \"fathersday\",\n        \"searchSource\": \"google\",\n        \"name\": \"raddad\",\n        \"postsCount\": 0,\n        \"url\": \"https://www.instagram.com/explore/tags/raddad\",\n        \"id\": \"raddad\"\n    },\n    {\n        \"searchTerm\": \"fathersday\",\n        \"searchSource\": \"google\",\n        \"name\": \"campdads\",\n        \"postsCount\": 117,\n        \"url\": \"https://www.instagram.com/explore/tags/campdads\",\n        \"id\": \"campdads\",\n        \"posts\": \"117\",\n        \"postsPerDay\": \"\u2014\",\n        \"difficulty\": \"\",\n        \"related\": [],\n        \"average\": [],\n        \"rare\": []\n    },\n    {\n        \"searchTerm\": \"fathersday\",\n        \"searchSource\": \"google\",\n        \"name\": \"happyfather\",\n        \"postsCount\": 25209000,\n        \"url\": \"https://www.instagram.com/explore/tags/happyfather\",\n        \"id\": \"happyfather\",\n        \"posts\": \"252.09 K\",\n        \"postsPerDay\": \"\u2014\",\n        \"difficulty\": \"\",\n        \"related\": [{ \"hash\": \"#happyfathersday\", \"info\": \"10.14 m\" }],\n        \"average\": [{ \"hash\": \"#happyfatherday\", \"info\": \"283.05 k\" }],\n        \"rare\": [{ \"hash\": \"#happyfathersdaydad\", \"info\": \"59.63 k\" }],\n        \"relatedFrequent\": [\n            { \"hash\": \"#happy\", \"info\": \"737.91 m\" },\n            { \"hash\": \"#father\", \"info\": \"46.02 m\" },\n            { \"hash\": \"#love\", \"info\": \"2.15 g\" }\n        ],\n        \"relatedAverage\": [{ \"hash\": \"#dadsday\", \"info\": \"386.01 k\" }],\n        \"relatedRare\": [{ \"hash\": \"#holidayphoto\", \"info\": \"74.76 k\" }]\n    }\n]\n```\n\n## Notes and exceptions\n\n- **URL type drives output schema.** Hashtag, location, audio, and explore URLs return their respective metadata even when paired with another content mode.\n- **URLs take priority over search queries**; they can't be combined.\n- Multiple search words are allowed; you just need to comma-separate them.\n- **Profile IDs are interchangeable with usernames** anywhere a profile URL is accepted.\n- **`_u` and `profilecard` segments are stripped automatically**, so `instagram.com/_u/natgeo/profilecard/` works as a profile URL.\n- **Story URLs** (`instagram.com/stories/emiliavizcarra/`) are reduced to the username before scraping.\n- **Share URLs** (`instagram.com/share/BAC6cDeb_-`) are resolved to the canonical post URL via a redirect.\n- **Location URLs accept the ID alone**, without the trailing slug: `instagram.com/explore/locations/7538318/` is valid.\n- Date filters use **UTC**.\n- **Not supported:** numeric post IDs in URL form (`instagram.com/p/3369450800358839406/`) for `posts`, `reels`, `mentions`, and `details` modes. Use the shortCode form. (This format works for `comments`.)\n\n## What can you do with data after scraping Instagram?\n\nInstagram Scraper is a very versatile tool that can handle hundreds of use cases. Here are a few tips on most common ways people get and interpret public Instagram data:\n\n### \ud83c\udfaf [Influencer vetting and partnership research](https://apify.com/use-cases/influencer-vetting)\n\nFollower count is a weak signal to find and filter influencer partnerships. Score creators on engagement quality, audience authenticity, and posting consistency instead. Here's how to find and vet Instagram creators using Instagram Scraper:\n\n**Recipe:**\n\n1. **Find creators in your niche.** Run `posts` or `reels` with a hashtag URL like `instagram.com/explore/tags/fitness/`. You'll get a pool of recent posts with creator usernames and engagement numbers.\n\n2. **Profile each candidate.** Run `details` on the profile URLs (or IDs) from step 1 to pull bios, follower counts, verified status, and business category.\n\n3. **Score real engagement.** Run `posts` or `reels` on the top 20\u201350 profile URLs to compare engagement rates, posting cadence, and format mix.\n\n4. **Audit audience sentiment.** Run `comments` on the top-performing post URLs from step 3 to read actual reactions and spot bot patterns.\n\nRe-run steps 2-3 weekly to catch follower drop-offs before signing. Send results to a creator CRM, Google Sheets, or your scoring dashboard.\n\n### \ud83d\udd25 [Trend tracking and UGC intelligence](https://apify.com/use-cases/instagram-trends-search)\n\nTrends move fast on Instagram, and the hashtags that drove reach last quarter rarely do today. Track what's gaining traction, which creators set the pace, and what's already saturated. Here's how to discover trends and UGC using Instagram Scraper:\n\n**Recipe:**\n\n1. **Monitor a target hashtag's content.** Run `posts` or `reels` with a hashtag URL like `instagram.com/explore/tags/cleanbeauty/` to see recent content under the tag and its engagement.\n\n2. **Measure hashtag size and reach.** Run `details` on the same hashtag URL to get post count, posts-per-day, and frequent/average/rare usage buckets.\n\n3. **Find adjacent, less-saturated tags.** Run `details` on the hashtag URL (or a hashtag search query) to surface related tags grouped by reach tier.\n\nDaily runs for fast-moving categories (fashion, beauty, fitness). Weekly runs for steadier verticals (B2B, home, finance). Send output to trend dashboards, content planning tools, or Slack for daily digests.\n\n### \ud83d\udcaf Competition or campaign monitoring\n\nTrack what your competitors post, when they post, and how their audience reacts. The same workflow applies to monitoring your own campaigns. Here's how to track competitors, influencers, or campaigns using Instagram Scraper:\n\n**Recipe:**\n\n1. **Track competitor stats.** Run `details` on a competitor profile URL like `instagram.com/competitor/` to capture follower growth, bio updates, and posts count.\n\n2. **Compare content output.** Run `posts` or `reels` on the same profile URL to see engagement rates, top-performing content, and format mix.\n\n3. **Read audience reactions.** Run `comments` on the top competitor post URLs from step 2 to hear what their audience actually says.\n\n4. **Map their hashtag strategy.** Run `details` on the hashtag URLs they use to see reach tier and related-tag clusters.\n\nRun weekly. Send results to a competitive intelligence dashboard, a shared sheet, or your strategy doc.\n\n### \ud83d\udd14 Brand monitoring and mentions\n\nInstagram doesn't expose comments to search, which makes true real-time brand monitoring harder than on Twitter or Reddit. Combine three angles to get as close as possible. Here's how to work with brand mentions using Instagram Scraper:\n\n**Recipe (run all three in parallel, then deduplicate):**\n\n1. **Catch caption mentions.** Run `posts` with a search query of your brand name (set `searchType` to `\"user\"`) to find posts where your brand appears in the caption text.\n\n2. **Track branded hashtag UGC.** Run `posts` or `reels` with a branded hashtag URL like `instagram.com/explore/tags/yourbrand/` to capture content from fans, customers, and creators who chose to tag you.\n\n3. **Capture @-tag mentions.** Run `mentions` on your own profile URL like `instagram.com/yourbrand/` to find posts where your account is @-tagged.\n\nCombine all three for the widest realistic net. Comments stay out of reach because Instagram doesn't expose comment text to search. Send results to a brand monitoring dashboard, your CRM, or Slack for daily alerts.\n\n### \ud83c\udfd9\ufe0f [Local business discovery and lead generation](https://apify.com/use-cases/local-businesses-discovery)\n\nMany local businesses (salons, restaurants, gyms, boutiques) are active on Instagram but missing from Google Maps, Yelp, and traditional B2B lists. Here's how to find local businesses using Instagram Scraper:\n\n**Recipe:**\n\n1. **Discover places by category and city.** Run `details` with a search query like `vintage shop copenhagen` (set `searchType` to `\"place\"`) to get a list of tagged Instagram places matching your query.\n\n2. **Get place data.** Run `details` on each place URL like `instagram.com/explore/locations/318767455/` to capture coordinates, category, post count, and the linked business profile.\n\n3. **Enrich with profile info.** Run `details` on the linked profile URL from step 2 to pull the business's bio, follower count, contact info, and recent posts.\n\nUse cases include market entry research, competitive mapping, hyper-local partnership prospecting, and CRM enrichment. Export to CSV or send to your CRM via API.\n\n## Want to get other data from Instagram?\n\nYou can use the other dedicated scrapers below if you want to scrape specific Instagram data:\n\n<table>\n<tr>\n<td>\ud83d\udcf7 <a href=\"https://apify.com/apify/instagram-post-scraper\">Instagram Post Scraper</a></td>\n<td>\ud83d\udcac <a href=\"https://apify.com/apify/instagram-comment-scraper\">Instagram Comments Scraper</a></td>\n</tr>\n<tr>\n<td>\ud83d\udc64 <a href=\"https://apify.com/apify/instagram-profile-scraper\">Instagram Profile Scraper</a></td>\n<td>\ud83c\udf9e\ufe0f <a href=\"https://apify.com/apify/instagram-reel-scraper\">Instagram Reel Scraper</a></td>\n</tr>\n<tr>\n<td>#\ufe0f\u20e3 <a href=\"https://apify.com/apify/instagram-hashtag-scraper\">Instagram Hashtag Scraper</a></td>\n<td>\ud83d\udcca <a href=\"https://apify.com/apify/instagram-hashtag-analytics-scraper\">Instagram Hashtag Analytics Scraper</a></td>\n</tr>\n<tr>\n<td>\ud83c\udff7\ufe0f <a href=\"https://apify.com/apify/instagram-tagged-scraper\">Instagram Mentions Scraper</a></td>\n<td>\ud83d\udc65 <a href=\"https://apify.com/apify/instagram-followers-count-scraper\">Instagram Followers Count Scraper</a></td>\n</tr>\n<tr>\n<td>\ud83d\udd0e <a href=\"https://apify.com/apify/instagram-search-scraper\">Instagram Search Scraper</a></td>\n<td>\ud83d\udcbe <a href=\"https://apify.com/apify/export-instagram-comments-posts\">Export Instagram Comments and Posts Tool</a></td>\n</tr>\n<tr>\n<td>\ud83d\udd2e <a href=\"https://apify.com/apify/brand-collaboration-scraper\">Instagram Influencer Collaboration Scraper</a></td>\n<td>\ud83d\udecd\ufe0f <a href=\"https://apify.com/apify/facebook-ads-scraper\">Instagram Ads Scraper</a></td>\n</tr>\n</table>\n\n> Want Threads data too? Instagram and Threads share usernames, so the [Threads Profile Scraper](https://apify.com/apify/threads-profile-api-scraper) works the same way.\n\n## \u2753 Frequently Asked Questions\n\n### Can I scrape multiple content types in a single run?\n\nNo. Each run produces one content type, controlled by the **Content to scrape** parameter. To collect both posts and comments, run the Actor twice or chain runs via webhooks ot using MCP.\n\n### Can I combine URLs and search queries?\n\nNo. **URLs always take priority over search queries**, and they cannot be combined in the same run.\n\n### What's the difference between Posts, Reels, and Mentions output?\n\nAll three return media items with the same schema. The difference is which items come back: **Posts** returns the feed of a profile/hashtag/place, **Reels** filters to reel content (`productType: \"clips\"`), and **Mentions** returns posts where the target profile is tagged.\n\n### How many results can I scrape?\n\nIt depends on the content type, input, and what Instagram exposes publicly. There's no fixed cap. Open the target URL in an incognito window to see what's available to logged-out users, and test with a small run first. **Free plan users are limited to one page of comments per post (~15 comments)**; paid plans don't have this restriction.\n\n### Can I scrape private Instagram profiles?\n\nIn general, no, you cannot scrape private Instagram profiles with Apify Actors. However, if the private profile is **tagged as a collaborator/co-author on a post**, and at least one of the other collaborators has a public profile, Instagram treats that post as public \u2014 regardless of the target account\u2019s own privacy setting. Because the Actor picks up whatever data Instagram\u2019s API hands back for that profile\u2019s content feed, those collaborative posts will get included even though the account itself is private.\n\n### Sometimes the scraped metrics (like, comment, and view counts) don\u2019t match with what is shown on Instagram. Why is that?\n\nIf you compare a post or reel side by side with the Actor's output, the numbers can differ. There are two common reasons, and neither means the data is wrong.\n\n1. The Actor sees the logged-out version of the page. The Actor scrapes public data, so it gets the same counts Instagram shows a visitor who isn't signed in. Instagram doesn't show logged-out visitors everything: engagement from private accounts, for example, is often hidden. That means the counts you see while logged into your own account can be higher than the ones the Actor returns.\n   To check what the Actor should see, open the post in a private/incognito browser window. The counts there should match the Actor's output. If they do, the Actor is working correctly.\n\n2. Counts are a snapshot from the moment of the run. Views, likes, and comments keep changing after the run finishes. A reel that returned 976 views in the morning can legitimately show 982 views when you check it in the afternoon. Always compare against the run's timestamp, not against the live page hours or days later. If the numbers still don't line up after both checks, contact support with the run ID and the post URL so we can look into it.\n\n### How do I exclude pinned posts?\n\nSet `\"skipPinnedPosts\": true` (works with `resultsType: \"posts\"`). Two useful combinations:\n\n- **Skip old pinned posts, keep recent ones:** `\"skipPinnedPosts\": true` + `\"onlyPostsNewerThan\": \"1 day\"` keeps pinned posts from the last day and skips older ones.\n- **Scrape only pinned posts:** `\"skipPinnedPosts\": false` + `\"onlyPostsNewerThan\": \"0 minutes\"`.\n\n### How do I scrape only recent posts?\n\nUse `\"onlyPostsNewerThan\"` with `resultsType: \"posts\"`. Accepted formats:\n\n- Relative: `\"1 day\"`, `\"2 months\"`, `\"3 years\"`\n- Date only: `\"2024-09-05\"`\n- Date with time: `\"2024-09-05T13:22:04\"`\n- Date with time in UTC: `\"2024-09-05T13:22:04Z\"` (the `Z` denotes UTC)\n- With milliseconds: `\"2024-09-05T13:22:04.123\"`\n\nInstagram applies UTC internally, so the filter compares against UTC regardless of your local timezone.\n\n### Can I scrape the newest comments first?\n\nYes. Set `\"isNewestComments\": true` when `resultsType: \"comments\"`. Free plans use the default order.\n\n### Can I get comment replies?\n\nYes, on paid plans. Set `\"includeNestedComments\": true` when `resultsType: \"comments\"`. Each reply is returned as a separate result, so the total count will exceed your `resultsLimit`.\n\n### Can I get extra profile statistics?\n\nSet `\"addProfileStatistics\": true` when `resultsType: \"details\"`. This adds a `statistics` object to each profile result with fields like account type (1 = Personal, 2 = Business, 3 = Creator) and other profile-level data. Works for private profiles too.\n\n### Why is `likesCount` sometimes `-1`?\n\nWhen a creator hides the like count on a reel or post, Instagram doesn't expose it. The scraper returns `-1` to indicate the value isn't publicly available.\n\n### Is it legal to scrape Instagram?\n\nOur [social media scrapers](https://apify.com/store/collections/instagram-facebook-scrapers) only collects data that is publicly available on Instagram. It does not access private content. You should be aware that some public data may be considered personal data under regulations like the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). Only scrape data if you have a legitimate reason. For guidance, see our blog on [the legality of web scraping](https://blog.apify.com/is-web-scraping-legal/).\n\n### Can I integrate Instagram data with other services?\n\nYes. Scraped Instagram data can be integrated with almost any cloud service or web app. Apify supports **Zapier, n8n, Slack, Make, Airbyte, Gumloop, CrewAI, IFTTT, Lindy, GitHub, Google Sheets, Google Drive**, [and more](https://apify.com/integrations). You can also use [webhooks](https://docs.apify.com/integrations/webhooks) to trigger actions whenever a run finishes, like sending notifications or syncing datasets.\n\n### Can I use Instagram Scraper with the Apify API?\n\nYes. The Apify API provides programmatic access to run Actors, fetch datasets, monitor performance, and manage tasks. For Node.js, use the `apify-client` [NPM package](https://apify.com/apify/instagram-scraper/api/javascript). For Python, use the `apify-client` [PyPI package](https://apify.com/apify/instagram-scraper/api/python). Full API docs are available in the [Apify API reference](https://docs.apify.com/api/v2).\n\n### Can I get Instagram data through an MCP server?\n\nYes. You can [connect](https://apify.com/apify/instagram-scraper/api/mcp) to an MCP server using clients like ClaudeDesktop or LibreChat, or build your own integration. For Instagram Scraper:\n\n1. Start a Server-Sent Events (SSE) session to receive a `sessionId`.\n2. Send API messages using that `sessionId` to trigger the scraper.\n3. The message starts the Instagram Scraper with the provided input.\n4. The response should be: Accepted.\n\nLearn more in the [MCP setup guide](https://blog.apify.com/how-to-use-mcp/).\n\n### Instagram Scraper not working?\n\nThe Apify team constantly improves Actor performance. If you find bugs or technical issues, please create an issue on the Actor's [Issues tab](https://apify.com/apify/instagram-scraper/issues/open).\n",
+    "input": {
+      "title": "Instagram Scraper",
+      "type": "object",
+      "description": "**Scrape public Instagram posts, reels, comments, profiles, mentions, and more. Add URLs, profile IDs, or search by hashtag, user, or place.**<br><br>**What you can scrape:**<ul><li><b>Posts</b> \u2192 from a profile URL/ID, post URL, or hashtag URL</li><li><b>Reels</b> \u2192 from a profile URL/ID, reel URL, or hashtag URL</li><li><b>Comments</b> \u2192 from a post or reel URL</li><li><b>Mentions</b> \u2192 from a profile URL</li><li><b>Profile info</b> \u2192 from a profile URL</li><li><b>Hashtag volume</b> \u2192 from a hashtag URL or search query</li><li><b>Place details</b> \u2192 from a location URL or search query</li><li><b>User search</b> \u2192 from a search query</li></ul>**Need more?** Try dedicated scrapers for <a href=\"https://console.apify.com/actors/JJghSZmShuco4j9gJ\">Instagram Ads</a>, <a href=\"https://console.apify.com/actors/xMc5Ga1oCONPmWJIa\">Reel downloads and transcripts</a>, or <a href=\"https://console.apify.com/actors/dSCLg0C3YEZ83HzYX\">profile location and verification data</a>. Browse all <a href=\"https://console.apify.com/collection/instagram-scrapers\">Instagram scrapers</a>.<br><br>**Before you start:**<ul><li>URLs always take priority over search queries \u2014 and they cannot be combined.</li><li>Use <code>/p/</code> for posts and comments and <code>/username/</code> for profiles.</li><li>For search queries, you can enter multiple terms separated by a comma.</li><li>Date filters use UTC, not local time.</li></ul>**Related:** Learn [How to scrape data from Instagram](https://blog.apify.com/scrape-instagram-posts-comments-and-more-21d05506aeb3/). Using the API? [Run Actor and retrieve data via API](https://docs.apify.com/academy/api/run-actor-and-retrieve-data-via-api/).",
+      "schemaVersion": 1,
+      "properties": {
+        "resultsType": {
+          "title": "Content to scrape",
+          "type": "string",
+          "description": "**Posts** returns a feed of content. **Profile, hashtag, or place details** returns metadata about the page: follower count, bio, post count, and profile picture.<br><br>Comments only work with post URLs, e.g. `instagram.com/p/ABC123xyz/` not `instagram.com/username/`.",
+          "editor": "select",
+          "enum": [
+            "posts",
+            "details",
+            "comments",
+            "reels",
+            "mentions",
+            "stories"
+          ],
+          "enumTitles": [
+            "Posts",
+            "Profile, hashtag, or place details",
+            "Comments",
+            "Reels",
+            "Mentions",
+            " "
+          ],
+          "default": "posts",
+          "prefill": "posts"
+        },
+        "directUrls": {
+          "title": "Instagram URLs based on content type",
+          "type": "array",
+          "description": "Add one or more Instagram URLs to scrape.<br><br>URL format must match your content type:<ul><li><code>/p/</code> for posts and comments</li><li><code>/reel/</code> for reels</li><li><code>/username/</code> for profile details</li></ul><br>Leave blank if using the search query instead.",
+          "editor": "stringList",
+          "prefill": [
+            "https://www.instagram.com/humansofny/"
+          ],
+          "items": {
+            "type": "string",
+            "pattern": "^(https:\\/\\/)?(www\\.)?instagram\\.com\\/[A-Za-z0-9._-]+(\\/.*)?$"
+          },
+          "uniqueItems": true
+        },
+        "resultsLimit": {
+          "title": "Results limit per URL",
+          "type": "integer",
+          "description": "Set how many posts or comments to scrape per Instagram URL. Higher values increase compute usage and cost.<br><br>\u26a0\ufe0f Free usage gets only the top 15 comments, sorted by newest, and around 21 mentions. Upgrade to <a href='https://console.apify.com/billing/subscription' target='_blank' rel='noopener'> Starter plan</a> for full access.<br><br>Use `1` to retrieve a single post per page.",
+          "editor": "number",
+          "prefill": 100,
+          "minimum": 1
+        },
+        "onlyPostsNewerThan": {
+          "title": "Filter by date",
+          "type": "string",
+          "description": "Limit how far back to scrape. Enter a date in `YYYY-MM-DD`, ISO format, or as a relative value, e.g. `1 day`, `2 months`, `3 years`.<br><br>Times are in UTC, not local time. New York is UTC-5 in winter, UTC-4 in summer. Pinned posts may still appear even with this filter set.",
+          "editor": "datepicker",
+          "dateType": "absoluteOrRelative",
+          "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])(T[0-2]\\d:[0-5]\\d(:[0-5]\\d)?(\\.\\d+)?Z?)?$|^(\\d+)\\s*(minute|hour|day|week|month|year)s?$"
+        },
+        "search": {
+          "title": "Search query",
+          "type": "string",
+          "description": "Search for Instagram hashtags, profiles, or places.<br>Use `#` for hashtags, e.g. `#travel`.",
+          "editor": "textfield",
+          "sectionCaption": "Search by query instead of URLs",
+          "sectionDescription": "Instagram search uses public Instagram data and Google search to find profiles, places, and hashtags.<br>**Results may differ from what you see in your personal feed when logged in.**"
+        },
+        "searchType": {
+          "title": "Search type",
+          "type": "string",
+          "description": "Hashtag search returns posts tagged with that term. Profile search returns matching accounts. Place search returns matching locations.",
+          "editor": "select",
+          "enum": [
+            "hashtag",
+            "profile",
+            "place",
+            "user"
+          ],
+          "enumTitles": [
+            "Hashtag",
+            "Profile",
+            "Place",
+            " "
+          ],
+          "default": "hashtag",
+          "prefill": "hashtag"
+        },
+        "searchLimit": {
+          "title": "Search results limit",
+          "type": "integer",
+          "description": "Set how many profiles, places, or hashtags to find.<br>To limit posts per result, use Results limit per URL.<br>Higher values increase compute usage and cost.",
+          "editor": "number",
+          "prefill": 10,
+          "minimum": 1,
+          "maximum": 250
+        },
+        "addParentData": {
+          "title": "Add metadata",
+          "type": "boolean",
+          "description": "This applies only to feed items. Adds a dataSource field to each result: profile posts are labeled `profile`, and tag posts are labeled `hashtag`.",
+          "editor": "hidden",
+          "default": false
+        }
+      },
+      "required": []
+    }
+  },
+  "buildNumber": "0.0.781",
+  "actVersion": {
+    "sourceType": "GIT_REPO",
+    "buildTag": "latest",
+    "versionNumber": "0.0"
+  },
+  "usage": {
+    "ACTOR_COMPUTE_UNITS": 0.004595555555555556
+  },
+  "usageTotalUsd": 0.0009191111111111112,
+  "usageUsd": {
+    "ACTOR_COMPUTE_UNITS": 0.0009191111111111112
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "description_override": "<p>Smooth leather gives the Horse Charm its soft shape and clear silhouette. The small profile, layered details and considered color combinations bring a playful equestrian note to an everyday bag. Its character lies in the outline and the finishing, with each version offering its own arrangement of color and detail. Attach it to a favorite handle for a personal touch that feels easy to change with the day.</p>",
+        "fact_material": "Smooth leather",
+        "fact_detail": "Horse silhouette",
+        "preorder_lead_time": "",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": true,
+        "hide_unassigned_media": true
+      },
+      "blocks": {
+        "story_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Decorative horse-shaped bag charm. Colorways have their own attachment and finishing details; refer to the selected color’s photographs.</p>",
+            "open": false
+          }
+        },
+        "story_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials and Care",
+            "content": "<p>Smooth leather with color-specific trims and fittings. Wipe with a soft, dry cloth. Keep away from prolonged moisture and store without crushing.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "story_details",
+        "story_care"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

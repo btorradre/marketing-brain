@@ -1,0 +1,6 @@
+{
+  "queried_at": "2026-09-13T18:56:52.342890+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT segments.product_title, segments.product_item_id, metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions, metrics.conversions_value FROM shopping_performance_view WHERE segments.date BETWEEN '2026-08-14' AND '2026-09-12' ORDER BY metrics.cost_micros DESC LIMIT 50",
+  "results": []
+}

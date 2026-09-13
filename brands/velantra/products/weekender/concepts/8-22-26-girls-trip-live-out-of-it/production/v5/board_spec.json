@@ -1,0 +1,38 @@
+{
+ "title": "VEL-WEEKENDER-LIVEOUT-02 v5 — flap mechanism fix",
+ "project": "velantra",
+ "summary": "SHIPPED 2026-08-24. VEL-WEEKENDER-GS-LIVEOUT-02-v5.mp4, 1080x1920, 35.69s, -14.9 LUFS. Two beats in v4 did not show the Weekender's real opening mechanism. The 14.0s beat is now REAL filmed footage of the actual bag opening. The 20.2s beat is a regenerated and re-animated S7 with the flap in frame. VO, caption cards and all twelve other beats are byte-identical to v4.",
+ "timelines": [
+  {
+   "label": "BEAT 1 — 14.0s 'so it keeps its shape'",
+   "source": "was askme-ELEANOR-S11 library clip, now real 4K iPhone footage",
+   "beats": [
+    {"t":"v4 BEFORE","script":"so it keeps its shape packed full or half empty","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/OLD-keepsshape-v4.jpg","visual":"library clip, top-down open bag","emotion":"FAIL","note":"Three tabs merged into one straight edge. No gold oval plate on the flap. The plate is on the BODY BAND instead, the exact inverse of the real bag. Interior reads cream canvas, not caramel leather."},
+    {"t":"v5 AFTER","script":"so it keeps its shape packed full or half empty","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/FINAL-keepsshape-v5.jpg","visual":"real hand folding the real flap all the way back","emotion":"FIXED","note":"Real footage of the actual bag. Opens on the closed flap with all three tabs and the gold oval keyhole plate, folds all the way back, ends on the caramel leather interior with the bag holding its shape. Nothing generated, so nothing to fail."}
+   ]
+  },
+  {
+   "label": "BEAT 2 — 20.2s 'it just sat open by the bed'",
+   "source": "S7 regenerated on GPT Image 2 i2i, animated on Omni",
+   "beats": [
+    {"t":"v4 BEFORE","script":"it just sat open by the bed for three days","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/OLD-daythree-v4.jpg","visual":"over the shoulder into the open mouth","emotion":"FAIL","note":"No flap, no handles, no staples, no turn post, no corner patches. Reads as a canvas basket with a leather rim. The animation pass then grew a drooping front handle that is not on the bag."},
+    {"t":"v5 KEYFRAME","script":"it just sat open by the bed for three days","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/S7-PICK-e.jpg","visual":"low from the front left, bag wider than tall, she reaches in from the right","emotion":"the pick","note":"Exact counts: three hanging tabs, one gold oval plate on the centre tab, two keyhole handle cutouts, two strap slots. Both handles anchored in the leather band. Correct knurled mushroom post. Both belt strap end plates above the corner patches."},
+    {"t":"v5 AFTER","script":"it just sat open by the bed for three days","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/FINAL-daythree-v5.jpg","visual":"she lifts the sweater out, bag still on the rug","emotion":"FIXED","note":"Every count holds through the whole move. Audited at three points across the clip plus the composed timeline frame with captions in place."}
+   ]
+  },
+  {
+   "label": "REJECTED — kept for the audit trail",
+   "source": "8 keyframes generated across two passes, 6 rejected",
+   "beats": [
+    {"t":"OPTION H","script":"animated, then rejected","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/S7-cand-h.jpg","visual":"flap square to camera, most legible mechanism of the set","emotion":"reject after animation","note":"Best flap in the set, but the motion pass carried two hardware defects from its keyframe: the knurled post rendered as a gold spiral, and both belt straps ran down onto the corner patches. Structural, so a FAIL, not an editor note."},
+    {"t":"OPTION B","script":"reject","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/S7-cand-b.jpg","visual":"first pass, same blocking as the pick","emotion":"reject","note":"Four strap slots on the flap instead of two, and the left belt strap ran onto the corner patch. Fixed in pass 2 by adding explicit counts to the prompt."},
+    {"t":"OPTION A","script":"reject","frame":"/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/weekender/concepts/8-22-26-girls-trip-live-out-of-it/production/v5/board/S7-cand-a.jpg","visual":"over her shoulder looking down","emotion":"reject","note":"Flap counts correct but the rear handle is missing and the crop loses the silhouette."}
+   ]
+  }
+ ],
+ "notes": [
+  {"title":"WHAT FIXED THE FLAP","text":"Two changes at once, after this geometry had failed about a dozen times across three runs. One, the i2i anchor moved off the closed hero and onto the real open-bag photographs. Two, the flap-tab language moved to the very front of the prompt written as a left-to-right reading of the flap edge, with explicit counts. Pass 1 without counts gave four slots on one candidate. Pass 2 with counts gave correct counts on every roll.","color":"#dff2e1"},
+  {"title":"WHY THE FIRST BEAT WENT TO REAL FOOTAGE","text":"Every engine merges the three tabs into one slab sooner or later. Real footage of the actual bag opening removes the failure mode entirely and is the strongest proof available for that VO line.","color":"#dff2e1"},
+  {"title":"PROCESS","text":"H was animated first and then thrown away over two hardware defects. That is the 8/24 law working as intended: a missing, invented or malformed structural element is a FAIL, never a note. Passing those as notes is what put the two defects into v4 in the first place.","color":"#fdf3c9"}
+ ]
+}

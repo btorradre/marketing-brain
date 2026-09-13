@@ -1,0 +1,94 @@
+{
+  "status": "completed review edit",
+  "provider": "HeyGen",
+  "engine": "Avatar V",
+  "video_id": "61ab06d8141ce79c51f0ddc7bcbeb1ca",
+  "voice": "Existing ElevenLabs Woman Over 40 / Natural / synthesis speed 1.1; unchanged",
+  "project": "VEL_Eleanor_EuropeanTravel_Natural110_20260912",
+  "timeline": "Eleanor-EuropeanTravel-HeyGen",
+  "video_seconds": 81.3,
+  "container_seconds": 81.365333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2439,
+  "native_presenter_seconds": 79.28,
+  "end_hold_frames": 61,
+  "captions": 76,
+  "approved_caption_words_exact": true,
+  "full_audio_video_decode": "passed",
+  "audio_correlation": {
+    "native": {
+      "decoded_seconds": 79.296,
+      "checks": [
+        {
+          "start_seconds": 0,
+          "lag_seconds": 0.0,
+          "correlation": 0.9999474076812083
+        },
+        {
+          "start_seconds": 32,
+          "lag_seconds": 0.0,
+          "correlation": 0.9999372505874947
+        },
+        {
+          "start_seconds": 65,
+          "lag_seconds": 0.0,
+          "correlation": 0.999927641018924
+        }
+      ],
+      "pass": true
+    },
+    "final": {
+      "decoded_seconds": 81.321375,
+      "checks": [
+        {
+          "start_seconds": 0,
+          "lag_seconds": 0.0,
+          "correlation": 0.9999989687777309
+        },
+        {
+          "start_seconds": 32,
+          "lag_seconds": 0.0,
+          "correlation": 0.9999991020930769
+        },
+        {
+          "start_seconds": 65,
+          "lag_seconds": 0.0,
+          "correlation": 0.9999990140392404
+        }
+      ],
+      "pass": true
+    }
+  },
+  "visual_inspection": "Final overview; eleven native scene samples; all nine consecutive source scene-cut pairs; enlarged presenter edges at opening, middle and end. Presenter continuous through speech; two-second last-frame hold. No visible offline frames or bag obstruction in inspected views.",
+  "machine_review": "Full 4fps audio/video review plus three six-second native lip-sync windows at15fps; keying flag reconciled by direct inspection. Not human approval or frame-exhaustive audit.",
+  "cutroom_url": "https://cutroom-three.vercel.app/b/eleanor-european-travel-storyboard",
+  "files": [
+    {
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/exports/Eleanor-EuropeanTravel-HeyGen.mp4",
+      "bytes": 159766285,
+      "sha256": "c2779120aa9b5617cad07a64aee913050b12969812d4b09e443896701746b3bb"
+    },
+    {
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/exports/Eleanor-EuropeanTravel-HeyGen.drp",
+      "bytes": 459719,
+      "sha256": "9819e22e2de9fa7e1f8a06904b35e8e5f2e18125e549fae405de6e4c9f24ff70"
+    },
+    {
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/heygen/presenter-native.mp4",
+      "bytes": 181703324,
+      "sha256": "bb1e37fb1108c4d81f910afc526aea3034de195d3650f3cb9cfcbc4747175a4f"
+    },
+    {
+      "path": "brands/velantra/creative/eleanor-european-travel-2026-09-11/production/heygen/narration-resolve.wav",
+      "bytes": 11416422,
+      "sha256": "a4ec6fed284ed39603a402e77e2185a12f31b0d4ef6846e42747ec5682d0b1e9"
+    }
+  ],
+  "limits": [
+    "Commercial reuse rights of sourced hook photos remain unverified.",
+    "Source-relative product fidelity only; physical dimensions not certified.",
+    "Paris remains its selected still and planned stepped crop after optional Omni generation failed."
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "wend-stick-is-bone-not-ink",
+    "law": "Wend packaging truth: BONE stick with NAVY SERIF wordmark; INK carton (LAW 2026-08-16)",
+    "severity": "blocker",
+    "regex": "\\b(?:dark|navy|ink|black)\\s+(?:ink\\s+)?(?:sachets?|sticks?|stick\\s+packs?)\\b|\\bbone\\s+(?:type|lettering|wordmark)\\s+on\\s+(?:a\\s+)?(?:dark|navy|ink)\\b|\\b(?:grotesque|sans[-\\s]serif)\\s+wordmark\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "The real stick pack is cream/bone matte film with WEND in deep navy high-contrast serif; the carton is deep navy ink with a bone serif wordmark. brand-kit.md ('dark ink sachet with bone type', grotesque) is stale. Source product art only from brands/wend/creative/pdp-sections-2026-08-15/; never seed from brand/concepts-2026-08-15/. Body/headline type on ads stays grotesque; only the wordmark is serif.",
+    "scope": "prompt",
+    "brand": "wend",
+    "source": "feedback_wend_packaging_truth"
+  }
+]

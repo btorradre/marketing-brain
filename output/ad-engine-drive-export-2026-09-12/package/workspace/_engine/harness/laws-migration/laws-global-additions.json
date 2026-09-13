@@ -1,0 +1,206 @@
+[
+  {
+    "id": "no-ellipsis-in-spoken-lines",
+    "law": "ugc-dialogue-naturalness (no ellipses in spoken text)",
+    "severity": "warning",
+    "regex": "\\.\\.\\.|…",
+    "flags": [],
+    "note": "Spoken-delivery text uses commas and periods ONLY. Video and TTS models render an ellipsis as literal dead air (Brooks 2026-07-06). Direct a pause in the performance cue, never in the dialogue text. Warning because prose copy (emails, letters) may legitimately carry one; treat as a blocker on any script fed to a voice or video engine.",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_ugc_dialogue_naturalness"
+  },
+  {
+    "id": "no-okay-wait-opener",
+    "law": "ugc-demonstrate-never-describe (open mid-thought, flat)",
+    "severity": "warning",
+    "regex": "\\bokay,?\\s+wait\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "AI UGC opens mid-thought and flat, no 'Okay, wait.' and no superlative in the first line. The viral reference opened 'So this is my everyday bag.'",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_ugc_demonstrate_never_describe"
+  },
+  {
+    "id": "no-doctors-dont-want-you-to-know",
+    "law": "hook-philosophy (Level-2 sophistication hook)",
+    "severity": "warning",
+    "regex": "\\bdoctors?\\s+(?:don['’]?t|do\\s+not|won['’]?t)\\s+want\\s+you\\s+to\\s+know\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'Doctors don't want you to know...' is Level-2 market-sophistication garbage. The elite version is a SPECIFIC doctor dismissing a SPECIFIC person about a SPECIFIC thing and being proven wrong.",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_hook_philosophy"
+  },
+  {
+    "id": "no-clinically-studied-phrasing",
+    "law": "skepticism-sets-funnel-shape / no-fabricated-citations (clinically studied)",
+    "severity": "warning",
+    "regex": "\\bclinically\\s+(?:studied|tested|validated|backed|formulated|dosed)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Extends global no-fabricated-citations, whose regex catches 'clinically proven / clinical study' but not 'clinically studied / tested'. Ingredient phrasing is [ingredient] + [physical verb] + so that + [plain outcome]; the logic IS the proof. No Latin, no dosages, no 'clinically studied'.",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_skepticism_sets_funnel_shape"
+  },
+  {
+    "id": "no-invented-review-counts",
+    "law": "no-fabricated-citations (star ratings and review counts)",
+    "severity": "warning",
+    "regex": "\\b\\d[\\d,]*\\+?\\s+(?:five|5)[-\\s]star\\s+reviews?\\b|\\b[1-5]\\.\\d\\s*(?:\\/|out\\s+of)\\s*5\\b|\\b\\d{1,3}(?:,\\d{3})+\\+?\\s+(?:happy\\s+)?(?:customers|reviews|women|men|orders|buyers)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "The no-fabricated-citations law also covers invented star ratings, review counts and customer counts. Verify every figure against the live store before it ships. Warning because real, verified figures are allowed.",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_verified_buyer_statics_are_approved"
+  },
+  {
+    "id": "no-fda-approved",
+    "law": "supplement compliance: never 'FDA approved'",
+    "severity": "blocker",
+    "regex": "\\bfda[-\\s]?approved\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Supplements are never 'FDA approved'. Approved wording is 'FDA-registered manufacturer' / 'OTC monograph' (ruled on the Orelli deck, 2026-08-01; applies to every supplement brand).",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_velantra_standalone_main_brand"
+  },
+  {
+    "id": "no-brand-hierarchy-labels",
+    "law": "no hierarchy labels between Brooks's brands",
+    "severity": "warning",
+    "regex": "\\bside\\s+ventures?\\b|\\bthe\\s+main\\s+brand\\b|\\broad\\s+to\\s+velantra\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'Side venture', 'the main brand', 'Chapter One/Two', 'Road to Velantra' are all banned in decks and portfolio copy. Each brand gets a CATEGORY tag only (Velantra = FASHION & ACCESSORIES, Lunessa/Motilli = HEALTH & WELLNESS). Velantra's primacy is conveyed through facts, never a ranking label.",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_velantra_standalone_main_brand"
+  },
+  {
+    "id": "brand-name-misspellings",
+    "law": "caption/ASR audit: brand names spelled right",
+    "severity": "blocker",
+    "regex": "\\b(?:valentra|velentra|volantra|vellentra|velontro|vellen\\s?tra|motily|motilly|weekaner|weekaver)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "ASR captions and engine-native text ship these misspellings (Valentra/Velentra/Volantra/'Vellen tra' on the Zede x5 pass; Motily on CONF-ANIM; Weekaner/Weekaver from Seedance native text). Every brand mention on a caption card is set to the correct spelling. Note: TTS respellings (e.g. 'Vehlantra') are TTS input, not copy, and are exempt.",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_chatcut_captions_asr_audit"
+  },
+  {
+    "id": "no-doubled-words-at-seams",
+    "law": "caption/ASR audit: doubled words at card seams",
+    "severity": "warning",
+    "regex": "\\b(\\w+)\\s+\\1\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "ASR caption cards recur with 'and and', 'two two months', 'so So', 'three three'. Read every card as copy. Legitimate doubles ('had had', 'that that', 'very very') will trip this, so it is a warning.",
+    "scope": "copy",
+    "brand": null,
+    "source": "feedback_chatcut_captions_asr_audit"
+  },
+  {
+    "id": "no-cinematic-in-prompts",
+    "law": "seedance house prompt style (never the word 'cinematic')",
+    "severity": "warning",
+    "regex": "\\bcinematic\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "House prompt style for UGC/b-roll generation: no hyphens, no em dashes, numerals, never the word 'cinematic'. The word pulls the engine toward the polished render look that the no-3d-render law bans.",
+    "scope": "prompt",
+    "brand": null,
+    "source": "feedback_ugc_dialogue_naturalness"
+  },
+  {
+    "id": "no-flat-register-delivery-words",
+    "law": "ugc-dialogue-naturalness (flat / backward-looking register words cue monotone)",
+    "severity": "warning",
+    "regex": "\\b(?:composed|steady|wistful|reminisc(?:e|es|ing)|remembering)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "In delivery/performance cues, 'composed', 'steady', 'even', 'calm' cue teleprompter monotone and 'remembering', 'reminiscing', 'wistful' cue drift-off (Brooks confirmed 2026-07-06). Use positive framing: animated, expressive, like FaceTiming her best friend. 'calm' and 'even' are too common to regex safely; check those by eye.",
+    "scope": "prompt",
+    "brand": null,
+    "source": "feedback_ugc_dialogue_naturalness"
+  },
+  {
+    "id": "frame-relative-spatial-language",
+    "law": "scene geography law (frame-relative only)",
+    "severity": "warning",
+    "regex": "\\b(?:on|to|at)\\s+(?:her|his|their)\\s+(?:left|right)(?:[-\\s]hand)?\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "SCENE GEOGRAPHY LAW (2026-07-07): frame-relative spatial language ONLY ('window on the LEFT of frame'), never person-relative ('on her right'). Person-relative phrasing contradicted the seed image and Seedance mirrored the car interior between segments.",
+    "scope": "prompt",
+    "brand": null,
+    "source": "feedback_ugc_dialogue_naturalness"
+  },
+  {
+    "id": "glp1-pen-needs-auto-injector-language",
+    "law": "glp1-pen-prompting (the word 'pen' alone renders a writing pen)",
+    "severity": "warning",
+    "regex": "\\b(?:injection|glp-?1|ozempic|wegovy|mounjaro|zepbound|semaglutide|tirzepatide|weight[-\\s]loss)\\s+pens?\\b(?![^.\\n]{0,60}\\bauto-?injector)",
+    "flags": [
+      "i"
+    ],
+    "note": "Image models read 'pen' and even 'injection pen' as a fountain/ballpoint pen. Describe GLP-1 devices as 'auto-injector' with explicit medical-device cues and the negation 'NOT a fountain pen, NOT a writing pen, NOT a ballpoint'. Fires only when 'auto-injector' does not follow within the sentence.",
+    "scope": "prompt",
+    "brand": null,
+    "source": "feedback_glp1_pen_prompting"
+  },
+  {
+    "id": "glp1-no-unbranded-injector",
+    "law": "glp1-pen-prompting (name the brand, drop 'unbranded')",
+    "severity": "warning",
+    "regex": "\\bunbranded\\s+(?:auto-?injectors?|injectors?|injection\\s+pens?|pens?)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "'Unbranded' GLP-1 injectors render as generic medical devices the audience does not recognize. Name Ozempic / Mounjaro / Zepbound with their iconic colour, body shape and wordmark; default hero shot is the trio in a row.",
+    "scope": "prompt",
+    "brand": null,
+    "source": "feedback_glp1_pen_prompting"
+  },
+  {
+    "id": "casting-white-women-only",
+    "law": "creator-casting directive (GLOBAL, 2026-08-31)",
+    "severity": "blocker",
+    "regex": "\\b(?:black|african[-\\s]american|afro)\\s+(?:woman|women|girl|lady|female|creator|model|presenter)\\b",
+    "flags": [
+      "i"
+    ],
+    "note": "Brooks's standing casting directive for every on-camera creator, AI avatar, UGC talking head and keyframe across all brands: white women only; never generate or propose a Black creator, including as a 'for comparison' variant. Visual variety across a set comes from hair, age and styling. Ruled 2026-08-31; do not re-raise.",
+    "scope": "prompt",
+    "brand": null,
+    "source": "feedback_creator_casting_white_women_only"
+  },
+  {
+    "id": "no-generated-human-clips-in-action-slots",
+    "law": "real-footage-for-action-broll (generated clip filenames in an EDL/manifest)",
+    "severity": "warning",
+    "regex": "\\b(?:kling_|hf_2026|Make_these_|Realistic_|Ugc_style_video_)[\\w-]*\\.(?:mp4|mov|webm)\\b",
+    "flags": [],
+    "note": "Filename-level check for cut lists, manifests and briefs. Any clip named kling_*, hf_2026*, Make_these_*, Realistic_*, Ugc_style_video_* that contains a human is banned from real-world action slots (GLOBAL LAW 2026-08-09). Generated imagery is legal only for inside-the-body science and the deliberate synthetic presenter.",
+    "scope": "all",
+    "brand": null,
+    "source": "feedback_real_footage_for_action_broll"
+  }
+]

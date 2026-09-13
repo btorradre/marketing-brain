@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920, height=1080">
+<title>Velantra Camille — surface correction</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>*{box-sizing:border-box;margin:0}html,body{width:1920px;height:1080px;overflow:hidden;background:#000}#root{position:relative;width:1920px;height:1080px;overflow:hidden}.clip{position:absolute;inset:0;width:1920px;height:1080px;object-fit:contain}</style></head>
+<body><div id="root" data-composition-id="main" data-start="0" data-duration="18.000000000" data-width="1920" data-height="1080">
+<video id="camille-01" class="clip" src="plates/camille/shot-01/shot.mp4" data-start="0.000000000" data-duration="2.000000000" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-02" class="clip" src="plates/camille/shot-02/shot.mp4" data-start="2.000000000" data-duration="1.625000000" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-03" class="clip" src="assets/camille/original.mp4" data-start="3.625000000" data-duration="1.791666667" data-media-start="3.625000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-04" class="clip" src="plates/camille/shot-04/shot.mp4" data-start="5.416666666" data-duration="1.833333334" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-05" class="clip" src="plates/camille/shot-05/shot.mp4" data-start="7.250000000" data-duration="1.875000000" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-06" class="clip" src="plates/camille/shot-06/shot.mp4" data-start="9.125000000" data-duration="1.833333334" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-07" class="clip" src="plates/camille/shot-07/shot.mp4" data-start="10.958333333" data-duration="1.791666667" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-08" class="clip" src="plates/camille/shot-08/shot.mp4" data-start="12.750000000" data-duration="1.791666667" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-09" class="clip" src="plates/camille/shot-09/shot.mp4" data-start="14.541666666" data-duration="1.708333334" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+<video id="camille-10" class="clip" src="plates/camille/shot-10/shot.mp4" data-start="16.250000000" data-duration="1.750000000" data-media-start="0.000000000" data-track-index="0" muted playsinline preload="auto"></video>
+</div><script>window.__timelines=window.__timelines||{};const timeline=gsap.timeline({paused:true});timeline.to({},{duration:18.000000000});window.__timelines.main=timeline;</script></body></html>

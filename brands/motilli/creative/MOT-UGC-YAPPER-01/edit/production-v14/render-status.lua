@@ -1,0 +1,1 @@
+local p=fu:GetResolve():GetProjectManager():GetCurrentProject();print('V14_RENDER_STATE',p:GetName(),p:GetCurrentTimeline():GetName(),p:IsRenderingInProgress());for _,j in ipairs(p:GetRenderJobList()) do if j.OutputFilename=='Motilli-Unbranded-VSL-v14.mp4' then for k,v in pairs(j) do print(k,v) end;for k,v in pairs(p:GetRenderJobStatus(j.JobId)) do print(k,v) end end end

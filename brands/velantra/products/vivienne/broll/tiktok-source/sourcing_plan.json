@@ -1,0 +1,104 @@
+{
+  "job": "vivienne-broll-reference",
+  "brand": "velantra",
+  "brand_context": "Velantra Vivienne: a large soft slouchy vegetable-tanned leather top-handle handbag, 38cm across, brass hardware, no logo. These clips are SCENE-STUDY REFERENCES for generating our own b-roll, not assets that will ship, so a competitor or unbranded designer bag being in frame is ACCEPTABLE and is not a rejection reason. What matters is the FILMMAKING: real organic phone-shot handbag footage, real hands, real rooms, real available light, casual and unposed. Avatar register is a woman roughly 30 to 55, understated, neutral and warm wardrobe, lived-in interiors. HARD REQUIREMENTS: absolutely no burned captions, no on-screen text, no TikTok watermark in the usable segment, and no talking-to-camera in the usable segment. We want the moment, not the commentary. Reject studio e-commerce product photography and reject anything that looks like a polished brand advertisement, because we already have that look and it is exactly what we are trying to get away from. CRITICAL: we are hunting for TEXT-FREE aesthetic footage. Content with any burned caption or on-screen word in the usable segment is useless to us no matter how good the action is. Prefer ASMR, leather-craft, workshop and cinematic b-roll registers, which are typically silent and unlabelled, over review, haul and get-ready content, which is almost always captioned.",
+  "engine": "apify",
+  "slots": [
+    {
+      "slot_id": "S01",
+      "script_line": "Carry moment: she is walking with the bag in her hand.",
+      "emotion": "unbothered, everyday, in motion",
+      "action": "a large leather handbag carried in one hand at her side while she walks, the bag swinging and moving with her stride, filmed handheld from behind or the side, no face required",
+      "mode": "search",
+      "search_terms": [
+        "bag asmr",
+        "leather bag asmr",
+        "handbag aesthetic"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 3,
+      "max_duration_s": 90,
+      "duration_needs_s": 3
+    },
+    {
+      "slot_id": "S02",
+      "script_line": "Pick-up moment: she lifts the bag.",
+      "emotion": "casual, offhand",
+      "action": "hands picking a leather handbag up off a table, bed, chair or floor by its top handles, the bag lifting and settling under its own weight, close on the hands and the bag",
+      "mode": "search",
+      "search_terms": [
+        "bag asmr",
+        "handmade leather bag",
+        "leather craft"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 3,
+      "max_duration_s": 90,
+      "duration_needs_s": 3
+    },
+    {
+      "slot_id": "S03",
+      "script_line": "Material moment: hands on the leather.",
+      "emotion": "tactile, appreciative",
+      "action": "fingers and palms running over or pressing into leather on a handbag, the leather creasing and giving under the hand, extreme close-up filling the frame with leather and skin",
+      "mode": "search",
+      "search_terms": [
+        "leather asmr",
+        "leather workshop",
+        "leather craft"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 2,
+      "max_duration_s": 90,
+      "duration_needs_s": 2
+    },
+    {
+      "slot_id": "S04",
+      "script_line": "Hardware moment: the clasp.",
+      "emotion": "satisfying, precise",
+      "action": "fingers operating the metal hardware on a handbag, turning a turn-lock, fastening a clasp, threading a belted strap, extreme close-up on the metal and the fingers",
+      "mode": "search",
+      "search_terms": [
+        "leather craft hardware",
+        "bag hardware asmr",
+        "leather workshop"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 2,
+      "max_duration_s": 90,
+      "duration_needs_s": 2
+    },
+    {
+      "slot_id": "S05",
+      "script_line": "Shoulder moment: the bag against her hip.",
+      "emotion": "hands free, moving through her day",
+      "action": "a large handbag worn on a shoulder strap resting against the hip while she walks, filmed from behind or the side at hip height, the bag swaying with her stride, no face required",
+      "mode": "search",
+      "search_terms": [
+        "outfit b roll",
+        "quiet luxury outfit",
+        "handbag aesthetic"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 3,
+      "max_duration_s": 90,
+      "duration_needs_s": 3
+    },
+    {
+      "slot_id": "S06",
+      "script_line": "Setting-down moment: the bag lands.",
+      "emotion": "arriving, exhaling",
+      "action": "a leather handbag being set down on a table, kitchen counter, chair or entryway floor and settling, the soft body slumping as it lands, filmed handheld in a real room",
+      "mode": "search",
+      "search_terms": [
+        "bag asmr",
+        "slow living aesthetic",
+        "cinematic b roll"
+      ],
+      "per_term_count": 10,
+      "min_duration_s": 2,
+      "max_duration_s": 90,
+      "duration_needs_s": 2
+    }
+  ]
+}

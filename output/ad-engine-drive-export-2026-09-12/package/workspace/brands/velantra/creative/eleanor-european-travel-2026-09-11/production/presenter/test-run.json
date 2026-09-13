@@ -1,0 +1,101 @@
+{
+  "flow": {
+    "flow_id": "v9fitIcgXq2wpUuyCuvG",
+    "name": "Eleanor European Travel — Production 2026-09-12",
+    "url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG"
+  },
+  "reference": {
+    "asset_id": "6nat9YBbZ0w2vNYx26SA",
+    "name": "Eleanor presenter exact-audio test 01",
+    "mime_type": "video/mp4",
+    "size_bytes": 231977,
+    "flow_id": "v9fitIcgXq2wpUuyCuvG",
+    "node_id": "35GTyhXl2ZGfKsf31mz8"
+  },
+  "node": {
+    "flow_id": "v9fitIcgXq2wpUuyCuvG",
+    "flow_created": false,
+    "url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG",
+    "flow_url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG",
+    "success": true,
+    "node_ids": [
+      "WUFbVxjVobQkL9nCRabT"
+    ],
+    "created_nodes": [
+      {
+        "id": "WUFbVxjVobQkL9nCRabT",
+        "label": "New video-generation node",
+        "template_id": "v9fitIcgXq2wpUuyCuvG",
+        "position": {
+          "x": 900,
+          "y": 700
+        },
+        "modified_by": "PORB6StInzPA2Wy3u1o5qZ94vgw2",
+        "modified_at_utc": "2026-09-12T16:38:19.328835Z",
+        "type": "generation",
+        "model_id": "gemini-omni-1.1-flash",
+        "prompt": "Animate the fictional woman in this reference into a continuous natural talking-head performance, synchronizing her lips precisely to the existing speech and its timing. Preserve the supplied speech, exact words, pauses, woman identity, clothing and flat chroma-green backdrop; small conversational hand movements, fixed camera, no cuts, no captions, no music.",
+        "model_parameters": {
+          "enhance_prompt": true,
+          "duration_secs": 8,
+          "aspect_ratio": "9:16",
+          "resolution": "720p",
+          "generate_audio": true
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "35GTyhXl2ZGfKsf31mz8->WUFbVxjVobQkL9nCRabT:reference_videos",
+        "source": "35GTyhXl2ZGfKsf31mz8",
+        "target": "WUFbVxjVobQkL9nCRabT",
+        "sourcePort": "output",
+        "targetPort": "reference_videos"
+      }
+    ],
+    "canvas_summary": {
+      "total_nodes": 3,
+      "total_edges": 1,
+      "node_types": {
+        "image": 1,
+        "video": 1,
+        "video-generation": 1
+      }
+    }
+  },
+  "run": {
+    "flow_id": "v9fitIcgXq2wpUuyCuvG",
+    "flow_created": false,
+    "url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG?vs=viewstate_01m2b7qx2gex5rj9g0qdcwz2cd",
+    "flow_url": "https://elevenlabs.io/app/flows/v9fitIcgXq2wpUuyCuvG",
+    "results": [
+      {
+        "success": true,
+        "node_id": "WUFbVxjVobQkL9nCRabT",
+        "session_id": "JZ8WmUIVSW9Kc5A1LzOO"
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "WUFbVxjVobQkL9nCRabT": 1
+      }
+    },
+    "session_ids": [
+      "JZ8WmUIVSW9Kc5A1LzOO"
+    ],
+    "pending": [
+      {
+        "generation_id": "0m3P71QRyYF3PmK8vFTB",
+        "kind": "video",
+        "generation_url": "https://elevenlabs.io/app/image-video/history?modality=video&generationId=0m3P71QRyYF3PmK8vFTB",
+        "aspect_ratio": 0.5625
+      }
+    ],
+    "poll_after_seconds": 15,
+    "notes": "Not finished yet. If a generation view is shown it tracks progress and polls by itself, so there is nothing to do here. Only call creative_get_flow_run_status yourself if no view appeared: wait poll_after_seconds, then call it with this flow_id and session_ids, repeating until all_completed or has_failures is true.",
+    "view_state_id": "viewstate_01m2b7qx2gex5rj9g0qdcwz2cd"
+  }
+}

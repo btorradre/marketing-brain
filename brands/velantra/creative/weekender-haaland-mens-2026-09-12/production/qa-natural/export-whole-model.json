@@ -1,0 +1,27 @@
+{
+  "review_summary": {
+    "verdict": "Approved with revisions",
+    "media_duration_seconds": 45.7,
+    "issues_found": true,
+    "summary_text": "The ad is well-produced and accurately represents the product's key features as described in the brief. All technical checks for media offline, unintended black frames, presenter freeze, and caption sync are passed. However, a significant layout issue occurs during the demonstration of the bag's interior, where both the caption and the presenter's video cutout obstruct the view of the slip pocket being described. This should be revised to ensure product details are clearly visible."
+  },
+  "technical_issues": [
+    {
+      "timestamp_start_seconds": 31.8,
+      "timestamp_end_seconds": 35.5,
+      "problem_type": "Text over product details",
+      "description": "During the shot showcasing the bag's interior, the caption 'THERE'S A WIDE SLIP POCKET TO KEEP SMALLER THINGS SEPARATE...' is placed directly over the slip pocket being described. The presenter's video cutout also partially obscures the pocket from the bottom right. This obstructs a clear view of the feature at the moment it is being highlighted.",
+      "severity": "Moderate",
+      "observation_vs_inference": "Actual observation. The text overlay and presenter cutout are visibly positioned on top of the key product feature in the video frame."
+    }
+  ],
+  "creative_compliance": {
+    "media_offline_frames": "No issues found.",
+    "unintended_black_green_areas": "No issues found.",
+    "frozen_presenter": "No issues found.",
+    "captions_mismatched": "No issues found.",
+    "repeated_visual_scenes": "No issues found.",
+    "malformed_product_motion": "No issues found; motion is minimal and appears correct.",
+    "product_feature_compliance": "Compliant. In all relevant views, the bag correctly displays two rolled handles and two horizontal front closure straps with gold end fittings. The interior shot confirms the presence of one wide slip pocket as specified."
+  }
+}

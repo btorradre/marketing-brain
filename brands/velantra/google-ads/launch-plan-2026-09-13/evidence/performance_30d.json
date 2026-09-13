@@ -1,0 +1,23 @@
+{
+  "queried_at": "2026-09-13T18:56:51.615336+00:00",
+  "customer_id": "9348603597",
+  "query": "SELECT campaign.id, campaign.name, campaign.advertising_channel_type, metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions, metrics.conversions_value, metrics.all_conversions FROM campaign WHERE segments.date BETWEEN '2026-08-14' AND '2026-09-12'",
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/9348603597/campaigns/24222469438",
+        "advertisingChannelType": "PERFORMANCE_MAX",
+        "name": "Campaign #1",
+        "id": "24222469438"
+      },
+      "metrics": {
+        "clicks": "157",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "24151564",
+        "allConversions": 3,
+        "impressions": "9855"
+      }
+    }
+  ]
+}

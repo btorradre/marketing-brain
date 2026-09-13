@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gut Health Blog | At 62, My Doctor Told Me Constipation Was Just "Part of the Medication." Six Months Later, She Asked Me to Spell the Name of What I Was Using.</title>
+<meta name="description" content="A reader on Ozempic shares how she went from eight days backed up and a drawer full of failed laxatives to normal mornings — without touching her dose. Her doctor now recommends what she found.">
+<meta property="og:title" content="Gut Health Blog | At 62, My Doctor Told Me Constipation Was Just 'Part of the Medication.' Six Months Later, She Asked Me to Spell the Name of What I Was Using.">
+<meta property="og:description" content="A reader on Ozempic shares how she went from eight days backed up and a drawer full of failed laxatives to normal mornings — without touching her dose.">
+<meta property="og:type" content="article">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --masthead: #14302a;
+    --masthead-2: #1c4036;
+    --update-bg: #fff6d8;
+    --update-border: #f0c000;
+    --green-cta: #2e9d4f;
+    --green-cta-hover: #258540;
+    --red-accent: #c0392b;
+    --text-main: #121212;
+    --text-body: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --border: #e5e5e5;
+    --bg-page: #ffffff;
+    --bg-soft: #f7f7f5;
+    --bg-quote: #f8f4ea;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; background: #fff !important; }
+  html, body.motilli-bare, body { background: #fff !important; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-body);
+    background: #fff !important;
+    line-height: 1.65;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+
+  /* Top promo bar */
+  .promo-bar { background: var(--masthead); color: #fff; padding: 10px 0; text-align: center; }
+  .promo-bar .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; font-size: 12px; letter-spacing: 1.3px; font-weight: 600; text-transform: uppercase; }
+
+  /* Masthead */
+  .masthead { background: #fff; border-bottom: 1px solid var(--border); padding: 14px 0 12px; }
+  .masthead .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .masthead .brand { font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: #14302a; letter-spacing: -0.5px; white-space: nowrap; line-height: 1.1; }
+  .masthead .tag { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1.1px; font-weight: 600; line-height: 1.4; text-align: right; }
+  .masthead .tag span { color: #14302a; }
+
+  /* Layout */
+  .page {
+    max-width: 1100px; margin: 0 auto;
+    padding: 28px 20px 60px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 40px;
+    align-items: start;
+  }
+  .article { min-width: 0; }
+  .sidebar { position: sticky; top: 20px; }
+
+  /* Breadcrumb */
+  .breadcrumb { font-size: 12px; color: #777; margin-bottom: 16px; }
+  .breadcrumb a { color: #777; text-decoration: none; }
+  .breadcrumb .sep { margin: 0 6px; color: #bbb; }
+
+  /* Editorial tagline above headline */
+  .edit-tag { font-size: 11px; color: #14302a; text-transform: uppercase; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+  .edit-tag::after { content: ""; flex: 1; height: 1px; background: #d0d0d0; }
+
+  /* Headline */
+  h1.title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.18;
+    color: #111;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+  }
+  h1.title .red { color: var(--red-accent); }
+  h1.title em { font-style: italic; font-weight: 600; }
+
+  .subtitle {
+    font-size: 17px;
+    color: #2a2a2a;
+    line-height: 1.55;
+    margin-bottom: 18px;
+    border-left: 3px solid var(--red-accent);
+    padding-left: 14px;
+    font-weight: 400;
+  }
+  .subtitle strong { font-weight: 700; }
+
+  /* Star rating */
+  .star-row { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; font-size: 13px; color: #444; font-weight: 500; }
+  .stars { color: #f5a623; letter-spacing: 1px; font-size: 16px; }
+
+  /* Meta */
+  .meta-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 12px; color: #555; padding: 14px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 20px 0 22px; flex-wrap: wrap; }
+  .byline-mini { display: flex; align-items: center; gap: 10px; }
+  .byline-mini .avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, #c8d8c4, #6c9b6c); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 14px; }
+  .byline-mini .info { font-size: 12.5px; line-height: 1.4; color: #2a2a2a; }
+  .byline-mini .info strong { font-weight: 700; color: #111; }
+  .byline-mini .info .verify { display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; background: #2e9d4f; color: #fff; border-radius: 50%; font-size: 9px; margin-left: 4px; vertical-align: middle; font-weight: 800; }
+  .meta-right { display: flex; gap: 14px; align-items: center; font-size: 12px; color: #666; }
+  .meta-right .item { display: flex; align-items: center; gap: 4px; }
+  .share-row { display: flex; align-items: center; gap: 8px; margin-bottom: 22px; }
+  .share-row .sh { width: 30px; height: 30px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; color: #fff; font-size: 13px; font-weight: 700; text-decoration: none; }
+  .sh.fb { background: #1877f2; } .sh.tw { background: #1da1f2; } .sh.pn { background: #e60023; } .sh.wa { background: #25d366; } .sh.em { background: #777; }
+
+  /* Article body */
+  .article p { font-size: 17px; color: #1a1a1a; line-height: 1.7; margin-bottom: 18px; }
+  .article p strong { font-weight: 700; }
+  .article p em { font-style: italic; }
+  .article h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #111;
+    margin: 44px 0 22px;
+    line-height: 1.25;
+    letter-spacing: -0.3px;
+  }
+  .article h2 .red { color: var(--red-accent); }
+  .article h3 { font-size: 19px; font-weight: 700; color: #111; margin: 28px 0 12px; }
+
+  /* Lists */
+  .article ul.plain { margin: 0 0 22px 22px; padding: 0; }
+  .article ul.plain li { font-size: 17px; line-height: 1.7; margin-bottom: 8px; list-style: disc; color: #1a1a1a; }
+  .article ul.x-list, .article ul.dot-list, .article ul.check { list-style: none; margin: 0 0 22px 0; padding: 0; }
+  .article ul.x-list li, .article ul.dot-list li, .article ul.check li { padding-left: 32px; position: relative; margin-bottom: 14px; font-size: 16.5px; line-height: 1.6; color: #1a1a1a; }
+  .article ul.x-list li::before { content: "✕"; position: absolute; left: 2px; top: 0; color: var(--red-accent); font-weight: 800; font-size: 16px; }
+  .article ul.dot-list li::before { content: "•"; position: absolute; left: 8px; top: -3px; color: var(--masthead); font-weight: 800; font-size: 22px; }
+  .article ul.check li::before { content: "✓"; position: absolute; left: 2px; top: 0; color: var(--green-cta); font-weight: 800; font-size: 16px; }
+  .article ul.x-list li strong, .article ul.check li strong, .article ul.dot-list li strong { font-weight: 700; }
+
+  /* Numbered list */
+  .article ol.steps { counter-reset: step; list-style: none; margin: 0 0 24px 0; padding: 0; }
+  .article ol.steps li {
+    padding-left: 44px; position: relative; margin-bottom: 16px;
+    font-size: 16.5px; line-height: 1.65; color: #1a1a1a;
+    counter-increment: step;
+  }
+  .article ol.steps li::before {
+    content: counter(step);
+    position: absolute; left: 0; top: 0;
+    width: 28px; height: 28px;
+    background: var(--masthead); color: #fff;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 13px;
+  }
+  .article ol.steps li strong { font-weight: 700; color: #111; }
+
+  /* Figures */
+  .article figure { margin: 22px 0 26px; }
+  .article figure img { width: 100%; border-radius: 6px; display: block; background: #f1f1ee; }
+  .article figcaption { font-size: 13px; color: #777; font-style: italic; margin-top: 10px; line-height: 1.5; text-align: center; }
+
+  /* Pull quote */
+  .pull-quote {
+    border-left: 4px solid var(--green-cta);
+    background: var(--bg-quote);
+    padding: 22px 24px;
+    margin: 28px 0;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.55;
+    color: #2a2a2a;
+  }
+  .pull-quote strong { font-style: normal; font-weight: 700; }
+
+  /* Patient testimonial card */
+  .pt-quote {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--masthead);
+    padding: 20px 24px;
+    margin: 22px 0;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .pt-quote .who { font-weight: 700; font-size: 14px; color: #14302a; margin-bottom: 8px; letter-spacing: 0.3px; }
+  .pt-quote .who .stars-inline { color: #f5a623; letter-spacing: 1px; margin-right: 8px; }
+  .pt-quote p { font-size: 16px; margin-bottom: 0; color: #2a2a2a; }
+
+  /* AS SEEN ON */
+  .as-seen { text-align: center; margin: 28px 0; padding: 18px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .as-seen .label { font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #555; margin-bottom: 14px; }
+  .as-seen .logos { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; align-items: center; }
+  .as-seen .logo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; color: #777; letter-spacing: -0.5px; opacity: 0.7; }
+
+  /* Comparison table */
+  .compare-wrap { margin: 24px 0 30px; overflow-x: auto; }
+  table.compare { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 560px; }
+  table.compare th, table.compare td { padding: 14px 12px; text-align: center; border-bottom: 1px solid var(--border); }
+  table.compare thead th { background: #f1ede2; color: #111; font-weight: 700; font-size: 13px; border-bottom: 2px solid #d8c98a; }
+  table.compare thead th.win { background: #e6f3e6; color: #14302a; }
+  table.compare tbody td { color: #333; }
+  table.compare tbody td.row-label { text-align: left; font-weight: 500; color: #1a1a1a; padding-left: 16px; }
+  table.compare tbody td.yes { color: var(--green-cta); font-weight: 800; font-size: 18px; }
+  table.compare tbody td.no { color: #bbb; font-size: 16px; }
+  table.compare tbody td.partial { color: #d68a00; font-size: 12px; font-weight: 600; }
+  table.compare tbody td.warn { color: var(--red-accent); font-size: 11px; font-weight: 600; }
+  table.compare tbody td.win-col { background: #f4faf4; }
+  table.compare tbody tr:hover { background: #fafaf7; }
+
+  /* CTA */
+  .cta-button {
+    display: block; width: 100%;
+    background: var(--green-cta); color: #fff !important; border: 0;
+    padding: 18px 24px; font-size: 17px; font-weight: 800;
+    letter-spacing: 0.6px; text-transform: uppercase;
+    text-align: center; text-decoration: none;
+    border-radius: 6px; margin: 24px 0 8px; cursor: pointer;
+    transition: background 0.18s ease;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.12);
+  }
+  .cta-button:hover { background: var(--green-cta-hover); }
+  .cta-sub { text-align: center; font-size: 13px; color: #777; margin-bottom: 26px; font-style: italic; }
+
+  /* Trust badges */
+  .trust-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 22px 0 14px; }
+  .trust-badge { text-align: center; padding: 12px 6px; border: 1px solid var(--border); border-radius: 6px; background: #fcfcf9; }
+  .trust-badge .ic { font-size: 22px; margin-bottom: 4px; }
+  .trust-badge .lbl { font-size: 11px; font-weight: 700; color: #2a2a2a; line-height: 1.3; text-transform: uppercase; letter-spacing: 0.4px; }
+
+  /* Guarantee inline */
+  .guarantee-banner {
+    background: #f4faf4;
+    border: 1px solid #cfe2cf;
+    border-left: 4px solid var(--green-cta);
+    padding: 18px 22px;
+    margin: 22px 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #234;
+  }
+  .guarantee-banner strong { color: #14302a; font-weight: 700; }
+
+  /* Signature */
+  .signature { margin: 30px 0 18px; font-size: 15px; line-height: 1.5; color: #2a2a2a; }
+  .signature .name { font-weight: 700; color: #111; }
+  .signature .title { font-size: 13px; color: #666; font-style: italic; }
+
+  /* Compliance */
+  .compliance { font-size: 11.5px; color: #888; line-height: 1.55; margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--border); }
+
+  /* ========== Sidebar ========== */
+  .sidebar .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 16px 16px;
+    margin-bottom: 18px;
+  }
+  .sidebar .card-label { text-align: center; font-size: 11px; letter-spacing: 1.5px; font-weight: 800; color: #555; text-transform: uppercase; margin-bottom: 14px; }
+  .sidebar .prod-img { position: relative; margin-bottom: 14px; }
+  .sidebar .prod-img img { width: 100%; border-radius: 6px; background: #f4f7ef; }
+  .sidebar .badge-disc { position: absolute; top: 6px; right: 6px; background: var(--red-accent); color: #fff; width: 64px; height: 64px; border-radius: 50%; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; line-height: 1.05; transform: rotate(-12deg); box-shadow: 0 2px 6px rgba(0,0,0,0.18); padding: 2px; }
+  .sidebar .badge-disc .big { font-size: 20px; }
+  .sidebar .side-cta {
+    display: block; background: var(--green-cta); color: #fff !important;
+    padding: 14px 14px; text-align: center; font-weight: 800;
+    font-size: 14px; text-decoration: none; border-radius: 5px;
+    margin-bottom: 8px;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    transition: background .15s ease;
+  }
+  .sidebar .side-cta:hover { background: var(--green-cta-hover); }
+  .sidebar .side-trust { font-size: 11.5px; color: #555; text-align: center; }
+  .sidebar .side-trust::before { content: "✓ "; color: var(--green-cta); font-weight: 800; }
+
+  .reviews-card .review-headline { text-align: center; font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; font-weight: 700; margin-bottom: 8px; color: #111; }
+  .reviews-card .stars-big { text-align: center; color: #f5a623; font-size: 20px; letter-spacing: 2px; margin-bottom: 4px; }
+  .reviews-card .rating-num { text-align: center; font-size: 14px; color: #2a2a2a; font-weight: 600; margin-bottom: 4px; }
+  .reviews-card .rating-count { text-align: center; font-size: 11.5px; color: #888; margin-bottom: 14px; }
+  .reviews-card .row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 12px; color: #444; }
+  .reviews-card .row .star { width: 38px; flex-shrink: 0; }
+  .reviews-card .row .bar { flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden; }
+  .reviews-card .row .bar .fill { height: 100%; background: #f5a623; }
+  .reviews-card .row .pct { width: 32px; text-align: right; font-size: 11px; color: #666; }
+
+  .reviews-card .feature-section { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
+  .reviews-card .feature-section .ftitle { font-size: 13px; font-weight: 700; color: #111; margin-bottom: 8px; }
+  .reviews-card .frow { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: #444; margin-bottom: 6px; }
+  .reviews-card .frow .lbl { flex: 1; }
+  .reviews-card .frow .stars-mini { color: #f5a623; letter-spacing: 1px; font-size: 12px; }
+  .reviews-card .frow .val { width: 32px; text-align: right; font-size: 12px; color: #444; font-weight: 600; }
+
+  /* Sticky CTA */
+  .sticky-cta {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: #14302a;
+    padding: 12px 16px;
+    z-index: 9999;
+    transform: translateY(110%);
+    transition: transform 0.32s cubic-bezier(.2,.7,.3,1);
+    box-shadow: 0 -6px 18px rgba(0,0,0,0.18);
+  }
+  .sticky-cta.visible { transform: translateY(0); }
+  .sticky-cta .wrap { max-width: 1000px; margin: 0 auto; display: flex; gap: 14px; align-items: center; }
+  .sticky-cta .line { flex: 1; color: #d4e3d8; font-size: 12.5px; line-height: 1.4; font-weight: 500; }
+  .sticky-cta .line strong { color: #fff; font-weight: 700; }
+  .sticky-cta a.sticky-btn {
+    background: #2e9d4f;
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 22px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #1f6b34;
+    transition: background .15s ease;
+    white-space: nowrap;
+  }
+  .sticky-cta a.sticky-btn:hover { background: #258540; }
+
+  /* Footer */
+  footer.site-foot { background: #0c1f1a; color: #b8c8c0; padding: 30px 0 26px; margin-top: 60px; }
+  footer.site-foot .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; font-size: 12.5px; line-height: 1.6; }
+  footer.site-foot .top { font-family: 'Source Serif 4', Georgia, serif; font-size: 20px; color: #fff; margin-bottom: 6px; font-weight: 700; }
+  footer.site-foot .links { margin: 10px 0; }
+  footer.site-foot .links a { color: #b8c8c0; text-decoration: none; margin-right: 16px; }
+  footer.site-foot .links a:hover { color: #fff; }
+  footer.site-foot .copy { color: #6a7a72; font-size: 11.5px; margin-top: 8px; }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .page { grid-template-columns: 1fr; gap: 30px; padding: 22px 18px 80px; }
+    .sidebar { position: static; order: 2; }
+    .article { order: 1; }
+    h1.title { font-size: 28px; }
+    .article h2 { font-size: 23px; margin: 36px 0 16px; }
+    .article p, .article ul.x-list li, .article ul.dot-list li, .article ul.check li, .article ol.steps li { font-size: 16px; }
+    .trust-row { grid-template-columns: repeat(2, 1fr); }
+    .as-seen .logos { gap: 18px; }
+    .as-seen .logo { font-size: 13px; }
+    .meta-row { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .sticky-cta .wrap { flex-direction: column; gap: 8px; }
+    .sticky-cta .line { font-size: 11.5px; text-align: center; }
+    .sticky-cta a.sticky-btn { width: 100%; }
+    .masthead .brand { font-size: 22px; }
+    .masthead .tag { font-size: 10px; letter-spacing: 0.9px; }
+  }
+  @media (max-width: 640px) {
+    .masthead { padding: 12px 0 10px; }
+    .masthead .inner { flex-direction: column; align-items: flex-start; gap: 4px; }
+    .masthead .tag { text-align: left; }
+  }
+  @media (max-width: 520px) {
+    .article h2 { font-size: 21px; }
+    h1.title { font-size: 25px; }
+    .masthead .brand { font-size: 20px; }
+    .masthead .tag { font-size: 9.5px; letter-spacing: 0.7px; }
+  }
+</style>
+</head>
+<body>
+<!-- PROMO BAR -->
+<div class="promo-bar"><div class="inner">Health · GLP-1 &amp; Digestion · Reader Stories</div></div>
+
+<!-- MASTHEAD -->
+<header class="masthead"><div class="inner">
+  <div class="brand">Gut Health Blog</div>
+  <div class="tag">Evidence-Based Digestive Health<br><span>Reader Stories</span></div>
+</div></header>
+
+<!-- ========== MAIN PAGE GRID ========== -->
+<div class="page">
+
+  <!-- ========== ARTICLE ========== -->
+  <div class="article">
+
+    <div class="breadcrumb">
+      <a href="#">Home</a><span class="sep">&rsaquo;</span>
+      <a href="#">GLP-1 &amp; Digestion</a><span class="sep">&rsaquo;</span>
+      <a href="#">Reader Stories</a>
+    </div>
+
+    <div class="edit-tag">Reader Story &middot; As Told To Gut Health Blog</div>
+
+    <h1 class="title">
+      At 62, My Doctor Told Me Constipation Was Just <em>&ldquo;Part of the Medication.&rdquo;</em> Six Months Later, She Asked Me to <span class="red">Spell the Name</span> of What I Was Using.
+    </h1>
+
+    <p class="subtitle">
+      If you&rsquo;re on Ozempic®, Wegovy®, or Mounjaro® and the weight is finally coming off &mdash; but everything else has stopped &mdash; <strong>this is my story. And probably yours.</strong>
+    </p>
+
+    <div class="star-row">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span>4.8 | 1,912 Ratings</span>
+    </div>
+
+    <!-- Hero image -->
+    <figure>
+      <img src="images/01_hero.jpeg" alt="Carol at her kitchen table in the morning light with a cup of coffee">
+    </figure>
+
+    <div class="meta-row">
+      <div class="byline-mini">
+        <div class="avatar">CJ</div>
+        <div class="info">
+          By <strong>Carol Jennings</strong><span class="verify">&#10003;</span><br>
+          Reader Story &middot; Verified Motilli Customer &middot; Updated July 2026
+        </div>
+      </div>
+      <div class="meta-right">
+        <span class="item">&#128065; 11,408 views</span>
+        <span class="item">&#9201; 5 min read</span>
+      </div>
+    </div>
+
+    <div class="share-row">
+      <a href="#" class="sh fb" aria-label="Share on Facebook">f</a>
+      <a href="#" class="sh tw" aria-label="Share on X">&#120143;</a>
+      <a href="#" class="sh pn" aria-label="Save on Pinterest">P</a>
+      <a href="#" class="sh wa" aria-label="Share on WhatsApp">&#9990;</a>
+      <a href="#" class="sh em" aria-label="Email">&#9993;</a>
+    </div>
+
+    <!-- ========== ARTICLE BODY ========== -->
+
+    <p><strong>I know why you&rsquo;re here.</strong></p>
+
+    <p>Something brought you to this page. Maybe it was a story that felt a little too familiar &mdash; a woman whose medicine cabinet looked exactly like yours. Maybe it was one sentence about sulfur burps or &ldquo;wet cement&rdquo; that made you stop scrolling.</p>
+
+    <p>Or maybe it was simpler than that. Maybe you counted this morning &mdash; the days since you last went &mdash; and you didn&rsquo;t like the number.</p>
+
+    <p>I know that feeling. I lived inside it for most of last year.</p>
+
+    <p>If you&rsquo;re on Ozempic®, Wegovy®, or Mounjaro®, you know the strange math of these medications. The scale finally moves. The food noise finally goes quiet. And in exchange, your stomach turns into a storage unit.</p>
+
+    <p>You&rsquo;ve tried things. Of course you have. Miralax every morning. Colace. Fiber gummies. Magnesium at night. The hot-coffee-on-an-empty-stomach trick. Prune juice like it&rsquo;s 1974.</p>
+
+    <p><strong>And none of it really worked. Not the way you needed it to.</strong></p>
+
+    <p>So you did what I did. You decided the misery was the price of the weight loss. You stopped complaining and started managing.</p>
+
+    <p>I believed that too. Every word of it.</p>
+
+    <p><strong>I was wrong.</strong></p>
+
+    <!-- ========== SECTION: RETIREMENT PARTY ========== -->
+    <h2>Eight Days In, Smiling at a <span class="red">Retirement Party</span></h2>
+
+    <figure>
+      <img src="images/02_party.jpeg" alt="A woman standing slightly apart from the group at a family party, arm crossed over her stomach">
+    </figure>
+
+    <p>Last fall I was down 26 pounds on Ozempic® &mdash; and eight days backed up &mdash; standing at my brother-in-law&rsquo;s retirement party in a dress I chose because it hid the bloat. Not the weight. The weight was finally coming off. The bloat &mdash; that by-afternoon &ldquo;five months pregnant&rdquo; swelling that shows up no matter what you eat.</p>
+
+    <p>I spent that party the way I&rsquo;d spent every event for months: keeping a polite distance in conversations so nobody caught the sulfur on my breath. Skipping the buffet because food had started sitting in me like wet cement. Leaving early with a &ldquo;headache.&rdquo;</p>
+
+    <p>In the car my husband asked if I was okay. I said I was fine.</p>
+
+    <p>I wasn&rsquo;t fine. I was tracking bathroom days the way other people track their steps.</p>
+
+    <p>When I finally brought it up at my checkup, my doctor didn&rsquo;t look up from the screen. <em>&ldquo;Constipation&rsquo;s very common with these. Stay hydrated. Try Miralax.&rdquo;</em></p>
+
+    <p>I told her I&rsquo;d been on Miralax for two months.</p>
+
+    <p>She suggested I give it more time. The appointment lasted seven minutes.</p>
+
+    <p>I stopped bringing it up after that.</p>
+
+    <!-- ========== SECTION: THE ARTICLE ========== -->
+    <h2>The Article <span class="red">My Sister Sent Me</span></h2>
+
+    <figure>
+      <img src="images/04_article.jpeg" alt="A woman at her kitchen table reading an article on her phone, hand paused at her chin">
+    </figure>
+
+    <p>In February my sister texted me an article &mdash; maybe the same one that brought you here. It was about GLP-1 medications and constipation, and why everything in my bathroom drawer was aimed at the <strong>wrong organ</strong>.</p>
+
+    <div class="pull-quote">
+      Halfway through, I stopped and read one line out loud to my empty kitchen: <strong>the problem isn&rsquo;t at the exit. It&rsquo;s at the entrance.</strong>
+    </div>
+
+    <p>These medications slow the <strong>stomach</strong>. That&rsquo;s where the cement feeling comes from, and the sulfur, and the backup. And everything I&rsquo;d been swallowing &mdash; the Miralax, the fiber, the senna tea &mdash; goes to work six feet downstream of the actual problem.</p>
+
+    <p>I sat there staring at my drawer of remedies like it was a drawer of evidence.</p>
+
+    <p>You know that feeling when something finally makes sense &mdash; and makes you a little angry at the same time? That one.</p>
+
+    <!-- ========== SECTION: ONE MORE TRY ========== -->
+    <h2>&ldquo;One More Try. <span class="red">The Last One.</span>&rdquo;</h2>
+
+    <figure>
+      <img src="images/03_drawer.jpeg" alt="An open bathroom drawer crowded with half-used laxatives, fiber supplements, and teas">
+    </figure>
+
+    <p>The article pointed to a gummy made specifically for people on these medications. I&rsquo;ll be honest with you: I didn&rsquo;t order it because I believed. I ordered it because of the <strong>90-day money-back guarantee</strong>. My exact thought was: <em>if this is one more thing that doesn&rsquo;t work, at least it&rsquo;s the first one that gives me my money back.</em></p>
+
+    <p>When it arrived, I set it on the counter next to everything that had failed me and said, out loud, &ldquo;One more try. The last one.&rdquo;</p>
+
+    <!-- ========== SECTION: TIMELINE ========== -->
+    <h2>Then the Days Started <span class="red">Stacking Up</span></h2>
+
+    <ol class="steps">
+      <li><strong>Days one through four: nothing.</strong> I almost felt vindicated. My husband asked how the new thing was going and I said, &ldquo;It&rsquo;s not.&rdquo; I found out later that&rsquo;s the point &mdash; there are no stimulants in it, nothing that squeezes or forces. It&rsquo;s not a laxative. It was working on the stomach the whole time. Quietly.</li>
+      <li><strong>Day six:</strong> I got dressed for church and buttoned my skirt at four in the afternoon. If you know, you know.</li>
+      <li><strong>Day nine:</strong> it happened. A normal morning. No Miralax. No tricks. No planning my whole day around it. I stood in my bathroom and laughed out loud.</li>
+      <li><strong>Week two:</strong> I caught myself talking to my neighbor face-on, close, without angling away. The burps were just&hellip; going.</li>
+      <li><strong>Week three:</strong> my husband said, &ldquo;You&rsquo;ve been humming.&rdquo; I hadn&rsquo;t even noticed.</li>
+      <li><strong>Month two:</strong> I emptied the drawer. All of it. And here&rsquo;s the part that matters most to me: <strong>I never touched my dose. Not once.</strong> I&rsquo;m down 34 pounds now and still going.</li>
+    </ol>
+
+    <figure>
+      <img src="images/06_porch.jpeg" alt="A woman laughing on her sunlit front porch with a cup of coffee">
+    </figure>
+
+    <!-- ========== SECTION: THE APPOINTMENT ========== -->
+    <h2>Then Came <span class="red">the Appointment</span></h2>
+
+    <figure>
+      <img src="images/07_doctor.jpeg" alt="A doctor pausing to write a note during an appointment">
+    </figure>
+
+    <p>Month four. Same office. Same screen.</p>
+
+    <p>Except this time my doctor stopped scrolling. &ldquo;You haven&rsquo;t refilled anything in months,&rdquo; she said. &ldquo;What changed?&rdquo;</p>
+
+    <p>I told her the truth. I stopped treating my colon and started treating my stomach. A gummy made for people on GLP-1s.</p>
+
+    <p>She picked up her pen. &ldquo;Spell it for me?&rdquo;</p>
+
+    <p><em>M-O-T-I-L-L-I.</em> I watched her write it down.</p>
+
+    <p>Then she said, &ldquo;Last time you were here, I told you this was just part of the medication.&rdquo;</p>
+
+    <p>&ldquo;I remember.&rdquo;</p>
+
+    <p><strong>&ldquo;Apparently it doesn&rsquo;t have to be.&rdquo;</strong></p>
+
+    <p>I&rsquo;ve had a lot of good moments since my mornings came back. That one is in the top three.</p>
+
+    <!-- ========== SECTION: THE ANSWER (solution intro / sticky trigger) ========== -->
+    <h2 id="solution-intro">The Answer to the Question <span class="red">Everyone Keeps Asking</span></h2>
+
+    <p>So here it is &mdash; the thing my sister, two women from church, and now my own doctor have written down: <strong>Motilli</strong>.</p>
+
+    <figure>
+      <img src="images/05_product.jpeg" alt="Motilli Celery Juice Fiber Gummies jar on a kitchen counter beside morning coffee">
+    </figure>
+
+    <p>It&rsquo;s a gummy built specifically for people on GLP-1 medications. Not a repackaged laxative. It does three jobs at once:</p>
+
+    <ul class="check">
+      <li><strong>Wakes up the slowed stomach</strong> &mdash; supports the natural signal the medication turns down</li>
+      <li><strong>Neutralizes the sulfur gas</strong> &mdash; the rotten-egg burps fade at the source</li>
+      <li><strong>Softens the downstream backup</strong> &mdash; without adding bulk to the traffic jam</li>
+    </ul>
+
+    <p>Two gummies with my morning coffee. That&rsquo;s the entire routine. <strong>It never interfered with my medication or my dose.</strong></p>
+
+    <!-- AS SEEN ON -->
+    <div class="as-seen">
+      <div class="label">AS SEEN ON</div>
+      <div class="logos">
+        <span class="logo">NBC</span>
+        <span class="logo">abc</span>
+        <span class="logo">CBS</span>
+        <span class="logo">FOX NEWS</span>
+        <span class="logo">USA TODAY</span>
+        <span class="logo">DIGITAL JOURNAL</span>
+      </div>
+    </div>
+
+    <a href="https://getmotilli.com/" class="cta-button">Check Availability &rarr;</a>
+    <div class="cta-sub">90-Day Money-Back Guarantee &middot; Free US Shipping Over $45</div>
+
+    <p>If you&rsquo;re ready, that button takes you to their site. But if you&rsquo;re anything like me, you&rsquo;re not done being skeptical yet &mdash; I wasn&rsquo;t either. So let me save you the three hours of reading I did before I ordered.</p>
+
+    <!-- ========== SECTION: COMPARISON ========== -->
+    <h2>Why Nothing in Your Drawer <span class="red">Ever Stood a Chance</span></h2>
+
+    <p>Before I bought anything, I made myself a chart. I&rsquo;m a retired bookkeeper. Charts are how I calm down.</p>
+
+    <div class="compare-wrap">
+      <table class="compare">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="win">Motilli</th>
+            <th>Miralax / Fiber Gummies</th>
+            <th>Dulcolax / Senna Teas</th>
+            <th>Rx (Linzess)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="row-label">Works on the stomach &mdash; the entrance</td>
+            <td class="yes win-col">&#10003;</td>
+            <td class="no">&mdash;</td>
+            <td class="no">&mdash;</td>
+            <td class="no">&mdash;</td>
+          </tr>
+          <tr>
+            <td class="row-label">No forcing, no cramping</td>
+            <td class="yes win-col">&#10003;</td>
+            <td class="yes">&#10003;</td>
+            <td class="warn">Cramps &amp; urgency</td>
+            <td class="warn">Own side effects</td>
+          </tr>
+          <tr>
+            <td class="row-label">Neutralizes the sulfur burps</td>
+            <td class="yes win-col">&#10003;</td>
+            <td class="no">&mdash;</td>
+            <td class="no">&mdash;</td>
+            <td class="no">&mdash;</td>
+          </tr>
+          <tr>
+            <td class="row-label">Built specifically for GLP-1 users</td>
+            <td class="yes win-col">&#10003;</td>
+            <td class="no">&mdash;</td>
+            <td class="no">&mdash;</td>
+            <td class="no">&mdash;</td>
+          </tr>
+          <tr>
+            <td class="row-label">No prescription, no copay</td>
+            <td class="yes win-col">&#10003;</td>
+            <td class="yes">&#10003;</td>
+            <td class="yes">&#10003;</td>
+            <td class="no">&mdash;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Every single row in that chart, I owned. Most of them twice.</p>
+
+    <p>The last column I&rsquo;d never tried &mdash; and the first column didn&rsquo;t exist until recently, because nobody built anything for us. <strong>They just kept selling us the exit.</strong></p>
+
+    <!-- ========== SECTION: EXPECTATIONS ========== -->
+    <h2>What the First Month <span class="red">Actually Looks Like</span></h2>
+
+    <p>I want to set your expectations honestly, because this is where I almost quit.</p>
+
+    <ul class="dot-list">
+      <li><strong>Week one is quiet.</strong> For most women, the first four or five days feel like nothing is happening. That&rsquo;s not failure &mdash; nothing in it forces a thing, so there&rsquo;s no fake day-one fireworks. <strong>Don&rsquo;t quit on day four. Day four is where the drawer people give up.</strong></li>
+      <li><strong>Days five through nine</strong> is when most women get the bloat easing and then the first real morning. Mine was day nine. My sister&rsquo;s was day eight. The reviews I read said anywhere from day five to week three.</li>
+      <li><strong>Weeks two and three,</strong> the sulfur burps fade. This one sneaks up on you &mdash; one day you just notice you&rsquo;ve stopped positioning yourself in conversations.</li>
+      <li><strong>Week four and beyond,</strong> the whole management system &mdash; the counting, the timing, the supplies &mdash; quietly stops being part of your life.</li>
+    </ul>
+
+    <!-- ========== SECTION: REVIEWS ========== -->
+    <h2>What Other Women <span class="red">Are Saying</span></h2>
+
+    <p>I went back and pulled a few of the reviews that got me over the line, because they&rsquo;ll probably sound familiar:</p>
+
+    <div class="pt-quote">
+      <div class="who"><span class="stars-inline">&#9733;&#9733;&#9733;&#9733;&#9733;</span>PAM R., 58 &middot; WEGOVY® &middot; VERIFIED BUYER</div>
+      <p>&ldquo;I&rsquo;ve bought every &lsquo;miracle&rsquo; on the internet. This is the one my body actually answered. Ordered on a Tuesday, rolled my eyes the whole first week. Day seven changed my mind. It&rsquo;s been two months and my Miralax is in the trash.&rdquo;</p>
+    </div>
+
+    <div class="pt-quote">
+      <div class="who"><span class="stars-inline">&#9733;&#9733;&#9733;&#9733;&#9733;</span>JANET M., 66 &middot; MOUNJARO® &middot; VERIFIED BUYER</div>
+      <p>&ldquo;Nobody talks about the burps. I&rsquo;m going to talk about the burps. The constipation was bad but the sulfur was ruining my life &mdash; I had started skipping book club over it. Three weeks in, it&rsquo;s gone. GONE. I sat next to people on purpose last Thursday.&rdquo;</p>
+    </div>
+
+    <div class="pt-quote">
+      <div class="who"><span class="stars-inline">&#9733;&#9733;&#9733;&#9733;&#9733;</span>DIANE K., 61 &middot; OZEMPIC® &middot; VERIFIED BUYER</div>
+      <p>&ldquo;Fair warning &mdash; I was a slow one. Week three I emailed about the refund and they were lovely about it, told me to keep going if I wanted since I had 90 days either way. Week five, everything shifted. I&rsquo;d tell any woman: give it the whole window.&rdquo;</p>
+    </div>
+
+    <p>That last one mattered to me as much as the glowing ones. A company that tells you to <em>use the guarantee window</em> instead of fighting you for the refund is a company that&rsquo;s seen this work enough times to be patient about it.</p>
+
+    <!-- ========== SECTION: GUARANTEE ========== -->
+    <h2>The Guarantee That Made the <span class="red">Decision for Me</span></h2>
+
+    <p>Here&rsquo;s the fine print I went looking for &mdash; bookkeeper, remember &mdash; and couldn&rsquo;t poke a hole in:</p>
+
+    <div class="guarantee-banner">
+      <strong>90 days. Money back. No hoops.</strong> Use the whole bottle. Use two. If your mornings don&rsquo;t come back, you email them and you get your money back. That&rsquo;s the entire policy.
+    </div>
+
+    <p>Which means the real question isn&rsquo;t &ldquo;will this work?&rdquo; The real question is: <em>what does it cost me to find out?</em> And the answer is nothing but the thirty days I was going to spend backed up anyway.</p>
+
+    <div class="trust-row">
+      <div class="trust-badge"><div class="ic">&#128737;&#65039;</div><div class="lbl">90-Day<br>Guarantee</div></div>
+      <div class="trust-badge"><div class="ic">&#128666;</div><div class="lbl">Free US<br>Shipping $45+</div></div>
+      <div class="trust-badge"><div class="ic">&#128274;</div><div class="lbl">Secure<br>Checkout</div></div>
+      <div class="trust-badge"><div class="ic">&#8617;&#65039;</div><div class="lbl">No-Hassle<br>Returns</div></div>
+    </div>
+
+    <a href="https://getmotilli.com/" class="cta-button">See Current Pricing &rarr;</a>
+    <div class="cta-sub">Click above to check current availability and bundle pricing</div>
+
+    <!-- ========== SECTION: TWO OPTIONS ========== -->
+    <h2>The Way I See It, You Have <span class="red">Two Options</span></h2>
+
+    <p><strong>Option one:</strong> close this page, keep the drawer, keep the Miralax mornings and the counting and the sulfur math. Keep paying the tax and telling yourself it&rsquo;s the price of the weight loss.</p>
+
+    <p>I did that for almost a year. I can tell you exactly where it leads: to a party, in a dress you chose for the wrong reason, saying &ldquo;I&rsquo;m fine.&rdquo;</p>
+
+    <p><strong>Option two:</strong> do what I did, and what my sister did, and what the women in those reviews did. Try the one thing in the chart that works at the entrance &mdash; with 90 days to prove it on your own body.</p>
+
+    <p>Will it work for you? I still can&rsquo;t promise that. Nobody honest can. But you didn&rsquo;t read all the way to the bottom of this page for Miralax. <strong>You read this far because something in that story you clicked on was yours.</strong></p>
+
+    <p>You&rsquo;ve already done the hard part. The weight is coming off. Don&rsquo;t spend another month paying a tax you don&rsquo;t owe.</p>
+
+    <div class="signature">
+      &mdash; <span class="name">Carol Jennings</span><br>
+      <span class="title">Reader Story &middot; Verified Motilli Customer</span>
+    </div>
+
+    <a href="https://getmotilli.com/" class="cta-button">Check Availability &rarr;</a>
+    <div class="cta-sub">90-Day Money-Back Guarantee &middot; This is a one-time order, not a subscription</div>
+
+    <p><em>P.S. &mdash; My sister, the one who sent me the article, is on Mounjaro®. She started her own bottle in April. On day eight she texted me two words: &ldquo;IT HAPPENED.&rdquo; Go see for yourself.</em></p>
+
+    <div class="compliance">
+      <strong>Compliance Notice:</strong> This is an advertisement and not an actual news article, blog, or consumer protection update. The story depicted on this page is illustrative of experiences reported by some customers; individual results vary and your results may differ. This content is provided for general informational purposes only and is not intended as medical advice, diagnosis, or treatment. Motilli is a dietary supplement, not a drug, and not a substitute for any GLP-1 medication. GLP-1 medications should only be started, adjusted, or stopped under the guidance of your prescribing physician. As with any supplement, consult your healthcare provider before adding it to your regimen, especially while on a GLP-1 medication. These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease. Ozempic®, Wegovy®, and Mounjaro® are registered trademarks of their respective owners and are referenced for educational purposes only. This article is an editorial publication of Gut Health Blog and is supported by readers.
+    </div>
+
+  </div><!-- /.article -->
+
+  <!-- ========== SIDEBAR ========== -->
+  <aside class="sidebar">
+    <div class="card">
+      <div class="card-label">RECOMMENDED</div>
+      <div class="prod-img">
+        <img src="images/05_product.jpeg" alt="Motilli Celery Juice Fiber Gummies">
+        <div class="badge-disc"><span class="big">40%</span><span>OFF</span></div>
+      </div>
+      <a href="https://getmotilli.com/" class="side-cta">Buy 2 Get 1 Free</a>
+      <div class="side-trust">90-Day Money-Back Guarantee</div>
+    </div>
+
+    <div class="card reviews-card">
+      <div class="review-headline">Customer Reviews</div>
+      <div class="stars-big">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="rating-num">4.8 out of 5</div>
+      <div class="rating-count">1,912 customer ratings</div>
+
+      <div class="row"><span class="star">5 Star</span><span class="bar"><span class="fill" style="width:88%"></span></span><span class="pct">88%</span></div>
+      <div class="row"><span class="star">4 Star</span><span class="bar"><span class="fill" style="width:8%"></span></span><span class="pct">8%</span></div>
+      <div class="row"><span class="star">3 Star</span><span class="bar"><span class="fill" style="width:2%"></span></span><span class="pct">2%</span></div>
+      <div class="row"><span class="star">2 Star</span><span class="bar"><span class="fill" style="width:1%"></span></span><span class="pct">1%</span></div>
+      <div class="row"><span class="star">1 Star</span><span class="bar"><span class="fill" style="width:1%"></span></span><span class="pct">1%</span></div>
+
+      <div class="feature-section">
+        <div class="ftitle">By Feature</div>
+        <div class="frow"><span class="lbl">Effectiveness</span><span class="stars-mini">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="val">4.8</span></div>
+        <div class="frow"><span class="lbl">Gentleness</span><span class="stars-mini">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="val">5.0</span></div>
+        <div class="frow"><span class="lbl">Taste</span><span class="stars-mini">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="val">4.8</span></div>
+        <div class="frow"><span class="lbl">Value</span><span class="stars-mini">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="val">4.7</span></div>
+      </div>
+    </div>
+  </aside>
+
+</div><!-- /.page -->
+
+<!-- STICKY CTA (reveals after the solution intro) -->
+<div class="sticky-cta" id="stickyCta"><div class="wrap">
+  <div class="line"><strong>Backed up on your GLP-1?</strong> Treat the stomach, not the colon. Motilli &mdash; 90-day money-back guarantee.</div>
+  <a href="https://getmotilli.com/" class="sticky-btn">Check Availability &rarr;</a>
+</div></div>
+
+<!-- FOOTER -->
+<footer class="site-foot"><div class="inner">
+  <div class="top">Gut Health Blog</div>
+  <div>Editorial &middot; Reader Stories &middot; Reader-Funded</div>
+  <div class="links">
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Disclaimer</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="copy">&copy; 2026 Gut Health Blog. All rights reserved.</div>
+</div></footer>
+
+<script>
+  (function(){
+    var el = document.getElementById('stickyCta');
+    var trigger = document.getElementById('solution-intro');
+    if(!el) return;
+
+    // Reveal the sticky CTA once the reader reaches the solution intro
+    // ("The Answer to the Question Everyone Keeps Asking"), then keep it.
+    function reveal(){ el.classList.add('visible'); }
+
+    if(trigger && 'IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          if(e.isIntersecting){ reveal(); io.disconnect(); }
+        });
+      }, { rootMargin: '0px 0px -20% 0px' });
+      io.observe(trigger);
+    } else {
+      function onScroll(){
+        var t = trigger || el;
+        if(t.getBoundingClientRect().top < window.innerHeight * 0.8){
+          reveal(); window.removeEventListener('scroll', onScroll);
+        }
+      }
+      window.addEventListener('scroll', onScroll, {passive:true});
+      onScroll();
+    }
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "duration_seconds": 243.36,
+  "peak_dbfs": -0.2790995240211487,
+  "samples_above_0999": 0,
+  "asr_differences": [
+    {
+      "op": "delete",
+      "expected": [
+        "d"
+      ],
+      "heard": []
+    },
+    {
+      "op": "replace",
+      "expected": [
+        "motilly"
+      ],
+      "heard": [
+        "motili"
+      ]
+    }
+  ],
+  "gaps_over_08s": [
+    {
+      "after": "wrong.",
+      "before": "I",
+      "start": 59.06,
+      "end": 59.9,
+      "duration": 0.8399999999999963
+    },
+    {
+      "after": "days.",
+      "before": "That",
+      "start": 219.6,
+      "end": 220.4,
+      "duration": 0.8000000000000114
+    }
+  ],
+  "start_padding_seconds": 0.2,
+  "end_padding_seconds": 0.060000000000002274
+}

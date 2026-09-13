@@ -1,0 +1,33 @@
+{
+  "_comment": [
+    "Brand profile for seedance_adapt.py --brand. Supplies OUR half of the module stack",
+    "so a reference adaptation comes out mostly filled instead of full of TODOs.",
+    "",
+    "Every key is optional. Any key you omit becomes a <<TODO>> slot in the scaffold.",
+    "Keys map 1:1 onto Band A modules in _engine/sops/Seedance-Prompt-System.md.",
+    "",
+    "Rule that matters most: when a reference image is wired, 'cast' and 'product' are",
+    "POINTERS, not portraits. Describing a face or a product that is already in an",
+    "@Image makes the model re-render it from your text, and the text beats the image.",
+    "Say what the reference cannot carry, and say what must not change.",
+    "",
+    "Keep one of these per product, next to the product skill. Copy this file, fill it,",
+    "and it is reusable across every replication you run for that product."
+  ],
+
+  "cast": "The woman in @Image1. Do not restyle her, do not change her age or face shape. She reads late twenties. Roughly 5'6\", so the tote sits at mid-thigh when carried.",
+
+  "wardrobe": "cream ribbed knit sweater, sleeves pushed to the elbow, small gold hoop earrings, bare hands.",
+
+  "set": "A bright bedroom corner. Unmade white bed behind her at frame left, one window camera-right throwing all the light, plain off-white wall. Late morning. The room is sparse and uncluttered, bare walls and clear floor.",
+
+  "product": "The bag in @Image2. It is exactly as shown. Do not restyle, recolor, or re-proportion it. <<PASTE THE PRODUCT SKILL'S MANDATORY MECHANISM BLOCK HERE, VERBATIM. Do not paraphrase it.>>",
+
+  "look": "Shot on an iPhone front camera, handheld, slightly imperfect framing, mild sensor noise, natural window light with real falloff. Photographic, not rendered. No color grading, no cinematic look, no shallow-depth-of-field bokeh, no 3D render or CGI quality, no plastic skin, no glossy studio product-render sheen.",
+
+  "voice": "Mid-twenties American woman, light vocal fry, conversational and slightly rushed, the way you talk when you're telling a friend something. Close phone-mic sound, a little boomy, no studio polish, no announcer energy. There is no narrator and no voiceover. Only the person visible on screen speaks, and her lips move when she does.",
+
+  "sound": "Ambient room tone only. No music. No narration layered over her dialogue. Natural sound where the action makes it, nothing else.",
+
+  "continuity": "The same person in every beat. Identical face, hair color, hair length, skin tone, and eye color from the first frame to the last. Same wardrobe and same jewelry in every beat except where a PHASE OVERRIDE states otherwise. Same room, same light direction, same time of day. One voice throughout, one person in one recording session, no shift in pitch or accent at any cut. The bag is identical in every beat it appears in, same color, same hardware, same proportions."
+}

@@ -1,0 +1,255 @@
+{
+  "fetched_at_utc": "2026-09-13T16:46:10.337009+00:00",
+  "api_version": "v23.0",
+  "request": {
+    "path": "6998265963075/adsets",
+    "params": {
+      "fields": "id,name,status,effective_status,optimization_goal,billing_event,destination_type,daily_budget,lifetime_budget,start_time,end_time,attribution_spec,promoted_object,targeting",
+      "limit": 100
+    }
+  },
+  "status": 200,
+  "response": {
+    "data": [
+      {
+        "id": "6998289487675",
+        "name": "haaland",
+        "status": "ACTIVE",
+        "effective_status": "ACTIVE",
+        "optimization_goal": "OFFSITE_CONVERSIONS",
+        "billing_event": "IMPRESSIONS",
+        "destination_type": "UNDEFINED",
+        "start_time": "2026-09-12T22:51:05-0700",
+        "attribution_spec": [
+          {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 7
+          },
+          {
+            "event_type": "VIEW_THROUGH",
+            "window_days": 1
+          },
+          {
+            "event_type": "ENGAGED_VIDEO_VIEW",
+            "window_days": 1
+          }
+        ],
+        "promoted_object": {
+          "pixel_id": "841047155095358",
+          "custom_event_type": "PURCHASE",
+          "smart_pse_enabled": false
+        },
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "age_range": [
+            18,
+            65
+          ],
+          "geo_locations": {
+            "countries": [
+              "US"
+            ],
+            "location_types": [
+              "frequently_in",
+              "home",
+              "recent"
+            ]
+          },
+          "brand_safety_content_filter_levels": [
+            "FACEBOOK_RELAXED",
+            "AN_RELAXED"
+          ],
+          "targeting_automation": {
+            "advantage_audience": 1
+          },
+          "user_age_unknown": true
+        }
+      },
+      {
+        "id": "6998266319075",
+        "name": "old money",
+        "status": "ACTIVE",
+        "effective_status": "ACTIVE",
+        "optimization_goal": "OFFSITE_CONVERSIONS",
+        "billing_event": "IMPRESSIONS",
+        "destination_type": "UNDEFINED",
+        "start_time": "2026-09-12T21:40:00-0700",
+        "attribution_spec": [
+          {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 7
+          },
+          {
+            "event_type": "VIEW_THROUGH",
+            "window_days": 1
+          },
+          {
+            "event_type": "ENGAGED_VIDEO_VIEW",
+            "window_days": 1
+          }
+        ],
+        "promoted_object": {
+          "pixel_id": "841047155095358",
+          "custom_event_type": "PURCHASE",
+          "smart_pse_enabled": false
+        },
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "age_range": [
+            18,
+            65
+          ],
+          "geo_locations": {
+            "countries": [
+              "US"
+            ],
+            "location_types": [
+              "frequently_in",
+              "home",
+              "recent"
+            ]
+          },
+          "brand_safety_content_filter_levels": [
+            "FACEBOOK_RELAXED",
+            "AN_RELAXED"
+          ],
+          "targeting_automation": {
+            "advantage_audience": 1,
+            "individual_setting": {
+              "age": 1,
+              "gender": 1
+            }
+          },
+          "user_age_unknown": true
+        }
+      },
+      {
+        "id": "6998266184275",
+        "name": "chic travel bag",
+        "status": "ACTIVE",
+        "effective_status": "ACTIVE",
+        "optimization_goal": "OFFSITE_CONVERSIONS",
+        "billing_event": "IMPRESSIONS",
+        "destination_type": "UNDEFINED",
+        "start_time": "2026-09-12T21:40:00-0700",
+        "attribution_spec": [
+          {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 7
+          },
+          {
+            "event_type": "VIEW_THROUGH",
+            "window_days": 1
+          },
+          {
+            "event_type": "ENGAGED_VIDEO_VIEW",
+            "window_days": 1
+          }
+        ],
+        "promoted_object": {
+          "pixel_id": "841047155095358",
+          "custom_event_type": "PURCHASE",
+          "smart_pse_enabled": false
+        },
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "age_range": [
+            18,
+            65
+          ],
+          "geo_locations": {
+            "countries": [
+              "US"
+            ],
+            "location_types": [
+              "frequently_in",
+              "home",
+              "recent"
+            ]
+          },
+          "brand_safety_content_filter_levels": [
+            "FACEBOOK_RELAXED",
+            "AN_RELAXED"
+          ],
+          "targeting_automation": {
+            "advantage_audience": 1,
+            "individual_setting": {
+              "age": 1,
+              "gender": 1
+            }
+          },
+          "user_age_unknown": true
+        }
+      },
+      {
+        "id": "6998265963275",
+        "name": "european travel",
+        "status": "ACTIVE",
+        "effective_status": "ACTIVE",
+        "optimization_goal": "OFFSITE_CONVERSIONS",
+        "billing_event": "IMPRESSIONS",
+        "destination_type": "UNDEFINED",
+        "start_time": "2026-09-12T21:40:00-0700",
+        "attribution_spec": [
+          {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 7
+          },
+          {
+            "event_type": "VIEW_THROUGH",
+            "window_days": 1
+          },
+          {
+            "event_type": "ENGAGED_VIDEO_VIEW",
+            "window_days": 1
+          }
+        ],
+        "promoted_object": {
+          "pixel_id": "841047155095358",
+          "custom_event_type": "PURCHASE",
+          "smart_pse_enabled": false
+        },
+        "targeting": {
+          "age_max": 65,
+          "age_min": 18,
+          "age_range": [
+            18,
+            65
+          ],
+          "geo_locations": {
+            "countries": [
+              "US"
+            ],
+            "location_types": [
+              "frequently_in",
+              "home",
+              "recent"
+            ]
+          },
+          "brand_safety_content_filter_levels": [
+            "FACEBOOK_RELAXED",
+            "AN_RELAXED"
+          ],
+          "targeting_automation": {
+            "advantage_audience": 1,
+            "individual_setting": {
+              "age": 1,
+              "gender": 1
+            }
+          },
+          "user_age_unknown": true
+        }
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "QVFIVF96cU9CbndPUGxfR3ZAfZAXVYcUFJRDFJLVQ0dzVzbjNha29td3NSWk1DYWVlTmZAsWjYxWkpIOTFTOGVwWVFQM09PM0R1N3lZAbTZAmM2ZAVeElnUkNkLUFR",
+        "after": "QVFIVDYzUzlYUjU0dmJnd1V4ck9iQUhVNjQ4bUdidWRBVFVwRzRHcm1rVGVmaWROb0ZAQV195WUUzY0tHdkVWMVRGYlVScW1HbnozZAW5sZATlEUy1wSFpDcXhB"
+      },
+      "has_next": false
+    }
+  }
+}

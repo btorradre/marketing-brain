@@ -1,0 +1,62 @@
+# Secrets
+.env
+.env.*
+*.key
+*credentials*.json
+gdrive_token.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Claude
+.claude/plans/
+
+# GitHub upload: credentials and authenticated local browser state
+/auth/
+/_engine/oauth credentials/
+.mcp.json
+.claude/settings.local.json
+*.pem
+*.p12
+*.pfx
+*_token.json
+client_secret*.json
+.netrc
+.npmrc
+.pypirc
+*browser-profile*/
+browser-profiles/
+.playwright-mcp/
+.shopify/
+.vercel/
+
+# Reinstallable dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.next/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pnpm-store/
+.turbo/
+*.tsbuildinfo
+
+# Live SQLite journal files; use consistent database snapshots for upload
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite-wal
+*.sqlite-shm
+*.db-wal
+*.db-shm
+
+# Local upload preparation and scan reports
+/.github-upload-local/

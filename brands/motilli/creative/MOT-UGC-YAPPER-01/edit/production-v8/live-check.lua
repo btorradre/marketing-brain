@@ -1,0 +1,1 @@
+local r=fu:GetResolve();local p=r:GetProjectManager():GetCurrentProject();print('V8_LIVE',r:GetVersionString(),p:GetName(),p:GetCurrentTimeline():GetName(),'RENDERING',p:IsRenderingInProgress())

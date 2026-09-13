@@ -1,0 +1,5 @@
+<section class="detail-film" aria-label="{{ section.settings.description | escape }}">
+{% if section.settings.video != blank %}{{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: true, image_size: '1800x', class: 'detail-video' }}{% else %}<video class="detail-video" autoplay muted loop playsinline controls preload="none" poster="{{ 'vivienne-macro.jpg' | asset_url }}"><source src="{{ 'vivienne-macro.mp4' | asset_url }}" type="video/mp4"></video>{% endif %}
+</section>
+{% stylesheet %}.detail-film{height:min(52vw,720px);max-height:75vh;min-height:260px}.detail-video{width:100%;height:100%;object-fit:cover}@media(prefers-reduced-motion:reduce){.detail-video{animation:none}}{% endstylesheet %}
+{% schema %}{"name":"Detail film","settings":[{"type":"video","id":"video","label":"Video"},{"type":"text","id":"description","label":"Description","default":"A closer look at the Vivienne"}],"presets":[{"name":"Detail film"}]}{% endschema %}

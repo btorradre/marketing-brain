@@ -1,0 +1,5 @@
+local ok,e=pcall(function()
+dofile("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/assemble-H2-r2.lua")
+dofile("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/assemble-H3-r2.lua")
+dofile("/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-UGC-YAPPER-01/edit/production-v27/export-hooks.lua")
+end);print('ASSEMBLE_HOOKS_RESULT',ok,e)

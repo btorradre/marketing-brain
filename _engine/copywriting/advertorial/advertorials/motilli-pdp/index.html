@@ -1,0 +1,3159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motilli — GLP-1 Digestive Support That Works Upstream</title>
+    <!-- Meta Pixel Code with Advanced Matching -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    // Generate a persistent external_id for this browser
+    (function() {
+        var eid = localStorage.getItem('_motilli_eid');
+        if (!eid) {
+            eid = 'mot_' + Date.now() + '_' + Math.random().toString(36).substring(2, 12);
+            localStorage.setItem('_motilli_eid', eid);
+        }
+        window._motilli_eid = eid;
+    })();
+
+    // Init with Advanced Matching — external_id + country for baseline matching
+    fbq('init', '2820311848306259', {
+        external_id: window._motilli_eid,
+        country: 'us'
+    });
+
+    // Cookie helper
+    function getCookie(name) {
+        var v = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+        return v ? v.pop() : '';
+    }
+
+    // Unique event ID generator for deduplication with CAPI
+    function genEventId() {
+        return 'evt_' + Date.now() + '_' + Math.random().toString(36).substring(2, 10);
+    }
+
+    fbq('track', 'PageView');
+    // ViewContent — default bundle is Buy 2 Get 1 Free (variant 45355030282412, $59.98)
+    fbq('track', 'ViewContent', {
+        content_name: 'Motilli Digestive Health Gummies',
+        content_ids: ['45355030282412'],
+        content_type: 'product',
+        value: 59.98,
+        currency: 'USD',
+        contents: [{ id: '45355030282412', quantity: 1, item_price: 59.98 }]
+    }, { eventID: genEventId() });
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2820311848306259&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        .motilli-pdp-wrapper, .shopify-section, #MainContent, #main, main, [role="main"] {
+            margin: 0 !important;
+            padding: 0 !important;
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow-x: hidden;
+        }
+
+        :root {
+            --primary: #b8db66;
+            --primary-dark: #9bc24a;
+            --primary-darker: #7fa83a;
+            --primary-light: #d4eb9e;
+            --primary-lightest: #f0f7de;
+            --primary-bg: #f8faf0;
+            --text-dark: #1a1a1a;
+            --text-body: #374151;
+            --text-muted: #6b7280;
+            --text-light: #9ca3af;
+            --white: #ffffff;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --red-500: #ef4444;
+            --green-600: #16a34a;
+            --green-700: #15803d;
+            --star-gold: #f59e0b;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-body);
+            background: var(--white);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+            max-width: 100vw;
+            width: 100%;
+        }
+
+        img, video, iframe, embed, object { max-width: 100%; height: auto; display: block; }
+        a { text-decoration: none; color: inherit; }
+
+        .page-wrapper {
+            width: 100%;
+            max-width: 100vw;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+        .container-narrow { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+
+        /* ===== TOP BAR ===== */
+        .top-bar {
+            background: var(--primary-darker);
+            color: var(--white);
+            text-align: center;
+            padding: 10px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 4px 8px;
+        }
+        .top-bar span { white-space: nowrap; }
+
+        /* ===== STICKY HEADER ===== */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--white);
+            border-bottom: 1px solid var(--gray-200);
+            padding: 14px 0;
+        }
+        .sticky-header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-text {
+            font-size: 22px;
+            font-weight: 900;
+            color: var(--text-dark);
+            letter-spacing: -0.5px;
+            margin-right: 32px;
+            flex-shrink: 0;
+        }
+        .header-nav {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .header-nav a {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-dark);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .header-nav a:hover { color: var(--primary-darker); }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            padding: 40px 0 24px;
+            background: var(--white);
+        }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+        .hero-images { position: relative; min-width: 0; max-width: 100%; }
+        .hero-main-image {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            background: var(--gray-100);
+            aspect-ratio: 1;
+        }
+        .hero-main-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .hero-thumbnails {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .hero-thumb {
+            width: 72px;
+            height: 72px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid var(--gray-200);
+            cursor: pointer;
+            transition: border-color 0.2s;
+            background: var(--gray-100);
+        }
+        .hero-thumb.active, .hero-thumb:hover { border-color: var(--primary); }
+        .hero-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+        .hero-content { min-width: 0; }
+        .hero-rating {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-body);
+            margin-bottom: 12px;
+        }
+        .stars { color: var(--star-gold); font-size: 16px; letter-spacing: 2px; }
+
+        .hero-title {
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 1.25;
+            color: var(--text-dark);
+            margin-bottom: 16px;
+        }
+        .hero-subtitle {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text-body);
+            margin-bottom: 20px;
+        }
+        .hero-benefits {
+            list-style: none;
+            margin-bottom: 24px;
+            padding-left: 0;
+        }
+        .hero-benefits li {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-dark);
+            padding: 6px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            line-height: 1.5;
+        }
+        .hero-benefits li .check {
+            color: var(--primary-dark);
+            font-weight: 700;
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 1px;
+        }
+
+        .shipping-date {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        /* ===== CTA BUTTON ===== */
+        .cta-btn {
+            display: block;
+            width: 100%;
+            max-width: 480px;
+            background: var(--primary);
+            color: var(--text-dark);
+            font-size: 18px;
+            font-weight: 800;
+            text-align: center;
+            padding: 16px 32px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .cta-btn:hover { background: var(--primary-dark); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(184, 219, 102, 0.4); }
+
+        .cta-meta {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 6px 16px;
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+        .cta-meta .stock { color: var(--green-600); font-weight: 600; white-space: nowrap; }
+
+        .payment-icons {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .payment-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--gray-100);
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-muted);
+            border: 1px solid var(--gray-200);
+        }
+
+        /* ===== LOW STOCK NOTICE ===== */
+        .low-stock-notice {
+            margin-top: 18px;
+            padding: 16px 18px;
+            border: 2px dashed var(--red-500);
+            border-radius: 10px;
+            background: #fef2f2;
+        }
+        .low-stock-notice-title {
+            font-size: 15px;
+            font-weight: 800;
+            color: var(--red-500);
+            margin-bottom: 6px;
+        }
+        .low-stock-notice p {
+            font-size: 13.5px;
+            line-height: 1.55;
+            color: var(--text-dark);
+            margin: 0;
+        }
+        .low-stock-notice strong {
+            font-weight: 700;
+        }
+        .low-stock-notice u {
+            text-decoration: underline;
+            text-decoration-color: var(--red-500);
+        }
+
+        /* ===== GUARANTEE BADGE ===== */
+        .guarantee-badge {
+            background: var(--primary-lightest);
+            border: 2px solid var(--primary-light);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 0;
+            text-align: center;
+        }
+        .guarantee-badge h3 {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+        .guarantee-badge p {
+            font-size: 14px;
+            color: var(--text-body);
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        /* ===== SECTION STYLES ===== */
+        .section { padding: 60px 0; }
+        .section-alt { background: var(--gray-50); }
+        .section-green { background: var(--primary-bg); }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--text-dark);
+            text-align: center;
+            margin-bottom: 16px;
+            line-height: 1.3;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        .section-subtitle {
+            font-size: 15px;
+            color: var(--text-body);
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 40px;
+            line-height: 1.7;
+        }
+
+        /* ===== SCIENCE SECTION ===== */
+        .science-text {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-body);
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        .science-text p { margin-bottom: 20px; }
+        .science-text strong { color: var(--text-dark); font-weight: 700; }
+        .highlight-box {
+            background: var(--primary-lightest);
+            border-left: 4px solid var(--primary);
+            padding: 20px 24px;
+            border-radius: 0 12px 12px 0;
+            margin: 24px 0;
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-dark);
+            line-height: 1.7;
+        }
+
+        /* ===== HELP WITH CARDS ===== */
+        .help-cards { display: flex; flex-direction: column; gap: 20px; }
+        .help-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 16px;
+            padding: 28px;
+            transition: box-shadow 0.2s;
+        }
+        .help-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+        .help-card-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            color: var(--text-dark);
+            font-weight: 800;
+            font-size: 14px;
+            border-radius: 50%;
+            margin-bottom: 12px;
+        }
+        .help-card h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+        .help-card p {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+
+        /* ===== TIMELINE ===== */
+        .timeline { max-width: 720px; margin: 0 auto; }
+        .timeline-item {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 24px;
+            position: relative;
+        }
+        .timeline-marker {
+            flex-shrink: 0;
+            width: 56px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .timeline-dot {
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .timeline-line {
+            width: 2px;
+            flex: 1;
+            background: var(--primary-light);
+            margin-top: 4px;
+        }
+        .timeline-content {
+            flex: 1;
+            padding-bottom: 20px;
+        }
+        .timeline-content h4 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 6px;
+        }
+        .timeline-content p {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+
+        /* ===== STATS ===== */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .stat-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 16px;
+            padding: 28px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 42px;
+            font-weight: 900;
+            color: var(--primary-darker);
+            margin-bottom: 4px;
+        }
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.6;
+        }
+
+        /* ===== THREE PATHWAYS ===== */
+        .pathway-cards { display: flex; flex-direction: column; gap: 20px; }
+        .pathway-card {
+            background: var(--white);
+            border: 2px solid var(--primary-light);
+            border-radius: 16px;
+            padding: 28px;
+        }
+        .pathway-label {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--text-dark);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .pathway-card h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+        .pathway-card p {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+
+        /* ===== TESTIMONIALS ===== */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .testimonial-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 16px;
+            padding: 24px;
+        }
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        .testimonial-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        .testimonial-badge {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--green-600);
+        }
+        .testimonial-stars { color: var(--star-gold); font-size: 14px; margin-bottom: 8px; }
+        .testimonial-text {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+            font-style: italic;
+        }
+
+        /* ===== COMPARISON TABLE ===== */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--gray-200);
+        }
+        .comparison-table thead th {
+            background: var(--primary-darker);
+            color: var(--white);
+            padding: 16px 20px;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .comparison-table thead th:first-child { background: var(--text-dark); }
+        .comparison-table tbody td {
+            padding: 14px 20px;
+            font-size: 14px;
+            border-bottom: 1px solid var(--gray-200);
+            vertical-align: top;
+        }
+        .comparison-table tbody tr:last-child td { border-bottom: none; }
+        .comparison-table tbody tr:nth-child(even) { background: var(--gray-50); }
+        .comparison-table .check-yes { color: var(--green-600); font-weight: 700; }
+        .comparison-table .check-no { color: var(--red-500); font-weight: 700; }
+
+        /* ===== CTA SECTION ===== */
+        .cta-section {
+            background: var(--primary-darker);
+            padding: 48px 0;
+            text-align: center;
+        }
+        .cta-section .section-title { color: var(--white); }
+        .cta-section .guarantee-text {
+            font-size: 14px;
+            color: rgba(255,255,255,0.85);
+            margin-top: 8px;
+        }
+        .cta-section .cta-btn {
+            margin: 20px auto 0;
+            background: var(--white);
+            color: var(--primary-darker);
+        }
+        .cta-section .cta-btn:hover { background: var(--gray-100); }
+
+        /* ===== HOW TO TAKE ===== */
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .step-card {
+            text-align: center;
+            padding: 28px 20px;
+            background: var(--white);
+            border-radius: 16px;
+            border: 1px solid var(--gray-200);
+        }
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: var(--primary);
+            color: var(--text-dark);
+            font-weight: 800;
+            font-size: 20px;
+            border-radius: 50%;
+            margin-bottom: 16px;
+        }
+        .step-card h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+        .step-card p {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.6;
+        }
+
+        /* ===== SPECIAL OFFER ===== */
+        .special-offer {
+            background: linear-gradient(135deg, var(--primary-lightest) 0%, var(--white) 100%);
+            border: 2px solid var(--primary);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        .offer-trustpilot {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-body);
+            margin-bottom: 8px;
+        }
+        .offer-headline {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            line-height: 1.35;
+        }
+        .offer-list {
+            list-style: none;
+            text-align: left;
+            max-width: 420px;
+            margin: 0 auto 20px;
+        }
+        .offer-list li {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-dark);
+            padding: 6px 0;
+        }
+        .offer-value {
+            font-size: 14px;
+            color: var(--text-muted);
+            text-decoration: line-through;
+            margin-bottom: 4px;
+        }
+        .offer-price {
+            font-size: 36px;
+            font-weight: 900;
+            color: var(--primary-darker);
+            margin-bottom: 16px;
+        }
+
+        /* ===== DOCTOR SECTION ===== */
+        .doctor-section {
+            display: flex;
+            gap: 32px;
+            align-items: flex-start;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        .doctor-photo {
+            flex-shrink: 0;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: var(--gray-200);
+            overflow: hidden;
+        }
+        .doctor-photo img { width: 100%; height: 100%; object-fit: cover; }
+        .doctor-quote {
+            font-size: 15px;
+            line-height: 1.8;
+            color: var(--text-body);
+            font-style: italic;
+            border-left: 3px solid var(--primary);
+            padding-left: 20px;
+        }
+        .doctor-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-top: 12px;
+            font-style: normal;
+        }
+
+        /* ===== PROMISE BADGES ===== */
+        .promise-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+        .promise-card {
+            text-align: center;
+            padding: 20px 16px;
+            background: var(--white);
+            border-radius: 12px;
+            border: 1px solid var(--gray-200);
+        }
+        .promise-icon { font-size: 28px; margin-bottom: 8px; }
+        .promise-card p {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        /* ===== 12-MONTH TIMELINE ===== */
+        .transformation-cards { display: flex; flex-direction: column; gap: 16px; }
+        .transform-card {
+            display: flex;
+            gap: 20px;
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 16px;
+            padding: 24px;
+        }
+        .transform-period {
+            flex-shrink: 0;
+            min-width: 80px;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--primary-darker);
+        }
+        .transform-card p {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+
+        /* ===== REVIEWS SECTION ===== */
+        .rating-overview {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .rating-big {
+            font-size: 48px;
+            font-weight: 900;
+            color: var(--text-dark);
+        }
+        .rating-stars { color: var(--star-gold); font-size: 24px; margin: 4px 0 8px; }
+        .rating-label { font-size: 14px; color: var(--text-muted); }
+
+        .rating-bars {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .rating-bar-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+        .rating-bar-row .bar-label { min-width: 60px; text-align: right; }
+        .rating-bar-track {
+            flex: 1;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .rating-bar-fill {
+            height: 100%;
+            background: var(--star-gold);
+            border-radius: 4px;
+        }
+        .rating-bar-row .bar-pct { min-width: 36px; font-weight: 600; }
+
+        /* ===== FAQ ===== */
+        .faq-list { max-width: 720px; margin: 0 auto; }
+        .faq-item {
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            margin-bottom: 8px;
+            overflow: hidden;
+            background: var(--white);
+        }
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 24px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-dark);
+            transition: background 0.2s;
+            user-select: none;
+        }
+        .faq-question:hover { background: var(--gray-50); }
+        .faq-arrow {
+            font-size: 18px;
+            color: var(--text-muted);
+            transition: transform 0.3s;
+            flex-shrink: 0;
+        }
+        .faq-item.open .faq-arrow { transform: rotate(180deg); }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .faq-answer-inner {
+            padding: 0 24px 20px;
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--text-dark);
+            color: rgba(255,255,255,0.6);
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer-brand {
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+        .footer p { font-size: 12px; line-height: 1.7; margin-bottom: 12px; max-width: 680px; margin-left: auto; margin-right: auto; }
+        .footer-links { margin-top: 16px; }
+        .footer-links a {
+            color: rgba(255,255,255,0.6);
+            font-size: 12px;
+            margin: 0 8px;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--white); }
+
+        /* ===== STICKY BOTTOM BAR ===== */
+        .sticky-bottom {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            background: var(--white);
+            border-top: 1px solid var(--gray-200);
+            box-shadow: 0 -4px 16px rgba(0,0,0,0.08);
+            padding: 12px 20px;
+            display: none;
+        }
+        .sticky-bottom.visible { display: block; }
+        .sticky-bottom .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+        .sticky-bottom-text {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+        .sticky-bottom-text span { display: block; font-size: 11px; color: var(--text-muted); font-weight: 400; }
+        .sticky-bottom .cta-btn {
+            width: auto;
+            max-width: none;
+            padding: 12px 32px;
+            font-size: 14px;
+        }
+
+        /* ===== WHO SECTION ===== */
+        .who-list { max-width: 680px; margin: 0 auto; }
+        .who-item {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .who-item:last-child { border-bottom: none; }
+        .who-icon {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            background: var(--primary-lightest);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+        .who-item p {
+            font-size: 15px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+
+        /* ===== UPSTREAM SECTION ===== */
+        .upstream-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .upstream-img {
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        /* ===== BENEFITS DETAIL ===== */
+        .benefits-list { max-width: 720px; margin: 0 auto; }
+        .benefit-item {
+            padding: 24px 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .benefit-item:last-child { border-bottom: none; }
+        .benefit-item h4 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 6px;
+        }
+        .benefit-item p {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+
+        /* ===== SHIPPING ===== */
+        .shipping-info {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .shipping-info p {
+            font-size: 15px;
+            color: var(--text-body);
+            line-height: 1.7;
+            margin-bottom: 8px;
+        }
+
+        /* ===== RESPONSIVE ===== */
+
+        /* Large desktop (1200px+) */
+        @media (min-width: 1200px) {
+            .container { max-width: 1040px; }
+            .hero-grid { gap: 56px; }
+            .hero-title { font-size: 32px; }
+            .section { padding: 72px 0; }
+            .section-title { font-size: 32px; }
+            .testimonial-grid { gap: 24px; }
+            .stats-grid { gap: 24px; }
+            .pathway-cards { gap: 24px; }
+        }
+
+        /* Tablet (769px–1024px) */
+        @media (max-width: 1024px) {
+            .hero-grid { gap: 28px; }
+            .hero-title { font-size: 25px; }
+            .upstream-grid { gap: 28px; }
+            .steps-grid { gap: 16px; }
+            .step-card { padding: 24px 16px; }
+            .step-card h4 { font-size: 16px; }
+        }
+
+        /* Mobile (768px and below) */
+        @media (max-width: 768px) {
+            .container { padding: 0 16px; }
+            .section { padding: 48px 0; }
+
+            /* Top bar */
+            .top-bar { font-size: 11px; padding: 8px 12px; gap: 2px 6px; letter-spacing: 0; }
+            .top-bar .separator { display: none; }
+
+            /* Header */
+            .sticky-header { padding: 10px 0; }
+            .logo-text { font-size: 18px; margin-right: 12px; }
+            .header-nav { gap: 10px; }
+            .header-nav a { font-size: 11px; white-space: nowrap; }
+
+            /* Hero */
+            .hero { padding: 24px 0 16px; overflow: hidden; }
+            .hero-grid { grid-template-columns: 1fr; gap: 20px; overflow: hidden; }
+            .hero-images { overflow: hidden; }
+            .hero-main-image { aspect-ratio: auto; width: 100%; max-width: 100%; }
+            .hero-main-image img { width: 100%; height: auto; object-fit: contain; }
+            .hero-title { font-size: 22px; }
+            .hero-subtitle { font-size: 14px; margin-bottom: 16px; }
+            .hero-benefits li { font-size: 13px; }
+            .hero-thumbnails { gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+            .hero-thumb { width: 60px; height: 60px; flex-shrink: 0; border-radius: 8px; }
+
+            /* Section titles */
+            .section-title { font-size: 22px; }
+            .section-subtitle { font-size: 14px; margin-bottom: 32px; }
+
+            /* Bundle selector */
+            .bundle-option { padding: 14px 14px; gap: 12px; }
+            .bundle-name { font-size: 14px; }
+            .bundle-supply { font-size: 11px; }
+            .bundle-price { font-size: 16px; }
+            .bundle-compare { font-size: 13px; }
+            .bundle-save { font-size: 10px; }
+            .bundle-per { font-size: 11px; }
+            .bundle-badge-popular { font-size: 9px; padding: 2px 10px; }
+
+            /* CTA button */
+            .cta-btn { font-size: 16px; padding: 14px 24px; max-width: 100%; }
+
+            /* Subscribe toggle */
+            .subscribe-toggle { padding: 12px 14px; }
+            .subscribe-text strong { font-size: 14px; }
+
+            /* Payment icons */
+            .payment-icons { flex-wrap: wrap; }
+            .payment-icon { font-size: 10px; padding: 5px 8px; }
+
+            /* Grids */
+            .stats-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+            .stat-card { padding: 20px 16px; }
+            .stat-number { font-size: 34px; }
+
+            .testimonial-grid { grid-template-columns: 1fr; gap: 12px; }
+            .testimonial-card { padding: 20px; }
+
+            .steps-grid { grid-template-columns: 1fr; gap: 12px; }
+            .step-card { padding: 24px 20px; }
+
+            .promise-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+            .promise-card { padding: 16px 8px; }
+            .promise-icon { font-size: 24px; }
+            .promise-card p { font-size: 11px; }
+
+            /* Upstream section */
+            .upstream-grid { grid-template-columns: 1fr; gap: 24px; }
+
+            /* Comparison table */
+            .comparison-table { font-size: 13px; }
+            .comparison-table thead th { padding: 12px 10px; font-size: 13px; }
+            .comparison-table tbody td { padding: 10px; font-size: 12px; }
+
+            /* Special offer */
+            .special-offer { padding: 28px 20px; }
+            .offer-headline { font-size: 19px; }
+            .offer-price { font-size: 30px; }
+
+            /* Doctor section */
+            .doctor-section { flex-direction: column; align-items: center; text-align: center; }
+            .doctor-quote { border-left: none; padding-left: 0; border-top: 3px solid var(--primary); padding-top: 16px; }
+
+            /* Help cards */
+            .help-card { padding: 22px; }
+            .help-card h4 { font-size: 16px; }
+
+            /* Pathway cards */
+            .pathway-card { padding: 22px; }
+            .pathway-card h4 { font-size: 16px; }
+
+            /* Transform cards */
+            .transform-card { padding: 20px; gap: 16px; }
+            .transform-period { min-width: 70px; font-size: 13px; }
+
+            /* Guarantee badge */
+            .guarantee-badge { padding: 20px 16px; border-radius: 12px; }
+            .guarantee-badge h3 { font-size: 18px; }
+            .guarantee-badge p { font-size: 13px; }
+
+            /* FAQ */
+            .faq-question { padding: 16px 18px; font-size: 14px; }
+            .faq-answer-inner { padding: 0 18px 16px; font-size: 13px; }
+
+            /* CTA section */
+            .cta-section { padding: 36px 0; }
+            .cta-section .cta-btn { max-width: 320px; }
+
+            /* Sticky bottom bar */
+            .sticky-bottom { padding: 10px 16px; }
+            .sticky-bottom .container { flex-direction: row; gap: 12px; }
+            .sticky-bottom-text { font-size: 12px; flex: 1; min-width: 0; }
+            .sticky-bottom-text span { font-size: 10px; }
+            .sticky-bottom .cta-btn { width: auto; flex-shrink: 0; padding: 10px 20px; font-size: 13px; }
+
+            /* Footer */
+            .footer { padding: 32px 0; }
+            .footer p { font-size: 11px; }
+
+            /* Cart drawer */
+            .cart-drawer { width: 100%; max-width: 100vw; }
+            .cart-drawer-header { padding: 16px 18px; }
+            .cart-drawer-body { padding: 18px; }
+            .cart-drawer-footer { padding: 16px 18px; }
+            .cart-item-img { width: 64px; height: 64px; }
+        }
+
+        /* Small mobile (480px and below) */
+        @media (max-width: 480px) {
+            .container { padding: 0 14px; }
+            .section { padding: 40px 0; }
+
+            /* Hero */
+            .hero { padding: 16px 0 12px; }
+            .hero-title { font-size: 19px; }
+            .hero-subtitle { font-size: 13px; }
+            .hero-rating { font-size: 12px; }
+            .hero-thumb { width: 52px; height: 52px; }
+
+            /* Section titles */
+            .section-title { font-size: 19px; }
+            .section-subtitle { font-size: 13px; }
+
+            /* Stats */
+            .stat-number { font-size: 28px; }
+            .stat-label { font-size: 12px; }
+            .stat-card { padding: 16px 12px; }
+
+            /* Promise grid: 2 columns on very small */
+            .promise-grid { grid-template-columns: repeat(2, 1fr); }
+
+            /* Bundle selector */
+            .bundle-option { padding: 12px 12px; }
+            .bundle-name { font-size: 13px; }
+            .bundle-price { font-size: 15px; }
+
+            /* CTA button */
+            .cta-btn { font-size: 15px; padding: 13px 20px; }
+
+            /* Transform cards: stack on very small */
+            .transform-card { flex-direction: column; gap: 8px; }
+            .transform-period { min-width: unset; }
+
+            /* Comparison table */
+            .comparison-table thead th { padding: 10px 8px; font-size: 12px; }
+            .comparison-table tbody td { padding: 8px; font-size: 11px; }
+
+            /* Special offer */
+            .special-offer { padding: 24px 16px; }
+            .offer-headline { font-size: 17px; }
+            .offer-price { font-size: 26px; }
+            .offer-list li { font-size: 13px; }
+
+            /* FAQ */
+            .faq-question { padding: 14px 14px; font-size: 13px; }
+            .faq-answer-inner { padding: 0 14px 14px; font-size: 12px; }
+
+            /* Shipping info */
+            .shipping-info p { font-size: 14px; }
+
+            /* Sticky bottom bar - keep horizontal on smallest screens */
+            .sticky-bottom .cta-btn { padding: 9px 16px; font-size: 12px; }
+            .sticky-bottom-text { font-size: 11px; }
+        }
+
+        /* ===== PRODUCT INFO ACCORDION ===== */
+        .product-accordion {
+            margin-top: 24px;
+            border-top: 1px solid var(--gray-200);
+        }
+        .product-accordion-item {
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .product-accordion-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 0;
+            cursor: pointer;
+            user-select: none;
+            transition: color 0.2s;
+        }
+        .product-accordion-header:hover { color: var(--text-dark); }
+        .product-accordion-header h4 {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin: 0;
+        }
+        .product-accordion-icon {
+            font-size: 20px;
+            font-weight: 300;
+            color: var(--text-muted);
+            transition: transform 0.3s;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+        .product-accordion-item.open .product-accordion-icon {
+            transform: rotate(45deg);
+        }
+        .product-accordion-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease;
+        }
+        .product-accordion-body-inner {
+            padding: 0 0 20px;
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+        }
+        .product-accordion-body-inner ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .product-accordion-body-inner ul li {
+            padding: 4px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .product-accordion-body-inner ul li::before {
+            content: '•';
+            color: var(--primary-darker);
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .product-accordion-body-inner p {
+            margin-bottom: 8px;
+        }
+        .product-accordion-body-inner p:last-child {
+            margin-bottom: 0;
+        }
+        .why-motilli-section {
+            padding: 0 0 16px;
+        }
+        .why-motilli-section h3 {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+        .why-motilli-section .why-subtitle {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-body);
+            margin-bottom: 20px;
+        }
+        .why-motilli-section .why-point {
+            margin-bottom: 16px;
+        }
+        .why-motilli-section .why-point strong {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        .why-motilli-section .why-point p {
+            font-size: 14px;
+            color: var(--text-body);
+            line-height: 1.7;
+            margin: 4px 0 0;
+        }
+
+        /* ===== BUNDLE SELECTOR ===== */
+        .bundle-selector {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .bundle-option {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 18px;
+            border: 2px solid var(--gray-200);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: var(--white);
+        }
+        .bundle-option:hover { border-color: var(--primary-dark); }
+        .bundle-option.selected {
+            border-color: var(--primary);
+            background: var(--primary-lightest);
+            box-shadow: 0 0 0 1px var(--primary);
+        }
+        .bundle-option.best-value { border-color: var(--primary-dark); }
+        .bundle-badge-popular {
+            position: absolute;
+            top: -11px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary-darker);
+            color: var(--white);
+            font-size: 10px;
+            font-weight: 800;
+            padding: 3px 14px;
+            border-radius: 20px;
+            letter-spacing: 0.8px;
+            white-space: nowrap;
+        }
+        .bundle-radio {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            border: 2px solid var(--gray-300);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: border-color 0.2s;
+        }
+        .bundle-option.selected .bundle-radio { border-color: var(--primary-darker); }
+        .bundle-radio-inner {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: transparent;
+            transition: background 0.2s;
+        }
+        .bundle-option.selected .bundle-radio-inner { background: var(--primary-darker); }
+        .bundle-details { flex: 1; }
+        .bundle-name {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+        .bundle-supply {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-left: 6px;
+        }
+        .bundle-pricing {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .bundle-price {
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--primary-darker);
+        }
+        .bundle-compare {
+            font-size: 14px;
+            color: var(--text-muted);
+            text-decoration: line-through;
+        }
+        .bundle-save {
+            font-size: 11px;
+            font-weight: 700;
+            background: var(--primary);
+            color: var(--text-dark);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .bundle-per {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* ===== SUBSCRIPTION TOGGLE ===== */
+        .subscribe-toggle {
+            margin-bottom: 16px;
+            background: var(--primary-lightest);
+            border: 2px solid var(--primary);
+            border-radius: 12px;
+            padding: 14px 16px;
+        }
+        .subscribe-label {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .subscribe-label input[type="checkbox"] {
+            display: none;
+        }
+        .subscribe-checkbox-custom {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            border: 2px solid var(--primary-darker);
+            border-radius: 5px;
+            background: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1px;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .subscribe-label input[type="checkbox"]:checked + .subscribe-checkbox-custom {
+            background: var(--primary-darker);
+            border-color: var(--primary-darker);
+        }
+        .subscribe-label input[type="checkbox"]:checked + .subscribe-checkbox-custom::after {
+            content: '';
+            width: 6px;
+            height: 11px;
+            border: solid var(--white);
+            border-width: 0 2.5px 2.5px 0;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 2px;
+        }
+        .subscribe-text {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .subscribe-text strong {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        .subscribe-detail {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* ===== CART DRAWER ===== */
+        .cart-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+        .cart-overlay.open { opacity: 1; visibility: visible; }
+
+        .cart-drawer {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 400px;
+            max-width: 90vw;
+            height: 100%;
+            background: var(--white);
+            z-index: 1000;
+            box-shadow: -4px 0 24px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, visibility 0.3s;
+            transform: translateX(100%);
+            visibility: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .cart-drawer.open { transform: translateX(0); visibility: visible; }
+
+        .cart-drawer-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .cart-drawer-header h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        .cart-close {
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: var(--gray-100);
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-body);
+            transition: background 0.2s;
+        }
+        .cart-close:hover { background: var(--gray-200); }
+
+        .cart-drawer-body {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px;
+        }
+
+        .cart-item {
+            display: flex;
+            gap: 16px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--gray-200);
+            margin-bottom: 20px;
+        }
+        .cart-item-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            overflow: hidden;
+            flex-shrink: 0;
+            background: var(--gray-100);
+        }
+        .cart-item-img img { width: 100%; height: 100%; object-fit: cover; }
+        .cart-item-info { flex: 1; }
+        .cart-item-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+        .cart-item-variant {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .cart-item-price {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--primary-darker);
+        }
+        .cart-qty-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+        }
+        .cart-qty-btn {
+            width: 28px;
+            height: 28px;
+            border: 1px solid var(--gray-300);
+            background: var(--white);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-body);
+        }
+        .cart-qty-btn:hover { background: var(--gray-100); }
+        .cart-qty-value {
+            font-size: 14px;
+            font-weight: 600;
+            min-width: 20px;
+            text-align: center;
+        }
+        .cart-remove {
+            font-size: 12px;
+            color: var(--red-500);
+            cursor: pointer;
+            background: none;
+            border: none;
+            margin-top: 4px;
+        }
+
+        .cart-empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        .cart-empty p { font-size: 15px; margin-bottom: 16px; }
+
+        .cart-drawer-footer {
+            padding: 20px 24px;
+            border-top: 1px solid var(--gray-200);
+            background: var(--gray-50);
+        }
+        .cart-subtotal {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        .cart-subtotal-label {
+            font-size: 14px;
+            color: var(--text-body);
+        }
+        .cart-subtotal-price {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--text-dark);
+        }
+        .cart-savings {
+            font-size: 13px;
+            color: var(--green-600);
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .cart-checkout-btn {
+            display: block;
+            width: 100%;
+            background: var(--primary);
+            color: var(--text-dark);
+            font-size: 16px;
+            font-weight: 800;
+            text-align: center;
+            padding: 14px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-transform: uppercase;
+        }
+        .cart-checkout-btn:hover { background: var(--primary-dark); }
+        .cart-guarantee {
+            text-align: center;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+        .cart-count-badge {
+            position: absolute;
+            top: -6px;
+            right: -6px;
+            background: var(--red-500);
+            color: var(--white);
+            font-size: 10px;
+            font-weight: 700;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-cart-btn {
+            position: relative;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 22px;
+            padding: 4px;
+            margin-left: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <span>90-DAY 100% MONEY BACK GUARANTEE</span>
+        <span class="separator">|</span>
+        <span>Free shipping on all orders over $50+</span>
+    </div>
+
+    <!-- STICKY HEADER -->
+    <header class="sticky-header">
+        <div class="container">
+            <div class="logo-text">Motilli.</div>
+            <nav class="header-nav">
+                <a href="#bundles" onclick="event.preventDefault();document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Shop</a>
+                <a href="#">Track Order</a>
+                <a href="#">Subscriptions</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="header-cart-btn" onclick="openCart()" aria-label="Open cart">
+                &#128722;
+                <span class="cart-count-badge" id="cartCount" style="display:none;">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-images">
+                    <div class="hero-main-image" id="mainImage">
+                        <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/product_img_1.webp?v=1771992615" alt="Motilli Celery Juice Gummies Product" id="mainImg">
+                    </div>
+                    <div class="hero-thumbnails">
+                        <div class="hero-thumb active" onclick="changeImage(this, 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/product_img_1.webp?v=1771992615')">
+                            <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/product_img_1.webp?v=1771992615" alt="Product front">
+                        </div>
+                        <div class="hero-thumb" onclick="changeImage(this, 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v2.webp?v=1771992640')">
+                            <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v2.webp?v=1771992640" alt="Product angle">
+                        </div>
+                        <div class="hero-thumb" onclick="changeImage(this, 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v3.webp?v=1771992640')">
+                            <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v3.webp?v=1771992640" alt="Product detail">
+                        </div>
+                        <div class="hero-thumb" onclick="changeImage(this, 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v4.webp?v=1771992640')">
+                            <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v4.webp?v=1771992640" alt="Product lifestyle">
+                        </div>
+                        <div class="hero-thumb" onclick="changeImage(this, 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v5.webp?v=1771992640')">
+                            <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v5.webp?v=1771992640" alt="Product close-up">
+                        </div>
+                        <div class="hero-thumb" onclick="changeImage(this, 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v6.webp?v=1771992640')">
+                            <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v6.webp?v=1771992640" alt="Product extra">
+                        </div>
+                        <div class="hero-thumb" onclick="changeImage(this, 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v7.webp?v=1771992640')">
+                            <img src="https://cdn.shopify.com/s/files/1/0742/9714/7564/files/motilli_v7.webp?v=1771992640" alt="Product ingredients">
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <div class="hero-rating">
+                        <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                        4.9/5 based on 12,000+ reviews
+                    </div>
+                    <h1 class="hero-title">Motilli Celery Juice Gummies</h1>
+                    <p class="hero-subtitle">Just two gummies a day help wake up your stomach&rsquo;s natural rhythm from the inside &mdash; gently supporting motility, neutralizing sulfur gas, and restoring the nutrients you&rsquo;re missing because you can barely eat.</p>
+                    <ul class="hero-benefits">
+                        <li><span class="check">&#10003;</span> Supports Stomach Motility with Natural Prokinetic Compounds (Apigenin)</li>
+                        <li><span class="check">&#10003;</span> Neutralizes Sulfur Burps at the Source with Chlorophyll</li>
+                        <li><span class="check">&#10003;</span> Gentle Prebiotic Fiber That Won&rsquo;t Make Fullness Worse</li>
+                        <li><span class="check">&#10003;</span> Replaces Key Vitamins You&rsquo;re Missing (A, C, B6, K1, Folate)</li>
+                        <li><span class="check">&#10003;</span> Pectin-Based &mdash; Melts Instantly, Easy on Sensitive Stomachs</li>
+                    </ul>
+                    <p class="shipping-date">Ships in <strong>1-2 Days</strong> from our USA warehouse</p>
+
+                    <!-- BUNDLE SELECTOR -->
+                    <div class="bundle-selector">
+                        <div class="bundle-option" onclick="selectBundle(this, 1)" data-qty="1">
+                            <div class="bundle-radio"><div class="bundle-radio-inner"></div></div>
+                            <div class="bundle-details">
+                                <div class="bundle-name">Buy 1 Bottle <span class="bundle-supply">1-Month Supply</span></div>
+                                <div class="bundle-pricing">
+                                    <span class="bundle-price">$29.99</span>
+                                    <span class="bundle-compare">$49.98</span>
+                                    <span class="bundle-save">Save 40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bundle-option best-value selected" onclick="selectBundle(this, 3)" data-qty="3">
+                            <div class="bundle-badge-popular">MOST POPULAR</div>
+                            <div class="bundle-radio"><div class="bundle-radio-inner"></div></div>
+                            <div class="bundle-details">
+                                <div class="bundle-name">Buy 2 Get 1 Free <span class="bundle-supply">3-Month Supply</span></div>
+                                <div class="bundle-pricing">
+                                    <span class="bundle-price">$59.98</span>
+                                    <span class="bundle-compare">$149.94</span>
+                                    <span class="bundle-save">Save 60%</span>
+                                    <span class="bundle-per">$19.99/ea</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bundle-option" onclick="selectBundle(this, 5)" data-qty="5">
+                            <div class="bundle-badge-popular" style="background:var(--green-700);">BEST VALUE</div>
+                            <div class="bundle-radio"><div class="bundle-radio-inner"></div></div>
+                            <div class="bundle-details">
+                                <div class="bundle-name">Buy 3 Get 2 Free <span class="bundle-supply">5-Month Supply</span></div>
+                                <div class="bundle-pricing">
+                                    <span class="bundle-price">$89.97</span>
+                                    <span class="bundle-compare">$249.90</span>
+                                    <span class="bundle-save">Save 64%</span>
+                                    <span class="bundle-per">$17.99/ea</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SUBSCRIPTION TOGGLE -->
+                    <div class="subscribe-toggle">
+                        <label class="subscribe-label">
+                            <input type="checkbox" id="subscribeCheck" checked onchange="toggleSubscription()">
+                            <span class="subscribe-checkbox-custom"></span>
+                            <span class="subscribe-text">
+                                <strong>Subscribe &amp; Save 20%</strong>
+                                <span class="subscribe-detail">Delivered monthly &bull; Cancel anytime &bull; Extra 20% off</span>
+                            </span>
+                        </label>
+                    </div>
+
+                    <button class="cta-btn" id="heroAddToCart" onclick="addToCart()">
+                        <span id="addToCartText">Add to Cart &mdash; $29.99</span>
+                        <span id="addToCartLoading" style="display:none;">Adding...</span>
+                    </button>
+                    <div class="cta-meta">
+                        <span class="stock">&#9679; In stock</span>
+                        <span>&#128230; Expected delivery in 7 to 10 business days</span>
+                    </div>
+                    <div class="payment-icons">
+                        <span class="payment-icon">VISA</span>
+                        <span class="payment-icon">MC</span>
+                        <span class="payment-icon">AMEX</span>
+                        <span class="payment-icon">Apple Pay</span>
+                        <span class="payment-icon">Shop Pay</span>
+                    </div>
+
+                    <!-- PRODUCT INFO ACCORDION -->
+                    <div style="margin-top:28px;">
+                        <div class="product-accordion">
+                            <div class="product-accordion-item">
+                                <div class="product-accordion-header" onclick="toggleProductAccordion(this)">
+                                    <h4>Why Motilli?</h4>
+                                    <span class="product-accordion-icon">+</span>
+                                </div>
+                                <div class="product-accordion-body">
+                                    <div class="product-accordion-body-inner">
+                                        <p style="font-weight:600; margin-bottom:16px;">Because your GLP-1 side effects aren&rsquo;t a laxative problem.</p>
+                                        <div class="why-point">
+                                            <strong>Works Where the Problem Actually Is:</strong>
+                                            <p>Ozempic, Wegovy, and Mounjaro slow your stomach down &mdash; sometimes to a near stop. Laxatives work on your colon. That&rsquo;s the wrong end. Motilli works upstream on your stomach, helping things move before they get stuck.</p>
+                                        </div>
+                                        <div class="why-point">
+                                            <strong>Stops the Sulfur Burps:</strong>
+                                            <p>Those rotten-egg burps happen when food sits in your stomach too long and ferments. Chlorophyll neutralizes the hydrogen sulfide gas at the source &mdash; not just the smell, the cause.</p>
+                                        </div>
+                                        <div class="why-point">
+                                            <strong>No Harsh Laxatives:</strong>
+                                            <p>No cramping, no urgency, no emergency bathroom trips. Motilli restores gentle, predictable motility &mdash; so you go normally instead of violently.</p>
+                                        </div>
+                                        <div class="why-point">
+                                            <strong>Stay On Your Medication:</strong>
+                                            <p>You shouldn&rsquo;t have to choose between the weight loss and your dignity. Motilli manages the side effects so you can keep the results.</p>
+                                        </div>
+                                        <div class="why-point">
+                                            <strong>About a Dollar a Day:</strong>
+                                            <p>Compare that to the $400 you&rsquo;ve already spent on Miralax, magnesium, fiber powders, and probiotics that didn&rsquo;t work &mdash; because they were treating the wrong problem.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-accordion-item">
+                                <div class="product-accordion-header" onclick="toggleProductAccordion(this)">
+                                    <h4>Ingredients &amp; Dosing</h4>
+                                    <span class="product-accordion-icon">+</span>
+                                </div>
+                                <div class="product-accordion-body">
+                                    <div class="product-accordion-body-inner">
+                                        <ul>
+                                            <li>Celery Juice Powder (source of Apigenin) &mdash; supports stomach motility</li>
+                                            <li>Sodium Copper Chlorophyllin &mdash; neutralizes sulfur gas</li>
+                                            <li>FOS Prebiotic Fiber &mdash; gentle soluble fiber that draws moisture without adding bulk</li>
+                                            <li>Vitamins A, C, B6, K1, Folate &mdash; replaces key nutrients lost from reduced eating</li>
+                                        </ul>
+                                        <p style="margin-top:12px;"><strong>Recommended dose:</strong> 2 gummies daily, 30&ndash;60 minutes before your largest meal.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-accordion-item">
+                                <div class="product-accordion-header" onclick="toggleProductAccordion(this)">
+                                    <h4>How to Use</h4>
+                                    <span class="product-accordion-icon">+</span>
+                                </div>
+                                <div class="product-accordion-body">
+                                    <div class="product-accordion-body-inner">
+                                        <p>Take 2 gummies daily. They&rsquo;re pectin-based, so they melt in your mouth &mdash; no water needed, no heavy pills, no mixing powders.</p>
+                                        <p>For best results, take 30&ndash;60 minutes before your largest meal. On injection days, many women take one in the morning and one before dinner to stay ahead of the symptom spike.</p>
+                                        <p>Consistency is key &mdash; daily use is how the compound benefits build.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-accordion-item">
+                                <div class="product-accordion-header" onclick="toggleProductAccordion(this)">
+                                    <h4>Safety &amp; Certifications</h4>
+                                    <span class="product-accordion-icon">+</span>
+                                </div>
+                                <div class="product-accordion-body">
+                                    <div class="product-accordion-body-inner">
+                                        <ul>
+                                            <li>Made in the USA in an FDA-registered facility</li>
+                                            <li>GMP certified</li>
+                                            <li>Third-party tested for purity and potency</li>
+                                            <li>Pectin-based (not gelatin) &mdash; easier on slow stomachs</li>
+                                            <li>Low-glycemic formulation &mdash; won&rsquo;t undermine insulin or metabolic health</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-accordion-item">
+                                <div class="product-accordion-header" onclick="toggleProductAccordion(this)">
+                                    <h4>Benefits</h4>
+                                    <span class="product-accordion-icon">+</span>
+                                </div>
+                                <div class="product-accordion-body">
+                                    <div class="product-accordion-body-inner">
+                                        <ul>
+                                            <li>Supports stomach motility with natural prokinetic compounds (apigenin)</li>
+                                            <li>Neutralizes sulfur burps at the source with chlorophyll</li>
+                                            <li>Gentle prebiotic fiber that won&rsquo;t make fullness worse</li>
+                                            <li>Replaces key vitamins you&rsquo;re missing (A, C, B6, K1, Folate)</li>
+                                            <li>Pectin-based &mdash; melts instantly, easy on sensitive stomachs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUARANTEE BADGE -->
+    <section style="padding: 16px 0 24px;">
+        <div class="container">
+            <div class="guarantee-badge">
+                <h3>Keep the Weight Loss &mdash; Or It&rsquo;s Free.</h3>
+                <p>If you don&rsquo;t notice real improvement in your digestion, comfort, and daily life within 90 days, we&rsquo;ll refund every penny. No questions. No hassle.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE SCIENCE SECTION -->
+    <section class="section section-alt" id="science">
+        <div class="container">
+            <h2 class="section-title">Why Laxatives Aren&rsquo;t Working<br>(And What Actually Will)</h2>
+            <div class="science-text">
+                <p>If you&rsquo;re dealing with sulfur burps, &ldquo;concrete&rdquo; constipation, nausea that won&rsquo;t quit, bloating that makes you look pregnant, or that heavy brick-in-your-stomach feeling &mdash; your GLP-1 medication is the reason. But laxatives aren&rsquo;t the answer.</p>
+                <div style="margin:24px 0;"><img src="https://i.ibb.co/8n2dxSMM/Untitled-9.jpg" alt="GLP-1 digestive issues illustration" style="border-radius:12px; width:100%;"></div>
+                <p><strong>Here&rsquo;s why:</strong> Your medication works by slowing your stomach. That&rsquo;s how it kills the food noise and helps you lose weight. But when the stomach slows down too much, food sits there. It ferments. That&rsquo;s where the sulfur burps come from. That&rsquo;s why everything feels stuck.</p>
+                <div class="highlight-box">
+                    This isn&rsquo;t a colon problem. It&rsquo;s a stomach problem. And that&rsquo;s the part nobody&rsquo;s telling you.
+                </div>
+                <div style="margin:24px 0;"><img src="https://i.ibb.co/fYTDs3P3/stomach.jpg" alt="Stomach problem illustration" style="border-radius:12px; width:100%;"></div>
+                <p>Miralax, Dulcolax, fiber powders, stool softeners &mdash; they all work downstream, in your colon. But the traffic jam isn&rsquo;t in your colon. It&rsquo;s in your stomach. You&rsquo;re treating the exit when the entrance is blocked.</p>
+                <p><strong>Motilli works upstream</strong> &mdash; right where the slowdown actually happens. Its celery juice compound (apigenin) gently nudges your stomach muscles back awake, chlorophyll neutralizes the sulfur gas before it rises, and a micro-dose of prebiotic fiber softens everything without adding the bulk that makes fullness worse.</p>
+                <p>This is the piece your medicine cabinet is missing. This is what makes staying on your medication actually livable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT CAN MOTILLI HELP WITH -->
+    <section class="section" id="benefits">
+        <div class="container">
+            <h2 class="section-title">What Can Motilli Help With?</h2>
+            <div style="margin:0 0 32px;"><img src="https://i.ibb.co/nM2Qt2zG/r4.jpg" alt="Motilli benefits" style="border-radius:12px; width:100%;"></div>
+            <div class="help-cards">
+                <div class="help-card">
+                    <div class="help-card-number">1</div>
+                    <h4>The &ldquo;Brick in Your Stomach&rdquo; Feeling</h4>
+                    <p>Your GLP-1 slows gastric emptying &mdash; that&rsquo;s how it works. But when it slows too much, food just sits there. Motilli&rsquo;s celery juice compound (apigenin) gently supports your stomach&rsquo;s natural contractions, helping food move again without harsh cramping or &ldquo;accidents.&rdquo;*</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-card-number">2</div>
+                    <h4>Sulfur Burps That Announce Your Prescription</h4>
+                    <p>That rotten-egg taste and smell? It&rsquo;s hydrogen sulfide gas from food fermenting in your stalled stomach. Chlorophyll acts as nature&rsquo;s internal deodorant &mdash; neutralizing sulfur gas at the source so you can eat lunch with coworkers and not excuse yourself every ten minutes.*</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-card-number">3</div>
+                    <h4>&ldquo;Concrete&rdquo; Constipation That Nothing Touches</h4>
+                    <p>You&rsquo;ve tried Miralax. You&rsquo;ve tried Dulcolax. You drank an entire bottle over a weekend and still didn&rsquo;t go. That&rsquo;s because those work on your colon &mdash; and the problem is in your stomach. Motilli&rsquo;s gentle prebiotic fiber (FOS) draws moisture into the stool without adding bulk that makes your fullness worse.*</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-card-number">4</div>
+                    <h4>Nausea That Steals Your Whole Day</h4>
+                    <p>The constant low-grade nausea that keeps you from eating, cooking, or even being in the same room as food. Celery juice has been used for decades to calm inflamed stomach lining and ease the acid reflux that comes with a stomach that won&rsquo;t empty.*</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-card-number">5</div>
+                    <h4>The Vitamins You&rsquo;re Not Getting</h4>
+                    <p>When you can barely eat three bites before feeling stuffed, you&rsquo;re running on empty. Hair falling out. Skin going gray. Exhaustion that sleep doesn&rsquo;t fix. Motilli delivers A, C, B6, K1, and Folate &mdash; the essentials your body needs that you simply can&rsquo;t eat enough to get right now.*</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-card-number">6</div>
+                    <h4>The Fear of Having to Quit Your Medication</h4>
+                    <p>This is the real one. You love what your GLP-1 has done for you. You&rsquo;ve lost the weight. The food noise is gone. But the side effects are getting worse. Motilli helps keep them manageable &mdash; so you can stay on the medication that&rsquo;s changing your life without your body fighting you every step of the way.*</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">BUY NOW &amp; SAVE</h2>
+            <p class="guarantee-text">&#10003; 90-Day Money Back Guarantee</p>
+            <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- RESULTS TIMELINE -->
+    <section class="section section-alt" id="results">
+        <div class="container">
+            <h2 class="section-title">When Will I See Results?</h2>
+            <p class="section-subtitle">Most women notice the sulfur burps start easing within the first few days &mdash; especially if they take a gummy about an hour before their largest meal.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot">&#128138;</div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>First Few Days</h4>
+                        <p>Because Motilli is pectin-based, it melts quickly and goes to work without sitting heavy in a stomach that&rsquo;s already struggling to empty.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot">&#127793;</div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Week 1</h4>
+                        <p>Many women report less bloating, fewer burps, and the first &ldquo;normal&rdquo; bathroom visit they&rsquo;ve had in weeks.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot">&#127775;</div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Weeks 2&ndash;3</h4>
+                        <p>You&rsquo;ll likely notice more consistent motility, less nausea around meal times, and the confidence to eat a real meal without dreading what happens after.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot">&#128170;</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Week 4 &amp; Beyond</h4>
+                        <p>The compound effects add up &mdash; better energy from actually absorbing nutrients, healthier-looking hair and skin, and the peace of mind that comes from knowing you can stay on your medication without suffering for it.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:20px;">
+                <p style="font-size:15px; font-weight:600; color:var(--text-dark);">Just two gummies a day &mdash; the easiest thing you&rsquo;ll add to your routine.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHIPPING INFO -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">How Long Until I Get It?</h2>
+            <div class="shipping-info">
+                <p>All products ship from the USA. Orders are processed and shipped within 1&ndash;2 business days.</p>
+                <p>Most customers receive their package within 7&ndash;10 business days, depending on location.</p>
+                <p><strong>You&rsquo;ll receive tracking as soon as your order ships.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO IS THIS FOR -->
+    <section class="section section-green" id="who">
+        <div class="container">
+            <h2 class="section-title">Who Should Take Motilli?</h2>
+            <p class="section-subtitle">Motilli was designed for one specific person: the woman who loves what her GLP-1 is doing for her weight &mdash; but hates what it&rsquo;s doing to her stomach.</p>
+            <div class="who-list">
+                <div class="who-item">
+                    <div class="who-icon">&#128137;</div>
+                    <p>Women on Ozempic, Wegovy, Mounjaro, or Zepbound experiencing sulfur burps, constipation, nausea, or bloating</p>
+                </div>
+                <div class="who-item">
+                    <div class="who-icon">&#128148;</div>
+                    <p>Women who&rsquo;ve &ldquo;tried everything&rdquo; &mdash; Miralax, Dulcolax, fiber powders, ginger chews, ACV gummies, probiotics &mdash; and nothing has actually worked</p>
+                </div>
+                <div class="who-item">
+                    <div class="who-icon">&#128552;</div>
+                    <p>Women who are terrified of having to quit their medication because the side effects keep getting worse, especially after dose increases</p>
+                </div>
+                <div class="who-item">
+                    <div class="who-icon">&#128534;</div>
+                    <p>Women who can barely eat and are watching their hair thin, their skin change, and their energy disappear &mdash; because their stomach won&rsquo;t let them get the nutrition they need</p>
+                </div>
+            </div>
+            <div style="max-width:680px; margin:32px auto 0; text-align:center;">
+                <p style="font-size:15px; color:var(--text-body); line-height:1.7; margin-bottom:16px;">It&rsquo;s pectin-based (not gelatin), low-glycemic, and designed specifically for the &ldquo;sensitive stomach&rdquo; days. No harsh cramping. No running to the bathroom. No making the fullness worse.</p>
+                <p style="font-size:16px; font-weight:700; color:var(--text-dark);">If you refuse to choose between your weight loss and your dignity &mdash; this was made for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUARANTEE SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="guarantee-badge" style="max-width:640px; margin:0 auto;">
+                <h3>Results or Full Refund. Period.</h3>
+                <p>Your order today is protected by our 90-day money-back guarantee. If you don&rsquo;t experience real improvement in your digestion, your comfort, or your ability to stay on your GLP-1 without suffering &mdash; just reach out within 90 days. We&rsquo;ll issue a full refund of your purchase price. No questions asked.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- UPSTREAM VS DOWNSTREAM -->
+    <section class="section section-alt" id="upstream">
+        <div class="container">
+            <h2 class="section-title">The Problem Isn&rsquo;t Your Colon.<br>It&rsquo;s Your Stomach.</h2>
+            <div class="upstream-grid">
+                <div class="upstream-img">
+                    <img src="https://i.ibb.co/TDGcCTRT/gastroparesis.jpg" alt="How GLP-1 affects stomach and pyloric sphincter">
+                </div>
+                <div class="science-text" style="max-width:none;">
+                    <p>Your GLP-1 medication works by slowing your stomach muscles and keeping the pyloric sphincter (the valve between your stomach and small intestine) closed longer. That&rsquo;s what creates the fullness that kills the food noise.</p>
+                    <p>But when it slows too much, food ferments. Hydrogen sulfide gas builds up. Stool hardens into what many women describe as &ldquo;concrete.&rdquo;</p>
+                    <p><strong>Motilli delivers celery juice powder</strong> (a natural source of apigenin), chlorophyll, and a micro-dose of FOS prebiotic fiber in a pectin-based gummy that melts instantly &mdash; no heavy pills, no mixing powders, no choking down 16 ounces of juice your stomach can&rsquo;t handle.</p>
+                    <p style="font-weight:700; color:var(--text-dark);">Just chew two gummies. That&rsquo;s it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS DETAIL -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">With Consistent Daily Use,<br>Motilli Can:</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <h4>Wake up your stomach&rsquo;s natural rhythm</h4>
+                    <p>With apigenin, a natural prokinetic compound from celery juice that gently supports the muscle contractions your GLP-1 has dampened &mdash; so food starts moving again without harsh cramping or stimulant laxatives.*</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Neutralize sulfur burps before they start</h4>
+                    <p>With chlorophyll, nature&rsquo;s internal deodorant &mdash; targeting the hydrogen sulfide gas that builds up when food ferments in a stalled stomach, so you can eat and socialize without the constant anxiety of &ldquo;the burp.&rdquo;*</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Soften the &ldquo;concrete&rdquo; gently</h4>
+                    <p>With FOS prebiotic fiber that draws moisture into the stool without adding bulk. Unlike heavy fiber powders or insoluble fiber (which can make gastroparesis worse), FOS dissolves completely and won&rsquo;t increase that stuffed feeling.*</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Restore the nutrients you&rsquo;re missing</h4>
+                    <p>With essential vitamins (A, C, B6, K1, Folate) that your body desperately needs but can&rsquo;t get when you&rsquo;re only eating a few bites per meal &mdash; helping protect against hair loss, gray skin, and the exhaustion that comes with running on empty.*</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Help you stay on the medication that&rsquo;s changing your life</h4>
+                    <p>Keep the weight loss. Keep the silence. Ditch the digestive nightmare. With three targeted pathways working together in every gummy, Motilli gives your stomach the gentle support it needs to function &mdash; even while your medication is telling it to slow down. <strong>This is the companion your GLP-1 has been missing.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL PROOF STATS -->
+    <section class="section section-green">
+        <div class="container">
+            <h2 class="section-title">Real Feedback From Motilli Customers</h2>
+            <p class="section-subtitle">In a recent customer survey, users reported:</p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">84%</div>
+                    <div class="stat-label">Reported noticeable reduction in sulfur burps within the first 7&ndash;10 days of use.*</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">79%</div>
+                    <div class="stat-label">Experienced their first &ldquo;normal&rdquo; bathroom visit within 2 weeks after months of constipation.*</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">76%</div>
+                    <div class="stat-label">Felt less nausea around mealtimes and were able to eat larger portions within 3&ndash;4 weeks.*</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">71%</div>
+                    <div class="stat-label">Noticed improvements in energy, hair quality, or skin appearance within 6&ndash;8 weeks of consistent use.*</div>
+                </div>
+            </div>
+            <p style="text-align:center; font-size:12px; color:var(--text-muted); margin-top:20px;">Results based on a voluntary, self-reported customer survey conducted by Motilli in 2025. Individual results may vary.</p>
+        </div>
+    </section>
+
+    <!-- THREE PATHWAYS -->
+    <section class="section" id="pathways">
+        <div class="container">
+            <h2 class="section-title">Two Gummies. Three Pathways.<br>Complete GLP-1 Digestive Support.</h2>
+            <p class="section-subtitle">Your body is dealing with three distinct problems from your GLP-1 medication: a paralyzed stomach, toxic gas buildup, and severe nutritional gaps. No single ingredient fixes all three. And that&rsquo;s exactly why everything else you&rsquo;ve tried has failed.</p>
+            <div class="pathway-cards">
+                <div class="pathway-card">
+                    <span class="pathway-label">Pathway 1</span>
+                    <h4>Celery Juice Powder (Apigenin) &mdash; The Motility Driver</h4>
+                    <p>Apigenin modulates gastric myoelectrical activity and supports vagus nerve signaling &mdash; gently &ldquo;waking up&rdquo; the stomach contractions your medication has dampened. This is the upstream fix that laxatives can&rsquo;t provide.*</p>
+                </div>
+                <div class="pathway-card">
+                    <span class="pathway-label">Pathway 2</span>
+                    <h4>Chlorophyll &mdash; The Internal Deodorant</h4>
+                    <p>Sodium copper chlorophyllin neutralizes hydrogen sulfide gas in the gut, promotes healing of inflamed stomach lining, and provides mild smooth-muscle relaxation. It targets the sulfur at the source &mdash; before it becomes &ldquo;the burp.&rdquo;*</p>
+                </div>
+                <div class="pathway-card">
+                    <span class="pathway-label">Pathway 3</span>
+                    <h4>FOS Prebiotic Fiber &mdash; The Gentle Mover</h4>
+                    <p>Fructooligosaccharides are soluble fiber (not insoluble &mdash; critical distinction). FOS draws moisture into hardened stool without adding bulk. When it reaches the colon, beneficial bacteria ferment it into butyrate &mdash; a short-chain fatty acid that fuels the gut lining and supports healthy motility.*</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">BUY NOW &amp; SAVE</h2>
+            <p class="guarantee-text">&#10003; 90-Day Money Back Guarantee</p>
+            <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-alt" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">See Why Women on GLP-1s Are Making<br>This Part of Their Daily Routine</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Linda M.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;I&rsquo;ve been on Wegovy for seven months and the sulfur burps were getting so bad I almost quit. My husband could smell them from across the room. I started Motilli and within a week, the burps were maybe half as bad. By week three, they were basically gone. I cried. I actually cried. This little gummy saved my medication for me.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Diane K.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;I&rsquo;d tried Miralax, Dulcolax, Colace, magnesium &mdash; you name it, I bought it. Nothing worked. My doctor just said &lsquo;drink more water&rsquo; which was useless advice for someone who can barely keep down four ounces. Motilli was the first thing that actually got things moving without the cramping.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Susan R.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;What I love about these is how gentle they are. I was terrified of &lsquo;accidents&rsquo; because that happened with another product. Motilli doesn&rsquo;t do that. It just... helps things work the way they should. And the fact that it&rsquo;s pectin-based matters to me &mdash; gelatin gummies sat in my stomach like rocks.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Cheryl B.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;My daughter found these for me after I told her I was thinking about stopping Mounjaro. I&rsquo;d lost 40 pounds but the constipation was so bad I was in tears. She said &lsquo;just try these for a month, Mom.&rsquo; I&rsquo;m so glad I listened. The bloating went down, I started going again, and I didn&rsquo;t have to give up my medication.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Patricia W.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;The taste is good, they&rsquo;re easy to chew, and they don&rsquo;t make me nauseous &mdash; which was my biggest worry. I take two before bed and I wake up feeling like my stomach actually did something overnight. My GI doctor asked what changed and when I told her, she said &lsquo;keep doing what you&rsquo;re doing.&rsquo;&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Barbara L.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;I was losing so much hair. My skin was gray. I looked sick even though I was losing weight. I couldn&rsquo;t eat enough to get any nutrition. Motilli helped calm my stomach enough that I could actually finish a small meal. Within a month, my energy started coming back. This is more than just a digestion gummy &mdash; it&rsquo;s my lifeline.&rdquo;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMISE BADGES -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">The Motilli Promise</h2>
+            <div class="promise-grid">
+                <div class="promise-card">
+                    <div class="promise-icon">&#127807;</div>
+                    <p>Pectin-Based (Not Gelatin)</p>
+                </div>
+                <div class="promise-card">
+                    <div class="promise-icon">&#128300;</div>
+                    <p>Third-Party Tested</p>
+                </div>
+                <div class="promise-card">
+                    <div class="promise-icon">&#128683;</div>
+                    <p>No Artificial Additives</p>
+                </div>
+                <div class="promise-card">
+                    <div class="promise-icon">&#127811;</div>
+                    <p>Low-Glycemic Formula</p>
+                </div>
+                <div class="promise-card">
+                    <div class="promise-icon">&#127981;</div>
+                    <p>Made in a USA FDA-Registered Facility</p>
+                </div>
+                <div class="promise-card">
+                    <div class="promise-icon">&#10003;</div>
+                    <p>GMP Certified</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12-MONTH TRANSFORMATION TIMELINE -->
+    <section class="section section-alt" id="transformation">
+        <div class="container">
+            <h2 class="section-title">What to Expect: Your 12-Month<br>Digestive Transformation</h2>
+            <div class="transformation-cards">
+                <div class="transform-card">
+                    <div class="transform-period">&#128197; Week 1</div>
+                    <p>Sulfur burps begin easing. You may notice less of that &ldquo;rotten egg&rdquo; taste after meals. Bloating starts to feel less intense by evening. Many women report their first comfortable night of sleep without acid reflux keeping them up.*</p>
+                </div>
+                <div class="transform-card">
+                    <div class="transform-period">&#128197; 1 Month</div>
+                    <p>Bathroom visits start becoming more regular &mdash; not perfect yet, but the &ldquo;concrete&rdquo; is breaking up. Nausea around mealtimes decreases. You find yourself able to eat a small meal without dreading what comes after. The chlorophyll is doing its job &mdash; the burps are either gone or barely noticeable.*</p>
+                </div>
+                <div class="transform-card">
+                    <div class="transform-period">&#128197; 2 Months</div>
+                    <p>Energy starts returning as your body finally absorbs more of what you eat. Friends or family may comment that you look &ldquo;healthier.&rdquo; Hair shedding slows. Skin looks less gray. You realize you haven&rsquo;t thought about your stomach in days &mdash; and that absence of worry is its own kind of freedom.*</p>
+                </div>
+                <div class="transform-card">
+                    <div class="transform-period">&#128197; 3 Months</div>
+                    <p>The compound effect is real. Digestion feels consistent. You can eat at restaurants without anxiety. You can sit through a meeting without worrying about a sulfur burp. You can travel without packing a pharmacy. Your GI doctor notices improvement. You&rsquo;re losing weight AND feeling good &mdash; the way it was supposed to be.*</p>
+                </div>
+                <div class="transform-card">
+                    <div class="transform-period">&#128197; 6 Months</div>
+                    <p>You&rsquo;re eating balanced meals, absorbing nutrients, maintaining your weight loss, and your medication feels like it&rsquo;s finally working the way it should &mdash; all benefit, minimal side effects. You&rsquo;ve forgotten what &ldquo;concrete constipation&rdquo; even felt like. Friends on GLP-1s are asking what you&rsquo;re doing differently.*</p>
+                </div>
+                <div class="transform-card">
+                    <div class="transform-period">&#128197; 12 Months</div>
+                    <p>A full year of supported GLP-1 life. You&rsquo;ve stayed on your medication. You&rsquo;ve kept the weight off. Your stomach works. Your hair grew back. Your skin glows. You go to the bathroom like a normal person. You eat dinner with your family without excusing yourself. This is what it was supposed to feel like all along.*</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">BUY NOW &amp; SAVE</h2>
+            <p class="guarantee-text">&#10003; 90-Day Money Back Guarantee</p>
+            <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- COMPARISON TABLE -->
+    <section class="section" id="compare">
+        <div class="container">
+            <h2 class="section-title">Motilli vs. What You&rsquo;ve Already Tried</h2>
+            <div style="overflow-x:auto; margin-top:32px;">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th style="width:40%"></th>
+                            <th style="width:30%">Motilli</th>
+                            <th style="width:30%">Laxatives (Miralax, Dulcolax)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Works upstream (stomach)</strong></td>
+                            <td class="check-yes">&#10003; Yes</td>
+                            <td class="check-no">&#10007; Only works downstream (colon)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Neutralizes sulfur burps</strong></td>
+                            <td class="check-yes">&#10003; Yes (chlorophyll)</td>
+                            <td class="check-no">&#10007; No effect on gas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gentle &mdash; no cramping or &ldquo;accidents&rdquo;</strong></td>
+                            <td class="check-yes">&#10003; Yes</td>
+                            <td class="check-no">&#10007; Cramping, urgency, unpredictable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Won&rsquo;t make fullness worse</strong></td>
+                            <td class="check-yes">&#10003; Soluble fiber only</td>
+                            <td class="check-no">&#10007; Bulk fiber increases fullness</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Replaces missing vitamins</strong></td>
+                            <td class="check-yes">&#10003; A, C, B6, K1, Folate</td>
+                            <td class="check-no">&#10007; No nutritional support</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Designed for GLP-1 users</strong></td>
+                            <td class="check-yes">&#10003; Specifically formulated</td>
+                            <td class="check-no">&#10007; Generic &mdash; not designed for slow stomachs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pectin-based (easy to digest)</strong></td>
+                            <td class="check-yes">&#10003; Melts instantly</td>
+                            <td class="check-no">&#10007; Pills/powders sit heavy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Supports staying on medication</strong></td>
+                            <td class="check-yes">&#10003; That&rsquo;s the whole point</td>
+                            <td class="check-no">&#10007; Treats one symptom, ignores the rest</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Won&rsquo;t interfere with your shot</strong></td>
+                            <td class="check-yes">&#10003; Complements GLP-1</td>
+                            <td style="color:var(--star-gold); font-weight:700;">&#9888; Some may affect absorption</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tastes good enough to take daily</strong></td>
+                            <td class="check-yes">&#10003; Yes</td>
+                            <td class="check-no">&#10007; Chalky, gritty, or flavorless</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">BUY NOW &amp; SAVE</h2>
+            <p class="guarantee-text">&#10003; 90-Day Money Back Guarantee</p>
+            <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- HOW TO TAKE -->
+    <section class="section section-alt" id="howtotake">
+        <div class="container">
+            <h2 class="section-title">How to Take Motilli</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h4>Chew</h4>
+                    <p>Take 2 gummies daily. They&rsquo;re pectin-based, so they melt in your mouth &mdash; no water needed, no heavy pills, no mixing powders.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h4>Time It</h4>
+                    <p>For best results, take about 30&ndash;60 minutes before your largest meal. On &ldquo;shot days,&rdquo; many women take one in the morning and one before dinner to stay ahead of the side effects.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h4>Stay Consistent</h4>
+                    <p>The real results come with daily use. The first few days ease the worst symptoms. Weeks 2&ndash;4 build the foundation. By month 2&ndash;3, you&rsquo;ll wonder how you ever managed without it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPECIAL OFFER -->
+    <section class="section">
+        <div class="container">
+            <div class="special-offer">
+                <p class="offer-trustpilot">&#11088; Excellent &mdash; 5,758 reviews on Trustpilot</p>
+                <h3 class="offer-headline">Try the GLP-1 Digestive Support That Actually Works Upstream &mdash; 100% Risk-Free with Our 90-Day Guarantee!</h3>
+                <p style="font-size:15px; font-weight:600; color:var(--text-dark); margin-bottom:16px;">Order Today and You&rsquo;ll Get:</p>
+                <ul class="offer-list">
+                    <li>&#128994; Motilli Celery Juice Gummies &mdash; Starting at $29.99</li>
+                    <li>&#127873; Buy 2 Get 1 FREE &mdash; or Buy 3 Get 2 FREE</li>
+                    <li>&#10003; 90-Day Results or Full Refund Guarantee</li>
+                    <li>&#10003; Fast USA-based shipping</li>
+                    <li>&#10003; The GLP-1 Survival Guide &mdash; Complete guide to managing side effects at every dose level (Value: $47)</li>
+                </ul>
+                <p class="offer-value">Up to 60% off retail</p>
+                <p class="offer-price">FROM $17.99/bottle</p>
+                <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">BUY NOW &amp; SAVE</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CUSTOMER REVIEWS -->
+    <section class="section" id="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Are Saying</h2>
+
+            <div class="rating-overview">
+                <div class="rating-big">4.8</div>
+                <div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <div class="rating-label">Average Rating</div>
+            </div>
+
+            <div class="rating-bars">
+                <div class="rating-bar-row">
+                    <span class="bar-label">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <div class="rating-bar-track"><div class="rating-bar-fill" style="width:87%"></div></div>
+                    <span class="bar-pct">87%</span>
+                </div>
+                <div class="rating-bar-row">
+                    <span class="bar-label">&#9733;&#9733;&#9733;&#9733;</span>
+                    <div class="rating-bar-track"><div class="rating-bar-fill" style="width:11%"></div></div>
+                    <span class="bar-pct">11%</span>
+                </div>
+                <div class="rating-bar-row">
+                    <span class="bar-label">&#9733;&#9733;&#9733;</span>
+                    <div class="rating-bar-track"><div class="rating-bar-fill" style="width:2%"></div></div>
+                    <span class="bar-pct">2%</span>
+                </div>
+                <div class="rating-bar-row">
+                    <span class="bar-label">&#9733;&#9733;</span>
+                    <div class="rating-bar-track"><div class="rating-bar-fill" style="width:0%"></div></div>
+                    <span class="bar-pct">0%</span>
+                </div>
+                <div class="rating-bar-row">
+                    <span class="bar-label">&#9733;</span>
+                    <div class="rating-bar-track"><div class="rating-bar-fill" style="width:0%"></div></div>
+                    <span class="bar-pct">0%</span>
+                </div>
+            </div>
+
+            <div class="testimonial-grid" style="margin-top:40px;">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Margaret T.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;I&rsquo;ve been on Ozempic for five months and the constipation was unbearable. I&rsquo;m talking 8&ndash;9 days without going. I tried everything in the pharmacy aisle. Motilli was the first thing that worked &mdash; and it worked gently. No cramping, no emergencies. Just... normal. I forgot what normal felt like.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Janet S.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;Fast shipping, arrived in three days. The gummies taste way better than I expected and they&rsquo;re so easy to take &mdash; which matters when everything makes you nauseous. I&rsquo;m two weeks in and the sulfur burps are basically gone. My husband noticed before I did. Ordering the 3-month supply.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Carol R.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;I was about to stop Mounjaro after my last dose increase. The nausea was so bad I couldn&rsquo;t function. My daughter found Motilli online and bought it for me. Within a week, I could eat a small dinner without feeling like I was going to be sick. That alone was worth every penny.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Donna M.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;What sold me was the pectin base. I&rsquo;d tried other gummies and they sat in my stomach like a ball of rubber. These actually dissolve. I take two before bed and by morning, things are moving. My GI appointment last week was the first time in months I didn&rsquo;t have to ask for a stronger laxative.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Nancy P.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;I love that this isn&rsquo;t trying to &lsquo;detox&rsquo; me or &lsquo;cleanse&rsquo; me. It just helps my stomach do what it&rsquo;s supposed to do. The approach makes sense &mdash; laxatives work on the wrong part. This works where the actual problem is. Three weeks in and I feel more like myself than I have since I started my GLP-1.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Karen H.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;The sulfur burps were destroying my confidence. I work in an open office. I was terrified every single day. Motilli cut them down to almost nothing within 10 days. I don&rsquo;t know exactly how it works but the chlorophyll thing is real. I can go to lunch with my team again without wanting to disappear.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Helen G.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;I was losing my hair and my doctor said it was because I wasn&rsquo;t eating enough nutrients. But I physically couldn&rsquo;t eat more than a few bites. Motilli helped settle my stomach enough to eat a real meal and the vitamins in the gummy helped fill the gaps. Two months later, the shedding has slowed way down.&rdquo;</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="testimonial-name">Ruth A.</span>
+                        <span class="testimonial-badge">Verified Buyer</span>
+                    </div>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">&ldquo;Ordered on a Monday, arrived Wednesday. Easy to take, gentle on my stomach, and they actually work. I&rsquo;ve been on Wegovy for nine months and this is the first supplement that has made a real, noticeable difference in my daily comfort. My only regret is not finding it sooner.&rdquo;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">BUY NOW &amp; SAVE</h2>
+            <p class="guarantee-text">&#10003; 90-Day Money Back Guarantee</p>
+            <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>What is Motilli?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Motilli is a pectin-based celery juice gummy designed specifically for women on GLP-1 medications (Ozempic, Wegovy, Mounjaro, Zepbound) who are experiencing digestive side effects like sulfur burps, constipation, nausea, and bloating. Unlike laxatives that only work on your colon (downstream), Motilli works upstream &mdash; on the stomach &mdash; where your GLP-1 is actually causing the slowdown. Each gummy delivers celery juice powder (apigenin), chlorophyll, FOS prebiotic fiber, and essential vitamins (A, C, B6, K1, Folate) in a format that melts instantly and is gentle on sensitive stomachs.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Why should I take it?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Because everything you&rsquo;ve already tried works on the wrong part of your digestive system. Miralax, Dulcolax, fiber powders &mdash; they all target your colon. But your GLP-1 medication slows your stomach. That&rsquo;s the upstream problem. Until you address the stomach, downstream solutions will keep disappointing you. Motilli&rsquo;s celery juice compound (apigenin) gently supports the stomach contractions your medication has dampened, while chlorophyll handles the sulfur gas and FOS softens things without adding bulk. It&rsquo;s the only thing designed to help you stay on your medication without suffering for it.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Will this interfere with my GLP-1 injection?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">No. Motilli is designed to complement your medication, not interfere with it. It&rsquo;s not a counter-agent &mdash; it supports the digestive function your medication slows down, so food can move, gas can clear, and nutrients can absorb. Many women take it as their &ldquo;shot day companion,&rdquo; starting on injection day to get ahead of the side effects that typically peak 24&ndash;48 hours later.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Is this just another laxative?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Not even close. Laxatives work downstream (colon). Motilli works upstream (stomach). Laxatives force things through with cramping and urgency. Motilli gently supports your stomach&rsquo;s natural rhythm with prokinetic compounds. There&rsquo;s no &ldquo;running to the bathroom.&rdquo; There&rsquo;s no swinging from constipation to diarrhea. Just gentle, consistent support for a stomach that needs help waking up.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>I have gastroparesis &mdash; can a gummy really help?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">We understand the skepticism. Gastroparesis sounds serious (because it is), and a gummy sounds too simple. But the celery juice compound (apigenin) has been studied for its ability to modulate gastric myoelectrical activity and support vagus nerve signaling. The pectin-based format is specifically chosen because it melts instantly &mdash; unlike gelatin gummies, which require strong enzymatic action that a slow stomach can&rsquo;t provide. This isn&rsquo;t candy. It&rsquo;s a targeted delivery system for compounds that work exactly where your problem is.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Will this make me nauseous?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">This is the most common fear we hear &mdash; and the most important one to address. Motilli is pectin-based, which means it dissolves quickly without sitting heavy. It&rsquo;s not a pill you need to swallow with water. It&rsquo;s not a powder you need to mix into 16 ounces of liquid. It&rsquo;s a small, easy-to-chew gummy designed specifically for the woman whose stomach can barely handle anything right now.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Is there too much sugar?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">No. We use a low-glycemic formulation because we know our customers are managing insulin and metabolic health. This is designed to support your GLP-1 journey &mdash; not undermine it.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How many gummies per container?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Each container provides a 1-month supply at the recommended dose of 2 gummies daily.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>What&rsquo;s the best time to take it?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Most women get the best results taking 2 gummies about 30&ndash;60 minutes before their largest meal. On shot days, many take one in the morning and one before dinner to stay ahead of the symptom spike. The key is consistency &mdash; daily use is how the compound benefits build.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>If I have a medical condition, can I take Motilli?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Motilli is made from well-studied, natural ingredients with strong safety profiles. However, if you have specific health conditions beyond your GLP-1 therapy, take additional prescription medications, or are pregnant or nursing, we recommend checking with your healthcare provider before adding any supplement.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Where is it made?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Motilli is manufactured in the USA in an FDA-registered, GMP-certified facility. Every batch is third-party tested for purity and potency. We use pectin-based formulation (not gelatin) specifically because it&rsquo;s easier on slow stomachs.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How long does delivery take?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Orders ship within 1&ndash;2 business days. Most domestic orders arrive within 7&ndash;10 business days. You&rsquo;ll get full tracking via email as soon as your order ships.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How soon will I feel the difference?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Most women notice sulfur burps easing within 3&ndash;7 days. Constipation relief typically begins within 1&ndash;2 weeks. Nausea improvement follows in weeks 2&ndash;3. The full compound benefits &mdash; energy, hair, skin, nutrient absorption &mdash; build over 6&ndash;8 weeks of consistent use. This isn&rsquo;t a stimulant. It&rsquo;s gentle, cumulative support that gets better the longer you use it.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Is there a money-back guarantee?</span>
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes. 90 days, no questions asked. If you don&rsquo;t feel a real difference in your digestion, your comfort, and your ability to stay on your GLP-1 without suffering &mdash; we&rsquo;ll refund every penny. We&rsquo;re this confident because we designed this specifically for you, and the women who use it don&rsquo;t want to stop.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL FINAL CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">BUY NOW &amp; SAVE</h2>
+            <p class="guarantee-text">&#10003; 90-Day Money Back Guarantee</p>
+            <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-brand">Motilli&trade;</div>
+            <p>Copyright 2025 &mdash; All Rights Reserved.</p>
+            <p><strong style="color:rgba(255,255,255,0.8);">FDA Disclaimer:</strong> These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Consult your healthcare provider before starting any new supplement regimen, especially if you have existing health conditions or take medications.</p>
+            <p><strong style="color:rgba(255,255,255,0.8);">Individual Results Disclaimer:</strong> Results may vary from person to person. Testimonials and examples are not typical results and your results may differ. Factors including age, diet, medication dosage, exercise, genetics, and consistency of use affect outcomes.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Return Policy</a>
+            </div>
+        </div>
+    </footer>
+
+
+</div><!-- end .page-wrapper -->
+
+    <!-- STICKY BOTTOM BAR -->
+    <div class="sticky-bottom" id="stickyBottom">
+        <div class="container">
+            <div class="sticky-bottom-text">
+                Motilli Celery Juice Gummies
+                <span>90-Day Money Back Guarantee</span>
+            </div>
+            <button class="cta-btn" onclick="document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Order Now</button>
+        </div>
+    </div>
+
+    <!-- CART OVERLAY -->
+    <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+
+    <!-- CART DRAWER -->
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-drawer-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close" onclick="closeCart()">&times;</button>
+        </div>
+        <div class="cart-drawer-body" id="cartBody">
+            <div class="cart-empty" id="cartEmpty">
+                <p>Your cart is empty</p>
+                <button class="cta-btn" style="max-width:240px;margin:0 auto;font-size:14px;padding:12px 20px;" onclick="closeCart();document.querySelector('.bundle-selector').scrollIntoView({behavior:'smooth',block:'center'})">Start Shopping</button>
+            </div>
+            <div id="cartItems" style="display:none;"></div>
+        </div>
+        <div class="cart-drawer-footer" id="cartFooter" style="display:none;">
+            <div class="cart-subtotal">
+                <span class="cart-subtotal-label">Subtotal</span>
+                <span class="cart-subtotal-price" id="cartSubtotal">$0.00</span>
+            </div>
+            <div class="cart-savings" id="cartSavings"></div>
+            <button class="cart-checkout-btn" id="checkoutBtn" onclick="goToCheckout()">Checkout</button>
+            <p class="cart-guarantee">&#128274; Secure checkout &bull; 90-Day Money Back Guarantee</p>
+        </div>
+    </div>
+
+    <script>
+        // ===== CONFIG =====
+        const PRODUCT_TITLE = 'Motilli Digestive Health Gummies';
+        const PRODUCT_IMG = 'https://cdn.shopify.com/s/files/1/0742/9714/7564/files/product_img_1.webp?v=1771992615';
+        const SUBSCRIPTION_DISCOUNT = 0.20; // 20% off
+
+        // Each bundle = separate Shopify variant (qty always 1)
+        const BUNDLES = {
+            1: { variantId: 'gid://shopify/ProductVariant/45355022287020', price: 29.99, compare: 49.98, label: 'Buy 1 Bottle', bottles: 1 },
+            3: { variantId: 'gid://shopify/ProductVariant/45355030282412', price: 59.98, compare: 149.94, label: 'Buy 2 Get 1 Free', bottles: 3 },
+            5: { variantId: 'gid://shopify/ProductVariant/45355030315180', price: 89.97, compare: 249.90, label: 'Buy 3 Get 2 Free', bottles: 5 }
+        };
+        const BUNDLE_KEYS = [1, 3, 5];
+
+        let selectedQty = 3;
+        let isSubscription = true; // prechecked
+        let cartData = { hasItem: false, bundleKey: null };
+
+        // ===== DYNAMIC SHIP DATE =====
+        (function() {
+            const el = document.getElementById('shipDate');
+            if (!el) return;
+            const today = new Date();
+            let daysToAdd = 3;
+            const d = new Date(today);
+            while (daysToAdd > 0) {
+                d.setDate(d.getDate() + 1);
+                if (d.getDay() !== 0 && d.getDay() !== 6) daysToAdd--;
+            }
+            const options = { weekday: 'long', month: 'long', day: 'numeric' };
+            el.textContent = d.toLocaleDateString('en-US', options);
+        })();
+
+        // ===== IMAGE GALLERY =====
+        function changeImage(thumb, src) {
+            document.getElementById('mainImg').src = src;
+            document.querySelectorAll('.hero-thumb').forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+        }
+
+        // ===== FAQ TOGGLE =====
+        function toggleFaq(el) {
+            const item = el.parentElement;
+            const answer = item.querySelector('.faq-answer');
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(i => {
+                i.classList.remove('open');
+                i.querySelector('.faq-answer').style.maxHeight = null;
+            });
+            if (!isOpen) {
+                item.classList.add('open');
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+            }
+        }
+
+        // ===== PRODUCT ACCORDION =====
+        function toggleProductAccordion(el) {
+            const item = el.parentElement;
+            const body = item.querySelector('.product-accordion-body');
+            const isOpen = item.classList.contains('open');
+            // Close all others
+            document.querySelectorAll('.product-accordion-item').forEach(i => {
+                i.classList.remove('open');
+                i.querySelector('.product-accordion-body').style.maxHeight = null;
+            });
+            if (!isOpen) {
+                item.classList.add('open');
+                body.style.maxHeight = body.scrollHeight + 'px';
+            }
+        }
+
+        // ===== STICKY BOTTOM BAR =====
+        (function() {
+            const hero = document.querySelector('.hero');
+            const bar = document.getElementById('stickyBottom');
+            const footer = document.querySelector('.footer');
+            function checkScroll() {
+                const heroBottom = hero.getBoundingClientRect().bottom;
+                const footerTop = footer.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (heroBottom < 0 && footerTop > windowHeight) {
+                    bar.classList.add('visible');
+                } else {
+                    bar.classList.remove('visible');
+                }
+            }
+            window.addEventListener('scroll', checkScroll, { passive: true });
+            checkScroll();
+        })();
+
+        // ===== BUNDLE SELECTOR =====
+        function selectBundle(el, qty) {
+            selectedQty = qty;
+            document.querySelectorAll('.bundle-option').forEach(o => o.classList.remove('selected'));
+            el.classList.add('selected');
+            updateButtonPrice();
+        }
+
+        function toggleSubscription() {
+            isSubscription = document.getElementById('subscribeCheck').checked;
+            updateButtonPrice();
+        }
+
+        function updateButtonPrice() {
+            const bundle = BUNDLES[selectedQty];
+            let price = bundle.price;
+            if (isSubscription) {
+                price = Math.round(price * (1 - SUBSCRIPTION_DISCOUNT) * 100) / 100;
+            }
+            document.getElementById('addToCartText').innerHTML = 'Add to Cart &mdash; $' + price.toFixed(2);
+
+            // Update all bundle card prices
+            document.querySelectorAll('.bundle-option').forEach(opt => {
+                const qty = parseInt(opt.getAttribute('data-qty'));
+                const b = BUNDLES[qty];
+                if (!b) return;
+                let displayPrice = b.price;
+                let perEach = null;
+                if (isSubscription) {
+                    displayPrice = Math.round(b.price * (1 - SUBSCRIPTION_DISCOUNT) * 100) / 100;
+                    if (b.bottles > 1) {
+                        perEach = Math.round((displayPrice / b.bottles) * 100) / 100;
+                    }
+                } else {
+                    if (b.bottles > 1) {
+                        perEach = Math.round((b.price / b.bottles) * 100) / 100;
+                    }
+                }
+                const savePercent = Math.round((1 - displayPrice / b.compare) * 100);
+                opt.querySelector('.bundle-price').textContent = '$' + displayPrice.toFixed(2);
+                opt.querySelector('.bundle-save').textContent = 'Save ' + savePercent + '%';
+                const perEl = opt.querySelector('.bundle-per');
+                if (perEl && perEach !== null) {
+                    perEl.textContent = '$' + perEach.toFixed(2) + '/ea';
+                }
+            });
+        }
+
+        // Initialize button and bundle cards with subscription price
+        updateButtonPrice();
+        document.addEventListener('DOMContentLoaded', updateButtonPrice);
+
+        // ===== CART MANAGEMENT (local state + native Shopify cart) =====
+        const SELLING_PLAN_NUMERIC = '3290202284';
+
+        function addToCart() {
+            const btn = document.getElementById('heroAddToCart');
+            const text = document.getElementById('addToCartText');
+            const loading = document.getElementById('addToCartLoading');
+            text.style.display = 'none';
+            loading.style.display = 'inline';
+            btn.disabled = true;
+
+            cartData.hasItem = true;
+            cartData.bundleKey = selectedQty;
+
+            // Fire Meta Pixel AddToCart
+            const atcBundle = BUNDLES[selectedQty];
+            let atcPrice = atcBundle.price;
+            if (isSubscription) atcPrice = Math.round(atcPrice * (1 - SUBSCRIPTION_DISCOUNT) * 100) / 100;
+            fbq('track', 'AddToCart', {
+                content_name: PRODUCT_TITLE,
+                content_ids: [atcBundle.variantId.split('/').pop()],
+                content_type: 'product',
+                value: atcPrice,
+                currency: 'USD',
+                num_items: atcBundle.bottles,
+                contents: [{ id: atcBundle.variantId.split('/').pop(), quantity: 1, item_price: atcPrice }]
+            }, { eventID: genEventId() });
+
+            renderCart();
+            openCart();
+
+            text.style.display = 'inline';
+            loading.style.display = 'none';
+            btn.disabled = false;
+        }
+
+        function renderCart() {
+            const cartItems = document.getElementById('cartItems');
+            const cartEmpty = document.getElementById('cartEmpty');
+            const cartFooter = document.getElementById('cartFooter');
+            const cartCountEl = document.getElementById('cartCount');
+
+            if (!cartData.hasItem) {
+                cartItems.style.display = 'none';
+                cartEmpty.style.display = 'block';
+                cartFooter.style.display = 'none';
+                cartCountEl.style.display = 'none';
+                return;
+            }
+
+            const bk = cartData.bundleKey || 1;
+            const bundle = BUNDLES[bk];
+            let totalPrice = bundle.price;
+            if (isSubscription) totalPrice = Math.round(totalPrice * (1 - SUBSCRIPTION_DISCOUNT) * 100) / 100;
+            const savings = bundle.compare - totalPrice;
+            const bkIdx = BUNDLE_KEYS.indexOf(bk);
+
+            const subBadge = isSubscription
+                ? '<span style="display:inline-block;background:var(--primary);color:var(--text-dark);font-size:10px;font-weight:700;padding:2px 8px;border-radius:4px;margin-left:6px;">Subscribe &amp; Save 20%</span>'
+                : '';
+
+            cartItems.innerHTML = `
+                <div class="cart-item">
+                    <div class="cart-item-img">
+                        <img src="${PRODUCT_IMG}" alt="${PRODUCT_TITLE}">
+                    </div>
+                    <div class="cart-item-info">
+                        <div class="cart-item-title">${PRODUCT_TITLE}${subBadge}</div>
+                        <div class="cart-item-variant">${bundle.label} (${bundle.bottles} ${bundle.bottles === 1 ? 'Bottle' : 'Bottles'})${isSubscription ? ' &bull; Monthly delivery' : ''}</div>
+                        <div class="cart-item-price">$${totalPrice.toFixed(2)}</div>
+                        <div class="cart-qty-controls">
+                            <button class="cart-qty-btn" onclick="updateQty('down')" ${bkIdx <= 0 ? 'disabled' : ''}>-</button>
+                            <span class="cart-qty-value">${bundle.bottles}</span>
+                            <button class="cart-qty-btn" onclick="updateQty('up')" ${bkIdx >= BUNDLE_KEYS.length - 1 ? 'disabled' : ''}>+</button>
+                        </div>
+                        <button class="cart-remove" onclick="removeItem()">Remove</button>
+                    </div>
+                </div>
+            `;
+            cartItems.style.display = 'block';
+            cartEmpty.style.display = 'none';
+            cartFooter.style.display = 'block';
+
+            document.getElementById('cartSubtotal').textContent = '$' + totalPrice.toFixed(2);
+            document.getElementById('cartSavings').textContent = savings > 0 ? 'You save $' + savings.toFixed(2) + '!' : '';
+
+            cartCountEl.textContent = bundle.bottles;
+            cartCountEl.style.display = 'flex';
+        }
+
+        function updateQty(direction) {
+            const bk = cartData.bundleKey || 1;
+            const currentIdx = BUNDLE_KEYS.indexOf(bk);
+            let newIdx;
+            if (direction === 'up') {
+                newIdx = Math.min(currentIdx + 1, BUNDLE_KEYS.length - 1);
+            } else {
+                newIdx = Math.max(currentIdx - 1, 0);
+            }
+            const newKey = BUNDLE_KEYS[newIdx];
+            if (newKey === bk) return;
+            cartData.bundleKey = newKey;
+            renderCart();
+        }
+
+        function removeItem() {
+            cartData.hasItem = false;
+            cartData.bundleKey = null;
+            renderCart();
+        }
+
+        async function goToCheckout() {
+            if (!cartData.hasItem) return;
+            const bk = cartData.bundleKey || 1;
+            const bundle = BUNDLES[bk];
+            let totalPrice = bundle.price;
+            if (isSubscription) totalPrice = Math.round(totalPrice * (1 - SUBSCRIPTION_DISCOUNT) * 100) / 100;
+            const variantNumId = bundle.variantId.split('/').pop();
+
+            // Fire Meta Pixel InitiateCheckout
+            const icEventId = genEventId();
+            fbq('track', 'InitiateCheckout', {
+                content_name: PRODUCT_TITLE,
+                content_ids: [variantNumId],
+                content_type: 'product',
+                value: totalPrice,
+                currency: 'USD',
+                num_items: bundle.bottles,
+                contents: [{ id: variantNumId, quantity: 1, item_price: totalPrice }]
+            }, { eventID: icEventId });
+
+            // Save pending purchase data
+            try {
+                localStorage.setItem('motilli_pending_purchase', JSON.stringify({
+                    value: totalPrice, qty: bundle.bottles,
+                    isSubscription: isSubscription,
+                    fbc: getCookie('_fbc'), fbp: getCookie('_fbp'),
+                    timestamp: Date.now()
+                }));
+            } catch(e) {}
+
+            // Use native Shopify cart (attributes orders to "Online Store")
+            const isOnShopify = (window.location.hostname === 'trymotilli.co' || window.Shopify);
+            if (isOnShopify) {
+                // Same-domain: AJAX Cart API - clear then add - redirect to checkout
+                try {
+                    await fetch('/cart/clear.js', { method: 'POST', headers: { 'Content-Type': 'application/json' } });
+                    const addBody = { id: parseInt(variantNumId), quantity: 1 };
+                    if (isSubscription) addBody.selling_plan = parseInt(SELLING_PLAN_NUMERIC);
+                    await fetch('/cart/add.js', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ items: [addBody] })
+                    });
+                    window.location.href = '/checkout';
+                } catch(e) {
+                    window.location.href = 'https://trymotilli.co/cart/' + variantNumId + ':1' + (isSubscription ? '?selling_plan=' + SELLING_PLAN_NUMERIC : '');
+                }
+            } else {
+                // Cross-domain (Vercel): cart permalink URL - goes through Online Store channel
+                window.location.href = 'https://trymotilli.co/cart/' + variantNumId + ':1' + (isSubscription ? '?selling_plan=' + SELLING_PLAN_NUMERIC : '');
+            }
+        }
+
+
+        // ===== CART OPEN/CLOSE =====
+        function openCart() {
+            document.getElementById('cartOverlay').classList.add('open');
+            document.getElementById('cartDrawer').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeCart() {
+            document.getElementById('cartOverlay').classList.remove('open');
+            document.getElementById('cartDrawer').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        // ===== SCROLL-TO-BUNDLE FOR CTA BUTTONS =====
+        document.querySelectorAll('.cta-section .cta-btn').forEach(btn => {
+            btn.removeAttribute('href');
+            btn.style.cursor = 'pointer';
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector('.bundle-selector').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            });
+        });
+    </script>
+</body>
+</html>

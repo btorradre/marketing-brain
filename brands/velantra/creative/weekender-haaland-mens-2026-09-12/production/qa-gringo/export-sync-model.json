@@ -1,0 +1,29 @@
+{
+  "acceptable_for_review": true,
+  "clips": [
+    {
+      "time_range": "0-3s",
+      "description": "Opening sequence. The presenter inset starts bottom left, swipes to the bottom right at ~1.0s, and swipes back to the bottom left at ~2.4s.",
+      "phoneme_observations": "The lip sync is plausible for a synthetic presenter. Vowel shapes are generally correct, such as the open mouth for 'o' in 'nobody' and 'a' in 'Haaland'. The bilabial closure for 'b' in 'nobody' is approximated. The mouth movements are less precise during the rapid transitions of the inset.",
+      "sync_lead_lag": "No sustained lead or lag was observed. The timing between mouth movement and audio is acceptable.",
+      "caption_speech_match": "Mismatch. At approximately 2.6s, the caption 'THE GUY TURNS UP CARRYING' appears, while the spoken words are 'Erling Haaland'.",
+      "visual_artifacts": "None observed in the presenter inset itself. The movement of the inset is a deliberate editing choice."
+    },
+    {
+      "time_range": "18-21s",
+      "description": "Middle sequence with the presenter inset in the bottom left corner.",
+      "phoneme_observations": "The lip sync is tight and convincing. Vowel shapes are accurately rendered, particularly the rounded lips for the /oʊ/ phoneme in 'over' and spread lips for the /iː/ phoneme in 'even' and 'jeans'. Visible consonant shapes like the labiodental /f/ in 'flap' and /v/ in 'over' are clearly formed and timed correctly.",
+      "sync_lead_lag": "No lead or lag detected. The synchronization is excellent in this segment.",
+      "caption_speech_match": "Match. The on-screen captions 'AND A LEATHER FLAP OVER CANVAS', 'SO EVEN WITH A PLAIN', and 'T-SHIRT AND JEANS,' accurately reflect the speech.",
+      "visual_artifacts": "None observed."
+    },
+    {
+      "time_range": "40-43s",
+      "description": "End sequence with the presenter inset in the bottom left corner.",
+      "phoneme_observations": "The lip sync is very strong. Puckered lips for the /w/ phoneme in 'weekend' and 'walk' are distinct. The rounded lip shape for the /uː/ phoneme is consistently and accurately produced for the words 'you've', 'looks', and 'too'. Bilabial closure for /b/ in 'bag' is also correct.",
+      "sync_lead_lag": "No lead or lag detected. Synchronization is excellent.",
+      "caption_speech_match": "Match. The captions ('SO YOU'VE GOT A BAG', 'FOR THE WEEKEND THAT LOOKS', 'RIGHT WHEN YOU WALK INTO', 'THE HOTEL, TOO.') align perfectly with the spoken audio.",
+      "visual_artifacts": "None observed."
+    }
+  ]
+}

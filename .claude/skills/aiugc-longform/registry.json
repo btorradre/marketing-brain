@@ -1,0 +1,109 @@
+{
+  "_comment": "Brand defaults for aiugc-longform: voice IDs, avatar generation prompts, narrative-arc tuning per brand.",
+  "_workspace_id": "7185c910-9954-4029-9d11-0fde8ed1a767",
+  "default_voice_id": "21m00Tcm4TlvDq8ikWAM",
+  "default_voice_name": "rachel",
+  "elevenlabs_voices": {
+    "rachel": "21m00Tcm4TlvDq8ikWAM",
+    "domi": "AZnzlk1XvdvUeBnXmlld",
+    "bella": "EXAVITQu4vr4xnSDxMaL",
+    "elli": "MF3mGyEYCl7XYWbV9V6O",
+    "matilda": "XrExE9yKIg1WjnnlVkGX"
+  },
+  "overlay_styles": {
+    "red_badge": {
+      "box_color": "#D8252E",
+      "box_alpha": 0.95,
+      "text_color": "#FFFFFF",
+      "font": "/System/Library/Fonts/Helvetica.ttc",
+      "fontsize": 56,
+      "borderw": 0,
+      "x_expr": "(w-text_w)/2",
+      "y_expr": "h*0.18",
+      "padding": 24,
+      "box_border_radius_px": 14,
+      "fade_in_seconds": 0.2,
+      "hold_until_seconds": 7.8,
+      "fade_out_seconds": 0.2,
+      "max_lines": 3,
+      "wrap_chars": 26
+    },
+    "caption": {
+      "box_color": "#000000",
+      "box_alpha": 0.7,
+      "text_color": "#FFFFFF",
+      "font": "/System/Library/Fonts/Helvetica.ttc",
+      "fontsize": 44,
+      "x_expr": "(w-text_w)/2",
+      "y_expr": "h*0.85",
+      "padding": 18,
+      "fade_in_seconds": 0.1,
+      "hold_until_seconds": 8,
+      "fade_out_seconds": 0.2,
+      "max_lines": 2,
+      "wrap_chars": 32
+    }
+  },
+  "brand_defaults": {
+    "huragain": {
+      "voice_name": "matilda",
+      "vault_path": "brands/huragain",
+      "product_context": "HurAgain — moringa supplement for menopausal joint pain. Uses high-concentration moringa with phytoestrogens (5x soy/flaxseed). 95% curcuminoids for inflammation. Brand: hernovabottle.com.",
+      "avatar_keyframe": null,
+      "avatar_generation_prompt": "candid iPhone selfie photo of a 55-year-old woman with shoulder-length dirty-blonde hair, light blue cotton t-shirt, sitting in a warm wooden kitchen with stainless fridge and recessed ceiling light, soft overhead practical lighting, low chin-up angle as if phone propped on counter, eyes visible at top of frame, slight smile, realistic skin pores and faint smile lines, no makeup, candid framing slightly off-center, shot on iPhone unedited, no AI sheen, 9:16 vertical",
+      "default_overlay_style": "red_badge",
+      "narrative_voice": "Rant energy. Conversational, slightly breathless. Uses concrete sensory details (3am wake-ups, rusted hinge feeling, WD-40 metaphor). Subverts authority (\"doctors said wear and tear\"). Mechanism-heavy mid-section.",
+      "winning_vsl_ids": []
+    },
+    "lunessa": {
+      "voice_name": "matilda",
+      "vault_path": "brands/lunessa",
+      "product_context": "Lunessa — Red Yeast Rice + CoQ10 heart health supplement for women 50+. Targets cholesterol, statin side effects, heart palpitations.",
+      "avatar_keyframe": "/Users/brooksorradre2/Documents/marketing brain/.claude/skills/aiugc-longform/avatars/lunessa_avatar.png",
+      "avatar_generation_prompt": "candid iPhone selfie photo of a 56-year-old woman with shoulder-length grey-blonde hair, cream linen top, sitting at a sunlit wooden kitchen counter, north window light, low chin-up angle, eyes at top of frame, neutral closed-mouth expression mid-blink, realistic skin pores and faint freckles, no makeup, slight imperfect framing, shot on iPhone unedited, no AI sheen, 9:16 vertical",
+      "default_overlay_style": "red_badge",
+      "narrative_voice": "Calm authority. Trust-building. Personal anecdote about doctor or bloodwork. Subverts statin narrative. Mentions specific numbers when possible.",
+      "winning_vsl_ids": []
+    },
+    "motilli": {
+      "voice_name": "bella",
+      "vault_path": "brands/motilli",
+      "product_context": "Motilli — celery juice fiber gummies for GLP-1 users. Supports digestion, bloating, constipation common on GLP-1 (Ozempic / Wegovy).",
+      "avatar_keyframe": null,
+      "avatar_generation_prompt": "candid iPhone selfie photo of a 38-year-old woman with shoulder-length dark hair, casual oversized sweater, sitting on a bathroom counter or bedroom edge with soft window daylight, low chin-up angle, slight smile, realistic skin texture, no makeup, candid imperfect framing, shot on iPhone unedited, no AI sheen, 9:16 vertical",
+      "default_overlay_style": "red_badge",
+      "narrative_voice": "Surprised-discovery energy. \"I had no idea this was the issue.\" Mentions GLP-1 by name. Bathroom/digestion specifics.",
+      "winning_vsl_ids": []
+    },
+    "velantra-boat-tote": {
+      "voice_name": "bella",
+      "vault_path": "brands/velantra/products/boat-tote",
+      "product_context": "Velantra Boat Tote — canvas + leather, gold hardware, Birkin-inspired silhouette in 14+ colorways.",
+      "avatar_keyframe": null,
+      "avatar_generation_prompt": "candid iPhone selfie photo of a 32-year-old woman with long dark hair, neutral cream knit sweater, sitting in the driver seat of a parked car with trees outside the windshield, soft daylight, chest-up framing slightly low angle, eyes visible upper third of frame, neutral mouth, realistic skin texture, candid imperfect framing, shot on iPhone unedited, no AI sheen, 9:16 vertical",
+      "default_overlay_style": "red_badge",
+      "narrative_voice": "Aspirational lifestyle. \"I bought 3 of these.\" Mentions price point and quality vs. luxury comparison.",
+      "winning_vsl_ids": []
+    },
+    "avelle": {
+      "voice_name": "rachel",
+      "vault_path": "brands/avelle",
+      "product_context": null,
+      "avatar_keyframe": null,
+      "avatar_generation_prompt": "candid iPhone selfie photo of a woman with neutral background, low chin-up angle, realistic skin texture, candid imperfect framing, shot on iPhone unedited, no AI sheen, 9:16 vertical",
+      "default_overlay_style": "red_badge",
+      "narrative_voice": null,
+      "winning_vsl_ids": []
+    },
+    "solorna": {
+      "voice_name": "rachel",
+      "vault_path": "brands/solorna",
+      "product_context": null,
+      "avatar_keyframe": null,
+      "avatar_generation_prompt": "candid iPhone selfie photo of a woman with neutral background, low chin-up angle, realistic skin texture, candid imperfect framing, shot on iPhone unedited, no AI sheen, 9:16 vertical",
+      "default_overlay_style": "red_badge",
+      "narrative_voice": null,
+      "winning_vsl_ids": []
+    }
+  }
+}

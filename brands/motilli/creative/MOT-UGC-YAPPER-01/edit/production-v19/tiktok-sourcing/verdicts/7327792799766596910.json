@@ -1,0 +1,17 @@
+{
+  "match": false,
+  "confidence": 100,
+  "best_segment": null,
+  "entry_EV": 4,
+  "peak_EV": 5,
+  "rawness": 3,
+  "action_match": "partial",
+  "text_status": "text present",
+  "visible_evidence": "The woman is seated on a toilet clutching her abdomen with a strong grimace from 00:00 to 00:06, but the video contains a persistent meme overlay (Drake), a username watermark in the bottom right corner, and text on her t-shirt.",
+  "flags": [
+    "text_present",
+    "watermark_present",
+    "comedy_mugging"
+  ],
+  "why": "The video fails the strict requirement for no source captions, text, watermarks, usernames, labels, or logos, as it features a persistent username watermark and a meme overlay throughout. Furthermore, the content is a staged comedy bit, which falls under the 'comedy mugging' rejection criteria."
+}

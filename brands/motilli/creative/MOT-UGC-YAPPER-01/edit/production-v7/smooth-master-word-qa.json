@@ -1,0 +1,113 @@
+{
+  "differences": [
+    {
+      "op": "delete",
+      "expected": [
+        "d"
+      ],
+      "heard": [],
+      "context": "i almost kept scrolling i d tried the celery juice thing"
+    },
+    {
+      "op": "replace",
+      "expected": [
+        "2019"
+      ],
+      "heard": [
+        "twenty",
+        "nineteen"
+      ],
+      "context": "celery juice thing back in 2019 and felt absolutely nothing but"
+    },
+    {
+      "op": "replace",
+      "expected": [
+        "want",
+        "to"
+      ],
+      "heard": [
+        "wanna"
+      ],
+      "context": "the link below if you want to see what i found because"
+    }
+  ],
+  "longest_asr_word_gap": {
+    "start": 254.19,
+    "end": 254.84,
+    "duration": 0.6500000000000057,
+    "after": "okay,",
+    "before": "and"
+  },
+  "gaps_over_450ms": [
+    {
+      "start": 62.42,
+      "end": 62.88,
+      "duration": 0.46000000000000085,
+      "after": "moved.",
+      "before": "I"
+    },
+    {
+      "start": 120.7,
+      "end": 121.22,
+      "duration": 0.519999999999996,
+      "after": "it.",
+      "before": "Food"
+    },
+    {
+      "start": 192.68,
+      "end": 193.16,
+      "duration": 0.47999999999998977,
+      "after": "own.",
+      "before": "You"
+    },
+    {
+      "start": 210.14,
+      "end": 210.66,
+      "duration": 0.5200000000000102,
+      "after": "nothing.",
+      "before": "I"
+    },
+    {
+      "start": 232.32,
+      "end": 232.82,
+      "duration": 0.5,
+      "after": "ease.",
+      "before": "I"
+    },
+    {
+      "start": 246.78,
+      "end": 247.32,
+      "duration": 0.539999999999992,
+      "after": "exit.",
+      "before": "That"
+    },
+    {
+      "start": 250.82,
+      "end": 251.46,
+      "duration": 0.6400000000000148,
+      "after": "gone.",
+      "before": "I'm"
+    },
+    {
+      "start": 254.19,
+      "end": 254.84,
+      "duration": 0.6500000000000057,
+      "after": "okay,",
+      "before": "and"
+    }
+  ],
+  "first_word": {
+    "text": "I",
+    "start": 0.12,
+    "end": 0.16,
+    "type": "word",
+    "logprob": -1.728519782773219e-05
+  },
+  "last_word": {
+    "text": "below.",
+    "start": 281.26,
+    "end": 281.6,
+    "type": "word",
+    "logprob": -0.005616961019010584
+  }
+}

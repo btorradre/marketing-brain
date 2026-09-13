@@ -1,0 +1,34 @@
+{
+  "name": "@adengine/timeline",
+  "version": "0.1.0",
+  "description": "Versioned, event-sourced timeline document for the adengine editor: types, typed ops, pure reducer, event log with per-author undo, inverse ops, storyboard assembly, JSON schema.",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./schema/project.schema.json": "./schema/project.schema.json"
+  },
+  "files": [
+    "dist",
+    "schema",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/emit-schema.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "schema": "node scripts/emit-schema.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ajv": "^8.17.1",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}

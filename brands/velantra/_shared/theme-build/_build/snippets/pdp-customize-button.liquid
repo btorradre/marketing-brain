@@ -1,0 +1,34 @@
+{% comment %}
+  In-buy-column "Customize" sub-button — scrolls to the customize grid section
+{% endcomment %}
+
+<a class="pdp-customize-btn" href="#pdp-customize" data-pdp-scroll>
+  <svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+    <path d="M3 10h14M10 3v14"/>
+  </svg>
+  <span>Customize with accessories</span>
+</a>
+
+<style>
+  .pdp-customize-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 10px 14px; margin: 10px 0;
+    border: 1px solid #1a1a1a; background: #fff; color: #1a1a1a;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    text-decoration: none; cursor: pointer; transition: background 200ms, color 200ms;
+  }
+  .pdp-customize-btn:hover { background: #1a1a1a; color: #fff; }
+</style>
+
+<script>
+(function(){
+  document.querySelectorAll('[data-pdp-scroll]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href').slice(1);
+      var t = document.getElementById(id) || document.querySelector('[data-section-type="pdp-customize"]');
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    });
+  });
+})();
+</script>

@@ -1,0 +1,122 @@
+{
+  "workspace": "velantra-studio",
+  "data_dir": "/Users/brooksorradre2/Documents/marketing-apps/adengine/data/local",
+  "brand_id": "brand_1a078f13bf7ef347b25",
+  "product_id": "prod_1a078f13c4319903d89",
+  "reference_id": "ref_1a078f13d29788feb7c",
+  "board": {
+    "board_id": "brd_1a078f140ba7272cda4",
+    "slug": "vivienne-birkin-inspired-ai-ugc",
+    "url": "http://localhost:3000/b/vivienne-birkin-inspired-ai-ugc",
+    "version": 4,
+    "card_count": 61,
+    "lane_count": 2,
+    "lanes": [
+      {
+        "id": "lane-0",
+        "label": "REFERENCE STRUCTURE \u2014 PRIVATE ANALYSIS",
+        "role": "reference",
+        "beats": 4
+      },
+      {
+        "id": "lane-1",
+        "label": "OUR VERSION \u2014 AI UGC GREENSCREEN",
+        "role": "ours",
+        "beats": 8
+      }
+    ],
+    "warnings": [],
+    "next": "Hand the url to the editor. Keyframes on OUR VERSION cards need approve_card before animation."
+  },
+  "board_export": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/concepts/2026-09-04-birkin-dupe-calibration/adengine-board.html",
+  "approval": {
+    "slug": "vivienne-birkin-inspired-ai-ugc",
+    "board_id": "brd_1a078f140ba7272cda4",
+    "version": 4,
+    "approved": false,
+    "total": 8,
+    "approved_count": 0,
+    "approved_cards": [],
+    "missing": [],
+    "rejected": [],
+    "pending": [
+      {
+        "card_id": "l1-b0-frame",
+        "asset_id": "asset_1a078f13d42eb5d6c5c",
+        "beat": 0,
+        "lane_id": "lane-1",
+        "stale": false
+      },
+      {
+        "card_id": "l1-b1-frame",
+        "asset_id": "asset_1a078f13d59becd14fa",
+        "beat": 1,
+        "lane_id": "lane-1",
+        "stale": false
+      },
+      {
+        "card_id": "l1-b2-frame",
+        "asset_id": "asset_1a078f13d73939b89b0",
+        "beat": 2,
+        "lane_id": "lane-1",
+        "stale": false
+      },
+      {
+        "card_id": "l1-b3-frame",
+        "asset_id": "asset_1a078f13d8c5dbf94a3",
+        "beat": 3,
+        "lane_id": "lane-1",
+        "stale": false
+      },
+      {
+        "card_id": "l1-b4-frame",
+        "asset_id": "asset_1a078f13da996be81ce",
+        "beat": 4,
+        "lane_id": "lane-1",
+        "stale": false
+      },
+      {
+        "card_id": "l1-b5-frame",
+        "asset_id": "asset_1a078f13dc3d0fe61a1",
+        "beat": 5,
+        "lane_id": "lane-1",
+        "stale": false
+      },
+      {
+        "card_id": "l1-b6-frame",
+        "asset_id": "asset_1a078f13de6c276abd6",
+        "beat": 6,
+        "lane_id": "lane-1",
+        "stale": false
+      },
+      {
+        "card_id": "l1-b7-frame",
+        "asset_id": "asset_1a078f13e19523adec9",
+        "beat": 7,
+        "lane_id": "lane-1",
+        "stale": false
+      }
+    ],
+    "note": "animate_scenes verifies this state server-side before rendering."
+  },
+  "adaptation_plan": {
+    "id": "art_1a078f140c0ec388338",
+    "name": "vivienne-birkin-inspired-ai-ugc",
+    "version": 4,
+    "saved": true
+  },
+  "brief": {
+    "id": "art_1a078f140c4e1894550",
+    "name": "vivienne-birkin-inspired-ai-ugc",
+    "version": 4,
+    "saved": true
+  },
+  "concept": {
+    "ok": true,
+    "concept_id": "cpt_1a078f140c4c773bc2b",
+    "asset_code": "VEL-VIV-BIRKININSPIRED-VID01",
+    "reused": true
+  },
+  "registered_asset_count": 25,
+  "next": "A human owner/editor approves every OUR VERSION image card in the app before VO, avatar animation, Google Omni motion, or final editing."
+}

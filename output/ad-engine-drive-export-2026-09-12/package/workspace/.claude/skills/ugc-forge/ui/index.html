@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ugc-forge</title>
+<style>
+  :root{
+    --bg:#0e1014; --panel:#171a21; --panel2:#1e222c; --line:#2a2f3a;
+    --txt:#e6e9ef; --mut:#8b93a3; --acc:#7c6cff; --acc2:#27e0b0; --warn:#ffb454; --err:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  header{padding:18px 26px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px}
+  header h1{font-size:18px;margin:0;letter-spacing:.5px}
+  header .tag{color:var(--mut);font-size:12px}
+  .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;height:calc(100vh - 61px)}
+  .col{overflow-y:auto;padding:22px 26px}
+  .col.left{border-right:1px solid var(--line)}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mut);margin:22px 0 10px}
+  h2:first-child{margin-top:0}
+  label{display:block;font-size:12px;color:var(--mut);margin:12px 0 5px}
+  input[type=text],input[type=number],textarea,select{
+    width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    border-radius:8px;padding:9px 11px;font-size:13px;font-family:inherit}
+  textarea{resize:vertical;min-height:96px}
+  textarea.mono,input.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+  .row{display:flex;gap:12px}.row>*{flex:1}
+  .chk{display:flex;align-items:center;gap:8px;margin:10px 0;color:var(--txt);font-size:13px}
+  .chk input{width:16px;height:16px;accent-color:var(--acc)}
+  details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px 14px;margin-top:14px}
+  details summary{cursor:pointer;color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:1px;padding:6px 0}
+  .lex-row{display:flex;gap:8px;margin-bottom:7px}
+  .lex-row input{flex:1}
+  .btn{border:none;border-radius:8px;padding:8px 12px;font-size:13px;cursor:pointer;font-weight:600}
+  .btn.small{background:var(--panel2);color:var(--txt);border:1px solid var(--line);font-weight:500}
+  .btn.ghost{background:transparent;color:var(--acc2);border:1px dashed var(--line)}
+  .actions{position:sticky;bottom:0;background:linear-gradient(180deg,transparent,var(--bg) 30%);
+    padding:18px 0 4px;margin-top:18px;display:flex;gap:12px}
+  .btn.primary{background:var(--acc);color:#fff;flex:2}
+  .btn.preview{background:var(--panel2);color:var(--acc2);border:1px solid var(--acc2);flex:1}
+  .btn[disabled]{opacity:.5;cursor:not-allowed}
+  .thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .thumbs img{width:54px;height:72px;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+  #console{background:#0a0c10;border:1px solid var(--line);border-radius:10px;padding:14px;
+    font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#c9d2e0;height:340px;overflow-y:auto;white-space:pre-wrap}
+  #console .l{color:#aab3c5}.l .t{color:var(--acc2)}
+  .status{display:flex;align-items:center;gap:9px;margin-bottom:10px;font-size:13px}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--mut)}
+  .dot.run{background:var(--warn);animation:pulse 1s infinite}
+  .dot.done{background:var(--acc2)}.dot.err{background:var(--err)}
+  @keyframes pulse{50%{opacity:.3}}
+  video{width:100%;border-radius:10px;border:1px solid var(--line);margin-top:8px;background:#000}
+  .outlinks{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .outlinks a{font-size:12px;color:var(--acc2);text-decoration:none;border:1px solid var(--line);
+    border-radius:6px;padding:5px 9px;background:var(--panel)}
+  .plan-seg{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:8px}
+  .plan-seg .meta{color:var(--mut);font-size:11px;margin-bottom:4px;display:flex;gap:10px}
+  .plan-seg .line{font-size:13px}.plan-seg .pr{color:var(--mut);font-size:11px;margin-top:6px;font-family:ui-monospace,Menlo,monospace}
+  .badge{font-size:10px;padding:1px 6px;border-radius:20px;border:1px solid var(--line)}
+  .badge.th{color:var(--acc);border-color:var(--acc)}.badge.br{color:var(--warn);border-color:var(--warn)}
+  .badge.anchor{color:var(--acc2);border-color:var(--acc2)}
+  .hint{color:var(--mut);font-size:11px;margin-top:4px}
+  .seg-toggle{display:flex;gap:0;margin-bottom:8px;border:1px solid var(--line);border-radius:8px;overflow:hidden;width:fit-content}
+  .seg-toggle button{background:var(--panel2);color:var(--mut);border:none;padding:6px 14px;cursor:pointer;font-size:12px}
+  .seg-toggle button.on{background:var(--acc);color:#fff}
+  .empty{color:var(--mut);text-align:center;padding:60px 0;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <h1>⚒ ugc-forge</h1>
+  <span class="tag">script → consistent, correctly-voiced UGC video</span>
+</header>
+<div class="wrap">
+  <!-- LEFT: inputs -->
+  <div class="col left">
+    <h2>Script</h2>
+    <div class="seg-toggle" id="inputKind">
+      <button data-k="script" class="on">Raw script</button>
+      <button data-k="manifest">Pre-segmented JSON</button>
+    </div>
+    <textarea id="script_text" placeholder="Paste your ad script. It's auto-split into ≤8s beats at sentence boundaries."></textarea>
+    <textarea id="manifest_json" class="mono" style="display:none" placeholder='{"segments":[{"line":"...","visual":"...","talking_head":true}]}'></textarea>
+
+    <h2>Creator reference</h2>
+    <input type="file" id="avatars" accept="image/*" multiple />
+    <div class="hint">Add 2+ images to fan the same script across faces (--variations).</div>
+    <div class="thumbs" id="thumbs"></div>
+
+    <h2>Voiceover</h2>
+    <div class="seg-toggle" id="audioMode">
+      <button data-m="synth" class="on">Synthesize</button>
+      <button data-m="upload_segments">Upload per beat</button>
+      <button data-m="upload_single">Upload full VO</button>
+    </div>
+
+    <div id="am_synth">
+      <label>ElevenLabs voice_id <span class="hint">(identical across every segment)</span></label>
+      <input type="text" id="voice" placeholder="e.g. 21m00Tcm4TlvDq8ikWAM" />
+    </div>
+
+    <div id="am_upload_segments" style="display:none">
+      <label>One audio file per beat <span class="hint">(sorted order, count must match beats)</span></label>
+      <input type="file" id="vo_segment" accept="audio/*" multiple />
+      <div class="hint">Already rendered your lines in ElevenLabs? Drop the stems here — the tool syncs the video to them.</div>
+    </div>
+
+    <div id="am_upload_single" style="display:none">
+      <label>Full-ad voiceover <span class="hint">(auto-split on silence into beats)</span></label>
+      <input type="file" id="vo_single" accept="audio/*" />
+      <div class="row" style="margin-top:8px">
+        <div><label>Silence threshold (dB)</label><input type="number" id="vo_noise_db" value="-30" /></div>
+        <div><label>Min gap (s)</label><input type="number" id="vo_min_gap" value="0.35" step="0.05" /></div>
+      </div>
+      <div class="hint">If the split count ≠ beats, ugc-forge stops — tune these or upload per beat.</div>
+    </div>
+
+    <h2>Pronunciation lexicon</h2>
+    <div class="hint">Fix brand terms before synthesis. Value = respelling, or use the IPA field for an SSML phoneme.</div>
+    <div id="lex"></div>
+    <button class="btn ghost" id="addLex" type="button">+ add word</button>
+
+    <details>
+      <summary>Style anchor (locks look across shots)</summary>
+      <label>Creator</label><input type="text" id="style_creator" placeholder="same woman from the reference, same face & hair" />
+      <label>Wardrobe</label><input type="text" id="style_wardrobe" placeholder="cream ribbed knit sweater" />
+      <label>Setting</label><input type="text" id="style_setting" placeholder="bright minimalist kitchen, same angle" />
+      <label>Lighting</label><input type="text" id="style_lighting" placeholder="soft natural morning daylight" />
+      <label>Feel</label><input type="text" id="style_feel" placeholder="shot on iPhone front camera, candid UGC" />
+    </details>
+
+    <details>
+      <summary>Output & drift control</summary>
+      <div class="row">
+        <div><label>Aspect</label>
+          <select id="aspect"><option>9:16</option><option>4:5</option><option>16:9</option></select></div>
+        <div><label>Re-anchor every N</label><input type="number" id="reanchor_every" min="0" placeholder="0 = never" /></div>
+      </div>
+      <label>Also export</label>
+      <div class="chk"><input type="checkbox" id="alt_4_5"><span>4:5 (center-crop)</span></div>
+      <div class="chk"><input type="checkbox" id="alt_16_9"><span>16:9</span></div>
+      <label>Force re-anchor at segments</label><input type="text" id="reanchor_on_segment" placeholder="e.g. 6,12" />
+      <div class="chk"><input type="checkbox" id="auto_drift"><span>Auto re-anchor on detected drift</span></div>
+    </details>
+
+    <details>
+      <summary>Engine</summary>
+      <label>Lip-sync backend</label>
+      <select id="lipsync_backend"><option value="fal">fal · Sync.so (recommended)</option><option value="omni">omni</option><option value="wav2lip">wav2lip</option><option value="none">none (mux only)</option></select>
+      <label>Veo model</label><input type="text" id="veo_model" placeholder="veo-3.0-generate-001" />
+      <label>ElevenLabs model</label><input type="text" id="tts_model" placeholder="eleven_multilingual_v2" />
+    </details>
+
+    <div class="actions">
+      <button class="btn preview" id="btnPlan" type="button">Preview segments · free</button>
+      <button class="btn primary" id="btnForge" type="button">Forge video</button>
+    </div>
+  </div>
+
+  <!-- RIGHT: run + result -->
+  <div class="col right">
+    <h2>Run</h2>
+    <div class="status"><span class="dot" id="dot"></span><span id="statusText">Idle</span></div>
+    <div id="console"><div class="empty">Logs stream here when you run.</div></div>
+
+    <h2>Result</h2>
+    <div id="result"><div class="empty">Your video and segment plan appear here.</div></div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let curInputKind = "script", curAudioMode = "synth";
+
+// audio source toggle
+document.querySelectorAll("#audioMode button").forEach(b=>b.onclick=()=>{
+  curAudioMode=b.dataset.m;
+  document.querySelectorAll("#audioMode button").forEach(x=>x.classList.toggle("on",x===b));
+  ["synth","upload_segments","upload_single"].forEach(m=>{
+    $("#am_"+m).style.display = (m===curAudioMode)?"":"none";
+  });
+});
+
+// input kind toggle
+document.querySelectorAll("#inputKind button").forEach(b=>b.onclick=()=>{
+  curInputKind=b.dataset.k;
+  document.querySelectorAll("#inputKind button").forEach(x=>x.classList.toggle("on",x===b));
+  $("#script_text").style.display = curInputKind==="script"?"":"none";
+  $("#manifest_json").style.display = curInputKind==="manifest"?"":"none";
+});
+
+// lexicon rows
+function addLexRow(word="",val="",ipa=""){
+  const div=document.createElement("div");div.className="lex-row";
+  div.innerHTML=`<input placeholder="word" value="${word}">
+    <input placeholder="respelling (Boat-kin)" value="${val}">
+    <input placeholder="IPA (optional)" value="${ipa}" style="max-width:120px">
+    <button class="btn small" type="button">✕</button>`;
+  div.querySelector("button").onclick=()=>div.remove();
+  $("#lex").appendChild(div);
+}
+$("#addLex").onclick=()=>addLexRow();
+addLexRow("Velantra","","vəˈlæntrə");
+
+function lexiconJSON(){
+  const out={};
+  document.querySelectorAll(".lex-row").forEach(r=>{
+    const[w,v,ipa]=[...r.querySelectorAll("input")].map(i=>i.value.trim());
+    if(!w)return;
+    if(ipa) out[w]={alphabet:"ipa",ph:ipa};
+    else if(v) out[w]=v;
+  });
+  return Object.keys(out).length?JSON.stringify(out):"";
+}
+
+// avatar thumbnails
+$("#avatars").onchange=e=>{
+  const t=$("#thumbs");t.innerHTML="";
+  [...e.target.files].forEach(f=>{const img=new Image();img.src=URL.createObjectURL(f);t.appendChild(img);});
+};
+
+function buildForm(mode){
+  const fd=new FormData();
+  fd.append("mode",mode);
+  fd.append("input_kind",curInputKind);
+  fd.append("script_text",$("#script_text").value);
+  fd.append("manifest_json",$("#manifest_json").value);
+  fd.append("voice",$("#voice").value);
+  fd.append("audio_mode",curAudioMode);
+  fd.append("vo_noise_db",$("#vo_noise_db").value);
+  fd.append("vo_min_gap",$("#vo_min_gap").value);
+  if(curAudioMode==="upload_segments")
+    [...$("#vo_segment").files].forEach(f=>fd.append("vo_segment",f,f.name));
+  if(curAudioMode==="upload_single" && $("#vo_single").files[0])
+    fd.append("vo_single",$("#vo_single").files[0],$("#vo_single").files[0].name);
+  fd.append("aspect",$("#aspect").value);
+  const alts=[];if($("#alt_4_5").checked)alts.push("4:5");if($("#alt_16_9").checked)alts.push("16:9");
+  fd.append("also_aspect",alts.join(","));
+  fd.append("reanchor_every",$("#reanchor_every").value);
+  fd.append("reanchor_on_segment",$("#reanchor_on_segment").value);
+  fd.append("auto_drift",$("#auto_drift").checked?"1":"");
+  fd.append("lipsync_backend",$("#lipsync_backend").value);
+  fd.append("variations",$("#avatars").files.length>1?"1":"");
+  fd.append("veo_model",$("#veo_model").value);
+  fd.append("tts_model",$("#tts_model").value);
+  fd.append("lexicon_json",lexiconJSON());
+  ["creator","wardrobe","setting","lighting","feel"].forEach(k=>fd.append("style_"+k,$("#style_"+k).value));
+  [...$("#avatars").files].forEach(f=>fd.append("avatar",f,f.name));
+  return fd;
+}
+
+function setStatus(state,text){
+  const d=$("#dot");d.className="dot"+(state?" "+state:"");$("#statusText").textContent=text;
+}
+function logLine(line){
+  const c=$("#console");if(c.querySelector(".empty"))c.innerHTML="";
+  const div=document.createElement("div");div.className="l";
+  div.innerHTML=line.replace(/^\[ugc-forge[^\]]*\]/,m=>`<span class="t">${m}</span>`);
+  c.appendChild(div);c.scrollTop=c.scrollHeight;
+}
+
+async function run(mode){
+  $("#btnForge").disabled=$("#btnPlan").disabled=true;
+  $("#console").innerHTML="";$("#result").innerHTML='<div class="empty">Working…</div>';
+  setStatus("run",mode==="plan"?"Previewing segments…":"Forging…");
+  let job;
+  try{
+    const r=await fetch("/run",{method:"POST",body:buildForm(mode)});
+    const j=await r.json();
+    if(j.error){throw new Error(j.error);}
+    job=j.job;
+  }catch(e){setStatus("err","Failed to start: "+e.message);unlock();return;}
+
+  const es=new EventSource("/stream?job="+job);
+  es.addEventListener("log",e=>logLine(e.data));
+  es.addEventListener("done",e=>{
+    es.close();
+    const res=JSON.parse(e.data);
+    if(res.rc===0){setStatus("done",mode==="plan"?"Preview ready":"Done");}
+    else{setStatus("err","Exited with code "+res.rc);}
+    renderResult(job,res);unlock();
+  });
+  es.onerror=()=>{es.close();unlock();};
+}
+function unlock(){$("#btnForge").disabled=$("#btnPlan").disabled=false;}
+
+function renderResult(job,res){
+  const el=$("#result");el.innerHTML="";
+  if(res.mode==="plan"){
+    if(!res.plan||!res.plan.length){el.innerHTML='<div class="empty">No segments — add a script.</div>';return;}
+    res.plan.forEach(s=>{
+      const th=s.talking_head?'<span class="badge th">talking head</span>':'<span class="badge br">b-roll</span>';
+      const an=s.start_frame_source==="reference"?'<span class="badge anchor">re-anchor</span>':"";
+      const d=document.createElement("div");d.className="plan-seg";
+      d.innerHTML=`<div class="meta">#${s.index} · ~${s.est_seconds}s ${th} ${an}</div>
+        <div class="line">${escapeHtml(s.applied_text||s.line)}</div>
+        <div class="pr">${escapeHtml(s.prompt||"")}</div>`;
+      el.appendChild(d);
+    });
+    const note=document.createElement("div");note.className="hint";
+    note.textContent="No API calls were made. Happy with the beats? Hit Forge video.";
+    el.appendChild(note);return;
+  }
+  if(res.outputs&&res.outputs.length){
+    const main=res.outputs.find(o=>o.name==="ad.mp4")||res.outputs[0];
+    const v=document.createElement("video");v.controls=true;
+    v.src=`/file?job=${job}&path=${encodeURIComponent(main.path)}`;el.appendChild(v);
+    const links=document.createElement("div");links.className="outlinks";
+    res.outputs.forEach(o=>{
+      const a=document.createElement("a");a.textContent="⬇ "+o.name;
+      a.href=`/file?job=${job}&path=${encodeURIComponent(o.path)}&download=1`;links.appendChild(a);
+    });
+    if(res.manifest){const a=document.createElement("a");a.textContent="⬇ manifest";
+      a.href=`/file?job=${job}&path=${encodeURIComponent(res.manifest)}&download=1`;links.appendChild(a);}
+    el.appendChild(links);
+    if(res.watermark){const w=document.createElement("div");w.className="hint";w.textContent="ⓘ "+res.watermark;el.appendChild(w);}
+  }else{
+    el.innerHTML='<div class="empty">No video produced — check the log for skips/errors.</div>';
+  }
+}
+function escapeHtml(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+
+$("#btnPlan").onclick=()=>run("plan");
+$("#btnForge").onclick=()=>run("forge");
+</script>
+</body>
+</html>

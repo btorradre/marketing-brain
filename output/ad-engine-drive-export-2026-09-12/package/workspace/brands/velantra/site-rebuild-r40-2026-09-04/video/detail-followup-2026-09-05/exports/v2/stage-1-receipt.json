@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-09-05T21:44:53.253558+00:00",
+  "provider": "Google Gemini Interactions API",
+  "model": "gemini-omni-1.1-flash",
+  "stage": 1,
+  "attempt": "v2",
+  "status": "rejected_visual_qa",
+  "prompt": "[# Sources <FIRST_FRAME>@Image1] [# References <IMAGE_REF_0>@Image2 <IMAGE_REF_1>@Image3] Use Image1 as the literal first frame and preserve its exact visible belt construction for the opening shot. Create a polished silent luxury handbag detail film featuring exactly the Chocolate Vivienne handbag shown in the two reference images. Image 1 is the precise opening belt-detail reference; Image 2 establishes the charcoal-black studio background, neutral light-gray tabletop and soft directional studio lighting; Image 3 is the owner-approved construction and surface-detail master. Use these images as exact identity references. Preserve that same product in every shot: dark chocolate soft grainy leather body, warmer smooth cognac trim and corner caps, braided upper edge, two upright rolled handles on riveted bases, one left-handle key bell, horizontal oval brass center plate with two rivets and its central post, two parallel vertical flat brass side bars, and inward-falling cognac belt tails with slotted brass ends. The upper panel stays in exactly the visible reference state throughout. The scene is text-free and hand-free, with no operating the closure or revealing hidden surfaces. Keep the film photographic, refined and quiet, with subtle real camera parallax, controlled focus breathing, warm brass highlights and richly resolved leather grain. Every change of shot below is a clean instantaneous hard cut, never a dissolve or a continuous zoom connecting two shots. The bag itself rests naturally and retains identical construction. Each macro shows only the specified visible surface, at believable scale, with its actual local features preserved. Full-bag views include both handle crowns and all bottom corners inside the central 58 percent of frame width and central 80 percent of frame height. Keep each macro's key detail inside the central 60 percent of width and 80 percent of height, so the same film remains readable when cropped to a near-square mobile frame. Wide 16:9. Completely silent audio: no music, speech, ambient sound or effects.\nGenerate the opening exactly 9 seconds of a 13-shot detail film. Five shots in this first part, with hard cuts at 2.083s, 3.333s, 5.917s and 7.458s:\n[0-2.083s] Tight macro of the front left upper belt, the pair of flat brass bars, the loose diagonal cognac tail with its elongated slotted brass tip, and the adjacent stitched leather-band edge, matching Image1 exactly. A very small lateral camera slide reveals the leather pores and natural stitching. The belt tail stays loose, diagonal and stationary with its slotted tip visible; keep the warm belt and dark body distinct.\n[2.083-3.333s] Hard cut to a calm straight-front medium view of the entire bag, two handles upright, body softly slouched. Center the complete bag with generous dark space on both sides and room above/below. Tiny physical camera drift only.\n[3.333-5.917s] Hard cut to a close-up of the front rolled handle crown against the charcoal background, the rear handle softly behind it. Slow subtle lateral parallax and shallow depth of field show the rounded leather handle and its actual seam.\n[5.917-7.458s] Hard cut to a close-up along the front handle's upright leg descending to its riveted leather base. Restrained downward camera slide; rolled construction stays intact.\n[7.458-9s] Hard cut to a slightly elevated front three-quarter detail of the braided upper edge, front handle attachment and front leather band. Keep the exact reference panel state and visible hardware. Gentle camera drift. This last shot will continue briefly in the next generated part.\nShow exactly these five distinct shots in this order. Keep each shot moving subtly; this is a film, not a slideshow.",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "16:9",
+    "resolution": "1080p",
+    "duration": "9s",
+    "delivery": "inline"
+  },
+  "references": [
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/detail-followup-2026-09-05/references/vivienne-belt-opening.png",
+      "sha256": "eac43b0c53230ae1bd825cf1be5109395aeb91553eb20e7bd053c9dc05cebba6"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/detail-followup-2026-09-05/references/vivienne-charcoal-studio.png",
+      "sha256": "5219eabac68200aa4b9c95f16d1a601a930c2cba3a5cba74dc0935af120b15b2"
+    },
+    {
+      "path": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/vivienne/product-images/master/VIVIENNE-MASTER-chocolate-front.png",
+      "sha256": "2dcbee2ac61a72b87df14e1f8afb179ff070dc00005b25854987d8d03e33f325"
+    }
+  ],
+  "processing": "Decoded provider base64 bytes to MP4 unchanged. No editing, trimming, assembly, crop-render or transcoding.",
+  "interaction_id": "v1_ChdWNDJjYXE2VU9mSGpfdU1QOU96aWlRSRIXVjQyY2FxNlVPZkhqX3VNUDlPemlpUUk",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/site-rebuild-r40-2026-09-04/video/detail-followup-2026-09-05/exports/v2/vivienne-detail-stage-1.mp4",
+  "bytes": 12991389,
+  "sha256": "00b3b635238f9980997e9ec61d7ebed3039e73d413b24ed6f1805461e5735701",
+  "video_duration": 9.0,
+  "container_duration": 9.002,
+  "frames": 216,
+  "fps": "24/1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "audio_streams": 1,
+  "usage": {
+    "total_tokens": 63733,
+    "total_input_tokens": 4116,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3289
+      },
+      {
+        "modality": "text",
+        "tokens": 827
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58949,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 668,
+    "raw_prompt_token": 40094,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 2641
+          },
+          {
+            "modality": "image",
+            "tokens": 3289
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1035
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 668
+          }
+        ]
+      },
+      {},
+      {}
+    ]
+  },
+  "finished_utc": "2026-09-05T21:46:17.450511+00:00",
+  "visual_qa": {
+    "approved": false,
+    "opening_macro": "Pass: diagonal slotted tip retained",
+    "reason": "Handle-base shot invents a vertical metal fitting; later elevated shot changes belt routing. Replace those shot types with cropped handle leather and attached braid."
+  }
+}

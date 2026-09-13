@@ -1,0 +1,196 @@
+{
+  "jsonrpc": "2.0",
+  "id": "alevia-video-count",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Brand Tracker scaling ads — Alevia\n\nWindow: 7d | Sort: current_rank | Results: 1\n\nAssistant instruction: when you show returned ads to the user, include the Media URL for each ad, or the Thumbnail URL fallback if Media URL is unavailable.\n\n### 1. The Wellness Journal\n- Ad id: facebook_2256726178435824\n- Rank: current 558 | delta -11 | improvement 10000%\n- Status: active | Media: video | Days running: 14\n- Reach: 0 | Duplicates: 2\n- First seen: 2026-08-28 | Last seen: unknown\n- Media URL: https://medias.trendtrack.io/facebook/video/f45773264d0639fda2b9e6f75465f6871b11bfa97402feaa7aef767c53a94221.mp4\n- Thumbnail URL: https://medias.trendtrack.io/facebook/thumbnails/cc222815ddab5d57698d16c58feea9c105ca056c9045e8fc4071c08dd235f8b0.jpg\n- Landing page: https://alevia.com/products/amla-28\n- Copy: Amla, the ancient superfruit packed with antioxidants to recharge your cells from within and help you feel like yourself again, naturally. ✅ All-day energy without crashes ✅ Less…\n\n---\n\nFilters applied: {\"searchType\":\"adCopy\",\"keywordMode\":\"any\",\"sortBy\":\"adOrder\",\"order\":\"asc\",\"page\":1,\"limit\":1,\"platforms\":[\"facebook\"],\"status\":\"active\",\"trackedPages\":[\"899229379930590\",\"811974392003013\",\"958725880666676\",\"1051122648079928\",\"847834351748312\"],\"rankDeltaWindow\":\"7d\",\"mediaType\":\"video\"}\n\n---\nCredits used: 2 | Remaining: 6356 | Source: recurring"
+      }
+    ],
+    "structuredContent": {
+      "requestId": "04942072-3baf-4590-88d2-03d24262180f",
+      "data": [
+        {
+          "id": "facebook_2256726178435824",
+          "collationId": "2227563548021647",
+          "platform": "facebook",
+          "status": "active",
+          "createdAt": "2026-08-29T07:26:25.559Z",
+          "firstSeenAt": "2026-08-28T07:00:00.000Z",
+          "lastSeenAt": null,
+          "daysRunning": 14,
+          "media": {
+            "type": "video",
+            "thumbnailUrl": "https://medias.trendtrack.io/facebook/thumbnails/cc222815ddab5d57698d16c58feea9c105ca056c9045e8fc4071c08dd235f8b0.jpg",
+            "mediaUrl": "https://medias.trendtrack.io/facebook/video/f45773264d0639fda2b9e6f75465f6871b11bfa97402feaa7aef767c53a94221.mp4"
+          },
+          "advertiser": {
+            "id": "847834351748312",
+            "name": "The Wellness Journal",
+            "logoUrl": "https://medias.trendtrack.io/profile_picture/847834351748312.jpg",
+            "facebookPageId": "847834351748312",
+            "liveAdsCount": 558,
+            "reach30d": 0,
+            "totalReach": 309678,
+            "countriesCount": 2,
+            "facebookLikes": 11383,
+            "instagramFollowers": null
+          },
+          "content": {
+            "title": null,
+            "body": "Amla, the ancient superfruit packed with antioxidants to recharge your cells from within and help you feel like yourself again, naturally.\n\n✅ All-day energy without crashes\n✅ Less bloating & gut issues\n✅ Sharper thinking without brain fog\n✅ Balanced stress & mood\n✅ Glowing skin, hair, and nails\n\n5,000 years of ancient wisdom with modern, science-backed results.\n\nTry Amla risk-free for 90 days or get 100% of your money back, no questions asked.",
+            "transcript": "{\"language\": \"en\", \"segments\": [{\"end\": 3.8200000000000003, \"text\": \"Six stages of nerve damage. Most people don't act until stage four.\", \"start\": 0.0}, {\"end\": 9.06, \"text\": \"Stage one, the starving. Your nerve cells burn more energy than almost anything else in your body.\", \"start\": 4.14}, {\"end\": 13.700000000000001, \"text\": \"The little engines inside them start slowing down, and the nerves furthest from your heart,\", \"start\": 9.4}, {\"end\": 17.48, \"text\": \"the ones in your feet, stop getting the fuel they need to hold a clean signal.\", \"start\": 13.82}, {\"end\": 20.38, \"text\": \"But you don't feel symptoms. There's no pain and no warning.\", \"start\": 17.68}, {\"end\": 23.12, \"text\": \"Your doctor runs blood work and says everything looks normal.\", \"start\": 20.62}, {\"end\": 26.42, \"text\": \"Most people have no idea this is happening inside them right now.\", \"start\": 23.44}, {\"end\": 28.060000000000002, \"text\": \"Stage two, the tingling.\", \"start\": 26.64}, {\"end\": 32.480000000000004, \"text\": \"The first pins and needles show up at night, in your feet, when everything else has gone quiet.\", \"start\": 28.060000000000002}, {\"end\": 36.260000000000005, \"text\": \"Your doctor says it's circulation, tells you to walk more and get better shoes.\", \"start\": 32.64}, {\"end\": 37.86, \"text\": \"You do it. Nothing changes.\", \"start\": 36.42}, {\"end\": 42.120000000000005, \"text\": \"It's the one warning your body is actually giving you, and most people brush it off.\", \"start\": 38.2}, {\"end\": 44.300000000000004, \"text\": \"Stage three, the manage stage.\", \"start\": 42.36}, {\"end\": 47.660000000000004, \"text\": \"This is the most dangerous stage. Your doctor puts you on gabapentin.\", \"start\": 44.46}, {\"end\": 50.34, \"text\": \"The burning gets quieter. The chart says handled.\", \"start\": 47.92}, {\"end\": 52.72, \"text\": \"But gabapentin never fed a single nerve.\", \"start\": 50.68000000000001}, {\"end\": 56.46000000000001, \"text\": \"It turns down the volume on the alarm while the nerve underneath keeps starving.\", \"start\": 53.02}, {\"end\": 58.980000000000004, \"text\": \"Everything looks managed, until it isn't.\", \"start\": 56.46}, {\"end\": 60.92, \"text\": \"Stage four, the side effects.\", \"start\": 59.2}, {\"end\": 62.480000000000004, \"text\": \"The dizziness when you stand.\", \"start\": 61.18}, {\"end\": 64.86, \"text\": \"The weight that goes on and will not come off.\", \"start\": 62.8}, {\"end\": 65.64, \"text\": \"The fog.\", \"start\": 65.04}, {\"end\": 68.54, \"text\": \"The stumble off the curb that you laughed about at the time.\", \"start\": 65.86}, {\"end\": 70.52, \"text\": \"You tell your doctor something is wrong.\", \"start\": 68.82}, {\"end\": 72.62, \"text\": \"He points at the chart and says you're stable.\", \"start\": 70.8}, {\"end\": 76.04, \"text\": \"You're sitting in front of him falling apart and his chart says you're fine.\", \"start\": 72.88}, {\"end\": 78.0, \"text\": \"Stage five, the numbness.\", \"start\": 76.26}, {\"end\": 80.24000000000001, \"text\": \"The starving nerve stops signaling at all.\", \"start\": 78.26}, {\"end\": 82.14, \"text\": \"You can't feel the floor under your feet.\", \"start\": 80.48}, {\"end\": 84.8, \"text\": \"You can't feel a stone that's been in your shoe all afternoon.\", \"start\": 82.28}, {\"end\": 87.78, \"text\": \"Your balance goes, and stares stop feeling safe.\", \"start\": 84.8}, {\"end\": 89.38, \"text\": \"Stage six, the table.\", \"start\": 88.03999999999999}, {\"end\": 92.66, \"text\": \"A blister you never felt turns into a wound that will not close,\", \"start\": 89.67999999999999}, {\"end\": 95.3, \"text\": \"because you kept walking on it for a week without knowing.\", \"start\": 92.89999999999999}, {\"end\": 97.38, \"text\": \"A surgeon cuts away the dead tissue.\", \"start\": 95.62}, {\"end\": 101.14, \"text\": \"When that doesn't take, the conversation stops being about the wound,\", \"start\": 97.74}, {\"end\": 103.88, \"text\": \"and starts being about how much of the foot comes off.\", \"start\": 101.46}, {\"end\": 108.14, \"text\": \"Most people never see stage six coming, because they couldn't feel stage five.\", \"start\": 104.12}, {\"end\": 109.62, \"text\": \"Nobody ever fed the nerve.\", \"start\": 108.4}, {\"end\": 112.22, \"text\": \"They just kept turning the volume down while it starved.\", \"start\": 109.82}, {\"end\": 114.02, \"text\": \"But here's what most people don't realize.\", \"start\": 112.22}, {\"end\": 115.34, \"text\": \"Your nerves aren't dead.\", \"start\": 114.26}, {\"end\": 116.12, \"text\": \"They're starving.\", \"start\": 115.56}, {\"end\": 118.28, \"text\": \"And a starving nerve can still be fed.\", \"start\": 116.44}, {\"end\": 122.92, \"text\": \"There's a Himalayan superfruit called amla that contains compounds called amblicanins\", \"start\": 118.52}, {\"end\": 126.42, \"text\": \"that flip a master switch inside your cells called AMPK.\", \"start\": 122.92}, {\"end\": 131.36, \"text\": \"It's the switch that tells the little engines inside your nerves to start producing energy again.\", \"start\": 126.7}, {\"end\": 134.48, \"text\": \"When the engines come back on, the nerve holds its signal.\", \"start\": 131.56}, {\"end\": 140.06, \"text\": \"And when the nerve holds its signal, the burning settles down on its own, instead of just being muffled.\", \"start\": 134.48}, {\"end\": 143.94, \"text\": \"The problem is, most neuropathy supplements don't target the energy.\", \"start\": 140.29999999999998}, {\"end\": 150.42, \"text\": \"B12 and alpha-lipoic acid that top up what's missing around the nerve, but never restart the engines inside it.\", \"start\": 144.23999999999998}, {\"end\": 156.07999999999998, \"text\": \"Even most amla supplements you can find just contain dead fruit powder with no active amblicanins.\", \"start\": 150.62}, {\"end\": 157.85999999999999, \"text\": \"But Alevia's amla is different.\", \"start\": 156.29999999999998}, {\"end\": 162.42, \"text\": \"Alevia combines the compounds that actually restart the engines at a clinical dose.\", \"start\": 158.2}, {\"end\": 166.06, \"text\": \"It's organic, third-party tested, and made in the USA.\", \"start\": 162.42000000000002}, {\"end\": 167.28000000000003, \"text\": \"No fillers.\", \"start\": 166.50000000000003}, {\"end\": 169.92000000000002, \"text\": \"90-day results guarantee or your money back.\", \"start\": 167.54000000000002}, {\"end\": 172.78000000000003, \"text\": \"Plus, right now you can claim a free bottle when you buy two.\", \"start\": 170.06}, {\"end\": 175.92000000000002, \"text\": \"If your feet are getting number right now, that's your window.\", \"start\": 173.10000000000002}, {\"end\": 177.00000000000003, \"text\": \"Link is below.\", \"start\": 176.28000000000003}, {\"end\": 178.64000000000001, \"text\": \"Comment which stage you're at.\", \"start\": 177.38000000000002}], \"language_probability\": 0.99951171875}",
+            "callToAction": "SHOP NOW",
+            "landingPageUrl": "https://alevia.com/products/amla-28",
+            "landingPageDomain": "alevia.com",
+            "ctaDescription": "Fix What’s Actually Broken",
+            "ctaLinkDescription": "Offer Ends Soon"
+          },
+          "metrics": {
+            "reach": 0,
+            "aggregatedReach": null,
+            "estimatedSpend": 0,
+            "duplicates": 2,
+            "reachDelta1d": 0,
+            "reachDelta7d": 0,
+            "reachDelta30d": 0
+          },
+          "audience": {
+            "targetedCountries": [
+              "US",
+              "CA"
+            ],
+            "mainCountry": null,
+            "gender": null,
+            "ageMin": null,
+            "ageMax": null
+          },
+          "rank": {
+            "positionInPage": 558,
+            "currentRank": 558,
+            "rankDelta": -11,
+            "improvementPct": 100
+          },
+          "flags": {
+            "isEuAd": null,
+            "isLowReach": true,
+            "isMediaChanged": true,
+            "hasPartnerBadge": false
+          }
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "limit": 1,
+        "total": 440,
+        "totalPages": 440,
+        "offset": 0,
+        "isTotalApproximate": false
+      },
+      "meta": {
+        "input": {
+          "brandtrackerId": "f2f10b46-43a7-47dc-8fdd-31df364bbdbd",
+          "brand": null
+        },
+        "resolution": {
+          "source": "brandtracker_id",
+          "resolvedBrandtrackerId": "f2f10b46-43a7-47dc-8fdd-31df364bbdbd",
+          "resolvedBrandName": "Alevia",
+          "facebookPageId": "899229379930590",
+          "matchedCount": null
+        },
+        "scaling": {
+          "adRankWindow": "7d",
+          "adRankSort": "current_rank",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "minRankDelta": null,
+          "maxCurrentRank": null,
+          "growthRank": null,
+          "facebookPageIds": [
+            "899229379930590",
+            "811974392003013",
+            "958725880666676",
+            "1051122648079928",
+            "847834351748312"
+          ],
+          "sourceScope": "all"
+        },
+        "filters": {
+          "searchType": "adCopy",
+          "keywordMode": "any",
+          "sortBy": "adOrder",
+          "order": "asc",
+          "page": 1,
+          "limit": 1,
+          "platforms": [
+            "facebook"
+          ],
+          "status": "active",
+          "trackedPages": [
+            "899229379930590",
+            "811974392003013",
+            "958725880666676",
+            "1051122648079928",
+            "847834351748312"
+          ],
+          "rankDeltaWindow": "7d",
+          "mediaType": "video"
+        },
+        "requestedLimit": 1,
+        "effectiveLimit": 1,
+        "warnings": [],
+        "paginationMaxOffset": 10000
+      },
+      "fieldGuide": {
+        "scaling": [
+          {
+            "path": "data[].rank.currentRank",
+            "meaning": "Current ad rank on the tracked Facebook page."
+          },
+          {
+            "path": "data[].rank.rankDelta",
+            "meaning": "Rank movement for the selected ad_rank_window; higher positive values mean stronger upward movement."
+          },
+          {
+            "path": "data[].rank.improvementPct",
+            "meaning": "Relative rank improvement when available."
+          }
+        ],
+        "richNestedData": [
+          {
+            "path": "data[].media",
+            "meaning": "Media type, thumbnail URL, and media URL for the ad creative."
+          },
+          {
+            "path": "data[].content",
+            "meaning": "Ad copy, transcript fallback, CTA, and landing page."
+          },
+          {
+            "path": "data[].metrics",
+            "meaning": "Reach, spend estimate, reach deltas, and duplicate metrics."
+          },
+          {
+            "path": "data[].flags",
+            "meaning": "EU, low-reach, media-changed, and partner-badge flags."
+          }
+        ]
+      },
+      "credits": {
+        "requestedUnits": 1,
+        "effectiveUnits": 1,
+        "actualUnits": 1,
+        "costUnits": 2,
+        "recurringUnits": 2,
+        "topupUnits": 0,
+        "creditsRemaining": 6356,
+        "creditsSourceHeader": "recurring",
+        "failurePhase": null,
+        "releaseAttempted": false,
+        "releaseSucceeded": null
+      }
+    },
+    "isError": false
+  }
+}

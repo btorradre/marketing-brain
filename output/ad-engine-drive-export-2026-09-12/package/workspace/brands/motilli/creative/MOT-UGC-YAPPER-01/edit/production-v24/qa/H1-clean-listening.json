@@ -1,0 +1,33 @@
+{
+  "usable": true,
+  "review_basis": "Whole-file PCM equality to retained source, independent before/after transcript comparison, no waveform silences >=0.35s and three targeted listening samples.",
+  "notes": "Long-input model claimed periodic 30-second dropouts; actual waveform and targeted samples at claimed intervals contradict these claims. Sample-boundary truncations are from QA extraction, not the full file.",
+  "targeted_samples": [
+    {
+      "usable": true,
+      "audible_silence_or_dropout_seconds": 0,
+      "clipped_words": [],
+      "issues": [],
+      "pacing": "Natural and conversational with appropriate pauses between thoughts."
+    },
+    {
+      "usable": true,
+      "audible_silence_or_dropout_seconds": 0,
+      "clipped_words": [],
+      "issues": [],
+      "pacing": "Natural and conversational"
+    },
+    {
+      "usable": true,
+      "audible_silence_or_dropout_seconds": 0,
+      "clipped_words": [
+        "actual"
+      ],
+      "issues": [
+        "The word 'actual' is truncated at the very end of the clip (0:11).",
+        "There is a very tight transition between 'this is why' and 'I'll drop the link below' at 0:04, though it remains intelligible."
+      ],
+      "pacing": "The pacing is conversational and energetic, with a slightly rushed transition at the 4-second mark."
+    }
+  ]
+}

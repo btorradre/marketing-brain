@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/eula", "destination": "/api/legal" },
+    { "source": "/terms", "destination": "/api/legal" },
+    { "source": "/privacy", "destination": "/api/legal" },
+    { "source": "/qbo/callback", "destination": "/api/qbo-callback" },
+    { "source": "/connect", "destination": "/api/qbo-lifecycle" },
+    { "source": "/disconnect", "destination": "/api/qbo-lifecycle" },
+    { "source": "/launch", "destination": "/api/qbo-lifecycle" },
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Referrer-Policy", "value": "no-referrer" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    }
+  ]
+}

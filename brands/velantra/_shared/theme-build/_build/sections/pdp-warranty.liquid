@@ -1,0 +1,76 @@
+{% comment %}
+  PDP — Warranty / promise centered callout
+{% endcomment %}
+
+<section
+  class="pdp-warranty pdp-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="pdp-warranty"
+  style="--pdp-bg: {{ section.settings.bg_color }}; --pdp-fg: {{ section.settings.text_color }};"
+>
+  <div class="pdp-warranty__inner">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="pdp-warranty__eyebrow">{{ section.settings.eyebrow }}</p>
+    {%- endif -%}
+    {%- if section.settings.heading != blank -%}
+      <h2 class="pdp-warranty__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+    {%- if section.settings.body != blank -%}
+      <div class="pdp-warranty__body rte">{{ section.settings.body }}</div>
+    {%- endif -%}
+    {%- if section.settings.link_url != blank and section.settings.link_label != blank -%}
+      <a class="pdp-warranty__link" href="{{ section.settings.link_url }}">{{ section.settings.link_label }} →</a>
+    {%- endif -%}
+  </div>
+</section>
+
+<style>
+  #shopify-section-{{ section.id }} .pdp-warranty {
+    background: var(--pdp-bg, #1a1a1a);
+    color: var(--pdp-fg, #ffffff);
+    padding: clamp(40px, 5vw, 64px) clamp(20px, 4vw, 56px);
+    text-align: center;
+  }
+  #shopify-section-{{ section.id }} .pdp-warranty__inner { max-width: 720px; margin: 0 auto; }
+  #shopify-section-{{ section.id }} .pdp-warranty__eyebrow {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+    opacity: 0.7; margin: 0 0 14px;
+  }
+  #shopify-section-{{ section.id }} .pdp-warranty__heading {
+    font-family: var(--font-stack-header, 'Cormorant', serif);
+    font-weight: 400; font-size: clamp(24px, 2.6vw, 32px);
+    letter-spacing: -0.005em; margin: 0 0 16px;
+  }
+  #shopify-section-{{ section.id }} .pdp-warranty__body {
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 14px; line-height: 1.65; opacity: 0.85;
+  }
+  #shopify-section-{{ section.id }} .pdp-warranty__link {
+    display: inline-block; margin-top: 18px;
+    font-family: var(--font-stack-base, 'Inter', sans-serif);
+    font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: currentColor; text-decoration: underline; text-underline-offset: 5px;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "PDP · Warranty / Promise",
+  "tag": "section",
+  "class": "shopify-section--pdp-warranty",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "OUR PROMISE" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Two-Year Warranty" },
+    { "type": "richtext", "id": "body", "label": "Body", "default": "<p>Every Velantra bag is built to last. If anything goes wrong in normal use, we'll repair or replace it.</p>" },
+    { "type": "url", "id": "link_url", "label": "Policy link URL" },
+    { "type": "text", "id": "link_label", "label": "Link label", "default": "Read the warranty" },
+    { "type": "color", "id": "bg_color", "label": "Background", "default": "#1a1a1a" },
+    { "type": "color", "id": "text_color", "label": "Text color", "default": "#ffffff" }
+  ],
+  "presets": [
+    { "name": "PDP · Warranty" }
+  ],
+  "disabled_on": { "groups": ["header", "footer", "aside"] }
+}
+{% endschema %}

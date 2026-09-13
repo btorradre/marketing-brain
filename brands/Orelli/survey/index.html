@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Orelli — 30 Second Survey</title>
+<meta name="description" content="Help shape Orelli — the chewable pain reliever — and get first access at launch.">
+<meta property="og:title" content="Orelli — 30 Second Survey">
+<meta property="og:description" content="Help shape the chewable pain reliever. Takes 30 seconds — first access at launch.">
+<meta property="og:image" content="https://orelli-survey.vercel.app/assets/bottle.jpg">
+<meta name="theme-color" content="#F0EDE7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%232A3AD1' d='M8 2.5h8a1 1 0 0 1 1 1v3H7v-3a1 1 0 0 1 1-1z'/%3E%3Cpath fill='%232A3AD1' d='M7.5 6.5h9a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-9a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2z'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --cream:#F0EDE7; --card:#FFFFFF; --line:#DDD8CC;
+    --cobalt:#2A3AD1; --cobalt-deep:#1F2CA8; --cobalt-tint:#EEF0FE;
+    --peri:#A6ABE5; --ink:#2A2D3E; --muted:#8B887B; --red:#D92B3F;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{font-size:16px}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--cream); color:var(--ink);
+    min-height:100vh; min-height:100svh;
+    display:flex; flex-direction:column; align-items:center;
+    padding:0 20px env(safe-area-inset-bottom);
+  }
+  .wrap{width:100%; max-width:480px; display:flex; flex-direction:column; flex:1}
+
+  header{padding:26px 0 8px; text-align:center}
+  .wordmark{height:30px; width:auto; display:inline-block}
+  .hearts{display:flex; justify-content:center; gap:7px; margin-top:14px}
+  .hearts svg{width:17px; height:17px; transition:transform .2s ease}
+  .hearts .h path{fill:none; stroke:#C9CCE8; stroke-width:2}
+  .hearts .h.on path{fill:var(--cobalt); stroke:var(--cobalt)}
+  .hearts .h.on{animation:pop .35s ease}
+  @keyframes pop{0%{transform:scale(.6)}55%{transform:scale(1.35)}100%{transform:scale(1)}}
+
+  main{flex:1; display:flex; flex-direction:column; padding:14px 0 24px}
+  .back{
+    background:none; border:none; color:var(--muted); font-size:14px; font-weight:500;
+    cursor:pointer; align-self:flex-start; padding:6px 0; margin-bottom:2px; visibility:hidden;
+  }
+  .back.show{visibility:visible}
+
+  .screen{display:none}
+  .screen.active{display:block; animation:rise .38s cubic-bezier(.2,.7,.3,1)}
+  @keyframes rise{from{opacity:0; transform:translateY(16px)}to{opacity:1; transform:none}}
+
+  h1{font-size:23px; font-weight:700; letter-spacing:-0.01em; color:var(--cobalt); line-height:1.28; margin-bottom:6px}
+  .sub{font-size:15px; color:#5A5D70; line-height:1.5; margin-bottom:18px}
+  .helper{font-size:13px; color:var(--muted); margin:-10px 0 18px}
+
+  .opts{display:flex; flex-direction:column; gap:11px; margin-top:16px}
+  .opt{
+    width:100%; text-align:left; background:var(--card); border:1.5px solid var(--line);
+    border-radius:14px; padding:16px 18px; font-size:16px; font-weight:600; color:var(--ink);
+    line-height:1.4; cursor:pointer; font-family:inherit;
+    box-shadow:0 1px 2px rgba(42,45,62,.04);
+    transition:border-color .15s, background .15s, color .15s, transform .12s;
+  }
+  .opt:active{transform:scale(.985)}
+  .opt.picked{background:var(--cobalt); border-color:var(--cobalt); color:#fff}
+
+  .grouplabel{
+    font-size:12.5px; font-weight:700; color:var(--muted);
+    text-transform:uppercase; letter-spacing:.05em; margin:20px 0 10px;
+  }
+  .grouplabel:first-of-type{margin-top:14px}
+  .opts.duo{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:0}
+  .opts.duo .opt{text-align:center; padding:14px 10px}
+  .opts.duo .opt:last-child:nth-child(odd){grid-column:1 / -1}
+
+  .bottle-card{
+    border-radius:18px; overflow:hidden; margin-bottom:18px;
+    box-shadow:0 8px 28px rgba(42,58,209,.10);
+  }
+  .bottle-card img{display:block; width:100%; height:230px; object-fit:cover; object-position:center 42%}
+
+  .cta{
+    width:100%; background:var(--cobalt); color:#fff; border:none; border-radius:14px;
+    padding:17px 18px; font-size:17px; font-weight:700; font-family:inherit; cursor:pointer;
+    box-shadow:0 6px 18px rgba(42,58,209,.25); transition:background .15s, transform .12s;
+    margin-top:16px;
+  }
+  .cta:active{transform:scale(.985)}
+  .cta:disabled{opacity:.55}
+
+  .emailform{display:none; margin-top:16px}
+  .emailform.show{display:block; animation:rise .3s ease}
+  .emailform input{
+    width:100%; background:var(--card); border:1.5px solid var(--line); border-radius:14px;
+    padding:16px 18px; font-size:16px; font-family:inherit; color:var(--ink); outline:none;
+  }
+  .emailform input:focus{border-color:var(--cobalt)}
+  .err{display:none; color:var(--red); font-size:13px; font-weight:600; margin-top:8px}
+  .err.show{display:block}
+  .privacy{font-size:12.5px; color:var(--muted); margin-top:12px; line-height:1.5}
+
+  .done-heart{width:46px; height:46px; margin-bottom:14px}
+  .done-heart path{fill:var(--cobalt)}
+  #s-done{text-align:center; padding-top:26px}
+  #s-done h1{font-size:28px}
+  #s-done .sub{margin-top:8px}
+  .closenote{font-size:13px; color:var(--muted); margin-top:22px}
+
+  footer{padding:14px 0 26px; text-align:center}
+  footer p{font-size:10.5px; color:#A29E90; line-height:1.6}
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '27067101922967563');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=27067101922967563&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="wordmark" src="assets/orelli-wordmark.png" alt="Orelli">
+    <div class="hearts" id="hearts" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <button class="back" id="backBtn" type="button">&larr; Back</button>
+
+    <!-- Q0 — demographics. Both groups required before advancing (data-stay). -->
+    <section class="screen active" id="s-q0">
+      <h1>First &mdash; a little about you</h1>
+      <p class="sub">Two quick taps so we know who we&rsquo;re building for.</p>
+      <p class="grouplabel">Gender</p>
+      <div class="opts duo" data-q="gender" data-stay="1">
+        <button class="opt" type="button" data-i="0">Female</button>
+        <button class="opt" type="button" data-i="1">Male</button>
+        <button class="opt" type="button" data-i="2">Prefer not to say</button>
+      </div>
+      <p class="grouplabel">Age</p>
+      <div class="opts duo" data-q="age" data-stay="1">
+        <button class="opt" type="button" data-i="0">18&ndash;24</button>
+        <button class="opt" type="button" data-i="1">25&ndash;34</button>
+        <button class="opt" type="button" data-i="2">35&ndash;44</button>
+        <button class="opt" type="button" data-i="3">45&ndash;54</button>
+        <button class="opt" type="button" data-i="4">55+</button>
+      </div>
+    </section>
+
+    <!-- Q1 -->
+    <section class="screen" id="s-q1">
+      <h1>Do you struggle to swallow pills?</h1>
+      <div class="opts" data-q="q1">
+        <button class="opt" type="button" data-i="0">Every single time</button>
+        <button class="opt" type="button" data-i="1">Only with certain pills</button>
+        <button class="opt" type="button" data-i="2">Sometimes, when it&rsquo;s a big one</button>
+      </div>
+    </section>
+
+    <!-- Q2 -->
+    <section class="screen" id="s-q2">
+      <div class="bottle-card"><img src="assets/bottle.jpg" alt="Orelli — adult chewable acetaminophen"></div>
+      <h1>Would you keep a bottle of Orelli in your medicine cabinet?</h1>
+      <p class="sub">Orelli is adult-strength acetaminophen &mdash; the same active ingredient as regular Tylenol &mdash; in a soft chew you just chew. No water. No swallowing.</p>
+      <div class="opts" data-q="q2">
+        <button class="opt" type="button" data-i="0">Yes, definitely</button>
+        <button class="opt" type="button" data-i="1">Probably &mdash; as long as it tastes decent</button>
+      </div>
+    </section>
+
+    <!-- Stated-price intent question (third question screen). Payload key stays
+         "q4" for legacy in-flight sessions; server maps it to the "Q3 At $29.99"
+         Notion column. -->
+    <section class="screen" id="s-q4">
+      <h1>A 50-count bottle of Orelli will be $29.99 at launch. How likely are you to grab one?</h1>
+      <div class="opts" data-q="q4">
+        <button class="opt" type="button" data-i="0">Definitely &mdash; honestly I&rsquo;d grab two or three so I&rsquo;m never caught without one</button>
+        <button class="opt" type="button" data-i="1">Very likely &mdash; I&rsquo;d get a bottle</button>
+        <button class="opt" type="button" data-i="2">Somewhat likely &mdash; I&rsquo;d want to see reviews first</button>
+        <button class="opt" type="button" data-i="3">Not likely at that price</button>
+      </div>
+    </section>
+
+    <!-- Q5 / email -->
+    <section class="screen" id="s-q5">
+      <h1>Want first access before everyone else?</h1>
+      <p class="sub">Orelli launches soon &mdash; and the first run is limited.</p>
+      <button class="cta" id="yesBtn" type="button">Yes &mdash; save my spot</button>
+      <form class="emailform" id="emailForm" novalidate>
+        <input type="email" id="emailInput" name="email" placeholder="you@email.com" autocomplete="email" inputmode="email">
+        <p class="err" id="emailErr">That email doesn&rsquo;t look right &mdash; mind checking it?</p>
+        <button class="cta" id="submitBtn" type="submit">Save my spot &rarr;</button>
+        <p class="privacy">No spam &mdash; just your first-access invite when Orelli launches.</p>
+      </form>
+    </section>
+
+    <!-- Done -->
+    <section class="screen" id="s-done">
+      <svg class="done-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2.5h8a1 1 0 0 1 1 1v3H7v-3a1 1 0 0 1 1-1z"/><path d="M7.5 6.5h9a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-9a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2z"/></svg>
+      <h1>You&rsquo;re in.</h1>
+      <p class="sub">You&rsquo;re on the first-access list &mdash; when Orelli launches, you&rsquo;ll hear it from us before anyone else. Keep an eye on your inbox.</p>
+      <p class="closenote">You can close this page now.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Adults 18+. Orelli is adult chewable acetaminophen &mdash; pain reliever / fever reducer. Use only as directed.<br>
+    This quick survey is for product research. &copy; 2026 Orelli.</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var ORDER = ['q0','q1','q2','q4','q5','done'];
+  var S = {
+    session: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : 's' + String(Math.random()).slice(2) + String(new Date().getTime()),
+    answers: {}, step: 0, completed: false, lastSent: '', pixelFired: {}
+  };
+  // Meta pixel events — one per funnel step, deduped per session
+  function pixel(kind, name, data){
+    if (!window.fbq || S.pixelFired[name]) return;
+    S.pixelFired[name] = true;
+    if (data) fbq(kind, name, data); else fbq(kind, name);
+  }
+  var params = new URLSearchParams(location.search);
+  var creator = params.get('c') || params.get('utm_content') || params.get('utm_source') || '';
+
+  // hearts
+  var heartsEl = document.getElementById('hearts');
+  var BOTTLE = '<svg class="h" viewBox="0 0 24 24"><path d="M8 2.5h8a1 1 0 0 1 1 1v3H7v-3a1 1 0 0 1 1-1z"/><path d="M7.5 6.5h9a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-9a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2z"/></svg>';
+  heartsEl.innerHTML = BOTTLE + BOTTLE + BOTTLE + BOTTLE + BOTTLE;
+  function paintHearts(n){
+    var hs = heartsEl.querySelectorAll('.h');
+    for (var i = 0; i < hs.length; i++) hs[i].classList.toggle('on', i < n);
+  }
+
+  var backBtn = document.getElementById('backBtn');
+  function show(step){
+    S.step = step;
+    var key = ORDER[step];
+    var screens = document.querySelectorAll('.screen');
+    for (var i = 0; i < screens.length; i++) screens[i].classList.remove('active');
+    document.getElementById('s-' + key).classList.add('active');
+    backBtn.classList.toggle('show', step > 0 && key !== 'done');
+    paintHearts(Math.min(step, 5)); // one bottle per completed screen
+    window.scrollTo(0, 0);
+  }
+
+  backBtn.addEventListener('click', function(){ if (S.step > 0) show(S.step - 1); });
+
+  function payload(status, email){
+    return JSON.stringify({
+      session: S.session, status: status, answers: S.answers, email: email || '',
+      creator: creator, source: location.search.slice(0, 300),
+      referrer: (document.referrer || '').slice(0, 200)
+    });
+  }
+
+  // option taps
+  var groups = document.querySelectorAll('.opts');
+  for (var g = 0; g < groups.length; g++){
+    (function(group){
+      var q = group.getAttribute('data-q');
+      var opts = group.querySelectorAll('.opt');
+      for (var o = 0; o < opts.length; o++){
+        (function(btn){
+          btn.addEventListener('click', function(){
+            for (var k = 0; k < opts.length; k++) opts[k].classList.remove('picked');
+            btn.classList.add('picked');
+            S.answers[q] = { i: parseInt(btn.getAttribute('data-i'), 10), label: btn.textContent.trim() };
+            pixel('trackCustom', 'QuizStart');
+            pixel('trackCustom', 'QuizProgress_' + q.toUpperCase(), { question: q });
+            // data-stay groups share a screen — advance only once all are answered
+            if (group.hasAttribute('data-stay')){
+              if (S.answers.gender && S.answers.age) setTimeout(function(){ show(S.step + 1); }, 350);
+              return;
+            }
+            setTimeout(function(){ show(S.step + 1); }, 300);
+          });
+        })(opts[o]);
+      }
+    })(groups[g]);
+  }
+
+  // Q5: reveal email form
+  var yesBtn = document.getElementById('yesBtn');
+  var form = document.getElementById('emailForm');
+  var input = document.getElementById('emailInput');
+  var err = document.getElementById('emailErr');
+  var submitBtn = document.getElementById('submitBtn');
+  yesBtn.addEventListener('click', function(){
+    yesBtn.style.display = 'none';
+    form.classList.add('show');
+    input.focus();
+  });
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var email = input.value.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ err.classList.add('show'); return; }
+    err.classList.remove('show');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Saving…';
+    S.completed = true;
+    pixel('track', 'Lead');
+    paintHearts(5);
+    var body = payload('complete', email);
+    fetch('/api/submit', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: body })
+      .then(function(r){ if (!r.ok) throw new Error('bad'); show(ORDER.indexOf('done')); })
+      .catch(function(){
+        fetch('/api/submit', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: body })
+          .then(function(){ show(ORDER.indexOf('done')); })
+          .catch(function(){
+            if (navigator.sendBeacon) navigator.sendBeacon('/api/submit', new Blob([body], {type: 'application/json'}));
+            show(ORDER.indexOf('done'));
+          });
+      });
+  });
+
+  // partial capture when they leave mid-survey
+  function beaconPartial(){
+    if (S.completed) return;
+    if (!Object.keys(S.answers).length) return;
+    var p = payload('partial', input ? input.value.trim() : '');
+    if (p === S.lastSent) return;
+    S.lastSent = p;
+    if (navigator.sendBeacon) navigator.sendBeacon('/api/submit', new Blob([p], {type: 'application/json'}));
+  }
+  document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'hidden') beaconPartial(); });
+  window.addEventListener('pagehide', beaconPartial);
+})();
+</script>
+</body>
+</html>

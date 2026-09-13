@@ -1,0 +1,73 @@
+{
+  "shot": "S20",
+  "model": "gemini-omni-1.1-flash",
+  "prompt": "The hand and celery stalk remain completely steady in the same grip while a faint air movement softly stirs only the leaf tips; camera locked and preserve every visible finger. One continuous silent vertical shot from this exact frame, same person and setting or illustration throughout, no scene cuts, speech, captions, new objects or transitions.",
+  "reference": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/imagegen/gpt-image-2/S20.png",
+  "reference_sha256": "ddb34ebf0ae3693d58ec606c35807323baa368d70dcab6582a19ed91a098fc1f",
+  "response_format": {
+    "type": "video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "4s",
+    "delivery": "inline"
+  },
+  "status": "completed_pending_motion_qa",
+  "interaction_id": "v1_ChdHclNnYXFfdkc3Zmx6N0lQNXZ6YjZBVRIXR3JTZ2FxX3ZHN2ZsejdJUDV2emI2QVU",
+  "output": "/Users/brooksorradre2/Documents/marketing brain/brands/motilli/creative/MOT-VID-013/output/omni/revisions/S20.mp4",
+  "sha256": "4aff4c9da66dae3ed1832a71a3aec47dc922e1720a4da37453066ccdef31899a",
+  "width": 720,
+  "height": 1280,
+  "duration_s": 4.0,
+  "usage": {
+    "total_tokens": 60020,
+    "total_input_tokens": 1164,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1100
+      },
+      {
+        "modality": "text",
+        "tokens": 64
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 58395,
+    "output_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 57920
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 461,
+    "raw_prompt_token": 31138,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1857
+          },
+          {
+            "modality": "image",
+            "tokens": 1100
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 482
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 461
+          }
+        ]
+      }
+    ]
+  },
+  "processing": "Unchanged provider MP4 bytes"
+}

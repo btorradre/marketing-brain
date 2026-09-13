@@ -1,0 +1,41 @@
+{%- liquid
+  assign cart_empty = false
+  if cart.item_count == 0
+    assign cart_empty = true
+  endif
+-%}
+<h1 class="lt-min-title">Your Cart</h1>
+{% if cart_empty %}
+  <p>Your cart is quiet. Bring it to life.</p>
+  <p style="margin-top: 24px;"><a href="/">&larr; Continue Shopping</a></p>
+{% else %}
+  <form action="/cart" method="post" novalidate>
+    <table style="width:100%; border-collapse: collapse; margin-bottom: 24px;">
+      <thead>
+        <tr><th style="text-align:left; border-bottom:1px solid var(--lt-line); padding:12px 0;">Item</th><th style="text-align:right; border-bottom:1px solid var(--lt-line); padding:12px 0;">Price</th></tr>
+      </thead>
+      <tbody>
+        {% for item in cart.items %}
+          <tr>
+            <td style="padding:18px 0; border-bottom:1px solid var(--lt-line);">
+              <div style="display:flex; gap:14px;">
+                <img src="{{ item.image | image_url: width: 120 }}" alt="" style="width:72px; height:72px; object-fit:cover; border-radius:8px;">
+                <div>
+                  <div style="font-family:'Cormorant Garamond', serif; font-size: 18px; font-weight:600;">{{ item.product.title }}</div>
+                  <div style="font-size: 12px; color: var(--lt-muted); letter-spacing: 0.08em; text-transform: uppercase; margin-top:4px;">{{ item.variant.title }}</div>
+                  <div style="margin-top: 8px; font-size: 13px;">Qty: {{ item.quantity }}</div>
+                </div>
+              </div>
+            </td>
+            <td style="padding:18px 0; border-bottom:1px solid var(--lt-line); text-align:right; font-weight:600;">{{ item.final_line_price | money }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <div style="display:flex; justify-content:space-between; align-items:baseline; padding: 14px 0;">
+      <span style="font-size:14px; letter-spacing: 0.12em; text-transform: uppercase;">Subtotal</span>
+      <span style="font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight:600;">{{ cart.total_price | money }}</span>
+    </div>
+    <button type="submit" name="checkout" style="display:block; width:100%; background: var(--lt-gold-deep); color:white; border:none; border-radius: 10px; padding: 18px; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; cursor: pointer; margin-top:16px;">Checkout &rarr;</button>
+  </form>
+{% endif %}

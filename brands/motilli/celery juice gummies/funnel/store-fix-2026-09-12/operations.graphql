@@ -1,0 +1,19 @@
+mutation ThemeFiles($files: [OnlineStoreThemeFilesUpsertFileInput!]!, $themeId: ID!) {
+  themeFilesUpsert(files: $files, themeId: $themeId) {
+    upsertedThemeFiles { filename }
+    job { id }
+    userErrors { field message }
+  }
+}
+mutation ProductCopy($product: ProductUpdateInput!) {
+  productUpdate(product: $product) {
+    product { id templateSuffix descriptionHtml }
+    userErrors { field message }
+  }
+}
+mutation PolicyCopy($shopPolicy: ShopPolicyInput!) {
+  shopPolicyUpdate(shopPolicy: $shopPolicy) {
+    shopPolicy { id type body }
+    userErrors { field message }
+  }
+}

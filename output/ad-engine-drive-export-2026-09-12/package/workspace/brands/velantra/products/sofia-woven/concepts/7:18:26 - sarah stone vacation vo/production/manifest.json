@@ -1,0 +1,254 @@
+{
+  "concept": "VEL-STRAWTOTE-VACATION-VO-01",
+  "avatar": "tessa",
+  "pipeline": "gpt-image-2-image-to-image (keyframes) -> kling-3.0/video (i2v)",
+  "aspect_ratio": "9:16",
+  "image_resolution": "1K",
+  "kling_mode": "std",
+  "refs": {
+    "tessa": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/_shared/ugc-creators/Tessa/tessa-ref.png",
+    "caramel": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/straw-birkin/product-images/straw birkin/caramel 1.png",
+    "opened": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/straw-birkin/product-images/straw birkin/straw birkin opened.png",
+    "blue": "/Users/brooksorradre2/Documents/marketing brain/brands/velantra/products/straw-birkin/product-images/straw birkin/blue 1.png"
+  },
+  "identity_line": "The woman is the exact same person as in the first reference image: mid 30s, long strawberry blonde hair in loose waves, green eyes, light freckles across her nose and cheeks, warm natural smile. Keep her face identical to the reference.",
+  "product_lock": "The bag is the exact Velantra Straw Tote from the product reference image: structured boxy tote of hand-woven natural seagrass with visible whipstitched edges, a smooth caramel leather flap with one wide center panel and two squared outer tabs, two crossing caramel leather belt straps, and two rolled caramel leather top handles with white stitching. The leather flap and belts exist ONLY on the front face, the back and sides are plain woven straw. Exactly 2 handles, exactly 2 belt straps. Keep the bag identical to the reference, no added logos, no added hardware.",
+  "style_line": "Candid iPhone photo look, realistic skin texture, natural light, true-to-life color, subtle sensor grain, vertical 9:16 framing. Absolutely no text, captions, watermarks or graphics in the image.",
+  "kling_imperfections": "Subtle handheld camera jitter, slight rolling shutter wobble, natural eye focus drift, gentle background motion.",
+  "shots": [
+    {
+      "id": "S01",
+      "time": "0:00-0:03",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "I bought this bag for one vacation,",
+      "keyframe_prompt": "Waist-up shot of the woman standing at a bright beach shoreline at midday, blue sky with a few clouds and calm ocean behind her. She wears a sage green swim top and white linen shorts, the caramel straw tote hangs on her forearm and her other hand rests on the leather flap as she glances down into the bag.",
+      "motion_prompt": "She flips the leather flap open and glances inside the bag, her hair lifting in the sea breeze, then she looks up past the camera with a warm smile."
+    },
+    {
+      "id": "S02",
+      "time": "0:03-0:05",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "and now I carry it everywhere.",
+      "keyframe_prompt": "The woman stands in a bright coastal hotel room with white curtains and warm morning light, wearing a white sundress with sunglasses pushed up on her head. She holds the caramel straw tote up toward the camera by both rolled leather handles, mid-smile.",
+      "motion_prompt": "She lifts the bag a little higher toward the camera and breaks into a warm smile, then slowly lowers it while keeping eye contact."
+    },
+    {
+      "id": "S03",
+      "time": "0:05-0:08",
+      "dur": 6,
+      "refs": [
+        "caramel"
+      ],
+      "vo": "I wanted a summer bag",
+      "keyframe_prompt": "Static product scene, no people: the caramel straw tote sits on a warm wood dresser in a bedroom, flap closed, handles standing up. Behind it a large framed botanical artwork leans against the wall and a small stack of fashion magazines sits to the right, lit by a warm table lamp just out of frame.",
+      "motion_prompt": "Slow gentle push-in toward the bag that continues steadily closer, the warm lamp light flickering very subtly."
+    },
+    {
+      "id": "S04",
+      "time": "0:08-0:10",
+      "dur": 6,
+      "refs": [
+        "caramel"
+      ],
+      "vo": "that didn't look flimsy or feel like a beach toy,",
+      "keyframe_prompt": "Same bedroom dresser scene from a low three-quarter angle, close on the front of the caramel straw tote: the leather flap, the two crossing belt straps and the whipstitched corner edge fill the frame, warm lamp light raking across the woven texture. No people.",
+      "motion_prompt": "Slow handheld orbit around the front corner of the bag that keeps drifting, the woven texture and stitching catching the light."
+    },
+    {
+      "id": "S05",
+      "time": "0:10-0:12",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "and that's when I found the Velantra Straw Tote.",
+      "keyframe_prompt": "Talking-head framing: the woman faces the camera directly against a warm plaster wall in soft window light, wearing a black knit top, holding the caramel straw tote up beside her face with one hand under its base, direct eye contact, warm confident expression.",
+      "motion_prompt": "She gives a small nod and tilts the bag slightly toward the camera, then settles it against her shoulder while keeping gentle eye contact."
+    },
+    {
+      "id": "S06",
+      "time": "0:12-0:14",
+      "dur": 6,
+      "refs": [
+        "caramel"
+      ],
+      "vo": "The hand woven seagrass",
+      "keyframe_prompt": "Extreme close-up macro: a woman's hand with neutral manicured nails rests on the woven seagrass body of the caramel straw tote, fingertips on the weave, the bottom edge of the caramel leather flap visible at the top of frame, soft flowers blurred in the background on a vanity.",
+      "motion_prompt": "Her fingertips drag slowly across the woven straw texture, then the camera tilts up to the leather flap and slowly back down the weave."
+    },
+    {
+      "id": "S07",
+      "time": "0:14-0:16",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "gives it that vacation feel,",
+      "keyframe_prompt": "Full-body beach shot: the woman stands on white sand laughing, holding a small silver compact camera up with both hands as if about to take a photo, the caramel straw tote hanging from the crook of her elbow, wearing the sage swim top and white linen shorts, ocean and bright sky behind.",
+      "motion_prompt": "She snaps a photo and laughs, lowering the camera to glance at its screen, her hair moving in the breeze."
+    },
+    {
+      "id": "S08",
+      "time": "0:16-0:18",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel",
+        "opened"
+      ],
+      "vo": "but what surprised me was how much it actually holds.",
+      "keyframe_prompt": "Talking-head framing against the warm plaster wall: the woman holds the caramel straw tote by its woven base with both hands, tipped toward the lens with the leather flap lifted open, showing the roomy open interior of the bag, her expression bright like she is mid-reveal. The bag has exactly two rolled leather handles and when the flap is open both handles hang forward together at the front of the bag, never a handle at the top, never three handles.",
+      "motion_prompt": "She tips the open bag further toward the lens so the roomy interior fills the frame, then rocks it gently side to side."
+    },
+    {
+      "id": "S09",
+      "time": "0:18-0:21",
+      "dur": 6,
+      "refs": [
+        "opened",
+        "caramel"
+      ],
+      "vo": "Phone, sunscreen, my book, even a water bottle,",
+      "keyframe_prompt": "Overhead top-down shot of the open caramel straw tote on a white vanity table, flap folded back, roomy interior visible. A woman's hand holds a phone just above the opening, and beside the bag sit a tube of sunscreen, a paperback book and a clear water bottle, soft daylight.",
+      "motion_prompt": "Her hands drop the phone into the bag, then the sunscreen, then the book, one item after another at an easy pace."
+    },
+    {
+      "id": "S10",
+      "time": "0:21-0:24",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "everything goes in and the bag still keeps its shape.",
+      "keyframe_prompt": "Full-body shot in a bright doorway: the woman wears a beige linen matching set and lifts the visibly full caramel straw tote by both rolled handles at chest height, the bag holding its crisp boxy silhouette, tiled floor and warm interior behind her.",
+      "motion_prompt": "She raises the loaded bag a touch and gives it a small confident shake, the bag keeping its crisp shape, then settles it on her forearm."
+    },
+    {
+      "id": "S11",
+      "time": "0:24-0:27",
+      "dur": 6,
+      "refs": [
+        "caramel"
+      ],
+      "vo": "The leather handles and that belted flap keep everything secure,",
+      "keyframe_prompt": "Close-up of a woman's hands fastening the two caramel leather belt straps over the closed flap of the straw tote on a wooden table, gold bracelet on her wrist, soft warm side light, shallow depth of field.",
+      "motion_prompt": "Her hands cinch the two belt straps snug over the flap, then she slides the bag toward her and lifts it off the table."
+    },
+    {
+      "id": "S12a",
+      "time": "0:27-0:28.5",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "at the beach",
+      "keyframe_prompt": "The woman mid-stride walking along a weathered sandy boardwalk in bright daylight, dune grass on both sides, wearing the white linen shorts and a loose white shirt over her swim top, the caramel straw tote swinging on her forearm.",
+      "motion_prompt": "She walks toward the camera at an easy vacation pace, the bag swinging gently on her arm as she passes close by."
+    },
+    {
+      "id": "S12b",
+      "time": "0:28.5-0:30",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "or out at dinner.",
+      "keyframe_prompt": "Golden hour: the woman arrives at a Mediterranean restaurant patio with string lights and potted olive trees, wearing an elegant cream slip dress, hair down, carrying the caramel straw tote by both handles in one hand, warm evening glow.",
+      "motion_prompt": "She walks toward the patio entrance, glances back over her shoulder with a soft smile, then continues into the warm evening light."
+    },
+    {
+      "id": "S13",
+      "time": "0:30-0:33",
+      "dur": 6,
+      "refs": [
+        "caramel",
+        "blue"
+      ],
+      "vo": "And with seven colorways,",
+      "keyframe_prompt": "Studio product spread on draped white linen fabric: seven Velantra Straw Totes arranged in two loose rows, identical woven natural seagrass bodies, each with a different leather flap and handle color: caramel, cream, light chocolate brown, sky blue, soft pink, sunny yellow and bright orange. Soft even studio light, gentle shadows. Each bag has exactly one flap, two belt straps and two handles.",
+      "motion_prompt": "Very slow lateral camera drift across the full lineup of bags, the linen folds catching the light as the drift continues."
+    },
+    {
+      "id": "S14a",
+      "time": "0:33-0:34.5",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "it somehow works with every outfit",
+      "keyframe_prompt": "Full-body doorway shot: the woman in a white knit two-piece set with sunglasses on, standing in a rustic wooden doorway with terracotta tiles, holding the caramel straw tote in front of her thighs with both hands, relaxed smile.",
+      "motion_prompt": "She shifts her weight and lifts the bag slightly with a smile, then rests it in front of her thighs and relaxes."
+    },
+    {
+      "id": "S14b",
+      "time": "0:34.5-0:36",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "I pack.",
+      "keyframe_prompt": "Same rustic wooden doorway, now the woman wears a light blue halter sundress, the caramel straw tote on her forearm, caught mid-turn toward the camera with a laugh, warm afternoon light.",
+      "motion_prompt": "She turns toward the camera mid-laugh, the dress and her hair moving with the turn, then settles facing the lens with the bag on her forearm."
+    },
+    {
+      "id": "S15",
+      "time": "0:36-0:39",
+      "dur": 6,
+      "refs": [
+        "tessa",
+        "caramel"
+      ],
+      "vo": "It's structured, lightweight, and honestly makes every errand feel a little more like a getaway.",
+      "keyframe_prompt": "The woman strolls past a sunlit farmers market flower stall with buckets of fresh flowers, wearing the beige linen set, the caramel straw tote on her forearm, morning sun flaring softly at the edge of frame, candid unposed energy.",
+      "motion_prompt": "She strolls slowly past the flower stall, pausing to glance at a bucket of flowers, the bag swinging softly on her arm."
+    },
+    {
+      "id": "S16",
+      "time": "0:39-0:42",
+      "dur": 3,
+      "refs": [],
+      "vo": "And judging by the reviews, I'm definitely not the only one loving it.",
+      "keyframe_prompt": "NOT GENERATED - real screen recording of the live PDP review section at https://velantrafashion.com/products/velantra-straw-tote, natural thumb-scroll, two flicks.",
+      "motion_prompt": null,
+      "skip_generation": true
+    },
+    {
+      "id": "S17a",
+      "time": "0:42-0:43.5",
+      "dur": 6,
+      "refs": [
+        "caramel"
+      ],
+      "vo": "Grab the Straw Tote",
+      "keyframe_prompt": "Studio end-card hero: the caramel Velantra Straw Tote centered on softly draped white silk fabric, handles standing, flap closed, a delicate string of pearls and cream seashell tucked in the lower corners, bright airy high-key light, generous empty space above the bag for a logo overlay in post.",
+      "motion_prompt": "Nearly still hero shot with a very slow continuous drift closer, soft light shimmering across the silk."
+    },
+    {
+      "id": "S17b",
+      "time": "0:43.5-0:45",
+      "dur": 6,
+      "refs": [
+        "blue",
+        "caramel"
+      ],
+      "vo": "before your colorway sells out.",
+      "keyframe_prompt": "Identical studio end-card composition on the same draped white silk: the sky blue leather flap colorway of the Velantra Straw Tote, same woven natural seagrass body, handles standing, flap closed, same pearls and seashell props, same bright airy high-key light and empty space above for logo overlay.",
+      "motion_prompt": "Nearly still hero shot with a very slow continuous drift closer, soft light shimmering across the silk."
+    }
+  ]
+}

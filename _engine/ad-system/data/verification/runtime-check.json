@@ -1,0 +1,24 @@
+{
+  "health": {
+    "service": "ad-studio",
+    "database": "/Users/brooksorradre2/Documents/marketing brain/_engine/ad-system/data/system.sqlite3"
+  },
+  "creatives": 11,
+  "operations": {
+    "creatives": 11,
+    "creatives_with_exports": 0,
+    "creatives_with_attributable_delivery": 0,
+    "valid_test_coverage": null,
+    "recorded_edit_minutes": null,
+    "creatives_reporting_time": 0,
+    "recorded_reworks": 0,
+    "definition": "Valid-test coverage = exported creatives with exact-ID matched, positive-spend and positive-impression measurement rows / exported creatives. It measures trackable delivery, not statistical sufficiency. Rework is user-recorded; missing editing time is not zero."
+  },
+  "http_checks": {
+    "/": 200,
+    "/app.js": 200,
+    "/style.css": 200,
+    "/api/file?path=_engine/ad-system/data/START-HERE.md": 200,
+    "/api/inventory?brand=motilli": 200
+  }
+}

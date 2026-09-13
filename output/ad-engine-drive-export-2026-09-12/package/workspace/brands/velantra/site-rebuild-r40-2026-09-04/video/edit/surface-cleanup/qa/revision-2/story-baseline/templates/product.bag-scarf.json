@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {},
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>A finishing touch that changes everything. The Velantra Bag Scarf wraps your favorite tote handle in soft, lightweight silk-blend &mdash; or doubles as a hair tie or neck scarf when the mood strikes. The small detail that signals you thought about everything.</p>",
+            "open": false
+          }
+        },
+        "tab_materials": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Materials & Care",
+            "content": "<p><strong>Material</strong><br>Soft, lightweight silk-blend fabric.</p><p><strong>Care</strong><br>Spot clean or dry clean only. Store flat or loosely rolled to preserve the drape, and keep out of prolonged direct sunlight to protect the color.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_materials"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

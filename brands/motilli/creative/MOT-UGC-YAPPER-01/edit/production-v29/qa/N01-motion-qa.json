@@ -1,0 +1,20 @@
+{
+  "usable_1_to_5_seconds": false,
+  "issues": [
+    {
+      "timestamp": "0:00-0:10",
+      "description": "Character is already standing; the animation fails to depict the requested action of rising from the chair."
+    },
+    {
+      "timestamp": "0:00-0:05",
+      "description": "Subtle facial flickering and identity drift throughout the sequence."
+    },
+    {
+      "timestamp": "0:08-0:10",
+      "description": "Character opens mouth to sigh, violating the lips closed instruction."
+    }
+  ],
+  "recommended_source_window": "0:00-0:04",
+  "action_match": 2,
+  "rationale": "The video fails to execute the primary motion of rising from the chair. It also exhibits facial instability and ignores the closed-lip requirement during the sigh."
+}

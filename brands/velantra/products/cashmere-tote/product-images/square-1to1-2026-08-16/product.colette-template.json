@@ -1,0 +1,161 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "pdp-breadcrumb",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "blurb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A softly structured fall tote in cashmere-feel brushed wool, belted in leather. It stands upright on its own, opens wide, and carries a full day without losing its shape.</p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "assurance": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pre-order, ships early October \u00b7 Free U.S. shipping over $75 \u00b7 30-day returns \u00b7 Two-year warranty</p>"
+          }
+        },
+        "perks": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"wknd-perks\">\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 8h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8z\"/><path d=\"M8 8V6a4 4 0 0 1 8 0v2\"/></svg>\n    <span>Stands upright on its own</span>\n  </div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M2 20h20\"/></svg>\n    <span>Fits a 13 inch laptop</span>\n  </div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12h18\"/><rect x=\"9.5\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><circle cx=\"6\" cy=\"12\" r=\"1\"/><circle cx=\"18\" cy=\"12\" r=\"1\"/></svg>\n    <span>Belted leather front</span>\n  </div>\n  <div class=\"wknd-perk\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7c3-2 5 2 8 0s5-2 8 0\"/><path d=\"M4 12c3-2 5 2 8 0s5-2 8 0\"/><path d=\"M4 17c3-2 5 2 8 0s5-2 8 0\"/></svg>\n    <span>Cashmere-feel brushed wool</span>\n  </div>\n</div>\n<style>\n.wknd-perks{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;background:#faf8f4;border-radius:12px;padding:20px 22px;margin:14px 0 4px;}\n.wknd-perk{display:flex;align-items:center;gap:12px;font-size:14px;line-height:1.35;color:#1a1a1a;}\n.wknd-perk svg{width:30px;height:30px;flex:0 0 30px;}\n@media (max-width:480px){.wknd-perks{grid-template-columns:1fr 1fr;gap:12px 12px;padding:16px 16px;}.wknd-perk{font-size:13px;gap:9px;}.wknd-perk svg{width:26px;height:26px;flex-basis:26px;}}\n</style>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab_details": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "<p><strong>One size, 19.7&quot; W &times; 10.2&quot; H &times; 7.1&quot; D (50 &times; 26 &times; 18 cm).</strong> Handle drop 6.3&quot; (16 cm). Fits a 13&quot; laptop with room to spare, alongside a folder, a water bottle and everything else a full day asks of it.</p><p><strong>Structure:</strong> the brushed wool body is cut and seamed to stand on its own, so it holds its shape set down or carried.</p><p><strong>Carry:</strong> two leather-wrapped top handles, finished smooth where your hand rests.</p><p><strong>Front:</strong> a leather belt wraps the front with gold eyelet detailing and rounded gold disc caps at the belt ends.</p><p><strong>Top:</strong> open top, so everything stays in reach.</p>"
+          }
+        },
+        "tab_delivery": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery",
+            "content": "<p><strong>This is a pre-order.</strong> The Colette ships early October. Your card is charged today and your bag is reserved from the first production run.</p><p>Free shipping on all orders over $75. Once the run arrives, your order ships and arrives within 7 to 10 business days.</p><p>We accept returns within 30 days of delivery for items in original, unused condition with all tags attached. Exchanges are always free.</p>"
+          }
+        },
+        "tab_care": {
+          "type": "tab",
+          "settings": {
+            "title": "Materials &amp; Care",
+            "content": "<p><strong>Body:</strong> Cashmere-feel brushed wool, softly structured.<br/><strong>Handles &amp; Belt:</strong> Leather-wrapped handles and a belted leather front.<br/><strong>Hardware:</strong> Aged gold eyelets and belt caps. No logos anywhere.</p><p><strong>Care:</strong> Brush the wool gently with a soft garment brush to lift the nap, and spot-clean with a barely damp cloth. Wipe the leather with a clean dry cloth and condition it every few months. Store it upright and away from direct sunlight.</p>"
+          }
+        },
+        "reviews": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-reviews' %}"
+          }
+        },
+        "hint": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-send-hint' %}"
+          }
+        },
+        "inline_acc": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'pdp-inline-accessories' %}"
+          }
+        }
+      },
+      "block_order": [
+        "blurb",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "assurance",
+        "perks",
+        "description",
+        "tab_details",
+        "tab_delivery",
+        "tab_care",
+        "reviews",
+        "hint",
+        "inline_acc"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "warranty": {
+      "type": "pdp-warranty",
+      "settings": {
+        "eyebrow": "OUR PROMISE",
+        "heading": "Two-Year Warranty",
+        "body": "<p>Every Velantra piece is built to last. If anything fails in normal use, we'll repair or replace it.</p>",
+        "link_url": "/pages/warranty",
+        "link_label": "Read the warranty",
+        "bg_color": "#1a1a1a",
+        "text_color": "#ffffff"
+      }
+    },
+    "icon_bar": {
+      "type": "pdp-icon-bar",
+      "settings": {
+        "bg_color": "#faf8f4",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "editorial": {
+      "type": "pdp-editorial-tile",
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "warranty",
+    "icon_bar",
+    "editorial",
+    "recently_viewed"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "actual_action": "The video starts with a still image of a man holding a large travel bag and walking out of a hotel. The scene then animates: the man completes his exit from a revolving door, turns around on the sidewalk, and walks back into the same revolving door.",
+  "visible_identity_changes": false,
+  "artifacts_with_times": [
+    {
+      "time": "00:01 - 00:02",
+      "description": "During the man's turn, the travel bag's silhouette distorts unnaturally. The canvas body appears to compress and warp in a way that doesn't correspond to physical motion or gravity."
+    },
+    {
+      "time": "00:01 - 00:02",
+      "description": "The man's turn is abrupt and jerky, lacking fluid, natural motion."
+    },
+    {
+      "time": "00:03 - 00:05",
+      "description": "The man's gait as he walks away from the camera is stiff and unnatural."
+    },
+    {
+      "time": "00:05",
+      "description": "As the man enters the revolving door, his left leg and the corner of the bag appear to momentarily clip through the solid base of the door frame."
+    }
+  ],
+  "usable_interval_seconds": [
+    2.5,
+    4.5
+  ],
+  "pass_for_ad": false,
+  "limitations": "The analysis is purely visual. Video resolution may obscure extremely subtle artifacts. Assessment of motion naturalness is subjective but based on common physical principles."
+}

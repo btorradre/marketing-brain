@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "title_override": "VIVIENNE",
+        "description_override": "<p>For the woman who leaves room for the unexpected. The Vivienne pairs a softly slouching leather body with rolled handles, a braided upper edge and warm gold accents. Its relaxed folds bring an easy warmth to a tailored coat, a familiar pair of jeans, and whatever the afternoon becomes.<\/p>",
+        "fact_material": "Vegetable-tanned leather",
+        "fact_detail": "Made by artisans with 10 years of experience",
+        "preorder_lead_time": "Stock expected October 2026",
+        "show_facts": true,
+        "show_policies": false,
+        "show_shipping_summary": false,
+        "fact_carry": "Stock expected October 2026",
+        "lead_time": "Stock expected October 2026"
+      },
+      "blocks": {
+        "tab_details": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>Two rolled top handles sit above a softly folded body, with a braided upper edge, inward-falling belt details and warm gold-tone fittings. The approximate dimensions are 38 × 27 × 20 cm (W × H × D).<\/p>",
+            "open": false
+          }
+        },
+        "tab_care": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>Wipe the leather with a soft, dry cloth. Keep it away from prolonged moisture, direct heat and sunlight, and store it loosely filled to support its shape.<\/p>",
+            "open": false
+          }
+        },
+        "tab_shipping": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Shipping & delivery",
+            "content": "<p>Vivienne is available to pre-order in all colors, with stock expected to arrive in October 2026. Your order will dispatch once stock arrives. Delivery time is additional and varies by destination. We will send tracking details when it ships. See our <a href=\"\/policies\/shipping-policy\">shipping policy<\/a> for delivery information.<\/p>",
+            "open": false
+          }
+        },
+        "tab_returns": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Returns",
+            "content": "<p>Returns are accepted within 30 days of delivery for unused items in their original packaging with tags attached. To arrange a return, contact <a href=\"mailto:customerservice@velantrafashion.com\">customerservice@velantrafashion.com<\/a>. See our <a href=\"\/policies\/refund-policy\">return policy<\/a> for full conditions.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_details",
+        "tab_care",
+        "tab_shipping",
+        "tab_returns"
+      ]
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Complete The Look"
+      }
+    },
+    "craftsmanship": {
+      "type": "craftsmanship-timeline",
+      "settings": {
+        "eyebrow": "Craft",
+        "heading": "THE RHYTHM OF MAKING",
+        "text": "<p>The character of the Vivienne begins in the leather.<\/p>"
+      },
+      "blocks": {
+        "selection": {
+          "type": "stage",
+          "settings": {
+            "day": "Day 1",
+            "heading": "Leather Selection & Cutting",
+            "default_asset": "vivienne-craft-leather.jpg",
+            "alt": "Close-up of the Vivienne’s Chocolate leather grain and contrasting corner trim.",
+            "text": "<p>The leather sets the character of the bag. On the Chocolate Vivienne, a richly grained body meets smoother, warmer trim. Selection and cutting establish that balance: the movement of the leather, the shape of each panel, and the soft silhouette that follows.<\/p>"
+          }
+        },
+        "stitching": {
+          "type": "stage",
+          "settings": {
+            "day": "Day 4–8",
+            "heading": "Thread Selection & Stitching",
+            "default_asset": "vivienne-craft-stitching.jpg",
+            "alt": "Close-up of the Vivienne’s braided upper edge and tonal stitching.",
+            "text": "<p>Thread and stitching bring the separate elements together. Follow the seams across the front band and the braided detail along the upper edge. Their rhythm gives the Vivienne a distinctive outline, adding definition while leaving room for the leather’s natural folds.<\/p>"
+          }
+        },
+        "finishing": {
+          "type": "stage",
+          "settings": {
+            "day": "Finishing",
+            "heading": "Edge Paint & Finishing",
+            "default_asset": "vivienne-craft-finishing.jpg",
+            "alt": "Detail of the Vivienne’s finished handle attachment, tonal stitching and gold rivets.",
+            "text": "<p>Look closely at the edges of the handles, trim and corners. The finish traces each curve and gives the darker body and warmer accents their definition. These small details are part of the bag’s character, visible wherever one surface meets another.<\/p>"
+          }
+        },
+        "inspection": {
+          "type": "stage",
+          "settings": {
+            "day": "Final review",
+            "heading": "Final Quality Inspection",
+            "default_asset": "vivienne-craft-inspection.jpg",
+            "alt": "Close-up of the Vivienne’s horizontal gold center fitting and contrasting leather straps.",
+            "text": "<p>The final review brings the details back into view: the silhouette, the alignment of the front band, the braided edge and the warm gold fittings. Each element should sit naturally with the next, so the complete bag feels balanced and considered.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "selection",
+        "stitching",
+        "finishing",
+        "inspection"
+      ]
+    },
+    "value": {
+      "type": "value-breakdown",
+      "settings": {
+        "default_asset": "r40-41079930191937-white-studio.webp",
+        "image_description": "The Chocolate Vivienne in a white studio, showing its soft body, braided edge and warm gold fittings",
+        "image_fit": "cover",
+        "heading": "LUXURY, WITHOUT THE LOGO",
+        "copy": "<p>The character is in the leather, the shape and the details you carry every day.<\/p>",
+        "table_caption": "The Vivienne: materials and design details",
+        "detail_heading": "Detail",
+        "product_heading": "The Vivienne",
+        "purpose_heading": "The purpose",
+        "sticky_content": true
+      },
+      "blocks": {
+        "detail_1": {
+          "type": "detail",
+          "settings": {
+            "detail": "Leather",
+            "product_detail": "Visible natural grain",
+            "purpose": "Tactile character"
+          }
+        },
+        "detail_2": {
+          "type": "detail",
+          "settings": {
+            "detail": "Trim",
+            "product_detail": "Smoother contrast finish",
+            "purpose": "Definition"
+          }
+        },
+        "detail_3": {
+          "type": "detail",
+          "settings": {
+            "detail": "Silhouette",
+            "product_detail": "Soft, slouching body",
+            "purpose": "An easy shape"
+          }
+        },
+        "detail_4": {
+          "type": "detail",
+          "settings": {
+            "detail": "Upper edge",
+            "product_detail": "Braided detail",
+            "purpose": "A distinctive finish"
+          }
+        },
+        "detail_5": {
+          "type": "detail",
+          "settings": {
+            "detail": "Hardware",
+            "product_detail": "Warm gold tone",
+            "purpose": "A quiet accent"
+          }
+        },
+        "detail_6": {
+          "type": "detail",
+          "settings": {
+            "detail": "Identity",
+            "product_detail": "Logo-free exterior",
+            "purpose": "The bag comes first"
+          }
+        }
+      },
+      "block_order": [
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "detail_4",
+        "detail_5",
+        "detail_6"
+      ]
+    },
+    "perspectives": {
+      "type": "client-perspectives",
+      "settings": {
+        "heading": "Client Perspectives",
+        "show_empty_state": true,
+        "empty_text": "Customer reviews are not available here yet."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "craftsmanship",
+    "value",
+    "recommendations",
+    "perspectives"
+  ]
+}

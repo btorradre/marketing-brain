@@ -1,0 +1,729 @@
+{
+  "fetched_at_utc": "2026-09-13T16:48:14.910246+00:00",
+  "query": "FROM sessions SHOW sessions, online_store_visitors, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate, bounce_rate WHERE landing_page_path IN ('/products/velantra-weekender', '/products/the-eleanor-weekender') GROUP BY landing_page_path TIMESERIES day SINCE 2026-08-15 UNTIL 2026-09-13 ORDER BY day ASC",
+  "status": 200,
+  "response": {
+    "data": {
+      "shopifyqlQuery": {
+        "tableData": {
+          "columns": [
+            {
+              "name": "day",
+              "dataType": "DAY_TIMESTAMP",
+              "displayName": "Day"
+            },
+            {
+              "name": "landing_page_path",
+              "dataType": "STRING",
+              "displayName": "Landing page path"
+            },
+            {
+              "name": "sessions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions"
+            },
+            {
+              "name": "online_store_visitors",
+              "dataType": "INTEGER",
+              "displayName": "Online store visitors"
+            },
+            {
+              "name": "sessions_with_cart_additions",
+              "dataType": "INTEGER",
+              "displayName": "Sessions with cart additions"
+            },
+            {
+              "name": "sessions_that_reached_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that reached checkout"
+            },
+            {
+              "name": "sessions_that_completed_checkout",
+              "dataType": "INTEGER",
+              "displayName": "Sessions that completed checkout"
+            },
+            {
+              "name": "conversion_rate",
+              "dataType": "PERCENT",
+              "displayName": "Conversion rate"
+            },
+            {
+              "name": "bounce_rate",
+              "dataType": "PERCENT",
+              "displayName": "Bounce rate"
+            }
+          ],
+          "rows": [
+            {
+              "day": "2026-08-15",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "28",
+              "online_store_visitors": "25",
+              "sessions_with_cart_additions": "5",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.5357142857142857"
+            },
+            {
+              "day": "2026-08-15",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "88",
+              "online_store_visitors": "81",
+              "sessions_with_cart_additions": "5",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7954545454545454"
+            },
+            {
+              "day": "2026-08-16",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "17",
+              "online_store_visitors": "16",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.8235294117647058"
+            },
+            {
+              "day": "2026-08-16",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "31",
+              "online_store_visitors": "29",
+              "sessions_with_cart_additions": "2",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.03225806451612903",
+              "bounce_rate": "0.7096774193548387"
+            },
+            {
+              "day": "2026-08-17",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "66",
+              "online_store_visitors": "66",
+              "sessions_with_cart_additions": "3",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.8333333333333334"
+            },
+            {
+              "day": "2026-08-17",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "42",
+              "online_store_visitors": "37",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7142857142857143"
+            },
+            {
+              "day": "2026-08-18",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "84",
+              "online_store_visitors": "80",
+              "sessions_with_cart_additions": "3",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.011904761904761904",
+              "bounce_rate": "0.6547619047619048"
+            },
+            {
+              "day": "2026-08-18",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "13",
+              "online_store_visitors": "13",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.07692307692307693",
+              "bounce_rate": "0.8461538461538461"
+            },
+            {
+              "day": "2026-08-19",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "4",
+              "online_store_visitors": "4",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-08-19",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "20",
+              "online_store_visitors": "19",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.6"
+            },
+            {
+              "day": "2026-08-20",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "99",
+              "online_store_visitors": "91",
+              "sessions_with_cart_additions": "4",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7171717171717171"
+            },
+            {
+              "day": "2026-08-20",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "133",
+              "online_store_visitors": "128",
+              "sessions_with_cart_additions": "15",
+              "sessions_that_reached_checkout": "9",
+              "sessions_that_completed_checkout": "5",
+              "conversion_rate": "0.03759398496240601",
+              "bounce_rate": "0.7293233082706767"
+            },
+            {
+              "day": "2026-08-21",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "107",
+              "online_store_visitors": "103",
+              "sessions_with_cart_additions": "8",
+              "sessions_that_reached_checkout": "6",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.009345794392523364",
+              "bounce_rate": "0.822429906542056"
+            },
+            {
+              "day": "2026-08-21",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "100",
+              "online_store_visitors": "96",
+              "sessions_with_cart_additions": "8",
+              "sessions_that_reached_checkout": "7",
+              "sessions_that_completed_checkout": "3",
+              "conversion_rate": "0.03",
+              "bounce_rate": "0.69"
+            },
+            {
+              "day": "2026-08-22",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "32",
+              "online_store_visitors": "28",
+              "sessions_with_cart_additions": "2",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.6875"
+            },
+            {
+              "day": "2026-08-22",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "6",
+              "online_store_visitors": "4",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.16666666666666666",
+              "bounce_rate": "0.6666666666666666"
+            },
+            {
+              "day": "2026-08-23",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "28",
+              "online_store_visitors": "26",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.03571428571428571",
+              "bounce_rate": "0.6785714285714286"
+            },
+            {
+              "day": "2026-08-23",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "3",
+              "online_store_visitors": "3",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-08-24",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "5",
+              "online_store_visitors": "5",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.8"
+            },
+            {
+              "day": "2026-08-24",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "24",
+              "online_store_visitors": "21",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.75"
+            },
+            {
+              "day": "2026-08-25",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "23",
+              "online_store_visitors": "18",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7391304347826086"
+            },
+            {
+              "day": "2026-08-25",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "2",
+              "online_store_visitors": "2",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.5"
+            },
+            {
+              "day": "2026-08-26",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "4",
+              "online_store_visitors": "4",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-08-26",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "21",
+              "online_store_visitors": "18",
+              "sessions_with_cart_additions": "2",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.5238095238095238"
+            },
+            {
+              "day": "2026-08-27",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "14",
+              "online_store_visitors": "14",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.07142857142857142",
+              "bounce_rate": "0.6428571428571429"
+            },
+            {
+              "day": "2026-08-28",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "4",
+              "online_store_visitors": "3",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-08-28",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "29",
+              "online_store_visitors": "20",
+              "sessions_with_cart_additions": "3",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.6551724137931034"
+            },
+            {
+              "day": "2026-08-29",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "44",
+              "online_store_visitors": "34",
+              "sessions_with_cart_additions": "5",
+              "sessions_that_reached_checkout": "5",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.022727272727272728",
+              "bounce_rate": "0.6590909090909091"
+            },
+            {
+              "day": "2026-08-29",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "1",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "1.0",
+              "bounce_rate": "0.0"
+            },
+            {
+              "day": "2026-08-30",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "4",
+              "online_store_visitors": "2",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.75"
+            },
+            {
+              "day": "2026-08-30",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "27",
+              "online_store_visitors": "23",
+              "sessions_with_cart_additions": "2",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.037037037037037035",
+              "bounce_rate": "0.8148148148148148"
+            },
+            {
+              "day": "2026-08-31",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "25",
+              "online_store_visitors": "24",
+              "sessions_with_cart_additions": "3",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.56"
+            },
+            {
+              "day": "2026-08-31",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "4",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.25"
+            },
+            {
+              "day": "2026-09-01",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "15",
+              "online_store_visitors": "15",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7333333333333333"
+            },
+            {
+              "day": "2026-09-01",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "17",
+              "online_store_visitors": "15",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.058823529411764705",
+              "bounce_rate": "0.5882352941176471"
+            },
+            {
+              "day": "2026-09-02",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "14",
+              "online_store_visitors": "11",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.07142857142857142",
+              "bounce_rate": "0.7857142857142857"
+            },
+            {
+              "day": "2026-09-02",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "4",
+              "online_store_visitors": "4",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-03",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "2",
+              "online_store_visitors": "2",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.5"
+            },
+            {
+              "day": "2026-09-03",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "5",
+              "online_store_visitors": "4",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.8"
+            },
+            {
+              "day": "2026-09-04",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "16",
+              "online_store_visitors": "16",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.5625"
+            },
+            {
+              "day": "2026-09-04",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "3",
+              "online_store_visitors": "3",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-05",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "1",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.0"
+            },
+            {
+              "day": "2026-09-05",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "37",
+              "online_store_visitors": "32",
+              "sessions_with_cart_additions": "2",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.02702702702702703",
+              "bounce_rate": "0.5405405405405406"
+            },
+            {
+              "day": "2026-09-06",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "16",
+              "online_store_visitors": "16",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-06",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "64",
+              "online_store_visitors": "59",
+              "sessions_with_cart_additions": "10",
+              "sessions_that_reached_checkout": "3",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.75"
+            },
+            {
+              "day": "2026-09-07",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "30",
+              "online_store_visitors": "27",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.6666666666666666"
+            },
+            {
+              "day": "2026-09-07",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "1",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-08",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "14",
+              "online_store_visitors": "12",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.7857142857142857"
+            },
+            {
+              "day": "2026-09-08",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "3",
+              "online_store_visitors": "2",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.6666666666666666"
+            },
+            {
+              "day": "2026-09-09",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "5",
+              "online_store_visitors": "5",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-09",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "28",
+              "online_store_visitors": "20",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.03571428571428571",
+              "bounce_rate": "0.8214285714285714"
+            },
+            {
+              "day": "2026-09-10",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "1",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-10",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "12",
+              "online_store_visitors": "11",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.5"
+            },
+            {
+              "day": "2026-09-11",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "1",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-11",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "14",
+              "online_store_visitors": "11",
+              "sessions_with_cart_additions": "2",
+              "sessions_that_reached_checkout": "1",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.07142857142857142",
+              "bounce_rate": "0.6428571428571429"
+            },
+            {
+              "day": "2026-09-12",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "3",
+              "online_store_visitors": "3",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.6666666666666666"
+            },
+            {
+              "day": "2026-09-12",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "37",
+              "online_store_visitors": "34",
+              "sessions_with_cart_additions": "1",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "0.8378378378378378"
+            },
+            {
+              "day": "2026-09-13",
+              "landing_page_path": "/products/the-eleanor-weekender",
+              "sessions": "1",
+              "online_store_visitors": "1",
+              "sessions_with_cart_additions": "0",
+              "sessions_that_reached_checkout": "0",
+              "sessions_that_completed_checkout": "0",
+              "conversion_rate": "0.0",
+              "bounce_rate": "1.0"
+            },
+            {
+              "day": "2026-09-13",
+              "landing_page_path": "/products/velantra-weekender",
+              "sessions": "70",
+              "online_store_visitors": "69",
+              "sessions_with_cart_additions": "6",
+              "sessions_that_reached_checkout": "2",
+              "sessions_that_completed_checkout": "1",
+              "conversion_rate": "0.014285714285714285",
+              "bounce_rate": "0.7"
+            }
+          ]
+        },
+        "parseErrors": []
+      }
+    },
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 3,
+        "actualQueryCost": 3,
+        "throttleStatus": {
+          "maximumAvailable": 4000.0,
+          "currentlyAvailable": 3997,
+          "restoreRate": 200.0
+        }
+      },
+      "shopifyqlCost": {
+        "requestedQueryCost": 34,
+        "maximumAvailable": 1000,
+        "currentlyAvailable": 966,
+        "windowResetAt": "2026-09-13T16:49:00+00:00"
+      }
+    }
+  }
+}
