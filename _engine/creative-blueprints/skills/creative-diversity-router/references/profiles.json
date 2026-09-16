@@ -1,0 +1,1386 @@
+{
+  "schema_version": 1,
+  "status": "generalized target direction calibrated to inspected references",
+  "concepts": [
+    {
+      "id": "street-personal-profile",
+      "skill": "concept-street-style-interview",
+      "ref": "R01",
+      "title": "Personal wardrobe interview",
+      "premise": "An appealing wearer introduces a look, then gives its objects personal meaning. Curiosity about a person sustains the sequence.",
+      "script": "Source architecture: identity/place \u2192 item questions \u2192 personal provenance \u2192 complete outfit/accessories \u2192 playful human close. Prepare questions and preserve actual answers. New ad copy and any sales handoff follow the current copy SOP and evidence rules.",
+      "fixed": "One recognizable wearer; questions motivate attention; memory stays with the speaker; whole outfit resolves the details.",
+      "variable": "Number of items, location, interview length, caption treatment and an explicitly added target CTA. The personal story must be authentic or transparently dramatized.",
+      "beats": [
+        [
+          "P1",
+          "Style hook and orientation",
+          "Wearer already turns or gestures within a striking complete look.",
+          "A",
+          "Primary coverage; enter immediately \u2192 hold through identifying answer.",
+          "3\u20137s opening; direct cut only if orientation improves.",
+          "Desirable styling earns the interview; face and outfit establish who we are following."
+        ],
+        [
+          "P2",
+          "Item identification",
+          "Face/accessory medium shot; wearer touches the named detail.",
+          "A",
+          "Keep primary frame; object cue \u2192 answer complete; no automatic insert.",
+          "4\u201312s answer module; hold or motivated widen.",
+          "Visible accessories can illustrate speech without interrupting the wearer."
+        ],
+        [
+          "P3",
+          "Garment silhouette",
+          "Widen or tilt to the complete garment as it is named.",
+          "A",
+          "Primary reframe; garment noun \u2192 full silhouette readable; retain dialogue.",
+          "3\u20137s; cut at topic reset or make one continuous move.",
+          "Larger clothing needs a wider field than facial jewelry."
+        ],
+        [
+          "P4",
+          "Personal meaning",
+          "Hold face during a real memory; preserve pause and reaction.",
+          "A",
+          "Primary face; provenance cue \u2192 thought/reaction resolves.",
+          "5\u201315s if warranted; no decorative cover.",
+          "The person supplies the meaning; stock family imagery would imply unsupported history."
+        ],
+        [
+          "P5",
+          "Small item inspection",
+          "Wearer raises bag, extends foot or rotates jewelry for a clear view.",
+          "D",
+          "Prefer in-shot movement; if separate insert, enter on item \u2192 leave after gesture \u2192 return face.",
+          "1.5\u20134s detail plus movement; direct cut if separate.",
+          "The selected orientation answers the item question and then restores rapport."
+        ],
+        [
+          "P6",
+          "Human close",
+          "Tighter face and complete smile/joke response.",
+          "A",
+          "Primary face; last question \u2192 reaction resolves; optional target tag follows.",
+          "2\u20135s response; optional 1.5\u20133s brand hold.",
+          "A resolved human moment is the source-style ending."
+        ]
+      ],
+      "styles": [
+        [
+          "A",
+          "Environmental portrait/video; eye-level handheld drift, ordinary daylight, real street depth, consistent wearer and wardrobe. Recorded or transparently staged/generated.",
+          "Primary interview and emotion; medium-to-full views, not random lifestyle B-roll."
+        ],
+        [
+          "D",
+          "Close physical item reveal in the same light/world; clear hand orientation, natural texture, restrained movement.",
+          "Accessory cue only; mostly primary camera movement, separate B-roll only if genuinely needed."
+        ]
+      ],
+      "assets": "One authorized wearer/look and question/answer source; full silhouette and face coverage; distinct detail views only for selected items; caption transcript if used; optional verified target CTA.",
+      "calibration": "R01 is 45.21s with three framing segments. Direct changes at f670/22.333s and f1202/40.067s bracket a wider outfit section. Serif phrase captions change without creating picture cuts. No separate B-roll or sales end card was observed.",
+      "edit": {
+        "coverage": "One full-frame wearer. Keep face, garment and microphone clear; no permanent split-screen. Detail coverage is usually a motivated in-shot reframe.",
+        "cuts": "Cut at a question/topic reset, a needed scale change or the closing reaction. Preserve complete memory, foot/bag gesture and joke response. No periodic punch-in timer.",
+        "transitions": "Direct cuts, zero overlap. A continuous tilt/approach is camera movement, not a dissolve. No default wipes or flashes; any target brand fade is a separate optional ending event.",
+        "broll": "Default separate B-roll is zero. If an item cannot be read in the primary frame, insert its actual detail on the named item, hold through orientation, and return to the same answer/face after recognition. Keep interview audio continuous.",
+        "motion": "Move medium \u2192 wider for garment; follow the wearer\u2019s reveal; settle before a small detail needs reading. Avoid post zoom during the emotional answer. Proposed crop changes depend on source resolution, not guessed reference keyframes.",
+        "text": "Optional restrained serif phrase captions over a low-detail torso region; generally one or two lines. Move the caption region when it would cover the named item. Replace with actual phrases, independently of picture cuts.",
+        "audio": "Prioritize question/answer and useful ambient continuity. Preserve thoughtful pauses and laughter. Any music stays subordinate; no fabricated sentimental SFX during personal history. Exact source mix is unverified.",
+        "finish": "Natural skin/material color and coherent daylight; match exposures between real takes. No routine speed changes, freezes, fake handheld shake or aggressive glamour filter.",
+        "ending": "Return to the face for the final human response. A target offer/tag is an explicit addition, with readable hold and verified facts; do not overwrite the actual answer.",
+        "adapt": "Shorten by selecting fewer complete item modules, not clipping the meaningful memory. Lengthen through specific follow-ups and new details, not extra crops. Protect approved words and reaction time.",
+        "reject": "Reject invented provenance, covered emotional answers, unreadable accessories, false brand authentication and repeated detail footage. Check exact answer meaning and caption sync."
+      }
+    },
+    {
+      "id": "street-event-roundup",
+      "skill": "concept-street-style-interview",
+      "ref": "R11",
+      "title": "Event outfit roundup",
+      "premise": "A coherent event introduces several distinct looks; questions and live physical reveals make each person a new discovery.",
+      "script": "Each encounter repeats a flexible conversation module: complete look \u2192 item names \u2192 distinctive detail/origin \u2192 thanks. Some stop after one answer. Avoid scripted identical endorsements.",
+      "fixed": "Meaningfully different wearers/looks; full look before close detail; actual item movement follows questions; return to person before switching encounters.",
+      "variable": "Participant count, event setting, encounter length, detail order and optional captions. A brief answer may remain brief.",
+      "beats": [
+        [
+          "E1",
+          "First-frame fashion promise",
+          "First wearer turns in a complete desirable outfit.",
+          "W",
+          "Full primary view; first frame \u2192 enough orientation for first answer.",
+          "3\u20136s; direct cut to new wearer only after resolved gesture.",
+          "The outfit itself hooks and establishes the event format."
+        ],
+        [
+          "E2",
+          "New person",
+          "Establish each new silhouette and face before details.",
+          "W",
+          "Primary wide/medium; new question \u2192 wearer begins specific item.",
+          "2\u20135s orientation per encounter.",
+          "New proportions/colors renew attention while the event remains coherent."
+        ],
+        [
+          "E3",
+          "Named large item",
+          "Approach/tilt to belt, garment or turned bag.",
+          "D",
+          "Continuous primary move preferred; item noun \u2192 shape readable \u2192 rise toward face.",
+          "2\u20135s per item including move/settle.",
+          "Camera attention follows the question rather than an arbitrary shot timer."
+        ],
+        [
+          "E4",
+          "Small detail/provenance",
+          "Wearer extends jewelry or turns head; hold actual origin answer.",
+          "D",
+          "Close detail \u2192 face when personal meaning begins.",
+          "2\u20136s detail; longer answer stays on face.",
+          "A ring needs a different orientation from a watch on the same wrist."
+        ],
+        [
+          "E5",
+          "Human detour",
+          "Stay through a brief joke, unbranded-item answer or delayed reveal.",
+          "W",
+          "Primary face; unexpected answer \u2192 response resolves.",
+          "2\u20138s when useful; no stock cover.",
+          "Differences between people keep the roundup from feeling mechanical."
+        ],
+        [
+          "E6",
+          "Resolve and move on",
+          "Thank-you/smile; direct cut to a visibly different new look or finish.",
+          "W",
+          "Face/full look \u2192 next encounter E2 or final response.",
+          "1\u20133s close; repeat E2\u2013E6 only for distinct people.",
+          "A clear encounter boundary provides reset without transitional decoration."
+        ]
+      ],
+      "styles": [
+        [
+          "W",
+          "Event street footage: full outfits, offscreen questions, handheld approach, real crowd/weather context and varied silhouettes.",
+          "Primary coverage, including facial reactions."
+        ],
+        [
+          "D",
+          "Live close approach/tilt, same wearer/world; hands expose an accessory and camera settles. No isolated glossy stock packshot.",
+          "Named item detail; usually continuous A-roll, not separate B-roll."
+        ]
+      ],
+      "assets": "Distinct authorized participants/looks; actual interview sound; complete gestures and usable ambient handles. No external inserts are required by default.",
+      "calibration": "R11 is 114.87s with seven women, nine continuous visual segments and eight cuts at f179,707,1094,1799,1855,2360,2462,2746. Six cuts introduce wearers and two jump within encounters. Most item changes happen through camera movement. No added captions.",
+      "edit": {
+        "coverage": "One wearer fills the frame at a time. Establish full silhouette, then follow actual accessories and return to face. Do not treat each downward tilt as another shot.",
+        "cuts": "New wearer at resolved answer/thanks; within-encounter jump only for a useful detail or redundancy. Preserve different encounter lengths; no mandatory per-person shot count.",
+        "transitions": "Direct hard cuts, zero overlap. Weather/background changes may remain if they mark a new encounter. Avoid dissolving two faces together or adding a wipe for each item.",
+        "broll": "Default zero separate B-roll. A needed insert must show that wearer\u2019s actual item at its question cue, preserve the answering audio and return before the next personal question. No generic brand stock under provenance.",
+        "motion": "Follow extended hand, turning bag, raised foot or exposed earring. Settle long enough to inspect. Return upward intentionally; do not whip between unrelated body parts or manufacture digital shake.",
+        "text": "Source uses no added captions. Target captions are an explicit accessibility/delivery choice: short accurate phrases with moving safe placement away from the item. Item labels need verified names; omit uncertain labels.",
+        "audio": "Keep enthusiastic but intelligible questions, answers and event ambience. Smooth discontinuous room tone only where needed. Optional music supports energy without covering a quiet respondent.",
+        "finish": "Preserve real event texture and diverse light; correct exposure/color for readability without erasing the environment. No routine slow motion or speed ramps over speech.",
+        "ending": "Allow the final wearer\u2019s reply/smile to resolve. A brand handoff is an explicit target adaptation, never a claim the reference participants endorse that product.",
+        "adapt": "Shorten by fewer distinct encounters or fewer questions; lengthen through new looks and meaningful answers. Never make seven speakers recite the same benefit to fill time.",
+        "reject": "Reject near-identical looks passed off as diversity, wrong accessory at a cue, clipped answers and invented brand names. Check all camera reveals and each encounter\u2019s completion."
+      }
+    },
+    {
+      "id": "cultural-conversation",
+      "skill": "concept-brand-cultural-interview",
+      "ref": "R07",
+      "title": "Brand cultural conversation",
+      "premise": "Host and guest reveal taste and personality through a shared cultural interest; their relationship is the main visual subject.",
+      "script": "Accessible recommendation questions \u2192 specific anecdotes/banter \u2192 more personal belief or experience \u2192 shared close. Prepare a question ladder; preserve actual answer meaning. The source is not a direct product VSL.",
+      "fixed": "Speaker/listener relationship, topic chapters and meaningful two-shot holds. Expressions can be more useful than literal pictures of named places.",
+      "variable": "Topics, number of chapters, locations, participants and a separately justified brand ending.",
+      "beats": [
+        [
+          "C1",
+          "Introduce chemistry",
+          "Both people answer/react within an immediately readable shared setting.",
+          "T",
+          "Primary two-shot; opening question \u2192 initial answer or joke lands.",
+          "3\u20138s module; cut for an actual answer/reaction.",
+          "Both faces establish a relationship, not a presenter monologue."
+        ],
+        [
+          "C2",
+          "Specific recommendation",
+          "Guest gives concrete detail; alternate closer guest and two-shot by meaning.",
+          "F",
+          "Primary speaker; answer begins \u2192 detail complete \u2192 return shared frame.",
+          "2\u20136s views; longer complete thought may hold.",
+          "Closer face concentrates information while wider return preserves rapport."
+        ],
+        [
+          "C3",
+          "Banter and listener response",
+          "Cut to host/listener when the reaction adds meaning.",
+          "F",
+          "Reaction can precede voice change; outgoing speech continues if aligned.",
+          "1\u20133s readable reaction, then two-shot.",
+          "Who is most meaningful to see is not always who is speaking."
+        ],
+        [
+          "C4",
+          "New topic chapter",
+          "New position/background with both speakers recognizable.",
+          "T",
+          "Enter at new question; update topic title separately.",
+          "1\u20133s reorientation before detail coverage.",
+          "Location/color change marks a chapter while wardrobe anchors continuity."
+        ],
+        [
+          "C5",
+          "Personal story",
+          "Hold two-shot or speaker/meaningful listener through complete anecdote.",
+          "T",
+          "Primary conversation; personal turn \u2192 story and response resolve.",
+          "5\u201312s holds when warranted.",
+          "Longer shared attention gives emotional weight and pace contrast."
+        ],
+        [
+          "C6",
+          "Close relationship",
+          "Mutual appreciation and shared laugh.",
+          "T",
+          "Two-shot \u2192 optional guest reply close \u2192 shared finish.",
+          "2\u20135s closing module.",
+          "The social exchange resolves without an unearned sales interruption."
+        ]
+      ],
+      "styles": [
+        [
+          "T",
+          "Environmental two-shot, coherent styled wardrobe, street texture/daylight, slight natural drift or walking track.",
+          "Primary conversation and topic orientation."
+        ],
+        [
+          "F",
+          "Closer face/listener coverage from compatible eyeline and setting; no invented camera provenance.",
+          "Information emphasis, performed quotation, listening and reaction."
+        ]
+      ],
+      "assets": "Authorized speakers and actual/staged dialogue; two-shot plus meaningful faces; chapter locations; accurate transcript/topic labels. External B-roll only for a demonstrated information gap.",
+      "calibration": "R07 runs 133.07s. Topic/location changes occur at f400,1430,2068,2524,2971,3851. A 9.83s two-shot spans f3196\u20133491. At f3671 the guest is shown listening while the host continues. No literal restaurant/shop B-roll or sales end card.",
+      "edit": {
+        "coverage": "Two-shot is the relational anchor; guest/host/listener faces are primary conversational coverage, not generic B-roll. Keep consistent eyelines and readable hands/mics.",
+        "cuts": "Cut on informative emphasis, a new answer, a revealing response or a chapter. Preserve the reaction after humor and the full emotional thought. No alternating close/wide pattern merely to hit a timer.",
+        "transitions": "Direct cuts and restrained reframing. Location chapter changes can be hard cuts with continuous conversational context. Proposed J/L cuts require actual audio alignment; they are not certified source settings.",
+        "broll": "Default external inserts are zero. Add one only if a necessary detail cannot be understood from speech/gestures; enter on that referent, leave before the relational punchline and return to speaker/listener. Do not automatically cover named restaurants.",
+        "motion": "Walking scenes may track backward while keeping both faces legible. A discrete crop can emphasize a speaker; hold the new scale rather than bounce each sentence. Keep text fixed in frame during any post transform.",
+        "text": "Separate persistent topic title from phrase captions. Proposed vertical layout: topic near upper clear space, speech in lower middle above interface exclusion. Change the title only at chapter cues; preserve short complete phrases.",
+        "audio": "Conversation, laughter and pauses lead. Bridge ambient discontinuities without implying continuous location when it changed. Optional music stays under both voices; maintain natural listener timing.",
+        "finish": "Natural street/editorial color and consistent skin tone; wardrobe supplies palette. No unsupported slow-motion or freeze treatment over a real response.",
+        "ending": "Resolve the shared thought and goodbye. A target brand tag is separate from the conversation and must not create fictitious endorsement.",
+        "adapt": "Shorten by fewer chapters while keeping question/answer/reaction. Lengthen by deeper anecdotes and meaningful follow-ups, not more crop changes. Protect the personal section\u2019s slower pace.",
+        "reject": "Reject stock food covering a joke, reaction shots that reverse meaning, fabricated spontaneity and topic labels that overstate expertise. Verify actual speakers/captions and timing."
+      }
+    },
+    {
+      "id": "greenscreen-comparison-guide",
+      "skill": "concept-ai-greenscreen-guide",
+      "ref": "R05",
+      "title": "Greenscreen comparison and service guide",
+      "premise": "A visible guide earns attention through concrete comparisons, then explains a method/service and shows the action destination.",
+      "script": "Rapid paired examples \u2192 guide identity/promise \u2192 distinct selection criteria \u2192 process/interface \u2192 desired outcome and destination. Verify prices, criteria and credentials; AI or recorded presenter is a target production choice.",
+      "fixed": "Stable guide; predictable comparison layout; different diagrams for different concepts; intentional switch to interface demonstration.",
+      "variable": "Number/categories of comparisons, criterion count, graphics layout, service and CTA. Reduce examples before making prices unreadable.",
+      "beats": [
+        [
+          "G1",
+          "Comparison hook",
+          "First attractive product pair appears while guide names alternatives.",
+          "O",
+          "Overlay above stable presenter; first name \u2192 first item, second name \u2192 second item.",
+          "1.8\u20133s per pair; replace pair after comparison lands.",
+          "Simultaneous objects let viewers inspect the contrast."
+        ],
+        [
+          "G2",
+          "Broaden examples",
+          "New category/shape, same comparison grammar.",
+          "O",
+          "Replace obsolete pair/prices together; presenter audio stays continuous.",
+          "1.8\u20133s per additional pair; 2\u20136 pairs total including G1 if useful.",
+          "New examples build breadth without new layout learning."
+        ],
+        [
+          "G3",
+          "Guide identity",
+          "Clear product clutter and let face explain the promise.",
+          "P",
+          "Full presenter; persona/benefit cue \u2192 first criterion noun.",
+          "3\u20136s; direct reset.",
+          "A clean visual pause connects the demonstrated judgment to the guide."
+        ],
+        [
+          "G4",
+          "Explain criteria",
+          "Distinct body, palette, contrast or styling card for the named idea.",
+          "D",
+          "Overlay at its criterion \u2192 leave/replace before next criterion; avoid face.",
+          "1.2\u20133s per simple card; longer for actual reading.",
+          "Each graphic answers a different question; a reused generic chart would blur meaning."
+        ],
+        [
+          "G5",
+          "Show process",
+          "Small presenter cutout over readable actual interface area.",
+          "U",
+          "Switch on process cue \u2192 show useful page action \u2192 return face when benefit resumes.",
+          "3\u20137s per meaningful action.",
+          "The layout change turns an abstract service into an inspectable process."
+        ],
+        [
+          "G6",
+          "Destination CTA",
+          "Show current destination, mark exact relevant link/control, then clear.",
+          "U",
+          "Enter on action instruction \u2192 hold for recognition \u2192 face or simple ending.",
+          "2\u20134s; optional final benefit hold 1.5\u20133s.",
+          "The viewer sees where the instruction leads."
+        ]
+      ],
+      "styles": [
+        [
+          "P",
+          "Stable seated/standing guide in controlled natural-looking room; coherent wardrobe, lens height and identity.",
+          "Primary presenter and interpretive holds; AI origin must not be assumed."
+        ],
+        [
+          "O",
+          "Clean accurate product cutouts plus succinct verified labels/prices; paired, consistent mapping, readable silhouettes.",
+          "Comparisons only; appearance similarity does not prove equivalent quality."
+        ],
+        [
+          "D",
+          "Distinct educational cards: diagram, color palette, contrast or styled example with one dominant idea.",
+          "At the matching criterion; diagrams are explanations, not evidence of professional credentials."
+        ],
+        [
+          "U",
+          "Authentic current website/app/profile capture or labeled illustrative mockup; readable crop, purposeful scroll.",
+          "Process and CTA; not proof of research hours or outcomes."
+        ]
+      ],
+      "assets": "Approved presenter; two accurate cutouts per comparison; verified comparison facts; distinct criterion graphics; actual destination/interface; transcript and mask-safe compositions.",
+      "calibration": "R05 is 28.91s. Six paired examples occupy 0\u201311.07s; presenter/criteria follow; keyed website section is 19.93\u201323.47s; profile CTA is 25.60\u201326.87s. Overlay changes and base presenter resets are separate events.",
+      "edit": {
+        "coverage": "Presenter is base; product/diagram cards are overlays, then interface becomes background with smaller keyed presenter. Keep the mouth/eyes visible and the active evidence area unobstructed.",
+        "cuts": "Change comparisons on each new pair, not each caption word. Clear overlays for persona/interpretation. Reset body footage at a clean phrase seam; hidden cuts beneath cards remain separate from card events.",
+        "transitions": "Direct base cuts. Proposed graphic entrances: 0.15\u20130.30s short slide or scale from the assigned side, then settle; do not animate prices while reading. Remove outgoing pair before unrelated one overlaps. Interface handoff is one layout event, not a chain of wipes.",
+        "broll": "Product and criterion assets annotate the guide rather than cover the whole screen by default. Website coverage begins on process language and ends when the guide interprets the benefit. Each insert needs a named exit and return state.",
+        "motion": "Keep camera stable. Direct guide gesture toward the active evidence region. Scroll only enough to show the relevant function; avoid uncontrolled full-page movement. Inspect mask edges, glasses and hand occlusion.",
+        "text": "Separate comparison labels/prices, criterion names, speech captions and CTA arrow. Proposed safe layout reserves face/mouth zone and a lower caption band; adjust for actual aspect/subject. Verify all numbers and labels.",
+        "audio": "Brisk rhythmic pair naming can ease into explanatory speech. Keep voice continuous through graphics; optional soft comparison accents only where they clarify a change. Align after final voice, not model timestamps.",
+        "finish": "Consistent room light and clean edges. Match asset scale for fair visual comparison, not misleading real-size equivalence. No speed-ramped presenter speech; interface movement can be edited only without misrepresenting function.",
+        "ending": "Use actual current destination and one clear action. Circle/arrow starts when named and leaves enough unobstructed reading time. Optional benefit line returns to presenter after the destination is understood.",
+        "adapt": "Shorten by fewer pairs/criteria, not sub-readable prices. Lengthen with meaningful worked examples or actual process actions. Resolve dense diagram time conflicts before generation.",
+        "reject": "Reject face-covering products, stale prices, false identical-quality claims, duplicated criterion graphics, illegible scrolling and fake credentialed personas. Check every layer independently."
+      }
+    },
+    {
+      "id": "podcast-reverse-listicle",
+      "skill": "concept-podcast-split-screen",
+      "ref": "R02",
+      "title": "Podcast-style reverse-selling listicle",
+      "premise": "A stable speaker frames desirable benefits as ironic reasons to avoid the product; changing illustrations make the argument concrete.",
+      "script": "Provocative exclusion/hook \u2192 distinct numbered reasons \u2192 interpretation/product introduction \u2192 sensory or use detail \u2192 verified value/offer. The target copy SOP still governs new argument development; irony cannot invent proof or invert real risks misleadingly.",
+      "fixed": "One speaker anchor, distinct propositions, full-speaker rhetorical resets, semantically timed lower-panel inserts and a deliberate product reveal.",
+      "variable": "Reason count, duration, reveal point, panel proportion and types of evidence. Microphone styling does not establish a real independent podcast.",
+      "beats": [
+        [
+          "L1",
+          "Ironic hook",
+          "Speaker plus an immediately legible product/outcome illustration.",
+          "H",
+          "Split layout; hook referent \u2192 turn introducing first reason.",
+          "3\u20136s hook module; cut to full speaker on numbered reset.",
+          "A visual promise makes the rhetorical inversion understandable."
+        ],
+        [
+          "L2",
+          "Reason/chapter",
+          "Full speaker delivers reason title or sarcastic turn.",
+          "P",
+          "Remove lower insert at reason opening \u2192 restore only when a concrete illustration is named.",
+          "1\u20133s reset, or whole qualifying sentence.",
+          "Expression carries the joke and organizes the list."
+        ],
+        [
+          "L3",
+          "Illustrate supported benefit",
+          "Distinct action, sensory metaphor or substantiated explanatory view.",
+          "B",
+          "Lower panel enters on operative clause \u2192 exits before a different proposition \u2192 P.",
+          "1.5\u20134s simple insert; 3\u20136s actual process.",
+          "Picture translates this particular proposition; its proof limits remain explicit."
+        ],
+        [
+          "L4",
+          "Interpret or qualify",
+          "Return full face for qualification, punchline or next reason.",
+          "P",
+          "Leave B before the interpretive clause; continuous narrator audio.",
+          "1.5\u20134s; repeat L2\u2013L4 for genuinely different reasons.",
+          "A speaker return tells the viewer how to read the previous illustration."
+        ],
+        [
+          "L5",
+          "Name and reveal product",
+          "Speaker holds accurate item; brief close product emphasis.",
+          "H",
+          "Enter product view at named introduction \u2192 retain through recognition \u2192 split only for new useful detail.",
+          "2\u20135s recognition.",
+          "The argued benefits resolve into a purchasable object."
+        ],
+        [
+          "L6",
+          "Specific sensory/use detail",
+          "New texture/action or ingredient-like metaphor with accurate status.",
+          "B",
+          "Insert on exact descriptor \u2192 leave when voice changes to value/policy.",
+          "1.5\u20133.5s per distinct idea.",
+          "Sensory imagery evokes the described experience without pretending to prove composition."
+        ],
+        [
+          "L7",
+          "Value/offer and action",
+          "Product with speaker or verified offer graphic.",
+          "H",
+          "Full speaker/product at CTA \u2192 hold complete action and readable facts.",
+          "3\u20136s closing module.",
+          "The product and truthful instruction stay identifiable at decision time."
+        ]
+      ],
+      "styles": [
+        [
+          "P",
+          "Warm controlled podcast-like room, stable medium speaker, compatible microphone and wardrobe; authorized recorded or clearly staged/generated performance.",
+          "Primary interpretation, reason resets and rhetorical pauses."
+        ],
+        [
+          "B",
+          "Per-beat specified insert: native human action in plausible daylight; tactile macro with controlled light; or clean explanatory animation at the correct scale. Distinct subjects/actions throughout.",
+          "Lower panel; literal action, metaphor or supported mechanism are separately tagged, never interchangeable proof."
+        ],
+        [
+          "H",
+          "Recognizable product-in-hand/packshot or relevant human outcome; accurate product reference and clear silhouette.",
+          "Hook/reveal/CTA; human scenes are illustrations unless genuine documented testimony."
+        ]
+      ],
+      "assets": "Stable presenter performance; distinct beat-linked inserts; approved product views; supported claim/offer ledger; accurate captions; final aligned narration. No reference adoption/stock statistics transfer automatically.",
+      "calibration": "R02 is 112.64s. Full-speaker resets include f131,369,666,1006,1436,1672,1751,2029,2706; a product close emphasis occurs at f2050/82s. Upper speaker/lower illustrations and seam-area captions dominate. Generator and podcast provenance are unknown.",
+      "edit": {
+        "coverage": "Proposed vertical split starts near half frame, adjustable for face and evidence. Full speaker is a separate state, not merely an empty lower panel. Keep captions near a stable seam/clear region without obscuring product or mouth.",
+        "cuts": "Enter a reason on speaker, cut the lower panel on semantic action change, return on qualification or punchline. Do not cut the upper speaker whenever lower footage changes. Preserve ironic pauses and complete demonstrations.",
+        "transitions": "Zero-overlap cuts between lower-panel inserts and for rhetorical resets. Proposed product punch is one discrete closer framing at introduction, held through recognition. No continuous zoom bounce or mandatory wipes. Any overlap belongs only to a justified within-insert process.",
+        "broll": "Enter on the clause it explains, not at the top of an unrelated sentence. Leave before price/policy/interpretation unless the image directly serves it. Return to P at every reason transition where expression matters. Metaphor, actual demonstration and evidentiary footage each have explicit status.",
+        "motion": "Stable speaker; varied meaningful action inside inserts. A macro may move slowly to expose texture; explanatory animation follows the actual causal interaction. Avoid repeating generic reactions or a single science view.",
+        "text": "Short uppercase phrase captions in a consistent high-contrast treatment are an available source-matched direction. Keep reason numbers as structural text, claims/offer as verified labels, captions as exact speech. Separate their event timing.",
+        "audio": "Voice anchors all visual changes; direct dry delivery with intelligible pauses for irony. Music subordinate; minimal accents at a real rhetorical turn. Do not invent audio cuts from the visual edit; align real final voice first.",
+        "finish": "Presenter world remains consistent; insert media may differ deliberately by semantic job. Normalize readability without making documentary-like clips into glossy product film. No unapproved narration speed changes.",
+        "ending": "Reveal timing follows the brief, not source percentage. Finish with visible exact product and truthful offer/action. Generic romantic imagery cannot support a guarantee or customer count.",
+        "adapt": "Shorten by fewer supported reasons or simpler illustrations within authorized copy scope. Lengthen via new proof or explanation, not more filler panels. Preserve each proposition\u2019s speaker \u2192 illustration \u2192 interpretation logic.",
+        "reject": "Reject fictitious expert/customer endorsement, repeated source clips, unsupported molecular proof, irony that reverses factual meaning and pictures that lag their clause. Verify every insert exit/return."
+      }
+    },
+    {
+      "id": "craft-to-carry-film",
+      "skill": "concept-branded-craft-film",
+      "ref": "R03",
+      "title": "Craft-to-carry brand film",
+      "premise": "Tactile material and purposeful making/handling lead to a desirable finished object and styled ownership.",
+      "script": "Visual sequence rather than spoken VSL: material/action \u2192 construction variation \u2192 finished form \u2192 worn/carry confidence \u2192 brand. Sparse chapter copy may carry the thought; do not invent documentary manufacturing claims.",
+      "fixed": "Distinct visible actions, tactile scale, purposeful macro-to-whole progression, slower ownership payoff and readable identity finish.",
+      "variable": "Product-specific operations, number of details, color variants, sparse text, optional recorded material sound and end-card duration.",
+      "beats": [
+        [
+          "F1",
+          "Material hook",
+          "Hands/tool already contact an attractive accurate surface.",
+          "M",
+          "Full-frame action; first frame \u2192 useful material change visible.",
+          "0.7\u20131.5s; hard cut at useful action phase.",
+          "Immediate tactile action establishes the craft subject."
+        ],
+        [
+          "F2",
+          "Construction detail",
+          "Different operation and angle: stitch, seam, handle or attachment.",
+          "M",
+          "Primary process montage; each action result \u2192 distinct next operation.",
+          "0.6\u20131.8s each; 3\u20136 genuinely different views.",
+          "Specific actions suggest care without repeating the same hand stroke."
+        ],
+        [
+          "F3",
+          "Finished function",
+          "Open/close, lift or handle actual finished item.",
+          "O",
+          "Cut on completed process idea \u2192 hold until function result readable.",
+          "1\u20132.5s per simple action.",
+          "Details connect to a usable object rather than anonymous workshop texture."
+        ],
+        [
+          "F4",
+          "Whole-object reveal",
+          "Clear accurate silhouette with clean surrounding space.",
+          "O",
+          "Enter after fragments \u2192 leave only when recognizable.",
+          "1.5\u20133s; direct cut to wearer/carry.",
+          "The viewer resolves components into the product they might own."
+        ],
+        [
+          "F5",
+          "Aspirational ownership",
+          "Styled wearer walks/carries; product silhouette moves naturally.",
+          "W",
+          "Full-frame payoff; outfit/action begins \u2192 stride/carry reads cleanly.",
+          "3\u20135s; slow the montage here.",
+          "Ownership and outfit improvement provide the fashion outcome."
+        ],
+        [
+          "F6",
+          "Brand memory",
+          "Simple clean identity or truthful target CTA.",
+          "G",
+          "Hard cut after resolved carry gesture \u2192 readable finish.",
+          "2\u20134s proposed end hold.",
+          "A calm final frame gives the tactile sequence an identifiable owner."
+        ]
+      ],
+      "styles": [
+        [
+          "M",
+          "Warm tactile macro, shallow-focus appearance, real hands and distinct tools/actions; authentic tied-to-product process sources preferred.",
+          "Material/process. Generated workshop illustration cannot be labeled actual manufacture."
+        ],
+        [
+          "O",
+          "Controlled neutral tabletop/object handling, accurate construction, clean light with texture retained.",
+          "Function and silhouette recognition."
+        ],
+        [
+          "W",
+          "Editorial styled carry with clear outfit relationship and natural gait; coherent product identity.",
+          "Payoff, not capacity-first problem agitation."
+        ],
+        [
+          "G",
+          "Restrained plain brand/CTA graphic with adequate negative space.",
+          "Final identity only; not speech captions."
+        ]
+      ],
+      "assets": "Approved exact product and distinct real process footage or explicitly illustrative generated assets; functional views; styled carry; approved logo/copy; sound/music rights.",
+      "calibration": "R03 has 12 segments/11 direct cuts in 17.43s at 4:5. Process shots run about 0.53\u20131.80s; carry f300\u2013410 holds 3.67s; brand f410\u2013523 holds 3.77s. Three restrained text chapters, no spoken sales argument.",
+      "edit": {
+        "coverage": "Full-frame details and wider payoff; no presenter or inset architecture required. Image hierarchy changes from contact/action to complete object to wearer.",
+        "cuts": "Cut when a new operation, scale or ownership phase adds information. Complete the visible function even if a musical tick arrives early. Lengthen the payoff after quicker construction details.",
+        "transitions": "Direct cuts, zero overlap, are the base grammar. Match direction or contact when useful but do not fake continuous manufacture across different products. Optional final fade is target direction, not observed source necessity.",
+        "broll": "The film is primary visual storytelling; process/details can serve as B-roll in a larger hybrid only at a matching craft/function cue. In that case exit after action completion and return to the parent speaker or whole product, not an unrelated stock scene.",
+        "motion": "Subject/tool action leads. Controlled following movement can track carry; a macro camera move is justified only if it reveals a surface or part. Avoid automatically pushing into every still.",
+        "text": "Sparse chapter copy, consistent clear zone and modest scale. Give each phrase enough uninterrupted time; one chapter may span several shots. Logo is a separate ending event.",
+        "audio": "Plan atmospheric/original music and selected tactile contact/closure/footstep sounds when appropriate. Use actual sound or transparently designed effects; exact source effects were not verified. No obligatory voice track.",
+        "finish": "Warm materials, controlled neutrals and coherent contrast. Preserve actual material color. No unverified speed ramps; slow footage only when authorized and physically convincing. Avoid heavy grain masking product detail.",
+        "ending": "Whole/carry recognition precedes brand. CTA is optional to the target brief and cannot replace the entire ownership payoff.",
+        "adapt": "Shorten by fewer distinct operations while preserving whole product and carry. Lengthen through meaningful craft/use details, not longer logo padding or repeats. Do not imply a process the brand cannot substantiate.",
+        "reject": "Reject misrepresented workshop provenance, impossible tool contact, changing hardware/material, cropped silhouette and identical actions in different files. Verify that styling remains the main desired outcome."
+      }
+    },
+    {
+      "id": "animated-discovery-musical",
+      "skill": "concept-animated-discovery-musical",
+      "ref": "R04",
+      "title": "Animated discovery narrative with refrain",
+      "premise": "A recurring fictional protagonist carries a desire through a barrier, discovery and ownership payoff; musical branding can form a separate final chapter.",
+      "script": "Source: aspirational anecdote \u2192 coveted object \u2192 barrier/worry \u2192 unresolved desire \u2192 discovery \u2192 future use \u2192 value \u2192 receipt/try-on \u2192 attention \u2192 brand refrain \u2192 offer. Target new copy follows the current SOP; fictional events and social response stay distinct from proof.",
+      "fixed": "Causal character journey, consistent world/identity, deliberate product reveal, expression matching each line and a motivated shift into product/refrain coverage.",
+      "variable": "Runtime, reveal delay, locations, sung/spoken balance, refrain length and offer. No requirement to copy the source\u2019s long product delay or repeated catalogue.",
+      "beats": [
+        [
+          "N1",
+          "Visible desire",
+          "Character performs one purposeful action; coveted look/object becomes clear.",
+          "A",
+          "Full-frame primary story; opening action \u2192 destination of desire established.",
+          "3\u20137s per opening action.",
+          "Action gives the viewer a goal to follow."
+        ],
+        [
+          "N2",
+          "Coveted appearance",
+          "Character looks/approaches; change viewpoint to reveal desired design.",
+          "A",
+          "Enter on desire description \u2192 hold reaction and object recognition.",
+          "4\u20138s per meaningful view.",
+          "Aspirational appearance earns the coming decision."
+        ],
+        [
+          "N3",
+          "Supported barrier",
+          "Readable obstacle and fitting expression; phone/search if context requires.",
+          "A",
+          "Barrier cue \u2192 factual/fictional status clear \u2192 emotional consequence.",
+          "4\u20139s action/answer module.",
+          "Visible action makes the obstacle specific; no generic distress montage."
+        ],
+        [
+          "N4",
+          "Discovery and named reveal",
+          "Show exact target product at its introduction; character\u2019s attention connects to it.",
+          "A",
+          "Preserve reveal constraint \u2192 hold recognizable product \u2192 new useful detail.",
+          "4\u20138s reveal module.",
+          "The unresolved desire finds a concrete answer."
+        ],
+        [
+          "N5",
+          "Future use and value",
+          "Distinct actual/imagined uses and accurate product beauty/detail.",
+          "P",
+          "Each named use gets matching action; value graphic only at value cue.",
+          "2\u20135s use; 3\u20136s product/price comprehension.",
+          "Uses show relevance; hypothetical future pacing is not past customer evidence."
+        ],
+        [
+          "N6",
+          "Ownership and payoff",
+          "Receipt, try-on and confident styling; complete fastening/gesture.",
+          "A",
+          "Actual story purchase \u2192 arrival \u2192 use, or mark imagined sequence.",
+          "3\u20137s per action; keep mirrored identity consistent.",
+          "The desired ownership feeling is earned through understandable chronology."
+        ],
+        [
+          "N7",
+          "Musical brand chapter",
+          "Distinct product forms/settings support original refrain.",
+          "P",
+          "Enter on planned musical section \u2192 exit once brand thought resolves.",
+          "2\u20134s per distinct view; cap by meaning, not repeated loops.",
+          "The communication task shifts from story to brand/product memory."
+        ],
+        [
+          "N8",
+          "Truthful offer",
+          "Readable product, brand and action in a stable finish.",
+          "G",
+          "Offer cue \u2192 all facts and instruction readable.",
+          "3\u20136s proposed hold; longer only if required reading.",
+          "A clear decision frame closes the narrative."
+        ]
+      ],
+      "styles": [
+        [
+          "A",
+          "Coherent stylized 3D character world: stable face/age/proportions, wardrobe ledger, warm/cool location logic, expressive but readable action. GPT Image 2 references then Google Omni.",
+          "Primary narrative and matching animated coverage; no unrelated live-action filler."
+        ],
+        [
+          "P",
+          "Accurate product macro or matching stylized use scenes; a deliberate realism change only for clearer product examination. Distinct lighting/composition per view.",
+          "Named product, function, future use and refrain; no repeated silk angle as new B-roll."
+        ],
+        [
+          "G",
+          "Simple branded offer composition, exact product reference and verified copy, separated from small dialogue captions.",
+          "Final decision/CTA."
+        ]
+      ],
+      "assets": "Character/world/wardrobe/product continuity sheets; first frame for every distinct scene; voice/music plan with rights; actual offer evidence; separate imagined/actual chronology ledger; aligned final audio.",
+      "calibration": "R04 is 179.98s; named discovery about 91.9s. Many character holds last 7\u201314s. Blend near f1601\u20131611; caf\u00e9 blend starts f3116 and later exposes a duplicate character. Refrain/product section about 135\u2013164s; offer ending about 7.9s. Spoken/sung boundaries are uncertain.",
+      "edit": {
+        "coverage": "Full-frame character narrative, selective product beauty and final graphic. Captions may progress several times within one base shot; overlays are not extra scenes. Tag imagined uses explicitly in the plan.",
+        "cuts": "Cut on story phase, meaningful viewpoint or completed action. Hold a reaction until the narration\u2019s emotion is visible. Do not default long-form animation to two-second clips.",
+        "transitions": "Hard cut for clear location/phase changes. Proposed related-time dissolve 0.15\u20130.35s, with handles and one shared transition ID. Environment blends/morphs only for intentional imagination/time compression; inspect every affected frame and do not duplicate characters accidentally.",
+        "broll": "Covering scenes must share the established animation language. Product/imagined-use insert enters on its referent, ends after a visible result, then returns to the character if narration resumes personal interpretation. No generic realistic stock inside the animated world.",
+        "motion": "Gentle approach can support longing; widen to reveal context; approach exact product for examination. Set a start/end frame and settle before text needs reading. Watch reflections, hands, eye lines and overlapping body instances.",
+        "text": "Short legible phrase captions plus separate verified price/feature overlays. Enter numbers on the actual number cue, not later. Keep offer typography stable and large enough at the real delivery size.",
+        "audio": "Explicitly choose target spoken, sung and refrain sections before timing visuals. Use original/authorized words/music and align final performance. Do not adopt unreliable source timestamps or assume exact instrumentation.",
+        "finish": "Coherent render style, materials, character scale and palette per location. A photoreal product insert is a declared medium change. Avoid time warping character action to force a lyric fit; revise schedule within scope.",
+        "ending": "Product reveal is tied to the target named introduction and brief. After payoff, keep refrain only as long as distinct meaning warrants, then hold verified offer. No invented adoption count or animated friend presented as authentic testimonial.",
+        "adapt": "Shorten by removing redundant journey/catalogue modules within authorized script scope. Lengthen by meaningful action/evidence, not repeating compositions. If approved voice cannot fit, state the actual timing conflict.",
+        "reject": "Reject expression/line mismatch, late prices, identity drift, duplicated protagonist, impossible reflection/watch geometry, unexplained chronology and repetitive refrain footage. Audio boundaries need actual target alignment."
+      }
+    },
+    {
+      "id": "animated-silent-microstory",
+      "skill": "concept-animated-silent-story",
+      "ref": "R06",
+      "title": "Silent animated desire and reveal",
+      "premise": "A short visual cause-and-effect story sets up desire, hides one fact, reveals it and resolves through a readable reaction.",
+      "script": "Visual action script: want \u2192 request/response \u2192 consequence \u2192 withheld information revealed \u2192 confirming action \u2192 final twist/reaction. No invented narration or mandatory explanatory captions.",
+      "fixed": "Stable characters/prop, legible cause and effect, protected reveal time and a payoff understandable with sound muted.",
+      "variable": "Premise, characters, hidden information, setting, prop and emotional/comic ending. Source joke is not a customer or relationship claim.",
+      "beats": [
+        [
+          "S1",
+          "Immediate want",
+          "Character points/reaches/looks toward a desirable product; partner response visible.",
+          "A",
+          "Primary two-shot; action in first frame \u2192 object of desire understood.",
+          "1.5\u20133s.",
+          "Eyeline, gesture and object establish the premise without speech."
+        ],
+        [
+          "S2",
+          "Consequence",
+          "A clear transaction or response confirms the request had an effect.",
+          "A",
+          "Cut/brief overlap after request \u2192 hold result of action.",
+          "1.5\u20133s; no disconnected montage.",
+          "The next state follows causally from the first."
+        ],
+        [
+          "S3",
+          "Protect hidden information",
+          "Character enters new setting and performs the action that will reveal the secret.",
+          "A",
+          "Hard cut on phase change; keep revealing area concealed until intended action.",
+          "3\u20136s; allow setup gesture to complete.",
+          "Anticipation requires the viewer to see enough cause before the payoff."
+        ],
+        [
+          "S4",
+          "Reveal and recognition",
+          "Camera/door/character move exposes a distinct surprising context.",
+          "A",
+          "Reveal trigger \u2192 hold until hidden fact can be recognized.",
+          "1.5\u20133s reveal/recognition; may continue S3\u2019s same base shot.",
+          "Recognition time is necessary; cutting immediately would lose the joke."
+        ],
+        [
+          "S5",
+          "Confirm meaning",
+          "Character places or uses the same prop in the revealed situation.",
+          "D",
+          "Closer angle after reveal \u2192 complete physical contact/result.",
+          "1.5\u20133s.",
+          "The specific prop ties the earlier action to the new information."
+        ],
+        [
+          "S6",
+          "Twist and reaction",
+          "A new request or changed response reframes the situation; finish on reaction.",
+          "A",
+          "Time/location change \u2192 readable twist \u2192 response resolves.",
+          "2\u20134s; optional brief target tag after payoff.",
+          "The ending gives the sequence a clear emotional/comic conclusion."
+        ]
+      ],
+      "styles": [
+        [
+          "A",
+          "One stylized animation world with stable adult character identity, wardrobe by story time, product proportions, spatial layout and expressive gestures.",
+          "Primary story; GPT Image 2 first frames and Google Omni motion under current workflow."
+        ],
+        [
+          "D",
+          "Matching animation close detail of the exact prop, hand contact or action result; same light/materials.",
+          "Confirmation insert only; return to character for the reaction."
+        ]
+      ],
+      "assets": "Action script; character/wardrobe/prop/world references; reveal geography; each scene\u2019s first/last states; cue-based sound plan. No dialogue is required.",
+      "calibration": "R06 is 15.05s/361 frames. Short overlap f44\u201349, hard changes at f96 and f232, overlap f298\u2013300. The hallway/closet action f96\u2013232 is the long reveal section. A visible age/wardrobe change is a defect, not a recommended effect.",
+      "edit": {
+        "coverage": "Full-frame causal action. Use two-shot for request, closer action for consequence, wider reveal and reaction framing. Covering details remain in the same animated world.",
+        "cuts": "Cut after the causal action can be understood, not when a fixed duration expires. Protect the first moment the secret is readable and the final reaction. Do not break a revealing door/hand move mid-cause.",
+        "transitions": "Hard cut for new story phase. Proposed brief time-compression overlap 0.10\u20130.25s only where both compositions remain legible; count overlap once and preserve handles. Never dissolve away the reveal itself.",
+        "broll": "Default no external B-roll. A prop close-up is motivated confirmation: enter after the reveal, hold through placement/contact and return to the character for payoff. Unrelated reaction stock would break the world.",
+        "motion": "Use eyelines and physical reveal before extra effects. Track both characters for request, widen for hidden context, settle for recognition. Camera must not expose the secret prematurely.",
+        "text": "Default no editorial captions. Diegetic phone/sign content must remain legible if it carries the joke. Optional brand tag is separate; do not use explanatory paragraphs to rescue unclear staging.",
+        "audio": "Design original action accents and music around request, consequence, reveal and reaction. A pause or held sound can protect anticipation. Source no-speech finding is model-assisted; exact source sound timing is not certified.",
+        "finish": "Consistent stylized materials, character age/body, wardrobe and prop size. No accidental morphing as transition; no unnecessary speed ramps that shorten the readable action.",
+        "ending": "Resolve the twist and reaction before optional CTA. A loop may reconnect desire only if understandable; do not crop away the punchline to make it loop.",
+        "adapt": "Shorten by a simpler premise/fewer causal steps, not by removing recognition. Lengthen only for added meaningful action or reaction. Test silent comprehension before adding audio.",
+        "reject": "Reject age/wardrobe drift, wrong carried prop, extra limbs, incorrect door geography, unreadable phone, premature reveal and incomplete reaction. Inspect every transition frame."
+      }
+    },
+    {
+      "id": "countdown-product-catalogue",
+      "skill": "concept-countdown-catalogue",
+      "ref": "R08",
+      "title": "Countdown product catalogue",
+      "premise": "A finite selection of attractive products changes rapidly against a stable comparison background, making silhouette differences the main information.",
+      "script": "Honest selection promise/count \u2192 one distinct item per beat \u2192 final item or clear target finish. Do not imply objective rank or sales popularity without evidence.",
+      "fixed": "Exact count, genuinely distinct items, consistent comparison conditions, useful order contrast and enough recognition time.",
+      "variable": "Item count, category, presenter, numbers/titles, audio countdown and whether to add a CTA. Count and labels must agree with selected products.",
+      "beats": [
+        [
+          "K1",
+          "Range hook",
+          "Presenter already lifts/arranges a striking selection or abundance.",
+          "A",
+          "Full primary; title/count promise \u2192 first individual item ready.",
+          "1\u20132s; hard cut into catalogue.",
+          "The viewer understands the scope before comparing items."
+        ],
+        [
+          "K2",
+          "First clear item",
+          "Hold item so shape, handles and material are readable.",
+          "I",
+          "First count/name cue \u2192 steady recognition \u2192 next actual item.",
+          "0.7\u20131.2s for simple unlabeled silhouette.",
+          "Stable display establishes comparison conditions."
+        ],
+        [
+          "K3",
+          "Contrasting next item",
+          "New actual product changes size, structure, texture or shape.",
+          "I",
+          "Each aligned count \u2192 matching item; exit after recognition.",
+          "0.7\u20131.2s each; more with text or complex detail.",
+          "Difference, not novelty effects, supplies the sequence\u2019s interest."
+        ],
+        [
+          "K4",
+          "Remaining selection",
+          "Complete remaining distinct items with small useful presentation gestures.",
+          "I",
+          "Repeat K3 with accurate count and order; no duplicate filler.",
+          "Duration derives from actual remaining items.",
+          "A finite promise must be fulfilled exactly."
+        ],
+        [
+          "K5",
+          "Final selection/finish",
+          "Conclude on the last item or a deliberate complete-set return.",
+          "I",
+          "Last count \u2192 readable item \u2192 finish/tag if requested.",
+          "1\u20132s optional final hold; 1.5\u20133s optional CTA.",
+          "The ending confirms completion rather than cutting the last item short."
+        ]
+      ],
+      "styles": [
+        [
+          "A",
+          "Presenter with visibly distinct products, neutral uncluttered room/light, natural small gesture and stable camera.",
+          "Abundance/selection hook."
+        ],
+        [
+          "I",
+          "Actual individual product presented on the same comparison axis with clear silhouette, unobscured hardware and consistent apparent scale.",
+          "Catalogue primary coverage; not generic B-roll."
+        ]
+      ],
+      "assets": "Verified ordered product IDs and images/footage; distinct trait per item; presenter/background continuity; exact count/audio if used; optional valid destination.",
+      "calibration": "R08 is 8.94s. Intro ends f44/1.467s; ten items then hold about 0.67\u20130.83s. Product starts f44,65,86,108,131,156,179,199,223,244. Spoken countdown is model-assisted; visible item rank numerals are absent after the heading.",
+      "edit": {
+        "coverage": "Full-frame comparison display with same presenter/background. Keep item silhouette in a consistent readable area. No split-screen or supplementary B-roll required.",
+        "cuts": "One direct cut for each new actual item. Preserve count-to-item agreement and stable recognition. Do not add a second pose cut within a sub-second item hold.",
+        "transitions": "Hard cuts, zero overlap. Avoid product morphs/dissolves that blend two identities or imply transformation. Align presentation axis where useful without faking equivalence of scale.",
+        "broll": "Default separate B-roll zero. A functional detail cannot be inserted into a rapid count without providing extra time and explicitly changing the catalogue structure. If used, return to the same item before advancing count.",
+        "motion": "Small lift/turn only if shape stays recognizable; settled image is valid. Stable capture makes differences legible. Do not apply the same digital zoom to every item.",
+        "text": "Short introductory promise; item numbers/names only if the target needs them and reading time supports them. All labels follow actual order. Avoid simultaneous long captions, price list and rapid countdown.",
+        "audio": "Optional count provides progression; align final number onset to item change. Music supports momentum. Check intelligibility and real beat alignment; source model estimates are not edit markers.",
+        "finish": "Match exposure/background and honest color. Do not resize products into false physical equivalence. No speed manipulation that makes products unreadable; stills can hold unchanged.",
+        "ending": "Finish the last count and item. CTA or loop is a target choice; a full-set return should be deliberate, not a second repeated catalogue cycle.",
+        "adapt": "Total roughly equals intro plus N recognition holds plus optional ending. If over duration, reduce item count only within brief scope or simplify labels; do not silently omit promised items.",
+        "reject": "Reject wrong count, duplicated models, unsubstantiated ranking, hidden handles, unreadable labels and mismatched spoken numbers. Compare real silhouettes, not filenames."
+      }
+    },
+    {
+      "id": "voiceover-creator-endorsement",
+      "skill": "concept-product-voiceover",
+      "ref": "R09",
+      "title": "Creator-style product voiceover",
+      "premise": "An offscreen narrator gives a credible product/styling argument while an authorized wearer handles and models the exact item.",
+      "script": "Source: claimed social response \u2192 named garment \u2192 texture \u2192 elevated look \u2192 occasions \u2192 fit context \u2192 style identity \u2192 availability. Target testimony, fit facts and stock history need actual evidence; recorded or synthetic voice is a deliberate production choice.",
+      "fixed": "Continuous voice, line-specific physical actions, detail-to-outfit returns and accurate product identity. Testimonial words cannot be assigned to a fictional customer.",
+      "variable": "Argument/benefits, wearer/setting, duration, caption presence, reveal and CTA. Follow new-copy SOP or preserve the exact approved script.",
+      "beats": [
+        [
+          "V1",
+          "Desired look/hook",
+          "Strong styled torso/full look or distinctive texture action from first frame.",
+          "W",
+          "Primary montage; hook clause \u2192 product name or concrete descriptor.",
+          "1\u20133s opening views.",
+          "The appearance visibly motivates interest; modeling does not prove compliments."
+        ],
+        [
+          "V2",
+          "Named product",
+          "Reveal clear garment and complete a putting-on/adjusting action.",
+          "A",
+          "Enter on product noun \u2192 action completes \u2192 detail.",
+          "1\u20133s per action; direct cut on meaningful phase.",
+          "The named item becomes tangible and identifiable."
+        ],
+        [
+          "V3",
+          "Material/detail",
+          "Show a different meaningful texture, seam, cuff or drape action.",
+          "D",
+          "Exact detail cue \u2192 enough inspection \u2192 wider outfit at styling clause.",
+          "1\u20132.5s simple detail.",
+          "Close scale contributes information unavailable in a full-body shot."
+        ],
+        [
+          "V4",
+          "Styling/occasion",
+          "Distinct useful outfit/context or getting-ready action.",
+          "W",
+          "Enter on desired social look \u2192 show complete silhouette/result.",
+          "2\u20134s; avoid repeated chest rubs.",
+          "The benefit becomes an imaginable way of dressing."
+        ],
+        [
+          "V5",
+          "Fit context",
+          "Readable actual wearer front/side/back, one approved size fact if relevant.",
+          "W",
+          "Fit cue \u2192 finish informative turn \u2192 next benefit.",
+          "2\u20134s per necessary view.",
+          "Coverage helps assess fit but cannot certify physical dimensions without evidence."
+        ],
+        [
+          "V6",
+          "Payoff and truthful action",
+          "Best resolved look with current offer/availability instruction if supported.",
+          "W",
+          "CTA clause \u2192 hold recognizable exact product and complete instruction.",
+          "2\u20135s finish.",
+          "The item being requested remains visible at decision time."
+        ]
+      ],
+      "styles": [
+        [
+          "W",
+          "Creator-style modeling in a coherent real-life room/balcony/street; natural light, approachable performance, complete wearable silhouette.",
+          "Appearance, fit and payoff; not proof of third-party compliments."
+        ],
+        [
+          "A",
+          "Physical dressing/handling action with exact garment and visible beginning/result; same wearer/world.",
+          "Product introduction and practical use."
+        ],
+        [
+          "D",
+          "Tactile close view with readable weave/seam/closure; actual distinct angle/action, restrained camera.",
+          "Named material/detail; visual texture is not material certification."
+        ]
+      ],
+      "assets": "Exact approved narration and evidence ledger; authorized wearer/product; distinct action/detail/outfit views; final voice alignment; optional captions/offer graphics. No random extra lifestyle footage needed.",
+      "calibration": "R09 is 26.28s with 29 shot segments, many under one second, and a two-second final hold. Voice continues across modeling cuts. No added captions/price overlay/end card observed; repeated chest/sleeve gestures limit visual variety.",
+      "edit": {
+        "coverage": "Full-frame product/wearer montage under offscreen voice. A visible model does not automatically mean lip-synced presenter or actual testimonial speaker. Alternate useful detail and whole appearance.",
+        "cuts": "Cut when an action phase or idea changes; preserve dressing completion and fit recognition. Fast detail cuts are possible, but do not turn every new phrase into a nearly identical torso shot.",
+        "transitions": "Direct cuts, zero overlap. Match garment/hand states where useful; an intentional getting-dressed jump must still make sense. No routine dissolves, zoom transitions or speed ramps.",
+        "broll": "Most pictures cover continuous VO. Enter a detail at the named descriptor, exit when it becomes a styling claim, and return to whole look. A spoken social/stock claim does not justify fabricated customers or stock footage as evidence.",
+        "motion": "Use genuine sleeve adjustment, turn, drape, closure or new outfit action. Post crops alone do not supply variety. A motivated closer detail should settle; preserve enough field for fit assessment.",
+        "text": "Source has no added captions; target captions are explicit direction. Use restrained accurate phrases when needed, outside the relevant garment detail. Fit/price labels require verified facts and separate timing.",
+        "audio": "Natural conversational voice with clear emphasis and breaths; optional music underneath. Preserve approved voice speed. Picture cuts do not require voice cuts; perform actual word alignment before locking.",
+        "finish": "Consistent skin, material color and credible everyday texture; maintain wardrobe between nonchronological shots. No heavy retouching that changes fit or finish. Treat intentional outfit variants explicitly.",
+        "ending": "Hold the strongest resolved look through the actual CTA. Optional branded card is a target addition and must not consume needed product recognition time. No copied scarcity claim.",
+        "adapt": "Shorter: fewer complete arguments/actions within scope. Longer: distinct styling contexts or useful evidence. If a clause is long, use a meaningfully new view or purposeful hold, not repeated gestures.",
+        "reject": "Reject invented compliments/fit data, synthetic personal experience presented as real, repeated source reuse and picture/claim mismatch. Preserve narration and caption timing in visual-only revisions."
+      }
+    },
+    {
+      "id": "voiceover-concise-value",
+      "skill": "concept-product-voiceover",
+      "ref": "R14",
+      "title": "Concise product-and-value voiceover",
+      "premise": "A short benefit contrast is made visible through dressing, full look, material and fit before a clear truthful value/action finish.",
+      "script": "Source: comfortable feel versus polished appearance \u2192 named fabric \u2192 relaxed/light fit \u2192 styled versatility \u2192 price/value \u2192 shop and brand. New copy follows current structure/evidence rules; never invent a mechanism to fill a short format.",
+      "fixed": "Few dense useful propositions; each gets a visible demonstration or clearly tagged claim; typography remains restrained; a legible finish resolves the sequence.",
+      "variable": "Product, exact benefit contrast, outfit options, verified value comparison, duration and card count. Preserve approved script when only visuals change.",
+      "beats": [
+        [
+          "Q1",
+          "Benefit contrast",
+          "Present exact item, then begin putting it on.",
+          "A",
+          "Comfort/feel cue \u2192 dressing action \u2192 finished-look clause.",
+          "1\u20132s views within 3\u20134s hook module.",
+          "The physical item and dressed result explain the contrast."
+        ],
+        [
+          "Q2",
+          "Finished appearance",
+          "Full silhouette with deliberate styling and simple confident pose.",
+          "W",
+          "Enter on appearance payoff \u2192 leave for concrete product/material.",
+          "1.5\u20133s.",
+          "Viewer sees what polished actually looks like."
+        ],
+        [
+          "Q3",
+          "Material and construction",
+          "Hanger/cloth/detail makes texture and garment identity readable.",
+          "D",
+          "Named material cue \u2192 inspection \u2192 wider fit.",
+          "1\u20132.5s; labels only from evidence.",
+          "A tactile view supports understanding but does not prove composition."
+        ],
+        [
+          "Q4",
+          "Fit and versatility",
+          "Distinct front/side/back or second meaningful outfit.",
+          "W",
+          "Fit/use phrase \u2192 complete turn/result \u2192 next proposition.",
+          "1.5\u20133s per useful view.",
+          "The wearable difference is more informative than repeated modeling poses."
+        ],
+        [
+          "Q5",
+          "Truthful value",
+          "Clear product remains visible while verified value is spoken/shown.",
+          "W",
+          "Value cue \u2192 enough time for numbers if present \u2192 action.",
+          "2\u20134s depending on reading load.",
+          "The claim remains attached to the exact item."
+        ],
+        [
+          "Q6",
+          "Action and brand",
+          "Resolve wearer/product view, then simple shop/brand card if requested.",
+          "G",
+          "CTA words \u2192 readable action \u2192 brand finish.",
+          "1.5\u20133s per card; combine if short and readable.",
+          "The viewer finishes with a clear instruction and identity."
+        ]
+      ],
+      "styles": [
+        [
+          "A",
+          "Simple natural-light home try-on/handling, readable dressing action and stable exact garment.",
+          "Hook and tangible introduction."
+        ],
+        [
+          "W",
+          "Clean full outfit and meaningful fit angles in the same setting; distinct styling when claimed.",
+          "Appearance, fit, versatility and value context."
+        ],
+        [
+          "D",
+          "Hanger/material/closure close view with honest light and visible texture, no over-stylized macro abstraction.",
+          "Named material/product detail."
+        ],
+        [
+          "G",
+          "Plain high-contrast action/brand card with sparse approved text.",
+          "Ending, not a duplicate paragraph of the whole script."
+        ]
+      ],
+      "assets": "Exact product/wearer, hanger/dressing/whole/detail/fit views; verified material/price basis; concise approved narration; accurate phrase captions; current logo/action assets.",
+      "calibration": "R14 runs 17.58s at 23.976fps, with 16 visual segments. Direct cuts include f27,50,66,92,115,146,163,180,198,215,247,304,349,385. White serif phrase captions persist across picture changes; action and brand cards each hold about 1.5s.",
+      "edit": {
+        "coverage": "Full-frame product demonstration with continuous offscreen voice; sparse independent speech captions. No presenter panel or extra lifestyle montage required.",
+        "cuts": "Cut on the contrast, named feature, fit state or new outfit; a caption may span multiple picture shots. Preserve the completion of dressing and the readable full-look result.",
+        "transitions": "Direct cuts, zero overlap. Use clean action state changes and clear card cuts. Do not blend garment colors or morph wardrobe to show a real variant.",
+        "broll": "All demonstration footage can cover VO. Material insert starts at its noun/descriptor, ends when the voice turns to fit, and returns to a readable body view. Keep price/value on exact product or clean graphic; no unsupported proof insert.",
+        "motion": "Use actual dressing/turn/cloth action; keep camera straightforward. Front/back/close views must answer different questions. Avoid gratuitous push-ins during small caption reading.",
+        "text": "Restrained serif phrases are source-matched; one or two readable lines in clear space, with contrast checked on pale fabric. Price comparison, speech and CTA are separate events. Never assume white text works on a white shirt.",
+        "audio": "Concise conversational VO; do not rush the contrast or value numbers. Music supports but cannot mask endings of phrases. Align captions and cuts to final voice; source timestamps are approximate.",
+        "finish": "Soft coherent home light, true fabric color, stable identity and modest grade. No automatic speed change. Use source PTS at fractional rates rather than treating 23.976 as exact 24.",
+        "ending": "Keep the spoken action complete before/through the action card, then readable brand. A single combined card is an adaptation if the target is shorter; document it.",
+        "adapt": "Reduce redundant views or simplify authorized offer copy before shortening recognition. Longer versions add concrete fit/use/evidence, not repeated cards. Preserve all approved words and real number-reading time.",
+        "reject": "Reject unverifiable material/price comparison, near-identical poses, unreadable serif captions and changing garment construction. Check exact price basis, final word alignment and finish."
+      }
+    },
+    {
+      "id": "urban-collection-film",
+      "skill": "concept-urban-fashion-film",
+      "ref": "R10",
+      "title": "Urban fashion collection film",
+      "premise": "A collection becomes a desirable way of moving through a city; whole outfits, details and attitude build a visual story without explanatory narration.",
+      "script": "Visual sequence: immediate style/world \u2192 complete look \u2192 meaningful accessory/material detail \u2192 movement/attitude \u2192 distinct next look \u2192 resolved fashion finish. Music organizes energy but does not replace visual meaning.",
+      "fixed": "Coherent city/style world, distinct looks, whole/detail/movement alternation, purposeful camera/subject motion and clear product/outfit readability.",
+      "variable": "City, casting, styling, look count, pan punctuation, music and optional brand ending. Location must support the clothing.",
+      "beats": [
+        [
+          "U1",
+          "Fashion/world hook",
+          "Striking look in motion; optional very brief city movement resolves immediately to clothing.",
+          "W",
+          "Full frame; first action \u2192 readable look.",
+          "0.7\u20132s; optional pan fragment 0.15\u20130.35s.",
+          "World and fashion promise are visible without an explanatory title."
+        ],
+        [
+          "U2",
+          "Whole look",
+          "Head-to-toe or enough silhouette to see proportion and styling.",
+          "W",
+          "Enter after hook \u2192 posture/stride/outfit understood.",
+          "1.3\u20133s.",
+          "The viewer can imagine wearing the full combination."
+        ],
+        [
+          "U3",
+          "Meaningful detail",
+          "Bag lift, shoe step, fabric edge or accessory/body relationship.",
+          "D",
+          "Detail cue is visual action/music phrase \u2192 leave once new information registers.",
+          "0.6\u20131.5s per simple detail.",
+          "The closer view reveals something the wide cannot."
+        ],
+        [
+          "U4",
+          "Attitude/movement",
+          "Portrait, turn or tracking walk with clear wardrobe.",
+          "W",
+          "Return from detail \u2192 complete gesture or stride phase.",
+          "1\u20133s.",
+          "The product belongs to a person and a desired way of carrying oneself."
+        ],
+        [
+          "U5",
+          "Next look/world reset",
+          "Distinct silhouette/location angle; optional short directional city pan.",
+          "X",
+          "Resolve previous gesture \u2192 reset \u2192 clear incoming look.",
+          "0.15\u20130.35s optional bridge, then 1.3\u20133s look.",
+          "A purposeful change renews attention without losing the world."
+        ],
+        [
+          "U6",
+          "Fashion resolution",
+          "Best complete look or resolved departure/pose; optional quiet brand identity.",
+          "W",
+          "Last look \u2192 resolved action \u2192 optional tag.",
+          "2\u20134s final look; 1.5\u20133s optional tag.",
+          "The film ends on a desirable outfit rather than unfinished movement."
+        ]
+      ],
+      "styles": [
+        [
+          "W",
+          "Editorial city fashion: coherent styled models, natural architectural light, confident walking/turning, street depth and varied useful camera scale.",
+          "Primary looks and attitude, using authorized footage or coherent generated scenes."
+        ],
+        [
+          "D",
+          "Close accessory/fabric/body detail in the same world; precise bag/garment identity and informative action.",
+          "Visual product detail between wider looks; no unrelated studio insert by default."
+        ],
+        [
+          "X",
+          "Brief captured/generated directional city pan or distinct establishing texture with matching movement purpose.",
+          "Optional chapter punctuation only; not a stock travel montage or default transition on every cut."
+        ]
+      ],
+      "assets": "Distinct approved looks/models/product references; full-body, portrait and meaningful detail coverage; city/light continuity; music with rights; optional brand ending.",
+      "calibration": "R10 is 20.80s with direct cuts and short blurred city movement at 0\u20130.24s, 6.8\u20137s and 12.4\u201312.72s. Complete looks, bag/garment details, portraits and walking alternate. No spoken script, captions or sales card.",
+      "edit": {
+        "coverage": "Full-frame fashion footage; no fixed presenter. Detail shots serve the visual style argument. The city is context, not the main subject.",
+        "cuts": "Change scale when it adds styling information; cut on a useful step, turn or gesture phase or a chosen musical phrase after listening. Vary holds by recognition, not uniform beat count.",
+        "transitions": "Direct cuts dominate. A short directional pan/blur is an actual planned bridge with start, travel, incoming direction and settle; source preset unknown. Do not add a whip between every look. No forced morph between people.",
+        "broll": "Fashion details enter after a whole-look anchor or immediately readable hook, then return to full look/face/movement. City inserts are optional punctuation and must not postpone clothing recognition. Distinct looks need distinct actions.",
+        "motion": "Tracking can reveal drape, approach can emphasize attitude, tilt can show accessory relationship. Define subject anchor and settle. Separate generated/captured movement from post reframing; avoid identical Ken Burns motion.",
+        "text": "Default no speech captions. Optional collection title/brand stays sparse and does not cover silhouette. If text becomes explanatory, allocate real reading time and acknowledge a format adaptation.",
+        "audio": "Licensed/original music is the timing spine; choose actual phrase changes and accents after listening. Optional footsteps/city sound can ground the setting. Exact source beat phase and instrumentation are unverified.",
+        "finish": "Coherent editorial palette, authentic material colors and consistent skin tones. Any grain/contrast is target direction, not recovered source settings. No routine slow motion or ramps; use only when action and capture support them.",
+        "ending": "Resolve the final look/gesture; tag/CTA is optional to the brief. A pure collection film need not become a last-second sales paragraph.",
+        "adapt": "Shorten by fewer complete looks; retain whole/detail recognition. Lengthen with new styling, movement and locations that share the world. Do not fill with repetitive city pans.",
+        "reject": "Reject generic travel filler, repeated walk composition, mismatched accessories, broken gait/straps, premature detail before recognizable object and unreadable fast full looks. Verify full-speed rhythm with actual music."
+      }
+    },
+    {
+      "id": "fashion-world-montage",
+      "skill": "concept-fashion-mood-montage",
+      "ref": "R12",
+      "title": "Fashion worldbuilding still montage",
+      "premise": "Distinct looks, materials and lived spaces share a precise palette and life context, creating an aspirational world through association.",
+      "script": "Visual associative script: desired outfit \u2192 material/season \u2192 lived setting \u2192 human activity/relationship \u2192 fashion return \u2192 tactile detail \u2192 resolved look. There is no established spoken sales script to force into every image.",
+      "fixed": "A specific coherent taste world, genuinely distinct image roles and a return from abstract associations to wearable fashion.",
+      "variable": "Season, palette, number of images, imagery roles, music/vocal character and optional sparse theme/brand. Source archive imagery is not a cleared asset library.",
+      "beats": [
+        [
+          "M1",
+          "Desired way of dressing",
+          "Compelling complete outfit or paired styled figures.",
+          "F",
+          "Full-frame still; first image \u2192 silhouette/theme understood.",
+          "0.5\u20131.1s simple image.",
+          "Fashion establishes the aspiration before lifestyle associations expand it."
+        ],
+        [
+          "M2",
+          "Tactile/seasonal association",
+          "Distinct knit/leather/objects/seasonal still life sharing a precise palette.",
+          "O",
+          "Direct cut from look \u2192 material/shape link readable.",
+          "0.5\u20131.1s.",
+          "The world becomes tangible beyond the model."
+        ],
+        [
+          "M3",
+          "Inhabited setting",
+          "A relevant interior or outdoor setting with specific lifestyle detail.",
+          "L",
+          "Enter on a visual association \u2192 leave before the film loses fashion focus.",
+          "0.7\u20131.4s if complex.",
+          "Setting gives the taste a lived context rather than generic wealth."
+        ],
+        [
+          "M4",
+          "Human life moment",
+          "Meaningful activity or relationship within the same world.",
+          "L",
+          "Human gesture/context \u2192 next fashion return.",
+          "0.6\u20131.3s.",
+          "Aspiration includes living and relating, not only possessions."
+        ],
+        [
+          "M5",
+          "Fashion contrast and detail",
+          "New silhouette, then a genuinely new texture/object or styled view.",
+          "F",
+          "Return to wearable look; optional repeat M2\u2013M4 only with new content.",
+          "0.5\u20131.1s each.",
+          "Alternation preserves fashion relevance and visual variety."
+        ],
+        [
+          "M6",
+          "Resolved look",
+          "Final outfit embodies the palette/material world.",
+          "F",
+          "Last association \u2192 readable wearable conclusion; optional tag after.",
+          "0.8\u20131.8s final image.",
+          "The sequence ends with a concrete desired appearance."
+        ]
+      ],
+      "styles": [
+        [
+          "F",
+          "Editorial fashion stills: coherent tailoring, season/light and materials; varied bodies/angles/scale, original or authorized sources.",
+          "Primary style proposition and return."
+        ],
+        [
+          "O",
+          "Tactile still life of meaningful materials/objects; composed light, palette and texture rather than arbitrary luxury props.",
+          "Material association; not performance or ingredient proof."
+        ],
+        [
+          "L",
+          "Distinct inhabited interiors, outdoor activities and human moments that fit the same life context and color world.",
+          "Associative expansion; no implied real customer story without evidence."
+        ]
+      ],
+      "assets": "Original/owned/licensed stills or GPT Image 2 outputs with identity constraints; explicit palette/world statement; image-role and sequence rationale per image; music rights; optional theme text.",
+      "calibration": "R12 uses 15 still holds across 7.6s. Direct boundaries at f16,31,46,61,77,92,107,122,137,152,167,183,198,213 produce about 0.50\u20130.53s per image. Small seasonal theme persists. Music with vocals is model-assisted; no spoken ad copy established.",
+      "edit": {
+        "coverage": "Full-frame distinct stills; their sequence is the primary visual story. Do not label all interiors as generic B-roll or make a separate talking-head layer.",
+        "cuts": "Cut when the next image advances a specific color/material/life association. Regular rhythm is optional calibration; a complex image may deserve longer. Preserve a wearable fashion return between abstract clusters.",
+        "transitions": "Clean zero-overlap cuts are the default. Do not add dissolves or zoom effects merely because assets are still. A slow target dissolve is a deliberate different mood, not source-matched necessity.",
+        "broll": "Associative images belong only if they connect to the desired world and neighboring images. Enter material/life imagery after a fashion anchor, then return to a distinct look. No arbitrary mansion/landscape filler or false testimony.",
+        "motion": "Still hold is valid. If the target needs motion, plan an informative movement separately instead of animating every crop identically. Do not count a pan over the same source as a new image.",
+        "text": "Optional one short stable theme in a consistent clear zone. Existing editorial marks inside source photos are separate from added text. Avoid tiny theme text as the only way to understand the sequence.",
+        "audio": "Choose music for the intended world; verify the edit against its real phrases. Vocals are not necessarily a narrator. Do not transcribe/copy source song lyrics or assert beat-perfect source synchronization.",
+        "finish": "Curate palette/light/texture first, then modest grade to cohere sources without falsifying product color. No routine noise/grain preset. A shared palette can connect strongly different subjects.",
+        "ending": "Finish on a desirable look or product grounded in the world. Optional CTA must have separate recognition time; do not flash a dense offer in a half-second image slot.",
+        "adapt": "Shorten by preserving one clear fashion \u2192 world \u2192 fashion arc with fewer images. Lengthen with distinct related roles, not repeated archive loops or the same image recolored.",
+        "reject": "Reject random attractive images, repeated near-identical compositions, unlicensed reference reuse, illegible added text and a world that no longer relates to the product/brief. Verify each image\u2019s specific connection."
+      }
+    },
+    {
+      "id": "kinetic-product-detail-sequence",
+      "skill": "concept-kinetic-product-details",
+      "ref": "R13",
+      "title": "Kinetic product-detail still sequence",
+      "premise": "Rapid distinct views make one product\u2019s form, surfaces, hardware and interior register as an attractive coherent object.",
+      "script": "Visual inventory: dramatic whole/open shape \u2192 signature surface/hardware \u2192 interior or underside \u2192 carry/function detail \u2192 resolved whole. No narration required; still replacement does not establish stop-motion capture.",
+      "fixed": "One accurate product, genuinely different informative compositions, coherent light/background, tactile-to-whole comprehension and purposeful rhythm.",
+      "variable": "Feature inventory, shot count, hold times, music and ending. Source repeated cycles are observed; target should not copy them as filler.",
+      "beats": [
+        [
+          "D1",
+          "Sculptural hook",
+          "Accurate open/whole product with immediately readable dramatic form.",
+          "W",
+          "First frame \u2192 overall object recognized.",
+          "0.5\u20131s proposed hook.",
+          "A whole-object anchor makes later fragments intelligible."
+        ],
+        [
+          "D2",
+          "Signature detail",
+          "Distinct texture/closure/hardware close-up.",
+          "M",
+          "Direct cut on selected rhythm cue \u2192 feature recognized.",
+          "0.3\u20130.7s simple familiar detail.",
+          "The detail differentiates this object rather than just adding flashes."
+        ],
+        [
+          "D3",
+          "New construction view",
+          "Interior, base or back reveals information absent from front.",
+          "I",
+          "Cut to physically distinct view \u2192 layout/part relationship readable.",
+          "0.4\u20130.9s; longer for unfamiliar geometry.",
+          "A changed question warrants a changed angle."
+        ],
+        [
+          "D4",
+          "Function/carry detail",
+          "Strap attachment, opening or closure with correct construction.",
+          "M",
+          "Specific detail \u2192 hold sufficient recognition \u2192 return broader object.",
+          "0.4\u20130.9s.",
+          "Small components gain meaning through their relation to use."
+        ],
+        [
+          "D5",
+          "Whole-object resolution",
+          "Clear full silhouette or useful resolved front.",
+          "W",
+          "After macro cluster \u2192 recognizable finished object.",
+          "0.7\u20131.5s.",
+          "The viewer reconnects fragments into the desired product."
+        ],
+        [
+          "D6",
+          "Finish or deliberate loop",
+          "Hold whole product or approved identity/CTA; loop only if brief justifies it.",
+          "W",
+          "Resolved silhouette \u2192 readable finish or planned visual return.",
+          "1\u20132.5s hold; offer needs separate reading time.",
+          "Completion has priority over repeating images to fill duration."
+        ]
+      ],
+      "styles": [
+        [
+          "W",
+          "Controlled still product photography, accurate silhouette, coherent neutral ground/light, honest color and clear negative space. GPT Image 2 from approved references for new imagery.",
+          "Whole-object anchor, resolution and finish."
+        ],
+        [
+          "M",
+          "True distinct close compositions of texture/hardware/attachment; light exposes structure without altering material.",
+          "Tactile/signature detail. Cropping the same image is not new B-roll."
+        ],
+        [
+          "I",
+          "Accurate new physical angle of interior/base/back, readable compartments and construction continuity.",
+          "Information missing from frontal view, not an invented feature."
+        ]
+      ],
+      "assets": "Exact product/color/size references; distinct verified feature views; coherent lighting/background plan; ordered still inventory; music rights; optional brand/CTA. No video generation required for intentionally still holds.",
+      "calibration": "R13 is 17.32s. First cycle starts f0,9,17,27,35,45,53,63,71,81 and restarts f89; holds about 0.27\u20130.33s. Ten recurring compositions repeat. No spoken script/captions/CTA card observed. Actual capture method unknown.",
+      "edit": {
+        "coverage": "Full-frame still images of one product. No presenter layer or mandatory explanatory text. The rapid sequence itself supplies motion impression.",
+        "cuts": "Direct replacement on deliberate rhythm with recognition checks. Alternate whole, signature and construction scale rather than adjacent near-identical crops. Return whole after a detail cluster.",
+        "transitions": "Zero-overlap hard cuts. No morphs, simulated product transformation or automatic crossfades. Loop handoff is a planned visual return only if authorized by the brief, not repeated multi-cycle filler.",
+        "broll": "These are primary visual product views; in a narrated hybrid insert a relevant detail only on its descriptor, leave after recognition and return to the parent product/speaker state. Do not reuse this rapid rhythm for complex mechanisms.",
+        "motion": "No within-still motion required. A new physical angle adds information; digital crop/zoom does not establish a new scene. If a real action is needed, change the asset plan rather than pretending still replacement demonstrates it.",
+        "text": "Default no captions. Any feature name/price must receive real reading time and exact evidence. A three-tenths-second slot is unsuitable for an offer paragraph.",
+        "audio": "Music may guide image rhythm; listen to actual track and choose cut accents. No assumed source BPM or exact synchronization. Optional subtle effects must not overwhelm tactile recognition.",
+        "finish": "Consistent neutral backdrop, material hue, grain/finish and hardware. Light may emphasize different surfaces while product identity stays fixed. No unnecessary speed manipulation of stills.",
+        "ending": "Resolve into full silhouette before optional identity/action. A single purposeful sequence is preferred under visual-variety rules; a loop needs a clear brief-specific role.",
+        "adapt": "Shorten by selecting fewer distinct features while keeping whole/detail/whole comprehension. Lengthen by genuinely new physical views or a different useful action, not repeat cycles. Complex construction gets longer holds.",
+        "reject": "Reject invented compartments/hardware, inconsistent strap attachment, falsely certified material/scale, duplicated source crops and rapid abstract flashes that obscure the object. Verify every still against approved product references."
+      }
+    }
+  ]
+}
