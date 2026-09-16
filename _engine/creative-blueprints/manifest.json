@@ -13,7 +13,8 @@
     "visual": "21,504 frames inspected at approximately 180px width, with selected enlarged checks.",
     "audio": "Model-assisted, not directly auditioned or certified word-aligned; R04 spoken/sung boundaries unresolved.",
     "inference": "Editorial purpose and proposed timing are interpretations, not measured performance or recovered project settings.",
-    "reuse": "Source evidence is not cleared production media."
+    "reuse": "Source evidence is not cleared production media.",
+    "workspace_extension": "W01 combines dated workspace records with seven re-inspected evidence sheets; no new exhaustive review or direct audio audition is claimed."
   },
   "concepts": [
     {
@@ -197,6 +198,39 @@
       "source_analysis": "research/R13/analysis.md",
       "provenance": "research/R13/provenance.json",
       "coverage": "research/R13/coverage.json"
+    },
+    {
+      "id": "ai-ugc-greenscreen-story",
+      "title": "AI UGC greenscreen product story",
+      "family": "concept-ai-ugc-greenscreen",
+      "source_ref": "W01",
+      "source_kind": "workspace-synthesis",
+      "source_url": "https://app.trendtrack.io/share/ads/nuamore-8cnpbi",
+      "skill": "skills/concept-ai-ugc-greenscreen/SKILL.md",
+      "blueprint": "skills/concept-ai-ugc-greenscreen/references/ai-ugc-greenscreen-story-blueprint.md",
+      "editing_profile": "skills/concept-ai-ugc-greenscreen/references/ai-ugc-greenscreen-story-editing-profile.md",
+      "source_analysis": "research/W01/analysis.md",
+      "provenance": "research/W01/provenance.json",
+      "coverage": "research/W01/coverage.json",
+      "additional_context": [
+        "skills/concept-ai-ugc-greenscreen/references/presenter-layout-and-audio.md"
+      ]
     }
+  ],
+  "reference_study_refs": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14"
   ]
 }

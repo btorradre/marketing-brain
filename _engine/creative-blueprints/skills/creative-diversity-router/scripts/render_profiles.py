@@ -45,7 +45,8 @@ def render(p):
     ep = f"# {p['title']} — editing profile\n\n" + lead + note
     ep += f"Use with the [blueprint]({stem}-blueprint.md) and [application contract]({contract}).\n\n"
     ep += '## Observed calibration\n\n' + p['calibration'] + '\n\n'
-    ep += '**Evidence boundary:** the source audit provides observed frames and approximate semantic context. Audio findings were model-assisted; exact mix, word alignment, source tools and performance are unverified. All rules and adjustable ranges below are target direction, not recovered project settings.\n\n'
+    boundary = p.get('evidence_boundary', 'the source audit provides observed frames and approximate semantic context. Audio findings were model-assisted; exact mix, word alignment, source tools and performance are unverified. All rules and adjustable ranges below are target direction, not recovered project settings.')
+    ep += '**Evidence boundary:** ' + boundary + '\n\n'
     ep += '## Visual styles and where they belong\n\n| Style ID / role | Observable treatment and source route | Placement and allowed purpose |\n|---|---|---|\n'
     for style in p['styles']:
         assert len(style) == 3
@@ -62,9 +63,9 @@ def main():
     args = parser.parse_args()
     data = json.loads((ROUTER / 'references/profiles.json').read_text())
     concepts = data['concepts']
-    assert data['schema_version'] == 1 and len(concepts) == 14
-    assert len({p['id'] for p in concepts}) == 14
-    assert {p['ref'] for p in concepts} == {f'R{i:02}' for i in range(1,15)}
+    assert data['schema_version'] == 1 and concepts
+    assert len({p['id'] for p in concepts}) == len(concepts)
+    assert len({p['ref'] for p in concepts}) == len(concepts)
     outputs = {}
     for p in concepts:
         assert (SKILLS / p['skill'] / 'SKILL.md').exists()

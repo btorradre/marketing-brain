@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Portable, standard-library lookup and validation for the concept library."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -55,15 +56,18 @@ def validate():
     manifest = read_json('manifest.json')
     concepts = read_json(DEFINITIONS)['concepts']
     indexed = records()
-    if manifest['schema_version'] != 1 or len(indexed) != 14:
-        raise ValueError('Expected schema 1 and 14 concept variants')
-    if len({r['id'] for r in indexed}) != 14:
+    if manifest['schema_version'] != 1 or not indexed:
+        raise ValueError('Expected schema 1 and a nonempty concept library')
+    if len({r['id'] for r in indexed}) != len(indexed):
         raise ValueError('Duplicate profile IDs')
     if {p['id'] for p in concepts} != {r['id'] for r in indexed}:
         raise ValueError('Manifest and definitions disagree')
-    if {r['source_ref'] for r in indexed} != {f'R{i:02}' for i in range(1, 15)}:
-        raise ValueError('Reference coverage must be R01 through R14 exactly once')
+    study = [r for r in indexed if r.get('source_kind', 'reference-audit') == 'reference-audit']
+    expected_refs = set(manifest.get('reference_study_refs', [f'R{i:02}' for i in range(1, 15)]))
+    if {r['source_ref'] for r in study} != expected_refs or len(study) != len(expected_refs):
+        raise ValueError('Original reference-study coverage has changed')
     total_frames = 0
+    workspace_cases = 0
     for record in indexed:
         item = definition(record['id'])
         if (item['skill'], item['ref'], item['title']) != (
@@ -73,15 +77,32 @@ def validate():
                     'provenance', 'coverage'):
             if not local(record[key]).is_file():
                 raise ValueError(f'Missing {key}: {record["id"]}')
+        for relative in record.get('additional_context', []):
+            if not local(relative).is_file():
+                raise ValueError(f'Missing additional context: {relative}')
         source = read_json(record['provenance'])
         coverage = read_json(record['coverage'])
         if source['url'] != record['source_url']:
             raise ValueError(f'Source URL drift: {record["id"]}')
-        if coverage['unreviewed_ranges'] or coverage['reviewed_frames'] != coverage['total_frames']:
-            raise ValueError(f'Incomplete recorded coverage: {record["source_ref"]}')
-        if coverage['total_frames'] != source['specs']['frame_count']:
-            raise ValueError(f'Frame count mismatch: {record["source_ref"]}')
-        total_frames += coverage['total_frames']
+        kind = record.get('source_kind', 'reference-audit')
+        if kind == 'reference-audit':
+            if coverage['unreviewed_ranges'] or coverage['reviewed_frames'] != coverage['total_frames']:
+                raise ValueError(f'Incomplete recorded coverage: {record["source_ref"]}')
+            if coverage['total_frames'] != source['specs']['frame_count']:
+                raise ValueError(f'Frame count mismatch: {record["source_ref"]}')
+            total_frames += coverage['total_frames']
+        elif kind == 'workspace-synthesis':
+            if not coverage.get('review_scope') or not coverage.get('inspected_evidence'):
+                raise ValueError(f'Missing workspace review scope: {record["source_ref"]}')
+            if source.get('source_kind') != kind or coverage.get('source_kind') != kind:
+                raise ValueError(f'Workspace provenance kind mismatch: {record["source_ref"]}')
+            for evidence in coverage['inspected_evidence']:
+                path = local(evidence['path'])
+                if hashlib.sha256(path.read_bytes()).hexdigest() != evidence['sha256']:
+                    raise ValueError(f'Evidence hash mismatch: {evidence["path"]}')
+            workspace_cases += 1
+        else:
+            raise ValueError(f'Unsupported source kind: {kind}')
     links = 0
     files = [p for p in ROOT.rglob('*') if p.is_file() and '__pycache__' not in p.parts]
     for path in files:
@@ -111,8 +132,9 @@ def validate():
           'families': len({r['family'] for r in indexed}),
           'skills': len(list((ROOT / 'skills').glob('*/SKILL.md'))),
           'paired_documents': len(indexed) * 2, 'local_links_checked': links,
+          'workspace_syntheses': workspace_cases,
           'recorded_reviewed_frames': total_frames,
-          'evidence_limit': 'Recorded thumbnail inspection; validation does not re-inspect media.'})
+          'evidence_limit': 'Frame total covers reference-audit records only; workspace samples remain separate. Validation does not re-inspect media.'})
 
 
 def install(destination):
@@ -145,7 +167,7 @@ def main():
     context = commands.add_parser('context', help='Print the complete Markdown reading packet')
     context.add_argument('profile_id')
     commands.add_parser('validate', help='Check coverage records, portable links and generated docs')
-    installing = commands.add_parser('install', help='Register 13 discovery links without overwrites')
+    installing = commands.add_parser('install', help='Register all library skill links without overwrites')
     installing.add_argument('--skills-dir', required=True)
     args = parser.parse_args()
     if args.command == 'list':
@@ -167,6 +189,7 @@ def main():
         record = selected(args.profile_id)
         paths = [*CONTRACTS, record['skill'], record['blueprint'],
                  record['editing_profile'], record['source_analysis'],
+                 *record.get('additional_context', []),
                  'support/Ad-Editing-Plan-First-SOP.md',
                  'support/Copywriting-Structure-and-Specificity-SOP.md']
         print(f'# Reading packet: {record["title"]}\n\nAll paths are relative to the bundle. '

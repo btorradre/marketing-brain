@@ -28,3 +28,7 @@ Study date: September 16, 2026. This is the portable evidence subset for the [en
 Each reference folder contains an analysis, source URL/hash/specifications, recorded coverage and selected evidence JPEGs linked from its analysis. The selected JPEGs are a retained subset, not the complete chronological inspection corpus. Original video hashes identify the studied downloads; the full downloaded videos are not shipped here. Temporary owned media was removed after analysis. R06's pre-existing borrowed original was preserved in its original project.
 
 Visual observations, caption/speech evidence, model interpretation, proposed creative purpose and measured results must remain distinct. “AI greenscreen” and “AI voiceover” describe supported target workflows, not verified source provenance. The examples do not establish an exhaustive taxonomy, cleared commercial assets, substantiated target claims or actual campaign results. Consult the individual audit before borrowing a technique, and independently verify anything the target ad claims.
+
+## Workspace extension: AI UGC greenscreen
+
+[W01](W01/analysis.md) adds Nuamore-derived corner-presenter language and the Eleanor/Vivienne production corrections. Seven retained sheets were inspected for this addition, including 40 exact Vivienne export frames and all nine base-cut pairs. This is a workspace synthesis, not a fifteenth exhaustive Instagram study; its sampled coverage is kept separate from the original 21,504-frame total.

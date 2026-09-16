@@ -1,6 +1,6 @@
 # Generalized blueprints and editing profiles
 
-This library contains 14 concept variants within 12 families. A **blueprint** specifies the sequence of communication jobs and required visual states. An **editing profile** specifies how that sequence is covered, cut, layered, moved, captioned and heard. Neither is a finished script or a selected-asset storyboard.
+This library contains 15 concept variants within 13 families. A **blueprint** specifies the sequence of communication jobs and required visual states. An **editing profile** specifies how that sequence is covered, cut, layered, moved, captioned and heard. Neither is a finished script or a selected-asset storyboard.
 
 Read the [production contract](production-contract.md) alongside the selected pair. The source audits establish reference behavior; the generalized rules and proposed timing ranges are editorial direction for new work. They are not verified optimums, original project settings or performance findings.
 

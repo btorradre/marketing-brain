@@ -1,6 +1,6 @@
 # Generalized concept blueprints and editing profiles
 
-Fourteen variants are maintained within twelve skill families. Choose a pair by how the concept communicates. Read its blueprint for sequence and its profile for exact decision rules. Source calibration is observed; generalized timing windows and implementation choices are proposed and adaptable.
+Fifteen variants are maintained within thirteen skill families. The original fourteen reference audits are supplemented by a separately labeled workspace synthesis for AI UGC greenscreen. Choose a pair by how the concept communicates. Read its blueprint for sequence and its profile for exact decision rules. Source calibration is observed; generalized timing windows and implementation choices are proposed and adaptable.
 
 | Concept variant | Blueprint | Editing profile | Source |
 |---|---|---|---|
@@ -18,6 +18,7 @@ Fourteen variants are maintained within twelve skill families. Choose a pair by 
 | Fashion worldbuilding still montage | [Beat sequence](../../concept-fashion-mood-montage/references/fashion-world-montage-blueprint.md) | [Detailed rules](../../concept-fashion-mood-montage/references/fashion-world-montage-editing-profile.md) | [R12](../../../research/R12/analysis.md) |
 | Kinetic product-detail still sequence | [Beat sequence](../../concept-kinetic-product-details/references/kinetic-product-detail-sequence-blueprint.md) | [Detailed rules](../../concept-kinetic-product-details/references/kinetic-product-detail-sequence-editing-profile.md) | [R13](../../../research/R13/analysis.md) |
 | Concise product-and-value voiceover | [Beat sequence](../../concept-product-voiceover/references/voiceover-concise-value-blueprint.md) | [Detailed rules](../../concept-product-voiceover/references/voiceover-concise-value-editing-profile.md) | [R14](../../../research/R14/analysis.md) |
+| AI UGC greenscreen product story | [Beat sequence](../../concept-ai-ugc-greenscreen/references/ai-ugc-greenscreen-story-blueprint.md) | [Detailed rules](../../concept-ai-ugc-greenscreen/references/ai-ugc-greenscreen-story-editing-profile.md) | [W01](../../../research/W01/analysis.md) |
 
 ## Compare the editing treatments
 
@@ -39,6 +40,7 @@ These are generalized target defaults informed by the sources, not mandatory sou
 | Urban fashion film | Useful step/turn, detail reveal or musical phrase | Editorial looks, accessories, portraits and city context | Direct cuts with occasional directional pan punctuation |
 | Fashion mood montage | A new meaningful material/color/life association | Distinct fashion, still life, interiors and human moments | Still holds and clean cuts; no obligatory camera animation |
 | Kinetic product details | New feature/physical angle; resolve macros into the whole | Accurate distinct stills of shape, texture, interior and hardware | Rapid hard replacement; avoid copied repeat cycles |
+| AI UGC greenscreen story | Exact thought/detail/action; preserve guide and final voice alignment | Persistent corner guide over distinct outfit, product, detail and authentic destination scenes | Direct background cuts, deliberate corner/visibility events, synchronized dead-air removal |
 
 ## What each pair specifies
 
@@ -54,4 +56,4 @@ These are generalized target defaults informed by the sources, not mandatory sou
 
 Read the [application contract](profile-contract.md). Map exact approved words/actions into the [target editing-plan template](../assets/concept-editing-plan-template.md), choose actual assets and align final voice before locking cuts. Production still follows the [current production contract](production-contract.md). A reference may require no separate B-roll; do not cover meaningful primary action simply to satisfy a ratio.
 
-Maintained definitions: [profiles.json](profiles.json). They generate these 28 documents through [render_profiles.py](../scripts/render_profiles.py). No production or editor operation is implied by documentation generation.
+Maintained definitions: [profiles.json](profiles.json). They generate these 30 documents through [render_profiles.py](../scripts/render_profiles.py). No production or editor operation is implied by documentation generation.

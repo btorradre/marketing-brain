@@ -1,6 +1,6 @@
 # Creative blueprints and editing profiles
 
-Canonical engine library: **12 concept families, 14 variants, 28 blueprint/profile documents and 13 callable skills**. Each variant covers scripting structure, visual-to-line relationships, cuts, transitions, B-roll placement and style, movement, captions, sound, pacing and endings. The definitions include 86 beat slots and 40 style specifications across the variants.
+Canonical engine library: **13 concept families, 15 variants, 30 blueprint/profile documents and 14 callable skills**. Each variant covers scripting structure, visual-to-line relationships, cuts, transitions, B-roll placement and style, movement, captions, sound, pacing and endings. The definitions include 96 beat slots and 48 style specifications across the variants.
 
 Start with the [creative diversity router](skills/creative-diversity-router/SKILL.md) or the [comparison catalog](skills/creative-diversity-router/references/blueprint-catalog.md). Use the [manifest](manifest.json) for stable IDs and relative file paths. This whole folder can be copied into another harness without the surrounding vault.
 
@@ -21,7 +21,7 @@ Give an agent this instruction:
 
 > Read `_engine/creative-blueprints/README.md` and its router. Select the concept by communication job and visual treatment. Load the chosen profile with `blueprints.py context PROFILE_ID`, inspect its linked evidence, and map the approved target script to its blueprint and editing rules. Save a concrete editing plan before production. Keep observed evidence and proposed direction separate.
 
-If the harness discovers skills through a directory, register all 13 with:
+If the harness discovers skills through a directory, register all 14 with:
 
 ```sh
 python3 _engine/creative-blueprints/blueprints.py install --skills-dir /path/to/harness/skills
@@ -58,8 +58,11 @@ The retained study JPEGs are ordinary Git files scoped by this folder's `.gitatt
 | `urban-collection-film` | [Urban fashion collection film](skills/concept-urban-fashion-film/references/urban-collection-film-blueprint.md) | [Profile](skills/concept-urban-fashion-film/references/urban-collection-film-editing-profile.md) | [R10](research/R10/analysis.md) |
 | `fashion-world-montage` | [Fashion worldbuilding still montage](skills/concept-fashion-mood-montage/references/fashion-world-montage-blueprint.md) | [Profile](skills/concept-fashion-mood-montage/references/fashion-world-montage-editing-profile.md) | [R12](research/R12/analysis.md) |
 | `kinetic-product-detail-sequence` | [Kinetic product-detail still sequence](skills/concept-kinetic-product-details/references/kinetic-product-detail-sequence-blueprint.md) | [Profile](skills/concept-kinetic-product-details/references/kinetic-product-detail-sequence-editing-profile.md) | [R13](research/R13/analysis.md) |
+| `ai-ugc-greenscreen-story` | [AI UGC greenscreen product story](skills/concept-ai-ugc-greenscreen/references/ai-ugc-greenscreen-story-blueprint.md) | [Profile](skills/concept-ai-ugc-greenscreen/references/ai-ugc-greenscreen-story-editing-profile.md) | [W01](research/W01/analysis.md) |
 
 ## Evidence and production scope
+
+The added [AI UGC greenscreen family](skills/concept-ai-ugc-greenscreen/SKILL.md) captures the Nuamore-style corner guide, Eleanor travel and Vivienne quiet-luxury work, including exact voice, reveal and pacing corrections. Its workspace evidence is separately labeled W01. Load it with `python3 _engine/creative-blueprints/blueprints.py context ai-ugc-greenscreen-story`.
 
 The [14-reference study index](research/INDEX.md) links each source, analysis and retained evidence. All 21,504 decoded frames were inspected at thumbnail scale, with selected enlarged checks. Audio observations are model-assisted, not directly auditioned; exact sound/word alignment and R04's spoken/sung boundaries remain unresolved. Source tools, AI origin, rights and performance are generally unknown. Proposed dwell ranges are adaptable editorial direction, not recovered project settings or validated optimums.
 
@@ -74,4 +77,4 @@ python3 _engine/creative-blueprints/skills/creative-diversity-router/scripts/ren
 python3 _engine/creative-blueprints/blueprints.py validate
 ```
 
-The renderer maintains all 28 paired documents. Update the manifest if IDs, titles, families or source paths change. Validation checks relative links, recorded source coverage and generated-document consistency; it does not rewatch videos, certify audio or measure creative performance. Preserve analysis provenance and limitations when adapting this package.
+The renderer maintains all 30 paired documents. Update the manifest if IDs, titles, families or source paths change. Validation checks relative links, recorded source coverage and generated-document consistency; it does not rewatch videos, certify audio or measure creative performance. Preserve analysis provenance and limitations when adapting this package.

@@ -1,6 +1,6 @@
 # Creative blueprint library
 
-Start with [README.md](README.md), then the [router](skills/creative-diversity-router/SKILL.md). This folder is the canonical, portable home of the 12 concept-family skills and their 14 blueprint/editing-profile pairs.
+Start with [README.md](README.md), then the [router](skills/creative-diversity-router/SKILL.md). This folder is the canonical, portable home of the 13 concept-family skills and their 15 blueprint/editing-profile pairs.
 
 - For a concrete concept, load its skill, blueprint, editing profile, source audit and both shared contracts. `python3 blueprints.py context PROFILE_ID` prints this reading packet. The files remain ordinary Markdown for harnesses that do not run Python.
 - Keep the differences between concepts. Choose by communication job, speaker relationship, visual treatment and pacing; do not impose a common B-roll ratio or cutting rate.

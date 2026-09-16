@@ -1,11 +1,11 @@
 ---
 name: creative-diversity-router
-description: Select genuinely different ad concept formats and route to specialist scripting, visual and editing skills. Use for creative diversity, reference-led concept development, or choosing among AI greenscreen, podcast-style ads, branded films, interviews, animated stories, product voiceover and fashion montages. Based on the September 16 study of 14 Instagram references.
+description: Select genuinely different ad concept formats and route to specialist scripting, visual and editing skills. Use for creative diversity, reference-led concept development, or choosing among AI greenscreen, podcast-style ads, branded films, interviews, animated stories, product voiceover and fashion montages. Based on the September 16 study of 14 Instagram references and the documented AI UGC greenscreen work.
 ---
 
 # Creative diversity router
 
-Read [production contract](references/production-contract.md) before applying a family. For source evidence and study limits, read the [14-reference study](../../research/INDEX.md). Source names describe observable formats; AI provenance is generally unknown.
+Read [production contract](references/production-contract.md) before applying a family. For source evidence and study limits, read the [14-reference study](../../research/INDEX.md). Source names describe observable formats; AI provenance is generally unknown for the external references; W01 separately attributes provider choices from workspace receipts.
 
 ## Choose by the communication job
 
@@ -23,10 +23,11 @@ Read [production contract](references/production-contract.md) before applying a 
 | Imagine wearing a collection in a desirable setting | [Urban fashion film](../concept-urban-fashion-film/SKILL.md) | R10 |
 | Enter a coherent world of taste through images | [Fashion mood montage](../concept-fashion-mood-montage/SKILL.md) | R12 |
 | Notice one product's form, texture and construction rapidly | [Kinetic product details](../concept-kinetic-product-details/SKILL.md) | R13 |
+| Follow a corner creator through product discovery, styling or a fashion opinion | [AI UGC greenscreen story](../concept-ai-ugc-greenscreen/SKILL.md) | W01; Nuamore lineage, Eleanor and Vivienne workspace evidence |
 
 ## Detailed concept blueprints and editing profiles
 
-Use the [14-variant catalog](references/blueprint-catalog.md) to select the exact blueprint/profile pair. Personal interview and event roundup have separate profiles; creator endorsement and concise value voiceover also remain distinct. Each pair includes beat-level placement/entry/exit cues and explicit rules for cuts, transitions, B-roll style, camera, captions, sound, ending and duration adaptation. Read the [application contract](references/profile-contract.md), then use the [target editing-plan template](assets/concept-editing-plan-template.md) when a concrete plan is requested.
+Use the [15-variant catalog](references/blueprint-catalog.md) to select the exact blueprint/profile pair. Personal interview and event roundup have separate profiles; creator endorsement and concise value voiceover also remain distinct. Each pair includes beat-level placement/entry/exit cues and explicit rules for cuts, transitions, B-roll style, camera, captions, sound, ending and duration adaptation. Read the [application contract](references/profile-contract.md), then use the [target editing-plan template](assets/concept-editing-plan-template.md) when a concrete plan is requested.
 
 The maintained structured definitions are [profiles.json](references/profiles.json). After changing them, run `python3 scripts/render_profiles.py` from this skill directory, then `python3 scripts/render_profiles.py --check`. Generated references are kept in the relevant specialist skill; do not edit them independently of their definitions. This renderer only writes documentation and does not operate a video editor.
 
